@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35282775",
+  "title": "Computational models for studying physical instabilities in high concentration biotherapeutic formulations.",
+  "authors": "Blanco, Marco A",
+  "journal": "mAbs",
+  "published_date": "2022-03-15",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 5,
+  "one_liner_zh": "综述高浓度生物制剂中蛋白质溶液物理不稳定性的计算模型（全原子/粗粒化/宏观），涵盖相分离与聚集，但对象为折叠蛋白而非IDP，且未聚焦PPI机制建模，仅部分方法可迁移。",
+  "abstract": "Computational prediction of the behavior of concentrated protein solutions is particularly advantageous in early development stages of biotherapeutics when material availability is limited and a large set of formulation conditions needs to be explored. This review provides an overview of the different computational paradigms that have been successfully used in modeling undesirable physical behaviors of protein solutions with a particular emphasis on high-concentration drug formulations. This includes models ranging from all-atom simulations, coarse-grained representations to macro-scale mathematical descriptions used to study physical instability phenomena of protein solutions such as aggregation, elevated viscosity, and phase separation. These models are compared and summarized in the context of the physical processes and their underlying assumptions and limitations. A detailed analysis is also given for identifying protein interaction processes that are explicitly or implicitly considered in the different modeling approaches and particularly their relations to various formulation parameters. Lastly, many of the shortcomings of existing computational models are discussed, providing perspectives and possible directions toward an efficient computational framework for designing effective protein formulations.",
+  "abstract_zh": "计算预测浓缩蛋白质溶液的行为，在生物治疗药物早期开发阶段尤为有利，此时材料供应有限，且需探索大量配方条件。本综述概述了已成功用于模拟蛋白质溶液不良物理行为的不同计算范式，特别关注高浓度药物制剂。这包括从全原子模拟、粗粒化表示到宏观尺度数学描述的模型，用于研究蛋白质溶液的物理不稳定现象，如聚集、高粘度和相分离。这些模型在物理过程及其基本假设和局限性的背景下进行了比较和总结。还详细分析了不同建模方法中明确或隐含考虑的蛋白质相互作用过程，特别是它们与各种配方参数的关系。最后，讨论了现有计算模型的诸多不足，为设计有效蛋白质制剂的高效计算框架提供了视角和可能方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35282775/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35282775/",
+  "paper_page_path": "papers/pubmed/35282775/index.html"
+}

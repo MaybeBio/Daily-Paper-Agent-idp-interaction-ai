@@ -1,0 +1,234 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.11.589058",
+  "title": "A defining member of the new cysteine-cradle family is an aECM protein signalling skin damage in C. elegans",
+  "doi": "10.1101/2024.04.11.589058",
+  "abstract": "Apical extracellular matrices (aECMs) act as crucial barriers, and communicate with the epidermis to trigger protective responses following injury or infection. In Caenorhabditis elegans, the skin aECM, the cuticle, is produced by the epidermis and decorated with circumferential furrows. We previously showed that mutants lacking cuticle furrows exhibit persistent immune activation (PIA). In a genetic suppressor screen, we identified spia-1 as a key gene downstream of furrow collagens and upstream of immune signalling. spia-1 expression oscillates during larval development, peaking between each moult together with patterning cuticular components. It encodes a secreted protein that localises to furrows. SPIA-1 shares a novel cysteine-cradle domain with other aECM proteins. SPIA-1 mediates immune activation in response to furrow loss and is proposed to act as a sensor of cuticle damage. This research provides the first molecular insight into an intricate interplay between cuticle integrity and epidermal immune activation in C. elegans.",
+  "authors": [
+    "Sonntag T",
+    "Omi S",
+    "Andreeva A",
+    "Eichelbrenner J",
+    "Chisholm AD",
+    "Ward JD",
+    "Pujol N"
+  ],
+  "published_date": "2024-04-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.11.589058",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.11.589058.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR836662",
+    "raw_record": {
+      "id": "PPR836662",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR836662"
+        ]
+      },
+      "doi": "10.1101/2024.04.11.589058",
+      "title": "A defining member of the new cysteine-cradle family is an aECM protein signalling skin damage in  <i>C. elegans</i>",
+      "authorString": "Sonntag T, Omi S, Andreeva A, Eichelbrenner J, Chisholm AD, Ward JD, Pujol N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sonntag T",
+            "lastName": "Sonntag",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Univ, INSERM, CNRS, CIML, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Omi S",
+            "lastName": "Omi",
+            "firstName": "Shizue",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2711-2016"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Univ, INSERM, CNRS, CIML, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andreeva A",
+            "lastName": "Andreeva",
+            "firstName": "Antonina",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eichelbrenner J",
+            "lastName": "Eichelbrenner",
+            "firstName": "Jeanne",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8889-3197"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aix Marseille Univ, INSERM, CNRS, CIML, Turing Centre for Living Systems, Marseille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chisholm AD",
+            "lastName": "Chisholm",
+            "firstName": "Andrew",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5091-0537"
+            }
+          },
+          {
+            "fullName": "Ward JD",
+            "lastName": "Ward",
+            "firstName": "Jordan",
+            "initials": "JD"
+          },
+          {
+            "fullName": "Pujol N",
+            "lastName": "Pujol",
+            "firstName": "Nathalie",
+            "initials": "N"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5091-0537"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8889-3197"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2711-2016"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Apical extracellular matrices (aECMs) act as crucial barriers, and communicate with the epidermis to trigger protective responses following injury or infection. In Caenorhabditis elegans, the skin aECM, the cuticle, is produced by the epidermis and decorated with circumferential furrows. We previously showed that mutants lacking cuticle furrows exhibit persistent immune activation (PIA). In a genetic suppressor screen, we identified spia-1 as a key gene downstream of furrow collagens and upstream of immune signalling. spia-1 expression oscillates during larval development, peaking between each moult together with patterning cuticular components. It encodes a secreted protein that localises to furrows. SPIA-1 shares a novel cysteine-cradle domain with other aECM proteins. SPIA-1 mediates immune activation in response to furrow loss and is proposed to act as a sensor of cuticle damage. This research provides the first molecular insight into an intricate interplay between cuticle integrity and epidermal immune activation in  C. elegans.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/12/2024.04.11.589058.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.11.589058"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR836662"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR836662&type=FILE&fileName=EMS195371-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40112269",
+            "reference": "PLoS genetics. 2025 Mar;21(3):e1011593",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195371",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-04-14",
+      "firstPublicationDate": "2024-04-12",
+      "firstIndexDate": "2024-04-14",
+      "fullTextReceivedDate": "2024-06-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

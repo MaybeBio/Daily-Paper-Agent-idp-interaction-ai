@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36929465",
+  "title": "Intrinsic disorder in the open reading frame 2 of hepatitis E virus: a protein with multiple functions beyond viral capsid.",
+  "authors": "Shafat, Zoya; Ahmed, Anwar; Parvez, Mohammad K; Parveen, Shama",
+  "journal": "Journal, genetic engineering & biotechnology",
+  "published_date": "2023-03-18",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文预测戊肝病毒ORF2蛋白的无序区域及MoRF结合位点，涉及IDP与互作预测，但仅用在线预测工具、无AI/物理模拟方法，且未深入机制建模。",
+  "abstract": "BACKGROUND: Hepatitis E virus (HEV) is the cause of a liver disease hepatitis E. The translation product of HEV ORF2 has recently been demonstrated as a protein involved in multiple functions besides performing its major role of a viral capsid. As intrinsically disordered regions (IDRs) are linked to various essential roles in the virus's life cycle, we analyzed the disorder pattern distribution of the retrieved ORF2 protein sequences by employing different online predictors. Our findings might provide some clues on the disorder-based functions of ORF2 protein that possibly help us in understanding its behavior other than as a HEV capsid protein. RESULTS: The modeled three dimensional (3D) structures of ORF2 showed the predominance of random coils or unstructured regions in addition to major secondary structure components (alpha helix and beta strand). After initial scrutinization, the predictors VLXT and VSL2 predicted ORF2 as a highly disordered protein while the predictors VL3 and DISOPRED3 predicted ORF2 as a moderately disordered protein, thus categorizing HEV-ORF2 into IDP (intrinsically disordered protein) or IDPR (intrinsically disordered protein region) respectively. Thus, our initial predicted disorderness in ORF2 protein 3D structures was in excellent agreement with their predicted disorder distribution patterns (evaluated through different predictors). The abundance of MoRFs (disorder-based protein binding sites) in ORF2 was observed that signified their interaction with binding partners which might further assist in viral infection. As IDPs/IDPRs are targets of regulation, we carried out the phosphorylation analysis to reveal the presence of post-translationally modified sites. Prevalence of several disordered-based phosphorylation sites further signified the involvement of ORF2 in diverse and significant biological processes. Furthermore, ORF2 structure-associated functions revealed its involvement in several crucial functions and biological processes like binding and catalytic activities. CONCLUSIONS: The results predicted ORF2 as a protein with multiple functions besides its role as a capsid protein. Moreover, the occurrence of IDPR/IDP in ORF2 protein suggests that its disordered region might serve as novel drug targets via functioning as potential interacting domains. Our data collectively might provide significant implication in HEV vaccine search as disorderness in viral proteins is related to mechanisms involved in immune evasion.",
+  "abstract_zh": "背景：戊型肝炎病毒（HEV）是导致肝脏疾病戊型肝炎的病原体。近期研究表明，HEV ORF2的翻译产物除了主要作为病毒衣壳蛋白外，还是一种参与多种功能的蛋白质。由于固有无序区域（IDRs）与病毒生命周期中的多种关键作用相关，我们利用不同的在线预测工具分析了所获取的ORF2蛋白序列的无序模式分布。我们的发现可能为基于无序性的ORF2蛋白功能提供线索，有助于理解其除作为HEV衣壳蛋白之外的行为。结果：建模的ORF2三维（3D）结构显示，除了主要二级结构组分（α螺旋和β折叠）外，随机卷曲或无序区域占主导地位。经过初步审查，预测工具VLXT和VSL2将ORF2预测为高度无序蛋白，而预测工具VL3和DISOPRED3将ORF2预测为中度无序蛋白，从而分别将HEV-ORF2归类为固有无序蛋白（IDP）或固有无序蛋白区域（IDPR）。因此，我们初步预测的ORF2蛋白3D结构中的无序性与通过不同预测工具评估的无序分布模式高度一致。观察到ORF2中富含MoRFs（基于无序性的蛋白结合位点），这表明它们与结合伙伴的相互作用可能进一步促进病毒感染。由于IDPs/IDPRs是调控的靶标，我们进行了磷酸化分析以揭示翻译后修饰位点的存在。多个基于无序性的磷酸化位点的普遍存在进一步表明ORF2参与多种重要的生物过程。此外，与ORF2结构相关的功能揭示其参与多种关键功能和生物过程，如结合和催化活性。结论：结果预测ORF2是一种除衣壳蛋白角色外具有多种功能的蛋白质。此外，ORF2蛋白中IDPR/IDP的存在提示其无序区域可能通过作为潜在相互作用域而成为新型药物靶点。我们的数据整体上可能对HEV疫苗研究具有重要意义，因为病毒蛋白的无序性与免疫逃逸机制相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36929465/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36929465/",
+  "paper_page_path": "papers/pubmed/36929465/index.html"
+}

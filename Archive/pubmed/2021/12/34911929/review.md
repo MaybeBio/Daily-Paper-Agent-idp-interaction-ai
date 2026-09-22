@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, figure legends, and supplementary information descriptions.
+- **Assessment boundary** Scientific and technical evaluation of the Capflow method as presented, including its validation, data interpretation, and claims of general applicability. Editorial and stylistic aspects are considered only insofar as they affect clarity and reproducibility.
+- **Shared manuscript claim summary** The authors present a capillary flow-based method (Capflow) for quantitative characterization of protein liquid-liquid phase separation (LLPS), enabling measurement of dilute phase concentration, droplet size distributions, and kinetics of droplet formation and maturation into amyloid fibrils. The method is applied to three systems: Ddx4n1, RP3 peptide/ssDNA coacervates, and α-synuclein. The authors also demonstrate measurement of binding affinities between LLPS proteins and ligands using the same platform.
+- **Visible evidence base** Main text figures 1-6, supplementary figures 1-13, supplementary tables 1, supplementary movies 1-3, methods section, and figure legends.
+- **Missing materials affecting confidence** Raw data files, detailed statistical analysis of replicate variability, complete information on the number of independent experiments for each measurement, and the full source data file referenced but not provided in the manuscript text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful technical advance in the quantitative study of protein LLPS. The Capflow method offers a relatively simple, commercially available platform for measuring multiple LLPS parameters with low sample consumption and moderate throughput. The application to three distinct systems demonstrates versatility. However, several technical concerns regarding the interpretation of peak intensity distributions as droplet size distributions, the quantitative accuracy of dilute phase concentration measurements, and the kinetic analysis require clarification and additional validation before the method can be considered fully established. The binding affinity measurements, while interesting, are presented with limited validation against orthogonal methods.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in quantitative characterization of LLPS thermodynamics and kinetics. The method could be useful for screening LLPS-modulating compounds, studying the effects of mutations or post-translational modifications on phase behavior, and investigating the relationship between LLPS and amyloid aggregation. The low sample consumption and moderate throughput may appeal to both academic and industrial laboratories.
+- **Major strengths** 1) The method addresses a genuine need for accessible, quantitative LLPS characterization tools. 2) The demonstration across three different protein systems (Ddx4n1, RP3/ssDNA, α-synuclein) shows versatility. 3) The simultaneous monitoring of LLPS and amyloid formation in α-synuclein is a notable advance. 4) The use of a commercially available instrument enhances accessibility. 5) The authors provide detailed methods and make analysis scripts available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of droplet size distribution interpretation
+  - **Claim pointer** The authors claim that "the peak intensity distribution could reflect the overall droplet size distribution" and use this to derive relative droplet size distributions from Capflow data.
+  - **Evidence pointer** Figure 1g, Figure 1i, Supplementary Figures 6-7, Supplementary Table 1
+  - **Concern** The relationship between peak intensity and droplet size is not rigorously established. The authors compare Capflow peak intensity distributions with confocal microscopy measurements for Ddx4n1, but the comparison is qualitative. The calibration with polystyrene beads (Figure 1i) shows that 1 µm beads yield a narrow distribution while 6 µm beads yield a broader distribution, but this does not establish a quantitative relationship between peak intensity and droplet volume. The authors acknowledge that droplets spend different times in the detection volume depending on their radial position in the capillary, but the correction for this effect is not described in sufficient detail. Furthermore, the assumption that peak intensity scales with droplet volume requires that the fluorophore concentration is uniform across droplets of different sizes, which may not hold if there is size-dependent partitioning or if larger droplets have different internal concentrations due to Ostwald ripening or coalescence.
+  - **Why it matters** The droplet size distribution is a key output of the method. If the relationship between peak intensity and droplet size is not quantitatively established, then all size distribution comparisons across conditions or time points are potentially unreliable. This affects the kinetic analyses (Figure 3) and the interpretation of how additives (Ca2+, PEG, ssDNA) affect droplet properties.
+  - **Resolution test** The authors should provide a quantitative calibration curve relating peak intensity to independently measured droplet size (e.g., from microscopy) across a range of sizes. This could be done using size-selected droplets or by comparing the full size distribution from Capflow with that from microscopy for the same sample. Additionally, the authors should address whether the peak intensity distribution is affected by droplet deformation in flow, which they acknowledge as a possibility but do not experimentally evaluate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative accuracy of dilute phase concentration measurements
+  - **Claim pointer** The authors claim that Capflow allows "rapid and accurate quantification" of dilute phase concentration, and use this to determine critical concentrations and the effects of additives on LLPS.
+  - **Evidence pointer** Figure 1b-d, Figure 2a-b, Figure 5g-h, Supplementary Figures 3, 5, 8, 13
+  - **Concern** The dilute phase concentration is determined from the baseline fluorescence intensity, which requires a standard curve calibration. However, the standard curve is generated using soluble protein that has not undergone LLPS. The authors do not address whether the fluorescence quantum yield of the labeled protein is identical in the dilute phase of a phase-separated sample compared to a purely soluble sample. If the local environment (e.g., ionic strength, presence of PEG, crowding) affects the fluorescence of the label, the calibration could be systematically biased. Additionally, the authors use a small fraction of labeled protein (0.4% for Ddx4n1, 0.5% for ssDNA, 0.025% for α-synuclein) and assume that the labeled and unlabeled proteins partition identically into the dense phase. This assumption is stated but not experimentally verified. If the label alters the partitioning behavior, the measured dilute phase concentrations would be incorrect.
+  - **Why it matters** The dilute phase concentration is a fundamental thermodynamic quantity in LLPS. Errors in this measurement would propagate to all derived quantities, including critical concentrations, the effects of additives, and the interpretation of the α-synuclein aggregation experiments. The claim of "accurate quantification" requires that these potential biases be addressed.
+  - **Resolution test** The authors should verify that the fluorescence quantum yield of the labeled protein is the same in the dilute phase of a phase-separated sample as in a soluble sample. This could be done by measuring the fluorescence of a known concentration of labeled protein in the presence and absence of dense phase droplets, or by comparing Capflow-derived dilute phase concentrations with an orthogonal method (e.g., centrifugation followed by absorbance or ELISA). The authors should also test whether the labeled protein partitions identically to the unlabeled protein, for example by varying the fraction of labeled protein and checking that the measured dilute phase concentration is invariant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Kinetic interpretation
+  - **Claim pointer** The authors claim that Capflow can "monitor initial droplet formation kinetics" and present data showing different lag times and growth rates for Ddx4n1 LLPS as a function of PEG concentration (Figure 3).
+  - **Evidence pointer** Figure 3, Methods section "Kinetic measurements"
+  - **Concern** The kinetic measurements are performed by injecting a sample from a warm reservoir (55°C) into a cold capillary (20°C). The time required for thermal equilibration of the sample within the capillary is not characterized. The authors state a dead time of ~8 seconds for the instrument, but this is the time for the solution front to reach the detector, not the time for the sample to reach thermal equilibrium. If thermal equilibration takes longer than the observed lag times (e.g., 30 seconds for 2% PEG), then the measured kinetics could be dominated by the cooling rate rather than by the intrinsic nucleation and growth kinetics of the droplets. Additionally, the authors do not address whether the flow itself affects nucleation, e.g., through shear-induced nucleation or by altering the local concentration near the capillary walls.
+  - **Why it matters** The kinetic data are presented as evidence that Capflow can resolve differences in droplet formation kinetics. If the measurements are confounded by thermal equilibration or flow effects, then the kinetic parameters extracted from these data are not reliable. This would undermine one of the claimed advantages of the method.
+  - **Resolution test** The authors should characterize the thermal equilibration time within the capillary under their experimental conditions, e.g., using a temperature-sensitive fluorescent dye. They should also test whether the observed kinetics are independent of flow rate, which would help rule out shear effects. If thermal equilibration is slow relative to the observed kinetics, the authors should either correct for this or restrict their kinetic claims to conditions where this is not a confounding factor.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Binding affinity measurements
+  - **Claim pointer** The authors claim that Capflow can determine "the affinity of the protein undergoing LLPS for various interaction partners" and present Kd values for Ddx4n1-ssDNA and RP3-ssDNA interactions.
+  - **Evidence pointer** Figure 2d, Figure 4c, Supplementary Figures 11, Methods section "Affinity and complex size determination"
+  - **Concern** The binding affinities are determined by measuring changes in hydrodynamic radius using Taylor dispersion analysis. The authors fit the data to 1:1 or 1:2 binding models, but the choice of model is not rigorously justified. For the Ddx4n1-ssDNA interaction, a 1:1 model is used, while for RP3-ssDNA, a 1:2 model is used. The authors state that the 1:2 model assumes full cooperativity and does not include the singly-bound species, which is a significant simplification. The authors do not provide statistical evidence (e.g., AIC or BIC comparison) that the chosen model is preferred over alternatives. Additionally, the measured hydrodynamic radius changes are small (from ~3.5 to 7 nm for Ddx4n1), and the relationship between hydrodynamic radius and binding stoichiometry is not straightforward, especially for a flexible, intrinsically disordered protein like Ddx4n1.
+  - **Why it matters** The binding affinity values are presented as quantitative outputs of the method. If the binding model is incorrect or the hydrodynamic radius changes are not reliably interpretable in terms of binding stoichiometry, then the reported Kd values may be inaccurate. This is particularly important because the authors use these values to support their interpretation of how ssDNA affects LLPS.
+  - **Resolution test** The authors should provide a more rigorous justification for the choice of binding model, including statistical comparison of different models. They should also validate the Kd values using an orthogonal method, such as isothermal titration calorimetry or fluorescence anisotropy, at least for one of the systems studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility and statistics
+  - **Affected element** Figures 1-6, figure legends
+  - **Evidence pointer** Figure legends throughout
+  - **Issue** The number of independent replicates for each measurement is not consistently reported. Some figures state n=2 or n=3, but it is not always clear whether these are technical or biological replicates, and error bars are not shown for all data points.
+  - **Required correction** The authors should clearly state the number of independent experiments for each measurement and show appropriate error bars or confidence intervals. If error bars are omitted for clarity, this should be stated explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Method validation
+  - **Affected element** Figure 1c, Supplementary Figure 3
+  - **Evidence pointer** Figure 1c, Supplementary Figure 3
+  - **Issue** The authors demonstrate that the baseline fluorescence decreases with increasing PEG concentration, but they do not compare their measured dilute phase concentrations with an independent method, such as centrifugation-based measurements, for any of the systems studied.
+  - **Required correction** A direct comparison with an orthogonal method for at least one system would strengthen the claim of quantitative accuracy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section "Automated peak and baseline analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the peak detection algorithm is somewhat vague. The threshold of 0.2 from the baseline is mentioned, but the criteria for distinguishing true peaks from noise are not fully described.
+  - **Required correction** The authors should provide a more detailed description of the peak detection algorithm, including how the threshold is applied and how peaks are distinguished from baseline fluctuations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that Capflow is "a valuable tool for characterizing biomolecular LLPS" but do not discuss potential limitations, such as the requirement for fluorescent labeling, the upper size limit of detectable droplets, or the applicability to systems with very high viscosity or turbidity.
+  - **Required correction** A brief discussion of the limitations and potential failure modes of the method would help readers assess its applicability to their own systems.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Not explicitly stated in the manuscript text
+  - **Issue** The authors state that "source data are provided as a Source Data file" but do not provide a data availability statement describing where the raw data and analysis scripts can be accessed.
+  - **Required correction** A formal data availability statement should be included, describing the availability of raw data, processed data, and analysis scripts.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (droplet size distribution calibration) and R1-M2 (dilute phase concentration validation) are the most critical. R1-M3 (kinetic interpretation) is also important, as the thermal equilibration issue could fundamentally confound the kinetic measurements. R1-M4 (binding affinity model selection) is significant but less critical, as the affinity measurements are presented as a secondary application.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The use of capillary flow with Taylor dispersion analysis for LLPS characterization is novel. While microfluidic approaches to LLPS have been reported, the specific combination of dilute phase concentration, droplet size distribution, and kinetic measurements in a single commercially available platform is a new contribution.
+  - **Scientific importance** Quantitative characterization of LLPS is of growing importance in understanding phase separation in biology and disease. The ability to measure multiple parameters in a relatively high-throughput manner could accelerate studies in this area. However, the importance is somewhat tempered by the fact that the method requires fluorescent labeling and the quantitative accuracy is not fully established.
+  - **Interdisciplinary readership** The method is likely to be of interest to biophysicists, biochemists, and cell biologists studying phase separation, as well as to researchers in the pharmaceutical industry interested in screening for LLPS modulators. The use of a commercially available instrument lowers the barrier for adoption.
+  - **Technical soundness** The core concept is sound, but several technical aspects require additional validation, as detailed in the major concerns. The lack of a quantitative calibration for droplet size and the potential thermal equilibration issue in kinetic measurements are the most significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The figures are clear and the logic is easy to follow. Some of the more technical aspects of the data analysis could be explained more clearly for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The method has clear potential value, but the quantitative claims require additional validation. Specifically, the authors should provide a quantitative calibration relating peak intensity to droplet size, validate dilute phase concentration measurements against an orthogonal method, and characterize the thermal equilibration time in the kinetic experiments. If these concerns are adequately addressed, the manuscript would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim that peak intensity distributions "closely reflect" droplet size distributions is not quantitatively supported.
+- The claim of "accurate quantification" of dilute phase concentration is not validated against an independent method.
+- The kinetic parameters derived from the time-dependent peak intensity data may be confounded by thermal equilibration effects.
+- The binding affinity values (Kd) are model-dependent and not validated against orthogonal methods.
+- The assumption that labeled and unlabeled proteins partition identically into the dense phase is stated but not experimentally verified.
+- The claim that Capflow can be "easily interfaced with automated fluid handling systems" is plausible but not demonstrated in the current work.

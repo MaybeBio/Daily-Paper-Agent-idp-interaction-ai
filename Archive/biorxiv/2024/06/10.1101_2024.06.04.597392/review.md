@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends) as provided on bioRxiv.
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and internal consistency of the claims as presented. No assessment of external reproducibility or unpublished data.
+- **Shared manuscript claim summary** The authors propose that distinct intrinsically disordered regions (IDRs) within the transcriptional coactivator CBP cooperate to regulate the properties of CBP condensates in the nucleus. They report that two C-terminal IDRs, IDR6 and IDR7, have opposing effects on condensate formation, that these effects depend on amino acid sequence patterning, and that this regulatory balance shapes CBP's response to lysine acetylation, its chromatin localisation, histone acetylation patterns, and gene expression.
+- **Visible evidence base** Immunofluorescence and live-cell imaging of endogenous CBP-Halo; lattice light-sheet microscopy; FRAP; OptoDroplet assays for isolated IDRs; deletion and point mutant analysis of full-length CBP-GFP; treatment with A-485 and TSA; ChIP-seq, CUT&RUN, and RNA-seq from inducible cell lines; bioinformatic sequence analysis (NARDINI+, localCIDER, PLAAC, AlphaFold2).
+- **Missing materials affecting confidence** No source data files, uncropped blots, or full statistical reporting (e.g., exact p-values, effect sizes, number of biological replicates for each quantification) are provided in the manuscript text. The GEO accession numbers are listed but data are not accessible for verification. Supplementary figures are referenced but not included in the provided material.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how multiple IDRs within a single large coactivator protein cooperate to regulate its function. The combination of imaging, biophysical assays, and genomics is ambitious and the central observation, that IDR6 and IDR7 have opposing effects on condensate properties, is potentially interesting. However, the manuscript as presented has several significant weaknesses. The causal link between condensate properties and downstream chromatin/histone acetylation changes is correlative rather than mechanistic. The interpretation of the A-485 and TSA experiments is complicated by the global nature of these treatments, and the authors acknowledge this but do not resolve it. The claim that IDR6 and IDR7 act as a "balance" is supported by deletion phenotypes, but the mechanistic basis for this balance, and how it is encoded by sequence, is not directly tested. The genomics data are presented at a descriptive level, and the link between specific genomic changes and the proposed condensate mechanism is not established. The manuscript would be strengthened by experiments that directly manipulate condensate properties (e.g., by targeting IDRs to specific loci) or that identify the molecular partners whose interactions are altered by IDR deletion.
+- **Who would be interested in the results, and why** Researchers studying transcriptional coactivators, particularly CBP/p300, will be interested in the functional dissection of its IDRs. The broader community studying biomolecular condensates and their role in gene regulation will be interested in the evidence that different IDRs within the same protein can have opposing regulatory effects. The work may also be of interest to those studying how post-translational modifications, particularly acetylation, interface with condensate biology.
+- **Major strengths** The study uses a complementary set of methods, from single-molecule FRAP to genome-wide sequencing, to characterise the role of IDRs. The focus on endogenous CBP via HaloTag knock-in is a strength, as is the use of inducible cell lines for the genomics experiments. The observation that IDR6 and IDR7 have opposing effects, and that IDR6 deletion hypersensitizes condensates to acetylation changes, is a clear and potentially novel finding. The use of sequence analysis tools (NARDINI+, localCIDER) to link sequence features to behaviour is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between condensate properties and downstream function
+  - **Claim pointer** The manuscript claims that IDR-mediated regulation of condensate properties directly shapes chromatin localisation, histone acetylation, and gene expression.
+  - **Evidence pointer** Results sections "CBP-IDRs regulate the number of CBP condensates", "CBP-IDRs affect gene expression", Figures 2, 4, 5, 6
+  - **Concern** The causal chain from altered condensate properties to altered chromatin binding and gene expression is not established. The authors show correlations: IDR deletions change condensate behaviour and also change ChIP-seq/CUT&RUN/RNA-seq patterns. However, they do not demonstrate that the changes in gene expression are a consequence of altered condensate properties per se, rather than, for example, altered interactions with specific transcription factors, altered enzymatic activity, or changes in protein stability. The in vitro HAT assay (Figure 4O) shows reduced activity for the deletion mutants, which could independently explain changes in histone acetylation without invoking condensates. The manuscript needs a more direct test of the model, such as an experiment where condensate formation is rescued or disrupted independently of IDR deletion.
+  - **Why it matters** The central thesis of the paper is that IDRs regulate function through condensate properties. Without a direct test of this link, the conclusions are overreaching and the alternative explanations are not excluded.
+  - **Resolution test** Provide evidence that the effects of IDR deletion on gene expression and histone acetylation are dependent on condensate formation. For example, could the authors use an optogenetic system to recruit CBP constructs to a specific locus and show that condensate formation is required for the observed changes in acetylation? Or could they use a chemical dimerizer to crosslink CBP constructs and show that this rescues the phenotype of IDR deletion?
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Interpretation of acetylation experiments
+  - **Claim pointer** The manuscript claims that IDR6 deletion hypersensitizes CBP condensates to changes in global acetylation, and that acetylation of CBP AL regulates condensate properties.
+  - **Evidence pointer** Results section "CBP-IDRs allow global lysine acetylation to shape CBP condensates", "Regulation of condensates by acetylation of CBP AL relies on CBP-IDR integrity", Figures 4, S4
+  - **Concern** The experiments using A-485 and TSA alter global acetylation levels, which will have widespread effects on chromatin structure, gene expression, and the acetylation of many proteins. The authors acknowledge this limitation but do not address it experimentally. The claim that IDR6 deletion "hypersensitizes" condensates to acetylation is based on comparing the response of different constructs to these global treatments, but the differential response could be due to indirect effects. For example, if IDR6 deletion changes the expression of a histone deacetylase or acetyltransferase, this would confound the interpretation. The KTG mutant experiments are more specific, but the interpretation is still complicated by the fact that lysine-to-glycine mutations could affect protein folding or interactions beyond just preventing acetylation.
+  - **Why it matters** The role of acetylation in regulating condensates is a key part of the proposed model. If the experiments are confounded by global effects, the specific role of CBP AL acetylation is not established.
+  - **Resolution test** Use a more targeted approach to manipulate acetylation. For example, could the authors use a CRISPR-based system to introduce specific acetylation-mimetic or acetylation-dead mutations at the endogenous locus? Or could they use an in vitro reconstituted system with purified components to directly test the effect of acetylation on condensate formation?
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic basis of opposing IDR functions
+  - **Claim pointer** The manuscript claims that IDR6 and IDR7 have opposing effects on condensate formation, and that this is due to differences in their amino acid sequence properties.
+  - **Evidence pointer** Results sections "IDRs in CBP have distinct abilities to form condensates", "Opposing properties of CBP-IDRs reflect their sequence characteristics", Figures 1, 3
+  - **Concern** The manuscript shows that IDR6 and IDR7 have different sequence properties and different effects on condensate formation. However, the mechanistic basis for these differences is not explored. The shuffle experiments show that sequence patterning matters for IDR6, but not for IDR7. The authors do not identify the specific sequence features (e.g., specific amino acid motifs, charge patterning, aromatic residues) that are responsible for the observed effects. The claim that IDR6 is "inhibitory" and IDR7 is "promoting" is based on deletion phenotypes, but the molecular interactions that mediate these effects are not identified.
+  - **Why it matters** The paper aims to understand how IDR sequence encodes function. Without identifying the specific sequence determinants, the conclusions remain descriptive.
+  - **Resolution test** Perform a more detailed mutagenesis analysis to identify the specific residues or motifs in IDR6 and IDR7 that are responsible for their effects. For example, could the authors make chimeric constructs swapping specific regions between IDR6 and IDR7? Or could they use a systematic alanine scan to identify critical residues?
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of imaging data
+  - **Claim pointer** The manuscript makes quantitative claims about the number, size, and intensity of condensates, and about FRAP recovery rates.
+  - **Evidence pointer** Results sections "CBP-IDRs regulate the number of CBP condensates", "CBP-IDRs regulate the size and intensity of CBP condensates", Figures 2, S2
+  - **Concern** The manuscript reports quantitative measurements of condensate number, size, and intensity, but the statistical analysis is not described in sufficient detail. It is unclear how many cells were analysed per condition, how many biological replicates were performed, and what statistical tests were used. The FRAP data are presented as recovery curves and rates, but the fitting procedure and the number of replicates are not described. The variability between cells is likely to be high, and the manuscript does not provide confidence intervals or effect sizes.
+  - **Why it matters** The conclusions rely heavily on these quantitative comparisons. Without proper statistical reporting, it is difficult to assess the robustness of the findings.
+  - **Resolution test** Provide a detailed description of the statistical methods, including the number of replicates, the statistical tests used, and the effect sizes. Consider providing the raw data as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure labels
+  - **Affected element** Figures 2, 4, 5
+  - **Evidence pointer** Figure legends
+  - **Issue** The figure legends do not clearly state the number of biological replicates for each experiment. For example, in Figure 2, it is unclear how many independent transfections were performed.
+  - **Required correction** Add a statement to each figure legend specifying the number of biological replicates and the number of cells analysed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout the text
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "CBP-IDRs", "IDR6", "IDR7", "CBP CFID", and "CBP AL" are used, but the relationship between these terms is not always clear. For example, it is stated that CBP CFID comprises IDR6 and IDR7, but the exact boundaries of these regions are not defined in the text.
+  - **Required correction** Provide a clear definition of the boundaries of each IDR and a schematic diagram in the main figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting of sequencing data
+  - **Affected element** Methods, Results
+  - **Evidence pointer** "CBP-IDRs affect gene expression" section
+  - **Issue** The RNA-seq analysis is based on only two biological replicates. This is a low number for differential expression analysis and may lead to unreliable results.
+  - **Required correction** Acknowledge this limitation in the text and consider validating key findings with an independent method such as RT-qPCR.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion focuses on the condensate model but does not adequately discuss alternative explanations for the observed effects, such as changes in protein stability, altered interactions with chromatin remodelers, or direct effects on the HAT domain.
+  - **Required correction** Add a paragraph to the Discussion that explicitly addresses alternative models and explains why the condensate model is preferred.
+- **Technical failings that need to be addressed before the case is established** The lack of a direct test of the causal link between condensate properties and downstream function (R1-M1) is the primary technical failing. The confounding effects of global acetylation changes (R1-M2) also need to be addressed. The insufficient statistical reporting for imaging data (R1-M4) is a secondary but important issue.
+- **Assessment against Nature-style criteria** **Originality:** The idea that different IDRs within the same protein can have opposing regulatory effects on condensates is a novel and interesting contribution. **Scientific importance:** The work addresses a fundamental question in the field of transcriptional regulation and condensate biology. If the causal link is established, it would be of high importance. **Interdisciplinary readership:** The topic is of interest to cell biologists, biochemists, and biophysicists. The use of genomics may also attract the attention of those in the gene regulation field. **Technical soundness:** The methods are generally appropriate, but the lack of a direct causal test and the confounding factors in the acetylation experiments are significant weaknesses. **Readability for nonspecialists:** The manuscript is generally well-written and the concepts are explained clearly, but the complexity of the experimental design may be challenging for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially interesting observation, but the central claim that IDRs regulate function through condensate properties is not directly supported. The authors need to provide a more direct test of the causal link and address the confounding factors in the acetylation experiments.
+
+## Risk / unsupported claims
+- The claim that IDR6 and IDR7 act as a "balance" to regulate condensate properties is supported by deletion phenotypes, but the mechanistic basis for this balance is not established.
+- The claim that IDR6 deletion "hypersensitizes" condensates to changes in global acetylation is based on experiments with global inhibitors and is confounded by potential indirect effects.
+- The claim that changes in condensate properties directly cause changes in chromatin localisation and histone acetylation is correlative and not causally demonstrated.
+- The claim that the discrepancy between in vitro HAT activity and in vivo histone acetylation is explained by condensate-mediated changes in chromatin contacts is speculative and not directly tested.
+- The RNA-seq analysis is based on only two biological replicates, which is insufficient for robust differential expression analysis.

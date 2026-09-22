@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "40937533",
+    "doi": "10.1002/smll.202506397",
+    "title": "Intrinsic Disordered Network in Multiferroic YMnO(3) Single Crystals for In-Materio Physical Reservoir Computing Through Tuneable Domain-Wall Structure."
+  },
+  "content": {
+    "abstract": "Physical reservoir computing (PRC) is an innovative computational paradigm that leverages intrinsic nonlinearity of physical systems to efficiently perform complex tasks. It is discovered that the intrinsically disordered domain structure in multiferroic YMnO(3) provides significant nonlinearity, making it a promising candidate for robust PRC with tuneability and functionality at high temperatures. This work explores the potential of YMnO(3) single crystals for PRC. PRC performance of YMnO(3) is systematically evaluated by analysing its nonlinear responses, phase shifts, and high dimensionality through benchmark tasks such as waveform generation (WG), memory capacity (MC), and second-order nonlinear autoregressive moving average (NARMA2) time-series prediction. This results demonstrate that YMnO(3) single crystals exhibit superior performance in these tasks, achieving high accuracy and low power consumption ( approximately 1.77 microW and  approximately 0.02 nW/domain). These crystals also performed well in practical application of low-power speech recognition. These findings establish YMnO(3) as a viable platform for next-generation PRC technologies, addressing critical challenges in the field.",
+    "keywords": [
+      "YMnO3",
+      "domain structure",
+      "in-materio reservoir computing",
+      "physical reservoir computing",
+      "yttrium manganese oxide"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Muzhen",
+        "Furuta, Kyoka",
+        "Karacali, Ahmet",
+        "Umezaki, Yuki",
+        "Kamarol Zaman, Alif Syafiq",
+        "Usami, Yuki",
+        "Tanaka, Hirofumi",
+        "Horibe, Yoichi"
+      ],
+      "short_names": [
+        "Xu M",
+        "Furuta K",
+        "Karacali A",
+        "Umezaki Y",
+        "Kamarol Zaman AS",
+        "Usami Y",
+        "Tanaka H",
+        "Horibe Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-9829-1601",
+        "ORCID: 0009-0004-4466-3866",
+        "ORCID: 0009-0000-4695-2814",
+        "ORCID: 0009-0001-1431-8816",
+        "ORCID: 0000-0001-7121-8136",
+        "ORCID: 0000-0002-8583-325X",
+        "ORCID: 0000-0002-4378-5747",
+        "ORCID: 0000-0002-5093-8051"
+      ],
+      "affiliations": [
+        "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan.",
+        "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan.",
+        "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+        "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Muzhen",
+        "short_name": "Xu M",
+        "identifiers": [
+          "0009-0006-9829-1601"
+        ],
+        "affiliations": [
+          "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan."
+        ]
+      },
+      {
+        "full_name": "Furuta, Kyoka",
+        "short_name": "Furuta K",
+        "identifiers": [
+          "0009-0004-4466-3866"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Karacali, Ahmet",
+        "short_name": "Karacali A",
+        "identifiers": [
+          "0009-0000-4695-2814"
+        ],
+        "affiliations": [
+          "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan."
+        ]
+      },
+      {
+        "full_name": "Umezaki, Yuki",
+        "short_name": "Umezaki Y",
+        "identifiers": [
+          "0009-0001-1431-8816"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Kamarol Zaman, Alif Syafiq",
+        "short_name": "Kamarol Zaman AS",
+        "identifiers": [
+          "0000-0001-7121-8136"
+        ],
+        "affiliations": [
+          "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan."
+        ]
+      },
+      {
+        "full_name": "Usami, Yuki",
+        "short_name": "Usami Y",
+        "identifiers": [
+          "0000-0002-8583-325X"
+        ],
+        "affiliations": [
+          "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+          "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Hirofumi",
+        "short_name": "Tanaka H",
+        "identifiers": [
+          "0000-0002-4378-5747"
+        ],
+        "affiliations": [
+          "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+          "Department of Human Intelligence Systems, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan."
+        ]
+      },
+      {
+        "full_name": "Horibe, Yoichi",
+        "short_name": "Horibe Y",
+        "identifiers": [
+          "0000-0002-5093-8051"
+        ],
+        "affiliations": [
+          "Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology, 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan.",
+          "Department of Materials Science and Engineering, Kyushu Institute of Technology, 1-1 Sensui, Tobata, Kitakyushu, 804-8550, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/12 06:29",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39745782",
+      "37984878",
+      "37360038",
+      "37301906",
+      "36224978",
+      "34964551",
+      "34608285",
+      "34533867",
+      "34407948",
+      "33462233",
+      "30981085",
+      "28319611",
+      "28157363",
+      "24139950",
+      "22367003",
+      "20154694",
+      "15165396"
+    ],
+    "similar": [
+      "40937533",
+      "39357267",
+      "24042474",
+      "34533867",
+      "37301906",
+      "41084209",
+      "34691758",
+      "36224978",
+      "41002038",
+      "32866379",
+      "40658849",
+      "37967262",
+      "41307879",
+      "37935751",
+      "36892200",
+      "38558447",
+      "34460401",
+      "37002272",
+      "38416821",
+      "39146970",
+      "40946182",
+      "31193068",
+      "40591313",
+      "41104999",
+      "31682435",
+      "41414498",
+      "34125686",
+      "34155251",
+      "37870205",
+      "40314082",
+      "41061605",
+      "38894012",
+      "24253077",
+      "33922571",
+      "39446072",
+      "40978568",
+      "41065139",
+      "39538876",
+      "38877122",
+      "41207083",
+      "40364715",
+      "35064981",
+      "37572299",
+      "39085198",
+      "40557608",
+      "28120609",
+      "41310252",
+      "35208441",
+      "35706182",
+      "40691151",
+      "38984618",
+      "37957266",
+      "30599514",
+      "37285771",
+      "34945866",
+      "34548491",
+      "37748487",
+      "28665129",
+      "40911353",
+      "39562930",
+      "39088726",
+      "39284831",
+      "37816789",
+      "24061552",
+      "39390822",
+      "27783690",
+      "39809739",
+      "35473279",
+      "40934071",
+      "38953754",
+      "26083193",
+      "27608731",
+      "30981085",
+      "38099756",
+      "39634361",
+      "35739232",
+      "41034326",
+      "39376576",
+      "38491629",
+      "40247571",
+      "21827187",
+      "38600157",
+      "40826647",
+      "38745045",
+      "39552197",
+      "28860513",
+      "39466668",
+      "35105837",
+      "30470106",
+      "39348671",
+      "38073129",
+      "40362961",
+      "22569036",
+      "40165506",
+      "37097961",
+      "38297742",
+      "40642457",
+      "37710689",
+      "38271202",
+      "24102241"
+    ],
+    "review": [
+      "40937533",
+      "41307879",
+      "38984618"
+    ],
+    "pmc": [
+      "12674103"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40937533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202506397",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

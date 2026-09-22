@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.04.709504",
+  "title": "Reliable prediction of short linear motifs in the human proteome",
+  "authors": "Pancsa R; Fichó E; Kalman ZE; Gerdán C; Reményi I; Zeke A; Tusnády GE; Dobson L",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-06",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度学习(SLiMMine)基于蛋白嵌入预测人类蛋白质组中无序区域内的短线性基序(SLiM)，并关联到特定蛋白-蛋白互作，直接命中无序蛋白介导PPI的AI建模主题。",
+  "abstract": "Short linear motifs (SLiMs) are small interaction modules within intrinsically disordered regions of proteins that interact with specific domains, and thereby regulate numerous biological processes. Their limited sequence information leads to frequent false positive hits in computational and experimental SLiM identification methods. We present SLiMMine, a deep learning-based method to identify SLiMs in the human proteome. By refining the annotations of known motif classes, we created a high-quality training dataset. Using protein embeddings and neural networks, SLiMMine reliably predicts novel SLiM candidates in known classes, eliminates ~80% of the pattern matching-based hits as false-positives, furthermore, it also functions as a discovery tool to find uncharacterized SLiMs based on optimal sequence environment. Finally, narrowing the broad interactor-domain definitions of known SLiM classes to specific human proteins enables more precise linking of predicted SLiMs to known protein-protein interactions. SLiMMine is available as a user-friendly, multipurpose web server at https://slimmine.pbrg.hu/ .",
+  "abstract_zh": "短线性基序（SLiMs）是蛋白质内在无序区域内的小型相互作用模块，它们与特定结构域结合，从而调控众多生物过程。由于其序列信息有限，在计算和实验性SLiM识别方法中常导致频繁的假阳性结果。我们提出了SLiMMine，一种基于深度学习的方法，用于识别人类蛋白质组中的SLiMs。通过细化已知基序类别的注释，我们构建了一个高质量的训练数据集。利用蛋白质嵌入和神经网络，SLiMMine能可靠地预测已知类别中的新型SLiM候选物，消除约80%基于模式匹配的假阳性命中，此外，它还能作为发现工具，基于最优序列环境寻找未表征的SLiMs。最后，将已知SLiM类别的广泛相互作用子域定义缩小至特定人类蛋白质，使得预测的SLiMs能更精确地与已知蛋白质-蛋白质相互作用相关联。SLiMMine作为一个用户友好、多功能的网络服务器，可在https://slimmine.pbrg.hu/ 上获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709504",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709504",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.04.709504/index.html"
+}

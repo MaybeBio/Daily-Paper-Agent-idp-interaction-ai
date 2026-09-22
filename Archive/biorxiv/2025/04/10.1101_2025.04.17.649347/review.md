@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report a cryo-EM structure of the USP21 catalytic domain bound to an H2AK119ub nucleosome, revealing a recognition mode distinct from that of PRC5 and USP16. They report that the N-terminal IDR of USP21 inhibits enzyme activity, that AlphaFold-Multimer virtual screening identified kinases that phosphorylate the IDR and relieve autoinhibition, that AlphaFold3 modeling provides a structural explanation for autoinhibition, and that AlphaFold analysis of other USPs suggests phosphorylation-regulated autoinhibition may be a general feature.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, structural validation statistics, biochemical activity data, phosphorylation site mapping, AlphaFold model confidence metrics, and any validation experiments for the proposed regulatory mechanism.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural and regulatory mechanism for USP21, but the evidence base available for review is limited to the abstract. The central claims, particularly the autoinhibitory role of the IDR and the phosphorylation-dependent relief mechanism, are stated without quantitative or experimental detail. The structural claim is plausible but cannot be evaluated without coordinate validation and comparison data. The AlphaFold-based predictions are intriguing but require experimental corroboration, which is not described in the abstract. The manuscript may be of interest to the ubiquitin and chromatin biology communities, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying deubiquitinase regulation, histone modification dynamics, chromatin biology, and transcriptional silencing. The proposed phosphorylation-dependent autoinhibition mechanism would also interest those working on kinase signaling crosstalk with ubiquitin pathways. The structural comparison with other H2AK119 DUBs would interest structural biologists focused on nucleosome recognition.
+- **Major strengths** The identification of a distinct nucleosome recognition mode for USP21 compared to PRC5 and USP16 is a potentially valuable structural contribution. The unexpected finding of IDR-mediated autoinhibition is conceptually novel. The use of AlphaFold-based screening to identify regulatory kinases is a creative approach that may generate testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the N-terminal IDR inhibits USP21 activity and that phosphorylation relieves this autoinhibition.
+  - **Evidence pointer** Abstract text; no experimental data provided
+  - **Concern** The abstract states the IDR inhibits activity and that phosphorylation relieves autoinhibition, but no experimental data are described. No activity assays, mutagenesis studies, phosphorylation site identification, or kinetic parameters are presented. The claim that specific kinases phosphorylate the IDR is based solely on an AlphaFold-Multimer virtual screen, which is a predictive tool and not a direct biochemical demonstration.
+  - **Why it matters** The central regulatory model of the paper depends on these claims. Without direct experimental evidence, the autoinhibition and phosphorylation-relief mechanism remains speculative. The abstract does not indicate whether any biochemical validation was performed.
+  - **Resolution test** Provide activity data showing IDR-dependent inhibition, identify specific phosphorylation sites, and demonstrate that phosphorylation at those sites relieves inhibition. Include mutagenesis and kinase assay data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural validation
+  - **Claim pointer** The abstract claims a cryo-EM structure of USP21 catalytic domain bound to H2AK119ub nucleosome with a recognition mode distinct from PRC5 and USP16.
+  - **Evidence pointer** Abstract text; no structural data provided
+  - **Concern** No structural statistics, resolution, model quality metrics, or comparison data are provided. The claim of a distinct recognition mode cannot be assessed without seeing the structural alignments, interaction interfaces, and validation of the model.
+  - **Why it matters** The structural claim is a primary contribution of the paper. Without validation metrics and detailed comparison, the distinctness of the recognition mode is not established.
+  - **Resolution test** Provide cryo-EM data quality metrics, model validation statistics, and a detailed structural comparison with PRC5 and USP16 complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability claim
+  - **Claim pointer** The abstract claims that AlphaFold analysis of other USPs suggests phosphorylation-regulated autoinhibition may be a feature of multiple USP enzymes.
+  - **Evidence pointer** Abstract text; no data provided
+  - **Concern** This generalization is based solely on AlphaFold predictions. No experimental evidence from other USP enzymes is presented. The claim extends the mechanism beyond USP21 without any supporting biochemical or cellular data.
+  - **Why it matters** This claim significantly broadens the impact of the work. If not experimentally supported, it should be framed as a hypothesis rather than a finding.
+  - **Resolution test** Provide experimental evidence for at least one additional USP showing IDR-mediated autoinhibition and phosphorylation-dependent relief, or reframe the claim as a prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states the IDR is "intrinsically disordered" and later claims AlphaFold3 modeling suggests a structural model for autoinhibition. The relationship between disorder and a structural model is not clarified.
+  - **Required correction** Clarify whether the IDR adopts a structured conformation upon binding the catalytic domain or whether the autoinhibition is mediated by transient interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Kinase identification
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not name the identified kinases or indicate how many were found.
+  - **Required correction** Specify the kinases identified and the confidence of the predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with other DUBs
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract references PRC5 and USP16 but does not describe the nature of the difference in recognition mode.
+  - **Required correction** Briefly state the key difference, such as binding interface or nucleosome engagement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental evidence for the autoinhibition mechanism, structural validation, or the generalizability claim.
+- **Assessment against Nature-style criteria** Originality: The proposed phosphorylation-dependent autoinhibition mechanism for a DUB is conceptually novel and potentially original. Scientific importance: The work addresses a key enzyme in H2AK119ub regulation, which is relevant to transcriptional silencing and development. Interdisciplinary readership: The topic bridges ubiquitin biology, chromatin regulation, and kinase signaling, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone. The reliance on AlphaFold predictions without described experimental validation is a concern. Readability for nonspecialists: The abstract is concise and accessible, though some terms assume background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and a structural claim, but the absence of experimental validation for the central regulatory mechanism and the lack of structural details prevent a supportive recommendation. The manuscript may become suitable after full review of the complete data.
+
+## Risk / unsupported claims
+- The claim that the IDR inhibits USP21 activity is unsupported by experimental data in the abstract.
+- The claim that phosphorylation relieves autoinhibition is unsupported by direct biochemical evidence.
+- The claim that AlphaFold-Multimer screening identified kinases is a prediction, not a validated finding.
+- The claim that AlphaFold3 provides a structural model for autoinhibition is not validated experimentally.
+- The claim that phosphorylation-regulated autoinhibition may be a feature of multiple USPs is speculative and not supported by experimental evidence.

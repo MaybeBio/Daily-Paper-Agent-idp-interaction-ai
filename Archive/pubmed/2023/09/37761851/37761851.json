@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "37761851",
+    "doi": "10.3390/genes14091711",
+    "title": "One Step Closer to the Understanding of the Relationship IDR-LCR-Structure."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) in protein sequences are emerging as functionally important elements for interaction and regulation. While being generally flexible, we previously showed, by observation of experimentally obtained structures, that they contain regions of reduced sequence complexity that have an increased propensity to form structure. Here we expand the universe of cases taking advantage of structural predictions by AlphaFold. Our studies focus on low complexity regions (LCRs) found within IDRs, where these LCRs have only one or two residue types (polyX and polyXY, respectively). In addition to confirming previous observations that polyE and polyEK have a tendency towards helical structure, we find a similar tendency for other LCRs such as polyQ and polyER, most of them including charged residues. We analyzed the position of polyXY containing IDRs within proteins, which allowed us to show that polyAG and polyAK accumulate at the N-terminal, with the latter showing increased helical propensity at that location. Functional enrichment analysis of polyXY with helical propensity indicated functions requiring interaction with RNA and DNA. Our work adds evidence of the function of LCRs in interaction-dependent structuring of disordered regions, encouraging the development of tools for the prediction of their dynamic structural properties.",
+    "keywords": [
+      "AlphaFold",
+      "homorepeats",
+      "intrinsically disordered regions",
+      "low complexity regions",
+      "polyX",
+      "polyXY",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Protein Domains",
+      "*RNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goncalves-Kulik, Mariane",
+        "Schmid, Friederike",
+        "Andrade-Navarro, Miguel A"
+      ],
+      "short_names": [
+        "Goncalves-Kulik M",
+        "Schmid F",
+        "Andrade-Navarro MA"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-5432-3524",
+        "ORCID: 0000-0001-6650-1711"
+      ],
+      "affiliations": [
+        "Institute of Organismic and Molecular Evolution, Faculty of Biology, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany.",
+        "Faculty of Physics, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany.",
+        "Institute of Organismic and Molecular Evolution, Faculty of Biology, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gonçalves-Kulik, Mariane",
+        "short_name": "Gonçalves-Kulik M",
+        "identifiers": [
+          "0009-0000-5432-3524"
+        ],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution, Faculty of Biology, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmid, Friederike",
+        "short_name": "Schmid F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Physics, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Andrade-Navarro, Miguel A",
+        "short_name": "Andrade-Navarro MA",
+        "identifiers": [
+          "0000-0001-6650-1711"
+        ],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution, Faculty of Biology, Johannes Gutenberg University of Mainz, 55128 Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2023 Aug 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/28 06:42",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "40885394",
+      "40631955",
+      "40041205",
+      "39323775",
+      "39006762",
+      "38748749",
+      "38022702",
+      "37904585"
+    ],
+    "refs": [
+      "36416266",
+      "36249567",
+      "36008992",
+      "35627143",
+      "35098694",
+      "34418423",
+      "34265844",
+      "33875885",
+      "32402249",
+      "32283633",
+      "31986130",
+      "31441158",
+      "29186753",
+      "28125688",
+      "28076807",
+      "27668217",
+      "27141961",
+      "26073260",
+      "25531225",
+      "24502763",
+      "24317797",
+      "23901099",
+      "23512265",
+      "22989858",
+      "22920595",
+      "20011072",
+      "19666553",
+      "19304878",
+      "18573080",
+      "17522630",
+      "17032452",
+      "16218947",
+      "15264254",
+      "12381310",
+      "11025552",
+      "6667333"
+    ],
+    "similar": [
+      "37761851",
+      "36008992",
+      "36249567",
+      "38022702",
+      "33572172",
+      "34179096",
+      "29763584",
+      "25468592",
+      "36575582",
+      "36291695",
+      "34418423",
+      "30698641",
+      "33248138",
+      "31756456",
+      "31797595",
+      "30397544",
+      "33779503",
+      "20385029",
+      "32225071",
+      "36959451",
+      "33809982",
+      "35149212",
+      "29550429",
+      "29066345",
+      "32824743",
+      "32696359",
+      "28924037",
+      "30802457",
+      "23142703",
+      "35659505",
+      "36648282",
+      "30878482",
+      "36851914",
+      "27179590",
+      "31889261",
+      "32722039",
+      "35883444",
+      "29791766",
+      "23912807",
+      "31908009",
+      "31521235",
+      "30841624",
+      "27140628",
+      "35098694",
+      "37924569",
+      "24027208",
+      "32421769",
+      "36005688",
+      "33036302",
+      "34825861",
+      "35487971",
+      "31408700",
+      "30518031",
+      "26149687",
+      "17206849",
+      "35482425",
+      "36908253",
+      "24021867",
+      "28355271",
+      "34557680",
+      "32696354",
+      "28381244",
+      "32731489",
+      "36148633",
+      "32553192",
+      "21866296",
+      "33078839",
+      "22920595",
+      "29843482",
+      "35436286",
+      "26735936",
+      "18547401",
+      "34390736",
+      "37535684",
+      "31804089",
+      "32765822",
+      "32034199",
+      "32696395",
+      "32535960",
+      "23497088",
+      "38485789",
+      "36098382",
+      "38182699",
+      "39299235",
+      "37844070",
+      "38045241",
+      "36824805"
+    ],
+    "review": [
+      "37761851",
+      "34418423",
+      "30698641",
+      "33248138",
+      "36959451",
+      "36648282",
+      "36851914",
+      "31521235",
+      "35098694",
+      "37924569",
+      "24027208",
+      "36148633",
+      "33078839",
+      "34390736",
+      "32034199"
+    ],
+    "pmc": [
+      "10531472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes14091711",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37761851/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37761851",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

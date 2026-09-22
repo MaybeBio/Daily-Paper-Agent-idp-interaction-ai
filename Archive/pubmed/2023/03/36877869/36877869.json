@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "36877869",
+    "doi": "10.1021/acs.biomac.3c00124",
+    "title": "Structural and Dynamical Properties of Elastin-Like Peptides near Their Lower Critical Solution Temperature."
+  },
+  "content": {
+    "abstract": "Elastin-like peptides (ELPs) are artificially derived intrinsically disordered proteins (IDPs) mimicking the hydrophobic repeat unit in the protein elastin. ELPs are characterized by a lower critical solution temperature (LCST) in aqueous media. Here, we investigate the sequence GVG(VPGVG)(3) over a wide range of temperatures (below, around, and above the LCST) and peptide concentrations employing all-atom molecular dynamics simulations, where we focus on the role of intra- and interpeptide interactions. We begin by investigating the structural properties of a single peptide that demonstrates a hydrophobic collapse with temperature, albeit moderate, because the sequence length is short. We observe a change in the interaction between two peptides from repulsive to attractive with temperature by evaluating the potential of mean force, indicating an LCST-like behavior. Next, we explore dynamical and structural properties of peptides in multichain systems. We report the formation of dynamical aggregates with coil-like conformation, in which valine central residues play an important role. Moreover, the lifetime of contacts between chains strongly depends on the temperature and can be described by a power-law decay that is consistent with the LCST-like behavior. Finally, the peptide translational and internal motion are slowed by an increase in the peptide concentration and temperature.",
+    "keywords": [],
+    "mesh_terms": [
+      "Temperature",
+      "*Elastin/chemistry",
+      "*Peptides/chemistry",
+      "Cold Temperature",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morozova, Tatiana I",
+        "Garcia, Nicolas A",
+        "Matsarskaia, Olga",
+        "Roosen-Runge, Felix",
+        "Barrat, Jean-Louis"
+      ],
+      "short_names": [
+        "Morozova TI",
+        "Garcia NA",
+        "Matsarskaia O",
+        "Roosen-Runge F",
+        "Barrat JL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3650-4772",
+        "ORCID: 0000-0002-4392-0187",
+        "ORCID: 0000-0002-7293-7287",
+        "ORCID: 0000-0001-5106-4360",
+        "ORCID: 0000-0002-4220-2933"
+      ],
+      "affiliations": [
+        "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France.",
+        "Instituto de Fisica del Sur (IFISUR), Departamento de Fisica, Universidad Nacional del Sur (UNS), CONICET, Av. L. N. Alem 1253, B8000CPB Bahia Blanca, Argentina.",
+        "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France.",
+        "Department of Biomedical Science and Biofilms Research Center for Biointerfaces (BRCB), Malmo University, 20506 Malmo, Sweden.",
+        "Universite Grenoble Alpes, CNRS, LIPhy, 38000 Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morozova, Tatiana I",
+        "short_name": "Morozova TI",
+        "identifiers": [
+          "0000-0003-3650-4772"
+        ],
+        "affiliations": [
+          "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "García, Nicolás A",
+        "short_name": "García NA",
+        "identifiers": [
+          "0000-0002-4392-0187"
+        ],
+        "affiliations": [
+          "Instituto de Física del Sur (IFISUR), Departamento de Física, Universidad Nacional del Sur (UNS), CONICET, Av. L. N. Alem 1253, B8000CPB Bahía Blanca, Argentina."
+        ]
+      },
+      {
+        "full_name": "Matsarskaia, Olga",
+        "short_name": "Matsarskaia O",
+        "identifiers": [
+          "0000-0002-7293-7287"
+        ],
+        "affiliations": [
+          "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Roosen-Runge, Felix",
+        "short_name": "Roosen-Runge F",
+        "identifiers": [
+          "0000-0001-5106-4360"
+        ],
+        "affiliations": [
+          "Department of Biomedical Science and Biofilms Research Center for Biointerfaces (BRCB), Malmö University, 20506 Malmö, Sweden."
+        ]
+      },
+      {
+        "full_name": "Barrat, Jean-Louis",
+        "short_name": "Barrat JL",
+        "identifiers": [
+          "0000-0002-4220-2933"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, CNRS, LIPhy, 38000 Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 Apr 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/07 06:00",
+    "fetched_at": "2026-09-20 20:06:47"
+  },
+  "links": {
+    "cites": [
+      "40386766"
+    ],
+    "refs": [],
+    "similar": [
+      "36877869",
+      "25142785",
+      "26595324",
+      "30715857",
+      "26325592",
+      "31065653",
+      "34288691",
+      "18754687",
+      "18842018",
+      "29665334",
+      "27005861",
+      "39383337",
+      "34424695",
+      "17567170",
+      "30067028",
+      "37865930",
+      "29388768",
+      "32208723",
+      "28236790",
+      "27627061",
+      "35124875",
+      "23822733",
+      "32692541",
+      "19919159",
+      "36038531",
+      "24429702",
+      "27736076",
+      "33737605",
+      "18972488",
+      "37340996",
+      "22380064",
+      "11152614",
+      "30966747",
+      "34251181",
+      "12579584",
+      "31384872",
+      "14990469",
+      "34806270",
+      "32226139",
+      "29642027",
+      "33666204",
+      "30063889",
+      "34545666",
+      "25863067",
+      "31117367",
+      "30789709",
+      "30217600",
+      "31009934",
+      "33796336",
+      "34006089",
+      "29932654",
+      "28075561",
+      "38478587",
+      "15186170",
+      "32248607",
+      "14990468",
+      "24686253",
+      "27028208",
+      "35830538",
+      "9761688",
+      "19548661",
+      "11161104",
+      "28217775",
+      "22296566",
+      "29120326",
+      "36323382",
+      "11727705",
+      "28279921",
+      "24798978",
+      "37540116",
+      "30292393",
+      "36516874",
+      "15132656",
+      "23565607",
+      "28381088",
+      "14606895",
+      "26519668",
+      "21919131",
+      "23912807",
+      "16827587",
+      "29461832",
+      "19324406",
+      "24961229",
+      "20814933",
+      "24215207",
+      "26667190",
+      "22208987",
+      "31670364",
+      "15948226",
+      "32254875",
+      "34941264",
+      "1420992",
+      "32343908",
+      "35384652",
+      "21972921",
+      "23359490",
+      "24127292",
+      "15132671",
+      "12121654",
+      "34971785",
+      "37343710",
+      "38362050",
+      "22142235",
+      "36757021",
+      "37775660",
+      "21721612",
+      "39422512"
+    ],
+    "review": [
+      "36877869",
+      "26325592",
+      "34251181",
+      "34545666",
+      "30217600",
+      "36323382",
+      "11727705",
+      "24215207"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.3c00124",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

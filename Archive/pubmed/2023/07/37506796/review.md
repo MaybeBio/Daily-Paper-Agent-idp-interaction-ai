@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided.
+- **Assessment boundary** Scientific soundness, validity of claims relative to evidence presented, methodological rigor, and clarity. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use computational tools (AlphaFold, ColabFold, PONDR, IUPred, D2P2, STRING, compositional analysis) to argue that PROS1 and MERTK contain intrinsically disordered regions (IDPRs) and that disorder may drive their interaction in the context of class 2 uveal melanoma. They report a predicted PROS1-MERTK complex model (pLDDT = 70.68) and propose that disorder-to-order transition (DOT) regions in PROS1 are attractive immunotherapy targets.
+- **Visible evidence base** Methods and results sections describing sequence retrieval, structural modeling, disorder prediction, compositional profiling, and STRING network analysis. Figures referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–9 and Supplementary Figures S1–S2 are referenced but not included in the provided material. Specific prediction scores per residue, alignment details, and raw STRING network data are not available. No experimental validation data are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a purely computational analysis of intrinsic disorder in PROS1 and MERTK. The topic is of potential interest to researchers studying uveal melanoma immunotherapy and protein disorder. However, the central claim that disorder "may drive" the interaction is not established by the evidence presented. The analysis is largely descriptive, and the link between predicted disorder and functional relevance to the PROS1-MERTK interaction remains speculative. The manuscript would benefit from clearer articulation of hypotheses, quantitative comparisons, and acknowledgment of the limitations of computational predictions without experimental validation.
+- **Who would be interested in the results, and why** Researchers in uveal melanoma biology, particularly those focused on the tumor immune microenvironment and immunotherapy targets. Also, investigators studying intrinsically disordered proteins in cancer and those interested in computational prediction of protein-protein interactions involving disordered regions.
+- **Major strengths** The manuscript addresses a clinically relevant interaction (PROS1-MERTK) in a disease with high unmet need. The use of multiple complementary bioinformatics tools is appropriate. The authors acknowledge limitations of computational approaches and suggest future experimental directions. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and conclusions state that intrinsic disorder "may drive" the PROS1-MERTK interaction, and the abstract claims a "novel prediction" for this interaction.
+  - **Evidence pointer** Results sections "Structural Assessment," "Quantification of Intrinsic Disorder," and "Protein-Protein Interaction Network"; Figures 2–9 (not provided)
+  - **Concern** The evidence presented is entirely computational and descriptive. The authors show that PROS1 and MERTK contain predicted disordered regions and that a model of their interaction was generated, but no data demonstrate that disorder actually drives or modulates the interaction. The pLDDT score of 70.68 indicates moderate confidence, which the authors acknowledge, but the functional significance of the predicted interface is not tested or supported by any experimental or literature-based evidence. The claim that DOT regions are "attractive immunotherapy targets" is speculative and not substantiated by functional data.
+  - **Why it matters** The central thesis of the manuscript is that disorder drives the interaction. Without evidence linking predicted disorder to binding affinity, specificity, or functional outcome, the claim is unsupported. Overstating computational predictions as mechanistic insights could mislead readers and future research directions.
+  - **Resolution test** Provide experimental validation (e.g., mutagenesis of disordered regions, binding assays, cellular assays) or clearly reframe the claims as hypothesis-generating. Alternatively, cite existing experimental evidence that disorder in these specific regions is functionally relevant to the PROS1-MERTK interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "with high-resolution, moderate confidence, we successfully modeled the interaction between PROS1 and MERTK (pLDDT = 70.68)."
+  - **Evidence pointer** Methods section "Structural Assessment"; Results section "Structural Assessment"; Figure 3 (not provided)
+  - **Concern** The use of the term "high-resolution" is misleading. AlphaFold predictions are computational models, not experimental structures. A pLDDT of 70.68 is considered moderate confidence, and the authors themselves categorize it as "Confident," but "high-resolution" implies experimental quality. Additionally, the manuscript does not report per-residue confidence scores, the number of models generated, or the ranking of the selected model. The choice of 20 recycles is mentioned but not justified with comparative data. The methods lack details on how the model was validated (e.g., comparison to known structures, interface prediction metrics).
+  - **Why it matters** Accurate reporting of model confidence is essential for readers to assess the reliability of the predicted interaction. Overstating model quality undermines the credibility of the structural claims and could lead to inappropriate confidence in the predicted interface.
+  - **Resolution test** Revise terminology to accurately reflect the nature of computational models. Report per-residue pLDDT, model ranking, and any validation metrics. Justify the choice of recycling settings with data or literature. Consider using additional interface prediction tools (e.g., PRODIGY, FoldX) to support the interaction model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of results
+  - **Claim pointer** The authors report that "PROS1 was 23.37% disordered, and MERTK was 23.09% disordered, classifying them as moderately disordered and flexible proteins."
+  - **Evidence pointer** Results section "Quantification of Intrinsic Disorder," subsection "Per-amino acid residue disorder prediction"; Figure 5 (not provided)
+  - **Concern** The percentage disorder values are presented as single numbers, but the methods describe using multiple predictors (PONDR VLXT, VL3, VSL2, IUPred-Long, IUPred-Short). It is unclear which predictor(s) produced the reported percentages. The manuscript states that PONDR VLXT gave 12.13%, VL3 gave 26.48%, and VSL2 gave 31.51% for PROS1, but the "23.37%" figure is not clearly attributed. The averaging method is not described. Similarly, for MERTK, the values from individual predictors are not reported. The classification thresholds are arbitrary and not justified.
+  - **Why it matters** Reproducibility and interpretability require clear reporting of which tool produced which value. The lack of transparency makes it difficult for readers to evaluate the robustness of the disorder predictions.
+  - **Resolution test** Report disorder percentages for each predictor separately, describe how the average was calculated, and justify the classification thresholds. Consider presenting a consensus disorder profile.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors state that "PROS1 has two DOT regions that are attractive immunotherapy targets."
+  - **Evidence pointer** Results section "Identification of disorder-to-order transition (DOT) regions"; Figure 7 (not provided)
+  - **Concern** The DOT regions are identified computationally using IUPred's redox tool, but no functional data link these regions to the PROS1-MERTK interaction or to immune modulation. The claim that they are "attractive immunotherapy targets" is speculative. The manuscript does not discuss whether these regions are accessible to antibodies or small molecules, whether they are conserved across species (beyond the limited MSA), or whether targeting them would disrupt the interaction without off-target effects.
+  - **Why it matters** The translational relevance of the findings depends on the functional significance of the DOT regions. Without evidence, the claim is not supported and may overstate the clinical implications.
+  - **Resolution test** Provide additional analysis (e.g., conservation of DOT regions, surface accessibility, literature evidence for functional relevance) or temper the claim to reflect the hypothesis-generating nature of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first sentence; Introduction, first paragraph
+  - **Issue** The abstract states "Class 2 uveal melanomas are associated with the inactivation of the BRCA1 (breast cancer type 1 susceptibility protein)-associated protein 1 (BAP1)) gene." The double parenthesis after "BAP1" is a typographical error. Additionally, the Introduction states "PROS1 then phosphorylates the Mer Tyrosine Kinase (MERTK) receptor," but PROS1 is a ligand, not a kinase; it likely activates MERTK, which then autophosphorylates. This is a mechanistic inaccuracy.
+  - **Required correction** Fix the typographical error. Revise the sentence to accurately describe the ligand-receptor relationship, e.g., "PROS1 binds to and activates the Mer Tyrosine Kinase (MERTK) receptor."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Protein-Protein Interaction Network"
+  - **Evidence pointer** Methods, "Protein-Protein Interaction Network" paragraph
+  - **Issue** The STRING analysis settings are described, but the specific inputs (e.g., organism, network type) and the criteria for selecting the 17 additional proteins are not fully detailed. The p-value is reported, but the number of proteins and edges is only in the Results.
+  - **Required correction** Provide full details of the STRING analysis parameters, including organism, confidence score threshold, and how the network was generated and filtered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section "Quantification of Intrinsic Disorder," subsection "Per-amino acid residue prediction"
+  - **Evidence pointer** Results, "Per-amino acid residue prediction" paragraph
+  - **Issue** The text states "PROS1 was predicted to be 12.13% disordered by PONDR® VLXT (i.e., moderately disordered), 26.48% disordered by PONDR® VL3 (i.e., moderately disordered), and 31.51% disordered by PONDR® VSL2 (i.e., highly disordered)." However, the classification thresholds are not defined in the Methods. The reader cannot verify the categorization.
+  - **Required correction** Define the thresholds for "moderately disordered" and "highly disordered" in the Methods and ensure consistent application.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion, fourth paragraph
+  - **Evidence pointer** Discussion, "The next best steps could be modeling these disordered segments through molecular dynamic simulations followed by their docking analysis."
+  - **Issue** The sentence is grammatically awkward and could be clearer.
+  - **Required correction** Revise to: "The next steps could involve modeling these disordered segments through molecular dynamics simulations followed by docking analysis."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (claim of disorder driving interaction is unsupported), R1-M2 (overstated model confidence and insufficient methodological detail), R1-M3 (unclear attribution of disorder percentages).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of disorder analysis to the PROS1-MERTK interaction in uveal melanoma is novel, but the approach is standard and the findings are largely descriptive.
+  - **Scientific importance** Moderate. The PROS1-MERTK axis is clinically relevant, but the study does not provide new mechanistic insight beyond what is already known about the interaction.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and uveal melanoma researchers. The clinical implications are speculative.
+  - **Technical soundness** The computational methods are appropriate, but the reporting is incomplete (e.g., missing per-residue scores, unclear averaging). The lack of experimental validation limits the strength of the conclusions.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections (e.g., compositional profiling, CH-CDF analysis) assume familiarity with bioinformatics concepts. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational hypothesis but does not provide sufficient evidence to support the claim that intrinsic disorder drives the PROS1-MERTK interaction. Major revisions are required to clarify the claims, improve methodological transparency, and temper conclusions. Experimental validation or a clear reframing as a hypothesis-generating study is necessary.
+
+## Risk / unsupported claims
+- The claim that intrinsic disorder "may drive" the PROS1-MERTK interaction is unsupported by functional evidence.
+- The assertion that DOT regions in PROS1 are "attractive immunotherapy targets" is speculative and not substantiated.
+- The statement that the PROS1-MERTK interaction "promotes a tumor immune microenvironment" is presented as established fact but is based on a single prior study (Kaler et al.) without critical evaluation.
+- The claim of "high-resolution" modeling is inaccurate for a computational prediction with moderate confidence.
+- The evolutionary conservation analysis is described qualitatively, and the specific functional significance of conserved regions is not established.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that tandem E-box motifs enable CLOCK:BMAL1 to bind internal nucleosomal sites, releasing DNA and presenting multiple BMAL1 transactivation domains (TADs) in proximity. They further claim that the BMAL1 TAD engages multiple CBP/p300 domains (KIX, TAZ1, TAZ2) through distinct motifs, and that multivalent interactions with CBP/p300 are functionally important for CLOCK:BMAL1-driven transcription.
+- **Visible evidence base** SeEN-seq data (Fig. 1a,b), mass photometry (Fig. S1a,e), cryo-EM structures (Fig. 1d,e, Fig. S1-S3, Table 1), NMR chemical shift perturbation data (Fig. 2b-f, Fig. 3a-d, Fig. S4, Table 2), ITC data (Fig. 4b,e), FP binding data (Fig. 5b,i, Fig. S5), cell-based reporter assays (Fig. 5c-h), western blotting (Fig. S6)
+- **Missing materials affecting confidence** Figure legends, supplementary figures, structural validation metrics (FSC curves, model statistics), NMR assignment details, full statistical reporting, and raw data for reporter assays
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated analysis of how tandem E-box architecture influences CLOCK:BMAL1 nucleosome engagement and coactivator recruitment. The combination of structural biology, biophysics, and cell-based assays is impressive and the findings have potential significance for understanding circadian transcriptional regulation. However, several concerns regarding data interpretation, quantitative rigor, and the directness of evidence linking the structural observations to functional outcomes need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Circadian biology researchers studying transcriptional regulation mechanisms; structural biologists interested in transcription factor-nucleosome interactions; biochemists studying multivalent protein-protein interactions in transcriptional coactivation; researchers studying CBP/p300 function and specificity.
+- **Major strengths** The study addresses an important and under-explored question about how tandem E-box architecture contributes to CLOCK:BMAL1 function. The combination of cryo-EM, NMR, ITC, FP, and cell-based assays provides a multi-pronged approach. The discovery that tandem E-boxes enable access to internal nucleosomal sites is novel and potentially mechanistically important. The identification of distinct binding interfaces on KIX for the two TAD motifs is well-supported by the NMR data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that tandem E-boxes enable CLOCK:BMAL1 to bind more internal sites on the nucleosome, leading to release of DNA from the histone core.
+  - **Evidence pointer** Fig. 1b-e, Fig. S1-S3
+  - **Concern** The SeEN-seq comparison between single and double E-box libraries is described as showing "nearly identical enrichment on the left side" and "new enrichment peaks" on the right side. However, the quantitative basis for this comparison is not provided. The cryo-EM structures are at 4.1-4.2 Å resolution, and the authors acknowledge that PAS domain mapping was limited by low resolution (8-12 Å). The claim of DNA release is based on comparison with a prior structure (Por promoter), but the quantitative extent of DNA release and its statistical significance are not reported. The mass photometry data suggesting three CLOCK:BMAL1 protomers per nucleosome is intriguing but the stoichiometry is not rigorously established.
+  - **Why it matters** The central structural claim of the paper, that tandem E-boxes enable internal nucleosome binding with DNA release, underpins the entire mechanistic model. If this is not rigorously established, the downstream functional claims are weakened.
+  - **Resolution test** Provide quantitative SeEN-seq enrichment comparisons with statistical analysis. Report model validation metrics for cryo-EM structures (FSC, model vs map correlation, Ramachandran statistics). Clearly state the extent of DNA release and provide evidence that it is significant. For mass photometry, provide replicate measurements with error analysis and a clear stoichiometric model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that multivalent interactions with CBP/p300, facilitated by tandem E-box binding, are functionally important for CLOCK:BMAL1-driven transcription.
+  - **Evidence pointer** Fig. 5c-h
+  - **Concern** The cell-based reporter assays show that deletion of TAZ1 and KIX together reduces CLOCK:BMAL1-driven activation, but the effect is described as "significantly and consistently" reducing activation. The magnitude of the effect, the statistical details, and the specificity of the effect (e.g., whether the deletions affect CBP stability or localization) are not fully reported. The connection between the structural observations (tandem E-boxes enabling multivalent TAD presentation) and the functional assays (CBP domain deletions) is indirect. The authors do not directly demonstrate that tandem E-box occupancy is required for the observed CBP-dependent activation.
+  - **Why it matters** The functional significance of the proposed multivalent mechanism is a key claim of the paper. Without direct evidence linking tandem E-box occupancy to CBP recruitment and function, the physiological relevance of the structural findings remains speculative.
+  - **Resolution test** Provide full statistical details for reporter assays, including effect sizes and variability. Include controls for CBP protein stability and localization. Ideally, perform experiments where tandem E-box spacing is mutated in the context of the Per1 reporter to directly test the requirement for tandem occupancy in CBP-dependent activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative affinity
+  - **Claim pointer** The authors claim that the BMAL1 TAD binds to TAZ1, KIX, and TAZ2 with a rank order of TAZ1>KIX>TAZ2, and that the primary KIX binding interface is between the TAD helix and the c-Myb site.
+  - **Evidence pointer** Fig. 4b-g, Fig. 5b
+  - **Concern** The FP binding data (Fig. 5b) are described as showing rank order affinity, but the actual K D values are only reported for the TAZ1-TAD interaction in the text. The ITC data (Fig. 4b) show a K D of approximately 2 µM for WT KIX-TAD, but the mutant KIX (3mut) binding is described as "disrupted" without a quantitative K D. The NMR-derived K D of 160 µM for the 3mut interaction and 190 µM for the L606A/L607A TAD mutant are reported, but the fitting details and error estimates are not provided.
+  - **Why it matters** The quantitative affinities are important for understanding the relative contributions of different CBP domains to CLOCK:BMAL1 recruitment. Without complete binding data, the proposed model of multivalent interactions cannot be fully evaluated.
+  - **Resolution test** Report all K D values with errors and fitting details for FP, ITC, and NMR experiments. Provide a clear comparison of affinities across domains and mutants. Consider whether the affinities measured in isolation are relevant in the context of full-length proteins and chromatin.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors claim that the two TAD motifs (helix and switch) bind to distinct sites on the KIX domain, with the helix binding the c-Myb site and the switch binding the MLL1 site.
+  - **Evidence pointer** Fig. 2e,f, Fig. 3a-d, Fig. S4
+  - **Concern** The NMR data support distinct binding sites for the two motifs, but the evidence is indirect. The chemical shift perturbations are used to infer binding sites, but no structure of the TAD-KIX complex is presented. The claim that the switch region binds the MLL1 site is based on perturbation patterns, but the authors note that the switch peptide has modest affinity. The functional significance of the switch-MLL1 interaction is not directly tested.
+  - **Why it matters** The proposed bipartite binding mode is a novel and important claim. Without direct structural evidence or mutagenesis data confirming the binding interfaces, the model remains speculative.
+  - **Resolution test** Provide mutagenesis data on both the TAD and KIX to confirm the proposed binding interfaces. Alternatively, obtain a high-resolution structure of the TAD-KIX complex. Test the functional significance of the switch-MLL1 interaction in cell-based assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that tandem E-boxes enable CLOCK:BMAL1 to bind "more internal sites on the nucleosome" but does not specify the functional consequence of this binding beyond "presentation of multiple coactivator binding motifs." The abstract could be clearer about the proposed mechanism.
+  - **Required correction** Consider revising the abstract to more explicitly state the proposed mechanism linking tandem E-box binding to multivalent CBP recruitment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 5
+  - **Evidence pointer** Fig. 5c-h
+  - **Issue** The reporter assay data are described in the text but the figure legend is not provided. It is unclear how many biological replicates were performed and whether the data are presented as mean ± SD or SEM.
+  - **Required correction** Provide complete figure legends with statistical details, including number of replicates, error bars, and significance tests used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** NMR methods
+  - **Evidence pointer** Methods section
+  - **Issue** The NMR titration experiments are described but the details of the fitting procedure for K D determination are not provided. It is unclear whether global or per-residue fitting was used.
+  - **Required correction** Provide details of the NMR data fitting procedure, including the model used and the residues included in the fit.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions that the multivalent interactions "might play an important role" in helping CLOCK:BMAL1 compete with other TFs, but this is speculative. The authors should be clearer about what evidence would be needed to support this claim.
+  - **Required correction** Consider softening the speculative language or providing a more explicit framework for how this hypothesis could be tested.
+
+## Risk / unsupported claims
+- The claim that three CLOCK:BMAL1 protomers can associate with nucleosomes containing internal tandem E-boxes is based on mass photometry data that are not fully described or quantified.
+- The functional significance of the switch-MLL1 interaction on the KIX domain is inferred from NMR perturbation data but not directly tested in functional assays.
+- The connection between tandem E-box occupancy and CBP-dependent transcriptional activation is indirect; the reporter assays use CBP domain deletions but do not directly manipulate tandem E-box spacing.
+- The claim that DNA release from the histone core is a consequence of tandem E-box binding is based on comparison with a prior structure and is not quantitatively established.
+- The physiological relevance of the observed affinities (K D values in the low micromolar to high micromolar range) for CBP domain-TAD interactions is not discussed in the context of cellular concentrations of these proteins.

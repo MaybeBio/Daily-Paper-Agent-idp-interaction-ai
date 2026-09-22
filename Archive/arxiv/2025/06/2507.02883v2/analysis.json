@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2507.02883v2",
+  "title": "DISPROTBENCH: Uncovering the Functional Limits of Protein Structure Prediction Models in Intrinsically Disordered Regions",
+  "authors": "Xinyue Zeng; Tuo Wang; Adithya Kulkarni; Alexander Lu; Alexandra Ni; Phoebe Xing; Junhan Zhao; Siwei Chen; Dawei Zhou",
+  "journal": "",
+  "published_date": "2025-06-18",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文构建了以无序区域为中心的蛋白质结构预测基准DisProtBench，系统评估了PSPM在IDR中PPI预测的失效模式，并引入不确定性分层指标FUS，直接关联无序蛋白互作机制建模与AI预测方法。",
+  "abstract": "Intrinsically disordered regions (IDRs) play central roles in cellular function, yet remain poorly evaluated by existing protein structure prediction benchmarks. Current evaluations largely focus on well-folded domains, overlooking three fundamental challenges in realistic biological settings: the structural complexity of proteins, the resulting low availability of reliable ground truth, and prediction uncertainty that can propagate into high-risk downstream failures, such as in drug discovery, protein-protein interaction modeling, and functional annotation. We present DisProtBench, an IDR-centric benchmark that explicitly incorporates prediction uncertainty into the evaluation of protein structure prediction models (PSPMs). To address structural complexity and ground-truth scarcity, we curate and unify a large-scale, multi-modal dataset spanning disease-relevant IDRs, GPCR-ligand interactions, and multimeric protein complexes. To assess predictive uncertainty, we introduce Functional Uncertainty Sensitivity (FUS), a novel prediction uncertainty-stratified metric that quantifies downstream task performance under prediction uncertainty. Using this benchmark, we conduct a systematic evaluation of state-of-the-art PSPMs and reveal clear, task-dependent failure modes. Protein-protein interaction prediction degrades sharply in IDRs, while structure-based drug discovery remains comparatively robust. These effects are largely invisible to standard global accuracy metrics, which overestimate functional reliability under prediction uncertainty. We have open-sourced our benchmark and the codebase at https://github.com/Susan571/DisProtBench.",
+  "abstract_zh": "intrinsically disordered regions (IDRs)在细胞功能中扮演核心角色，但现有蛋白质结构预测基准对其评估仍显不足。当前评估主要聚焦于折叠良好的结构域，忽视了现实生物学环境中的三个基本挑战：蛋白质的结构复杂性、由此导致的可靠真实标签可用性低，以及可能传播至高危下游失败（如药物发现、蛋白质-蛋白质相互作用建模和功能注释）的预测不确定性。我们提出了DisProtBench，一个以IDR为中心的基准，明确将预测不确定性纳入蛋白质结构预测模型（PSPMs）的评估中。为解决结构复杂性和真实标签稀缺问题，我们整理并统一了一个大规模、多模态数据集，涵盖疾病相关IDRs、GPCR-配体相互作用和多聚体蛋白质复合物。为评估预测不确定性，我们引入了功能不确定性敏感性（FUS），这是一种新颖的预测不确定性分层指标，用于量化预测不确定性下的下游任务性能。利用此基准，我们对最先进的PSPMs进行了系统评估，并揭示了清晰且任务依赖的失败模式。蛋白质-蛋白质相互作用预测在IDRs中急剧退化，而基于结构的药物发现则相对稳健。这些效应在标准全局准确性指标下大多不可见，后者在预测不确定性下高估了功能可靠性。我们已在https://github.com/Susan571/DisProtBench开源了我们的基准和代码库。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2507.02883v2",
+  "source_url": "https://arxiv.org/abs/2507.02883v2",
+  "paper_page_path": "papers/arxiv/2507.02883v2/index.html"
+}

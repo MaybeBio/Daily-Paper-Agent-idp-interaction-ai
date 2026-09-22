@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "36413333",
+    "doi": "10.1007/978-1-0716-2784-6_28",
+    "title": "Approaches for the Identification of Intrinsically Disordered Protein Domains."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein domains are those with high disorder proportion or a consecutive disordered region. They have no stable spatial structure but play an important role in the regulation of complex cellular functions and contribute to the increasing organism complexity during evolution. Here, we describe the approaches to predict intrinsic disorder values of residues in proteins and methods to identify the intrinsically disordered domains.",
+    "keywords": [
+      "Disorder prediction",
+      "Intrinsically disordered domain",
+      "Protein domain identification"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Huqiang",
+        "Yang, Zhixiang",
+        "Yang, Dong"
+      ],
+      "short_names": [
+        "Wang H",
+        "Yang Z",
+        "Yang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China.",
+        "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China.",
+        "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China. yangdong@ncpsb.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Huqiang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhixiang",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dong",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, China. yangdong@ncpsb.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/23 06:00",
+    "fetched_at": "2026-09-20 16:56:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "33875885",
+      "33680357",
+      "33542394",
+      "33482715",
+      "33156333",
+      "32173600",
+      "31777944",
+      "30455862",
+      "30395465",
+      "30357350",
+      "30297718",
+      "30153857",
+      "29860432",
+      "28575444",
+      "28516007",
+      "28097215",
+      "26317470",
+      "25551276",
+      "23598997",
+      "22496841",
+      "22427835",
+      "22328715",
+      "22039361",
+      "20522251",
+      "19443856",
+      "18039703",
+      "16602695",
+      "16381859",
+      "16046624",
+      "15215452",
+      "15019783",
+      "12022860",
+      "4351801",
+      "2231712"
+    ],
+    "similar": [
+      "36413333",
+      "35507260",
+      "33542394",
+      "27115638",
+      "29944921",
+      "31756456",
+      "34639018",
+      "32295482",
+      "26683124",
+      "23942625",
+      "34545666",
+      "32204351",
+      "28934129",
+      "33779503",
+      "28369666",
+      "27911701",
+      "30819075",
+      "34029402",
+      "29791766",
+      "26295225",
+      "29413001",
+      "27037624",
+      "33155649",
+      "29666277",
+      "33182596",
+      "29634920",
+      "35883444",
+      "26790343",
+      "27548131",
+      "30099775",
+      "27647212",
+      "30471699",
+      "30308971",
+      "33017101",
+      "25502193",
+      "17391016",
+      "25533957",
+      "27377881",
+      "29068531",
+      "25449897",
+      "35436286",
+      "32020911",
+      "28952717",
+      "24037790",
+      "26366527",
+      "29753880",
+      "26287166",
+      "32828470",
+      "31978465",
+      "27484738",
+      "27085142",
+      "33087759",
+      "26387103",
+      "24027208",
+      "32599863",
+      "34656327",
+      "23963781",
+      "29208465",
+      "32466138",
+      "30420606",
+      "28365882",
+      "28232901",
+      "24587103",
+      "28393629",
+      "32871423",
+      "26195786",
+      "29982297",
+      "32112084",
+      "32473054",
+      "33806614",
+      "32151887",
+      "33877595",
+      "32708183",
+      "24010708",
+      "35034725",
+      "26198229",
+      "24532081",
+      "25631540",
+      "30397651",
+      "25039985",
+      "23798504",
+      "34390736",
+      "24879155",
+      "36016498",
+      "32089835",
+      "36979465",
+      "37418523",
+      "38579671",
+      "38297185",
+      "32493801",
+      "37895436",
+      "35190643",
+      "36493364",
+      "38217697",
+      "38063974"
+    ],
+    "review": [
+      "36413333",
+      "34545666",
+      "32204351",
+      "27911701",
+      "29413001",
+      "33155649",
+      "29634920",
+      "27548131",
+      "27647212",
+      "25502193",
+      "29068531",
+      "25449897",
+      "32020911",
+      "29753880",
+      "26287166",
+      "32828470",
+      "26387103",
+      "24027208",
+      "29982297",
+      "32151887",
+      "32708183",
+      "24532081",
+      "25631540",
+      "34390736",
+      "32089835"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-2784-6_28",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

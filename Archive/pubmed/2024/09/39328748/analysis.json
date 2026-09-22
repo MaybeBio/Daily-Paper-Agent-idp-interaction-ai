@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39328748",
+  "title": "Fusion Dynamics and Size-Dependence of Droplet Microstructure in ssDNA-Mediated Protein Phase Separation.",
+  "authors": "Bian, Yunqiang; Lv, Fangyi; Pan, Hai; Ren, Weitong; Zhang, Weiwei; Wang, Yanwei; Cao, Yi; Li, Wenfei; Wang, Wei",
+  "journal": "JACS Au",
+  "published_date": "2024-09-27",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子模拟与实验结合，研究连接组蛋白H1与ssDNA介导的相分离液滴融合动力学及微结构尺寸依赖性，聚焦静电桥驱动的PPI机制，属于无序蛋白相关相分离互作机制建模，方法上以物理模拟为主，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "Biomolecular condensation involving proteins and nucleic acids has been recognized to play crucial roles in genome organization and transcriptional regulation. However, the biophysical mechanisms underlying the droplet fusion dynamics and microstructure evolution during the early stage of liquid-liquid phase separation (LLPS) remain elusive. In this work, we study the phase separation of linker histone H1, which is among the most abundant chromatin proteins, in the presence of single-stranded DNA (ssDNA) capable of forming a G-quadruplex by using molecular simulations and experimental characterization. We found that droplet fusion is a rather stochastic and kinetically controlled process. Productive fusion events are triggered by the formation of ssDNA-mediated electrostatic bridges within the droplet contacting zone. The droplet microstructure is size-dependent and evolves driven by maximizing the number of electrostatic contacts. We also showed that the folding of ssDNA to the G-quadruplex promotes LLPS by increasing the multivalency and strength of protein-DNA interactions. These findings provide deep mechanistic insights into the growth dynamics of biomolecular droplets and highlight the key role of kinetic control during the early stage of ssDNA-protein condensation.",
+  "abstract_zh": "涉及蛋白质和核酸的生物分子凝聚已被认识到在基因组组织和转录调控中发挥关键作用。然而，液-液相分离（liquid-liquid phase separation, LLPS）早期阶段液滴融合动力学和微观结构演变的生物物理机制仍不清楚。在本工作中，我们通过分子模拟和实验表征，研究了连接组蛋白H1（最丰富的染色质蛋白之一）在能够形成G-四链体的单链DNA（single-stranded DNA, ssDNA）存在下的相分离。我们发现液滴融合是一个相当随机且动力学控制的过程。有效的融合事件由ssDNA介导的静电桥在液滴接触区内形成触发。液滴微观结构具有尺寸依赖性，并通过最大化静电接触数量驱动演化。我们还表明，ssDNA折叠为G-四链体通过增加蛋白质-DNA相互作用的多价性和强度促进LLPS。这些发现为生物分子液滴的生长动力学提供了深入的机制见解，并强调了动力学控制在ssDNA-蛋白质凝聚早期阶段的关键作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39328748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39328748/",
+  "paper_page_path": "papers/pubmed/39328748/index.html"
+}

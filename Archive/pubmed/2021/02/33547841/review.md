@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that FUS is predominantly N-terminally acetylated in two human cell types and under stress conditions; recombinant FUS LC can be acetylated via co-expression with NatA in E. coli; N-terminal acetylation does not alter monomeric FUS LC structure or dynamics as assessed by NMR; acetylated FUS LC phase separates more avidly than unmodified FUS LC; and acetylation reduces aggregation of FUS LC.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical measures, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR data and analysis details, experimental protocols, cell lines and stress conditions, quantification of phase separation and aggregation assays, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that N-terminal acetylation, a common and often overlooked modification, modestly enhances phase separation and reduces aggregation of FUS LC. The topic is relevant to the fields of phase separation and neurodegeneration. However, the abstract provides insufficient quantitative detail and methodological transparency to evaluate the robustness of the claims. The central conclusions rest on comparisons between modified and unmodified protein, but the magnitude of effects, reproducibility, and statistical support are not reported. The claim that acetylation "reduces aggregation" is particularly consequential and would require strong evidence to rule out indirect effects or assay artifacts. As presented, the case is plausible but not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, RNA-binding proteins, posttranslational modifications, and neurodegenerative diseases such as amyotrophic lateral sclerosis. The work may also interest biophysicists and structural biologists focused on low-complexity domains and protein aggregation mechanisms.
+- **Major strengths** The study addresses a biologically common modification that is often ignored in recombinant protein studies. The use of NMR to assess structural and dynamic changes is rigorous. The combination of cellular and recombinant approaches adds translational relevance. The finding that acetylation reduces aggregation, if robust, could have implications for understanding disease mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Nt-Ac-FUS LC phase separates more avidly than unmodified FUS LC" and "N-terminal acetylation of FUS LC reduces aggregation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that acetylation enhances phase separation and reduces aggregation, but no quantitative data are provided. The magnitude of the enhancement or reduction, the concentration dependence, the time course, and the statistical significance are all absent. Without these details, it is impossible to assess whether the effects are biologically meaningful or within experimental noise.
+  - **Why it matters** The central claims of the paper rest on comparative measurements. If the differences are small or variable, the conclusions may not be robust. The term "modestly" in the title suggests a small effect, which increases the need for rigorous quantification and replication.
+  - **Resolution test** Provide quantitative phase separation thresholds (e.g., saturation concentrations), aggregation kinetics (e.g., lag time, extent), and statistical comparisons with appropriate error bars and replicates. Show that the effects are reproducible across independent preparations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "FUS is predominantly acetylated in two human cell types and stress conditions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which cell types, which stress conditions, how acetylation was measured, or what "predominantly" means quantitatively. The stoichiometry of acetylation is critical because partial modification could complicate interpretation of downstream experiments.
+  - **Why it matters** If acetylation is not near-stoichiometric, the recombinant comparisons may not reflect the cellular state. The claim of predominance is foundational for the relevance of the study, but it is not verifiable from the abstract.
+  - **Resolution test** Specify cell types, stress conditions, and the method for quantifying acetylation (e.g., mass spectrometry). Report the fraction of acetylated FUS and show that the modification is stable under the conditions tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "N-terminal acetylation of FUS LC reduces aggregation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain the mechanism by which acetylation reduces aggregation. Since acetylation adds a negative charge at the N-terminus, it may alter electrostatic interactions, but the abstract does not address whether the effect is direct or indirect. It is also unclear whether the reduction in aggregation is due to altered phase separation behavior or a distinct pathway.
+  - **Why it matters** Understanding the mechanism is important for generalizing the finding to other proteins and for designing interventions. Without mechanistic insight, the claim remains descriptive.
+  - **Resolution test** Provide data on the physical basis for reduced aggregation, such as changes in intermolecular interactions, solubility, or nucleation kinetics. Discuss whether the effect is specific to the N-terminal charge or due to other properties of the acetyl group.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "modestly enhances" is vague. It is unclear whether this refers to a small shift in saturation concentration, a small change in droplet size, or another metric.
+  - **Required correction** Define the specific metric and provide the numerical value or range in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the effects of acetylation on phase separation and aggregation are independent or coupled. If acetylation enhances phase separation but reduces aggregation, these may be opposing effects that need reconciliation.
+  - **Required correction** Clarify the relationship between the two observations, or state that they are independent findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on FUS LC but does not discuss whether the findings might apply to other proteins with N-terminal acetylation or low-complexity domains.
+  - **Required correction** Add a sentence in the discussion or conclusion addressing potential generalizability, or explicitly state the limits of the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of enhanced phase separation and reduced aggregation, as well as the cellular relevance, cannot be evaluated without quantitative data and methodological details. R1-M3 is important but not blocking if the primary claims are supported.
+- **Assessment against Nature-style criteria** Originality: The work addresses a common modification that is often overlooked, which is a useful contribution, but the concept that charge-altering modifications affect phase separation is not new. Scientific importance: The findings could be relevant to understanding FUS biology and disease, but the modest effect size and lack of mechanistic depth limit the potential impact. Interdisciplinary readership: The topic bridges cell biology, biophysics, and neurodegeneration, which could attract a broad audience. Technical soundness: The use of NMR and recombinant co-expression is appropriate, but the abstract does not provide enough detail to assess rigor. Readability for nonspecialists: The abstract is generally clear, but terms like "NatA complex" and "Nt-Ac" may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting finding, but the lack of quantitative data and methodological transparency prevents a full assessment. If the full manuscript provides robust evidence, the work could be supportive, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that FUS is "predominantly acetylated" in two cell types and stress conditions is unsupported without quantitative data on modification stoichiometry.
+- The claim that acetylation "reduces aggregation" is unsupported without details on the aggregation assay, time course, and statistical analysis.
+- The claim that acetylation "modestly enhances" phase separation is unsupported without a defined metric and numerical comparison.
+- The statement that acetylation does not alter monomeric structure or dynamics is based on NMR, but the abstract does not provide evidence of the sensitivity or resolution of the measurements.

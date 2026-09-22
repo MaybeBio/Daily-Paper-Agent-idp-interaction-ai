@@ -1,0 +1,199 @@
+{
+  "identity": {
+    "pmid": "34005864",
+    "doi": "10.1103/PhysRevE.103.042406",
+    "title": "Subcompartmentalization of polyampholyte species in organelle-like condensates is promoted by charge-pattern mismatch and strong excluded-volume interaction."
+  },
+  "content": {
+    "abstract": "Polyampholyte field theory and explicit-chain molecular dynamics models of sequence-specific phase separation of a system with two intrinsically disordered protein (IDP) species indicate consistently that a substantial polymer excluded volume and a significant mismatch of the IDP sequence charge patterns can act in concert, but not in isolation, to demix the two IDP species upon condensation. This finding reveals an energetic-geometric interplay in a stochastic, \"fuzzy\" molecular recognition mechanism that may facilitate subcompartmentalization of membraneless organelles.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pal, Tanmoy",
+        "Wessen, Jonas",
+        "Das, Suman",
+        "Chan, Hue Sun"
+      ],
+      "short_names": [
+        "Pal T",
+        "Wessen J",
+        "Das S",
+        "Chan HS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pal, Tanmoy",
+        "short_name": "Pal T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Wessén, Jonas",
+        "short_name": "Wessén J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Das, Suman",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/20 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "41083871",
+      "40985614",
+      "40782375",
+      "40667294",
+      "40267030",
+      "40028898",
+      "38383656",
+      "37408305",
+      "37065433",
+      "36994084",
+      "36819870",
+      "36227470",
+      "36227468",
+      "35597639",
+      "35378855",
+      "35364104",
+      "35059009",
+      "34639077",
+      "34637756",
+      "33864415"
+    ],
+    "refs": [],
+    "similar": [
+      "34005864",
+      "27824447",
+      "29509422",
+      "33890467",
+      "32822449",
+      "29397728",
+      "30791483",
+      "32639157",
+      "35597632",
+      "32726575",
+      "28914483",
+      "32936641",
+      "31444270",
+      "28483149",
+      "31439799",
+      "33376791",
+      "32405004",
+      "30397688",
+      "11088898",
+      "29068531",
+      "27936491",
+      "28425679",
+      "31054969",
+      "29091028",
+      "31783713",
+      "32096047",
+      "30948640",
+      "30999076",
+      "30045872",
+      "32601486",
+      "26684000",
+      "17134228",
+      "33923223",
+      "28805390",
+      "32087632",
+      "32867340",
+      "30070766",
+      "31260322",
+      "33077592",
+      "31941785",
+      "32357776",
+      "33049214",
+      "33202250",
+      "31694155",
+      "32194074",
+      "24898547",
+      "29511089",
+      "28259050",
+      "25679039",
+      "24329095",
+      "29604827",
+      "32040349",
+      "30909517",
+      "31626641",
+      "30179001"
+    ],
+    "review": [
+      "34005864",
+      "29509422",
+      "32726575",
+      "31444270",
+      "29068531",
+      "31054969",
+      "32096047",
+      "30045872",
+      "32867340",
+      "33049214",
+      "31694155",
+      "32194074",
+      "28259050",
+      "32040349"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://scite.ai/reports/34005864",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

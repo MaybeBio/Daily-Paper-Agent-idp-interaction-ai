@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37892127",
+  "title": "A Structural Model for the Core Nup358-BicD2 Interface.",
+  "authors": "Gibson, James M; Zhao, Xiaoxin; Ali, M Yusuf; Solmaz, Sozanne R; Wang, Chunyu",
+  "journal": "Biomolecules",
+  "published_date": "2023-10-28",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用AlphaFold2、HADDOCK和ClusPro结合突变实验，解析了Nup358无序区域与BicD2的PPI界面，揭示无序区介导的二级结合位点及竞争性货物选择机制，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Dynein motors facilitate the majority of minus-end-directed transport events on microtubules. The dynein adaptor Bicaudal D2 (BicD2) recruits the dynein machinery to several cellular cargo for transport, including Nup358, which facilitates a nuclear positioning pathway that is essential for the differentiation of distinct brain progenitor cells. Previously, we showed that Nup358 forms a \"cargo recognition alpha-helix\" upon binding to BicD2; however, the specifics of the BicD2-Nup358 interface are still not well understood. Here, we used AlphaFold2, complemented by two additional docking programs (HADDOCK and ClusPro) as well as mutagenesis, to show that the Nup358 cargo-recognition alpha-helix binds to BicD2 between residues 747 and 774 in an anti-parallel manner, forming a helical bundle. We identified two intermolecular salt bridges that are important to stabilize the interface. In addition, we uncovered a secondary interface mediated by an intrinsically disordered region of Nup358 that is directly N-terminal to the cargo-recognition alpha-helix and binds to BicD2 between residues 774 and 800. This is the same BicD2 domain that binds to the competing cargo adapter Rab6, which is important for the transport of Golgi-derived and secretory vesicles. Our results establish a structural basis for cargo recognition and selection by the dynein adapter BicD2, which facilitates transport pathways that are important for brain development.",
+  "abstract_zh": "动力蛋白马达促进了微管上大多数负端定向运输事件。动力蛋白适配器Bicaudal D2（BicD2）将动力蛋白机制招募到多种细胞货物上进行运输，包括Nup358，后者促进了一个对特定脑祖细胞分化至关重要的核定位通路。此前，我们展示了Nup358在与BicD2结合时形成一个“货物识别α螺旋”；然而，BicD2-Nup358界面的具体细节仍未被充分理解。在此，我们使用AlphaFold2，辅以两个额外的对接程序（HADDOCK和ClusPro）以及突变分析，表明Nup358货物识别α螺旋以反平行方式结合到BicD2的第747至774位残基之间，形成一个螺旋束。我们鉴定了两个对稳定界面重要的分子间盐桥。此外，我们揭示了一个由Nup358的内在无序区域介导的次级界面，该区域直接位于货物识别α螺旋的N端，并结合到BicD2的第774至800位残基之间。这与结合竞争性货物适配器Rab6的BicD2结构域相同，后者对高尔基体来源和分泌囊泡的运输至关重要。我们的结果为动力蛋白适配器BicD2的货物识别和选择建立了结构基础，这促进了对大脑发育重要的运输通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37892127/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37892127/",
+  "paper_page_path": "papers/pubmed/37892127/index.html"
+}

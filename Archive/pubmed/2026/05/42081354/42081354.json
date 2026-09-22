@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "42081354",
+    "doi": "10.1063/5.0325391",
+    "title": "Multivalency-dependent DNA compaction in bridging-induced condensates."
+  },
+  "content": {
+    "abstract": "Structural maintenance of chromosome complexes, particularly cohesin, plays a pivotal role in bridging DNA and mediating phase separation, which is crucial for chromosome organization. Despite recent studies on bridging-induced phase separation (BIPS), questions remain about the optimal number of protein binding sites required for efficient condensate formation. In this study, we employ coarse-grained molecular dynamics simulations to investigate the organization of topologically constrained DNA systems. We specifically focus on the mesoscale coupling between DNA supercoiling and protein-mediated BIPS, a mechanism fundamental to DNA compaction in environments where torsional stress is strictly conserved. By utilizing a circular DNA model to ensure topological integrity, our study serves as a generalized biophysical representation of both naturally circular genomic elements and locally anchored or torsionally restricted chromatin domains, providing insights into the universal physical principles governing multivalent protein-DNA assemblies. We compare four valency states (bi-, tri-, tetra-, and no-patch) using three DNA lengths (800, 1200, and 1600 beads) and incrementally applied supercoiling stress. The simulations demonstrate that tri-patch systems achieve the maximum compaction efficiency and structural integrity, with proteins exhibiting the best performance when three binding sites are present. Tetra-patch systems show similar compaction but exhibit geometric frustration and increased asphericity. The study provides a quantitative framework for designing synthetic chromosome organizers and advancing applications in artificial chromosome packaging and protein condensate therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*DNA/chemistry",
+      "Nucleic Acid Conformation",
+      "Phase Separation",
+      "Binding Sites",
+      "*DNA, Superhelical/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aetizaz, Muhammad",
+        "Wei, Xuefeng",
+        "Zhuang, Wei"
+      ],
+      "short_names": [
+        "Aetizaz M",
+        "Wei X",
+        "Zhuang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5201-8486",
+        "ORCID: 0000-0002-6406-8210",
+        "ORCID: 0000-0003-4106-0985"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China.",
+        "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aetizaz, Muhammad",
+        "short_name": "Aetizaz M",
+        "identifiers": [
+          "0000-0002-5201-8486"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xuefeng",
+        "short_name": "Wei X",
+        "identifiers": [
+          "0000-0002-6406-8210"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Wei",
+        "short_name": "Zhuang W",
+        "identifiers": [
+          "0000-0003-4106-0985"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou 350002, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 18:33",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42081354",
+      "41111103",
+      "41755827",
+      "39044429",
+      "40766493",
+      "23912807",
+      "31710235",
+      "41411368",
+      "40954121",
+      "41505096",
+      "40744502",
+      "41573846",
+      "27705758",
+      "33139763",
+      "32822585",
+      "42126444",
+      "29538766",
+      "40661423",
+      "40184420",
+      "31629479",
+      "16392531",
+      "40172489",
+      "33667509",
+      "23620281",
+      "39541973",
+      "33672806",
+      "41587927",
+      "33577557",
+      "40848932",
+      "20481762",
+      "39109686",
+      "21368764",
+      "18310101",
+      "26345139",
+      "34352244",
+      "41177209",
+      "33980492",
+      "28191853",
+      "31106383",
+      "25563801",
+      "39146491",
+      "41371343",
+      "12060682",
+      "37988476",
+      "28108011",
+      "32175915",
+      "26575574",
+      "25167042",
+      "14990490",
+      "42089578",
+      "26575522",
+      "30514760",
+      "27482541",
+      "37470705",
+      "41855665",
+      "8744294",
+      "33309853",
+      "23416946",
+      "33568486",
+      "16100111",
+      "41609052",
+      "38359990",
+      "41758023",
+      "24003126",
+      "19758583",
+      "20174470",
+      "29140466",
+      "33594049",
+      "34309513",
+      "42258543",
+      "21247872",
+      "18826184",
+      "1518453",
+      "40782375",
+      "32250245",
+      "34639077",
+      "42105766",
+      "38547652",
+      "10962007",
+      "42231671",
+      "37292850",
+      "38592759",
+      "41316707",
+      "40098319",
+      "42223083",
+      "25653164",
+      "42129458",
+      "40516048",
+      "29547555",
+      "37705794",
+      "39874389",
+      "41652163",
+      "26400158",
+      "15342629",
+      "41891879",
+      "34001913",
+      "12086616",
+      "31950157",
+      "41705508",
+      "25311860"
+    ],
+    "review": [
+      "42081354",
+      "40172489",
+      "41587927",
+      "26345139",
+      "26575522",
+      "33309853",
+      "19758583",
+      "34639077",
+      "38547652",
+      "29547555"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0325391",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

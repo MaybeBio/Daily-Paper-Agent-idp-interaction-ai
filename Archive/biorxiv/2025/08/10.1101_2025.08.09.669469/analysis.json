@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.09.669469",
+  "title": "RESM: Capturing sequence and structure encoding of RNAs by mapped transfer learning from ESM (evolutionary scale modeling) protein language model",
+  "authors": "Yikun Zhang; Hao Zhang; Guo-Wei Li; He Wang; Xing Zhang; Xu Hong; Tingting Zhang; Liangsheng Wen; Yu Zhao; Jiuhong Jiang; Jie Chen; Yanjun Chen; Liwei Liu; Jian Zhan; Yaoqi Zhou",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-10",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用蛋白语言模型迁移学习预测RNA序列、结构与RNA-RNA互作，对象为RNA而非无序蛋白/IDR，且无PPI机制建模，仅方法迁移启发有限。",
+  "abstract": "RNA sequences exhibit lower evolutionary conservation than proteins due to their informationally constrained four-letter alphabet, compared to the 20-letter code of proteins. More limited information makes unsupervised learning of structural and functional evolutionary patterns more challenging from single RNA sequences. We overcame this limitation by mapping RNA sequences to pseudo-protein sequences to allow effective transfer training from a protein language model (protein Evolution-Scale Model 2, protESM-2). The resulting RNA ESM (RESM) outperforms 12 existing RNA language models in zero-shot prediction, not only in sequence classification but also in RNA secondary structure and RNA-RNA interaction prediction. Further supervised fine-tuning demonstrates RESM’s generalizability and superior performance over the existing models compared across multiple downstream tasks, including mRNA ribosome loading efficiency and gene expression prediction, despite RESM being trained exclusively on noncoding RNAs. Moreover, RESM can generalize to unseen sequences beyond its 1,024-nucleotide training limit, achieving 81.3% improvement over state-of-the-art methods in supervised secondary structure prediction for RNAs up to 4,000 nucleotides, limited only by the available GPU memory, while providing >1000-fold speedup compared to MSA-based approaches. RESM provides a robust foundation for deciphering RNA sequence-structure-function relationships, with broad implications for RNA biology.",
+  "abstract_zh": "RNA序列由于信息受限的四字母字母表，其进化保守性低于蛋白质，而蛋白质则采用20字母编码。更有限的信息使得从单一RNA序列中无监督学习结构和功能进化模式更具挑战性。我们通过将RNA序列映射为伪蛋白序列，从而能够有效利用蛋白质语言模型（protein Evolution-Scale Model 2, protESM-2）进行迁移训练，克服了这一限制。由此产生的RNA ESM（RESM）在零样本预测中优于12个现有RNA语言模型，不仅在序列分类方面，而且在RNA二级结构和RNA-RNA相互作用预测方面均表现出色。进一步的监督微调表明，尽管RESM仅基于非编码RNA训练，但其在多个下游任务中展现出泛化能力和优于现有模型的性能，包括mRNA核糖体装载效率和基因表达预测。此外，RESM能够泛化到超出其1,024核苷酸训练限制的未见序列，在长达4,000核苷酸的RNA监督二级结构预测中，相比最先进方法实现了81.3%的提升，仅受限于可用GPU内存，同时与基于MSA的方法相比提供超过1000倍的加速。RESM为解析RNA序列-结构-功能关系提供了坚实基础，对RNA生物学具有广泛意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.09.669469",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.09.669469",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.09.669469/index.html"
+}

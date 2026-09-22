@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39327869",
+    "doi": "10.1021/acs.jcim.4c00613",
+    "title": "Breaking Down the Bottlebrush: Atomically Detailed Structural Dynamics of Mucins."
+  },
+  "content": {
+    "abstract": "Mucins, the biomolecular components of mucus, are glycoproteins that form a thick physical barrier at all tissue-air interfaces, forming a first line of defense against pathogens. Structural features of mucins and their interactions with other biomolecules remain largely unexplored due to the challenges associated with their high-resolution characterization. Combining limited mass spectrometry glycomics and protein sequencing data, we present all-atom, explicitly solvated molecular dynamics simulations of a major respiratory mucin, MUC5B. We detail key forces and degrees of freedom imposed by the extensive O-glycosylation, which imbue the canonically observed bottlebrush-like structures to these otherwise intrinsically disordered protein backbones. We compare our simulation results to static structures observed in recent scanning tunneling microscopy experiments as well as other published experimental efforts. Our work represents the demonstration of a workflow applied to a mucin example, which we hope will be employed by other groups to investigate the dynamics and interactions of other mucins, which can inform on structural details currently inaccessible to experimental techniques.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Mucins/chemistry",
+      "Protein Conformation",
+      "Glycosylation",
+      "Humans",
+      "Mucin-5B/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kearns, Fiona L",
+        "Rosenfeld, Mia A",
+        "Amaro, Rommie E"
+      ],
+      "short_names": [
+        "Kearns FL",
+        "Rosenfeld MA",
+        "Amaro RE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5469-9035",
+        "ORCID: 0000-0002-9275-9553"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology, University of California San Diego, La Jolla, California 92093-0340, United States.",
+        "National Institute of Health, National Heart, Lung & Blood Institute, Bethesda, Maryland 20892, United States.",
+        "Department of Molecular Biology, University of California San Diego, La Jolla, California 92093-0340, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kearns, Fiona L",
+        "short_name": "Kearns FL",
+        "identifiers": [
+          "0000-0002-5469-9035"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, La Jolla, California 92093-0340, United States."
+        ]
+      },
+      {
+        "full_name": "Rosenfeld, Mia A",
+        "short_name": "Rosenfeld MA",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Health, National Heart, Lung & Blood Institute, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Amaro, Rommie E",
+        "short_name": "Amaro RE",
+        "identifiers": [
+          "0000-0002-9275-9553"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, La Jolla, California 92093-0340, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Oct 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/27 07:06",
+    "fetched_at": "2026-09-21 10:40:00"
+  },
+  "links": {
+    "cites": [
+      "42631193",
+      "42529429",
+      "42500610",
+      "42427486",
+      "42146628",
+      "42098121",
+      "41959057",
+      "41929003",
+      "41838488",
+      "41676917",
+      "41581870",
+      "41476084",
+      "41472654",
+      "41427734",
+      "41139130",
+      "41124113",
+      "40784456",
+      "40667337",
+      "40178205",
+      "39763838"
+    ],
+    "refs": [
+      "38815979",
+      "38024407",
+      "37824645",
+      "37794035",
+      "36555445",
+      "35725833",
+      "35345395",
+      "35247390",
+      "35037700",
+      "34282822",
+      "34210959",
+      "33184103",
+      "33106676",
+      "33087899",
+      "32752662",
+      "32243763",
+      "31908009",
+      "31758042",
+      "31715083",
+      "30910957",
+      "30858582",
+      "30703750",
+      "30689864",
+      "30618016",
+      "30574787",
+      "30431338",
+      "30296390",
+      "29999426",
+      "29903935",
+      "29802217",
+      "29440393",
+      "28859985",
+      "28607090",
+      "28052300",
+      "27819658",
+      "26627148",
+      "26606240",
+      "26527287",
+      "26420872",
+      "26318196",
+      "25497369",
+      "24886523",
+      "24821013",
+      "24685676",
+      "23832629",
+      "23584533",
+      "22951447",
+      "22722607",
+      "22183981",
+      "21572516",
+      "21500218",
+      "20946627",
+      "20161005",
+      "20089172",
+      "19935676",
+      "19818375",
+      "19079178",
+      "19045004",
+      "18351591",
+      "16904320",
+      "16371599",
+      "16222654",
+      "15814823",
+      "15274643",
+      "15194565",
+      "14681689",
+      "12823989",
+      "12175243",
+      "11777921",
+      "11578969",
+      "9756896",
+      "9092502",
+      "8744570",
+      "3800974",
+      "863904",
+      "863903"
+    ],
+    "similar": [
+      "39327869",
+      "27791356",
+      "33184103",
+      "11802783",
+      "9451015",
+      "9729478",
+      "17293373",
+      "10024529",
+      "10024667",
+      "29802217",
+      "9083100",
+      "30923042",
+      "17220477",
+      "11842927",
+      "26066491",
+      "14678646",
+      "15814823",
+      "37894512",
+      "18339669",
+      "11158014",
+      "33190061",
+      "22663354",
+      "12386453",
+      "20946627",
+      "19783639",
+      "31758042",
+      "14988081",
+      "34548396",
+      "36753925",
+      "31908009",
+      "30154090",
+      "11445551",
+      "10835316",
+      "26993521",
+      "35486871",
+      "38984456",
+      "24840470",
+      "9147051",
+      "35418571",
+      "11744631",
+      "23765378",
+      "10908637",
+      "9693131",
+      "35776514",
+      "24010726",
+      "23912807",
+      "23876800",
+      "1449803",
+      "18931053",
+      "15563276",
+      "26414376",
+      "21112274",
+      "32991816",
+      "17290356",
+      "19051309",
+      "25264771",
+      "18426393",
+      "16113413",
+      "12616207",
+      "11853536",
+      "21264968",
+      "12626424",
+      "33198975",
+      "24778189",
+      "11825880",
+      "23752712",
+      "31180129",
+      "31030254",
+      "14758553",
+      "17063754",
+      "21602926",
+      "11602588",
+      "1415719",
+      "9790959",
+      "1823156",
+      "11350794",
+      "11996097",
+      "28301166",
+      "16143194",
+      "24821013",
+      "28607090",
+      "22815896",
+      "16371599",
+      "28716644",
+      "37349833",
+      "32326134",
+      "16540890",
+      "11943022",
+      "33031746",
+      "9579805",
+      "15994837",
+      "17255563",
+      "38935605",
+      "35278522",
+      "32243763",
+      "35091141",
+      "9634890",
+      "35077869",
+      "25793390",
+      "17392389"
+    ],
+    "review": [
+      "39327869",
+      "33184103",
+      "29802217",
+      "11842927",
+      "37894512",
+      "12386453",
+      "36753925",
+      "30154090",
+      "23765378",
+      "1449803",
+      "17290356",
+      "16113413",
+      "23752712",
+      "1415719",
+      "1823156",
+      "11996097",
+      "24821013",
+      "16371599",
+      "35278522",
+      "32243763"
+    ],
+    "pmc": [
+      "11523070"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39327869/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6fm7c11n",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00613",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

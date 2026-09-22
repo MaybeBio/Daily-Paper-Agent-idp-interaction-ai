@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, materials and methods) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors report that α-synuclein (αSyn) membrane binding is jointly regulated by membrane phase, charge, and curvature. They report preferential binding of αSyn to zwitterionic gel-phase membranes at high curvature, attributed to curvature-dependent packing defects from faceted vesicle morphology. They report that anionic lipids enhance binding in liquid-phase membranes but attenuate curvature-dependent partitioning in gel-phase membranes. They report that gel-phase membranes and anionic lipids promote kinetically stabilized αSyn states, and that coarse-grained simulations show curvature-induced defect formation is amplified in gel-phase membranes but largely insensitive to charge.
+- **Visible evidence base** Fluorescence microscopy of vesicle binding, circular dichroism spectroscopy (single temperature and temperature ramps), FRAP measurements, cryo-electron microscopy of vesicle morphology, fluorescence anisotropy for melting temperature determination, and coarse-grained Martini 3 molecular dynamics simulations of flat and buckled bilayers
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided. Numerical values for binding quantifications, FRAP parameters, and simulation outputs are not available. Statistical details (replicates, error bars, significance tests) are not described in the text. The GitHub repository for simulation code is referenced but not accessible from the provided material.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant question in the α-synuclein membrane binding field, namely the combined effects of membrane phase, charge, and curvature on binding dynamics. The experimental design is thoughtful, combining multiple biophysical techniques with coarse-grained simulations. The central claim that gel-phase membranes exhibit enhanced curvature-dependent defect formation, which drives αSyn binding, is mechanistically plausible and supported by the qualitative description of the data. However, the manuscript as presented has several important limitations. The absence of quantitative data presentation, statistical analysis, and figure inspection prevents full evaluation of the strength of the claims. The interpretation of FRAP data, particularly the separation of mobile and immobile fractions and the meaning of the normalized initial rate, requires more careful justification. The simulation results, while qualitatively consistent, are not quantitatively linked to the experimental observations. The hysteresis observed in DPPC/DPPA membranes is intriguing but not fully explained. Overall, the work has potential, but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein membrane interactions, particularly those interested in the physicochemical determinants of binding. The work is also relevant to the broader community studying protein-lipid interactions, membrane curvature sensing, and the role of membrane physical properties in protein aggregation and neurodegeneration. The methodological combination of fluorescence assays, CD spectroscopy, cryoEM, and coarse-grained simulations may be of interest to biophysicists working on membrane-protein systems.
+- **Major strengths** 1. The systematic combination of membrane phase, charge, and curvature in a single study addresses a gap in the literature. 2. The use of multiple complementary techniques (fluorescence microscopy, CD, FRAP, cryoEM, MD simulations) provides a multi-scale view of the binding process. 3. The mechanistic interpretation linking faceted gel-phase vesicle morphology to defect formation and enhanced binding is compelling and testable. 4. The inclusion of dynamic measurements (FRAP) goes beyond equilibrium binding and provides insight into the kinetic stability of bound states. 5. The use of N-terminally acetylated αSyn, the physiologically relevant form, strengthens the biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that αSyn preferentially binds highly curved gel-phase membranes over liquid-phase membranes under zwitterionic conditions, and that anionic lipids invert this preference.
+  - **Evidence pointer** Figure 1D, Supplementary Figures S1–S5, location not provided
+  - **Concern** The quantitative basis for this central claim is not presented in the text. No numerical values for binding extent, fold-differences, or statistical significance are given. The reader cannot assess the magnitude of the reported effects or the reliability of the differences between conditions.
+  - **Why it matters** The phase-dependent binding preference and its inversion by anionic lipids is the foundational observation of the manuscript. Without quantitative data and statistical support, the strength of this claim cannot be evaluated.
+  - **Resolution test** Provide quantitative binding data (e.g., mean fluorescence intensity per vesicle, bound protein number per vesicle, or similar) with appropriate statistical tests (e.g., ANOVA with post-hoc comparisons) for all conditions compared. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors claim that FRAP measurements reveal that gel-phase membranes and anionic lipids promote kinetically stabilized states of membrane-associated αSyn, and that anionic lipids reshape curvature-dependent exchange kinetics in a phase-dependent manner.
+  - **Evidence pointer** Figure 5, location not provided
+  - **Concern** The FRAP analysis relies on a two-component model (mobile and immobile fractions) with distinct off-rates. The justification for this model, the assignment of components, and the interpretation of the normalized initial rate (xm × koff) as an overall recovery rate are not fully explained. The relationship between the fitted parameters and the physical processes of αSyn unbinding and exchange is not established. The claim that anionic lipids "reshape curvature-dependent exchange kinetics" is based on comparisons across conditions, but the statistical significance of these differences is not reported.
+  - **Why it matters** The dynamic measurements are a key differentiator of this work from prior equilibrium binding studies. If the FRAP model is not appropriately justified or the parameters are not robustly estimated, the conclusions about kinetic stabilization are not reliable.
+  - **Resolution test** Provide a detailed description of the FRAP model, including the equations used, the fitting procedure, and the criteria for model selection. Report fitted parameters (xm, koff, koff,i) with uncertainties for all conditions. Justify the interpretation of xm × koff as a meaningful kinetic parameter. Perform and report statistical comparisons across conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative link
+  - **Claim pointer** The authors claim that coarse-grained simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge, providing a structural basis for the experimental observations.
+  - **Evidence pointer** Figure 3, Supplementary Figures S7–S11, location not provided
+  - **Concern** The simulation results are described qualitatively. No quantitative measures of defect density, defect size distributions, or curvature-dependent enrichment are provided. The link between the simulation observables and the experimental binding measurements is not quantified. The claim that simulations "provide a structural basis" for the experimental observations requires a more direct comparison, such as correlating simulated defect density with experimental binding affinity or partitioning.
+  - **Why it matters** The simulations are used to support the mechanistic interpretation of the experimental data. Without quantitative simulation outputs and a clear link to the experimental observables, the strength of this support is limited.
+  - **Resolution test** Provide quantitative simulation results, such as defect density as a function of curvature and composition, with appropriate statistics. Where possible, correlate simulation-derived quantities with experimental binding measurements. Discuss any discrepancies between simulation and experiment, such as the lack of charge effects on defects in simulations versus the strong charge effects in experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors report hysteresis in αSyn binding to DPPC/DPPA membranes during heating-cooling cycles, with stronger binding during cooling.
+  - **Evidence pointer** Figure 6F, Supplementary Figures S17–S20, location not provided
+  - **Concern** The hysteresis phenomenon is reported but not mechanistically explained. The authors suggest it may arise from differences in membrane state during initial engagement, but this is speculative. The implications of this hysteresis for the understanding of αSyn-membrane interactions are not discussed.
+  - **Why it matters** Hysteresis is an interesting and potentially important observation, but without a mechanistic explanation or discussion of its implications, it remains an unexplained curiosity.
+  - **Resolution test** Provide a more detailed discussion of the hysteresis, including potential mechanisms (e.g., membrane reorganization, protein-induced changes, kinetic trapping). If possible, perform additional experiments to distinguish between these possibilities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, SUV preparation
+  - **Evidence pointer** Methods section, "SUV Preparation", location not provided
+  - **Issue** The list of lipid compositions for vesicle preparation is presented as a continuous string of percentages without clear separation between different compositions. This is difficult to parse.
+  - **Required correction** Present each lipid composition as a separate bullet point or in a table for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, cryo-EM
+  - **Evidence pointer** Methods section, "Cryo-Electron Microscopy", location not provided
+  - **Issue** The pixel size is reported as "0.73 Å/ Å/pixel", which appears to contain a typographical error.
+  - **Required correction** Correct the pixel size unit, likely to "0.73 Å/pixel".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results section, "Curvature disproportionately enriches packing defects in gel-phase membranes", location not provided
+  - **Issue** The text states "Figure 4" is referenced in the results section, but the figure is not described in the text. The reader is directed to a figure that is not explained.
+  - **Required correction** Ensure all figures are described in the text and that figure numbers are correctly referenced.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The statement "the smaller PA headgroup may permit tighter αSyn engagement with defect-rich regions" is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the language or provide additional evidence to support this claim.
+- **Technical failings that need to be addressed before the case is established** 1. Absence of quantitative data and statistical analysis for the central binding claims (R1-M1). 2. Inadequate justification and description of the FRAP model and its parameters (R1-M2). 3. Lack of quantitative simulation results and a direct link to experimental observables (R1-M3). 4. Unexplained hysteresis observation (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its systematic combination of phase, charge, and curvature, and in its focus on dynamic binding behavior. However, individual components (phase effects, charge effects, curvature effects) have been studied before. The novelty lies in the integration. **Scientific importance:** The question of how membrane physical properties jointly regulate αSyn binding is important for understanding both physiological function and pathological aggregation. The findings have potential implications for understanding age-related changes in membrane composition and their link to synucleinopathies. **Interdisciplinary readership:** The work bridges biophysics, membrane biology, and neurodegeneration research. It should appeal to readers in these fields. **Technical soundness:** The experimental techniques are appropriate and well-established. The simulation approach is reasonable. However, the lack of quantitative data and statistical analysis is a significant weakness that prevents full assessment of technical soundness. **Readability for nonspecialists:** The manuscript is generally well-written and accessible. The concepts are explained clearly. However, some sections, particularly the simulation methods, may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is sound. However, the manuscript in its current form does not provide sufficient quantitative evidence to fully establish the claims. The authors must provide the missing data, statistical analyses, and more detailed descriptions of their methods and models to make the case convincing.

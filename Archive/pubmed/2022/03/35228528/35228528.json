@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "35228528",
+    "doi": "10.1038/s41413-022-00193-1",
+    "title": "Generation of functional oligopeptides that promote osteogenesis based on unsupervised deep learning of protein IDRs."
+  },
+  "content": {
+    "abstract": "Deep learning (DL) is currently revolutionizing peptide drug development due to both computational advances and the substantial recent expansion of digitized biological data. However, progress in oligopeptide drug development has been limited, likely due to the lack of suitable datasets and difficulty in identifying informative features to use as inputs for DL models. Here, we utilized an unsupervised deep learning model to learn a semantic pattern based on the intrinsically disordered regions of ~171 known osteogenic proteins. Subsequently, oligopeptides were generated from this semantic pattern based on Monte Carlo simulation, followed by in vivo functional characterization. A five amino acid oligopeptide (AIB5P) had strong bone-formation-promoting effects, as determined in multiple mouse models (e.g., osteoporosis, fracture, and osseointegration of implants). Mechanistically, we showed that AIB5P promotes osteogenesis by binding to the integrin alpha5 subunit and thereby activating FAK signaling. In summary, we successfully established an oligopeptide discovery strategy based on a DL model and demonstrated its utility from cytological screening to animal experimental verification.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Mingxiang",
+        "Xiao, Baichuan",
+        "Jin, Fujun",
+        "Xu, Xiaopeng",
+        "Hua, Yuwei",
+        "Li, Junhui",
+        "Niu, Pingping",
+        "Liu, Meijing",
+        "Wu, Jiaqi",
+        "Yue, Rui",
+        "Zhang, Yong",
+        "Wang, Zuolin",
+        "Zhang, Yongbiao",
+        "Wang, Xiaogang",
+        "Sun, Yao"
+      ],
+      "short_names": [
+        "Cai M",
+        "Xiao B",
+        "Jin F",
+        "Xu X",
+        "Hua Y",
+        "Li J",
+        "Niu P",
+        "Liu M",
+        "Wu J",
+        "Yue R",
+        "Zhang Y",
+        "Wang Z",
+        "Zhang Y",
+        "Wang X",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4323-0506"
+      ],
+      "affiliations": [
+        "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China.",
+        "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China.",
+        "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China.",
+        "Guangzhou Laboratory, Bioland Laboratory, Guangzhou Regenerative Medicine and Health Guangdong Laboratory, Guangzhou, 510320, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China.",
+        "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China. zuolin@tongji.edu.cn.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China. zhangyongbiao@gmail.com.",
+        "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China. xiaogangwang@buaa.edu.cn.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China. xiaogangwang@buaa.edu.cn.",
+        "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China. yaosun@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Mingxiang",
+        "short_name": "Cai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China.",
+          "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Baichuan",
+        "short_name": "Xiao B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Fujun",
+        "short_name": "Jin F",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China.",
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaopeng",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Laboratory, Bioland Laboratory, Guangzhou Regenerative Medicine and Health Guangdong Laboratory, Guangzhou, 510320, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Yuwei",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junhui",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Pingping",
+        "short_name": "Niu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meijing",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiaqi",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Rui",
+        "short_name": "Yue R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zuolin",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China. zuolin@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongbiao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China. zhangyongbiao@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaogang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Jinan University, School of Stomatology, Clinical Research Platform for Interdiscipline of Stomatology, Jinan University, Guangzhou, 510630, China. xiaogangwang@buaa.edu.cn.",
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, 100191, China. xiaogangwang@buaa.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Sun, Yao",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0002-4323-0506"
+        ],
+        "affiliations": [
+          "Department of Oral Implantology, School of Stomatology, Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration, Shanghai, 200072, China. yaosun@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bone research"
+    ],
+    "journal_abbrev": [
+      "Bone Res"
+    ],
+    "pub_date": "2022 Mar 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/02 06:00",
+    "fetched_at": "2026-09-20 08:40:40"
+  },
+  "links": {
+    "cites": [
+      "41937211",
+      "40151569",
+      "39734571",
+      "39618007",
+      "39474995",
+      "38164350",
+      "37637084"
+    ],
+    "refs": [
+      "34265844",
+      "33601085",
+      "33194509",
+      "32855388",
+      "32814879",
+      "32694877",
+      "32237272",
+      "31913286",
+      "31907444",
+      "31771969",
+      "31543265",
+      "31497837",
+      "31487581",
+      "31238004",
+      "30682874",
+      "30183253",
+      "29395804",
+      "29244479",
+      "28846804",
+      "28338354",
+      "27053299",
+      "26041708",
+      "26000490",
+      "25531225",
+      "25450771",
+      "25220455",
+      "25034128",
+      "24953181",
+      "24773235",
+      "24606139",
+      "23358353",
+      "22566152",
+      "21958321",
+      "21868845",
+      "21659568",
+      "19843692",
+      "19039133"
+    ],
+    "similar": [
+      "35228528",
+      "30682874",
+      "30557698",
+      "33406091",
+      "22566152",
+      "29490668",
+      "28159719",
+      "33504916",
+      "26845124",
+      "15040834",
+      "34180039",
+      "27179590",
+      "31756456",
+      "31797595",
+      "33248138",
+      "23912807",
+      "34418423",
+      "29533735",
+      "33645251",
+      "31678738",
+      "1289254",
+      "30689334",
+      "33435114",
+      "21352093",
+      "29790378",
+      "29786349",
+      "34626492",
+      "34492371",
+      "33150771",
+      "30866736",
+      "30143635",
+      "24591126",
+      "32161228",
+      "27555216",
+      "23775982",
+      "34905768",
+      "31240956",
+      "32535960",
+      "29563069",
+      "34857268",
+      "32800340",
+      "33866372",
+      "33806614",
+      "32814879",
+      "34823885",
+      "33191750",
+      "32109901",
+      "30458456",
+      "32990765",
+      "30151888",
+      "25391399",
+      "27915020",
+      "22403648",
+      "28338354",
+      "28045483",
+      "31207240",
+      "27006466",
+      "29514703",
+      "32566094",
+      "16182543",
+      "29259089",
+      "23074475",
+      "35144641",
+      "27620656",
+      "33047358",
+      "29079514",
+      "34390736",
+      "31352938",
+      "32094256",
+      "23142703",
+      "24027208",
+      "18972839",
+      "32824743",
+      "33255064"
+    ],
+    "review": [
+      "35228528",
+      "33248138",
+      "34418423",
+      "21352093",
+      "29786349",
+      "33150771",
+      "28338354",
+      "16182543",
+      "34390736",
+      "31352938"
+    ],
+    "pmc": [
+      "8885677"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41413-022-00193-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35228528/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35228528",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1785",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

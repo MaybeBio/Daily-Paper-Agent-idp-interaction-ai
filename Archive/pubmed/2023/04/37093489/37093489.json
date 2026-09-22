@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "37093489",
+    "doi": "10.1007/978-1-0716-3147-8_23",
+    "title": "Nuclear Magnetic Resonance-Guided Structural Analysis of Moderate-Affinity Protein Complexes with Intrinsically Disordered Polypeptides."
+  },
+  "content": {
+    "abstract": "Binding affinity of an individual binding site of an intrinsically disordered protein for its folded partner may be moderate. In such cases, a straightforward determination of the structure of the binding interface is difficult. We offer a hybrid protocol combining NMR chemical shift information, NMR spectral data on amino acid residue sequence substitution effects, residual dipolar coupling, and molecular dynamics simulation that allowed us to determine the structure of a complex between the intrinsically disordered tropomyosin-binding site of leiomodin and a coiled-coil peptide modeling the N-terminal fragment of tropomyosin. The protocol can be used for other moderate-affinity complexes composed of an intrinsically disordered peptide bound to a structured protein partner.",
+    "keywords": [
+      "Complex",
+      "Expression tag",
+      "Intrinsically disordered proteins",
+      "Leiomodin",
+      "Molecular dynamics simulation",
+      "Nuclear magnetic resonance",
+      "Structure",
+      "Tropomyosin"
+    ],
+    "mesh_terms": [
+      "*Tropomyosin/chemistry/metabolism",
+      "Nuclear Magnetic Resonance, Biomolecular/methods",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Peptides/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tolkatchev, Dmitri",
+        "Smith, Garry E Jr",
+        "Kostyukova, Alla S"
+      ],
+      "short_names": [
+        "Tolkatchev D",
+        "Smith GE Jr",
+        "Kostyukova AS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA. dmitri.tolkatchev@wsu.edu.",
+        "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA.",
+        "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tolkatchev, Dmitri",
+        "short_name": "Tolkatchev D",
+        "identifiers": [],
+        "affiliations": [
+          "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA. dmitri.tolkatchev@wsu.edu."
+        ]
+      },
+      {
+        "full_name": "Smith, Garry E",
+        "short_name": "Smith GE",
+        "identifiers": [],
+        "affiliations": [
+          "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Kostyukova, Alla S",
+        "short_name": "Kostyukova AS",
+        "identifiers": [],
+        "affiliations": [
+          "Voiland School of Chemical Engineering and Bioengineering, Washington State University, Pullman, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/24 12:42",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34273242",
+      "33380110",
+      "33206408",
+      "32898131",
+      "31724711",
+      "31521234",
+      "29956268",
+      "29413001",
+      "29306779",
+      "29105867",
+      "27307584",
+      "26873245",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25061212",
+      "24293656",
+      "24184090",
+      "22582031",
+      "21904035",
+      "19846313",
+      "19548092",
+      "18359860",
+      "17406547",
+      "16957316",
+      "15040978",
+      "11885978",
+      "9563940"
+    ],
+    "similar": [
+      "37093489",
+      "28780862",
+      "25207671",
+      "30471686",
+      "27844185",
+      "31617035",
+      "30471706",
+      "28834051",
+      "26873245",
+      "25367087",
+      "33269926",
+      "16999976",
+      "11575936",
+      "29705209",
+      "27082063",
+      "27653629",
+      "19170537",
+      "24656082",
+      "26387101",
+      "30840442",
+      "38409704",
+      "32933064",
+      "29492731",
+      "29276882",
+      "32696383",
+      "35474152",
+      "35245815",
+      "34633390",
+      "30554840",
+      "29105867",
+      "30527137",
+      "23794453",
+      "24410358",
+      "38037490",
+      "26891900",
+      "22424482",
+      "30471688",
+      "36201530",
+      "29808548",
+      "28734076",
+      "30414042",
+      "30316104",
+      "17706248",
+      "12534273",
+      "24071513",
+      "31676138",
+      "31657215",
+      "32696373",
+      "32696365",
+      "38251829",
+      "26387102",
+      "32074499",
+      "27272236",
+      "26403428",
+      "31297688",
+      "30204435",
+      "35920752",
+      "29790640",
+      "29399725",
+      "26479087",
+      "31598803",
+      "24366473",
+      "24333248",
+      "26387098",
+      "34415548",
+      "37499445",
+      "10569928",
+      "28877484",
+      "28799215",
+      "30240067",
+      "32696363",
+      "25533957",
+      "28502465",
+      "26387103",
+      "23545493",
+      "24656084",
+      "30489014",
+      "22821528",
+      "16061251",
+      "32696364",
+      "24115372",
+      "28355271",
+      "27727496",
+      "27766502",
+      "33730325",
+      "30471704",
+      "26387110",
+      "37607621",
+      "35053175",
+      "9601044",
+      "24604825",
+      "28857320",
+      "32696390",
+      "28398197",
+      "30175546",
+      "24008243",
+      "39353179",
+      "26138689",
+      "26282620",
+      "27288992",
+      "27586017",
+      "37573815",
+      "35912826",
+      "33184256",
+      "35025504",
+      "36209362",
+      "36478084",
+      "39345459"
+    ],
+    "review": [
+      "37093489",
+      "31617035",
+      "29705209",
+      "24656082",
+      "26387101",
+      "30840442",
+      "38409704",
+      "30527137",
+      "23794453",
+      "30316104",
+      "26387102",
+      "26387098",
+      "37499445",
+      "28502465",
+      "26387103",
+      "23545493",
+      "24656084",
+      "30489014",
+      "26387110",
+      "35053175",
+      "24008243",
+      "37573815",
+      "35025504"
+    ],
+    "pmc": [
+      "11273159"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37093489/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-3147-8_23",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

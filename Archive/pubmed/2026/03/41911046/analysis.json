@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41911046",
+  "title": "Physicochemical Principles Governing the Intrinsically Disordered Salivary Peptide Histatin 5: Ensemble Structure, Electrostatics, and Environmental Responsiveness.",
+  "authors": "Svensson, Oskar; Lenton, Samuel; Skepo, Marie",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-03-30",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了无序唾液肽Histatin 5的构象系综、静电与环境响应性，虽以IDP为对象并涉及模拟与机器学习方法，但未聚焦PPI互作机制建模，故综合评分为6。",
+  "abstract": "Histatin 5 (Hst5) is a histidine-rich intrinsically disordered protein (IDP) whose biological function arises from a highly heterogeneous conformational ensemble and environmental sensitivity. Unlike structured antimicrobial peptides that rely on persistent secondary motifs, Hst5 remains disordered across a wide range of conditions, enabling continuous adaptation to changes in pH, ionic strength, metal-ion concentration, macromolecular crowding, and interfaces such as membranes and mineral surfaces. Recent advances in small-angle X-ray scattering (SAXS), neutron-based methods, and surface-sensitive techniques, combined with computer simulations, have allowed quantitative characterization of Hst5's ensemble structure, thermodynamics, and interactions. This work synthesizes current understanding of how intrinsic disorder, charge regulation, histidine chemistry, and multiscale interactions govern Hst5 behavior. Beyond its biological relevance, Hst5 has emerged as a benchmark system for elucidating general physicochemical principles of IDPs and for testing integrative and machine-learning approaches that map sequence features to ensemble architecture.",
+  "abstract_zh": "组蛋白5（Hst5）是一种富含组氨酸的固有无序蛋白（IDP），其生物学功能源于高度异质的构象集合体及环境敏感性。与依赖持久二级结构基序的结构性抗菌肽不同，Hst5在广泛条件下保持无序状态，使其能够持续适应pH值、离子强度、金属离子浓度、大分子拥挤效应以及膜和矿物表面等界面的变化。小角X射线散射（SAXS）、中子基方法及表面敏感技术的最新进展，结合计算机模拟，已实现对Hst5集合体结构、热力学性质及相互作用的定量表征。本工作综合了当前关于固有无序性、电荷调控、组氨酸化学及多尺度相互作用如何主导Hst5行为的理解。除其生物学相关性外，Hst5已成为阐明IDPs通用物理化学原理及测试将序列特征映射至集合体架构的整合性与机器学习方法的基准系统。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41911046/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41911046/",
+  "paper_page_path": "papers/pubmed/41911046/index.html"
+}

@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "33419008",
+    "doi": "10.3390/polym13020176",
+    "title": "Effect of the Water Model in Simulations of Protein-Protein Recognition and Association."
+  },
+  "content": {
+    "abstract": "We study self-association of ubiquitin and the disordered protein ACTR using the most commonly used water models. We find that dissociation events are found only with TIP4P-EW and TIP4P/2005, while the widely used TIP3P water model produces straightforward aggregation of the molecules due to the absence of dissociation events. We also find that TIP4P/2005 is the only water model that reproduces the fast association/dissociation dynamics of ubiquitin and best identifies its binding surface. Our results show the critical role of the water model in the description of protein-protein interactions and binding.",
+    "keywords": [
+      "ACTR",
+      "molecular dynamics",
+      "protein association",
+      "protein-protein interaction",
+      "ubiquitin",
+      "water model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Emperador, Agusti",
+        "Crehuet, Ramon",
+        "Guardia, Elvira"
+      ],
+      "short_names": [
+        "Emperador A",
+        "Crehuet R",
+        "Guardia E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8441-1821",
+        "ORCID: 0000-0002-6687-382X",
+        "ORCID: 0000-0002-4569-534X"
+      ],
+      "affiliations": [
+        "Department of Physics, Universitat Politecnica de Catalunya, B4-B5 Campus Nord, Jordi Girona 1-3, 08034 Barcelona, Spain.",
+        "CSIC-Institute for Advanced Chemistry of Catalonia (IQAC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Physics, Universitat Politecnica de Catalunya, B4-B5 Campus Nord, Jordi Girona 1-3, 08034 Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Emperador, Agustí",
+        "short_name": "Emperador A",
+        "identifiers": [
+          "0000-0002-8441-1821"
+        ],
+        "affiliations": [
+          "Department of Physics, Universitat Politècnica de Catalunya, B4-B5 Campus Nord, Jordi Girona 1-3, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Crehuet, Ramon",
+        "short_name": "Crehuet R",
+        "identifiers": [
+          "0000-0002-6687-382X"
+        ],
+        "affiliations": [
+          "CSIC-Institute for Advanced Chemistry of Catalonia (IQAC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Guàrdia, Elvira",
+        "short_name": "Guàrdia E",
+        "identifiers": [
+          "0000-0002-4569-534X"
+        ],
+        "affiliations": [
+          "Department of Physics, Universitat Politècnica de Catalunya, B4-B5 Campus Nord, Jordi Girona 1-3, 08034 Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Polymers"
+    ],
+    "journal_abbrev": [
+      "Polymers (Basel)"
+    ],
+    "pub_date": "2021 Jan 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/10 06:00",
+    "fetched_at": "2026-09-20 00:35:30"
+  },
+  "links": {
+    "cites": [
+      "42172087",
+      "41563670",
+      "41357101",
+      "41113607",
+      "40556275",
+      "40038074",
+      "39607409",
+      "39421030",
+      "39210596",
+      "38979319",
+      "38892222",
+      "38539725",
+      "38115916",
+      "35163968",
+      "34883675"
+    ],
+    "refs": [
+      "31241940",
+      "27819658",
+      "26023027",
+      "25764013",
+      "25400522",
+      "24854339",
+      "23503848",
+      "22109817",
+      "20536262",
+      "20408171",
+      "16392929",
+      "15267980"
+    ],
+    "similar": [
+      "33419008",
+      "28967755",
+      "26606367",
+      "31941316",
+      "17461659",
+      "32301326",
+      "26588552",
+      "16863358",
+      "29648448",
+      "15836229",
+      "30128211",
+      "21845272",
+      "18624539",
+      "16863319",
+      "16321097",
+      "37909448",
+      "19227361",
+      "18052365",
+      "26633225",
+      "27878168",
+      "24820859",
+      "25584483",
+      "24811640",
+      "22482537",
+      "30528464",
+      "15267980",
+      "19947683",
+      "34883675",
+      "21038907",
+      "23277945",
+      "31703484",
+      "16238404",
+      "28249439",
+      "29104751",
+      "22651887",
+      "20707575",
+      "28228035",
+      "27052117",
+      "24460479",
+      "19086867",
+      "26588971",
+      "25399183",
+      "22443635",
+      "15847482",
+      "20866096",
+      "19586124",
+      "15267560",
+      "20113070",
+      "26298139",
+      "21456696",
+      "24620851",
+      "16080767",
+      "29850695",
+      "30553262",
+      "20504009",
+      "27243806",
+      "21303091",
+      "25764013",
+      "31002505",
+      "16999507",
+      "23786631",
+      "26617103",
+      "26598169",
+      "22443789",
+      "24422512",
+      "24425498",
+      "26979692",
+      "20121175",
+      "19283272",
+      "26574247",
+      "18975879",
+      "26562747",
+      "26593014",
+      "30408972",
+      "26633220",
+      "21927736",
+      "16942231",
+      "28045157",
+      "31314516",
+      "22320214",
+      "20361773"
+    ],
+    "review": [
+      "33419008"
+    ],
+    "pmc": [
+      "7825341"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=polym13020176",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33419008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33419008",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33419008",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "33741410",
+    "doi": "10.1016/j.jmb.2021.166931",
+    "title": "Unstructural Biology of TRP Ion Channels: The Role of Intrinsically Disordered Regions in Channel Function and Regulation."
+  },
+  "content": {
+    "abstract": "The first genuine high-resolution single particle cryo-electron microscopy structure of a membrane protein determined was a transient receptor potential (TRP) ion channel, TRPV1, in 2013. This methodical breakthrough opened up a whole new world for structural biology and ion channel aficionados alike. TRP channels capture the imagination due to the sheer endless number of tasks they carry out in all aspects of animal physiology. To date, structures of at least one representative member of each of the six mammalian TRP channel subfamilies as well as of a few non-mammalian families have been determined. These structures were instrumental for a better understanding of TRP channel function and regulation. However, all of the TRP channel structures solved so far are incomplete since they miss important information about highly flexible regions found mostly in the channel N- and C-termini. These intrinsically disordered regions (IDRs) can represent between a quarter to almost half of the entire protein sequence and act as important recruitment hubs for lipids and regulatory proteins. Here, we analyze the currently available TRP channel structures with regard to the extent of these \"missing\" regions and compare these findings to disorder predictions. We discuss select examples of intra- and intermolecular crosstalk of TRP channel IDRs with proteins and lipids as well as the effect of splicing and post-translational modifications, to illuminate their importance for channel function and to complement the prevalently discussed structural biology of these versatile and fascinating proteins with their equally relevant 'unstructural' biology.",
+    "keywords": [
+      "TRP channel sensitization and inhibition",
+      "alternative splicing",
+      "disorder predictions",
+      "post-translational modification",
+      "protein and lipid interactions"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cryoelectron Microscopy/methods",
+      "Humans",
+      "Lipids/chemistry",
+      "Mammals/metabolism",
+      "Protein Processing, Post-Translational/physiology",
+      "Proteins/metabolism",
+      "RNA Splicing/physiology",
+      "Transient Receptor Potential Channels/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goretzki, Benedikt",
+        "Guhl, Charlotte",
+        "Tebbe, Frederike",
+        "Harder, Jean-Martin",
+        "Hellmich, Ute A"
+      ],
+      "short_names": [
+        "Goretzki B",
+        "Guhl C",
+        "Tebbe F",
+        "Harder JM",
+        "Hellmich UA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany.",
+        "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany; TransMED - Mainz Research School of Translational Medicine, Johannes Gutenberg-University, University Medical Center, Langenbeckstr. 1, 55131 Mainz, Germany.",
+        "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany.",
+        "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany.",
+        "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany; TransMED - Mainz Research School of Translational Medicine, Johannes Gutenberg-University, University Medical Center, Langenbeckstr. 1, 55131 Mainz, Germany; Cluster of Excellence Balance of the Microverse, Friedrich-Schiller-University, 07743 Jena, Germany. Electronic address: ute.hellmich@uni-jena.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Goretzki, Benedikt",
+        "short_name": "Goretzki B",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Guhl, Charlotte",
+        "short_name": "Guhl C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany; TransMED - Mainz Research School of Translational Medicine, Johannes Gutenberg-University, University Medical Center, Langenbeckstr. 1, 55131 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Tebbe, Frederike",
+        "short_name": "Tebbe F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Harder, Jean-Martin",
+        "short_name": "Harder JM",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "Hellmich, Ute A",
+        "short_name": "Hellmich UA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Friedrich-Schiller-University, Humboldtstrasse 10, 07743 Jena, Germany; Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe-University, Max-von-Laue-Strasse 9, 60438 Frankfurt, Germany; TransMED - Mainz Research School of Translational Medicine, Johannes Gutenberg-University, University Medical Center, Langenbeckstr. 1, 55131 Mainz, Germany; Cluster of Excellence Balance of the Microverse, Friedrich-Schiller-University, 07743 Jena, Germany. Electronic address: ute.hellmich@uni-jena.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Aug 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/21 06:00",
+    "fetched_at": "2026-09-20 02:06:52"
+  },
+  "links": {
+    "cites": [
+      "41839059",
+      "41555550",
+      "41542395",
+      "41212053",
+      "41028712",
+      "40905854",
+      "39909371",
+      "39757673",
+      "39713425",
+      "39363236",
+      "39120305",
+      "39086136",
+      "39061719",
+      "39021275",
+      "38984987",
+      "38192346",
+      "38068978",
+      "37892906",
+      "37831724",
+      "37736816",
+      "37648820",
+      "37547488",
+      "37443299",
+      "37196183",
+      "36746748",
+      "36495796",
+      "36224261",
+      "35882686",
+      "35849490",
+      "35666427",
+      "35300980",
+      "35106545",
+      "34875684",
+      "34415548"
+    ],
+    "refs": [],
+    "similar": [
+      "33741410",
+      "30299652",
+      "29344776",
+      "31726322",
+      "33676926",
+      "24681231",
+      "37736816",
+      "30910771",
+      "31149807",
+      "35666427",
+      "31972006",
+      "31519888",
+      "31184289",
+      "31491644",
+      "35287474",
+      "25595824",
+      "24723374",
+      "38473965",
+      "35014032",
+      "35451798",
+      "37443299",
+      "31028674",
+      "25838124",
+      "24961976",
+      "21290288",
+      "25366236",
+      "28863814",
+      "17233605",
+      "29356490",
+      "28658211",
+      "32804077",
+      "30663716",
+      "26411768",
+      "16257972",
+      "21290316",
+      "28416203",
+      "29019979",
+      "29589513",
+      "27496302",
+      "29626537",
+      "21067449",
+      "29373067",
+      "25823501",
+      "15971080",
+      "32004816",
+      "22820212",
+      "32232875",
+      "21290287",
+      "37404813",
+      "28385695",
+      "20025796",
+      "23333715",
+      "25366237",
+      "25687973",
+      "20851834",
+      "20716668",
+      "21204513",
+      "19535910",
+      "17217048",
+      "20932262",
+      "21052930",
+      "30928685",
+      "29356491",
+      "28994450",
+      "34099173",
+      "17217076",
+      "27021073",
+      "28945977",
+      "17110928",
+      "20861159",
+      "16787531",
+      "27260222",
+      "31461845",
+      "26969190",
+      "21671880",
+      "25361914",
+      "21290325",
+      "30093524",
+      "31355338",
+      "18490661",
+      "15728426",
+      "18042709",
+      "23989052",
+      "29217581",
+      "34059287",
+      "33604523",
+      "34995478",
+      "39108834",
+      "37777680",
+      "35011212",
+      "35600482",
+      "37934234",
+      "38085274"
+    ],
+    "review": [
+      "33741410",
+      "29344776",
+      "31726322",
+      "33676926",
+      "24681231",
+      "30910771",
+      "31972006",
+      "31184289",
+      "31491644",
+      "35287474",
+      "38473965",
+      "35014032",
+      "31028674",
+      "25838124",
+      "24961976",
+      "21290288",
+      "25366236",
+      "28863814",
+      "17233605",
+      "26411768",
+      "21290316",
+      "28416203",
+      "29589513",
+      "27496302",
+      "21067449",
+      "25823501",
+      "32004816",
+      "32232875",
+      "37404813",
+      "28385695",
+      "20025796",
+      "23333715",
+      "25366237",
+      "20716668",
+      "17217048",
+      "20932262",
+      "21052930",
+      "30928685",
+      "28994450",
+      "17217076",
+      "28945977",
+      "27260222",
+      "31461845",
+      "26969190",
+      "21671880",
+      "25361914",
+      "21290325",
+      "15728426",
+      "23989052",
+      "33604523",
+      "39108834"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00131-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33741410",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

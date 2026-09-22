@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34825861",
+  "title": "Effect of Disease Causing Missense Mutations on Intrinsically Disordered Regions in Proteins.",
+  "authors": "Seera, Suryanarayana; Nagarajaram, Hampapathalu A",
+  "journal": "Protein and peptide letters",
+  "published_date": "2021-11-27",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过MD模拟揭示致病错义突变降低无序蛋白IDR的构象异质性并锁定少数状态，从而影响其与结合伴侣的互作，虽未用AI方法且互作机制为推断，但对象与物理模拟方法契合本课题。",
+  "abstract": "INTRODUCTION: Disease causing missense mutations (DCMMs) destabilize protein structures. However it is not known how they impact the intrinsically disordered regions (IDRs) as these regions do not adopt stable 3D structures under physiological conditions. It is therefore imperative to investigate the effect of DCMMs on the functionally important IDRs. OBJECTIVE: To investigate impact of DCMMs on functionally important IDRs in human proteins. METHODS: We investigated the impact of the known DCMMs on three IDRs: a) an IDR with CRIB motif from WAS protein , b) a proline rich IDR of p22 protein and c) an IDR horboring TRM motif from SH3BP2 protein. Both the wild type and the mutant forms were subjected to detailed structural investigations using MD simulations for 100ns. RESULTS: MD studies revealed that the mutants adopt fewer conformational states as compared with their wild-type counterparts of which one or two form the dominant conformational states. This result was also corroborated by the free-energy landscapes of the mutants with a fewer minima as compared with the wild-types. It was also observed that the side chains of the mutated amino acid residues introduce new hydrogen bonding interactions that stabilize one or two of the dominant conformational states. CONCLUSION: Our studies, thus, revealed that the disease causing missense mutations reduce the conformational heterogeneity of the intrinsically disordered proteins and furthermore, they are \"locked\" in one or two of those conformational states that presumably disfavour binding of the IDRs with their cognate interacting partners.",
+  "abstract_zh": "引言：致病变异错义突变（DCMMs）会破坏蛋白质结构的稳定性。然而，尚不清楚它们如何影响 intrinsically disordered regions (IDRs)，因为这些区域在生理条件下不采用稳定的三维结构。因此，研究DCMMs对功能重要的IDRs的影响势在必行。目的：探讨DCMMs对人类蛋白质中功能重要的IDRs的影响。方法：我们研究了已知DCMMs对三个IDRs的影响：a) WAS蛋白中带有CRIB基序的IDR，b) p22蛋白中富含脯氨酸的IDR，以及c) SH3BP2蛋白中带有TRM基序的IDR。对野生型和突变型均进行了100ns的分子动力学 (molecular dynamics) 模拟，以进行详细的结构研究。结果：MD研究表明，与野生型对应物相比，突变体采用较少的构象状态，其中一或两种形成主导构象状态。这一结果也通过突变体的自由能景观得到证实，其最小值数量少于野生型。还观察到，突变氨基酸残基的侧链引入新的氢键相互作用，稳定了一或两种主导构象状态。结论：因此，我们的研究揭示，致病变异错义突变降低了 intrinsically disordered proteins 的构象异质性，并且它们被“锁定”在一或两种构象状态中，这可能不利于IDRs与其同源相互作用伙伴的结合。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34825861/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34825861/",
+  "paper_page_path": "papers/pubmed/34825861/index.html"
+}

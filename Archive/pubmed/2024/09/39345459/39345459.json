@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "39345459",
+    "doi": "10.1101/2024.09.19.613999",
+    "title": "Integrative Modeling of Protein-Polypeptide Complexes by Bayesian Model Selection using AlphaFold and NMR Chemical Shift Perturbation Data."
+  },
+  "content": {
+    "abstract": "Protein-polypeptide interactions, including those involving intrinsically-disordered peptides and intrinsically-disordered regions of protein binding partners, are crucial for many biological functions. However, experimental structure determination of protein-peptide complexes can be challenging. Computational methods, while promising, generally require experimental data for validation and refinement. Here we present CSP_Rank, an integrated modeling approach to determine the structures of protein-peptide complexes. This method combines AlphaFold2 (AF2) enhanced sampling methods with a Bayesian conformational selection process based on experimental Nuclear Magnetic Resonance (NMR) Chemical Shift Perturbation (CSP) data and AF2 confidence metrics. Using a curated dataset of 108 protein-peptide complexes from the Biological Magnetic Resonance Data Bank (BMRB), we observe that while AF2 typically yields models with excellent consistency with experimental CSP data, applying enhanced sampling followed by data-guided conformational selection routinely results in ensembles of structures with improved agreement with NMR observables. For two systems, we cross-validate the CSP-selected models using independently acquired nuclear Overhauser effect (NOE) NMR data and demonstrate how CSP and NMR can be combined using our Bayesian framework for model selection. CSP_Rank is a novel method for integrative modeling of protein-peptide complexes and has broad implications for studies of protein-peptide interactions and aiding in understanding their biological functions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Benavides, Tiburon L",
+        "Montelione, Gaetano T"
+      ],
+      "short_names": [
+        "Benavides TL",
+        "Montelione GT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5795-4273",
+        "ORCID: 0000-0002-9440-3059"
+      ],
+      "affiliations": [
+        "Department of Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY 12180 USA.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY 12180 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Benavides, Tiburon L",
+        "short_name": "Benavides TL",
+        "identifiers": [
+          "0000-0002-5795-4273"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY 12180 USA."
+        ]
+      },
+      {
+        "full_name": "Montelione, Gaetano T",
+        "short_name": "Montelione GT",
+        "identifiers": [
+          "0000-0002-9440-3059"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, NY 12180 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/30 17:42",
+    "fetched_at": "2026-09-21 10:49:12"
+  },
+  "links": {
+    "cites": [
+      "41105726"
+    ],
+    "refs": [
+      "42045216",
+      "40620935",
+      "40045015",
+      "39251624",
+      "39187507",
+      "39181864",
+      "38917639",
+      "38718835",
+      "38538622",
+      "38452047",
+      "37956700",
+      "37905971",
+      "37872703",
+      "37861057",
+      "37713472",
+      "37548092",
+      "37392556",
+      "37257257",
+      "37171364",
+      "36988562",
+      "36927031",
+      "36563190",
+      "36535575",
+      "36304330",
+      "35994486",
+      "35769913",
+      "35637307",
+      "35273146",
+      "35238773",
+      "35013344",
+      "34766756",
+      "34559429",
+      "34540900",
+      "34282049",
+      "34265844",
+      "34122823",
+      "33592170",
+      "32324992",
+      "31898477",
+      "31091705",
+      "29664212",
+      "28445744",
+      "27560519",
+      "26081575",
+      "25591003",
+      "25500675",
+      "25253637",
+      "24327305",
+      "23962882",
+      "23897031",
+      "23267861",
+      "22570414",
+      "22381384",
+      "21592348",
+      "21448735",
+      "21241884",
+      "20628786",
+      "20431534",
+      "20057044",
+      "17522630",
+      "17186527",
+      "16940322",
+      "15849316",
+      "15822099",
+      "15701001",
+      "12784359",
+      "12580598",
+      "11749376",
+      "11399072",
+      "8599760",
+      "1304915",
+      "1180967"
+    ],
+    "similar": [
+      "39345459",
+      "36988562",
+      "40034448",
+      "38979209",
+      "30840442",
+      "37257257",
+      "36712039",
+      "38124369",
+      "32840111",
+      "41851975",
+      "38266916",
+      "38869513",
+      "19795907",
+      "37686144",
+      "35769913",
+      "37093489",
+      "38617283",
+      "21744392",
+      "36304330",
+      "34626366",
+      "15584737",
+      "21970619",
+      "20524044",
+      "41706900",
+      "23912807",
+      "27888839",
+      "23938203",
+      "39944881",
+      "28621371",
+      "34516045",
+      "26967199",
+      "38917639",
+      "39677766",
+      "41928988",
+      "38496487",
+      "23192964",
+      "30204435",
+      "39186607",
+      "39803829",
+      "35213160",
+      "35923464",
+      "11457140",
+      "34449236",
+      "24410358",
+      "37992167",
+      "23717610",
+      "35373198",
+      "39941016",
+      "16425239",
+      "25221447",
+      "34252246",
+      "38728808",
+      "25325963",
+      "28573592",
+      "32593678",
+      "28877484",
+      "40999494",
+      "24924266",
+      "32006287",
+      "19462385",
+      "26237672",
+      "24037535",
+      "38238291",
+      "30708941",
+      "20925316",
+      "40489790",
+      "27844185",
+      "25250719",
+      "35739160",
+      "40692622",
+      "36478084",
+      "33995905",
+      "26269925",
+      "40782957",
+      "30557358",
+      "39099394",
+      "36749138",
+      "34331857",
+      "23585271",
+      "22253588",
+      "39975317",
+      "33453683",
+      "38370653",
+      "36930141",
+      "29151218",
+      "36838863",
+      "35537451",
+      "34817999",
+      "30208595",
+      "15937902",
+      "30536009",
+      "23794453",
+      "33524015",
+      "36769074",
+      "36344848",
+      "40254898",
+      "40349675",
+      "18088118",
+      "39576578",
+      "16218626"
+    ],
+    "review": [
+      "39345459",
+      "30840442",
+      "38124369",
+      "27888839",
+      "39944881",
+      "39803829",
+      "28573592",
+      "24924266",
+      "26237672",
+      "30708941",
+      "33995905",
+      "30208595",
+      "23794453",
+      "40349675"
+    ],
+    "pmc": [
+      "11430059"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39345459/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.19.613999",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38882878",
+  "title": "Herbal Composite Preparation and Investigating its Efficiency to Inhibit Biofilm Formation and Virulence Factors of Prevotella Intermedia and Porphyromonas Gingivalis - Formulation of Mouthwash Using a Herbal Composite and Evaluating its Anti-microbial Activity.",
+  "authors": "Peeran, Syed Wali; Murugan, Manohar; Doggalli, Nagabhushana; Fageeh, Hytham; Ibrahim, Wael; Al-Ak'hali, Mohammed Sultan; Basheer, Syed Nahid",
+  "journal": "Journal of pharmacy & bioallied sciences",
+  "published_date": "2024-06-17",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究评估草药复合物对牙周病原菌生物膜和毒力因子的抑制活性，含分子对接但对象为细菌蛋白而非无序蛋白，无PPI机制建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Herbal composite preparation was studied with the aim of inhibiting the virulence factors of two dental pathogens: Prevotella intermedia and Porphyromonas gingivalis. A novel herbal composite was developed using the herbal extracts of Wrightia tinctoria and Bauhinia variegata. During the study, the following observations were noted. The minimal inhibitory concentration of Wrightia tinctoria and Bauhinia variegata composites (WBc) was obtained for the test concentration of 20 mug/ml (16 +/- 0.57 mm and 15 +/- 0.75 mm of inhibitory zones against Prevotella intermedia and Porphyromonas gingivalis, respectively). Biofilm inhibition assay results revealed about 0.51 +/- 1.25 mg/ml and 0.53 +/- 0.57 mg/ml of minimal biofilm eradication concentration (MBEC) against Prevotella intermedia and Porphyromonas gingivalis, respectively. The effect of WBc on lactic acid production showed that 200 mug/ml and 400 mug/ml concentrates reduced up to 80% and 70% in Prevotella intermedia and Porphyromonas gingivalis, respectively. Formulated herbal mouthwash showed good stability under all three different test conditions (5 degrees C, 25 degrees C, and 40 degrees C) as the color, odor, phase separation, and homogeneity were not changed for the period of 3 months. The anti-bacterial activity of formulated mouthwash (30 mug/ml) exhibited maximum inhibitory zones of about 18 +/- 0.75 mm and 19 +/- 1.05 mm against the respective test bacteria - Prevotella intermedia and Porphyromonas gingivalis. Amplification of mfa1 and clpB genes showed 246 bp and 294 bp fragments of P. gingivalis and 238 bp and 280 bp fragments of P. intermedia during agarose electrophoretic analysis. The docking report revealed -5.84 Kcal/Mol binding energy and found three hydrogen bonding between the quercetin and target protein, mfa1 of Porphyromonas gingivalis. The target protein, clpB of Prevotella intermedia, and quercetin had -6.72 Kcal/Mol binding energy and found four hydrogen bonds between them. The developed composite could be optimized in future to develop a novel and biocompatible herbal mouthwash for the prevention of different dental caries and gingival inflammation associated with dental biofilm formation.",
+  "abstract_zh": "本研究旨在探讨一种中药复合制剂对两种牙周病原体——中间普氏菌（Prevotella intermedia）和牙龈卟啉单胞菌（Porphyromonas gingivalis）毒力因子的抑制作用。利用止泻木（Wrightia tinctoria）和白花羊蹄甲（Bauhinia variegata）的植物提取物，开发了一种新型中药复合制剂。研究过程中观察到以下结果：止泻木和白花羊蹄甲复合物（WBc）对测试浓度20 μg/ml的最小抑菌浓度分别为，对中间普氏菌和牙龈卟啉单胞菌的抑菌圈直径达16 ± 0.57 mm和15 ± 0.75 mm。生物膜抑制实验结果显示，WBc对中间普氏菌和牙龈卟啉单胞菌的最小生物膜清除浓度（MBEC）分别为0.51 ± 1.25 mg/ml和0.53 ± 0.57 mg/ml。WBc对乳酸产生的影响表明，200 μg/ml和400 μg/ml浓度分别使中间普氏菌和牙龈卟啉单胞菌的乳酸产量减少高达80%和70%。配制的草药漱口水在三种不同测试条件（5°C、25°C和40°C）下均表现出良好稳定性，在3个月内颜色、气味、相分离（phase separation）和均质性均未发生变化。配制的漱口水（30 μg/ml）的抗菌活性显示，对测试菌中间普氏菌和牙龈卟啉单胞菌的最大抑菌圈分别约为18 ± 0.75 mm和19 ± 1.05 mm。琼脂糖电泳分析中，mfa1和clpB基因扩增显示，牙龈卟啉单胞菌产生246 bp和294 bp片段，中间普氏菌产生238 bp和280 bp片段。分子对接报告显示，槲皮素与牙龈卟啉单胞菌靶蛋白mfa1的结合能为-5.84 Kcal/Mol，并形成三个氢键；中间普氏菌靶蛋白clpB与槲皮素的结合能为-6.72 Kcal/Mol，并形成四个氢键。所开发的复合制剂未来可进一步优化，以研制一种新型且生物相容性好的草药漱口水，用于预防与牙菌斑生物膜形成相关的多种龋齿和牙龈炎症。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38882878/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38882878/",
+  "paper_page_path": "papers/pubmed/38882878/index.html"
+}

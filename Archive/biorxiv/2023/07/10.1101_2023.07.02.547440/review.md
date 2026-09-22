@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract and significance statement
+- **Shared manuscript claim summary** The authors propose that the SARS-CoV-2 nucleocapsid (N) protein uses distinct RNA-binding modes to balance specific recognition and phase separation. They report that the N-terminal domain (NTD) binds preferentially to single-stranded RNA (ssRNA) via a primary site, with a secondary weaker site becoming relevant under conditions of weak primary binding. They argue that multivalent weak interactions, involving the CTD or the secondary NTD face, promote phase separation, whereas strong specific interactions do not.
+- **Visible evidence base** Fluorescence anisotropy binding affinities, NMR chemical shift mapping, phase separation assays, all described only in summary form
+- **Missing materials affecting confidence** Full methods, quantitative binding data, NMR spectra and assignments, phase separation assay conditions and quantitation, RNA construct details, mutant validation, statistical analyses, and all figures
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting model that could help reconcile conflicting views on N-RNA specificity and phase separation. However, the evidence as summarized is insufficient to evaluate the robustness of the central claims. Key quantitative data, experimental controls, and structural details are not provided. The distinction between "strong" and "weak" interactions, and the causal link between weak multivalent binding and phase separation, are asserted rather than demonstrated in the visible material.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, liquid-liquid phase separation, viral assembly, and SARS-CoV-2 biology. The work could inform therapeutic strategies targeting N-RNA interactions and contribute to general principles of how multivalent weak interactions drive biomolecular condensation.
+- **Major strengths** The study addresses a timely and important question with a combination of biophysical and biochemical approaches. The proposal of a secondary RNA-binding site on the NTD is novel and could explain previous discrepancies. The use of multiple RNA structures and domain constructs is a thoughtful design.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The NTD binds preferentially to single-stranded RNA, and while it is the primary RNA binding site, it is not essential to phase separation."
+  - **Evidence pointer** Abstract, fluorescence anisotropy and phase separation assay descriptions
+  - **Concern** The abstract states that the NTD is not essential for phase separation, but no quantitative data are shown. It is unclear whether this conclusion is based on deletion mutants, domain-only constructs, or competition experiments. The threshold for "essential" is not defined.
+  - **Why it matters** This claim is central to the proposed model. If the NTD is dispensable for phase separation, the role of the secondary site and the balance between specific and weak interactions becomes critical. Without clear experimental support, the conclusion is not established.
+  - **Resolution test** Provide phase separation data for NTD-deleted or NTD-mutated full-length N constructs, with quantitative measures (e.g., turbidity, droplet counts, FRAP) and appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Multiple weak interactions, such as with the CTD or the NTD's secondary face promote phase separation, while strong, specific interactions do not."
+  - **Evidence pointer** Abstract, phase separation assays
+  - **Concern** The causal relationship between weak multivalent interactions and phase separation is asserted, but the abstract does not describe how this was tested. It is unclear whether mutations that weaken the primary site enhance phase separation, or whether the secondary site was specifically perturbed. The distinction between "promote" and "are sufficient for" is not addressed.
+  - **Why it matters** The model's novelty rests on this inverse relationship between binding strength and phase separation propensity. Without direct manipulation of interaction strength and observation of phase separation outcomes, the claim remains speculative.
+  - **Resolution test** Show phase separation data for constructs with mutations that selectively weaken the primary NTD site, the secondary NTD site, and the CTD, with quantitative comparison to wild-type.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** "Nuclear magnetic resonance spectroscopy identifies two RNA binding sites on the NTD."
+  - **Evidence pointer** Abstract, NMR description
+  - **Concern** No NMR data are shown. The assignment of a "secondary" site is not supported by any chemical shift perturbation data, binding curves, or structural context. It is unclear whether this site is a distinct surface or an artifact of the RNA construct used.
+  - **Why it matters** This is a key novel finding. Without evidence, the claim cannot be evaluated, and the subsequent model depends on it.
+  - **Resolution test** Provide chemical shift perturbation maps, titration series, and a structural representation of the NTD with both sites highlighted.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, RNA construct description
+  - **Evidence pointer** Abstract, "short RNA segments designed as models for single-stranded and paired RNA"
+  - **Issue** The exact sequences, lengths, and structural validation of the RNA constructs are not described.
+  - **Required correction** Specify the RNA sequences, lengths, and any secondary structure validation (e.g., predicted or measured).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "sequence-independent" and "specific" interactions
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The terms "sequence-independent" and "specific" are used without operational definitions.
+  - **Required correction** Define these terms in the context of the assays used (e.g., affinity differences, competition experiments).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Abstract, binding affinities
+  - **Evidence pointer** Abstract, "Binding affinities estimated from fluorescence anisotropy"
+  - **Issue** No numerical values or error estimates are provided.
+  - **Required correction** Report Kd values with standard errors for all RNA constructs and protein variants.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed dual-site NTD model and the inverse relationship between binding strength and phase separation are potentially original, but the abstract does not provide enough context to assess novelty against prior work.
+  - Scientific importance: The question is important for understanding SARS-CoV-2 biology and phase separation mechanisms, but the significance is not fully established without quantitative evidence.
+  - Interdisciplinary readership: The topic bridges virology, biophysics, and cell biology, and the abstract is written accessibly, but the lack of data limits broader impact.
+  - Technical soundness: The combination of methods is appropriate, but the absence of data prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is clear and well-structured, though some terms (e.g., "phase separation," "chemical shift") may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The model is intriguing, but the abstract alone does not provide sufficient data to support the central claims. I would be supportive if the full manuscript provides quantitative binding data, NMR evidence for the secondary site, and direct tests of the phase separation model.
+
+## Risk / unsupported claims
+- The claim that the NTD is not essential for phase separation is unsupported without quantitative data.
+- The claim that weak interactions promote phase separation while strong interactions do not is unsupported without direct perturbation experiments.
+- The existence of a secondary RNA-binding site on the NTD is unsupported without NMR data.
+- The distinction between "sequence-independent" and "specific" interactions is not operationalized.
+- The relevance of the findings to in vivo viral function is asserted but not tested.

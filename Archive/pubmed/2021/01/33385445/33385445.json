@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "33385445",
+    "doi": "10.1016/j.ijbiomac.2020.12.193",
+    "title": "Intrinsically disordered protein NUPR1 binds to the armadillo-repeat domain of Plakophilin 1."
+  },
+  "content": {
+    "abstract": "Plakophilin 1 (PKP1), a member of the armadillo repeat family of proteins, is a scaffold component of desmosomes, which are key structural components for cell-cell adhesion. However, PKP1 can be also found in the nucleus of several cells. NUPR1 is an intrinsically disordered protein (IDP) that localizes throughout the whole cell, and intervenes in the development and progression of several cancers. In this work, we studied the binding between PKP1 and NUPR1 by using several in vitro biophysical techniques and in cellulo approaches. The interaction occurred with an affinity in the low micromolar range (~10 muM), and involved the participation of at least one of the tryptophan residues of PKP1 (as shown by fluorescence and molecular docking). The binding region of NUPR1, mapped by NMR and molecular modelling, was a polypeptide patch at the 30s region of its sequence. The association between PKP1 and NUPR1 also occurred in cellulo and was localized in the nucleus, as tested by protein ligation assays (PLAs). We hypothesize that NUPR1 plays an active role in carcinogenesis modulating the function of PKP1.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "Isothermal titration calorimetry",
+      "Molecular modelling",
+      "NMR",
+      "Nuclear protein 1",
+      "Plakophilin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Basic Helix-Loop-Helix Proteins/metabolism",
+      "Carcinogenesis/metabolism",
+      "Cell Adhesion/physiology",
+      "Cell Line, Tumor",
+      "Desmosomes/metabolism",
+      "Intrinsically Disordered Proteins/metabolism",
+      "Magnetic Resonance Imaging/methods",
+      "Molecular Docking Simulation/methods",
+      "*Neoplasm Proteins/metabolism",
+      "*Plakophilins/metabolism",
+      "*Protein Binding/physiology",
+      "Protein Domains/physiology",
+      "Tryptophan/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Santofimia-Castano, Patricia",
+        "Rizzuti, Bruno",
+        "Pey, Angel L",
+        "Farez-Vidal, Maria Esther",
+        "Iovanna, Juan L",
+        "Neira, Jose L"
+      ],
+      "short_names": [
+        "Santofimia-Castano P",
+        "Rizzuti B",
+        "Pey AL",
+        "Farez-Vidal ME",
+        "Iovanna JL",
+        "Neira JL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre de Recherche en Cancerologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Aix-Marseille Universite and Institut Paoli-Calmettes, Parc Scientifique et Technologique de Luminy, 163 Avenue de Luminy, 13288 Marseille, France.",
+        "CNR-NANOTEC, Licryl-UOS Cosenza and CEMIF.Cal, Department of Physics, University of Calabria, via P. Bucci, Cubo 31 C, 87036 Arcavacata di Rende, Cosenza, Italy.",
+        "Departamento de Quimica Fisica, Unidad de Excelencia en Quimica aplicada a Biomedicina y Medio-Ambiente, Facultad de Ciencias, Universidad de Granada, 18071 Granada, Spain.",
+        "Departamento de Bioquimica y Biologia Molecular III e Inmunologia, Facultad de Medicina, Universidad de Granada, 18016 Granada, Spain; Instituto de Investigacion Biomedica IBS. Granada. Complejo Hospitalario Universitario de Granada, Universidad de Granada, 18071 Granada, Spain.",
+        "Centre de Recherche en Cancerologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Aix-Marseille Universite and Institut Paoli-Calmettes, Parc Scientifique et Technologique de Luminy, 163 Avenue de Luminy, 13288 Marseille, France. Electronic address: juan.iovanna@inserm.fr.",
+        "IDIBE, Universidad Miguel Hernandez, Elche, 03202 Alicante, Spain; Instituto de Biocomputacion y Fisica de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, GBsC-CSIC-BIFI, Universidad de Zaragoza, 50009 Zaragoza, Spain. Electronic address: jlneira@umh.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Santofimia-Castaño, Patricia",
+        "short_name": "Santofimia-Castaño P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Cancérologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Aix-Marseille Université and Institut Paoli-Calmettes, Parc Scientifique et Technologique de Luminy, 163 Avenue de Luminy, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [],
+        "affiliations": [
+          "CNR-NANOTEC, Licryl-UOS Cosenza and CEMIF.Cal, Department of Physics, University of Calabria, via P. Bucci, Cubo 31 C, 87036 Arcavacata di Rende, Cosenza, Italy."
+        ]
+      },
+      {
+        "full_name": "Pey, Angel L",
+        "short_name": "Pey AL",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química Física, Unidad de Excelencia en Química aplicada a Biomedicina y Medio-Ambiente, Facultad de Ciencias, Universidad de Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Fárez-Vidal, María Esther",
+        "short_name": "Fárez-Vidal ME",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular III e Inmunología, Facultad de Medicina, Universidad de Granada, 18016 Granada, Spain; Instituto de Investigación Biomédica IBS. Granada. Complejo Hospitalario Universitario de Granada, Universidad de Granada, 18071 Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Iovanna, Juan L",
+        "short_name": "Iovanna JL",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Cancérologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Aix-Marseille Université and Institut Paoli-Calmettes, Parc Scientifique et Technologique de Luminy, 163 Avenue de Luminy, 13288 Marseille, France. Electronic address: juan.iovanna@inserm.fr."
+        ]
+      },
+      {
+        "full_name": "Neira, José L",
+        "short_name": "Neira JL",
+        "identifiers": [],
+        "affiliations": [
+          "IDIBE, Universidad Miguel Hernández, Elche, 03202 Alicante, Spain; Instituto de Biocomputación y Física de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, GBsC-CSIC-BIFI, Universidad de Zaragoza, 50009 Zaragoza, Spain. Electronic address: jlneira@umh.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2021 Feb 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/02 06:00",
+    "fetched_at": "2026-09-20 00:28:29"
+  },
+  "links": {
+    "cites": [
+      "42495706",
+      "41458151",
+      "40689753",
+      "38987470",
+      "38785968",
+      "38409704",
+      "35869257"
+    ],
+    "refs": [],
+    "similar": [
+      "33385445",
+      "38785968",
+      "33872756",
+      "32933064",
+      "29530795",
+      "36858171",
+      "29925531",
+      "34680086",
+      "28720707",
+      "36372391",
+      "33050086",
+      "32650131",
+      "38888207",
+      "24205110",
+      "27015268",
+      "28054562",
+      "31325636",
+      "15663951",
+      "31744261",
+      "25225333",
+      "37298410",
+      "12615965",
+      "10381383",
+      "31181156",
+      "37114302",
+      "27046343",
+      "36380691",
+      "10747098",
+      "31822797",
+      "27375112",
+      "11171378",
+      "25002405",
+      "9721216",
+      "35182388",
+      "10373410",
+      "29678907",
+      "9369526",
+      "27033150",
+      "33801927",
+      "30946843",
+      "14987275",
+      "24124604",
+      "10880961",
+      "20156963",
+      "25899918",
+      "12707304",
+      "10374265",
+      "20348237",
+      "16632867",
+      "11790773",
+      "32835767",
+      "20613778",
+      "22961798",
+      "8922383",
+      "26392315",
+      "37399862",
+      "12839569",
+      "32780723",
+      "7890138",
+      "25972099",
+      "18164260",
+      "8937994",
+      "32621228",
+      "23929272",
+      "36280901",
+      "12827610",
+      "33649793",
+      "29386631",
+      "26138584",
+      "23881279",
+      "27336713",
+      "34030133",
+      "16765467",
+      "15304078",
+      "27285315",
+      "34291085",
+      "10233227",
+      "10896674",
+      "28000106",
+      "15988759",
+      "10852826",
+      "33760183",
+      "33945888",
+      "16407409",
+      "30015974",
+      "22858377",
+      "19945625",
+      "26195786",
+      "12840072",
+      "19946894",
+      "35660538",
+      "29130426",
+      "31319114",
+      "29511089",
+      "32513898",
+      "7527055",
+      "22899799",
+      "31971825",
+      "32696383",
+      "36116561",
+      "21194493",
+      "18690848"
+    ],
+    "review": [
+      "33385445",
+      "38888207",
+      "31744261",
+      "14987275",
+      "32835767",
+      "16765467",
+      "33760183",
+      "19945625"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(20)35372-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33385445",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34029314",
+  "title": "Evaluation of residue-residue contact prediction methods: From retrospective to prospective.",
+  "authors": "Zhang, Huiling; Bei, Zhendong; Xi, Wenhui; Hao, Min; Ju, Zhen; Saravanan, Konda Mani; Zhang, Haiping; Guo, Ning; Wei, Yanjie",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-05-25",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统评估了18种残基接触预测方法，指出深度学习法对无序蛋白等低接触密度蛋白更优，虽非直接研究IDR介导的PPI机制，但为无序蛋白互作界面预测提供了方法选型与基准参考。",
+  "abstract": "Sequence-based residue contact prediction plays a crucial role in protein structure reconstruction. In recent years, the combination of evolutionary coupling analysis (ECA) and deep learning (DL) techniques has made tremendous progress for residue contact prediction, thus a comprehensive assessment of current methods based on a large-scale benchmark data set is very needed. In this study, we evaluate 18 contact predictors on 610 non-redundant proteins and 32 CASP13 targets according to a wide range of perspectives. The results show that different methods have different application scenarios: (1) DL methods based on multi-categories of inputs and large training sets are the best choices for low-contact-density proteins such as the intrinsically disordered ones and proteins with shallow multi-sequence alignments (MSAs). (2) With at least 5L (L is sequence length) effective sequences in the MSA, all the methods show the best performance, and methods that rely only on MSA as input can reach comparable achievements as methods that adopt multi-source inputs. (3) For top L/5 and L/2 predictions, DL methods can predict more hydrophobic interactions while ECA methods predict more salt bridges and disulfide bonds. (4) ECA methods can detect more secondary structure interactions, while DL methods can accurately excavate more contact patterns and prune isolated false positives. In general, multi-input DL methods with large training sets dominate current approaches with the best overall performance. Despite the great success of current DL methods must be stated the fact that there is still much room left for further improvement: (1) With shallow MSAs, the performance will be greatly affected. (2) Current methods show lower precisions for inter-domain compared with intra-domain contact predictions, as well as very high imbalances in precisions between intra-domains. (3) Strong prediction similarities between DL methods indicating more feature types and diversified models need to be developed. (4) The runtime of most methods can be further optimized.",
+  "abstract_zh": "基于序列的残基接触预测在蛋白质结构重建中扮演着关键角色。近年来，进化耦合分析（ECA）与深度学习（DL）技术的结合在残基接触预测方面取得了巨大进展，因此，基于大规模基准数据集对现有方法进行全面评估显得尤为必要。本研究从多个角度评估了18种接触预测器在610个非冗余蛋白质和32个CASP13目标上的表现。结果表明，不同方法具有不同的应用场景：（1）基于多类别输入和大规模训练集的DL方法是低接触密度蛋白质（如 intrinsically disordered 蛋白质和具有浅层多序列比对（MSAs）的蛋白质）的最佳选择。（2）当MSA中至少包含5L（L为序列长度）个有效序列时，所有方法均表现出最佳性能，且仅依赖MSA作为输入的方法能达到与采用多源输入方法相当的成绩。（3）对于top L/5和L/2预测，DL方法能预测更多疏水相互作用，而ECA方法则预测更多盐桥和二硫键。（4）ECA方法能检测更多二级结构相互作用，而DL方法能准确挖掘更多接触模式并剪除孤立的假阳性。总体而言，具有大规模训练集的多输入DL方法在整体性能上占据主导地位。尽管当前DL方法取得了巨大成功，但必须指出仍有进一步改进的空间：（1）浅层MSA会严重影响性能。（2）当前方法在域间接触预测上的精度低于域内预测，且域内预测精度之间存在高度不平衡。（3）DL方法之间的预测相似性高，表明需要开发更多特征类型和多样化模型。（4）大多数方法的运行时间可进一步优化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34029314/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34029314/",
+  "paper_page_path": "papers/pubmed/34029314/index.html"
+}

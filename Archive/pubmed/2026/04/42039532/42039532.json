@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "42039532",
+    "doi": "10.64898/2026.04.09.717507",
+    "title": "beta -motifs and molecular flux promote amyloid nucleation at condensate interfaces."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are increasingly implicated as intermediates in the formation of pathological amyloid assemblies, yet the mechanisms by which sequence-encoded structural motifs and non-equilibrium molecular transport cooperate at condensate interfaces remain incompletely understood. Here, we introduce Flux-Driven Molecular Dynamics (FD-MD), a simulation framework that combines sequence-encoded beta -prone interactions with sustained molecular influx to examine fibril formation at condensate interfaces. Within this framework, we establish three main results. First, a scaling analysis of orientational entropy suggests that condensate interfaces can enhance nucleation relative to the bulk by as much as two orders of magnitude, by reducing the entropic cost of coalignment of rigid beta -prone segments. Second, varying segment rigidity and molecular supply rate organizes a non-equilibrium phase diagram with four interfacial growth morphologies, ranging from uniform wetting to fibrillar protrusions and inter-condensate bridging networks. Third, directional fibril elongation displays an inverse relationship with drift velocity, consistent with a mechanism in which higher transport rates to the interface favor planar saturation over directed tip incorporation. Together, these results support a picture in which condensate interfaces can act as kinetically favorable nucleation environments, sequence-encoded rigidity helps determine whether interfaces remain liquid-like or become fibrillar, and molecular flux emerges as an additional control axis in the model for condensate aging trajectories.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Subhadip",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Biswas S",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3184-5295",
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Subhadip",
+        "short_name": "Biswas S",
+        "identifiers": [
+          "0000-0003-3184-5295"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+          "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:34",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41559153",
+      "41091939",
+      "40441157",
+      "36075972",
+      "33510441",
+      "33417833",
+      "33303613",
+      "33169001",
+      "33049211",
+      "32029630",
+      "31031819",
+      "30948513",
+      "29961577",
+      "29949750",
+      "29677515",
+      "28225081",
+      "27333362",
+      "26412307",
+      "26317470",
+      "23455423",
+      "19460965"
+    ],
+    "similar": [
+      "42039532",
+      "42475469",
+      "40985078",
+      "41670285",
+      "41279444",
+      "40877270",
+      "42358691",
+      "42146575",
+      "40766389",
+      "41509200",
+      "40196628",
+      "41867831",
+      "40916915",
+      "18342332",
+      "31790873",
+      "35293386",
+      "39866835",
+      "41698919",
+      "39116032",
+      "23912807",
+      "33333378",
+      "40766493",
+      "18215070",
+      "39854227",
+      "40782375",
+      "25134066",
+      "31550648",
+      "42411130",
+      "37470705",
+      "41007377",
+      "39292741",
+      "36993212",
+      "42072681",
+      "21761818",
+      "40166274",
+      "40343340",
+      "37386790",
+      "41785961",
+      "37934627",
+      "29890120",
+      "20938982",
+      "22178474",
+      "42190656",
+      "41086061",
+      "31245536",
+      "41573846",
+      "27992231",
+      "37898709",
+      "20946608",
+      "41310162",
+      "37770446",
+      "37194953",
+      "38725528",
+      "38464104",
+      "33334114",
+      "41169547",
+      "41824494",
+      "36883003",
+      "42360027",
+      "39498261",
+      "37961422",
+      "33307683",
+      "41838899",
+      "34422910",
+      "33864415",
+      "34890409",
+      "39073874",
+      "39980393",
+      "39171763",
+      "28799366",
+      "40881393",
+      "27135646",
+      "35458686",
+      "40661504",
+      "40661408",
+      "33328273",
+      "42372460",
+      "35727989",
+      "42081454",
+      "36400992",
+      "42497855",
+      "26694883",
+      "36175408",
+      "34552246",
+      "40441157",
+      "38766065",
+      "42244713",
+      "41629604",
+      "41261101",
+      "41603224",
+      "37246528",
+      "40626470",
+      "21158384",
+      "42230638",
+      "41481439",
+      "41690263",
+      "39937084",
+      "40962260",
+      "38987300",
+      "42462360"
+    ],
+    "review": [
+      "42039532",
+      "31790873",
+      "41007377",
+      "42072681",
+      "42360027",
+      "35458686",
+      "36400992"
+    ],
+    "pmc": [
+      "13104888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42039532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.09.717507",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

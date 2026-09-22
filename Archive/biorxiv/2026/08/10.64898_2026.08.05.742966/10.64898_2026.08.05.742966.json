@@ -1,0 +1,145 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.05.742966",
+  "title": "Viral Protease Nsp5 Hijacks La Autoantigen to Orchestrate the Translation to Replication Transition in SARS-CoV-2",
+  "doi": "10.64898/2026.08.05.742966",
+  "abstract": "Viruses genetically encode proteins to regulate their life cycle. To translate this genetic information, most viruses exploit host translation machinery. Host dependency leads to competition between viral RNA and host mRNAs. Most viruses overcome it by inhibiting cap-dependent translation of host mRNAs and shifting its own translation into cap-independent mode. This switch is largely orchestrated by host RNA binding proteins (RBPs) by binding to viral 5’UTRs. Here we demonstrate that human La autoantigen (La protein) specifically binds to GCAC sequence near the initiator AUG within the 5’UTR of SARS-CoV-2 RNA promoting viral non-structural protein synthesis by cap independent translation, while suppressing replication early in infection. Interestingly, around 18-24 h post-infection, the viral protease Nsp5 cleaves La at a conserved LQ site, abrogating its 5′UTR interaction, which correlates with reduced polysome association and increased viral RNA availability for replication. MD simulation and docking study suggests that the cleavage disrupts La dimerization and truncates its C-terminal intrinsically disordered region, reducing RNA-binding affinity and conformational stability required for translation-competent ribonucleoprotein complexes. Results put forward a unique mechanism by which Nsp5-mediated proteolysis of La drives the temporal switch from translation to replication of SARS-CoV-2.",
+  "authors": [
+    "Sahu R",
+    "Raheja H",
+    "Gaurav SNG",
+    "Paul S",
+    "Sabari SV",
+    "Ghosh PK",
+    "Rajmani RS",
+    "Das S"
+  ],
+  "published_date": "2026-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742966",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742966.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1293290",
+    "raw_record": {
+      "id": "PPR1293290",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.05.742966",
+      "title": "Viral Protease Nsp5 Hijacks La Autoantigen to Orchestrate the Translation to Replication Transition in SARS-CoV-2",
+      "authorString": "Sahu R, Raheja H, Gaurav SNG, Paul S, Sabari SV, Ghosh PK, Rajmani RS, Das S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sahu R",
+            "lastName": "Sahu",
+            "firstName": "Risabh",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-1027-1258"
+            }
+          },
+          {
+            "fullName": "Raheja H",
+            "lastName": "Raheja",
+            "firstName": "Harsha",
+            "initials": "H"
+          },
+          {
+            "fullName": "Gaurav SNG",
+            "lastName": "Gaurav",
+            "firstName": "Gagan",
+            "initials": "SNG"
+          },
+          {
+            "fullName": "Paul S",
+            "lastName": "Paul",
+            "firstName": "Santu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sabari SV",
+            "lastName": "Sabari",
+            "firstName": "Shree",
+            "initials": "SV"
+          },
+          {
+            "fullName": "Ghosh PK",
+            "lastName": "Ghosh",
+            "firstName": "Pritam Kumar",
+            "initials": "PK"
+          },
+          {
+            "fullName": "Rajmani RS",
+            "lastName": "Rajmani",
+            "firstName": "Raju",
+            "initials": "RS"
+          },
+          {
+            "fullName": "Das S",
+            "lastName": "Das",
+            "firstName": "Saumitra",
+            "initials": "S"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0004-1027-1258"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Viruses genetically encode proteins to regulate their life cycle. To translate this genetic information, most viruses exploit host translation machinery. Host dependency leads to competition between viral RNA and host mRNAs. Most viruses overcome it by inhibiting cap-dependent translation of host mRNAs and shifting its own translation into cap-independent mode. This switch is largely orchestrated by host RNA binding proteins (RBPs) by binding to viral 5’UTRs. Here we demonstrate that human La autoantigen (La protein) specifically binds to GCAC sequence near the initiator AUG within the 5’UTR of SARS-CoV-2 RNA promoting viral non-structural protein synthesis by cap independent translation, while suppressing replication early in infection. Interestingly, around 18-24 h post-infection, the viral protease Nsp5 cleaves La at a conserved LQ site, abrogating its 5′UTR interaction, which correlates with reduced polysome association and increased viral RNA availability for replication. MD simulation and docking study suggests that the cleavage disrupts La dimerization and truncates its C-terminal intrinsically disordered region, reducing RNA-binding affinity and conformational stability required for translation-competent ribonucleoprotein complexes. Results put forward a unique mechanism by which Nsp5-mediated proteolysis of La drives the temporal switch from translation to replication of SARS-CoV-2.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.05.742966"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-07",
+      "firstPublicationDate": "2026-08-05",
+      "firstIndexDate": "2026-08-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

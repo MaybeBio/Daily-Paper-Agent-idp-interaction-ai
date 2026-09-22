@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.04.498667",
+  "title": "Architecture of the MKK6-p38α complex defines the basis of MAPK specificity and activation",
+  "authors": "Juyoux P; Galdadas I; Gobbo D; Velsen Jv; Pelosse M; Pelosse M; Tully M; Vadas O; Gervasio FL; Pellegrini E; Bowler MW",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-04",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究整合冷冻电镜与MD模拟解析MKK6-p38α激酶复合物结构，揭示无序N端决定通路特异性的动态磷酸化机制，虽对象非典型IDP/相分离，但无序区域介导的PPI机制建模思路对本课题有直接启发。",
+  "abstract": "The MAP kinase p38α is a central component of signalling in inflammation and the immune response and is, therefore, an important drug target. Little is known about the molecular mechanism of its activation by double-phosphorylation from MAP2Ks, due to the challenge of trapping a transient and dynamic hetero-kinase complex. Here, we applied a multidisciplinary approach to generate the first structure of p38α in complex with its MAP2K MKK6 and understand the activation mechanism. Integrating cryo-EM with MD simulations, HDX-MS and in cellulo experiments, we demonstrate a dynamic, multi-step, phosphorylation mechanism, reveal new catalytically relevant interactions, and show that MAP2K disordered N-termini determine pathway specificity. Our work captures, for the first time, a fundamental step of cell signalling: a kinase phosphorylating its downstream target kinase. <h4>One-Sentence Summary</h4> Integrative Cryo-EM and MD analysis of an active hetero-kinase complex reveals details of cellular signal transmission",
+  "abstract_zh": "MAP激酶p38α是炎症和免疫反应信号传导的核心组成部分，因此是一个重要的药物靶点。由于捕获瞬时且动态的异源激酶复合物存在挑战，关于其通过MAP2K双重磷酸化激活的分子机制知之甚少。在此，我们采用多学科方法，生成了p38α与其MAP2K MKK6复合物的首个结构，并理解了激活机制。通过整合冷冻电镜（cryo-EM）与分子动力学（MD）模拟、氢-氘交换质谱（HDX-MS）及细胞内（in cellulo）实验，我们展示了一个动态、多步骤的磷酸化机制，揭示了新的催化相关相互作用，并表明MAP2K无序的N端决定通路特异性。我们的工作首次捕捉了细胞信号传导的一个基本步骤：一种激酶磷酸化其下游靶激酶。\n\n<h4>一句话总结</h4> 对活性异源激酶复合物的整合性冷冻电镜和分子动力学分析揭示了细胞信号传递的细节",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.04.498667",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.04.498667",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.04.498667/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.15.575740",
+  "title": "Elucidating ATP’s Role as Solubilizer of Biomolecular Aggregate",
+  "authors": "Sarkar S; Gupta S; Mahato C; Das D; Mondal J",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-16",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合实验与分子模拟，研究ATP作为增溶剂对无序蛋白Aβ40聚集/凝聚体的溶解作用，并揭示其通过调控蛋白构象可塑性发挥作用的机制，虽非直接PPI建模，但涉及IDP聚集与凝聚体调控，方法上含模拟，对本课题有机制启发。",
+  "abstract": "Proteins occurring in significantly high concentrations in cellular environments (over 100 mg/mL) and functioning in crowded cytoplasm, often face the prodigious challenges of aggregation which are the pathological hallmark of aging and are critically responsible for a wide spectrum of rising human diseases. Here we combine a joint-venture of complementary wet-lab experiment and molecular simulation to discern the potential ability of adenosine triphosphate (ATP) as solubilizer of protein aggregates. We show that ATP prevents both condensation of aggregation-prone intrinsically disordered protein Aβ40 and promotes dissolution of pre-formed aggregates. Computer simulation links ATP’s solubilizing role to its ability to modulate protein’s structural plasticity by unwinding protein conformation. We show that ATP is positioned as a superior biological solubilizer of protein aggregates over traditional chemical hydrotropes, potentially holding promises in therapeutic interventions in protein-aggregation related diseases. Going beyond its conventional activity as energy currency, the amphiphilic nature of ATP enables its protein-specific interaction that would enhance ATP’s efficiency in cellular processes.",
+  "abstract_zh": "在细胞环境中以显著高浓度（超过100 mg/mL）存在的蛋白质，并在拥挤的细胞质中发挥功能，常常面临聚集的巨大挑战，这种聚集是衰老的病理标志，并对日益增多的多种人类疾病负有关键责任。在此，我们结合互补的湿实验和分子模拟 (molecular simulation) 的联合方法，来辨别三磷酸腺苷 (adenosine triphosphate, ATP) 作为蛋白质聚集体增溶剂 (solubilizer) 的潜在能力。我们表明，ATP 既能防止易聚集的内在无序蛋白 Aβ40 的凝聚，又能促进预形成聚集体的溶解。计算机模拟将 ATP 的增溶作用与其通过解旋蛋白质构象来调节蛋白质结构可塑性的能力联系起来。我们表明，ATP 被定位为优于传统化学水溶助剂 (hydrotropes) 的蛋白质聚集体生物增溶剂，可能在蛋白质聚集相关疾病的治疗干预中具有前景。超越其作为能量货币的传统活性，ATP 的两亲性 (amphiphilic) 本质使其能够进行蛋白质特异性相互作用，这将增强 ATP 在细胞过程中的效率。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575740",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575740",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.15.575740/index.html"
+}

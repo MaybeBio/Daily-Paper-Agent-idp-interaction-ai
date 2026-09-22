@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-brzks",
+  "title": "Accurate Prediction of Drug Resistance for Intrinsically Disordered Protein Regions",
+  "authors": "Audrius Kalpokas; Mark Mackey; Julien Michel",
+  "journal": "ChemRxiv",
+  "published_date": "2025-09-25",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用自由能微扰(FEP)物理模拟方法预测无序蛋白区域(IDR)中突变对配体结合亲和力的影响，聚焦MDM2无序N端lid的配体诱导折叠互作机制，对象、互作、方法三者齐备且具机制建模深度。",
+  "abstract": "Relative alchemical binding free energy calculations can be used to predict the impact of amino acid mutations on the ligand binding affinities. However, these protocols are not well established for proteins containing intrinsically disordered regions (IDRs). In this work, we focus on the development of robust protein free energy perturbation (FEP) protocols to reproduce experimental binding affinities that have been measured for a panel of mutants of the protein MDM2 against two ligands, AM-7209 and Nutlin-3a. We focus on mutations that occur in the N-terminal IDR lid of MDM2, that is known to undergo ligand-dependent folding upon binding. We systematically assess the effectiveness of both equilibrium and non-equilibrium FEP protocols in reproducing these experimental binding affinities, in particular for mutations with slowly-varying degrees of freedom. We show that the equilibrium protocol outperforms the non-equilibrium protocol in the precision of the free energy estimates obtained. In addition, we demonstrate the effect of the protein force field and the water model used in simulating the highly flexible IDR region. Overall, our findings demonstrate in an accurate FEP protocol capable of reproducing these trends, and further show applicability of FEP protocols for elucidating the mutational effects on the ligand binding affinity in highly dynamic intrinsically disordered protein regions.",
+  "abstract_zh": "相对自由能微扰计算可用于预测氨基酸突变对配体结合亲和力的影响。然而，这些方案对于含有固有无序区域（IDRs）的蛋白质尚未得到充分确立。在本工作中，我们专注于开发稳健的蛋白质自由能微扰（FEP）方案，以重现针对MDM2蛋白一系列突变体与两种配体AM-7209和Nutlin-3a所测得的实验结合亲和力。我们聚焦于发生在MDM2 N端IDR盖子中的突变，该区域已知在结合时会发生配体依赖性折叠。我们系统评估了平衡和非平衡FEP方案在重现这些实验结合亲和力方面的有效性，特别是针对具有缓慢变化自由度的突变。我们表明，在所得自由能估计的精度方面，平衡方案优于非平衡方案。此外，我们展示了用于模拟高度柔性IDR区域的蛋白质力场和水模型的影响。总体而言，我们的发现展示了一种能够重现这些趋势的精确FEP方案，并进一步证明了FEP方案在阐明高度动态固有无序蛋白区域中突变对配体结合亲和力影响方面的适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-brzks",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-brzks",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-brzks/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37581491",
+  "title": "Hydrophobicity horizontal line A Single Parameter for the Accurate Prediction of Disordered Regions in Proteins.",
+  "authors": "Singh, Nitin Kumar; Bhardwaj, Pratyasha; Radhakrishna, Mithun",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-08-15",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于疏水性的单参数算法HydroDisPred预测蛋白无序区域，对象为IDP但未涉及PPI或互作机制，方法为简单算法而非AI/物理模拟，故综合评分为5。",
+  "abstract": "The prediction of disordered regions in proteins is crucial for understanding their functions, dynamics, and interactions. Intrinsically disordered proteins (IDPs) play a key role in many biological processes like cell signaling, recognition, and regulation, but experimentally determining these regions can be challenging due to their high mobility. To address this challenge, we present an algorithm called HydroDisPred (HDP). HDP uses a single parameter, the fraction of hydrophobicity (lambda) in each segment of the protein, to accurately predict disordered regions. The algorithm was validated using experimental data from the DisProt database and was found to be on par and, in some cases, more effective than the existing algorithms. HDP is a simple and effective method for identifying disordered regions in proteins, and its prediction is not affected by the availability of training data, unlike other ML approaches. The application is housed in the web server and can be accessed through the URL https://proseqanalyser.iitgn.ac.in/hydrodispred/.",
+  "abstract_zh": "预测蛋白质中的无序区域对于理解其功能、动态和相互作用至关重要。内在无序蛋白质（IDPs）在细胞信号传导、识别和调控等许多生物过程中发挥关键作用，但由于其高流动性，实验确定这些区域可能具有挑战性。为应对这一挑战，我们提出了一种名为HydroDisPred（HDP）的算法。HDP利用单一参数，即蛋白质每个片段中的疏水性分数（lambda），来准确预测无序区域。该算法使用DisProt数据库中的实验数据进行了验证，并发现其性能与现有算法相当，在某些情况下甚至更为有效。HDP是一种简单且有效的方法，用于识别蛋白质中的无序区域，且其预测不受训练数据可用性的影响，这与其它机器学习方法不同。该应用托管在Web服务器上，可通过URL https://proseqanalyser.iitgn.ac.in/hydrodispred/ 访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37581491/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37581491/",
+  "paper_page_path": "papers/pubmed/37581491/index.html"
+}

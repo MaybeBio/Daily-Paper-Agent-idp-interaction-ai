@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41026846",
+  "title": "Disaggregation at High Volume Exclusion: An \"Overcrowding\" Effect.",
+  "authors": "Koch, Leon; Baier, Dominik; Rajput, Satyendra; Konig, Benedikt; Tiemann, Michael; Ebbinghaus, Simon; Nayar, Divya; Huber, Klaus",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-09-30",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究高浓度大分子拥挤剂对自组装（纤维聚集）的'过度拥挤'逆转效应，涉及分子动力学模拟，但对象为合成染料PIC和纤维蛋白原，非无序蛋白/IDR，且未涉及PPI或相分离中的互作机制建模，仅对拥挤环境下的自组装有间接启发。",
+  "abstract": "Macromolecular crowding has an impact on any process in liquids of living systems like the cytoplasm or blood caused by the high solid contents in these liquids. Although interactions might occur in as many facets as there are components in the solid content, the impact of macromolecules, like proteins, RNA, and DNA, establishes a considerable part of the solids, which is likely dominated by volume exclusion. However, cells are not homogeneously crowded, and local spots with exceptional crowding density and volume exclusion, like it is the case in some biomolecular condensates, exist. Here, we study the effect of such conditions on self-assembly processes using two distinct types of highly water-soluble macromolecular crowders (Ficoll and silica nanoparticles) and pseudo isocyanine chloride (PIC) acting as probe species. PIC exhibits fibrillar aggregates in analogy to many self-assembling proteins, while forming hierarchical structures in fulfilling specific tasks. The sharp J-band in UV-vis spectroscopy of the fibrillar PIC aggregates allows for precise detection of its self-assembly in complex systems. As expected, both crowders promote the process of self-assembly by depletion interactions. However, we observed a reversal of this effect due to topological constraints at crowder concentrations high enough to reach the overlap or space filling concentration. The work is complemented by molecular dynamics simulations and a preliminary study of the self-assembly of fibrinogen, a key player in blood clotting, in the presence of Ficoll, thereby validating what has been observed with PIC as a synthetic probe. Experiments and simulations suggest that at highest crowding conditions, the effects on biomolecular self-assembly may be reversed compared to what is excepted from previous studies in the field, leading to the phenomenon that we term \"overcrowding\".",
+  "abstract_zh": "大分子拥挤对生命系统液体（如细胞质或血液）中任何过程均有影响，这是由这些液体中的高固体含量所致。尽管相互作用可能以与固体含量中组分数量同样多的方面发生，但蛋白质、RNA和DNA等大分子的影响构成了固体中的相当一部分，这很可能由体积排斥主导。然而，细胞并非均匀拥挤，存在具有异常拥挤密度和体积排斥的局部区域，例如某些生物分子凝聚体中的情况。在此，我们使用两种高度水溶性的大分子拥挤剂（Ficoll和二氧化硅纳米颗粒）以及作为探针物种的假异氰氯化物（PIC），研究此类条件对自组装过程的影响。PIC表现出纤维状聚集体，类似于许多自组装蛋白质，同时在执行特定任务时形成层级结构。纤维状PIC聚集体在紫外-可见光谱中的尖锐J带，使其能够在复杂系统中精确检测其自组装。如预期，两种拥挤剂均通过耗尽相互作用促进自组装过程。然而，我们观察到，在拥挤剂浓度足够高以达到重叠或空间填充浓度时，由于拓扑约束，这种效应发生逆转。该工作辅以分子动力学模拟，以及纤维蛋白原（血液凝固中的关键角色）在Ficoll存在下自组装的初步研究，从而验证了使用PIC作为合成探针所观察到的现象。实验和模拟表明，在最高拥挤条件下，对生物分子自组装的影响可能与该领域先前研究预期相反，导致我们称之为“过度拥挤 (overcrowding)”的现象。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41026846/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41026846/",
+  "paper_page_path": "papers/pubmed/41026846/index.html"
+}

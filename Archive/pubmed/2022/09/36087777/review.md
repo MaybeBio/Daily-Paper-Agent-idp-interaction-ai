@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no full text, figures, or supplementary material were provided for evaluation
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to characterize how SepF, a water-soluble protein, tethers to acidic membranes mimicking the Mycobacterium tuberculosis inner membrane. They report that membrane binding involves an N-terminal amphipathic helix (residues 1-12) and two positively charged stretches (Arg27-Arg37 and Arg95-Arg107) in the linker region preceding the FtsZ-binding core domain (residues 128-218). They further claim that these additional linker interactions stabilize membrane tethering, keep the core domain and attached Z-ring close to the membrane, and thereby enable recruitment of FtsW and CrgA at the late stage of cell division.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, validation analyses, figures, and supplementary data are not available. This severely limits the ability to assess technical soundness and the robustness of the conclusions.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanistic hypothesis for SepF-mediated membrane tethering in M. tuberculosis. However, the evidence base is limited to a summary of simulation findings without any methodological detail or quantitative support. The central claims regarding the functional consequences of membrane tethering, particularly the recruitment of FtsW and CrgA, appear to extend beyond what can be directly inferred from the described simulations. The work may be of interest to the bacterial cell division community, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, particularly those focused on the Z-ring and its membrane anchors, would be interested. The work also has relevance for those investigating the molecular mechanisms of cytokinesis in mycobacteria, including potential implications for understanding cell division as a drug target in tuberculosis. Computational biophysicists interested in membrane-protein interactions may also find the approach relevant.
+- **Major strengths** The study addresses a biologically important and understudied question, namely how SepF anchors the Z-ring to the membrane in M. tuberculosis. The identification of specific positively charged regions in the linker as contributors to membrane binding is a concrete and testable hypothesis. The use of molecular dynamics simulations to characterize a water-soluble protein's interaction with acidic membranes is an appropriate approach for this question.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations characterize how SepF tethers to acidic membranes, with specific residues involved in binding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided. The abstract does not describe the simulation system, force field, membrane composition, simulation length, number of replicates, or how convergence and equilibration were assessed. Without this information, the reliability of the simulation results cannot be evaluated.
+  - **Why it matters** Molecular dynamics simulations are sensitive to system setup and sampling. If the simulations are underconverged or the system is not representative of the physiological membrane, the identified binding residues and the proposed stabilization mechanism may be artifacts.
+  - **Resolution test** Provide a detailed methods section including system construction, force field parameters, simulation length, replicate numbers, and convergence analyses. Show that the key findings are robust across replicates and simulation conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** The abstract claims that membrane proximity of the Z-ring enables interactions with and recruitment of FtsW and CrgA at the late stage of cell division.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This claim appears to be a functional inference that goes beyond what the described simulations can directly demonstrate. The abstract does not indicate that FtsW or CrgA were included in the simulations, nor does it describe any experimental validation of recruitment. The causal link between membrane tethering and recruitment is asserted without supporting evidence.
+  - **Why it matters** The recruitment claim is a key part of the biological significance of the work. If it is not directly supported by the simulations or by experimental data, it should be presented as a hypothesis rather than a conclusion.
+  - **Resolution test** Clarify whether FtsW and CrgA were part of the simulation system. If not, either provide experimental evidence for recruitment or reframe the claim as a speculative implication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support
+  - **Claim pointer** The abstract claims that the additional interactions via the disordered linker stabilize the membrane tethering of SepF.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are presented to support the stabilization claim. There is no mention of binding free energies, residence times, or comparative analyses with and without the linker interactions.
+  - **Why it matters** The word "stabilize" implies a quantitative comparison. Without such data, the claim is not substantiated.
+  - **Resolution test** Provide quantitative measures of binding stability, such as free energy calculations or comparative simulations with mutated or truncated constructs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that SepF is a "water-soluble protein" but also that it tethers to membranes. This is not contradictory, but the transition from soluble to membrane-bound state could be clarified.
+  - **Required correction** Briefly note the conformational or environmental changes that facilitate membrane binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any limitations of the simulation approach or alternative interpretations.
+  - **Required correction** Add a sentence acknowledging that the findings are based on simulations and would benefit from experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail (R1-M1) prevents assessment of technical soundness, and the unsupported functional claim (R1-M2) overreaches the evidence. R1-M3, while not blocking, requires quantitative support.
+- **Assessment against Nature-style criteria** Originality: The specific focus on SepF in M. tuberculosis and the identification of linker regions as membrane-binding elements is a novel contribution. Scientific importance: The question of Z-ring membrane anchoring is fundamental to bacterial cell division, and M. tuberculosis is a clinically relevant organism. Interdisciplinary readership: The work bridges computational biophysics and microbiology, which could appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major concern. Readability for nonspecialists: The abstract is generally clear, but the functional claims may be misleading without supporting evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail and the unsupported functional claims prevent a positive recommendation. If the full manuscript addresses these concerns, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that membrane proximity of the Z-ring enables recruitment of FtsW and CrgA is unsupported by the abstract, as no evidence is provided that these proteins were studied or that recruitment was observed.
+- The claim that linker interactions "stabilize" membrane tethering is unsupported without quantitative data.
+- The overall reliability of the simulation results is unassessable due to the absence of methodological details.

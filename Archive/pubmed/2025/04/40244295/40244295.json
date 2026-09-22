@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40244295",
+    "doi": "10.3390/ijms26073411",
+    "title": "Deep Learning-Based Comparative Prediction and Functional Analysis of Intrinsically Disordered Regions in SARS-CoV-2."
+  },
+  "content": {
+    "abstract": "This study explores the role of intrinsically disordered regions (IDRs) in the SARS-CoV-2 proteome and their potential as targets for small-molecule drug discovery. Experimentally validated intrinsic disordered regions from the literature were utilized to assess the prediction of intrinsic disorder across a selection of SARS-CoV-2 proteins. The disorder propensities of proteins using four deep learning-based disorder prediction models: ADOPT, PONDR((R))VLXT, PONDR((R))VSL2, and flDPnn, were analyzed. ADOPT, VSL2, and VLXT identified a flexible linker (129-147), while VSL2 and VLXT predicted disorder in the Cu(II) binding region (163-167) of NSP1. ADOPT did not predict disordered regions in NSP11; however, VSL2 and VLXT identified disorder in the experimentally validated regions. The IDR in ORF3a is crucial for protein localization and immune modulation, affecting inflammatory pathways. VSL2 predicted significant disorder in the N-terminal domain (18-23), which aligns with experimental data (1-41), overlapping with the TRAF-binding motif, while ADOPT indicated high disorder in the C-terminal domain (255-275), consistent with VSL2 and flDPnn. All tools identified disorder in the N-terminal (1-68), central linker (181-248), and C-terminal (370-419) regions of the nucleocapsid (N) protein, suggesting flexibility and accuracy. The S2 subunit of the spike protein displayed more predicted disorder than the S1 subunit across ADOPT, VSL2, and flDPnn. These IDRs are essential for viral functions, like protein localization, immune modulation, receptor binding, and membrane fusion. This study highlights the importance of IDR in modulating key inflammatory pathways, suggesting that they could serve as promising targets for small-molecule drug development to combat COVID-19.",
+    "keywords": [
+      "COVID-19",
+      "deep learning",
+      "drug design",
+      "immune modulation",
+      "intrinsically disordered regions",
+      "proteome"
+    ],
+    "mesh_terms": [
+      "*SARS-CoV-2/metabolism/chemistry",
+      "*Deep Learning",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Humans",
+      "COVID-19/virology",
+      "*Viral Proteins/chemistry/metabolism",
+      "Viroporin Proteins"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ilyas, Sidra",
+        "Manan, Abdul",
+        "Lee, Donghun"
+      ],
+      "short_names": [
+        "Ilyas S",
+        "Manan A",
+        "Lee D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5339-6561",
+        "ORCID: 0009-0000-8428-9179",
+        "ORCID: 0000-0003-1075-0713"
+      ],
+      "affiliations": [
+        "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si 13120, Republic of Korea.",
+        "Department of Molecular Science and Technology, Ajou University, Suwon 16499, Republic of Korea.",
+        "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si 13120, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ilyas, Sidra",
+        "short_name": "Ilyas S",
+        "identifiers": [
+          "0000-0001-5339-6561"
+        ],
+        "affiliations": [
+          "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si 13120, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Manan, Abdul",
+        "short_name": "Manan A",
+        "identifiers": [
+          "0009-0000-8428-9179"
+        ],
+        "affiliations": [
+          "Department of Molecular Science and Technology, Ajou University, Suwon 16499, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Donghun",
+        "short_name": "Lee D",
+        "identifiers": [
+          "0000-0003-1075-0713"
+        ],
+        "affiliations": [
+          "Department of Herbal Pharmacology, College of Korean Medicine, Gachon University, 1342 Seongnamdae-ro, Sujeong-gu, Seongnam-si 13120, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Apr 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 12:27",
+    "fetched_at": "2026-09-21 18:01:25"
+  },
+  "links": {
+    "cites": [
+      "40568634",
+      "40515956"
+    ],
+    "refs": [
+      "38153183",
+      "37992221",
+      "37138579",
+      "35883485",
+      "35658408",
+      "35211823",
+      "35108439",
+      "34680086",
+      "34648928",
+      "34535791",
+      "34290238",
+      "34200602",
+      "34197833",
+      "34158638",
+      "34119626",
+      "33660218",
+      "33479198",
+      "33310017",
+      "33200826",
+      "33066343",
+      "32908316",
+      "32828463",
+      "32749662",
+      "32747721",
+      "32680882",
+      "32438371",
+      "32366695",
+      "32142651",
+      "32089835",
+      "32057769",
+      "31667555",
+      "31034780",
+      "30853739",
+      "25533957",
+      "25307499",
+      "24845231",
+      "23260655",
+      "22989858",
+      "22480932",
+      "21686180",
+      "19584866",
+      "18834305",
+      "17391014",
+      "16876893",
+      "16618368",
+      "11093259",
+      "11072340"
+    ],
+    "similar": [
+      "40244295",
+      "38941236",
+      "35196007",
+      "32696395",
+      "35108439",
+      "27062995",
+      "32712910",
+      "39576583",
+      "16618368",
+      "36929465",
+      "37992221",
+      "34290238",
+      "38722808",
+      "39537071",
+      "39205298",
+      "33200826",
+      "33006287",
+      "39174826",
+      "33936509",
+      "40221640",
+      "33719450",
+      "34905768",
+      "33866372",
+      "36959451",
+      "36272675",
+      "30471705",
+      "32473054",
+      "33090493",
+      "36908253",
+      "35883485",
+      "21528128",
+      "31521235",
+      "28934129",
+      "38018991",
+      "39062780",
+      "24115198",
+      "38701796",
+      "34418423",
+      "22292947",
+      "38672516",
+      "33893649",
+      "35767567",
+      "26149687",
+      "28381244",
+      "29791766",
+      "35883444",
+      "30878482",
+      "39093570",
+      "31441158",
+      "38005906",
+      "35131265",
+      "33248138",
+      "25031324",
+      "29550429",
+      "26699268",
+      "37892124",
+      "38166858",
+      "33627133",
+      "31724233",
+      "30841624",
+      "37561450",
+      "34119626",
+      "32535960",
+      "33730325",
+      "32045581",
+      "39933697",
+      "37191546",
+      "25424537",
+      "24727949",
+      "30301243",
+      "36088077",
+      "31739058",
+      "34835009",
+      "23760157",
+      "33479198",
+      "29080786",
+      "24532081",
+      "35211823",
+      "32886331",
+      "31756456",
+      "26198229",
+      "29945970",
+      "36851914",
+      "30763345",
+      "31889261",
+      "38793593",
+      "33671602",
+      "39446390",
+      "35507260",
+      "34704808",
+      "35055108",
+      "39912211",
+      "36430530",
+      "38297118",
+      "36291695",
+      "18831774",
+      "38587193",
+      "27797946",
+      "34633480",
+      "26195786"
+    ],
+    "review": [
+      "40244295",
+      "35108439",
+      "39205298",
+      "33006287",
+      "36959451",
+      "30471705",
+      "31521235",
+      "34418423",
+      "38672516",
+      "39093570",
+      "31441158",
+      "35131265",
+      "33248138",
+      "32045581",
+      "24532081",
+      "32886331",
+      "36851914",
+      "38793593"
+    ],
+    "pmc": [
+      "11989790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26073411",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40244295/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

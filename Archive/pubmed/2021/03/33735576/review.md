@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use umbrella sampling and metadynamics simulations on peptide oligomers containing tyrosine (pY) and arginine (pR) to study liquid-liquid phase separation (LLPS). They report that pR-pY complexation is energetically driven, that the complexation energy correlates with the number of pi-cation bonds, and that free energy calculations for poly glutamate-pR dimer binding show similarities to LLPS. They conclude that arginine- and tyrosine-containing proteins do not undergo complexation followed by coacervation, but rather phase separation akin to neutral polyion pairs.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, numerical results, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy profiles, error estimates, system size and concentration details, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis regarding the role of pi-cation interactions in LLPS of arginine- and tyrosine-rich peptides. However, the claims are stated with insufficient methodological and quantitative support to be evaluated. The central conclusion, that the mechanism is "akin to phase separation of neutral polyion pairs," is not substantiated by the evidence described in the abstract. The work may be of interest to the biophysics and soft matter communities, but the current presentation does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, LLPS, complex coacervation, and peptide self-assembly would be interested. The proposed distinction between coacervation and neutral polyion phase separation has implications for understanding intracellular phase behavior of arginine-rich proteins, which are common in RNA-binding proteins and stress granules.
+- **Major strengths** The study addresses a biologically relevant question with a combination of enhanced sampling techniques. The focus on pi-cation interactions as a driving force is timely and mechanistically plausible. The comparison between dimer binding and LLPS is a useful conceptual bridge.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find pR-pY complexation to be energetically driven" and "this energy of complexation is correlated with the number of pi-cation bonds"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports energetic driving and a correlation with pi-cation bond count, but provides no numerical values, no definition of the energy quantity, no error bars, and no description of how the correlation was quantified. Without these details, the strength and statistical significance of the correlation cannot be assessed.
+  - **Why it matters** The central mechanistic claim rests on this correlation. If the correlation is weak or based on a small number of systems, the conclusion would not be robust.
+  - **Resolution test** Provide the free energy values for complexation, the number of pi-cation bonds for each system, the correlation coefficient with a p-value, and the number of independent systems or replicas used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Free energy calculations for the binding between pairs of poly glutamate-pR dimers show striking similarities between this process and LLPS"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims "striking similarities" between dimer binding and LLPS, but does not specify which thermodynamic or structural quantities were compared, over what range of conditions, or how the comparison was made. The term "striking" is subjective and unsupported without quantitative comparison.
+  - **Why it matters** This comparison is the basis for extrapolating from dimer simulations to macroscopic phase behavior. Without a defined metric, the claim is not testable.
+  - **Resolution test** Specify the compared quantities, such as free energy per contact, critical salt concentration, or density profiles, and show quantitative agreement or scaling behavior that justifies the analogy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and claim validity
+  - **Claim pointer** "These calculations suggest that proteins containing arginine and tyrosine residues do not undergo complexation followed by coacervation. The mechanism, rather, is akin to phase separation of neutral polyion pairs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The conclusion that the mechanism is "akin to phase separation of neutral polyion pairs" is a strong mechanistic claim. The abstract does not explain how the simulations distinguish between coacervation and neutral polyion phase separation, nor what observable would differentiate these mechanisms. The claim appears to overreach the evidence described.
+  - **Why it matters** This is the main conceptual contribution of the work. If the distinction is not operationally defined, the conclusion is not falsifiable and cannot be evaluated by the community.
+  - **Resolution test** Define the operational criteria that distinguish coacervation from neutral polyion phase separation in the simulations, and show that the simulated systems meet those criteria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses "pi-cation bonds" without defining the interaction or its relevance to readers outside the simulation community.
+  - **Required correction** Add a brief definition or context for pi-cation interactions in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "multiple umbrella calculations" and "metadynamics simulations" but does not state the force field, temperature, salt conditions, or system sizes.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological relevance statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The opening states LLPS between tyrosine- and arginine-rich peptides is "of biological importance," but no specific biological context or system is named.
+  - **Required correction** Name a specific biological process or protein system to ground the relevance claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to support the central mechanistic claims. The correlation between complexation energy and pi-cation bonds, the comparison between dimer binding and LLPS, and the distinction from coacervation are all asserted without adequate evidence.
+- **Assessment against Nature-style criteria** Originality: The idea of distinguishing coacervation from neutral polyion phase separation in the context of pi-cation interactions is somewhat original, but the abstract does not demonstrate novelty beyond prior simulation studies of arginine-rich peptides. Scientific importance: The topic is relevant to the condensate field, but the abstract does not establish broad significance beyond a narrow peptide model. Interdisciplinary readership: The abstract is likely accessible to biophysicists and physical chemists, but less so to cell biologists due to undefined terms. Technical soundness: Not assessable from the abstract; the methods are named but not described, and no quantitative results are given. Readability for nonspecialists: The abstract is concise but uses jargon without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail required to evaluate the claims. A revised version with full methods, numerical results, and operational definitions of the mechanistic distinction could be supportive.
+
+## Risk / unsupported claims
+- The claim that pR-pY complexation is "energetically driven" is unsupported without free energy values.
+- The claim that complexation energy "is correlated with the number of pi-cation bonds" is unsupported without correlation statistics.
+- The claim of "striking similarities" between dimer binding and LLPS is unsupported without defined comparison metrics.
+- The conclusion that the mechanism is "akin to phase separation of neutral polyion pairs" is unsupported and not operationally defined.
+- The biological importance stated in the first sentence is asserted without specific context.

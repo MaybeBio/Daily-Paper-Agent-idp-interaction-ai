@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "39914390",
+    "doi": "10.1016/j.devcel.2025.01.012",
+    "title": "Liquid-like condensates that bind actin promote assembly and bundling of actin filaments."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates perform diverse physiological functions. Previous work showed that VASP, a processive actin polymerase, forms condensates that assemble and bundle actin. Here, we show that this behavior does not require proteins with specific polymerase activity. Specifically, condensates composed of Lamellipodin, a protein that binds actin but is not an actin polymerase, were also capable of assembling actin filaments. To probe the minimum requirements for condensate-mediated actin bundling, we developed an agent-based computational model. Guided by its predictions, we hypothesized that any condensate-forming protein that binds filamentous actin could bundle filaments through multivalent crosslinking. To test this, we added a filamentous-actin-binding motif to Eps15, a condensate-forming protein that does not normally bind actin. The resulting chimera formed condensates that facilitated efficient assembly and bundling of actin filaments. Collectively, these findings broaden the family of proteins that could organize cytoskeletal filaments to include any filamentous-actin-binding protein that participates in protein condensation.",
+    "keywords": [
+      "Lamellipodin",
+      "VASP",
+      "actin cytoskeleton",
+      "agent-based modeling",
+      "biomolecular condensates",
+      "multivalent interactions",
+      "protein phase separation"
+    ],
+    "mesh_terms": [
+      "*Actin Cytoskeleton/metabolism",
+      "*Actins/metabolism",
+      "*Microfilament Proteins/metabolism",
+      "Animals",
+      "Protein Binding",
+      "*Biomolecular Condensates/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walker, Caleb",
+        "Chandrasekaran, Aravind",
+        "Mansour, Daniel",
+        "Graham, Kristin",
+        "Torres, Andrea",
+        "Wang, Liping",
+        "Lafer, Eileen M",
+        "Rangamani, Padmini",
+        "Stachowiak, Jeanne C"
+      ],
+      "short_names": [
+        "Walker C",
+        "Chandrasekaran A",
+        "Mansour D",
+        "Graham K",
+        "Torres A",
+        "Wang L",
+        "Lafer EM",
+        "Rangamani P",
+        "Stachowiak JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA.",
+        "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA.",
+        "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA.",
+        "Cell and Molecular Biology, The University of Texas at Austin, Austin, TX, USA.",
+        "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX, USA.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX, USA.",
+        "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA; Department of Pharmacology, University of California, San Diego School of Medicine, La Jolla, CA, USA. Electronic address: prangamani@ucsd.edu.",
+        "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA; Chemical Engineering, The University of Texas at Austin, Austin, TX, USA. Electronic address: jcstach@austin.utexas.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walker, Caleb",
+        "short_name": "Walker C",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Chandrasekaran, Aravind",
+        "short_name": "Chandrasekaran A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mansour, Daniel",
+        "short_name": "Mansour D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Graham, Kristin",
+        "short_name": "Graham K",
+        "identifiers": [],
+        "affiliations": [
+          "Cell and Molecular Biology, The University of Texas at Austin, Austin, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Torres, Andrea",
+        "short_name": "Torres A",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Liping",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Lafer, Eileen M",
+        "short_name": "Lafer EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Rangamani, Padmini",
+        "short_name": "Rangamani P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA, USA; Department of Pharmacology, University of California, San Diego School of Medicine, La Jolla, CA, USA. Electronic address: prangamani@ucsd.edu."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne C",
+        "short_name": "Stachowiak JC",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA; Chemical Engineering, The University of Texas at Austin, Austin, TX, USA. Electronic address: jcstach@austin.utexas.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Developmental cell"
+    ],
+    "journal_abbrev": [
+      "Dev Cell"
+    ],
+    "pub_date": "2025 Jun 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/07 00:20",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [
+      "42102188",
+      "41857035",
+      "41730871",
+      "41536998",
+      "41407554",
+      "41223855",
+      "41109347",
+      "40727669",
+      "40667218",
+      "40160200"
+    ],
+    "refs": [
+      "39166892",
+      "38971606",
+      "38605007",
+      "38531854",
+      "38405682",
+      "38316988",
+      "38207079",
+      "37528083",
+      "36791197",
+      "36598940",
+      "36247368",
+      "36165850",
+      "36028485",
+      "35959492",
+      "35858327",
+      "35076015",
+      "33820972",
+      "33216759",
+      "32579429",
+      "32094266",
+      "30951647",
+      "30846600",
+      "30846599",
+      "30682370",
+      "30297718",
+      "29678956",
+      "29602697",
+      "29483575",
+      "29141912",
+      "28667124",
+      "28575670",
+      "28225081",
+      "27159499",
+      "27056844",
+      "26988969",
+      "26726010",
+      "26455390",
+      "26406374",
+      "26295568",
+      "26015579",
+      "25799060",
+      "25568343",
+      "25288112",
+      "24591594",
+      "24359734",
+      "23483482",
+      "22658956",
+      "22398450",
+      "21975549",
+      "21314430",
+      "21093244",
+      "21041447",
+      "20448150",
+      "20237478",
+      "20110992",
+      "20096561",
+      "19997130",
+      "19965462",
+      "19874150",
+      "19768526",
+      "19287377",
+      "18923426",
+      "18536722",
+      "17956734",
+      "17477841",
+      "17346746",
+      "15674283",
+      "15569942",
+      "15469846",
+      "15469845",
+      "15244847",
+      "15015095",
+      "14570581",
+      "11575927",
+      "11146297",
+      "11093259",
+      "10854330",
+      "10801818",
+      "10747096",
+      "10660044",
+      "10438535",
+      "9490719",
+      "9407139",
+      "8910509",
+      "7744781",
+      "7689153"
+    ],
+    "similar": [
+      "39914390",
+      "38826190",
+      "42102188",
+      "38207079",
+      "40494278",
+      "38605007",
+      "41017767",
+      "38405682",
+      "41109347",
+      "37425724",
+      "41730871",
+      "40667218",
+      "30601697",
+      "40661572",
+      "26295568",
+      "32579429",
+      "40691415",
+      "32019868",
+      "25246528",
+      "42102206",
+      "16372899",
+      "38277158",
+      "35830600",
+      "18579789",
+      "25307943",
+      "21642440",
+      "37318128",
+      "23052975",
+      "3793760",
+      "32353561",
+      "17430976",
+      "2831234",
+      "23789641",
+      "20366178",
+      "10572041",
+      "23921380",
+      "7583101",
+      "38647032",
+      "2832425",
+      "35858327",
+      "24591594",
+      "11093254",
+      "36640348",
+      "18283104",
+      "38588808",
+      "27879315",
+      "35819332",
+      "19729655",
+      "15659626",
+      "36690162",
+      "32898131",
+      "18180288",
+      "38497788",
+      "16684607",
+      "24475924",
+      "40887664",
+      "21103060",
+      "21041447",
+      "35285496",
+      "29731300",
+      "21795685",
+      "23076992",
+      "18331358",
+      "29215007",
+      "23444374",
+      "34269679",
+      "24362037",
+      "40030010",
+      "39195263",
+      "11739662",
+      "18923426",
+      "12775772",
+      "37890285",
+      "11069108",
+      "12456728",
+      "28667124",
+      "8063860",
+      "22072793",
+      "12868959",
+      "40663059",
+      "40403900",
+      "31268421",
+      "39742662",
+      "21998204",
+      "1934085",
+      "42248878",
+      "40184990",
+      "14570581",
+      "40424940",
+      "34390855",
+      "26025636",
+      "19847840",
+      "39093617",
+      "39856105",
+      "11792818",
+      "17827159",
+      "40588121",
+      "12663865",
+      "34655689",
+      "31699995"
+    ],
+    "review": [
+      "39914390",
+      "32353561",
+      "36690162",
+      "35285496",
+      "12775772",
+      "40184990",
+      "14570581",
+      "40424940",
+      "12663865"
+    ],
+    "pmc": [
+      "12151779"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1534-5807(25)00032-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39914390/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-966",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

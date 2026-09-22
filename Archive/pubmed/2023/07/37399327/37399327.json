@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "37399327",
+    "doi": "10.1002/bip.23558",
+    "title": "Conformational fluctuations and phases in fused in sarcoma (FUS) low-complexity domain."
+  },
+  "content": {
+    "abstract": "The well-known phenomenon of phase separation in synthetic polymers and proteins has become a major topic in biophysics because it has been invoked as a mechanism of compartment formation in cells, without the need for membranes. Most of the coacervates (or condensates) are composed of Intrinsically Disordered Proteins (IDPs) or regions that are structureless, often in interaction with RNA and DNA. One of the more intriguing IDPs is the 526-residue RNA-binding protein, Fused in Sarcoma (FUS), whose monomer conformations and condensates exhibit unusual behavior that are sensitive to solution conditions. By focussing principally on the N-terminus low-complexity domain (FUS-LC comprising residues 1-214) and other truncations, we rationalize the findings of solid-state NMR experiments, which show that FUS-LC adopts a non-polymorphic fibril structure (core-1) involving residues 39-95, flanked by fuzzy coats on both the N- and C-terminal ends. An alternate structure (core-2), whose free energy is comparable to core-1, emerges only in the truncated construct (residues 110-214). Both core-1 and core-2 fibrils are stabilized by a Tyrosine ladder as well as hydrophilic interactions. The morphologies (gels, fibrils, and glass-like) adopted by FUS seem to vary greatly, depending on the experimental conditions. The effect of phosphorylation is site-specific. Simulations show that phosphorylation of residues within the fibril has a greater destabilization effect than residues that are outside the fibril region, which accords well with experiments. Many of the peculiarities associated with FUS may also be shared by other IDPs, such as TDP43 and hnRNPA2. We outline a number of problems for which there is no clear molecular explanation.",
+    "keywords": [
+      "FUS excited states",
+      "fibril morphology depends on length",
+      "phosphorylation is site-specific"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Protein Domains",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Conformation",
+      "Phosphorylation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Sarcoma",
+      "RNA-Binding Protein FUS/genetics/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Thirumalai, D",
+        "Kumar, Abhinaw",
+        "Chakraborty, Debayan",
+        "Straub, John E",
+        "Mugnai, Mauro L"
+      ],
+      "short_names": [
+        "Thirumalai D",
+        "Kumar A",
+        "Chakraborty D",
+        "Straub JE",
+        "Mugnai ML"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1801-5924",
+        "ORCID: 0000-0002-4417-4825",
+        "ORCID: 0000-0003-4339-5818",
+        "ORCID: 0000-0002-2355-3316",
+        "ORCID: 0000-0002-0267-2279"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Physics, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, Boston University, Boston, Massachusetts, USA.",
+        "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+          "Department of Physics, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Abhinaw",
+        "short_name": "Kumar A",
+        "identifiers": [
+          "0000-0002-4417-4825"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Debayan",
+        "short_name": "Chakraborty D",
+        "identifiers": [
+          "0000-0003-4339-5818"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Straub, John E",
+        "short_name": "Straub JE",
+        "identifiers": [
+          "0000-0002-2355-3316"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Mugnai, Mauro L",
+        "short_name": "Mugnai ML",
+        "identifiers": [
+          "0000-0002-0267-2279"
+        ],
+        "affiliations": [
+          "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biopolymers"
+    ],
+    "journal_abbrev": [
+      "Biopolymers"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/03 19:08",
+    "fetched_at": "2026-09-20 23:18:05"
+  },
+  "links": {
+    "cites": [
+      "42074305",
+      "41576087",
+      "39211498"
+    ],
+    "refs": [
+      "37155880",
+      "36947617",
+      "35727989",
+      "35702028",
+      "35036880",
+      "34670847",
+      "34654750",
+      "34516126",
+      "34144468",
+      "33896178",
+      "33607084",
+      "33510441",
+      "33303613",
+      "33184287",
+      "32732434",
+      "32514176",
+      "32232142",
+      "32029630",
+      "31805282",
+      "31270472",
+      "30913885",
+      "30808748",
+      "30045872",
+      "29961577",
+      "29716768",
+      "29439243",
+      "29364893",
+      "29323488",
+      "28942918",
+      "28790177",
+      "28225081",
+      "27289443",
+      "26526393",
+      "26455390",
+      "26412307",
+      "26320411",
+      "26317470",
+      "25999294",
+      "25950632",
+      "25288112",
+      "24846645",
+      "23784745",
+      "22706200",
+      "22579281",
+      "22517863",
+      "22148729",
+      "21847013",
+      "21231356",
+      "21135580",
+      "20662522",
+      "19460965",
+      "18568165",
+      "18025469",
+      "17170131",
+      "17165769",
+      "15313629",
+      "15029195",
+      "13449108",
+      "12623017",
+      "12070316",
+      "11076514",
+      "11050225",
+      "9889160",
+      "8088512",
+      "7499231",
+      "4964084",
+      "3892686",
+      "3353365"
+    ],
+    "similar": [
+      "37399327",
+      "36945688",
+      "34516126",
+      "33184287",
+      "35709363",
+      "28942918",
+      "31895552",
+      "37211763",
+      "31270472",
+      "35297101",
+      "31805282",
+      "28924037",
+      "26455390",
+      "33547841",
+      "28432364",
+      "28790177",
+      "34648275",
+      "39486437",
+      "37231298",
+      "34759379",
+      "34862761",
+      "39497416",
+      "34654750",
+      "39495179",
+      "37890778",
+      "29610493",
+      "29677513",
+      "32643734",
+      "39372747",
+      "31188823",
+      "33607084",
+      "32231288",
+      "36453011",
+      "35943083",
+      "30581145",
+      "34487489",
+      "33022038",
+      "37155880",
+      "35036880",
+      "38492239",
+      "33262375",
+      "38462838",
+      "34018649",
+      "21856723",
+      "28575444",
+      "22778397",
+      "30488693",
+      "33307683",
+      "39885825",
+      "22493728",
+      "24267890",
+      "38971830",
+      "38458997",
+      "29677515",
+      "40285687",
+      "31022909",
+      "35709984",
+      "34385184",
+      "33159856",
+      "29961577",
+      "32687767",
+      "38546977",
+      "38029395",
+      "29897835",
+      "36690069",
+      "38070499",
+      "33903234",
+      "35753345",
+      "33758287",
+      "20541619",
+      "22563080",
+      "37158592",
+      "38105257",
+      "39311028",
+      "30205960",
+      "18620545",
+      "24842888",
+      "27381509",
+      "33269497",
+      "26742101",
+      "26317470",
+      "27731383",
+      "27844185",
+      "38467846",
+      "34156864",
+      "38347806",
+      "37961424",
+      "35134572",
+      "38157426",
+      "22240165",
+      "37648703",
+      "32950644",
+      "32426986",
+      "39807013",
+      "27033831",
+      "34375640",
+      "39211498",
+      "35445401",
+      "37134270",
+      "21327870"
+    ],
+    "review": [
+      "37399327",
+      "31022909",
+      "38029395"
+    ],
+    "pmc": [
+      "10831756"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37399327/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/bip.23558",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

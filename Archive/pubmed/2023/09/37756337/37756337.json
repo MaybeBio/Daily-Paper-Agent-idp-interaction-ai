@@ -1,0 +1,460 @@
+{
+  "identity": {
+    "pmid": "37756337",
+    "doi": "10.1073/pnas.2221286120",
+    "title": "Intrinsic disorder and conformational coexistence in auxin coreceptors."
+  },
+  "content": {
+    "abstract": "AUXIN/INDOLE 3-ACETIC ACID (Aux/IAA) transcriptional repressor proteins and the TRANSPORT INHIBITOR RESISTANT 1/AUXIN SIGNALING F-BOX (TIR1/AFB) proteins to which they bind act as auxin coreceptors. While the structure of TIR1 has been solved, structural characterization of the regions of the Aux/IAA protein responsible for auxin perception has been complicated by their predicted disorder. Here, we use NMR, CD and molecular dynamics simulation to investigate the N-terminal domains of the Aux/IAA protein IAA17/AXR3. We show that despite the conformational flexibility of the region, a critical W-P bond in the core of the Aux/IAA degron motif occurs at a strikingly high (1:1) ratio of cis to trans isomers, consistent with the requirement of the cis conformer for the formation of the fully-docked receptor complex. We show that the N-terminal half of AXR3 is a mixture of multiple transiently structured conformations with a propensity for two predominant and distinct conformational subpopulations within the overall ensemble. These two states were modeled together with the C-terminal PB1 domain to provide the first complete simulation of an Aux/IAA. Using MD to recreate the assembly of each complex in the presence of auxin, both structural arrangements were shown to engage with the TIR1 receptor, and contact maps from the simulations match closely observations of NMR signal-decreases. Together, our results and approach provide a platform for exploring the functional significance of variation in the Aux/IAA coreceptor family and for understanding the role of intrinsic disorder in auxin signal transduction and other signaling systems.",
+    "keywords": [
+      "Aux/IAA",
+      "IDP",
+      "TIR1",
+      "auxin",
+      "disorder"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/metabolism",
+      "*Arabidopsis Proteins/metabolism",
+      "Receptors, Cell Surface/metabolism",
+      "Indoleacetic Acids/metabolism",
+      "*F-Box Proteins/metabolism",
+      "Gene Expression Regulation, Plant"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramans-Harborough, Sigurd",
+        "Kalverda, Arnout P",
+        "Manfield, Iain W",
+        "Thompson, Gary S",
+        "Kieffer, Martin",
+        "Uzunova, Veselina",
+        "Quareshy, Mussa",
+        "Prusinska, Justyna M",
+        "Roychoudhry, Suruchi",
+        "Hayashi, Ken-Ichiro",
+        "Napier, Richard",
+        "Genio, Charo Del",
+        "Kepinski, Stefan"
+      ],
+      "short_names": [
+        "Ramans-Harborough S",
+        "Kalverda AP",
+        "Manfield IW",
+        "Thompson GS",
+        "Kieffer M",
+        "Uzunova V",
+        "Quareshy M",
+        "Prusinska JM",
+        "Roychoudhry S",
+        "Hayashi KI",
+        "Napier R",
+        "Genio CD",
+        "Kepinski S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0361-5647",
+        "ORCID: 0000-0003-3765-0325",
+        "ORCID: 0000-0001-9399-7636",
+        "ORCID: 0000-0002-0987-2716",
+        "ORCID: 0000-0001-8115-9803",
+        "ORCID: 0000-0002-9812-2801",
+        "ORCID: 0000-0002-0605-518X",
+        "ORCID: 0000-0001-9958-017X"
+      ],
+      "affiliations": [
+        "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Wellcome Biological Nuclear Magnetic Resonance Facility, Division of Natural Sciences, University of Kent, Canterbury CT2 7NJ, United Kingdom.",
+        "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Department of Bioscience, Okayama University of Science, Okayama 700-0005, Japan.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "Centre for Fluid and Complex Systems, Coventry University, Coventry CV1 5FB, United Kingdom.",
+        "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramans-Harborough, Sigurd",
+        "short_name": "Ramans-Harborough S",
+        "identifiers": [
+          "0000-0002-0361-5647"
+        ],
+        "affiliations": [
+          "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kalverda, Arnout P",
+        "short_name": "Kalverda AP",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Manfield, Iain W",
+        "short_name": "Manfield IW",
+        "identifiers": [
+          "0000-0003-3765-0325"
+        ],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Thompson, Gary S",
+        "short_name": "Thompson GS",
+        "identifiers": [
+          "0000-0001-9399-7636"
+        ],
+        "affiliations": [
+          "Wellcome Biological Nuclear Magnetic Resonance Facility, Division of Natural Sciences, University of Kent, Canterbury CT2 7NJ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kieffer, Martin",
+        "short_name": "Kieffer M",
+        "identifiers": [
+          "0000-0002-0987-2716"
+        ],
+        "affiliations": [
+          "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Uzunova, Veselina",
+        "short_name": "Uzunova V",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Quareshy, Mussa",
+        "short_name": "Quareshy M",
+        "identifiers": [
+          "0000-0001-8115-9803"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Prusinska, Justyna M",
+        "short_name": "Prusinska JM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Roychoudhry, Suruchi",
+        "short_name": "Roychoudhry S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Ken-Ichiro",
+        "short_name": "Hayashi KI",
+        "identifiers": [
+          "0000-0002-9812-2801"
+        ],
+        "affiliations": [
+          "Department of Bioscience, Okayama University of Science, Okayama 700-0005, Japan."
+        ]
+      },
+      {
+        "full_name": "Napier, Richard",
+        "short_name": "Napier R",
+        "identifiers": [
+          "0000-0002-0605-518X"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Genio, Charo Del",
+        "short_name": "Genio CD",
+        "identifiers": [
+          "0000-0001-9958-017X"
+        ],
+        "affiliations": [
+          "Centre for Fluid and Complex Systems, Coventry University, Coventry CV1 5FB, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kepinski, Stefan",
+        "short_name": "Kepinski S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Oct 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/27 18:42",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "41226450",
+      "40728386",
+      "40685552",
+      "40528549",
+      "40302163",
+      "39956931",
+      "38382088",
+      "38038239"
+    ],
+    "refs": [
+      "35217601",
+      "32385295",
+      "32305460",
+      "31548393",
+      "31484923",
+      "30913885",
+      "30865832",
+      "30810317",
+      "30316104",
+      "29548755",
+      "29506385",
+      "29080468",
+      "29064600",
+      "29026044",
+      "28818861",
+      "28716919",
+      "28589936",
+      "28076807",
+      "27805904",
+      "27627746",
+      "27243806",
+      "26626395",
+      "26583988",
+      "26575776",
+      "26574453",
+      "26183423",
+      "26149575",
+      "25788871",
+      "25633353",
+      "25512488",
+      "25400877",
+      "25255057",
+      "23901099",
+      "22852596",
+      "22466420",
+      "22393022",
+      "21072141",
+      "20504967",
+      "20041279",
+      "19686081",
+      "19413983",
+      "19303845",
+      "18456823",
+      "17765893",
+      "17410169",
+      "17212484",
+      "16981200",
+      "16618807",
+      "15917798",
+      "15917797",
+      "15314214",
+      "15264254",
+      "15116359",
+      "12395429",
+      "12120505",
+      "11595806",
+      "9917408",
+      "9478901",
+      "8906967",
+      "8811856",
+      "6667333",
+      "2010917"
+    ],
+    "similar": [
+      "37756337",
+      "24880779",
+      "22171938",
+      "19309453",
+      "31520787",
+      "27618443",
+      "28589936",
+      "28406060",
+      "15917797",
+      "23539280",
+      "32385295",
+      "24051655",
+      "30850516",
+      "40265222",
+      "22466420",
+      "17410169",
+      "20018756",
+      "15992545",
+      "15917798",
+      "22234040",
+      "18631113",
+      "11713520",
+      "36289340",
+      "34105183",
+      "40044868",
+      "29986114",
+      "30944466",
+      "37202746",
+      "16488128",
+      "16284307",
+      "27627746",
+      "18423007",
+      "22912871",
+      "16478940",
+      "22492846",
+      "25888615",
+      "38308183",
+      "16564202",
+      "27246455",
+      "23603958",
+      "28472464",
+      "24763336",
+      "29942048",
+      "31617603",
+      "22433459",
+      "26976444",
+      "35817652",
+      "18391211",
+      "28007950",
+      "27898393",
+      "22843664",
+      "24313839",
+      "30031268",
+      "20505777",
+      "34618142",
+      "38378170",
+      "29461641",
+      "25032902",
+      "30138566",
+      "27864766",
+      "15295098",
+      "25512488",
+      "19106375",
+      "27109828",
+      "16183831",
+      "36100728",
+      "21252300",
+      "22590525",
+      "14534134",
+      "11573012",
+      "23812082",
+      "25918389",
+      "25482814",
+      "15546359",
+      "10758506",
+      "29269022",
+      "26020919",
+      "29563504",
+      "25145395",
+      "12887580",
+      "19171357",
+      "19654206",
+      "30715391",
+      "31767691",
+      "19458116",
+      "36464768",
+      "30854547",
+      "16877027",
+      "18298415",
+      "11283339",
+      "15994909",
+      "14617065",
+      "39095993",
+      "37187411",
+      "12472684",
+      "9478901",
+      "12932326",
+      "15749753",
+      "25063454",
+      "29355850"
+    ],
+    "review": [
+      "37756337",
+      "40265222",
+      "18631113",
+      "16488128",
+      "16564202",
+      "27246455",
+      "22433459",
+      "35817652",
+      "25032902",
+      "16877027"
+    ],
+    "pmc": [
+      "10556615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2221286120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37756337/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37756337",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1362",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/204231/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

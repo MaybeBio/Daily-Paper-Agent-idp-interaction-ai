@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33691011",
+  "title": "SARS-CoV-2 Drug Discovery based on Intrinsically Disordered Regions.",
+  "authors": "Mudide, Anish; Alterovitz, Gil",
+  "journal": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+  "published_date": "2021-03-11",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文以SARS-CoV-2的无序区域(IDRs)为靶点，通过对接方法发现新药候选物，涉及IDR与蛋白互作机制建模，但方法偏传统对接而非AI/物理模拟，且互作机制深度有限。",
+  "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a close relative of SARS-CoV-1, causes coronavirus disease 2019 (COVID-19), which, at the time of writing, has spread to over 19.9 million people worldwide. In this work, we aim to discover drugs capable of inhibiting SARS-CoV-2 through interaction modeling and statistical methods. Currently, many drug discovery approaches follow the typical protein structure-function paradigm, designing drugs to bind to fixed three-dimensional structures. However, in recent years such approaches have failed to address drug resistance and limit the set of possible drug targets and candidates. For these reasons we instead focus on targeting protein regions that lack a stable structure, known as intrinsically disordered regions (IDRs). Such regions are essential to numerous biological pathways that contribute to the virulence of various viruses. In this work, we discover eleven new SARS-CoV-2 drug candidates targeting IDRs and provide further evidence for the involvement of IDRs in viral processes such as enzymatic peptide cleavage while demonstrating the efficacy of our unique docking approach.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）作为SARS-CoV-1的近亲，引发2019冠状病毒病（COVID-19），截至撰写本文时，该病毒已传播至全球超过1990万人。在本研究中，我们旨在通过相互作用建模和统计方法，发现能够抑制SARS-CoV-2的药物。目前，许多药物发现方法遵循典型的蛋白质结构-功能范式，设计药物以结合固定的三维结构。然而，近年来此类方法未能解决药物耐药性问题，并限制了可能的药物靶点和候选药物的范围。因此，我们转而聚焦于靶向缺乏稳定结构的蛋白质区域，即固有无序区域（IDRs）。这些区域对多种病毒毒力相关的生物途径至关重要。在本研究中，我们发现了十一种靶向IDRs的新型SARS-CoV-2药物候选物，并进一步提供了IDRs参与病毒过程（如酶促肽段切割）的证据，同时展示了我们独特对接方法的有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33691011/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33691011/",
+  "paper_page_path": "papers/pubmed/33691011/index.html"
+}

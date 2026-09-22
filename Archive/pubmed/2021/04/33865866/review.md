@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom and coarse-grained molecular dynamics simulations to investigate how tubulin tail post-translational modifications, particularly polyglutamylation and polyglycylation, affect tail conformations, tail-body interactions, and the diffusion of the microtubule-associated protein EB1 on microtubule lattices. They report that tail-body interactions are stronger in tubulin dimers than in microtubule lattices and more significant for alpha tubulin tails, that polyglutamylation expands tail dimensions and reduces EB1 diffusion while polyglycylation often increases diffusion, and that these effects are largely insensitive to the spatial organization of polymodifications.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, quantitative results, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, error analysis, all figures and tables, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a biologically relevant question about the tubulin code. The central claims are plausible and the topic is timely. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the reported differences, or the biological relevance of the predictions. The claim that polyglutamylation but not polyglycylation expands tail dimensions and differentially affects EB1 diffusion is specific and testable, but the evidence base is not visible. The study may be of interest to the cytoskeleton and computational biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying microtubule biology, the tubulin code, post-translational modifications, and microtubule-associated proteins would be interested because the study offers molecular-level predictions about how specific PTMs alter tail biophysics and protein diffusion. Computational biophysicists and molecular dynamics practitioners would also be interested in the methodological application to disordered protein regions within a polymer lattice context.
+- **Major strengths** The topic is important and timely, addressing a combinatorial PTM space that is experimentally difficult to probe. The use of both all-atom and coarse-grained simulations is appropriate for capturing different scales. The distinction between polyglutamylation and polyglycylation effects, and the comparison between dimer and lattice contexts, are conceptually valuable. The claim that spatial organization of polymodifications has limited impact is a useful simplification that could guide future work.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that polyglutamylation expands the dimensions of tubulin tails and decreases the diffusion rate of EB1 on microtubules, while polyglycylation often increases diffusion rate.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, simulation parameters, or statistical analysis to support these claims. It is unclear how tail dimensions were defined and measured, how diffusion rates were calculated, what system sizes and simulation lengths were used, and whether the observed differences are statistically significant or within simulation error.  
+  - **Why it matters** Without these details, the reader cannot assess whether the reported effects are robust or artifacts of the simulation setup. The central conclusions depend entirely on the reliability of the simulation methodology and the analysis pipeline.  
+  - **Resolution test** Provide in the full manuscript the simulation protocols, force field parameters, convergence checks, replicate numbers, and error bars for all reported quantities. Show that the differences between polyglutamylation and polyglycylation conditions exceed the uncertainty in the measurements.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that tail-body interactions are more dominant in the tubulin dimer than in an MT lattice and are more significant for alpha tubulin tails compared with beta tubulin.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify how "dominant" or "significant" is quantified. It is unclear whether this refers to interaction energies, contact frequencies, or some other metric. The comparison between dimer and lattice contexts is potentially confounded by differences in system size, electrostatics, and tail accessibility.  
+  - **Why it matters** This claim is foundational to the study's conceptual framework. If the metric is not clearly defined and the comparison is not rigorously controlled, the conclusion may be misleading.  
+  - **Resolution test** Define the interaction metric explicitly, describe how the dimer and lattice systems were constructed and equilibrated, and show that the observed differences are consistent across multiple independent simulations and analysis methods.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that the study provides predictions on the functional importance of tubulin PTMs.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not connect the simulation results to specific functional outcomes or experimental predictions. The phrase "functional importance" is vague, and no testable hypotheses are articulated.  
+  - **Why it matters** For a computational study to have impact, it should generate clear, falsifiable predictions that experimentalists can pursue. The current abstract does not provide such predictions.  
+  - **Resolution test** In the full manuscript, explicitly state which experimental observations would confirm or refute the predicted effects of polyglutamylation and polyglycylation on EB1 diffusion and tail dynamics.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses terms such as "tail-body interactions" and "poly-modifications" without defining them for readers who may not be familiar with the tubulin code field.  
+  - **Required correction** Briefly define these terms in the abstract or use more accessible phrasing.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The statement that effects are "generally not sensitive to the organization of the polymodifications" is ambiguous. It is unclear what range of organizations was tested and whether any exceptions were observed.  
+  - **Required correction** Specify the range of spatial organizations tested and note any conditions under which sensitivity was observed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract mentions that effects on MT charge density and tail dynamics are discussed, but no findings are summarized for these aspects.  
+  - **Required correction** Include a brief summary of the key findings on charge density and tail dynamics, or remove the mention if these are secondary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative claims cannot be evaluated without methodological detail and statistical support. The lack of any numerical results in the abstract means the case is not established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The topic is not entirely novel, as the tubulin code and PTM effects on microtubules have been studied, but the specific focus on combinatorial PTM space and tail dynamics in a lattice context may offer a fresh angle. The originality cannot be fully assessed from the abstract.  
+  - Scientific importance: The question is important for understanding how PTMs regulate microtubule function, but the abstract does not demonstrate a major conceptual advance or broad biological implication.  
+  - Interdisciplinary readership: The work bridges computational biophysics and cell biology, which could appeal to a broad audience, but the abstract is written in a way that may be too specialized for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon without definition.  
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound and interesting, but the abstract alone does not provide sufficient information to evaluate the technical rigor or the strength of the claims. A full review of the manuscript would be required to determine whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that polyglutamylation expands tail dimensions and decreases EB1 diffusion while polyglycylation often increases diffusion is unsupported in the abstract due to lack of quantitative data.
+- The claim that tail-body interactions are more dominant in the dimer than in the lattice and more significant for alpha tubulin is unsupported without a defined metric and controlled comparison.
+- The claim that effects are insensitive to the organization of polymodifications is unsupported without specification of the tested range.
+- The functional importance of tubulin PTMs is asserted but not substantiated with specific predictions or connections to biological outcomes.

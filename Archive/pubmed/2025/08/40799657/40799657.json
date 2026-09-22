@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40799657",
+    "doi": "10.1007/s42485-025-00188-6",
+    "title": "The effects of retinal disease on intrinsic protein disorder and liquid-liquid‑phase separation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The human retina is integral to vision, converting light into neural signals through a complex interplay of specialized neuronal cell types. Recent proteomic studies have revealed significant insights into retinal function, yet much of the retina's proteome remains unexplored. Our research focuses on quantifying and characterizing intrinsically disordered proteins (IDPs) and regions (IDRs) within the retina and other ocular structures. These proteins are critical for cellular processes due to their flexible, structure-less nature, allowing for versatile interactions in signaling and regulatory networks. Furthermore, we investigate the phenomenon of liquid-liquid-phase separation (LLPS), a process vital for cellular organization and implicated in various diseases, within the retina proteome. METHODS: In this study, we employed a suite of bioinformatics and deep learning tools to analyze protein intrinsic disorder and the propensity for LLPS in proteomes from both healthy and diseased retinas. We utilized the Human Protein Atlas (HPA) as a baseline control, comparing it against the RetNet protein set and samples afflicted by age-related macular degeneration (AMD), glaucoma, and diabetic retinopathy (DR) with and without gliosis. Protein sequences were sourced from the universal protein resource (UniProt) and analyzed for intrinsic disorder using the rapid intrinsic disorder analysis online (RIDAO) platform. Disorder levels and phase separation tendencies were further examined through statistical analyses, including ANOVA and chi-squared tests, to evaluate differences across proteomes. In addition, we assessed the likelihood of proteins to undergo LLPS using predictive tools, such as PSPredictor and ParSe V2, integrating these findings with intrinsic disorder data to draw comprehensive conclusions about the structural dynamics within these proteomes. RESULTS: The HPA control proteome displayed the highest levels of intrinsic disorder, significantly greater than those observed in disease-specific proteomes, including those affected by AMD, glaucoma, and diabetic retinopathy with and without gliosis. CH-CDF plot analysis revealed distinct structural profiles, with a higher proportion of structured proteins in the HPA and molten globular states prevalent in disease states. Our findings highlight a marked disparity in LLPS propensity, with the HPA proteome and the RetNet Protein Set demonstrating the greatest potential, suggesting a disease-specific alteration in protein interaction dynamics and structural organization. DISCUSSION: This study revealed significant variations in protein intrinsic disorder and liquid-LLPS across healthy and diseased retinal proteomes. The highest levels of disorder in the HPA proteome suggest a proteomic flexibility that is critical for normal retinal function. In contrast, the AMD and glaucoma proteomes, with their lower disorder and LLPS propensity, may lack this adaptability, potentially contributing to disease progression. These insights underscore the importance of protein dynamics in retinal disorders and point towards targeted therapies that could manipulate these properties to improve or maintain retinal health.",
+    "keywords": [
+      "Age-related macular degeneration",
+      "Diabetic retinopathy",
+      "Glaucoma",
+      "Inherited retinal diseases",
+      "Intrinsic disorder",
+      "Liquid-liquid-phase separation",
+      "Retina proteome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hadzijahic, Nedym",
+        "Kim, Colin K",
+        "Djulbegovic, Mak B",
+        "Antonietti, Michael",
+        "Taylor Gonzalez, David J",
+        "Uversky, Vladimir N",
+        "Pulido, Jose S",
+        "Karp, Carol L"
+      ],
+      "short_names": [
+        "Hadzijahic N",
+        "Kim CK",
+        "Djulbegovic MB",
+        "Antonietti M",
+        "Taylor Gonzalez DJ",
+        "Uversky VN",
+        "Pulido JS",
+        "Karp CL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA.",
+        "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA.",
+        "Department of Ophthalmology, Massachusetts Eye and Ear Infirmary, Harvard Medical School, Boston, MA, USA.",
+        "Hamilton Eye Institute, University of Tennessee Science Center, Memphis, TN, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+        "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA.",
+        "Translational Ophthalmology, Wills Eye Hospital, Philadelphia, PA, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hadzijahic, Nedym",
+        "short_name": "Hadzijahic N",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Colin K",
+        "short_name": "Kim CK",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Djulbegovic, Mak B",
+        "short_name": "Djulbegovic MB",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA.",
+          "Department of Ophthalmology, Massachusetts Eye and Ear Infirmary, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor Gonzalez, David J",
+        "short_name": "Taylor Gonzalez DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Hamilton Eye Institute, University of Tennessee Science Center, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Pulido, Jose S",
+        "short_name": "Pulido JS",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA.",
+          "Translational Ophthalmology, Wills Eye Hospital, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Karp, Carol L",
+        "short_name": "Karp CL",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL 33136, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of proteins and proteomics"
+    ],
+    "journal_abbrev": [
+      "J Proteins Proteom"
+    ],
+    "pub_date": "2025 Jun 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 06:30",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38569991",
+      "37735903",
+      "37705755",
+      "37574757",
+      "37561450",
+      "37184062",
+      "37146977",
+      "36674574",
+      "36528065",
+      "36430530",
+      "36424481",
+      "36408920",
+      "36334049",
+      "35803926",
+      "35790738",
+      "35628304",
+      "35177069",
+      "35168563",
+      "35139468",
+      "35128080",
+      "34923749",
+      "34522448",
+      "33875885",
+      "33613197",
+      "33520806",
+      "33260713",
+      "32555229",
+      "32007034",
+      "30217894",
+      "30045872",
+      "30002120",
+      "29847632",
+      "29424691",
+      "28940711",
+      "28619516",
+      "28532365",
+      "28483149",
+      "27425789",
+      "27391701",
+      "26703887",
+      "26025097",
+      "25531225",
+      "25407473",
+      "24984227",
+      "24329095",
+      "23553817",
+      "22398450",
+      "22174269",
+      "21782886",
+      "21440685",
+      "19351533",
+      "18573080",
+      "17641741",
+      "16962364",
+      "16413223",
+      "15751111",
+      "15608167",
+      "12381310",
+      "10592178",
+      "5152656"
+    ],
+    "similar": [
+      "40799657",
+      "40481689",
+      "39979561",
+      "40407495",
+      "33719450",
+      "37634152",
+      "36575582",
+      "38220424",
+      "35883530",
+      "19594884",
+      "18079679",
+      "18831774",
+      "38569991",
+      "28452939",
+      "36768473",
+      "33260713",
+      "34179096",
+      "35481633",
+      "41235230",
+      "40383327",
+      "37446185",
+      "38526948",
+      "37796176",
+      "39117985",
+      "39705832",
+      "23912807",
+      "29259393",
+      "32696395",
+      "36256781",
+      "37693346",
+      "23074517",
+      "35290420",
+      "37561450",
+      "26376097",
+      "31911439",
+      "40319601",
+      "41077201",
+      "40706494",
+      "40792356",
+      "41362882",
+      "35142991",
+      "30198635",
+      "20522251",
+      "40723369",
+      "40474962",
+      "36350034",
+      "39947751",
+      "32965990",
+      "35168563",
+      "40047533",
+      "38672516",
+      "36430801",
+      "36444977",
+      "33076213",
+      "38983095",
+      "39833115",
+      "38203210",
+      "37812573",
+      "37992221",
+      "36291695",
+      "29234807",
+      "39534590",
+      "41433062",
+      "41092354",
+      "38446061",
+      "31941785",
+      "38982922",
+      "37890707",
+      "37287138",
+      "39433443",
+      "34984754",
+      "37662293",
+      "39833899",
+      "40629388",
+      "32371601",
+      "40141114",
+      "41001641",
+      "38997894",
+      "39256186",
+      "35682883",
+      "25854109",
+      "34656333",
+      "40574713",
+      "39358890",
+      "39930207",
+      "38659747",
+      "34522448",
+      "33809541",
+      "33791275",
+      "31237369",
+      "36334049",
+      "40821877",
+      "32721458",
+      "39067723",
+      "38322526",
+      "40439464",
+      "41272974",
+      "41363845",
+      "30308336",
+      "40616404"
+    ],
+    "review": [
+      "40799657",
+      "38220424",
+      "28452939",
+      "33260713",
+      "39705832",
+      "31911439",
+      "35142991",
+      "40723369",
+      "40474962",
+      "36350034",
+      "39947751",
+      "38672516",
+      "38982922",
+      "40141114",
+      "25854109",
+      "39930207",
+      "34522448",
+      "33791275",
+      "31237369",
+      "32721458"
+    ],
+    "pmc": [
+      "12337953"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40799657/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

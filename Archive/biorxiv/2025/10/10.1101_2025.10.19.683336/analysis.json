@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.19.683336",
+  "title": "Specificity of the stabilising interaction between intrinsically disordered protein sequences and G-quadruplexes in RNA",
+  "authors": "Lachlan B. Cox; John S. Mattick; Isis A. Middleton; Felix J. Rizzuto; Pall Thordarson",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-20",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR和CD实验研究RGG无序肽段与RNA G-四链体的弱结合特异性，揭示IDR如何选择性稳定rG4结构，虽对象为IDR与RNA互作且涉及机制，但方法为纯实验、无AI或物理模拟，故评7分。",
+  "abstract": "Intrinsically disordered regions (IDRs) are present in and essential for the function of nearly all the proteins involved in the regulation, cell and developmental processes. The RGG domain in IDRs binds ‘promiscuously’ to RNA G-quadruplexes (rG4s), a non-canonical 4-stranded secondary structure that occurs in many transcripts involved in gene regulation. Here we show, using weak binding interactions between a minimal RGG-rich peptide and rG4s, that the IDR selectively templates and stabilises the structure of the human telomeric TERRA rG4, providing a unique pathway to RNA folding that does not rely on high-affinity binding or monovalent cations. Multidimensional NMR and circular dichroism analyses reveal individual nucleotide and amino acid identities determine the specificity of the interaction between RGG peptides and rG4s, explaining how IDRs can selectively recognise RNA over DNA G4s, the high specificity of such interactions in vivo, and the high frequency of monogenic mutations observed in IDRs. GRAPHICAL ABSTRACT",
+  "abstract_zh": "固有无序区域（IDRs）存在于几乎所有参与调控、细胞及发育过程的蛋白质中，并对其功能至关重要。IDRs中的RGG结构域“混杂地”结合RNA G-四链体（rG4s），这是一种非经典的4链二级结构，出现在许多参与基因调控的转录本中。在此，我们利用最小RGG富集肽与rG4s之间的弱结合相互作用，展示了IDR选择性地模板化并稳定人类端粒TERRA rG4的结构，提供了一条不依赖高亲和力结合或单价阳离子的独特RNA折叠途径。多维核磁共振和圆二色谱分析揭示，单个核苷酸和氨基酸的身份决定了RGG肽与rG4s之间相互作用的特异性，这解释了IDRs如何选择性识别RNA而非DNA G4s、此类相互作用在体内的极高特异性，以及IDRs中观察到的单基因突变高频发生。图形摘要",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.19.683336",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.19.683336",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.19.683336/index.html"
+}

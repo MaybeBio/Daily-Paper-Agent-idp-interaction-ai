@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "41504268",
+    "doi": "10.1063/5.0299964",
+    "title": "Effect of sequence variations on the phase behavior of a functional IDP fragment."
+  },
+  "content": {
+    "abstract": "Biomolecular phase separation can potentially influence processes such as signaling, transcription, and protein assembly. The driving force for phase separation is inter-molecular interactions, which are perturbed by amino acid mutations of phase-separating proteins. The pathogenic aggregated states of intrinsically disordered protein alpha-Syn are associated with several neurodegenerative diseases. A major pathway to form aggregates of alpha-Syn involves formation of liquid-like condensates, which may aid early assembly of alpha-Syn oligomers. Recent studies indicate that the P1 (residues 36-42) region in the N-terminal of alpha-Syn acts as a \"master-controller\" of its assembly and function. P1 can self-assemble and phase separate above a lower critical solution temperature. Here, we employ the P1 domain as a model peptide fragment to explore the role of sequence variation on phase behavior. In particular, the influence of point mutations Y39A and S42A of the P1 domain, known to be important for alpha-Syn assembly, are studied in detail by performing all-atom molecular dynamics simulations. The results reveal that both Y39A and S42A are able to self-assemble at elevated temperatures. Y39A exhibits similar thermo-responsive phase behavior to wild-type P1 and forms large oligomers. This indicates that although the presence of tyrosine stabilizes the network of interactions at lower temperatures, it is not crucial for forming the condensed phase at higher temperatures. In contrast, S42A shows anomalous temperature dependence and forms intermediate-sized oligomer assemblies. The study offers detailed insights into how sequence variation might affect the network of residue-residue interactions at different temperatures and alters the condensation pathway of IDP fragments.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Phase Separation",
+      "*Intrinsically Disordered Proteins/chemistry/genetics",
+      "Amino Acid Sequence",
+      "Temperature",
+      "*Peptide Fragments/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Sanchari",
+        "Mishra, Naveen",
+        "Biswas, Mithun"
+      ],
+      "short_names": [
+        "Chakraborty S",
+        "Mishra N",
+        "Biswas M"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7849-2840",
+        "ORCID: 0009-0000-8177-5462",
+        "ORCID: 0000-0002-8204-2954"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, National Institute of Technology Rourkela, Rourkela, India.",
+        "International Institute for Sustainability with Knotted Chiral Meta Matter (WPI-SKCM2), Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan.",
+        "Department of Physics and Astronomy, National Institute of Technology Rourkela, Rourkela, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Sanchari",
+        "short_name": "Chakraborty S",
+        "identifiers": [
+          "0009-0000-7849-2840"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, National Institute of Technology Rourkela, Rourkela, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Naveen",
+        "short_name": "Mishra N",
+        "identifiers": [
+          "0009-0000-8177-5462"
+        ],
+        "affiliations": [
+          "International Institute for Sustainability with Knotted Chiral Meta Matter (WPI-SKCM2), Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan."
+        ]
+      },
+      {
+        "full_name": "Biswas, Mithun",
+        "short_name": "Biswas M",
+        "identifiers": [
+          "0000-0002-8204-2954"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, National Institute of Technology Rourkela, Rourkela, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 17:52",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41504268",
+      "39980393",
+      "32393642",
+      "29509422",
+      "34102212",
+      "36373662",
+      "41804277",
+      "33139563",
+      "33684117",
+      "39495179",
+      "23912807",
+      "29511089",
+      "41820812",
+      "39319382",
+      "41609052",
+      "40748104",
+      "41524628",
+      "38526948",
+      "25207671",
+      "39947751",
+      "37961424",
+      "32087632",
+      "42106138",
+      "32936641",
+      "40278867",
+      "39046235",
+      "30217894",
+      "38965780",
+      "39937084",
+      "39645030",
+      "26742101",
+      "36272811",
+      "33302617",
+      "25255476",
+      "38260590",
+      "38252962",
+      "39466031",
+      "37815389",
+      "37488093",
+      "41114728",
+      "31667345",
+      "32184088",
+      "26735936",
+      "12962511",
+      "34737230",
+      "33078839",
+      "33629837",
+      "40882443",
+      "29949750",
+      "30471685",
+      "39225535",
+      "41033554",
+      "40944421",
+      "38112495",
+      "33076213",
+      "31139718",
+      "39354189",
+      "32703978",
+      "39342654",
+      "41433062",
+      "20039666",
+      "39987501",
+      "38272228",
+      "38160320",
+      "41187075",
+      "36343363",
+      "41629626",
+      "33069007",
+      "40911789",
+      "25804723",
+      "34074792",
+      "30873835",
+      "42202935",
+      "36115020",
+      "40847259",
+      "35944496",
+      "38348795",
+      "41301496",
+      "41147343",
+      "42316432",
+      "39531035",
+      "33403854",
+      "34710373",
+      "41088757",
+      "34090478",
+      "32312191",
+      "40792356",
+      "42093278",
+      "36528065",
+      "36008493",
+      "34716273",
+      "38761906",
+      "41733152",
+      "38941236",
+      "28924037",
+      "21331461",
+      "30865832",
+      "37238596",
+      "39605385",
+      "28894006"
+    ],
+    "review": [
+      "41504268",
+      "29509422",
+      "36373662",
+      "39947751",
+      "37488093",
+      "33078839",
+      "29949750",
+      "33069007",
+      "38348795"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0299964",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

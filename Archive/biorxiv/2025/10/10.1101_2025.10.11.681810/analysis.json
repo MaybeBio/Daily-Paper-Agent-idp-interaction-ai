@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.11.681810",
+  "title": "Unfold to refold: Tracking the initial steps of PrP C unfolding in the context of PrP Sc propagation",
+  "authors": "Sabzehei S; Rigoli M; Cacheiro R; Díaz-Arias I; Eraña H; Lago RP; Guerra A; Rezaei H; Castilla J; Biasini E; Sánchez-Pedregal VM; Martín-Pastor M; Requena JR",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-12",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合NMR与分子动力学模拟，研究朊蛋白PrP C无序化及折叠域在PrP Sc模板下的早期解折叠/重折叠机制，虽对象为朊蛋白而非典型IDP，但聚焦无序-折叠域互作转换的机制建模，对本课题有方法迁移价值。",
+  "abstract": "It might have been believed that elucidation of the atomistic structure of PrP Sc would lead to an immediate understanding of the mechanism of prion propagation. However, PrP Sc , now known to be a “simple” amyloid, can just template a previously unfolded polypeptide chain. Therefore, PrP Sc can easily template the disordered ∼90-120 domain of an incoming PrP C molecule, but not its ∼121-231 folded domain (FD). The FD needs to accommodate into the ∼121-230 PrP Sc surface, an inert “procrustean bed”. Thus, a mechanism for concerted unfolding/refolding of the FD must exist, with FD unfolding as a key element. To explore how this might happen, we performed thermal unfolding of recombinant bank vole PrP C (90-231), that is a universal PrP Sc propagator PrP Sc , tracking changes at the residue level with solution NMR to pinpoint early unfolding propensity. Our data suggest that a key early event is the destabilization of the short β1-β2 assembly, and that the segment contiguous to the disordered tail, ∼121-140, encompassing β1 and its adjacent coils, is the most likely region to unfold first. Spectroscopic data obtained at higher temperatures suggest that portions of alpha helix α2 are likely the last elements of the FD to unfold and refold into the PrP Sc conformation. Molecular Dynamics simulations assisted the interpretation of these changes and suggest separation of α1 from the rest of the FD ensemble. Our data provide a conceivable timeline of the early events in PrP Sc -assisted conversion of PrP C and should serve as a starting framework to develop a future atomistic model of PrP Sc propagation.",
+  "abstract_zh": "人们或许曾认为，阐明PrP Sc的原子结构将立即带来对朊病毒增殖机制的理解。然而，PrP Sc，现已知为一种“简单”的淀粉样蛋白，仅能模板化先前未折叠的多肽链。因此，PrP Sc可以轻松模板化进入的PrP C分子中无序的约90-120结构域，但无法模板化其约121-231的折叠结构域（FD）。FD需要适应约121-230的PrP Sc表面，这是一个惰性的“普罗克鲁斯忒斯之床”。因此，必须存在一种FD协同解折叠/重折叠的机制，其中FD解折叠是关键要素。为探索这一过程如何发生，我们对重组银行田鼠PrP C（90-231）进行了热解折叠，该蛋白是普适性的PrP Sc增殖子，通过溶液NMR追踪残基水平的变化，以精确定位早期解折叠倾向。我们的数据表明，一个关键的早期事件是短β1-β2装配体的失稳，而与无序尾部相连的约121-140区段，包含β1及其相邻环，是最可能首先解折叠的区域。在较高温度下获得的光谱数据表明，α螺旋α2的部分可能是FD中最后解折叠并重折叠为PrP Sc构象的元素。分子动力学（molecular dynamics）模拟辅助解释了这些变化，并提示α1与FD其余部分的分离。我们的数据提供了PrP Sc辅助转化PrP C过程中早期事件的合理时间线，并应作为未来开发PrP Sc增殖原子模型的起始框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.11.681810",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.11.681810",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.11.681810/index.html"
+}

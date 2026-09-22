@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.31.429000",
+  "title": "Deep learning integration of molecular and interactome data for protein-compound interaction prediction",
+  "authors": "Narumi Watanabe; Yuuto Ohnuki; Yasubumi Sakakibara",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-01",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习整合分子与互作组数据预测蛋白-化合物相互作用，虽涉及PPI网络数据但对象为小分子化合物而非无序蛋白/IDR，且无互作机制建模，仅方法上可部分迁移。",
+  "abstract": "Motivation Virtual screening, which can computationally predict the presence or absence of protein-compound interactions, has attracted attention as a large-scale, low-cost, and short-term search method for seed compounds. Existing machine learning methods for predicting protein-compound interactions are largely divided into those based on molecular structure data and those based on network data. The former utilize information on proteins and compounds, such as amino acid sequences and chemical structures, while the latter utilize interaction network data, such as data on protein-protein interactions and compound-compound interactions. However, few attempts have been made to combine both types of data in molecular information and interaction networks. Results We developed a deep learning-based method that integrates protein features, compound features, and multiple types of interactome data to predict protein-compound interactions. We designed three benchmark datasets with different difficulties and evaluated the performance on them. The performance evaluations show that our deep learning framework for integrating molecular structure data and interactome data outperforms state-of-the-art machine learning methods for protein-compound interaction prediction tasks. The performance improvement is proven to be statistically significant by the Wilcoxon signed-rank test. This reveals that the multi-interactome captures different perspectives than amino acid sequence homology and chemical structure similarity, and both type of data have a synergistic effect in improving prediction accuracy. Furthermore, experiments on three benchmark datasets show that our method is more robust than existing methods in accurately predicting interactions between proteins and compounds that are unseen in the training samples.",
+  "abstract_zh": "动机 虚拟筛选（virtual screening）能够通过计算预测蛋白质-化合物相互作用的存无，作为一种大规模、低成本、短周期的种子化合物搜索方法而受到关注。现有的用于预测蛋白质-化合物相互作用的机器学习方法大致分为基于分子结构数据的方法和基于网络数据的方法。前者利用蛋白质和化合物的信息，如氨基酸序列和化学结构，而后者利用相互作用网络数据，如蛋白质-蛋白质相互作用和化合物-化合物相互作用的数据。然而，将分子信息与相互作用网络中的两类数据结合起来的尝试很少。结果 我们开发了一种基于深度学习的方法，该方法整合了蛋白质特征、化合物特征及多种类型的相互作用组数据，以预测蛋白质-化合物相互作用。我们设计了三个难度不同的基准数据集，并对其性能进行了评估。性能评估表明，我们用于整合分子结构数据和相互作用组数据的深度学习框架在蛋白质-化合物相互作用预测任务中优于最先进的机器学习方法。性能提升通过Wilcoxon符号秩检验被证明具有统计学显著性。这揭示了多相互作用组捕捉了与氨基酸序列同源性和化学结构相似性不同的视角，且两类数据在提高预测准确性方面具有协同效应。此外，在三个基准数据集上的实验表明，我们的方法在准确预测训练样本中未见过的蛋白质与化合物之间的相互作用方面比现有方法更为稳健。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.31.429000",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.31.429000",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.31.429000/index.html"
+}

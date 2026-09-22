@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39084146",
+  "title": "The antiviral drug Ribavirin effectively modulates the amyloid transformation of alpha-Synuclein protein.",
+  "authors": "Singh, Payal; Akhtar, Almas; Admane, Nikita; Grover, Abhinav",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2024-08-01",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究探讨抗病毒药Ribavirin通过结合alpha-Synuclein的NAC结构域抑制其淀粉样聚集，对象为IDP且涉及分子互作，但聚焦小分子-蛋白而非PPI，且方法以生物物理实验为主、AI/物理模拟较弱。",
+  "abstract": "alpha-Synuclein (alpha-syn) is an intrinsically disordered protein, linked genetically and neuropathologically to Parkinson's disease where this protein aggregates within the brain. Hence, identifying compounds capable of impeding alpha-syn aggregation puts forward a promising approach for the development of disease-modifying therapies. Herein, we investigated the efficacy of Ribavirin, an FDA-approved compound, in curtailing alpha-syn amyloid transformation, employing an array of bioinformatic tools and systematic analysis using biophysical techniques. Ribavirin shows a dose dependent anti-aggregation propensity where it effectively subdued the formation of mature fibrillar aggregates of alpha-syn, where even at the lowest concentration there was a 69 % reduction in the ThT maxima. Ribavirin averts the formation of mature fibrillar aggregates by interacting with the NAC domain of alpha-syn. Ribavirin redirects the amyloid transformation of alpha-syn by emanating aggregates of lower order with reduced cross beta-sheet signature and revokes the formation of on-pathway amyloids. Collectively, our study puts forward the novel potency of Ribavirin as a promising molecule for therapeutic intervention in Parkinson's disease.",
+  "abstract_zh": "α-突触核蛋白（alpha-syn）是一种 intrinsically disordered protein（固有无序蛋白），在遗传学和神经病理学上与帕金森病相关，在该疾病中此蛋白在大脑内聚集。因此，识别能够阻碍alpha-syn聚集的化合物，为开发疾病修饰疗法提供了一种有前景的策略。在此，我们利用一系列生物信息学工具和生物物理技术的系统分析，研究了FDA批准的化合物利巴韦林（Ribavirin）在抑制alpha-syn淀粉样转化中的功效。利巴韦林表现出剂量依赖性的抗聚集倾向，有效抑制了alpha-syn成熟纤维状聚集体的形成，即使在最低浓度下，ThT最大值也减少了69%。利巴韦林通过与alpha-syn的NAC结构域相互作用，阻止了成熟纤维状聚集体的形成。利巴韦林通过产生较低阶且交叉β-折叠特征减少的聚集体，重新引导alpha-syn的淀粉样转化，并取消了通路内淀粉样蛋白的形成。总体而言，我们的研究提出了利巴韦林作为帕金森病治疗干预中一种有前景分子的新潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39084146/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39084146/",
+  "paper_page_path": "papers/pubmed/39084146/index.html"
+}

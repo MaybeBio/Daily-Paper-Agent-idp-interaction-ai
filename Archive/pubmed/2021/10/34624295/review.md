@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors constructed an integrated human protein-protein interaction network (HPIN), mapped experimentally verified phase-separated proteins into it, and report that these proteins exhibit distinct network topological properties compared to other proteins. They further claim that topological similarity can efficiently distinguish components of membrane-less organelles (MLOs), that affinity purification mass spectrometry (AP-MS) detects PPIs more effectively than yeast two-hybrid (Y2H) in phase separation-driven condensates, and that this work provides the first global view of the distinct network topology of phase-separated proteins in the human interactome, with implications for LLPS prediction.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical analyses, network construction details, or validation procedures are visible
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, network construction methodology, dataset sources and filtering criteria, statistical test details, definitions of network parameters, benchmark comparisons, and any validation or cross-checking procedures
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely hypothesis that phase-separated proteins occupy a distinct topological position in the human PPI network. However, the claims as stated are broad and largely unsupported by the visible evidence. No quantitative results, effect sizes, statistical significance values, or methodological details are provided in the abstract. The claim of "first global view" is strong and would require careful benchmarking against existing literature. The differential effectiveness claim regarding AP-MS versus Y2H is intriguing but appears to be a secondary observation that would need substantial validation to be convincing. Overall, the scientific premise is reasonable, but the evidence base as presented is insufficient to evaluate the core claims.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, biomolecular condensates, and systems biology would be interested. Specifically, those working on computational prediction of phase-separating proteins, network medicine, and the organization of membrane-less organelles would find the topological characterization potentially useful. The AP-MS versus Y2H comparison would interest experimentalists studying PPI detection methods in the context of condensate biology.
+- **Major strengths** The abstract addresses a timely and important question in the LLPS field, namely whether network-level properties can aid in identifying phase-separated proteins. The integration of experimentally verified phase-separated proteins into a human PPI network is a sensible approach. The comparison of different PPI detection modalities in the context of phase separation is a novel angle that could have practical implications for experimental design.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "analysis of the network parameters revealed differences of network topology between phase-separated proteins and others" and that "topological similarities" are efficient in "distinguishing components of MLOs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented. The abstract does not report which network parameters were analyzed, the magnitude or direction of the observed differences, any statistical significance values, or the performance metrics for the classification or distinction task. Without these, the claim of distinct topology cannot be evaluated.
+  - **Why it matters** The central thesis of the paper rests on the existence and utility of topological differences. If the effect sizes are small or the classification performance is modest, the practical relevance for LLPS prediction would be limited. The reader cannot assess whether the observed differences are biologically meaningful or merely statistically detectable.
+  - **Resolution test** Provide specific network parameters compared, effect sizes, confidence intervals or p-values, and classification performance metrics such as AUC, precision, recall, or F1 score with appropriate baselines.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that "affinity purification mass spectrometry (AP-MS) detects PPIs more effectively than yeast-two hybrid system (Y2H) in phase separation-driven condensates."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a strong comparative claim about two experimental methodologies. The abstract provides no details on how this comparison was made, what datasets were used, what metrics defined "effectiveness," or whether confounding factors such as protein abundance, membrane association, or interaction strength were controlled for.
+  - **Why it matters** This claim has direct practical implications for how researchers design experiments to map PPIs in condensates. If the comparison is based on limited or biased datasets, the conclusion could mislead experimental design. The claim also appears somewhat tangential to the main network topology thesis, raising questions about its role in the paper.
+  - **Resolution test** Describe the datasets and comparison methodology, report quantitative metrics for detection effectiveness, and discuss potential confounders and how they were addressed.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty substantiation
+  - **Claim pointer** The authors claim "our work provides the first global view of the distinct network topology of phase-separated proteins in human interactome."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of "first" is a strong novelty assertion. The abstract does not discuss prior work on network properties of phase-separated proteins or related analyses of condensate components in interaction networks. Without a clear statement of what was previously known and how this work differs, the novelty claim cannot be assessed.
+  - **Why it matters** Novelty is a key criterion for significance in this field. If similar analyses have been published, the claim of "first" would be inaccurate and could undermine the paper's contribution. Conversely, if this is indeed the first such analysis, the authors should state this more explicitly with reference to prior literature.
+  - **Resolution test** In the full text, provide a clear literature review showing that no prior study has performed a global network topology analysis of phase-separated proteins in the human interactome, and explicitly state the gap being filled.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "phase-separated proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "phase-separated proteins verified by experiments" but does not specify the source or curation criteria for this set. Different databases or experimental methods may yield different protein sets, which could affect the network analysis.
+  - **Required correction** Specify the source of the experimentally verified phase-separated protein set and the criteria for inclusion.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Components of MLOs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "MLOs" is used without definition. While specialists may be familiar with the term, the abstract should define it at first use for broader readability.
+  - **Required correction** Define "membrane-less organelles" at first mention.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** "Integrated human PPI network (HPIN)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that an "integrated" network was constructed but does not indicate what sources were integrated or how conflicts between sources were resolved. This is important for reproducibility and for understanding potential biases.
+  - **Required correction** Briefly describe the data sources and integration strategy in the abstract or indicate that full details are in the Methods.
+  - R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** "Topological similarities"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "topological similarities" is vague. It is unclear whether this refers to similarity in network metrics, graph embedding, or some other measure. The abstract should clarify what specific similarity measure was used.
+  - **Required correction** Specify the type of topological similarity measure employed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of any quantitative results in the abstract means the central claims of distinct topology and differential detection effectiveness cannot be evaluated. The novelty claim in R1-M3 also requires substantiation through literature context.
+- **Assessment against Nature-style criteria** 
+  - Originality: The premise of examining network topology of phase-separated proteins is not entirely new, but the specific angle of using topological similarity for MLO component distinction and the AP-MS versus Y2H comparison may offer some originality. However, the "first global view" claim requires careful verification against prior literature.
+  - Scientific importance: The question of whether network properties can aid in identifying phase-separated proteins is of moderate to high importance given the difficulty of experimental identification. If the claims hold, the work could provide a useful computational filter.
+  - Interdisciplinary readership: The topic bridges systems biology, biophysics, and cell biology. The abstract is written in a way that is accessible to specialists in these areas, though some terms could be defined more clearly.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably readable but assumes familiarity with LLPS, MLOs, and PPI detection methods. Some terms could be defined for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The scientific premise is promising, but the abstract lacks the quantitative detail needed to evaluate the core claims. I would be supportive if the full text provides robust statistical analyses, clear methodology, and appropriate benchmarking. The blocking concerns must be resolved before the case for distinct network topology and differential detection effectiveness can be accepted.
+
+## Risk / unsupported claims
+- The claim of "differences of network topology between phase-separated proteins and others" is unsupported without quantitative results.
+- The claim that "topological similarities" are efficient in distinguishing MLO components is unsupported without performance metrics.
+- The claim that AP-MS detects PPIs more effectively than Y2H in phase-separated condensates is unsupported without comparative data.
+- The claim of providing "the first global view" is unverifiable without literature context.
+- The suggestion that PPI network information could be incorporated for LLPS prediction is a reasonable extrapolation but is not validated by any presented evidence.

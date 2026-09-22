@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42370432",
+  "title": "Accurate interdomain contacts in a mixed folded protein from NMR-guided coarse-grained simulations.",
+  "authors": "Hobbs, Billy; Limmer, Noor; Clenshaw, Gwendolyn L; Ossa, Felipe; Karamanos, Theodoros K",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用NMR引导的粗粒化模拟表征含折叠J结构域与无序GF接头的混合折叠蛋白DNAJB6，揭示无序接头介导的域间接触与闭合态样运动，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "Intrinsically disordered, low-complexity regions frequently cooperate with folded domains to mediate protein-protein interactions, yet accurately describing these mixed folded-disordered systems remains challenging. To visualize these mixed folded proteins, experimentally guided coarse-grained (CG) molecular dynamics simulations are often employed to extend the timescales required to capture the complex dynamics in play. However, the minimalistic nature of these approaches often compromises structural accuracy and can lead to inaccurate inter-domain interactions. Here we introduce backbone dihedral terms directly derived from NMR chemical shift data in CG-simulations to characterize the open state of a mixed-folded construct of the anti-aggregation chaperone DNAJB6 that contains a folded J-domain and a disordered GF linker. By tuning residue-specific backbone dihedral parameters to match NMR-derived secondary-structure propensities of the linker in CG-simulations, we generate conformational ensembles that yield accurate interdomain contact maps. In agreement with analysis of NMR relaxation data, the resulting ensembles show that even in the nominally open state the linker experiences motions that resemble those of the closed state driven by hydrophobic residues in GF. More generally, we show that by expanding CG-simulations to allow them to capture both local and global structural properties, physically relevant interdomain contacts can be retrieved.",
+  "abstract_zh": "本质上无序的低复杂度区域经常与折叠结构域协同作用，介导蛋白质-蛋白质相互作用，然而准确描述这些混合折叠-无序系统仍然具有挑战性。为了可视化这些混合折叠蛋白，通常采用实验引导的粗粒化（CG）分子动力学模拟，以延长捕捉复杂动态所需的时间尺度。然而，这些方法的简约性往往损害结构准确性，并可能导致不准确的域间相互作用。在此，我们在CG模拟中引入直接源自NMR化学位移数据的骨架二面角项，以表征抗聚集伴侣DNAJB6的混合折叠构建体的开放状态，该构建体包含一个折叠的J结构域和一个无序的GF连接子。通过调整残基特异性骨架二面角参数，使CG模拟中的连接子二级结构倾向与NMR导出的数据相匹配，我们生成了能够产生准确域间接触图的构象系综。与NMR弛豫数据分析一致，所得系综表明，即使在名义上的开放状态下，连接子也经历类似于由GF中疏水残基驱动的闭合状态的运动。更广泛地说，我们展示了通过扩展CG模拟以使其能够同时捕捉局部和全局结构特性，可以检索到物理相关的域间接触。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42370432/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42370432/",
+  "paper_page_path": "papers/pubmed/42370432/index.html"
+}

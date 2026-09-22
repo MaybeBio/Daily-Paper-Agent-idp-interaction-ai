@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, results, figures, or tables
+- **Shared manuscript claim summary** The authors introduce SAPP, a Transformer-based model integrating AlphaFold2-derived structural features with sequence information for post-translational modification (PTM) site prediction. They claim improved accuracy and biological relevance over sequence-based models, and report that fine-tuning from a phosphorylation-pretrained model generalizes to other PTM types with limited training data.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, dataset descriptions, or benchmark comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental setup, datasets, baseline comparisons, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable direction, namely integrating structural features from AlphaFold2 into PTM prediction. However, the claims of improved accuracy, biological relevance, and generalization are not supported by any quantitative evidence in the supplied material. The novelty statement is also somewhat overstated, as structure-based PTM prediction has been explored in prior literature. The abstract is written clearly but lacks the specificity required to evaluate technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in computational biology, proteomics, and bioinformatics, particularly those working on PTM prediction, protein structure-function relationships, and applications of AlphaFold2-derived features. Clinicians and drug developers interested in PTM-related disease mechanisms may also find the work relevant, though the abstract does not yet demonstrate translational impact.
+- **Major strengths** The integration of AlphaFold2 structural features with sequence data addresses a recognized limitation of sequence-only models. The proposed fine-tuning strategy from a phosphorylation-pretrained model to other PTM types is a practical and potentially impactful idea, especially for PTM types with scarce training data. The abstract is well-structured and communicates the core concept clearly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SAPP effectively captures complex interactions between sequences and their structural states, improving prediction accuracy and biological relevance over sequence-based models"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims improved prediction accuracy and biological relevance but provides no quantitative results, such as AUC, precision, recall, or comparison metrics against baseline models. No dataset details, evaluation protocols, or statistical significance tests are mentioned.
+  - **Why it matters** Without quantitative evidence, the central claim of superiority over sequence-based models cannot be assessed. The abstract does not allow a reader to determine whether the improvement is meaningful or statistically robust.
+  - **Resolution test** Provide performance metrics (e.g., AUC, F1) with confidence intervals and statistical tests comparing SAPP to at least one strong sequence-based baseline on standard benchmark datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and positioning
+  - **Claim pointer** "SAPP is among the first structure-based PTM prediction frameworks"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of being "among the first" is not substantiated with a literature comparison. Prior work has incorporated structural features, including solvent accessibility and disorder, into PTM prediction models. The abstract does not clarify how SAPP differs from these existing approaches beyond the use of AlphaFold2 predictions.
+  - **Why it matters** The novelty claim is central to the paper's contribution. If similar structure-aware models already exist, the incremental value of SAPP must be clearly delineated. The current wording is vague and potentially misleading.
+  - **Resolution test** Include a brief literature review in the introduction and explicitly state the novel contributions relative to prior structure-based PTM prediction methods, with citations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalization claim
+  - **Claim pointer** "fine-tuning from a phosphorylation-pretrained model to other PTM types, achieving generalization performance in PTM types with limited training data"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generalization claim is presented without any supporting data. No details are given on which PTM types were tested, how limited the training data were, or how performance compared to training from scratch or to other transfer learning approaches.
+  - **Why it matters** Transfer learning is a key claimed advantage, but without experimental evidence, the claim is unverifiable. The abstract does not establish that the fine-tuning strategy is effective or superior to alternatives.
+  - **Resolution test** Provide results for at least two PTM types with limited data, comparing fine-tuned SAPP against training from scratch and against a baseline transfer learning method, with appropriate metrics and error bars.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "unified Transformer-based framework" is vague. It is unclear how self-attention and cross-attention are specifically applied to integrate sequence and structure, and what the input representation for structure is.
+  - **Required correction** Briefly describe the input features (e.g., AlphaFold2 pLDDT scores, solvent accessibility, or coordinates) and how cross-attention combines sequence and structure embeddings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "pioneering model"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "pioneering" is subjective and not supported by evidence in the abstract. It overlaps with the "among the first" claim and may be seen as overstated.
+  - **Required correction** Replace "pioneering" with a neutral descriptor such as "novel" or "structure-aware," and let the results demonstrate the contribution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of data availability, code release, or model weights. This limits reproducibility, which is critical for computational biology tools.
+  - **Required correction** State in the abstract or main text whether code, trained models, and benchmark datasets will be made publicly available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, clear novelty positioning, and validation of the generalization claim. These are essential to establish the case for SAPP's utility and contribution.
+- **Assessment against Nature-style criteria** Originality: The idea of integrating AlphaFold2 structural features is timely, but the abstract does not demonstrate sufficient novelty over existing structure-aware methods. Scientific importance: PTM prediction is a relevant problem, and structural context is biologically meaningful, but the abstract does not show a significant advance. Interdisciplinary readership: The work bridges structural biology and machine learning, which could appeal to a broad audience, but the abstract is too technical for nonspecialists without context. Technical soundness: Cannot be evaluated from the abstract alone; no methodological details or validation are provided. Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "self-attention," "cross-attention") without explanation, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept, but the lack of quantitative results, unclear novelty, and unvalidated generalization claims prevent a supportive recommendation. The authors should provide full experimental evidence and clarify the contribution relative to prior work.
+
+## Risk / unsupported claims
+- "improving prediction accuracy and biological relevance over sequence-based models" is unsupported without quantitative comparisons.
+- "SAPP is among the first structure-based PTM prediction frameworks" is unverifiable without a literature review.
+- "achieving generalization performance in PTM types with limited training data" is unsupported without experimental results.
+- "pioneering model" is subjective and not evidenced.
+- The overall claim that structural information is critical for PTM prediction is plausible but not demonstrated in the abstract.

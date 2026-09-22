@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37159305",
+  "title": "Coacervation-Induced Remodeling of Nanovesicles.",
+  "authors": "Mondal, Sayantan; Cui, Qiang",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2023-05-09",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究无序肽凝聚体与纳米囊泡膜的相互作用及膜重塑机制，虽非直接PPI，但聚焦IDP凝聚体与膜的互作机制建模，方法可迁移至IDR介导的互作研究。",
+  "abstract": "Intrinsically disordered peptides can form biomolecular condensates through liquid-liquid phase separation. These condensates play diverse roles in cells, including inducing large-scale changes in membrane morphology. Here we employ coarse-grained molecular dynamics simulations to identify the most salient physical principles that govern membrane remodeling by condensates. By systematically varying the interaction strengths among the polymers and lipids in our coarse-grained model, we are able to recapitulate various membrane transformations observed in different experiments. Endocytosis and exocytosis of the condensate are observed when the interpolymeric attraction is stronger than polymer-lipid interaction. We find a critical size of the condensate required to exhibit successful endocytosis. Multilamellarity and local gelation are observed when the polymer-lipid attraction is significantly stronger than the interpolymeric attraction. Our insights provide essential guidance to the design of (bio)polymers for the manipulation of membrane morphology in various applications such as drug delivery and synthetic biology.",
+  "abstract_zh": "intrinsically disordered peptides（固有无序肽）可通过液-液相分离（liquid-liquid phase separation）形成生物分子凝聚体。这些凝聚体在细胞中发挥多种作用，包括诱导膜形态的大规模变化。在此，我们采用粗粒化分子动力学（coarse-grained molecular dynamics）模拟，以识别凝聚体调控膜重塑的最显著物理原理。通过系统改变粗粒化模型中聚合物与脂质之间的相互作用强度，我们能够重现不同实验中观察到的多种膜转变。当聚合物间吸引力强于聚合物-脂质相互作用时，观察到凝聚体的内吞和外排。我们发现，成功内吞需要凝聚体达到临界尺寸。当聚合物-脂质吸引力显著强于聚合物间吸引力时，观察到多层膜性和局部凝胶化。我们的见解为设计用于药物递送和合成生物学等应用中操控膜形态的（生物）聚合物提供了重要指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37159305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37159305/",
+  "paper_page_path": "papers/pubmed/37159305/index.html"
+}

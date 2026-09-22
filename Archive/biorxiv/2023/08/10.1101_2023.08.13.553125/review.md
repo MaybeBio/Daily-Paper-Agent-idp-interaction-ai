@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and supplementary table descriptions. Figures and supplementary figures were not provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the text. Statistical analyses and raw data were not independently verified.
+- **Shared manuscript claim summary** The authors report an unbiased survey of C-terminal degrons in budding yeast, identifying over 5000 potential degrons. They implicate the SCF ubiquitin ligase with the F-box receptor Das1 in targeting approximately 40% of these degrons, and provide evidence that Das1 recognizes orphan complex subunits for degradation.
+- **Visible evidence base** Text descriptions of MPS profiling experiments, genetic screens, machine learning model performance metrics, and validation experiments. Specific numerical data are referenced in supplementary tables that were not available for review.
+- **Missing materials affecting confidence** All figures, supplementary figures, and supplementary tables. Raw sequencing data, statistical analysis details, and complete strain/plasmid lists. This limits verification of key claims and quantitative results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and potentially important survey of C-terminal degrons in budding yeast, with the surprising finding that a single F-box protein, Das1, recognizes a large fraction of these degrons. The experimental approach is innovative and the work addresses a significant gap in our understanding of C-degron pathways in eukaryotes. However, the absence of figures and supplementary data prevents full evaluation of the evidence quality. The claim that Das1 functions in orphan quality control is intriguing but requires stronger validation, particularly regarding the physiological relevance of the overexpression conditions used to identify substrates.
+- **Who would be interested in the results, and why** Researchers studying ubiquitin-proteasome system biology, protein quality control, degron biology, and proteostasis. The work also has relevance for those interested in the evolution of degradation pathways and the specificity determinants of ubiquitin ligases. The finding that a single receptor can recognize diverse C-degrons challenges current models and may inform efforts to engineer targeted protein degradation.
+- **Major strengths** The unbiased screening approach using MPS profiling is powerful and well-established. The combination of machine learning, mutagenesis, and genetic screens provides multiple lines of evidence. The identification of a single F-box receptor with broad specificity is a conceptually important finding. The connection to orphan quality control is biologically meaningful and expands the known functions of SCF complexes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that SCF Das1 targets approximately 40% of identified C-degrons, and that Das1 recognizes a variety of C-degron motifs.
+  - **Evidence pointer** Results sections "Search for C-degrons with libraries of random peptides" and "Specificity of the SCF Das1 ubiquitin ligase"; Figures 1, 2, 5 (not provided)
+  - **Concern** The central claim of broad specificity relies on quantitative comparisons between wild type and mutant backgrounds. Without access to the actual MPS data, scatter plots, and statistical analyses, it is impossible to assess whether the classification of Das1-dependent versus Das1-independent degrons is robust. The threshold definitions for "fully stabilized" and "partially stabilized" appear arbitrary, and the manuscript does not report effect sizes or confidence intervals for the proportions claimed.
+  - **Why it matters** The quantitative scope of Das1's specificity is a central finding. If the classification criteria are too permissive, the 40% figure could be a substantial overestimate, which would weaken the conceptual advance.
+  - **Resolution test** Provide the full MPS datasets as supplementary files, including per-peptide PSI values in all genetic backgrounds. Show the distribution of PSI differences between wild type and das1Δ, and justify the chosen thresholds with statistical rigor. Report the proportion of Das1-dependent degrons with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors conclude that SCF Das1 degrades orphan complex subunits, specifically implicating Atg1 and Rpa12.
+  - **Evidence pointer** Results section "Endogenous substrates and functions of SCF Das1"; Figures 6, 7 (not provided)
+  - **Concern** The identification of endogenous substrates relies heavily on overexpression conditions. The authors acknowledge that deletion of DAS1 does not affect the proteome under normal growth conditions, yet they use overexpression to reveal Das1-dependent turnover. This raises the question of whether the observed degradation is physiologically relevant or an artifact of protein overload. The validation with Atg1 and Rpa12 is limited to overexpression and does not demonstrate that endogenous protein levels are regulated by Das1 under any condition tested.
+  - **Why it matters** The orphan quality control function is a major biological conclusion. If this only occurs under non-physiological overexpression, the physiological significance is unclear. The manuscript would be strengthened by identifying a condition where endogenous substrates are degraded in a Das1-dependent manner.
+  - **Resolution test** Identify a physiological condition (e.g., specific stress, growth phase, or mutant background) where endogenous Atg1 or Rpa12 levels are elevated in das1Δ cells. Alternatively, demonstrate that the overexpression phenotype reflects a genuine quality control mechanism by showing that orphaned subunits are specifically targeted while assembled complexes are protected.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic insight
+  - **Claim pointer** The authors propose that Das1 recognizes multiple potentially overlapping C-degron motifs, but do not define the molecular basis of recognition.
+  - **Evidence pointer** Results section "Specificity of the SCF Das1 ubiquitin ligase"; Figures 4, 5 (not provided)
+  - **Concern** The manuscript identifies sequence preferences at positions -5 to -1 but does not provide a structural or biophysical explanation for how a single F-box protein can recognize such diverse motifs. The relationship between the proposed motifs and the actual binding interface on Das1 is unexplored. The authors do not test whether Das1 binds directly to these degrons or whether adaptor proteins are involved.
+  - **Why it matters** Understanding the molecular basis of broad specificity is important for the conceptual advance and for potential applications in targeted degradation. Without mechanistic insight, the finding remains descriptive.
+  - **Resolution test** Perform binding assays (e.g., pull-downs, ITC, or structural studies) with Das1 and representative degron peptides. Test whether mutations in predicted binding pockets of Das1 abolish recognition. Determine whether recognition is direct or mediated by adaptors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** The authors contrast their findings with human C-degron pathways, noting that yeast lacks Cul2-based C-degron recognition.
+  - **Evidence pointer** Introduction and Discussion sections
+  - **Concern** The comparison to human systems is superficial. The authors do not systematically compare the sequence features of yeast Das1 degrons with known human C-degrons, nor do they test whether any human C-degron motifs are recognized by Das1. The claim that glycine C-degrons are not enriched in yeast is based on the random library, but the authors do not analyze the yeast C-terminome for glycine-ending motifs that might be under negative selection.
+  - **Why it matters** The evolutionary implications of the findings are part of the broader significance. A more rigorous comparative analysis would strengthen the claim that Das1 represents a distinct, yeast-specific solution to C-degron recognition.
+  - **Resolution test** Perform a bioinformatic analysis of yeast and human C-termini for the identified Das1 motifs. Test a panel of known human C-degrons in the yeast system. Analyze whether glycine-ending C-termini are depleted in yeast, as would be predicted if they are toxic.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Summary and Introduction sections
+  - **Issue** The abstract states that Das1 targets "∼40% of degrons" but does not specify whether this refers to random library degrons or endogenous C-termini. The Introduction would benefit from a clearer statement of what is known about C-degron pathways in yeast prior to this work.
+  - **Required correction** Clarify in the abstract which population the 40% refers to. Add a brief summary of prior knowledge of yeast C-degron pathways in the Introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results sections describing MPS profiling
+  - **Evidence pointer** Results sections "Search for C-degrons with libraries of random peptides" and "Specificity of the SCF Das1 ubiquitin ligase"
+  - **Issue** The manuscript reports accuracy and AUC for the machine learning model but does not report precision, recall, or F1 score. The correlation between hydrophobicity and PSI is described as "moderate" without reporting the correlation coefficient.
+  - **Required correction** Report additional performance metrics for the model and the actual correlation coefficient with significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods section on MPS profiling
+  - **Evidence pointer** Methods section "Multiplexed protein stability profiling"
+  - **Issue** The description of the MPS profiling method lacks details on the number of biological replicates, the depth of sequencing, and the criteria for including peptides in the analysis. The method for calculating PSI from count data is described but the normalization steps are not fully specified.
+  - **Required correction** Provide additional methodological details, including replicate numbers, sequencing depth, and normalization procedures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary tables
+  - **Evidence pointer** Supplementary Tables S1-S6
+  - **Issue** The supplementary tables are described as Excel files but are not provided with the manuscript. The authors state that analysis pipelines are available upon request, which is not consistent with current data availability standards.
+  - **Required correction** Provide all supplementary tables as part of the submission and deposit analysis code in a public repository.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The term "orphan quality control" is used without a formal definition. The relationship to other quality control pathways (e.g., ERAD, ribosome-associated quality control) is not discussed.
+  - **Required correction** Define the term and place it in the context of existing quality control pathways.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for the 40% claim), R1-M2 (physiological relevance of substrate identification), R1-M3 (mechanistic basis of recognition). These are the primary technical issues that prevent full acceptance of the central claims.
+- **Assessment against Nature-style criteria** Originality: High. The unbiased survey of C-degrons in yeast and the identification of a single broad-specificity receptor is a novel contribution. Scientific importance: High. The work addresses a fundamental question in ubiquitin biology and has implications for understanding proteostasis and evolution of degradation pathways. Interdisciplinary readership: Moderate. The work will primarily interest cell biologists, biochemists, and proteostasis researchers. Technical soundness: Cannot be fully assessed without figures and data. The methods are appropriate and well-established, but the evidence for key claims is not verifiable from the text alone. Readability for nonspecialists: Good. The manuscript is clearly written and the logic is easy to follow, though some specialized terminology is used without definition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the experimental approach is rigorous, but the evidence for the central claims must be fully presented and the physiological relevance of the orphan quality control function must be strengthened.
+
+## Risk / unsupported claims
+- The claim that Das1 targets approximately 40% of C-degrons is not verifiable without the underlying data and statistical analysis.
+- The conclusion that Das1 functions in orphan quality control is based primarily on overexpression experiments and lacks demonstration of physiological relevance.
+- The statement that glycine C-degron motifs are not enriched in yeast is based on the random library analysis but is not supported by analysis of the endogenous yeast C-terminome for such motifs.
+- The claim that Das1 recognizes multiple distinct C-degron motifs is supported by sequence preferences but lacks mechanistic validation.
+- The suggestion that Das1-mediated degradation shapes the yeast proteome is speculative and not directly tested.

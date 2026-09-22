@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplemental figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors map the ATPase-activating protein (AAP) activity of PomY in the Myxococcus xanthus PomX/Y/Z division site positioning system to a C-terminal region spanning residues 496–682 (PomY496-682). They show that PomY496-682 and the previously identified PomX N-terminal peptide (PomXNPEP) are sufficient for synergistic activation of PomZ ATPase activity. Using AlphaFold 3 structural modeling, they predict that PomY496-682 and PomXNPEP bind to two distinct, non-overlapping sites at the PomZ dimer interface, partially overlapping with the binding sites of ParB and MinE peptides in their cognate ATPases. In vivo experiments demonstrate that PomY496-682 is important for division site positioning and initiation of cell division.
+- **Visible evidence base** Results sections on computational analysis of PomY, ATPase assays with PomY truncation variants, Y2H interaction assays, in vivo localization and cell division assays, biolayer interferometry for DNA binding, and AlphaFold 3 structural models. Methods sections for all experimental procedures. Figures referenced as Fig. 1–8 and supplemental figures S1–S14.
+- **Missing materials affecting confidence** Figure panels and actual images were not provided; only figure legends and in-text descriptions. Numerical data for ATPase activities are reported as means with standard deviations but raw data points are not shown. Statistical test details for some comparisons are not fully described. The Ala-scanning data for PomXNPEP are referenced from prior work (27) and not shown here.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a solid and well-executed dissection of the molecular determinants of PomY AAP activity, identifying a C-terminal region (residues 496–682) as necessary and sufficient for stimulating PomZ ATPase activity. The combination of in vitro biochemistry, in vivo functional assays, and structural modeling is appropriate and generally convincing. The finding that two distinct AAPs use non-overlapping binding sites on the PomZ dimer to achieve synergistic activation is novel and of broad interest to the bacterial cell biology community. However, several technical concerns, particularly regarding the reliance on AlphaFold 3 predictions without experimental validation of the binding interfaces, and the incomplete in vivo complementation data, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, particularly the mechanisms of division site positioning; investigators working on ParA/MinD ATPase systems and their regulation by ATPase-activating proteins; and those interested in the molecular basis of synergistic protein activation. The work also has relevance to the broader field of biomolecular condensates and their role in cellular organization.
+- **Major strengths** 1. The identification of a specific, relatively small region (PomY496-682) that recapitulates full-length PomY AAP activity is a significant advance. 2. The demonstration that PomY496-682 and PomXNPEP are sufficient for synergistic activation is clean and compelling. 3. The in vivo data linking PomY496-682 to division site positioning and cell division initiation provide physiological relevance. 4. The structural modeling is thoughtful and generates testable hypotheses, particularly the comparison to ParB and MinE binding sites.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The authors claim that AlphaFold 3 modeling predicts that PomY496-682 and PomXNPEP bind to two distinct, non-overlapping sites at the PomZ dimer interface, and that these sites partially overlap with the ParB and MinE binding sites in their cognate ATPases.
+  - **Evidence pointer** Results section "Structural modeling of the PomZ/PomY496-682 and the PomZ/PomXNPEP interactions"; Figures 7 and 8; Supplemental Figures S9–S13
+  - **Concern** The structural models are entirely computational, with no experimental validation of the predicted binding interfaces. The authors do not perform mutagenesis of the predicted PomZ interface residues to test whether disruption of the α5 binding site or the PomXNPEP binding site abolishes AAP activity or synergy. The pLDDT and pAE scores are reported, but the models for the PomY496-682 complex show that only α5 and the gD domain are modeled with high confidence, while the intervening IDR is not. This raises the question of whether the predicted α5 interaction is physiologically relevant or an artifact of the modeling. The authors acknowledge that PomY496-623 (containing α5) is not sufficient for AAP activity, which suggests that additional contacts from the gD domain or other regions are required, but the model does not provide a clear picture of these contacts.
+  - **Why it matters** The central mechanistic claim of the paper, that two AAPs bind to distinct sites on the PomZ dimer to achieve synergy, rests on the structural models. Without experimental validation, this claim remains speculative. If the predicted binding sites are incorrect, the proposed model for synergistic activation would need to be revised.
+  - **Resolution test** The authors should perform site-directed mutagenesis of residues in the PomZ dimer predicted to contact α5 and PomXNPEP, and test the effects on PomY- and PomX-mediated ATPase activation in vitro and on PomZ recruitment and division site positioning in vivo. Alternatively, crosslinking or hydrogen-deuterium exchange mass spectrometry could provide experimental evidence for the binding interfaces.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sufficiency of in vivo evidence
+  - **Claim pointer** The authors claim that the PomY496-682 region is important for division site positioning and initiation of cell division, based on the phenotype of a PomYΔ496-682 mutant.
+  - **Evidence pointer** Results section "The PomY496-682 region is important for division site positioning, initiation of division, and recruitment of PomZ to the PomX/Y assembly"; Figure 6
+  - **Concern** The in vivo complementation data are incomplete. The authors express PomYΔ496-682-mCh in a ΔpomY mutant and observe partial complementation of the cell division defect. However, it is not clear whether the PomYΔ496-682 protein is expressed at levels comparable to wild-type PomY. The authors state that both variants accumulated at slightly lower levels than PomY expressed from the native locus, but the quantification is not shown. More importantly, the authors do not test whether the PomYΔ496-682 protein still interacts with PomX. If the deletion disrupts PomX binding, the observed phenotype could be due to loss of PomX interaction rather than loss of AAP activity. The authors also do not test whether a PomY variant lacking only the α5 helix (rather than the entire 496–682 region) phenocopies the Δ496-682 mutant.
+  - **Why it matters** The in vivo data are crucial for establishing the physiological relevance of the identified AAP region. If the observed defects are due to indirect effects (e.g., loss of PomX binding or protein instability), the conclusion that PomY496-682 is specifically important for AAP function in vivo would be weakened.
+  - **Resolution test** The authors should quantify PomY and PomYΔ496-682 protein levels by immunoblotting with a standard curve. They should test PomYΔ496-682 binding to PomX by co-immunoprecipitation or Y2H. They should also generate and test a PomY variant lacking only α5 (e.g., residues 496–520) to determine whether this smaller deletion recapitulates the Δ496-682 phenotype.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of ATPase assays
+  - **Claim pointer** The authors report specific ATPase activities for PomZ in the presence of various PomY variants and PomXNPEP, and claim synergistic activation when both AAPs are present.
+  - **Evidence pointer** Results section "PomY AAP activity resides in the C-terminal mIDR spanning residues 438–682" and "Reconstitution of the synergistic activation of PomZ ATPase activity by minimal parts of PomY and PomX"; Figures 2 and 5
+  - **Concern** The ATPase assays are performed at single concentrations of PomY variants and PomXNPEP (10 µM and 2 µM, respectively). The authors do not perform dose-response curves to determine whether the observed "synergy" is truly synergistic or simply additive. The term "synergistic" implies that the combined effect is greater than the sum of the individual effects, which requires a quantitative comparison at multiple concentrations. The authors also do not report the basal ATPase activity of PomZ in the absence of any AAP in the same figure for direct comparison, making it difficult to assess the magnitude of activation.
+  - **Why it matters** The claim of synergistic activation is a key finding of the paper. If the effect is merely additive, the mechanistic model of two distinct binding sites contributing independently to activation would be less compelling.
+  - **Resolution test** The authors should perform dose-response experiments with PomY496-682 and PomXNPEP individually and in combination, and use an isobologram or combination index analysis to formally demonstrate synergy. They should also include the no-AAP control in the same experimental run.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section "Computational analysis of PomY"; Figure 1
+  - **Issue** The description of the PomY domain architecture in Figure 1 is somewhat difficult to follow. The boundaries of the coiled-coil, IDR, HEAT repeats, and gD domain are described in the text but the figure legend does not clearly indicate the residue numbers for each domain.
+  - **Required correction** Add residue number boundaries for each domain directly on the schematic in Figure 1A, and ensure the figure legend lists these boundaries explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "The PomY496-682 region is important for division site positioning, initiation of division, and recruitment of PomZ to the PomX/Y assembly"; Figure 6
+  - **Issue** The statistical comparisons for cell length, constriction frequency, and constriction position are mentioned in the text but the specific statistical tests and p-values are not reported in the figure legends or in the Methods section.
+  - **Required correction** Report the statistical test used for each comparison in the figure legends, and include the p-values or confidence intervals. Specify in the Methods section which test was used for each type of data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** AlphaFold 3 modeling
+  - **Evidence pointer** Methods section "Bioinformatics"
+  - **Issue** The description of the AlphaFold 3 modeling is brief. The authors state that models were generated via the AlphaFold server with default settings, but do not specify the input sequences, whether any templates were used, or how the models were ranked beyond the general description of pLDDT, pAE, and ipTM scores.
+  - **Required correction** Provide the full input sequences for the PomZ dimer, PomY496-682, and PomXNPEP modeling, and describe the ranking criteria more precisely. If multiple models were generated, state how many and how the best model was selected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of Y2H data
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section "PomZ interacts with PomY via the C-terminal PomYmIDR region" and "The ATP-bound dimeric and DNA-binding form of PomZ interacts with the C-terminal PomYmIDR region"; Figure 3
+  - **Issue** The Y2H assays show weak interactions of PomZG62V and PomZK268E with PomYmIDR at low stringency, which disappear at high stringency. The authors interpret this as indicating that the dimeric ATP-bound form is the preferred interaction partner. However, the Y2H assay is indirect and the PomZG62V and PomZK268E mutations may affect protein stability or folding, which could confound the interpretation.
+  - **Required correction** Acknowledge this limitation in the Discussion. If possible, confirm the interaction using an orthogonal in vitro method, such as pull-down assays with purified proteins.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Results sections
+  - **Issue** The authors use both "PomY496-682" and "PomY496-682 region" interchangeably, and at times refer to "PomYmIDR" which is defined as residues 438–682. This is slightly confusing, especially when discussing the truncation analysis.
+  - **Required correction** Use consistent nomenclature throughout. For example, define "PomYmIDR" as residues 438–682 and "PomY496-682" as the minimal region, and use these terms consistently in all figure legends and text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation of predicted binding interfaces) and R1-M2 (incomplete in vivo characterization of the PomYΔ496-682 mutant) are the primary technical issues. R1-M3 (lack of formal synergy analysis) is also important but less critical.
+- **Assessment against Nature-style criteria** Originality: The finding that a single ParA/MinD ATPase is activated by two distinct AAPs binding to non-overlapping sites is novel and extends the current understanding of AAP mechanisms. Scientific importance: The work provides mechanistic insight into a unique regulatory system and has implications for understanding how multiple inputs can converge on a single ATPase. Interdisciplinary readership: The work will primarily appeal to bacterial cell biologists and biochemists; the broader cell biology community may find the synergy and condensate aspects interesting. Technical soundness: The biochemical and in vivo experiments are generally well-executed, but the structural claims are not experimentally validated, which is a significant gap. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, though some familiarity with the ParA/MinD field is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and important, but the lack of experimental validation of the structural model and the incomplete in vivo analysis prevent full acceptance at this stage.
+
+## Risk / unsupported claims
+- The claim that PomY496-682 and PomXNPEP bind to two distinct, non-overlapping sites at the PomZ dimer interface is unsupported by experimental evidence; it is based solely on AlphaFold 3 predictions.
+- The claim that the PomY496-682 region is important for division site positioning and initiation of division is partially supported, but the possibility that the observed phenotype is due to disrupted PomX interaction or protein instability is not excluded.
+- The claim of synergistic activation of PomZ ATPase activity by PomY496-682 and PomXNPEP is supported by the data shown, but a formal demonstration of synergy (e.g., dose-response analysis) is lacking.
+- The suggestion that the gD domain may engage in protein-protein interactions is speculative and not tested.

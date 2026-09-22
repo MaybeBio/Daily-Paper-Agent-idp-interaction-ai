@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40633195",
+    "doi": "10.1016/j.braindev.2025.104393",
+    "title": "Biallelic novel CCDC186 loss-of-function variant disrupting the gene function causes neurodevelopmental phenotype and review of the literature."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Coiled-coil domain-containing protein 186 (CCDC186) is essential for the transport of secretory dense-core vesicles (DCVs), specialized organelles responsible for storing and releasing neurotransmitters and other modulatory molecules in neurons and endocrine cells, thereby playing a crucial role in physiological processes such as synaptic plasticity, neurotransmission, and hormonal regulation. Resent reports have suggested that biallelic loss-of-function (LOF) variants in CCDC186 may be associated with neurodevelopmental disorders and a range of systemic manifestations. METHODS: Whole exome sequencing (WES) was performed, and co-segregation analysis of the family was conducted using sanger sequencing. Additionally, five patients with CCDC186-associated phenotypes previously described in the literature were evaluated. Followed by cDNA synthesis and quantitative reverse transcription polymerase chain reaction (qRT-PCR) to analyze gene expression levels. Bioinformatics tools, including RoseTTAFold for protein modeling and STRING for protein-protein interaction networks, were employed to assess the structural and functional consequences of the mutation. RESULTS: We identified a homozygous NM_018017.4:c.535C>T (p.Arg179Ter) nonsense variant in the CCDC186 gene. This variant was associated with a marked downregulation of CCDC186 expression in the proband, with moderate reductions observed in heterozygous family members, suggesting dysregulated gene expression resulting from the mutation. Protein modeling indicated structural alterations, including a shift from intrinsically disordered regions to helix-loop-helix motifs in the mutant protein, as well as reduced binding probabilities for most interacting partners. CONCLUSION: In this study, we presented the comprehensive clinical and genetic profiles of a Turkish child with a novel CCDC186 variant, along with five previously reported patients from the literature. Our findings support that the homozygous LOF variants of the CCDC186 gene are associated with a novel neurodevelopmental phenotype.",
+    "keywords": [
+      "CCDC186",
+      "Epilepsy",
+      "Loss-of-function",
+      "Microcephaly",
+      "Neurodevelopmental delay"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Exome Sequencing",
+      "*Loss of Function Mutation/genetics",
+      "*Neurodevelopmental Disorders/genetics",
+      "Pedigree",
+      "Phenotype",
+      "Infant"
+    ],
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gezdirici, Alper",
+        "Turk, Sultan Buse",
+        "Esen, Tuna Eren",
+        "Yavas, Cuneyd",
+        "Akbulut, Ekrem",
+        "Yilmaz, Halil Ibrahim",
+        "Dagdelen, Zeynep Oz",
+        "Arican, Pinar",
+        "Dogan, Mustafa"
+      ],
+      "short_names": [
+        "Gezdirici A",
+        "Turk SB",
+        "Esen TE",
+        "Yavas C",
+        "Akbulut E",
+        "Yilmaz HI",
+        "Dagdelen ZO",
+        "Arican P",
+        "Dogan M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Genetics, University of Health Sciences, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey. Electronic address: dralpergezdirici@gmail.com.",
+        "Department of Medical Genetics, University of Health Sciences, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey.",
+        "Department of Medical Genetics, University of Health Sciences, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Department of Molecular Biology and Genetics, Biruni University, Istanbul 34015, Turkey.",
+        "Department of Bioengineering, Malatya Turgut Ozal University, Malatya, Turkey.",
+        "Department of Medical Genetics, University of Health Sciences, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey.",
+        "Department of Pediatric Neurology, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey.",
+        "Department of Pediatric Neurology, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey.",
+        "Department of Medical Genetics, University of Health Sciences, Basaksehir Cam and Sakura City Hospital, Istanbul, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gezdirici, Alper",
+        "short_name": "Gezdirici A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of Health Sciences, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey. Electronic address: dralpergezdirici@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Turk, Sultan Buse",
+        "short_name": "Turk SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of Health Sciences, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Esen, Tuna Eren",
+        "short_name": "Esen TE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of Health Sciences, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Yavas, Cuneyd",
+        "short_name": "Yavas C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Department of Molecular Biology and Genetics, Biruni University, Istanbul 34015, Turkey."
+        ]
+      },
+      {
+        "full_name": "Akbulut, Ekrem",
+        "short_name": "Akbulut E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Malatya Turgut Ozal University, Malatya, Turkey."
+        ]
+      },
+      {
+        "full_name": "Yilmaz, Halil Ibrahim",
+        "short_name": "Yilmaz HI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of Health Sciences, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Dagdelen, Zeynep Oz",
+        "short_name": "Dagdelen ZO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Neurology, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Arican, Pinar",
+        "short_name": "Arican P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Neurology, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Dogan, Mustafa",
+        "short_name": "Dogan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University of Health Sciences, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain & development"
+    ],
+    "journal_abbrev": [
+      "Brain Dev"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 00:35",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40633195",
+      "33259146",
+      "37569695",
+      "41451491",
+      "39901255",
+      "40836236",
+      "35460391",
+      "40197775",
+      "40834682",
+      "40898781",
+      "34383079",
+      "32286009",
+      "38773790",
+      "38334070",
+      "41010026",
+      "30520571",
+      "40802165",
+      "41451494",
+      "40025604",
+      "38641995",
+      "36181241",
+      "39748282",
+      "40211296",
+      "32031333",
+      "39103847",
+      "34174466",
+      "35052432",
+      "36527195",
+      "40879451",
+      "33628804",
+      "30940925",
+      "40448856",
+      "41146259",
+      "40744518",
+      "35379233",
+      "38824264",
+      "30487245",
+      "36524333",
+      "34954817",
+      "29691655",
+      "40890458",
+      "40166812",
+      "31752936",
+      "31845315",
+      "32843486",
+      "38965556",
+      "40812465",
+      "38764027",
+      "40219605",
+      "35618198",
+      "38790056",
+      "40367947",
+      "41465129",
+      "39361057",
+      "40887625",
+      "39408661",
+      "29554876",
+      "39596625",
+      "41416563",
+      "41307816",
+      "33323470",
+      "40763965",
+      "40066647",
+      "38088234",
+      "33910511",
+      "34370157",
+      "39036895",
+      "37713627",
+      "37749571",
+      "40204357",
+      "40785186",
+      "31465153",
+      "30755602",
+      "40692790",
+      "32737394",
+      "34415064",
+      "30952489",
+      "31501903",
+      "39471804",
+      "33568421",
+      "34596301",
+      "36012761",
+      "35518571",
+      "33002343",
+      "39966089",
+      "39152716",
+      "31794024",
+      "35985664",
+      "29133208",
+      "39560797",
+      "30275004",
+      "31369919",
+      "32519823",
+      "40734429",
+      "38459224",
+      "34111303",
+      "38668754",
+      "39457434",
+      "40542891",
+      "32439809"
+    ],
+    "review": [
+      "40633195",
+      "41451491",
+      "40197775",
+      "41010026",
+      "40802165",
+      "41451494",
+      "40448856",
+      "38965556",
+      "35618198",
+      "40887625",
+      "39596625",
+      "40763965",
+      "40785186",
+      "40692790",
+      "29133208"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0387-7604(25)00075-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0387-7604(25)00075-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

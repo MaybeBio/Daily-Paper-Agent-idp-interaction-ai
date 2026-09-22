@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2101.00605v2",
+  "title": "Unambiguous tracking of protein phosphorylation by fast, high-resolution FOSY NMR",
+  "authors": "Dmitry M. Lesovoy; Panagiota S. Georgoulia; Tammo Diercks; Irena Matečko-Burmann; Björn M. Burmann; Eduard V. Bocharov; Wolfgang Bermel; Vladislav Y. Orekhov",
+  "journal": "",
+  "published_date": "2021-01-03",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发FOSY NMR方法追踪IDP（Tau40）磷酸化位点，虽以无序蛋白为对象，但聚焦PTM检测而非PPI互作机制，且方法为实验NMR而非AI/物理模拟，与课题关联较弱。",
+  "abstract": "Phosphorylation is a prototypical example of post-translational modifications (PTMs) that dynamically modulate protein func-tion, where dysregulation is often implicated in disease. NMR provides information on the exact location and time course of PTMs with atomic resolution and under nearly physiological conditions, including inside living cells, but requires unambiguous prior assignment of affected NMR signals to individual atoms. Yet, existing methods for this task base on a global, hence, costly and tedious NMR signal assignment that may often fail, especially for large intrinsically disordered proteins (IDPs). Here we introduce a sensitive and robust method to rapidly obtain only the relevant local NMR signal assignment, based on a suite of FOcused SpectroscopY (FOSY) experiments that employ the long overlooked concept of selective polarisation transfer (SPT). We then demonstrate the efficiency of FOSY in identifying two phosphorylation sites of proline-dependent glycogen synthase kinase 3 beta (GSK3\\b{eta}) in human Tau40, an IDP of 441 residues. Besides confirming the known target residue Ser404, the un-precedented spectral dispersion in FOSY disclosed for the first time that GSK3\\b{eta} can also phosphorylate Ser409 without priming by other protein kinases. The new approach will benefit NMR studies of other PTMs and protein hotspots in general, including sites involved in molecular interactions and conformational changes",
+  "abstract_zh": "磷酸化是翻译后修饰（PTMs）的原型范例，它动态调节蛋白质功能，其失调常与疾病相关。核磁共振（NMR）以原子分辨率并在接近生理条件（包括活细胞内）下提供PTMs的精确位置和时间进程信息，但需要对受影响的NMR信号进行明确的预先归属至单个原子。然而，现有方法基于全局性、因而昂贵且繁琐的NMR信号归属，这往往可能失败，尤其对于大型固有无序蛋白质（IDPs）。在此，我们介绍一种灵敏且稳健的方法，基于一系列聚焦光谱（FOSY）实验，利用长期被忽视的选择性极化转移（SPT）概念，快速获得仅相关的局部NMR信号归属。随后，我们展示了FOSY在识别人类Tau40（一个含441个残基的IDP）中脯氨酸依赖性糖原合成酶激酶3β（GSK3β）两个磷酸化位点方面的效率。除了确认已知靶标残基Ser404外，FOSY中前所未有的谱分散首次揭示，GSK3β无需其他蛋白激酶预启动即可磷酸化Ser409。新方法将有益于其他PTMs及蛋白质热点区域的NMR研究，包括涉及分子相互作用和构象变化的位点。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2101.00605v2",
+  "source_url": "https://arxiv.org/abs/2101.00605v2",
+  "paper_page_path": "papers/arxiv/2101.00605v2/index.html"
+}

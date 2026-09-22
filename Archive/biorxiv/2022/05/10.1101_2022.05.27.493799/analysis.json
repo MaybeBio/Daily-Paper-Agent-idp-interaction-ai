@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.27.493799",
+  "title": "Improving Protein-Ligand Interaction Modeling with cryo-EM Data, Templates, and Deep Learning in 2021 Ligand Model Challenge",
+  "authors": "Nabin Giri; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-29",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习结合模板从冷冻电镜密度图预测蛋白-配体复合物结构，对象为折叠蛋白与小分子配体，非无序蛋白/IDR，且互作机制建模深度有限，仅部分方法可迁移。",
+  "abstract": "Elucidating protein-ligand interaction is crucial for studying the function of proteins and compounds in an organism and critical for drug discovery and design. The problem of protein-ligand interaction is traditionally tackled by molecular docking and simulation, which is based on physical forces and statistical potentials and cannot effectively leverage cryo-EM data and existing protein structural information in the protein-ligand modeling process. In this work, we developed a deep learning bioinformatics pipeline ( DeepProLigand ) to predict protein-ligand interactions from cryo-EM density maps of proteins and ligands. DeepProLigand first uses a deep learning method to predict the structure of proteins from cryo-EM maps, which is averaged with a reference (template) structure of the proteins to produce a combined structure to add ligands. The ligands are then identified and added into the structure to generate a protein-ligand complex structure, which is further refined. The method based on the deep learning prediction and template-based modeling was blindly tested in the 2021 EMDataResource Ligand Challenge and was ranked first in fitting ligands to cryo-EM density maps.This results demonstrate that the deep learning bioinformatics approach is a promising direction to model protein-ligand interaction on cryo-EM data using prior structural information. The source code, data, and instruction to reproduce the results are available on GitHub repository : https://github.com/jianlin-cheng/DeepProLigand",
+  "abstract_zh": "阐明蛋白质-配体相互作用对于研究生物体内蛋白质和化合物的功能至关重要，并且对药物发现和设计具有关键意义。蛋白质-配体相互作用问题传统上通过分子对接和模拟来解决，这些方法基于物理力和统计势能，无法有效利用冷冻电镜数据和现有蛋白质结构信息在蛋白质-配体建模过程中。在本工作中，我们开发了一个深度学习生物信息学流程（DeepProLigand），用于从蛋白质和配体的冷冻电镜密度图中预测蛋白质-配体相互作用。DeepProLigand首先使用深度学习方法从冷冻电镜图中预测蛋白质结构，该结构与蛋白质的参考（模板）结构进行平均，以生成组合结构来添加配体。随后，配体被识别并添加到结构中，以生成蛋白质-配体复合物结构，并进一步进行优化。基于深度学习预测和模板建模的方法在2021年EMDataResource配体挑战中进行了盲测，并在将配体拟合到冷冻电镜密度图方面排名第一。这些结果表明，深度学习生物信息学方法是利用先验结构信息在冷冻电镜数据上建模蛋白质-配体相互作用的 promising 方向。源代码、数据和复现结果的说明可在GitHub仓库获取：https://github.com/jianlin-cheng/DeepProLigand",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.27.493799",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.27.493799",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.27.493799/index.html"
+}

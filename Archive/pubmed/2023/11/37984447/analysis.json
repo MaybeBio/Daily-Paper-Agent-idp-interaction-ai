@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37984447",
+  "title": "Exploring protein-protein interactions and oligomerization state of pulmonary surfactant protein C (SP-C) through FRET and fluorescence self-quenching.",
+  "authors": "Moran-Lalangui, Mishelle; Coutinho, Ana; Prieto, Manuel; Fedorov, Alexander; Perez-Gil, Jesus; Loura, Luis M S; Garcia-Alvarez, Begona",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-11-21",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用FRET和荧光自淬灭实验研究肺表面活性蛋白C(SP-C)的寡聚化状态，对象为跨膜螺旋蛋白而非无序蛋白，方法为实验荧光技术而非AI/物理模拟，虽涉及PPI但机制建模深度有限，对本课题启发有限。",
+  "abstract": "Pulmonary surfactant (PS) is a lipid-protein complex that forms films reducing surface tension at the alveolar air-liquid interface. Surfactant protein C (SP-C) plays a key role in rearranging the lipids at the PS surface layers during breathing. The N-terminal segment of SP-C, a lipopeptide of 35 amino acids, contains two palmitoylated cysteines, which affect the stability and structure of the molecule. The C-terminal region comprises a transmembrane alpha-helix that contains a ALLMG motif, supposedly analogous to a well-studied dimerization motif in glycophorin A. Previous studies have demonstrated the potential interaction between SP-C molecules using approaches such as Bimolecular Complementation assays or computational simulations. In this work, the oligomerization state of SP-C in membrane systems has been studied using fluorescence spectroscopy techniques. We have performed self-quenching and FRET assays to analyze dimerization of native palmitoylated SP-C and a non-palmitoylated recombinant version of SP-C (rSP-C) using fluorescently labeled versions of either protein reconstituted in different lipid systems mimicking pulmonary surfactant environments. Our results reveal that doubly palmitoylated native SP-C remains primarily monomeric. In contrast, non-palmitoylated recombinant SP-C exhibits dimerization, potentiated at high concentrations, especially in membranes with lipid phase separation. Therefore, palmitoylation could play a crucial role in stabilizing the monomeric alpha-helical conformation of SP-C. Depalmitoylation, high protein densities as a consequence of membrane compartmentalization, and other factors may all lead to the formation of protein dimers and higher-order oligomers, which could have functional implications under certain pathological conditions and contribute to membrane transformations associated with surfactant metabolism and alveolar homeostasis.",
+  "abstract_zh": "肺表面活性物质（pulmonary surfactant, PS）是一种脂蛋白复合物，可在肺泡气-液界面形成薄膜，降低表面张力。表面活性蛋白C（surfactant protein C, SP-C）在呼吸过程中对PS表面层的脂质重排起关键作用。SP-C的N端片段是一种由35个氨基酸组成的脂肽，含有两个棕榈酰化的半胱氨酸，这些修饰影响分子的稳定性和结构。C端区域包含一个跨膜α-螺旋，其中含有一个ALLMG基序，推测与血型糖蛋白A中一个研究充分的二聚化基序类似。先前研究已通过双分子互补实验或计算模拟等方法，证明了SP-C分子之间可能存在相互作用。在本工作中，我们利用荧光光谱技术研究了膜系统中SP-C的寡聚化状态。我们进行了自猝灭和FRET实验，以分析天然棕榈酰化SP-C和非棕榈酰化重组SP-C（rSP-C）的二聚化，使用荧光标记的蛋白质版本，并将其重构在模拟肺表面活性物质环境的不同脂质系统中。我们的结果表明，双棕榈酰化的天然SP-C主要保持单体状态。相比之下，非棕榈酰化的重组SP-C表现出二聚化，且在高浓度下增强，尤其是在具有脂质相分离的膜中。因此，棕榈酰化可能在稳定SP-C的单体α-螺旋构象中发挥关键作用。去棕榈酰化、膜区室化导致的高蛋白密度以及其他因素，均可能导致蛋白质二聚体及更高阶寡聚体的形成，这可能在某些病理条件下具有功能意义，并促进与表面活性物质代谢和肺泡稳态相关的膜转变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37984447/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37984447/",
+  "paper_page_path": "papers/pubmed/37984447/index.html"
+}

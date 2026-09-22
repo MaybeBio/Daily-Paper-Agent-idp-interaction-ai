@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with the stated claims. Editorial quality and formatting are considered only insofar as they affect scientific clarity.
+- **Shared manuscript claim summary** The authors use MD and PaCS-MD simulations to show that the FUS ZnF specifically recognizes a GGU RNA sequence, while the flanking RGG2 IDR contributes nonspecific interactions that lower the dissociation constant approximately 2-fold. They further propose a general mechanism whereby proteins with one or few nucleic acid binding motifs use flanking disordered regions to achieve strong binding, supported by a DisProt database analysis.
+- **Visible evidence base** Main text figures (referenced as Figure 1, 2, 3, 4, 5), supplementary figures S1–S14, supplementary tables S1–S2, and equations S1–S2. Figure and table content was not directly viewable; only textual descriptions were available.
+- **Missing materials affecting confidence** Figure content, supplementary movie descriptions, and full supplementary information were not provided. This limits verification of quantitative claims, free energy values, and the DisProt statistical analysis.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable study of how a single ZnF motif in FUS achieves strong and specific RNA binding with assistance from a flanking disordered region. The combination of conventional MD, PaCS-MD, and MSM analysis is appropriate and modern. The central claim, that the IDR contributes nonspecific interactions that lower Kd approximately 2-fold, is plausible and consistent with the reported free energy difference. However, several concerns reduce confidence: the classification of trials into high and low free energy groups appears post hoc, the statistical treatment of the DisProt analysis is not described in sufficient detail, and the relationship between the simulated construct and full-length FUS behavior is not fully discussed. The manuscript is generally well written and accessible, but the evidence as presented does not fully establish the generality claim.
+- **Who would be interested in the results, and why** Researchers studying RNA-protein interactions, particularly those focused on intrinsically disordered regions and their role in nucleic acid binding. Computational biophysicists interested in enhanced sampling methods applied to protein-RNA complexes. The proposed general mechanism of IDR-assisted binding may also interest a broader community studying nucleic acid binding proteins, including those involved in neurodegeneration.
+- **Major strengths** The study addresses an important and under-explored question: how a single ZnF with flanking disorder achieves strong and specific RNA binding. The use of PaCS-MD for dissociation pathways is methodologically appropriate. The comparison of free energy values with experimental Kd data provides a useful anchor. The DisProt analysis, if statistically robust, could provide a valuable general insight. The writing is clear and the logical flow from simulation to mechanism to generality is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor / classification validity
+  - **Claim pointer** The authors classify 32 PaCS-MD trials into 13 high and 19 low free energy trials based on a threshold of −6.0 kcal/mol, and use this classification to attribute binding differences to IDR interactions.
+  - **Evidence pointer** Results section "Classification of the Trials into High and Low Free Energy Dissociations"; Tables S1 and S2; Figures 2 and S2–S5.
+  - **Concern** The threshold of −6.0 kcal/mol appears arbitrary. The authors do not justify why this specific value separates mechanistically distinct pathways. If the free energy distribution is continuous, dichotomizing trials at a round number could create artificial groups. The claim that the two groups represent distinct binding modes requires a demonstrated bimodal distribution or a physically motivated threshold.
+  - **Why it matters** The central mechanistic conclusion, that IDR interactions are responsible for the lower free energy in one group, depends entirely on this classification. If the groups are not truly distinct, the interpretation collapses.
+  - **Resolution test** Provide a histogram or density plot of the free energy values across all 32 trials. Show that the distribution is bimodal or that the −6.0 kcal/mol threshold corresponds to a physically meaningful boundary (e.g., a transition state or a change in contact persistence). Alternatively, treat the free energy as a continuous variable and correlate it with the number of IDR-RNA contacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical analysis of database
+  - **Claim pointer** The authors claim that proteins with one or few nucleic acid binding sites are more likely to have flanking disordered regions than proteins with many binding sites, citing a DisProt analysis.
+  - **Evidence pointer** Results section "Possible General Mechanisms of Nucleic Acid Binding Assisted by Flanking Disordered Regions"; Figure 5.
+  - **Concern** The statistical test used to compare proportions (43% vs 19%) is not described. No confidence intervals, p-values, or effect sizes are reported. The categorization of proteins by number of binding sites (1 vs ≥5) is coarse, and it is unclear whether the result is robust to different binning. The analysis also excludes sequence-nonspecific binding sites, which may bias the result.
+  - **Why it matters** The generality claim is a major part of the paper's significance. Without proper statistics, the claim is anecdotal.
+  - **Resolution test** Report the statistical test used, the p-value, and a measure of effect size. Perform a sensitivity analysis with different binning thresholds (e.g., 1 vs 2, 1 vs 3). Consider a logistic regression with the number of binding sites as a continuous predictor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Force field validation
+  - **Claim pointer** The authors state that the DES Amber RNA force field combined with TIP4P-D reproduces experimental structures of RNA tetranucleotides more accurately than OL3, and that the ff19SB/TIP4P-D combination reproduces the radius of gyration of disordered proteins.
+  - **Evidence pointer** Methods section "Modeling of the FUS-RNA Complex Structure".
+  - **Concern** The authors cite prior work for these validations, but do not provide any validation specific to their system. The RMSD of 0.3–0.5 nm for the RNA in the complex is mentioned, but it is unclear whether this is a measure of stability or of deviation from the NMR structure. The known issue of force field artifacts in RNA simulations, particularly regarding sugar puckering, is not addressed.
+  - **Why it matters** The sugar-puckering analysis is a key result. If the force field biases the puckering distribution, the conclusions about C2'-endo vs C3'-endo being linked to binding free energy could be artifacts.
+  - **Resolution test** Provide a figure showing the RMSD of the RNA relative to the NMR structure over the course of the simulation. Compare the sugar-puckering distribution from the simulation with that from the NMR ensemble. Discuss any known limitations of DES Amber for this type of analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of Kd values
+  - **Claim pointer** The authors state that the binding of the structured region alone is relatively weak (submillimolar Kd) and that the IDR lowers Kd to the micromolar range, citing a 2-fold difference.
+  - **Evidence pointer** Results section "Interactions between RNA and IDR Determine Differences in Binding Affinity"; Figure 3c.
+  - **Concern** The text states "2-fold lower dissociation constant" in the abstract and conclusions, but the Kd values cited (249 to 3.3 μM) represent a 75-fold difference. The "2-fold" appears to refer to the free energy difference (2.6 kcal/mol), which is not the same as a 2-fold change in Kd. This is a significant numerical inconsistency.
+  - **Why it matters** The quantitative claim is central to the paper's message. A 75-fold change in Kd is much more dramatic than a 2-fold change and would change the interpretation of the IDR's contribution.
+  - **Resolution test** Clarify the relationship between the free energy difference and the Kd values. If the 2.6 kcal/mol difference corresponds to a 75-fold Kd change, state this explicitly. If the "2-fold" refers to something else, define it precisely.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** PaCS-MD parameters
+  - **Evidence pointer** Methods section "PaCS-MD Simulation".
+  - **Issue** The number of cycles per trial is not stated. The authors mention 32 trials with 64 replicas of 100 ps each, but the total simulation length per trial is unclear.
+  - **Required correction** State the total simulation time per trial and the total cumulative simulation time across all trials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of analysis
+  - **Affected element** Free energy calculation
+  - **Evidence pointer** Methods section "Trajectory Analysis, MSM Construction, and Free Energy Calculation".
+  - **Issue** The volume correction (eq S1) is mentioned but not described. The reader cannot assess whether the correction was applied correctly.
+  - **Required correction** Briefly describe the volume correction in the main text or provide a clear reference to the equation and its derivation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of IDR behavior
+  - **Affected element** Discussion of IDR sliding mechanism
+  - **Evidence pointer** Discussion section.
+  - **Issue** The analogy to p53 sliding along DNA is speculative. The simulations do not directly observe sliding, only static interactions at different dissociation stages.
+  - **Required correction** Soften the language to indicate this is a hypothesis, not a demonstrated mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Main text.
+  - **Issue** Figure content was not available for review. The text descriptions suggest complex multi-panel figures, but the layout and readability cannot be assessed.
+  - **Required correction** Ensure all figure panels are legible at print size and that the figure captions are self-contained.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract and conclusions
+  - **Evidence pointer** Abstract, Conclusions.
+  - **Issue** The phrase "2-fold lower dissociation constant" is ambiguous and, as noted in R1-M4, numerically inconsistent with the reported Kd values.
+  - **Required correction** Replace with a precise statement of the Kd values and the free energy difference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (trial classification), R1-M2 (statistical analysis of DisProt data), R1-M4 (Kd/free energy inconsistency). These three issues must be resolved before the central claims can be considered established.
+- **Assessment against Nature-style criteria** Originality: The study is original in applying PaCS-MD to a ZnF-IDR-RNA system and in proposing a general mechanism. However, the concept of IDR-assisted binding is not entirely new, and the novelty lies in the specific demonstration. Scientific importance: Moderate to high. Understanding how single ZnFs achieve specificity and affinity is relevant to many RNA binding proteins. The proposed general mechanism, if validated, could be influential. Interdisciplinary readership: The work bridges computational biophysics, RNA biology, and protein science. The writing is accessible, but the methods section assumes familiarity with enhanced sampling techniques. Technical soundness: The simulation methodology is appropriate, but the statistical treatment of the trial classification and the DisProt analysis is insufficient. The force field validation is indirect. Readability for nonspecialists: The abstract and introduction are clear. The results section is dense but understandable. The discussion is accessible. Overall, the manuscript has potential but requires substantial revision to meet the standards of a high-impact journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core simulation work appears sound, and the central hypothesis is interesting. However, the trial classification, the statistical analysis of the database, and the Kd/free energy inconsistency must be addressed. If these issues are resolved, the manuscript could make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that the IDR lowers Kd by a "2-fold" is unsupported and numerically inconsistent with the reported values (249 to 3.3 μM, a 75-fold difference).
+- The claim that proteins with one or few nucleic acid binding sites are more likely to have flanking disordered regions is unsupported without proper statistical testing.
+- The claim that the binding free energy difference between high and low free energy trials is due to IDR interactions is weakened by the arbitrary classification threshold.
+- The suggestion that FUS may slide RNA along the IDR, analogous to p53, is speculative and not directly supported by the simulation data.
+- The statement that the DES Amber force field "reproduces experimental structures more accurately" is a general claim from prior work and is not validated for this specific system.

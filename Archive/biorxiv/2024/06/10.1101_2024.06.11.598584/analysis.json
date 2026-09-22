@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.11.598584",
+  "title": "FoldToken2: Learning compact, invariant and generative protein structure language",
+  "authors": "Zhangyang Gao; Cheng Tan; Stan Z. Li",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-12",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 5,
+  "one_liner_zh": "FoldToken2提出了一种将蛋白质结构编码为离散token的生成式结构语言模型，支持单链和多链结构量化，但对象为折叠蛋白结构而非无序蛋白/IDR，且未涉及PPI或相分离机制，方法上虽有AI创新但对本课题的互作机制建模启发有限。",
+  "abstract": "The equivariant nature of 3D coordinates has posed long term challenges in protein structure representation learning, alignment, and generation. Can we create a compact and invariant language that equivalently represents protein structures? Towards this goal, we propose FoldToken2 to transfer equivariant structures into discrete tokens, while maintaining the recoverability of the original structures. From FoldToken1 to FoldToken2, we improve three key components: (1) invariant structure encoder, (2) vector-quantized compressor, and (3) equivariant structure decoder. We evaluate FoldToken2 on the protein structure reconstruction task and show that it outperforms previous FoldToken1 by 20% in TMScore and 81% in RMSD. FoldToken2 is likely the first method that works well for both single-chain and multi-chain protein structure quantization. We believe that FoldToken2 will inspire further improvement in protein structure representation, alignment, and generation tasks. Online example is available at Colab .",
+  "abstract_zh": "3D坐标的等变性本质在蛋白质结构表示学习、对齐和生成中构成了长期挑战。我们能否创建一种紧凑且不变的语言，以等价地表示蛋白质结构？为此，我们提出FoldToken2，将等变结构转换为离散标记，同时保持原始结构的可恢复性。从FoldToken1到FoldToken2，我们改进了三个关键组件：（1）不变结构编码器，（2）向量量化压缩器，以及（3）等变结构解码器。我们在蛋白质结构重建任务上评估FoldToken2，并显示其在TMScore上优于之前的FoldToken1达20%，在RMSD上优于81%。FoldToken2可能是首个在单链和多链蛋白质结构量化中均表现良好的方法。我们相信FoldToken2将激发蛋白质结构表示、对齐和生成任务的进一步改进。在线示例可在Colab获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598584",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598584",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.11.598584/index.html"
+}

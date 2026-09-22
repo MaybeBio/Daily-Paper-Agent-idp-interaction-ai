@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "34870419",
+    "doi": "10.1021/acs.jpcb.1c07035",
+    "title": "Intrinsically Disordered Region Modulates Ligand Binding in Glutaredoxin 1 from Trypanosoma Brucei."
+  },
+  "content": {
+    "abstract": "Glutaredoxins are small proteins that share a common well-conserved thioredoxin-fold and participate in a wide variety of biological processes. Among them, class II Grx are redox-inactive proteins involved in iron-sulfur (Fe-S) metabolism. In the present work, we report different structural and dynamics aspects of 1CGrx1 from the pathogenic parasite Trypanosoma brucei that differentiate it from other orthologues by the presence of a parasite-specific unstructured N-terminal extension whose role has not been fully elucidated yet. Previous nuclear magnetic resonance (NMR) studies revealed significant differences with respect to the mutant lacking the disordered tail. Herein, we have performed atomistic molecular dynamics simulations that, complementary to NMR studies, confirm the intrinsically disordered nature of the N-terminal extension. Moreover, we confirm the main role of these residues in modulating the conformational dynamics of the glutathione-binding pocket. We observe that the N-terminal extension modifies the ligand cavity stiffening it by specific interactions that ultimately modulate its intrinsic flexibility, which may modify its role in the storage and/or transfer of preformed iron-sulfur clusters. These unique structural and dynamics aspects of Trypanosoma brucei 1CGrx1 differentiate it from other orthologues and could have functional relevance. In this way, our results encourage the study of other similar protein folding families with intrinsically disordered regions whose functional roles are still unrevealed and the screening of potential 1CGrx1 inhibitors as antitrypanosomal drug candidates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Glutaredoxins/genetics/metabolism",
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "*Iron-Sulfur Proteins",
+      "Ligands",
+      "Protein Binding",
+      "Protein Folding",
+      "*Trypanosoma brucei brucei/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balatti, Galo E",
+        "Barletta, G Patricio",
+        "Parisi, Gustavo",
+        "Tosatto, Silvio C E",
+        "Bellanda, Massimo",
+        "Fernandez-Alberti, Sebastian"
+      ],
+      "short_names": [
+        "Balatti GE",
+        "Barletta GP",
+        "Parisi G",
+        "Tosatto SCE",
+        "Bellanda M",
+        "Fernandez-Alberti S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0806-0812",
+        "ORCID: 0000-0002-0916-5069"
+      ],
+      "affiliations": [
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina.",
+        "Department of Biomedical Sciences, University of Padova, Viale G. Colombo 3, 35131 Padua, Italy.",
+        "Department of Chemical Sciences, University of Padova, via Marzolo 1, 35131 Padua, Italy.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balatti, Galo E",
+        "short_name": "Balatti GE",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina."
+        ]
+      },
+      {
+        "full_name": "Barletta, G Patricio",
+        "short_name": "Barletta GP",
+        "identifiers": [
+          "0000-0002-0806-0812"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina."
+        ]
+      },
+      {
+        "full_name": "Parisi, Gustavo",
+        "short_name": "Parisi G",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Viale G. Colombo 3, 35131 Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Bellanda, Massimo",
+        "short_name": "Bellanda M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, University of Padova, via Marzolo 1, 35131 Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Fernandez-Alberti, Sebastian",
+        "short_name": "Fernandez-Alberti S",
+        "identifiers": [
+          "0000-0002-0916-5069"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes/CONICET, B1876BXD Bernal, Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Dec 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/07 06:00",
+    "fetched_at": "2026-09-20 06:57:16"
+  },
+  "links": {
+    "cites": [
+      "40322686",
+      "36770941"
+    ],
+    "refs": [],
+    "similar": [
+      "34870419",
+      "30209332",
+      "24830542",
+      "36770941",
+      "23259530",
+      "26386962",
+      "16800625",
+      "25264274",
+      "23756812",
+      "18095866",
+      "32980338",
+      "22978520",
+      "26523873",
+      "33031050",
+      "25196712",
+      "32910989",
+      "18669638",
+      "26226426",
+      "22613454",
+      "23543739",
+      "31557263",
+      "25387963",
+      "26854591",
+      "31756456",
+      "27082063",
+      "29413965",
+      "26195786",
+      "23912807",
+      "30346997",
+      "29746245",
+      "15840565",
+      "24733926",
+      "28836015",
+      "32045581",
+      "19290777",
+      "33030907",
+      "29719201",
+      "26100117",
+      "34687712",
+      "18765259",
+      "25040552",
+      "30419257",
+      "29753880",
+      "19811920",
+      "30563898",
+      "30528464",
+      "28366668",
+      "32265442",
+      "29990433",
+      "28780862",
+      "30840442",
+      "21235502",
+      "32521506",
+      "32323533",
+      "26277108",
+      "31434747",
+      "24449148",
+      "32786705",
+      "11867629",
+      "32307572",
+      "19769456",
+      "9405356",
+      "27844185",
+      "9714547",
+      "27503603",
+      "31839562",
+      "32020911",
+      "26742101",
+      "25110158",
+      "27288992",
+      "32654182",
+      "27590019",
+      "25533957",
+      "26493722",
+      "21437321",
+      "24763499",
+      "30316104",
+      "26030674",
+      "33359563",
+      "32414791",
+      "32003744",
+      "26917351",
+      "24604825",
+      "28515324",
+      "30205085",
+      "21767278",
+      "31397874",
+      "30304684",
+      "25631540",
+      "18768799"
+    ],
+    "review": [
+      "34870419",
+      "25264274",
+      "32980338",
+      "22978520",
+      "26523873",
+      "33031050",
+      "25196712",
+      "32910989",
+      "26226426",
+      "32045581",
+      "29753880",
+      "19811920",
+      "30840442",
+      "21235502",
+      "32020911",
+      "30316104",
+      "31397874"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c07035",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

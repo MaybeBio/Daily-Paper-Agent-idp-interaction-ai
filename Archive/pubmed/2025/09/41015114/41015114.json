@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "41015114",
+    "doi": "10.1016/j.jmb.2025.169455",
+    "title": "Linker Length and Composition within Disordered Binding Motifs Modulates the Avidity and Reversibility of a Multivalent Protein Interaction Switch."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins that mediate the cellular transcriptional response to hypoxia play important roles in regulating oxygen stress genes. The feedback inhibitor CITED2 operates a unidirectional switch that efficiently terminates the hypoxic response by displacing the C-terminal activation domain of the hypoxia-inducible factor HIF-1alpha from its complex with the TAZ1 domain of the transcriptional coactivators CBP and p300. Unidirectionality of the switch arises from subtle allosteric conformational changes in TAZ1 and from differences in the strength of thermodynamic coupling between the TAZ1-binding motifs in the multivalent HIF-1alpha and CITED2 activation domains. To investigate the role of binding cooperativity, we mutated a linker sequence in the HIF-1alpha activation domain to alter the thermodynamic coupling between its TAZ1-binding motifs. Linker mutations that enhance the affinity of HIF-1alpha for TAZ1 enable the HIF-1alpha activation domain to compete more effectively with bound CITED2. The wide range of mutants, which include insertion, deletion, substitution, and scrambling of residues in the linker, provide insights into the molecular basis for the exquisite tuning of the hypoxic switch. The TAZ1 binding affinity and consequent CITED2 competition enhancement depends both on the flexibility of the linker sequence (particularly the presence of glycine residues) and the unfavorable electrostatic interactions of a highly conserved arginine side chain in the center of the linker with an electropositive surface of TAZ1. The conservation of the linker length and sequence in all vertebrates suggests strong evolutionary pressure to tune HIF-1alpha binding affinity to be sub-optimal, to ensure unidirectionality of the hypoxic switch.",
+    "keywords": [
+      "CITED2",
+      "NMR",
+      "hypoxia-inducible factor-1",
+      "mutagenesis",
+      "thermodynamic coupling"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics/chemistry",
+      "Humans",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "*Trans-Activators/metabolism/chemistry/genetics",
+      "Thermodynamics",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Models, Molecular",
+      "Mutation",
+      "Binding Sites",
+      "Protein Interaction Domains and Motifs"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chatterjee, Kiran Sankar",
+        "Martinez-Yamout, Maria A",
+        "Dyson, H Jane",
+        "Wright, Peter E"
+      ],
+      "short_names": [
+        "Chatterjee KS",
+        "Martinez-Yamout MA",
+        "Dyson HJ",
+        "Wright PE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States.",
+        "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States.",
+        "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States.",
+        "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States. Electronic address: wright@scripps.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chatterjee, Kiran Sankar",
+        "short_name": "Chatterjee KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Martinez-Yamout, Maria A",
+        "short_name": "Martinez-Yamout MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Dyson, H Jane",
+        "short_name": "Dyson HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States."
+        ]
+      },
+      {
+        "full_name": "Wright, Peter E",
+        "short_name": "Wright PE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology and Skaggs Institute of Chemical Biology, Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, United States. Electronic address: wright@scripps.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Dec 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/28 01:03",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [
+      "41194529"
+    ],
+    "refs": [
+      "38718835",
+      "38597606",
+      "38096754",
+      "37778184",
+      "37750460",
+      "37647499",
+      "35656479",
+      "35120642",
+      "35012986",
+      "34520739",
+      "31783325",
+      "31719609",
+      "31659043",
+      "31518611",
+      "31034531",
+      "30775911",
+      "29402379",
+      "29168376",
+      "28614393",
+      "28273070",
+      "26922996",
+      "26073260",
+      "25505092",
+      "21109780",
+      "20962272",
+      "18988020",
+      "18054500",
+      "17526523",
+      "17263415",
+      "15641773",
+      "15610000",
+      "14594809",
+      "12778114",
+      "12080085",
+      "11959990",
+      "11959977",
+      "11292861",
+      "11063749",
+      "9887100",
+      "9822602",
+      "8917528",
+      "8520220"
+    ],
+    "similar": [
+      "41015114",
+      "40666912",
+      "28273070",
+      "35012986",
+      "14594809",
+      "30775911",
+      "32123067",
+      "31940206",
+      "34520739",
+      "33106407",
+      "32242581",
+      "42332380",
+      "11959977",
+      "12778114",
+      "21925214",
+      "31719609",
+      "26851278",
+      "39755236",
+      "25956243",
+      "15154850",
+      "29777197",
+      "39092442",
+      "9822602",
+      "17906695",
+      "12133832",
+      "9887100",
+      "17022961",
+      "30784357",
+      "31521329",
+      "17499866",
+      "22665973",
+      "19880525",
+      "23618863",
+      "12468553",
+      "26559940",
+      "31521236",
+      "32933064",
+      "10594042",
+      "12149478",
+      "29961792",
+      "36170455",
+      "23033253",
+      "15051727",
+      "17382325",
+      "41648556",
+      "19035510",
+      "26976603",
+      "22075993",
+      "23787140",
+      "21807114",
+      "21512126",
+      "9890965",
+      "19456861",
+      "15615775",
+      "28617871",
+      "15280364",
+      "11278891",
+      "24696491",
+      "27795413",
+      "9159130",
+      "22308296",
+      "15611064",
+      "15641773",
+      "24211325",
+      "35592530",
+      "16861921",
+      "14992692",
+      "14734545",
+      "12832481",
+      "12914934",
+      "18658046",
+      "23671581",
+      "17804822",
+      "30126845",
+      "12205094",
+      "9746763",
+      "39231207",
+      "8663540",
+      "23966271",
+      "32641480",
+      "9235919",
+      "25892103",
+      "23886708",
+      "24146948",
+      "19071119",
+      "11823643",
+      "26647819",
+      "12855680",
+      "24213609",
+      "12606543",
+      "15342390",
+      "42107395",
+      "10823831",
+      "11940656",
+      "14668441",
+      "12464608",
+      "31518611",
+      "27561725",
+      "24425001",
+      "23707926"
+    ],
+    "review": [
+      "41015114",
+      "26851278",
+      "31521236"
+    ],
+    "pmc": [
+      "13160384"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00521-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41015114/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

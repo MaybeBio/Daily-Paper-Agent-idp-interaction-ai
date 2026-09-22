@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "33996007",
+    "doi": "10.1039/d0sc06946a",
+    "title": "Molecular mechanism of secreted amyloid-beta precursor protein in binding and modulating GABA(B)R1a."
+  },
+  "content": {
+    "abstract": "A recent phenomenal study discovered that the extension domain of secreted amyloid-beta precursor protein (sAPP) can bind to the intrinsically disordered sushi 1 domain of the gamma-aminobutyric acid type B receptor subunit 1a (GABA(B)R1a) and modulate its synaptic transmission. The work provided an important structural foundation for the modulation of GABA(B)R1a; however, the detailed molecular interaction mechanism, crucial for future drug design, remains elusive. Here, we further investigated the dynamical interactions between sAPP peptides and the natively unstructured sushi 1 domain using all-atom molecular dynamics simulations, for both the 17-residue sAPP peptide (APP 17-mer) and its minimally active 9 residue segment (APP 9-mer). We then explored mutations of the APP 9-mer with rigorous free energy perturbation (FEP) calculations. Our in silico mutagenesis studies revealed key residues (D4, W6, and W7) responsible for the binding with the sushi 1 domain. More importantly, one double mutation based on different vertebrate APP sequences from evolution exhibited a stronger binding (DeltaDeltaG = -1.91 +/- 0.66 kcal mol(-1)), indicating a potentially enhanced GABA(B)R1a modulator. These large-scale simulations may provide new insights into the binding mechanism between sAPP and the sushi 1 domain, which could open new avenues in the development of future GABA(B)R1a-specific therapeutics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Mei",
+        "Song, Yi",
+        "Chen, Serena H",
+        "Zhang, Yuanzhao",
+        "Zhou, Ruhong"
+      ],
+      "short_names": [
+        "Feng M",
+        "Song Y",
+        "Chen SH",
+        "Zhang Y",
+        "Zhou R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6535-6812",
+        "ORCID: 0000-0001-8624-5591"
+      ],
+      "affiliations": [
+        "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn.",
+        "Lanzhou Center for Theoretical Physics, Key Laboratory of Theoretical Physics of Gansu Province, Lanzhou University Lanzhou Gansu 730000 China.",
+        "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn.",
+        "Computational Sciences and Engineering Division, Oak Ridge National Laboratory Oak Ridge TN 37830 USA.",
+        "Center for Applied Mathematics, Cornell University Ithaca NY 14583 USA.",
+        "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn.",
+        "Department of Chemistry, Columbia University New York NY 10027 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Mei",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn.",
+          "Lanzhou Center for Theoretical Physics, Key Laboratory of Theoretical Physics of Gansu Province, Lanzhou University Lanzhou Gansu 730000 China."
+        ]
+      },
+      {
+        "full_name": "Song, Yi",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Serena H",
+        "short_name": "Chen SH",
+        "identifiers": [
+          "0000-0002-6535-6812"
+        ],
+        "affiliations": [
+          "Computational Sciences and Engineering Division, Oak Ridge National Laboratory Oak Ridge TN 37830 USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuanzhao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Mathematics, Cornell University Ithaca NY 14583 USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ruhong",
+        "short_name": "Zhou R",
+        "identifiers": [
+          "0000-0001-8624-5591"
+        ],
+        "affiliations": [
+          "Institute of Quantitative Biology, Shanghai Institute for Advanced Study, College of Life Sciences, Department of Physics, Zhejiang University Hangzhou 310027 China rhzhou@zju.edu.cn.",
+          "Department of Chemistry, Columbia University New York NY 10027 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2021 Mar 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/18 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "40230409",
+      "36688536",
+      "34575064",
+      "34335971"
+    ],
+    "refs": [
+      "31411214",
+      "30924644",
+      "30630900",
+      "29528358",
+      "28360418",
+      "28223920",
+      "28054918",
+      "27905440",
+      "27498877",
+      "26910517",
+      "26626834",
+      "26322584",
+      "25274811",
+      "24889800",
+      "23986479",
+      "22884903",
+      "22595784",
+      "22553493",
+      "22455929",
+      "20107064",
+      "20016080",
+      "19399777",
+      "19367871",
+      "18665320",
+      "17049320",
+      "16965052",
+      "16844742",
+      "16701209",
+      "16272444",
+      "16222654",
+      "12069628",
+      "10869803",
+      "10219973",
+      "10188929",
+      "8028000",
+      "7500351",
+      "7473761",
+      "2881207",
+      "2475254",
+      "1738847"
+    ],
+    "similar": [
+      "33996007",
+      "30630900",
+      "35543350",
+      "35737468",
+      "31174368",
+      "8083748",
+      "8863493",
+      "36688536",
+      "30790537",
+      "9110259",
+      "12105112",
+      "8052602",
+      "8491779",
+      "11389145",
+      "23986479",
+      "15772078",
+      "15778502",
+      "9827912",
+      "28096459",
+      "12837293",
+      "12796495",
+      "8612538",
+      "9389581",
+      "10231726",
+      "8239274",
+      "12586836",
+      "11273593",
+      "28017718",
+      "7794922",
+      "9632729",
+      "11223916",
+      "10660879",
+      "12496118",
+      "9354812",
+      "12957490",
+      "15880353",
+      "9407389",
+      "31373844",
+      "15090268",
+      "9278049",
+      "12716424",
+      "11238726",
+      "30638370",
+      "8840019",
+      "23905992",
+      "10349856",
+      "18248325",
+      "28165225",
+      "22730553",
+      "26202512",
+      "17157827",
+      "27964946",
+      "28413985",
+      "26678856",
+      "10336659",
+      "9243598",
+      "12090937",
+      "9465092",
+      "25137638",
+      "9801377",
+      "15073156",
+      "12767235",
+      "23237322",
+      "7677756",
+      "18349521",
+      "31181293",
+      "15663894",
+      "27891669",
+      "15851852",
+      "11158256",
+      "19367871",
+      "10461923",
+      "17319802",
+      "18656487",
+      "20155808",
+      "23495999",
+      "29097209"
+    ],
+    "review": [
+      "33996007",
+      "8239274",
+      "9354812"
+    ],
+    "pmc": [
+      "8098695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33996007/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d0sc06946a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33996007",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33996007",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33996007",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

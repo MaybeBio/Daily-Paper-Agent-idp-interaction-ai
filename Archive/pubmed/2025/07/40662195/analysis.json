@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40662195",
+  "title": "Controlled liquid-liquid phase separation via the simulation-guided, targeted engineering of the RNA-binding protein PARCL.",
+  "authors": "Veevers, Ruth; Ostendorp, Steffen; Ostendorp, Anna; Kehr, Julia; Morris, Richard J",
+  "journal": "iScience",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟结合突变预测与实验验证，解析植物RNA结合蛋白PARCL的相分离驱动残基及RNA结合区域，属于IDP/相分离对象、PPI（蛋白-RNA互作）与物理模拟方法齐备的机制建模研究。",
+  "abstract": "The Phloem-Associated RNA-Chaperone-Like (PARCL) protein is a plant-specific RNA-binding protein (RBP) that is highly abundant in the phloem. PARCL has been observed to form large biomolecular condensates that move within the phloem stream, potentially being involved in RNA transport. Here, we present results on unraveling drivers for PARCL's phase separation. We used coarse-grained molecular dynamics simulations to compute a residue interaction map that identifies candidate residues involved in phase separation. Subsequent simulations with mutations of candidate residues resulted in disrupted condensation, supporting their involvement in phase separation. We performed in vitro and in vivo experiments to validate these predictions. To investigate the RNA-binding of PARCL, we added microRNA to the simulations and identified a short region of PARCL that consistently made contact with the miRNA in agreement with bioinformatics predictions and experiments. We discuss the implications of our findings in terms of model-guided engineering of biomolecular condensates.",
+  "abstract_zh": "韧皮部相关的RNA伴侣样蛋白（PARCL）是一种植物特异性的RNA结合蛋白（RBP），在韧皮部中含量丰富。已观察到PARCL形成大型生物分子凝聚体，这些凝聚体在韧皮部流中移动，可能参与RNA运输。在此，我们展示了关于揭示PARCL相分离驱动因素的研究结果。我们使用粗粒化分子动力学模拟来计算残基相互作用图谱，以识别参与相分离的候选残基。随后对候选残基进行突变的模拟导致凝聚作用被破坏，支持了它们在相分离中的作用。我们进行了体外和体内实验以验证这些预测。为了研究PARCL的RNA结合特性，我们在模拟中添加了microRNA，并识别出PARCL的一个短区域，该区域与miRNA持续接触，这与生物信息学预测和实验结果一致。我们讨论了我们的发现对模型引导的生物分子凝聚体工程的启示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40662195/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40662195/",
+  "paper_page_path": "papers/pubmed/40662195/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39885825",
+  "title": "ATP Binding and Inhibition of Intrinsically Disordered Protein Interactions.",
+  "authors": "Lin, Shiyan; Hu, Guorong; Zhang, Moxin; Li, Jingyuan",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2025-01-31",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子分子动力学模拟揭示高浓度ATP通过与IDP关键残基（如Arg）竞争性结合来抑制无序蛋白互作及相分离的机制，对象、互作与物理模拟方法三者齐备，且深入探讨了互作抑制的分子机制，对本课题极具参考价值。",
+  "abstract": "Recent studies have shown that ATP at high physiological concentrations (>5 mM) can inhibit liquid-liquid phase separation (LLPS) driven by interactions between intrinsically disordered proteins (IDPs). However, the mechanism underlying such inhibitory effect still remains elusive. Here, we used all-atom molecular dynamics simulation to study the interaction of ATP with two typical IDPs (i.e., FUS PLD and RGG domain of hnRNP G), and its impacts on IDP interactions. ATP exhibits a considerable tendency to bind to both IDPs and effectively inhibits their interactions. For the RGG domain, Arg residues are critical for both ATP binding and IDP interactions. The inhibitory effect of ATP is largely attributed to its competitive binding mode to Arg residues. Similar competitive binding of ATP is also observed in FUS PLD. Both ATP binding and the PLD interaction share the residues including Gln, Ser, and Tyr residues, while the competition is rather modest due to the abundance of these residues in the sequence. Interestingly, ATP undergoes considerable diffusion on the surface of PLD, which is an order of magnitude faster than the evolution of the contact area of PLDs. The temporal separation of these two processes remarkably promotes the inhibitory effect of ATP on PLD interaction. Given the representativeness of these two IDPs, competitive binding may serve as a general mechanism underlying ATP inhibition on IDP interactions at high physiological levels.",
+  "abstract_zh": "近期研究表明，高生理浓度（>5 mM）下的ATP能够抑制由 intrinsically disordered proteins (IDPs) 之间相互作用驱动的液-液相分离 (liquid-liquid phase separation, LLPS)。然而，这种抑制效应的潜在机制仍不明确。在此，我们采用全原子分子动力学 (all-atom molecular dynamics) 模拟，研究了ATP与两种典型IDPs（即FUS PLD和hnRNP G的RGG结构域）的相互作用及其对IDP相互作用的影响。ATP表现出与两种IDPs结合的显著倾向，并有效抑制其相互作用。对于RGG结构域，Arg残基对ATP结合和IDP相互作用均至关重要。ATP的抑制效应主要归因于其与Arg残基的竞争性结合模式。在FUS PLD中也观察到类似的ATP竞争性结合。ATP结合和PLD相互作用共享包括Gln、Ser和Tyr残基在内的氨基酸，但由于这些残基在序列中的丰富性，竞争相对温和。有趣的是，ATP在PLD表面发生显著扩散，其速度比PLD接触面积的演变快一个数量级。这两个过程的时间分离显著促进了ATP对PLD相互作用的抑制效应。鉴于这两种IDPs的代表性，竞争性结合可能作为高生理水平下ATP抑制IDP相互作用的普遍机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39885825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39885825/",
+  "paper_page_path": "papers/pubmed/39885825/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary materials description.
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose that the MIC10 subcomplex of MICOS drives mitochondrial crista formation by recruiting cardiolipin at conserved positively charged loop motifs, promoting oligomerization and membrane curvature. They further propose that the full MIC10 complex can stabilize curvature at crista junctions and that the intrinsically disordered regions of Mic26 and Mic27 may form a permeability barrier between the cristae and the intermembrane space.
+- **Visible evidence base** Results sections describing all-atom and coarse-grained molecular dynamics simulations, AlphaFold 3 structure predictions, lipid interaction analyses, and crista model simulations. Methods section provides simulation parameters and analysis tools. Supplementary figures and tables are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Supplementary figures (figs. S1–S16), supplementary table S1, and the supplementary movie S1 are referenced but not included. Experimental validation data (e.g., mutagenesis, in vivo imaging) are absent. The Zenodo repository link is provided but not accessible for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable model for MIC10-mediated crista formation. The use of multiscale simulations combined with structure prediction is timely and the focus on cardiolipin recruitment is mechanistically plausible. However, the central claims rest entirely on in silico evidence without experimental corroboration, and several key analyses are described in a manner that prevents full assessment. The claim of a permeability barrier formed by IDRs is particularly speculative given the evidence presented. The work is likely to interest the mitochondrial biology and membrane biophysics communities, but the strength of the conclusions currently exceeds the evidentiary base.
+- **Who would be interested in the results, and why** Mitochondrial cell biologists studying cristae architecture and MICOS function; membrane biophysicists interested in curvature generation by protein-lipid interactions; computational biologists developing and applying multiscale simulation approaches to membrane-remodeling proteins. The proposed mechanism linking cardiolipin recruitment to curvature generation could inform studies on mitochondrial diseases associated with aberrant cristae morphology.
+- **Major strengths** The study addresses a long-standing question in mitochondrial biology with a modern computational toolkit. The systematic approach, from monomer stability to oligomer behavior to full complex reconstruction in a realistic membrane geometry, is commendable. The identification of specific residues (e.g., R38 in Mic10, G50/G52) that align with prior experimental data provides a degree of internal validation. The inclusion of control simulations (POPC membranes, ANT1 protein) strengthens the specificity argument for cardiolipin-driven curvature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The MIC10 proteins Mic10, Mic26, and Mic27 strongly recruit cardiolipin at conserved positive loop motifs, driving oligomerization of these subunits and resulting in the stabilization of curvature in model membranes."
+  - **Evidence pointer** Results sections "Mic10 stably embeds in the IMM and recruits CDLs" and "Mic10 oligomers induce curvature by recruiting cardiolipin"; figures 2, 3, 5
+  - **Concern** The claim that cardiolipin recruitment drives oligomerization and curvature is based solely on computational predictions. No experimental validation (e.g., mutagenesis of the identified residues, liposome-based assays, or in organello studies) is presented. The occupancy values (77%, 90%, 83%) are reported but the statistical significance and reproducibility across independent simulations are not fully described. The causal ordering (recruitment → oligomerization → curvature) is inferred from correlation in simulations, not demonstrated through perturbation analysis.
+  - **Why it matters** The central mechanistic claim of the paper rests on this causal chain. Without experimental support or at least a systematic in silico perturbation (e.g., mutating R38, G50, G52 in simulations), the claim remains a hypothesis rather than an established finding. The authors themselves note the lack of experimental structures, which further underscores the need for validation.
+  - **Resolution test** Provide experimental validation (e.g., mutagenesis of R38, G50, G52 followed by assessment of oligomerization and curvature in vitro or in vivo) or perform systematic in silico mutations that abolish cardiolipin binding and demonstrate loss of curvature generation. Alternatively, clearly reframe the claims as predictions requiring experimental testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Reconstruction of the full MIC10 complex in a realistic crista junction setup shows its capability to maintain membrane bending, while intrinsically disordered regions may form a permeability barrier between cristae and the intermembrane space."
+  - **Evidence pointer** Results section "Possible model for the entire MIC10 subcomplex" and "The IDRs of Mic26 and Mic27 form a permeability barrier"; figures 6, 7
+  - **Concern** The claim that the full MIC10 complex maintains membrane bending in a realistic crista model is based on simulations where the complex was placed at the crista junction. However, the authors note that "the localization of the dimers was not well maintained" in the case of the Mic10-26 dimer alone, and only the large oligomer stayed localized. This suggests the model may be sensitive to initial conditions. The permeability barrier claim is based solely on IDR condensation observed in aqueous solution simulations, which is a significant extrapolation to a membrane-bound environment. No evidence is provided that such a barrier would be selective or physiologically relevant.
+  - **Why it matters** The permeability barrier claim is a novel and potentially important hypothesis, but the evidence is indirect. The transition from "IDRs can form condensates in solution" to "IDRs form a permeability barrier at crista junctions" requires demonstration that such condensates form in the membrane context and that they impede molecular transport. The maintenance of curvature claim needs robustness analysis.
+  - **Resolution test** Perform simulations of the full complex in the crista model with varied initial placements and demonstrate consistent curvature maintenance. For the permeability barrier, simulate the IDRs in the presence of the membrane and test for condensate formation at the junction. Alternatively, temper the claim to a hypothesis requiring experimental testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** "Simulations were performed using the Martini 3 force field for the larger-scale CG systems and the CHARMM36m force field for smaller-scale AA validation runs."
+  - **Evidence pointer** Methods section "Atomistic simulations" and "CG simulation settings"
+  - **Concern** The manuscript does not report the number of independent simulations, the total simulation time per condition, or the convergence criteria used. The use of lipid number asymmetry (13% fewer lipids in one leaflet) to "facilitate" curvature is a significant perturbation that may bias the results toward curvature generation. The authors do not discuss whether this asymmetry is physiologically relevant or whether the results are robust to this choice.
+  - **Why it matters** The conclusions depend on the ability of the simulations to capture equilibrium behavior. If the system is biased toward curvature by the imposed asymmetry, the observed curvature generation may be an artifact. The lack of convergence analysis prevents assessment of whether the reported curvature values are meaningful.
+  - **Resolution test** Report the number of replicates, total simulation times, and convergence metrics (e.g., block averaging of curvature). Perform control simulations with symmetric lipid distribution and with varying degrees of asymmetry to demonstrate that curvature generation is not an artifact of the imposed asymmetry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "strongly recruit cardiolipin at conserved positive loop motifs" but does not specify which residues or how "strongly" was quantified.
+  - **Required correction** Add a brief quantitative descriptor (e.g., occupancy percentage) or reference to the relevant figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Mic10-Mic26/Mic27 dimers bind cardiolipin strongly and induce curvature"
+  - **Evidence pointer** Figure 4
+  - **Issue** The AlphaFold 3 prediction for the Mic10-26 dimer is described as having "low confidence" but is then used as the basis for extensive simulations. The authors acknowledge this but do not discuss the implications of using a low-confidence structure for downstream analysis.
+  - **Required correction** Add a sentence discussing the potential impact of low confidence in the predicted structure on the simulation results and conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors state "the spontaneous curvature of cardiolipin remains somewhat controversial" but do not engage with the controversy or explain how their results inform this debate.
+  - **Required correction** Add a brief discussion of the controversy and how the present results either support or challenge existing views.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "CG simulation setup in flat membranes"
+  - **Evidence pointer** Methods
+  - **Issue** The use of the "-asym" flag with a 13% lipid asymmetry is described but the rationale for this specific value is not provided.
+  - **Required correction** Cite the prior work that used a similar asymmetry or provide a justification for this choice.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation or in silico perturbation for the causal claim), R1-M2 (insufficient evidence for the permeability barrier claim and robustness of curvature maintenance), R1-M3 (incomplete reporting of simulation replicates, convergence, and sensitivity to imposed lipid asymmetry).
+- **Assessment against Nature-style criteria** Originality: The application of AlphaFold 3 and multiscale simulations to MIC10-mediated cristae formation is novel and timely. Scientific importance: The mechanism proposed is relevant to mitochondrial biology and membrane biophysics, but the lack of experimental validation limits its immediate impact. Interdisciplinary readership: The work bridges structural biology, biophysics, and computational biology, but the heavy reliance on simulations may limit accessibility to experimentalists. Technical soundness: The simulation protocols are generally appropriate, but the incomplete reporting of replicates and convergence, and the use of imposed lipid asymmetry without sensitivity analysis, are concerns. Readability for nonspecialists: The manuscript is clearly written and the figures are well described, but the methods section assumes familiarity with advanced simulation techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The computational model is potentially valuable, but the central claims require either experimental validation or a clear reframing as testable predictions. The methodological transparency issues must be addressed to allow assessment of robustness.
+
+## Risk / unsupported claims
+- The claim that cardiolipin recruitment drives oligomerization and curvature is unsupported by direct evidence; it is inferred from correlation in simulations.
+- The claim that IDRs of Mic26 and Mic27 form a permeability barrier at crista junctions is unsupported; the evidence is limited to condensation in aqueous solution.
+- The claim that the full MIC10 complex maintains curvature in a realistic crista model is weakly supported, given the noted localization instability of smaller complexes.
+- The physiological relevance of the imposed 13% lipid asymmetry is not established.
+- The statement "All data and code needed to evaluate and reproduce the results in the paper are present in the paper and/or the Supplementary Materials" cannot be verified as the supplementary materials were not provided for review.

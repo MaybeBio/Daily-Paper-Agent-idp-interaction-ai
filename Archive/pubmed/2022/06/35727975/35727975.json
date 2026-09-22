@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "35727975",
+    "doi": "10.1073/pnas.2120456119",
+    "title": "Affinity of disordered protein complexes is modulated by entropy-energy reinforcement."
+  },
+  "content": {
+    "abstract": "The association between two intrinsically disordered proteins (IDPs) may produce a fuzzy complex characterized by a high binding affinity, similar to that found in the ultrastable complexes formed between two well-structured proteins. Here, using coarse-grained simulations, we quantified the biophysical forces driving the formation of such fuzzy complexes. We found that the high-affinity complex formed between the highly and oppositely charged H1 and ProTalpha proteins is sensitive to electrostatic interactions. We investigated 52 variants of the complex by swapping charges between the two oppositely charged proteins to produce sequences whose negatively or positively charged residue content was more homogeneous or heterogenous (i.e., polyelectrolytic or polyampholytic, having higher or lower absolute net charges, respectively) than the wild type. We also changed the distributions of oppositely charged residues within each participating sequence to produce variants in which the charges were segregated or well mixed. Both types of changes significantly affect binding affinity in fuzzy complexes, which is governed by both enthalpy and entropy. The formation of H1-ProTa is supported by an increase in configurational entropy and by entropy due to counterion release. The latter can be twice as large as the former, illustrating the dominance of counterion entropy in modulating the binding thermodynamics. Complexes formed between proteins with greater absolute net charges are more stable, both enthalpically and entropically, indicating that enthalpy and entropy have a mutually reinforcing effect. The sensitivity of the thermodynamics of the complex to net charge and the charge pattern within each of the binding constituents may provide a means to achieve binding specificity between IDPs.",
+    "keywords": [
+      "counterion entropy",
+      "high-affinity binding",
+      "intrinsically disordered proteins",
+      "polyelectrolytes",
+      "protein association"
+    ],
+    "mesh_terms": [
+      "Entropy",
+      "*Histones/chemistry",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Binding",
+      "*Receptors, Immunologic/chemistry",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hazra, Milan Kumar",
+        "Levy, Yaakov"
+      ],
+      "short_names": [
+        "Hazra MK",
+        "Levy Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9929-973X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hazra, Milan Kumar",
+        "short_name": "Hazra MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [
+          "0000-0002-9929-973X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Jun 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/22 06:00",
+    "fetched_at": "2026-09-20 11:22:09"
+  },
+  "links": {
+    "cites": [
+      "41118627",
+      "40580813",
+      "40532016",
+      "40474236",
+      "40296701",
+      "40185744",
+      "39803547",
+      "39595597",
+      "38753069",
+      "38598628",
+      "38181073",
+      "38020236",
+      "37796987",
+      "37721444",
+      "36830732",
+      "36782353",
+      "36545140",
+      "35858387"
+    ],
+    "refs": [
+      "34992286",
+      "34791357",
+      "34391803",
+      "33629837",
+      "33617899",
+      "33550810",
+      "33230150",
+      "33207556",
+      "33184256",
+      "32822449",
+      "32087632",
+      "31874413",
+      "31387991",
+      "31270472",
+      "31260322",
+      "31165735",
+      "30873835",
+      "30538236",
+      "30397688",
+      "30301810",
+      "30091924",
+      "29596915",
+      "29477337",
+      "29466338",
+      "29364893",
+      "29268015",
+      "29064502",
+      "29045818",
+      "28914483",
+      "28894006",
+      "28762260",
+      "27448900",
+      "27392146",
+      "26989950",
+      "26963394",
+      "26490213",
+      "26328871",
+      "26275458",
+      "26217672",
+      "26015579",
+      "25531225",
+      "25225856",
+      "24900326",
+      "24739139",
+      "23901099",
+      "23654303",
+      "23407358",
+      "22536820",
+      "22306467",
+      "21739503",
+      "20479265",
+      "19749752",
+      "18837035",
+      "16674260",
+      "16519519",
+      "16109424",
+      "15267872",
+      "12650591",
+      "11278815",
+      "11148036",
+      "10801360",
+      "9268373",
+      "8961927",
+      "8617744",
+      "8494892",
+      "7866746",
+      "7577967",
+      "5288752",
+      "3818620"
+    ],
+    "similar": [
+      "35727975",
+      "37796987",
+      "32639157",
+      "24278008",
+      "31874413",
+      "16674260",
+      "37716093",
+      "23901099",
+      "29590589",
+      "21078959",
+      "24604825",
+      "30813629",
+      "28914483",
+      "30823702",
+      "33562121",
+      "29466338",
+      "35512095",
+      "36468418",
+      "28226222",
+      "31709918",
+      "28111343",
+      "32867340",
+      "24317797",
+      "24086122",
+      "31180661",
+      "35912826",
+      "34532345",
+      "33284914",
+      "30193467",
+      "30430826",
+      "23436397",
+      "29614221",
+      "23990768",
+      "12909011",
+      "28890401",
+      "33184256",
+      "34806740",
+      "29548979",
+      "34504009",
+      "33617899",
+      "22807669",
+      "30968464",
+      "34181980",
+      "27936491",
+      "38250712",
+      "36037377",
+      "34473923",
+      "28847960",
+      "30529747",
+      "36774964",
+      "26851279",
+      "39074869",
+      "26317887",
+      "32933064",
+      "30025858",
+      "32696367",
+      "32654182",
+      "25375525",
+      "34572590",
+      "27111521",
+      "29925017",
+      "29078291",
+      "27018856",
+      "32325001",
+      "33096105",
+      "19113835",
+      "20815339",
+      "29843482",
+      "22721951",
+      "25263009",
+      "30558340",
+      "34550709",
+      "31756104",
+      "30397651",
+      "11023883",
+      "29544285",
+      "25679039",
+      "25207671",
+      "29666277",
+      "31375817",
+      "25358803",
+      "29763584",
+      "29734867",
+      "30384718",
+      "32738199",
+      "29276882",
+      "29926202",
+      "28493424",
+      "23531173",
+      "33945530",
+      "33566618",
+      "25611056",
+      "26910732",
+      "36830732",
+      "32212610",
+      "34194953",
+      "39253398",
+      "30717651",
+      "34476121",
+      "38172364",
+      "37109384",
+      "39197679",
+      "38156893"
+    ],
+    "review": [
+      "35727975",
+      "31874413",
+      "37716093",
+      "30813629",
+      "28226222",
+      "31709918",
+      "32867340",
+      "26851279"
+    ],
+    "pmc": [
+      "9245678"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2120456119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35727975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35727975",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

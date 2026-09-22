@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.05.506704",
+  "title": "SE(3) Equivalent Graph Attention Network as an Energy-Based Model for Protein Side Chain Conformation",
+  "authors": "Deqin Liu; Sheng Chen; Shuangjia Zheng; Sen Zhang; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-06",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出SE(3)等变图注意力网络作为能量模型预测蛋白侧链构象，虽非无序蛋白对象，但其基于物理的构象能量建模方法对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "Protein design energy functions have been developed over decades by leveraging physical forces approximation and knowledge-derived features. However, manual feature engineering and parameter tuning might suffer from knowledge bias. Learning potential energy functions fully from crystal structure data is promising to automatically discover unknown or high-order features that contribute to the protein’s energy. Here we proposed a graph attention network as an energy-based model for protein conformation, namely GraphEBM. GraphEBM is equivariant to the SE(3) group transformation, which is the important principle of modern machine learning for molecules-related tasks. GraphEBM was benchmarked on the rotamer recovery task and outperformed both Rosetta and the state-of-the-art deep learning based methods. Furthermore, GraphEBM also yielded promising results on combinatorial side chain optimization, improving 22.2% χ 1 rotamer recovery to the PULCHRA method on average.",
+  "abstract_zh": "蛋白质设计能量函数经过数十年的发展，通过利用物理力近似和知识衍生特征构建而成。然而，手动特征工程和参数调整可能受知识偏差影响。完全从晶体结构数据中学习势能函数有望自动发现对蛋白质能量有贡献的未知或高阶特征。在此，我们提出了一种图注意力网络作为蛋白质构象的能量模型，即GraphEBM。GraphEBM对SE(3)群变换具有等变性，这是现代机器学习在分子相关任务中的重要原则。GraphEBM在旋转异构体恢复任务上进行了基准测试，并优于Rosetta及最先进的基于深度学习的方法。此外，GraphEBM在组合侧链优化方面也取得了有前景的结果，平均将χ1旋转异构体恢复率相对于PULCHRA方法提高了22.2%。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.05.506704",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.05.506704",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.05.506704/index.html"
+}

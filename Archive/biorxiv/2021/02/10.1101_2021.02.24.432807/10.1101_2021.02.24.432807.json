@@ -1,0 +1,214 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.24.432807",
+  "title": "Modeling the SARS-CoV-2 nsp1–5’-UTR complex via extended ensemble simulations",
+  "doi": "10.1101/2021.02.24.432807",
+  "abstract": "Nonstructural protein 1 (nsp1) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 180-residue protein that blocks translation of host mRNAs in SARS-CoV-2-infected cells. Although it is known that SARS-CoV-2’s own RNA evades nsp1’s host translation shutoff, the molecular mechanism underlying the evasion was poorly understood. We performed an extended ensemble molecular dynamics simulation to investigate the mechanism of the viral RNA evasion. Simulation results showed that the stem loop structure of the SARS-CoV-2 RNA 5’-untranslated region (SL1) is recognized by both nsp1’s globular region and intrinsically disordered region. The recognition presumably enables selective translation of viral RNAs. Cluster analysis of the binding mode and detailed analysis of the binding poses revealed several residues involved in the SL1 recognition mechanism. The simulation results imply that the nsp1 C-terminal helices are lifted from the 40 S ribosome upon the binding of SL1 to nsp1, unblocking translation of the viral RNA.",
+  "authors": [
+    "Sakuraba S",
+    "Qilin X",
+    "Kasahara K",
+    "Iwakiri J",
+    "Kono H"
+  ],
+  "published_date": "2021-02-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432807",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432807.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR288556",
+    "raw_record": {
+      "id": "PPR288556",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR288556"
+        ]
+      },
+      "doi": "10.1101/2021.02.24.432807",
+      "title": "Modeling the SARS-CoV-2 nsp1–5’-UTR complex via extended ensemble simulations",
+      "authorString": "Sakuraba S, Qilin X, Kasahara K, Iwakiri J, Kono H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sakuraba S",
+            "lastName": "Sakuraba",
+            "firstName": "Shun",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Quantum Life Science, National Institutes for Quantum and Radiological Research and Technology, 8-1-7 Umemi-dai, Kizu, Kyoto 619-0215"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qilin X",
+            "lastName": "Qilin",
+            "firstName": "Xie",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kasahara K",
+            "lastName": "Kasahara",
+            "firstName": "Kota",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iwakiri J",
+            "lastName": "Iwakiri",
+            "firstName": "Junichi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Graduate School of Frontier Sciences, The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8561"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kono H",
+            "lastName": "Kono",
+            "firstName": "Hidetoshi",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5729-8707"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Quantum Life Science, National Institutes for Quantum and Radiological Research and Technology, 8-1-7 Umemi-dai, Kizu, Kyoto 619-0215"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5729-8707"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Nonstructural protein 1 (nsp1) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 180-residue protein that blocks translation of host mRNAs in SARS-CoV-2-infected cells. Although it is known that SARS-CoV-2’s own RNA evades nsp1’s host translation shutoff, the molecular mechanism underlying the evasion was poorly understood. We performed an extended ensemble molecular dynamics simulation to investigate the mechanism of the viral RNA evasion. Simulation results showed that the stem loop structure of the SARS-CoV-2 RNA 5’-untranslated region (SL1) is recognized by both nsp1’s globular region and intrinsically disordered region. The recognition presumably enables selective translation of viral RNAs. Cluster analysis of the binding mode and detailed analysis of the binding poses revealed several residues involved in the SL1 recognition mechanism. The simulation results imply that the nsp1 C-terminal helices are lifted from the 40  S ribosome upon the binding of SL1 to nsp1, unblocking translation of the viral RNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/08/2021.02.24.432807.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.24.432807"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR288556"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR288556&type=FILE&fileName=EMS119985-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35045069",
+            "reference": "PLoS computational biology. 2022 Jan;18(1):e1009804",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS119985",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "emdb",
+          "refseq",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-02-26",
+      "firstPublicationDate": "2021-02-25",
+      "firstIndexDate": "2021-02-26",
+      "fullTextReceivedDate": "2021-04-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

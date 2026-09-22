@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38348795",
+  "title": "Backbone interactions and secondary structures in phase separation of disordered proteins.",
+  "authors": "Li, Shanlong; Zhang, Yumeng; Chen, Jianhan",
+  "journal": "Biochemical Society transactions",
+  "published_date": "2024-02-13",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述聚焦无序蛋白在相分离中骨架介导的相互作用与二级结构，并回顾了分子动力学模拟等物理方法，虽为综述且未深入具体PPI机制建模，但对象与方法高度契合本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are one of the major drivers behind the formation and characteristics of biomolecular condensates. Due to their inherent flexibility, the backbones of IDPs are significantly exposed, rendering them highly influential and susceptible to biomolecular phase separation. In densely packed condensates, exposed backbones have a heightened capacity to interact with neighboring protein chains, which might lead to strong coupling between the secondary structures and phase separation and further modulate the subsequent transitions of the condensates, such as aging and fibrillization. In this mini-review, we provide an overview of backbone-mediated interactions and secondary structures within biomolecular condensates to underscore the importance of protein backbones in phase separation. We further focus on recent advances in experimental techniques and molecular dynamics simulation methods for probing and exploring the roles of backbone interactions and secondary structures in biomolecular phase separation involving IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 是生物分子凝聚体形成及其特性的主要驱动因素之一。由于其固有的柔韧性，IDPs 的骨架显著暴露，使其在生物分子相分离中具有高度影响力和易感性。在密集堆积的凝聚体中，暴露的骨架与邻近蛋白质链相互作用的能力增强，这可能导致二级结构与相分离之间的强耦合，并进一步调节凝聚体的后续转变，如老化和纤维化。在本篇小型综述中，我们概述了生物分子凝聚体内部骨架介导的相互作用和二级结构，以强调蛋白质骨架在相分离中的重要性。我们进一步聚焦于实验技术和分子动力学模拟方法的最新进展，这些方法用于探测和探索骨架相互作用及二级结构在涉及 IDPs 的生物分子相分离中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38348795/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38348795/",
+  "paper_page_path": "papers/pubmed/38348795/index.html"
+}

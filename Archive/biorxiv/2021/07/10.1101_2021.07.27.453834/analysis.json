@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.27.453834",
+  "title": "Site-specific recognition of SARS-CoV-2 nsp1 protein with a tailored titanium dioxide nanoparticle",
+  "authors": "Agback P; Agback T; Dominguez F; Frolova E; Seisenbaeva G; Kessler V",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-27",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究探讨二氧化钛纳米颗粒与SARS-CoV-2 nsp1蛋白的特异性位点识别，对象非无序蛋白且无PPI机制建模或AI/物理模拟方法，仅具边缘相关性。",
+  "abstract": "The ongoing world-wide Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) pandemic shows the need for new sensing and therapeutic means against the CoV viruses. The SARS-CoV-2 nsp1 protein is important, both for replication and pathogenesis, making it an attractive target for intervention. In recent years nanoparticles have been shown to interact with peptides, ranging in size from single amino acids up to proteins. These nanoparticles can be tailor-made with specific functions and properties including bioavailability. To the best of our knowledge, in this study we show for the first time that a tailored titanium oxide nanoparticle interacts specifically with a unique site of the full-length SARS-CoV-2 nsp1 protein. This can be developed potentially into a tool for selective control of viral protein functions.",
+  "abstract_zh": "持续全球范围内的严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）大流行凸显了对抗CoV病毒的新型传感和治疗手段的需求。SARS-CoV-2的nsp1蛋白在病毒复制和致病性方面均至关重要，使其成为干预治疗的一个有吸引力的靶点。近年来，纳米颗粒已被证明能与肽段相互作用，这些肽段的大小范围从单个氨基酸到蛋白质不等。这些纳米颗粒可以定制，具备特定功能和性质，包括生物利用度。据我们所知，本研究首次展示了一种定制的氧化钛纳米颗粒能与全长SARS-CoV-2 nsp1蛋白的独特位点特异性相互作用。这有望发展成为一种选择性控制病毒蛋白功能的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453834",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453834",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.27.453834/index.html"
+}

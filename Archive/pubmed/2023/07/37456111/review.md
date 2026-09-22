@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Data descriptor for a deposited molecular dynamics simulation dataset
+- **Shared manuscript claim summary** The authors provide 25 independent coarse-grained molecular dynamics trajectories of Aβ1-42 dimerization, each 11 µs in length, generated with the SIRAH force field under room conditions and physiological salt concentration. The dataset is claimed to be unbiased, ready-to-use, and suitable for downstream applications such as high-throughput docking, oligomerization seeding, and backmapping to atomistic resolution.
+- **Visible evidence base** Abstract, main text sections (Objective, Data Description, Experimental Design Materials and Methods, Secondary data), data availability statement, DOI references
+- **Missing materials affecting confidence** The actual trajectory files, coordinate files, parameter files, and the sirah_vmdtk.tcl script were not provided for inspection. No figures, tables, or quantitative validation metrics (e.g., convergence checks, dimerization time distributions, structural analyses) are included in the manuscript text. The associated primary paper [1] is referenced but not supplied.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially useful dataset of coarse-grained molecular dynamics trajectories of Aβ1-42 dimerization. The methodological rationale is sound and the deposition of raw trajectories in a standard format with backmapping capability is a service to the community. However, the manuscript as presented lacks any quantitative characterization or validation of the dataset content. No information is provided on the structural properties of the resulting dimers, the time course of dimerization events, the diversity of inter-peptide interfaces, or the reproducibility of the simulations. The claim that the dataset is "unbiased" is not substantiated by any analysis demonstrating that the sampling is free from bias or that the chosen starting conditions do not influence the outcomes. The absence of any descriptive statistics or quality metrics makes it impossible to assess the scientific value of the deposited data from the manuscript alone.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation, particularly those interested in the early oligomerization steps of Aβ1-42, would find this dataset valuable as a source of starting conformations for further simulations or docking studies. Computational chemists and biophysicists working with coarse-grained force fields, especially SIRAH users, would benefit from the ready-to-use trajectories and the demonstrated backmapping workflow. The dataset could also serve as a benchmark for comparing aggregation behavior across different force fields or simulation protocols.
+- **Major strengths** The dataset addresses a genuine gap in the availability of unbiased, spontaneous dimerization trajectories of Aβ1-42. The use of the SIRAH force field with its backmapping capability provides a practical bridge between coarse-grained sampling efficiency and atomistic resolution analysis. The provision of 25 independent replicates over 11 µs each represents a substantial sampling effort. The deposition in standard GROMACS format with clear instructions for visualization and backmapping lowers the barrier for community reuse.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and validation
+  - **Claim pointer** The dataset is described as providing "an extensive collection of Aβ1-42 peptides in dimeric conformation" and "a complete collection of inter-peptide interfaces."
+  - **Evidence pointer** Data Description section, location not provided
+  - **Concern** The manuscript provides no quantitative evidence that the trajectories indeed contain stable dimeric states, nor any characterization of the inter-peptide interfaces claimed to be captured. No structural analysis, contact maps, binding free energies, or even basic metrics such as radius of gyration or inter-peptide distances are reported. The claim of a "complete collection" of interfaces is unsupported by any clustering or diversity analysis.
+  - **Why it matters** Without any validation that the simulations produced physically meaningful dimers and that the ensemble of interfaces is diverse and representative, the scientific utility of the dataset cannot be assessed. Users would have no way to know whether the deposited trajectories contain the claimed information or whether the sampling is adequate for downstream applications.
+  - **Resolution test** Provide a descriptive analysis of the dimeric states, including at least: time evolution of inter-peptide distances for representative trajectories, distribution of dimerization times across the 25 replicates, structural characterization of the most populated dimer conformations, and a diversity metric for the inter-peptide interfaces (e.g., number of distinct contact patterns from clustering).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim of unbiased sampling
+  - **Claim pointer** The title and abstract describe the simulations as "unbiased" and "spontaneous."
+  - **Evidence pointer** Abstract, Data Description, Experimental Design Materials and Methods, location not provided
+  - **Concern** The protocol describes heating the system to 373 K and cooling to 300 K to generate "randomized conformations," and then placing two monomers "in random reciprocal orientations" with a 5 nm separation. While the dimerization itself is unbiased in the sense of no biasing potential, the preparation protocol introduces specific choices that may influence the sampling. No analysis is presented to demonstrate that the resulting dimer ensemble is independent of the preparation protocol or that the sampling is converged.
+  - **Why it matters** The term "unbiased" is a strong claim that implies the data can be used as a reference for unbiased aggregation behavior. If the preparation protocol biases the initial encounter geometries or if the simulation length is insufficient for convergence, the dataset may not be representative of true spontaneous dimerization.
+  - **Resolution test** Demonstrate that the dimerization events are not dependent on the initial orientation protocol, for example by showing that the distribution of encounter interfaces is consistent across different starting condition subsets, or by providing a convergence analysis (e.g., block averaging of structural observables over the trajectory length).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness of deposited data
+  - **Claim pointer** The dataset is described as "ready-to-use" and the methods state that "no other software than VMD and Ambertools and the sirah_vmdtk.tcl script are needed."
+  - **Evidence pointer** Data Description, Experimental Design Materials and Methods, Secondary data, location not provided
+  - **Concern** The manuscript does not specify the complete contents of the deposited dataset. It is unclear whether the deposition includes the SIRAH force field parameters, the PSF file, the sirah_vmdtk.tcl script, and all 25 trajectory files. The version of GROMACS used is stated (2018.4), but compatibility with newer versions is not discussed. The backmapping procedure is described as requiring Ambertools 18 or higher, but no version-specific testing is reported.
+  - **Why it matters** For a data descriptor, the completeness and usability of the deposited files are central to the manuscript's value. Users need to know exactly what is included and whether the provided scripts and parameters are compatible with their local software environments.
+  - **Resolution test** Provide a complete file inventory of the deposition, including file names, formats, and sizes. State the tested software versions for both analysis and backmapping workflows. Confirm that the force field parameters are included or provide a direct link to the SIRAH parameter repository.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Experimental Design Materials and Methods, Primary data
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "we placed two monomers in random reciprocal orientations imposing a separation of separating the by 5 nm between their centers of geometry" contains a grammatical error and is unclear.
+  - **Required correction** Rewrite as "we placed two monomers in random reciprocal orientations with a separation of 5 nm between their centers of geometry."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methodological detail
+  - **Affected element** Experimental Design Materials and Methods, Primary data
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that "the coordinates from X-ray PDB structure 1IYT were utilized as starting 3D model for Aβ1-42 monomers" but does not specify which chain or residues were used, nor how missing residues were handled.
+  - **Required correction** Specify the chain identifier and residue range used from PDB 1IYT, and describe any modeling steps for missing or disordered regions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Data Description
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that 25 out of 54 systems underwent dimerization within 1 µs, but does not report the distribution of dimerization times or the fraction of the 11 µs trajectory that corresponds to the dimeric state.
+  - **Required correction** Provide a histogram or summary statistics of dimerization times across the 25 successful replicates, and state the mean and range of time spent in the dimeric state.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility of data
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Location not provided
+  - **Issue** The data availability statement only provides a DOI and a URL, but does not state the license under which the data are released or any access restrictions.
+  - **Required correction** State the license (e.g., CC BY 4.0) and confirm that the data are freely accessible without registration.
+
+## Risk / unsupported claims
+- The claim that the dataset provides "a complete collection of inter-peptide interfaces" is unsupported by any diversity or coverage analysis.
+- The claim that the simulations are "unbiased" is not substantiated by convergence analysis or protocol-dependence testing.
+- The claim that the dataset is "ready-to-use" cannot be fully verified without inspecting the deposited files.
+- The statement that the dataset "may furnish a complete collection of inter-peptide interfaces that can be used in high-throughput docking" is speculative and not supported by any demonstration of suitability for docking.
+- The assertion that the backmapping procedure produces "fully atomistic" coordinates is plausible but not validated with any quality metrics comparing backmapped structures to reference atomistic simulations.

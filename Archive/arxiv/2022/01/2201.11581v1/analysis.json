@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2201.11581v1",
+  "title": "Statistical mechanics of biomolecular condensates via cavity methods",
+  "authors": "N. Lauber; O. Tichacek; R. Bose; C. Flamm; L. Leuzzi; T-Y Dora tang; K. Ruiz-Mirazo; D. De Martino",
+  "journal": "",
+  "published_date": "2022-01-27",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用cavity方法从微观相互作用出发计算生物分子凝聚体的配分函数，定量建模相分离机制，对象为无序凝聚体、方法为统计物理解析建模，虽非AI/分子动力学但机制建模深度高，对IDR介导PPI的相分离建模有直接启发。",
+  "abstract": "Physical mechanisms of phase separation in living systems can play key physiological roles and have recently been the focus of intensive studies. The strongly heterogeneous and disordered nature of such phenomena in the biological domain poses difficult modeling challenges that require going beyond mean field approaches based on postulating a free energy landscape. The alternative pathway we take in this work is to tackle the full statistical mechanics problem of calculating the partition function in these systems, starting from microscopic interactions, by means of cavity methods. We illustrate the procedure first on the simple binary case, and we then apply it successfully to ternary systems, in which the naive mean field approximations are proved inadequate. We then demonstrate the agreement with lattice model simulations, to finally contrast our theory also with experiments of coacervate formation by associative de-mixing of nucleotides and poly-lysine in aqueous solution. In this way, different types of evidence are provided to support cavity methods as ideal tools for quantitative modeling of biomolecular condensation, giving an optimal balance between the accurate consideration of spatial aspects of the microscopic dynamics and the fast computational results rooted in their analytical tractability.",
+  "abstract_zh": "生命系统中相分离的物理机制可发挥关键生理作用，并近期成为密集研究的焦点。生物领域中此类现象的强烈异质性和无序性带来了困难的建模挑战，要求超越基于假设自由能景观的平均场方法。本工作中我们采取的替代路径是，通过腔方法，从微观相互作用出发，处理计算这些系统中配分函数的完整统计力学问题。我们首先在简单二元情形中说明该过程，然后成功应用于三元系统，其中朴素平均场近似被证明不充分。我们随后展示与晶格模型模拟的一致性，最终还将我们的理论与核苷酸和聚赖氨酸在水溶液中通过缔合去混合形成凝聚体的实验进行对比。通过这种方式，提供了不同类型的证据，支持腔方法作为生物分子凝聚定量建模的理想工具，在微观动力学空间方面的精确考量与基于其解析可处理性的快速计算结果之间达到最佳平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2201.11581v1",
+  "source_url": "https://arxiv.org/abs/2201.11581v1",
+  "paper_page_path": "papers/arxiv/2201.11581v1/index.html"
+}

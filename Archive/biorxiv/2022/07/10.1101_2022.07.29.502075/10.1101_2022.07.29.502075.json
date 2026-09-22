@@ -1,0 +1,480 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.29.502075",
+  "title": "A molecular mechanism for membrane chaperoning by a late embryogenesis abundant protein",
+  "doi": "10.1101/2022.07.29.502075",
+  "abstract": "<h4>Summary</h4> Environmental stress can result in substantial damage to proteins, membranes, and genetic material, impacting organismal survival 1-3 . Stress tolerance can be conferred by intrinsically disordered proteins (IDPs) 4 that lack stable tertiary structure. IDPs from the large family of late embryogenesis abundant (LEA) proteins confer a fitness advantage when heterologously expressed 5,6 . Such protection suggests a general molecular function leading to stress tolerance, although the mechanisms remain unclear. Here, we report that a tardigrade LEA protein that confers stress tolerance in yeast acts as a molecular chaperone for the mitochondrial membrane. This protein, named HeLEA1, localizes to the mitochondrial matrix, and harbors conserved LEA sequence motifs that undergo dynamic disorder-to-helical transition upon binding to negatively charged membranes. Yeast expressing HeLEA1 show increased mitochondrial membrane fluidity, increased membrane potential, and enhanced tolerance to hyperosmotic stress under non-fermentative growth without significantly altering mitochondrial lipid composition or triggering a generic stress response. We demonstrate that membrane binding ameliorates excess surface tension, possibly by stabilizing lipid packing defects. Evolutionary analysis suggests that HeLEA1 homologs localize to different membrane-bound organelles and share similar sequence and biophysical features. We suggest that membrane chaperoning by LEA proteins represents a general biophysical solution that can operate across the domains of life.",
+  "authors": [
+    "Li X",
+    "Yu CW",
+    "Gomez-Navarro N",
+    "Stancheva V",
+    "Zhu H",
+    "Guibao C",
+    "Murthy A",
+    "Xie B",
+    "Wozny M",
+    "Leslie B",
+    "Kaminski M",
+    "Malhotra K",
+    "Johnson CM",
+    "Blackledge M",
+    "Santhanam B",
+    "Green DR",
+    "Peng J",
+    "Liu W",
+    "Huang J",
+    "Miller EA",
+    "Freund SM",
+    "Babu MM"
+  ],
+  "published_date": "2022-07-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.29.502075",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.29.502075.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR525744",
+    "raw_record": {
+      "id": "PPR525744",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR525744"
+        ]
+      },
+      "doi": "10.1101/2022.07.29.502075",
+      "title": "A molecular mechanism for membrane chaperoning by a late embryogenesis abundant protein",
+      "authorString": "Li X, Yu CW, Gomez-Navarro N, Stancheva V, Zhu H, Guibao C, Murthy A, Xie B, Wozny M, Leslie B, Kaminski M, Malhotra K, Johnson CM, Blackledge M, Santhanam B, Green DR, Peng J, Liu W, Huang J, Miller EA, Freund SM, Babu MM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xiao-Han",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6007-5149"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu CW",
+            "lastName": "Yu",
+            "firstName": "Conny W.H.",
+            "initials": "CW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gomez-Navarro N",
+            "lastName": "Gomez-Navarro",
+            "firstName": "Natalia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stancheva V",
+            "lastName": "Stancheva",
+            "firstName": "Viktoriya",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu H",
+            "lastName": "Zhu",
+            "firstName": "Hongni",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guibao C",
+            "lastName": "Guibao",
+            "firstName": "Cristina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children–s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murthy A",
+            "lastName": "Murthy",
+            "firstName": "Andal",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie B",
+            "lastName": "Xie",
+            "firstName": "Boer",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wozny M",
+            "lastName": "Wozny",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9359-3287"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leslie B",
+            "lastName": "Leslie",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children–s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaminski M",
+            "lastName": "Kaminski",
+            "firstName": "Marcin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9026-0185"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Immuology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malhotra K",
+            "lastName": "Malhotra",
+            "firstName": "Ketan",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson CM",
+            "lastName": "Johnson",
+            "firstName": "Christopher",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blackledge M",
+            "lastName": "Blackledge",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Grenoble Alpes, CNRS, Commissariat à l’Energie Atomique et aux Energies Alternatives, Institut de Biologie Structurale, 38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santhanam B",
+            "lastName": "Santhanam",
+            "firstName": "Balaji",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children–s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Green DR",
+            "lastName": "Green",
+            "firstName": "Douglas",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Immuology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peng J",
+            "lastName": "Peng",
+            "firstName": "Junmin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu W",
+            "lastName": "Liu",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Synthetic Chemistry, Department of Chemistry, The University of Hong Kong, Pokfulam Road, Hong Kong, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang J",
+            "lastName": "Huang",
+            "firstName": "Jinqing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miller EA",
+            "lastName": "Miller",
+            "firstName": "Elizabeth",
+            "initials": "EA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freund SM",
+            "lastName": "Freund",
+            "firstName": "Stefan M.V.",
+            "initials": "SM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7031-9872"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Babu MM",
+            "lastName": "Babu",
+            "firstName": "Madan",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children–s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9359-3287"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6007-5149"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7031-9872"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9026-0185"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  Environmental stress can result in substantial damage to proteins, membranes, and genetic material, impacting organismal survival  1-3 . Stress tolerance can be conferred by intrinsically disordered proteins (IDPs)  4 that lack stable tertiary structure. IDPs from the large family of late embryogenesis abundant (LEA) proteins confer a fitness advantage when heterologously expressed  5,6 . Such protection suggests a general molecular function leading to stress tolerance, although the mechanisms remain unclear. Here, we report that a tardigrade LEA protein that confers stress tolerance in yeast acts as a molecular chaperone for the mitochondrial membrane. This protein, named HeLEA1, localizes to the mitochondrial matrix, and harbors conserved LEA sequence motifs that undergo dynamic disorder-to-helical transition upon binding to negatively charged membranes. Yeast expressing HeLEA1 show increased mitochondrial membrane fluidity, increased membrane potential, and enhanced tolerance to hyperosmotic stress under non-fermentative growth without significantly altering mitochondrial lipid composition or triggering a generic stress response. We demonstrate that membrane binding ameliorates excess surface tension, possibly by stabilizing lipid packing defects. Evolutionary analysis suggests that HeLEA1 homologs localize to different membrane-bound organelles and share similar sequence and biophysical features. We suggest that membrane chaperoning by LEA proteins represents a general biophysical solution that can operate across the domains of life.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/31/2022.07.29.502075.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.29.502075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR525744"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR525744&type=FILE&fileName=EMS151963-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38269070",
+            "reference": "PNAS nexus. 2024 Jan;3(1):pgae006",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS151963",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-08-01",
+      "firstPublicationDate": "2022-07-31",
+      "firstIndexDate": "2022-08-01",
+      "fullTextReceivedDate": "2022-09-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

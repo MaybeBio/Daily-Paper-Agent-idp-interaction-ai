@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, supplementary information description)
+- **Assessment boundary** Scientific validity, technical soundness, and claims as presented in the provided manuscript text; no external data or figures were available for direct inspection
+- **Shared manuscript claim summary** The authors present iDP², a platform for high-density display of intrinsically disordered proteins (IDPs) on the E. coli cell surface using CsgF as an anchor within the curli (Type VIII) secretion system. They demonstrate sequence-dependent display efficiency, IDP-driven cellular aggregation via multivalent weak interactions, environmental responsiveness (temperature, ionic strength), and self-patterning of mixed cell populations. They further show enhanced rheological and tensile properties of cell aggregates, proposing iDP² as a tool for engineered living materials (ELMs).
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), Extended Data Figures 1–6, Table 1, Supplementary Note S1, Methods section
+- **Missing materials affecting confidence** Actual figure images, raw data, statistical analysis details, plasmid maps, strain genotypes, and full supplementary information were not provided; only text descriptions of results were available
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful platform for IDP display on bacterial surfaces, with promising applications in engineered living materials. The core idea of leveraging the curli secretion system for high-density IDP display is novel and well-motivated. However, several technical claims require stronger evidence, particularly regarding display density quantification, the mechanism of aggregation, and the specificity of patterning. The rheological and tensile data are described but not fully contextualized. The manuscript would benefit from clearer controls and more rigorous quantitative analysis to support the central claims.
+- **Who would be interested in the results, and why** Researchers in engineered living materials, synthetic biology, biomaterials, and biophysics of phase separation. The platform offers a new tool for programming cell-cell interactions and may be of interest to those working on multicellular patterning, biofilm engineering, and bottom-up tissue engineering.
+- **Major strengths** 1) Novel use of CsgF as a display anchor for IDPs, expanding the toolkit for surface engineering. 2) Systematic exploration of sequence determinants for display efficiency. 3) Demonstration of environmental responsiveness (temperature, salt) in cellular aggregation. 4) Evidence for self-patterning with potential for programmable multicellular organization. 5) Combination of multiple characterization techniques (flow cytometry, microscopy, rheology).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We quantified surface display density with both western-blot and flow cytometry... the amount of CsgF-His per cell to fall within the range of 7.4 x 10⁴ - 16.1 × 10⁴, which is higher than most published systems."
+  - **Evidence pointer** Figure 3, Table 1, Extended Data Fig. 3
+  - **Concern** The quantification of surface display density relies on two methods (western blot and flow cytometry) that yield different estimates (16.1 ± 4.9 × 10⁴ vs 7.4 ± 0.4 × 10⁴ per cell). The authors acknowledge potential systematic errors but do not provide a rigorous reconciliation or validation of either method. The western blot quantification assumes complete extraction and linearity of detection, while flow cytometry assumes uniform antibody labeling efficiency. Neither assumption is directly tested. The claim that this density is "higher than most published systems" requires a direct comparison with literature values under similar conditions, which is not provided.
+  - **Why it matters** The high display density is a central pillar of the platform's utility, as it underpins the aggregation and patterning claims. If the density is overestimated, the proposed mechanism of multivalent weak interactions driving condensation may not hold.
+  - **Resolution test** Provide independent validation of display density using a complementary method (e.g., quantitative mass spectrometry of surface proteins, or single-molecule counting). Include a direct comparison with at least one published display system under identical measurement conditions. Reconcile the discrepancy between western blot and flow cytometry estimates with a clear error model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "iDP² demonstrates that IDPs can direct whole-cell assembly into distinct patterns with a high degree of sequence selectivity, stimulus responsiveness, and straightforward protocols."
+  - **Evidence pointer** Figure 5, Extended Data Fig. 4
+  - **Concern** The self-patterning claim is based on fluorescence microscopy and nearest-neighbor analysis. However, the text does not provide sufficient detail on how the nearest-neighbor distance ratio (r_i) is calculated, what controls were used, or how statistical significance was determined. The claim of "sequence selectivity" in patterning is supported by only one pair of IDPs (FUSLC and RGG). It is unclear whether the observed segregation is due to specific IDP-IDP interactions or to non-specific differences in aggregation kinetics or cell viability. The three-component experiment (Extended Data Fig. 4b-d) is described qualitatively without quantitative analysis.
+  - **Why it matters** The ability to program spatial patterns is a key differentiator of this platform. If the patterning is not robustly demonstrated or is confounded by non-specific effects, the central claim of programmable self-organization is weakened.
+  - **Resolution test** Provide a detailed description of the r_i calculation, including how cell boundaries are defined and how edge effects are handled. Include negative controls (e.g., cells displaying the same IDP but with different fluorescent labels, or cells with non-interacting IDPs) to confirm that segregation is IDP-specific. Quantify the three-component experiment with appropriate metrics and statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The resulting cellular aggregates show promise for ELM production based on the tunability of their materials properties (e.g., viscoelasticity, stability, spatial patterning) by appropriate choice of IDP sequence."
+  - **Evidence pointer** Figure 6, Extended Data Fig. 6
+  - **Concern** The rheological and tensile property measurements are presented as evidence of tunable material properties, but the text provides limited quantitative data. The frequency sweep results are described as showing "viscoelastic solids" but the actual values of storage and loss moduli are only mentioned in relative terms (3-4 fold higher). The tensile strength data are described but not quantified. The relationship between IDP sequence and mechanical properties is not systematically explored; only a few examples are given.
+  - **Why it matters** The claim of tunable material properties is important for the ELM application. Without quantitative data and a clear demonstration of how sequence choice affects mechanical properties, the practical utility of the platform is not established.
+  - **Resolution test** Provide full rheological data (storage and loss moduli vs. frequency) for all tested strains, with statistical analysis. Include stress-strain curves for tensile tests. Systematically vary IDP sequence (e.g., charge, hydrophobicity, length) and show a correlation with mechanical properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon (e.g., "multivalent weak interactions," "sequence-programmable self-segregation") without sufficient context for a general scientific audience. The significance of the work is not clearly stated in terms of broader impact.
+  - **Required correction** Revise the abstract to briefly explain the concept of IDPs and why their display on cell surfaces is useful. State the potential applications more explicitly (e.g., "this could enable the design of living materials that respond to environmental cues").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Ionic responsibility of aggregation"
+  - **Evidence pointer** Methods section
+  - **Issue** The section title "Ionic responsibility" appears to be a typo; it should likely be "Ionic responsiveness." Additionally, the methods for this experiment are not fully described (e.g., how aggregation was measured, what concentrations were used).
+  - **Required correction** Correct the typo and provide a complete description of the experimental procedure, including buffer compositions and measurement methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Congo Red Pull Down Assay"
+  - **Evidence pointer** Methods section
+  - **Issue** The Congo Red assay is described as a measure of "curli production per cell," but the text does not specify whether this assay is specific to amyloid fibrils or if it could be confounded by other cellular components. The normalization to OD600 is mentioned but not justified.
+  - **Required correction** Clarify the specificity of the Congo Red assay for amyloid detection and provide a rationale for OD600 normalization. Include appropriate controls (e.g., a strain lacking curli genes).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1–6 (as described in text)
+  - **Issue** The figure legends are not provided in the manuscript text, making it difficult to interpret the figures without access to the actual images. The text descriptions of figures are sometimes ambiguous (e.g., "Fig. 2e-f" without specifying what is shown).
+  - **Required correction** Ensure that figure legends are self-contained and clearly describe the experimental conditions, sample sizes, and statistical tests used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (display density quantification), R1-M2 (patterning specificity and analysis)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The use of CsgF as a display anchor for IDPs is novel and distinct from prior work using elastin-like peptides. The concept of using IDP phase separation to drive cell-cell interactions in a programmable manner is creative and potentially impactful.
+  - **Scientific importance** The platform addresses a significant gap in engineered living materials, namely the rational control of cell-cell interactions for structure formation. The potential for environmental responsiveness and dynamic reversibility is valuable. However, the importance is not fully established without more robust quantitative data.
+  - **Interdisciplinary readership** The work bridges synthetic biology, materials science, and biophysics, and would appeal to researchers in these fields. The broader significance for tissue engineering or regenerative medicine is implied but not explicitly discussed.
+  - **Technical soundness** The core concept is sound, but several technical claims require stronger evidence, particularly the display density quantification and the specificity of patterning. The rheological data are promising but incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-written but uses specialized terminology without sufficient explanation. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The platform is conceptually novel and has clear potential, but the current evidence does not fully support all claims. The authors should address the concerns regarding display density quantification, patterning specificity, and provide more complete mechanical property data.
+
+## Risk / unsupported claims
+- The claim that display density is "higher than most published systems" is not directly supported by a comparative analysis.
+- The claim of "sequence-programmable self-segregation" is based on limited examples and lacks a systematic demonstration of sequence-activity relationships.
+- The claim of "dynamic reversibility" of patterning is based on ionic strength responsiveness, but the reversibility over multiple cycles is only shown for aggregation, not for spatial patterns.
+- The claim that iDP² could be used for "high-throughput screening and directed evolution" is speculative and not supported by any data.
+- The relationship between IDP sequence and mechanical properties is not systematically established; only a few examples are given.

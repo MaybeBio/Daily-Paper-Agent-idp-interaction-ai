@@ -1,0 +1,237 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.05.498824",
+  "title": "Polymorphisms Predicting Phylogeny in Hepatitis B Virus (HBV)",
+  "doi": "10.1101/2022.07.05.498824",
+  "abstract": "<h4>ABSTRACT</h4> Hepatitis B viruses (HBV) are compact viruses with circular genomes of ∼3.2kb in length. Four genes (HBx, Core, Surface and Polymerase) generating seven products are encoded on overlapping reading frames. Ten HBV genotypes have been characterised (A-J), which may account for differences in transmission, outcomes of infection, and treatment response. However, HBV genotyping is rarely undertaken, and sequencing remains inaccessible in many settings. We used a machine learning approach based on random forest algorithms (RFA) to assess which amino acid (aa) sites in the genome are most informative for determining genotype. We downloaded 5496 genome-length HBV sequences from a public database, excluding recombinant sequences, regions with conserved indels, and genotypes I/J. Each gene was separately translated into aa, and the proteins concatenated into a single sequence (length 1614aa). Using RFA, we searched for aa sites predictive of genotype, and assessed co-variation among the sites with a Mutual Information (MI)-based method. We were able to discriminate confidently between genotypes A-H using 10 aa sites. 5/10 sites were identified in Polymerase (Pol), of which 4/5 were in the spacer domain, and a single site in reverse transcriptase. A further 4/10 sites were located in Surface protein, and a single site in HBx. There were no informative sites in Core. Properties of the aa were generally not conserved between genotypes at informative sites. Co-variation analysis identified 55 pairs of highly-linked sites. Three RFA-identified sites were represented across all pairs (two sites in spacer, and one in HBx). Residues that co-vary with these sites are concentrated in the small HBV surface gene. We also observe a cluster of sites adjacent to the Surface promoter region that co-vary with a spacer residue. Overall, we have shown that RFA analysis is a powerful tool for identifying aa sites that predict HBV lineage, with an unexpectedly high number of such sites in the spacer domain, which has conventionally been viewed as unimportant for structure or function. Our results improve ease of genotype prediction from limited regions of HBV sequence, and may have implications for understanding HBV evolution and the role of the spacer domain.",
+  "authors": [
+    "Lourenço J",
+    "McNaughton AL",
+    "Pley C",
+    "Obolski U",
+    "Gupta S",
+    "Matthews PC"
+  ],
+  "published_date": "2022-07-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.05.498824",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.05.498824.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR514273",
+    "raw_record": {
+      "id": "PPR514273",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR514273"
+        ]
+      },
+      "doi": "10.1101/2022.07.05.498824",
+      "title": "Polymorphisms Predicting Phylogeny in Hepatitis B Virus (HBV)",
+      "authorString": "Lourenço J, McNaughton AL, Pley C, Obolski U, Gupta S, Matthews PC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lourenço J",
+            "lastName": "Lourenço",
+            "firstName": "José",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Integrative Sciences Institute, Faculty of Sciences, University of Lisbon, Lisbon 1749-016, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNaughton AL",
+            "lastName": "McNaughton",
+            "firstName": "Anna",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Population Health Science, Bristol Medical School, University of Bristol, Bristol BS8 2BN"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pley C",
+            "lastName": "Pley",
+            "firstName": "Caitlin",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Guy’s and St Thomas’ NHS Foundation Trust, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Obolski U",
+            "lastName": "Obolski",
+            "firstName": "Uri",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Public Health, Tel Aviv University, Tel Aviv, Israel"
+                },
+                {
+                  "affiliation": "Porter School of the Environment and Earth Sciences, Tel Aviv University, Tel Aviv, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gupta S",
+            "lastName": "Gupta",
+            "firstName": "Sunetra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, University of Oxford, Medawar Building for Pathogen Research, South Parks Road, Oxford OX1 3SY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Matthews PC",
+            "lastName": "Matthews",
+            "firstName": "Philippa",
+            "initials": "PC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4036-4269"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Francis Crick Institute, 1 Midland Road, London, NW1 1AT, UK"
+                },
+                {
+                  "affiliation": "Division of Infection and Immunity, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Department of Infectious Diseases, University College London Hospital, London, UK"
+                },
+                {
+                  "affiliation": "Nuffield Department of Medicine, University of Oxford, Medawar Building for Pathogen Research, South Parks Road, Oxford OX1 3SY, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4036-4269"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Hepatitis B viruses (HBV) are compact viruses with circular genomes of ∼3.2kb in length. Four genes (HBx, Core, Surface and Polymerase) generating seven products are encoded on overlapping reading frames. Ten HBV genotypes have been characterised (A-J), which may account for differences in transmission, outcomes of infection, and treatment response. However, HBV genotyping is rarely undertaken, and sequencing remains inaccessible in many settings. We used a machine learning approach based on random forest algorithms (RFA) to assess which amino acid (aa) sites in the genome are most informative for determining genotype. We downloaded 5496 genome-length HBV sequences from a public database, excluding recombinant sequences, regions with conserved indels, and genotypes I/J. Each gene was separately translated into aa, and the proteins concatenated into a single sequence (length 1614aa). Using RFA, we searched for aa sites predictive of genotype, and assessed co-variation among the sites with a Mutual Information (MI)-based method. We were able to discriminate confidently between genotypes A-H using 10 aa sites. 5/10 sites were identified in Polymerase (Pol), of which 4/5 were in the spacer domain, and a single site in reverse transcriptase. A further 4/10 sites were located in Surface protein, and a single site in HBx. There were no informative sites in Core. Properties of the aa were generally not conserved between genotypes at informative sites. Co-variation analysis identified 55 pairs of highly-linked sites. Three RFA-identified sites were represented across all pairs (two sites in spacer, and one in HBx). Residues that co-vary with these sites are concentrated in the small HBV surface gene. We also observe a cluster of sites adjacent to the Surface promoter region that co-vary with a spacer residue. Overall, we have shown that RFA analysis is a powerful tool for identifying aa sites that predict HBV lineage, with an unexpectedly high number of such sites in the spacer domain, which has conventionally been viewed as unimportant for structure or function. Our results improve ease of genotype prediction from limited regions of HBV sequence, and may have implications for understanding HBV evolution and the role of the spacer domain.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/05/2022.07.05.498824.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.05.498824"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR514273"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR514273&type=FILE&fileName=EMS149372-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36628296",
+            "reference": "Virus evolution. 2023 ;9(1):veac116",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS149372",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-07-08",
+      "firstPublicationDate": "2022-07-05",
+      "firstIndexDate": "2022-07-08",
+      "fullTextReceivedDate": "2022-09-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

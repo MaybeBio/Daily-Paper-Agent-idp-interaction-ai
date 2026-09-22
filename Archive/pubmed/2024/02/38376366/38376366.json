@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "38376366",
+    "doi": "10.1128/spectrum.03410-23",
+    "title": "Inhibition of SARS-CoV-2 replication by a ssDNA aptamer targeting the nucleocapsid protein."
+  },
+  "content": {
+    "abstract": "The nucleocapsid protein of SARS-CoV-2 plays significant roles in viral assembly, immune evasion, and viral stability. Due to its immunogenicity, high expression levels during COVID-19, and conservation across viral strains, it represents an attractive target for antiviral treatment. In this study, we identified and characterized a single-stranded DNA aptamer, N-Apt17, which effectively disrupts the liquid-liquid phase separation (LLPS) mediated by the N protein. To enhance the aptamer's stability, a circular bivalent form, cb-N-Apt17, was designed and evaluated. Our findings demonstrated that cb-N-Apt17 exhibited improved stability, enhanced binding affinity, and superior inhibition of N protein LLPS; thus, it has the potential inhibition ability on viral replication. These results provide valuable evidence supporting the potential of cb-N-Apt17 as a promising candidate for the development of antiviral therapies against COVID-19.IMPORTANCEVariants of SARS-CoV-2 pose a significant challenge to currently available COVID-19 vaccines and therapies due to the rapid epitope changes observed in the viral spike protein. However, the nucleocapsid (N) protein of SARS-CoV-2, a highly conserved structural protein, offers promising potential as a target for inhibiting viral replication. The N protein forms complexes with genomic RNA, interacts with other viral structural proteins during virion assembly, and plays a critical role in evading host innate immunity by impairing interferon production during viral infection. In this investigation, we discovered a single-stranded DNA aptamer, designated as N-Apt17, exhibiting remarkable affinity and specificity for the N protein. Notably, N-Apt17 disrupts the liquid-liquid phase separation (LLPS) of the N protein. To enhance the stability and molecular recognition capabilities of N-Apt17, we designed a circular bivalent DNA aptamer termed cb-N-Apt17. In both in vivo and in vitro experiments, cb-N-Apt17 exhibited increased stability, enhanced binding affinity, and superior LLPS disrupting ability. Thus, our study provides essential proof-of-principle evidence supporting the further development of cb-N-Apt17 as a therapeutic candidate for COVID-19.",
+    "keywords": [
+      "SARS-CoV-2",
+      "antiviral therapy",
+      "aptamer",
+      "nucleocapsid protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nucleocapsid Proteins",
+      "SARS-CoV-2/genetics",
+      "*COVID-19",
+      "DNA, Single-Stranded/pharmacology",
+      "COVID-19 Vaccines",
+      "Antiviral Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yanping",
+        "Huang, Congcong",
+        "Chen, Junkai",
+        "Chen, Siwei",
+        "Li, Bei",
+        "Li, Jian",
+        "Jin, Zhixiong",
+        "Zhang, Qiwei",
+        "Pan, Pan",
+        "Du, Weixing",
+        "Liu, Long",
+        "Liu, Zhixin"
+      ],
+      "short_names": [
+        "Huang Y",
+        "Huang C",
+        "Chen J",
+        "Chen S",
+        "Li B",
+        "Li J",
+        "Jin Z",
+        "Zhang Q",
+        "Pan P",
+        "Du W",
+        "Liu L",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4766-5005",
+        "ORCID: 0000-0001-9434-7803",
+        "ORCID: 0000-0002-2770-111X",
+        "ORCID: 0000-0002-1265-7603",
+        "ORCID: 0000-0001-7253-7438"
+      ],
+      "affiliations": [
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China.",
+        "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou, China.",
+        "The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China.",
+        "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+        "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yanping",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Congcong",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junkai",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siwei",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bei",
+        "short_name": "Li B",
+        "identifiers": [
+          "0000-0002-4766-5005"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0001-9434-7803"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Zhixiong",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiwei",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-2770-111X"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Pan",
+        "short_name": "Pan P",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Du, Weixing",
+        "short_name": "Du W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Long",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0002-1265-7603"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhixin",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0001-7253-7438"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Renmin Hospital, School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China.",
+          "Institute of Virology, Virology Key Laboratory of Shiyan City, Shiyan, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei University of Medicine, Shiyan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiology spectrum"
+    ],
+    "journal_abbrev": [
+      "Microbiol Spectr"
+    ],
+    "pub_date": "2024 Apr 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/20 12:51",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "42511729",
+      "40878902",
+      "40289185",
+      "39766245",
+      "39684875",
+      "38846351"
+    ],
+    "refs": [
+      "35131265",
+      "34425281",
+      "34239064",
+      "34232998",
+      "34064163",
+      "33837182",
+      "33794143",
+      "33743213",
+      "33618668",
+      "33396605",
+      "33264373",
+      "33247108",
+      "33024307",
+      "33014893",
+      "32914439",
+      "32546606",
+      "32353859",
+      "32270045",
+      "32251279",
+      "32183941",
+      "32015508",
+      "32007145",
+      "31987001",
+      "31910340",
+      "31226023",
+      "31179220",
+      "19052082",
+      "17494761",
+      "15656780",
+      "12824337",
+      "1741036"
+    ],
+    "similar": [
+      "38376366",
+      "40086356",
+      "41962263",
+      "34033342",
+      "39766245",
+      "42141450",
+      "37154717",
+      "37704176",
+      "37199631",
+      "41837652",
+      "33837182",
+      "35412347",
+      "40879372",
+      "37211047",
+      "37963251",
+      "37956938",
+      "32640381",
+      "39412257",
+      "36040256",
+      "40371698",
+      "39120134",
+      "37100798",
+      "37704125",
+      "39341499",
+      "41989307",
+      "37673083",
+      "39343003",
+      "33290746",
+      "34029587",
+      "39380503",
+      "35796388",
+      "33622224",
+      "32914439",
+      "37439567",
+      "40415285",
+      "33247108",
+      "38939745",
+      "39343000",
+      "40113149",
+      "37382452",
+      "35077748",
+      "40183543",
+      "38941236",
+      "40490992",
+      "35874957",
+      "41506147",
+      "36748338",
+      "36713387",
+      "37889852",
+      "35532092",
+      "40259455",
+      "41305077",
+      "34662052",
+      "36583642",
+      "41363845",
+      "32469265",
+      "39841800",
+      "39216563",
+      "34033365",
+      "35652658",
+      "41680122",
+      "34519332",
+      "33289456",
+      "38885868",
+      "36379684",
+      "35949145",
+      "35131265",
+      "36627683",
+      "36640305",
+      "42198699",
+      "40649197",
+      "38172120",
+      "39066234",
+      "37906538",
+      "36103744",
+      "40838727",
+      "34662075",
+      "33200826",
+      "41662972",
+      "36798118",
+      "39639531",
+      "40503889",
+      "32621841",
+      "34734665",
+      "41404913",
+      "37093009",
+      "38492217",
+      "39848104",
+      "40830575",
+      "33561300",
+      "38718862",
+      "40563445",
+      "16254320",
+      "36680269",
+      "38846351",
+      "32587965",
+      "36681763",
+      "36323732",
+      "41596323",
+      "34239064"
+    ],
+    "review": [
+      "38376366",
+      "33622224",
+      "40415285",
+      "38939745",
+      "39343000",
+      "35874957",
+      "41506147",
+      "36713387",
+      "39216563",
+      "35131265",
+      "36627683",
+      "36640305"
+    ],
+    "pmc": [
+      "10986557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/spectrum.03410-23?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38376366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38376366",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

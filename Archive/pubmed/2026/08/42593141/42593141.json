@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "42593141",
+    "doi": "10.1021/acs.jpcb.6c02007",
+    "title": "Filtering Disordered Protein Conformations by NMR Residual Dipolar Couplings."
+  },
+  "content": {
+    "abstract": "An accurate description of the conformational space of intrinsically disordered regions (IDR) is essential for understanding the functions of these regions, in particular in cell signaling. The characterization of the conformational space of IDR must deal with the presence of highly variable conformations of similar energy, which increases the complexity of the conformational exploration. The purely geometric Threading-Augmented interval Branch-and-Prune (TAiBP) approach allows us to systematically enumerate the conformations of intrinsically disordered proteins and to determine a set of conformations representative of the conformational space. The present work has two purposes: (i) proposing an extension of the TAiBP approach for providing a relevant description of the conformational landscapes of IDRs in the cases where residual dipolar couplings (RDC) have been measured, and (ii) comparing the descriptions of the conformational space obtained using TAiBP and classical approaches in the literature. The generation of peptide representative conformations was realized using, on the one hand, varphi,psi input regions of the Ramachandran diagram, obtained from a statistical analysis of the delta2D predictions, and on the other hand, secondary structure elements defined by a consensus between residual dipolar couplings (RDC) and the chemical shift index (CSI). A maximum-parsimony ensemble reweighting is proposed to filter the protein conformations by the residual dipolar coupling (RDC) values, based on non-negative least-squares (nnls) to select conformations. The RDC filtering efficiency is directly related to the resolution of the clustering during the assembly step of TAiBP. The generation of TAiBP conformations from the delta2D and CSI inputs, followed by the RDC filtering, provides conformations in general agreement with the previously published results. The filtering by residual dipolar couplings induces more localized positions of the secondary structure elements in front of the CSI-RDC consensus elements.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Botnari, Marina",
+        "Sibille, Nathalie",
+        "Lin, Jung-Hsin",
+        "Malliavin, Therese E"
+      ],
+      "short_names": [
+        "Botnari M",
+        "Sibille N",
+        "Lin JH",
+        "Malliavin TE"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-6166-3139",
+        "ORCID: 0000-0001-8145-6795",
+        "ORCID: 0000-0002-6712-4994",
+        "ORCID: 0000-0002-3276-3366"
+      ],
+      "affiliations": [
+        "Universite de Lorraine, CNRS, LPCT , F-54000Nancy, France.",
+        "Universite de Lorraine, CNRS, LPCT, F-57000Metz, France.",
+        "Universite de Montpellier, CNRS, Inserm, CBS, F-34090Montpellier, France.",
+        "Biomedical Translation Research Centre, Academia Sinica, Taipei115021, Taiwan.",
+        "Research Center for Applied Sciences, Academia Sinica, Taipei115201, Taiwan.",
+        "School of Pharmacy, College of Medicine, National Taiwan University, Taipei100025, Taiwan.",
+        "College of Engineering Sciences, Chang Gung University, Taoyuan333323, Taiwan.",
+        "Universite de Lorraine, CNRS, LPCT , F-54000Nancy, France.",
+        "Universite de Lorraine, CNRS, LPCT, F-57000Metz, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Botnari, Marina",
+        "short_name": "Botnari M",
+        "identifiers": [
+          "0009-0004-6166-3139"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, LPCT , F-54000Nancy, France.",
+          "Université de Lorraine, CNRS, LPCT, F-57000Metz, France."
+        ]
+      },
+      {
+        "full_name": "Sibille, Nathalie",
+        "short_name": "Sibille N",
+        "identifiers": [
+          "0000-0001-8145-6795"
+        ],
+        "affiliations": [
+          "Université de Montpellier, CNRS, Inserm, CBS, F-34090Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lin, Jung-Hsin",
+        "short_name": "Lin JH",
+        "identifiers": [
+          "0000-0002-6712-4994"
+        ],
+        "affiliations": [
+          "Biomedical Translation Research Centre, Academia Sinica, Taipei115021, Taiwan.",
+          "Research Center for Applied Sciences, Academia Sinica, Taipei115201, Taiwan.",
+          "School of Pharmacy, College of Medicine, National Taiwan University, Taipei100025, Taiwan.",
+          "College of Engineering Sciences, Chang Gung University, Taoyuan333323, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Malliavin, Thérèse E",
+        "short_name": "Malliavin TE",
+        "identifiers": [
+          "0000-0002-3276-3366"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, LPCT , F-54000Nancy, France.",
+          "Université de Lorraine, CNRS, LPCT, F-57000Metz, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Aug 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 12:43",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42593141",
+      "30840442",
+      "27844185",
+      "41002017",
+      "24008243",
+      "30554840",
+      "22760316",
+      "30204435",
+      "41706900",
+      "25358803",
+      "31676138",
+      "41585721",
+      "19917239",
+      "15236972",
+      "22901047",
+      "17610130",
+      "19021570",
+      "26479087",
+      "36352011",
+      "22161780",
+      "21056574",
+      "15080696",
+      "31442036",
+      "19748338",
+      "23192984",
+      "34413388",
+      "15780252",
+      "18266409",
+      "30125451",
+      "16917941",
+      "20499903",
+      "23811057",
+      "35213160",
+      "12431100",
+      "19908838",
+      "26306428",
+      "28616711",
+      "26984680",
+      "26387101",
+      "23794453",
+      "20155903",
+      "23703956",
+      "40285725",
+      "11457289",
+      "19711185",
+      "32840111",
+      "22988852",
+      "14531696",
+      "11779230",
+      "24519023",
+      "40147456",
+      "23545493",
+      "39563814",
+      "31972419",
+      "16823894",
+      "26411860",
+      "27159632",
+      "22821528",
+      "31297688",
+      "29775635",
+      "39190324",
+      "18670889",
+      "36321557",
+      "37093489",
+      "36987865",
+      "25111589",
+      "36180044",
+      "16284250",
+      "17654630",
+      "17458509",
+      "31999450",
+      "20466653",
+      "32239382",
+      "18704926",
+      "41073429",
+      "26433382",
+      "17636913",
+      "22639196",
+      "24360766",
+      "31950428",
+      "28884933",
+      "27807972",
+      "33076213",
+      "12617657",
+      "15453798",
+      "31034199",
+      "23912807",
+      "28780862",
+      "20063887",
+      "19317469",
+      "41432269",
+      "11457140",
+      "34680137",
+      "26523828",
+      "19478996",
+      "40254898",
+      "42129207",
+      "41102979",
+      "33269926",
+      "39099394"
+    ],
+    "review": [
+      "42593141",
+      "30840442",
+      "24008243",
+      "19021570",
+      "19748338",
+      "26387101",
+      "23794453",
+      "22988852",
+      "23545493",
+      "31972419",
+      "36321557",
+      "17654630"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c02007",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

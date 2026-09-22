@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "34185520",
+    "doi": "10.1021/acs.jcim.1c00339",
+    "title": "Force Field Benchmark of Amino Acids. 3. Hydration with Scaled Lennard-Jones Interactions."
+  },
+  "content": {
+    "abstract": "Classical protein force fields were reported with too weak protein-water interactions relative to protein-protein interactions, leading to more compact structures and artificial protein aggregation. Here we investigated the impacts of scaled Lennard-Jones (LJ) interactions on the hydration of amino acids and the simulation of folded and intrinsically disordered proteins (IDPs). The obtained optimal scaling parameters reproduce accurately hydration free energies of neutral amino acid side chain analogues and do not affect the compactness and structural stability of folded proteins significantly. The scaling leads to less compact IDPs and varies from case to case. Strengthening the interactions between protein and water oxygen or hydrogen atoms by increasing the interacting LJ well depth (epsilon) appears more effective than weakening protein-protein interactions by reducing the interacting dispersion coefficients (C(6)). We demonstrate that weakening water-water interactions is a solution as well to obtaining more favorable protein-water interactions in an indirect way, although modern force fields like Amber ff19SB and a99SB-disp tend to use water models with strong water-water interactions. This is likely a compromise between strong protein-protein interactions and strong water-water interactions. Independent optimization of protein force fields and water models is therefore needed to make both interactions more close to reality, leading to good accuracy without bias or scaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amino Acids",
+      "*Intrinsically Disordered Proteins",
+      "Molecular Dynamics Simulation",
+      "Thermodynamics",
+      "Water"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Yejie",
+        "Shan, Wenjie",
+        "Zhang, Haiyang"
+      ],
+      "short_names": [
+        "Qiu Y",
+        "Shan W",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6341-4671",
+        "ORCID: 0000-0002-2410-7078"
+      ],
+      "affiliations": [
+        "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China.",
+        "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China.",
+        "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Yejie",
+        "short_name": "Qiu Y",
+        "identifiers": [
+          "0000-0001-6341-4671"
+        ],
+        "affiliations": [
+          "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Wenjie",
+        "short_name": "Shan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haiyang",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-2410-7078"
+        ],
+        "affiliations": [
+          "Department of Biological Science and Engineering, School of Chemistry and Biological Engineering, University of Science and Technology Beijing, 100083 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2021 Jul 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/30 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "41909144",
+      "41009484",
+      "39536029",
+      "38086909",
+      "37545648",
+      "36630710",
+      "36454011",
+      "35408509"
+    ],
+    "refs": [],
+    "similar": [
+      "34185520",
+      "39536029",
+      "36080494",
+      "35950933",
+      "29648448",
+      "29877703",
+      "40060049",
+      "30047730",
+      "33382616",
+      "29735687",
+      "37603467",
+      "34467756",
+      "35408509",
+      "30865832",
+      "20401166",
+      "34860517",
+      "33444020",
+      "38949117",
+      "34313132",
+      "37838830",
+      "39907269",
+      "37556237",
+      "28805390",
+      "25207671",
+      "33591749",
+      "18593145",
+      "31714766",
+      "31613621",
+      "39949041",
+      "26575776",
+      "31657215",
+      "20687517",
+      "40172236",
+      "31552948",
+      "32816485",
+      "23379664",
+      "35048087",
+      "33810353",
+      "24589355",
+      "38928405",
+      "32227937",
+      "29149556",
+      "20232969",
+      "36178373",
+      "30407814",
+      "26910732",
+      "24976043",
+      "28448138",
+      "31241933",
+      "23914143",
+      "17195160",
+      "31877033",
+      "35074392",
+      "35362975",
+      "15965971",
+      "29694035",
+      "28296391",
+      "34546059",
+      "30068187",
+      "29186229",
+      "35439420",
+      "29158598",
+      "33459730",
+      "32859072",
+      "19334851",
+      "37989551",
+      "36630702",
+      "28967755",
+      "29080468",
+      "33078950",
+      "33403854",
+      "35920605",
+      "34032235",
+      "33355572",
+      "23320702",
+      "27484738",
+      "28226222",
+      "15549884",
+      "36468418",
+      "33174726",
+      "29808548",
+      "17266351",
+      "28095698",
+      "23912807",
+      "28554553",
+      "35319190",
+      "37646172",
+      "17388417",
+      "22443635",
+      "22462831",
+      "27052117",
+      "39531617",
+      "33720710",
+      "23442867",
+      "30084244",
+      "24659926",
+      "17269814",
+      "32543861",
+      "21594260",
+      "37648703"
+    ],
+    "review": [
+      "34185520",
+      "33591749",
+      "29080468",
+      "33355572",
+      "28226222"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c00339",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

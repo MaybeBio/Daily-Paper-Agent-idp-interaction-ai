@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "38586052",
+    "doi": "10.1101/2024.03.23.586267",
+    "title": "Molecular Dynamics Study of alpha-Synuclein Domain Deletion Mutant Monomers."
+  },
+  "content": {
+    "abstract": "Aggregates of misfolded alpha-synuclein proteins (asyn) are key markers of Parkinson's disease. Asyn proteins have three domains: an N-terminal domain, a hydrophobic NAC core implicated in aggregation, and a proline-rich C-terminal domain. Proteins with truncated C-terminal domains are known to be prone to aggregation and suggest that understanding domain-domain interactions in asyn monomers could help elucidate the role of the flanking domains in modulating protein structure. To this end, we used Gaussian accelerated molecular dynamics (GAMD) to simulate wild-type (WT), N-terminal truncated (DeltaN), C-terminal truncated (DeltaC), and isolated NAC domain asyn protein variants (isoNAC). Using clustering and contact analysis, we found that removal of the N-terminal domain led to increased contacts between NAC and C-terminal domains and the formation of interdomain beta-sheets. Removal of either flanking domain also resulted in increased compactness of every domain. We also found that the contacts between flanking domains in the WT protein result in an electrostatic potential (ESP) that may lead to favorable interactions with anionic lipid membranes. Removal of the C-terminal domain disrupts the ESP in a way that could result in over-stabilized protein-membrane interactions. These results suggests that cooperation between the flanking domains may modulate the protein's structure in a way that helps maintain elongation and creates an ESP that may aid favorable interactions with the membrane.",
+    "keywords": [
+      "inter-domain contacts",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "monomer",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Onishi, Noriyo",
+        "Mazzaferro, Nicodemo",
+        "Kunstelj, Spela",
+        "Alvarado, Daisy A",
+        "Muller, Anna M",
+        "Vazquez, Frank X"
+      ],
+      "short_names": [
+        "Onishi N",
+        "Mazzaferro N",
+        "Kunstelj S",
+        "Alvarado DA",
+        "Muller AM",
+        "Vazquez FX"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2157-3823"
+      ],
+      "affiliations": [
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Onishi, Noriyo",
+        "short_name": "Onishi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Mazzaferro, Nicodemo",
+        "short_name": "Mazzaferro N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Kunstelj, Špela",
+        "short_name": "Kunstelj Š",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Alvarado, Daisy A",
+        "short_name": "Alvarado DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Muller, Anna M",
+        "short_name": "Muller AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Vázquez, Frank X",
+        "short_name": "Vázquez FX",
+        "identifiers": [
+          "0000-0002-2157-3823"
+        ],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jan 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/08 06:43",
+    "fetched_at": "2026-09-21 06:25:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38324572",
+      "35945337",
+      "34454615",
+      "34452994",
+      "33649211",
+      "32939066",
+      "32497661",
+      "32424039",
+      "32078298",
+      "32015543",
+      "32015135",
+      "31331359",
+      "31295458",
+      "30381408",
+      "30061982",
+      "28968082",
+      "28671665",
+      "28239748",
+      "27819658",
+      "27018801",
+      "26808899",
+      "26636222",
+      "26574392",
+      "26488642",
+      "26300708",
+      "25135664",
+      "25061441",
+      "24960410",
+      "24374342",
+      "23254192",
+      "22452578",
+      "22211521",
+      "22029383",
+      "20500090",
+      "20152114",
+      "19126542",
+      "17949218",
+      "17708336",
+      "16455667",
+      "16366524",
+      "15764651",
+      "15671169",
+      "15643843",
+      "15268227",
+      "15144854",
+      "14755719",
+      "12534279",
+      "12388586",
+      "11286556",
+      "11152691",
+      "11100151",
+      "10777786",
+      "10707987",
+      "9545270",
+      "9462735",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "38586052",
+      "41301496",
+      "35836937",
+      "38239037",
+      "40819250",
+      "39651184",
+      "36278939",
+      "23374072",
+      "30591215",
+      "25869255",
+      "23607785",
+      "40305656",
+      "30352158",
+      "25931201",
+      "38321955",
+      "41560530",
+      "23374074",
+      "32900375",
+      "40853068",
+      "39980393",
+      "39504036",
+      "27482083",
+      "28069058",
+      "26321599",
+      "31991248",
+      "40207671",
+      "35388085",
+      "33345970",
+      "29874605",
+      "23583776",
+      "11838236",
+      "40421805",
+      "33903234",
+      "32499486",
+      "35485974",
+      "31676453",
+      "37304685",
+      "40453094",
+      "32019169",
+      "39232485",
+      "36371251",
+      "39947752",
+      "27927963",
+      "32078298",
+      "29782835",
+      "38069536",
+      "41345992",
+      "37188797",
+      "16519533",
+      "32041489",
+      "26723627",
+      "37060757",
+      "25555914",
+      "19576220",
+      "33538574",
+      "37286088",
+      "34830391",
+      "25058424",
+      "39590277",
+      "30605594",
+      "25393002",
+      "39306670",
+      "26601760",
+      "35486726",
+      "34115198",
+      "33798554",
+      "33140640",
+      "30635607",
+      "40517155",
+      "22274962",
+      "14756560",
+      "30527975",
+      "24374342",
+      "23389286",
+      "37482615",
+      "41262012",
+      "37245833",
+      "40605637",
+      "41081322",
+      "38663121",
+      "27818354",
+      "41874470",
+      "37823961",
+      "37489886",
+      "14550771",
+      "33333378",
+      "35815971",
+      "28330770",
+      "33771571",
+      "21224018",
+      "30385782",
+      "35605677",
+      "17005155",
+      "33539920",
+      "30964656",
+      "39763977",
+      "29364151",
+      "28968082",
+      "25092884",
+      "32371882"
+    ],
+    "review": [
+      "38586052",
+      "11838236",
+      "39947752",
+      "37060757",
+      "30527975"
+    ],
+    "pmc": [
+      "10996548"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38586052/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38586052",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.03.23.586267",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

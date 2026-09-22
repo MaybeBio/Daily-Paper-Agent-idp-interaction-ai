@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39276009",
+  "title": "MeCP2 is a naturally supercharged protein with cell membrane transduction capabilities.",
+  "authors": "Beribisky, Alexander V; Huber, Anna; Sarne, Victoria; Spittler, Andreas; Sukhbaatar, Nyamdelger; Seipel, Teresa; Laccone, Franco; Steinkellner, Hannes",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2024-09-14",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究无序蛋白MeCP2通过其无序区域实现细胞膜转导并与HDAC3互作，虽涉及IDP和PPI，但方法以实验为主、AI预测为辅，缺乏互作机制建模深度。",
+  "abstract": "The intrinsically disordered protein MeCP2 is a global transcriptional regulator encoded by the MECP2 gene. Although the structured domains of MeCP2 have been the subject of multiple studies, its unstructured regions have not been that extensively characterized. In this work, we show that MeCP2 possesses properties akin to those of supercharged proteins. By utilizing its unstructured portions, MeCP2 can successfully transduce across cell membranes and localize to heterochromatic foci in the nuclei, displaying uptake levels a third lower than a MeCP2 construct fused to the cell-penetrating peptide TAT. MeCP2 uptake can further be enhanced by the addition of compounds that promote endosomal escape following cellular trafficking by means of macropinocytosis. Using a combination of in silico prediction algorithms and live-cell imaging experiments, we mapped the sequence in MeCP2 responsible for its cellular incorporation, which bears a striking resemblance to TAT itself. Transduced MeCP2 was shown to interact with HDAC3. These findings provide valuable insight into the properties of MeCP2 and may be beneficial for devising future protein-based treatment strategies.",
+  "abstract_zh": "本质上无序的蛋白质MeCP2是由MECP2基因编码的全局转录调控因子。尽管MeCP2的结构域已成为多项研究的主题，但其非结构化区域尚未得到如此广泛的表征。在本工作中，我们表明MeCP2具有类似于超电荷蛋白的特性。通过利用其非结构化部分，MeCP2能够成功跨细胞膜转导并定位至细胞核中的异染色质焦点，其摄取水平比融合了细胞穿透肽TAT的MeCP2构建体低三分之一。通过添加促进内体逃逸的化合物，MeCP2的摄取可进一步增强，其细胞运输途径为巨胞饮作用。结合计算机模拟预测算法和活细胞成像实验，我们绘制了MeCP2中负责其细胞整合的序列，该序列与TAT本身具有显著相似性。转导的MeCP2被证明与HDAC3相互作用。这些发现为MeCP2的特性提供了宝贵见解，并可能有助于设计未来的基于蛋白质的治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39276009/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39276009/",
+  "paper_page_path": "papers/pubmed/39276009/index.html"
+}

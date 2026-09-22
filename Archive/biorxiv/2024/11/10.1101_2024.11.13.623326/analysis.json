@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.13.623326",
+  "title": "Machine Learning Approaches for Predicting Virus-Human Protein-Protein Interactions: An Evaluation of Retroviral Interaction Networks",
+  "authors": "Omid Mahmoudi; Somayye Taghvaei; Shirin Salehi; Soheil Khosravi; Alireza Sazgar; Sara Zareei",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-15",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用机器学习模型预测逆转录病毒-人类蛋白互作，虽涉及PPI和AI方法，但对象非无序蛋白/相分离，且预测偏分类而非互作机制建模，启发有限。",
+  "abstract": "Virus-human protein-protein interactions (VHPPI) are key to understanding how viruses manipulate host cellular functions. This study constructed a retroviral-human PPI network by integrating multiple public databases, resulting in 1,387 interactions between 29 retroviral and 1,026 human genes. Using minimal sequence similarity, we generated a pseudo-negative dataset for model reliability. Five machine learning models—Logistic Regression (LR), Support Vector Machine (SVM), Naive Bayes (NB), Decision Tree (DT), and Random Forest (RF)—were evaluated using accuracy, sensitivity, specificity, PPV, and NPV. LR and KNN models demonstrated the strongest predictive performance, with sensitivities up to 77% and specificities of 52%. Feature importance analysis identified GC content and semantic similarity as influential predictors. Models trained on selected features showed enhanced accuracy with reduced complexity. Our approach highlights the potential of computational models for VHPPI predictions, offering valuable insights into viral-host interaction networks and guiding therapeutic target identification. Significance This study addresses a crucial gap in antiviral research by focusing on the prediction of virus-host protein-protein interactions (VHPPI) for retroviruses, which are linked to serious diseases, including certain cancers and autoimmune disorders. By leveraging machine learning models, we identified essential host-pathogen interactions that underlie retroviral survival and pathogenesis. These models were optimized to predict interactions accurately, offering valuable insights into the complex mechanisms that retroviruses use to manipulate host cellular processes. Our approach highlights key host and viral proteins, such as ENV_HV1H2 and CD4, that play pivotal roles in retroviral infection and persistence. Targeting these specific interactions can potentially disrupt the viral lifecycle while minimizing toxicity to human cells. This study thus opens avenues for the development of selective therapeutic strategies, contributing to more effective and targeted antiviral interventions with fewer side effects, marking a significant step forward in computational virology and drug discovery.",
+  "abstract_zh": "病毒-人类蛋白质-蛋白质相互作用（VHPPI）是理解病毒如何操纵宿主细胞功能的关键。本研究通过整合多个公共数据库构建了逆转录病毒-人类PPI网络，共获得29个逆转录病毒基因与1,026个人类基因之间的1,387对相互作用。利用最小序列相似性，我们生成了一个伪阴性数据集以确保模型可靠性。评估了五种机器学习模型——逻辑回归（Logistic Regression, LR）、支持向量机（Support Vector Machine, SVM）、朴素贝叶斯（Naive Bayes, NB）、决策树（Decision Tree, DT）和随机森林（Random Forest, RF）——采用准确率、敏感性、特异性、阳性预测值（PPV）和阴性预测值（NPV）作为评价指标。LR和KNN模型表现出最强的预测性能，敏感性高达77%，特异性为52%。特征重要性分析识别出GC含量和语义相似性为有影响力的预测因子。基于所选特征训练的模型在降低复杂性的同时提高了准确性。我们的方法凸显了计算模型在VHPPI预测中的潜力，为病毒-宿主相互作用网络提供了宝贵见解，并指导治疗靶点的识别。意义 本研究通过聚焦于与严重疾病（包括某些癌症和自身免疫性疾病）相关的逆转录病毒的病毒-宿主蛋白质-蛋白质相互作用（VHPPI）预测，填补了抗病毒研究中的一个关键空白。通过利用机器学习模型，我们识别了支撑逆转录病毒生存和致病性的关键宿主-病原体相互作用。这些模型经过优化以准确预测相互作用，为逆转录病毒操纵宿主细胞过程的复杂机制提供了宝贵见解。我们的方法突出了关键宿主和病毒蛋白，如ENV_HV1H2和CD4，它们在逆转录病毒感染和持续存在中发挥关键作用。靶向这些特定相互作用可能破坏病毒生命周期，同时最小化对人类细胞的毒性。因此，本研究为开发选择性治疗策略开辟了途径，有助于实现更有效、更具针对性的抗病毒干预措施并减少副作用，标志着计算病毒学和药物发现领域的重大进步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.13.623326",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.13.623326",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.13.623326/index.html"
+}

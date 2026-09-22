@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report development of a multiplexed deep mutational scanning (DMS) by phage display protocol for defining binding determinants of short linear motifs (SLiMs) to peptide binding domains. They benchmark the approach against known ligands for eleven domains, validate against ELM database motifs, identify a non-canonical PTB binding motif, apply a second library to 19 human-SARS-CoV-2 SLiM interactions, refine consensus motifs for five SARS-CoV-2 domains, identify affinity-enhancing mutations for NSP3 and NSP9 ligands, and demonstrate that an affinity-improved cell-permeable NSP9-binding peptide has stronger antiviral effects than the wild-type peptide.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical analyses, experimental details, or validation metrics are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, ELM benchmarking details, library design and quality control, binding assay conditions, antiviral assay details, peptide engineering and permeability data, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a technically ambitious and potentially valuable approach for SLiM binding determinant discovery, with a plausible workflow from benchmarking to biological application. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the benchmarking, the validity of the non-canonical motif claim, the stringency of the SARS-CoV-2 interaction analyses, or the strength of the antiviral peptide result. The core claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in molecular recognition, peptide-protein interaction biology, virology (particularly SARS-CoV-2 host-pathogen interactions), and protein engineering. The methodological advance in multiplexed DMS by phage display would interest the deep mutational scanning and high-throughput binding assay community. The refined SLiM determinants and the engineered antiviral peptide would interest those studying linear motif biology and developing peptide-based antivirals.
+- **Major strengths** The approach addresses a clear gap in high-throughput definition of SLiM binding determinants. The inclusion of a benchmarking step against a gold-standard database (ELM) is a strong design feature. The application to a relevant biological problem (SARS-CoV-2-host interactions) with a functional outcome (antiviral peptide) adds translational relevance. The multiplexing of eleven domains in one library and 19 interactions in a second library suggests substantial technical scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The benchmarking analysis "correctly identifies known motif binding determinants" for eleven peptide binding domains.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that benchmarking against ELM confirmed correct identification of known determinants, but provides no quantitative metrics such as sensitivity, specificity, positive predictive value, or enrichment scores. No thresholds for "correct" identification are defined, and no comparison to alternative methods is shown.
+  - **Why it matters** Without quantitative benchmarking metrics, the reader cannot assess whether the method performs adequately across diverse domain types or whether the success is partial, domain-dependent, or driven by a few strong signals. This is foundational to all subsequent claims.
+  - **Resolution test** Provide receiver operating characteristic or precision-recall analyses per domain, define hit calling thresholds, report per-domain sensitivity and specificity, and compare to a suitable baseline method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The DMS analysis "defined a non-canonical PTB binding motif, with a putative extended conformation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of a non-canonical motif with a putative extended conformation is structurally and functionally significant, but the abstract provides no supporting data. No sequence logo, consensus sequence, binding affinity comparison to canonical motifs, or structural evidence is described. The word "putative" indicates uncertainty, but the basis for the conformational inference is entirely unclear.
+  - **Why it matters** A non-canonical binding mode, if correct, would have implications for PTB domain recognition models. However, without structural or biophysical validation, this claim is speculative and could mislead if presented as established.
+  - **Resolution test** Show the refined motif sequence, compare binding affinities of canonical versus non-canonical ligands, and provide structural evidence (e.g., crystallography, NMR, or computational modeling with experimental validation) supporting the extended conformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The second DMS library "refined the consensus motifs in human peptides binding to five domains from SARS-CoV-2 proteins, including NSP9."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which five domains were analyzed, how many human peptides per domain were tested, what depth of coverage was achieved, or how refinement was defined relative to existing consensus motifs. No statistical confidence intervals or replication information is provided.
+  - **Why it matters** Refinement of consensus motifs requires sufficient sampling and statistical power. Without coverage and replication details, the refined motifs may reflect library composition biases rather than true binding determinants.
+  - **Resolution test** Report library complexity, sequencing depth, number of unique peptides per domain, replicate information, and statistical criteria for motif refinement. Show that refined motifs are robust to subsampling or alternative analysis parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "An affinity improved cell-permeable NSP9-binding peptide was found to exert stronger antiviral effects as compared to the initial wild-type peptide."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a functional outcome without any quantitative data. No affinity values (e.g., Kd or IC50) for the improved versus wild-type peptide, no antiviral assay details (e.g., cell type, virus strain, multiplicity of infection, readout), and no magnitude of the antiviral effect are provided. The claim of "cell-permeable" is also unsupported by any permeability data.
+  - **Why it matters** The antiviral result is the translational highlight of the study. Without quantitative affinity and antiviral efficacy data, the reader cannot judge whether the improvement is meaningful, reproducible, or specific. The cell-permeability claim requires direct evidence.
+  - **Resolution test** Provide binding affinities for wild-type and engineered peptides, dose-response antiviral curves with appropriate controls, statistical comparisons, and permeability measurements (e.g., cellular uptake assays).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmarking library design
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states a "benchmarking DMS library" was designed but does not describe how many variants per ligand, what mutation types were included, or how the library was constructed.
+  - **Required correction** Briefly describe library design parameters, including variant counts, mutation types, and construction method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Domain list
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Eleven domains are mentioned for benchmarking but not enumerated. The five SARS-CoV-2 domains for motif refinement are also not listed.
+  - **Required correction** List all domains in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** ELM benchmarking
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract says benchmarking was against a "gold-standard set of motifs from ELM" but does not specify the version, the number of motifs, or the selection criteria.
+  - **Required correction** Specify ELM version, motif count, and inclusion criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Multiplexed"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "multiplexed" is used but the degree of multiplexing (number of domains or interactions per experiment) is not quantified.
+  - **Required correction** State the number of domains or interactions assayed in parallel per experiment.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking metrics), R1-M2 (non-canonical motif evidence), R1-M3 (motif refinement statistics), R1-M4 (antiviral peptide quantitative data)
+- **Assessment against Nature-style criteria** Originality: The combination of DMS with phage display for SLiM binding determinants is a reasonable incremental advance over existing DMS approaches, but the abstract does not clearly differentiate it from prior DMS methods for peptide binding domains. Scientific importance: The SARS-CoV-2 application and the antiviral peptide result are potentially important, but the significance is not established without quantitative data. Interdisciplinary readership: The work spans molecular biology, virology, and protein engineering, which could attract broad interest if the evidence is robust. Technical soundness: Cannot be assessed from the abstract; the absence of any quantitative metrics or statistical details is a major limitation. Readability for nonspecialists: The abstract is generally clear and accessible, though terms like "PTB domain" and "SLiM" are used without brief definition.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the direction is of interest, but the abstract alone does not provide sufficient quantitative support for the core claims. A supportive recommendation would require the full manuscript to address the major concerns above.
+
+## Risk / unsupported claims
+- The claim that benchmarking "correctly identifies known motif binding determinants" is unsupported without quantitative metrics.
+- The claim of a "non-canonical PTB binding motif, with a putative extended conformation" is unsupported without sequence or structural evidence.
+- The claim that consensus motifs were "refined" for five SARS-CoV-2 domains is unsupported without statistical criteria or coverage data.
+- The claim that an affinity-improved peptide "exerted stronger antiviral effects" is unsupported without affinity values, antiviral assay data, and statistical comparisons.
+- The claim of "cell-permeable" for the NSP9-binding peptide is unsupported without permeability data.
+- The overall claim that the method "can efficiently be multiplexed" is not quantifiable from the abstract.

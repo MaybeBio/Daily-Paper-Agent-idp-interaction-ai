@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that the budding yeast transcription factor Gal4 locates its endogenous target near the diffusion limit in living cells without requiring facilitated diffusion. They propose that rapid target association depends on cooperative self-interactions mediated by an intrinsically disordered region (IDR), independent of the activation domain. They further report that replacing the Gal4 IDR with human self-interacting IDRs (EWS or FUS) restores efficient search, and that a second structured dimerization domain cooperates with the IDR to stabilize binding at neighboring motifs. The authors conclude that facilitated diffusion is not strictly required and that IDR-driven self-interactions enable rapid target recognition in eukaryotes.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, imaging and labeling details, quantitative analyses, statistical tests, control experiments, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant claim that challenges a long-standing model of eukaryotic transcription factor target search. The central finding, that Gal4 achieves near-diffusion-limit targeting without facilitated diffusion and instead relies on IDR-mediated self-interactions, is conceptually interesting and would be of broad interest if rigorously supported. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the single-molecule imaging approach, the quantitative rigor of the diffusion-limit comparison, or the specificity of the IDR replacement experiments. The claim that self-interactions are "portable" across species rests on only two human IDR replacements, and the mechanistic separation of two cooperativity forms is stated without supporting detail. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor dynamics, single-molecule biophysics, and chromatin biology would be interested. The work challenges the prevailing facilitated diffusion model and proposes a new mechanism for rapid target search, which has implications for understanding how eukaryotic TFs achieve specificity and speed in complex nuclear environments. The potential portability of IDR-driven self-interactions across species would also interest those studying intrinsically disordered proteins and their functional roles.
+- **Major strengths** The question is important and timely, directly addressing a long-standing gap in understanding eukaryotic TF target search. The use of single-molecule imaging in living cells to visualize binding at an endogenous locus is a technically ambitious approach. The proposed mechanism, IDR-driven cooperative self-interactions, is novel and mechanistically distinct from facilitated diffusion. The cross-species IDR replacement experiment is a clever design that, if well controlled, would support generality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that Gal4 target localization occurs "near the diffusion limit" and "does not require facilitated diffusion."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative details on how the diffusion limit was estimated, how single-molecule trajectories were analyzed, or how the contribution of 1D sliding was excluded. Without these details, the claim that facilitated diffusion is not required cannot be assessed.  
+  - **Why it matters** This is the central negative claim of the paper. If the measurement or analysis approach cannot distinguish 1D sliding from other motion modes, the conclusion that facilitated diffusion is dispensable would be unsupported.  
+  - **Resolution test** Provide a clear description of the single-molecule tracking and localization methods, the criteria for defining "near the diffusion limit," and a quantitative comparison of observed search times against a model that includes or excludes 1D sliding. Show that the data are statistically inconsistent with a facilitated diffusion contribution.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that rapid association requires cooperative self-interactions mediated by the IDR, independent of the activation domain.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how self-interactions were measured, how the IDR was perturbed, or how the activation domain was separated from the IDR contribution. The claim of independence from the activation domain requires specific mutants or truncations that are not described.  
+  - **Why it matters** The mechanistic attribution to the IDR is the core positive claim. Without evidence that the IDR specifically mediates the effect and that the activation domain is not involved, the conclusion is not established.  
+  - **Resolution test** Describe the IDR deletion or mutation constructs, the assays used to measure self-interactions (e.g., FRAP, single-molecule binding kinetics, or biochemical assays), and show that activation domain deletion does not affect search efficiency while IDR deletion does.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that replacing the Gal4 IDR with human EWS or FUS IDRs restores efficient search, demonstrating portability.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify how "restores" was quantified, whether the replacement constructs were expressed at comparable levels, or whether the human IDRs form self-interactions in the yeast context. Two examples are a limited basis for a general portability claim.  
+  - **Why it matters** The portability claim is used to argue that IDR-driven self-interactions are a general mechanism. If the replacement experiments are not carefully controlled for expression, folding, or interaction strength, the conclusion could be artifactual.  
+  - **Resolution test** Provide quantitative search efficiency measurements for the chimeric constructs, control for protein expression and nuclear localization, and ideally test additional IDRs or show that the human IDRs form self-interactions in yeast.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that a second structured dimerization domain cooperates with the IDR to stabilize binding at neighboring motifs, revealing two mechanistically separable forms of cooperativity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no detail on how the dimerization domain was identified, how its cooperation with the IDR was tested, or how the two forms of cooperativity were separated mechanistically.  
+  - **Why it matters** This is a distinct mechanistic claim that adds complexity to the model. Without experimental evidence distinguishing the contributions of the IDR and the dimerization domain, the claim of two separable cooperativity forms is speculative.  
+  - **Resolution test** Describe the dimerization domain mutants, the binding assays at neighboring motifs, and the quantitative framework used to separate the two cooperativity contributions. Show that each domain has an independent and additive or synergistic effect.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "cooperative self-interactions" is used without defining what is being cooperated or how self-interactions lead to faster target search.  
+  - **Required correction** Briefly define the proposed mechanism, for example, that self-interactions cluster multiple TF molecules to increase local concentration or residence time at the target region.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not state how general the finding is beyond Gal4 or whether the mechanism applies to other eukaryotic TFs.  
+  - **Required correction** Add a sentence acknowledging the limitation that the study is based on a single TF and that generality across other TFs remains to be tested.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The phrase "near the diffusion limit" is vague without a quantitative definition.  
+  - **Required correction** Provide a numerical range or a statistical comparison to a theoretical diffusion limit in the abstract or refer to a specific figure where this is defined.
+
+## Risk / unsupported claims
+- The claim that Gal4 target search occurs "near the diffusion limit" is unsupported without quantitative data.
+- The claim that facilitated diffusion is "not required" is unsupported without a detailed analysis excluding 1D sliding contributions.
+- The claim that IDR-mediated self-interactions are "required" for rapid association is unsupported without perturbation experiments.
+- The claim that human IDRs (EWS or FUS) "restore" efficient search is unsupported without quantitative comparisons and controls.
+- The claim of "two mechanistically separable forms of cooperativity" is unsupported without experimental separation.
+- The general conclusion that IDR-driven self-interactions are a "key mechanism" for eukaryotic target recognition is not established from the abstract alone.

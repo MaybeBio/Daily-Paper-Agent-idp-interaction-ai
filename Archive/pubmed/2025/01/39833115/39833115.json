@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "39833115",
+    "doi": "10.1002/anie.202422601",
+    "title": "Supramolecular Switching of Liquid-Liquid Phase Separation for Orchestrating Enzyme Kinetics."
+  },
+  "content": {
+    "abstract": "Dynamic liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs) and associated assembly and disassembly of biomolecular condensates play crucial roles in cellular organization and metabolic networks. These processes are often regulated by supramolecular interactions. However, the complex and disordered structures of IDPs, coupled with their rapid conformational fluctuations, pose significant challenges for reconstructing supramolecularly-regulated dynamic LLPS systems and quantitatively illustrating variations in molecular interactions. Inspired by the structural feature of IDPs that facilitates LLPS, we designed a simplified phase-separating molecule, Nap-o-Nap, consisting of two naphthalene moieties linked by an ethylene glycol derivative. This compound exhibits LLPS under physiological conditions, forming coacervate microdroplets that undergo multiple cycles of disassembly and reassembly upon stoichiometric addition of Cucurbit[7]uril and Adamantane, respectively, based upon competitive host-guest interactions. Importantly, such reversible control offers a unique route to quantify entropically dominant nature (DeltaS=14.0 cal ⋅ mol(-1) ⋅ K(-1)) within the LLPS process, in which the binding affinity of host-guest interactions (DeltaG=-14.9 kcal ⋅ mol(-1)) surpass that of the LLPS of Nap-o-Nap (DeltaG=-2.1 kcal ⋅ mol(-1)), enabling the supramolecular regulation process. The supramolecularly switched LLPS, along with selective client recruitment and exclusion by resultant coacervates, provides a promising platform for either boosting or retarding enzymatic reactions, thereby orchestrating biological enzyme kinetics.",
+    "keywords": [
+      "coacervate",
+      "host-guest chemistry",
+      "liquid-liquid phase separation",
+      "self-assembly",
+      "supramolecular chemistry"
+    ],
+    "mesh_terms": [
+      "Kinetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Bridged-Ring Compounds/chemistry",
+      "Imidazoles/chemistry",
+      "Naphthalenes/chemistry",
+      "Macromolecular Substances/chemistry",
+      "Adamantane/chemistry",
+      "Phase Separation",
+      "Heterocyclic Compounds, 2-Ring",
+      "Macrocyclic Compounds",
+      "Imidazolidines",
+      "Cucurbit(n)urils"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Deyi",
+        "Zhou, Lingying",
+        "Zhang, Xiaokun",
+        "Zhou, Zixiang",
+        "Huang, Zehuan",
+        "Gao, Ning"
+      ],
+      "short_names": [
+        "Wang D",
+        "Zhou L",
+        "Zhang X",
+        "Zhou Z",
+        "Huang Z",
+        "Gao N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7855-8739"
+      ],
+      "affiliations": [
+        "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China.",
+        "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China.",
+        "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China.",
+        "Key Laboratory of Polymer Chemistry and Physics of Ministry of Education, School of Materials Science and Engineering, Peking University, Beijing, 100871, P.R. China.",
+        "Key Laboratory of Polymer Chemistry and Physics of Ministry of Education, School of Materials Science and Engineering, Peking University, Beijing, 100871, P.R. China.",
+        "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Deyi",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Lingying",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaokun",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zixiang",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Polymer Chemistry and Physics of Ministry of Education, School of Materials Science and Engineering, Peking University, Beijing, 100871, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zehuan",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Polymer Chemistry and Physics of Ministry of Education, School of Materials Science and Engineering, Peking University, Beijing, 100871, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ning",
+        "short_name": "Gao N",
+        "identifiers": [
+          "0000-0002-7855-8739"
+        ],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/21 09:00",
+    "fetched_at": "2026-09-21 14:54:21"
+  },
+  "links": {
+    "cites": [
+      "42180533",
+      "42165544",
+      "42165167",
+      "42018990",
+      "41937695",
+      "41924571",
+      "41755842",
+      "41703712",
+      "41667852",
+      "41287583",
+      "41115902",
+      "40985478",
+      "40933068"
+    ],
+    "refs": [],
+    "similar": [
+      "39833115",
+      "39374616",
+      "40468161",
+      "38252962",
+      "40130680",
+      "33260713",
+      "35687236",
+      "39834276",
+      "38725031",
+      "40731377",
+      "36068061",
+      "39809069",
+      "38538535",
+      "40137877",
+      "40382110",
+      "36524527",
+      "38683934",
+      "38941287",
+      "34818004",
+      "39987501",
+      "39947751",
+      "38598863",
+      "35883530",
+      "38322526",
+      "38881490",
+      "41643625",
+      "23912807",
+      "41206632",
+      "41457474",
+      "28337859",
+      "41480717",
+      "39665393",
+      "35833381",
+      "41544898",
+      "42168806",
+      "42106138",
+      "39571303",
+      "40843994",
+      "36350034",
+      "40985478",
+      "39439387",
+      "41763127",
+      "41110160",
+      "42246451",
+      "34206440",
+      "41093531",
+      "35417083",
+      "29511089",
+      "40112030",
+      "38546977",
+      "31911439",
+      "40792356",
+      "34716273",
+      "21341773",
+      "39401389",
+      "39225535",
+      "41995609",
+      "33076213",
+      "39805045",
+      "40324711",
+      "41549632",
+      "41524628",
+      "37290157",
+      "41363845",
+      "39213994",
+      "39196894",
+      "39585665",
+      "40748104",
+      "40009594",
+      "42114422",
+      "35142991",
+      "41790295",
+      "38526948",
+      "38982922",
+      "35895999",
+      "32196823",
+      "36444977",
+      "41873070",
+      "32824618",
+      "42190015",
+      "28075551",
+      "42243951",
+      "41108606",
+      "31237369",
+      "34029402",
+      "41387392",
+      "41477739",
+      "36380600",
+      "41307542",
+      "41442811",
+      "42013618",
+      "41272974",
+      "42383738",
+      "39415690",
+      "42159288",
+      "41200810",
+      "42632268",
+      "39950263",
+      "42050850",
+      "31941785"
+    ],
+    "review": [
+      "39833115",
+      "33260713",
+      "38725031",
+      "36524527",
+      "39947751",
+      "41206632",
+      "41480717",
+      "41544898",
+      "39571303",
+      "36350034",
+      "40985478",
+      "31911439",
+      "35142991",
+      "41790295",
+      "38982922",
+      "41873070",
+      "32824618",
+      "42243951",
+      "31237369",
+      "41307542",
+      "41442811",
+      "39415690"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/anie.202422601",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CTNNBL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

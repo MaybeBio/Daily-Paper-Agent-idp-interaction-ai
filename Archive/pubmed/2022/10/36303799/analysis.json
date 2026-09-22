@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36303799",
+  "title": "MycoVarP: Mycobacterium Variant and Drug Resistance Prediction Pipeline for Whole-Genome Sequence Data Analysis.",
+  "authors": "Swargam, Sandeep; Kumari, Indu; Kumar, Amit; Pradhan, Dibyabhaba; Alam, Anwar; Singh, Harpreet; Jain, Anuja; Devi, Kangjam Rekha; Trivedi, Vishal; Sarma, Jogesh; Hanif, Mahmud; Narain, Kanwar; Ehtesham, Nasreen Zafar; Hasnain, Seyed Ehtesham; Ahmad, Shandar",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2022-10-29",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文是结核分枝杆菌全基因组测序变异与耐药预测流程，虽提及PE-PPE家族IDP，但无PPI互作机制或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Whole-genome sequencing (WGS) provides a comprehensive tool to analyze the bacterial genomes for genotype-phenotype correlations, diversity of single-nucleotide variant (SNV), and their evolution and transmission. Several online pipelines and standalone tools are available for WGS analysis of Mycobacterium tuberculosis (Mtb) complex (MTBC). While they facilitate the processing of WGS data with minimal user expertise, they are either too general, providing little insights into bacterium-specific issues such as gene variations, INDEL/synonymous/PE-PPE (IDP family), and drug resistance from sample data, or are limited to specific objectives, such as drug resistance. It is understood that drug resistance and lineage-specific issues require an elaborate prioritization of identified variants to choose the best target for subsequent therapeutic intervention. Mycobacterium variant pipeline (MycoVarP) addresses these specific issues with a flexible battery of user-defined and default filters. It provides an end-to-end solution for WGS analysis of Mtb variants from the raw reads and performs two quality checks, viz, before trimming and after alignments of reads to the reference genome. MycoVarP maps the annotated variants to the drug-susceptible (DS) database and removes the false-positive variants, provides lineage identification, and predicts potential drug resistance. We have re-analyzed the WGS data reported by Advani et al. (2019) using MycoVarP and identified some additional variants not reported so far. We conclude that MycoVarP will help in identifying nonsynonymous, true-positive, drug resistance-associated variants more effectively and comprehensively, including those within the IDP of the PE-PPE/PGRS family, than possible from the currently available pipelines.",
+  "abstract_zh": "全基因组测序（WGS）为分析细菌基因组提供了全面工具，用于基因型-表型关联、单核苷酸变异（SNV）多样性及其进化和传播研究。目前已有多个在线流程和独立工具可用于结核分枝杆菌复合群（MTBC）的WGS分析。尽管这些工具能以最少用户专业知识处理WGS数据，但它们要么过于通用，对细菌特异性问题（如基因变异、INDEL/同义/PE-PPE（IDP家族）变异及样本数据中的耐药性）提供很少见解，要么局限于特定目标（如耐药性）。已知耐药性和谱系特异性问题需要对已识别变异进行精细优先级排序，以选择后续治疗干预的最佳靶点。结核分枝杆菌变异流程（MycoVarP）通过灵活的用户自定义和默认过滤器组合解决了这些特定问题。它提供了从原始读段到Mtb变异WGS分析的端到端解决方案，并执行两次质量检查，即在修剪前和读段比对到参考基因组后。MycoVarP将注释变异映射到药物敏感（DS）数据库，去除假阳性变异，提供谱系鉴定，并预测潜在耐药性。我们使用MycoVarP重新分析了Advani等人（2019）报告的WGS数据，并识别出一些迄今未报道的额外变异。我们得出结论，MycoVarP将有助于比现有流程更有效、更全面地识别非同义、真阳性、耐药相关变异，包括PE-PPE/PGRS家族IDP内的变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36303799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36303799/",
+  "paper_page_path": "papers/pubmed/36303799/index.html"
+}

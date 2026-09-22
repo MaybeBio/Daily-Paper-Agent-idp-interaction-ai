@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors present ALBATROSS, a deep learning model that predicts ensemble conformational properties of intrinsically disordered regions (IDRs) directly from amino acid sequence. The model is trained on simulations of over 42,000 sequences, is described as lightweight and accessible via local installation and cloud-based notebooks, and is claimed to enable proteome-wide prediction and annotation in minutes. The authors further claim that the model demonstrates generalizability of sequence-ensemble relationships and enables characterization of emergent biophysical behavior of IDRs within and between proteomes. The abstract also states that conclusions from previous versions remain robust.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, benchmark comparisons, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, training data description, validation and benchmarking details, code availability, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of disordered protein biophysics, addressing a genuine gap in computational tools for predicting ensemble properties from sequence. The claimed capabilities, including proteome-wide scalability and ease of use, are attractive. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, generalizability, or robustness of the model. Key claims regarding prediction accuracy, generalizability, and biological insights are stated without supporting quantitative data. The contribution is promising but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, computational biophysics, protein sequence-function relationships, and proteome-scale bioinformatics would be interested. The tool could be useful for experimentalists seeking rapid estimates of IDR conformational properties and for computational biologists studying sequence-ensemble relationships across proteomes.
+- **Major strengths** The problem addressed is important and timely, as IDRs are underrepresented in structural databases and lack predictive tools. The combination of rational sequence design, large-scale simulations, and deep learning is a sensible approach. The emphasis on accessibility through both local software and cloud-based notebooks is commendable and could lower barriers to adoption. The scale of training data, over 42,000 sequences, is substantial.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model enables instantaneous prediction of ensemble average properties at proteome-wide scale and demonstrates generalizability of sequence-ensemble relationships.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative performance metrics, such as correlation coefficients, mean absolute errors, or comparisons against existing methods. Without these, the accuracy and reliability of predictions cannot be assessed.
+  - **Why it matters** A predictive model is only useful if its accuracy is established. The claim of generalizability requires demonstration across diverse sequence types and conditions, which is not shown.
+  - **Resolution test** Provide benchmark results against experimental data and existing predictors, including error metrics and validation on held-out sequence sets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** ALBATROSS is lightweight, easy-to-use, and accessible as a locally installable software package and a point-and-click style interface in the cloud.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on the software architecture, dependencies, input/output formats, or computational requirements. The claim of ease of use cannot be verified.
+  - **Why it matters** Reproducibility and usability are central to the tool's adoption. Without clear documentation and specifications, potential users cannot evaluate or deploy the tool.
+  - **Resolution test** Include a detailed methods section describing the model architecture, training procedure, software dependencies, and provide a link to a working implementation with usage examples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for biological claims
+  - **Claim pointer** The authors leverage ALBATROSS to characterize emergent biophysical behavior of IDRs within and between proteomes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that biological insights were obtained but provides no examples, trends, or statistical analyses. The nature of the emergent behavior is unspecified.
+  - **Why it matters** The biological findings are presented as a key outcome, but without evidence they remain unsupported assertions. The reader cannot judge the significance or validity of these insights.
+  - **Resolution test** Present specific examples of biological findings with appropriate statistical support and contextual interpretation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "ensemble dimensions" is used without definition. It is unclear whether this refers to radius of gyration, end-to-end distance, shape anisotropy, or other properties.
+  - **Required correction** Define the specific ensemble properties predicted by the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Update statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that conclusions from previous versions remain robust is not accompanied by any comparative analysis or summary of what changed.
+  - **Required correction** Briefly describe the nature of the update and how robustness was confirmed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of prediction accuracy, software usability, and biological insights are not supported by the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of combining large-scale simulations with deep learning for IDR ensemble prediction appears novel, but the abstract does not clearly differentiate it from existing methods.
+  - Scientific importance: The problem is significant, and a reliable tool would be valuable. However, the importance of the specific findings is not demonstrated.
+  - Interdisciplinary readership: The work could appeal to biophysicists, computational biologists, and bioinformaticians, but the abstract does not frame the results in a way that is accessible to a broad audience.
+  - Technical soundness: Not assessable from the abstract. No metrics, validation, or methodological details are provided.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising tool, but the absence of quantitative results and methodological details prevents a supportive recommendation. A full manuscript with benchmarks, validation, and biological examples would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim of "instantaneous prediction" is unsupported without runtime benchmarks.
+- The claim of "proteome-wide scale" is unsupported without demonstration of throughput or computational cost.
+- The claim of "generalizability of sequence-ensemble relationships" is unsupported without cross-validation or external validation.
+- The claim of "emergent biophysical behavior" is unsupported without specific examples or analyses.
+- The claim that conclusions from previous versions remain robust is unverifiable from the abstract.

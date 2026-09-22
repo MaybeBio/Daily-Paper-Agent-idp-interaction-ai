@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, footnotes)
+- **Assessment boundary** Scientific and technical evaluation of the presented claims, methods, and results; no editorial decision
+- **Shared manuscript claim summary** The authors present SPPIDER-seq, a partner-aware protein-protein interaction (PPI) site prediction framework combining ESM-2 embeddings with a cross-attention mechanism. Two models (receptor-centric and peptide-centric) are trained on curated BioLiP receptor-peptide complexes. The authors report AUROC values up to 0.797 and MCC values up to 0.269 on blind benchmarks, claim outperformance over AlphaFold3 on peptide-mediated and disordered interfaces, and demonstrate application to TP53 interaction partners.
+- **Visible evidence base** Abstract, Introduction, Methods sections 2.1-2.3, Results sections 3.1-3.3, Discussion, Acknowledgements, Footnotes. Tables 1-3 and Figures 1-3 are referenced but not visible in the provided material.
+- **Missing materials affecting confidence** Tables 1-3, Figures 1-3, Supplementary Materials SD1-SD3, full model architecture equations (partially shown), training hyperparameters, detailed dataset statistics, and code repository contents are not provided. These are essential for full verification of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in PPI site prediction by introducing partner-aware conditioning through cross-attention on ESM-2 embeddings. The motivation is clear and the application to disordered and peptide-mediated interactions is timely. However, the provided material is insufficient to fully evaluate the technical soundness of the approach. Key quantitative results are referenced in tables and figures that are not visible, and the methods section omits critical implementation details. The TP53 case study is biologically interesting but the evidence presented in the text alone is largely qualitative. The comparison with AlphaFold3 and IUPred2A/ANCHOR2 is a strength, but the interpretation of results requires access to the actual performance tables. The manuscript shows promise but the current evidence base does not fully establish the core claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, particularly those focused on disordered regions and peptide-mediated interactions. Researchers studying transient interactions, intrinsically disordered proteins, and SLiM-mediated binding would find the partner-aware approach relevant. The TP53 application may interest cancer biologists studying p53 interactome rewiring and mutation effects. Developers of deep learning methods for protein function prediction would also be interested in the cross-attention architecture applied to ESM-2 embeddings.
+- **Major strengths** The partner-aware design directly addresses a recognized limitation of existing PPI site predictors. The use of ESM-2 embeddings with cross-attention is a sensible and modern architectural choice. The distinction between receptor-centric and peptide-centric models reflects genuine biological asymmetry in interface organization. The inclusion of AlphaFold3 and IUPred2A/ANCHOR2 comparisons provides useful context. The TP53 application demonstrates a realistic use case with potential biological insight. The 5-fold grouped cross-validation with UniProt-level grouping is a rigorous approach to preventing data leakage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269 on blind benchmarks, outperforming AlphaFold3 on peptide-mediated and disordered interfaces.
+  - **Evidence pointer** Tables 1-3, Figures 2A-D, Section 3.2, location not provided
+  - **Concern** The core performance claims are presented in tables and figures that are not visible in the provided material. The text describes trends but does not provide the actual numerical results for all models and datasets. Without access to Tables 1-3 and Figures 2A-D, it is impossible to verify the reported AUROC and MCC values, assess statistical significance, or evaluate whether the claimed outperformance over AlphaFold3 is robust across the full test sets.
+  - **Why it matters** The central contribution of the manuscript is the claimed performance improvement. If the underlying tables and figures are not available for inspection, the primary evidence for the method's utility cannot be assessed. This is a blocking issue for establishing the case.
+  - **Resolution test** Provide the full Tables 1-3 and Figures 2A-D with all numerical values, including per-model AUROC, MCC, precision, recall, F1, and PRAUC for each test set. Include confidence intervals or standard deviations where applicable. Clarify the exact comparison protocol used for AlphaFold3.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The methods section states that a cross-attention mechanism with 16 heads is applied to ESM-2 embeddings, and that the embedding dimension is d=280.
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Concern** The model architecture description is incomplete. The equations for the embedding matrices and attention weights are referenced but not fully shown. The relationship between the ESM-2 output dimension (1280) and the stated d=280 is unclear. The text states "d=280 is the embedding dimension" but ESM-2 esm2_t33_650M_UR50D produces 1280-dimensional embeddings. It is not explained how the dimensionality reduction from 1280 to 280 is performed, nor is the architecture of the MLP classifier described in sufficient detail. Training hyperparameters (learning rate, batch size, optimizer, regularization, number of epochs) are not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without a complete architectural description and training details, other researchers cannot implement or validate the approach. The dimensionality mismatch between ESM-2 output and the stated embedding dimension raises questions about the actual input representation.
+  - **Resolution test** Provide the complete model architecture with all equations, layer dimensions, and the dimensionality reduction procedure. Specify all training hyperparameters and optimization details. Clarify how the 1280-dimensional ESM-2 embeddings are transformed to the 280-dimensional space used in the attention mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data and benchmarking
+  - **Claim pointer** The manuscript states that non-redundant receptor-peptide interaction datasets were curated from BioLiP and used for training and benchmarking, with a 60/10/30 train/validation/test split.
+  - **Evidence pointer** Section 2.2, Table 1, location not provided
+  - **Concern** The dataset curation process is described at a high level but lacks critical details. The clustering procedure for redundancy reduction is mentioned but the specific algorithm, similarity threshold, and the number of resulting clusters are not stated. The total number of complexes, unique receptors, unique peptides, and the distribution of interface residues are not provided. The criteria for assigning complexes to train/validation/test splits are not fully described beyond the percentage split. The statement that "no two receptors or ligands shared more than 25% pairwise sequence identity" is clear but the implementation details are missing.
+  - **Why it matters** Dataset composition directly affects model performance and generalizability. Without knowing the dataset size, diversity, and redundancy reduction parameters, it is difficult to assess whether the reported performance is representative or an artifact of the specific data split. The claim of non-redundancy is central to the benchmarking validity.
+  - **Resolution test** Provide detailed dataset statistics including total number of complexes, number of unique receptors and peptides, sequence identity distribution, and the exact clustering procedure. Describe the split assignment process in full. Include the number of interface and non-interface residues for each split.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological application
+  - **Claim pointer** The manuscript claims that application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions.
+  - **Evidence pointer** Section 3.3, Figure 3A-C, location not provided
+  - **Concern** The TP53 case study is presented as a demonstration of the method's utility, but the evidence in the text is largely qualitative. The description of predicted hotspots and their alignment with domain architecture is plausible, but no quantitative validation is provided. The claim that patterns are "coherent" and "partner-specific" is not supported by statistical analysis or comparison with known experimental data. The statement that PPI information from human p53 was "effectively absent" during training is noted, but the single exception (PDB 7DVD) is acknowledged without discussing its potential influence.
+  - **Why it matters** The TP53 application is intended to show biological relevance beyond benchmark metrics. Without quantitative validation against known interaction data or experimental evidence, the biological claims remain speculative. The case study's value as a demonstration of the method's utility is diminished.
+  - **Resolution test** Provide quantitative analysis of the TP53 predictions, such as enrichment of predicted hotspots in known interaction regions, comparison with experimental interaction data, or statistical significance testing. Discuss the potential influence of the single p53-containing training complex in more detail.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, model architecture description
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The text states "where L A and L B denote sequence lengths and d=280 is the embedding dimension" but the equation for the embedding matrices is not shown. The reader cannot follow the notation.
+  - **Required correction** Include the full equations for the embedding matrices and attention computation. Ensure all variables are defined in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.1, learned statistics interpretation
+  - **Evidence pointer** Section 3.1, Table 2, location not provided
+  - **Issue** The interpretation of per-head L2 norms as evidence for "specialized attention heads" is speculative. The connection between weight magnitudes and functional specialization is not established.
+  - **Required correction** Soften the mechanistic interpretation or provide additional analysis linking attention head statistics to specific functional roles.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Benchmarking
+  - **Affected element** Section 3.2, AlphaFold3 comparison
+  - **Evidence pointer** Section 3.2, Table 3, location not provided
+  - **Issue** The comparison with AlphaFold3 is described but the exact protocol for obtaining AF3 predictions is not detailed. It is unclear whether AF3 was run with default settings, whether multiple seeds were used, and how interface residues were defined from AF3 outputs.
+  - **Required correction** Describe the AF3 inference protocol in detail, including input formats, confidence thresholds, and the definition of interface residues from predicted structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Availability
+  - **Affected element** Code and data availability statement
+  - **Evidence pointer** Availability section, location not provided
+  - **Issue** The GitHub repository and Zenodo archive are mentioned but the manuscript does not specify the software dependencies, hardware requirements, or expected runtime for inference.
+  - **Required correction** Add a brief description of the software environment, dependencies, and computational requirements for running the models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing performance tables and figures), R1-M2 (incomplete architecture description and dimensionality mismatch), R1-M3 (insufficient dataset details)
+- **Assessment against Nature-style criteria** Originality: The partner-aware cross-attention approach on ESM-2 embeddings is a reasonable incremental contribution, but similar ideas have been explored in other protein function prediction contexts. The specific application to peptide-centric and receptor-centric models is somewhat novel. Scientific importance: PPI site prediction is an active field, and addressing disordered and peptide-mediated interactions is relevant. However, the claimed improvements over AlphaFold3 need to be verified with full data. Interdisciplinary readership: The manuscript is written for a computational biology audience. The biological application to TP53 may attract cancer biologists, but the presentation is technical. Technical soundness: Cannot be fully assessed from the provided material due to missing tables, figures, and implementation details. Readability for nonspecialists: The introduction and discussion are accessible, but the methods section assumes familiarity with attention mechanisms and protein language models. The manuscript would benefit from a brief explanation of cross-attention for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is sound and the application domain is relevant, but the current evidence base is insufficient to establish the performance claims. The authors must provide the full tables and figures, complete the architecture description, and supply detailed dataset statistics before the case can be properly evaluated.
+
+## Risk / unsupported claims
+- The claim that SPPIDER-seq outperforms AlphaFold3 on peptide-mediated and disordered interfaces is not verifiable without Table 3 and Figures 2A-D.
+- The claim that the peptide-centric model develops "specialized attention heads" for SLiM-like motifs is speculative and not directly supported by the presented evidence.
+- The claim that TP53 predictions reveal "coherent, partner-specific interface patterns" is not quantitatively validated.
+- The statement that the models are trained on "non-redundant" datasets cannot be fully assessed without details of the clustering procedure.
+- The claim that the cross-attention mechanism "captures inter-protein dependencies" is plausible but not directly demonstrated with ablation or interpretability analysis.

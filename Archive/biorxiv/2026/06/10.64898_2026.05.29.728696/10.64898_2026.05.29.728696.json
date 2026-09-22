@@ -1,0 +1,113 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.29.728696",
+  "title": "Physics-guided design of intrinsically disordered proteins",
+  "doi": "10.64898/2026.05.29.728696",
+  "abstract": "Intrinsically disordered protein regions (IDPs) are found across the tree of life and characterized by the lack of a stable 3D fold, encoding function through a vast ensemble of conformations. This plasticity makes rational design of IDPs challenging. Physics-based approaches capturing distinct aspects of sequence composition, charge patterning, and molecular interactions have emerged as powerful predictors of ensemble-derived properties. Here, we present a machine learning framework for proteome-scale de novo IDP design by rationally inverting physics-based models. We first program IDPs to tunably sense and respond to diverse biophysical cues and show that IDP ensembles can directly encode complex signal processing, including threshold detection, bandpass filtering, and Boolean-type multi-input logic. We next engineer multicomponent IDP mixtures with tailored emergent condensate properties, including layering and number of phases, compositional specificity, and RNA-dependent remodeling of structure and composition. Finally, we demonstrate designed IDPs that selectively partition into or deplete from biological condensates in living cells. Together, our framework establishes a flexible and scalable strategy for design of ensemble-derived and collective properties in dynamic biomolecules.",
+  "authors": [
+    "Tyagi N",
+    "Boodry J",
+    "Chou V",
+    "Snead WT",
+    "Shrinivas K"
+  ],
+  "published_date": "2026-06-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728696",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728696.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1244221",
+    "raw_record": {
+      "id": "PPR1244221",
+      "source": "PPR",
+      "doi": "10.64898/2026.05.29.728696",
+      "title": "Physics-guided design of intrinsically disordered proteins",
+      "authorString": "Tyagi N, Boodry J, Chou V, Snead WT, Shrinivas K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tyagi N",
+            "lastName": "Tyagi",
+            "firstName": "Neha",
+            "initials": "N"
+          },
+          {
+            "fullName": "Boodry J",
+            "lastName": "Boodry",
+            "firstName": "Jackson",
+            "initials": "J"
+          },
+          {
+            "fullName": "Chou V",
+            "lastName": "Chou",
+            "firstName": "Vita",
+            "initials": "V"
+          },
+          {
+            "fullName": "Snead WT",
+            "lastName": "Snead",
+            "firstName": "Wilton",
+            "initials": "WT"
+          },
+          {
+            "fullName": "Shrinivas K",
+            "lastName": "Shrinivas",
+            "firstName": "Krishna",
+            "initials": "K"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Intrinsically disordered protein regions (IDPs) are found across the tree of life and characterized by the lack of a stable 3D fold, encoding function through a vast ensemble of conformations. This plasticity makes rational design of IDPs challenging. Physics-based approaches capturing distinct aspects of sequence composition, charge patterning, and molecular interactions have emerged as powerful predictors of ensemble-derived properties. Here, we present a machine learning framework for proteome-scale de novo IDP design by rationally inverting physics-based models. We first program IDPs to tunably sense and respond to diverse biophysical cues and show that IDP ensembles can directly encode complex signal processing, including threshold detection, bandpass filtering, and Boolean-type multi-input logic. We next engineer multicomponent IDP mixtures with tailored emergent condensate properties, including layering and number of phases, compositional specificity, and RNA-dependent remodeling of structure and composition. Finally, we demonstrate designed IDPs that selectively partition into or deplete from biological condensates in living cells. Together, our framework establishes a flexible and scalable strategy for design of ensemble-derived and collective properties in dynamic biomolecules.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.05.29.728696"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-03",
+      "firstPublicationDate": "2026-06-02",
+      "firstIndexDate": "2026-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "identity": {
+    "pmid": "35130691",
+    "doi": "10.1021/jacs.1c07591",
+    "title": "Molecular Basis of Small-Molecule Binding to alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases. They have generally not been amenable to conventional structure-based drug design, however, because their intrinsic conformational variability has precluded an atomic-level understanding of their binding to small molecules. Here we present long-time-scale, atomic-level molecular dynamics (MD) simulations of monomeric alpha-synuclein (an IDP whose aggregation is associated with Parkinson's disease) binding the small-molecule drug fasudil in which the observed protein-ligand interactions were found to be in good agreement with previously reported NMR chemical shift data. In our simulations, fasudil, when bound, favored certain charge-charge and pi-stacking interactions near the C terminus of alpha-synuclein but tended not to form these interactions simultaneously, rather breaking one of these interactions and forming another nearby (a mechanism we term dynamic shuttling). Further simulations with small molecules chosen to modify these interactions yielded binding affinities and key structural features of binding consistent with subsequent NMR experiments, suggesting the potential for MD-based strategies to facilitate the rational design of small molecules that bind with disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "1-(5-Isoquinolinesulfonyl)-2-Methylpiperazine/*analogs & derivatives/chemistry/metabolism",
+      "Amino Acid Sequence",
+      "Hydrogen Bonding",
+      "Intrinsically Disordered Proteins/chemistry/*metabolism",
+      "Ligands",
+      "Molecular Conformation",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Small Molecule Libraries/chemistry/metabolism",
+      "alpha-Synuclein/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Robustelli, Paul",
+        "Ibanez-de-Opakua, Alain",
+        "Campbell-Bezat, Cecily",
+        "Giordanetto, Fabrizio",
+        "Becker, Stefan",
+        "Zweckstetter, Markus",
+        "Pan, Albert C",
+        "Shaw, David E"
+      ],
+      "short_names": [
+        "Robustelli P",
+        "Ibanez-de-Opakua A",
+        "Campbell-Bezat C",
+        "Giordanetto F",
+        "Becker S",
+        "Zweckstetter M",
+        "Pan AC",
+        "Shaw DE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9876-9552",
+        "ORCID: 0000-0002-2536-6581",
+        "ORCID: 0000-0001-8265-5761"
+      ],
+      "affiliations": [
+        "D. E. Shaw Research, New York, New York 10036, United States.",
+        "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States.",
+        "German Center for Neurodegenerative Diseases (DZNE), 37077 Gottingen, Germany.",
+        "D. E. Shaw Research, New York, New York 10036, United States.",
+        "D. E. Shaw Research, New York, New York 10036, United States.",
+        "Max Planck Institute for Biophysical Chemistry, 37077 Gottingen, Germany.",
+        "German Center for Neurodegenerative Diseases (DZNE), 37077 Gottingen, Germany.",
+        "Max Planck Institute for Biophysical Chemistry, 37077 Gottingen, Germany.",
+        "DFG Research Center for Nanoscale Microscopy and Molecular Physiology of the Brain (CNMPB), 37073 Gottingen, Germany.",
+        "D. E. Shaw Research, New York, New York 10036, United States.",
+        "D. E. Shaw Research, New York, New York 10036, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, New York 10032, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, New York 10036, United States.",
+          "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+        ]
+      },
+      {
+        "full_name": "Ibanez-de-Opakua, Alain",
+        "short_name": "Ibanez-de-Opakua A",
+        "identifiers": [],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Campbell-Bezat, Cecily",
+        "short_name": "Campbell-Bezat C",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, New York 10036, United States."
+        ]
+      },
+      {
+        "full_name": "Giordanetto, Fabrizio",
+        "short_name": "Giordanetto F",
+        "identifiers": [
+          "0000-0001-9876-9552"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, New York 10036, United States."
+        ]
+      },
+      {
+        "full_name": "Becker, Stefan",
+        "short_name": "Becker S",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Biophysical Chemistry, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zweckstetter, Markus",
+        "short_name": "Zweckstetter M",
+        "identifiers": [
+          "0000-0002-2536-6581"
+        ],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), 37077 Göttingen, Germany.",
+          "Max Planck Institute for Biophysical Chemistry, 37077 Göttingen, Germany.",
+          "DFG Research Center for Nanoscale Microscopy and Molecular Physiology of the Brain (CNMPB), 37073 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Pan, Albert C",
+        "short_name": "Pan AC",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, New York 10036, United States."
+        ]
+      },
+      {
+        "full_name": "Shaw, David E",
+        "short_name": "Shaw DE",
+        "identifiers": [
+          "0000-0001-8265-5761"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, New York 10036, United States.",
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, New York 10032, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2022 Feb 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/09 06:00",
+    "fetched_at": "2026-09-20 08:12:06"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42147780",
+      "41874470",
+      "41870129",
+      "41833980",
+      "41758937",
+      "41683750",
+      "41535595",
+      "41332594",
+      "41259435",
+      "41073429",
+      "41055109",
+      "41040258",
+      "40875600",
+      "40815493",
+      "40815267",
+      "40654683",
+      "40532196",
+      "40490488",
+      "40446154",
+      "40325419",
+      "40128232",
+      "40079830",
+      "40068541",
+      "39985130",
+      "39952928",
+      "39915220",
+      "39914809",
+      "39896485",
+      "39693390",
+      "39605539",
+      "39480879",
+      "39475380",
+      "39466712",
+      "39462994",
+      "39359255",
+      "39327912",
+      "39254158",
+      "39243097",
+      "38550690",
+      "38435467",
+      "38294935",
+      "38251829",
+      "38222653",
+      "38153340",
+      "37686208",
+      "37546728",
+      "37338049",
+      "36986700",
+      "36778236",
+      "36545140",
+      "36499617",
+      "36232847",
+      "36001084",
+      "35975807",
+      "35923464",
+      "35787839",
+      "35755817",
+      "35737839",
+      "35655546",
+      "35649268",
+      "35210421",
+      "33812316"
+    ],
+    "refs": [
+      "33302617",
+      "33148639",
+      "32936641",
+      "32786705",
+      "32403216",
+      "32323533",
+      "32132204",
+      "32100577",
+      "31914313",
+      "31877033",
+      "31714766",
+      "31476124",
+      "31259246",
+      "30865832",
+      "30278223",
+      "29735687",
+      "29596915",
+      "28885015",
+      "28834051",
+      "28743590",
+      "28448138",
+      "28328918",
+      "28225081",
+      "28063280",
+      "27982082",
+      "27819658",
+      "27356095",
+      "27101974",
+      "26507530",
+      "26498066",
+      "26275458",
+      "25764013",
+      "25531225",
+      "25524885",
+      "25400522",
+      "25011560",
+      "24773235",
+      "24739139",
+      "24551051",
+      "24409105",
+      "24098099",
+      "23627280",
+      "23545493",
+      "23139905",
+      "22815918",
+      "22443635",
+      "22339051",
+      "21969380",
+      "21689664",
+      "21514144",
+      "20598937",
+      "20359221",
+      "19948969",
+      "19745811",
+      "17681534",
+      "16458552",
+      "16218947",
+      "15840579",
+      "15738986",
+      "15684072",
+      "15610017",
+      "15116359",
+      "12368089",
+      "12022848"
+    ],
+    "similar": [
+      "35130691",
+      "26923286",
+      "39232485",
+      "31903719",
+      "24551051",
+      "32623047",
+      "22988855",
+      "24098099",
+      "36232847",
+      "30933517",
+      "33355572",
+      "37407505",
+      "31699336",
+      "25331250",
+      "31740740",
+      "25919886",
+      "28885015",
+      "31809054",
+      "30142698",
+      "29928798",
+      "33581430",
+      "30979035",
+      "30471704",
+      "29733855",
+      "25207671",
+      "29621630",
+      "27101974",
+      "34197833",
+      "30840442",
+      "30184304",
+      "28631009",
+      "31096049",
+      "33513387",
+      "29715424",
+      "35543707",
+      "29897236",
+      "31034892",
+      "32696379",
+      "35384652",
+      "32403216",
+      "27588692",
+      "30875980",
+      "27844185",
+      "30771181",
+      "34504009",
+      "30771183",
+      "29474083",
+      "29990433",
+      "36749138",
+      "28493424",
+      "36252622",
+      "19576220",
+      "19645507",
+      "26735936",
+      "23567152",
+      "28719185",
+      "29603125",
+      "23607785",
+      "33345970",
+      "31917569",
+      "30216674",
+      "25544254",
+      "18415022",
+      "33945530",
+      "32323533",
+      "26922996",
+      "35950933",
+      "29944336",
+      "26742101",
+      "22947936",
+      "26553504",
+      "29320696",
+      "30316104",
+      "23583776",
+      "35068142",
+      "26396193",
+      "29548979",
+      "37060757",
+      "29276882",
+      "35912724",
+      "30813315",
+      "19655784",
+      "32453478",
+      "29951842",
+      "30003969",
+      "29808548",
+      "25345588",
+      "32859072",
+      "29382046",
+      "32020911",
+      "35167083",
+      "25863585",
+      "30240067",
+      "23214618",
+      "26195786",
+      "23951139",
+      "30813629",
+      "33812316",
+      "30278223",
+      "33167839",
+      "20620148",
+      "31136713",
+      "27273030",
+      "23162382",
+      "36974517",
+      "35167072",
+      "37106781",
+      "24865844",
+      "37458354",
+      "35147406",
+      "35171002",
+      "23384013"
+    ],
+    "review": [
+      "35130691",
+      "22988855",
+      "33355572",
+      "30142698",
+      "30979035",
+      "30840442",
+      "28631009",
+      "31096049",
+      "32403216",
+      "30875980",
+      "30216674",
+      "25544254",
+      "26922996",
+      "30316104",
+      "37060757",
+      "29382046",
+      "32020911",
+      "25863585",
+      "30813629",
+      "33812316",
+      "30278223",
+      "33167839"
+    ],
+    "pmc": [
+      "8855421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacs.1c07591",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35130691/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35130691",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.1c07591",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

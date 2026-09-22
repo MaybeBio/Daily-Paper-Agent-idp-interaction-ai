@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.22.695971",
+  "title": "Integrating NMR restraints into coarse-grained simulations: toward accurate conformational ensembles of complex protein systems",
+  "doi": "10.64898/2025.12.22.695971",
+  "abstract": "Structural dynamics play critical roles for the biological activity of protein molecules. Characterising the inherent conformational landscapes of these macromolecules remains a major experimental and computational challenge, particularly for heterogeneous and transient systems such as intrinsically disordered proteins, membrane-associated assemblies and disordered fuzzy coats of amyloid aggregates. In this context, coarse-grained (CG) molecular dynamics simulations have enabled accessing to extended timescales and large system sizes, however, their reduced resolution and simplified interaction potentials often limit the structural accuracy. Here, we introduce Martini3-NMR, an integrative framework that incorporates nuclear magnetic resonance (NMR) observables directly into CG protein force fields. Using artificial neural networks to model NMR chemical shifts at the CG level, and integrating these data with NOE restraints, we define an approach to significantly enhance the accuracy of CG simulations while maintaining their elevated sampling efficiency, thereby resulting in a substantially improved description of protein conformational ensembles. We demonstrate the broad applicability of Martini3-NMR by generating CG ensembles for a diverse range of systems and complex processes such as protein folding from misfolded states, oligomer disassembly within lipid bilayers and the topology of disordered fuzzy regions at amyloid fibril surfaces, which were found to display condensate-like structural and dynamical properties. By enabling an experimentally driven and computationally efficient exploration of protein conformational landscapes, Martini3-NMR provides a novel general framework for investigating dynamic, heterogeneous and multiscale biomolecular processes. This approach opens to significant new opportunities for extending CG simulations towards a more quantitative understanding of the relationship between molecular structure, dynamics and biological function.",
+  "authors": [
+    "Cullen M",
+    "Biancaniello C",
+    "Taškova K",
+    "Miletić V",
+    "Mercadante D",
+    "De Simone A"
+  ],
+  "published_date": "2025-12-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695971",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695971.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230184",
+    "raw_record": {
+      "id": "PPR1230184",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.22.695971",
+      "title": "Integrating NMR restraints into coarse-grained simulations: toward accurate conformational ensembles of complex protein systems",
+      "authorString": "Cullen M, Biancaniello C, Taškova K, Miletić V, Mercadante D, De Simone A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cullen M",
+            "lastName": "Cullen",
+            "firstName": "Mina",
+            "initials": "M"
+          },
+          {
+            "fullName": "Biancaniello C",
+            "lastName": "Biancaniello",
+            "firstName": "Carmen",
+            "initials": "C"
+          },
+          {
+            "fullName": "Taškova K",
+            "lastName": "Taškova",
+            "firstName": "Katerina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Miletić V",
+            "lastName": "Miletić",
+            "firstName": "Vedran",
+            "initials": "V"
+          },
+          {
+            "fullName": "Mercadante D",
+            "lastName": "Mercadante",
+            "firstName": "Davide",
+            "initials": "D"
+          },
+          {
+            "fullName": "De Simone A",
+            "lastName": "De Simone",
+            "firstName": "Alfonso",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8789-9546"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8789-9546"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3217-7877"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3981-8806"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Structural dynamics play critical roles for the biological activity of protein molecules. Characterising the inherent conformational landscapes of these macromolecules remains a major experimental and computational challenge, particularly for heterogeneous and transient systems such as intrinsically disordered proteins, membrane-associated assemblies and disordered fuzzy coats of amyloid aggregates. In this context, coarse-grained (CG) molecular dynamics simulations have enabled accessing to extended timescales and large system sizes, however, their reduced resolution and simplified interaction potentials often limit the structural accuracy. Here, we introduce Martini3-NMR, an integrative framework that incorporates nuclear magnetic resonance (NMR) observables directly into CG protein force fields. Using artificial neural networks to model NMR chemical shifts at the CG level, and integrating these data with NOE restraints, we define an approach to significantly enhance the accuracy of CG simulations while maintaining their elevated sampling efficiency, thereby resulting in a substantially improved description of protein conformational ensembles. We demonstrate the broad applicability of Martini3-NMR by generating CG ensembles for a diverse range of systems and complex processes such as protein folding from misfolded states, oligomer disassembly within lipid bilayers and the topology of disordered fuzzy regions at amyloid fibril surfaces, which were found to display condensate-like structural and dynamical properties. By enabling an experimentally driven and computationally efficient exploration of protein conformational landscapes, Martini3-NMR provides a novel general framework for investigating dynamic, heterogeneous and multiscale biomolecular processes. This approach opens to significant new opportunities for extending CG simulations towards a more quantitative understanding of the relationship between molecular structure, dynamics and biological function.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.22.695971"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41851975",
+            "reference": "Journal of the American Chemical Society. \n    2026 Apr;148(12):13160-13173",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-24",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

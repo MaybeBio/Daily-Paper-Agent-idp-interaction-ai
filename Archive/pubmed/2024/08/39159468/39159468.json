@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "39159468",
+    "doi": "10.1021/acs.jpclett.4c01806",
+    "title": "Mechanistic Insights into the c-MYC G-Quadruplex and Berberine Binding inside an Aqueous Two-Phase System Mimicking Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "We investigated the binding between the c-MYC G-quadruplex (GQ) and berberine chloride (BCl) in an aqueous two-phase system (ATPS) with 12.3 wt % polyethylene glycol and 5.6 wt % dextran, mimicking the highly crowded intracellular biomolecular condensates formed via liquid-liquid phase separation. We found that in the ATPS, complex formation is significantly altered, leading to an increase in affinity and a change in the stoichiometry of the complex with respect to neat buffer conditions. Thermodynamic studies reveal that binding becomes more thermodynamically favorable in the ATPS due to entropic effects, as the strong excluded volume effect inside ATPS droplets reduces the entropic penalty associated with binding. Finally, the binding affinity of BCl for the c-MYC GQ is higher than those for other DNA structures, indicating potential specific interactions. Overall, these findings will be helpful in the design of potential drugs targeting the c-MYC GQ structures in cancer-related biocondensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Berberine/chemistry",
+      "Dextrans/chemistry",
+      "DNA/chemistry",
+      "*G-Quadruplexes",
+      "Polyethylene Glycols/chemistry",
+      "*Proto-Oncogene Proteins c-myc/chemistry/metabolism",
+      "Thermodynamics",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Susmita",
+        "Campanile, Marco",
+        "Sharma, Shubhangi",
+        "Oliva, Rosario",
+        "Patra, Satyajit"
+      ],
+      "short_names": [
+        "Pradhan S",
+        "Campanile M",
+        "Sharma S",
+        "Oliva R",
+        "Patra S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1763-1768",
+        "ORCID: 0000-0002-1118-3741"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India.",
+        "Department of Chemical Sciences, University of Naples Federico II, Via Cintia, 26, 80126 Naples, Italy.",
+        "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India.",
+        "Department of Chemical Sciences, University of Naples Federico II, Via Cintia, 26, 80126 Naples, Italy.",
+        "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Susmita",
+        "short_name": "Pradhan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Campanile, Marco",
+        "short_name": "Campanile M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, University of Naples Federico II, Via Cintia, 26, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Sharma, Shubhangi",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Oliva, Rosario",
+        "short_name": "Oliva R",
+        "identifiers": [
+          "0000-0003-1763-1768"
+        ],
+        "affiliations": [
+          "Department of Chemical Sciences, University of Naples Federico II, Via Cintia, 26, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Patra, Satyajit",
+        "short_name": "Patra S",
+        "identifiers": [
+          "0000-0002-1118-3741"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Birla Institute of Technology and Science-Pilani, Pilani Campus, Pilani 333031, Rajasthan, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 Aug 29",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/19 18:42",
+    "fetched_at": "2026-09-21 09:42:46"
+  },
+  "links": {
+    "cites": [
+      "42221358",
+      "40747043"
+    ],
+    "refs": [],
+    "similar": [
+      "39159468",
+      "29307533",
+      "29086571",
+      "21392861",
+      "36054116",
+      "34192476",
+      "20437426",
+      "31148522",
+      "34677968",
+      "26138009",
+      "28276093",
+      "34199659",
+      "31197422",
+      "20849082",
+      "19581307",
+      "17150888",
+      "38506647",
+      "32492501",
+      "35412611",
+      "19876976",
+      "18674916",
+      "30448052",
+      "27852004",
+      "38973676",
+      "21036049",
+      "30703662",
+      "28531353",
+      "30239898",
+      "29762718",
+      "33237722",
+      "32033198",
+      "24012973",
+      "27226253",
+      "35362364",
+      "27021281",
+      "27634752",
+      "17718513",
+      "28888786",
+      "30088300",
+      "24813121",
+      "22484007",
+      "21967482",
+      "30114968",
+      "35837174",
+      "27624062",
+      "28188007",
+      "26176020",
+      "30920805",
+      "21795379",
+      "37821013",
+      "20615700",
+      "18536803",
+      "35727077",
+      "32267052",
+      "25495750",
+      "25068649",
+      "17150890",
+      "23581424",
+      "27016118",
+      "36973917",
+      "29648656",
+      "24252993",
+      "34710368",
+      "32827579",
+      "30312328",
+      "28650023",
+      "32761687",
+      "23116145",
+      "20420470",
+      "23430152",
+      "23736799",
+      "23586078",
+      "34270902",
+      "33978746",
+      "23611765",
+      "35335261",
+      "23108607",
+      "26997208",
+      "37006172",
+      "32041318",
+      "33188859",
+      "26963597",
+      "27546043",
+      "30481540",
+      "22912844",
+      "15740131",
+      "27865994",
+      "29611599",
+      "31621996",
+      "28514170",
+      "25452213",
+      "36012470",
+      "29581003",
+      "15697230",
+      "34824301",
+      "32051986",
+      "33513388",
+      "29177319",
+      "32791149"
+    ],
+    "review": [
+      "39159468",
+      "32827579"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c01806",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "37823961",
+    "doi": "10.1140/epje/s10189-023-00353-z",
+    "title": "Docosahexaenoic acid promotes vesicle clustering mediated by alpha-Synuclein via electrostatic interaction."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alpha-Syn) is an intrinsically disordered protein whose aggregation is associated with Parkinson's disease, dementia, and other neurodegenerative diseases known as synucleinopathies. However, the functional role of alpha-Syn is still unclear, although it has been shown to be involved in the regulation of neurotransmitter release via the interaction with synaptic vesicles (SVs), vesicle clustering, and SNARE complex assembly. Fatty acids have significant occupancy in synaptic vesicles; and recent studies suggest the interaction of fatty acids with alpha-Syn affect the formation of (pathological) aggregates, but it is less clear how fatty acids affects the functional role of alpha-Syn including alpha-Syn-membrane interactions, in particular with (SV-like) vesicles. Here, we report the concentration dependent effect of docosahexaenoic acid (DHA) in synaptic-like vesicle clustering via alpha-Syn interaction. Through molecular dynamics simulation, we revealed that DHA promoted vesicle clustering is due to the electrostatic interaction between DHA in the membrane and the N-terminal region of alpha-Syn. Moreover, this increased electrostatic interaction arises from a change in the macroscopic properties of the protein-membrane interface induced by (preferential solvation of) DHA. Our results provide insight as to how DHA regulates vesicle clustering mediated by alpha-Syn and may further be useful to understand its physiological as well as pathological role. Description: In physiological environments, alpha-Synuclein (alpha-Syn) localizes at nerve termini and synaptic vesicles and interacts with anionic phospholipid membranes to promote vesicle clustering. Docosahexaenoic acid (DHA) increases binding affinity between alpha-Syn and lipid membranes by increasing electrostatic interaction energy through modulating the local and global membrane environment and conformational properties of alpha-Syn.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Docosahexaenoic Acids/metabolism",
+      "Static Electricity",
+      "Phospholipids/chemistry",
+      "Synaptic Vesicles/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tyoe, Owen",
+        "Aryal, Chinta",
+        "Diao, Jiajie"
+      ],
+      "short_names": [
+        "Tyoe O",
+        "Aryal C",
+        "Diao J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4288-3203"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Cincinnati College of Arts and Sciences, Cincinnati, OH, 45221, USA.",
+        "Department of Cancer and Cell Biology, University of Cincinnati College of Medicine, Cincinnati, OH, 45267, USA.",
+        "Department of Cancer and Cell Biology, University of Cincinnati College of Medicine, Cincinnati, OH, 45267, USA. jiajie.diao@uc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tyoe, Owen",
+        "short_name": "Tyoe O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Cincinnati College of Arts and Sciences, Cincinnati, OH, 45221, USA."
+        ]
+      },
+      {
+        "full_name": "Aryal, Chinta",
+        "short_name": "Aryal C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer and Cell Biology, University of Cincinnati College of Medicine, Cincinnati, OH, 45267, USA."
+        ]
+      },
+      {
+        "full_name": "Diao, Jiajie",
+        "short_name": "Diao J",
+        "identifiers": [
+          "0000-0003-4288-3203"
+        ],
+        "affiliations": [
+          "Department of Cancer and Cell Biology, University of Cincinnati College of Medicine, Cincinnati, OH, 45267, USA. jiajie.diao@uc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The European physical journal. E, Soft matter"
+    ],
+    "journal_abbrev": [
+      "Eur Phys J E Soft Matter"
+    ],
+    "pub_date": "2023 Oct 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/12 12:43",
+    "fetched_at": "2026-09-21 02:00:41"
+  },
+  "links": {
+    "cites": [
+      "41477482",
+      "41034503",
+      "39806145",
+      "39306670"
+    ],
+    "refs": [],
+    "similar": [
+      "37823961",
+      "37883437",
+      "28495859",
+      "33538574",
+      "38951706",
+      "34567651",
+      "20725866",
+      "32392751",
+      "24383916",
+      "35787839",
+      "30609739",
+      "24884175",
+      "35931109",
+      "23638301",
+      "29960040",
+      "34473498",
+      "31110017",
+      "37782491",
+      "16669622",
+      "27640673",
+      "19747490",
+      "33415971",
+      "38496494",
+      "31140178",
+      "35417693",
+      "32548120",
+      "21929559",
+      "29459792",
+      "33568632",
+      "33437978",
+      "37302013",
+      "36567199",
+      "26119565",
+      "33356274",
+      "36712380",
+      "23740253",
+      "31110014",
+      "37198991",
+      "32350746",
+      "16762368",
+      "32672441",
+      "37991902",
+      "29853639",
+      "38713200",
+      "33122994",
+      "30745863",
+      "35809645",
+      "34572099",
+      "36551244",
+      "31566224",
+      "34040104",
+      "29941855",
+      "32719116",
+      "17108165",
+      "17176082",
+      "25896939",
+      "21527634",
+      "33087443",
+      "39306670",
+      "32063829",
+      "25669123",
+      "25524885",
+      "37788328",
+      "33632727",
+      "25967550",
+      "18082181",
+      "18172022",
+      "33774037",
+      "25264250",
+      "11812148",
+      "16146428",
+      "30102984",
+      "25246573",
+      "30046897",
+      "27273030",
+      "37130995",
+      "36584779",
+      "17381514",
+      "39013013",
+      "21167933",
+      "28336532",
+      "19762560",
+      "38951707",
+      "38972360",
+      "29608598",
+      "24970392",
+      "20500090",
+      "31226488",
+      "25643172",
+      "37463072",
+      "39000460",
+      "30853581",
+      "23077527",
+      "25273557",
+      "10915790",
+      "38373398",
+      "35420219",
+      "28232489",
+      "29515354",
+      "22251432"
+    ],
+    "review": [
+      "37823961",
+      "32392751",
+      "35787839",
+      "30609739",
+      "35931109",
+      "31140178",
+      "36567199",
+      "37198991",
+      "33122994",
+      "30745863",
+      "34572099",
+      "29941855",
+      "21167933",
+      "20500090",
+      "30853581"
+    ],
+    "pmc": [
+      "10611297"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37823961/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1140/epje/s10189-023-00353-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

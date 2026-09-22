@@ -1,0 +1,106 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.25.645354",
+  "title": "Biomolecular condensate microstructure couples molecular and mesoscale properties",
+  "doi": "10.1101/2025.03.25.645354",
+  "abstract": "Biomolecular condensates, including those formed by prion-like low complexity domains (LCDs) of proteins, are typically maintained by networks of molecular interactions. Such collective interactions give rise to the rich array of material behaviors underlying condensate function. Previous work has uncovered distinct LCD conformations in condensates versus dilute phases, and recently, single-component LCD condensates have been predicted to exhibit microstructures with “small-world” networks—where molecular nodes are highly clustered and connected via short pathlengths. However, a framework linking single-molecule properties, condensate microstructure, and macroscopic material properties remains elusive. Here, we combine molecular simulation and graph-theoretic analysis to reveal how molecular features encode condensate microstructure, which impacts molecule-scale conformations and droplet-scale material properties. Using a residue-resolution coarse-grained model, we probe condensates comprising natural LCD sequences and generalize our findings by varying composition and patterning in binary sequences of hydrophobic and polar residues. We show that non-blocky sequences form condensates with small-world internal networks featuring “hubs”—molecules responsible for global connectivity—and “cliques”, molecular clusters bound by persistent short-ranged associations. Cliques localize near interfaces without a secondary phase transition, suggesting a role in mediating molecular partitioning and condensate aging by tuning interfacial material properties. Moreover, we demonstrate that network smallworldness predicts droplet surface tension. We also track single-molecule structure and dynamics inside condensates, revealing that internal heterogeneity at the single-molecule level is systematically encoded by network topology. Collectively, our work establishes multiscale structure–property relationships in LCD condensates, providing general principles for designing and interpreting condensates with complex internal organization and material properties.",
+  "authors": [
+    "Tan D",
+    "Aierken D",
+    "Garcia PL",
+    "Joseph JA"
+  ],
+  "published_date": "2025-03-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.25.645354",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.25.645354.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR995992",
+    "raw_record": {
+      "id": "PPR995992",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.25.645354",
+      "title": "Biomolecular condensate microstructure couples molecular and mesoscale properties",
+      "authorString": "Tan D, Aierken D, Garcia PL, Joseph JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tan D",
+            "lastName": "Tan",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Aierken D",
+            "lastName": "Aierken",
+            "firstName": "Dilimulati",
+            "initials": "D"
+          },
+          {
+            "fullName": "Garcia PL",
+            "lastName": "Garcia",
+            "firstName": "Pablo",
+            "initials": "PL"
+          },
+          {
+            "fullName": "Joseph JA",
+            "lastName": "Joseph",
+            "firstName": "Jerelle",
+            "initials": "JA"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates, including those formed by prion-like low complexity domains (LCDs) of proteins, are typically maintained by networks of molecular interactions. Such collective interactions give rise to the rich array of material behaviors underlying condensate function. Previous work has uncovered distinct LCD conformations in condensates versus dilute phases, and recently, single-component LCD condensates have been predicted to exhibit microstructures with “small-world” networks—where molecular nodes are highly clustered and connected via short pathlengths. However, a framework linking single-molecule properties, condensate microstructure, and macroscopic material properties remains elusive. Here, we combine molecular simulation and graph-theoretic analysis to reveal how molecular features encode condensate microstructure, which impacts molecule-scale conformations and droplet-scale material properties. Using a residue-resolution coarse-grained model, we probe condensates comprising natural LCD sequences and generalize our findings by varying composition and patterning in binary sequences of hydrophobic and polar residues. We show that non-blocky sequences form condensates with small-world internal networks featuring “hubs”—molecules responsible for global connectivity—and “cliques”, molecular clusters bound by persistent short-ranged associations. Cliques localize near interfaces without a secondary phase transition, suggesting a role in mediating molecular partitioning and condensate aging by tuning interfacial material properties. Moreover, we demonstrate that network smallworldness predicts droplet surface tension. We also track single-molecule structure and dynamics inside condensates, revealing that internal heterogeneity at the single-molecule level is systematically encoded by network topology. Collectively, our work establishes multiscale structure–property relationships in LCD condensates, providing general principles for designing and interpreting condensates with complex internal organization and material properties.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.25.645354"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-30",
+      "firstPublicationDate": "2025-03-27",
+      "firstIndexDate": "2025-04-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

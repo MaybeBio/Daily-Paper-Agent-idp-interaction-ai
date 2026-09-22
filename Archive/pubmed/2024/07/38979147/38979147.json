@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "38979147",
+    "doi": "10.1101/2024.05.05.592587",
+    "title": "Sampling Conformational Ensembles of Highly Dynamic Proteins via Generative Deep Learning."
+  },
+  "content": {
+    "abstract": "Proteins are inherently dynamic, and their conformational ensembles are functionally important in biology. Large-scale motions may govern protein structure-function relationship, and numerous transient but stable conformations of Intrinsically Disordered Proteins (IDPs) can play a crucial role in biological function. Investigating conformational ensembles to understand regulations and disease-related aggregations of IDPs is challenging both experimentally and computationally. In this paper we first introduce a deep learning-based model, termed Internal Coordinate Net (ICoN), which learns the physical principles of conformational changes from Molecular Dynamics (MD) simulation data. Second, we selected interpolating data points in the learned latent space that rapidly identify novel synthetic conformations with sophisticated and large-scale sidechains and backbone arrangements. Third, with the highly dynamic amyloid-beta (1-42) (Abeta42) monomer, our deep learning model provided a comprehensive sampling of Abeta42's conformational landscape. Analysis of these synthetic conformations revealed conformational clusters that can be used to rationalize experimental findings. Additionally, the method can identify novel conformations with important interactions in atomistic details that are not included in the training data. New synthetic conformations showed distinct sidechain rearrangements that are probed by our EPR and amino acid substitution studies. This approach is highly transferable and can be used for any available data for training. The work also demonstrated the ability of deep learning to utilize learned natural atomistic motions in protein conformation sampling.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruzmetov, Talant",
+        "Hung, Ta I",
+        "Jonnalagedda, Saisri Padmaja",
+        "Chen, Si-Han",
+        "Fasihianifard, Parisa",
+        "Guo, Zhefeng",
+        "Bhanu, Bir",
+        "Chang, Chia-En A"
+      ],
+      "short_names": [
+        "Ruzmetov T",
+        "Hung TI",
+        "Jonnalagedda SP",
+        "Chen SH",
+        "Fasihianifard P",
+        "Guo Z",
+        "Bhanu B",
+        "Chang CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1992-7255",
+        "ORCID: 0000-0002-6504-8529"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Ruzmetov, Talant",
+        "short_name": "Ruzmetov T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jonnalagedda, Saisri Padmaja",
+        "short_name": "Jonnalagedda SP",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Si-Han",
+        "short_name": "Chen SH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Fasihianifard, Parisa",
+        "short_name": "Fasihianifard P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Guo, Zhefeng",
+        "short_name": "Guo Z",
+        "identifiers": [
+          "0000-0003-1992-7255"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bhanu, Bir",
+        "short_name": "Bhanu B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [
+          "0000-0002-6504-8529"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 06:41",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38979147",
+      "38978607",
+      "39984300",
+      "38018910",
+      "38781245",
+      "38370653",
+      "37241789",
+      "37108059",
+      "38816696",
+      "40264953",
+      "39555603",
+      "35725761",
+      "38505224",
+      "31793290",
+      "36774359",
+      "40161645",
+      "25897952",
+      "26052838",
+      "23912807",
+      "36934808",
+      "34680048",
+      "20404210",
+      "27300592",
+      "30840442",
+      "35129612",
+      "22821798",
+      "32579908",
+      "40147456",
+      "37144719",
+      "36084124",
+      "22506277",
+      "29364151",
+      "40029731",
+      "38928405",
+      "26584388",
+      "29186229",
+      "32403216",
+      "34152264",
+      "38394363",
+      "39651234",
+      "39983022",
+      "39163334",
+      "32345021",
+      "39522439",
+      "23189168",
+      "33383937",
+      "28964335",
+      "23422426",
+      "33030907",
+      "39158517",
+      "23988159",
+      "40095314",
+      "26574339",
+      "34680137",
+      "37646172",
+      "39807013",
+      "38173388",
+      "36674958",
+      "37338049",
+      "31031199",
+      "30708285",
+      "34869602",
+      "32840111",
+      "40172236",
+      "30979035",
+      "26575568",
+      "39553926",
+      "38713459",
+      "18481860",
+      "39190324",
+      "22253588",
+      "39554085",
+      "33629765",
+      "30865832",
+      "30204435",
+      "29864281",
+      "21639141",
+      "30230839",
+      "36380940",
+      "39684679",
+      "33581430",
+      "39663763",
+      "31362509",
+      "34252246",
+      "30909517",
+      "21569575",
+      "32696367",
+      "39977663",
+      "36791464",
+      "25625937",
+      "31241933",
+      "30250773",
+      "33382616",
+      "33871257",
+      "23901099",
+      "36217309",
+      "36472885",
+      "29235155",
+      "36183447",
+      "35705565"
+    ],
+    "review": [
+      "38979147",
+      "37241789",
+      "40264953",
+      "39555603",
+      "38505224",
+      "31793290",
+      "34680048",
+      "30840442",
+      "35129612",
+      "29364151",
+      "32403216",
+      "39522439",
+      "23988159",
+      "30979035",
+      "30909517",
+      "25625937",
+      "36217309"
+    ],
+    "pmc": [
+      "11230202"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38979147/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.05.592587",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

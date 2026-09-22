@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "42395354",
+    "doi": "10.64898/2026.06.23.734133",
+    "title": "HyRes: Accurate Physics-Based Simulation of Dynamic Protein Structures and Interactions in Complex Environments at Scale."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and regions (IDPs) are ubiquitous cellular regulators. Uncovering how their transient, multivalent interactions organize and fine-tune cellular processes requires transferable methods capable of deriving dynamic conformational ensembles across diverse environments at scale. Here, we present HyRes, a physics-based, hybrid-resolution protein model with atomistic backbones and intermediate-resolution sidechains that bridges the gap between atomistic accuracy and computational efficiency. Evaluated across ~100 IDPs, HyRes generates atomistic ensembles that match or outperform state-of-the-art all-atom force fields in reproducing experimental chain dimensions, transient tertiary contacts, and local secondary structures. Demonstrating exceptional transferability, HyRes accurately captures dynamic IDP interactions in dilute phases, condensed phases, and amyloid fibril fuzzy coats. Finally, we leverage HyRes' scalability to generate disordered ensembles for ~30,000 IDPs from the human proteome and DisProt, revealing strong correlation between residual structures and cellular function and localization. HyRes and this open-access database provide unprecedented resources for IDP biology and deep learning.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shanlong",
+        "Barethiya, Shrishti",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Li S",
+        "Barethiya S",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5281-1150"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shanlong",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Barethiya, Shrishti",
+        "short_name": "Barethiya S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/03 06:31",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41803440",
+      "41614174",
+      "41536026",
+      "41318327",
+      "41232529",
+      "41082321",
+      "40638710",
+      "40349675",
+      "40185744",
+      "40128232",
+      "40101966",
+      "39735932",
+      "39578408",
+      "38781245",
+      "38297118",
+      "38154096",
+      "38112495",
+      "38000367",
+      "37477459",
+      "37468629",
+      "36695540",
+      "36478084",
+      "36083825",
+      "35795820",
+      "35446534",
+      "35341741",
+      "35066947",
+      "34931046",
+      "34680048",
+      "33934416",
+      "33826337",
+      "33550810",
+      "33545530",
+      "33543942",
+      "33481784",
+      "32403216",
+      "31713636",
+      "31241933",
+      "30633502",
+      "30439585",
+      "30091924",
+      "30049874",
+      "29860432",
+      "29655986",
+      "29634920",
+      "29466338",
+      "29428839",
+      "29186229",
+      "28063280",
+      "27819658",
+      "27203110",
+      "26921390",
+      "26807783",
+      "26784558",
+      "26656254",
+      "25606670",
+      "25531225",
+      "25400522",
+      "25352555",
+      "23099262",
+      "22579883",
+      "22398450",
+      "21604143",
+      "21500218",
+      "21448735",
+      "19460965",
+      "18506808",
+      "17088319",
+      "16536547",
+      "14686102",
+      "12381310",
+      "11733770",
+      "6667333"
+    ],
+    "similar": [
+      "42395354",
+      "36083825",
+      "29186229",
+      "23912807",
+      "42475469",
+      "38112495",
+      "41644540",
+      "37662293",
+      "30840442",
+      "31241933",
+      "40264953",
+      "40101966",
+      "38018910",
+      "42437078",
+      "41082321",
+      "32403216",
+      "41073429",
+      "34680048",
+      "39651234",
+      "25897952",
+      "38979147",
+      "38978607",
+      "40727229",
+      "41432303",
+      "26387104",
+      "42282589",
+      "30979035",
+      "36674958",
+      "40128232",
+      "32816485",
+      "39984300",
+      "31809054",
+      "29537020",
+      "30091924",
+      "39554085",
+      "40060049",
+      "18481860",
+      "32227937",
+      "25358803",
+      "41137856",
+      "39093570",
+      "33355572",
+      "24312701",
+      "38297118",
+      "37108059",
+      "37746887",
+      "26574339",
+      "41851975",
+      "30230839",
+      "41298416",
+      "40172236",
+      "39163306",
+      "31756104",
+      "38781245",
+      "22253588",
+      "33078950",
+      "21766125",
+      "34656328",
+      "38928405",
+      "32859072",
+      "40095314",
+      "39807013",
+      "42140310",
+      "42014948",
+      "40907012",
+      "33302617",
+      "38370653",
+      "27387657",
+      "30066087",
+      "41259435",
+      "30204435",
+      "37106781",
+      "32525675",
+      "32345021",
+      "24410358",
+      "33591749",
+      "33719450",
+      "38987470",
+      "41928976",
+      "23189168",
+      "32579908",
+      "21943426",
+      "40060558",
+      "40034137",
+      "29990433",
+      "42332380",
+      "41249866",
+      "30002402",
+      "41803440",
+      "41889760",
+      "26922996",
+      "39499823",
+      "37634152",
+      "33382616",
+      "26387102",
+      "36084124",
+      "33421906",
+      "34845619",
+      "38039868",
+      "40317235"
+    ],
+    "review": [
+      "42395354",
+      "30840442",
+      "40264953",
+      "42437078",
+      "32403216",
+      "34680048",
+      "26387104",
+      "30979035",
+      "39093570",
+      "33355572",
+      "42014948",
+      "30066087",
+      "33591749",
+      "41803440",
+      "26922996",
+      "26387102",
+      "33421906"
+    ],
+    "pmc": [
+      "13321096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42395354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.23.734133",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

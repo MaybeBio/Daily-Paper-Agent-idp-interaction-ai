@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. No supplementary figures or tables were provided.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and evidence quality presented in the manuscript. It does not evaluate the choice of journal or editorial fit.
+- **Shared manuscript claim summary** The authors use atomistic discrete molecular dynamics (DMD) simulations to propose that the endogenous peptide SEVI inhibits Aβ42 amyloid aggregation by capping the exposed β-sheet elongation edges of Aβ42 monomers, oligomers, and proto-fibrils, thereby blocking fibril growth and secondary nucleation.
+- **Visible evidence base** Main text figures (Figures 1–6) and referenced supplementary figures/tables (Figures S1–S12, Table S1) are cited but not provided. Simulation parameters, analysis methods, and data availability are described.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S12, Table S1) are not available for inspection. These are essential for verifying convergence, contact maps, and simulation setup details. The static fibril approximation in the proto-fibril simulations is acknowledged but its impact is not quantified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and mechanistically detailed computational model for how SEVI inhibits Aβ42 aggregation. The use of DMD simulations to explore hetero-aggregation and capping is appropriate and the findings are consistent with prior experimental observations. However, the central claim that capping of β-sheet edges is the operative inhibition mechanism is inferred from simulation snapshots and contact analyses, not directly demonstrated. The lack of accessible supplementary data and the static fibril approximation limit the strength of the conclusions. The work is of interest to the amyloid aggregation and computational biology communities, but the evidence as presented does not fully establish the mechanistic case.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation inhibitors, particularly peptide-based approaches; computational biophysicists interested in protein aggregation mechanisms; and those investigating the molecular basis of Alzheimer's disease. The proposed capping mechanism and the use of DMD may inform future inhibitor design.
+- **Major strengths** The study addresses a relevant and timely question with a well-established simulation method. The use of multiple independent simulations and long timescales is commendable. The comparison between SEVI self-aggregation and SEVI-Aβ42 hetero-aggregation provides a clear contrast that supports the proposed mechanism. The identification of specific binding hot-spots and the observation of capping at both lateral and elongation surfaces are valuable insights.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SEVI could bind to various Aβ aggregation species – including monomers, dimers, and proto-fibrils – by capping the exposed β-sheet elongation edges" and "the aggregation processes Aβ42 from the formation of oligomers to conformational nucleation into fibrils and fibril growth should be inhibited as their β-sheet elongation edges being occupied by the highly charged SEVI."
+  - **Evidence pointer** Results sections "SEVI bound to Aβ42 via β-sheet pairing..." and "Aβ42 formed β-sheets buried inside the SEVI-Aβ42 hetero-aggregates..."; Figures 4, 5, and 6.
+  - **Concern** The claim that capping of β-sheet edges is the mechanism of inhibition is inferred from static snapshots and contact frequency analyses. The simulations show that SEVI binds to Aβ42 and forms β-sheet interactions, but they do not directly demonstrate that this binding prevents further Aβ42 aggregation. The free energy landscapes and contact maps are descriptive, not mechanistic. The authors state that "the aggregation processes... should be inhibited" but do not provide a quantitative measure of inhibition, such as a reduced aggregation rate or a shift in equilibrium toward monomers.
+  - **Why it matters** The central conclusion of the manuscript rests on this mechanistic interpretation. Without direct evidence that capping prevents elongation or nucleation, the claim remains a hypothesis. The distinction between binding and functional inhibition is critical for the paper's impact.
+  - **Resolution test** Provide simulations that directly measure the effect of SEVI on Aβ42 aggregation kinetics, such as comparing the time evolution of aggregate size or β-sheet content in the presence versus absence of SEVI. Alternatively, perform simulations with a mutant SEVI that lacks the capping ability to show a loss of inhibition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In simulations of SEVI mixed with preformed Aβ42 proto-fibril, SEVI was observed to both capping to the β-sheet elongation ends and binding to the lateral fibril surfaces."
+  - **Evidence pointer** Results section "The SEVI could bind to both the lateral and elongation surfaces of preformed Aβ42 proto-fibril"; Figure 6.
+  - **Concern** The Aβ42 proto-fibril was kept static during the simulations to reduce computational cost. This approximation removes the dynamic fluctuations of the fibril, which are known to be important for monomer addition and secondary nucleation. The binding modes and capping efficiency observed under this constraint may not reflect the behavior of a dynamic fibril. The authors acknowledge this limitation but do not assess its impact on the conclusions.
+  - **Why it matters** The static fibril approximation could bias the observed binding modes and overestimate the stability of the capping interaction. If the fibril were allowed to fluctuate, the capping might be less effective or the binding sites might differ. This directly affects the validity of the proposed mechanism for fibril growth inhibition.
+  - **Resolution test** Repeat the simulations with a flexible fibril, or at least a subset of simulations, to confirm that the capping and lateral binding are preserved. If this is computationally prohibitive, provide a justification based on prior studies or a sensitivity analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The conformational free energy landscape, the probability distribution of overall helix and β-sheet contents, and the top 4 most populated conformations of Aβ42 monomer further confirmed that dynamical β-sheets were much more abundant than helices."
+  - **Evidence pointer** Results section "Conformational ensembles of SEVI monomers..."; Figures 1 and S5.
+  - **Concern** The manuscript states that fifty independent simulations were performed for each system, but the criteria for determining convergence and the statistical uncertainty of the reported quantities (e.g., secondary structure content, free energy landscapes) are not provided. The authors state that "significant fluctuations without long-term trends indicated that our long-timescale DMD simulation was not trapped and that sufficient sampling was achieved," but this is a qualitative assessment. Without quantitative convergence metrics or error bars, it is difficult to assess the robustness of the results.
+  - **Why it matters** Reproducibility and statistical rigor are essential for computational studies. The lack of quantitative convergence analysis undermines confidence in the reported free energy surfaces and population distributions, which are central to the characterization of both SEVI and Aβ42 conformations.
+  - **Resolution test** Provide block-averaging or other convergence analyses for key observables, and report standard errors or confidence intervals for the secondary structure populations and free energy minima.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Our result revealed that SEVI was intrinsically disordered with dynamic formation of residual helices."
+  - **Issue** The phrase "residual helices" is ambiguous. It could mean transient helices or helices with low stability. Clarify the intended meaning.
+  - **Required correction** Replace "residual helices" with "transient helices" or "partially formed helices" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Molecular systems."
+  - **Issue** The methods state that "the amino acid sequences and initial structures of SEVI (PDB: 2l3h59) and Aβ42 (PDB: 1z0q60) used in our simulations are shown in Figure S1." However, the specific simulation conditions, such as salt concentration and pH, are not described in the main text. These are critical for reproducing the simulations, especially given the known sensitivity of SEVI aggregation to ionic strength.
+  - **Required correction** Add a description of the solvent conditions (e.g., salt concentration, pH) used in the simulations to the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results
+  - **Evidence pointer** Results section "The SEVI could bind to both the lateral and elongation surfaces of preformed Aβ42 proto-fibril."
+  - **Issue** The authors state that "the binding of SEVI to the Aβ42 fibril lateral surface could also inhibit secondary nucleation." This is presented as a conclusion, but the simulations do not directly test secondary nucleation. The statement is speculative.
+  - **Required correction** Rephrase to indicate that this is a potential implication of the binding, not a demonstrated effect.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct evidence for inhibition), R1-M2 (static fibril approximation), and R1-M3 (insufficient convergence analysis) must be addressed. The manuscript's central claim of capping-mediated inhibition is not fully supported by the current evidence.
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific focus on SEVI-Aβ42 interactions and the capping mechanism, though similar capping mechanisms have been proposed for other inhibitors. Scientific importance: The work addresses a clinically relevant problem and offers a plausible mechanism, but the lack of direct functional evidence limits its immediate impact. Interdisciplinary readership: The topic bridges biophysics, computational biology, and neurobiology, and the findings are likely to interest researchers across these fields. Technical soundness: The use of DMD is appropriate, but the static fibril approximation and lack of quantitative convergence metrics are significant technical weaknesses. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some technical details in the results could be better explained for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed mechanism is plausible and the simulations are well-designed, but the evidence as presented does not fully establish the inhibitory effect. Addressing the major concerns, particularly providing direct evidence of inhibition and addressing the static fibril limitation, would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that SEVI inhibits Aβ42 aggregation by capping β-sheet elongation edges is not directly supported by the simulations; it is inferred from binding and structural analyses.
+- The statement that SEVI binding to the fibril lateral surface inhibits secondary nucleation is speculative and not tested in the simulations.
+- The claim that the simulations "revealed" the mechanism of experimentally observed inhibition is overstated, as the simulations do not directly measure inhibition.
+- The assertion that "the aggregation processes... should be inhibited" is a prediction, not a demonstrated result.

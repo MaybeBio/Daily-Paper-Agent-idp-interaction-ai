@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusions) as provided by the user. No supplementary files, figures, or tables were accessible beyond those referenced in the text.
+- **Assessment boundary** The scientific content, methodological soundness, interpretation of results, and internal consistency of the claims as presented in the supplied text. No external validation of data or replication of analyses was performed.
+- **Shared manuscript claim summary** The authors report that co-solutes modulate BSA-NaPSS complexation in a co-solute-specific manner: salts hinder complex formation with an anion-specific order (NaCl < NaBr < NaI), high-MW PEG promotes insoluble complex formation at high concentrations via depletion interactions, and sucralose (but not sucrose) inhibits complex formation by interacting with hydrophobic patches on BSA, as supported by fluorescence quenching and MD simulations.
+- **Visible evidence base** Turbidimetric titration data (referenced as Figures 2, 3, 4, 5, 6 and Figures S1–S4), fluorescence quenching data (Figure 7, Table 1, Table 2, Figures S6, S8), CD spectroscopy (Table S1), and MD simulation results (Figures 8, S9, S10). All figures and tables are referenced but not directly viewable in the supplied material.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary files are not provided. Numerical values for critical pH parameters, Stern-Volmer constants, and simulation data are not directly verifiable. Details of MD simulation setup (force field parameters, equilibration protocol, analysis methods) are only partially described. Statistical treatment of turbidimetric data beyond error estimates is not described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in protein-polyelectrolyte complexation, namely how different classes of co-solutes modulate the phase behavior of a model protein-polyelectrolyte system. The systematic extraction of three critical pH parameters from turbidimetric titrations provides a useful framework for comparing co-solute effects. The combination of experimental (turbidimetry, fluorescence, CD) and computational (MD) approaches is commendable. However, several concerns limit the strength of the conclusions as currently presented. The claim that sucralose acts as a competitor to NaPSS for BSA is plausible but not fully established by the data described. The MD simulations are described too briefly to assess their reliability. The interpretation of salt effects relies heavily on literature precedent rather than direct evidence. The manuscript would benefit from clearer presentation of quantitative results and a more critical discussion of alternative explanations.
+- **Who would be interested in the results, and why** Researchers working on protein-polyelectrolyte complexation, protein formulation science, and biopharmaceutical development would find this work relevant. The systematic comparison of co-solute types and the identification of sucralose as a modulator of protein-polyelectrolyte interactions could inform the design of protein formulations containing excipients. The work also contributes to the fundamental understanding of how co-solutes influence macromolecular phase behavior, which is of interest to the colloid and soft matter community.
+- **Major strengths** The systematic approach to extracting three distinct critical pH parameters from turbidimetric data provides a clear and quantitative framework for comparing co-solute effects. The study covers three chemically distinct classes of co-solutes (salts, polymers, sugars), allowing for a comparative assessment. The combination of experimental techniques (turbidimetry, fluorescence quenching, CD) with MD simulations is a methodological strength. The authors appropriately note the importance of considering co-solute-protein interactions beyond simple electrostatic effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulations
+  - **Claim pointer** The authors claim that MD simulations confirm the greater propensity of sucralose to the BSA surface compared to sucrose, and that this supports the proposed mechanism of sucralose-mediated inhibition of complex formation.
+  - **Evidence pointer** Section 3 (Theoretical Methods), Figure 8, Figures S9 and S10
+  - **Concern** The description of the MD simulations is insufficient to assess their validity. The authors state that simulations were performed for 25 ns using GROMACS 2018.1 with the GROMOS 54A7 force field and SPC/E water, but provide no details on system preparation, equilibration protocol, temperature/pressure coupling, long-range electrostatics treatment, or analysis methodology beyond the definition of 〈N(r)〉. A 25 ns trajectory may be too short to achieve converged sampling of sugar distributions around a large protein like BSA. The authors do not report error bars or convergence tests for the simulation data. The claim that the simulations confirm experimental findings is therefore not adequately supported.
+  - **Why it matters** The MD simulations are presented as a key piece of evidence supporting the proposed mechanism of sucralose-BSA interaction. If the simulations are not technically sound or are not converged, the mechanistic conclusion is weakened. The lack of methodological detail also prevents reproducibility.
+  - **Resolution test** Provide a full description of the simulation protocol, including system setup, equilibration, production run parameters, and analysis methods. Show convergence of 〈N(r)〉 over time (e.g., block averaging or cumulative averages). Report uncertainties on the simulated quantities. If possible, extend the simulation length or perform replicate simulations to confirm the results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The authors claim that sucralose acts as a competitor to NaPSS for binding to BSA, thereby hindering complex formation, and that this is due to sucralose adhering to hydrophobic patches and negatively charged residues on the BSA surface.
+  - **Evidence pointer** Section 4.4, Figures 6 and 7, Table 2, Figure 8
+  - **Concern** The evidence presented does not directly demonstrate competition between sucralose and NaPSS for BSA. The fluorescence quenching data show that sucralose interacts with BSA, and the MD simulations suggest accumulation near the protein surface, but no experiment directly tests whether sucralose displaces NaPSS or reduces its binding affinity. The observed inhibition of complex formation could also be explained by other mechanisms, such as sucralose-induced changes in water structure or protein conformational dynamics that indirectly affect NaPSS binding. The authors do not rule out these alternatives.
+  - **Why it matters** The central mechanistic claim of the paper is that sucralose competes with NaPSS for BSA. Without direct evidence for competition, the conclusion remains speculative. This weakens the overall contribution of the work.
+  - **Resolution test** Perform a direct binding assay (e.g., isothermal titration calorimetry, surface plasmon resonance, or a competitive binding experiment) to test whether sucralose reduces NaPSS binding to BSA. Alternatively, measure the effect of sucralose on the binding affinity of NaPSS to BSA at fixed pH and ionic strength. If direct competition is not feasible, the authors should temper their mechanistic claim and discuss alternative explanations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data presentation
+  - **Claim pointer** The authors report critical pH parameters (pHc, pHΦ, pHopt) as functions of co-solute concentration and type, and claim specific trends (e.g., salt effects follow the order NaCl < NaBr < NaI).
+  - **Evidence pointer** Section 4.2, Figures 3 and 5, Figures S2 and S3
+  - **Concern** The manuscript does not provide a table summarizing the numerical values of pHc, pHΦ, and pHopt for all conditions tested. The figures are described qualitatively, but the reader cannot assess the magnitude of the reported shifts or the statistical significance of the differences between co-solutes. The error estimates for the critical pH parameters are mentioned (±0.05) but it is unclear how many replicate titrations were performed and whether the reported differences exceed this uncertainty.
+  - **Why it matters** The quantitative claims about co-solute effects are central to the paper. Without a clear presentation of the numerical data and associated uncertainties, the reader cannot evaluate the robustness of the reported trends or compare them with literature values.
+  - **Resolution test** Provide a table (main text or supplementary) listing all critical pH values with standard deviations and the number of replicates. Indicate which differences are statistically significant (e.g., using a t-test or ANOVA). If the differences are within experimental uncertainty, state this explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "wrong side" complexation
+  - **Evidence pointer** Section 4.1
+  - **Issue** The term "complexation on the wrong side" is used without a clear definition. While it is a known phenomenon in the protein-polyelectrolyte literature, readers unfamiliar with this terminology may be confused.
+  - **Required correction** Define the term explicitly when first used, e.g., "complexation occurring when both macromolecules carry net negative charge, driven by local charge patches."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Fluorescence quenching methodology
+  - **Evidence pointer** Section 2.4
+  - **Issue** The fluorescence quenching experiments are described briefly. The authors do not state the excitation/emission wavelengths used for the Stern-Volmer analysis beyond the excitation at 280 nm and emission recorded at 347 nm. It is unclear whether inner filter effects were corrected for, which is important at the co-solute concentrations used.
+  - **Required correction** Add details on inner filter correction, if applied, or state that the effect was negligible at the concentrations used. Specify the concentration range of quenchers tested.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of salt effects
+  - **Affected element** Discussion of Hoffmeister series
+  - **Evidence pointer** Section 4.2
+  - **Issue** The authors invoke the inverse Hoffmeister series to explain the anion-specific trends but do not discuss whether the observed order could also be explained by specific ion binding to the protein or by differences in ion hydration entropies. The discussion is somewhat one-sided.
+  - **Required correction** Briefly acknowledge alternative explanations for ion-specific effects and state why the Hoffmeister interpretation is preferred.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure referencing
+  - **Affected element** Reference to Figure S1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The text states "Figure S1 shows a photograph of the solution taken with an optical microscope" but does not describe what is visible in the image or how it supports the claim about solid-like particles.
+  - **Required correction** Add a brief description of what is shown in Figure S1 and how it supports the interpretation of solid-liquid phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD simulation methodology and convergence) and R1-M2 (lack of direct evidence for competition mechanism) are the primary technical issues that must be resolved. R1-M3 (quantitative data presentation) is also important for the reader to assess the robustness of the claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is moderately original. While protein-polyelectrolyte complexation is well studied, the systematic comparison of three co-solute classes in a single system, and the specific focus on sucralose as a modulator, provides a new angle. The finding that sucralose, but not sucrose, affects complexation is interesting and not previously reported to the best of my knowledge.
+  - **Scientific importance** The importance is moderate. The results are relevant to protein formulation science and to the fundamental understanding of co-solute effects on macromolecular phase behavior. However, the study is limited to a single model system (BSA/NaPSS) and the mechanistic conclusions are not fully established, which limits the broader impact.
+  - **Interdisciplinary readership** The work has potential appeal across biophysics, soft matter, and pharmaceutical sciences. The use of multiple techniques (turbidimetry, fluorescence, MD) broadens the potential audience. However, the presentation is somewhat specialized and may not be immediately accessible to non-specialists.
+  - **Technical soundness** The experimental design is generally sound, but the MD simulation methodology is under-described and potentially under-converged. The lack of direct evidence for the proposed competition mechanism is a significant gap. The quantitative presentation of results is incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically organized. The abstract is clear. However, some sections (particularly the discussion of ion-specific effects and the MD analysis) assume significant background knowledge. The term "complexation on the wrong side" is used without definition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents a systematic dataset, but the mechanistic claims require stronger support. Specifically, the MD simulation methodology must be fully described and shown to be converged, and the competition mechanism for sucralose should be tested directly or the claims tempered. The quantitative data should be presented in a more accessible format.
+
+## Risk / unsupported claims
+- The claim that sucralose acts as a competitor to NaPSS for BSA is not directly supported by the presented experiments. Fluorescence quenching and MD simulations show interaction between sucralose and BSA, but not competition with NaPSS.
+- The claim that MD simulations confirm the experimental findings is not assessable given the lack of methodological detail and convergence analysis.
+- The claim that PEG-20000 promotes insoluble complex formation via depletion interactions is plausible but is not directly tested. No control experiments (e.g., with a non-depleting polymer) are described.
+- The statement that "the presence of salts also affects protein-protein interactions, resulting in BSA/NaPSS complexation being accompanied by protein aggregation" is inferred from turbidity data but is not directly demonstrated (e.g., by particle sizing or microscopy).
+- The anion-specific trends (NaCl < NaBr < NaI) are reported but the magnitudes of the differences are not quantified, making it difficult to assess whether these trends are significant.

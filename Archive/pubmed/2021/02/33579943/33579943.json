@@ -1,0 +1,598 @@
+{
+  "identity": {
+    "pmid": "33579943",
+    "doi": "10.1038/s41467-021-21258-5",
+    "title": "EGCG binds intrinsically disordered N-terminal domain of p53 and disrupts p53-MDM2 interaction."
+  },
+  "content": {
+    "abstract": "Epigallocatechin gallate (EGCG) from green tea can induce apoptosis in cancerous cells, but the underlying molecular mechanisms remain poorly understood. Using SPR and NMR, here we report a direct, muM interaction between EGCG and the tumor suppressor p53 (K(D) = 1.6 +/- 1.4 muM), with the disordered N-terminal domain (NTD) identified as the major binding site (K(D) = 4 +/- 2 muM). Large scale atomistic simulations (>100 mus), SAXS and AUC demonstrate that EGCG-NTD interaction is dynamic and EGCG causes the emergence of a subpopulation of compact bound conformations. The EGCG-p53 interaction disrupts p53 interaction with its regulatory E3 ligase MDM2 and inhibits ubiquitination of p53 by MDM2 in an in vitro ubiquitination assay, likely stabilizing p53 for anti-tumor activity. Our work provides insights into the mechanisms for EGCG's anticancer activity and identifies p53 NTD as a target for cancer drug discovery through dynamic interactions with small molecules.",
+    "keywords": [],
+    "mesh_terms": [
+      "Apoptosis/*drug effects",
+      "Binding Sites",
+      "Catechin/*analogs & derivatives/*pharmacology",
+      "Cell Line, Tumor",
+      "Epitopes",
+      "Humans",
+      "Protein Binding",
+      "Proto-Oncogene Proteins c-mdm2/*chemistry/metabolism",
+      "Scattering, Small Angle",
+      "Tea",
+      "Tumor Suppressor Protein p53/*chemistry/genetics/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Ubiquitination",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Jing",
+        "Blayney, Alan",
+        "Liu, Xiaorong",
+        "Gandy, Lauren",
+        "Jin, Weihua",
+        "Yan, Lufeng",
+        "Ha, Jeung-Hoi",
+        "Canning, Ashley J",
+        "Connelly, Michael",
+        "Yang, Chao",
+        "Liu, Xinyue",
+        "Xiao, Yuanyuan",
+        "Cosgrove, Michael S",
+        "Solmaz, Sozanne R",
+        "Zhang, Yingkai",
+        "Ban, David",
+        "Chen, Jianhan",
+        "Loh, Stewart N",
+        "Wang, Chunyu"
+      ],
+      "short_names": [
+        "Zhao J",
+        "Blayney A",
+        "Liu X",
+        "Gandy L",
+        "Jin W",
+        "Yan L",
+        "Ha JH",
+        "Canning AJ",
+        "Connelly M",
+        "Yang C",
+        "Liu X",
+        "Xiao Y",
+        "Cosgrove MS",
+        "Solmaz SR",
+        "Zhang Y",
+        "Ban D",
+        "Chen J",
+        "Loh SN",
+        "Wang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0741-1550",
+        "ORCID: 0000-0003-3684-6385",
+        "ORCID: 0000-0002-4984-3354",
+        "ORCID: 0000-0002-5281-1150",
+        "ORCID: 0000-0001-5165-7959"
+      ],
+      "affiliations": [
+        "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing, China.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Chemistry, New York University, New York, NY, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Chemistry, State University of New York at Binghamton, Binghamton, NY, USA.",
+        "Department of Chemistry, New York University, New York, NY, USA.",
+        "NYU-ECNU Center for Computational Chemistry at NYU Shanghai, Shanghai, China.",
+        "Merck Research Laboratories, Mass Spectrometry and Biophysics, Kenilworth, NJ, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Massachusetts, Amherst, MA, USA.",
+        "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA. wangc5@rpi.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing, China.",
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Blayney, Alan",
+        "short_name": "Blayney A",
+        "identifiers": [
+          "0000-0003-0741-1550"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaorong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gandy, Lauren",
+        "short_name": "Gandy L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Weihua",
+        "short_name": "Jin W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Lufeng",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ha, Jeung-Hoi",
+        "short_name": "Ha JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Canning, Ashley J",
+        "short_name": "Canning AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Connelly, Michael",
+        "short_name": "Connelly M",
+        "identifiers": [
+          "0000-0003-3684-6385"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Chao",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyue",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yuanyuan",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Cosgrove, Michael S",
+        "short_name": "Cosgrove MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Solmaz, Sozanne R",
+        "short_name": "Solmaz SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Binghamton, Binghamton, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yingkai",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-4984-3354"
+        ],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, NY, USA.",
+          "NYU-ECNU Center for Computational Chemistry at NYU Shanghai, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ban, David",
+        "short_name": "Ban D",
+        "identifiers": [],
+        "affiliations": [
+          "Merck Research Laboratories, Mass Spectrometry and Biophysics, Kenilworth, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA, USA.",
+          "Department of Biochemistry and Molecular Biology, University of Massachusetts, Amherst, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Loh, Stewart N",
+        "short_name": "Loh SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunyu",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5165-7959"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Department of Biological Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA. wangc5@rpi.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Feb 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/14 06:00",
+    "fetched_at": "2026-09-20 01:21:12"
+  },
+  "links": {
+    "cites": [
+      "42357354",
+      "42248893",
+      "42105150",
+      "42095505",
+      "41235799",
+      "41055109",
+      "40654683",
+      "40532196",
+      "40446154",
+      "40406608",
+      "40332334",
+      "40301924",
+      "40200560",
+      "40068541",
+      "40066160",
+      "39896485",
+      "39764218",
+      "39719646",
+      "39636143",
+      "39605539",
+      "39359255",
+      "39345207",
+      "39290275",
+      "38910554",
+      "38826134",
+      "38737068",
+      "38618243",
+      "38505224",
+      "38424045",
+      "38418456",
+      "38371993",
+      "38305391",
+      "38286301",
+      "38213552",
+      "38196913",
+      "38018912",
+      "37960113",
+      "37645312",
+      "37507860",
+      "37266130",
+      "37241789",
+      "37072325",
+      "36979465",
+      "36890899",
+      "36791464",
+      "36765820",
+      "36557795",
+      "36386472",
+      "36230577",
+      "36032526",
+      "35956766",
+      "35874820",
+      "35720128",
+      "35684132",
+      "35437852",
+      "35402265",
+      "35394679",
+      "35229716",
+      "35211881",
+      "35203243",
+      "34799573",
+      "34786057",
+      "34744708",
+      "34680048",
+      "34638779",
+      "34493333",
+      "34413896",
+      "33984364"
+    ],
+    "refs": [
+      "35528565",
+      "31476124",
+      "31241933",
+      "29883595",
+      "29739979",
+      "29735687",
+      "29603125",
+      "29021737",
+      "28885015",
+      "28876235",
+      "28808438",
+      "28723868",
+      "28297651",
+      "28209333",
+      "28054562",
+      "28040581",
+      "27645804",
+      "27630371",
+      "27498709",
+      "26592131",
+      "26412649",
+      "26303273",
+      "26213979",
+      "25362358",
+      "23483203",
+      "23201840",
+      "22125474",
+      "21714551",
+      "21425280",
+      "21241884",
+      "20598937",
+      "20444544",
+      "20424128",
+      "19781850",
+      "19755502",
+      "19406223",
+      "18391200",
+      "17521163",
+      "17266926",
+      "17088319",
+      "16982771",
+      "16510563",
+      "16172406",
+      "15855171",
+      "15510160",
+      "15269163",
+      "15264254",
+      "15116359",
+      "14704432",
+      "14499615",
+      "12894226",
+      "12667443",
+      "12628518",
+      "12559991",
+      "12397362",
+      "11414845",
+      "11237198",
+      "11228105",
+      "10692345",
+      "10354416",
+      "9733514",
+      "9388788",
+      "8875929",
+      "8479525",
+      "7809597",
+      "7761466",
+      "7655336",
+      "7217094",
+      "1960729"
+    ],
+    "similar": [
+      "33579943",
+      "23483203",
+      "22337874",
+      "16866370",
+      "30455251",
+      "16857591",
+      "20484049",
+      "26720344",
+      "21084285",
+      "22819825",
+      "24413081",
+      "19321440",
+      "24842904",
+      "19406223",
+      "20333547",
+      "29295817",
+      "20173098",
+      "22807444",
+      "25543083",
+      "28000315",
+      "12894226",
+      "33450248",
+      "22586610",
+      "23671280",
+      "35944929",
+      "22266850",
+      "25313037",
+      "12595758",
+      "17369817",
+      "20963498",
+      "17310983",
+      "35171268",
+      "19160491",
+      "31796886",
+      "20816748",
+      "21887275",
+      "38301272",
+      "21558803",
+      "30679555",
+      "28196907",
+      "23826318",
+      "12586742",
+      "31421630",
+      "23839035",
+      "22134240",
+      "15764647",
+      "16446403",
+      "34716260",
+      "9878046",
+      "12832479",
+      "24755078",
+      "22552582",
+      "20591429",
+      "37353565",
+      "11925449",
+      "21528875",
+      "19816404",
+      "20479273",
+      "19619542",
+      "21986495",
+      "16455486",
+      "22940738",
+      "26926424",
+      "24003224",
+      "30735716",
+      "19244339",
+      "18332869",
+      "17630506",
+      "22673503",
+      "26343143",
+      "19033443",
+      "22103682",
+      "17041754",
+      "33277368",
+      "25584963",
+      "20081365",
+      "21572037",
+      "27905468",
+      "20639885",
+      "21478269",
+      "36952348",
+      "16803902",
+      "17335006",
+      "14701854",
+      "28166445",
+      "24065519",
+      "22666487",
+      "21060154",
+      "22777350",
+      "16789731",
+      "32819562",
+      "23462994",
+      "23017582",
+      "23609977",
+      "29878773",
+      "27543608",
+      "17908790",
+      "23652204",
+      "30989812",
+      "35053170",
+      "31665549"
+    ],
+    "review": [
+      "33579943",
+      "21558803",
+      "22134240",
+      "16455486",
+      "17630506",
+      "22673503"
+    ],
+    "pmc": [
+      "7881117"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-21258-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33579943/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33579943",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33579943",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

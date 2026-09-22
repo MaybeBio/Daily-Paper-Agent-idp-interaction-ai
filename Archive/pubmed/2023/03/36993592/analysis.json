@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36993592",
+  "title": "The analytical Flory random coil is a simple-to-use reference model for unfolded and disordered proteins.",
+  "authors": "Alston, Jhullian J; Ginell, Garrett M; Soranno, Andrea; Holehouse, Alex S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-03-31",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出解析Flory无规线团模型(AFRC)作为无序蛋白的参考模型，基于全原子模拟参数化，用于识别序列特异性分子内相互作用并解释实验数据，虽涉及无序蛋白构象但未直接研究PPI或互作机制，方法为物理建模而非AI/对接，故评6分。",
+  "abstract": "Denatured, unfolded, and intrinsically disordered proteins (collectively referred to here as unfolded proteins) can be described using analytical polymer models. These models capture various polymeric properties and can be fit to simulation results or experimental data. However, the model parameters commonly require users' decisions, making them useful for data interpretation but less clearly applicable as stand-alone reference models. Here we use all-atom simulations of polypeptides in conjunction with polymer scaling theory to parameterize an analytical model of unfolded polypeptides that behave as ideal chains (nu = 0.50). The model, which we call the analytical Flory Random Coil (AFRC), requires only the amino acid sequence as input and provides direct access to probability distributions of global and local conformational order parameters. The model defines a specific reference state to which experimental and computational results can be compared and normalized. As a proof-of-concept, we use the AFRC to identify sequence-specific intramolecular interactions in simulations of disordered proteins. We also use the AFRC to contextualize a curated set of 145 different radii of gyration obtained from previously published small-angle X-ray scattering experiments of disordered proteins. The AFRC is implemented as a stand-alone software package and is also available via a Google colab notebook. In summary, the AFRC provides a simple-to-use reference polymer model that can guide intuition and aid in interpreting experimental or simulation results.",
+  "abstract_zh": "变性、未折叠及固有无序蛋白质（此处统称为未折叠蛋白质）可通过解析聚合物模型进行描述。这些模型捕捉多种聚合特性，并可拟合至模拟结果或实验数据。然而，模型参数通常需要用户决策，使其适用于数据解释，但作为独立参考模型的适用性不够明确。在此，我们利用多肽的全原子模拟结合聚合物标度理论，参数化一个解析模型，用于描述表现为理想链（ν = 0.50）的未折叠多肽。该模型称为解析弗洛里无规卷曲（analytical Flory Random Coil, AFRC），仅需氨基酸序列作为输入，并直接提供全局和局部构象序参数的概率分布。该模型定义了一个特定参考态，实验和计算结果可与之比较并归一化。作为概念验证，我们使用AFRC识别无序蛋白质模拟中的序列特异性分子内相互作用。我们还利用AFRC对从先前发表的无序蛋白质小角X射线散射实验中获得的145个不同回转半径的精选数据集进行情境化分析。AFRC作为独立软件包实现，并可通过Google Colab笔记本获取。总之，AFRC提供了一个易于使用的参考聚合物模型，可指导直觉并辅助解释实验或模拟结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36993592/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36993592/",
+  "paper_page_path": "papers/pubmed/36993592/index.html"
+}

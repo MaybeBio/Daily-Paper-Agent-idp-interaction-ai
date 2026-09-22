@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37167199",
+  "title": "Conformation and Affinity Modulations by Multiple Phosphorylation Occurring in the BIN1 SH3 Domain Binding Site of the Tau Protein Proline-Rich Region.",
+  "authors": "Lasorsa, Alessia; Bera, Krishnendu; Malki, Idir; Dupre, Elian; Cantrelle, Francois-Xavier; Merzougui, Hamida; Sinnaeve, Davy; Hanoulle, Xavier; Hritz, Jozef; Landrieu, Isabelle",
+  "journal": "Biochemistry",
+  "published_date": "2023-05-11",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合NMR与MD模拟，揭示Tau无序蛋白区域多位点磷酸化通过改变构象压实和盐桥形成来间接调节BIN1 SH3结构域结合亲和力，直接聚焦IDR介导的PPI机制建模，方法上以物理模拟为主，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "An increase in phosphorylation of the Tau protein is associated with Alzheimer's disease (AD) progression through unclear molecular mechanisms. In general, phosphorylation modifies the interaction of intrinsically disordered proteins, such as Tau, with other proteins; however, elucidating the structural basis of this regulation mechanism remains challenging. The bridging integrator-1 gene is an AD genetic determinant whose gene product, BIN1, directly interacts with Tau. The proline-rich motif recognized within a Tau(210-240) peptide by the SH3 domain of BIN1 (BIN1 SH3) is defined as (216)PTPP(219), and this interaction is modulated by phosphorylation. Phosphorylation of T217 within the Tau(210-240) peptide led to a 6-fold reduction in the affinity, while single phosphorylation at either T212, T231, or S235 had no effect on the interaction. Nonetheless, combined phosphorylation of T231 and S235 led to a 3-fold reduction in the affinity, although these phosphorylations are not within the BIN1 SH3-bound region of the Tau peptide. Using nuclear magnetic resonance (NMR) spectroscopy, these phosphorylations were shown to affect the local secondary structure and dynamics of the Tau(210-240) peptide. Models of the (un)phosphorylated peptides were obtained from molecular dynamics (MD) simulation validated by experimental data and showed compaction of the phosphorylated peptide due to increased salt bridge formation. This dynamic folding might indirectly impact the BIN1 SH3 binding by a decreased accessibility of the binding site. Regulation of the binding might thus not only be due to local electrostatic or steric effects from phosphorylation but also to the modification of the conformational properties of Tau.",
+  "abstract_zh": "Tau蛋白磷酸化增加与阿尔茨海默病（Alzheimer's disease, AD）进展相关，但其分子机制尚不明确。一般而言，磷酸化修饰 intrinsically disordered proteins（如Tau）与其他蛋白质的相互作用；然而，阐明这一调控机制的结构基础仍具挑战性。bridging integrator-1基因是AD遗传决定因子，其基因产物BIN1直接与Tau相互作用。BIN1的SH3结构域（BIN1 SH3）在Tau(210-240)肽段中识别出的富含脯氨酸基序被定义为(216)PTPP(219)，且该相互作用受磷酸化调控。Tau(210-240)肽段中T217的磷酸化导致亲和力降低6倍，而T212、T231或S235的单一位点磷酸化对相互作用无影响。然而，T231和S235的联合磷酸化导致亲和力降低3倍，尽管这些磷酸化位点不在BIN1 SH3结合的Tau肽段区域内。利用核磁共振（nuclear magnetic resonance, NMR）波谱学，这些磷酸化被证明影响Tau(210-240)肽段的局部二级结构和动力学。通过分子动力学（molecular dynamics, MD）模拟获得（未）磷酸化肽段的模型，并经实验数据验证，显示磷酸化肽段因盐桥形成增加而致密化。这种动态折叠可能通过降低结合位点的可及性间接影响BIN1 SH3结合。因此，结合的调控可能不仅源于磷酸化的局部静电或空间效应，还源于Tau构象特性的改变。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37167199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37167199/",
+  "paper_page_path": "papers/pubmed/37167199/index.html"
+}

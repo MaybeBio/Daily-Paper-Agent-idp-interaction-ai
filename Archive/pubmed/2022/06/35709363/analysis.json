@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35709363",
+  "title": "Insights into the Atomistic Mechanisms of Phosphorylation in Disrupting Liquid-Liquid Phase Separation and Aggregation of the FUS Low-Complexity Domain.",
+  "authors": "Lao, Zenghui; Dong, Xuewei; Liu, Xianshi; Li, Fangying; Chen, Yujie; Tang, Yiming; Wei, Guanghong",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-06-17",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子分子动力学模拟，系统揭示了磷酸化通过改变FUS低复杂度域构象、削弱蛋白互作并增强蛋白-水互作来破坏液-液相分离和纤维聚集的原子机制，直接命中无序蛋白相分离PPI的物理模拟机制建模核心。",
+  "abstract": "Fused in sarcoma (FUS), a nuclear RNA binding protein, can not only undergo liquid-liquid phase separation (LLPS) to form dynamic biomolecular condensates but also aggregate into solid amyloid fibrils which are associated with the pathology of amyotrophic lateral sclerosis and frontotemporal lobar degeneration diseases. Phosphorylation in the FUS low-complexity domain (FUS-LC) inhibits FUS LLPS and aggregation. However, it remains largely elusive what are the underlying atomistic mechanisms of this inhibitory effect and whether phosphorylation can disrupt preformed FUS fibrils, reversing the FUS gel/solid phase toward the liquid phase. Herein, we systematically investigate the impacts of phosphorylation on the conformational ensemble of the FUS(37-97) monomer and dimer and the structure of the FUS(37-97) fibril by performing extensive all-atom molecular dynamics simulations. Our simulations reveal three key findings: (1) phosphorylation shifts the conformations of FUS(37-97) from the beta-rich, fibril-competent state toward a helix-rich, fibril-incompetent state; (2) phosphorylation significantly weakens protein-protein interactions and enhances protein-water interactions, which disfavor FUS-LC LLPS as well as aggregation and facilitate the dissolution of the preformed FUS-LC fibril; and (3) the FUS(37-97) peptide displays a high beta-strand probability in the region spanning residues 52-67, and phosphorylation at S54 and S61 residues located in this region is crucial for the disruption of LLPS and aggregation of FUS-LC. This study may pave the way for ameliorating phase-separation-related pathologies via site-specific phosphorylation.",
+  "abstract_zh": "肉瘤融合蛋白（FUS），一种核RNA结合蛋白，不仅能通过液-液相分离（LLPS）形成动态生物分子凝聚体，还能聚集成与肌萎缩侧索硬化症和额颞叶变性病病理相关的固体淀粉样纤维。FUS低复杂度结构域（FUS-LC）中的磷酸化抑制FUS的LLPS和聚集。然而，这种抑制效应背后的原子级机制以及磷酸化是否能破坏预先形成的FUS纤维，将FUS凝胶/固相逆转为液相，仍 largely 未知。在此，我们通过进行广泛的全程原子分子动力学模拟，系统研究了磷酸化对FUS(37-97)单体和二聚体构象集合以及FUS(37-97)纤维结构的影响。我们的模拟揭示了三个关键发现：（1）磷酸化将FUS(37-97)的构象从富含β-折叠、具备纤维形成能力的状态转变为富含螺旋、不具备纤维形成能力的状态；（2）磷酸化显著削弱蛋白质-蛋白质相互作用并增强蛋白质-水相互作用，这不利于FUS-LC的LLPS及聚集，并促进预先形成的FUS-LC纤维的溶解；（3）FUS(37-97)肽段在跨越残基52-67的区域显示出高β-链概率，且位于该区域的S54和S61残基处的磷酸化对破坏FUS-LC的LLPS和聚集至关重要。这项研究可能为通过位点特异性磷酸化改善相分离相关病理铺平道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35709363/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35709363/",
+  "paper_page_path": "papers/pubmed/35709363/index.html"
+}

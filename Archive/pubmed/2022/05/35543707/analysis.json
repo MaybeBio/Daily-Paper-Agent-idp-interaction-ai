@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35543707",
+  "title": "Molecular Dynamics-Assisted Interpretation of Experimentally Determined Intrinsically Disordered Protein Conformational Components: The Case of Human alpha-Synuclein.",
+  "authors": "Palomino-Hernandez, Oscar; Santambrogio, Carlo; Rossetti, Giulia; Fernandez, Claudio O; Grandori, Rita; Carloni, Paolo",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-05-12",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用长时程MD模拟解释alpha-synuclein（IDP）的实验构象组分，聚焦单蛋白构象与分子内相互作用，虽无直接PPI，但方法可迁移至IDP互作机制建模。",
+  "abstract": "Mass spectrometry and single molecule force microscopy are two experimental approaches able to provide structural information on intrinsically disordered proteins (IDPs). These techniques allow the dissection of conformational ensembles in their main components, although at a low-resolution level. In this work, we interpret the results emerging from these experimental approaches on human alpha synuclein (AS) by analyzing a previously published 73 mus-long molecular-dynamics (MD) simulation of the protein in explicit solvent. We further compare MD-based predictions of single molecule Forster resonance energy transfer (smFRET) data of AS in solution with experimental data. The combined theoretical and experimental data provide a description of AS main conformational ensemble, shedding light into its intramolecular interactions and overall structural compactness. This analysis could be easily transferred to other IDPs.",
+  "abstract_zh": "质谱法和单分子力显微镜是两种能够提供 intrinsically disordered proteins (IDPs) 结构信息的实验方法。这些技术能够在低分辨率水平上解析构象集合的主要组成部分。在本研究中，我们通过分析先前发表的73微秒长的分子动力学 (molecular dynamics) 模拟（在显式溶剂中进行）来解释这些实验方法对人类α-突触核蛋白 (AS) 的结果。我们进一步将基于MD预测的AS在溶液中的单分子福斯特共振能量转移 (smFRET) 数据与实验数据进行比较。理论与实验数据的结合提供了AS主要构象集合的描述，揭示了其分子内相互作用和整体结构紧凑性。此分析可轻松应用于其他IDPs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35543707/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35543707/",
+  "paper_page_path": "papers/pubmed/35543707/index.html"
+}

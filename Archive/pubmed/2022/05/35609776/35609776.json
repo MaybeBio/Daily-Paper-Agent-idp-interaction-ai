@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "35609776",
+    "doi": "10.1016/j.ymeth.2022.05.006",
+    "title": "Multi-level analysis of intrinsically disordered protein docking methods."
+  },
+  "content": {
+    "abstract": "Intrinsically Disordered Proteins (IDPs) are a class of proteins in which at least some region of the protein does not possess any stable structure in solution in the physiological condition but may adopt an ordered structure upon binding to a globular receptor. These IDP-receptor complexes are thus subject to protein complex modeling in which computational techniques are applied to accurately reproduce the IDP ligand-receptor interactions. This often exists in the form of protein docking, in which the 3D structures of both the subunits are known, but the position of the ligand relative to the receptor is not. Here, we evaluate the performance of three IDP-receptor modeling tools with metrics that characterize the IDP-receptor interface at various resolutions. We show that all three methods are able to properly identify the general binding site, as identified by lower resolution metrics, but begin to struggle with higher resolution metrics that capture biophysical interactions.",
+    "keywords": [
+      "Alphafold-Multimer",
+      "CABS-Dock",
+      "Computational methods",
+      "IDP-LZerD",
+      "Intrinsically disordered protein",
+      "Protein docking",
+      "Protein structure prediction",
+      "idp",
+      "idp-receptor complex"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verburgt, Jacob",
+        "Zhang, Zicong",
+        "Kihara, Daisuke"
+      ],
+      "short_names": [
+        "Verburgt J",
+        "Zhang Z",
+        "Kihara D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, Purdue University, West Lafayette, IN 47907, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA.",
+        "Department of Biological Sciences, Purdue University, West Lafayette, IN 47907, USA; Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA; Purdue University Center for Cancer Research, Purdue University, West Lafayette, IN 47907, USA. Electronic address: dkihara@purdue.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verburgt, Jacob",
+        "short_name": "Verburgt J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Purdue University, West Lafayette, IN 47907, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zicong",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA."
+        ]
+      },
+      {
+        "full_name": "Kihara, Daisuke",
+        "short_name": "Kihara D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Purdue University, West Lafayette, IN 47907, USA; Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA; Purdue University Center for Cancer Research, Purdue University, West Lafayette, IN 47907, USA. Electronic address: dkihara@purdue.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/25 06:00",
+    "fetched_at": "2026-09-20 10:40:13"
+  },
+  "links": {
+    "cites": [
+      "41873490",
+      "41441193",
+      "41002412",
+      "40620935",
+      "40496891",
+      "40153681",
+      "39763873",
+      "38987470",
+      "38987469",
+      "38409704",
+      "38106114",
+      "36851914",
+      "36232986"
+    ],
+    "refs": [
+      "35013344",
+      "34453465",
+      "34265844",
+      "33963854",
+      "33629837",
+      "32936641",
+      "32621228",
+      "31784535",
+      "31696235",
+      "31251384",
+      "30865258",
+      "30535134",
+      "29982280",
+      "29397728",
+      "29035372",
+      "28597296",
+      "28483149",
+      "28394890",
+      "27899574",
+      "27333362",
+      "26752681",
+      "25750595",
+      "25531225",
+      "25398609",
+      "24573470",
+      "22488467",
+      "22004759",
+      "21887241",
+      "21732421",
+      "20003235",
+      "19444816",
+      "18391200",
+      "17681540",
+      "17238265",
+      "15310560",
+      "15019783",
+      "12784368",
+      "12381853",
+      "9917408"
+    ],
+    "similar": [
+      "35609776",
+      "32621228",
+      "28394890",
+      "34799573",
+      "39163306",
+      "35762718",
+      "34504009",
+      "38987470",
+      "37511544",
+      "37722056",
+      "36714997",
+      "24329095",
+      "32722166",
+      "38018910",
+      "34358545",
+      "30979035",
+      "26387104",
+      "30091924",
+      "30058229",
+      "30992509",
+      "29228892",
+      "33087759",
+      "30278223",
+      "25287424",
+      "27844185",
+      "30471688",
+      "34610267",
+      "35762723",
+      "32112084",
+      "31021441",
+      "26226419",
+      "30909517",
+      "26931396",
+      "37338049",
+      "35883018",
+      "29276882",
+      "37838830",
+      "35436286",
+      "35507260",
+      "33355572",
+      "28780862",
+      "24898547",
+      "36116541",
+      "23170892",
+      "29990433",
+      "26879470",
+      "24606139",
+      "24604825",
+      "25263009",
+      "25611056",
+      "28805312",
+      "23794453",
+      "30865832",
+      "34902817",
+      "32696395",
+      "38396678",
+      "35944496",
+      "37992088",
+      "25631161",
+      "36305763",
+      "32771522",
+      "29306779",
+      "28914483",
+      "28493424",
+      "29051952",
+      "23531173",
+      "26195786",
+      "31702919",
+      "32696381",
+      "29716994",
+      "37883249",
+      "32426975",
+      "28076807",
+      "34845619",
+      "32323533",
+      "25863585",
+      "30840442",
+      "28926706",
+      "32936312",
+      "31207240",
+      "35454181",
+      "36551304",
+      "32103094",
+      "26387102",
+      "32045581",
+      "26387098",
+      "31809054",
+      "34656328",
+      "31326517",
+      "31707710",
+      "24098099",
+      "32429036",
+      "31797594",
+      "26742101",
+      "34259536",
+      "30733478",
+      "24278008",
+      "30316104",
+      "32579908",
+      "35245498",
+      "35139468",
+      "30445805",
+      "37847354",
+      "38861600",
+      "35739160",
+      "36250006",
+      "37153862",
+      "28537592",
+      "38039154",
+      "35529627",
+      "35335203",
+      "37648703",
+      "36529945",
+      "38183957",
+      "36304330",
+      "37405868",
+      "38441723",
+      "39126896",
+      "38293114",
+      "37898666"
+    ],
+    "review": [
+      "35609776",
+      "34358545",
+      "30979035",
+      "26387104",
+      "30278223",
+      "25287424",
+      "34610267",
+      "31021441",
+      "26226419",
+      "30909517",
+      "33355572",
+      "23170892",
+      "24606139",
+      "25263009",
+      "23794453",
+      "34902817",
+      "29306779",
+      "25863585",
+      "30840442",
+      "36551304",
+      "26387102",
+      "32045581",
+      "26387098",
+      "31326517",
+      "31707710",
+      "32429036",
+      "30316104",
+      "35139468",
+      "30445805",
+      "36250006"
+    ],
+    "pmc": [
+      "9701586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(22)00120-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35609776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35609776",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41378882",
+  "title": "Impact of intrinsically disordered regions and functional disorder hotspots in the human kinome.",
+  "authors": "Thomas, Sonet Daniel; Rajan, Aparna; Mahin, Althaf; Ahmed, Mukthar; Pavithra, S; Vignesh, U; Joy, Naveen; John, Levin; Varghese, Lijin; Sambreena, Alimath; Codi, Jalaluddin Akbar Kandel; Prasad, Thottethodi Subrahmanya Keshava; Vijayakumar, Manavalan; Geetha, S; Parvathi, R; Ganesan, R; Raju, Rajesh",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用LSTM深度学习预测人类激酶组中的无序区域，并分析其与磷酸化、功能基序及突变的关系，虽涉及IDR和功能热点，但未聚焦PPI互作机制建模，方法为预测而非互作模拟。",
+  "abstract": "A ubiquitous and reversible phosphorylation is important for molecular signaling cascades, regulated by the transient interaction of protein kinases. The coupled folding and phosphorylation determining substrate specificity re-calibrates the interactive environment of intrinsically disordered regions (IDRs). There are over 50 computational methods for predicting IDRs in the proteome, yet achieving an accurate depiction remains an ongoing challenge. In this study, we present a standardized and kinase-centric approach for IDR prediction within the human kinome, employing a long short-term memory deep learning framework that achieves a high predictive performance (AUC = 0.97). The web server is now publicly accessible at: https://ciods.in/kindisorder. Our workflow begins with proteome-wide IDR prediction and proceeds with the categorization of short and long IDR segments, followed by an in-depth analysis of their distribution relative to the kinase domain regulatory core. We evaluated the conservation of these IDRs across all 137 human kinase families, computing a trend-setting conservation index to identify both conserved and variable disorder patterns. Through this framework, we uncovered 1039 functional disorder region hotspots that correlate with dynamic conformational shifts, phosphorylation sites, functional motif enrichment, and mutation impact embedded within IDRs. To further validate their regulatory significance, we conducted biophysical profiling of conserved and variable IDRs. Finally, we developed a structural integrity framework to link these IDRs to their influence on intrinsic signaling cascades and substrate specificity. This study offers a comprehensive functional characterization of IDRs in the human kinome, providing a valuable resource for exploring kinase regulation and opportunities in drug repurposing.",
+  "abstract_zh": "普遍且可逆的磷酸化对于分子信号级联反应至关重要，其由蛋白激酶的瞬时相互作用调控。偶联的折叠与磷酸化决定底物特异性，重新校准了固有无序区域（IDRs）的交互环境。目前已有超过50种计算方法用于预测蛋白质组中的IDRs，但实现精确描绘仍是一个持续挑战。在本研究中，我们提出了一种标准化且以激酶为中心的方法，用于人类激酶组中的IDR预测，采用长短期记忆深度学习框架，实现了高预测性能（AUC = 0.97）。该网络服务器现已公开访问，网址为：https://ciods.in/kindisorder。我们的工作流程始于全蛋白质组范围的IDR预测，随后对短和长IDR片段进行分类，并深入分析它们相对于激酶结构域调控核心的分布。我们评估了这些IDRs在所有137个人类激酶家族中的保守性，计算了一个趋势性保守指数，以识别保守和可变的无序模式。通过这一框架，我们发现了1039个功能性无序区域热点，这些热点与动态构象变化、磷酸化位点、功能基序富集以及IDRs内嵌入的突变影响相关。为进一步验证其调控意义，我们对保守和可变的IDRs进行了生物物理特性分析。最后，我们开发了一个结构完整性框架，将这些IDRs与其对内在信号级联和底物特异性的影响联系起来。本研究提供了人类激酶组中IDRs的全面功能表征，为探索激酶调控和药物再利用机会提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41378882/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41378882/",
+  "paper_page_path": "papers/pubmed/41378882/index.html"
+}

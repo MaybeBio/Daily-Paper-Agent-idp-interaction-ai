@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34270995",
+  "title": "Crowding affects structural dynamics and contributes to membrane association of the NS3/4A complex.",
+  "authors": "Ostrowska, Natalia; Feig, Michael; Trylska, Joanna",
+  "journal": "Biophysical journal",
+  "published_date": "2021-07-17",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用MD模拟研究拥挤环境对HCV NS3/4A复合物中无序NS4A尾部的结构动态及膜结合的影响，聚焦无序片段构象变化与功能关联，但互作对象为病毒蛋白酶复合物而非典型PPI，机制建模深度中等。",
+  "abstract": "Using molecular dynamics simulations, we describe how crowded environments affect the internal dynamics and diffusion of the hepatitis C virus proteases NS3/4A. This protease plays a key role in viral replication and is successfully used as a target for antiviral treatment. The NS3 enzyme requires a peptide cofactor, called NS4A, with its central part interacting with the NS3 beta-sheet, and flexible, protruding terminal tails that are unstructured in water solution. The simulations describe the enzyme and water molecules at atomistic resolution, whereas crowders are modeled via either all-atom or coarse-grained models to emphasize different aspects of crowding. Crowders reflect the polyethylene glycol (PEG) molecules used in the experiments to mimic the crowded surrounding. A bead-shell model of folded coarse-grained PEG molecules considers mainly the excluded volume effect, whereas all-atom PEG models afford more protein-like crowder interactions. Circular dichroism spectroscopy experiments of the NS4A N-terminal tail show that a helical structure is formed in the presence of PEG crowders. The simulations suggest that crowding may assist in the formation of an NS4A helical fragment, positioned exactly where a transmembrane helix would fold upon the NS4A contact with the membrane. In addition, partially interactive PEGs help the NS4A N-tail to detach from the protease surface, thus enabling the process of helix insertion and potentially helping the virus establish a replication machinery needed to produce new viruses. Results point to an active role of crowding in assisting structural changes in disordered protein fragments that are necessary for their biological function.",
+  "abstract_zh": "利用分子动力学模拟，我们描述了拥挤环境如何影响丙型肝炎病毒蛋白酶NS3/4A的内部动力学和扩散。该蛋白酶在病毒复制中扮演关键角色，并成功用作抗病毒治疗的靶点。NS3酶需要一种称为NS4A的肽辅因子，其中心部分与NS3的β-折叠相互作用，而柔性的、突出的末端尾巴在水溶液中呈无序状态。模拟以原子级分辨率描述了酶和水分子，而拥挤剂则通过全原子或粗粒化模型进行建模，以强调拥挤的不同方面。拥挤剂反映了实验中用于模拟拥挤周围环境的聚乙二醇（PEG）分子。折叠的粗粒化PEG分子的珠壳模型主要考虑排除体积效应，而全原子PEG模型则提供更类似蛋白质的拥挤剂相互作用。NS4A N端尾巴的圆二色光谱实验表明，在PEG拥挤剂存在下会形成螺旋结构。模拟提示，拥挤可能有助于NS4A螺旋片段的形成，该片段恰好位于NS4A与膜接触时跨膜螺旋折叠的位置。此外，部分相互作用的PEG有助于NS4A N端尾巴从蛋白酶表面脱离，从而促进螺旋插入过程，并可能帮助病毒建立产生新病毒所需的复制机制。结果表明，拥挤在无序蛋白质片段的结构变化中发挥积极作用，这些变化对其生物学功能至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34270995/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34270995/",
+  "paper_page_path": "papers/pubmed/34270995/index.html"
+}

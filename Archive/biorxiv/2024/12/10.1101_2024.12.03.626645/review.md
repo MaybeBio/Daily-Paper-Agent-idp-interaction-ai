@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific content, methodology, evidence quality, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors report that protein-protein interface frustration in PROTAC ternary complexes correlates with experimentally determined cooperativity, based on X-ray crystal structures, MD simulations, and comparative modeling for SMARCA2-VHL systems
+- **Visible evidence base** X-ray crystal structures of four ternary complexes, MD simulations of those complexes, comparative modeling plus MD for 11 additional PROTACs, and correlation analysis between frustration metrics and cooperativity
+- **Missing materials affecting confidence** No figures, tables, structural coordinates, simulation parameters, statistical details, or experimental cooperativity data are provided in the supplied text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in targeted protein degradation, namely the molecular determinants of PROTAC cooperativity. The central hypothesis that interface frustration correlates with cooperativity is novel and potentially impactful. However, the supplied material lacks the quantitative evidence needed to evaluate the strength of the correlation, the robustness of the frustration metric, and the validity of the comparative modeling approach. The claims are plausible but currently not fully established from the provided text alone.
+- **Who would be interested in the results, and why** Researchers in chemical biology, structural biology, and computational drug discovery, particularly those working on PROTAC design, ternary complex structure-function relationships, and protein-protein interaction energetics. The work could inform rational design strategies for degraders and related proximity-inducing modalities.
+- **Major strengths** The study combines experimental structural data with computational simulation to address a dynamic aspect of ternary complexes that static structures cannot capture. The focus on frustration as a metric is conceptually interesting and moves beyond simple contact analysis. The inclusion of multiple PROTACs and correlation with cooperativity is a strong design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim a positive correlation between the number of frustrated residue pairs averaged over the MD ensemble and experimentally determined cooperativity  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The correlation is stated but no statistical parameters are given, such as correlation coefficient, p-value, sample size, or confidence intervals. Without these, the strength and significance of the claimed correlation cannot be assessed.  
+  - **Why it matters** The central conclusion of the paper rests on this correlation. If the correlation is weak or driven by outliers, the proposed framework for PROTAC design would not be supported.  
+  - **Resolution test** Provide the correlation coefficient, p-value, and a scatter plot of frustration versus cooperativity for all 11 PROTACs, along with error bars or uncertainty estimates for the frustration values.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological validation  
+  - **Claim pointer** The authors state that comparative modeling followed by MD was used to model TC ensembles for 11 PROTACs  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Concern** No details are given on the template structures, sequence identity, modeling software, selection criteria for models, or validation of the modeled complexes. The reliability of the frustration calculation depends critically on the quality of these models.  
+  - **Why it matters** If the modeled structures are inaccurate, the frustration values derived from them would be unreliable, undermining the correlation analysis.  
+  - **Resolution test** Describe the comparative modeling protocol, including template selection, alignment quality, model scoring, and any validation against experimental structures or known contacts.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Metric robustness  
+  - **Claim pointer** The authors define frustration as residue pairs adopting a suboptimal energetic state  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Concern** The specific definition of frustration is not provided. It is unclear whether this refers to a local energy landscape analysis, a mutational frustration index, or a contact-based energetic score. The sensitivity of the results to this definition is unknown.  
+  - **Why it matters** Different frustration metrics can yield different results. Without a clear definition and sensitivity analysis, the reader cannot judge whether the correlation is an artifact of the chosen metric.  
+  - **Resolution test** Provide the exact formula or algorithm used to compute frustration, and show that the correlation holds across reasonable variations of the metric parameters.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Experimental validation  
+  - **Claim pointer** The authors state that the SMARCA2-VHL interface is flexible with multiple energy minima  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The claim of multiple energy minima is based on MD simulations, but no experimental validation is provided, such as mutagenesis, hydrogen-deuterium exchange, or NMR relaxation data.  
+  - **Why it matters** MD simulations can sample metastable states that are not biologically relevant. Experimental confirmation would strengthen the claim that the observed flexibility is functionally meaningful.  
+  - **Resolution test** Provide experimental evidence for interface dynamics, or clearly state that the claim is simulation-based and discuss the limitations.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that frustration "can play an important role" but does not quantify the effect size or practical implications for design.  
+  - **Required correction** Add a sentence specifying the strength of the correlation and its practical utility, such as whether it can rank PROTACs by cooperativity.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Methods  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Issue** The MD simulation parameters, such as force field, water model, simulation length, and number of replicates, are not stated.  
+  - **Required correction** Provide full simulation details to enable reproduction.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Results  
+  - **Evidence pointer** Results section, location not provided  
+  - **Issue** The number of frustrated residue pairs is described as "averaged over the MD ensemble," but the number of independent simulations and the convergence criteria are not given.  
+  - **Required correction** Report the number of replicates and show convergence of the frustration metric over time.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Discussion  
+  - **Evidence pointer** Discussion section, location not provided  
+  - **Issue** The authors generalize to "structure-based design of PROTACs" but only studied one POI and one E3 ligase.  
+  - **Required correction** Acknowledge the limited generality and suggest future work on other POI-E3 pairs.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central correlation and the reliability of the modeled structures are not assessable from the supplied material. R1-M3 and R1-M4 are important but not strictly blocking if the authors provide adequate justification.
+- **Assessment against Nature-style criteria**  
+  - Originality: High. The concept of interface frustration as a driver of cooperativity is novel and not previously reported for PROTACs.  
+  - Scientific importance: Potentially high, as it could provide a new design principle for degraders, but the current evidence is insufficient to establish this.  
+  - Interdisciplinary readership: The topic bridges structural biology, computational chemistry, and drug discovery, which would appeal to a broad audience if the claims are well supported.  
+  - Technical soundness: Not fully assessable due to missing methodological details and statistical reporting.  
+  - Readability for nonspecialists: The abstract is accessible, but the body likely requires domain expertise; the supplied text is too brief to judge fully.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit with full methodological details, statistical analysis of the correlation, and validation of the modeling approach.
+
+## Risk / unsupported claims
+- The positive correlation between frustration and cooperativity is stated without statistical support and is therefore unsupported as presented.
+- The claim that frustration provides a "rational framework" for PROTAC design is an extrapolation that is not justified by the data shown.
+- The assertion that the interface is "flexible with multiple energy minima" is simulation-based and not experimentally validated.
+- The generalizability of the findings beyond SMARCA2-VHL is not established.

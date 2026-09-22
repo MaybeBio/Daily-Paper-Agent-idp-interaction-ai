@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "36542916",
+    "doi": "10.1016/j.jmgm.2022.108398",
+    "title": "Understanding the screening effect of aqueous DES on the IDPs: A molecular dynamics simulation study using amyloid beta(42) monomer."
+  },
+  "content": {
+    "abstract": "Deep eutectic solvents (DESs) have emerged as the promising replacement to the ionic liquids in solvent engineering for bio-compatibility. We aim to understand the effect of aqueous deep eutectic solvents on the conformation of intrinsically disordered proteins (IDPs). In this context, we have studied the effect on amyloid beta (Abeta(42)) monomer in the hydrated DES composed of tetrabutylammonium chloride and ethylene glycol in a 3:1 ratio using all-atom molecular dynamics simulations. DES is found to effectively screen the interaction of four zones of the amyloid beta monomer with water. Water molecules and the DES constituents modulate the local protein-solvent interactions, in the solvation shell of the protein. In addition, the aqueous DES medium conserves the secondary structure of the Abeta(42) monomer by increasing the intramolecular hydrogen bonding and D23-K28 salt-bridge interactions when compared to the pure water medium. The current study provides insights into the impact of DES in stabilizing an IDP, at molecular level. We envisage the hindered aggregation of the amyloid beta structures in DES medium over the pure water medium due to the screening of hydrophobic intramolecular interactions.",
+    "keywords": [
+      "Amyloid beta",
+      "Deep eutectic solvents",
+      "Intrinsically disordered protein",
+      "Molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Amyloid beta-Peptides/chemistry",
+      "*Intrinsically Disordered Proteins",
+      "Deep Eutectic Solvents",
+      "Water/chemistry",
+      "Solvents/chemistry",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chowdhury, Unmesh D",
+        "Malayil, Insha",
+        "Bhargava, B L"
+      ],
+      "short_names": [
+        "Chowdhury UD",
+        "Malayil I",
+        "Bhargava BL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India.",
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India.",
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India. Electronic address: bhargava@niser.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chowdhury, Unmesh D",
+        "short_name": "Chowdhury UD",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India."
+        ]
+      },
+      {
+        "full_name": "Malayil, Insha",
+        "short_name": "Malayil I",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India."
+        ]
+      },
+      {
+        "full_name": "Bhargava, B L",
+        "short_name": "Bhargava BL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, an OCC of Homi Bhabha National Institute, P.O. Jatni, Khurda, Odisha 752050, India. Electronic address: bhargava@niser.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/22 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "38338447"
+    ],
+    "refs": [],
+    "similar": [
+      "36542916",
+      "30821624",
+      "35175257",
+      "37778586",
+      "38928405",
+      "34636834",
+      "35977089",
+      "38692127",
+      "35762502",
+      "30811210",
+      "32859072",
+      "25010208",
+      "31234720",
+      "23811057",
+      "32706582",
+      "35858287",
+      "37439584",
+      "36179370",
+      "30865832",
+      "32940465",
+      "35500254",
+      "24930496",
+      "34719232",
+      "30582723",
+      "36315464",
+      "28162045",
+      "37462948",
+      "35349954",
+      "29548979",
+      "32816485",
+      "28703458",
+      "35158157",
+      "36701046",
+      "32623047",
+      "38099555",
+      "34241334",
+      "36720927",
+      "37364786",
+      "34137917",
+      "32419254",
+      "22755606",
+      "36328792",
+      "24410358",
+      "35202956",
+      "38338447",
+      "30730736",
+      "31259246",
+      "37347702",
+      "36912865",
+      "35301085",
+      "31496378",
+      "31605652",
+      "30250773",
+      "35640592",
+      "31474736",
+      "33346655",
+      "35011389",
+      "32380686",
+      "34241234",
+      "34152264",
+      "38035952",
+      "30708285",
+      "33289734",
+      "36451931",
+      "31195746",
+      "26896721",
+      "35587655",
+      "24857343",
+      "34232662",
+      "38237289",
+      "32232896",
+      "34339215",
+      "21797254",
+      "22674434",
+      "33611114",
+      "28850770",
+      "30024584",
+      "36524921",
+      "32790388",
+      "31872820",
+      "23722327",
+      "34662824",
+      "35760127",
+      "35167081",
+      "36584612",
+      "33254003",
+      "23484883",
+      "38010210",
+      "36014526",
+      "33799072",
+      "27454036",
+      "37169098",
+      "28603985",
+      "34266283",
+      "28004051",
+      "32105490",
+      "32983826",
+      "30924657",
+      "23051147",
+      "36137434",
+      "35549044",
+      "34812630",
+      "21329333",
+      "37660860",
+      "23641734",
+      "21687730",
+      "34042450",
+      "37682109",
+      "35054840",
+      "16766615",
+      "25418894",
+      "17165769",
+      "30409002",
+      "37175305",
+      "38171392",
+      "37242704",
+      "37838830",
+      "37133846",
+      "38000516",
+      "37172491",
+      "31929671",
+      "35001628",
+      "38281418",
+      "35371624",
+      "38904333",
+      "35889358",
+      "37595383",
+      "39079639",
+      "39323971",
+      "37351462",
+      "36756755",
+      "36922119",
+      "38453735",
+      "37580997",
+      "38433612",
+      "39148667",
+      "36874071"
+    ],
+    "review": [
+      "36542916",
+      "38338447",
+      "35640592",
+      "35054840"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(22)00277-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

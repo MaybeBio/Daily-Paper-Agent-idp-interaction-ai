@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.23.465544",
+  "title": "Conformational flexibility is a key determinant of the lytic activity of the pore forming protein, Cytolysin A",
+  "doi": "10.1101/2021.10.23.465544",
+  "abstract": "Bacterial pore-forming toxins (PFTs) bind and oligomerize on mammalian cell membranes forming nanopores, that cause cell lysis to promote a wide range of bacterial infections. Cytolysin A (ClyA), an alpha( α )-PFT, is known to undergo one of the largest conformational changes during its transition from a water soluble monomeric form to the membrane embedded dodecameric nanopore assembly. Despite extensive work on the structure and assembly of ClyA, a complete molecular picture of the interplay between the protein segments and membrane lipids driving this transformation remains elusive. In this study, we combine experiments and all-atom molecular dynamics (MD) simulations of ClyA and its mutants to unravel the role of the two key membrane interacting motifs, namely, the β -tongue and N-terminus helix, in facilitating this critical transition. Erythrocyte turbidity and vesicle leakage assays reveal a loss of activity for β -tongue mutant (Y178F), and delayed kinetics for the N-terminus mutants (Y27A and Y27F). All atom, thermal unfolding molecular dynamics simulations of the monomer carried out at 310, 350 and 400 K reveal a distinct reduction in the flexibility in both the β -tongue and N-terminal regions of the mutants when compared with the wild type. This decreased loss of conformational flexbility correlates positively with the reduced lytic and leakage activity observed in experiments, indicating that the tendency to lose secondary structure in the β -tongue region is an important step in the conformational transition bistability of the ClyA protein. Simulations with the membrane inserted oligomeric arcs representing the pore state reveal a greater destabilization tendency among the β -tongue mutant as inferred from secondary structure and N-terminal positioning. Our combined experimental and simulation study, reveals that conformational flexibility is indispensable for the outward movement of the β -tongue and the tendency to induce disorder in the β -tongue is an important step in the transition to the membrane mediated helix-turn-helix motif integral to ClyA pore formation. This observed loss of secondary structure is akin to the structural transitions observed in intrinsically disordered proteins (IDPs) to support protein function. Our finding suggest that inherent flexibility in the protein could play a wider and hitherto unrecognized role in the membrane mediated conformational transitions of PFTs in general. <h4>Author summary</h4> Bacterial pore-forming toxins (PFTs) bind and oligomerize on mammalian cell membranes to form bilayer spanning nanopores. Unregulated pore formation disrupts ionic balance that compromises the permeability of the cell, leading to cell death and infection. PFTs display remarkable structural plasticity that allow these proteins to interconvert between the two physiochemically distinct water soluble and membrane bound forms. However the molecular mechanism for this robust interconversion is poorly understood. For example, upon membrane binding, cytolysin A (ClyA), an α -PFT, shows one of the largest conformational changes in protein structure among the PFT family of proteins. In order to understand this transtition we characterized several point mutations in ClyA using experiments and molecular dynamics (MD) simulations to understand the role of two essential ClyA motifs ( β tongue and N-terminus) implicated in the conformational changes responsible for oligomerization and conferring stability to the pore state. Our study reveals that the innate conformational flexibility of the β tongue results in a disordered intermediate state that facilitate the complete transition to the pore state. This tendency to disorder is compromised to varying degrees in ClyA mutants, correlating with the loss of lytic activity. Our results suggest that the finely tuned conformational flexibility in the membrane motifs of ClyA are critical to its function, revealing a broader paradigm that could be at play during membrane associated secondary structure transitions of proteins in general.",
+  "authors": [
+    "Kulshrestha A",
+    "Maurya S",
+    "Gupta T",
+    "Roy R",
+    "Punnathanam S",
+    "Ayappa KG"
+  ],
+  "published_date": "2021-10-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465544",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465544.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR410386",
+    "raw_record": {
+      "id": "PPR410386",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.23.465544",
+      "title": "Conformational flexibility is a key determinant of the lytic activity of the pore forming protein, Cytolysin A",
+      "authorString": "Kulshrestha A, Maurya S, Gupta T, Roy R, Punnathanam S, Ayappa KG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kulshrestha A",
+            "lastName": "Kulshrestha",
+            "firstName": "Avijeet",
+            "initials": "A"
+          },
+          {
+            "fullName": "Maurya S",
+            "lastName": "Maurya",
+            "firstName": "Satyaghosh",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2757-7742"
+            }
+          },
+          {
+            "fullName": "Gupta T",
+            "lastName": "Gupta",
+            "firstName": "Twinkle",
+            "initials": "T"
+          },
+          {
+            "fullName": "Roy R",
+            "lastName": "Roy",
+            "firstName": "Rahul",
+            "initials": "R"
+          },
+          {
+            "fullName": "Punnathanam S",
+            "lastName": "Punnathanam",
+            "firstName": "Sudeep",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ayappa KG",
+            "lastName": "Ayappa",
+            "firstName": "Ganapathy",
+            "initials": "KG"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2757-7742"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Bacterial pore-forming toxins (PFTs) bind and oligomerize on mammalian cell membranes forming nanopores, that cause cell lysis to promote a wide range of bacterial infections. Cytolysin A (ClyA), an alpha(  α )-PFT, is known to undergo one of the largest conformational changes during its transition from a water soluble monomeric form to the membrane embedded dodecameric nanopore assembly. Despite extensive work on the structure and assembly of ClyA, a complete molecular picture of the interplay between the protein segments and membrane lipids driving this transformation remains elusive. In this study, we combine experiments and all-atom molecular dynamics (MD) simulations of ClyA and its mutants to unravel the role of the two key membrane interacting motifs, namely, the  β -tongue and N-terminus helix, in facilitating this critical transition. Erythrocyte turbidity and vesicle leakage assays reveal a loss of activity for  β -tongue mutant (Y178F), and delayed kinetics for the N-terminus mutants (Y27A and Y27F). All atom, thermal unfolding molecular dynamics simulations of the monomer carried out at 310, 350 and 400 K reveal a distinct reduction in the flexibility in both the  β -tongue and N-terminal regions of the mutants when compared with the wild type. This decreased loss of conformational flexbility correlates positively with the reduced lytic and leakage activity observed in experiments, indicating that the tendency to lose secondary structure in the  β -tongue region is an important step in the conformational transition bistability of the ClyA protein. Simulations with the membrane inserted oligomeric arcs representing the pore state reveal a greater destabilization tendency among the  β -tongue mutant as inferred from secondary structure and N-terminal positioning. Our combined experimental and simulation study, reveals that conformational flexibility is indispensable for the outward movement of the  β -tongue and the tendency to induce disorder in the  β -tongue is an important step in the transition to the membrane mediated helix-turn-helix motif integral to ClyA pore formation. This observed loss of secondary structure is akin to the structural transitions observed in intrinsically disordered proteins (IDPs) to support protein function. Our finding suggest that inherent flexibility in the protein could play a wider and hitherto unrecognized role in the membrane mediated conformational transitions of PFTs in general.  <h4>Author summary</h4>  Bacterial pore-forming toxins (PFTs) bind and oligomerize on mammalian cell membranes to form bilayer spanning nanopores. Unregulated pore formation disrupts ionic balance that compromises the permeability of the cell, leading to cell death and infection. PFTs display remarkable structural plasticity that allow these proteins to interconvert between the two physiochemically distinct water soluble and membrane bound forms. However the molecular mechanism for this robust interconversion is poorly understood. For example, upon membrane binding, cytolysin A (ClyA), an  α -PFT, shows one of the largest conformational changes in protein structure among the PFT family of proteins. In order to understand this transtition we characterized several point mutations in ClyA using experiments and molecular dynamics (MD) simulations to understand the role of two essential ClyA motifs (  β tongue and N-terminus) implicated in the conformational changes responsible for oligomerization and conferring stability to the pore state. Our study reveals that the innate conformational flexibility of the  β tongue results in a disordered intermediate state that facilitate the complete transition to the pore state. This tendency to disorder is compromised to varying degrees in ClyA mutants, correlating with the loss of lytic activity. Our results suggest that the finely tuned conformational flexibility in the membrane motifs of ClyA are critical to its function, revealing a broader paradigm that could be at play during membrane associated secondary structure transitions of proteins in general.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/23/2021.10.23.465544.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.23.465544"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-25",
+      "firstPublicationDate": "2021-10-23",
+      "firstIndexDate": "2021-10-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

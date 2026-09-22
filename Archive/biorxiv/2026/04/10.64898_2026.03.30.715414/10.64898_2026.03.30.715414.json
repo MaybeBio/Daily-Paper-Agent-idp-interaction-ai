@@ -1,0 +1,179 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.30.715414",
+  "title": "emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models",
+  "doi": "10.64898/2026.03.30.715414",
+  "abstract": "Intrinsically disordered proteins (IDPs) play an important role in a wide range of biological functions and are linked to several diseases. Due to technical difficulties and the high cost of experimental determination of disorder in proteins, combined with the exponential increase of unannotated protein sequences, the development of computational methods for disorder prediction became an active area of research in the last few decades. In this work, we present emb2dis, a deep learning model that uses protein language models (pLMs) to predict disorder from sequence. The emb2dis tool is a pre-trained model that receives as input a protein sequence, calculates its pLM embedding and passes it to a deep learning model. In contrast to existing approaches, emb2dis integrates informative sequence representations with a novel architecture that combines residual networks (ResNets) and dilated convolutions. This design effectively enlarges the receptive field of the convolution operation, enabling the model to better capture an extended context of each amino acid. At the output, emb2dis assigns a disorder propensity score to each residue in the sequence. The model was evaluated on datasets from the latest CAID3 blind benchmark for disorder prediction, where it achieved first place in the Disorder-PDB category, exhibiting strong performance with high AUC and F max scores. Additionally, it ranked among the top ten methods on the Disorder-NOX dataset. We provide a freely available web-demo for emb2dis and a source code repository for local installation. <h4>Weblink for the tool</h4> https://sinc.unl.edu.ar/web-demo/emb2dis/ The importance of the emb2dis tool is that it provides a new deep learning approach and significant improvements in the prediction of protein disorder, with a simple web interface and graphical output detailing per-residue disorder.",
+  "authors": [
+    "Duarte S",
+    "Mehdiabadi M",
+    "Bugnon L",
+    "Aspromonte M",
+    "Piovesan D",
+    "Milone D",
+    "Tosatto S",
+    "Stegmayer G"
+  ],
+  "published_date": "2026-04-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715414",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715414.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1216833",
+    "raw_record": {
+      "id": "PPR1216833",
+      "source": "PPR",
+      "doi": "10.64898/2026.03.30.715414",
+      "title": "emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models",
+      "authorString": "Duarte S, Mehdiabadi M, Bugnon L, Aspromonte M, Piovesan D, Milone D, Tosatto S, Stegmayer G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Duarte S",
+            "lastName": "Duarte",
+            "firstName": "S.A.",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mehdiabadi M",
+            "lastName": "Mehdiabadi",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-2044-541X"
+            }
+          },
+          {
+            "fullName": "Bugnon L",
+            "lastName": "Bugnon",
+            "firstName": "L.A.",
+            "initials": "L"
+          },
+          {
+            "fullName": "Aspromonte M",
+            "lastName": "Aspromonte",
+            "firstName": "M.C.",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4937-6952"
+            }
+          },
+          {
+            "fullName": "Piovesan D",
+            "lastName": "Piovesan",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8210-2390"
+            }
+          },
+          {
+            "fullName": "Milone D",
+            "lastName": "Milone",
+            "firstName": "D.H.",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2182-4351"
+            }
+          },
+          {
+            "fullName": "Tosatto S",
+            "lastName": "Tosatto",
+            "firstName": "S.C.E.",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4525-7793"
+            }
+          },
+          {
+            "fullName": "Stegmayer G",
+            "lastName": "Stegmayer",
+            "initials": "G"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8210-2390"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4937-6952"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2182-4351"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4525-7793"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-2044-541X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Intrinsically disordered proteins (IDPs) play an important role in a wide range of biological functions and are linked to several diseases. Due to technical difficulties and the high cost of experimental determination of disorder in proteins, combined with the exponential increase of unannotated protein sequences, the development of computational methods for disorder prediction became an active area of research in the last few decades. In this work, we present emb2dis, a deep learning model that uses protein language models (pLMs) to predict disorder from sequence. The emb2dis tool is a pre-trained model that receives as input a protein sequence, calculates its pLM embedding and passes it to a deep learning model. In contrast to existing approaches, emb2dis integrates informative sequence representations with a novel architecture that combines residual networks (ResNets) and dilated convolutions. This design effectively enlarges the receptive field of the convolution operation, enabling the model to better capture an extended context of each amino acid. At the output, emb2dis assigns a disorder propensity score to each residue in the sequence. The model was evaluated on datasets from the latest CAID3 blind benchmark for disorder prediction, where it achieved first place in the Disorder-PDB category, exhibiting strong performance with high AUC and  F max scores. Additionally, it ranked among the top ten methods on the Disorder-NOX dataset. We provide a freely available web-demo for emb2dis and a source code repository for local installation.  <h4>Weblink for the tool</h4>  https://sinc.unl.edu.ar/web-demo/emb2dis/ The importance of the emb2dis tool is that it provides a new deep learning approach and significant improvements in the prediction of protein disorder, with a simple web interface and graphical output detailing per-residue disorder.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.30.715414"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-04-01",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.11.561882",
+  "title": "Dynamic localization of the chromosomal passenger complex is controlled by the orphan kinesins KIN-A and KIN-B in the kinetoplastid parasite Trypanosoma brucei",
+  "authors": "Ballmer D; Akiyoshi B",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-12",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究布氏锥虫中染色体过客复合物(CPC)由孤儿驱动蛋白KIN-A/KIN-B动态定位的机制，涉及KIN-A无序C端尾部与KKT8复合物的互作，但对象为着丝粒/纺锤体定位而非相分离，方法以生化/结构/细胞生物学为主，缺乏AI或物理模拟，故仅部分相关。",
+  "abstract": "The chromosomal passenger complex (CPC) is an important regulator of cell division, which shows dynamic subcellular localization throughout mitosis, including kinetochores and the spindle midzone. In traditional model eukaryotes such as yeasts and humans, the CPC consists of the catalytic subunit Aurora B kinase, its activator INCENP, and the localization module proteins Borealin and Survivin. Intriguingly, Aurora B and INCENP as well as their localization pattern are conserved in kinetoplastids, an evolutionarily divergent group of eukaryotes that possess a unique set of kinetochore proteins and lack homologs of Borealin or Survivin. It is not understood how the kinetoplastid CPC assembles or how it is targeted to its subcellular destinations during the cell cycle. Here, we identify two orphan kinesins, KIN-A and KIN-B, as bona fide CPC proteins in Trypanosoma brucei , the causative agent of African sleeping sickness. By employing biochemical, structural, and cell biological approaches, we demonstrate that KIN-A and KIN-B serve as the scaffold for the assembly of the remaining CPC subunits. Kinetochore localization of the CPC depends on the KKT7 – KKT8 complex pathway, with the C-terminal unstructured tail of KIN-A serving as a key interaction partner for the KKT8 complex. Our data therefore show that, unlike other eukaryotes that take advantage of histone modifications for centromere recruitment, trypanosomes rely on kinetochore proteins to recruit the CPC onto kinetochores. Furthermore, the ATPase activity of KIN-A promotes chromosome alignment in prometaphase and CPC translocation to the central spindle upon anaphase onset. Thus, KIN-A constitutes a unique ‘two-in-one’ CPC localization module in complex with KIN-B, which directs the CPC to kinetochores (from S phase until metaphase) via its C-terminal tail, and to the central spindle (in anaphase) via its N-terminal kinesin motor domain. Our findings highlight the evolutionary diversity of CPC proteins and raise the possibility that kinesins may have served as the original transport vehicles for Aurora B kinases in early eukaryotes.",
+  "abstract_zh": "染色体乘客复合物（CPC）是细胞分裂的重要调控因子，在有丝分裂过程中表现出动态的亚细胞定位，包括着丝粒和纺锤体中央区。在酵母和人类等传统模式真核生物中，CPC由催化亚基Aurora B激酶、其激活因子INCENP以及定位模块蛋白Borealin和Survivin组成。有趣的是，Aurora B和INCENP及其定位模式在动质体（kinetoplastids）中保守，这是一类进化上分化的真核生物，拥有独特的着丝粒蛋白组，且缺乏Borealin或Survivin的同源物。目前尚不清楚动质体CPC如何组装，以及它在细胞周期中如何被靶向到其亚细胞目的地。在此，我们鉴定出两种孤儿驱动蛋白（kinesins），KIN-A和KIN-B，作为布氏锥虫（Trypanosoma brucei，非洲昏睡病的病原体）中真正的CPC蛋白。通过采用生物化学、结构生物学和细胞生物学方法，我们证明KIN-A和KIN-B作为其余CPC亚基组装的支架。CPC的着丝粒定位依赖于KKT7–KKT8复合物通路，其中KIN-A的C端非结构化尾部作为KKT8复合物的关键相互作用伙伴。因此，我们的数据表明，与其他利用组蛋白修饰进行着丝粒招募的真核生物不同，锥虫依赖着丝粒蛋白将CPC招募到着丝粒上。此外，KIN-A的ATP酶活性促进前中期染色体排列以及后期启动时CPC向中央纺锤体的转位。因此，KIN-A与KIN-B形成复合物，构成独特的“二合一”CPC定位模块，通过其C端尾部将CPC引导至着丝粒（从S期到中期），并通过其N端驱动蛋白马达结构域引导至中央纺锤体（后期）。我们的发现突显了CPC蛋白的进化多样性，并提出驱动蛋白可能作为早期真核生物中Aurora B激酶的原始运输载体的可能性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561882",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561882",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.11.561882/index.html"
+}

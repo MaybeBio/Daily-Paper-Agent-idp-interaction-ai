@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and materials and methods. Supplementary figures are referenced but not provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors investigate how RNA guanine content and G-quadruplex (G4) structure influence the phase behavior and material properties of biomolecular condensates formed by the low complexity region (LCR) of Fragile X mental retardation protein (FMRP). They report that increasing G content promotes aggregation with poly-arginine but supports liquid droplet formation with FMRP-LCR, that G4 structure is preserved within condensates, that increasing G content moderately increases viscosity and decreases dynamics without inducing elasticity, and that arginine methylation weakens RNA binding but does not alter condensate material properties.
+- **Visible evidence base** Main text figures 1-5 as described in the manuscript, including RNA sequence characterization (ThT fluorescence, NMR), condensate imaging, FRAP recovery curves, microrheology measurements, phase diagrams, and binding curves. Materials and methods sections for protein purification, methylation, labelling, condensate preparation, spectroscopy, NMR, FRAP, microrheology, mass spectrometry, and FCS.
+- **Missing materials affecting confidence** Supplementary figures S1-S9 are referenced but not provided. Raw data files, statistical analysis details, and full experimental replicates are not available. The manuscript does not provide numerical values for all reported measurements beyond those stated in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and relevant question in the biomolecular condensate field: how RNA sequence composition and secondary structure modulate the material properties of protein-RNA condensates. The study is well-motivated, and the experimental approach combining phase behavior assays, FRAP, and microrheology is appropriate. The key finding that G content rather than stable G4 structure drives changes in viscosity is interesting and potentially useful. However, several technical concerns limit the strength of the conclusions, particularly the inability to fully decouple G content from G4 structure, the limited number of RNA sequences tested, and the lack of quantitative statistical rigor in some comparisons. The claim that methylation does not impact material properties is based on a comparison that may be underpowered. Overall, the work is a solid contribution to a specialized audience but does not yet fully establish all claims as presented.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, RNA-binding proteins, and the role of RNA structure in cellular organization. The findings on G content versus G4 structure in modulating condensate viscosity are relevant to those interested in the molecular determinants of condensate material properties. The work may also be of interest to the Fragile X syndrome community given the focus on FMRP, though the direct disease relevance is not explored in depth.
+- **Major strengths** The study addresses a question of growing importance in the condensate field, namely how RNA sequence and structure tune material properties. The combination of multiple complementary techniques (ThT, NMR, FRAP, microrheology, FCS) is a strength. The observation that G content rather than stable G4 structure is the key determinant of viscosity is a useful and somewhat counterintuitive finding. The inclusion of a methylation comparison adds a layer of biological relevance. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and interpretation
+  - **Claim pointer** The authors claim that "increasing G-content, and not necessarily stable G4 structure decreases the dynamics and increases the viscosity of condensates in multiple systems."
+  - **Evidence pointer** Results section "G4 content decreases dynamics and increases viscosity inside FMRP condensates", Figure 4
+  - **Concern** The claim that G content rather than G4 structure is the key determinant is not fully supported by the data. The comparison relies on Sc1-M, which lacks stable G4 structure but has lower G content than Sc1 and Map1B. The authors attempted to create a Sc1-shuffle control with equal G content but no G4 structure, but this sequence unexpectedly formed G4 structure and was abandoned. Without a proper control that isolates G content from G4 structure, the conclusion that G content is the primary driver is not established. The observed differences between Sc1-M, Sc1, and Map1B could be due to G content, G4 structure, or other sequence-specific effects.
+  - **Why it matters** The central conclusion of the manuscript hinges on this distinction. If the effect is due to G content alone, the mechanistic interpretation differs substantially from a model where G4 structure is the key feature. The inability to test this directly weakens the main claim.
+  - **Resolution test** The authors should either (a) design additional RNA sequences that systematically vary G content while controlling for G4 propensity, or (b) use conditions that destabilize G4 structure (e.g., lithium chloride or G4-disrupting ligands) to show that the viscosity changes persist. Alternatively, the claim should be softened to state that G content correlates with the observed changes without asserting causality.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and quantitative analysis
+  - **Claim pointer** The authors report viscosity values of 0.88 ± 0.2 Pa.s for pU36, 1.34 ± 0.1 for Sc1-M, 1.58 ± 0.4 for Sc1, and 3.29 ± 0.9 Pa.s for Map1B, and state that "the viscosity of FMRP condensates increases with G4 content."
+  - **Evidence pointer** Results section "G4 content decreases dynamics and increases viscosity inside FMRP condensates", Figure 4D
+  - **Concern** The statistical analysis of the viscosity measurements is not described. It is unclear how many independent measurements were performed, whether the reported errors represent standard deviation or standard error, and whether the differences between conditions are statistically significant. The overlap in error bars between Sc1-M and Sc1, and the relatively small number of replicates (stated as "3 distinct droplet samples" for ThT but not specified for microrheology), raises concerns about whether the reported differences are robust.
+  - **Why it matters** The quantitative claims about viscosity differences are central to the paper's conclusions. Without proper statistical testing, the reader cannot assess whether the observed trends are meaningful or within experimental noise.
+  - **Resolution test** Provide details on the number of independent experiments, the statistical test used, and the resulting p-values for pairwise comparisons. If the differences are not statistically significant, the claims should be revised accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of methylation results
+  - **Claim pointer** The authors state that "methylation of FMRP weakens RNA binding affinity but does not impact emergent material properties of FMRP-RNA condensates."
+  - **Evidence pointer** Results section "Methylation of FMRP weakens RNA binding affinity but does not impact emergent material properties of FMRP-RNA condensates", Figure 5
+  - **Concern** The conclusion that methylation does not impact material properties is based on a comparison of viscosity values between WT and methylated FMRP for each RNA. However, the statistical power of this comparison is not reported. The phase diagrams show that methylated FMRP requires higher RNA concentrations to phase separate, indicating a change in phase behavior. The claim that material properties are unaffected despite changes in phase behavior is interesting but requires stronger evidence. Additionally, the FRAP data for methylated FMRP show similar trends to WT, but the number of replicates and statistical comparisons are not provided.
+  - **Why it matters** The methylation result is presented as a key finding that decouples binding affinity from material properties. If this claim is not robust, the interpretation that "RNA sequence and/or structure has a greater effect than binding affinity" is weakened.
+  - **Resolution test** Provide statistical comparisons between WT and methylated conditions for each RNA. If the sample sizes are small, acknowledge this limitation and consider additional replicates. Alternatively, soften the claim to state that no significant difference was detected within the limits of the current measurements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors state that their findings are "particularly relevant for understanding granule dynamics in neurons, where G4 structures are implicated in transport, translation and subcellular localization."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study uses a single protein system (FMRP-LCR) and a limited set of RNA sequences. While the authors show that other RBP systems (LAF-1) also form droplets, the generalizability of the G content effect to other proteins and cellular contexts is not demonstrated. The relevance to neurons is speculative and not directly tested.
+  - **Why it matters** The broader significance of the work depends on whether the findings extend beyond the specific system studied. Overstating the generalizability could mislead readers.
+  - **Resolution test** Either provide additional data with other RBP systems or temper the claims about generalizability and neuronal relevance in the discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "High G-content promotes aggregation of homopolymers while forming spherical condensates with LCRs"
+  - **Issue** The figure legend does not specify the scale bar for all panels, and the concentration units for RNA are not consistently stated across panels.
+  - **Required correction** Ensure all panels have clearly labeled scale bars and that concentrations are stated with consistent units.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Microrheology methods
+  - **Evidence pointer** Materials and methods section "Microrheology"
+  - **Issue** The manuscript states that "the final viscosity is the average of three values collected from individual measurements performed on 3 different days" but does not specify how many beads or trajectories were analyzed per measurement.
+  - **Required correction** Provide details on the number of beads tracked, the number of trajectories, and the criteria for including or excluding data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of ThT data
+  - **Affected element** Figure 1C
+  - **Evidence pointer** Results section "RNA sequence characterization"
+  - **Issue** The ThT fluorescence values are reported as raw intensities without normalization or a positive/negative control comparison. The interpretation that higher ThT signal indicates more G4 structure would be strengthened by including a known G4-forming control.
+  - **Required correction** Include a control RNA with known G4 structure and a non-G4 control to calibrate the ThT response.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of statistical reporting
+  - **Affected element** Figure 5D
+  - **Evidence pointer** Results section "Methylation of FMRP weakens RNA binding affinity but does not impact emergent material properties of FMRP-RNA condensates"
+  - **Issue** The p-values are stated as "ns" for not significant, but the actual p-values are not reported. The number of replicates for the viscosity measurements is not stated.
+  - **Required correction** Report exact p-values and the number of independent measurements for each condition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not acknowledge the limitation that the Sc1-shuffle control failed to form the intended non-G4 structure, which prevented a clean test of G content versus G4 structure.
+  - **Required correction** Add a sentence acknowledging this limitation and its impact on the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inability to decouple G content from G4 structure) and R1-M2 (lack of statistical rigor in viscosity comparisons) are the primary technical issues. R1-M3 (methylation comparison) also requires stronger statistical support.
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of how RNA G content and G4 structure tune condensate material properties is relatively underexplored, and the finding that G content may be more important than stable G4 structure is somewhat novel. However, the conceptual advance is incremental rather than transformative.
+  - **Scientific importance** The work contributes to the growing understanding of RNA as a modulator of condensate properties. The findings are likely to be of interest to the condensate community, but the narrow scope (one protein, limited RNA set) limits the broader impact.
+  - **Interdisciplinary readership** The topic sits at the interface of biophysics, RNA biology, and cell biology. The methods and concepts are accessible to researchers in these fields, but the work is unlikely to attract readers from outside these areas.
+  - **Technical soundness** The experimental techniques are appropriate and generally well-executed. However, the lack of statistical rigor and the failure to fully control for G content versus G4 structure are significant weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is clearly written and the concepts are explained well. The figures are informative, though some details in the legends could be improved. A nonspecialist with some background in biophysics or molecular biology should be able to follow the main arguments.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents interesting data, but the main claims require stronger experimental support, particularly regarding the decoupling of G content from G4 structure and the statistical robustness of the viscosity measurements.
+
+## Risk / unsupported claims
+- The claim that "increasing G-content, and not necessarily stable G4 structure" is the key determinant of viscosity changes is not fully supported due to the lack of a proper control that isolates G content from G4 structure.
+- The claim that methylation "does not impact emergent material properties" is based on comparisons without reported statistical power.
+- The statement that findings are "particularly relevant for understanding granule dynamics in neurons" is speculative and not directly tested.
+- The assertion that "all RNA sequences supported phase separation into liquid droplets with FMRP-LCR" is based on visual inspection of microscopy images; quantitative criteria for liquid droplet classification are not provided.
+- The claim that "there is no significant deviation from a diffusive exponent of 1" in microrheology is stated without reporting the statistical test or the variability across replicates.

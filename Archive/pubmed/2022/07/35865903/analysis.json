@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35865903",
+  "title": "Coacervation of poly-electrolytes in the presence of lipid bilayers: mutual alteration of structure and morphology.",
+  "authors": "Mondal, Sayantan; Cui, Qiang",
+  "journal": "Chemical science",
+  "published_date": "2022-07-23",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MARTINI粗粒化MD模拟研究多肽凝聚体与脂质双分子层的互作及膜形变机制，对象为IDP相分离凝聚体，方法为物理模拟，虽非直接PPI但聚焦互作机制建模，高度相关。",
+  "abstract": "Many intrinsically disordered peptides have been shown to undergo liquid-liquid phase separation and form complex coacervates, which play various regulatory roles in the cell. Recent experimental studies found that such phase separation processes may also occur at the lipid membrane surface and help organize biomolecules during signaling events; in some cases, phase separation of proteins at the membrane surface was also observed to lead to significant remodeling of the membrane morphology. The molecular mechanisms that govern the interactions between complex coacervates and lipid membranes and the impacts of such interactions on their structure and morphology, however, remain unclear. Here we study the coacervation of poly-glutamate (E(30)) and poly-lysine (K(30)) in the presence of lipid bilayers of different compositions. We carry out explicit-solvent coarse-grained molecular dynamics simulations by using the MARTINI (v3.0) force-field. We find that more than 20% anionic lipids are required for the coacervate to form stable contact with the bilayer. Upon wetting, the coacervate induces negative curvature to the bilayer and facilitates local lipid demixing, without any peptide insertion. The magnitude of negative curvature, extent of lipid demixing, and asphericity of the coacervate increase with the concentration of anionic lipids. Overall, we observe a decrease in the number of contacts among the polyelectrolytes as the droplet spreads over the bilayer. Therefore, unlike previous suggestions, interactions among polyelectrolytes do not constitute a driving force for the membrane bending upon wetting by the coacervate. Rather, analysis of interaction energy components suggests that bending of the membrane is favored by enhanced interactions between polyelectrolytes with lipids as well as with counterions. Kinetic studies reveal that, at the studied polyelectrolyte concentrations, the coacervate formation precedes bilayer wetting.",
+  "abstract_zh": "许多天然无序肽已被证明会发生液-液相分离并形成复杂凝聚体，这些凝聚体在细胞中发挥多种调控作用。近期实验研究发现，此类相分离过程也可能发生在脂质膜表面，并在信号传导事件中帮助组织生物分子；在某些情况下，膜表面蛋白质的相分离也被观察到导致膜形态的显著重塑。然而，控制复杂凝聚体与脂质膜之间相互作用的分子机制，以及这些相互作用对其结构和形态的影响，仍不清楚。在此，我们研究了在不同组成的脂质双层存在下，聚谷氨酸（E(30)）和聚赖氨酸（K(30)）的凝聚过程。我们使用MARTINI（v3.0）力场进行显式溶剂粗粒化分子动力学模拟。我们发现，需要超过20%的阴离子脂质才能使凝聚体与双层形成稳定接触。在润湿时，凝聚体诱导双层产生负曲率，并促进局部脂质去混合，而无需任何肽插入。负曲率的大小、脂质去混合的程度以及凝聚体的非球形度随阴离子脂质浓度的增加而增大。总体而言，我们观察到随着液滴在双层上铺展，聚电解质之间的接触数量减少。因此，与先前建议不同，聚电解质之间的相互作用并不构成凝聚体润湿时膜弯曲的驱动力。相反，相互作用能组分的分析表明，膜弯曲受到聚电解质与脂质及反离子之间增强相互作用的促进。动力学研究揭示，在所研究的聚电解质浓度下，凝聚体形成先于双层润湿。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35865903/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35865903/",
+  "paper_page_path": "papers/pubmed/35865903/index.html"
+}

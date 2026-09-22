@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40882540",
+  "title": "Hydrophilicity and topology interplay determines positioning of guest molecules in lipid cubic phases.",
+  "authors": "Zunzunegui-Bru, Eva; Assenza, Salvatore; Mezzenga, Raffaele",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2025-08-30",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用原子分子动力学研究小分子在脂质立方相中的定位，对象为脂质膜而非无序蛋白/IDR，且无PPI或AI/物理模拟的互作机制建模，仅拓扑与亲水性关系对相分离成核有间接启发。",
+  "abstract": "Lipid nanostructures with inverse bicontinuous cubic symmetries are of paramount importance as delivery structures of active compounds in the pharmaceutical, cosmetic and food science fields. By atomistic molecular dynamics, here we study the internalization of three molecules of varying hydrophilicity, fructose, caffeine and vitamin D, within a cubic phase with primitive symmetry, allowing us to assess how the incorporation of the guest molecule is affected by the interplay between its hydrophilicity and the topology of the host membrane. For lipophilic molecules our results reveal the details of molecular localization and orientation, which allow estimating the bending modulus of the membrane by means of a phenomenological model based on the physics of liquid crystals. For more hydrophilic molecules, we show that the unique topological and geometrical features of bicontinuous cubic phases (BCPs) lead to non-trivial effects on the lipid-water interface, primarily controlled by their curvature, resulting in an enthalpically driven distancing of the guest molecule from the interface. In particular, we detect a preference of hydrophilic molecules to migrate towards the flat points of the lipid-water interface, from which we may infer a preferred onset of nucleation in phase separation processes, such as in membrane-protein crystallization.",
+  "abstract_zh": "具有反双连续立方对称性的脂质纳米结构在制药、化妆品和食品科学领域中作为活性化合物的递送结构至关重要。通过原子级分子动力学，我们在此研究了三种不同亲水性的分子——果糖、咖啡因和维生素D——在具有原始对称性的立方相中的内化过程，从而评估客体分子的掺入如何受其亲水性与宿主膜拓扑结构之间相互作用的影响。对于亲脂性分子，我们的结果揭示了分子定位和取向的细节，这允许通过基于液晶物理学的唯象模型估算膜的弯曲模量。对于更亲水的分子，我们展示了双连续立方相（BCPs）独特的拓扑和几何特征对脂质-水界面产生非平凡效应，这些效应主要由其曲率控制，导致客体分子在焓驱动下远离界面。特别地，我们检测到亲水分子倾向于迁移至脂质-水界面的平坦点，由此我们可以推断在相分离过程中（如膜蛋白结晶）成核的优先起始点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40882540/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40882540/",
+  "paper_page_path": "papers/pubmed/40882540/index.html"
+}

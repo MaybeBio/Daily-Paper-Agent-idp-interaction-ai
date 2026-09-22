@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "41129689",
+    "doi": "10.1021/jacs.5c13855",
+    "title": "Immune-Induced Antibody-DNA Hybrid Condensates."
+  },
+  "content": {
+    "abstract": "We report here the combined use of Watson-Crick and antibody-antigen interactions to induce phase separation of antibody-DNA hybrid condensates. To achieve this, we have used an antigen-conjugated star-shaped DNA motif (nanostar) in which three arms terminate with single-stranded DNA sticky ends while the fourth arm is end-conjugated with a moiety (i.e., an antigen) that can be recognized by a specific bivalent antibody. Through the concerted action of selective Watson-Crick base-pairing between the sticky ends and bivalent antibody-antigen binding, such antigen-conjugated nanostars phase-separate to form micron-scale hybrid condensates with structural stability provided by both nucleic acids and antibodies. We have demonstrated the specific and orthogonal antibody-induced phase separation of four different antigen-conjugated nanostars (biotin, DIG, DNP and MUC1), each with their corresponding antibody. By adding increasing concentrations of the specific antibody to a fixed concentration of antigen-conjugated nanostars (300 nM), we observe concentration-dependent formation of antibody-DNA condensates, starting at low nanomolar levels of the antibody. The antibody-DNA hybrid condensates are also reversible and can be cyclically formed/dissolved by the cyclic degradation/addition of the specific antibody. We qualitatively (and in some cases quantitatively) reproduce these results with an approach that conjugates theory and simulations of a phase-field model. The introduction of antibody-antigen interactions into the phase separation process of DNA brings these systems closer to natural cellular systems that rely on intricate networks of protein-protein or protein-nucleic acid interactions and allows for greater programmability and versatility that could have applications in sensing and drug delivery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry/immunology",
+      "*Antibodies/chemistry/immunology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Scalia, Sara",
+        "Cappa, Marco",
+        "Rovigatti, Lorenzo",
+        "Del Grosso, Erica",
+        "Ricci, Francesco"
+      ],
+      "short_names": [
+        "Scalia S",
+        "Cappa M",
+        "Rovigatti L",
+        "Del Grosso E",
+        "Ricci F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5017-2829",
+        "ORCID: 0000-0003-4941-8646"
+      ],
+      "affiliations": [
+        "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy.",
+        "Physics Department, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy.",
+        "Physics Department, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy.",
+        "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Scalia, Sara",
+        "short_name": "Scalia S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Cappa, Marco",
+        "short_name": "Cappa M",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Department, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Rovigatti, Lorenzo",
+        "short_name": "Rovigatti L",
+        "identifiers": [
+          "0000-0001-5017-2829"
+        ],
+        "affiliations": [
+          "Physics Department, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Grosso, Erica",
+        "short_name": "Del Grosso E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Ricci, Francesco",
+        "short_name": "Ricci F",
+        "identifiers": [
+          "0000-0003-4941-8646"
+        ],
+        "affiliations": [
+          "Department of Chemical Sciences and Technologies, University of Rome, Tor Vergata, Via della Ricerca Scientifica, 00133 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Nov 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 18:26",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41129689",
+      "41979049",
+      "40539511",
+      "33288745",
+      "39536149",
+      "41636358",
+      "37463359",
+      "33591181",
+      "22967176",
+      "41738383",
+      "39080253",
+      "34664044",
+      "36321557",
+      "41602950",
+      "6179538",
+      "41774821",
+      "23912807",
+      "23909623",
+      "16131068",
+      "12755625",
+      "39575590",
+      "38157426",
+      "39088564",
+      "42126444",
+      "41212947",
+      "18529023",
+      "41587927",
+      "17512945",
+      "37577006",
+      "31578534",
+      "11195517",
+      "31796740",
+      "42475469",
+      "26123767",
+      "41452986",
+      "26411920",
+      "26627654",
+      "39772484",
+      "40371835",
+      "18199665",
+      "41487109",
+      "3707890",
+      "41729997",
+      "23383960",
+      "11131562",
+      "40747041",
+      "36993212",
+      "15949555",
+      "25196546",
+      "23527476",
+      "12354074",
+      "22808118",
+      "28783358",
+      "37753087",
+      "33180079",
+      "39417240",
+      "25573528",
+      "34129321",
+      "40168179",
+      "7819224",
+      "38429336",
+      "6982951",
+      "35724929",
+      "27936519",
+      "26689321",
+      "10698101",
+      "42656802",
+      "41758048",
+      "2420897",
+      "36361989",
+      "30525151",
+      "40290937",
+      "17905816",
+      "32966760",
+      "41616677",
+      "11444368",
+      "20853889",
+      "37011217",
+      "29628923",
+      "2628287",
+      "29389041",
+      "42012076",
+      "17461765",
+      "40747076",
+      "40552795",
+      "2427584",
+      "23242125",
+      "24617852",
+      "40740523",
+      "38547652",
+      "36018829",
+      "24141098",
+      "10616004",
+      "24871086",
+      "42552938",
+      "3771789",
+      "16607659",
+      "16848416",
+      "29618223",
+      "7110140"
+    ],
+    "review": [
+      "41129689",
+      "41979049",
+      "41636358",
+      "37463359",
+      "33591181",
+      "36321557",
+      "41587927",
+      "41487109",
+      "11131562",
+      "41758048",
+      "29389041",
+      "38547652",
+      "36018829"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MUC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-146",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c13855",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

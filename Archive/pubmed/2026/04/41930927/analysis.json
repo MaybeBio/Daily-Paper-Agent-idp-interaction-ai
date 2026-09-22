@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41930927",
+  "title": "NPM1 Undergoes Salt-Dependent Reentrant Phase Separation Driven by IDR Conformational Plasticity and Electrostatic Crosstalk.",
+  "authors": "Zhen, Yanning; Tan, Yuan; Tang, Yiming; Sneideris, Tomas; Ausserwoger, Hannes; Wen, Jitao; Knowles, Tuomas P J; Perrett, Sarah; Wei, Guanghong; Wu, Si",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2026-04-03",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过MD模拟与smFRET结合，揭示NPM1无序区域构象可塑性及静电串扰驱动的盐依赖性再入相分离机制，直接关联IDR构象与PPI介导的凝聚体组装，方法上物理模拟与实验互补，机制建模深度高。",
+  "abstract": "The liquid-liquid phase separation (LLPS) of nucleophosmin1 (NPM1) is essential for the assembly of pre-ribosomal subunits. However, the interplay between the conformational transitions of the intrinsically disordered region (IDR) of NPM1 and its biologically critical phase transition remains poorly understood. Here, we uncover a salt-concentration-dependent reentrant phase behavior of NPM1 originating from electrostatically driven IDR plasticity. By integrating molecular dynamics (MD) simulations and single-molecule Forster resonance energy transfer (smFRET) techniques, we demonstrate that low salt concentrations stabilize intrachain interactions, maintaining a compact conformation that suppresses intermolecular contact and thereby inhibits LLPS. At intermediate ionic strengths, weakened intrachain interactions result in conformational extension, enabling interchain electrostatic networks that facilitate LLPS. Excessive charge screening at high salt concentrations disrupts both intra- and intermolecular interactions, leading to condensate dissolution. Our study establishes a mechanistic framework linking conformational plasticity, intra- and interchain electrostatic interactions, and phase behavior, expanding our understanding of how dynamic molecular architectures of the NPM1 IDR govern biomolecular condensate assembly and its functions in ribosome biogenesis within the granular component region of the nucleolus.",
+  "abstract_zh": "核磷蛋白1（NPM1）的液-液相分离（LLPS）对于前核糖体亚基的组装至关重要。然而，NPM1内在无序区（IDR）的构象转变与其生物学关键相变之间的相互作用仍知之甚少。在此，我们揭示了NPM1一种盐浓度依赖的重入相行为，该行为源于静电驱动的IDR可塑性。通过整合分子动力学（MD）模拟和单分子福斯特共振能量转移（smFRET）技术，我们证明低盐浓度稳定链内相互作用，维持紧凑构象，从而抑制分子间接触并阻碍LLPS。在中等离子强度下，减弱的链内相互作用导致构象伸展，使链间静电网络得以形成，从而促进LLPS。高盐浓度下的过度电荷屏蔽破坏链内和链间相互作用，导致凝聚体溶解。我们的研究建立了一个将构象可塑性、链内和链间静电相互作用及相行为联系起来的机制框架，扩展了我们对NPM1 IDR动态分子架构如何调控核仁颗粒组分区内生物分子凝聚体组装及其在核糖体生物发生中功能的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41930927/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41930927/",
+  "paper_page_path": "papers/pubmed/41930927/index.html"
+}

@@ -1,0 +1,63 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a new calibration-free model for micropipette aspiration (MPA) of protein condensates, claim it is consistent with the hydrodynamics of the MPA geometry, validate it using silicone oil experiments, and reanalyze previously published LAF-1 RGG condensate data to extract viscosity and surface tension.
+- **Visible evidence base** Abstract text only; no quantitative results, experimental details, or model equations provided
+- **Missing materials affecting confidence** Full text, model derivation, experimental protocols, validation data, figures, tables, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually important advance in the application of micropipette aspiration to protein condensates, addressing a known limitation of prior models that required large empirical calibration factors. The proposed calibration-free approach, if rigorously validated, would be of broad interest to the condensate biophysics community. However, the abstract alone provides insufficient detail to assess the technical soundness of the model derivation, the quality of the validation experiments, or the robustness of the reanalysis of prior data. The core claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation and biomolecular condensates, particularly those measuring material properties such as viscosity and surface tension; biophysicists and soft matter physicists interested in micropipette aspiration techniques; cell biologists investigating the physical basis of membraneless organelle function.
+- **Major strengths** The work addresses a well-recognized discrepancy between theoretical predictions and experimental calibration in MPA, which has limited the technique's utility for condensates. The proposed model appears to offer a physically grounded alternative that could simplify measurements and improve accuracy. The validation using a standard silicone oil with known properties is a sensible approach. The reanalysis of existing LAF-1 RGG data provides a direct comparison with prior results, which is valuable for assessing the impact of the new model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The new model "does not require any calibration and is consistent with the hydrodynamics of the MPA geometry."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the model is calibration-free and hydrodynamically consistent, but no details of the model derivation, assumptions, or governing equations are provided. It is unclear how the model accounts for the geometry of the pipette, the finite size of the condensate, or the boundary conditions at the pipette tip and the condensate surface. Without this information, the physical basis of the model cannot be evaluated.
+  - **Why it matters** The central claim of the paper rests on the correctness of the hydrodynamic model. If the model contains simplifying assumptions that are not justified or fails to capture essential physics, the extracted viscosity and surface tension values could be systematically biased, undermining the utility of the method.
+  - **Resolution test** The full manuscript must present the model derivation with explicit assumptions, a comparison of model predictions to numerical simulations or analytical solutions of the Stokes equations in the MPA geometry, and a sensitivity analysis of the extracted parameters to model assumptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "We validate the predictions of this model by conducting MPA experiments on a standard silicone oil of known material properties and are able to predict the viscosity and surface tension using MPA."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports successful validation on silicone oil but provides no quantitative results, such as the measured versus expected values, the number of replicates, the range of pipette sizes or aspiration pressures tested, or the precision and accuracy of the predictions. Without these data, the claim of successful validation cannot be assessed.
+  - **Why it matters** Validation is the key evidence that the model works in practice. If the validation is based on a narrow set of conditions or shows large deviations from known values, the model's general applicability to condensates would be questionable.
+  - **Resolution test** The full manuscript must include a detailed description of the silicone oil experiments, including the known viscosity and surface tension, the experimental setup, the number of independent measurements, the agreement between predicted and known values, and the uncertainty in the predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility of prior analysis
+  - **Claim pointer** "We reanalyze with this new model the MPA data presented in previous works for condensates formed from LAF-1 RGG domains."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that prior MPA data for LAF-1 RGG condensates are reanalyzed, but it does not specify which previous works are used, how the data were extracted, or whether the reanalysis yields materially different values of viscosity and surface tension compared to the original analyses. The absence of these details prevents evaluation of the significance of the reanalysis.
+  - **Why it matters** The reanalysis is intended to demonstrate the practical impact of the new model on published results. If the reanalysis produces values that are inconsistent with the original reports or with independent measurements, the implications for the condensate field would need careful discussion.
+  - **Resolution test** The full manuscript must identify the source of the prior data, describe the data extraction and analysis procedures, and present a comparison of the new and old values for viscosity and surface tension, including uncertainties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "a calibration parameter several orders of magnitude larger than predicted" is vague. It is unclear whether this refers to a single calibration factor or multiple parameters, and what the physical origin of the discrepancy is.
+  - **Required correction** Specify the calibration parameter(s) and provide a brief explanation of why the prior model failed, to help readers understand the motivation for the new model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the range of condensate properties (e.g., viscosity, surface tension) for which the model is expected to be valid, nor does it discuss potential limitations such as very low surface tension or high viscosity that might affect the assumptions.
+  - **Required correction** Add a sentence in the abstract or full text indicating the expected applicability range and any known limitations of the model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The model derivation, validation data, and reanalysis details are all essential to establish the core claims and are not available in the abstract.
+- **Assessment against Nature-style criteria** Originality: The work appears original in addressing a specific technical limitation of MPA for condensates, though the concept of calibration-free hydrodynamic modeling is not entirely new in other contexts. Scientific importance: The potential to improve measurement of condensate material properties is significant for the growing field of phase separation biology. Interdisciplinary readership: The work would appeal to biophysicists, soft matter physicists, and cell biologists, but the abstract does not clearly convey the broader biological relevance beyond the technical advance. Technical soundness: Cannot be assessed from the abstract; the model derivation and validation are not described in sufficient detail. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology (e.g., "LAF-1 RGG domains") without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the core claims of model validity and successful application cannot be verified without the full manuscript. I would be supportive if the technical concerns regarding model derivation, validation, and reanalysis are resolved in the full text.
+
+## Risk / unsupported claims
+- The claim that the model is "calibration-free" is unsupported without a demonstration that no empirical fitting parameters are used in the model or its application.
+- The claim that the model is "consistent with the hydrodynamics of the MPA geometry" is unsupported without a detailed derivation or comparison to known solutions.
+- The claim of successful validation on silicone oil is unsupported without quantitative results.
+- The reanalysis of LAF-1 RGG data is mentioned but not substantiated with specific values or comparisons.

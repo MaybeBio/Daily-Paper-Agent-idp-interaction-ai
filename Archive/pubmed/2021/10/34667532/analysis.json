@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34667532",
+  "title": "Similarity of the non-amyloid-beta component and C-terminal tail of monomeric and tetrameric alpha-synuclein with 14-3-3 sigma.",
+  "authors": "Evans, Sarah R; West, Colista; Klein-Seetharaman, Judith",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-10-21",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过序列比对、淀粉样/无序预测和结构可视化，比较alpha-synuclein与14-3-3蛋白的同源性与结构相似性，涉及无序蛋白和寡聚体互作，但方法以序列/结构分析为主，缺乏AI或物理模拟的机制建模深度。",
+  "abstract": "Alpha-synuclein (alphaSyn) is often described as a predominantly disordered protein that has a propensity to self-assemble into toxic oligomers that are found in patients with Parkinson's and Alzheimer's diseases. alphaSyn's chaperone behavior and tetrameric structure are proposed to be protective against toxic oligomerization. In this paper, we extended the previously proposed similarity between alphaSyn and 14-3-3 proteins to the alpha-helical tetrameric species of alphaSyn in detail. 14-3-3 proteins are a family of well-folded proteins with seven human isoforms, and function in signal transduction and as molecular chaperones. We investigated protein homology, using sequence alignment, amyloid, and disorder prediction, as well as three-dimensional visualization and protein-interaction networks. Our results show sequence homology and structural similarity between the aggregation-prone non-amyloid-beta component (NAC) residues Val-52 to Gly-111 in alphaSyn and 14-3-3 sigma residues Leu-12 to Gly-78. We identified an additional region of sequence homology in the C-terminal region of alphaSyn (residues Ser-129 to Asp-135) and a C-terminal loop of 14-3-3 between helix alphaH and alphaI (residues Ser-209 to Asp-215). This data indicates alphaSyn shares conserved domain architecture with small heat shock proteins. We show predicted regions of high amyloidogenic propensity and intrinsic structural disorder in alphaSyn coincide with amyloidogenic and disordered predictions for 14-3-3 proteins. The homology in the NAC region aligns with residues involved in dimer- and tetramerization of the non-amyloidogenic 14-3-3 proteins. Because 14-3-3 proteins are generally not prone to misfolding, our results lend further support to the hypothesis that the NAC region is critical to the assembly of alphaSyn into the non-toxic tetrameric state.",
+  "abstract_zh": "α-突触核蛋白（alphaSyn）常被描述为一种主要无序的蛋白质，具有自组装成毒性寡聚体的倾向，这些寡聚体见于帕金森病和阿尔茨海默病患者的体内。alphaSyn的分子伴侣行为及四聚体结构被认为可防止毒性寡聚化。在本文中，我们将先前提出的alphaSyn与14-3-3蛋白之间的相似性，详细扩展至alphaSyn的α-螺旋四聚体形式。14-3-3蛋白是一个折叠良好的蛋白质家族，包含七种人类亚型，在信号转导中发挥作用，并作为分子伴侣。我们通过序列比对、淀粉样蛋白及无序性预测，以及三维可视化和蛋白质相互作用网络，研究了蛋白质同源性。结果显示，alphaSyn中易聚集的非淀粉样β组分（NAC）残基Val-52至Gly-111与14-3-3 sigma的残基Leu-12至Gly-78之间存在序列同源性和结构相似性。我们还识别出alphaSyn C末端区域（残基Ser-129至Asp-135）与14-3-3螺旋αH和αI之间的C末端环（残基Ser-209至Asp-215）存在另一段序列同源区域。该数据表明，alphaSyn与小热休克蛋白共享保守的结构域架构。我们显示，alphaSyn中预测的高淀粉样倾向性和内在结构无序区域，与14-3-3蛋白的淀粉样及无序预测相吻合。NAC区域的同源性对应于非淀粉样生成性14-3-3蛋白二聚化和四聚化所涉及的残基。由于14-3-3蛋白通常不易错误折叠，我们的结果进一步支持了NAC区域对alphaSyn组装成无毒四聚体状态至关重要的假说。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34667532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34667532/",
+  "paper_page_path": "papers/pubmed/34667532/index.html"
+}

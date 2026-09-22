@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39600093",
+  "title": "Context-dependent effect of polyethylene glycol on the structure and dynamics of hirudin.",
+  "authors": "Firouzbakht, Arash; De, Anomitra; Gruebele, Martin",
+  "journal": "Biophysical journal",
+  "published_date": "2024-11-27",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用微秒级MD模拟研究PEG化对hirudin（含IDR）与凝血酶结合时结构动态的影响，揭示PEG通过电荷屏蔽和疏水作用调控IDR构象与互作界面，属于无序蛋白PPI的物理模拟机制建模，高度契合课题。",
+  "abstract": "Hirudin is a bioactive small protein that binds thrombin to interrupt the blood clotting cascade. It contains an ordered and a disordered (IDR) region. Conjugating with polyethylene glycol (PEGylation) is an important modification of biopharmaceuticals to improve their lifetime and retention. Here, we studied by molecular dynamics (MD) simulation how hirudin P18 and its PEGylated variant differ in their structural flexibility depending on binding to thrombin and charge screening by NaCl. We also compare with glycated hirP18 and the hirV1 variant to assess effects of different polar attachments and sequence variability. First, we synthesized unlabeled and PEG-labeled hirP18 followed by an activity assay to ascertain that the peptide-PEG conjugate retains anticoagulant activity. Next, we carried 16 different microsecond MD simulations of the different proteins, bound and unbound, for 2 sequences and different salt conditions. Simulations were analyzed in terms of scaling exponents to study the effect of ionic strength on hirudin size and solvent-exposed surface area. We conclude that charge patterning of the sequence and the presence of arginine are 2 important features for how PEG interacts with the protein folded and intrinsically disordered regions. Specifically, PEG can screen end-to-end electrostatic interactions by \"hiding\" a positively charged region of hirudin, whereas hirV1 is less sticky than hirP18 due to different PEG-hirudin hydrophobic interactions and the presence of an arginine in hirP18. Conjugation with either PEG or a glycan significantly reduces solvent-exposed area of hirudin, but PEG interacts more efficiently with surface residues than does glycan due to its narrower chain that can fit in surface grooves, and alternation of polar (oxygen) and nonpolar (CH(2)-CH(2)) groups that interact favorably with charged and hydrophobic surface patches.",
+  "abstract_zh": "水蛭素是一种生物活性小蛋白，能与凝血酶结合以中断凝血级联反应。它包含一个有序区域和一个无序区域（IDR）。与聚乙二醇结合（PEG化）是生物制药的重要修饰方式，以改善其寿命和保留时间。在此，我们通过分子动力学（MD）模拟研究了水蛭素P18及其PEG化变体在结构灵活性上的差异，这取决于与凝血酶的结合以及NaCl的电荷屏蔽作用。我们还与糖化hirP18和hirV1变体进行比较，以评估不同极性附着和序列变异的影响。首先，我们合成了未标记和PEG标记的hirP18，随后进行活性测定，以确认肽-PEG偶联物保留抗凝血活性。接下来，我们对不同蛋白质进行了16次微秒级MD模拟，包括结合和未结合状态，涉及2种序列和不同盐条件。模拟结果通过标度指数进行分析，以研究离子强度对水蛭素大小和溶剂暴露表面积的影响。我们得出结论，序列的电荷分布和精氨酸的存在是PEG与蛋白质折叠区域及内在无序区域相互作用的两大重要特征。具体而言，PEG可以通过“隐藏”水蛭素的正电荷区域来屏蔽端到端的静电相互作用，而hirV1由于不同的PEG-水蛭素疏水相互作用以及hirP18中精氨酸的存在，其粘附性低于hirP18。与PEG或聚糖结合均显著减少水蛭素的溶剂暴露面积，但PEG与表面残基的相互作用比聚糖更有效，这是因为其较窄的链能适应表面沟槽，并且极性（氧）和非极性（CH(2)-CH(2)）基团的交替能与带电和疏水表面斑块有利地相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39600093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39600093/",
+  "paper_page_path": "papers/pubmed/39600093/index.html"
+}

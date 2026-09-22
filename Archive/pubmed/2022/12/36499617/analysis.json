@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36499617",
+  "title": "Unveiling the Metal-Dependent Aggregation Properties of the C-terminal Region of Amyloidogenic Intrinsically Disordered Protein Isoforms DPF3b and DPF3a.",
+  "authors": "Leyder, Tanguy; Mignon, Julien; Mottet, Denis; Michaux, Catherine",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文实验研究DPF3无序蛋白C端区域金属依赖的聚集/淀粉样纤维化，对象为IDP但聚焦聚集而非PPI，且无AI或物理模拟方法，仅光谱与电镜实验，故与课题关联有限。",
+  "abstract": "Double-PHD fingers 3 (DPF3) is a BAF-associated human epigenetic regulator, which is increasingly recognised as a major contributor to various pathological contexts, such as cardiac defects, cancer, and neurodegenerative diseases. Recently, we unveiled that its two isoforms (DPF3b and DPF3a) are amyloidogenic intrinsically disordered proteins. DPF3 isoforms differ from their C-terminal region (C-TERb and C-TERa), containing zinc fingers and disordered domains. Herein, we investigated the disorder aggregation properties of C-TER isoforms. In agreement with the predictions, spectroscopy highlighted a lack of a highly ordered structure, especially for C-TERa. Over a few days, both C-TERs were shown to spontaneously assemble into similar antiparallel and parallel beta-sheet-rich fibrils. Altered metal homeostasis being a neurodegeneration hallmark, we also assessed the influence of divalent metal cations, namely Cu(2+), Mg(2+), Ni(2+), and Zn(2+), on the C-TER aggregation pathway. Circular dichroism revealed that metal binding does not impair the formation of beta-sheets, though metal-specific tertiary structure modifications were observed. Through intrinsic and extrinsic fluorescence, we found that metal cations differently affect C-TERb and C-TERa. Cu(2+) and Ni(2+) have a strong inhibitory effect on the aggregation of both isoforms, whereas Mg(2+) impedes C-TERb fibrillation and, on the contrary, enhances that of C-TERa. Upon Zn(2+) binding, C-TERb aggregation is also hindered, and the amyloid autofluorescence of C-TERa is remarkably red-shifted. Using electron microscopy, we confirmed that the metal-induced spectral changes are related to the morphological diversity of the aggregates. While metal-treated C-TERb formed breakable and fragmented filaments, C-TERa fibrils retained their flexibility and packing properties in the presence of Mg(2+) and Zn(2+) cations.",
+  "abstract_zh": "Double-PHD fingers 3 (DPF3) 是一种与BAF相关的人类表观遗传调控因子，日益被认为是多种病理环境（如心脏缺陷、癌症和神经退行性疾病）的主要贡献者。近期，我们揭示其两种异构体（DPF3b和DPF3a）是淀粉样变性内在无序蛋白。DPF3异构体在其C末端区域（C-TERb和C-TERa）上有所不同，该区域包含锌指和无序结构域。在此，我们研究了C-TER异构体的无序聚集特性。与预测一致，光谱学显示缺乏高度有序结构，尤其是C-TERa。在几天内，两种C-TER均被证明能自发组装成相似的反平行和平行β-折叠富集纤维。鉴于金属稳态改变是神经退行性疾病的标志，我们还评估了二价金属阳离子，即Cu(2+)、Mg(2+)、Ni(2+)和Zn(2+)，对C-TER聚集途径的影响。圆二色光谱显示，金属结合不损害β-折叠的形成，尽管观察到金属特异性的三级结构修饰。通过内在和外在荧光，我们发现金属阳离子对C-TERb和C-TERa的影响不同。Cu(2+)和Ni(2+)对两种异构体的聚集均有强烈抑制作用，而Mg(2+)阻碍C-TERb纤维化，相反却增强C-TERa的纤维化。在Zn(2+)结合时，C-TERb聚集也受到阻碍，且C-TERa的淀粉样自荧光显著红移。使用电子显微镜，我们确认金属诱导的光谱变化与聚集体的形态多样性相关。金属处理的C-TERb形成易断裂和碎片化的丝状结构，而C-TERa纤维在Mg(2+)和Zn(2+)阳离子存在下保持其柔韧性和堆积特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36499617/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36499617/",
+  "paper_page_path": "papers/pubmed/36499617/index.html"
+}

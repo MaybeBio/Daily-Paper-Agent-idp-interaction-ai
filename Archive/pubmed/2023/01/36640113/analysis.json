@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36640113",
+  "title": "Phase-Separation Propensity of Non-ionic Amino Acids in Peptide-Based Complex Coacervation Systems.",
+  "authors": "Akahoshi, Yuto; Sugai, Hiroka; Mimura, Masahiro; Shinkai, Yoichi; Kurita, Ryoji; Shiraki, Kentaro; Tomita, Shunsuke",
+  "journal": "Biomacromolecules",
+  "published_date": "2023-01-15",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验测定非离子氨基酸在肽-核酸复合凝聚体系中的相分离倾向，虽对象为IDR相关LLPS且涉及PPI，但方法为纯实验（浊度滴定/显微观察），无AI或物理模拟建模，故评6分。",
+  "abstract": "Uncovering the sequence-encoded molecular grammar that governs the liquid-liquid phase separation (LLPS) of proteins is a crucial issue to understand dynamic compartmentalization in living cells and the emergence of protocells. Here, we present a model LLPS system that is induced by electrostatic interactions between anionic nucleic acids and cationic oligolysine peptides modified with 12 different non-ionic amino acids, with the aim of creating an index of \"phase-separation propensity\" that represents the contribution of non-ionic amino acids to LLPS. Based on turbidimetric titrations and microscopic observations, the lower critical peptide concentrations where LLPS occurs (C(crit)) were determined for each peptide. A correlation analysis between these values and known amino acid indices unexpectedly showed that eight non-ionic amino acids inhibit the generation of LLPS, whereby the extent of inhibition increases with increasing hydrophobicity of the amino acids. However, three aromatic amino acids deviate from this trend and rather markedly promote LLPS despite their high hydrophobicity. A comparison with double-stranded DNA and polyacrylic acid revealed that this is primarily due to interactions with DNA nucleobases. Our approach to quantify the contribution of non-ionic amino acids can be expected to help to provide a more accurate description and prediction of the LLPS propensity of peptides/proteins.",
+  "abstract_zh": "揭示控制蛋白质液-液相分离（LLPS）的序列编码分子语法，是理解活细胞中动态区室化及原始细胞出现的关键问题。在此，我们提出一个模型LLPS系统，该系统由阴离子核酸与经12种不同非离子氨基酸修饰的阳离子寡聚赖氨酸肽之间的静电相互作用诱导，旨在创建一种“相分离倾向”指数，以表示非离子氨基酸对LLPS的贡献。基于浊度滴定和显微镜观察，确定了每种肽发生LLPS的下临界肽浓度（C(crit)）。这些值与已知氨基酸指数之间的相关性分析意外显示，八种非离子氨基酸抑制LLPS的产生，且抑制程度随氨基酸疏水性增加而增强。然而，三种芳香族氨基酸偏离此趋势，尽管其疏水性高，却显著促进LLPS。与双链DNA和聚丙烯酸的比较表明，这主要归因于与DNA核碱基的相互作用。我们量化非离子氨基酸贡献的方法，有望帮助更准确地描述和预测肽/蛋白质的LLPS倾向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36640113/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36640113/",
+  "paper_page_path": "papers/pubmed/36640113/index.html"
+}

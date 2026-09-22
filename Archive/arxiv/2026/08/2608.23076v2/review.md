@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Results, Discussion, Data availability, Acknowledgments) without Supplementary Information (SI) or figures.
+- **Assessment boundary** Scientific content, model formulation, internal consistency, and claims as presented in the provided text. Figures and SI are referenced but not directly assessable.
+- **Shared manuscript claim summary** The manuscript proposes a transient-network model coupled with a continuum phase-separation framework to explain how molecular conformational switching and dynamic cross-linking drive transitions in condensate mechanics (from Maxwell fluid to Kelvin–Voigt solid) and morphology (from coarsening to dynamical arrest).
+- **Visible evidence base** Model equations (Eqs. 1–5), qualitative descriptions of simulation results (Figs. 2–5), and references to SI sections and figures. No quantitative data, parameter values, or simulation details are provided in the main text.
+- **Missing materials affecting confidence** Supplementary Information (derivations, additional figures), all figures (Figs. 1–5), simulation parameters, quantitative results, and codebase details. These are essential for verifying the model's predictions and claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the biology and physics of biomolecular condensates: how molecular-level changes in cross-linking lead to macroscopic transitions in material properties and morphology. The conceptual framework, coupling transient-network theory with phase separation, is novel and potentially impactful. However, the main text as provided lacks the quantitative detail and figure content necessary to evaluate the model's validity, the robustness of its predictions, and the strength of the claims made. The model appears plausible, but the evidence base is currently insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, soft matter physics, and mechanobiology. The work is relevant to those studying condensate aging, disease-related aggregation, and the physical principles governing cellular organization. The model's predictions on morphology as a biomarker could interest experimentalists and clinicians.
+- **Major strengths**
+  - The manuscript addresses a significant open question: the mechanistic link between molecular interactions and condensate aging/morphology.
+  - The coupling of transient-network theory with phase-separation dynamics is a novel and promising theoretical approach.
+  - The model qualitatively captures experimentally observed transitions (e.g., Maxwell to Kelvin–Voigt behavior, aging-dependent recoil), suggesting biological relevance.
+  - The discussion of therapeutic implications (restoring cross-link turnover) is thoughtful and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model predicts a transition from Maxwell fluid to Kelvin–Voigt solid behavior as a function of aging time and aging rate.
+  - **Evidence pointer** Section 2.2, Figs. 2 and 3, SI sections 2B.1–2B.3
+  - **Concern** The main text provides only qualitative descriptions of the rheological predictions. No quantitative data, such as values of storage and loss moduli, relaxation times, or recoil amplitudes, are presented. The derivation of the aging-modified unbinding rate (Eq. 6) is not shown, and the choice of the aging exponent a=1.5 is not justified. Without these details, the validity and robustness of the predicted Maxwell-to-Kelvin–Voigt transition cannot be assessed.
+  - **Why it matters** The central claim of the manuscript rests on the model's ability to reproduce a specific rheological transition. If the model's predictions are not rigorously demonstrated with quantitative results and sensitivity analysis, the claim remains unsupported.
+  - **Resolution test** Provide quantitative results from the oscillatory and creep tests, including plots of G' and G'' versus frequency for different aging times and aging rates. Show the derivation of Eq. 6 and justify the choice of a=1.5. Include a sensitivity analysis of the model predictions to key parameters (e.g., τ_a, a, k_on, k_off).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The coupled model demonstrates that the interplay of molecular switching and dynamic cross-linking shapes the spatial organization of condensate phases, including arrested coarsening and morphology transitions.
+  - **Evidence pointer** Section 2.3, Figs. 4 and 5, SI Figs. S2–S4
+  - **Concern** The main text describes the evolution of characteristic length scales (L_p, L_n) and stripe numbers (N_p, N_n) but does not present any quantitative data or images. The definitions of L_p, L_n, N_p, and N_n are not provided in the main text. The claim that "unbinding kinetics play a stronger role" and "binding kinetics govern the stability" is based on qualitative observations that cannot be verified without the actual simulation results and parameter sweeps.
+  - **Why it matters** The manuscript's second major claim is that the model explains morphological transitions. Without quantitative evidence, such as plots of L_p and L_n versus time for different parameter sets, the claim is not established.
+  - **Resolution test** Provide quantitative plots of L_p, L_n, N_p, and N_n versus time for the different parameter combinations discussed (U_b > U_u, U_b < U_u, U_b = U_u, and varying k_p-n/k_n-p). Include representative snapshots of the phase morphology. Clearly define how L_p, L_n, N_p, and N_n are computed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The model provides a mechanistic route explaining how conformational switching and molecular cross-linking regulate material properties and morphology of condensates, with implications for disease.
+  - **Evidence pointer** Sections 2 and 3, Discussion
+  - **Concern** The manuscript claims to provide a "mechanistic route" but does not compare its predictions with any specific experimental data beyond qualitative references. The model is not validated against quantitative experimental measurements of condensate rheology or morphology. The link to disease is speculative and not supported by direct evidence or a detailed discussion of specific experimental systems.
+  - **Why it matters** For a modeling paper to be impactful, it must demonstrate that its predictions are testable and ideally consistent with existing quantitative data. The current manuscript does not provide such a comparison, weakening the claim of biological relevance.
+  - **Resolution test** Identify specific experimental datasets (e.g., rheology of A1-LCD condensates, FRAP measurements) and compare model predictions quantitatively. Discuss how the model's parameters map to measurable molecular quantities. Provide a more detailed and concrete discussion of the disease relevance, citing specific examples.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Sections 1 and 3
+  - **Issue** The introduction and discussion are dense and assume significant background knowledge in both polymer physics and cell biology. The significance of the Maxwell-to-Kelvin–Voigt transition for a general biology audience is not clearly explained.
+  - **Required correction** Add a brief, accessible explanation of what Maxwell fluid and Kelvin–Voigt solid behaviors mean physically and why the transition is biologically important. Consider adding a schematic figure or a simple analogy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model formulation (Section 2.1)
+  - **Evidence pointer** Eq. 1
+  - **Issue** The governing equations (Eq. 1) are not fully written out in the main text; the reader is referred to the SI. This makes it difficult to follow the model formulation.
+  - **Required correction** Write out the full form of Eq. 1 in the main text, or at least provide the key terms and their physical meaning.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model parameters
+  - **Evidence pointer** Section 2.1, Eq. 4
+  - **Issue** The model contains several parameters (e.g., α, k_on, k_off, U_b, U_u, G) but their values or ranges are not stated in the main text.
+  - **Required correction** Provide a table of parameter values and ranges used in the simulations, or state that they are given in the SI.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Originality
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of therapeutic implications is brief and does not fully explore the novelty of the proposed strategy (restoring cross-link turnover) compared to existing approaches.
+  - **Required correction** Expand the discussion to compare the proposed strategy with other therapeutic approaches targeting condensates and discuss potential challenges.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The model's central predictions are not quantitatively demonstrated in the main text, and the lack of comparison with experimental data prevents validation. The manuscript cannot be considered to have established its claims without these issues being resolved.
+- **Assessment against Nature-style criteria**
+  - **Originality** The coupling of transient-network theory with phase-separation dynamics is a novel approach. The concept of aging as a progressive stabilization of cross-links is not entirely new but is applied here in a new context. The originality is moderate to high.
+  - **Scientific importance** The question of how condensates age and transition in material properties is of high importance in cell biology and disease research. The model has the potential to provide a unifying framework. However, the importance is not fully realized without quantitative validation and comparison to experiments.
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, spanning physics, biology, and materials science. The manuscript is likely to appeal to researchers in these fields, but the dense presentation may limit its accessibility to a broader readership.
+  - **Technical soundness** The model formulation appears plausible, but the lack of quantitative results and sensitivity analysis in the main text prevents a full assessment of its soundness. The derivation of the aging model is not shown.
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists. The significance of the rheological transitions and the model's predictions are not explained in a way that a general scientific audience can easily grasp.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising framework, but the central claims are not supported by quantitative data in the main text. Major revisions are required to provide the necessary evidence and validation.
+
+## Risk / unsupported claims
+- The claim that the model captures the transition from Maxwell fluid to Kelvin–Voigt solid is unsupported without quantitative rheological data.
+- The claim that the model demonstrates morphological transitions and dynamical arrest is unsupported without quantitative simulation results and images.
+- The claim that the model provides a "mechanistic route" with implications for disease is not validated against experimental data.
+- The qualitative comparison to experimental systems (A1-LCD condensates) is not substantiated with quantitative data.
+- The model's predictions regarding the role of binding versus unbinding kinetics in morphology are not supported by quantitative evidence.

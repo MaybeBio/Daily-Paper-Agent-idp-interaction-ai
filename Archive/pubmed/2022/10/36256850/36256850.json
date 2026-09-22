@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "36256850",
+    "doi": "10.1021/acsnano.2c08627",
+    "title": "How Does Gecko Keratin Stick to Hydrophilic and Hydrophobic Surfaces in the Presence and Absence of Water? An Atomistic Molecular Dynamics Investigation."
+  },
+  "content": {
+    "abstract": "We developed a united-atom model of gecko keratin to investigate the influence of electrostatic and van der Waals contributions to gecko adhesion in scenarios representing gecko's natural habitats. The keratin model assumes that only intrinsically disordered regions directly contact the surface. Contact angles of two generic substrate surfaces that we created match those previously used in AFM experiments on gecko adhesion. Force probe molecular dynamics simulations pulling the keratin from the surface show that the pull-off force increases with increased water content and is inversely related to the water contact angle of the surface. This matches experimental trends. We investigated the number and charge density of keratin and water at the surface, confirming a water-mediating effect and are able to show that keratin folds polar groups to the hydrophilic surface. We decomposed energetic contributions during pull-off, and our computational model shows that in contrast to popular hypotheses, long-range electrostatic interactions determine much of the pull-off process. The contribution of electrostatics to adhesion may be in the order of the van der Waals contributions.",
+    "keywords": [
+      "functional material",
+      "gecko adhesion",
+      "humidity-enhanced adhesion",
+      "molecular dynamics",
+      "nanotechnology",
+      "pull-off force"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Adhesiveness",
+      "*Molecular Dynamics Simulation",
+      "Water",
+      "Keratins",
+      "*Lizards",
+      "Surface Properties"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Materzok, Tobias",
+        "Canestraight, Annabelle",
+        "Gorb, Stanislav N",
+        "Muller-Plathe, Florian"
+      ],
+      "short_names": [
+        "Materzok T",
+        "Canestraight A",
+        "Gorb SN",
+        "Muller-Plathe F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3576-046X",
+        "ORCID: 0000-0002-9111-7786"
+      ],
+      "affiliations": [
+        "Eduard-Zintl-Institut fur Anorganische und Physikalische Chemie and Profile Area Thermofluids and Interfaces, Technische Universitat Darmstadt, Alarich-Weiss-Strasse 8, D-64287 Darmstadt, Germany.",
+        "Department of Chemical Engineering, University of California Santa Barbara, 3357 Engrg II UCSB, Santa Barbara, California 93106, United States.",
+        "Zoological Institute Functional Morphology and Biomechanics, Kiel University, Am Botanischen Garten 1-9, D-24118 Kiel, Germany.",
+        "Eduard-Zintl-Institut fur Anorganische und Physikalische Chemie and Profile Area Thermofluids and Interfaces, Technische Universitat Darmstadt, Alarich-Weiss-Strasse 8, D-64287 Darmstadt, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Materzok, Tobias",
+        "short_name": "Materzok T",
+        "identifiers": [
+          "0000-0002-3576-046X"
+        ],
+        "affiliations": [
+          "Eduard-Zintl-Institut für Anorganische und Physikalische Chemie and Profile Area Thermofluids and Interfaces, Technische Universität Darmstadt, Alarich-Weiss-Strasse 8, D-64287 Darmstadt, Germany."
+        ]
+      },
+      {
+        "full_name": "Canestraight, Annabelle",
+        "short_name": "Canestraight A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, 3357 Engrg II UCSB, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Gorb, Stanislav N",
+        "short_name": "Gorb SN",
+        "identifiers": [],
+        "affiliations": [
+          "Zoological Institute Functional Morphology and Biomechanics, Kiel University, Am Botanischen Garten 1-9, D-24118 Kiel, Germany."
+        ]
+      },
+      {
+        "full_name": "Müller-Plathe, Florian",
+        "short_name": "Müller-Plathe F",
+        "identifiers": [
+          "0000-0002-9111-7786"
+        ],
+        "affiliations": [
+          "Eduard-Zintl-Institut für Anorganische und Physikalische Chemie and Profile Area Thermofluids and Interfaces, Technische Universität Darmstadt, Alarich-Weiss-Strasse 8, D-64287 Darmstadt, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2022 Nov 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/19 06:00",
+    "fetched_at": "2026-09-20 15:58:56"
+  },
+  "links": {
+    "cites": [
+      "41256251",
+      "40041990",
+      "36128704"
+    ],
+    "refs": [],
+    "similar": [
+      "36256850",
+      "35043818",
+      "35927024",
+      "17594962",
+      "30873552",
+      "36128704",
+      "20952618",
+      "21865250",
+      "17148600",
+      "12198184",
+      "36707414",
+      "25323067",
+      "36525337",
+      "31065674",
+      "35230827",
+      "31742935",
+      "19673126",
+      "22875772",
+      "22225515",
+      "17376751",
+      "19673062",
+      "22139414",
+      "25547122",
+      "16260737",
+      "29881974",
+      "24944119",
+      "34654009",
+      "25008078",
+      "17374591",
+      "23576727",
+      "25139291",
+      "26331621",
+      "23224299",
+      "10864324",
+      "25054217",
+      "16943497",
+      "17553098",
+      "38145336",
+      "20920615",
+      "27487420",
+      "23639767",
+      "35798824",
+      "23423812",
+      "27354726",
+      "19319703",
+      "24694893",
+      "35857888",
+      "23646515",
+      "16171836",
+      "18718501",
+      "21680391",
+      "19954162",
+      "29390183",
+      "16943496",
+      "19522483",
+      "24115057",
+      "15323531",
+      "25411404",
+      "26392526",
+      "25331382",
+      "17671321",
+      "25589569",
+      "24554579",
+      "35254004",
+      "18478106",
+      "30895301",
+      "21715896",
+      "19493896",
+      "26063826",
+      "25611675",
+      "28398039",
+      "17914644",
+      "26034124",
+      "35132723",
+      "33184356",
+      "38387099",
+      "34138740",
+      "33830673",
+      "24079555",
+      "30912814",
+      "21307055",
+      "25454841",
+      "21289442",
+      "17148113",
+      "35830463",
+      "20643968",
+      "28480713",
+      "18193903",
+      "19782546",
+      "26167951",
+      "30366398",
+      "21770147",
+      "25772496",
+      "21288955",
+      "16893229",
+      "34005883",
+      "36295736",
+      "11112308",
+      "14555732",
+      "23237875",
+      "38842537",
+      "37014946",
+      "34355149",
+      "38979464"
+    ],
+    "review": [
+      "36256850",
+      "31065674",
+      "29881974",
+      "27354726",
+      "19954162",
+      "19782546"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.2c08627",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

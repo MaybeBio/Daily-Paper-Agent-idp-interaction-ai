@@ -1,0 +1,253 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.07.658270",
+  "title": "De novo acyl carrier proteins display structure-independent modification and sequence novelty",
+  "doi": "10.1101/2025.06.07.658270",
+  "abstract": "Acyl carrier proteins (ACPs) are dynamic, structurally conserved α-helical proteins central to many primary and secondary metabolic processes. Whilst prior engineering efforts have focused on strategic mutagenesis and “helix swaps”, much of the ACP sequence design space remains underexplored. Here, we create diverse variants of the archetypal ACP subclass – AcpP – using a bespoke sequence-generating algorithm (ALGO-CP), which utilises a combined evolutionary and physicochemical design approach. Using ALGO-CP, we generated two soluble candidates – ALGO-055 and ALGO-059 – that can undergo full post-translational modification from apo → holo →acyl forms in vitro , using recombinant modifying enzymes. Building on these successful designs, we further adapted ALGO-CP to produce several chimeras, two of which – ch ALGO-012 and ch ALGO-024 – also exhibit full modifiability. We explore the structural plasticity of our ALGO variants via robust molecular dynamic simulations, and we further reveal by circular dichroism spectroscopy that ALGO-055 and ALGO-059 lack the canonical α-helical fold of an ACP, whilst remaining soluble and readily modifiable. Upon acylation of ALGO-055 and ALGO-059, we observe a marked increase in helicity indicative of partial restructuring. Of note, both ALGO-055 and ALGO-059 harbour several rare amino acid variations across their sequences, whilst preserving many important acidic “hotspots” involved in key protein-protein interactions. By testing the limits of the AcpP design space, our findings suggest that some key aspects of ACP behaviour (specifically post-translational modification) can be retained independently of the canonical structure. This work establishes a foundation for probing ACP sequence diversity through a hybrid computational-experimental approach. ALGO-CP is available under AGPL3.0 license: https://github.com/MAHerrera-94/ALGO_CP .",
+  "authors": [
+    "Herrera MA",
+    "King GK",
+    "Ozols Z",
+    "Tiburtini GA",
+    "Schiavo N",
+    "Spyrakis F",
+    "Charkoudian LK",
+    "Campopiano DJ"
+  ],
+  "published_date": "2025-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.07.658270",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.07.658270.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1034686",
+    "raw_record": {
+      "id": "PPR1034686",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1034686"
+        ]
+      },
+      "doi": "10.1101/2025.06.07.658270",
+      "title": "<i>De novo</i>  acyl carrier proteins display structure-independent modification and sequence novelty",
+      "authorString": "Herrera MA, King GK, Ozols Z, Tiburtini GA, Schiavo N, Spyrakis F, Charkoudian LK, Campopiano DJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Herrera MA",
+            "lastName": "Herrera",
+            "firstName": "Michael",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "King GK",
+            "lastName": "King",
+            "firstName": "Grace",
+            "initials": "GK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ozols Z",
+            "lastName": "Ozols",
+            "firstName": "Zoe",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4342-2815"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tiburtini GA",
+            "lastName": "Tiburtini",
+            "firstName": "Gioele",
+            "initials": "GA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8573-6735"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Sciences and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schiavo N",
+            "lastName": "Schiavo",
+            "firstName": "Nicoletta",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Sciences and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spyrakis F",
+            "lastName": "Spyrakis",
+            "firstName": "Francesca",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Sciences and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Charkoudian LK",
+            "lastName": "Charkoudian",
+            "firstName": "Louise",
+            "initials": "LK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Campopiano DJ",
+            "lastName": "Campopiano",
+            "firstName": "Dominic",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8573-6735"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4342-2815"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Acyl carrier proteins (ACPs) are dynamic, structurally conserved α-helical proteins central to many primary and secondary metabolic processes. Whilst prior engineering efforts have focused on strategic mutagenesis and “helix swaps”, much of the ACP sequence design space remains underexplored. Here, we create diverse variants of the archetypal ACP subclass – AcpP – using a bespoke sequence-generating algorithm (ALGO-CP), which utilises a combined evolutionary and physicochemical design approach. Using ALGO-CP, we generated two soluble candidates – ALGO-055 and ALGO-059 – that can undergo full post-translational modification from  apo →  holo →acyl forms  in vitro , using recombinant modifying enzymes. Building on these successful designs, we further adapted ALGO-CP to produce several chimeras, two of which –  ch ALGO-012 and  ch ALGO-024 – also exhibit full modifiability. We explore the structural plasticity of our ALGO variants via robust molecular dynamic simulations, and we further reveal by circular dichroism spectroscopy that ALGO-055 and ALGO-059 lack the canonical α-helical fold of an ACP, whilst remaining soluble and readily modifiable. Upon acylation of ALGO-055 and ALGO-059, we observe a marked increase in helicity indicative of partial restructuring. Of note, both ALGO-055 and ALGO-059 harbour several rare amino acid variations across their sequences, whilst preserving many important acidic “hotspots” involved in key protein-protein interactions. By testing the limits of the AcpP design space, our findings suggest that some key aspects of ACP behaviour (specifically post-translational modification) can be retained independently of the canonical structure. This work establishes a foundation for probing ACP sequence diversity through a hybrid computational-experimental approach. ALGO-CP is available under AGPL3.0 license:  https://github.com/MAHerrera-94/ALGO_CP .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.07.658270"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1034686"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1034686&type=FILE&fileName=EMS206421-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42124780",
+            "reference": "RSC chemical biology. 2026 Jun;7(6):983-997",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206421",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-06-13",
+      "firstPublicationDate": "2025-06-11",
+      "firstIndexDate": "2025-06-13",
+      "fullTextReceivedDate": "2026-04-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

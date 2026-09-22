@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "39600093",
+    "doi": "10.1016/j.bpj.2024.11.3311",
+    "title": "Context-dependent effect of polyethylene glycol on the structure and dynamics of hirudin."
+  },
+  "content": {
+    "abstract": "Hirudin is a bioactive small protein that binds thrombin to interrupt the blood clotting cascade. It contains an ordered and a disordered (IDR) region. Conjugating with polyethylene glycol (PEGylation) is an important modification of biopharmaceuticals to improve their lifetime and retention. Here, we studied by molecular dynamics (MD) simulation how hirudin P18 and its PEGylated variant differ in their structural flexibility depending on binding to thrombin and charge screening by NaCl. We also compare with glycated hirP18 and the hirV1 variant to assess effects of different polar attachments and sequence variability. First, we synthesized unlabeled and PEG-labeled hirP18 followed by an activity assay to ascertain that the peptide-PEG conjugate retains anticoagulant activity. Next, we carried 16 different microsecond MD simulations of the different proteins, bound and unbound, for 2 sequences and different salt conditions. Simulations were analyzed in terms of scaling exponents to study the effect of ionic strength on hirudin size and solvent-exposed surface area. We conclude that charge patterning of the sequence and the presence of arginine are 2 important features for how PEG interacts with the protein folded and intrinsically disordered regions. Specifically, PEG can screen end-to-end electrostatic interactions by \"hiding\" a positively charged region of hirudin, whereas hirV1 is less sticky than hirP18 due to different PEG-hirudin hydrophobic interactions and the presence of an arginine in hirP18. Conjugation with either PEG or a glycan significantly reduces solvent-exposed area of hirudin, but PEG interacts more efficiently with surface residues than does glycan due to its narrower chain that can fit in surface grooves, and alternation of polar (oxygen) and nonpolar (CH(2)-CH(2)) groups that interact favorably with charged and hydrophobic surface patches.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hirudins/chemistry/metabolism/pharmacology",
+      "*Polyethylene Glycols/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Amino Acid Sequence",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Firouzbakht, Arash",
+        "De, Anomitra",
+        "Gruebele, Martin"
+      ],
+      "short_names": [
+        "Firouzbakht A",
+        "De A",
+        "Gruebele M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Urbana-Champaign, Urbana, Illinois.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois Urbana-Champaign, Urbana, Illinois.",
+        "Department of Chemistry, University of Illinois Urbana-Champaign, Urbana, Illinois; Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois; Center for Biophysics and Quantitative Biology, University of Illinois Urbana-Champaign, Urbana, Illinois; Carle-Illinois College of Medicine, University of Illinois Urbana-Champaign, Urbana, Illinois; Beckman Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign, Urbana, Illinois. Electronic address: mgruebel@illinois.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Firouzbakht, Arash",
+        "short_name": "Firouzbakht A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Urbana-Champaign, Urbana, Illinois."
+        ]
+      },
+      {
+        "full_name": "De, Anomitra",
+        "short_name": "De A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Illinois Urbana-Champaign, Urbana, Illinois."
+        ]
+      },
+      {
+        "full_name": "Gruebele, Martin",
+        "short_name": "Gruebele M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Urbana-Champaign, Urbana, Illinois; Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois; Center for Biophysics and Quantitative Biology, University of Illinois Urbana-Champaign, Urbana, Illinois; Carle-Illinois College of Medicine, University of Illinois Urbana-Champaign, Urbana, Illinois; Beckman Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign, Urbana, Illinois. Electronic address: mgruebel@illinois.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 06:20",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38657047",
+      "38250712",
+      "36703348",
+      "36695540",
+      "35922375",
+      "35119946",
+      "34265844",
+      "34137579",
+      "31914313",
+      "31907057",
+      "30939013",
+      "30542076",
+      "30193467",
+      "29763584",
+      "29078291",
+      "28906114",
+      "28714684",
+      "28673927",
+      "27580482",
+      "27140628",
+      "26328871",
+      "25863585",
+      "25764013",
+      "25664638",
+      "24821319",
+      "24615823",
+      "24032457",
+      "23901099",
+      "23578107",
+      "23106398",
+      "21332191",
+      "20427020",
+      "20404210",
+      "20155915",
+      "19647993",
+      "18550810",
+      "18428767",
+      "17212484",
+      "16211538",
+      "16148288",
+      "14979710",
+      "12393696",
+      "10323789",
+      "9184402",
+      "8475480",
+      "7396537",
+      "1540584"
+    ],
+    "similar": [
+      "39600093",
+      "20709502",
+      "11305913",
+      "7473752",
+      "10946094",
+      "1773003",
+      "12427016",
+      "8001550",
+      "1920434",
+      "1517214",
+      "1581311",
+      "2065053",
+      "35135035",
+      "9753436",
+      "1894193",
+      "3233202",
+      "7923685",
+      "2401369",
+      "8855358",
+      "1547237",
+      "38055188",
+      "2350549",
+      "1746000",
+      "9184402",
+      "8376390",
+      "9589189",
+      "23517305",
+      "2018764",
+      "28650657",
+      "1894196",
+      "8135762",
+      "8251938",
+      "1363935",
+      "9128439",
+      "31720639",
+      "2620063",
+      "14717940",
+      "17585879",
+      "25526801",
+      "2369893",
+      "11115081",
+      "1911777",
+      "2374926",
+      "2266119",
+      "8397794",
+      "1771418",
+      "15115671",
+      "14727852",
+      "7685281",
+      "10548068",
+      "9156409",
+      "7767465",
+      "24032457",
+      "38677578",
+      "7612610",
+      "2819038",
+      "1654318",
+      "10323789",
+      "7948726",
+      "26321653",
+      "1674862",
+      "7966143",
+      "24821319",
+      "1985956",
+      "21121595",
+      "8289292",
+      "9749925",
+      "11685047",
+      "10604593",
+      "9271811",
+      "1631048",
+      "2722794",
+      "1474586",
+      "26850929",
+      "2496126",
+      "3768302",
+      "8142400",
+      "1335515",
+      "1734964",
+      "3625715",
+      "12643328",
+      "31188563",
+      "37860993",
+      "8642559",
+      "2002458",
+      "1857714",
+      "2040604",
+      "37708351",
+      "2459027",
+      "31949293",
+      "2180697",
+      "14654359",
+      "2271010",
+      "28714684",
+      "3663613",
+      "2226793",
+      "22879918",
+      "15152084",
+      "24350646",
+      "1894197"
+    ],
+    "review": [
+      "39600093",
+      "20709502",
+      "1894193"
+    ],
+    "pmc": [
+      "11739923"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)02239-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39600093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

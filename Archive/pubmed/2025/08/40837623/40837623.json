@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "40837623",
+    "doi": "10.1039/d5dd00132c",
+    "title": "Identifying 14-3-3 interactome binding sites with deep learning."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions are at the heart of biological processes. Understanding how proteins interact is key for deciphering their roles in health and disease, and for therapeutic interventions. However, identifying protein interaction sites, especially for intrinsically disordered proteins, is challenging. Here, we developed a deep learning framework to predict potential protein binding sites to 14-3-3 - a 'central hub' protein holding a key role in cellular signaling networks. After systematically testing multiple deep learning approaches to predict sequence binding to 14-3-3, we developed an ensemble model that achieved a 75% balanced accuracy on external sequences. Our approach was applied prospectively to identify putative binding sites across medically relevant proteins (ranging from highly structured to intrinsically disordered) for a total of approximately 300 sequences. The top eight predicted peptide sequences were experimentally validated in the wet-lab, and binding to 14-3-3 was confirmed for five out of eight sequences (K (d) ranging from 1.6 +/- 0.1 muM to 70 +/- 5 muM). The relevance of our results was further confirmed by X-ray crystallography and molecular dynamics simulations. These sequences represent potential new binding sites within the 14-3-3 interactome (e.g., relating to Alzheimer's disease as the binding to tau is not the new part), and provide opportunities to investigate their functional relevance. Our results highlight the ability of deep learning to capture intricate patterns underlying protein-protein interactions, even for challenging cases like intrinsically disordered proteins. To further the understanding and targeting of 14-3-3/protein interactions, our model was provided as a freely accessible web resource at the following URL: https://14-3-3-bindsite.streamlit.app/.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "van Weesep, Laura",
+        "Ozcelik, Riza",
+        "Pennings, Marloes",
+        "Criscuolo, Emanuele",
+        "Ottmann, Christian",
+        "Brunsveld, Luc",
+        "Grisoni, Francesca"
+      ],
+      "short_names": [
+        "van Weesep L",
+        "Ozcelik R",
+        "Pennings M",
+        "Criscuolo E",
+        "Ottmann C",
+        "Brunsveld L",
+        "Grisoni F"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-5524-7960",
+        "ORCID: 0000-0002-4052-9721",
+        "ORCID: 0000-0002-3366-0238",
+        "ORCID: 0000-0001-8165-2243",
+        "ORCID: 0000-0001-7315-0315",
+        "ORCID: 0000-0001-5675-511X",
+        "ORCID: 0000-0001-8552-6615"
+      ],
+      "affiliations": [
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Eindhoven AI Systems Institute (EAISI), Eindhoven University of Technology Eindhoven The Netherlands.",
+        "Centre for Living Technologies, Alliance TU/e, WUR, UU, UMC Utrecht Utrecht The Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+        "Eindhoven AI Systems Institute (EAISI), Eindhoven University of Technology Eindhoven The Netherlands.",
+        "Centre for Living Technologies, Alliance TU/e, WUR, UU, UMC Utrecht Utrecht The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "van Weesep, Laura",
+        "short_name": "van Weesep L",
+        "identifiers": [
+          "0009-0009-5524-7960"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl."
+        ]
+      },
+      {
+        "full_name": "Özçelik, Rıza",
+        "short_name": "Özçelik R",
+        "identifiers": [
+          "0000-0002-4052-9721"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+          "Eindhoven AI Systems Institute (EAISI), Eindhoven University of Technology Eindhoven The Netherlands.",
+          "Centre for Living Technologies, Alliance TU/e, WUR, UU, UMC Utrecht Utrecht The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Pennings, Marloes",
+        "short_name": "Pennings M",
+        "identifiers": [
+          "0000-0002-3366-0238"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+          "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Criscuolo, Emanuele",
+        "short_name": "Criscuolo E",
+        "identifiers": [
+          "0000-0001-8165-2243"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl."
+        ]
+      },
+      {
+        "full_name": "Ottmann, Christian",
+        "short_name": "Ottmann C",
+        "identifiers": [
+          "0000-0001-7315-0315"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+          "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Brunsveld, Luc",
+        "short_name": "Brunsveld L",
+        "identifiers": [
+          "0000-0001-5675-511X"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+          "Laboratory of Chemical Biology, Department of Biomedical Engineering, Eindhoven University of Technology Eindhoven The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Grisoni, Francesca",
+        "short_name": "Grisoni F",
+        "identifiers": [
+          "0000-0001-8552-6615"
+        ],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology Eindhoven The Netherlands l.brunsveld@tue.nl f.grisoni@tue.nl.",
+          "Eindhoven AI Systems Institute (EAISI), Eindhoven University of Technology Eindhoven The Netherlands.",
+          "Centre for Living Technologies, Alliance TU/e, WUR, UU, UMC Utrecht Utrecht The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Digital discovery"
+    ],
+    "journal_abbrev": [
+      "Digit Discov"
+    ],
+    "pub_date": "2025 Sep 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/21 06:28",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [
+      "41839059"
+    ],
+    "refs": [
+      "40745206",
+      "40170887",
+      "39726698",
+      "39470701",
+      "38738787",
+      "38330793",
+      "37904585",
+      "36931259",
+      "36922490",
+      "36425654",
+      "36212542",
+      "35874228",
+      "35405427",
+      "35078985",
+      "34737399",
+      "34458155",
+      "34294877",
+      "33723253",
+      "33103082",
+      "33006579",
+      "32979285",
+      "32950519",
+      "32939979",
+      "31819266",
+      "31450545",
+      "30953170",
+      "30909496",
+      "30653408",
+      "30423091",
+      "30395287",
+      "30228872",
+      "30002402",
+      "29473952",
+      "28368277",
+      "26751493",
+      "26644359",
+      "26103986",
+      "26017442",
+      "25740432",
+      "25735772",
+      "25653146",
+      "25514926",
+      "24501395",
+      "23481661",
+      "23418452",
+      "22922483",
+      "22328899",
+      "20679480",
+      "20206173",
+      "20141511",
+      "20068161",
+      "19595761",
+      "18355092",
+      "17289589",
+      "16678438",
+      "16678437",
+      "16502475",
+      "16444738",
+      "16211538",
+      "16091624",
+      "15993577",
+      "15644438",
+      "14738247",
+      "14555458",
+      "11864996",
+      "11152955",
+      "10836149",
+      "9428519",
+      "7890696",
+      "7834748",
+      "1530909",
+      "1438297"
+    ],
+    "similar": [
+      "40837623",
+      "23912807",
+      "40133781",
+      "38192372",
+      "18831774",
+      "39763873",
+      "39214282",
+      "30866736",
+      "39433833",
+      "36945484",
+      "38830995",
+      "28245811",
+      "31894361",
+      "38987470",
+      "34905768",
+      "39695955",
+      "38781245",
+      "35810958",
+      "34179096",
+      "36576775",
+      "41310253",
+      "38812466",
+      "40728621",
+      "40231860",
+      "40874616",
+      "38245002",
+      "38370653",
+      "37581491",
+      "28002650",
+      "40745316",
+      "40244295",
+      "38762754",
+      "39319382",
+      "27218803",
+      "41346856",
+      "27881680",
+      "17081491",
+      "30259679",
+      "30355493",
+      "29257115",
+      "39506806",
+      "32019410",
+      "32623047",
+      "39253485",
+      "40254833",
+      "40910885",
+      "36321557",
+      "39327003",
+      "24727949",
+      "33382616",
+      "34635140",
+      "33740884",
+      "38297184",
+      "33361159",
+      "38630609",
+      "37498545",
+      "18796161",
+      "36533639",
+      "23240611",
+      "34262938",
+      "33334313",
+      "36908253",
+      "31918654",
+      "36929465",
+      "39822590",
+      "41174305",
+      "29364151",
+      "31504193",
+      "27727496",
+      "32271882",
+      "37883249",
+      "41053908",
+      "33304713",
+      "36116806",
+      "23431393",
+      "23077539",
+      "40997583",
+      "28381244",
+      "39740355",
+      "22125611",
+      "37158609",
+      "40225296",
+      "36653447",
+      "26555596",
+      "33984364",
+      "32295482",
+      "40661495",
+      "41051642",
+      "23892546",
+      "40975372",
+      "25286318",
+      "36841846",
+      "40914361",
+      "40894573",
+      "35883018",
+      "32173600",
+      "39103447",
+      "28155662",
+      "36272675",
+      "40121399"
+    ],
+    "review": [
+      "40837623",
+      "38245002",
+      "36321557",
+      "33361159",
+      "23240611",
+      "29364151"
+    ],
+    "pmc": [
+      "12360161"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40837623/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

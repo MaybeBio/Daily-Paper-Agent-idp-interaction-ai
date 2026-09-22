@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2407.19202v4",
+  "title": "Material properties of biomolecular condensates emerge from nanoscale dynamics",
+  "authors": "Nicola Galvanetto; Miloš T. Ivanović; Simone A. Del Grosso; Aritra Chowdhury; Andrea Sottini; Daniel Nettels; Robert B. Best; Benjamin Schuler",
+  "journal": "",
+  "published_date": "2024-07-27",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过原子模拟和聚合物物理解析关系，研究凝聚体纳米级链动力学如何决定其宏观黏弹性，聚焦相分离凝聚体中的分子机制，但未直接涉及蛋白-蛋白互作界面或AI方法。",
+  "abstract": "Biomolecular condensates form by phase separation of biological polymers and have important functions in the cell $-$ functions that are inherently connected to their physical properties. A remarkable aspect of such condensates is that their viscoelastic properties can vary by orders of magnitude, but it has remained unclear how these pronounced differences are rooted in the nanoscale dynamics at the molecular level. Here we investigate a series of condensates formed by complex coacervation that span about two orders of magnitude in molecular dynamics, diffusivity, and viscosity. We find that the nanoscale chain dynamics on the nano- to microsecond timescale can be accurately related to both translational diffusion and mesoscale condensate viscosity by analytical relations from polymer physics. Atomistic simulations reveal that the observed differences in friction $-$ a key quantity underlying these relations $-$ are caused by differences in inter-residue contact lifetimes, leading to the vastly different dynamics among the condensates. The rapid exchange of inter-residue contacts we observe may be a general mechanism for preventing dynamic arrest in compartments densely packed with polyelectrolytes, such as the cell nucleus.",
+  "abstract_zh": "生物分子凝聚体通过生物聚合物的相分离（phase separation）形成，并在细胞中具有重要功能——这些功能与其物理性质密切相关。此类凝聚体的一个显著特点是其粘弹性可变化达数个数量级，但至今仍不清楚这些显著差异如何在分子层面的纳米尺度动力学中扎根。在此，我们研究了一系列通过复合凝聚（complex coacervation）形成的凝聚体，其分子动力学、扩散性和粘度跨越约两个数量级。我们发现，纳米至微秒时间尺度上的纳米级链动力学可通过聚合物物理学的解析关系，精确关联至平移扩散和介观凝聚体粘度。原子模拟揭示，观察到的摩擦差异——这些关系背后的关键量——由残基间接触寿命的差异引起，从而导致凝聚体间截然不同的动力学。我们观察到的残基间接触快速交换，可能是一种普遍机制，用于防止在充满聚电解质的区室（如细胞核）中发生动态停滞。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2407.19202v4",
+  "source_url": "https://arxiv.org/abs/2407.19202v4",
+  "paper_page_path": "papers/arxiv/2407.19202v4/index.html"
+}

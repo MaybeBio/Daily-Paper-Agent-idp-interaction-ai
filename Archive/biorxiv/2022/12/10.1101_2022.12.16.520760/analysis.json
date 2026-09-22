@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.16.520760",
+  "title": "Evolutionary conservation of the structure and function of meiotic Rec114−Mei4 and Mer2 complexes",
+  "authors": "Daccache D; De Jonge E; Liloku P; Mechleb K; Haddad M; Corthaut S; Sterckx YG; Volkov AN; Bouuaert CC",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-17",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold、NMR、SAXS等结构方法解析减数分裂Rec114-Mei4和Mer2复合物的结构及DNA结合与凝聚机制，虽涉及蛋白复合物和凝聚，但对象非无序蛋白/IDR，且方法以结构生物学为主、AI仅作辅助，对IDP介导PPI机制建模的启发有限。",
+  "abstract": "Meiosis-specific Rec114−Mei4 and Mer2 complexes are thought to enable Spo11-mediated DNA double-strand-break (DSB) formation through a mechanism that involves DNA-dependent condensation. However, the structure, molecular properties, and evolutionary conservation of Rec114−Mei4 and Mer2 are unclear. Here, we present AlphaFold structures of Rec114−Mei4 and Mer2 complexes, supported by nuclear magnetic resonance (NMR) spectroscopy, small-angle X-ray scattering (SAXS), and mutagenesis. We show that dimers composed of the Rec114 C-terminus form α-helical chains that cup an N-terminal Mei4 α-helix, and that Mer2 forms a parallel homotetrameric coiled coil. Both Rec114−Mei4 and Mer2 bind preferentially to branched DNA substrates, indicative of multivalent protein-DNA interactions. Indeed, the Rec114−Mei4 interaction domain contains two DNA-binding sites that point in opposite directions and drive condensation. The Mer2 coiled-coil domain bridges co-aligned DNA duplexes, likely through extensive electrostatic interactions along the length of the coiled coil. Finally, we show that the structure of Rec114−Mei4 and Mer2 are conserved across eukaryotes, while DNA-binding properties vary significantly. This work provides insights into the mechanism whereby Rec114−Mei4 and Mer2 complexes promote the assembly of the meiotic DSB machinery, and suggests a model where Mer2 condensation is the essential driver of assembly, with the DNA-binding activity of Rec114−Mei4 playing a supportive role.",
+  "abstract_zh": "减数分裂特异性的Rec114−Mei4和Mer2复合物被认为通过涉及DNA依赖性凝聚的机制，使Spo11介导的DNA双链断裂（DSB）形成成为可能。然而，Rec114−Mei4和Mer2的结构、分子特性及进化保守性尚不清楚。在此，我们展示了由核磁共振（NMR）波谱、小角X射线散射（SAXS）和诱变支持下的Rec114−Mei4和Mer2复合物的AlphaFold结构。我们表明，由Rec114 C末端组成的二聚体形成α-螺旋链，环绕N端Mei4的α-螺旋，而Mer2形成平行的同源四聚体卷曲螺旋。Rec114−Mei4和Mer2均优先结合分支DNA底物，表明存在多价蛋白质-DNA相互作用。确实，Rec114−Mei4相互作用域包含两个指向相反方向并驱动凝聚的DNA结合位点。Mer2卷曲螺旋结构域桥接共排列的DNA双链体，可能通过沿卷曲螺旋长度的广泛静电相互作用实现。最后，我们表明Rec114−Mei4和Mer2的结构在真核生物中保守，而DNA结合特性则显著变化。这项工作为Rec114−Mei4和Mer2复合物促进减数分裂DSB机制组装的机制提供了见解，并提出一个模型，其中Mer2凝聚是组装的关键驱动因素，而Rec114−Mei4的DNA结合活性起辅助作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520760",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520760",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.16.520760/index.html"
+}

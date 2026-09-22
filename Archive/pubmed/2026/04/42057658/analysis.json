@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42057658",
+  "title": "Mimetics of in-cell and subcellular crowding and solvation for protein folding.",
+  "authors": "Knab, Edward; Tahir, Ume; Davis, Caitlin M",
+  "journal": "Biochemical Society transactions",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 5,
+  "one_liner_zh": "综述细胞拥挤与溶剂模拟物对蛋白质折叠的影响，涉及相分离环境，但对象非IDP/PPI，方法以实验模拟为主，仅提及机器学习训练，机制建模深度有限。",
+  "abstract": "Historically, fundamental principles of protein folding were extracted from dilute in vitro experiments that disregarded the complexity of the cell interior. It is now well-established that the cellular environment modulates protein behaviors. Discrepancies between protein properties measured in vitro and in-cell can be disentangled using mimetics that are designed to reproduce cellular interactions in vitro, steric crowding interactions and non-steric sticking interactions. Here, we review recent advances in the development and application of cellular mimetics of in-cell protein folding, with a focus on replicating diverse cell types and cellular compartments. Steric crowding interactions are typically mimicked using inert polymers; coupling these with giant unilamellar vesicles or phase separation allows for the creation of a cell- or organelle-like environment. Mimetics of non-steric chemical interactions must incorporate features of the chemical environment being mimicked. These range from buffers containing physiological concentrations of salt and small molecules to dilute lysates derived from the relevant cell type and/or organelle. Such mimetics of steric and non-steric interactions have greatly aided our understanding of in-cell protein folding. Mimetics can further approach biological accuracy through mixtures that simultaneously account for steric and non-steric interactions. Mimetic mixtures are important because they provide a convenient and cost-effective means to predict protein behavior in diverse cellular environments, which may benefit high-throughput applications, such as screening therapeutic candidates or training machine learning-based in-cell protein structure prediction models.",
+  "abstract_zh": "历史上，蛋白质折叠的基本原理是从忽略细胞内部复杂性的稀溶液体外实验中提取出来的。现已明确，细胞环境调节蛋白质行为。体外测得的蛋白质性质与细胞内测得的差异，可通过设计用于在体外重现细胞相互作用的模拟物来解析，这些模拟物包括空间拥挤相互作用和非空间性粘附相互作用。在此，我们回顾了细胞内外蛋白质折叠模拟物开发与应用的最新进展，重点在于复制多种细胞类型和细胞区室。空间拥挤相互作用通常使用惰性聚合物模拟；将其与巨型单层囊泡或相分离结合，可创建细胞或细胞器样环境。非空间性化学相互作用的模拟物必须包含所模拟化学环境的特征，范围从含有生理浓度盐和小分子的缓冲液，到源自相关细胞类型和/或细胞器的稀释裂解液。此类空间和非空间相互作用的模拟物极大地增进了我们对细胞内蛋白质折叠的理解。模拟物可通过同时考虑空间和非空间相互作用的混合物进一步接近生物学准确性。模拟混合物之所以重要，是因为它们提供了一种便捷且成本效益高的手段来预测不同细胞环境中的蛋白质行为，这可能有利于高通量应用，如筛选治疗候选物或训练基于机器学习的细胞内蛋白质结构预测模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42057658/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42057658/",
+  "paper_page_path": "papers/pubmed/42057658/index.html"
+}

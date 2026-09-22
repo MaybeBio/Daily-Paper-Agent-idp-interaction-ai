@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary data, funding, conflict of interest, acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and suitability for a Nature-style journal. Editorial decisions and author rebuttals are outside scope.
+- **Shared manuscript claim summary** The authors present a hybrid approach combining NMR spectroscopy and CLIR-MS to map the RNA-binding interfaces of the SARS-CoV-2 nucleocapsid N-protein domains (NTD and CTD) with the s2m RNA element, and use this structural information to guide a 19F NMR fragment screen, identifying small-molecule chemotypes that bind at the protein-RNA interfaces and may serve as starting points for drug development.
+- **Visible evidence base** Abstract, introduction, methods, results, discussion, data availability, supplementary data, funding, conflict of interest, acknowledgements. Figures and tables are referenced but not provided. Supplementary data are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6 and supplementary figures/tables (S1-S7, Tables S4-S5) are not provided. NMR chemical shift perturbation data, CLIR-MS cross-linking counts, fragment screening results, and structural models are described but not directly visible. This limits independent verification of the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially useful workflow that combines solution-state NMR and CLIR-MS to characterize protein-RNA interactions of the SARS-CoV-2 nucleocapsid protein, followed by fragment screening. The approach addresses a real challenge, namely the difficulty of studying N-protein-RNA complexes that undergo phase separation. However, the evidence presented in the text alone is insufficient to fully evaluate the robustness of the structural models, the specificity of the identified fragments, and the strength of the conclusions regarding druggability. Several claims are plausible but not fully supported by the data as described. The manuscript would benefit from clearer presentation of quantitative results and a more critical discussion of the limitations of the hybrid approach.
+- **Who would be interested in the results, and why** Structural biologists studying protein-RNA interactions, particularly those working on viral nucleocapsid proteins; researchers in the RNA biology field interested in RNA recognition mechanisms; drug discovery scientists focused on targeting protein-RNA interactions, especially for antiviral development against coronaviruses; NMR spectroscopists and mass spectrometrists interested in hybrid structural biology methods.
+- **Major strengths** The combination of NMR and CLIR-MS is a creative and potentially powerful approach to overcome the challenges posed by phase-separating systems. The use of a fluorinated fragment library with 19F NMR screening is a well-established and efficient method. The identification of a guanine-binding pocket at the CTD dimerization interface is an interesting finding that challenges previous assumptions about RNA binding. The workflow is presented as a generalizable strategy that could be applied to other protein-RNA systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the hybrid approach combining NMR and CLIR-MS "quickly" determines the RNA binding interfaces and provides structural models of the CTD-s2m-CoV-2 and NTD-s2m-CoV-2 complexes.
+  - **Evidence pointer** Results sections "s2m folding favours specific interactions with the CTD" and "NTD interacts with s2m with high affinity and a distinct binding signature"; Methods section "Molecular modelling and small molecule docking"
+  - **Concern** The structural models are generated using HADDOCK with sparse restraints from NMR chemical shift perturbations and CLIR-MS cross-links. The text states that "better scoring models were also in agreement with experimental observation" but does not provide quantitative validation metrics, such as restraint satisfaction, model scores, or comparison with independent data. The ambiguity in the cross-linking data, particularly for residue Y268, is acknowledged but the impact on model reliability is not discussed. Without seeing the models or validation statistics, it is difficult to assess whether the proposed binding modes are robust or could be artifacts of the docking protocol.
+  - **Why it matters** The structural models are central to the paper's claim of identifying druggable hotspots. If the models are not well-validated, the subsequent fragment screening and interpretation of binding sites are built on uncertain foundations. The paper's contribution to the field depends on the reliability of these models.
+  - **Resolution test** Provide the structural models as supplementary data with clear validation metrics, including HADDOCK scores, restraint satisfaction, and a comparison of the models with any available experimental data. Show that the models are consistent with all NMR and CLIR-MS restraints and discuss the uncertainty in the models, particularly for regions with ambiguous cross-links.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim** The authors claim that the fragment screen identified "small molecule chemotypes that bind to RNA binding interfaces and that have promising properties for further drug development."
+  - **Evidence pointer** Results section "A fragment screening identifies binders of s2m-CoV-2, NTD and CTD"; Methods section "NMR spectroscopy and library screening"
+  - **Concern** The text reports 39 putative binders (16 for s2m-CoV-2, 9 for CTD, 14 for NTD) but provides limited quantitative data on the binding affinities, specificities, and the criteria used to classify a fragment as a "binder." For the CTD binders, only two fragments (FL496 and FL232) are discussed in detail, and for NTD, only ABL001 is characterized. The KD for ABL001 is reported as 3-4 mM, which is very weak. The claim that these fragments have "promising properties" is not supported by any data on selectivity, ligand efficiency, or potential for optimization. The functional relevance of the fragments, i.e., whether they actually disrupt protein-RNA binding, is only indirectly suggested.
+  - **Why it matters** The druggability assessment is a key goal of the paper. Without quantitative binding data, selectivity information, and evidence of functional disruption, the claim that these fragments are promising starting points for drug development is overstated. The paper would be strengthened by a more cautious interpretation of the screening results.
+  - **Resolution test** Provide quantitative binding data for the identified fragments, such as KD values or IC50 values, and show that the fragments bind specifically to the intended sites. Include data demonstrating that the fragments can disrupt the protein-RNA interaction, e.g., by competition experiments or functional assays. Discuss the ligand efficiency and potential for optimization of the identified chemotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim** The authors state that the s2m-CoV-2 RNA is "a stable folded element" and that its structure differs from the previously determined crystal structure of the G33U mutant.
+  - **Evidence pointer** Results section "The RNA s2m-CoV-2 is a stable folded element"; Figure 1B and 1C
+  - **Concern** The text describes NMR imino proton spectra of s2m-CoV-2 and s2m-CoV-1, but the actual spectra are not shown in the provided text. The claim that s2m-CoV-2 is well-folded in the absence of magnesium is based on the observation of imino signals, but the assignment and the number of expected versus observed signals are not reported. The statement that the structure "deviates substantially" from the crystal structure is not supported by a detailed comparison. The 3D model generated with RNAcomposer is mentioned but not validated against the NMR data.
+  - **Why it matters** The RNA structure is the foundation for the subsequent binding studies. If the RNA is not correctly folded or the model is inaccurate, the interpretation of the protein-RNA interactions could be wrong. The reproducibility of the RNA preparation and folding is also important for other researchers who may want to use this system.
+  - **Resolution test** Show the imino proton spectra with assignments and a comparison of the observed chemical shifts with the predicted secondary structure. Validate the RNAcomposer model against the NMR data, e.g., by comparing predicted and observed chemical shifts or NOEs. Provide a clear description of the RNA folding protocol and the criteria used to assess folding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "NMR spectroscopy and library screening"
+  - **Evidence pointer** Location not provided
+  - **Issue** The equation for calculating combined chemical shift perturbations is mentioned but not shown in the text. The equation for fitting KD values is also referenced but not displayed.
+  - **Required correction** Include the equations in the methods section or as supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "A fragment screening identifies binders of s2m-CoV-2, NTD and CTD"
+  - **Evidence pointer** Table S4 and Table S5
+  - **Issue** The text refers to Table S4 and Table S5 for the list of fragments, but these tables are not provided. The criteria for selecting fragments for further analysis are not fully described.
+  - **Required correction** Provide the supplementary tables and describe the selection criteria in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion states that the approach "provides for the first time a model of interaction between the CTD and RNA." This claim should be placed in the context of previous studies on CTD-RNA interactions, which are cited but not discussed in detail.
+  - **Required correction** Briefly summarize previous CTD-RNA interaction studies and clarify what is genuinely new about the model presented here.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Cross-linking of stable isotope labelled RNA coupled to mass spectrometry (CLIR-MS)"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the CLIR-MS data analysis is brief. The criteria for identifying cross-linked residues and the false discovery rate control are mentioned but not detailed.
+  - **Required correction** Provide more detail on the data analysis pipeline, including the software used and the parameters for cross-link identification.
+
+## Risk / unsupported claims
+- The claim that the identified fragments have "promising properties for further drug development" is not supported by the data presented in the text. No quantitative binding affinities, selectivity data, or functional assays are shown.
+- The claim that the hybrid approach "quickly" determines RNA binding interfaces is not quantified. No information on the time required for the workflow is provided.
+- The structural models of the CTD-s2m-CoV-2 and NTD-s2m-CoV-2 complexes are not shown and their validation is not described in sufficient detail. The models are therefore not independently assessable.
+- The claim that the CTD binds to RNA in a dimeric form is based on the model and cross-linking data, but the stoichiometry of the complex is not directly measured.
+- The statement that the s2m-CoV-2 structure "deviates substantially" from the crystal structure of the G33U mutant is not supported by a detailed comparison of the two structures.
+- The functional relevance of the identified fragments, i.e., their ability to disrupt protein-RNA interactions, is only indirectly suggested and not directly demonstrated.

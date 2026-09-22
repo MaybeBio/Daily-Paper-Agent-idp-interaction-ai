@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37207626",
+  "title": "PERIOD phosphorylation leads to feedback inhibition of CK1 activity to control circadian period.",
+  "authors": "Philpott, Jonathan M; Freeberg, Alfred M; Park, Jiyoung; Lee, Kwangjun; Ricci, Clarisse G; Hunt, Sabrina R; Narasimamurthy, Rajesh; Segal, David H; Robles, Rafael; Cai, Yao; Tripathi, Sarvind; McCammon, J Andrew; Virshup, David M; Chiu, Joanna C; Lee, Choogon; Partch, Carrie L",
+  "journal": "Molecular cell",
+  "published_date": "2023-05-20",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过共晶结构和分子动力学模拟揭示磷酸化PER2的FASP区域直接结合并抑制CK1delta的反馈调控机制，虽对象为折叠激酶而非IDP，但聚焦磷酸化介导的蛋白互作机制建模，对无序区域调控PPI的机制研究有方法学启发。",
+  "abstract": "PERIOD (PER) and Casein Kinase 1delta regulate circadian rhythms through a phosphoswitch that controls PER stability and repressive activity in the molecular clock. CK1delta phosphorylation of the familial advanced sleep phase (FASP) serine cluster embedded within the Casein Kinase 1 binding domain (CK1BD) of mammalian PER1/2 inhibits its activity on phosphodegrons to stabilize PER and extend circadian period. Here, we show that the phosphorylated FASP region (pFASP) of PER2 directly interacts with and inhibits CK1delta. Co-crystal structures in conjunction with molecular dynamics simulations reveal how pFASP phosphoserines dock into conserved anion binding sites near the active site of CK1delta. Limiting phosphorylation of the FASP serine cluster reduces product inhibition, decreasing PER2 stability and shortening circadian period in human cells. We found that Drosophila PER also regulates CK1delta via feedback inhibition through the phosphorylated PER-Short domain, revealing a conserved mechanism by which PER phosphorylation near the CK1BD regulates CK1 kinase activity.",
+  "abstract_zh": "PERIOD（PER）和酪蛋白激酶1δ（Casein Kinase 1delta）通过一个磷酸开关调控昼夜节律，该开关控制分子钟中PER的稳定性和抑制活性。CK1delta对哺乳动物PER1/2的酪蛋白激酶1结合域（CK1BD）内嵌入的家族性晚期睡眠期（FASP）丝氨酸簇的磷酸化，抑制其对磷酸降解决定子的活性，从而稳定PER并延长昼夜节律周期。在此，我们展示PER2的磷酸化FASP区域（pFASP）直接与CK1delta相互作用并抑制其活性。共晶结构结合分子动力学（molecular dynamics）模拟揭示了pFASP磷酸丝氨酸如何对接至CK1delta活性位点附近的保守阴离子结合位点。限制FASP丝氨酸簇的磷酸化可减少产物抑制，降低PER2稳定性并缩短人类细胞中的昼夜节律周期。我们发现果蝇PER也通过磷酸化PER-Short结构域的反馈抑制来调控CK1delta，揭示了一种保守机制，即CK1BD附近的PER磷酸化调控CK1激酶活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37207626/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37207626/",
+  "paper_page_path": "papers/pubmed/37207626/index.html"
+}

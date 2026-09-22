@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "40894573",
+    "doi": "10.1101/2025.08.15.670535",
+    "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including Drosophila. Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 multimer to examine and predict protein-protein interactions from both physical and functional datasets in Drosophila. We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present the predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Junhui",
+        "Zhao, Li"
+      ],
+      "short_names": [
+        "Peng J",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2855-2299",
+        "ORCID: 0000-0001-6776-1996"
+      ],
+      "affiliations": [
+        "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, NY 10065, USA.",
+        "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, NY 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Junhui",
+        "short_name": "Peng J",
+        "identifiers": [
+          "0000-0003-2855-2299"
+        ],
+        "affiliations": [
+          "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0001-6776-1996"
+        ],
+        "affiliations": [
+          "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:33",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40015271",
+      "39938238",
+      "39910251",
+      "39740355",
+      "39547210",
+      "39446390",
+      "39115813",
+      "38518286",
+      "38325366",
+      "38297184",
+      "38297118",
+      "38225382",
+      "37904585",
+      "37878721",
+      "37758696",
+      "37405868",
+      "36753519",
+      "36690744",
+      "36210722",
+      "36038728",
+      "35679405",
+      "35273146",
+      "35219399",
+      "35139468",
+      "34791371",
+      "34610267",
+      "34265844",
+      "33237311",
+      "33070389",
+      "30357364",
+      "30125270",
+      "29035372",
+      "27668217",
+      "27175018",
+      "26922996",
+      "25275790",
+      "24773235",
+      "23339871",
+      "23329690",
+      "23170892",
+      "22453911",
+      "22412018",
+      "22036573",
+      "20947012",
+      "19660471",
+      "19585546",
+      "19403463",
+      "18840285",
+      "18414481",
+      "18218650",
+      "18054235",
+      "17177203",
+      "16169070",
+      "15540166",
+      "15264254",
+      "14597658",
+      "14579347",
+      "14564010",
+      "12853464",
+      "11522820",
+      "9632837",
+      "6667333",
+      "2547163",
+      "2231712"
+    ],
+    "similar": [
+      "40894573",
+      "41570036",
+      "23912807",
+      "42475469",
+      "39446390",
+      "36576775",
+      "42039469",
+      "36908253",
+      "18831774",
+      "39763873",
+      "42248543",
+      "42585785",
+      "40944448",
+      "40133781",
+      "38226900",
+      "41512952",
+      "39740355",
+      "34905768",
+      "22369691",
+      "41534519",
+      "37722056",
+      "38955920",
+      "42598852",
+      "40244295",
+      "40837623",
+      "25286318",
+      "42243177",
+      "20438650",
+      "38238291",
+      "40133791",
+      "42290021",
+      "37904585",
+      "41174305",
+      "17675552",
+      "29080786",
+      "33304713",
+      "31007871",
+      "35196613",
+      "41435823",
+      "32708183",
+      "37892124",
+      "35098694",
+      "33291838",
+      "37626310",
+      "33267475",
+      "38941236",
+      "30802457",
+      "38225382",
+      "37153862",
+      "30066087",
+      "38762754",
+      "38987470",
+      "34179096",
+      "19660471",
+      "37633550",
+      "40650026",
+      "24303310",
+      "28502465",
+      "41454828",
+      "36851914",
+      "40121710",
+      "42647377",
+      "20011507",
+      "41053908",
+      "34390736",
+      "42295476",
+      "38213902",
+      "33779503",
+      "29257115",
+      "35310482",
+      "31709918",
+      "24027208",
+      "35634782",
+      "21572179",
+      "38747635",
+      "39718444",
+      "41644540",
+      "26109352",
+      "42635213",
+      "21992011",
+      "31889261",
+      "32112084",
+      "38166858",
+      "36454645",
+      "42032810",
+      "28744484",
+      "16949097",
+      "41326937",
+      "41921197",
+      "28934129",
+      "35995906",
+      "20506404",
+      "40705594",
+      "42681205",
+      "42376643",
+      "39163306",
+      "42310771",
+      "20376314",
+      "40574713",
+      "40403066"
+    ],
+    "review": [
+      "40894573",
+      "39740355",
+      "38955920",
+      "31007871",
+      "32708183",
+      "35098694",
+      "33291838",
+      "30066087",
+      "40650026",
+      "28502465",
+      "36851914",
+      "40121710",
+      "34390736",
+      "31709918",
+      "24027208",
+      "21572179",
+      "36454645",
+      "41326937",
+      "35995906"
+    ],
+    "pmc": [
+      "12393378"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40894573/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.15.670535",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

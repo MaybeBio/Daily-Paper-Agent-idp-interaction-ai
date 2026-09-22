@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39975191",
+  "title": "Nucleotide-specific RNA conformations and dynamics within ribonucleoprotein condensates.",
+  "authors": "Wang, Tong; Hu, Qingyue; Fronhofer, Scout; Pollack, Lois",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-02-20",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过X射线散射与粗粒化分子动力学模拟，研究单链RNA与多碱性肽在RNP凝聚体中的核苷酸特异性构象与动态，直接涉及IDR/相分离背景下的RNA-蛋白互作机制建模，方法为物理模拟，对象与互作轴均强，但对象侧重RNA而非IDP蛋白，故评8分。",
+  "abstract": "Ribonucleoprotein (RNP) condensates have distinct physiological and pathological significance, but the structure of RNA within them is not well understood. Using contrast-variation solution X-ray scattering, which discerns only the RNA structures within protein-RNA complexes, alongside ensemble-based structural modeling we characterize the conformational changes of flexible poly-A, poly-U and poly-C single stranded RNA as it interacts with polybasic peptides, eventually forming condensed coacervate mixtures. At high salt concentrations, where macromolecular association is weak, we probe association events that precede the formation of liquid-like droplets. Structural changes occur in RNA that reflect charge screening by the peptides as well as pi - pi interactions of the bases with basic residues. At lower salt concentrations, where association is enhanced, poly-A RNA within phase separated RNP mixtures exhibit a broad scattering peak, suggesting subtle ordering. Coarse-grained molecular dynamics simulations are used to elucidate the nucleotide-specific dynamics within RNP condensates. While adenine-rich condensates behave like stable semidilute solutions, uracil-rich RNA condensates appear to be compositionally fluctuating. This approach helps understand how RNA sequence contributes to the molecular grammar of RNA-protein phase separation.",
+  "abstract_zh": "核糖核蛋白（RNP）凝聚体具有独特的生理和病理意义，但其内部RNA的结构尚未被充分理解。利用对比变异溶液X射线散射技术（该技术仅能辨别蛋白质-RNA复合物中的RNA结构），结合基于系综的结构建模，我们表征了柔性多聚腺苷酸（poly-A）、多聚尿苷酸（poly-U）和多聚胞苷酸（poly-C）单链RNA在与多碱性肽相互作用并最终形成凝聚态共混物过程中的构象变化。在高盐浓度下，大分子结合较弱，我们探测了液滴状凝聚体形成前的结合事件。RNA中发生的结构变化反映了肽段的电荷屏蔽作用以及碱基与碱性残基之间的π-π相互作用。在低盐浓度下，结合增强，相分离RNP混合物中的poly-A RNA表现出宽散射峰，暗示存在微妙的序态。采用粗粒化分子动力学模拟来阐明RNP凝聚体内核苷酸特异性动态。富含腺苷酸的凝聚体表现为稳定的半稀释溶液，而富含尿苷酸的RNA凝聚体则表现出组成波动。该方法有助于理解RNA序列如何贡献于RNA-蛋白质相分离的分子语法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39975191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39975191/",
+  "paper_page_path": "papers/pubmed/39975191/index.html"
+}

@@ -1,0 +1,268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.31.551204",
+  "title": "Nanoscale analysis of human G1 and metaphase chromatin in situ",
+  "doi": "10.1101/2023.07.31.551204",
+  "abstract": "<h4>ABSTRACT</h4> The structure of chromatin at the nucleosome level inside cells is mysterious. Here we present in situ electron cryotomography analyses of chromatin in both G1 and metaphase RPE-1 cells. G1 nucleosomes are concentrated in globular chromatin domains and metaphase nucleosomes are concentrated in the chromatids. Classification analysis reveals that canonical mononucleosomes, ordered stacked dinucleosomes, and mononucleosomes with a disordered gyre-proximal density are abundant in both cell-cycle states. Class averages that have more than two stacked nucleosomes or that have side-by-side dinucleosomes are not detected, suggesting that groups of more than two nucleosomes are heterogeneous. Large multi-megadalton structures are abundant in G1 nucleoplasm, but not found in G1 chromatin domains and metaphase chromatin. The macromolecular phenotypes studied here represent a starting point for the comparative analysis of compaction in normal and unhealthy human cells, other cell-cycle states, other organisms, and in vitro chromatin assemblies.",
+  "authors": [
+    "Chen JK",
+    "Liu T",
+    "Cai S",
+    "Ruan W",
+    "Ng CT",
+    "Shi J",
+    "Surana U",
+    "Gan L"
+  ],
+  "published_date": "2023-07-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.31.551204",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.31.551204.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR699928",
+    "raw_record": {
+      "id": "PPR699928",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR699928"
+        ]
+      },
+      "doi": "10.1101/2023.07.31.551204",
+      "title": "Nanoscale analysis of human G1 and metaphase chromatin  <i>in situ</i>",
+      "authorString": "Chen JK, Liu T, Cai S, Ruan W, Ng CT, Shi J, Surana U, Gan L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen JK",
+            "lastName": "Chen",
+            "firstName": "Jon Ken",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3837-5444"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu T",
+            "lastName": "Liu",
+            "firstName": "Tingsheng",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8371-9827"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cai S",
+            "lastName": "Cai",
+            "firstName": "Shujun",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruan W",
+            "lastName": "Ruan",
+            "firstName": "Weimei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular and Cell Biology and Agency for Science Technology and Research, 61 Biopolis Drive, Singapore 138673"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ng CT",
+            "lastName": "Ng",
+            "firstName": "Cai Tong",
+            "initials": "CT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1082-8667"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi J",
+            "lastName": "Shi",
+            "firstName": "Jian",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Surana U",
+            "lastName": "Surana",
+            "firstName": "Uttam",
+            "initials": "U",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4785-6514"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular and Cell Biology and Agency for Science Technology and Research, 61 Biopolis Drive, Singapore 138673"
+                },
+                {
+                  "affiliation": "Department of Pharmacology, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gan L",
+            "lastName": "Gan",
+            "firstName": "Lu",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Centre for BioImaging Sciences, National University of Singapore, Singapore 117543"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8371-9827"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1082-8667"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3837-5444"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4785-6514"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  The structure of chromatin at the nucleosome level inside cells is mysterious. Here we present  in situ electron cryotomography analyses of chromatin in both G1 and metaphase RPE-1 cells. G1 nucleosomes are concentrated in globular chromatin domains and metaphase nucleosomes are concentrated in the chromatids. Classification analysis reveals that canonical mononucleosomes, ordered stacked dinucleosomes, and mononucleosomes with a disordered gyre-proximal density are abundant in both cell-cycle states. Class averages that have more than two stacked nucleosomes or that have side-by-side dinucleosomes are not detected, suggesting that groups of more than two nucleosomes are heterogeneous. Large multi-megadalton structures are abundant in G1 nucleoplasm, but not found in G1 chromatin domains and metaphase chromatin. The macromolecular phenotypes studied here represent a starting point for the comparative analysis of compaction in normal and unhealthy human cells, other cell-cycle states, other organisms, and  in vitro chromatin assemblies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.31.551204.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.31.551204"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR699928"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR699928&type=FILE&fileName=EMS182610-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS182610",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-02",
+      "firstPublicationDate": "2023-07-31",
+      "firstIndexDate": "2023-08-02",
+      "fullTextReceivedDate": "2023-09-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

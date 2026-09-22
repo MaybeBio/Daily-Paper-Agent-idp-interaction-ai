@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "40785029",
+    "doi": "10.1080/07391102.2025.2543373",
+    "title": "Exploring the impact of serine phosphorylation flanking the KxGS motif in the repeat 3 domain of human tau on tubulin detachment."
+  },
+  "content": {
+    "abstract": "Tau, a highly disordered protein, comprises four repeat domains (R1-R4) essential for tubulin binding and structural stability. Post-translational modifications, such as the phosphorylation of serine residues within these repeat domains, regulate the tau protein's association and dissociation with tubulin protein. Notably, the detachment of tau from tubulin following phosphorylation contributes to neurofibrillary tangle formation within neurons, a hallmark of Alzheimer's disease. Despite its significance, the structural alterations induced by phosphorylation and their impact on these domains remain poorly understood. The present in silico study investigates the structural effects of phosphorylation at Ser305 (R2 domain), adjacent to the PGGG motif, and Ser320 (R3 domain), near the regulatory KxGS motif, through docking and simulation studies. The findings indicate that phosphorylation at Ser305 enhances tubulin binding more effectively than phosphorylation at Ser320. Alternatively, this finding was validated by binding the aggregator inducer, heparin, to tau. The results confirmed that Ser320-phosphorylated tau exhibited stronger binding than Ser305-phosphorylated tau protein. Altogether, these results suggest that Ser320-phosphorylated tau enhances the tau protein's propensity to aggregate more by strongly binding to heparin and activating the detachment process through weakly binding to tubulin. Thus, this study suggests that structural changes following phosphorylation at Ser305 might be non-pathogenic, whereas phosphorylation at Ser320 could be pathogenic, contributing to adverse effects. A deeper understanding of the role of phosphorylation in the tau-tubulin detachment mechanism could aid in the development of novel inhibitors to regulate tau aggregation and prevent neurofibrillary tangle formation.",
+    "keywords": [
+      "Alzheimer's disease",
+      "KxGS motif",
+      "PGGG motif",
+      "Tau protein",
+      "repeat domain",
+      "serine phosphorylation"
+    ],
+    "mesh_terms": [
+      "*tau Proteins/chemistry/metabolism/genetics",
+      "*Tubulin/chemistry/metabolism",
+      "Phosphorylation",
+      "Humans",
+      "*Serine/metabolism/chemistry",
+      "Protein Binding",
+      "Amino Acid Motifs",
+      "Molecular Docking Simulation",
+      "Protein Domains",
+      "Binding Sites",
+      "Heparin/metabolism/chemistry",
+      "Alzheimer Disease/metabolism",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "C, Selvaa Kumar",
+        "Yegnaswamy, Subha",
+        "Dasgupta, Debjani",
+        "Johari, Parul",
+        "Harish, Mahalakshmi"
+      ],
+      "short_names": [
+        "C SK",
+        "Yegnaswamy S",
+        "Dasgupta D",
+        "Johari P",
+        "Harish M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1870-0377",
+        "ORCID: 0000-0002-8854-3450",
+        "ORCID: 0000-0002-1122-6801",
+        "ORCID: 0000-0001-9547-3836"
+      ],
+      "affiliations": [
+        "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India.",
+        "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India.",
+        "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India.",
+        "Department of Biotechnology, Dr. Ambedkar Institute of Technology for Handicapped, Kanpur, Uttar Pradesh, India.",
+        "Protein Interactome Lab for Structural and Functional Biology, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai, Maharashtra, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "C, Selvaa Kumar",
+        "short_name": "C SK",
+        "identifiers": [
+          "0000-0002-1870-0377"
+        ],
+        "affiliations": [
+          "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Yegnaswamy, Subha",
+        "short_name": "Yegnaswamy S",
+        "identifiers": [
+          "0000-0002-8854-3450"
+        ],
+        "affiliations": [
+          "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Dasgupta, Debjani",
+        "short_name": "Dasgupta D",
+        "identifiers": [
+          "0000-0002-1122-6801"
+        ],
+        "affiliations": [
+          "School of Biotechnology and Bioinformatics, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Johari, Parul",
+        "short_name": "Johari P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Dr. Ambedkar Institute of Technology for Handicapped, Kanpur, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Harish, Mahalakshmi",
+        "short_name": "Harish M",
+        "identifiers": [
+          "0000-0001-9547-3836"
+        ],
+        "affiliations": [
+          "Protein Interactome Lab for Structural and Functional Biology, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai, Maharashtra, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/11 00:26",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40785029",
+      "9273897",
+      "10090741",
+      "12123840",
+      "27070645",
+      "10069814",
+      "30893872",
+      "7556645",
+      "29774342",
+      "8590813",
+      "26103986",
+      "40489183",
+      "27193083",
+      "19769346",
+      "33017094",
+      "16272135",
+      "30549369",
+      "23962722",
+      "7706316",
+      "7566652",
+      "32979285",
+      "36669127",
+      "36512636",
+      "23740819",
+      "7561862",
+      "24733915",
+      "34838590",
+      "32499112",
+      "17029411",
+      "31346240",
+      "26034266",
+      "36786552",
+      "18312411",
+      "23585562",
+      "37891635",
+      "22072628",
+      "39826549",
+      "30423399",
+      "24559475",
+      "10818091",
+      "39871444",
+      "10840038",
+      "8892109",
+      "28760828",
+      "39092904",
+      "9407097",
+      "16606369",
+      "24251416",
+      "24444746",
+      "7830071",
+      "41130191",
+      "23088643",
+      "16246844",
+      "31820933",
+      "34494046",
+      "27911791",
+      "16014719",
+      "26165593",
+      "2120490",
+      "41422841",
+      "26800003",
+      "33680370",
+      "28258221",
+      "8120098",
+      "24825901",
+      "15733848",
+      "10737616",
+      "32538846",
+      "30958368",
+      "37499261",
+      "34426645",
+      "16889747",
+      "8384512",
+      "25440728",
+      "31699899",
+      "37167199",
+      "35623497",
+      "10391244",
+      "33933071",
+      "15869817",
+      "18588978",
+      "25284680",
+      "40346074",
+      "12464279",
+      "1639808",
+      "11104762",
+      "26854860",
+      "22303461",
+      "28784767",
+      "21876254",
+      "12875979",
+      "15009652",
+      "32453948",
+      "15126504",
+      "33877805",
+      "17535890",
+      "27989667",
+      "31112821",
+      "38489841",
+      "30572013"
+    ],
+    "review": [
+      "40785029",
+      "2120490"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2543373?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2025.2543373",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

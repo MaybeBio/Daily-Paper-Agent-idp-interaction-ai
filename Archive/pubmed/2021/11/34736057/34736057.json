@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "34736057",
+    "doi": "10.1016/j.jmgm.2021.108046",
+    "title": "From molecular dynamics to quantum mechanics of misfolded proteins and amyloid-like macroaggregates applied to neurodegenerative diseases."
+  },
+  "content": {
+    "abstract": "A misfolded protein compared with its native state lacks its biological function resulting in cell dysregulations and often death. Outdated hypotheses on protein folding must be revised: More realistic molecular models, focusing not only on classical molecular dynamics (MD) but also on ab initio quantum mechanics (QM) at the molecular orbitals (MOs) scale, which is not experimentally achievable, are presented to improve our understanding of the thermodynamics of the protein-protein interactions leading to misfolding and neurodegenerative diseases for future drug design. Protein misfolding is characterized by the formation of highly reactive beta-sheets oligomers leading to fibrillar macroscopic aggregates, which are studied with the models given herein that can be useful for the development of new immunotherapies against the Alzheimer's disease and prion, e.g. The example of the prion - an intrinsically disordered protein - is studied, but the models can be generalized to other misfolding diseases. The binding free energy and interactions in a complex of a misfolded prion with a native prion are first analyzed by MD and compared to a complex of two native conformers. A conversion of residues to toxic beta-sheets is observed in the optimized misfolded complex. Then, QM is used to compute, with a much better accuracy than that of MD, the binding free energy of the hydrophobic binding site, responsible of the aggregation, between the bound misfolded and native conformers in the misfolded complex. The latter quantity is significantly negative, so that aggregation is strong and fast. The frontier MOs from QM are used for docking to determine how the first repetitive beta-sheets building blocks of the nanofibrils can be assembled from initial cleaved complexes of the native and misfolded proteins. Successive aggregation of multiple monomers leads to an amyloid-like nanofibril that grows along a principal elongation direction, as also observed experimentally.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Density functional theory",
+      "Misfolded proteins",
+      "Molecular dynamics",
+      "Prions",
+      "Quantum mechanics"
+    ],
+    "mesh_terms": [
+      "Amyloid",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Neurodegenerative Diseases",
+      "*Prions",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gillet, Jean-Numa"
+      ],
+      "short_names": [
+        "Gillet JN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Jawaharlal Nehru University, Centre for Computational Biology and Bioinformatics, School of Computational and Integrative Sciences, New Campus, New Delhi, 110067, India. Electronic address: m.jeannuma@outlook.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gillet, Jean-Numa",
+        "short_name": "Gillet JN",
+        "identifiers": [],
+        "affiliations": [
+          "Jawaharlal Nehru University, Centre for Computational Biology and Bioinformatics, School of Computational and Integrative Sciences, New Campus, New Delhi, 110067, India. Electronic address: m.jeannuma@outlook.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/05 06:00",
+    "fetched_at": "2026-09-20 06:21:07"
+  },
+  "links": {
+    "cites": [
+      "41555779"
+    ],
+    "refs": [],
+    "similar": [
+      "34736057",
+      "22647474",
+      "25449570",
+      "27529376",
+      "16473510",
+      "19817406",
+      "31928730",
+      "23614720",
+      "28425641",
+      "27744334",
+      "25738979",
+      "35838152",
+      "18268186",
+      "30304819",
+      "25844814",
+      "21571086",
+      "22043906",
+      "33540845",
+      "20357103",
+      "23781904",
+      "30933519",
+      "23808331",
+      "27933736",
+      "31811072",
+      "36044970",
+      "18473442",
+      "32958239",
+      "24401672",
+      "23171056",
+      "30250260",
+      "34102212",
+      "27698130",
+      "30044206",
+      "35040316",
+      "22339436",
+      "31046642",
+      "28683268",
+      "31338019",
+      "28159831",
+      "32927676",
+      "19697240",
+      "15170353",
+      "25101991",
+      "28102071",
+      "20627399",
+      "34296847",
+      "25444937",
+      "29035839",
+      "27549118",
+      "20170473",
+      "25701498",
+      "28724527",
+      "23357831",
+      "11274473",
+      "27803245",
+      "25575736",
+      "27293325",
+      "31809717",
+      "23568995",
+      "23449072",
+      "25840008",
+      "24143866",
+      "16480935",
+      "22965142",
+      "20724837",
+      "28657440",
+      "20949975",
+      "22876967",
+      "23549464",
+      "29789820",
+      "27893962",
+      "26109573",
+      "28538692",
+      "27191683",
+      "27390876",
+      "33600804",
+      "23849959",
+      "21689534",
+      "27392869",
+      "22674434",
+      "24515720",
+      "25823438",
+      "24918329",
+      "25692381",
+      "33791300",
+      "36205914",
+      "35167074",
+      "35956758",
+      "16823798",
+      "19330090",
+      "36778589",
+      "26572969",
+      "37065061",
+      "37117282",
+      "38924770",
+      "30873457",
+      "29456521",
+      "38470915",
+      "33551515",
+      "31692931",
+      "39108293",
+      "36998509",
+      "37426073"
+    ],
+    "review": [
+      "34736057",
+      "22647474",
+      "25449570",
+      "27529376",
+      "16473510",
+      "19817406",
+      "31928730",
+      "23614720",
+      "27744334",
+      "25738979",
+      "18268186",
+      "30304819",
+      "25844814",
+      "21571086",
+      "22043906",
+      "33540845",
+      "30933519",
+      "23808331",
+      "31811072",
+      "36044970",
+      "32958239",
+      "24401672",
+      "23171056",
+      "30250260",
+      "28683268",
+      "28159831",
+      "32927676",
+      "25444937",
+      "29035839",
+      "27549118",
+      "20170473",
+      "25701498",
+      "28724527",
+      "25575736",
+      "27293325",
+      "23568995",
+      "23449072",
+      "25840008",
+      "16480935",
+      "22965142",
+      "20724837",
+      "23549464",
+      "29789820",
+      "27893962",
+      "28538692",
+      "23849959",
+      "27392869",
+      "25823438",
+      "33791300",
+      "36205914",
+      "16823798",
+      "37117282",
+      "30873457"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(21)00217-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/degenerativenervediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Degenerative Nerve Diseases"
+      }
+    ],
+    "text_mined": []
+  }
+}

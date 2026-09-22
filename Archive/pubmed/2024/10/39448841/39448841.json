@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "39448841",
+    "doi": "10.1038/s41563-024-02025-5",
+    "title": "Formation, chemical evolution and solidification of the dense liquid phase of calcium (bi)carbonate."
+  },
+  "content": {
+    "abstract": "Metal carbonates, which are ubiquitous in the near-surface mineral record, are a major product of biomineralizing organisms and serve as important targets for capturing anthropogenic CO(2) emissions. However, pathways of carbonate mineralization typically diverge from classical predictions due to the involvement of disordered precursors, such as the dense liquid phase (DLP), yet little is known about DLP formation or solidification processes. Using in situ methods we report that a highly hydrated bicarbonate DLP forms via liquid-liquid phase separation and transforms into hollow hydrated amorphous CaCO(3) particles. Acidic proteins and polymers extend DLP lifetimes while leaving the pathway and chemistry unchanged. Molecular simulations suggest that the DLP forms via direct condensation of solvated Ca(2)(+)⋅(HCO(3)(-))(2) complexes that react due to proximity effects in the confined DLP droplets. Our findings provide insight into CaCO(3) nucleation that is mediated by liquid-liquid phase separation, advancing the ability to direct carbonate mineralization and elucidating an often-proposed complex pathway of biomineralization.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Biao",
+        "Chen, Ying",
+        "Pyles, Harley",
+        "Baer, Marcel D",
+        "Legg, Benjamin A",
+        "Wang, Zheming",
+        "Washton, Nancy M",
+        "Mueller, Karl T",
+        "Baker, David",
+        "Schenter, Gregory K",
+        "Mundy, Christopher J",
+        "De Yoreo, James J"
+      ],
+      "short_names": [
+        "Jin B",
+        "Chen Y",
+        "Pyles H",
+        "Baer MD",
+        "Legg BA",
+        "Wang Z",
+        "Washton NM",
+        "Mueller KT",
+        "Baker D",
+        "Schenter GK",
+        "Mundy CJ",
+        "De Yoreo JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7417-0991",
+        "ORCID: 0000-0001-5223-0447",
+        "ORCID: 0000-0002-9643-6794",
+        "ORCID: 0000-0001-9609-9516",
+        "ORCID: 0000-0001-7896-6217",
+        "ORCID: 0000-0001-5444-5484",
+        "ORCID: 0000-0003-1378-5241",
+        "ORCID: 0000-0002-9541-733X"
+      ],
+      "affiliations": [
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "School of Sustainable Energy and Resources, Nanjing University, Suzhou, People's Republic of China.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA. chris.mundy@pnnl.gov.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, USA. chris.mundy@pnnl.gov.",
+        "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA. James.DeYoreo@pnnl.gov.",
+        "Department of Materials Science and Engineering, University of Washington, Seattle, WA, USA. James.DeYoreo@pnnl.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Biao",
+        "short_name": "Jin B",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA.",
+          "School of Sustainable Energy and Resources, Nanjing University, Suzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ying",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0001-7417-0991"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Pyles, Harley",
+        "short_name": "Pyles H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Baer, Marcel D",
+        "short_name": "Baer MD",
+        "identifiers": [
+          "0000-0001-5223-0447"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Legg, Benjamin A",
+        "short_name": "Legg BA",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheming",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Washton, Nancy M",
+        "short_name": "Washton NM",
+        "identifiers": [
+          "0000-0002-9643-6794"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Mueller, Karl T",
+        "short_name": "Mueller KT",
+        "identifiers": [
+          "0000-0001-9609-9516"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Schenter, Gregory K",
+        "short_name": "Schenter GK",
+        "identifiers": [
+          "0000-0001-5444-5484"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Mundy, Christopher J",
+        "short_name": "Mundy CJ",
+        "identifiers": [
+          "0000-0003-1378-5241"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA. chris.mundy@pnnl.gov.",
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, USA. chris.mundy@pnnl.gov."
+        ]
+      },
+      {
+        "full_name": "De Yoreo, James J",
+        "short_name": "De Yoreo JJ",
+        "identifiers": [
+          "0000-0002-9541-733X"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences, Pacific Northwest National Laboratory, Richland, WA, USA. James.DeYoreo@pnnl.gov.",
+          "Department of Materials Science and Engineering, University of Washington, Seattle, WA, USA. James.DeYoreo@pnnl.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature materials"
+    ],
+    "journal_abbrev": [
+      "Nat Mater"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/25 06:23",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42535640",
+      "42065518",
+      "41570080",
+      "41252175",
+      "41118329",
+      "41001633",
+      "40783489",
+      "40343994",
+      "39821688",
+      "39472750"
+    ],
+    "refs": [
+      "38097544",
+      "37159248",
+      "35971919",
+      "35477728",
+      "35319032",
+      "35263127",
+      "35036905",
+      "34337606",
+      "34105199",
+      "32259444",
+      "32079390",
+      "32015117",
+      "31594921",
+      "31295629",
+      "30384750",
+      "29968713",
+      "29387793",
+      "28935776",
+      "28874584",
+      "28782039",
+      "27995918",
+      "27992206",
+      "26788746",
+      "26403582",
+      "26228157",
+      "25190792",
+      "24469266",
+      "23970697",
+      "22743772",
+      "22186886",
+      "21736300",
+      "20936214",
+      "19095936",
+      "19006398",
+      "18717561",
+      "12398680"
+    ],
+    "similar": [
+      "39448841",
+      "23970697",
+      "28029201",
+      "38167336",
+      "35971919",
+      "38235102",
+      "33973691",
+      "39821688",
+      "36139105",
+      "28874584",
+      "35518017",
+      "25622001",
+      "37001839",
+      "22186886",
+      "25190792",
+      "26814639",
+      "21218241",
+      "25934395",
+      "31943581",
+      "18476732",
+      "30679371",
+      "38205804",
+      "38950028",
+      "34904892",
+      "30848897",
+      "37668700",
+      "39283814",
+      "35858290",
+      "36550033",
+      "31552957",
+      "37469756",
+      "29268680",
+      "37159248",
+      "21736300",
+      "11827336",
+      "27383526",
+      "36412891",
+      "31183054",
+      "32015117",
+      "35319032",
+      "35993776",
+      "37519760",
+      "27620641",
+      "16548560",
+      "33455256",
+      "37621037",
+      "18717561",
+      "38428510",
+      "18303894",
+      "32234625",
+      "38418834",
+      "32882362",
+      "26119362",
+      "28483694",
+      "33471507",
+      "39401606",
+      "16454504",
+      "39289493",
+      "40277441",
+      "39483210",
+      "23518477",
+      "36311368",
+      "16907589",
+      "31785382",
+      "18452291",
+      "32263160",
+      "38228186",
+      "35373793",
+      "31499114",
+      "19911801",
+      "32816992",
+      "23442032",
+      "27552287",
+      "31029625",
+      "36103070",
+      "32254524",
+      "34904889",
+      "28782039",
+      "26578034",
+      "19492083",
+      "37491445",
+      "23241924",
+      "34265690",
+      "23930693",
+      "17295403",
+      "32839547",
+      "30851686",
+      "32581657",
+      "38745843",
+      "11866603",
+      "31619792",
+      "29968713",
+      "24457316",
+      "39985989",
+      "20066374",
+      "37751528",
+      "24730716",
+      "34395998",
+      "26312407",
+      "34216966"
+    ],
+    "review": [
+      "39448841",
+      "36139105",
+      "35993776",
+      "27620641",
+      "37621037",
+      "39483210",
+      "23241924"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41563-024-02025-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

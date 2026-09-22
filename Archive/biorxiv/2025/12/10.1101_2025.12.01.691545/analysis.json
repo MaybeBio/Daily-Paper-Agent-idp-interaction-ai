@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.12.01.691545",
+  "title": "Molecular insights into the dual activation of PomZ, a ParA/MinD P-loop ATPase, by the two ATPase activating proteins PomX and PomY",
+  "authors": "Klos P; Harms A; Søgaard-Andersen L",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-01",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold 3结构建模研究细菌PomZ ATPase被两个激活蛋白PomX/PomY协同激活的分子机制，其中PomY含无序区域且涉及PPI界面，但对象非典型IDP介导的相分离/凝聚体，机制建模可迁移启发。",
+  "abstract": "Positioning of the division site is precisely regulated. In Myxococcus xanthus , the PomX/Y/Z assembly associates with and translocates across the nucleoid in a PomZ ATPase-dependent manner to position the cytokinetic FtsZ-ring at midcell. Unlike other systems incorporating a ParA/MinD ATPase, the PomX/Y/Z system incorporates two ATPase Activating Proteins (AAPs), PomX and PomY, that stimulate PomZ activity. While PomX AAP activity, similarly to other characterized AAPs of ParA/MinD ATPases, resides in a short positively charged N-terminal peptide (PomX NPEP ), the mechanism of PomY-mediated activation of PomZ remained unknown. We map PomY AAP activity to its C-terminal residues 496-682 (PomY 496-682 ) and show that this activity is important for division site positioning and the initiation of cell division. Structural modeling suggests a bipartite PomY 496-682 architecture, comprising a globular domain and an intrinsically disordered region containing the short α5 helix. However, modeling supported an interaction only between α5 and the PomZ dimer. The α5 binding site partially overlaps with that of the prototype AAP ParB on the ParA dimer but α5 lacks a positively charged residue critical for ParB AAP activity. Modeling supported that PomX NPEP binds the PomZ dimer at a site distinct from that of α5 and which overlaps with that of the prototype AAP MinE on the MinD dimer. These findings reveal a non-canonical AAP mechanism of PomY, while PomX NPEP likely functions analogously to MinE, indicating that PomX and PomY act in concert through distinct but complementary mechanisms to stimulate PomZ ATPase activity, thereby efficiently driving the positioning of the cytokinetic FtsZ-ring. <h4>Importance</h4> In bacteria, the regulatory systems that position the division site often incorporate a ParA/MinD ATPase. These ATPases also function in the positioning of numerous other macromolecular complexes in bacteria. Characteristically, these ATPases depend on stimulation of their ATPase activity by a single cognate ATPase activating protein (AAP). However, the Myxococcus xanthus cell division regulatory system PomX/Y/Z system stands out by incorporating two AAPs, PomX and PomY, that activate the PomZ ATPase. Similar to other AAPs, PomX uses a short, positively charged N-terminal peptide (PomX NPEP ) to stimulate PomZ activity. We map PomY AAP activity to a C-terminal region spanning residues 496-682 (PomY 496-682 ). Structural modeling using AlphaFold 3 supports that the AAP activity of PomY 496-682 and PomX NPEP involves two distinct, non-overlapping binding sites at the dimer interface of ATP-bound PomZ. Altogether, these results provide insights into the molecular mechanism of the activation by two AAPs of a ParA/MinD ATPase.",
+  "abstract_zh": "分裂位点的定位受到精确调控。在黄色粘球菌（*Myxococcus xanthus*）中，PomX/Y/Z 组装体以 PomZ ATPase 依赖的方式与拟核结合并跨拟核转位，从而将细胞分裂的 FtsZ 环定位在细胞中部。与其他包含 ParA/MinD ATPase 的系统不同，PomX/Y/Z 系统包含两个 ATPase 激活蛋白（AAPs），即 PomX 和 PomY，它们刺激 PomZ 的活性。虽然 PomX 的 AAP 活性，与其他已表征的 ParA/MinD ATPase 的 AAPs 类似，位于一个短的带正电荷的 N 端肽段（PomX NPEP）中，但 PomY 介导的 PomZ 激活机制此前仍未知。我们将 PomY 的 AAP 活性定位到其 C 端残基 496-682（PomY 496-682），并表明该活性对分裂位点定位和细胞分裂起始至关重要。结构建模提示 PomY 496-682 具有双部分架构，包含一个球状结构域和一个含有短 α5 螺旋的内在无序区域。然而，建模仅支持 α5 与 PomZ 二聚体之间的相互作用。α5 结合位点与原型 AAP ParB 在 ParA 二聚体上的结合位点部分重叠，但 α5 缺乏对 ParB AAP 活性至关重要的带正电荷残基。建模支持 PomX NPEP 在 PomZ 二聚体上的结合位点与 α5 的位点不同，且与原型 AAP MinE 在 MinD 二聚体上的结合位点重叠。这些发现揭示了 PomY 的非典型 AAP 机制，而 PomX NPEP 可能以类似于 MinE 的方式发挥作用，表明 PomX 和 PomY 通过不同但互补的机制协同作用，刺激 PomZ ATPase 活性，从而高效驱动细胞分裂 FtsZ 环的定位。\n\n<h4>重要性</h4> 在细菌中，定位分裂位点的调控系统通常包含一个 ParA/MinD ATPase。这些 ATPase 也参与细菌中众多其他大分子复合物的定位。典型地，这些 ATPase 依赖于单个同源 ATPase 激活蛋白（AAP）对其 ATPase 活性的刺激。然而，黄色粘球菌的细胞分裂调控系统 PomX/Y/Z 系统因包含两个 AAPs，即 PomX 和 PomY，来激活 PomZ ATPase 而显得突出。与其他 AAPs 类似，PomX 使用一个短的、带正电荷的 N 端肽段（PomX NPEP）来刺激 PomZ 活性。我们将 PomY 的 AAP 活性定位到跨越残基 496-682 的 C 端区域（PomY 496-682）。使用 AlphaFold 3 的结构建模支持 PomY 496-682 和 PomX NPEP 的 AAP 活性涉及 ATP 结合 PomZ 二聚体界面上的两个不同且不重叠的结合位点。总之，这些结果提供了关于两个 AAPs 激活 ParA/MinD ATPase 的分子机制的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.12.01.691545",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.12.01.691545",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.12.01.691545/index.html"
+}

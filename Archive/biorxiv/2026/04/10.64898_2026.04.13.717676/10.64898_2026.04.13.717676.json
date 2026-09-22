@@ -1,0 +1,172 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.13.717676",
+  "title": "Proteome-wide identification and modeling of interactions between transactivation domains and arginine-glycine-rich regions",
+  "doi": "10.64898/2026.04.13.717676",
+  "abstract": "<h4>Summary</h4> Transcription factors (TFs) and RNA-binding proteins (RBPs) coordinate gene expression across transcriptional and post-transcriptional layers, yet the principles that govern their direct physical coupling, especially through intrinsically disordered regions, remain unclear. Here we combine proteome-scale interaction mapping, disordered-region annotation, coarse-grained simulations and sequence-based prediction to dissect a prevalent TF-RBP interface mediated by acidic/hydrophobic transactivation domains (TADs) and arginine-glycine-rich (RG/RGG) regions. Network analysis reveals a global enrichment of RBP partners among TF interactions and identifies TF and RBP hubs that bridge transcriptional regulation with RNA-centered pathways. Using a sequence grammar enriched in acidic and aromatic residues, we define 230 RG/RGG-binding TAD-like segments across 190 TFs and we map 1,008 compact RG/RGG regions across 823 RBPs based on proteome-wide motif spacing. Coarse-grained simulations (CALVADOS) of representative TAD-RGG pairs quantify interaction propensities and indicate that association is primarily driven by electrostatic complementarity and charge patterning, with sequence “stickiness” modulating interaction strength. Using a hybrid machine-learning model we predicted simulated interaction strengths from a compact, interpretable set of features and extrapolate these rules to the full combinatorial space, enabling systematic prioritization of candidate TF-RBP couplings. To validate these predictions experimentally, we used NMR titration experiments on a subset of TAD-RGG pairs spanning the predicted affinity range, which showed agreement between predicted affinities and NMR-derived dissociation constants. Together, our results support a predominantly electrostatic mode of association and establish a quantitative framework for identifying and prioritising TF-RBP partnerships, revealing how complementary sequence grammars within disordered regions couple transcriptional regulation to RNA processing and transport.",
+  "authors": [
+    "Khanna Y",
+    "Hajdarević A",
+    "Pirchner J",
+    "Usluer S",
+    "Rakhimbekova A",
+    "Pritišanac I",
+    "von Bülow S",
+    "Lindorff-Larsen K",
+    "Madl T"
+  ],
+  "published_date": "2026-04-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717676",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717676.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1214706",
+    "raw_record": {
+      "id": "PPR1214706",
+      "source": "PPR",
+      "doi": "10.64898/2026.04.13.717676",
+      "title": "Proteome-wide identification and modeling of interactions between transactivation domains and arginine-glycine-rich regions",
+      "authorString": "Khanna Y, Hajdarević A, Pirchner J, Usluer S, Rakhimbekova A, Pritišanac I, von Bülow S, Lindorff-Larsen K, Madl T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Khanna Y",
+            "lastName": "Khanna",
+            "firstName": "Yukti",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1018-1576"
+            }
+          },
+          {
+            "fullName": "Hajdarević A",
+            "lastName": "Hajdarević",
+            "firstName": "Arijana",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pirchner J",
+            "lastName": "Pirchner",
+            "firstName": "Johanna",
+            "initials": "J"
+          },
+          {
+            "fullName": "Usluer S",
+            "lastName": "Usluer",
+            "firstName": "Sinem",
+            "initials": "S"
+          },
+          {
+            "fullName": "Rakhimbekova A",
+            "lastName": "Rakhimbekova",
+            "firstName": "Anastasia",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0650-0228"
+            }
+          },
+          {
+            "fullName": "Pritišanac I",
+            "lastName": "Pritišanac",
+            "firstName": "Iva",
+            "initials": "I"
+          },
+          {
+            "fullName": "von Bülow S",
+            "lastName": "von Bülow",
+            "firstName": "Sören",
+            "initials": "S"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          },
+          {
+            "fullName": "Madl T",
+            "lastName": "Madl",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9725-5231"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1018-1576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9152-6555"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9725-5231"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0650-0228"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Summary</h4>  Transcription factors (TFs) and RNA-binding proteins (RBPs) coordinate gene expression across transcriptional and post-transcriptional layers, yet the principles that govern their direct physical coupling, especially through intrinsically disordered regions, remain unclear. Here we combine proteome-scale interaction mapping, disordered-region annotation, coarse-grained simulations and sequence-based prediction to dissect a prevalent TF-RBP interface mediated by acidic/hydrophobic transactivation domains (TADs) and arginine-glycine-rich (RG/RGG) regions. Network analysis reveals a global enrichment of RBP partners among TF interactions and identifies TF and RBP hubs that bridge transcriptional regulation with RNA-centered pathways. Using a sequence grammar enriched in acidic and aromatic residues, we define 230 RG/RGG-binding TAD-like segments across 190 TFs and we map 1,008 compact RG/RGG regions across 823 RBPs based on proteome-wide motif spacing. Coarse-grained simulations (CALVADOS) of representative TAD-RGG pairs quantify interaction propensities and indicate that association is primarily driven by electrostatic complementarity and charge patterning, with sequence “stickiness” modulating interaction strength. Using a hybrid machine-learning model we predicted simulated interaction strengths from a compact, interpretable set of features and extrapolate these rules to the full combinatorial space, enabling systematic prioritization of candidate TF-RBP couplings. To validate these predictions experimentally, we used NMR titration experiments on a subset of TAD-RGG pairs spanning the predicted affinity range, which showed agreement between predicted affinities and NMR-derived dissociation constants. Together, our results support a predominantly electrostatic mode of association and establish a quantitative framework for identifying and prioritising TF-RBP partnerships, revealing how complementary sequence grammars within disordered regions couple transcriptional regulation to RNA processing and transport.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.04.13.717676"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-04-16",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

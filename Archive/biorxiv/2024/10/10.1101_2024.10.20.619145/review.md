@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors propose that α-synuclein (αSyn) localization to biomolecular condensate interfaces is governed by electrostatic interactions driven by the protein's amphiphilic nature and condensate ζ-potential. They describe adsorption as a Freundlich-type, multilayered, reversible equilibrium process and present three strategies (NTPs/RNA, competitive proteins, membranes) to modulate or reverse this localization, with downstream effects on αSyn aggregation kinetics.
+- **Visible evidence base** Results and Discussion sections (Figs. 1–6), Materials and methods, Supplementary figure references (Figs. 1–19), Supplementary table S1
+- **Missing materials affecting confidence** Supplementary figures and table (referenced but not provided); raw data, statistical analyses, and fitting parameters for Freundlich isotherms; details on ζ-potential measurements and microelectrophoresis calibration; NMR spectra and quantification details; optical trap data and fitting procedures; full experimental protocols for protein expression and purification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the physical chemistry of protein localization at biomolecular condensate interfaces, with potential implications for understanding and modulating amyloid aggregation in disease. The central hypothesis—that electrostatic interactions and protein amphiphilicity govern interfacial adsorption—is plausible and supported by several lines of evidence, including ζ-potential measurements, mutant studies, and adsorption isotherm fitting. The proposed strategies for modulating αSyn localization are conceptually novel and biologically relevant. However, the strength of the conclusions is limited by incomplete presentation of quantitative data, lack of direct mechanistic validation (e.g., molecular-level interaction studies), and insufficient discussion of alternative explanations. The aggregation experiments, while suggestive, do not fully establish a causal link between interfacial removal and reduced nucleation. Overall, the work is promising but requires additional experimental rigor and clarity before the claims can be fully substantiated.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, protein aggregation and neurodegeneration, biophysics of interfaces, and drug discovery targeting protein-misfolding diseases. The work provides a framework for understanding how condensate surface properties can be manipulated to control protein localization, which is relevant for both basic science and therapeutic development.
+- **Major strengths** 1) The study addresses a relatively underexplored area—interfacial adsorption of amyloidogenic proteins to condensates—with a systematic approach. 2) The use of a tunable model system (pLys/pGlu) allows controlled variation of ζ-potential, enabling mechanistic insight. 3) The proposal of three distinct, biologically plausible strategies for modulating αSyn localization is innovative and could have broad applicability. 4) The inclusion of aggregation kinetics links interfacial behavior to functional outcomes, strengthening the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that αSyn adsorption follows a Freundlich isotherm, indicating heterogeneous, multilayered binding sites with finite capacity.
+  - **Evidence pointer** Fig. 1f, Supplementary Figs. 3–4, Supplementary Information (fitting explanation)
+  - **Concern** The Freundlich isotherm fit is presented as the best model based on Bayesian information criterion, but the actual fitting parameters, goodness-of-fit metrics, and comparison with alternative models are not shown in the main text. The interpretation of "multilayered" adsorption is inferred from the isotherm shape but lacks direct structural or molecular evidence. The physical meaning of the fitted parameters (S_sat, n) is not fully explained or validated.
+  - **Why it matters** The central mechanistic claim—that adsorption is multilayered and heterogeneous—relies entirely on the isotherm fitting. Without transparent presentation of the fitting procedure, parameter uncertainties, and model comparisons, the conclusion is not robustly supported.
+  - **Resolution test** Provide the full fitting results, including parameter values with confidence intervals, residuals, and a clear justification for model selection. Ideally, complement with independent measurements (e.g., surface plasmon resonance, quartz crystal microbalance, or molecular dynamics simulations) to directly probe adsorption layer structure and heterogeneity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors state that removing αSyn from the condensate interface slows down aggregation, implying a causal link between interfacial localization and nucleation.
+  - **Evidence pointer** Fig. 6a–f, Supplementary Figs. 17–19
+  - **Concern** The aggregation experiments show that conditions that remove αSyn from the interface (e.g., ATP, NTPs, competitive proteins) also slow aggregation. However, these interventions may have direct effects on αSyn aggregation independent of condensate interfaces (e.g., ATP binding to αSyn, changes in solution ionic strength, or protein-protein interactions in bulk). The control experiments (e.g., ATP without condensates) are mentioned but not shown in detail. The claim of causality is therefore not fully established.
+  - **Why it matters** The therapeutic implication—that modulating condensate interfaces can prevent aggregation—depends on demonstrating that the effect is specifically due to interfacial removal, not off-target effects.
+  - **Resolution test** Include dose-response experiments with ATP/NTPs in the absence of condensates to rule out direct effects on αSyn aggregation. Use mutants of αSyn that do not bind condensates as negative controls. Perform aggregation assays with condensates of varying ζ-potential to show a correlation between interfacial accumulation and nucleation rate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that electrostatic interactions and amphiphilicity are general determinants of protein localization at condensate interfaces, extending beyond αSyn to other proteins like TDP-43.
+  - **Evidence pointer** Supplementary Fig. 9 (TDP-43-TEV-mCherry)
+  - **Concern** The generalizability claim is based on a single additional protein (TDP-43) under limited conditions. The study does not systematically vary protein charge, hydrophobicity, or size to establish a predictive framework. The role of specific amino acid sequences or post-translational modifications is not addressed.
+  - **Why it matters** The broader relevance of the findings to other amyloidogenic proteins and cellular contexts depends on demonstrating that the proposed mechanism is not idiosyncratic to αSyn and the pLys/pGlu model system.
+  - **Resolution test** Test a panel of proteins with varying net charge, hydrophobicity, and disorder propensity. Use condensates with different compositions (e.g., based on other charged polymers or endogenous proteins) to assess generality. Include mutants with altered charge distributions to map the determinants of interfacial affinity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report ζ-potential values and their changes upon addition of αSyn, NTPs, and other additives.
+  - **Evidence pointer** Figs. 1c, 2a, 3c, 3e, Supplementary Table S1
+  - **Concern** The ζ-potential measurements are central to the electrostatic mechanism, but the methodology (e.g., number of replicates, error propagation, droplet size distribution, and potential artifacts from droplet coalescence or surface interactions) is not fully described. The relationship between ζ-potential and actual surface charge density is not discussed, and the effect of protein adsorption on ζ-potential is interpreted without considering possible conformational changes or charge redistribution.
+  - **Why it matters** Quantitative interpretation of the electrostatic driving force requires reliable and well-characterized ζ-potential data. Ambiguities in these measurements weaken the mechanistic conclusions.
+  - **Resolution test** Provide detailed methodology for ζ-potential measurements, including calibration, replicate numbers, and statistical analysis. Discuss limitations and potential artifacts. Consider complementary techniques (e.g., electrophoretic mobility, surface charge titration) to validate the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 1a description
+  - **Evidence pointer** Fig. 1a
+  - **Issue** The description of αSyn domain architecture in Fig. 1a is brief; the specific residues or regions corresponding to the "active aggregation core" and charged termini are not clearly defined in the text.
+  - **Required correction** Provide a more detailed annotation of the domain structure, including residue numbers, to aid interpretation of mutant studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Condensate formation"
+  - **Evidence pointer** Materials and methods
+  - **Issue** The method for preparing condensates is described, but the polydispersity and size distribution of condensates are not reported, which could affect ζ-potential and adsorption measurements.
+  - **Required correction** Include characterization of condensate size and morphology (e.g., dynamic light scattering, microscopy) and state the typical range used in experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of competitive adsorption (Fig. 4)
+  - **Evidence pointer** Fig. 4a–d
+  - **Issue** The authors note that some proteins co-localize with αSyn rather than displacing it, but the implications for the proposed "competitive adsorption" strategy are not fully discussed. The distinction between displacement and co-localization is important for the mechanism.
+  - **Required correction** Clarify whether co-localization implies partial displacement, formation of mixed layers, or other interactions, and discuss the functional consequences for αSyn aggregation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 6 aggregation kinetics
+  - **Evidence pointer** Fig. 6a–f
+  - **Issue** The number of replicates and error bars for aggregation kinetics are not specified in the text or figure legends.
+  - **Required correction** Report the number of independent experiments and the statistical significance of differences between conditions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** NMR spectroscopy section
+  - **Evidence pointer** Materials and methods, NMR spectroscopy
+  - **Issue** The NMR method for determining ATP partition coefficient is described, but the results are not shown in the main text or supplementary figures.
+  - **Required correction** Include the NMR data or refer to a specific supplementary figure to support the reported partition coefficient.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of full fitting details and model comparison for the Freundlich isotherm (R1-M1). 2) Insufficient control experiments to rule out off-target effects of ATP/NTPs on αSyn aggregation (R1-M2). 3) Incomplete characterization of ζ-potential methodology and potential artifacts (R1-M4). 4) Limited evidence for generalizability beyond αSyn (R1-M3).
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of treating condensate interfaces as tunable adsorption surfaces for amyloidogenic proteins, and proposing multiple intervention strategies, is original and extends beyond prior work on condensate-mediated nucleation.  
+  - **Scientific importance** The findings have potential implications for understanding protein aggregation in neurodegenerative diseases and for designing therapeutic strategies. The mechanistic insight into electrostatic control of interfacial localization is valuable.  
+  - **Interdisciplinary readership** The work bridges biophysics, cell biology, and neurobiology, and would appeal to a broad audience interested in condensates, protein misfolding, and surface chemistry.  
+  - **Technical soundness** The experimental approaches are generally appropriate, but the lack of quantitative detail and some missing controls reduce the technical rigor. The isotherm fitting and ζ-potential measurements require more transparency.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, with clear figures and logical flow. However, some sections (e.g., isotherm fitting, optical trap analysis) may be challenging for non-experts without additional explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the proposed strategies are novel, but the current evidence does not fully establish the mechanistic claims. Addressing the major concerns, particularly around isotherm fitting, causal inference, and ζ-potential methodology, would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that adsorption is "multilayered" is inferred solely from the Freundlich isotherm fit and lacks direct structural evidence.
+- The claim that removing αSyn from the interface slows aggregation is not fully supported due to potential off-target effects of the interventions.
+- The generalizability of the mechanism to other proteins and condensate systems is not established beyond the limited examples shown.
+- The partition coefficient for ATP (K_P = 462) is reported without showing the NMR data or error analysis.
+- The statement that "cells may use strategies like ATP production to manipulate condensate interface properties" is speculative and not directly tested.

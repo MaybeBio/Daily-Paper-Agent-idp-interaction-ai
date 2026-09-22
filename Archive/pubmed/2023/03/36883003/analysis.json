@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36883003",
+  "title": "Surfactants or scaffolds? RNAs of varying lengths control the thermodynamic stability of condensates differently.",
+  "authors": "Sanchez-Burgos, Ignacio; Herriott, Lara; Collepardo-Guevara, Rosana; Espinosa, Jorge R",
+  "journal": "Biophysical journal",
+  "published_date": "2023-03-09",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度粗粒化分子动力学模拟研究不同长度RNA调控FUS/PR蛋白凝聚体热力学稳定性的机制，揭示短RNA作为表面活性剂、长RNA增强核心连接的双重机制，对象为IDP相分离凝聚体、聚焦互作机制且方法为物理模拟，高度契合本课题。",
+  "abstract": "Biomolecular condensates, thought to form via liquid-liquid phase separation of intracellular mixtures, are multicomponent systems that can include diverse types of proteins and RNAs. RNA is a critical modulator of RNA-protein condensate stability, as it induces an RNA concentration-dependent reentrant phase transition-increasing stability at low RNA concentrations and decreasing it at high concentrations. Beyond concentration, RNAs inside condensates can be heterogeneous in length, sequence, and structure. Here, we use multiscale simulations to understand how different RNA parameters interact with one another to modulate the properties of RNA-protein condensates. To do so, we perform residue/nucleotide resolution coarse-grained molecular dynamics simulations of multicomponent RNA-protein condensates containing RNAs of different lengths and concentrations, and either FUS or PR(25) proteins. Our simulations reveal that RNA length regulates the reentrant phase behavior of RNA-protein condensates: increasing RNA length sensitively rises the maximum value that the critical temperature of the mixture reaches, and the maximum concentration of RNA that the condensate can incorporate before beginning to become unstable. Strikingly, RNAs of different lengths are organized heterogeneously inside condensates, which allows them to enhance condensate stability via two distinct mechanisms: shorter RNA chains accumulate at the condensate's surface acting as natural biomolecular surfactants, while longer RNA chains concentrate inside the core to saturate their bonds and enhance the density of molecular connections in the condensate. Using a patchy particle model, we additionally demonstrate that the combined impact of RNA length and concentration on condensate properties is dictated by the valency, binding affinity, and polymer length of the various biomolecules involved. Our results postulate that diversity on RNA parameters within condensates allows RNAs to increase condensate stability by fulfilling two different criteria: maximizing enthalpic gain and minimizing interfacial free energy; hence, RNA diversity should be considered when assessing the impact of RNA on biomolecular condensates regulation.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates），被认为是通过细胞内混合物的液-液相分离（liquid-liquid phase separation）形成的，是多组分系统，可包含多种类型的蛋白质和RNA。RNA是RNA-蛋白质凝聚体稳定性的关键调节因子，因为它诱导RNA浓度依赖性的重入相变（reentrant phase transition）——在低RNA浓度下增加稳定性，在高浓度下降低稳定性。除浓度外，凝聚体内的RNA在长度、序列和结构上可能具有异质性。在此，我们使用多尺度模拟来理解不同RNA参数如何相互作用以调节RNA-蛋白质凝聚体的性质。为此，我们对包含不同长度和浓度RNA以及FUS或PR(25)蛋白的多组分RNA-蛋白质凝聚体进行残基/核苷酸分辨率的粗粒化分子动力学（coarse-grained molecular dynamics）模拟。我们的模拟揭示，RNA长度调节RNA-蛋白质凝聚体的重入相行为：增加RNA长度敏感地提高混合物临界温度达到的最大值，以及凝聚体在开始变得不稳定之前能掺入的RNA最大浓度。引人注目的是，不同长度的RNA在凝聚体内组织异质性，这使它们能通过两种不同机制增强凝聚体稳定性：较短的RNA链在凝聚体表面积累，充当天然生物分子表面活性剂，而较长的RNA链集中在核心区域以饱和其键合并增强凝聚体内分子连接的密度。使用斑块粒子模型（patchy particle model），我们进一步证明RNA长度和浓度对凝聚体性质的联合影响由所涉及的各种生物分子的价态、结合亲和力和聚合物长度决定。我们的结果提出，凝聚体内RNA参数的多样性使RNA能通过满足两个不同标准来增强凝聚体稳定性：最大化焓增益和最小化界面自由能；因此，在评估RNA对生物分子凝聚体调节的影响时，应考虑RNA的多样性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36883003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36883003/",
+  "paper_page_path": "papers/pubmed/36883003/index.html"
+}

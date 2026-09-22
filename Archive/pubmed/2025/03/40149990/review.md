@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors investigate the role of conformational flexibility in the AHD1-UBAN region of the intrinsically disordered protein TNIP1 by introducing point mutations predicted to increase order. They report that mutations outside the ubiquitin-binding region affect secondary structure and, in some cases, alter binding affinity for M1-linked triubiquitin, with the D472N control variant unexpectedly showing the greatest conformational stabilization.
+- **Visible evidence base** In silico predictions (Mutator, PONDR-FIT), far-UV CD spectra, HSQC-NMR spectra, MST binding data, sequence alignments, and AlphaFold2 structural predictions
+- **Missing materials affecting confidence** Raw NMR peak assignments, full MST binding curves with replicates, statistical analysis details, exact numerical values for CD deconvolution results, and uncropped spectra
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic biophysical analysis of how single amino acid substitutions in the AHD1-UBAN region of TNIP1 affect conformational flexibility and ubiquitin binding. The work is technically sound in its use of complementary methods (CD, NMR, MST) and addresses an interesting question about the role of intrinsic disorder in protein-protein interactions. However, the study is largely descriptive, with limited mechanistic insight, and several claims about the relationship between conformational changes and binding affinity are not fully supported by the data presented. The finding that D472N, a known ubiquitin-binding attenuating variant, shows the greatest conformational stabilization is intriguing but not mechanistically explained. The manuscript would benefit from clearer presentation of quantitative data and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, ubiquitin signaling, NF-κB regulation, and the molecular basis of autoinflammatory diseases would find this work relevant. The study provides a methodological framework for assessing how mutations in disordered regions affect protein function, which is broadly applicable to the IDP field. The specific focus on TNIP1 and its role in inflammatory signaling may also interest immunologists and those studying the molecular pathology of systemic lupus erythematosus and psoriasis.
+- **Major strengths** The study combines multiple biophysical techniques (CD, NMR, MST) to assess both structural and functional consequences of mutations. The use of the Mutator program for rational variant design is a thoughtful approach. The inclusion of the D472N variant as a functional control is valuable, and the unexpected finding regarding its conformational effects is potentially important. The authors are appropriately cautious in some interpretations, acknowledging limitations of in silico predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "changes in single amino acids outside of the ubiquitin-binding region for gain-of-order effects had consequences along the length of the AHD1-UBAN propagating to that region," evidenced by differences in polyubiquitin recognition.
+  - **Evidence pointer** Section 3.5, Figure 8
+  - **Concern** The MST data presented are insufficient to support the claim that mutations outside the ubiquitin-binding region affect binding to M1-triubiquitin. Only KD values with standard deviations are reported, without showing the full binding curves, the number of independent replicates, or the quality of the fits. For E444Q and D472N, no KD could be calculated, but the basis for this conclusion (e.g., lack of saturation, poor signal-to-noise) is not described. Additionally, the claim that E425Q binds similarly to WT is based on a single KD value without statistical comparison.
+  - **Why it matters** The central conclusion of the manuscript, that conformational flexibility in regions distal to the binding site influences partner recognition, rests on the MST data. Without robust binding data, the link between the observed conformational changes and functional consequences is not established.
+  - **Resolution test** Provide full MST binding curves with error bars for all variants, report the number of independent experiments, and perform appropriate statistical comparisons (e.g., one-way ANOVA with post-hoc tests) between WT and variant KD values. For variants where KD could not be determined, show the raw data and explain the criteria used to conclude that binding was not measurable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that "the D472N mutation, projected to impact protein function with no detectable impact on conformational flexibility, was shown to deviate far from the WT with the most extensive decreased flexibility of any screened variant."
+  - **Evidence pointer** Section 3.2, Figure 3d, Figure 3h
+  - **Concern** This is presented as a "fortuitous observation," but the authors do not provide a mechanistic explanation for why a mutation in the ubiquitin-binding pocket would cause such a large conformational change. The CD data suggest D472N has increased alpha-helical content, but the authors do not discuss whether this reflects a local change in the UBAN domain or a more global effect on the construct. The placement of D472N on the 200 versus 222 nm plot (Figure 3h) is described as being "away from the pre-molten globule cohort," but the significance of this positioning is not explained.
+  - **Why it matters** The D472N finding is highlighted as a key result, but without a mechanistic interpretation, it remains an unexplained observation. This limits the insight the study provides into how mutations in binding sites affect conformational dynamics.
+  - **Resolution test** Provide a more detailed analysis of the D472N conformational change, such as residue-level information from NMR chemical shift perturbations or molecular dynamics simulations. Discuss whether the increased helicity is consistent with a local or global structural rearrangement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use HSQC-NMR to assess conformational changes, stating that "the reduced number of visible peaks along with their sharpness implies that the most consistently flexible portion of the construct, the linker between the AHD1 and UBAN domains, is observable."
+  - **Evidence pointer** Section 3.2, Figure 4
+  - **Concern** The NMR data are presented as spectra without resonance assignments. The authors infer that the visible peaks correspond to the flexible linker, but this is not demonstrated. Without assignments, it is not possible to determine which residues are affected by the mutations or by ubiquitin binding. The statement that "the likely glycine upper triad of peaks (15N: 108-111 ppm) seem particularly sensitive to conformational changes" is speculative without assignment information.
+  - **Why it matters** The NMR data are used to support claims about which regions of the protein are affected by mutations and binding. Without assignments, these claims cannot be verified, and the interpretation may be incorrect.
+  - **Resolution test** Provide resonance assignments for the AHD1-UBAN construct, or at minimum, use site-specific labeling or mutagenesis to confirm which residues correspond to the observed peaks. Alternatively, present the NMR data as preliminary and avoid making specific claims about residue-level effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "changes in single amino acids outside of the ubiquitin-binding region for gain-of-order effects had consequences along the length of the AHD1-UBAN propagating to that region," but this is not clearly explained. The phrase "propagating to that region" is vague.
+  - **Required correction** Rephrase to more clearly state that mutations outside the ubiquitin-binding region affect the conformation of the entire AHD1-UBAN construct, including the ubiquitin-binding region, and that this correlates with changes in ubiquitin binding affinity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5, location not provided
+  - **Issue** The MST methodology states that "values are presented as fraction bound based on MO.Affinity Analysis software v3 estimation," but the specific parameters used (e.g., LED power, MST power, analysis temperature) are not fully described. The criteria for determining that saturation was not achieved for some variants are not stated.
+  - **Required correction** Provide more detail on the MST experimental parameters and the criteria used to determine whether a KD could be reliably calculated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.3, Figure 5
+  - **Evidence pointer** Section 3.3, Figure 5
+  - **Issue** The CD data in Figure 5 are presented as spectra, but the deconvolution results (Figure 5g) are only described qualitatively. The numerical values for secondary structure content are not provided in the text or a table.
+  - **Required correction** Include a table with the numerical deconvolution results (e.g., percentage alpha-helix, beta-sheet, disorder) for each variant under each condition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The authors state that "the E425Q variant has a much greater impact than E425W, the variant it was meant to control for," but this is not discussed in the context of the binding data, where E425Q binds similarly to WT.
+  - **Required correction** Discuss the apparent discrepancy between the conformational effect of E425Q and its binding affinity, and consider whether the conformational change is relevant to function.
+- **Technical failings that need to be addressed before the case is established** The MST data are insufficiently detailed to support the quantitative claims about binding affinity differences. The NMR data lack resonance assignments, limiting the interpretation of which residues are affected. The CD deconvolution results are not presented numerically, preventing independent assessment of the secondary structure changes.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of the Mutator program to design order-promoting mutations in an IDP is a reasonable approach, but the concept that mutations in disordered regions can affect binding is not novel. Scientific importance: Moderate. The findings are specific to TNIP1 and do not yet provide generalizable principles about IDP function. Interdisciplinary readership: Limited. The work is primarily of interest to biophysicists and biochemists studying IDPs and ubiquitin signaling. Technical soundness: The methods are appropriate, but the data presentation and analysis are incomplete in key areas (MST, NMR assignments). Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with IDP concepts and biophysical methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and uses appropriate methods, but the current data presentation does not fully support the central claims. The MST data need to be more rigorously presented, and the NMR interpretation needs to be supported by assignments or more cautious language. If these issues are addressed, the manuscript would make a useful contribution to the IDP field.
+
+## Risk / unsupported claims
+- The claim that mutations outside the ubiquitin-binding region affect binding affinity is not fully supported by the MST data as presented.
+- The interpretation of NMR spectra as reflecting the flexible linker is not supported by resonance assignments.
+- The statement that D472N shows "the most extensive decreased flexibility of any screened variant" is based on CD data but is not quantitatively supported.
+- The claim that "conformational flexibility can only be beneficial to the partner recognition of AHD1-UBAN" is an overgeneralization not fully supported by the data, given that E444F retains binding affinity despite reduced flexibility.

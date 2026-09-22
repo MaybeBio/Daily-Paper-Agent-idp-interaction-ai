@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37705794",
+  "title": "DNA-protamine condensates under low salt conditions: molecular dynamics simulation with a simple coarse-grained model focusing on electrostatic interactions.",
+  "authors": "Jang, Yun Hee; Raspaud, Eric; Lansac, Yves",
+  "journal": "Nanoscale advances",
+  "published_date": "2023-09-14",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究低盐下DNA-鱼精蛋白凝聚体的静电驱动相分离机制，对象涉及无序蛋白介导的凝聚体，但互作对象为DNA而非蛋白，方法为物理模拟，机制建模有启发。",
+  "abstract": "Protamine, a small, strongly positively-charged protein, plays a key role in achieving chromatin condensation inside sperm cells and is also involved in the formulation of nanoparticles for gene therapy and packaging of mRNA-based vaccines against viral infection and cancer. The detailed mechanisms of such condensations are still poorly understood especially under low salt conditions where electrostatic interaction predominates. Our previous study, with a refined coarse-grained model in full consideration of the long-range electrostatic interactions, has demonstrated the crucial role of electrostatic interaction in protamine-controlled reversible DNA condensation. Therefore, we herein pay our attention only to the electrostatic interaction and devise a coarser-grained bead-spring model representing the right linear charge density on protamine and DNA chains but treating other short-range interactions as simply as possible, which would be suitable for real-scale simulations. Effective pair potential calculations and large-scale molecular dynamics simulations using this extremely simple model reproduce the phase behaviour of DNA in a wide range of protamine concentrations under low salt conditions, again revealing the importance of the electrostatic interaction in this process and providing a detailed nanoscale picture of bundle formation mediated by a charge disproportionation mechanism. Our simulations also show that protamine length alters DNA overcharging and in turn redissolution thresholds of DNA condensates, revealing the important role played by entropies and correlated fluctuations of condensing agents and thus offering an additional opportunity to design tailored nanoparticles for gene therapy. The control mechanism of DNA-protamine condensates will also provide a better microscopic picture of biomolecular condensates, i.e., membraneless organelles arising from liquid-liquid phase separation, that are emerging as key principles of intracellular organization. Such condensates controlled by post-translational modification of protamine, in particular phosphorylation, or by variations in protamine length from species to species may also be responsible for the chromatin-nucleoplasm patterning observed during spermatogenesis in several vertebrate and invertebrate species.",
+  "abstract_zh": "鱼精蛋白（protamine）是一种小分子、强正电荷蛋白质，在精子细胞内实现染色质凝聚中发挥关键作用，并参与基因治疗纳米颗粒的制备及针对病毒感染和癌症的mRNA疫苗包装。此类凝聚的详细机制仍知之甚少，尤其是在静电相互作用占主导的低盐条件下。我们先前的研究采用精细粗粒化模型，充分考虑长程静电相互作用，已证明静电相互作用在鱼精蛋白控制的可逆DNA凝聚中的关键作用。因此，本文仅关注静电相互作用，设计了一种更粗粒化的珠簧模型，以准确表示鱼精蛋白和DNA链上的线性电荷密度，同时尽可能简化其他短程相互作用，该模型适用于真实尺度模拟。利用这一极简模型进行的有效对势计算和大规模分子动力学模拟，重现了低盐条件下宽浓度范围内鱼精蛋白诱导的DNA相行为，再次揭示了静电相互作用在此过程中的重要性，并提供了由电荷失衡机制介导的束状结构形成的详细纳米尺度图像。我们的模拟还表明，鱼精蛋白长度改变DNA的过度充电，进而影响DNA凝聚体的再溶解阈值，揭示了凝聚剂熵效应及相关波动的重要作用，从而为基因治疗定制纳米颗粒提供了额外设计机会。DNA-鱼精蛋白凝聚体的控制机制也将为生物分子凝聚体（即由液-液相分离形成的无膜细胞器，正成为细胞内组织的关键原理）提供更清晰的微观图像。此类由鱼精蛋白翻译后修饰（特别是磷酸化）或不同物种间鱼精蛋白长度差异所控制的凝聚体，可能也解释了在多种脊椎动物和无脊椎动物精子发生过程中观察到的染色质-核浆图案化现象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37705794/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37705794/",
+  "paper_page_path": "papers/pubmed/37705794/index.html"
+}

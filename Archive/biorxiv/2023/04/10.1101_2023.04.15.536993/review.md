@@ -1,0 +1,58 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors report a protocol that accelerates AlphaFold2-based protein-protein interaction (PPI) network prediction by 40x and reduces disk space requirements by 4000x for a set of 1000 proteins, with the tool freely available on GitHub.
+- **Visible evidence base** Abstract text; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods description, benchmark details, validation data, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational optimization for PPI network prediction using AlphaFold2. However, the claims of speedup and disk space reduction are stated without any supporting methodological detail, benchmark protocol, or validation evidence. The scientific case is currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in structural biology, systems biology, and computational biology who use AlphaFold2 for large-scale interaction screening. The potential for reduced computational cost and storage would appeal to groups with limited high-performance computing resources.
+- **Major strengths** The stated goal addresses a real bottleneck in applying AlphaFold2 to PPI networks. The claimed improvements are substantial and, if verified, would be practically impactful. The provision of an open-source tool is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The protocol speeds up PPI network prediction 40x and reduces disk space 4000x for 1000 proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no description of the method, the benchmark setup, the hardware used, or the baseline against which the 40x and 4000x improvements are measured. Without these details, the claims cannot be evaluated for accuracy or reproducibility.
+  - **Why it matters** Speed and storage improvements are quantitative claims that depend entirely on the comparison baseline and experimental conditions. If the baseline is suboptimal or the benchmark is not representative, the reported factors could be misleading.
+  - **Resolution test** Provide a detailed methods section describing the protocol, the exact AlphaFold2 version and settings used, the hardware and software environment, and a clear definition of the baseline. Include benchmark results on a defined protein set with error bars or variability measures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The protocol enables rapid PPI network prediction with high accuracy, as implied by the use of AlphaFold2.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state whether the accelerated predictions maintain the accuracy of the original AlphaFold2 approach. No accuracy metrics, comparison to experimental PPI data, or benchmarking against known interactions are mentioned.
+  - **Why it matters** A speedup is only scientifically useful if the prediction quality is preserved. Without accuracy validation, the protocol's utility for generating reliable PPI networks is unsubstantiated.
+  - **Resolution test** Include accuracy benchmarks comparing the accelerated protocol's predictions to standard AlphaFold2 outputs and to experimental or curated PPI datasets, with appropriate statistical measures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain what the protocol does differently from standard AlphaFold2, nor does it define "disk space requirements" in context.
+  - **Required correction** Add one or two sentences describing the core methodological innovation and specify whether disk space refers to intermediate files, model weights, or output storage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The GitHub link is provided, but the abstract does not state the license, dependencies, or whether the code is versioned and documented.
+  - **Required correction** Specify the software license, key dependencies, and a version or release tag in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and accuracy validation means the core claims of speedup and utility are not supported by the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: Not assessable from the abstract alone; the approach may be novel, but no comparison to existing acceleration methods is provided.  
+  - Scientific importance: Potentially high if accuracy is maintained, but this is unverified.  
+  - Interdisciplinary readership: The topic bridges computational biology and structural biology, but the abstract lacks context for nonspecialists.  
+  - Technical soundness: Not assessable; no methods or benchmark details are given.  
+  - Readability for nonspecialists: The abstract is concise but omits essential context for understanding the method and its significance.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but unsupported. A revised manuscript with full methods, accuracy benchmarks, and clear baseline definitions would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The 40x speedup and 4000x disk space reduction are unsupported due to lack of benchmark details.
+- The implied maintenance of prediction accuracy is unsupported; no accuracy data are provided.
+- The general applicability of the protocol to arbitrary protein sets is not assessable from the abstract.

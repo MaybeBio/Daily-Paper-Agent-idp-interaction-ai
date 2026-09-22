@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36116541",
+  "title": "AlphaFold and Structural Mass Spectrometry Enable Interrogations on the Intrinsically Disordered Regions in Cyanobacterial Light-harvesting Complex Phycobilisome.",
+  "authors": "Liu, Haijun",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-09-19",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合AlphaFold预测与结构质谱交联数据，对蓝藻藻胆体中ApcE无序PB-loop及其与ApcG等IDPR的互作界面进行建模验证，直接聚焦IDR介导的PPI机制，方法上AI与实验质谱联合，高度契合本课题。",
+  "abstract": "Intrinsically disordered proteins/regions (IDPRs) are a very large and functionally important class of proteins that participate in weak multivalent interactions in protein complexes. They are recalcitrant for interrogations using X-ray crystallography and cryo-EM. The IDPRs observed at the interface of the photosynthetic pigment protein complexes (PPCs) remain much less clear, e.g., the major cyanobacterial light-harvesting complex (PBS) contains an unstructured PB-loop insertion in the phycocyanobilin domain (PB domain) of ApcE (the largest polypeptide in PBS). Here, a joint platform is built to probe such structural domains. This platform is characterized by two-round progressive justifications of in silico models by using the structural mass spectrometry data. First, the AlphaFold-generated 3D structure of the PB domain (containing PB-loop) was justified in the context of PBS. Second, docking the AlphaFold-generated ApcG (a ligand) into the first-step justified structure (a receptor). The final ligand-receptor complex was then subjected to a second-round justification, again, by using unequivocal isotopically-encoded cross-links identified in LC-MS/MS. This work reveals a full-length PB-loop structure modelled in the PBS basal cylinder, free from any spatial conflicts against the other subunits in PBS. The structure of PB domain highlights the close associations of the intrinsically disordered PB-loop with its binding partners in PBS, including ApcG, another IDPR. The PB-loop region involved in the binding of photosystem II (PSII) is also discussed in the context of excitation energy transfer regulation. This work calls attention to the highly disordered, yet interrogatable interface between the light-harvesting antenna complexes and the reaction centers.",
+  "abstract_zh": "固有无序蛋白/区域（IDPRs）是一类数量庞大且功能重要的蛋白质，它们参与蛋白质复合物中的弱多价相互作用。这类蛋白质难以通过X射线晶体学和冷冻电镜进行研究。在光合色素蛋白复合物（PPCs）界面观察到的IDPRs仍远未明确，例如，主要的蓝藻光捕获复合物（PBS）在ApcE（PBS中最大的多肽）的藻蓝胆素结构域（PB结构域）中含有一个无结构的PB-loop插入序列。在此，我们构建了一个联合平台来探测此类结构域。该平台的特点是通过使用结构质谱数据进行两轮渐进式的计算机模型验证。首先，在PBS背景下验证了AlphaFold生成的PB结构域（包含PB-loop）的三维结构。其次，将AlphaFold生成的ApcG（配体）对接入第一步验证的结构（受体）中。最终的配体-受体复合物随后经过第二轮验证，再次使用LC-MS/MS中鉴定的明确同位素编码交联进行确认。这项工作揭示了在PBS基底圆柱体中建模的全长PB-loop结构，且与PBS中其他亚基无任何空间冲突。PB结构域的结构突出了固有无序的PB-loop与其在PBS中的结合伙伴（包括另一个IDPR ApcG）之间的紧密关联。涉及光系统II（PSII）结合的PB-loop区域也在激发能量传递调控的背景下进行了讨论。这项工作引起了人们对光捕获天线复合物与反应中心之间高度无序但仍可探测界面的关注。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36116541/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36116541/",
+  "paper_page_path": "papers/pubmed/36116541/index.html"
+}

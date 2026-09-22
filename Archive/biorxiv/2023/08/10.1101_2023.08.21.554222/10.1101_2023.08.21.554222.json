@@ -1,0 +1,187 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.21.554222",
+  "title": "hnRNPA1 RGG-box acts a ”catalyst” in UP1-induced destabilization of RNA and DNA telomeric G-Quadruplexes",
+  "doi": "10.1101/2023.08.21.554222",
+  "abstract": "hnRNPA1, a protein from the heterogeneous-nuclear ribonucleoprotein fam-ily, mediates cellular processes such as RNA metabolism and DNA telomere maintenance. Besides the folded RNA recognition motifs, hnRNPA1 has a ∼ 135 amino-acids long low-complexity domain (LCD) consisting of an RGG-rich region and a prion-like domain (PrLD). Biochemical data suggest that RGG-rich region modulates recognition of G-quadruplexes (GQs) in the telomeric repeats. Here, we utilize an in-house developed replica exchange technique (REHT) to generate the heterogeneous conformation ensemble of hnRNPA1-RGG and explore its functional significance in telomere maintenance. Single chain statistics and abundance of structural motifs, as well as consistency with experimentally reported struc-tural data, suggest faithful recapitulation of local interactions. We also introduce a protocol to generate functionally significant IDP-nucleic acid complex structures that corroborate well with the experimental knowledge of their binding. We find that RGG-box preferentially binds to the grooves and loops of GQs providing specificity towards certain GQ structures with its Phe, Tyr, and Asn residues forming essential hydrogen bonds and electrostatic interactions. Several of these residues were also identified as important by the reported HSQC chemical shift data. Our binding and simulations studies also revealed that a minor population of the RGG-box can destabilize telomeric GQs, thereby expediting the unfolding activities of hnRNPA1-UP1 at the telomeric end.",
+  "authors": [
+    "Balasubramanian S",
+    "Roy I",
+    "Appadurai R",
+    "Srivastava A"
+  ],
+  "published_date": "2023-08-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554222",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554222.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR704800",
+    "raw_record": {
+      "id": "PPR704800",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR704800"
+        ]
+      },
+      "doi": "10.1101/2023.08.21.554222",
+      "title": "hnRNPA1 RGG-box acts a ”catalyst” in UP1-induced destabilization of RNA and DNA telomeric G-Quadruplexes",
+      "authorString": "Balasubramanian S, Roy I, Appadurai R, Srivastava A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Balasubramanian S",
+            "lastName": "Balasubramanian",
+            "firstName": "Sangeetha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roy I",
+            "lastName": "Roy",
+            "firstName": "Irawati",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Appadurai R",
+            "lastName": "Appadurai",
+            "firstName": "Rajeswari",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5988-868X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , ,"
+                },
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srivastava A",
+            "lastName": "Srivastava",
+            "firstName": "Anand",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5988-868X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "hnRNPA1, a protein from the heterogeneous-nuclear ribonucleoprotein fam-ily, mediates cellular processes such as RNA metabolism and DNA telomere maintenance. Besides the folded RNA recognition motifs, hnRNPA1 has a ∼ 135 amino-acids long low-complexity domain (LCD) consisting of an RGG-rich region and a prion-like domain (PrLD). Biochemical data suggest that RGG-rich region modulates recognition of G-quadruplexes (GQs) in the telomeric repeats. Here, we utilize an in-house developed replica exchange technique (REHT) to generate the heterogeneous conformation ensemble of hnRNPA1-RGG and explore its functional significance in telomere maintenance. Single chain statistics and abundance of structural motifs, as well as consistency with experimentally reported struc-tural data, suggest faithful recapitulation of local interactions. We also introduce a protocol to generate functionally significant IDP-nucleic acid complex structures that corroborate well with the experimental knowledge of their binding. We find that RGG-box preferentially binds to the grooves and loops of GQs providing specificity towards certain GQ structures with its Phe, Tyr, and Asn residues forming essential hydrogen bonds and electrostatic interactions. Several of these residues were also identified as important by the reported HSQC chemical shift data. Our binding and simulations studies also revealed that a minor population of the RGG-box can destabilize telomeric GQs, thereby expediting the unfolding activities of hnRNPA1-UP1 at the telomeric end.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/22/2023.08.21.554222.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.21.554222"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR704800"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR704800&type=FILE&fileName=EMS186614-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186614",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-22",
+      "firstIndexDate": "2023-08-29",
+      "fullTextReceivedDate": "2024-08-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

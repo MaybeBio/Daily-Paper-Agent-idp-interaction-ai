@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2507.12312v2",
+  "title": "When $B_2$ is Not Enough: Evaluating Simple Metrics for Predicting Phase Separation of Intrinsically Disordered Proteins",
+  "doi": "",
+  "abstract": "Understanding and predicting the phase behavior of intrinsically disordered proteins (IDPs) is of significant interest due to their role in many biological processes. However, effectively characterizing phase behavior and its complex dependence on protein primary sequence remains challenging. In this study, we evaluate the efficacy of several simple computational metrics to quantify the propensity of single-component IDP solutions to phase separate; specific metrics considered include the single-chain radius of gyration, the second virial coefficient, and a newly proposed quantity termed the expenditure density. Each metric is computed using coarse-grained molecular dynamics simulations for 2,034 IDP sequences. Using machine learning, we analyze this data to understand how sequence features correlate with the predictive performance of each metric and to develop insight into their respective strengths and limitations. The expenditure density is determined to be a broadly useful metric that combines simplicity, low computational cost, and accuracy; it also provides a continuous measure that remains informative across both phase-separating and non-phase-separating sequences. Additionally, this metric shows promise in its ability to improve predictions of other properties for IDP systems. This work extends existing literature by advancing beyond binary classification, which can be useful for rapidly screening phase behavior or predicting other properties of IDP-related systems.",
+  "authors": [
+    "Wesley W. Oliver",
+    "William M. Jacobs",
+    "Michael A. Webb"
+  ],
+  "published_date": "2025-07-16T15:06:52Z",
+  "updated_date": "2025-07-17T01:21:50Z",
+  "journal": "",
+  "category": "cond-mat.soft, cond-mat.stat-mech, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2507.12312v2",
+  "pdf_url": "https://arxiv.org/pdf/2507.12312v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.stat-mech",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2507.12312v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.stat-mech",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

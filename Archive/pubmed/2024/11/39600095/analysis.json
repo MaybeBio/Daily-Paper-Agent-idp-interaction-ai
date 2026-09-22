@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39600095",
+  "title": "Charge of karyopherins and nuclear FG-Nups are key ingredients of nucleocytoplasmic transport.",
+  "authors": "Mishra, Ankur; Van der Giessen, Erik; Onck, Patrick R",
+  "journal": "Biophysical journal",
+  "published_date": "2024-11-27",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究核转运受体(Kap)与核孔内无序FG-Nups的相互作用机制，揭示电荷梯度驱动转运，属于IDR介导PPI的物理模拟机制建模，高度契合课题。",
+  "abstract": "The nuclear pore complex (NPC) is responsible for the selective transport of biomolecules in and out of the nucleus. This selective feature is achieved through intrinsically disordered proteins, FG-Nups, that are anchored to the inner wall of the NPC. Cargo smaller than approximately 5 nm can rapidly diffuse through the NPC whereas larger cargo is increasingly slowed down. Larger cargos bound to chaperone proteins (from the karyopherin or Kap family) can still be transported due to nonspecific interactions with the FG-Nups. Although various mechanisms for the transport of Kaps have been proposed, a consensus has still to be reached. Here, we conducted a coarse-grained molecular dynamics study to shed light on Kap translocation through NPCs. We investigated the effect of Kap surface charge and hydrophobicity on the transport rate. We found that the negative charge of the Kaps is essential for transport whereas Kap hydrophobicity of the transport particle aids in the translocation. Interestingly, our results indicate that the positive net charge of the nuclear Nups (especially Nup1) is instrumental for the transport of Kaps, revealing a (previously proposed) gradient of increasing binding affinity of the Kaps with FG-Nups from the cytoplasm to the nucleus.",
+  "abstract_zh": "核孔复合体（NPC）负责生物分子选择性进出细胞核的运输。这一选择性特征通过锚定在NPC内壁的内在无序蛋白FG-Nups实现。小于约5纳米的货物可快速扩散穿过NPC，而较大的货物则逐渐减速。与伴侣蛋白（来自karyopherin或Kap家族）结合的大型货物，仍可通过与FG-Nups的非特异性相互作用进行运输。尽管已提出多种关于Kaps运输的机制，但尚未达成共识。在此，我们进行了粗粒化分子动力学（molecular dynamics）研究，以阐明Kap通过NPC的转运机制。我们研究了Kap表面电荷和疏水性对运输速率的影响。我们发现，Kaps的负电荷对运输至关重要，而运输颗粒的Kap疏水性有助于转运。有趣的是，我们的结果表明，核内Nups（尤其是Nup1）的正净电荷对Kaps的运输起关键作用，揭示了（先前提出的）Kaps与FG-Nups结合亲和力从细胞质到细胞核逐渐增加的梯度。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39600095/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39600095/",
+  "paper_page_path": "papers/pubmed/39600095/index.html"
+}

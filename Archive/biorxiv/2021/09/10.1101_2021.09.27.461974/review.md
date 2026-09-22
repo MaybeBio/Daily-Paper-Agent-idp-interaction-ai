@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supporting information description) provided as plain text. No figures, tables, or supplementary files were available for inspection.
+- **Assessment boundary** Assessment is limited to the methodological description, simulation protocols, reported results, and claims as stated in the provided text. Numerical data presented in tables (Table 1, Table 2, Table S1) and figures (Figs. 1–4, S1–S2) could not be independently verified.
+- **Shared manuscript claim summary** The authors present PPI-GaMD, a new enhanced sampling method that selectively boosts the interaction potential energy between protein binding partners while applying a second boost to the remaining system potential energy. They demonstrate the method on the barnase–barstar model system, reporting repetitive binding/unbinding events in six independent 2 μs simulations, calculated binding free energies and kinetic rate constants consistent with experimental data, and identification of multiple binding pathways and key electrostatic interactions.
+- **Visible evidence base** Text descriptions of methods, simulation protocols, and results. References to figures and tables whose actual content was not provided.
+- **Missing materials affecting confidence** All figures (Figs. 1–4, S1–S2), all tables (Tables 1, 2, S1), the Supporting Information document, and the PyReweighting tool details. Without these, quantitative claims regarding free energies, rate constants, acceleration factors, and convergence cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a plausible and potentially useful extension of GaMD for protein–protein interactions. The core idea of selectively boosting the inter-protein interaction energy is well motivated by prior work, and the dual-boost scheme is a reasonable design choice. However, the provided text alone does not contain sufficient quantitative evidence to evaluate the central claims of accuracy and efficiency. The reported agreement with experimental binding free energies and rate constants cannot be verified without the actual numerical data and convergence analyses. The methodological novelty relative to existing approaches (e.g., aMD with selective boosting, Tempered Binding) is somewhat incremental, though the systematic application to both electrostatic and van der Waals interactions plus the dual-boost scheme may offer practical advantages. The manuscript is generally well written and accessible, but several technical details require clarification.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on enhanced sampling methods, particularly those interested in protein–protein interactions, binding free energy calculations, and kinetic rate estimation. Researchers studying the barnase–barstar system as a benchmark for new methods would also find this relevant. The method's potential ease of use and lack of predefined collective variables may appeal to a broader molecular dynamics community.
+- **Major strengths** The method addresses a real and important challenge: simulating repetitive protein association/dissociation for thermodynamics and kinetics. The selective boosting of interaction energy is a logical and potentially powerful idea, building on prior work. The choice of barnase–barstar as a well-characterized benchmark is appropriate. The dual-boost scheme is clearly described and distinguishes PPI-GaMD from prior approaches. The reported acceleration of dissociation by 11–13 orders of magnitude, if correct, is striking and would represent a significant advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that PPI-GaMD simulations "captured repetitive barstar dissociation and rebinding events" and that calculated binding free energies and kinetic rate constants "agree well with the experimental data."
+  - **Evidence pointer** Results sections "PPI-GaMD simulations significantly accelerated the barnase-barstar dissociation" and "Protein binding free energy calculated from PPI-GaMD simulations agreed with experimental data"; Tables 1 and 2; Figures 1 and S1.
+  - **Concern** The actual numerical results are not available in the provided text. The claims of agreement with experimental values for ΔG, k_on, and k_off cannot be evaluated without the data in Tables 1 and 2. Furthermore, the criteria for defining "bound" and "unbound" states, the number of events per simulation, and the statistical uncertainty of the reported averages are not described. The statement that dissociation was accelerated by "∼12 orders of magnitude" is based on a comparison with experimental residence time, but the simulation-derived residence time and its variability across the six simulations are not given.
+  - **Why it matters** The central claim of the manuscript is that PPI-GaMD enables simultaneous, accurate calculation of thermodynamics and kinetics. Without the actual numbers, error bars, and event counts, the reader cannot assess whether the method is indeed accurate or whether the observed agreement is fortuitous. The acceleration factor is a key selling point and must be substantiated with per-simulation data.
+  - **Resolution test** Provide the full contents of Tables 1 and 2, including per-simulation event counts, bound/unbound time averages, standard deviations, and the resulting ΔG, k_on, and k_off values with uncertainties. Show the distribution of events across simulations and demonstrate that the results are converged with respect to simulation length.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "PPI-GaMD boost potentials are applied systematically according to the GaMD formula, which ensure proper reweighting of the simulations to recover the original protein binding thermodynamics and kinetics."
+  - **Evidence pointer** Methods section "Protein-Protein Interaction-Gaussian accelerated Molecular Dynamics (PPI-GaMD)"; Results section on binding free energy calculation.
+  - **Concern** The reweighting procedure is described only in general terms. The manuscript mentions a "PyReweighting-3D.py" script and cumulant expansion to second order, but does not provide details on how the boost potential distribution was validated for the PPI-GaMD case, how the 3D PMF was constructed from the simulation data, or how the statistical error of the reweighted free energy was estimated. The cutoff for the number of simulation frames per bin (set to 500) and the minimum frame cutoff for 3D PMF are mentioned but not justified. The accuracy of cumulant expansion to second order is known to degrade for large boost potentials; the manuscript does not address whether this is a concern for the reported systems.
+  - **Why it matters** The reliability of the calculated binding free energies depends entirely on the validity of the reweighting. If the boost potential is too large or the sampling insufficient, the second-order cumulant expansion may introduce significant bias. The manuscript must demonstrate that the reweighted PMFs are converged and that the cumulant expansion is valid for the applied boost magnitudes.
+  - **Resolution test** Provide a detailed description of the reweighting protocol, including validation of the Gaussian distribution of the boost potential, convergence tests for the 3D PMF as a function of simulation length, and a comparison of reweighted vs. unrewighted PMFs. Show that the second-order cumulant expansion is sufficient, e.g., by comparing with higher-order expansions or independent free energy calculations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** The manuscript claims PPI-GaMD is a "new computational approach" and distinguishes it from prior methods, including aMD with selective boosting and Tempered Binding.
+  - **Evidence pointer** Methods section "Protein-Protein Interaction-Gaussian accelerated Molecular Dynamics (PPI-GaMD)"; Discussion section.
+  - **Concern** The novelty of PPI-GaMD relative to the previously published aMD approach by Paul et al. (ref 27) is not fully established. The key difference appears to be the inclusion of both electrostatic and van der Waals interactions in the boosted interaction energy, plus the dual-boost scheme. However, the manuscript does not provide a direct comparison of PPI-GaMD with these prior methods on the same system, nor does it quantify the improvement in sampling efficiency or accuracy. The statement that PPI-GaMD is "different" is made, but the practical advantage is not demonstrated.
+  - **Why it matters** For a methods paper, the incremental advance must be clearly quantified. Without a head-to-head comparison, it is unclear whether the added complexity of the dual-boost scheme yields meaningful benefits over simpler approaches.
+  - **Resolution test** Add a comparison of PPI-GaMD with standard GaMD, aMD with selective boosting, and/or Tempered Binding on the barnase–barstar system, showing metrics such as number of binding/unbinding events per microsecond, accuracy of ΔG and rate constants, and computational cost.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Kinetic rate calculation
+  - **Claim pointer** The manuscript claims that k_on and k_off were calculated from the simulation time series and agree with experimental values.
+  - **Evidence pointer** Methods section "Binding kinetics obtained from reweighting of PPI-GaMD Simulations"; Table 2.
+  - **Concern** The method for calculating k_on and k_off is described briefly. The manuscript states that time periods in bound and unbound states were recorded and averaged, and that Kramers' rate theory was used for reweighting. However, the details of how the bound and unbound states were defined (e.g., based on interface distance or RMSD cutoffs), how the transition times were identified, and how the concentration [L] was calculated are not provided. The manuscript also does not discuss potential artifacts from the finite simulation box or the definition of the unbound state in a periodic system.
+  - **Why it matters** Kinetic rate constants are highly sensitive to the definition of states and the treatment of transitions. Without a clear description, the reported values cannot be reproduced or assessed for reliability.
+  - **Resolution test** Provide a detailed description of the state definitions, transition detection, and concentration calculation. Show representative time series of the reaction coordinate with bound/unbound assignments. Discuss potential finite-size effects and how they were addressed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, simulation protocol
+  - **Evidence pointer** Methods section "Simulation Protocols"
+  - **Issue** The manuscript states that residues 40 and 82 in barstar were "computationally restored to cysteine as in the wild-type protein." It is unclear why this restoration was necessary and whether the crystal structure had mutations at these positions.
+  - **Required correction** Clarify the origin of the missing or mutated residues and justify the restoration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, PPI-GaMD parameters
+  - **Evidence pointer** Methods section "Protein-Protein Interaction-Gaussian accelerated Molecular Dynamics (PPI-GaMD)"
+  - **Issue** The manuscript mentions that the threshold energy E was set to the upper bound (E = V_min + 1/k) but does not define the parameter k in this context. The values of σ0P and σ0D are given, but the relationship between these and the boost magnitude is not explained.
+  - **Required correction** Define all parameters and provide the actual values used in the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, binding free energy
+  - **Evidence pointer** Results section "Protein binding free energy calculated from PPI-GaMD simulations agreed with experimental data"
+  - **Issue** The reported binding free energy is given as an average with standard deviation across six simulations. It is not stated whether the individual simulations were independent or whether the standard deviation reflects statistical uncertainty or system variability.
+  - **Required correction** Clarify the source of the standard deviation and report the standard error of the mean.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that PPI-GaMD "shall be of wide applicability" but does not discuss potential limitations, such as the choice of boost parameters, sensitivity to system size, or applicability to very large protein complexes.
+  - **Required correction** Add a paragraph on limitations and potential failure modes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative data for free energies and kinetics) and R1-M2 (insufficient reweighting validation) are blocking. Without these, the central claims of the manuscript cannot be evaluated. R1-M4 (kinetic rate calculation details) is also critical for reproducibility.
+- **Assessment against Nature-style criteria** Originality: Moderate. The selective boosting of interaction energy is a logical extension of prior work, but the concept is not entirely new. The dual-boost scheme is a useful variation. Scientific importance: Potentially high, as efficient simulation of protein–protein binding thermodynamics and kinetics is a significant challenge. However, the importance is not fully established without quantitative evidence of accuracy and efficiency gains over existing methods. Interdisciplinary readership: Moderate. The method will primarily interest computational biophysicists and chemists; the biological implications are limited to the barnase–barstar benchmark. Technical soundness: Cannot be fully assessed from the provided text. The methodological framework is plausible, but the reweighting and kinetic calculations require more detail and validation. Readability for nonspecialists: The manuscript is generally clear, but the methods section assumes familiarity with enhanced sampling techniques. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising methodological idea, but the absence of quantitative results and detailed validation in the provided text prevents assessment of the central claims. The authors should be invited to resubmit with full data, convergence analyses, and comparisons to prior methods.
+
+## Risk / unsupported claims
+- The claim that PPI-GaMD "enabled calculations of the protein binding thermodynamics and kinetics simultaneously" is unsupported without the actual numerical values and error estimates.
+- The claim of "∼12 orders of magnitude" acceleration of dissociation is unverifiable without per-simulation residence times and event counts.
+- The claim that "multiple binding pathways" were identified is not supported by the provided text, as the relevant figures (Figs. 2 and 3) were not available.
+- The claim that electrostatic interactions "played a key role" is plausible but not quantitatively demonstrated in the provided text.
+- The statement that PPI-GaMD is "highly efficient and easy-to-use" is an assertion without comparative benchmarking data.

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose that metal ions, specifically Cu(II), induce liquid-liquid phase separation (LLPS) of the SUMO protein through weak, non-specific intermolecular coordination that drives nanoscale clusterization as a nucleation step.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, control experiments, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis linking metal coordination to LLPS via nanoscale cluster formation. However, the evidence base is limited to a summary of findings without access to the underlying data, making it impossible to evaluate the robustness of the claims. The concept is interesting and potentially relevant to the field, but the current submission does not provide sufficient detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensation, phase separation mechanisms, metal ion biology, and protein self-assembly. The work could also appeal to those interested in the biophysical chemistry of weak protein interactions and nucleation phenomena.
+- **Major strengths** The study addresses a timely and important question regarding the molecular mechanisms of LLPS initiation. The use of a model protein (SUMO) and mass photometry to observe nanoscale clusterization is a potentially powerful approach. The link between metal binding affinity and condensation propensity provides a testable mechanistic framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that Cu(II) binding enables intermolecular bridging among SUMO molecules and that this drives LLPS.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that SUMO has two weak Cu(II)-binding sites and that these enable intermolecular bridging, but no quantitative binding data, stoichiometry measurements, or structural evidence are presented. The claim that clusterization is "dynamic" and occurs at "nanoscale" is not supported by any numerical or statistical detail.
+  - **Why it matters** Without quantitative binding affinities, site identification, or direct evidence of bridging versus independent binding, the proposed mechanism remains speculative. The distinction between non-specific surface binding and specific bridging is critical for the central claim.
+  - **Resolution test** Provide binding constants, site mapping (e.g., mutagenesis or structural data), and evidence that Cu(II) cross-links distinct SUMO molecules rather than merely decorating individual proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Control adequacy
+  - **Claim pointer** The abstract implies that Cu(II) specifically induces LLPS and that increasing Cu(II) binding affinity promotes condensation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No control experiments are described, such as testing other divalent metals, non-binding protein mutants, or conditions that disrupt coordination. The specificity of the Cu(II) effect is not established.
+  - **Why it matters** Without controls, the observed condensation could be due to non-specific ionic strength effects, protein aggregation, or other artifacts rather than metal coordination.
+  - **Resolution test** Include experiments with alternative metals, chelator competition, and mutants lacking the proposed binding sites to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** The abstract claims that nanoscale clusterization initiates LLPS, implying a causal sequence.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The temporal or kinetic relationship between cluster formation and macroscopic phase separation is not described. It is unclear whether clusters are on-pathway intermediates or merely byproducts of the condensation process.
+  - **Why it matters** The central mechanistic claim is that clusterization is a nucleation step. Without kinetic or time-resolved data, the causal ordering is not established.
+  - **Resolution test** Provide time-resolved measurements showing cluster formation precedes and correlates with LLPS onset, or use perturbation experiments that decouple the two processes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "non-specific intermolecular metal coordination" is ambiguous. It is unclear whether "non-specific" refers to low affinity, lack of a defined binding pocket, or promiscuity across multiple sites.
+  - **Required correction** Define "non-specific" operationally in the context of the binding measurements and structural data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Clusterization description
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "dynamic clusterization of SUMO at nanoscale" lacks quantitative context, such as cluster size distribution, concentration dependence, or timescale.
+  - **Required correction** Report specific size ranges, polydispersity, and the conditions under which clusters are observed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Model system relevance
+  - **Evidence pointer** Abstract text
+  - **Issue** The use of SUMO as a model protein is stated, but the relevance to physiological LLPS or metal-related disease contexts is not addressed.
+  - **Required correction** Briefly state why SUMO is a suitable model and whether the findings are expected to generalize to other proteins or cellular conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or control data to support the central mechanistic claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of metal-induced clusterization as a nucleation step for LLPS is moderately original, though metal-induced LLPS has been reported previously. The specific use of SUMO and mass photometry adds novelty.
+  - Scientific importance: The work addresses a fundamental question in LLPS biology, but the significance is not fully demonstrated from the abstract alone. The broader implications for cellular regulation or disease are not articulated.
+  - Interdisciplinary readership: The topic bridges coordination chemistry, biophysics, and cell biology, which could attract a broad audience if the evidence is compelling.
+  - Technical soundness: Cannot be assessed from the abstract. The methods are mentioned but not described in sufficient detail to evaluate rigor.
+  - Readability for nonspecialists: The abstract is concise and generally accessible, though terms like "mass photometry" and "clusterization" may require definition for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting, but the abstract alone does not provide enough data to support the mechanistic claims. A full manuscript with quantitative binding data, controls, and kinetic analyses would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that SUMO possesses two weak Cu(II)-binding sites is unsupported without binding data or structural evidence.
+- The claim that Cu(II) enables intermolecular bridging is unsupported without direct evidence of cross-linking.
+- The claim that nanoscale clusterization initiates LLPS is unsupported without kinetic or temporal data.
+- The claim that increasing Cu(II) binding affinity promotes condensation is unsupported without quantitative comparison of variants.
+- The specificity of Cu(II) versus other metals is not established.
+- The physiological relevance of the findings is not addressed.

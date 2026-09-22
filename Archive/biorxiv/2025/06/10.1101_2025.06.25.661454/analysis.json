@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.25.661454",
+  "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
+  "authors": "Sen S; Hoff SE; Morozova TI; Schnapka V; Bonomi M",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出bAIes方法，通过贝叶斯推断结合物理力场与AlphaFold模型优化蛋白结构用于虚拟筛选，虽非IDP对象且聚焦小分子药物，但其结构精修与结合判别思路对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "Virtual screening has become an indispensable tool in modern structure-based drug discovery, enabling the identification of candidate molecules by computationally evaluating their potential to bind target proteins. The accuracy of such screenings critically depends on the quality of the target structures employed. Recent advances in protein structure prediction, particularly AlphaFold2, have revolutionized this field with unprecedented accuracy. However, AlphaFold2 models often exhibit limitations in local structural details, especially within binding pockets, which limit their utility for small molecule docking. In contrast, molecular dynamics simulations with accurate atomistic force fields can refine protein structures, but lack the ability to leverage the structural information provided by deep learning approaches. Here, we introduce bAIes, an integrative method that bridges this gap by combining physics-based force fields with data-driven predictions through Bayesian inference. Crucially, bAIes demonstrates a superior ability to discriminate between binders and non-binders in virtual screening campaigns, outperforming both AlphaFold2 and molecular dynamics-refined models. By enhancing the usability of AlphaFold2 models without requiring extensive experimental or computational resources, bAIes offers a convenient solution to a longstanding challenge in structure-based drug design, potentially accelerating the early phases of drug discovery.",
+  "abstract_zh": "虚拟筛选已成为现代基于结构的药物发现中不可或缺的工具，通过计算评估候选分子与靶蛋白结合潜力来识别候选分子。此类筛选的准确性关键取决于所用靶标结构的质量。蛋白质结构预测的最新进展，尤其是AlphaFold2，以前所未有的准确性彻底改变了这一领域。然而，AlphaFold2模型在局部结构细节上常表现出局限性，尤其是在结合口袋区域，这限制了其在小分子对接中的应用。相比之下，具有精确原子力场的分子动力学模拟能够细化蛋白质结构，但缺乏利用深度学习方法提供的结构信息的能力。在此，我们引入bAIes，一种通过贝叶斯推断结合基于物理的力场与数据驱动预测的整合方法，弥合了这一差距。关键的是，bAIes在虚拟筛选活动中展现出区分结合物与非结合物的卓越能力，优于AlphaFold2和分子动力学细化模型。通过在不需大量实验或计算资源的情况下增强AlphaFold2模型的可用性，bAIes为基于结构的药物设计中的长期挑战提供了便捷解决方案，有望加速药物发现的早期阶段。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661454",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661454",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.25.661454/index.html"
+}

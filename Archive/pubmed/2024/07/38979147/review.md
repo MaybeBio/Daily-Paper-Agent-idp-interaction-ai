@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce ICoN, a deep learning model trained on MD simulation data, to sample conformational ensembles of highly dynamic proteins. They apply it to Aβ42, report novel synthetic conformations not present in training data, and validate these via EPR and amino acid substitution experiments. They claim the method is transferable to any available training data.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental validation data are visible
+- **Missing materials affecting confidence** Full methods, model architecture and training details, MD simulation parameters, validation datasets, EPR and mutagenesis experimental protocols and results, comparison to existing sampling methods, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of generative deep learning to conformational sampling of IDPs, with Aβ42 as a test case. However, the claims of novelty, comprehensive sampling, and experimental validation cannot be assessed from the abstract alone. The central assertion that the model generates conformations "not included in the training data" is plausible but unverifiable without details on training set construction and out-of-distribution analysis. The work may be of interest to computational biophysicists and structural biologists, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein dynamics and conformational ensembles; researchers working on intrinsically disordered proteins, particularly amyloidogenic systems; deep learning practitioners interested in generative models for molecular conformations; experimentalists studying Aβ aggregation who could benefit from atomistic models of transient states.
+- **Major strengths** The problem addressed is important, as conformational ensembles of IDPs are difficult to access experimentally and computationally. The idea of learning physical principles from MD data and interpolating in latent space is conceptually appealing. The use of Aβ42, a biologically relevant and challenging system, gives the work potential translational relevance. The claim of transferability, if substantiated, would broaden applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "learns the physical principles of conformational changes from Molecular Dynamics simulation data" and provides "comprehensive sampling of Aβ42's conformational landscape."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the MD simulation data used for training, including force field, simulation length, system size, or conformational diversity. Without this, the claim that the model learns "physical principles" is unsupported. "Comprehensive sampling" is a strong claim that requires quantitative comparison to reference ensembles, such as convergence metrics or overlap with long-timescale simulations.
+  - **Why it matters** If the training data are limited or biased, the model may simply interpolate within a narrow region of conformational space, and the generated ensemble would not be comprehensive. The scientific value of the method depends on its ability to generalize beyond the training distribution.
+  - **Resolution test** Provide details of the MD training set, including simulation length and conformational diversity metrics. Compare the generated ensemble to an independent long-timescale MD simulation or experimental ensemble restraints, reporting quantitative overlap measures such as Jensen-Shannon divergence or RMSD distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for claims
+  - **Claim pointer** "The method can identify novel conformations with important interactions in atomistic details that are not included in the training data."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of generating conformations "not included in the training data" is central to the paper's novelty, but the abstract provides no evidence for this. There is no description of how "novel" is defined, how out-of-distribution conformations were detected, or what fraction of generated conformations were novel. The EPR and amino acid substitution studies are mentioned but no results are given.
+  - **Why it matters** If the generated conformations are simply recombinations of training data, the method offers limited advantage over direct MD sampling. The experimental validation is the key evidence that the novel conformations are physically meaningful, but without data, this cannot be evaluated.
+  - **Resolution test** Define a quantitative criterion for novelty, such as distance in conformational space from the training set. Report the fraction of generated conformations meeting this criterion. Provide EPR and mutagenesis data showing that predicted novel conformations are consistent with experimental measurements, with statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "This approach is highly transferable and can be used for any available data for training."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The transferability claim is made without demonstration on any system other than Aβ42. No information is given on hyperparameter sensitivity, training data requirements, or failure modes. The abstract does not describe how the method would perform on proteins with different dynamics, such as folded proteins with discrete conformational states or larger IDPs.
+  - **Why it matters** Transferability is a strong claim that requires demonstration across multiple systems. If the method requires extensive tuning or large MD datasets, its practical utility is limited.
+  - **Resolution test** Apply the method to at least one additional protein system with known conformational ensemble, compare to reference data, and report performance metrics. Discuss limitations and data requirements for transfer.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "learns the physical principles of conformational changes" is vague and could be interpreted as the model learning explicit physical laws, which is unlikely. The model likely learns statistical patterns from MD data.
+  - **Required correction** Rephrase to "learns statistical patterns of conformational changes from MD simulation data" or similar, to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "conformational clusters that can be used to rationalize experimental findings" but does not specify which experimental findings or how the clusters relate to them.
+  - **Required correction** Provide a specific example of an experimental finding and how the identified clusters explain it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** "Interpolating data points in the learned latent space" is used, but the distinction between interpolation and extrapolation in latent space is not clarified. If the method only interpolates, it may not generate truly novel states.
+  - **Required correction** Clarify whether the method can extrapolate beyond the training distribution and, if so, how this is achieved.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish that the method generates novel, physically meaningful conformations beyond the training data, nor that the sampling is comprehensive. Experimental validation is mentioned but not shown.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using generative deep learning for conformational sampling of IDPs is not entirely new, but the specific approach of latent space interpolation for Aβ42 may offer a novel angle. However, originality cannot be fully assessed without comparison to prior work.
+  - Scientific importance: The problem of sampling IDP conformational ensembles is important, and a reliable generative method would be valuable. The potential to rationalize experimental data on Aβ42 adds significance.
+  - Interdisciplinary readership: The work bridges deep learning, molecular simulation, and structural biology, which could appeal to a broad readership if the methods and results are clearly presented.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and quantitative results is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably accessible, but terms like "Internal Coordinate Net" and "latent space" may require some background. The abstract could benefit from a clearer explanation of the method's innovation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the central claims of novelty, comprehensive sampling, and experimental validation require full manuscript evaluation. Supportive if technical concerns are resolved with detailed methods, quantitative results, and validation data.
+
+## Risk / unsupported claims
+- The claim that ICoN "learns the physical principles of conformational changes" is unsupported without details on the training data and model interpretation.
+- The claim of "comprehensive sampling" of Aβ42's conformational landscape is unsupported without quantitative comparison to reference ensembles.
+- The claim of generating "novel conformations... not included in the training data" is unverifiable without a definition of novelty and out-of-distribution analysis.
+- The claim that the method is "highly transferable" is unsupported without demonstration on multiple systems.
+- The statement that "new synthetic conformations showed distinct sidechain rearrangements that are probed by our EPR and amino acid substitution studies" is unverifiable without experimental data.

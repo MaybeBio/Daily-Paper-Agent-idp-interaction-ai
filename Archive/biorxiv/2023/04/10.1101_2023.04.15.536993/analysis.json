@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.15.536993",
+  "title": "Rapid protein-protein interaction network creation from multiple sequence alignments with Deep Learning",
+  "authors": "Patrick Bryant; Frank Noé",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-17",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习加速AlphaFold2进行蛋白-蛋白互作网络预测，虽非无序蛋白对象，但PPI预测与AI方法可迁移至IDR互作机制建模。",
+  "abstract": "AlphaFold2 (AF) can evaluate protein-protein interactions (PPIs) with high accuracy by finding evolutionary signals between proteins but comes with a high computational cost. Here, we speed up the prediction with AF for PPI network prediction 40x and reduce the disk space requirements 4000x for a set of 1000 proteins. Our protocol is easy to install and freely available from: https://github.com/patrickbryant1/SpeedPPI .",
+  "abstract_zh": "AlphaFold2 (AF) 通过寻找蛋白质之间的进化信号，能够高精度地评估蛋白质-蛋白质相互作用 (protein-protein interactions, PPIs)，但计算成本高昂。在此，我们加速了AF在PPI网络预测中的使用，将预测速度提升40倍，并将1000个蛋白质集合所需的磁盘空间减少4000倍。我们的方案易于安装，并可从以下网址免费获取：https://github.com/patrickbryant1/SpeedPPI 。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.15.536993",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.15.536993",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.15.536993/index.html"
+}

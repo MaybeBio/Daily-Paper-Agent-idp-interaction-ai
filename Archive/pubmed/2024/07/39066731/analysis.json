@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39066731",
+  "title": "Minimal Peptide Sequences That Undergo Liquid-Liquid Phase Separation via Self-Coacervation or Complex Coacervation with ATP.",
+  "authors": "Castelletto, Valeria; Seitsonen, Jani; Pollitt, Alice; Hamley, Ian W",
+  "journal": "Biomacromolecules",
+  "published_date": "2024-07-28",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过实验与原子级分子动力学模拟，揭示最小色氨酸/精氨酸肽段经自凝聚或与ATP复合凝聚发生液-液相分离的机制，聚焦阳离子-π和π-π堆积互作，为无序肽介导的凝聚体PPI机制建模提供极简模型与可迁移方法。",
+  "abstract": "The simple (self-)coacervation of the minimal tryptophan/arginine peptide sequences W(2)R(2) and W(3)R(3) was observed in salt-free aqueous solution. The phase diagrams were mapped using turbidimetry and optical microscopy, and the coacervate droplets were imaged using confocal microscopy complemented by cryo-TEM to image smaller droplets. The droplet size distribution and stability were probed using dynamic light scattering, and the droplet surface potential was obtained from zeta potential measurements. SAXS was used to elucidate the structure within the coacervate droplets, and circular dichroism spectroscopy was used to probe the conformation of the peptides, a characteristic signature for cation-pi interactions being present under conditions of coacervation. These observations were rationalized using a simple model for the Rayleigh stability of charged coacervate droplets, along with atomistic molecular dynamics simulations which provide insight into stabilizing pi-pi stacking interactions of tryptophan as well as arginine-tryptophan cation-pi interactions (which modulate the charge of the tryptophan pi-electron system). Remarkably, the dipeptide WR did not show simple coacervation under the conditions examined, but complex coacervation was observed in mixtures with ATP (adenosine triphosphate). The electrostatically stabilized coacervation in this case provides a minimal model for peptide/nucleotide membraneless organelle formation. These are among the simplest model peptide systems observed to date able to undergo either simple or complex coacervation and are of future interest as protocell systems.",
+  "abstract_zh": "在无盐水溶液中，观察到了最小色氨酸/精氨酸肽序列W(2)R(2)和W(3)R(3)的简单（自）凝聚现象。通过浊度法和光学显微镜绘制了相图，并使用共聚焦显微镜对凝聚液滴进行成像，辅以冷冻透射电子显微镜（cryo-TEM）以观察更小的液滴。利用动态光散射探测了液滴的尺寸分布和稳定性，并通过Zeta电位测量获得了液滴表面电位。采用小角X射线散射（SAXS）阐明了凝聚液滴内部的结构，同时使用圆二色光谱探测了肽的构象，在凝聚条件下存在阳离子-π相互作用的特征信号。这些观察结果通过一个简单的带电凝聚液滴瑞利稳定性模型以及原子级分子动力学模拟得到了合理解释，模拟揭示了色氨酸的π-π堆积相互作用以及精氨酸-色氨酸阳离子-π相互作用（调节色氨酸π电子系统的电荷）的稳定作用。值得注意的是，二肽WR在所考察条件下未表现出简单凝聚，但在与ATP（三磷酸腺苷）的混合物中观察到了复杂凝聚。此案例中静电稳定的凝聚为肽/核苷酸无膜细胞器形成提供了一个最小模型。这些是目前观察到的最简单的模型肽系统之一，能够进行简单或复杂凝聚，并作为原始细胞系统具有未来研究价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39066731/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39066731/",
+  "paper_page_path": "papers/pubmed/39066731/index.html"
+}

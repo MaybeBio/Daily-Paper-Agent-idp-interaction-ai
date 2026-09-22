@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.18.599470",
+  "title": "ER-phagy Receptor’s Intrinsically Disordered Modules Drive ER Fragmentation and ER-phagy",
+  "authors": "Rudinskiy M; Galli C; Raimondi A; Molinari M",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-18",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文揭示ER-phagy受体的胞质无序IDR模块驱动内质网碎片化，而非膜结构域，为无序蛋白介导的膜重塑与互作机制提供了新模型，与IDR介导PPI及机制建模高度相关。",
+  "abstract": "Membrane remodeling leading to fragmentation is crucial for autophagy programs that control capture by phagophores or endolysosomes of portions of organelles to be removed from cells. It is driven by membrane-bound autophagy receptors that display cytoplasmic intrinsically disordered modules (IDRs) engaging Atg8/LC3/GABARAP (LC3). Studies on endoplasmic reticulum (ER)-phagy receptors of the FAM134 family revealed the importance of sequential FAM134 proteins phosphorylation, ubiquitylation and clustering for execution of the ER-phagy programs. In this model, ER fragmentation is promoted/facilitated by the membrane-remodeling function of FAM134 reticulon homology domains (RHDs). However, RHDs are not conserved in ER-phagy receptors. The question that we tackle in this work is if activation of ER-phagy receptors anchored at the ER membrane with conventional membrane spanning domains, i.e., most of the ER-phagy receptors known to date, eventually trigger ER remodeling and fragmentation, and how. Here, we show that the membrane-tethering modules of ER-phagy receptors (RHDs for FAM134B, single/multi spanning transmembrane domains for TEX264 and SEC62) determine the sub-compartmental distribution of the receptors but are dispensable for ER fragmentation, regardless of their propensity to remodel the ER membrane. Rather, ER fragmentation is promoted by the ER-phagy receptors intrinsically disordered region (IDR) modules that are a conserved feature of all ER-phagy receptors exposed at the cytoplasmic face of the ER membrane. Since cytoplasmic IDRs with net negative charge are conserved in autophagy receptors at the limiting membrane of other organelles, we anticipate that conserved mechanisms of organelle fragmentaVon driven by cytoplasmic exposed IDRs could operate in eukaryoVc cells.",
+  "abstract_zh": "膜重塑导致碎片化对于自噬程序至关重要，这些程序控制吞噬泡或内溶酶体对细胞中待移除细胞器部分的捕获。这一过程由膜结合的自噬受体驱动，这些受体展示出细胞质内在无序模块（IDRs），与Atg8/LC3/GABARAP（LC3）结合。对内质网（ER）自噬受体FAM134家族的研究揭示了FAM134蛋白的顺序磷酸化、泛素化和聚集对于执行内质网自噬程序的重要性。在该模型中，内质网碎片化由FAM134网状蛋白同源结构域（RHDs）的膜重塑功能促进/辅助。然而，RHDs在内质网自噬受体中并不保守。本研究探讨的问题是，锚定于内质网膜上具有常规跨膜结构域的内质网自噬受体（即迄今已知的大多数内质网自噬受体）的激活是否最终触发内质网重塑和碎片化，以及如何触发。在此，我们表明内质网自噬受体的膜锚定模块（FAM134B的RHDs，TEX264和SEC62的单/多跨膜结构域）决定受体的亚区室分布，但对于内质网碎片化并非必需，无论它们重塑内质网膜的倾向如何。相反，内质网碎片化由内质网自噬受体的内在无序区（IDR）模块促进，这些模块是所有内质网自噬受体暴露于内质网膜细胞质面的保守特征。由于带有净负电荷的细胞质IDRs在其他细胞器限制膜上的自噬受体中保守，我们预期由细胞质暴露的IDRs驱动的保守细胞器碎片化机制可能在真核细胞中运作。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599470",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599470",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.18.599470/index.html"
+}

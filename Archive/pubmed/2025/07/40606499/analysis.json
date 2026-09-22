@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40606499",
+  "title": "Advancing 1.5T MR imaging: toward achieving 3T quality through deep learning super-resolution techniques.",
+  "authors": "Jannat, Sk Rahatul; Lynch, Kirsten; Fotouhi, Maryam; Cen, Steve; Choupan, Jeiran; Sheikh-Bahaei, Nasim; Pandey, Gaurav; Varghese, Bino A",
+  "journal": "Frontiers in human neuroscience",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究用深度学习超分辨率技术提升1.5T MRI图像质量至3T水平，对象为医学影像而非无序蛋白/IDR，且不涉及蛋白互作或相分离，与本课题无关。",
+  "abstract": "INTRODUCTION: A 3T MRI scanner delivers enhanced image quality and SNR, minimizing artifacts to provide superior high-resolution brain images compared to a 1.5T MRI. Thus, making it vitally important for diagnosing complex neurological conditions. However, its higher cost of acquisition and operation, increased sensitivity to image distortions, greater noise levels, and limited accessibility in many healthcare settings present notable challenges. These factors impact heterogeneity in MRI neuroimaging data on account of the uneven distribution of 1.5T and 3T MRI scanners across healthcare institutions. METHODS: In our study, we investigated the efficacy of three deep learning-based super-resolution techniques to enhance 1.5T MRI images, aiming to achieve quality analogous to 3T scans. These synthetic and \"upgraded\" 1.5T images were compared and assessed against their 3T counterparts using a range of image quality assessment metrics. Specifically, we employed metrics such as the Structural Similarity Index Measure (SSIM), Peak Signal-to-Noise Ratio (PSNR), Learned Perceptual Image Patch Similarity (LPIPS), and Intensity Differences in Pixels (IDP) to evaluate the similitude and visual quality of the enhanced images. RESULTS: According to our experimental results it has been exhibited that among the three evaluated deep learning-based super-resolution techniques, the Transformer Enhanced Generative Adversarial Network (TCGAN) significantly outperformed the others. To reduce pixel differences, enhance image sharpness, and preserve essential anatomical details TCGAN performed efficaciously. DISCUSSION: This approach presents TCGAN offers a cost-effective and widely accessible alternative for generating high-quality images without the need for expensive, high-field MRI scans and leads to inconsistencies and complicate data comparison and harmonization challenges across studies utilizing various scanners.",
+  "abstract_zh": "引言：与1.5T MRI相比，3T MRI扫描仪可提供更优的图像质量和信噪比（SNR），最大限度地减少伪影，从而获得更高质量的高分辨率脑部图像。因此，它对诊断复杂的神经系统疾病至关重要。然而，其购置和运行成本较高、对图像畸变的敏感性增加、噪声水平更高，以及在许多医疗机构中可及性有限，这些因素构成了显著挑战。这些因素因1.5T和3T MRI扫描仪在医疗机构中的分布不均，导致MRI神经影像数据存在异质性。方法：在本研究中，我们考察了三种基于深度学习的超分辨率技术在增强1.5T MRI图像方面的有效性，旨在达到与3T扫描相当的质量。这些合成且“升级”的1.5T图像与对应的3T图像通过一系列图像质量评估指标进行比较和评估。具体而言，我们采用了结构相似性指数（SSIM）、峰值信噪比（PSNR）、学习感知图像块相似性（LPIPS）和像素强度差异（IDP）等指标，以评估增强图像的相似性和视觉质量。结果：根据我们的实验结果，在三种评估的基于深度学习的超分辨率技术中，Transformer增强生成对抗网络（TCGAN）显著优于其他方法。TCGAN在减少像素差异、增强图像清晰度和保留关键解剖细节方面表现出高效性。讨论：该方法表明，TCGAN提供了一种成本效益高且广泛可及的替代方案，无需昂贵的高场MRI扫描即可生成高质量图像，并有助于减少因使用不同扫描仪的研究间数据不一致性，简化数据比较和协调挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40606499/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40606499/",
+  "paper_page_path": "papers/pubmed/40606499/index.html"
+}

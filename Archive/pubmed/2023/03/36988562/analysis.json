@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36988562",
+  "title": "Structure Determination of Challenging Protein-Peptide Complexes Combining NMR Chemical Shift Data and Molecular Dynamics Simulations.",
+  "authors": "Mondal, Arup; Swapna, G V T; Lopez, Maria M; Klang, Laura; Hao, Jingzhou; Ma, LiChung; Roth, Monica J; Montelione, Gaetano T; Perez, Alberto",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合NMR化学位移与MELD分子模拟，针对无序蛋白肽段折叠结合复合物进行结构测定与亲和力估计，直接命中IDR介导PPI的机制建模，且与AlphaFold对比，方法高度相关。",
+  "abstract": "Intrinsically disordered regions of proteins often mediate important protein-protein interactions. However, the folding-upon-binding nature of many polypeptide-protein interactions limits the ability of modeling tools to predict the three-dimensional structures of such complexes. To address this problem, we have taken a tandem approach combining NMR chemical shift data and molecular simulations to determine the structures of peptide-protein complexes. Here, we use the MELD (Modeling Employing Limited Data) technique applied to polypeptide complexes formed with the extraterminal domain (ET) of bromo and extraterminal domain (BET) proteins, which exhibit a high degree of binding plasticity. This system is particularly challenging as the binding process includes allosteric changes across the ET receptor upon binding, and the polypeptide binding partners can adopt different conformations (e.g., helices and hairpins) in the complex. In a blind study, the new approach successfully modeled bound-state conformations and binding poses, using only protein receptor backbone chemical shift data, in excellent agreement with experimentally determined structures for moderately tight (K(d)  approximately 100 nM) binders. The hybrid MELD + NMR approach required additional peptide ligand chemical shift data for weaker (K(d)  approximately 250 muM) peptide binding partners. AlphaFold also successfully predicts the structures of some of these peptide-protein complexes. However, whereas AlphaFold can provide qualitative peptide rankings, MELD can directly estimate relative binding affinities. The hybrid MELD + NMR approach offers a powerful new tool for structural analysis of protein-polypeptide complexes involving disorder-to-order transitions upon complex formation, which are not successfully modeled with most other complex prediction methods, providing both the 3D structures of peptide-protein complexes and their relative binding affinities.",
+  "abstract_zh": "蛋白质的固有无序区域常常介导重要的蛋白质-蛋白质相互作用。然而，许多多肽-蛋白质相互作用的“结合后折叠”特性限制了建模工具预测此类复合物三维结构的能力。为解决这一问题，我们采取了一种串联方法，结合NMR化学位移数据和分子模拟来确定肽-蛋白质复合物的结构。在此，我们应用MELD（利用有限数据建模）技术于与溴结构域和末端外结构域（BET）蛋白的末端外结构域（ET）形成的多肽复合物，这些复合物表现出高度的结合可塑性。该系统特别具有挑战性，因为结合过程包括ET受体在结合时的变构变化，且多肽结合伙伴在复合物中可采取不同构象（如螺旋和发夹结构）。在一项盲测研究中，新方法仅利用蛋白质受体骨架化学位移数据，成功建模了结合态构象和结合姿态，与实验确定的适度紧密（K(d) 约100 nM）结合物的结构高度一致。对于较弱（K(d) 约250 μM）的肽配体结合伙伴，混合MELD + NMR方法需要额外的肽配体化学位移数据。AlphaFold也能成功预测其中一些肽-蛋白质复合物的结构。然而，尽管AlphaFold能提供定性的肽排名，MELD能直接估计相对结合亲和力。混合MELD + NMR方法为涉及复合物形成时无序到有序转变的蛋白质-多肽复合物的结构分析提供了强大的新工具，这些复合物大多数其他复合物预测方法无法成功建模，同时提供肽-蛋白质复合物的三维结构及其相对结合亲和力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36988562/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36988562/",
+  "paper_page_path": "papers/pubmed/36988562/index.html"
+}

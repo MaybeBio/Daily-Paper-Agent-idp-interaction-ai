@@ -1,0 +1,353 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.27.497749",
+  "title": "The RNA demethylase FTO controls m 6 A marking on SARS-CoV-2 and classifies COVID-19 severity in patients",
+  "doi": "10.1101/2022.06.27.497749",
+  "abstract": "The RNA modification N 6 -methyladenosine (m 6 A) plays a key role in the life cycles of several RNA viruses. Whether this applies to SARS-CoV-2 and whether m 6 A affects the outcome of COVID-19 disease is still poorly explored. Here we report that the RNA demethylase FTO strongly affects both m 6 A marking of SARS-CoV-2 and COVID-19 severity. By m 6 A profiling of SARS-CoV-2, we confirmed in infected cultured cells and showed for the first time in vivo in hamsters that the regions encoding TRS_L and the nucleocapsid protein are multiply marked by m 6 A, preferentially within RRACH motifs that are specific to β-coronaviruses and well conserved across SARS-CoV-2 variants. In cells, downregulation of the m 6 A demethylase FTO, occurring upon SARS-CoV-2 infection, increased m 6 A marking of SARS-CoV-2 RNA and slightly promoted viral replication. In COVID-19 patients, a negative correlation was found between FTO expression and both SARS-CoV-2 expression and disease severity. FTO emerged as a classifier of disease severity and hence a potential stratifier of COVID-19 patients.",
+  "authors": [
+    "Malbec L",
+    "Celerier M",
+    "Bizet M",
+    "Calonne E",
+    "Hofmann-Winkler H",
+    "Boeckx B",
+    "Abdelnabi R",
+    "Putmans P",
+    "Hassabi B",
+    "Naesens L",
+    "Lambrechts D",
+    "Pöhlmann S",
+    "Deplus R",
+    "Delang L",
+    "Jeschke J",
+    "Fuks F"
+  ],
+  "published_date": "2022-06-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497749",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497749.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR510817",
+    "raw_record": {
+      "id": "PPR510817",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR510817"
+        ]
+      },
+      "doi": "10.1101/2022.06.27.497749",
+      "title": "The RNA demethylase FTO controls m  <sup>6</sup>  A marking on SARS-CoV-2 and classifies COVID-19 severity in patients",
+      "authorString": "Malbec L, Celerier M, Bizet M, Calonne E, Hofmann-Winkler H, Boeckx B, Abdelnabi R, Putmans P, Hassabi B, Naesens L, Lambrechts D, Pöhlmann S, Deplus R, Delang L, Jeschke J, Fuks F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Malbec L",
+            "lastName": "Malbec",
+            "firstName": "Lionel",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5747-5240"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Celerier M",
+            "lastName": "Celerier",
+            "firstName": "Margot",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bizet M",
+            "lastName": "Bizet",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calonne E",
+            "lastName": "Calonne",
+            "firstName": "Emilie",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hofmann-Winkler H",
+            "lastName": "Hofmann-Winkler",
+            "firstName": "Heike",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Infection Biology Unit, German Primate Center, Leibniz Institute for Primate Research, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boeckx B",
+            "lastName": "Boeckx",
+            "firstName": "Bram",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VIB Center for Cancer Biology, VIB, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abdelnabi R",
+            "lastName": "Abdelnabi",
+            "firstName": "Rana",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Virology and Chemotherapy, Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven (KUL), Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Putmans P",
+            "lastName": "Putmans",
+            "firstName": "Pascale",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hassabi B",
+            "lastName": "Hassabi",
+            "firstName": "Bouchra",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Naesens L",
+            "lastName": "Naesens",
+            "firstName": "Lieve",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Virology and Chemotherapy, Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven (KUL), Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lambrechts D",
+            "lastName": "Lambrechts",
+            "firstName": "Diether",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VIB Center for Cancer Biology, VIB, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pöhlmann S",
+            "lastName": "Pöhlmann",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology and Psychology, University Göttingen, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deplus R",
+            "lastName": "Deplus",
+            "firstName": "Rachel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delang L",
+            "lastName": "Delang",
+            "firstName": "Leen",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Virology and Chemotherapy, Department of Microbiology, Immunology and Transplantation, Rega Institute for Medical Research, Katholieke Universiteit Leuven (KUL), Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jeschke J",
+            "lastName": "Jeschke",
+            "firstName": "Jana",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cancer Epigenetics, Faculty of Medicine, ULB-Cancer Research Center (U-CRC), Université libre de Bruxelles (ULB), Institut Jules Bordet, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fuks F",
+            "lastName": "Fuks",
+            "firstName": "François",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "WELBIO, Université Libre de Bruxelles (ULB), Brussels, Belgium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5747-5240"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The RNA modification  N 6 -methyladenosine (m  6 A) plays a key role in the life cycles of several RNA viruses. Whether this applies to SARS-CoV-2 and whether m  6 A affects the outcome of COVID-19 disease is still poorly explored. Here we report that the RNA demethylase FTO strongly affects both m  6 A marking of SARS-CoV-2 and COVID-19 severity. By m  6 A profiling of SARS-CoV-2, we confirmed in infected cultured cells and showed for the first time  in vivo in hamsters that the regions encoding TRS_L and the nucleocapsid protein are multiply marked by m  6 A, preferentially within RRACH motifs that are specific to β-coronaviruses and well conserved across SARS-CoV-2 variants. In cells, downregulation of the m  6 A demethylase FTO, occurring upon SARS-CoV-2 infection, increased m  6 A marking of SARS-CoV-2 RNA and slightly promoted viral replication. In COVID-19 patients, a negative correlation was found between  FTO expression and both SARS-CoV-2 expression and disease severity. FTO emerged as a classifier of disease severity and hence a potential stratifier of COVID-19 patients.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/28/2022.06.27.497749.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.27.497749"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR510817"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR510817&type=FILE&fileName=EMS147013-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS147013",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gisaid",
+          "refseq"
+        ]
+      },
+      "dateOfCreation": "2022-06-29",
+      "firstPublicationDate": "2022-06-28",
+      "firstIndexDate": "2022-06-29",
+      "fullTextReceivedDate": "2022-07-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

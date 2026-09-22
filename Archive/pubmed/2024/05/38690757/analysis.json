@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38690757",
+  "title": "Lipidation alters the phase-separation of resilin-like polypeptides.",
+  "authors": "Zhang, Zhe; Ji, Jingjing; Hossain, Md Shahadat; Bailey, Briah; Nangia, Shikha; Mozhdehi, Davoud",
+  "journal": "Soft matter",
+  "published_date": "2024-05-01",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究脂化修饰对类弹性蛋白无序多肽相分离的调控，结合实验与分子模拟揭示脂质-位点序列协同机制，虽非直接PPI但聚焦IDP相分离机制建模，方法可迁移。",
+  "abstract": "Biology exploits biomacromolecular phase separation to form condensates, known as membraneless organelles. Despite significant advancements in deciphering sequence determinants for phase separation, modulating these features in vivo remains challenging. A promising approach inspired by biology is to use post-translational modifications (PTMs)-to modulate the amino acid physicochemistry instead of altering protein sequences-to control the formation and characteristics of condensates. However, despite the identification of more than 300 types of PTMs, the detailed understanding of how they influence the formation and material properties of protein condensates remains incomplete. In this study, we investigated how modification with myristoyl lipid alters the formation and characteristics of the resilin-like polypeptide (RLP) condensates, a prototypical disordered protein with upper critical solution temperature (UCST) phase behaviour. Using turbidimetry, dynamic light scattering, confocal and electron microscopy, we demonstrated that lipidation-in synergy with the sequence of the lipidation site-significantly influences RLPs' thermodynamic propensity for phase separation and their condensate properties. Molecular simulations suggested these effects result from an expanded hydrophobic region created by the interaction between the lipid and lipidation site rather than changes in peptide rigidity. These findings emphasize the role of \"sequence context\" in modifying the properties of PTMs, suggesting that variations in lipidation sequences could be strategically used to fine-tune the effect of these motifs. Our study advances understanding of lipidation's impact on UCST phase behaviour, relevant to proteins critical in biological processes and diseases, and opens avenues for designing lipidated resilins for biomedical applications like heat-mediated drug elution.",
+  "abstract_zh": "生物学利用生物大分子相分离（phase separation）形成凝聚体，即无膜细胞器。尽管在解析相分离的序列决定因素方面取得了显著进展，但在体内调控这些特征仍具挑战性。受生物学启发的一种有前景的方法是使用翻译后修饰（post-translational modifications, PTMs）来调节氨基酸的物理化学性质，而非改变蛋白质序列，从而控制凝聚体的形成及其特性。然而，尽管已鉴定出超过300种PTMs，但对其如何影响蛋白质凝聚体的形成和材料性质的详细理解仍不完整。在本研究中，我们探讨了肉豆蔻酰脂质修饰如何改变类弹性蛋白多肽（resilin-like polypeptide, RLP）凝聚体的形成和特性，这是一种具有上临界溶液温度（upper critical solution temperature, UCST）相行为的典型无序蛋白。通过浊度法、动态光散射、共聚焦和电子显微镜，我们证明脂质化——与脂质化位点的序列协同作用——显著影响RLPs的相分离热力学倾向及其凝聚体性质。分子模拟表明，这些效应源于脂质与脂质化位点相互作用形成的扩展疏水区域，而非肽段刚性的变化。这些发现强调了“序列背景”在修饰PTMs性质中的作用，提示脂质化序列的变异可策略性地用于微调这些基序的效果。我们的研究增进了对脂质化影响UCST相行为的理解，这对生物过程和疾病中关键蛋白质具有重要意义，并为设计用于热介导药物洗脱等生物医学应用的脂质化类弹性蛋白开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38690757/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38690757/",
+  "paper_page_path": "papers/pubmed/38690757/index.html"
+}

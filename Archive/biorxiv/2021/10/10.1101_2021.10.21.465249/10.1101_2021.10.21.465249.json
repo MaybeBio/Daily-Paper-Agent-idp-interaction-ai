@@ -1,0 +1,155 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.21.465249",
+  "title": "Implementation of residue-level coarse-grained models in GENESIS for large-scale molecular dynamics simulations",
+  "doi": "10.1101/2021.10.21.465249",
+  "abstract": "Residue-level coarse-grained (CG) models have become one of the most popular tools in biomolecular simulations in the trade-off between modeling accuracy and computational efficiency. To investigate large-scale biological phenomena in molecular dynamics (MD) simulations with CG models, unified treatments of proteins and nucleic acids, as well as efficient parallel computations, are indispensable. In the GENESIS MD software, we implement several residue-level CG models, covering structure-based and context-based potentials for both well-folded biomolecules and intrinsically disordered regions. An amino acid residue in protein is represented as a single CG particle centered at the Cα atom position, while a nucleotide in RNA or DNA is modeled with three beads. Then, a single CG particle represents around ten heavy atoms in both proteins and nucleic acids. The input data in CG MD simulations are treated as GROMACS-style input files generated from a newly developed toolbox, GENESIS-CG-tool. To optimize the performance in CG MD simulations, we utilize multiple neighbor lists, each of which is attached to a different nonbonded interaction potential in the cell-linked list method. We found that random number generations for Gaussian distributions in the Langevin thermostat are one of the bottlenecks in CG MD simulations. Therefore, we parallelize the computations with message-passing-interface (MPI) to improve the performance on PC clusters or supercomputers. We simulate Herpes simplex virus (HSV) type 2 B-capsid and chromatin models containing more than 1,000 nucleosomes in GENESIS as examples of large-scale biomolecular simulations with residue-level CG models. This framework extends accessible spatial and temporal scales by multi-scale simulations to study biologically relevant phenomena, such as genome-scale chromatin folding or phase-separated membrane-less condensations. <h4>Author summary</h4> Molecular dynamics (MD) simulations have been widely used to investigate biological phenomena that are difficult to study only with experiments. Since all-atom MD simulations of large biomolecular complexes are computationally expensive, coarse-grained (CG) models based on different approximations and interaction potentials have been developed so far. There are two practical issues in biological MD simulations with CG models. The first issue is the input file generations of highly heterogeneous systems. In contrast to well-established all-atom models, specific features are introduced in each CG model, making it difficult to generate input data for the systems containing different types of biomolecules. The second issue is how to improve the computational performance in CG MD simulations of heterogeneous biological systems. Here, we introduce a user-friendly toolbox to generate input files of residue-level CG models containing folded and disordered proteins, RNAs, and DNAs using a unified format and optimize the performance of CG MD simulations via efficient parallelization in GENESIS software. Our implementation will serve as a framework to develop novel CG models and investigate various biological phenomena in the cell.",
+  "authors": [
+    "Tan C",
+    "Jung J",
+    "Kobayashi C",
+    "Ugarte La Torre D",
+    "Takada S",
+    "Sugita Y"
+  ],
+  "published_date": "2021-10-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.21.465249",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.21.465249.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR411047",
+    "raw_record": {
+      "id": "PPR411047",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.21.465249",
+      "title": "Implementation of residue-level coarse-grained models in GENESIS for large-scale molecular dynamics simulations",
+      "authorString": "Tan C, Jung J, Kobayashi C, Ugarte La Torre D, Takada S, Sugita Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tan C",
+            "lastName": "Tan",
+            "firstName": "Cheng",
+            "initials": "C"
+          },
+          {
+            "fullName": "Jung J",
+            "lastName": "Jung",
+            "firstName": "Jaewoon",
+            "initials": "J"
+          },
+          {
+            "fullName": "Kobayashi C",
+            "lastName": "Kobayashi",
+            "firstName": "Chigusa",
+            "initials": "C"
+          },
+          {
+            "fullName": "Ugarte La Torre D",
+            "lastName": "Ugarte La Torre",
+            "firstName": "Diego",
+            "initials": "D"
+          },
+          {
+            "fullName": "Takada S",
+            "lastName": "Takada",
+            "firstName": "Shoji",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sugita Y",
+            "lastName": "Sugita",
+            "firstName": "Yuji",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9738-9216"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9738-9216"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Residue-level coarse-grained (CG) models have become one of the most popular tools in biomolecular simulations in the trade-off between modeling accuracy and computational efficiency. To investigate large-scale biological phenomena in molecular dynamics (MD) simulations with CG models, unified treatments of proteins and nucleic acids, as well as efficient parallel computations, are indispensable. In the GENESIS MD software, we implement several residue-level CG models, covering structure-based and context-based potentials for both well-folded biomolecules and intrinsically disordered regions. An amino acid residue in protein is represented as a single CG particle centered at the Cα atom position, while a nucleotide in RNA or DNA is modeled with three beads. Then, a single CG particle represents around ten heavy atoms in both proteins and nucleic acids. The input data in CG MD simulations are treated as GROMACS-style input files generated from a newly developed toolbox, GENESIS-CG-tool. To optimize the performance in CG MD simulations, we utilize multiple neighbor lists, each of which is attached to a different nonbonded interaction potential in the cell-linked list method. We found that random number generations for Gaussian distributions in the Langevin thermostat are one of the bottlenecks in CG MD simulations. Therefore, we parallelize the computations with message-passing-interface (MPI) to improve the performance on PC clusters or supercomputers. We simulate Herpes simplex virus (HSV) type 2 B-capsid and chromatin models containing more than 1,000 nucleosomes in GENESIS as examples of large-scale biomolecular simulations with residue-level CG models. This framework extends accessible spatial and temporal scales by multi-scale simulations to study biologically relevant phenomena, such as genome-scale chromatin folding or phase-separated membrane-less condensations. <h4>Author summary</h4>  Molecular dynamics (MD) simulations have been widely used to investigate biological phenomena that are difficult to study only with experiments. Since all-atom MD simulations of large biomolecular complexes are computationally expensive, coarse-grained (CG) models based on different approximations and interaction potentials have been developed so far. There are two practical issues in biological MD simulations with CG models. The first issue is the input file generations of highly heterogeneous systems. In contrast to well-established all-atom models, specific features are introduced in each CG model, making it difficult to generate input data for the systems containing different types of biomolecules. The second issue is how to improve the computational performance in CG MD simulations of heterogeneous biological systems. Here, we introduce a user-friendly toolbox to generate input files of residue-level CG models containing folded and disordered proteins, RNAs, and DNAs using a unified format and optimize the performance of CG MD simulations via efficient parallelization in GENESIS software. Our implementation will serve as a framework to develop novel CG models and investigate various biological phenomena in the cell.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/22/2021.10.21.465249.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.21.465249"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35381009",
+            "reference": "PLoS computational biology. 2022 Apr;18(4):e1009578",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-27",
+      "firstPublicationDate": "2021-10-22",
+      "firstIndexDate": "2021-10-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.29.715078",
+  "title": "Tardigrade-Derived Strategy for Low-Cost Storage of Cell-Free Expression Lysates",
+  "authors": "Meckelburg M; Banlaki I; Gaizauskaite A; Niederholtmeyer H",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-30",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用缓步动物来源的CAHS蛋白保护无细胞表达系统在干燥储存中的活性，对象为无细胞体系而非无序蛋白介导的PPI，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Cell-free expression systems (CFES) are increasingly used alongside conventional biotechnological approaches to accelerate early-stage prototyping and are particularly valuable in point-of-use settings. However, their broader adoption remains limited by time- and cost-intensive preparation, as well as stringent cryogenic storage requirements. To address this, several studies have explored lyophilization with protective additives to generate stable, solid-state CFES. These approaches had to balance the protection gained with a loss of activity due to the additives. In this study, we present a CFES that contains a tardigrade-derived Cytosolic-Abundant Heat-Soluble (CAHS) protein to protect the biosynthetic machinery in lysates from damages during drying. We show that the CAHS protein, without any other additives, preserves protein synthesis activity during low-cost room temperature desiccation, while unprotected lysates are affected in mRNA synthesis kinetics and translation yields. The diversity of tardigrade-derived protective proteins is a treasure trove for cell-free synthetic biology, in particular for making CFES more accessible and portable. <h4>Graphical abstract</h4>",
+  "abstract_zh": "无细胞表达系统（CFES）正日益与常规生物技术方法结合使用，以加速早期原型构建，并在使用点场景中尤为宝贵。然而，其更广泛的采用仍受限于耗时且成本高昂的制备过程，以及严格的低温储存要求。为解决这一问题，多项研究探索了使用保护性添加剂进行冻干处理，以生成稳定的固态CFES。这些方法需在添加剂带来的保护作用与活性损失之间取得平衡。在本研究中，我们提出了一种包含缓步动物来源的胞质丰富热溶性（CAHS）蛋白的CFES，该蛋白可保护裂解物中的生物合成机制免受干燥过程中的损伤。我们证明，在无任何其他添加剂的情况下，CAHS蛋白能在低成本室温干燥过程中保持蛋白质合成活性，而未受保护的裂解物在mRNA合成动力学和翻译产量方面受到影响。缓步动物来源的保护性蛋白多样性是细胞游离合成生物学的宝库，尤其有助于使CFES更易获取和便携。<h4>图形摘要</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.29.715078",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.29.715078",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.29.715078/index.html"
+}

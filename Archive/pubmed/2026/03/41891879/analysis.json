@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41891879",
+  "title": "Poly(ADP-ribose) (PAR) exhibits ion-dependent structural properties distinct from RNA.",
+  "authors": "Baidya, Lipika; Zhang, Heyang; Nguyen, Hung T",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发PAR的粗粒化模型并用MD模拟揭示其离子依赖构象转变及与RNA的差异，为PAR介导的相分离和蛋白互作提供机制洞见，虽对象为PAR而非典型IDP，但无序聚合物构象与离子调控机制对IDR-PPI建模有直接启发。",
+  "abstract": "Poly(ADP-ribose) (PAR) is a highly charged, intrinsically flexible nucleic-acid-like homopolymer composed of ADP-ribose units. It serves as a critical post-translational modification that is rapidly synthesized in response to DNA damage and participates in diverse important cellular processes, including DNA repair, chromatin remodeling, and RNA biogenesis, often by promoting biomolecular phase separation. However, PAR's conformational heterogeneity coupled with limited experimental characterization has hindered a mechanistic understanding of these processes. To address this challenge, we develop a five-bead coarse-grained model of PAR and perform molecular dynamics simulations to compare its conformational ensemble and ion atmosphere with those of RNA across diverse ion environments. Our simulations reveal that PAR undergoes a markedly stronger structural transition than RNA in response to divalent ions, driven by its preferential ion binding and effective ion-mediated bridging between phosphate groups. These interactions facilitate cooperative conformational changes and produce a compact, ion-rich atmosphere that is fundamentally distinct from RNA. Together, our work provides a physically grounded model for PAR, uncovers molecular features that differentiate PAR from RNA, and offers mechanistic insight into how PAR nucleates phase separation and organizes protein interactions at sites of DNA damage.",
+  "abstract_zh": "聚(ADP-核糖) (PAR) 是一种高度带电、内在柔性的核酸样同聚物，由ADP-核糖单元组成。它作为一种关键翻译后修饰，在DNA损伤响应中迅速合成，并通过促进生物分子相分离 (phase separation) 参与多种重要细胞过程，包括DNA修复、染色质重塑和RNA生物发生。然而，PAR的构象异质性加之有限的实验表征，阻碍了对这些过程的机制理解。为应对这一挑战，我们开发了PAR的五珠粗粒化模型，并进行分子动力学 (molecular dynamics) 模拟，以比较其在不同离子环境中的构象系综和离子氛围与RNA的差异。我们的模拟揭示，PAR对二价离子的响应比RNA表现出显著更强的结构转变，这由其优先离子结合和磷酸基团间有效的离子介导桥接驱动。这些相互作用促进协同构象变化，并产生一个致密、富含离子的氛围，与RNA根本不同。总之，我们的工作为PAR提供了物理基础模型，揭示了区分PAR与RNA的分子特征，并为PAR如何在DNA损伤位点成核相分离和组织蛋白质相互作用提供了机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41891879/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41891879/",
+  "paper_page_path": "papers/pubmed/41891879/index.html"
+}

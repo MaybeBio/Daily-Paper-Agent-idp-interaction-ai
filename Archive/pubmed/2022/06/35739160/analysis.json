@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35739160",
+  "title": "AlphaFold2 models indicate that protein sequence determines both structure and dynamics.",
+  "authors": "Guo, Hao-Bo; Perminov, Alexander; Bekele, Selemon; Kedziora, Gary; Farajollahi, Sanaz; Varaljay, Vanessa; Hinkle, Kevin; Molinero, Valeria; Meister, Konrad; Hung, Chia; Dennis, Patrick; Kelley-Loughnane, Nancy; Berry, Rajiv",
+  "journal": "Scientific reports",
+  "published_date": "2022-06-24",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用AlphaFold2预测多种蛋白（含IDP）的结构与动态，发现pLDDT/PAE可反映残基柔性并与MD模拟相关，虽非直接研究PPI机制，但为IDP动态建模提供了AI与物理模拟结合的可迁移思路。",
+  "abstract": "AlphaFold 2 (AF2) has placed Molecular Biology in a new era where we can visualize, analyze and interpret the structures and functions of all proteins solely from their primary sequences. We performed AF2 structure predictions for various protein systems, including globular proteins, a multi-domain protein, an intrinsically disordered protein (IDP), a randomized protein, two larger proteins (> 1000 AA), a heterodimer and a homodimer protein complex. Our results show that along with the three dimensional (3D) structures, AF2 also decodes protein sequences into residue flexibilities via both the predicted local distance difference test (pLDDT) scores of the models, and the predicted aligned error (PAE) maps. We show that PAE maps from AF2 are correlated with the distance variation (DV) matrices from molecular dynamics (MD) simulations, which reveals that the PAE maps can predict the dynamical nature of protein residues. Here, we introduce the AF2-scores, which are simply derived from pLDDT scores and are in the range of [0, 1]. We found that for most protein models, including large proteins and protein complexes, the AF2-scores are highly correlated with the root mean square fluctuations (RMSF) calculated from MD simulations. However, for an IDP and a randomized protein, the AF2-scores do not correlate with the RMSF from MD, especially for the IDP. Our results indicate that the protein structures predicted by AF2 also convey information of the residue flexibility, i.e., protein dynamics.",
+  "abstract_zh": "AlphaFold 2 (AF2) 已将分子生物学带入一个新时代，使我们能够仅从蛋白质的一级序列即可可视化、分析和解读所有蛋白质的结构与功能。我们对多种蛋白质系统进行了AF2结构预测，包括球状蛋白质、多结构域蛋白质、 intrinsically disordered protein (IDP)、随机化蛋白质、两种较大蛋白质（> 1000 AA）、异源二聚体和同源二聚体蛋白质复合物。我们的结果表明，除了三维（3D）结构外，AF2还通过模型的预测局部距离差异测试（pLDDT）分数和预测对齐误差（PAE）图，将蛋白质序列解码为残基灵活性。我们显示，AF2的PAE图与分子动力学（molecular dynamics, MD）模拟的距离变异（DV）矩阵相关，这揭示PAE图可以预测蛋白质残基的动态性质。在此，我们引入AF2分数，其简单地从pLDDT分数推导而来，范围在[0, 1]内。我们发现，对于大多数蛋白质模型，包括大型蛋白质和蛋白质复合物，AF2分数与MD模拟计算的均方根波动（RMSF）高度相关。然而，对于IDP和随机化蛋白质，AF2分数与MD的RMSF不相关，尤其是对于IDP。我们的结果表明，AF2预测的蛋白质结构也传达了残基灵活性的信息，即蛋白质动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35739160/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35739160/",
+  "paper_page_path": "papers/pubmed/35739160/index.html"
+}

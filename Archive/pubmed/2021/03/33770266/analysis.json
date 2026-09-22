@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33770266",
+  "title": "Design of a novel antimicrobial peptide 1018M targeted ppGpp to inhibit MRSA biofilm formation.",
+  "authors": "Jiale, Zhou; Jian, Jiao; Xinyi, Tan; Haoji, Xie; Xueqin, Huang; Xiao, Wang",
+  "journal": "AMB Express",
+  "published_date": "2021-03-27",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过分子对接设计抗菌肽1018M靶向ppGpp抑制MRSA生物膜，对象为抗菌肽与细菌信号分子，非无序蛋白/IDR/相分离PPI，且方法仅简单对接无机制建模深度，与本课题关联弱。",
+  "abstract": "Methicillin-resistant staphylococcus aureus (MRSA) and its biofilm infection were considered as one of the main international health issues. There are still many challenges for treatment using traditional antibiotics. In this study, a mutant peptide of innate defense regulator (IDR-)1018 named 1018M was designed based on molecular docking and amino acid substitution technology. The antibacterial/biofilm activity and mechanisms against MRSA of 1018M were investigated for the first time. The minimum inhibitory concentration (MIC) of 1018M was reduced 1 time (MIC = 2 mug/mL) compared to IDR-1018. After treatment with 32 mug/mL 1018M for 24 h, the percentage of biofilm decreased by 78.9%, which was more effective than the parental peptide. The results of mechanisms exploration showed that 1018M was more potent than IDR-1018 at destructing bacterial cell wall, permeating cell membrane (20.4%-50.1% vs 1.45%-10.6%) and binding to stringent response signaling molecule ppGpp (increased 27.9%). Additionally, the peptides could also exert their activity by disrupting genomic DNA, regulating the expression of ppGpp metabolism and biofilm forming related genes (RSH, relP, relQ, rsbU, sigB, spA, codY, agrA and icaD). Moreover, the higher temperature, pH and pepsase stabilities provide 1018M better processing, storage and internal environmental tolerance. These data indicated that 1018M may be a potential candidate peptide for the treatment of MRSA and its biofilm infections.",
+  "abstract_zh": "耐甲氧西林金黄色葡萄球菌（MRSA）及其生物膜感染被视为国际主要健康问题之一。使用传统抗生素治疗仍面临诸多挑战。本研究基于分子对接和氨基酸替换技术，设计了一种名为1018M的先天防御调节肽（IDR-）1018突变肽。首次研究了1018M对MRSA的抗菌/抗生物膜活性及其机制。与IDR-1018相比，1018M的最低抑菌浓度（MIC）降低了1倍（MIC = 2 μg/mL）。经32 μg/mL 1018M处理24小时后，生物膜百分比减少了78.9%，效果优于母体肽。机制探索结果表明，1018M在破坏细菌细胞壁、渗透细胞膜（20.4%-50.1%对比1.45%-10.6%）以及结合严谨反应信号分子ppGpp（增加27.9%）方面比IDR-1018更有效。此外，这些肽还能通过破坏基因组DNA、调节ppGpp代谢及生物膜形成相关基因（RSH、relP、relQ、rsbU、sigB、spA、codY、agrA和icaD）的表达来发挥活性。而且，更高的温度、pH和胃蛋白酶稳定性使1018M具有更好的加工、储存和内部环境耐受性。这些数据表明，1018M可能是治疗MRSA及其生物膜感染的潜在候选肽。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33770266/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33770266/",
+  "paper_page_path": "papers/pubmed/33770266/index.html"
+}

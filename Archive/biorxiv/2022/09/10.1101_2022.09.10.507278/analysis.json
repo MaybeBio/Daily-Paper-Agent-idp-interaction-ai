@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.10.507278",
+  "title": "Evolutionary and cellular analysis of the dark pseudokinase PSKH2",
+  "authors": "Byrne DP; Shrestha S; Daly LA; Marensi V; Ramakrishnan K; Eyers CE; Kannan N; Eyers PA",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过AlphaFold2结构预测和蛋白质组学表征假激酶PSKH2的膜定位与HSP90互作，但对象非无序蛋白/相分离，互作机制建模深度有限，仅部分方法可迁移。",
+  "abstract": "Pseudokinases, so named because they lack one or more conserved canonical amino acids that define their catalytically-active relatives, have evolved a variety of biological functions in both prokaryotic and eukaryotic organisms. Human PSKH2 is closely related to the canonical kinase PSKH1, which maps to the CAMK family of protein kinases. Primates encode PSKH2 in the form of a pseudokinase, which is predicted to be catalytically inactive due to loss of the invariant catalytic Asp residue. Although the biological role(s) of vertebrate PSKH2’s remains unclear, we previously identified species-level adaptions in PSKH2 that have led to the appearance of kinase or pseudokinase variants in vertebrate genomes alongside a canonical PSKH1 paralog. In this paper we confirm that, as predicted, PSKH2 lacks detectable protein phosphotransferase activity, and exploit structural informatics, biochemistry and cellular proteomics to begin to characterise vertebrate PSKH2 orthologues. AlphaFold 2-based structural analysis predicts functional roles for both the PSKH2 N- and C-regions that flank the pseudokinase domain core, and cellular truncation analysis confirms that the N-terminal domain, which contains a conserved myristoylation site, is required for both stable human PSKH2 expression and localisation to a membrane-rich subcellular fraction containing mitochondrial proteins. Using mass spectrometry-based proteomics, we confirm that human PSKH2 is part of a cellular mitochondrial protein network, and that its expression is regulated through client-status within the HSP90/Cdc37 molecular chaperone system. HSP90 interactions are mediated through binding to the PSKH2 C-terminal tail, leading us to predict that this region might act as both a cis and trans regulatory element, driving outputs linked to the PSKH2 pseudokinase domain that are important for functional signalling.",
+  "abstract_zh": "假激酶，因缺乏定义其催化活性亲属的一个或多个保守典型氨基酸而得名，在原核和真核生物中已演化出多种生物学功能。人类PSKH2与典型激酶PSKH1密切相关，后者归属于蛋白激酶的CAMK家族。灵长类动物以假激酶形式编码PSKH2，由于丢失了不变的催化天冬氨酸残基，预测其无催化活性。尽管脊椎动物PSKH2的生物学作用仍不清楚，我们先前识别了PSKH2中的物种水平适应性，这导致在脊椎动物基因组中，激酶或假激酶变体与典型PSKH1旁系同源物并存。本文中，我们确认PSKH2如预测般缺乏可检测的蛋白磷酸转移酶活性，并利用结构信息学、生物化学和细胞蛋白质组学开始表征脊椎动物PSKH2直系同源物。基于AlphaFold 2的结构分析预测，PSKH2的N端和C端区域（侧翼于假激酶结构域核心）具有功能作用，细胞截短分析证实，含有保守肉豆蔻酰化位点的N端结构域，对于稳定的人类PSKH2表达及其定位到含线粒体蛋白的膜富集亚细胞组分是必需的。利用基于质谱的蛋白质组学，我们确认人类PSKH2是细胞线粒体蛋白网络的一部分，其表达通过HSP90/Cdc37分子伴侣系统中的客户状态受到调控。HSP90相互作用通过结合PSKH2 C端尾部介导，这使我们预测该区域可能作为顺式和反式调控元件，驱动与PSKH2假激酶结构域相关的输出，对功能性信号传导至关重要。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.10.507278",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.10.507278",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.10.507278/index.html"
+}

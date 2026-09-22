@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "39735932",
+    "doi": "10.1021/jacsau.4c00673",
+    "title": "Identifying Sequence Effects on Chain Dimensions of Disordered Proteins by Integrating Experiments and Simulations."
+  },
+  "content": {
+    "abstract": "It has become increasingly evident that the conformational distributions of intrinsically disordered proteins or regions are strongly dependent on their amino acid compositions and sequence. To facilitate a systematic investigation of these sequence-ensemble relationships, we selected a set of 16 naturally occurring intrinsically disordered regions of identical length but with large differences in amino acid composition, hydrophobicity, and charge patterning. We probed their conformational ensembles with single-molecule Forster resonance energy transfer (FRET), complemented by circular dichroism (CD) and nuclear magnetic resonance (NMR) spectroscopy as well as small-angle X-ray scattering (SAXS). The set of disordered proteins shows a strong dependence of the chain dimensions on sequence composition, with chain volumes differing by up to a factor of 6. The residue-specific intrachain interaction networks that underlie these pronounced differences were identified using atomistic simulations combined with ensemble reweighting, revealing the important role of charged, aromatic, and polar residues. To advance a transferable description of disordered protein regions, we further employed the experimental data to parametrize a coarse-grained model for disordered proteins that includes an explicit representation of the FRET fluorophores and successfully describes experiments with different dye pairs. Our findings demonstrate the value of integrating experiments and simulations for advancing our quantitative understanding of the sequence features that determine the conformational ensembles of intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Holla, Andrea",
+        "Martin, Erik W",
+        "Dannenhoffer-Lafage, Thomas",
+        "Ruff, Kiersten M",
+        "Konig, Sebastian L B",
+        "Nuesch, Mark F",
+        "Chowdhury, Aritra",
+        "Louis, John M",
+        "Soranno, Andrea",
+        "Nettels, Daniel",
+        "Pappu, Rohit V",
+        "Best, Robert B",
+        "Mittag, Tanja",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Holla A",
+        "Martin EW",
+        "Dannenhoffer-Lafage T",
+        "Ruff KM",
+        "Konig SLB",
+        "Nuesch MF",
+        "Chowdhury A",
+        "Louis JM",
+        "Soranno A",
+        "Nettels D",
+        "Pappu RV",
+        "Best RB",
+        "Mittag T",
+        "Schuler B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3240-1856",
+        "ORCID: 0000-0002-0052-1899",
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-1827-3811",
+        "ORCID: 0000-0002-5970-4251"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, 262 Danny Thomas Place, Memphis, Tennessee 38105, United States.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry and Molecular Biophysics, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, 262 Danny Thomas Place, Memphis, Tennessee 38105, United States.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Holla, Andrea",
+        "short_name": "Holla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Martin, Erik W",
+        "short_name": "Martin EW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, 262 Danny Thomas Place, Memphis, Tennessee 38105, United States."
+        ]
+      },
+      {
+        "full_name": "Dannenhoffer-Lafage, Thomas",
+        "short_name": "Dannenhoffer-Lafage T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States."
+        ]
+      },
+      {
+        "full_name": "Ruff, Kiersten M",
+        "short_name": "Ruff KM",
+        "identifiers": [
+          "0000-0003-3240-1856"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "König, Sebastian L B",
+        "short_name": "König SLB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nüesch, Mark F",
+        "short_name": "Nüesch MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Aritra",
+        "short_name": "Chowdhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Louis, John M",
+        "short_name": "Louis JM",
+        "identifiers": [
+          "0000-0002-0052-1899"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+          "Department of Biochemistry and Molecular Biophysics, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [
+          "0000-0002-1827-3811"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, 262 Danny Thomas Place, Memphis, Tennessee 38105, United States."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2024 Dec 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/30 06:19",
+    "fetched_at": "2026-09-21 14:19:10"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42479886",
+      "42395354",
+      "42239067",
+      "42172735",
+      "42168213",
+      "42161313",
+      "42051296",
+      "41889770",
+      "41708867",
+      "41584445",
+      "41298246",
+      "41232529",
+      "41137856",
+      "40830340",
+      "40782375",
+      "40614690",
+      "40165371"
+    ],
+    "refs": [
+      "38461354",
+      "38297184",
+      "38297118",
+      "37957331",
+      "37645312",
+      "37463458",
+      "37100914",
+      "36408920",
+      "35948766",
+      "34931046",
+      "34716273",
+      "34536387",
+      "34480923",
+      "34301955",
+      "33876938",
+      "33545530",
+      "33453925",
+      "33357399",
+      "32696367",
+      "32227994",
+      "32029630",
+      "31805437",
+      "31659043",
+      "31598693",
+      "31488718",
+      "30992378",
+      "30913885",
+      "30633502",
+      "30471690",
+      "30285443",
+      "30171252",
+      "30166459",
+      "29604882",
+      "29466338",
+      "29424691",
+      "29364893",
+      "29345991",
+      "29026044",
+      "29021737",
+      "28937758",
+      "28716919",
+      "28225081",
+      "28076807",
+      "27807972",
+      "27583570",
+      "27392146",
+      "27145874",
+      "26632648",
+      "26589047",
+      "26439842",
+      "26328871",
+      "26174309",
+      "25863585",
+      "25664638",
+      "25505092",
+      "25019618",
+      "24773235",
+      "23901099",
+      "23718771",
+      "23240611",
+      "22984159",
+      "22918483",
+      "22897252",
+      "22761805",
+      "22383292",
+      "22329658",
+      "22104965",
+      "21497607",
+      "21291253",
+      "21078959",
+      "20639465",
+      "20483348",
+      "20404210",
+      "19699209",
+      "19334885",
+      "18849988",
+      "18506808",
+      "18481860",
+      "17827232",
+      "17539659",
+      "17447125",
+      "17299036",
+      "17078646",
+      "17075061",
+      "16957321",
+      "16427307",
+      "16241768",
+      "16113120",
+      "15853797",
+      "15836175",
+      "15653725",
+      "15310956",
+      "11784292",
+      "11257530",
+      "11025552",
+      "8744570",
+      "8520220",
+      "7108955",
+      "2720055"
+    ],
+    "similar": [
+      "39735932",
+      "30840442",
+      "32840111",
+      "34817999",
+      "39651234",
+      "33725442",
+      "27566405",
+      "36641212",
+      "30471690",
+      "30865820",
+      "35923464",
+      "34252246",
+      "26574339",
+      "36674958",
+      "37433228",
+      "30823702",
+      "32696370",
+      "23901099",
+      "40095314",
+      "32696367",
+      "31475155",
+      "39642200",
+      "34115515",
+      "33831596",
+      "29490247",
+      "29573987",
+      "31402649",
+      "30979035",
+      "28877485",
+      "36934808",
+      "33078950",
+      "28805390",
+      "35377637",
+      "28716919",
+      "33030907",
+      "35053175",
+      "37646172",
+      "30878202",
+      "37023001",
+      "33177626",
+      "27844185",
+      "32879005",
+      "26548662",
+      "26566073",
+      "30913885",
+      "35213160",
+      "36416865",
+      "27440558",
+      "34627764",
+      "32227994",
+      "26914439",
+      "28625737",
+      "37459524",
+      "39588651",
+      "32859072",
+      "31548393",
+      "30125451",
+      "35696898",
+      "26387110",
+      "24037535",
+      "32585849",
+      "30204435",
+      "34107023",
+      "29981536",
+      "26030189",
+      "35512095",
+      "36930141",
+      "35454150",
+      "40042172",
+      "38053335",
+      "23912807",
+      "27583570",
+      "29763584",
+      "32696361",
+      "32357776",
+      "36387274",
+      "37463458",
+      "32696369",
+      "34845612",
+      "29055320",
+      "33968988",
+      "39105804",
+      "33310020",
+      "33555894",
+      "37595014",
+      "27936491",
+      "33337879",
+      "17250999",
+      "39781370",
+      "38646777",
+      "25602591",
+      "24706812",
+      "29078291",
+      "38707546",
+      "20404210",
+      "36824878",
+      "19933326",
+      "30554840",
+      "25296318",
+      "33574233"
+    ],
+    "review": [
+      "39735932",
+      "30840442",
+      "30979035",
+      "35053175",
+      "28625737",
+      "26387110",
+      "17250999"
+    ],
+    "pmc": [
+      "11672150"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39735932/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.4c00673",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "41083275",
+    "doi": "10.1021/acs.jpcb.5c05357",
+    "title": "Transition State Conformations for IDPs: Application to Human Amylin (hIAPP)."
+  },
+  "content": {
+    "abstract": "Human islet amyloid polypeptide (hIAPP, a.k.a. amylin) aggregation is involved in the pathogenesis of type 2 diabetes, yet no effective inhibitors of fibril formation are currently available. In this study, we examine the conformational transitions of hIAPP monomers across distinct molecular environments (i.e., lipids, water, and amyloid fibrils), to probe key features, such as transition states across the complex free energy landscape of the amyloidization pathway. Using unbiased molecular dynamics simulations of monomeric amylin, we apply relative RMSD values as putative reaction coordinates to identify and assess transition state ensemble (TSE) membership of monomeric amylin conformations. TSE conformations are high-value drug targets located at the probabilistic midpoint between aggregation-prone and helical-rich reference states. Using relative RMSD, we validate a transition state candidate as a TSE member and identify additional kinetically similar amylin conformations. Segment-level analysis offers insight into early stage branching along the aggregation pathway. These findings establish relative RMSD as a useful parameter for characterizing transitions in amylin and other intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Islet Amyloid Polypeptide/chemistry/metabolism",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carton, Nicholas A",
+        "Buchete, Nicolae-Viorel"
+      ],
+      "short_names": [
+        "Carton NA",
+        "Buchete NV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9861-1157"
+      ],
+      "affiliations": [
+        "School of Physics, University College Dublin, Dublin 4, Belfield, Ireland.",
+        "Institute for Discovery, University College Dublin, Dublin 4, Belfield, Ireland.",
+        "School of Physics, University College Dublin, Dublin 4, Belfield, Ireland.",
+        "Institute for Discovery, University College Dublin, Dublin 4, Belfield, Ireland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carton, Nicholas A",
+        "short_name": "Carton NA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, University College Dublin, Dublin 4, Belfield, Ireland.",
+          "Institute for Discovery, University College Dublin, Dublin 4, Belfield, Ireland."
+        ]
+      },
+      {
+        "full_name": "Buchete, Nicolae-Viorel",
+        "short_name": "Buchete NV",
+        "identifiers": [
+          "0000-0001-9861-1157"
+        ],
+        "affiliations": [
+          "School of Physics, University College Dublin, Dublin 4, Belfield, Ireland.",
+          "Institute for Discovery, University College Dublin, Dublin 4, Belfield, Ireland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Oct 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/14 00:30",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41083275",
+      "27759128",
+      "27854243",
+      "37753786",
+      "30007378",
+      "36098068",
+      "27075579",
+      "24892388",
+      "28829144",
+      "24028418",
+      "30502402",
+      "23614446",
+      "21384830",
+      "26221949",
+      "24010666",
+      "24245879",
+      "36163697",
+      "22609945",
+      "26352401",
+      "31442763",
+      "38608617",
+      "21428404",
+      "31436406",
+      "32800950",
+      "29432676",
+      "29023509",
+      "34231327",
+      "37691445",
+      "26953503",
+      "30375231",
+      "23331123",
+      "38497314",
+      "28585804",
+      "41989234",
+      "39919485",
+      "30814273",
+      "23133593",
+      "33227292",
+      "26255739",
+      "36142176",
+      "30803034",
+      "22693597",
+      "25144879",
+      "29406755",
+      "28917147",
+      "24313776",
+      "25638009",
+      "39012029",
+      "39219407",
+      "30908844",
+      "30395705",
+      "30106299",
+      "40739343",
+      "21266296",
+      "20923655",
+      "24218609",
+      "26460729",
+      "20429571",
+      "30149632",
+      "33544470",
+      "29072444",
+      "23145779",
+      "32887527",
+      "32541896",
+      "38723619",
+      "39582236",
+      "28801684",
+      "34558100",
+      "37262327",
+      "35164285",
+      "40719248",
+      "28905065",
+      "36174237",
+      "31195047",
+      "22935354",
+      "25913357",
+      "22750265",
+      "21158384",
+      "34768769",
+      "39871583",
+      "19794060",
+      "21341875",
+      "28071890",
+      "31490518",
+      "34590645",
+      "25952953",
+      "39579816",
+      "41129692",
+      "41040258",
+      "26636105",
+      "35697975",
+      "35275530",
+      "26653463",
+      "32893436",
+      "38937578",
+      "29530482",
+      "24352606",
+      "30919775",
+      "30148596",
+      "27493030"
+    ],
+    "review": [
+      "41083275",
+      "27075579",
+      "33227292",
+      "30149632",
+      "33544470",
+      "34558100",
+      "35164285",
+      "26636105",
+      "29530482"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c05357",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

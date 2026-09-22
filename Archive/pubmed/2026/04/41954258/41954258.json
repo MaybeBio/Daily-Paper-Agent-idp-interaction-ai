@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "41954258",
+    "doi": "10.1063/5.0323622",
+    "title": "Quantitative description of protein configuration and viscoelasticity using first-principles hydrodynamics applied to quartz crystal microbalance experiments."
+  },
+  "content": {
+    "abstract": "The quartz crystal microbalance (QCM) is one of the few label-free techniques capable of sampling the response of proteins and their aggregates. However, QCM signals come encrypted by a complicated interaction between the biomolecular viscoelastic response and their hydrodynamic perturbations. This has hampered the quantitative interpretation of QCM signals of biomolecules. In addition, the large size disparity between proteins and the QCM flow penetration length of 100 nm creates a deadlock for standard simulation packages. Using first-principles modeling and adaptive schemes, we show that the ultrasensitive QCM sensor can be upgraded to a high-precision quantitative tool for protein analysis. We present a \"Virtual-QCM\" (VQCM) framework to introduce viscoelastic structures in a hydrodynamic solver for semi-infinite wall-bounded oscillatory flow. The fluid solver [R. P. Pelaez, P. Palacios-Alonso, and R. Delgado-Buscalioni, J. Fluid Mech. 1010, A57 (2025)] is spectral in time and space and implements open boundaries focusing on the relevant fluid layer around proteins with  approximately 104 speed-up. Biomolecules are modeled as viscoelastic networks connected to the atomistic level via coarse-graining theory. Integrating VQCM with experiments allows us to predict the physicochemical properties of FtsZ and ZipA; bacterial proteins with intrinsically disordered regions (IDRs) tethered to lipid membrane substrates. Quantitative match with experiments at all coverages permits us to measure substrate binding affinities, IDR extension l, stiffness k, and intrinsic friction xi. We find the polypeptide chains to be extremely sensitive to the buffer ionic strength, with protein friction affected by Mg+2. Measured intrinsic relaxation times xi/k  approximately  [3-30] ns are consistent with FRET analyses. Access to microscopic information using standard QCM sensors will help decipher the IDR structure-function and other protein aggregates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Quartz Crystal Microbalance Techniques",
+      "Viscosity",
+      "*Hydrodynamics",
+      "Elasticity",
+      "Protein Conformation",
+      "*Proteins/chemistry",
+      "*Cytoskeletal Proteins/chemistry",
+      "*Bacterial Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bonet, Noel F",
+        "Alonso, Pablo Palacios",
+        "Velez, Marisela",
+        "Delgado-Buscalioni, Rafael"
+      ],
+      "short_names": [
+        "Bonet NF",
+        "Alonso PP",
+        "Velez M",
+        "Delgado-Buscalioni R"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-6995-9635",
+        "ORCID: 0009-0001-9794-8396",
+        "ORCID: 0000-0002-9424-510X",
+        "ORCID: 0000-0001-6637-2091"
+      ],
+      "affiliations": [
+        "Institute of Catalysis and Petrochemistry, CSIC, Madrid 28049, Spain.",
+        "Dept. Fisica Teorica de la Materia Condensada, Universidad Autonoma de Madrid, Madrid 28049, Spain.",
+        "Dept. Fisica Teorica de la Materia Condensada, Universidad Autonoma de Madrid, Madrid 28049, Spain.",
+        "Institute of Catalysis and Petrochemistry, CSIC, Madrid 28049, Spain.",
+        "Dept. Fisica Teorica de la Materia Condensada, Universidad Autonoma de Madrid, Madrid 28049, Spain.",
+        "Condensed Matter Institute, IFIMAC, Madrid 28049, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bonet, Noel F",
+        "short_name": "Bonet NF",
+        "identifiers": [
+          "0009-0009-6995-9635"
+        ],
+        "affiliations": [
+          "Institute of Catalysis and Petrochemistry, CSIC, Madrid 28049, Spain.",
+          "Dept. Física Teorica de la Materia Condensada, Universidad Autónoma de Madrid, Madrid 28049, Spain."
+        ]
+      },
+      {
+        "full_name": "Alonso, Pablo Palacios",
+        "short_name": "Alonso PP",
+        "identifiers": [
+          "0009-0001-9794-8396"
+        ],
+        "affiliations": [
+          "Dept. Física Teorica de la Materia Condensada, Universidad Autónoma de Madrid, Madrid 28049, Spain."
+        ]
+      },
+      {
+        "full_name": "Vélez, Marisela",
+        "short_name": "Vélez M",
+        "identifiers": [
+          "0000-0002-9424-510X"
+        ],
+        "affiliations": [
+          "Institute of Catalysis and Petrochemistry, CSIC, Madrid 28049, Spain."
+        ]
+      },
+      {
+        "full_name": "Delgado-Buscalioni, Rafael",
+        "short_name": "Delgado-Buscalioni R",
+        "identifiers": [
+          "0000-0001-6637-2091"
+        ],
+        "affiliations": [
+          "Dept. Física Teorica de la Materia Condensada, Universidad Autónoma de Madrid, Madrid 28049, Spain.",
+          "Condensed Matter Institute, IFIMAC, Madrid 28049, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Apr 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 12:46",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41954258",
+      "41251481",
+      "23912807",
+      "34525162",
+      "41056850",
+      "27109863",
+      "22780202",
+      "27616066",
+      "34837198",
+      "27780088",
+      "36616883",
+      "36891731",
+      "23504432",
+      "21093226",
+      "34451028",
+      "17691829",
+      "22014563",
+      "40609488",
+      "35776925",
+      "20653052",
+      "38905705",
+      "28889243",
+      "28281339",
+      "20853853",
+      "27632699",
+      "38691506",
+      "26169072",
+      "25197950",
+      "32936170",
+      "35780545",
+      "33781458",
+      "34837197",
+      "22861174",
+      "35951291",
+      "12243901",
+      "32923766",
+      "16861035",
+      "15595862",
+      "22334772",
+      "30686053",
+      "22791360",
+      "30295025",
+      "35377148",
+      "28787678",
+      "27873988",
+      "23404269",
+      "28245588",
+      "24705960",
+      "33925584",
+      "23932084",
+      "21219037",
+      "26026556",
+      "11791547",
+      "19580260",
+      "29697982",
+      "31218612",
+      "28024202",
+      "21353520",
+      "41623270",
+      "11679251",
+      "19025898",
+      "20457306",
+      "9569776",
+      "32065145",
+      "29736700",
+      "34410672",
+      "27311950",
+      "31264405",
+      "17194124",
+      "25307623",
+      "26354323",
+      "29297669",
+      "34067761",
+      "42219684",
+      "23981331",
+      "20152854",
+      "33297059",
+      "28193076",
+      "25913394",
+      "26896917",
+      "22579516",
+      "23662927",
+      "27230595",
+      "42425264",
+      "24145032",
+      "27231946",
+      "34204556",
+      "16242610",
+      "14504678",
+      "21767220",
+      "22158962",
+      "23121645",
+      "21852105",
+      "24213205",
+      "31033053",
+      "34879536",
+      "19137101",
+      "25851113",
+      "16922537",
+      "21416544"
+    ],
+    "review": [
+      "41954258",
+      "36891731",
+      "23504432",
+      "28245588",
+      "34067761",
+      "42425264",
+      "22158962",
+      "24213205",
+      "19137101"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0323622",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

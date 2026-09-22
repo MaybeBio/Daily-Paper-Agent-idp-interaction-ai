@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35275927",
+  "title": "Characterization of intrinsically disordered regions in proteins informed by human genetic diversity.",
+  "authors": "Ahmed, Shehab S; Rifat, Zaara T; Lohia, Ruchi; Campbell, Arthur J; Dunker, A Keith; Rahman, M Sohel; Iqbal, Sumaiya",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-03-12",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 4,
+  "one_liner_zh": "利用人类遗传变异数据表征无序区域的功能特征，虽以IDR为对象但无PPI机制建模，方法仅含简单机器学习，与互作机制建模关联弱。",
+  "abstract": "All proteomes contain both proteins and polypeptide segments that don't form a defined three-dimensional structure yet are biologically active-called intrinsically disordered proteins and regions (IDPs and IDRs). Most of these IDPs/IDRs lack useful functional annotation limiting our understanding of their importance for organism fitness. Here we characterized IDRs using protein sequence annotations of functional sites and regions available in the UniProt knowledgebase (\"UniProt features\": active site, ligand-binding pocket, regions mediating protein-protein interactions, etc.). By measuring the statistical enrichment of twenty-five UniProt features in 981 IDRs of 561 human proteins, we identified eight features that are commonly located in IDRs. We then collected the genetic variant data from the general population and patient-based databases and evaluated the prevalence of population and pathogenic variations in IDPs/IDRs. We observed that some IDRs tolerate 2 to 12-times more single amino acid-substituting missense mutations than synonymous changes in the general population. However, we also found that 37% of all germline pathogenic mutations are located in disordered regions of 96 proteins. Based on the observed-to-expected frequency of mutations, we categorized 34 IDRs in 20 proteins (DDX3X, KIT, RB1, etc.) as intolerant to mutation. Finally, using statistical analysis and a machine learning approach, we demonstrate that mutation-intolerant IDRs carry a distinct signature of functional features. Our study presents a novel approach to assign functional importance to IDRs by leveraging the wealth of available genetic data, which will aid in a deeper understating of the role of IDRs in biological processes and disease mechanisms.",
+  "abstract_zh": "所有蛋白质组均包含既不具备明确三维结构又具有生物活性的蛋白质和多肽片段，这些被称为固有无序蛋白质及区域（IDPs和IDRs）。大多数IDPs/IDRs缺乏有用的功能注释，限制了我们对其在生物体适应性中重要性的理解。在此，我们利用UniProt知识库中可用的功能位点和区域蛋白质序列注释（“UniProt特征”：活性位点、配体结合口袋、介导蛋白质-蛋白质相互作用的区域等）对IDRs进行了表征。通过测量561个人类蛋白质的981个IDRs中二十五种UniProt特征的统计富集度，我们识别出八个常见位于IDRs中的特征。随后，我们收集了来自普通人群和基于患者数据库的遗传变异数据，并评估了IDPs/IDRs中人群变异和致病性变异的普遍性。我们观察到，在普通人群中，某些IDRs对单氨基酸替换的错义突变耐受性比同义变化高出2至12倍。然而，我们也发现所有种系致病性突变中有37%位于96个蛋白质的无序区域。基于观察到的突变频率与预期频率之比，我们将20个蛋白质（如DDX3X、KIT、RB1等）中的34个IDRs归类为对突变不耐受。最后，通过统计分析和机器学习方法，我们证明了对突变不耐受的IDRs携带独特的功能特征签名。我们的研究提出了一种新方法，通过利用丰富的可用遗传数据来赋予IDRs功能重要性，这将有助于更深入地理解IDRs在生物过程和疾病机制中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35275927/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35275927/",
+  "paper_page_path": "papers/pubmed/35275927/index.html"
+}

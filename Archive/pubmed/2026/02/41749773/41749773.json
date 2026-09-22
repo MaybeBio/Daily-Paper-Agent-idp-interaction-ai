@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "41749773",
+    "doi": "10.3390/bioengineering13020234",
+    "title": "Parametric Finite Element Evaluation of Load Redistribution Under Progressive Lumbar Disc Degeneration."
+  },
+  "content": {
+    "abstract": "This study presents a finite element (FE) investigation of intervertebral disc (IVD) degeneration in the human lumbar spine (L1-L3 segment). The model, based on CT-derived geometry and isotropic hyperelastic representation of disc tissues, incorporates controlled simplifications, detailed in the limitations section. Degenerative changes were parametrically simulated across healthy, mild, moderate, and severe stages by reducing disc height (up to 60%), nucleus pulposus volume (up to 70%), and adjusting tissue stiffness to reflect dehydration and fibrosis. Displacement-controlled compressive loading was applied to assess von Mises stress distributions, reaction forces, and load transfer mechanisms. Results indicate significant load redistribution: annulus fibrosus stresses increased by up to 175% in severe degeneration, while nucleus pulposus stresses decreased by ~70%, indicating a diminished compressive load-bearing contribution of the nucleus. Model predictions were validated against cadaveric and in vivo data, confirming trends in intradiscal pressure (IDP) reductions (40-70%) and stress elevations. The parametric framework elucidates interactions between geometric and material changes, providing clinicians with insights into degeneration progression and guiding biomedical engineers in implant design and interventions.",
+    "keywords": [
+      "annulus fibrosus",
+      "degenerative spinal diseases",
+      "finite element method",
+      "intervertebral discs",
+      "material modeling",
+      "nucleus pulposus",
+      "numerical modeling",
+      "spinal biomechanics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ardatov, Oleg",
+        "Fernandes, Sofia Rita",
+        "Kilikevicius, Arturas",
+        "Alekna, Vidmantas"
+      ],
+      "short_names": [
+        "Ardatov O",
+        "Fernandes SR",
+        "Kilikevicius A",
+        "Alekna V"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7221-3844",
+        "ORCID: 0000-0002-4039-7300",
+        "ORCID: 0000-0003-3305-0023"
+      ],
+      "affiliations": [
+        "Faculty of Medicine, Vilnius University, LT-03101 Vilnius, Lithuania.",
+        "Faculty of Mechanics, Vilnius Gediminas Technical University, LT-10223 Vilnius, Lithuania.",
+        "Instituto de Biofisica e Engenharia Biomedica, Faculdade de Ciencias, Universidade de Lisboa, 1749-016 Lisboa, Portugal.",
+        "Faculty of Mechanics, Vilnius Gediminas Technical University, LT-10223 Vilnius, Lithuania.",
+        "Faculty of Medicine, Vilnius University, LT-03101 Vilnius, Lithuania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ardatov, Oleg",
+        "short_name": "Ardatov O",
+        "identifiers": [
+          "0000-0002-7221-3844"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Vilnius University, LT-03101 Vilnius, Lithuania.",
+          "Faculty of Mechanics, Vilnius Gediminas Technical University, LT-10223 Vilnius, Lithuania."
+        ]
+      },
+      {
+        "full_name": "Fernandes, Sofia Rita",
+        "short_name": "Fernandes SR",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Biofísica e Engenharia Biomédica, Faculdade de Ciências, Universidade de Lisboa, 1749-016 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Kilikevičius, Artūras",
+        "short_name": "Kilikevičius A",
+        "identifiers": [
+          "0000-0002-4039-7300"
+        ],
+        "affiliations": [
+          "Faculty of Mechanics, Vilnius Gediminas Technical University, LT-10223 Vilnius, Lithuania."
+        ]
+      },
+      {
+        "full_name": "Alekna, Vidmantas",
+        "short_name": "Alekna V",
+        "identifiers": [
+          "0000-0003-3305-0023"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Vilnius University, LT-03101 Vilnius, Lithuania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioengineering (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Bioengineering (Basel)"
+    ],
+    "pub_date": "2026 Feb 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [
+      "42591507",
+      "42072275"
+    ],
+    "refs": [
+      "41079047",
+      "40851096",
+      "40721849",
+      "40615986",
+      "40594376",
+      "40557307",
+      "39219078",
+      "38903189",
+      "38600941",
+      "38495743",
+      "38325217",
+      "36842775",
+      "34340051",
+      "34274895",
+      "33453409",
+      "32476282",
+      "32248941",
+      "32039290",
+      "28582905",
+      "28262607",
+      "27386278",
+      "26873281",
+      "26498120",
+      "24972858",
+      "24482074",
+      "23796430",
+      "23507531",
+      "20936308",
+      "20439162",
+      "19136113",
+      "18007231",
+      "17822814",
+      "17204355",
+      "16524582",
+      "11052356",
+      "10626309",
+      "10222525",
+      "8066518"
+    ],
+    "similar": [
+      "41749773",
+      "31568880",
+      "41230200",
+      "32476282",
+      "36239382",
+      "33248365",
+      "41043673",
+      "11956986",
+      "40887196",
+      "36842775",
+      "40721849",
+      "38600941",
+      "42429863",
+      "42453139",
+      "28910701",
+      "40578009",
+      "20547110",
+      "23507531",
+      "24998992",
+      "20936308",
+      "30074099",
+      "15564922",
+      "23043866",
+      "36218332",
+      "27990418",
+      "34252706",
+      "31092257",
+      "21311928",
+      "27028378",
+      "19035106",
+      "32248941",
+      "36234026",
+      "8235826",
+      "21418980",
+      "38671727",
+      "19771735",
+      "25022861",
+      "25305690",
+      "37583909",
+      "31710870",
+      "17822814",
+      "32809607",
+      "35712878",
+      "39894272",
+      "29758454",
+      "38751866",
+      "41549265",
+      "12365788",
+      "30083805",
+      "33666018",
+      "34121532",
+      "16198356",
+      "38314842",
+      "12898313",
+      "41485018",
+      "35987169",
+      "16959387",
+      "31888664",
+      "41899843",
+      "37744254",
+      "32173034",
+      "37634668",
+      "42229980",
+      "22070332",
+      "31033465",
+      "21785298",
+      "25802581",
+      "42478055",
+      "28582905",
+      "22652989",
+      "9854748",
+      "32908657",
+      "15626975",
+      "31326631",
+      "34876212",
+      "40663217",
+      "19136113",
+      "31733385",
+      "20532944",
+      "41481877",
+      "40668091",
+      "29609581",
+      "19038569",
+      "34418812",
+      "34298452",
+      "27125197",
+      "42006909",
+      "11562150",
+      "38070844",
+      "17383659",
+      "12461394",
+      "42047080",
+      "36330359",
+      "16595441",
+      "34336148",
+      "42382676",
+      "40422293",
+      "35729647",
+      "24503691",
+      "3225494"
+    ],
+    "review": [
+      "41749773",
+      "15564922"
+    ],
+    "pmc": [
+      "12938578"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=bioengineering13020234",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41749773/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36972460",
+  "title": "Intrinsically disordered proteins SAID1/2 condensate on SERRATE for dual inhibition of miRNA biogenesis in Arabidopsis.",
+  "authors": "Shang, Baoshuan; Wang, Lin; Yan, Xingxing; Li, Yanjun; Li, Changhao; Wu, Chaohua; Wang, Tian; Guo, Xiang; Choi, Suk Won; Zhang, Tianru; Wang, Ziying; Tong, Chun-Yip; Oh, Taerin; Zhang, Xiao; Wang, Zhiye; Peng, Xu; Zhang, Xiuren",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-03-28",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究拟南芥中无序蛋白SAID1/2在SERRATE上发生液-液相分离凝聚，通过双重机制（隔离pri-miRNA底物并促进SE磷酸化降解）抑制miRNA生物发生，直接涉及IDP介导的PPI与凝聚体机制建模，虽无AI/物理模拟方法，但机制深度与对象高度契合。",
+  "abstract": "Intrinsically disordered proteins (IDPs) SAID1/2 are hypothetic dentin sialophosphoprotein-like proteins, but their true functions are unknown. Here, we identified SAID1/2 as negative regulators of SERRATE (SE), a core factor in miRNA biogenesis complex (microprocessor). Loss-of-function double mutants of said1; said2 caused pleiotropic developmental defects and thousands of differentially expressed genes that partially overlapped with those in se. said1; said2 also displayed increased assembly of microprocessor and elevated accumulation of microRNAs (miRNAs). Mechanistically, SAID1/2 promote pre-mRNA processing 4 kinase A-mediated phosphorylation of SE, causing its degradation in vivo. Unexpectedly, SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE. Moreover, SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro. Whereas SAID1/2 did not impact SE subcellular compartmentation, the proteins themselves exhibited liquid-liquid phase condensation that is nucleated on SE. Thus, we propose that SAID1/2 reduce miRNA production through hijacking pri-miRNAs to prevent microprocessor activity while promoting SE phosphorylation and its destabilization in Arabidopsis.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) SAID1/2 是假设的牙本质唾液磷蛋白样蛋白，但其真实功能尚不清楚。在此，我们鉴定SAID1/2为SERRATE (SE)的负调控因子，SE是miRNA生物发生复合体（microprocessor）的核心因子。said1; said2双突变体功能缺失导致多效性发育缺陷及数千个差异表达基因，这些基因与se突变体中的部分重叠。said1; said2还表现出microprocessor组装增加及microRNAs (miRNAs)积累升高。机制上，SAID1/2促进pre-mRNA processing 4 kinase A介导的SE磷酸化，导致其在体内降解。意外的是，SAID1/2对发夹结构的pri-miRNAs具有强结合亲和力，并能将其从SE中隔离。此外，SAID1/2在体外直接抑制microprocessor对pri-miRNA的加工。虽然SAID1/2不影响SE的亚细胞区室化，但蛋白本身表现出以SE为成核点的液-液相分离凝聚。因此，我们提出SAID1/2通过劫持pri-miRNAs以阻止microprocessor活性，同时促进SE磷酸化及其不稳定化，从而在拟南芥中减少miRNA产生。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36972460/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36972460/",
+  "paper_page_path": "papers/pubmed/36972460/index.html"
+}

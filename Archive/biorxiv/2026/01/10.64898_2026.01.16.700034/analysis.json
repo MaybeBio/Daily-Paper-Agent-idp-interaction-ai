@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.16.700034",
+  "title": "The isolated <i>Stachel</i> peptide of the adhesion G protein-coupled receptor GPR126 is intrinsically disordered",
+  "authors": "Tucker Shriver; Sandra Berndt; Scott A. Robson; Austin D. Dixon; Ines Liebscher; Joshua J. Ziarek",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物物理实验揭示GPR126受体Stachel肽在溶液中本质无序，并存在少量螺旋构象支持构象选择激活机制，虽涉及IDP与功能机制，但缺乏PPI互作建模及AI/物理模拟方法，故为中档。",
+  "abstract": "Several members of the adhesion subfamily of G protein-coupled receptors (aGPCRs) are capable of self-activation by an internal agonist sequence (aka the Stachel ) that’s exposed upon removal or conformational changes of the N-terminal fragment of the receptor. Synthetic peptides derived from the Stachel sequence can be used as exogenous agonists. In the inactive form, the Stachel is sequestered as the β13-strand within the GPCR Autoproteolysis-INducing (GAIN) domain, but it engages the seven transmembrane region as a helix when it is either an intramolecular sequence or a synthetic peptide. Little is known about the molecular details underlying this transition, but we hypothesize that a disordered conformation is central to this intermediate state in receptor activation. Despite the primarily helical Stachel AlphaFold3 and Pepfold4 models predicted with high confidence for the entire aGPCR subfamily, disorder predictions and biophysical experiments reveal a predominantly disordered conformation in solution. Investigating the ADGRG6/GPR126 Stachel peptide, circular dichroism (CD) and nuclear magnetic resonance (NMR) experiments reveal a predominantly random coil conformation in aqueous buffer, polar detergent micelles, and zwitterionic lipids. Titration of trifluoroethanol uncovered a two-state equilibrium between an unfolded and helix-containing conformation with NMR localizing a single-turn helix to residues L846-L849. Taken together, these data indicate the ADGRG6/GPR126 Stachel peptide is primarily disordered, but small populations may adopt a helix-containing conformer that seems to support a conformational-selection activation mechanism.",
+  "abstract_zh": "G蛋白偶联受体（GPCRs）粘附亚家族的若干成员能够通过内部激动剂序列（即Stachel）实现自激活，该序列在受体N端片段移除或构象变化时暴露。源自Stachel序列的合成肽可用作外源性激动剂。在非活性形式中，Stachel以β13链形式被隔离在GPCR自蛋白水解诱导（GAIN）结构域内，但当其作为分子内序列或合成肽时，则以螺旋形式与七次跨膜区域结合。关于这一转变的分子细节知之甚少，但我们假设无序构象是受体激活中间状态的核心。尽管AlphaFold3和Pepfold4模型以高置信度预测整个aGPCR亚家族主要为螺旋Stachel，但无序预测和生物物理实验揭示其在溶液中主要呈无序构象。研究ADGRG6/GPR126 Stachel肽时，圆二色光谱（CD）和核磁共振（NMR）实验显示，在水性缓冲液、极性去污剂胶束和两性离子脂质中，其主要为无规卷曲构象。三氟乙醇滴定揭示了一个未折叠构象与含螺旋构象之间的两态平衡，NMR将单圈螺旋定位至残基L846-L849。综合来看，这些数据表明ADGRG6/GPR126 Stachel肽主要呈无序状态，但少量群体可能采用含螺旋构象，这似乎支持构象选择激活机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.700034",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.16.700034",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.16.700034/index.html"
+}

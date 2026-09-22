@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.09.588658",
+  "title": "A promiscuous mechanism to phase separate eukaryotic carbon fixation in the green lineage",
+  "authors": "Barrett J; Naduthodi MI; Mao Y; Dégut C; Musiał S; Salter A; Leake MC; Plevin MJ; McCormick AJ; Blaza JN; Mackinder LC",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-11",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过序列无关的生物信息学管道鉴定无序连接蛋白，揭示其与Rubisco保守位点的结合并驱动相分离凝聚体形成，跨物种功能验证了无序蛋白介导PPI的机制建模，对IDR-PPI与相分离机制研究具有高度启发性。",
+  "abstract": "CO 2 fixation is commonly limited by inefficiency of the CO 2 -fixing enzyme Rubisco. Eukaryotic algae concentrate and fix CO 2 in phase-separated condensates called pyrenoids, which complete up to one-third of global CO 2 fixation. Condensation of Rubisco in pyrenoids is dependent on interaction with disordered linker proteins that show little conservation between species. We developed a sequence-independent bioinformatic pipeline to identify linker proteins in green algae. We report the linker from Chlorella and demonstrate that it binds a conserved site on the Rubisco large subunit. We show the Chlorella linker phase separates Chlamydomonas Rubisco and that despite their separation by ∼800 million years of evolution, the Chlorella linker can support the formation of a functional pyrenoid in Chlamydomonas . This cross-species reactivity extends to plants, with the Chlorella linker able to drive condensation of some native plant Rubiscos in vitro and in planta . Our results represent an exciting frontier for pyrenoid engineering in plants, which is modelled to increase crop yields.",
+  "abstract_zh": "CO 2固定通常受限于CO 2固定酶Rubisco的低效率。真核藻类在称为淀粉核（pyrenoids）的相分离凝聚体中浓缩并固定CO 2，这些凝聚体完成了全球CO 2固定的三分之一。Rubisco在淀粉核中的凝聚依赖于与物种间保守性较低的无序连接蛋白的相互作用。我们开发了一种序列无关的生物信息学流程，用于识别绿藻中的连接蛋白。我们报告了来自小球藻（Chlorella）的连接蛋白，并证明其结合Rubisco大亚基上的一个保守位点。我们展示了小球藻连接蛋白能使衣藻（Chlamydomonas）Rubisco发生相分离，并且尽管它们相隔约8亿年的进化，小球藻连接蛋白仍能支持衣藻中功能性淀粉核的形成。这种跨物种反应性延伸至植物，小球藻连接蛋白能够在体外和植物体内驱动某些天然植物Rubisco的凝聚。我们的结果代表了植物淀粉核工程的一个令人兴奋的前沿，该工程被建模用于提高作物产量。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.09.588658",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.09.588658",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.09.588658/index.html"
+}

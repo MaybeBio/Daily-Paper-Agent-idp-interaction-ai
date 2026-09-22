@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "35470621",
+    "doi": "10.13345/j.cjb.210634",
+    "title": "[Intrinsically disordered proteins (IDPs) and the impact on cell stress resistance]."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are proteins or protein regions that fail to get folded into definite three-dimensional structures but participate in various biological processes and perform specific functions. Defying the traditional protein \"sequence-structure-function\" paradigm, they enrich the protein \"structure-function\" diversity. Ubiquitous in organisms, they show extreme hydrophilicity, charged amino acids, and highly repetitive amino acid sequences, with simple arrangement. As a result, they feature highly variable binding affinities and high coordination, which facilitate their functions. IDPs play an important role in cell stress response, which can improve the tolerance to a variety of stresses, such as freezing, high salt, heat shock, and desiccation. In this study, we briefed the characteristics, classifications, and identification of IDPs, summarized the molecular mechanism in improving cell stress resistance, and described the potential applications.",
+    "keywords": [
+      "desiccation tolerance",
+      "freeze tolerance",
+      "heat shock",
+      "intrinsically disordered proteins",
+      "protein function",
+      "salt tolerance",
+      "stress response",
+      "structure prediction"
+    ],
+    "mesh_terms": [
+      "Freezing",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Ning",
+        "Li, Hongxing",
+        "Wu, Longhao",
+        "Yang, Shuo",
+        "Hao, Lujiang",
+        "Bao, Xiaoming"
+      ],
+      "short_names": [
+        "Yan N",
+        "Li H",
+        "Wu L",
+        "Yang S",
+        "Hao L",
+        "Bao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Ning",
+        "short_name": "Yan N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongxing",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Longhao",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuo",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Lujiang",
+        "short_name": "Hao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xiaoming",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan 250353, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sheng wu gong cheng xue bao = Chinese journal of biotechnology"
+    ],
+    "journal_abbrev": [
+      "Sheng Wu Gong Cheng Xue Bao"
+    ],
+    "pub_date": "2022 Apr 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/27 06:00",
+    "fetched_at": "2026-09-20 09:58:54"
+  },
+  "links": {
+    "cites": [
+      "39861533"
+    ],
+    "refs": [],
+    "similar": [
+      "35470621",
+      "31425549",
+      "34390736",
+      "34626492",
+      "24532081",
+      "33148259",
+      "28525284",
+      "30352491",
+      "33230318",
+      "35883018",
+      "38296708",
+      "28867216",
+      "32696375",
+      "31756456",
+      "29982297",
+      "26071212",
+      "28554553",
+      "33137381",
+      "25287424",
+      "25496281",
+      "32020911",
+      "27988422",
+      "27004461",
+      "38097100",
+      "38194282",
+      "24317797",
+      "33355572",
+      "38659213",
+      "36833360",
+      "33945530",
+      "28306513",
+      "24010708",
+      "26851286",
+      "35436286",
+      "36178373",
+      "37219402",
+      "28901557",
+      "34347206",
+      "25863585",
+      "26387101",
+      "29990433",
+      "25611056",
+      "27844185",
+      "34545666",
+      "32103094",
+      "29341926",
+      "29808548",
+      "35034725",
+      "26851284",
+      "30144288",
+      "32771522",
+      "37831084",
+      "26426014",
+      "36291634",
+      "32503351",
+      "29330047",
+      "25502193",
+      "27794210",
+      "26742101",
+      "32034199",
+      "23170892",
+      "29716994",
+      "30445805",
+      "32859072",
+      "23716602",
+      "39025183",
+      "32639157",
+      "31874413",
+      "31382021",
+      "33310020",
+      "26195786",
+      "36257361",
+      "31613621",
+      "29763584",
+      "32165622",
+      "24008243",
+      "30471704",
+      "32696367",
+      "30366362",
+      "30471705",
+      "35454181",
+      "34922214",
+      "27548131",
+      "38114424",
+      "32828470",
+      "24871565",
+      "29385704",
+      "23794453",
+      "30218496",
+      "25331250",
+      "30733475",
+      "32253236",
+      "34032235",
+      "33087759",
+      "26387110",
+      "29306779",
+      "34358545",
+      "37240035",
+      "29068531",
+      "26851279",
+      "31408624",
+      "26387099",
+      "29548979",
+      "32696395",
+      "34197833",
+      "38657047",
+      "34863777",
+      "39358423",
+      "35170314",
+      "39062766",
+      "38096754",
+      "25849651",
+      "36182030",
+      "34981860",
+      "38165099",
+      "38464187",
+      "34992646",
+      "38066072",
+      "33865811",
+      "38796644",
+      "36782353",
+      "24901537",
+      "34766407",
+      "38358259",
+      "38431892",
+      "35327561",
+      "38256256",
+      "35992603",
+      "35968137",
+      "37827403",
+      "28643166",
+      "35289333",
+      "38579677",
+      "38358563",
+      "35177069",
+      "36291736",
+      "38269070",
+      "37720053",
+      "37693177",
+      "35176859",
+      "31528692",
+      "37482543",
+      "24063528",
+      "38579671"
+    ],
+    "review": [
+      "35470621",
+      "34390736",
+      "24532081",
+      "33148259",
+      "30352491",
+      "38296708",
+      "29982297",
+      "28554553",
+      "25287424",
+      "32020911",
+      "27988422",
+      "27004461",
+      "38097100",
+      "33355572",
+      "36833360",
+      "26851286",
+      "37219402",
+      "28901557",
+      "34347206",
+      "25863585",
+      "26387101",
+      "34545666",
+      "30144288",
+      "26426014",
+      "25502193",
+      "27794210",
+      "32034199",
+      "23170892",
+      "30445805",
+      "31874413",
+      "31382021",
+      "36257361",
+      "24008243",
+      "30471705",
+      "34922214",
+      "27548131",
+      "32828470",
+      "23794453",
+      "32253236",
+      "26387110",
+      "29306779",
+      "34358545",
+      "29068531",
+      "26851279",
+      "31408624",
+      "26387099",
+      "35170314",
+      "39062766",
+      "38096754",
+      "25849651",
+      "36782353",
+      "24901537",
+      "38256256",
+      "28643166"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.13345/j.cjb.210634",
+        "provider": "Editorial Office of Sheng Wu Gong Cheng Xue Bao",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

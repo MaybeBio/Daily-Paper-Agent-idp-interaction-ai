@@ -1,0 +1,487 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.14.514089",
+  "title": "De novo design of modular peptide binding proteins by superhelical matching",
+  "doi": "10.1101/2022.11.14.514089",
+  "abstract": "General approaches for designing sequence-specific peptide binding proteins would have wide utility in proteomics and synthetic biology. Although considerable progress has been made in designing proteins which bind to other proteins, the general peptide binding problem is more challenging as most peptides do not have defined structures in isolation, and to offset the loss in solvation upon binding the protein binding interface has to provide specific hydrogen bonds that complement the majority of the buried peptide’s backbone polar groups ( 1 – 3 ). Inspired by natural repeat protein-peptide complexes, and engineering efforts to alter their specificity ( 4 – 11 ), we describe a general approach for de novo design of proteins made out of repeating units that bind peptides with repeating sequences such that there is a one to one correspondence between repeat units on the protein and peptide. We develop a rapid docking plus geometric hashing method to identify protein backbones and protein-peptide rigid body arrangements that are compatible with bidentate hydrogen bonds between side chains on the protein and the backbone of the peptide ( 12 ); the remainder of the protein sequence is then designed using Rosetta to incorporate additional interactions with the peptide and drive folding to the desired structure. We use this approach to design, from scratch, alpha helical repeat proteins that bind six different tripeptide repeat sequences--PLP, LRP, PEW, IYP, PRM and PKW--in near polyproline 2 helical conformations. The proteins are expressed at high levels in E. coli, are hyperstable, and bind peptides with 4-6 copies of the target tripeptide sequences with nanomolar to picomolar affinities both in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including a ladder of protein sidechain to peptide backbone hydrogen bonds. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating sequences, and for naturally occuring proteins containing disordered regions. Our approach provides a general route to designing specific binding proteins for a broad range of repeating and non-repetitive peptide sequences.",
+  "authors": [
+    "Wu K",
+    "Bai H",
+    "Chang Y",
+    "Redler R",
+    "McNally KE",
+    "Sheffler W",
+    "Brunette T",
+    "Hicks DR",
+    "Morgan TE",
+    "Stevens TJ",
+    "Broerman A",
+    "Goreshnik I",
+    "DeWitt M",
+    "Chow CM",
+    "Shen Y",
+    "Stewart L",
+    "Derivery E",
+    "Silva DA",
+    "Bhabha G",
+    "Ekiert D",
+    "Baker D"
+  ],
+  "published_date": "2022-11-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.14.514089",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.14.514089.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR571070",
+    "raw_record": {
+      "id": "PPR571070",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR571070"
+        ]
+      },
+      "doi": "10.1101/2022.11.14.514089",
+      "title": "<i>De novo</i>  design of modular peptide binding proteins by superhelical matching",
+      "authorString": "Wu K, Bai H, Chang Y, Redler R, McNally KE, Sheffler W, Brunette T, Hicks DR, Morgan TE, Stevens TJ, Broerman A, Goreshnik I, DeWitt M, Chow CM, Shen Y, Stewart L, Derivery E, Silva DA, Bhabha G, Ekiert D, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu K",
+            "lastName": "Wu",
+            "firstName": "Kejia",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bai H",
+            "lastName": "Bai",
+            "firstName": "Hua",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chang Y",
+            "lastName": "Chang",
+            "firstName": "Ya-Ting",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, New York University School of Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Redler R",
+            "lastName": "Redler",
+            "firstName": "Rachel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, New York University School of Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNally KE",
+            "lastName": "McNally",
+            "firstName": "Kerrie",
+            "initials": "KE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Cambridge CB2 0QH UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sheffler W",
+            "lastName": "Sheffler",
+            "firstName": "William",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brunette T",
+            "lastName": "Brunette",
+            "firstName": "TJ",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hicks DR",
+            "lastName": "Hicks",
+            "firstName": "Derrick",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morgan TE",
+            "lastName": "Morgan",
+            "firstName": "Tomos",
+            "initials": "TE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3366-8889"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Cambridge CB2 0QH UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stevens TJ",
+            "lastName": "Stevens",
+            "firstName": "Tim",
+            "initials": "TJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Cambridge CB2 0QH UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Broerman A",
+            "lastName": "Broerman",
+            "firstName": "Adam",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Department of Chemical Engineering, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goreshnik I",
+            "lastName": "Goreshnik",
+            "firstName": "Inna",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "DeWitt M",
+            "lastName": "DeWitt",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chow CM",
+            "lastName": "Chow",
+            "firstName": "Cameron",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shen Y",
+            "lastName": "Shen",
+            "firstName": "Yihang",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6161-3906"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stewart L",
+            "lastName": "Stewart",
+            "firstName": "Lance",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Derivery E",
+            "lastName": "Derivery",
+            "firstName": "Emmanuel",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Cambridge CB2 0QH UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Silva DA",
+            "lastName": "Silva",
+            "firstName": "Daniel Adriano",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Division of Life Science, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong"
+                },
+                {
+                  "affiliation": "Monod Bio, Inc, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhabha G",
+            "lastName": "Bhabha",
+            "firstName": "Gira",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, New York University School of Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ekiert D",
+            "lastName": "Ekiert",
+            "firstName": "Damian",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, New York University School of Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Microbiology, New York University School of Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, University of Washington, Seattle, WA, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3366-8889"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6161-3906"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "General approaches for designing sequence-specific peptide binding proteins would have wide utility in proteomics and synthetic biology. Although considerable progress has been made in designing proteins which bind to other proteins, the general peptide binding problem is more challenging as most peptides do not have defined structures in isolation, and to offset the loss in solvation upon binding the protein binding interface has to provide specific hydrogen bonds that complement the majority of the buried peptide’s backbone polar groups (  1 –  3 ). Inspired by natural repeat protein-peptide complexes, and engineering efforts to alter their specificity (  4 –  11 ), we describe a general approach for  de novo design of proteins made out of repeating units that bind peptides with repeating sequences such that there is a one to one correspondence between repeat units on the protein and peptide. We develop a rapid docking plus geometric hashing method to identify protein backbones and protein-peptide rigid body arrangements that are compatible with bidentate hydrogen bonds between side chains on the protein and the backbone of the peptide (  12 ); the remainder of the protein sequence is then designed using Rosetta to incorporate additional interactions with the peptide and drive folding to the desired structure. We use this approach to design, from scratch, alpha helical repeat proteins that bind six different tripeptide repeat sequences--PLP, LRP, PEW, IYP, PRM and PKW--in near polyproline 2 helical conformations. The proteins are expressed at high levels in E. coli, are hyperstable, and bind peptides with 4-6 copies of the target tripeptide sequences with nanomolar to picomolar affinities both in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including a ladder of protein sidechain to peptide backbone hydrogen bonds. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating sequences, and for naturally occuring proteins containing disordered regions. Our approach provides a general route to designing specific binding proteins for a broad range of repeating and non-repetitive peptide sequences.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/15/2022.11.14.514089.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.14.514089"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR571070"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR571070&type=FILE&fileName=EMS157134-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157134",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2022-11-16",
+      "firstPublicationDate": "2022-11-15",
+      "firstIndexDate": "2022-11-16",
+      "fullTextReceivedDate": "2022-11-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

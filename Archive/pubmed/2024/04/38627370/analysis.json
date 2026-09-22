@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38627370",
+  "title": "Tertiary structure and conformational dynamics of the anti-amyloidogenic chaperone DNAJB6b at atomistic resolution.",
+  "authors": "Adupa, Vasista; Ustyantseva, Elizaveta; Kampinga, Harm H; Onck, Patrick R",
+  "journal": "Nature communications",
+  "published_date": "2024-04-17",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用同源建模和微秒级全原子MD研究抗淀粉样伴侣DNAJB6b的构象动态，虽对象为折叠伴侣蛋白而非IDP，但聚焦其调控IDP聚集的构象机制，对无序蛋白互作机制建模有方法学启发。",
+  "abstract": "DNAJB6b is a molecular chaperone of the heat shock protein network, shown to play a crucial role in preventing aggregation of several disease-related intrinsically disordered proteins. Using homology modeling and microsecond-long all-atom molecular dynamics (MD) simulations, we show that monomeric DNAJB6b is a transiently interconverting protein cycling between three states: a closed state, an open state (both abundant), and a less abundant extended state. Interestingly, the reported regulatory autoinhibitory anchor between helix V in the G/F(1) region and helices II/III of the J-domain, which obstructs the access of Hsp70 to the J-domain remains present in all three states. This possibly suggests a mechanistically intriguing regulation in which DNAJB6b only becomes exposed when loaded with substrates that require Hsp70 processing. Our MD results of DNAJB6b carrying mutations in the G/F(1) region that are linked to limb-girdle muscular dystrophy type D1 (LGMDD1) show that this G/F(1) region becomes highly dynamic, pointing towards a spontaneous release of the autoinhibitory helix V from helices II/III. This would increase the probability of non-functional Hsp70 interactions to DNAJB6b without substrates. Our cellular data indeed confirm that non-substrate loaded LGMDD1 mutants have aberrant interactions with Hsp70.",
+  "abstract_zh": "DNAJB6b是热休克蛋白网络中的一种分子伴侣，已被证明在防止多种疾病相关的内在无序蛋白质聚集方面发挥关键作用。通过同源建模和微秒级全原子分子动力学（molecular dynamics, MD）模拟，我们表明单体DNAJB6b是一种瞬时互转换的蛋白质，在三种状态之间循环：闭合状态、开放状态（两者均丰富），以及较少见的延伸状态。有趣的是，已报道的调节性自抑制锚点，位于G/F(1)区域的螺旋V与J结构域的螺旋II/III之间，该锚点阻碍Hsp70进入J结构域，在所有三种状态中均保持存在。这可能暗示一种机制上引人入胜的调控，即DNAJB6b仅在装载需要Hsp70处理的底物时才暴露。我们对携带G/F(1)区域突变（与肢带型肌营养不良症D1型（LGMDD1）相关）的DNAJB6b的MD结果显示，该G/F(1)区域变得高度动态，指向自抑制螺旋V从螺旋II/III自发释放。这将增加无底物时非功能性Hsp70与DNAJB6b相互作用的概率。我们的细胞数据确实证实，未装载底物的LGMDD1突变体与Hsp70存在异常相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38627370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38627370/",
+  "paper_page_path": "papers/pubmed/38627370/index.html"
+}

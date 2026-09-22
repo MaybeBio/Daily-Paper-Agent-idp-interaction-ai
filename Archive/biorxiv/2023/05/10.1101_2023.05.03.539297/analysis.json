@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.03.539297",
+  "title": "Small-molecule binding to an intrinsically disordered protein revealed by experimental NMR <sup>19</sup> F transverse spin-relaxation",
+  "authors": "Gabriella T. Heller; Vaibhav Kumar Shukla; Angelo M. Figueiredo; D. Flemming Hansen",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-04",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用NMR 19F横向弛豫实验表征小分子与无序蛋白NS5A的弱结合，虽以IDP为对象但无PPI机制建模且方法为实验而非AI/物理模拟，仅对无序蛋白配体筛选有间接启发。",
+  "abstract": "Intrinsically disordered proteins are highly dynamic biomolecules that rapidly interconvert between many structural conformations. Traditionally, these proteins have been considered un-druggable because of their lack of classical long-lived binding pockets. Recent evidence suggests that intrinsically disordered proteins can bind small, drug-like molecules, however, there are limited approaches to characterize these interactions experimentally. Here we demonstrate that ligand-detected 19 F transverse relaxation rates ( R 2 ) obtained from Nuclear Magnetic Resonance spectroscopy are highly sensitive to the interaction between a small-molecule and an intrinsically disordered protein, in contrast to chemical shift perturbations which are minimally sensitive for this interaction. With this method, we show that the small molecule, 5-fluoroindole, interacts with the disordered domains of non-structural protein 5A from hepatitis C virus with a K d of 260 ± 110 μM. We also demonstrate that 5-fluoroindole remains highly dynamic in the bound form. Our findings suggest that ligand-detected 19 F transverse relaxation measurements could represent a highly effective screening strategy to identify molecules capable of interacting with these traditionally elusive, dynamic biomolecules.",
+  "abstract_zh": "固有无序蛋白是高度动态的生物分子，能在多种结构构象间快速转换。传统上，这些蛋白因缺乏经典的长寿命结合口袋而被视为不可成药。近期证据表明，固有无序蛋白能够结合小分子药物样化合物，然而，实验表征这些相互作用的方法有限。在此，我们证明，通过核磁共振波谱获得的配体检测19F横向弛豫率（R2）对小分子与固有无序蛋白之间的相互作用高度敏感，相比之下，化学位移扰动对此类相互作用的敏感性极低。利用该方法，我们显示小分子5-氟吲哚与丙型肝炎病毒非结构蛋白5A的无序结构域相互作用，其解离常数Kd为260 ± 110 μM。我们还证明，5-氟吲哚在结合状态下仍保持高度动态。我们的发现表明，配体检测的19F横向弛豫测量可能代表一种高效筛选策略，用于识别能够与这些传统上难以捉摸的动态生物分子相互作用的分子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.03.539297",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.03.539297",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.03.539297/index.html"
+}

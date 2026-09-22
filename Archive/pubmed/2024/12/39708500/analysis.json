@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39708500",
+  "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction.",
+  "authors": "Kotowski, Krzysztof; Roterman, Irena; Stapor, Katarzyna",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-12-22",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基于蛋白语言模型和Attention U-Net的DisorderUnetLM预测无序区域，虽涉及无序蛋白和AI方法，但仅做预测而非PPI互作机制建模，故综合评分为5。",
+  "abstract": "The prediction of intrinsic disorder regions has significant implications for understanding protein functions and dynamics. It can help to discover novel protein-protein interactions essential for designing new drugs and enzymes. Recently, a new generation of predictors based on protein language models (pLMs) is emerging. These algorithms reach state-of-the-art accuracy without calculating time-consuming multiple sequence alignments (MSAs). This article introduces the new DisorderUnetLM disorder predictor, which builds upon the idea of ProteinUnet. It uses the Attention U-Net convolutional network and incorporates features from the ProtTrans pLM. DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs. Moreover, among 43 predictors on the latest CAID-2 benchmark, it ranks 1st for the NOX subset in terms of the ROC-AUC metric (0.844) and 2nd for the AP metric (0.596). For the CAID-2 PDB subset, it ranks in the top 10 (ROC-AUC of 0.924 and AP of 0.862). The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1.",
+  "abstract_zh": "内在无序区域的预测对于理解蛋白质功能和动态具有重要意义。它有助于发现新型蛋白质-蛋白质相互作用，这对设计新药物和酶至关重要。近期，基于蛋白质语言模型（pLMs）的新一代预测器正在兴起。这些算法在不计算耗时的多序列比对（MSAs）的情况下达到了最先进的准确性。本文介绍了新的 DisorderUnetLM 无序预测器，它基于 ProteinUnet 的思想构建，采用 Attention U-Net 卷积网络，并整合了 ProtTrans pLM 的特征。在与近期利用 MSAs 和 pLMs 的预测器直接比较中，DisorderUnetLM 取得了顶尖结果。此外，在最新的 CAID-2 基准测试的 43 个预测器中，它在 NOX 子集上以 ROC-AUC 指标（0.844）排名第一，以 AP 指标（0.596）排名第二。对于 CAID-2 PDB 子集，它位列前十（ROC-AUC 为 0.924，AP 为 0.862）。代码和模型公开可用，并可在 doi.org/10.24433/CO.7350682.v1 完全复现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39708500/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39708500/",
+  "paper_page_path": "papers/pubmed/39708500/index.html"
+}

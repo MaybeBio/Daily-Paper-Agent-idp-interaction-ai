@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38226524",
+  "title": "Random, de novo, and conserved proteins: How structure and disorder predictors perform differently.",
+  "authors": "Middendorf, Lasse; Eicholt, Lars A",
+  "journal": "Proteins",
+  "published_date": "2024-01-16",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究评估AlphaFold2和ESMFold对de novo、随机及保守蛋白的结构与无序预测性能，发现无序与置信度正相关并暗示瞬时结合潜力，虽非直接研究IDR介导的PPI机制，但为无序蛋白结构预测方法适用性提供了可迁移的建模参考。",
+  "abstract": "Understanding the emergence and structural characteristics of de novo and random proteins is crucial for unraveling protein evolution and designing novel enzymes. However, experimental determination of their structures remains challenging. Recent advancements in protein structure prediction, particularly with AlphaFold2 (AF2), have expanded our knowledge of protein structures, but their applicability to de novo and random proteins is unclear. In this study, we investigate the structural predictions and confidence scores of AF2 and protein language model-based predictor ESMFold for de novo and conserved proteins from Drosophila and a dataset of comparable random proteins. We find that the structural predictions for de novo and random proteins differ significantly from conserved proteins. Interestingly, a positive correlation between disorder and confidence scores (pLDDT) is observed for de novo and random proteins, in contrast to the negative correlation observed for conserved proteins. Furthermore, the performance of structure predictors for de novo and random proteins is hampered by the lack of sequence identity. We also observe fluctuating median predicted disorder among different sequence length quartiles for random proteins, suggesting an influence of sequence length on disorder predictions. In conclusion, while structure predictors provide initial insights into the structural composition of de novo and random proteins, their accuracy and applicability to such proteins remain limited. Experimental determination of their structures is necessary for a comprehensive understanding. The positive correlation between disorder and pLDDT could imply a potential for conditional folding and transient binding interactions of de novo and random proteins.",
+  "abstract_zh": "理解从头蛋白质和随机蛋白质的出现及结构特征，对于揭示蛋白质进化和设计新型酶至关重要。然而，实验测定其结构仍具挑战性。蛋白质结构预测的最新进展，特别是AlphaFold2 (AF2)，扩展了我们对蛋白质结构的认识，但其对从头蛋白质和随机蛋白质的适用性尚不明确。在本研究中，我们考察了AF2和基于蛋白质语言模型的预测器ESMFold对来自果蝇的从头蛋白质、保守蛋白质以及一组可比随机蛋白质的结构预测和置信度评分。我们发现，从头蛋白质和随机蛋白质的结构预测与保守蛋白质显著不同。有趣的是，对于从头蛋白质和随机蛋白质，无序性与置信度评分（pLDDT）之间观察到正相关，这与保守蛋白质中观察到的负相关形成对比。此外，结构预测器对从头蛋白质和随机蛋白质的性能受到序列同一性缺乏的阻碍。我们还观察到随机蛋白质在不同序列长度四分位数中预测无序性的中位数波动，表明序列长度对无序性预测有影响。总之，尽管结构预测器为从头蛋白质和随机蛋白质的结构组成提供了初步见解，但其对这些蛋白质的准确性和适用性仍然有限。对其结构的实验测定对于全面理解是必要的。无序性与pLDDT之间的正相关可能暗示从头蛋白质和随机蛋白质具有条件折叠和瞬时结合相互作用的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38226524/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38226524/",
+  "paper_page_path": "papers/pubmed/38226524/index.html"
+}

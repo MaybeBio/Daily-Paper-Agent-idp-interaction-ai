@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40925983",
+  "title": "Navigating condensate micropolarity to enhance small-molecule drug targeting.",
+  "authors": "Ouyang, Jian; Chen, Junlin; Wu, Zhili; You, Kaiqiang; Chen, Taoyu; Gao, Yi Qin; Li, Pilong; Zhang, Xin; Li, Tingting",
+  "journal": "Nature chemical biology",
+  "published_date": "2025-09-10",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究凝聚体微环境极性对疏水小分子药物靶向效率的影响，并用随机森林模型预测抑制剂效率，虽涉及相分离和PPI靶向，但对象为小分子药物而非无序蛋白互作机制建模，方法为简单ML预测，缺乏对IDR介导PPI机制的深入建模。",
+  "abstract": "Many pharmaceutical targets partition into biomolecular condensates, whose microenvironments can significantly influence drug distribution. Nevertheless, it is unclear how drug design principles should adjust for these targets to optimize target engagement. To address this question, we systematically investigated how condensate microenvironments influence drug-targeting efficiency. We found that condensates highlight a notable heterogeneity, with nonpolar-residue-enriched condensates being more hydrophobic and housing more hydrophobic drugs. Furthermore, L1000 dataset analysis revealed a strong positive correlation between inhibitor hydrophobicity and targeting efficiency for phase-separated proteins, represented by estrogen receptor 1 (ESR1) enriched with nonpolar residues. We developed random forest models to predict inhibitor targeting efficiency from molecular properties, with hydrophobicity identified as a key determinant. In cellulo experiments with ESR1 condensates confirmed that both binding affinity and hydrophobicity of inhibitors contribute significantly to potency. These results suggest a new drug design principle for phase-separated proteins by considering condensate micropolarity, potentially leading to drugs with optimal target engagement.",
+  "abstract_zh": "许多药物靶点会分配进入生物分子凝聚体（biomolecular condensates），其微环境可显著影响药物分布。然而，目前尚不清楚药物设计原则应如何针对这些靶点进行调整，以优化靶点结合效率。为解决此问题，我们系统研究了凝聚体微环境如何影响药物靶向效率。我们发现凝聚体表现出显著的异质性，富含非极性残基的凝聚体更具疏水性，并容纳更多疏水性药物。此外，L1000数据集分析显示，对于相分离蛋白（phase-separated proteins），以富含非极性残基的雌激素受体1（ESR1）为代表，抑制剂疏水性与靶向效率之间存在强正相关性。我们开发了随机森林模型，从分子性质预测抑制剂靶向效率，其中疏水性被识别为关键决定因素。在细胞内的ESR1凝聚体实验中，证实抑制剂的结合亲和力和疏水性均显著影响效力。这些结果表明，通过考虑凝聚体微极性，可为相分离蛋白提出新的药物设计原则，有望开发出具有最佳靶点结合效率的药物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40925983/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40925983/",
+  "paper_page_path": "papers/pubmed/40925983/index.html"
+}

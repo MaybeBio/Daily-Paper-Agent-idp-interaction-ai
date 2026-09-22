@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38366971",
+  "title": "Molecular Dynamics Simulations of Polyelectrolyte Complexes.",
+  "authors": "Rajpersaud, Tania; Tabandeh, Sara; Leon, Lorraine; Loverde, Sharon M",
+  "journal": "Biomacromolecules",
+  "published_date": "2024-02-17",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用微秒级分子动力学模拟研究带相反电荷多肽复合物（PECs）的序列依赖性构象与氢键，揭示疏水性和手性对链间互作及二级结构的影响，与无序蛋白介导的相分离PPI机制建模高度相关。",
+  "abstract": "Polyelectrolyte complexes (PECs) are currently of great interest due to their applications toward developing new adaptive materials and their relevance in membraneless organelles. These complexes emerge during phase separation when oppositely charged polymers are mixed in aqueous media. Peptide-based PECs are particularly useful toward developing new drug delivery methods due to their inherent biocompatibility. The underlying peptide sequence can be tuned to optimize specific material properties of the complex, such as interfacial tension and viscosity. Given their applicability, it would be advantageous to understand the underlying sequence-dependent phase behavior of oppositely charged peptides. Here, we report microsecond molecular dynamic simulations to characterize the effect of hydrophobicity on the sequence-dependent peptide conformation for model polypeptide sequences that were previously reported by Tabandeh et al. These sequences are designed with alternating chirality of the peptide backbone. We present microsecond simulations of six oppositely charged peptide pairs, characterizing the sequence-dependent effect on peptide size, degree of hydrogen bonding, secondary structure, and conformation. This analysis recapitulates sensible trends in peptide conformation and degree of hydrogen bonding, consistent with experimentally reported results. Ramachandran plots reveal that backbone conformation at the single amino acid level is highly influenced by the neighboring sequence in the chain. These results give insight into how subtle changes in hydrophobic side chain size and chirality influence the strength of hydrogen bonding between the chains and, ultimately, the secondary structure. Furthermore, principal component analysis reveals that the minimum energy structures may be subtly modulated by the underlying sequence.",
+  "abstract_zh": "聚电解质复合物（PECs）因其在开发新型自适应材料中的应用及与无膜细胞器（membraneless organelles）的相关性而备受关注。这些复合物在带相反电荷的聚合物于水介质中混合时发生相分离（phase separation）过程中形成。基于肽的PECs因其固有的生物相容性，在开发新型药物递送方法方面尤为有用。底层肽序列可被调控以优化复合物的特定材料性质，如界面张力和粘度。鉴于其适用性，理解带相反电荷肽的序列依赖性相行为将是有益的。在此，我们报告了微秒级分子动力学（molecular dynamics）模拟，以表征疏水性对模型多肽序列的序列依赖性肽构象的影响，这些序列先前由Tabandeh等人报道。这些序列设计为肽骨架的交替手性。我们展示了六个带相反电荷肽对的微秒级模拟，表征了序列依赖性对肽尺寸、氢键程度、二级结构和构象的影响。该分析重现了肽构象和氢键程度的合理趋势，与实验报道结果一致。拉马钱德兰图（Ramachandran plots）揭示，单氨基酸水平的骨架构象受链中邻近序列的高度影响。这些结果深入揭示了疏水性侧链大小和手性的微妙变化如何影响链间氢键强度，并最终影响二级结构。此外，主成分分析（principal component analysis）表明，最小能量结构可能受底层序列的微妙调节。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38366971/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38366971/",
+  "paper_page_path": "papers/pubmed/38366971/index.html"
+}

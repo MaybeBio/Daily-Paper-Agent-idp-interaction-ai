@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, experimental logic, claims versus evidence, technical soundness, and clarity. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors identify a cytoplasmic isoform of hnRNPAB (hnRNPAB X2) enriched in Xenopus oocyte L-bodies, show that both its RBDs and IDR contribute to L-body localization and dynamics, demonstrate in vitro phase separation of the isolated domains, and propose an additive model for protein enrichment in biomolecular condensates.
+- **Visible evidence base** Main text figures 1-5 (referenced but not provided), supplementary figures S1-S3 (referenced but not provided), methods section, and abstract. No raw data, no figure panels, no statistical outputs, no supplementary tables.
+- **Missing materials affecting confidence** All figures and supplementary materials are absent. This includes the primary imaging data (Figure 1, 2, 5), FRAP recovery curves and statistics (Figure 4), in vitro phase separation images (Figure 3), PLAAC analysis output (Figure S1), qPCR data (Figure 1d), and all supplementary tables. Without these, quantitative claims and image-based conclusions cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: how IDRs and RBDs contribute to protein recruitment in biomolecular condensates in a living cell context. The use of Xenopus oocyte L-bodies as a model system is appropriate and leverages a physiologically relevant, long-lived condensate. The identification of a cytoplasmic hnRNPAB isoform and the systematic domain dissection are logical and well motivated. However, the evidence as presented in the text alone is insufficient to fully evaluate the strength of the claims. The key quantitative results (enrichment scores, FRAP parameters, statistical comparisons) are described only in words, and the figures that would support them are not available. The in vitro phase separation data are described qualitatively. The additive model proposed is plausible but is not directly tested; it is inferred from domain-level observations. The manuscript is clearly written and the logic is easy to follow, but the absence of the visual and quantitative evidence base prevents a full assessment of technical soundness.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, RNA binding proteins, and RNA localization. The work is also relevant to those interested in the in vivo relevance of in vitro phase separation principles, and to the Xenopus oocyte community. The additive model proposed could inform future studies on condensate composition and dynamics.
+- **Major strengths** 1. The study addresses an important gap: how in vitro phase separation principles translate to in vivo condensate recruitment. 2. The use of a long-lived, endogenous condensate (L-bodies) is a strong experimental choice. 3. The identification and characterization of a novel cytoplasmic isoform (hnRNPAB X2) adds biological novelty. 4. The domain dissection approach is systematic and the inclusion of both localization and dynamics (FRAP) is commendable. 5. The chimeric protein experiment (PTBP3+IDR) is a clever test of the IDR's influence on dynamics.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that hnRNPAB X2 is "highly enriched" in L-bodies and that RBD and IDR domains each contribute to enrichment is central to the paper.  
+  - **Evidence pointer** Figure 1a, 1e, 2b-e, 2f; location not provided  
+  - **Concern** The enrichment scores (0-3 scale) are described as significantly different, but the actual distributions, number of oocytes, number of L-bodies scored, and statistical tests are not reported in the text. The images that would visually support these claims are not available.  
+  - **Why it matters** The central conclusion that both domains contribute to L-body localization rests entirely on this scoring. Without the underlying data, the claim cannot be evaluated.  
+  - **Resolution test** Provide the scoring distributions, sample sizes, and statistical outputs. Include representative images with scale bars and clear colocalization evidence.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that full-length hnRNPAB X2 forms "irregularly shaped assemblies consistent with static structures" while RBD and IDR form "dynamic liquid assemblies" in vitro.  
+  - **Evidence pointer** Figure 3a-d; location not provided  
+  - **Concern** The description is qualitative. No quantitative measures of material properties (e.g., viscosity, fusion times, FRAP in vitro) are provided. The distinction between "static" and "liquid" is based on visual inspection alone.  
+  - **Why it matters** The in vitro data are used to support the model that both domains contribute to self-association. Without quantitative characterization, the nature of the assemblies is unclear.  
+  - **Resolution test** Provide quantitative characterization of the assemblies, such as fusion time analysis, fluorescence recovery after photobleaching in vitro, or rheological measurements. At minimum, provide representative time-lapse images.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that hnRNPAB X2 is "completely dynamic" in L-bodies with a mobile fraction of 100%, and that RBD and IDR have shorter t1/2 than full-length.  
+  - **Evidence pointer** Figure 4b-d; location not provided  
+  - **Concern** FRAP parameters (mobile fraction, t1/2) are reported in the text, but the recovery curves, number of L-bodies analyzed, and statistical comparisons are not shown. The claim that RBD and IDR have significantly shorter t1/2 is not supported by any visible data.  
+  - **Why it matters** The dynamics data are key to the model that both domains influence protein behavior in condensates. Without the actual curves and statistics, the conclusions are not verifiable.  
+  - **Resolution test** Provide FRAP recovery curves with error bars, sample sizes, and statistical test outputs.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Logical inference  
+  - **Claim pointer** The additive model proposed in the Discussion is presented as the main conceptual outcome.  
+  - **Evidence pointer** Discussion; location not provided  
+  - **Concern** The model is inferred from the observation that neither domain alone replicates full-length behavior. However, no experiment directly tests additivity (e.g., combining domains from different proteins, or mutating one domain in the full-length context).  
+  - **Why it matters** The model is a central claim of the paper, but it is not directly tested. It remains a plausible interpretation rather than a demonstrated mechanism.  
+  - **Resolution test** Perform a direct test, such as mutating the RBD or IDR in the full-length protein and measuring enrichment and dynamics, or swapping domains between proteins.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Figure 1d  
+  - **Evidence pointer** Figure 1d; location not provided  
+  - **Issue** The qPCR data showing ~10-fold higher expression of hnRNPAB X2 compared to canonical hnRNPAB is mentioned, but the normalization strategy and error bars are not described.  
+  - **Required correction** Clarify the reference gene and provide the qPCR data with error bars and statistical analysis.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Methods, in vitro phase separation  
+  - **Evidence pointer** Methods, "Differential interference contrast microscopy"; location not provided  
+  - **Concern** The protein concentration (50 µM) and buffer conditions are stated, but the RNA concentration used in the "presence of RNA" condition is not specified.  
+  - **Required correction** Specify the RNA concentration and the RNA sequence or type used.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Figure 2f  
+  - **Evidence pointer** Figure 2f; location not provided  
+  - **Issue** The scoring scale (0-3) is described, but the criteria for each score are not defined.  
+  - **Required correction** Define the scoring criteria explicitly in the methods or figure legend.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Discussion  
+  - **Evidence pointer** Discussion; location not provided  
+  - **Issue** The statement that the nuclear form of hnRNPAB is "not assembled into granules" is presented without direct evidence in the text.  
+  - **Required correction** Provide a reference or data supporting this claim, or soften the language to reflect that it was not directly tested here.
+
+## Risk / unsupported claims
+- The claim that hnRNPAB X2 is "highly enriched" in L-bodies is not verifiable without the scoring data and images.
+- The claim that full-length hnRNPAB X2 forms "static" assemblies while domains form "liquid" assemblies is not quantitatively supported.
+- The claim that RBD and IDR have significantly different t1/2 values from full-length is not verifiable without FRAP curves and statistics.
+- The additive model is presented as a conclusion but is not directly tested.
+- The statement that the nuclear form of hnRNPAB is not assembled into granules is not supported by data in the text.
+- The qPCR claim of ~10-fold higher expression of hnRNPAB X2 is not verifiable without the data.

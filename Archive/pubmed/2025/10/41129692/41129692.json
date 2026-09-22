@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "41129692",
+    "doi": "10.1021/acs.jpcb.5c05390",
+    "title": "Energy Landscape and Kinetic Analysis of Molecular Dynamics Simulations for Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Understanding the conformational dynamics of biomolecules requires methods that go beyond structural sampling and provide a quantitative description of thermodynamics and kinetics. For intrinsically disordered proteins (IDPs), energy landscape characterization is particularly crucial to unravel their complex conformational behavior. Here, we present a comprehensive protocol for analyzing molecular dynamics (MD) simulations in terms of energy landscapes, metastable states, and transition pathways. Our approach is based on the distribution of reciprocal interatomic distances (DRID) for dimensionality reduction, followed by clustering and kinetic modeling. Free energy surfaces and transition state barriers are computed directly from the simulation data and visualized using disconnectivity graphs. The method integrates two Python packages, DRIDmetric and freenet, with standard energy landscape tools based on kinetic transition networks, including PATHSAMPLE and disconnectionDPS. We demonstrate this workflow for simulations of the intrinsically disordered, aggregation-prone Alzheimer's amyloid-beta peptide in physiologically relevant environments. This modular framework offers a robust and interpretable way to extract thermodynamic and kinetic insights from MD data and is especially valuable for characterizing the diverse conformational states of IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Kinetics",
+      "Thermodynamics",
+      "*Amyloid beta-Peptides/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schaffler, Moritz",
+        "Wales, David J",
+        "Strodel, Birgit"
+      ],
+      "short_names": [
+        "Schaffler M",
+        "Wales DJ",
+        "Strodel B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3555-6645",
+        "ORCID: 0000-0002-8734-7765"
+      ],
+      "affiliations": [
+        "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW Cambridge, U.K.",
+        "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, 40225 Dusseldorf, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schäffler, Moritz",
+        "short_name": "Schäffler M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Jülich, 52428 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Wales, David J",
+        "short_name": "Wales DJ",
+        "identifiers": [
+          "0000-0002-3555-6645"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW Cambridge, U.K."
+        ]
+      },
+      {
+        "full_name": "Strodel, Birgit",
+        "short_name": "Strodel B",
+        "identifiers": [
+          "0000-0002-8734-7765"
+        ],
+        "affiliations": [
+          "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Jülich, 52428 Jülich, Germany.",
+          "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, 40225 Düsseldorf, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Nov 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 18:26",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [
+      "42577232",
+      "42530797",
+      "42412272"
+    ],
+    "refs": [
+      "40641247",
+      "39479923",
+      "39034652",
+      "37555670",
+      "37510997",
+      "36947617",
+      "36876912",
+      "35801700",
+      "34784548",
+      "34768961",
+      "34358545",
+      "34137605",
+      "34040740",
+      "34027669",
+      "33269918",
+      "33032418",
+      "31192324",
+      "30689864",
+      "30133296",
+      "27819658",
+      "26592131",
+      "26574340",
+      "26498066",
+      "25648594",
+      "25526107",
+      "25256598",
+      "22404930",
+      "21760975",
+      "18351591",
+      "17657567",
+      "12423364",
+      "9895674",
+      "9878442",
+      "9693002",
+      "7588758"
+    ],
+    "similar": [
+      "41129692",
+      "35934194",
+      "30708285",
+      "29364151",
+      "28926706",
+      "30865832",
+      "27588692",
+      "23811057",
+      "34358545",
+      "33355572",
+      "38928405",
+      "26498066",
+      "41259435",
+      "33574233",
+      "30433786",
+      "30840442",
+      "38018910",
+      "34152264",
+      "28970487",
+      "32623047",
+      "32145946",
+      "30876367",
+      "24410358",
+      "28914483",
+      "28226222",
+      "39225535",
+      "38481374",
+      "39561991",
+      "39988900",
+      "36641212",
+      "33233894",
+      "40172236",
+      "40853068",
+      "32579908",
+      "39555603",
+      "25625937",
+      "34845619",
+      "38275091",
+      "32859072",
+      "39285530",
+      "37606640",
+      "38116756",
+      "34680048",
+      "27727496",
+      "40907012",
+      "32419254",
+      "39807013",
+      "30811210",
+      "25855872",
+      "39983022",
+      "40768165",
+      "37108059",
+      "30730736",
+      "31362509",
+      "24446368",
+      "33444020",
+      "41225715",
+      "35167081",
+      "29490247",
+      "29990433",
+      "26575776",
+      "25844814",
+      "41083275",
+      "32696368",
+      "37646172",
+      "26453216",
+      "34656328",
+      "33567297",
+      "25330398",
+      "25387963",
+      "29235155",
+      "30259679",
+      "35543707",
+      "30979035",
+      "39862593",
+      "23912807",
+      "29907037",
+      "24589355",
+      "24021023",
+      "21056574",
+      "39740355",
+      "32345723",
+      "41082321",
+      "29186229",
+      "39588651",
+      "31470695",
+      "23640306",
+      "35174713",
+      "35298814",
+      "33174726",
+      "40068541",
+      "40308178",
+      "33466075",
+      "29571707",
+      "29080468",
+      "38173388",
+      "37452752",
+      "28111343",
+      "40042172",
+      "25207671"
+    ],
+    "review": [
+      "41129692",
+      "29364151",
+      "34358545",
+      "33355572",
+      "30840442",
+      "28226222",
+      "39555603",
+      "25625937",
+      "34680048",
+      "25844814",
+      "33567297",
+      "30979035",
+      "39740355",
+      "40068541"
+    ],
+    "pmc": [
+      "12598854"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41129692/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c05390",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

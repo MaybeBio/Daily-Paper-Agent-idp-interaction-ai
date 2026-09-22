@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "37968037",
+    "doi": "10.1016/bs.accb.2023.10.003",
+    "title": "Computational modeling of protein-carbohydrate interactions: Current trends and future challenges."
+  },
+  "content": {
+    "abstract": "The article leads the reader through an up-to-date presentation of the concepts, developments, and main applications of computational modeling to study protein-carbohydrate interactions. It follows with the presentation of some current issues and perspectives arising from the expected evolution of generic methodological developments in deep learning, immersive analytics, and virtual reality for molecular visualization and data management. Such methodological developments for macromolecular interactions would greatly benefit a wide range of scientific endeavors in the field of carbohydrate chemistry and biochemistry, including the following interrelated efforts dealing with highly crowded media, with examples concerning glycoside transferases, the extracellular matrix, and the exploration of interactions between complex carbohydrates and intrinsically disordered proteins.",
+    "keywords": [
+      "Data management",
+      "Deep learning",
+      "Extracellular matrix",
+      "Glycosyl transferases",
+      "Immersive analytics",
+      "Intrinsically disordered proteins",
+      "Protein-carbohydrate interactions",
+      "Virtual reality"
+    ],
+    "mesh_terms": [
+      "Computer Simulation",
+      "*Virtual Reality",
+      "Carbohydrates/chemistry",
+      "*Intrinsically Disordered Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perez, Serge"
+      ],
+      "short_names": [
+        "Perez S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre de Recherches sur les Macromolecules Vegetales, CNRS, Universite Grenoble Alpes, Grenoble, France. Electronic address: serge.perez@cermav.cnrs.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pérez, Serge",
+        "short_name": "Pérez S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherches sur les Macromolécules Végétales, CNRS, Université Grenoble Alpes, Grenoble, France. Electronic address: serge.perez@cermav.cnrs.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in carbohydrate chemistry and biochemistry"
+    ],
+    "journal_abbrev": [
+      "Adv Carbohydr Chem Biochem"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/16 00:42",
+    "fetched_at": "2026-09-21 02:50:54"
+  },
+  "links": {
+    "cites": [
+      "41930484",
+      "39958819"
+    ],
+    "refs": [],
+    "similar": [
+      "37968037",
+      "23912807",
+      "29982237",
+      "33167839",
+      "25480504",
+      "16001416",
+      "31658575",
+      "36598872",
+      "30940026",
+      "29897886",
+      "35607477",
+      "33501097",
+      "33104068",
+      "37040254",
+      "35786859",
+      "29151194",
+      "23254804",
+      "20594934",
+      "29392522",
+      "37028309",
+      "31065173",
+      "31172325",
+      "34337564",
+      "31226995",
+      "28985656",
+      "34076589",
+      "36035840",
+      "30529747",
+      "34552628",
+      "33816912",
+      "30738026",
+      "32487732",
+      "30657889",
+      "36592277",
+      "24589355",
+      "37291856",
+      "31644471",
+      "36959332",
+      "30642663",
+      "34884091",
+      "31078869",
+      "32163337",
+      "33560980",
+      "30117156",
+      "35671125",
+      "25464084",
+      "32007483",
+      "32196545",
+      "32816750",
+      "35468062",
+      "30136991",
+      "37338732",
+      "32604642",
+      "34175566",
+      "31824649",
+      "33264739",
+      "37878454",
+      "28893908",
+      "33497990",
+      "30872760",
+      "28003858",
+      "30689864",
+      "33798987",
+      "35204709",
+      "27867214",
+      "36141551",
+      "7764557",
+      "32120088",
+      "31338782",
+      "34174345",
+      "31280803",
+      "34905768",
+      "29573987",
+      "31985431",
+      "30762554",
+      "31710727",
+      "35250708",
+      "37422335",
+      "32623059",
+      "36065364",
+      "28637947",
+      "35179885",
+      "25285906",
+      "37172160",
+      "32365452",
+      "25544254"
+    ],
+    "review": [
+      "37968037",
+      "33167839",
+      "25480504",
+      "37040254",
+      "35786859",
+      "20594934",
+      "37028309",
+      "31065173",
+      "34337564",
+      "31226995",
+      "28985656",
+      "30738026",
+      "30657889",
+      "36959332",
+      "30642663",
+      "31078869",
+      "30117156",
+      "25464084",
+      "32007483",
+      "32196545",
+      "32816750",
+      "33497990",
+      "28003858",
+      "33798987",
+      "35204709",
+      "36141551",
+      "32120088",
+      "37422335",
+      "28637947",
+      "35179885"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0065-2318(23)00003-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

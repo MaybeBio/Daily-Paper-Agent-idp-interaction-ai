@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplementary figure references
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors use residue-resolution coarse-grained molecular dynamics simulations and graph-theoretic analysis to argue that biomolecular condensates formed by prion-like low-complexity domains and binary YS sequences exhibit "small-world" network microstructures that are invariant to large variations in sequence composition, patterning, and macroscopic properties such as surface tension.
+- **Visible evidence base** Main text figures referenced (Fig. 1a–i, Fig. 2a–f, Fig. 3a–e, Fig. 4a–h, Fig. 5a–f), supplementary figures referenced (Fig. S6, S7–S10, S11–S14, S15–S18, S19a–c), methods descriptions, and simulation parameters
+- **Missing materials affecting confidence** Actual figure data and plots not visible; supplementary information not provided; exact sequence lists not shown; statistical error bars and convergence criteria not fully described; simulation reproducibility details (force field parameters, box sizes, equilibration protocols) only partially specified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of condensate microstructure using graph-theoretic measures applied to coarse-grained simulations. The central claim that small-world network topology is conserved across diverse sequence compositions while macroscopic properties vary is potentially interesting and could have implications for understanding condensate design principles. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of this claim. The reliance on a single interaction threshold, the limited number of biological sequences, and the absence of visible quantitative comparisons between systems weaken the current case. The work is technically competent in its use of established simulation and graph theory methods, but the conceptual advance over prior lattice simulations is incremental rather than transformative.
+- **Who would be interested in the results, and why** Researchers in the biomolecular condensate field, particularly those studying sequence-encoded phase behavior and material properties; computational biophysicists interested in network representations of soft matter; and experimentalists seeking predictions about internal condensate organization that could be tested with super-resolution microscopy or rheology.
+- **Major strengths** The combination of molecular simulation with graph-theoretic analysis is appropriate and well-executed. The systematic variation of sequence composition and patterning in the YS model system provides a controlled framework for isolating sequence effects. The identification of hubs and cliques as distinct topological features with spatial and temporal signatures offers a concrete, testable framework for interpreting mesoscale inhomogeneities. The authors are appropriately cautious in acknowledging limitations of the small-world estimators.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of network construction
+  - **Claim pointer** The claim that condensates exhibit "small-world" network microstructures depends entirely on the choice of interaction energy threshold of −5kBT for defining edges.
+  - **Evidence pointer** Methods section "Construction of interaction graphs"; Fig. 2b
+  - **Concern** The manuscript justifies the −5kBT threshold by noting it exceeds five strong Y–Y interactions, but no systematic sensitivity analysis is presented. The authors acknowledge that 33% of interactions exceed 5kBT and 14% exceed 10kBT, yet the dependence of the reported small-world measures (σsw, ωsw) on this threshold is not examined. If the small-world classification is robust, this should be demonstrated; if it is threshold-dependent, the central claim is substantially weakened.
+  - **Why it matters** The invariance claim is the central finding of the paper. If the small-world topology only emerges at a specific, arbitrarily chosen threshold, the conclusion that microstructure is "invariant" to sequence properties becomes an artifact of the analysis procedure rather than a physical property of the condensates.
+  - **Resolution test** Provide a threshold sweep (e.g., −2kBT to −10kBT) showing that σsw and ωsw values and the qualitative conclusions remain unchanged, or explicitly discuss the range of thresholds over which the small-world classification holds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for invariance claim
+  - **Claim pointer** The abstract and discussion claim that microstructure is "invariant" to sequence-encoded molecular and macroscopic properties, and that small-worldness is "consistent across an order-of-magnitude change in hydrophobic content."
+  - **Evidence pointer** Fig. 2d–f; Fig. 3d–e; Discussion section
+  - **Concern** The invariance claim is based on four biological LCD sequences and a set of YS variants, but the statistical comparison between systems is not presented in the text. The authors state that small-world parameters are "within error" of each other, but no error bars, confidence intervals, or statistical tests are shown in the visible text. Furthermore, the four LCDs vary in length (97–280 residues), which the authors themselves note correlates with small-worldness, confounding the claim that composition is not the determining factor.
+  - **Why it matters** The central conclusion of the paper rests on a null result: that microstructure does not vary with sequence. Null claims require explicit statistical demonstration of equivalence, not merely the absence of visible differences. Without this, the invariance claim is not established.
+  - **Resolution test** Provide quantitative comparison of σsw and ωsw distributions across all systems with appropriate statistical tests (e.g., bootstrap confidence intervals, ANOVA), and explicitly separate length effects from composition effects, possibly by simulating length-matched YS variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The discussion states that "LCD-like sequences inherently form stable, small-world microstructures" and suggests this is a general principle for condensate design.
+  - **Evidence pointer** Discussion section; Fig. 2d–e
+  - **Concern** The study is limited to single-component condensates of one class of sequences (prion-like LCDs and binary YS polymers) at a single temperature (0.9Tc) and density (0.05 g cm−3). The claim of generality is not supported by the evidence presented. The authors do not test whether small-world topology persists across different temperatures, densities, or interaction types (e.g., electrostatic, charge-mediated). The single-component restriction is particularly limiting given that biological condensates are multicomponent.
+  - **Why it matters** The stated implications for "designing soft materials with stable internal architectures" and for understanding biological condensates require evidence that the findings extend beyond the narrow parameter range studied. Without such evidence, the claims of generality are speculative.
+  - **Resolution test** Add simulations at multiple temperatures and densities, or at minimum, temper the language to clearly state the limited parameter range over which the conclusions apply.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Surface tension calculation
+  - **Evidence pointer** Methods section "Surface tension calculation"
+  - **Issue** The description of the stress-profile method is brief and the equation for surface tension is not fully defined in the visible text. The symbols σii and the integration limits are not clearly explained.
+  - **Required correction** Provide a more complete derivation or reference for the stress-profile method, and define all symbols in the equation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion of hub and clique dynamics
+  - **Evidence pointer** Fig. 3c–e; Discussion section
+  - **Issue** The claim that hub molecules "rapidly interchange roles" is based on lifetime measurements, but the timescale of these interchanges relative to condensate dynamics is not contextualized. It is unclear whether 1–2 ns hub lifetimes are fast or slow compared to other relevant timescales in the system.
+  - **Required correction** Provide context for the timescales, such as comparison to the simulation timescale, diffusion times, or experimental measurements of condensate dynamics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of data
+  - **Affected element** Fig. 1g and h
+  - **Evidence pointer** Fig. 1g and h
+  - **Issue** The text states that surface tension increases with sequence length and hydrophobicity, but the figures are not visible in the provided text. The quantitative relationships and their statistical significance cannot be assessed.
+  - **Required correction** Ensure that the figures clearly show the trends with appropriate error bars and statistical annotations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "invariant"
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "invariant" is strong and may overstate the findings. The data appear to show that small-world measures are similar within error across systems, not that they are mathematically invariant. This terminology could be misleading.
+  - **Required correction** Consider using "conserved" or "robust" instead of "invariant," or explicitly define the sense in which the microstructure is invariant.
+
+## Risk / unsupported claims
+- The claim that small-world microstructure is "invariant" to sequence properties is not statistically established from the visible evidence; no quantitative equivalence testing is presented.
+- The claim that hubs and cliques are "spatially segregated" with cliques near interfaces is based on radial distribution analysis, but the statistical significance of this segregation is not demonstrated in the visible text.
+- The claim that the observed phenomena are not due to finite-size effects is supported only by a single larger simulation (3375 copies of FUS-LCD) referenced as Fig. S6, which is not visible.
+- The claim that crowding does not account for the observed phenomena is based on ϕrel calculations, but the relationship between ϕrel values and the observed trends is not quantitatively analyzed in the visible text.
+- The generalizability of the findings to multicomponent condensates, different interaction types, and broader parameter ranges is asserted but not tested.
+- The relationship between the computational findings and experimental observations of nanoscale clustering (ref. 40) is suggestive but not quantitatively established.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or quantitative results were available for inspection
+- **Shared manuscript claim summary** The authors report that the four-point OPC water model, despite its growing popularity for nucleic acid simulations, causes large-scale unfolding of three structured RNAs and disruption of a protein-RNA interface when combined with the OL3 AMBER RNA force field, whereas three-point water models yield stable simulations. A similar destabilizing effect is reported for the TIP4PD water model with the DES-Amber RNA force field. The authors attribute the effect to higher affinity of OPC waters for RNA H-bond donor and acceptor groups and recommend caution in using these four-point models for structured RNA simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material were provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system preparation details, trajectory analyses, quantitative stability metrics, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important observation with direct relevance to the molecular dynamics simulation community. The claim that a widely adopted water model destabilizes structured RNAs is consequential and, if rigorously supported, would warrant a significant cautionary note in the field. However, the abstract alone provides no quantitative evidence, no methodological detail, and no statistical assessment. The mechanistic explanation offered is plausible but speculative at this stage. The conclusion that three-point models are "more realistic alternatives" is a strong claim that cannot be evaluated from the supplied material. The work is of interest to computational biophysicists and nucleic acid simulation practitioners, but the evidence base is insufficient to assess technical soundness or to establish the case as presented.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists who use molecular dynamics to study nucleic acids, developers of water models and force fields, and researchers who rely on AMBER force fields for RNA structure-function studies. The results, if confirmed, would affect model selection for a broad range of RNA simulation studies.
+- **Major strengths** The study addresses a timely and practical question about water model choice in RNA simulations. The comparison across multiple water models and three structurally diverse RNA systems, including a protein-RNA complex, is a sensible design. The observation of a consistent destabilizing effect across all three systems with OPC strengthens the plausibility of a general phenomenon.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that OPC causes "large-scale unfolding" of all three RNAs and "loss of the L1 stalk protein-RNA interface"  
+  - **Evidence pointer** Abstract only; no figures or quantitative metrics provided  
+  - **Concern** No quantitative data are presented to support the claim of unfolding. Terms such as "large-scale unfolding" and "entirely stable" are qualitative and require operational definitions, such as root-mean-square deviation from native structure, fraction of native contacts, or hydrogen bond occupancy over time. Without these metrics, the severity and reproducibility of the effect cannot be assessed.  
+  - **Why it matters** The central conclusion rests on the contrast between stable and unstable trajectories. If the stability criteria are not defined and quantified, the reader cannot judge whether the observed differences are meaningful or within normal simulation variability.  
+  - **Resolution test** Provide time series of structural metrics for each system and water model, with replicate trajectories and statistical comparison between conditions. Define thresholds for "unfolding" and "stability" a priori.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The abstract states that "the underlying cause seems to be the higher affinity of the OPC waters to H-bond donor and acceptor groups of the RNA, disrupting the native solute-solute interactions"  
+  - **Evidence pointer** Abstract only; no supporting analysis provided  
+  - **Concern** The proposed mechanism is presented as a likely explanation but no evidence is shown to support it. No data on water residence times, hydrogen bond occupancy between water and RNA, or competition between water-RNA and RNA-RNA hydrogen bonds are provided. The mechanism may be correct, but it is currently speculative.  
+  - **Why it matters** A mechanistic claim without supporting data weakens the explanatory power of the study and may mislead readers into accepting an untested hypothesis as established.  
+  - **Resolution test** Provide quantitative analysis of water-RNA hydrogen bond lifetimes and occupancies compared to RNA-RNA hydrogen bond occupancies in OPC versus three-point models, and show that the difference correlates with the observed destabilization.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability of conclusion  
+  - **Claim pointer** The abstract concludes that "in combination with the current AMBER RNA FFs, the three-point water models may provide more realistic alternatives"  
+  - **Evidence pointer** Abstract only; no comparison to experimental data provided  
+  - **Concern** The claim that three-point models are "more realistic" implies a benchmark against experimental reference data. No experimental comparison is mentioned in the abstract. Stability in a simulation does not necessarily equate to accuracy, and the possibility that three-point models are simply more forgiving of force field inaccuracies is not addressed.  
+  - **Why it matters** The recommendation to prefer three-point models is only justified if the simulations with those models reproduce experimentally known structures and dynamics more faithfully than OPC simulations. Without such a benchmark, the recommendation is premature.  
+  - **Resolution test** Compare simulation ensembles from each water model against experimental data, such as nuclear magnetic resonance or small-angle X-ray scattering derived observables, for at least one of the RNA systems.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and protocol transparency  
+  - **Claim pointer** The abstract states that simulations were performed with "the common OL3 AMBER RNA force field" and "DES-Amber RNA FF"  
+  - **Evidence pointer** Abstract only; no protocol details provided  
+  - **Concern** No information is given on simulation length, number of replicates, temperature and pressure coupling schemes, salt conditions, or equilibration protocols. These factors can strongly influence RNA stability in simulations and are essential for reproducing the reported results.  
+  - **Why it matters** Without protocol details, the study cannot be reproduced or compared to existing literature, and the possibility that the observed destabilization is an artifact of specific simulation conditions cannot be excluded.  
+  - **Resolution test** Provide full simulation protocols in the manuscript, including software version, thermostat and barostat settings, ion concentration, and simulation length, and state the number of independent replicates per condition.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of scope  
+  - **Affected element** Abstract statement that OPC "has recently gained reputation as the preferred choice"  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The claim of "preferred choice" is presented without citation or qualification. It is unclear whether this refers to a general consensus or to a subset of the community.  
+  - **Required correction** Provide citations or qualify the statement to reflect the specific context in which OPC has been recommended.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** Use of "entirely stable" to describe three-point model simulations  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The term "entirely stable" is absolute and may overstate the findings, particularly if minor structural fluctuations occur.  
+  - **Required correction** Use a more precise descriptor, such as "stable within defined criteria" or "maintaining native-like structure throughout the simulation."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of model comparison  
+  - **Affected element** The abstract mentions TIP4P-EW and OPC3 but does not report their performance  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract lists TIP4P-EW and OPC3 as comparators but does not state whether these models also destabilize RNA or behave like the three-point models. This omission leaves the reader uncertain about the specificity of the OPC effect.  
+  - **Required correction** Briefly state the outcome for TIP4P-EW and OPC3 in the abstract, or clarify that their results are reported in the full manuscript.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The case for water-model-dependent RNA destabilization requires quantitative stability metrics, mechanistic evidence, experimental benchmarking, and full protocol transparency. None of these are available from the abstract.
+- **Assessment against Nature-style criteria**  
+  - Originality: The observation that OPC destabilizes structured RNAs is novel and not widely reported in the literature. This is a potentially original contribution.  
+  - Scientific importance: The finding is important for the simulation community because OPC is increasingly used and a systematic destabilizing effect on folded RNA would have broad implications. However, the importance is contingent on the robustness of the evidence.  
+  - Interdisciplinary readership: The topic is of interest to computational chemists, biophysicists, and structural biologists, but the appeal beyond these groups is limited. The abstract is written in a way that is accessible to specialists.  
+  - Technical soundness: Cannot be assessed from the abstract. No quantitative data, methods, or statistical analysis are provided.  
+  - Readability for nonspecialists: The abstract is clearly written and understandable to a broad scientific audience, though some terms such as "four-point" and "three-point" water models may require prior knowledge.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially important observation, but the absence of quantitative results, mechanistic data, and protocol details prevents assessment of the central claims. The authors should be encouraged to submit the full manuscript for review, as the question is of genuine interest to the simulation community.
+
+## Risk / unsupported claims
+- The claim that OPC causes "large-scale unfolding" of all three RNAs is unsupported by quantitative data in the abstract.
+- The claim that the mechanism involves higher affinity of OPC waters for RNA H-bond groups is speculative and unsupported by any presented analysis.
+- The claim that three-point water models "may provide more realistic alternatives" is unsupported without experimental benchmarking.
+- The performance of TIP4P-EW and OPC3 is mentioned but not reported, leaving their behavior unassessable.
+- The generalizability of the finding to other RNA force fields or to proteins is not addressed and cannot be inferred from the abstract.

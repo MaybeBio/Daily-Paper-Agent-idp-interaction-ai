@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "37883249",
+    "doi": "10.1021/acs.jcim.3c01202",
+    "title": "Accurate and Fast Prediction of Intrinsically Disordered Protein by Multiple Protein Language Models and Ensemble Learning."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play a vital role in various biological processes and have attracted increasing attention in the past few decades. Predicting IDPs from the primary structures of proteins offers a rapid and facile means of protein analysis without necessitating crystal structures. In particular, machine learning methods have demonstrated their potential in this field. Recently, protein language models (PLMs) are emerging as a promising approach to extracting essential information from protein sequences and have been employed in protein modeling to utilize their advantages of precision and efficiency. In this article, we developed a novel IDP prediction method named IDP-ELM to predict the intrinsically disordered regions (IDRs) as well as their functions including disordered flexible linkers and disordered protein binding. This method utilizes high-dimensional representations extracted from several state-of-the-art PLMs and predicts IDRs by ensemble learning based on bidirectional recurrent neural networks. The performance of the method was evaluated on two independent test data sets from CAID (critical assessment of protein intrinsic disorder prediction) and CAID2, indicating notable improvements in terms of area under the receiver operating characteristic (AUC), Matthew's correlation coefficient (MCC), and F1 score. Moreover, IDP-ELM requires solely protein sequences as inputs and does not entail a time-consuming process of protein profile generation, which is a prerequisite for most existing state-of-the-art methods, enabling an accurate, fast, and convenient tool for proteome-level analysis. The corresponding reproducible source code and model weights are available at https://github.com/xu-shi-jie/idp-elm.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Amino Acid Sequence",
+      "Proteome/metabolism",
+      "Protein Binding",
+      "Machine Learning",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Shijie",
+        "Onoda, Akira"
+      ],
+      "short_names": [
+        "Xu S",
+        "Onoda A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6974-353X",
+        "ORCID: 0000-0002-5791-4386"
+      ],
+      "affiliations": [
+        "Graduate School of Environmental Science, Hokkaido University, Sapporo 060-0810, Japan.",
+        "Graduate School of Environmental Science, Hokkaido University, Sapporo 060-0810, Japan.",
+        "Faculty of Environmental Earth Science, Hokkaido University, Sapporo 060-0810, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Shijie",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0000-0001-6974-353X"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental Science, Hokkaido University, Sapporo 060-0810, Japan."
+        ]
+      },
+      {
+        "full_name": "Onoda, Akira",
+        "short_name": "Onoda A",
+        "identifiers": [
+          "0000-0002-5791-4386"
+        ],
+        "affiliations": [
+          "Graduate School of Environmental Science, Hokkaido University, Sapporo 060-0810, Japan.",
+          "Faculty of Environmental Earth Science, Hokkaido University, Sapporo 060-0810, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Apr 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/26 18:42",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "42380105",
+      "41921197",
+      "41689628",
+      "41652158",
+      "41082321",
+      "40601248",
+      "40448683",
+      "40265190",
+      "40067411",
+      "39905452",
+      "39897847",
+      "39139264",
+      "38540707"
+    ],
+    "refs": [],
+    "similar": [
+      "37883249",
+      "37992088",
+      "38166858",
+      "32112084",
+      "39093570",
+      "38701796",
+      "31441158",
+      "32535960",
+      "36272675",
+      "30002402",
+      "35436286",
+      "28365882",
+      "38987470",
+      "38866950",
+      "32702119",
+      "34390736",
+      "34418423",
+      "24532081",
+      "37827403",
+      "27844185",
+      "33087759",
+      "31307006",
+      "31756456",
+      "35139468",
+      "27787828",
+      "38275091",
+      "32503351",
+      "34905768",
+      "36833360",
+      "32019410",
+      "39253485",
+      "38297118",
+      "36908253",
+      "38018910",
+      "30324701",
+      "39237195",
+      "35356546",
+      "36210722",
+      "35469832",
+      "35119946",
+      "36959451",
+      "38296708",
+      "37498545",
+      "36458437",
+      "35454181",
+      "30395465",
+      "35882686",
+      "38297184",
+      "30657889",
+      "25287424",
+      "32696395",
+      "37722056",
+      "23142703",
+      "34504009",
+      "36250006",
+      "35094056",
+      "34290238",
+      "35034725",
+      "34461937",
+      "34347206",
+      "27159632",
+      "35275927",
+      "32173600",
+      "29228892",
+      "30135358",
+      "34358545",
+      "28076807",
+      "26513658",
+      "34799573",
+      "26376097",
+      "35767567",
+      "31521235",
+      "30866736",
+      "31425549",
+      "33719450",
+      "35609776",
+      "26109352",
+      "30840442",
+      "27587688",
+      "37634152",
+      "31207240",
+      "20522251",
+      "37204193",
+      "33875885",
+      "38507044",
+      "36671509",
+      "34626492",
+      "34830151",
+      "35507260",
+      "32771522",
+      "31797594",
+      "28394890",
+      "38177684",
+      "34656328",
+      "32696391",
+      "23170892",
+      "29808548",
+      "23794453",
+      "36551304",
+      "28448138",
+      "28612216",
+      "36304335",
+      "39383002",
+      "39279844",
+      "38060268",
+      "39121938",
+      "39404804",
+      "36778236",
+      "39333476",
+      "36969402",
+      "37574757",
+      "39179250",
+      "38507682",
+      "39246251",
+      "36653447",
+      "37577664",
+      "38222029",
+      "39098138",
+      "35591946",
+      "37546943"
+    ],
+    "review": [
+      "37883249",
+      "39093570",
+      "31441158",
+      "34390736",
+      "34418423",
+      "24532081",
+      "35139468",
+      "36833360",
+      "35356546",
+      "35119946",
+      "36959451",
+      "38296708",
+      "35882686",
+      "30657889",
+      "25287424",
+      "36250006",
+      "34347206",
+      "34358545",
+      "31521235",
+      "30840442",
+      "36671509",
+      "23170892",
+      "23794453",
+      "36551304",
+      "28612216"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c01202",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

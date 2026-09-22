@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "40617079",
+    "doi": "10.1016/j.compbiomed.2025.110545",
+    "title": "Morphological inhibitors of aggregation-prone amyloid-beta conformers: A computational exploration."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease is a neurodegenerative disorder characterized by progressive cognitive decline and memory loss. It is associated with the self-assembly of the amyloid-beta peptide, a soluble intrinsically disordered protein naturally present in the brain parenchyma in various alloforms. This study presents a computational approach to identify possible modulators of the monomeric aggregation-prone conformations of amyloid-beta, a critical intermediate in the fibrillation process. A structure-based virtual screening campaign was designed using a structural ensemble to identify potential binders. The workflow included binding site identification, small molecule-peptide docking, protein-protein docking, and molecular dynamics simulations to evaluate interaction stability and aggregation propensity. From this pipeline, a set of novel molecules was identified as capable of interacting with aggregation-prone forms of amyloid-beta, potentially reducing their tendency to form toxic aggregates.",
+    "keywords": [
+      "Aggregation inhibitors",
+      "Alzheimer's disease",
+      "Amyloid-beta",
+      "Amyloid-beta aggregation",
+      "Intrinsically disordered proteins",
+      "Molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Molecular Docking Simulation",
+      "Alzheimer Disease/metabolism",
+      "*Protein Aggregates",
+      "*Protein Aggregation, Pathological/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bosio, Stefano",
+        "Falchi, Federico",
+        "Rauzi, Chiara",
+        "Bellucci, Luca"
+      ],
+      "short_names": [
+        "Bosio S",
+        "Falchi F",
+        "Rauzi C",
+        "Bellucci L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy; Computational and Chemical Biology, Italian Institute of Technology, Via Morego 30, 16163 Genova, Italy.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy; Computational and Chemical Biology, Italian Institute of Technology, Via Morego 30, 16163 Genova, Italy.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy.",
+        "Istituto-Nanoscienze del Consiglio Nazionale delle Ricerche (CNR-NANO), NEST-SNS, Piazza San Silvestro 12, 56127 Pisa, Italy. Electronic address: luca.bellucci@nano.cnr.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bosio, Stefano",
+        "short_name": "Bosio S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy; Computational and Chemical Biology, Italian Institute of Technology, Via Morego 30, 16163 Genova, Italy."
+        ]
+      },
+      {
+        "full_name": "Falchi, Federico",
+        "short_name": "Falchi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy; Computational and Chemical Biology, Italian Institute of Technology, Via Morego 30, 16163 Genova, Italy."
+        ]
+      },
+      {
+        "full_name": "Rauzi, Chiara",
+        "short_name": "Rauzi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum - University of Bologna, Via Belmeloro 6, 40126 Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Bellucci, Luca",
+        "short_name": "Bellucci L",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto-Nanoscienze del Consiglio Nazionale delle Ricerche (CNR-NANO), NEST-SNS, Piazza San Silvestro 12, 56127 Pisa, Italy. Electronic address: luca.bellucci@nano.cnr.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/06 06:18",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [
+      "41981770"
+    ],
+    "refs": [],
+    "similar": [
+      "40617079",
+      "29364151",
+      "39793029",
+      "41385865",
+      "39999409",
+      "28652220",
+      "37175868",
+      "41202479",
+      "25908410",
+      "37390790",
+      "28162045",
+      "26100600",
+      "33337368",
+      "39858424",
+      "39854227",
+      "33668406",
+      "41193694",
+      "33024142",
+      "39989313",
+      "29235346",
+      "31342431",
+      "41173868",
+      "29953467",
+      "27698130",
+      "28633568",
+      "31566950",
+      "29791461",
+      "28734208",
+      "30149632",
+      "32769117",
+      "38888453",
+      "30809773",
+      "31075274",
+      "40719248",
+      "32776895",
+      "39126645",
+      "36179370",
+      "23713775",
+      "28406293",
+      "28684415",
+      "25029558",
+      "33137375",
+      "30285025",
+      "38271485",
+      "40628933",
+      "31046642",
+      "39644140",
+      "26073444",
+      "35458686",
+      "30231520",
+      "28924036",
+      "23421682",
+      "31813907",
+      "30537643",
+      "20946608",
+      "25137638",
+      "31265239",
+      "40442621",
+      "31138770",
+      "32828536",
+      "30933519",
+      "27929168",
+      "25769517",
+      "40610074",
+      "34740688",
+      "30254002",
+      "31194956",
+      "37599504",
+      "39611283",
+      "27091578",
+      "30637529",
+      "33069076",
+      "29925792",
+      "29963623",
+      "34830214",
+      "39349560",
+      "39755501",
+      "39255071",
+      "31004062",
+      "30605312",
+      "40893016",
+      "30101700",
+      "39561091",
+      "29723530",
+      "40167418",
+      "32942739",
+      "28571516",
+      "32943652",
+      "30157623",
+      "39891738",
+      "25648485",
+      "24321883",
+      "31425755",
+      "26208790",
+      "33548624",
+      "38481374",
+      "39208885",
+      "32857841",
+      "27917876",
+      "23883055"
+    ],
+    "review": [
+      "40617079",
+      "29364151",
+      "25908410",
+      "33668406",
+      "30149632",
+      "38888453",
+      "23713775",
+      "35458686",
+      "31265239",
+      "30933519",
+      "25769517",
+      "40610074",
+      "30254002",
+      "39755501",
+      "30101700"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)00896-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)00896-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

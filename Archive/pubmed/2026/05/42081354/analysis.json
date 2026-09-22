@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42081354",
+  "title": "Multivalency-dependent DNA compaction in bridging-induced condensates.",
+  "authors": "Aetizaz, Muhammad; Wei, Xuefeng; Zhuang, Wei",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究多价蛋白介导的DNA桥接凝聚体压缩，聚焦多价性对凝聚效率的影响，虽对象为DNA-蛋白而非IDP-PPI，但其多价互作与相分离机制建模思路对无序蛋白介导的凝聚体研究有可迁移启发。",
+  "abstract": "Structural maintenance of chromosome complexes, particularly cohesin, plays a pivotal role in bridging DNA and mediating phase separation, which is crucial for chromosome organization. Despite recent studies on bridging-induced phase separation (BIPS), questions remain about the optimal number of protein binding sites required for efficient condensate formation. In this study, we employ coarse-grained molecular dynamics simulations to investigate the organization of topologically constrained DNA systems. We specifically focus on the mesoscale coupling between DNA supercoiling and protein-mediated BIPS, a mechanism fundamental to DNA compaction in environments where torsional stress is strictly conserved. By utilizing a circular DNA model to ensure topological integrity, our study serves as a generalized biophysical representation of both naturally circular genomic elements and locally anchored or torsionally restricted chromatin domains, providing insights into the universal physical principles governing multivalent protein-DNA assemblies. We compare four valency states (bi-, tri-, tetra-, and no-patch) using three DNA lengths (800, 1200, and 1600 beads) and incrementally applied supercoiling stress. The simulations demonstrate that tri-patch systems achieve the maximum compaction efficiency and structural integrity, with proteins exhibiting the best performance when three binding sites are present. Tetra-patch systems show similar compaction but exhibit geometric frustration and increased asphericity. The study provides a quantitative framework for designing synthetic chromosome organizers and advancing applications in artificial chromosome packaging and protein condensate therapeutics.",
+  "abstract_zh": "染色体结构维持复合物，特别是黏连蛋白 (cohesin)，在桥接DNA和介导相分离 (phase separation) 中发挥关键作用，这对染色体组织至关重要。尽管近期有关于桥接诱导相分离 (bridging-induced phase separation, BIPS) 的研究，但关于高效凝聚物形成所需的最佳蛋白结合位点数量仍存在疑问。在本研究中，我们采用粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟来研究拓扑约束DNA系统的组织。我们特别关注DNA超螺旋与蛋白介导的BIPS之间的介观尺度耦合，这是扭转应力严格守恒环境中DNA压缩的基础机制。通过利用环形DNA模型确保拓扑完整性，我们的研究作为自然环形基因组元件以及局部锚定或扭转受限染色质结构域的广义生物物理表征，为多价蛋白-DNA组装体的普遍物理原理提供见解。我们比较了四种价态（二价、三价、四价和无补丁），使用三种DNA长度（800、1200和1600个珠子）并逐步施加超螺旋应力。模拟表明，三补丁系统实现最大压缩效率和结构完整性，蛋白在存在三个结合位点时表现出最佳性能。四补丁系统显示出类似的压缩效果，但表现出几何挫折和增加的椭球度。本研究为设计合成染色体组织器以及推进人工染色体包装和蛋白凝聚物治疗应用提供了定量框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42081354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42081354/",
+  "paper_page_path": "papers/pubmed/42081354/index.html"
+}

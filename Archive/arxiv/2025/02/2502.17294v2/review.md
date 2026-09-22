@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the text
+- **Shared manuscript claim summary** The authors introduce INFUSSE, a deep learning framework combining ProtBERT sequence embeddings with graph-based structural representations via a diffusive Graph Convolutional Network, to predict single-residue B-factors in antibody-antigen complexes. They report improved performance over sequence-only and literature baselines, and analyze where structural information contributes most to prediction accuracy.
+- **Visible evidence base** Text descriptions of model architecture, training procedure, evaluation metrics (PCC), and qualitative results; references to Figure 1, Figure 2, Figure 3, Figure 4, Table 1, Table S1, Figure S1, Figure S3
+- **Missing materials affecting confidence** All figures, tables, and supplementary information; quantitative results beyond reported PCC values; hyperparameter details; statistical test outputs; code repository contents
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting integration of LLM embeddings with graph-based structural information for residue-level property prediction. The two-step training approach enabling disentanglement of sequence and structure contributions is a thoughtful design. However, the evidence as presented is insufficient to fully evaluate the claims. Key quantitative results, statistical details, and visualizations are referenced but not provided in the submitted text. The comparison to baselines is described but the actual performance numbers beyond PCC averages are missing. The biological interpretation sections are plausible but would benefit from more rigorous statistical framing and effect size reporting.
+- **Who would be interested in the results, and why** Researchers in protein structure-function prediction, antibody engineering, and computational biology would find this work relevant. The framework's ability to identify where structural information matters most for prediction could inform model design choices in related tasks. Those working on interpretable deep learning for proteins and on integrating multiple data modalities would also be interested.
+- **Major strengths** The two-step training strategy is a clear methodological contribution that enables attribution of prediction improvements to sequence versus structure. The focus on antibody-antigen complexes addresses a practically important and challenging prediction setting. The analysis of where graph information helps (CDRs, loops, high-diversity positions, interface residues) provides actionable biological insight. The code release as a modular Python package is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that INFUSSE outperforms baseline graph models and generic protein SOTA models for B-factor prediction
+  - **Evidence pointer** Table 1, Figure 2B, location not provided
+  - **Concern** The manuscript states average PCC values for INFUSSE (0.71), LLM-only (0.64), one-hot + diff-GCN (0.55), LSTM (0.48), and baseline graph model (0.01), but provides no variance measures, per-split results, or statistical significance tests comparing these models. Without confidence intervals or error bars, it is impossible to assess whether the reported differences are meaningful given the small test set (75 complexes per split).
+  - **Why it matters** The central claim of improved performance rests entirely on these comparisons. If the differences are within noise, the core contribution is undermined.
+  - **Resolution test** Provide per-split PCC values, standard deviations, and appropriate statistical tests (e.g., paired tests across splits) demonstrating that INFUSSE significantly outperforms each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The description of the INFUSSE architecture and training procedure
+  - **Evidence pointer** Methods section, Figure 1, location not provided
+  - **Concern** Several critical implementation details are missing. The dimensionality of the learned node embeddings (F) is mentioned as a hyperparameter but its value is not stated. The number of GCN layers is stated as two, but the hidden dimensions, activation functions beyond ReLU, and whether batch normalization or dropout are used are not specified. The training procedure mentions AdamW with learning rate 3e-3 and weight decay 1e-2, but the number of epochs, batch size, early stopping criteria, and learning rate schedule are absent. The grid search over learning rate and embedding size is mentioned but the range of values tested is not given.
+  - **Why it matters** Reproducibility is a core expectation for methodological contributions. Without these details, other researchers cannot implement or build upon the proposed framework.
+  - **Resolution test** Provide a complete specification of all hyperparameters, training details, and architecture choices, either in the main text or a supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of interpretation
+  - **Claim pointer** The claim that graph information significantly enhances predictions for CDRs, loops, high-diversity positions, and interface residues
+  - **Evidence pointer** Figure 3, Figure 4, Methods section, location not provided
+  - **Concern** The manuscript describes using nonparametric bootstrap tests to compare Δ_graph values across categories, but reports no test statistics, effect sizes, or p-values in the text. Statements like "statistically significant difference" and "consistently higher" are made without supporting numbers. The multiple comparisons across many residue categories and structural annotations are not addressed.
+  - **Why it matters** The biological interpretation sections depend entirely on these statistical claims. Without effect sizes and proper multiple testing correction, the conclusions about where structure helps most are not supported.
+  - **Resolution test** Report the actual p-values, effect sizes (e.g., mean differences with confidence intervals), and describe how multiple comparisons were handled.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline adequacy
+  - **Claim pointer** The comparison to the LSTM model from Ref. 36 and the baseline graph model from Ref. 21
+  - **Evidence pointer** Table 1, location not provided
+  - **Concern** The LSTM baseline is described as "state-of-the-art" but it is unclear whether the implementation matches the original authors' specifications, whether it was retrained on the antibody dataset, or whether hyperparameters were optimized. The baseline graph model is described as having "no learning," which may not be a fair comparison if it was not designed for this task. The one-hot + diff-GCN ablation is useful but its relationship to the full model is not discussed in terms of what specific information the LLM embeddings contribute beyond amino acid identity.
+  - **Why it matters** Fair baseline comparison is essential for establishing that the proposed method offers genuine improvement over existing approaches.
+  - **Resolution test** Clarify the implementation and training details for all baselines, and discuss what specific capabilities the LLM embeddings provide over one-hot encoding in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 1
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The equation for the weighted Gaussian graph adjacency matrix is not fully displayed in the text. The expression is cut off after "where".
+  - **Required correction** Provide the complete equation for the adjacency matrix.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "disentagle" in Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** Typographical error: "disentagle" should be "disentangle".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Methods section, Data subsection, location not provided
+  - **Issue** The dataset description states 1510 PDB entries were used, but does not specify the number of unique antibodies, the distribution of antibody classes (IgG, IgM, etc.), the species breakdown, or the number of antigen types. The filtering criteria beyond resolution and B-factor thresholds are not described.
+  - **Required correction** Provide a more complete description of the dataset composition and filtering criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Python package section, location not provided
+  - **Issue** The GitHub repository is mentioned but no version, commit hash, or DOI is provided. The manuscript states the code is "ready-to-run" but does not specify the computing environment, dependencies, or expected runtime.
+  - **Required correction** Provide a versioned release or DOI for the code, and specify the computing environment and dependencies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of antibody flexibility and affinity
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The statement that "matured antibodies typically exhibit greater rigidity in the CDR loops compared to their naïve counterparts" is presented without citation or supporting data from the current study. This is a domain claim that should be referenced.
+  - **Required correction** Add appropriate citations for this claim or clarify that it is a hypothesis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical evidence for performance claims), R1-M2 (missing methodological details), R1-M3 (statistical rigor of interpretation)
+- **Assessment against Nature-style criteria** Originality: The integration of LLM embeddings with graph diffusion for residue-level prediction is a novel combination, though each component is established. Scientific importance: B-factor prediction in antibodies is practically relevant, and the disentanglement analysis could inform broader model design. Interdisciplinary readership: The work bridges machine learning and structural biology, but the presentation assumes familiarity with both fields. Technical soundness: The architecture is reasonable, but the evidence provided is insufficient to fully assess soundness. Readability for nonspecialists: The methods are described at a level accessible to computational biologists, but the missing figures and tables hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the direction is worthwhile, but the manuscript as submitted lacks the quantitative and methodological detail necessary to support its claims. Major revisions addressing the statistical evidence, methodological completeness, and baseline rigor are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that INFUSSE outperforms all baselines is unsupported without variance measures and significance tests.
+- The claim that graph information significantly enhances predictions for specific structural categories is unsupported without reported test statistics.
+- The claim that the framework "systematically disentangles" sequence and structure contributions is only partially supported by the two-step design; the actual attribution analysis is not fully described.
+- The statement about matured antibody rigidity is presented without citation.
+- The generalizability of the framework beyond B-factor prediction is asserted but not demonstrated.

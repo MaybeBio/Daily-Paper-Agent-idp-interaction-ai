@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors propose that ATP acts as a solubilizer of biomolecular aggregates by modulating protein conformational plasticity, preventing aggregation of Aβ40 and dissolving pre-formed aggregates, with efficacy superior to conventional chemical hydrotropes
+- **Visible evidence base** Simulation data (REMD, MD, MSM) for Trp-cage and Aβ40; wet-lab experiments (ThT assay, TEM, CD) on Ac-KLVFFAE-NH2 peptide; interaction energy and preferential interaction coefficient analyses
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; simulation convergence metrics; force field validation details; experimental replicates and statistical analysis; raw data for ThT kinetics and TEM images; details of MSM construction and validation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question regarding ATP's non-canonical role in protein solubilization. The combination of simulation and experiment is commendable. However, the evidence presented has significant gaps. The simulation methodology, while extensive, lacks key validation and convergence analyses. The experimental section is limited to a short peptide fragment, and the connection to full-length Aβ40 aggregation is inferred rather than demonstrated. The claim of ATP's superiority over chemical hydrotropes is based on limited comparative data. The mechanistic interpretation, while plausible, is not uniquely established by the data shown.
+- **Who would be interested in the results, and why** Researchers in protein aggregation, neurodegeneration, cellular homeostasis, and hydrotrope chemistry would find these results relevant. The potential therapeutic implications for protein-aggregation diseases and the fundamental insight into ATP's cellular functions beyond energy metabolism would attract broad interest in biochemistry and cell biology communities.
+- **Major strengths** The study combines complementary computational and experimental approaches. The focus on conformational plasticity as a mechanistic link is a useful framing. The use of multiple simulation techniques (REMD, MSM) and force field cross-validation for Trp-cage is thorough. The experimental design using the nucleating core peptide is a reasonable reductionist approach. The comparison with a conventional hydrotrope (NaXS) provides a useful benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ATP induces unfolding of both Trp-cage and Aβ40, leading to increased solubility, is central to the manuscript
+  - **Evidence pointer** Figures 2, 4; simulation methods section
+  - **Concern** The simulation evidence for ATP-induced unfolding relies on comparisons between systems simulated with different protocols. For Trp-cage, REMD was used for all conditions, but for Aβ40, the "water" condition is from a 30 μs MD trajectory from D. E. Shaw Research, while the ATP condition uses REMD with 64 replicas. This methodological mismatch could introduce artifacts. Additionally, the REMD temperature range for Aβ40 (290-460 K) is very broad, and the authors do not report replica exchange acceptance rates or convergence diagnostics. The use of 0.5 M ATP is far above physiological concentrations (∼5 mM), and the authors do not justify this choice or show concentration dependence for Aβ40.
+  - **Why it matters** The central mechanistic claim depends on the reliability of the conformational ensembles compared. If the observed differences arise from sampling protocol differences rather than ATP effects, the conclusions are invalid. The non-physiological ATP concentration raises questions about relevance to cellular conditions.
+  - **Resolution test** Provide convergence analyses (e.g., block error estimates, replica exchange statistics) for all REMD simulations. Repeat Aβ40 simulations in water using the same REMD protocol as the ATP condition. Show concentration-dependent effects at more physiologically relevant ATP concentrations (1-10 mM).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that ATP dissolves pre-formed aggregates and prevents aggregation is supported by ThT and TEM experiments
+  - **Evidence pointer** Figures 6, 7; experimental methods
+  - **Concern** The experimental evidence is limited to a short peptide (Ac-KLVFFAE-NH2), not full-length Aβ40. The ThT assay shows decreased fluorescence in the presence of ATP, but this could result from dye displacement or fluorescence quenching rather than actual aggregate dissolution. TEM images are qualitative, and no quantitative analysis (e.g., fiber length distribution, mass quantification) is provided. The time course of dissolution is not clearly shown. The concentration of ATP used (6-20 mM) is again far above physiological levels. No control experiments with other nucleotides (e.g., ADP, AMP, GTP) are shown for the peptide system, despite claims of ATP specificity.
+  - **Why it matters** The therapeutic implications and the claim of ATP as a superior solubilizer require robust experimental demonstration. The current evidence does not exclude alternative explanations for reduced ThT signal, and the relevance to full-length Aβ40 is not established.
+  - **Resolution test** Perform experiments with full-length Aβ40 or provide evidence that the peptide recapitulates key features of full-length aggregation. Include control experiments with other nucleotides. Quantify TEM images and provide statistical analysis. Test whether ATP displaces ThT from fibrils independently of dissolution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that ATP is a superior solubilizer compared to conventional chemical hydrotropes
+  - **Evidence pointer** Figure 9; simulation methods
+  - **Concern** The comparison with NaXS is based solely on simulations of dimerization. No experimental comparison is provided. The choice of NaXS as the sole comparator is limited, and the metric of comparison (dimerization propensity) may not capture the full solubilization process. The claim of superiority is therefore overstated relative to the evidence.
+  - **Why it matters** The positioning of ATP as superior to chemical hydrotropes is a key selling point of the manuscript. Without experimental validation and broader comparison, this claim is not established.
+  - **Resolution test** Provide experimental comparison of ATP and NaXS effects on peptide or protein aggregation. Include additional hydrotropes or clarify the scope of the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ATP's interaction with proteins is protein-specific, with van der Waals dominating for Trp-cage and Coulombic for Aβ40
+  - **Evidence pointer** Figures 3, 5; interaction energy analyses
+  - **Concern** The interaction energy decomposition is presented without error bars or statistical significance testing. The preferential interaction coefficient analysis is not described in sufficient detail to assess its validity. The authors do not report how many ATP molecules are in the simulation box, how they are distributed, or whether the interaction energies are converged.
+  - **Why it matters** The mechanistic interpretation of protein-specific ATP interactions underpins the proposed model. Without statistical rigor, the distinction between van der Waals and Coulombic dominance may not be meaningful.
+  - **Resolution test** Provide error estimates and statistical tests for interaction energies. Describe the preferential interaction coefficient calculation in detail. Report ATP distribution and convergence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction is dense and could benefit from clearer signposting of the specific hypotheses being tested.
+  - **Required correction** Consider restructuring to state the two main questions (does ATP unfold proteins, and does this prevent aggregation) explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Methods section A
+  - **Issue** The description of the MSM construction is brief. Details on state definition, lag time selection, and validation (e.g., Chapman-Kolmogorov test) are missing.
+  - **Required correction** Provide additional details on MSM construction and validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental methods
+  - **Evidence pointer** Methods section B
+  - **Issue** The peptide assembly protocol uses 40% acetonitrile-water with 0.1% TFA, which is a non-physiological condition. The relevance to cellular aggregation is unclear.
+  - **Required correction** Justify the choice of assembly conditions or discuss potential limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion and Conclusion section
+  - **Issue** The discussion of ATP's dual role (stabilization vs. solubilization) is interesting but could be more clearly connected to the specific findings of this study.
+  - **Required correction** Strengthen the link between the presented data and the broader context.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure references
+  - **Evidence pointer** Figures 1-9, S1-S12
+  - **Issue** Figures are referenced but not provided in the manuscript text. This makes it impossible to assess the quality of the data presentation.
+  - **Required correction** Ensure figures are included and clearly labeled.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation protocol mismatch and lack of convergence analysis), R1-M2 (experimental evidence limited to short peptide, no controls for ThT displacement, no quantitative TEM analysis)
+- **Assessment against Nature-style criteria** Originality: The idea of ATP as a hydrotrope is not entirely new, but the focus on conformational plasticity as a mechanism is a useful contribution. Scientific importance: The potential implications for understanding cellular homeostasis and neurodegeneration are significant, but the evidence does not yet establish the claims. Interdisciplinary readership: The topic bridges biophysics, cell biology, and neurobiology, which would appeal to a broad audience. Technical soundness: The simulation methodology has significant gaps in validation and consistency; the experimental work is limited in scope. Readability for nonspecialists: The manuscript is generally well-written but could benefit from clearer explanations of key concepts (e.g., preferential interaction coefficient).
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and has a reasonable conceptual framework, but the technical concerns, particularly the simulation protocol mismatch and the limited experimental evidence, prevent the claims from being fully supported. I would be supportive if the major concerns are addressed with additional analyses and experiments.
+
+## Risk / unsupported claims
+- The claim that ATP prevents aggregation of full-length Aβ40 is not directly supported, as experiments were performed on a short peptide fragment.
+- The claim that ATP is superior to conventional chemical hydrotropes is based on limited simulation data without experimental validation.
+- The claim that ATP's mechanism involves protein-specific interactions is not statistically validated.
+- The physiological relevance of the ATP concentrations used (0.1-0.5 M in simulations, 6-20 mM in experiments) is not established.
+- The claim that ATP's solubilizing role is independent of its energy-related functions is not directly tested.

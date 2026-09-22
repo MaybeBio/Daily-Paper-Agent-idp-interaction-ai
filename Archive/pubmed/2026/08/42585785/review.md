@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report a proteome-wide bioinformatic analysis of intrinsically disordered regions (IDRs) and conditionally folded IDRs (CF-IDRs) in *Schistosoma mansoni*, integrating disorder prediction, AlphaFold confidence scores, phase separation propensity prediction, binding segment prediction, and functional enrichment. They report that CF-IDRs are enriched in specific residue classes, may participate in liquid-liquid phase separation, contain strong binding segments, and are associated with transcription, RNA processing, chromatin organization, and cytoskeletal regulation. They claim this is the first systematic identification of CF-IDRs across any helminth proteome.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical tests, method details, or validation data are visible
+- **Missing materials affecting confidence** Full methods, all numerical results, figures, tables, statistical analyses, prediction tool versions and parameters, sequence filtering criteria, and any validation or benchmarking data
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful bioinformatic survey, but the evidence presented is insufficient to evaluate the validity of the central claims. Key definitions, thresholds, and validation steps are absent. The claim of being "first" is plausible but unverifiable from the supplied material. The biological interpretation, while reasonable, is speculative given the purely computational nature of the study.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, host-pathogen interactions, schistosome biology, and the role of structural plasticity in parasite adaptation. The work may also interest those developing computational pipelines for integrating disorder prediction with structural confidence scores.
+- **Major strengths** The study addresses a relevant and under-explored topic, namely conditionally folded disordered regions in a parasitic helminth. The integration of multiple prediction tools is a reasonable approach. The focus on functional categories such as transcription and chromatin regulation provides a plausible link to parasite adaptation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CF-IDRs were identified by integrating AlphaFold structural confidence scores with disorder predictions, defined as disordered regions containing local high-confidence structural segments.
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** The definition of CF-IDR is stated but the specific thresholds for "high-confidence" AlphaFold scores, the minimum length of disordered regions, and the criteria for "local" segments are not given. Without these parameters, the identification is not reproducible.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. If thresholds are arbitrary or not justified, the reported percentage of CF-IDR-containing proteins (12.7%) cannot be interpreted or compared with other studies.
+  - **Resolution test** Provide explicit thresholds, tool versions, and a sensitivity analysis showing how results change with varying cutoffs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that CF-IDRs were enriched for both disorder-promoting and selected order-promoting residues, suggesting a balance between flexibility and transient structure formation.
+  - **Evidence pointer** Abstract, no data shown
+  - **Concern** No enrichment statistics, effect sizes, or residue-specific lists are provided. The phrase "selected order-promoting residues" is vague and does not indicate which residues were enriched or how significance was assessed.
+  - **Why it matters** The residue composition claim is central to the proposed functional model. Without statistical support, the claim is anecdotal.
+  - **Resolution test** Provide enrichment analysis with defined background, statistical tests, and a table of residue-level results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AIUPred-binding prediction indicated that most CF-IDRs contained a strong binding segment.
+  - **Evidence pointer** Abstract, no data shown
+  - **Concern** The threshold for "strong" binding segment is not defined, and no proportion or confidence interval is given. The relationship between predicted binding segments and actual disorder-to-order transitions is not established.
+  - **Why it matters** This claim underpins the interaction-driven folding model. Without quantitative support and a clear threshold, the claim is not assessable.
+  - **Resolution test** Report the proportion of CF-IDRs with strong binding segments, the score threshold used, and ideally a comparison with non-CF IDRs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that CF-IDRs may contribute to parasite adaptation, regulation, and host interactions.
+  - **Evidence pointer** Abstract, functional enrichment only
+  - **Concern** The functional enrichment is based on prediction, not experimental validation. The link between predicted CF-IDRs and actual biological roles in adaptation or host interactions is speculative.
+  - **Why it matters** The title and abstract imply a biological contribution, but the evidence is purely computational. Overinterpretation may mislead readers.
+  - **Resolution test** Soften the language to reflect prediction-based hypotheses, or provide experimental validation such as mutagenesis, binding assays, or phenotypic data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, definition of CF-IDR
+  - **Evidence pointer** Abstract
+  - **Issue** The term "conditionally folded" is introduced without a brief explanation of what "condition" means in this context.
+  - **Required correction** Add one sentence clarifying that CF-IDRs are regions predicted to fold only under specific conditions, such as binding or environmental change.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Sequence filtering
+  - **Evidence pointer** Abstract
+  - **Issue** The reduction from 10,749 to 9,638 non-redundant proteins is mentioned but the redundancy criterion is not stated.
+  - **Required correction** Specify the sequence identity threshold used for redundancy removal.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Functional enrichment statement
+  - **Evidence pointer** Abstract
+  - **Issue** The functional categories are listed without any indication of statistical significance or enrichment strength.
+  - **Required correction** Report the number of CF-IDR-containing proteins in each category and the associated p-values or enrichment scores.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of thresholds, statistics, and validation means the core computational claims are not currently established.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application to a helminth proteome is novel, but the methods are standard.
+  - Scientific importance: Moderate. The topic is relevant, but the claims are speculative without experimental support.
+  - Interdisciplinary readership: Limited. The abstract is accessible to computational biologists but may not engage parasitologists or structural biologists without clearer biological framing.
+  - Technical soundness: Not assessable from the abstract. Key parameters and statistics are missing.
+  - Readability for nonspecialists: Acceptable but could be improved with clearer definitions and less jargon.
+- **Recommendation posture** Currently not established from the provided evidence. The study may become publishable if the technical details, thresholds, and statistical support are provided and the biological claims are appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that this is the first systematic identification of CF-IDRs in any helminth proteome is unverifiable from the supplied material.
+- The claim that CF-IDRs "may contribute to parasite adaptation, regulation, and host interactions" is speculative and not supported by direct evidence.
+- The claim that CF-IDRs "may participate in biomolecular condensation" is based on prediction only and is not validated.
+- The residue enrichment claim is unsupported without statistical data.
+- The binding segment claim is unsupported without defined thresholds or proportions.

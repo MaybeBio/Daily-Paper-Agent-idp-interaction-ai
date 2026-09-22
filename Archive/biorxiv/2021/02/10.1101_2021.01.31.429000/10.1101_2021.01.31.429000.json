@@ -1,0 +1,430 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.31.429000",
+  "title": "Deep learning integration of molecular and interactome data for protein-compound interaction prediction",
+  "doi": "10.1101/2021.01.31.429000",
+  "abstract": "Motivation Virtual screening, which can computationally predict the presence or absence of protein-compound interactions, has attracted attention as a large-scale, low-cost, and short-term search method for seed compounds. Existing machine learning methods for predicting protein-compound interactions are largely divided into those based on molecular structure data and those based on network data. The former utilize information on proteins and compounds, such as amino acid sequences and chemical structures, while the latter utilize interaction network data, such as data on protein-protein interactions and compound-compound interactions. However, few attempts have been made to combine both types of data in molecular information and interaction networks. Results We developed a deep learning-based method that integrates protein features, compound features, and multiple types of interactome data to predict protein-compound interactions. We designed three benchmark datasets with different difficulties and evaluated the performance on them. The performance evaluations show that our deep learning framework for integrating molecular structure data and interactome data outperforms state-of-the-art machine learning methods for protein-compound interaction prediction tasks. The performance improvement is proven to be statistically significant by the Wilcoxon signed-rank test. This reveals that the multi-interactome captures different perspectives than amino acid sequence homology and chemical structure similarity, and both type of data have a synergistic effect in improving prediction accuracy. Furthermore, experiments on three benchmark datasets show that our method is more robust than existing methods in accurately predicting interactions between proteins and compounds that are unseen in the training samples.",
+  "authors": [
+    "Narumi Watanabe",
+    "Yuuto Ohnuki",
+    "Yasubumi Sakakibara"
+  ],
+  "published_date": "2021-02-01",
+  "updated_date": "2021-02-02T15:53:50Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.31.429000",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.31.429000.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:18:41Z",
+        "timestamp": 1768493921033,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 34,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2021-02-01T00:00:00Z",
+            "timestamp": 1612137600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Virtual screening, which can computationally predict the presence or absence of protein-compound interactions, has attracted attention as a large-scale, low-cost, and short-term search method for seed compounds. Existing machine learning methods for predicting protein-compound interactions are largely divided into those based on molecular structure data and those based on network data. The former utilize information on proteins and compounds, such as amino acid sequences and chemical structures, while the latter utilize interaction network data, such as data on protein-protein interactions and compound-compound interactions. However, few attempts have been made to combine both types of data in molecular information and interaction networks.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We developed a deep learning-based method that integrates protein features, compound features, and multiple types of interactome data to predict protein-compound interactions. We designed three benchmark datasets with different difficulties and evaluated the performance on them. The performance evaluations show that our deep learning framework for integrating molecular structure data and interactome data outperforms state-of-the-art machine learning methods for protein-compound interaction prediction tasks. The performance improvement is proven to be statistically significant by the Wilcoxon signed-rank test. This reveals that the multi-interactome captures different perspectives than amino acid sequence homology and chemical structure similarity, and both type of data have a synergistic effect in improving prediction accuracy. Furthermore, experiments on three benchmark datasets show that our method is more robust than existing methods in accurately predicting interactions between proteins and compounds that are unseen in the training samples.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.01.31.429000",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            2
+          ]
+        ],
+        "date-time": "2021-02-02T15:53:50Z",
+        "timestamp": 1612281230000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Deep learning integration of molecular and interactome data for protein-compound interaction prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Narumi",
+          "family": "Watanabe",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuuto",
+          "family": "Ohnuki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6932-3452",
+          "authenticated-orcid": false,
+          "given": "Yasubumi",
+          "family": "Sakakibara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm266"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000397"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts031"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm958"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv951"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1016/j.ymeth.2016.06.024",
+          "article-title": "Boosting compound-protein interaction prediction by deep learning",
+          "volume": "110",
+          "year": "2016",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1007129",
+          "DOI": "10.1371/journal.pcbi.1007129",
+          "article-title": "DeepConv-DTI: prediction of drug-target interactions via deep learning with convolution on protein sequences",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1093/bioinformatics/bty535",
+          "article-title": "Compound–protein interaction prediction with end-to-end learning of neural networks for graphs and sequences",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.11",
+          "first-page": "i457",
+          "article-title": "Modeling polypharmacy side effects with graph convolutional networks",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics (Oxford, England)"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-00680-8"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.1093/bioinformatics/bty543",
+          "article-title": "NeoDTI: neural integration of neighbor information from a heterogeneous network for discovering new drug–target interactions",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2012-13-8-r76"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz328"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e56517",
+          "DOI": "10.1371/journal.pone.0056517",
+          "article-title": "Predicting chemical toxicity effects based on chemical-chemical interactions",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1436",
+          "DOI": "10.1109/TCBB.2018.2864149",
+          "article-title": "End-to-end representation learning for chemical-chemical interaction prediction",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "IEEE/ACM Trans Comput Biol Bioinform"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.18",
+          "first-page": "quality",
+          "article-title": "The STRING database in",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.19",
+          "first-page": "D684",
+          "article-title": "STITCH: interaction networks of chemicals and proteins",
+          "volume": "36",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grover A , Leskovec J (2016) node2vec: scalable feature learning for networks. In: Proceedings of KDD ‘16 (22nd ACM SIGKDD international conference on knowledge discovery and data mining). ACM, New York, NY, USA, p 855–864.",
+          "DOI": "10.1145/2939672.2939754"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.22",
+          "article-title": "Unifying visual-semantic embeddings with multimodal neural language models",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Akiba T , Sano S , Yanase T , Ohta T , Koyama M (2019) Optuna: a next-generation hyperparameter optimization framework. In: Proceedings of 25th ACM SIGKDD international conference on knowledge discovery & data mining. ACM, New York, NY, USA, p 2623–2631.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.24",
+          "article-title": "Batch normalization: accelerating deep network training by reducing internal covariate shift",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/12-AOS1000. 1102.4807"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.26",
+          "unstructured": "Bishop C (2006) Pattern recognition and machine learning. Springer-Verlag, Berlin, Heidelberg."
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1186/s40360-017-0153-6",
+          "article-title": "Data-driven prediction of adverse drug reactions induced by drug-drug interactions",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "BMC Pharmacol Toxicol"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.28",
+          "first-page": "zooming in on protein",
+          "article-title": "STITCH",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.29",
+          "first-page": "D369",
+          "article-title": "The BioGRID interaction database: 2017 update",
+          "volume": "45",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1931"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3001968"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "5823",
+          "DOI": "10.1021/jm5003759",
+          "article-title": "Novel aza-analogous ergoline derived scaffolds as potent serotonin 5-HT6 and dopamine D2 receptor ligands",
+          "volume": "57",
+          "year": "2014",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/jpet.102.039867"
+        },
+        {
+          "key": "2024080512305448000_2021.01.31.429000v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chempr.2018.08.003"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.31.429000",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:18:00Z",
+        "timestamp": 1768439880000
+      },
+      "score": 68.749886,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.01.31.429000"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ]
+      },
+      "references-count": 34,
+      "URL": "https://doi.org/10.1101/2021.01.31.429000",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

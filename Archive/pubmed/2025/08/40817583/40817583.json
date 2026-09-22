@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "40817583",
+    "doi": "10.1016/j.bpj.2025.08.010",
+    "title": "Unraveling the conformational landscape of amyloid precursor protein intracellular domain."
+  },
+  "content": {
+    "abstract": "The amyloid precursor protein intracellular domain (AICD), a cleavage product of amyloid precursor protein implicated in Alzheimer disease and amyloid lateral sclerosis, is a functionally important but structurally elusive intrinsically disordered protein. In this study, we investigate the conformational ensemble of a 35-residue AICD segment encompassing the conserved YENPTY motif using molecular dynamics simulations, small-angle x-ray scattering, circular dichroism, and nuclear magnetic resonance data. Our results reveal that AICD fluctuates between compact and extended states, exhibiting dynamic secondary structure elements and heterogeneous solvent accessibility. Small-angle x-ray scattering and circular dichroism analyses support a partially compact, flexible ensemble, whereas time-lagged independent component analysis uncovers metastable conformational states. Residue-specific solvent accessibility and hydrogen bonding patterns highlight transient structural stabilization, particularly within the YENPTY motif. These findings highlight the structural plasticity of AICD and offer insights into its potential for interaction and regulatory roles in nuclear signaling and neurodegeneration.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid beta-Protein Precursor/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "*Intracellular Space/metabolism",
+      "Humans",
+      "Scattering, Small Angle",
+      "Protein Conformation",
+      "Amino Acid Sequence",
+      "Amino Acid Motifs",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mandal, Nabanita",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Mandal N",
+        "Skepo M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, Lund, Sweden.",
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, Lund, Sweden; NanoLund, Lund University, Lund, Sweden. Electronic address: marie.skepo@compchem.lu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mandal, Nabanita",
+        "short_name": "Mandal N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, Lund, Sweden; NanoLund, Lund University, Lund, Sweden. Electronic address: marie.skepo@compchem.lu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Nov 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/16 06:28",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40167418",
+      "39670668",
+      "39591990",
+      "39056166",
+      "39034899",
+      "39020435",
+      "38951839",
+      "38802343",
+      "38349793",
+      "37867176",
+      "37622248",
+      "37551020",
+      "37307834",
+      "36698966",
+      "34524800",
+      "33833657",
+      "32255447",
+      "29893907",
+      "28966576",
+      "28553201",
+      "28163673",
+      "26574340",
+      "26488642",
+      "25764013",
+      "22889332",
+      "22122663",
+      "20408171",
+      "18833287",
+      "11544248"
+    ],
+    "similar": [
+      "40817583",
+      "8887653",
+      "19773363",
+      "23570890",
+      "28587768",
+      "22001015",
+      "40198698",
+      "11517218",
+      "21034527",
+      "37551020",
+      "36538482",
+      "24304563",
+      "21293490",
+      "27475398",
+      "18833287",
+      "11273707",
+      "25863345",
+      "22828513",
+      "17093061",
+      "22952038",
+      "30840442",
+      "24655507",
+      "24086696",
+      "27459671",
+      "29254083",
+      "22584060",
+      "17207630",
+      "30291845",
+      "37830617",
+      "38309627",
+      "35253745",
+      "28587718",
+      "21039524",
+      "25137638",
+      "31548393",
+      "33030907",
+      "23811057",
+      "18702528",
+      "18511958",
+      "27559086",
+      "20561999",
+      "16595682",
+      "23943322",
+      "29045862",
+      "12496118",
+      "25528641",
+      "17626163",
+      "22326906",
+      "23084776",
+      "12777371",
+      "25024339",
+      "32316569",
+      "23897820",
+      "22622826",
+      "26921470",
+      "24714650",
+      "20405578",
+      "11809755",
+      "20400860",
+      "26296890",
+      "18722509",
+      "21648462",
+      "22122663",
+      "15044485",
+      "39670668",
+      "21605035",
+      "9201963",
+      "18201969",
+      "22406447",
+      "33184287",
+      "12048239",
+      "17656579",
+      "19837693",
+      "28790170",
+      "29966005",
+      "31130234",
+      "33725442",
+      "18096514",
+      "28682239",
+      "17763532",
+      "30917118",
+      "20493588",
+      "18603345",
+      "21471643",
+      "16480949",
+      "40028903",
+      "20961856",
+      "28207895",
+      "21968187",
+      "28720718",
+      "24021023",
+      "30878202",
+      "19533037",
+      "23205890",
+      "28562045",
+      "26735936",
+      "29097209",
+      "32679070",
+      "25413946",
+      "39561991"
+    ],
+    "review": [
+      "40817583",
+      "28587768",
+      "21034527",
+      "30840442",
+      "21039524",
+      "18511958",
+      "20561999",
+      "26296890",
+      "22122663",
+      "39670668",
+      "21605035",
+      "18603345"
+    ],
+    "pmc": [
+      "12709260"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00521-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40817583/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

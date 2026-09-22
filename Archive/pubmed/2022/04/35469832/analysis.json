@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35469832",
+  "title": "Prediction of Disordered Regions in Proteins with Recurrent Neural Networks and Protein Dynamics.",
+  "authors": "Orlando, Gabriele; Raimondi, Daniele; Codice, Francesco; Tabaro, Francesco; Vranken, Wim",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-04-27",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用循环神经网络结合蛋白动力学预测无序区域，虽涉及IDP和AI方法，但聚焦于无序区域识别而非PPI互作机制建模，故得5分。",
+  "abstract": "The role of intrinsically disordered protein regions (IDRs) in cellular processes has become increasingly evident over the last years. These IDRs continue to challenge structural biology experiments because they lack a well-defined conformation, and bioinformatics approaches that accurately delineate disordered protein regions remain essential for their identification and further investigation. Typically, these predictors use the protein amino acid sequence, without taking into account likely sequence-dependent emergent properties, such as protein backbone dynamics. Here we present DisoMine, a method that predicts protein'long disorder' with recurrent neural networks from simple predictions of protein dynamics, secondary structure and early folding. The tool is fast and requires only a single sequence, making it applicable for large-scale screening, including poorly studied and orphan proteins. DisoMine is a top performer in its category and compares well to disorder prediction approaches using evolutionary information. DisoMine is freely available through an interactive webserver at https://bio2byte.be/disomine/.",
+  "abstract_zh": "intrinsically disordered protein regions (IDRs) 在细胞过程中的作用近年来日益显著。这些 IDRs 因缺乏明确构象而持续挑战结构生物学实验，而准确描绘无序蛋白区域的生物信息学方法对于其识别和进一步研究仍至关重要。通常，这些预测器使用蛋白质氨基酸序列，而不考虑可能依赖序列的涌现特性，如蛋白质骨架动力学。在此，我们提出 DisoMine，一种通过循环神经网络从蛋白质动力学、二级结构和早期折叠的简单预测中预测蛋白质“长无序”的方法。该工具快速且仅需单条序列，适用于大规模筛选，包括研究不足和孤儿蛋白。DisoMine 在其类别中表现优异，与使用进化信息的无序预测方法相比毫不逊色。DisoMine 可通过交互式网络服务器免费获取，网址为 https://bio2byte.be/disomine/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35469832/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35469832/",
+  "paper_page_path": "papers/pubmed/35469832/index.html"
+}

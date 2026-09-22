@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose a timeline for the early unfolding events of the folded domain (FD, residues 121-231) of recombinant bank vole prion protein PrP C (90-231) during thermal denaturation, using solution NMR and molecular dynamics simulations. They identify the β1-β2 assembly and the contiguous 121-140 segment as the first to destabilize, α2 as the last to unfold, and α1 separation from the FD ensemble as an intermediate event. These observations are presented as a framework for understanding PrP Sc -assisted conversion.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, NMR spectra and assignments, MD simulation parameters and trajectories, thermal unfolding protocols, replicate information, statistical analyses, and any validation of the bank vole model as a universal PrP Sc propagator
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable hypothesis regarding the order of unfolding events in the PrP C folded domain, which could inform mechanistic models of prion propagation. However, the evidence base is entirely inaccessible from the abstract alone. The claims are qualitative and lack quantitative support, and the link between thermal unfolding in vitro and PrP Sc -assisted conversion in vivo is asserted rather than demonstrated. The work may be of interest to the prion biology community, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying prion propagation mechanisms, protein misfolding and amyloid templating, and structural biologists interested in the conformational dynamics of β-rich domains. The proposed timeline of unfolding events could inform future atomistic models and experimental designs for interfering with PrP Sc propagation.
+- **Major strengths** The hypothesis is clearly framed and mechanistically motivated. The use of a bank vole PrP C variant, described as a universal PrP Sc propagator, is a strategic choice. The combination of residue-level NMR tracking with MD simulations is a reasonable approach to address a dynamic process. The identification of specific regions (β1-β2, 121-140, α2) provides testable predictions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Our data suggest that a key early event is the destabilization of the short β1-β2 assembly, and that the segment contiguous to the disordered tail, ∼121-140, encompassing β1 and its adjacent coils, is the most likely region to unfold first."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as chemical shift perturbations, peak intensity changes, or melting temperatures, to support the claim that β1-β2 destabilization is the earliest event. The phrase "suggest" and "most likely" indicates uncertainty, but no confidence intervals or statistical tests are referenced.  
+  - **Why it matters** The central conclusion of the paper rests on the temporal ordering of unfolding events. Without quantitative evidence, the ordering cannot be distinguished from alternative interpretations, such as simultaneous destabilization of multiple regions or artifacts of the thermal ramp.  
+  - **Resolution test** Provide residue-specific unfolding curves with error bars, statistical comparisons of onset temperatures across regions, and a clear definition of "first" (e.g., earliest significant change relative to baseline).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** External validity  
+  - **Claim pointer** "Our data provide a conceivable timeline of the early events in PrP Sc -assisted conversion of PrP C and should serve as a starting framework to develop a future atomistic model of PrP Sc propagation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not establish that thermal unfolding of recombinant PrP C recapitulates the conformational changes that occur during PrP Sc templating. The authors acknowledge the FD must unfold to fit the PrP Sc surface, but no data are presented linking the observed thermal unfolding pathway to the templating process.  
+  - **Why it matters** The relevance of the findings to prion propagation is the primary motivation for the study. If the thermal unfolding pathway is not representative of the PrP Sc -induced unfolding, the framework may be misleading.  
+  - **Resolution test** Include experimental or simulation evidence that the identified early unfolding regions are those that interact with or are destabilized by PrP Sc surfaces, or explicitly discuss the limitations of the thermal unfolding model.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** "Molecular Dynamics simulations assisted the interpretation of these changes and suggest separation of α1 from the rest of the FD ensemble."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details of the MD simulations are provided, including force field, simulation length, temperature conditions, or whether the simulations were performed under conditions matching the NMR experiments. The claim of α1 separation is presented without any metric of confidence or reproducibility.  
+  - **Why it matters** MD results are only meaningful if the simulation setup is appropriate and the observed events are statistically robust. Without this information, the α1 separation claim cannot be evaluated.  
+  - **Resolution test** Provide simulation parameters, convergence criteria, and replicate analyses in the full manuscript, and state whether the α1 separation was observed consistently across independent runs.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "universal PrP Sc propagator PrP Sc " is redundant and confusing.  
+  - **Required correction** Revise to "a bank vole PrP C variant that propagates PrP Sc across species" or similar.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim about α2  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The statement that α2 is "likely the last elements of the FD to unfold and refold into the PrP Sc conformation" conflates unfolding and refolding, which are distinct processes.  
+  - **Required correction** Clarify whether the data support α2 as the last to unfold, the last to refold, or both, and specify the evidence for each.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Model validation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention whether the bank vole PrP C (90-231) construct includes the disordered tail and whether the tail affects the unfolding behavior of the FD.  
+  - **Required correction** State the construct boundaries and any control experiments with the tail removed or mutated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for unfolding order), R1-M2 (link to PrP Sc -assisted conversion), R1-M3 (MD simulation transparency)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of tracking residue-level unfolding order to infer PrP Sc conversion mechanisms is not entirely novel, but the specific focus on the β1-β2 region and the 121-140 segment as early unfolding sites may offer a new perspective. The abstract does not clearly differentiate this from prior work on PrP C thermal stability.  
+  - **Scientific importance** If validated, the proposed timeline could inform mechanistic models of prion propagation and potentially guide therapeutic strategies targeting early unfolding events. However, the importance is contingent on the relevance of thermal unfolding to the templating process, which is not established.  
+  - **Interdisciplinary readership** The topic is of interest to prion biologists and protein misfolding researchers, but the abstract is unlikely to attract a broader readership without clearer implications for general amyloid mechanisms.  
+  - **Technical soundness** Cannot be assessed from the abstract. The absence of any quantitative data or methodological detail precludes evaluation of the technical quality.  
+  - **Readability for nonspecialists** The abstract is reasonably clear for a specialist audience but uses jargon (e.g., "procrustean bed") that may obscure meaning for nonspecialists. The logical flow is understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail necessary to support the central claims. If the full manuscript provides robust residue-level data, statistical analyses, and a clear discussion of the model's limitations, the work could become supportive.
+
+## Risk / unsupported claims
+- The claim that β1-β2 destabilization is the earliest unfolding event is unsupported without quantitative data.
+- The claim that α2 is the last to unfold and refold into PrP Sc conformation is unsupported and conflates two processes.
+- The claim that MD simulations suggest α1 separation is unsupported without simulation details.
+- The assertion that the bank vole PrP C is a "universal PrP Sc propagator" is stated without citation or evidence in the abstract.
+- The relevance of thermal unfolding to PrP Sc -assisted conversion is asserted but not demonstrated.

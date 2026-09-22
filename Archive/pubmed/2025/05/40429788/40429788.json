@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "40429788",
+    "doi": "10.3390/ijms26104645",
+    "title": "Genome-Wide Identification and Expression Analysis of the YTH Domain-Containing Protein Gene Family in Salvia miltiorrhiza."
+  },
+  "content": {
+    "abstract": "YTH domain-containing proteins act as the primary readers of N(6)-methyladenosine (m(6)A), playing an important role in plant development and stress responses. However, little is known about the YTH proteins in medicinal plants. Genome-wide identification of the YTH gene family in the medicinal model plant, Salvia miltiorrhiza Bunge, identified a total of nineteen SmYTH genes from five chromosomes, with SmYTH8-SmYTH19 clustered on chromosome 8. Phylogenetic analysis showed that SmYTH proteins belong to the YTHDF category. No YTHDC members were identified. Conserved domain identification, amino acid sequence alignment, and phase separation prediction revealed that SmYTH1-SmYTH4 exhibited the characteristic m(6)A reader protein feature, containing conserved aromatic cages (WWW) capable of binding m(6)A residues. SmYTH5-SmYTH19 proteins contain a unique conserved F-box protein interaction domain that has not been reported previously. qRT-PCR analysis revealed tissue-specific patterns, with SmYTH1-SmYTH4 genes highly expressed in roots and leaves, whereas SmYTH8-SmYTH19 were mainly expressed in leaves. The results were consistent with RNA-seq data. The expression of various SmYTHs and the content of phenolic acid active ingredients were significantly altered under MeJA and SA treatments. The results provide useful information for further studies on the biological functions of m(6)A and YTH proteins in S. miltiorrhiza.",
+    "keywords": [
+      "Salvia miltiorrhiza",
+      "YTH domain",
+      "gene family",
+      "m6A",
+      "plant growth regulator"
+    ],
+    "mesh_terms": [
+      "*Salvia miltiorrhiza/genetics/metabolism",
+      "*Plant Proteins/genetics/metabolism/chemistry",
+      "*Gene Expression Regulation, Plant",
+      "Phylogeny",
+      "*Multigene Family",
+      "*Genome, Plant",
+      "Gene Expression Profiling",
+      "Adenosine/analogs & derivatives/metabolism",
+      "Amino Acid Sequence",
+      "Acetates",
+      "Cyclopentanes",
+      "Oxylipins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Chunling",
+        "Peng, Yunliang",
+        "Pan, Xian",
+        "Zhang, Sixuan",
+        "Xu, Yayun",
+        "Li, Caili",
+        "Zhu, Butuo",
+        "Niu, Lili",
+        "Lu, Shanfa"
+      ],
+      "short_names": [
+        "Wang C",
+        "Peng Y",
+        "Pan X",
+        "Zhang S",
+        "Xu Y",
+        "Li C",
+        "Zhu B",
+        "Niu L",
+        "Lu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6284-4389"
+      ],
+      "affiliations": [
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+        "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Chunling",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yunliang",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xian",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sixuan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yayun",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Li, Caili",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Butuo",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Lili",
+        "short_name": "Niu L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shanfa",
+        "short_name": "Lu S",
+        "identifiers": [
+          "0000-0001-6284-4389"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China.",
+          "Key Laboratory of Chinese Medicine Resources Conservation, State Administration of Traditional Chinese Medicine of the People's Republic of China, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100193, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:28",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "41454231"
+    ],
+    "refs": [
+      "39929881",
+      "39771287",
+      "39578457",
+      "39562534",
+      "39339640",
+      "39262232",
+      "39049014",
+      "38950372",
+      "38892149",
+      "38835286",
+      "38720462",
+      "38706582",
+      "38448725",
+      "38166738",
+      "38071803",
+      "38041863",
+      "37894868",
+      "37861067",
+      "37740491",
+      "37293533",
+      "37195503",
+      "37122016",
+      "37069041",
+      "37050075",
+      "36904058",
+      "36890720",
+      "36477806",
+      "36263999",
+      "35562913",
+      "35236848",
+      "35101091",
+      "34893873",
+      "34679252",
+      "34294912",
+      "34081180",
+      "34078442",
+      "33983629",
+      "33892491",
+      "33843075",
+      "33795663",
+      "33515769",
+      "33515768",
+      "33384411",
+      "33284615",
+      "32611605",
+      "32451507",
+      "32416015",
+      "31388144",
+      "31292544",
+      "30299490",
+      "29799838",
+      "29788355",
+      "29716990",
+      "29715522",
+      "29643069",
+      "29618631",
+      "29476152",
+      "29180595",
+      "29103884",
+      "28923956",
+      "28848585",
+      "28824695",
+      "28503769",
+      "28106072",
+      "27396363",
+      "26318451",
+      "26046440",
+      "25953851",
+      "25242552",
+      "24825614",
+      "24779358",
+      "24753421",
+      "24284625",
+      "24209618",
+      "22291132",
+      "22002720",
+      "18505803",
+      "11752327"
+    ],
+    "similar": [
+      "40429788",
+      "38892149",
+      "35627207",
+      "25881056",
+      "36012649",
+      "32713350",
+      "24112769",
+      "24725266",
+      "28304398",
+      "32607753",
+      "34081180",
+      "39490649",
+      "37446115",
+      "29914175",
+      "39928190",
+      "24733018",
+      "23770591",
+      "33284615",
+      "38166738",
+      "23644983",
+      "39262232",
+      "28953930",
+      "32429385",
+      "24660670",
+      "33818288",
+      "29892943",
+      "26174967",
+      "39684848",
+      "40072562",
+      "26689421",
+      "29329649",
+      "19244759",
+      "32198126",
+      "38790218",
+      "22291132",
+      "31624328",
+      "29843472",
+      "38703500",
+      "33933003",
+      "40311966",
+      "39771287",
+      "30487420",
+      "38861173",
+      "36768475",
+      "22995172",
+      "30229287",
+      "39638208",
+      "39332329",
+      "26388160",
+      "30299490",
+      "34419551",
+      "37239808",
+      "29882758",
+      "36164898",
+      "23889895",
+      "25443837",
+      "38134738",
+      "33247370",
+      "24220646",
+      "25970825",
+      "38791194",
+      "30372953",
+      "39210263",
+      "34299156",
+      "35743301",
+      "22926031",
+      "23847936",
+      "37894868",
+      "38277834",
+      "39952526",
+      "38875779",
+      "30348323",
+      "34360660",
+      "40244119",
+      "24779358",
+      "39769479",
+      "24039895",
+      "34315580",
+      "39684932",
+      "39018777",
+      "25601000",
+      "35163041",
+      "37090108",
+      "19011990",
+      "24462754",
+      "23460883",
+      "33080263",
+      "36513414",
+      "36399834",
+      "32361896",
+      "28256553",
+      "29704055",
+      "29709801",
+      "32593720",
+      "22741454",
+      "35358599",
+      "23672020",
+      "31035094",
+      "28218974",
+      "23928825"
+    ],
+    "review": [
+      "40429788",
+      "35358599"
+    ],
+    "pmc": [
+      "12110915"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26104645",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40429788/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

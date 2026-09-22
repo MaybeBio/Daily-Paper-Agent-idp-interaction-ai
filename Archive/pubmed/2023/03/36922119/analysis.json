@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36922119",
+  "title": "Relaxation dynamics measure the aggregation propensity of amyloid-beta and its mutants.",
+  "authors": "Dey, Priya; Biswas, Parbati",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2023-03-16",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用原子级MD模拟研究淀粉样蛋白Aβ及其突变体的弛豫动力学，并将其与聚集倾向关联，对象为IDP且涉及物理模拟，但未聚焦PPI或互作机制建模，故综合评分为6。",
+  "abstract": "Atomistic molecular dynamics simulations are employed to investigate the global and segmental relaxation dynamics of the amyloid-beta protein and its causative and protective mutants. Amyloid-beta exhibits significant global/local dynamics that span a broad range of length and time scales due to its intrinsically disordered nature. The relaxation dynamics of the amyloid-beta protein and its mutants is quantitatively correlated with its experimentally measured aggregation propensity. The protective mutant has slower relaxation dynamics, whereas the causative mutants exhibit faster global dynamics compared with that of the wild-type amyloid-beta. The local dynamics of the amyloid-beta protein or its mutants is governed by a complex interplay of the charge, hydrophobicity, and change in the molecular mass of the mutated residue.",
+  "abstract_zh": "采用原子级分子动力学模拟，研究淀粉样β蛋白及其致病性和保护性突变体的整体与片段松弛动力学。由于淀粉样β蛋白的内在无序特性，其表现出显著的整体/局部动力学，跨越广泛的长度和时间尺度。淀粉样β蛋白及其突变体的松弛动力学与其实验测得的聚集倾向定量相关。保护性突变体具有较慢的松弛动力学，而致病性突变体相比野生型淀粉样β蛋白表现出更快的整体动力学。淀粉样β蛋白或其突变体的局部动力学受突变残基的电荷、疏水性和分子质量变化的复杂相互作用所支配。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36922119/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36922119/",
+  "paper_page_path": "papers/pubmed/36922119/index.html"
+}

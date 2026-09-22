@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41934091",
+  "title": "Coiled-coil centrosomal proteins facilitate tubulin concentration via polyKR motifs.",
+  "authors": "Lin, Shiou-Lan; Chen, Yu-Hsun; Loi, Ren Jun; Chen, Yueh-Ting; Chen, Ting; Lapouge, Karine; Greenan, Garrett; Krausslich, Hans-Georg; Cheng, Hui-Chun",
+  "journal": "The FEBS journal",
+  "published_date": "2026-04-04",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究中心体卷曲螺旋蛋白中polyKR基序通过相分离凝聚体富集微管蛋白的机制，涉及IDR/凝聚体介导的蛋白互作，但方法以实验和生物信息学为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "Centrosomes organize microtubules (MT) in animal cells by recruiting a group of MT polymerization factors to the pericentriolar matrix (PCM). Tubulin enrichment within the PCM contributes to microtubule-organizing activity. However, the molecular determinants underlying this tubulin concentration remain elusive. Here, we describe a mechanism of tubulin concentration by polyKR motifs encoded in the centrosomal coiled-coil proteins. We show that polyKR sequences promote tubulin enrichment within engineered protein condensates that mimic the protein-dense environment of the centrosome. Bioinformatic analysis reveals that polyKR motif-containing coiled-coil proteins are highly enriched in centrosomes across species, from worms and flies to mice and humans. The tubulin binding affinity of polyKR motifs with six to 10 basic residues is approximately in the micromolar to submicromolar range. Cytoplasmic puncta containing the predicted centrosomal polyKR motifs concentrate microtubules. In purified systems, we show that TACC3 and Cep63 condensates containing polyKR motifs concentrate tubulin dimers over 10-fold. Moreover, the spatial density of polyKR motifs correlates with MT concentration, suggesting that cells can modulate tubulin concentration at the PCM by tuning the centrosomal composition. Our findings highlight a general function encoded in centrosomal scaffolding proteins for tubulin concentration, and this mechanism is functionally redundant to ensure robust tubulin enrichment in the PCM.",
+  "abstract_zh": "中心体通过将一组微管聚合因子招募到中心粒周围基质（PCM）中，在动物细胞中组织微管（MT）。PCM内的微管蛋白富集有助于微管组织活性。然而，这种微管蛋白浓度背后的分子决定因素仍不清楚。在此，我们描述了由中心体卷曲螺旋蛋白中编码的polyKR基序介导的微管蛋白浓缩机制。我们表明，polyKR序列能促进工程化蛋白凝聚体中的微管蛋白富集，这些凝聚体模拟了中心体的蛋白质密集环境。生物信息学分析揭示，含有polyKR基序的卷曲螺旋蛋白在从线虫、果蝇到小鼠和人类的跨物种中心体中高度富集。具有6至10个碱性残基的polyKR基序的微管蛋白结合亲和力大约在微摩尔至亚微摩尔范围内。含有预测中心体polyKR基序的细胞质斑点能浓缩微管。在纯化系统中，我们显示含有polyKR基序的TACC3和Cep63凝聚体能将微管蛋白二聚体浓缩超过10倍。此外，polyKR基序的空间密度与微管浓度相关，表明细胞可以通过调节中心体组成来调节PCM中的微管蛋白浓度。我们的发现突显了中心体支架蛋白中编码的微管蛋白浓缩的一般功能，且该机制在功能上是冗余的，以确保PCM中微管蛋白的稳健富集。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41934091/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41934091/",
+  "paper_page_path": "papers/pubmed/41934091/index.html"
+}

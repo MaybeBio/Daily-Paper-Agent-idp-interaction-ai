@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "42280206",
+    "doi": "10.3390/molecules31111903",
+    "title": "Enhanced Condensation of RNA Repeats Induced by Terahertz Oscillatory Fields."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of RNA drives the formation of membraneless organelles, and its dysregulation is closely linked to major human diseases, including cancer, neurodegenerative disorders, and various rare genetic diseases. Current strategies for modulating LLPS often require the introduction of exogenous molecules or specific genetic modifications. Here, coarse-grained molecular dynamics (CGMD) simulations suggest that terahertz (THz) oscillatory fields may influence the condensation of pathogenic G4C2 RNA repeats under the simulated conditions. Oscillatory fields at 10 THz and 37.3 THz are shown to effectively counteract salt-induced condensate dissolution. At the molecular level, THz oscillatory fields are associated with reduced phosphate-sodium contacts at low ionic strengths and with faster water diffusion in the hydration layer at higher salt levels. These changes correlate with an increase in stable intermolecular contacts and a more compact RNA state, suggesting a field-driven shift in the balance of interactions. These findings provide a conceptual and mechanistic basis for understanding how oscillatory fields may influence biomolecular condensation, establishing a microscopic framework for using external variable fields to manipulate biomolecular assemblies.",
+    "keywords": [
+      "Martini 3 force field",
+      "RNA condensation",
+      "coarse-grained molecular dynamics (CGMD)",
+      "terahertz (THz) oscillatory fields"
+    ],
+    "mesh_terms": [
+      "*RNA/chemistry",
+      "Molecular Dynamics Simulation",
+      "Phase Separation",
+      "*Terahertz Radiation",
+      "Nucleic Acid Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qin",
+        "Valerio, Mariana",
+        "Wang, Kaicheng",
+        "Yang, Lixia",
+        "Wang, Shaomeng",
+        "Souza, Paulo C T",
+        "Gong, Yubin"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Valerio M",
+        "Wang K",
+        "Yang L",
+        "Wang S",
+        "Souza PCT",
+        "Gong Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9785-9329",
+        "ORCID: 0000-0001-7340-0134",
+        "ORCID: 0000-0003-2897-1434",
+        "ORCID: 0000-0003-0660-1301",
+        "ORCID: 0000-0003-3014-1309"
+      ],
+      "affiliations": [
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 69364 Lyon, France.",
+        "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 69364 Lyon, France.",
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "School of Physics, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 69364 Lyon, France.",
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qin",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0001-9785-9329"
+        ],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 69364 Lyon, France.",
+          "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Valério, Mariana",
+        "short_name": "Valério M",
+        "identifiers": [
+          "0000-0001-7340-0134"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 69364 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Wang, Kaicheng",
+        "short_name": "Wang K",
+        "identifiers": [
+          "0000-0003-2897-1434"
+        ],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lixia",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaomeng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+          "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Souza, Paulo C T",
+        "short_name": "Souza PCT",
+        "identifiers": [
+          "0000-0003-0660-1301"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 69364 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Gong, Yubin",
+        "short_name": "Gong Y",
+        "identifiers": [
+          "0000-0003-3014-1309"
+        ],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+          "Terahertz Radiation and Application Key Laboratory of Sichuan Province, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:39",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42223083",
+      "41529110",
+      "41187075",
+      "41129218",
+      "39908323",
+      "38622120",
+      "37664616",
+      "36756326",
+      "36745512",
+      "36607820",
+      "36342474",
+      "36227470",
+      "35925890",
+      "35688733",
+      "34787357",
+      "34706977",
+      "34551999",
+      "34221333",
+      "33997539",
+      "33890764",
+      "33782607",
+      "33515602",
+      "32939066",
+      "32909579",
+      "32015543",
+      "31722410",
+      "31434954",
+      "30926670",
+      "30094474",
+      "29262335",
+      "29115293",
+      "28839094",
+      "28633759",
+      "28562589",
+      "28225081",
+      "28041848",
+      "26066202",
+      "25288112",
+      "21500218",
+      "21173199",
+      "20043653",
+      "17212484",
+      "9398275",
+      "8744570"
+    ],
+    "similar": [
+      "42280206",
+      "42223083",
+      "42475469",
+      "42283756",
+      "41575805",
+      "23912807",
+      "40745850",
+      "39807887",
+      "37043540",
+      "38979955",
+      "38683175",
+      "41169547",
+      "40172489",
+      "36227470",
+      "41433062",
+      "33453922",
+      "39605385",
+      "41804277",
+      "33333836",
+      "38949285",
+      "41129218",
+      "41930927",
+      "39957101",
+      "29297679",
+      "40616404",
+      "34904892",
+      "33307683",
+      "41535729",
+      "36502125",
+      "26979708",
+      "33876938",
+      "20701388",
+      "42350353",
+      "42052695",
+      "19754142",
+      "28633759",
+      "42550103",
+      "40753455",
+      "37134270",
+      "42243951",
+      "41909144",
+      "42314891",
+      "41609052",
+      "42309202",
+      "29378935",
+      "39342654",
+      "42169413",
+      "36920190",
+      "39302099",
+      "38862770",
+      "39466031",
+      "38580324",
+      "24506488",
+      "34081861",
+      "41524628",
+      "20145814",
+      "32822177",
+      "42126444",
+      "27300587",
+      "39006762",
+      "38804888",
+      "40842365",
+      "41891879",
+      "34573116",
+      "37983764",
+      "41705221",
+      "41307542",
+      "35501484",
+      "34291921",
+      "36989143",
+      "40516596",
+      "23299283",
+      "40129029",
+      "26883635",
+      "38322526",
+      "20548957",
+      "39327873",
+      "41187075",
+      "33583140",
+      "38245749",
+      "41346115",
+      "40278867",
+      "40127264",
+      "33515602",
+      "40631767",
+      "41017414",
+      "33302617",
+      "40074668",
+      "38447040",
+      "41714601",
+      "39551864",
+      "39377398",
+      "42121913",
+      "27526680",
+      "40849651",
+      "36260782",
+      "42064063",
+      "26124199",
+      "41529110",
+      "36288994"
+    ],
+    "review": [
+      "42280206",
+      "41575805",
+      "38979955",
+      "40172489",
+      "29297679",
+      "40616404",
+      "36502125",
+      "42243951",
+      "39006762",
+      "34573116",
+      "41307542",
+      "34291921",
+      "33583140",
+      "38245749",
+      "41346115",
+      "39551864",
+      "40849651"
+    ],
+    "pmc": [
+      "13258665"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31111903",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42280206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38946265",
+  "title": "Caspase-Based Fusion Protein Technology: Substrate Cleavability Described by Computational Modeling and Simulation.",
+  "authors": "Liu, Jakob; Fischer, Andreas; Cserjan-Puschmann, Monika; Lingg, Nico; Oostenbrink, Chris",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟生成无序N端肽构象并拟合CASPON酶，以构象选择模型预测融合蛋白切割效率，虽对象为酶-底物而非典型PPI，但无序肽与酶互作机制建模思路对本课题有可迁移启发。",
+  "abstract": "The Caspase-based fusion protein technology (CASPON) allows for universal cleavage of fusion tags from proteins of interest to reconstitute the native N-terminus. While the CASPON enzyme has been optimized to be promiscuous against a diversity of N-terminal peptides, the cleavage efficacy for larger proteins can be surprisingly low. We develop an efficient means to rationalize and predict the cleavage efficiency based on a structural representation of the intrinsically disordered N-terminal peptides and their putative interactions with the CASPON enzyme. The number of favorably interacting N-terminal conformations shows a very good agreement with the experimentally observed cleavage efficiency, in agreement with a conformational selection model. The method relies on computationally cheap molecular dynamics simulations to efficiently generate a diverse collection of N-terminal conformations, followed by a simple fitting procedure into the CASPON enzyme. It can be readily used to assess the CASPON cleavability a priori.",
+  "abstract_zh": "基于Caspase的融合蛋白技术（CASPON）能够实现对目标蛋白融合标签的通用切割，以重建天然N端。尽管CASPON酶已被优化为对多种N端肽具有广泛特异性，但对于较大蛋白的切割效率可能出人意料地低。我们开发了一种高效的方法，基于固有无序N端肽的结构表征及其与CASPON酶的假定相互作用，来合理化和预测切割效率。有利相互作用的N端构象数量与实验观察到的切割效率表现出极好的一致性，这与构象选择模型相符。该方法依赖于计算成本较低的分子动力学模拟，以高效生成多样化的N端构象集合，随后通过简单的拟合程序进入CASPON酶。它可随时用于先验评估CASPON的可切割性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38946265/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38946265/",
+  "paper_page_path": "papers/pubmed/38946265/index.html"
+}

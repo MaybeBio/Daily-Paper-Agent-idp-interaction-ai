@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37252985",
+    "doi": "10.1073/pnas.2220014120",
+    "title": "Proximity to criticality predicts surface properties of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "It has recently become appreciated that cells self-organize their interiors through the formation of biomolecular condensates. These condensates, typically formed through liquid-liquid phase separation of proteins, nucleic acids, and other biopolymers, exhibit reversible assembly/disassembly in response to changing conditions. Condensates play many functional roles, aiding in biochemical reactions, signal transduction, and sequestration of certain components. Ultimately, these functions depend on the physical properties of condensates, which are encoded in the microscopic features of the constituent biomolecules. In general, the mapping from microscopic features to macroscopic properties is complex, but it is known that near a critical point, macroscopic properties follow power laws with only a small number of parameters, making it easier to identify underlying principles. How far does this critical region extend for biomolecular condensates and what principles govern condensate properties in the critical regime? Using coarse-grained molecular-dynamics simulations of a representative class of biomolecular condensates, we found that the critical regime can be wide enough to cover the full physiological range of temperatures. Within this critical regime, we identified that polymer sequence influences surface tension predominately via shifting the critical temperature. Finally, we show that condensate surface tension over a wide range of temperatures can be calculated from the critical temperature and a single measurement of the interface width.",
+    "keywords": [
+      "biomolecular condensates",
+      "critical phenomena",
+      "molecular-dynamics",
+      "phase separation",
+      "surface tension"
+    ],
+    "mesh_terms": [
+      "*Biomolecular Condensates",
+      "Proteins/metabolism",
+      "*Nucleic Acids/metabolism",
+      "Organelles/metabolism",
+      "Surface Properties"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pyo, Andrew G T",
+        "Zhang, Yaojun",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "Pyo AGT",
+        "Zhang Y",
+        "Wingreen NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4587-6834",
+        "ORCID: 0000-0001-7384-2821"
+      ],
+      "affiliations": [
+        "Department of Physics, Princeton University, Princeton, NJ 08544.",
+        "Department of Physics, Princeton University, Princeton, NJ 08544.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pyo, Andrew G T",
+        "short_name": "Pyo AGT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544.",
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [
+          "0000-0001-7384-2821"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544.",
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/30 19:15",
+    "fetched_at": "2026-09-20 22:28:49"
+  },
+  "links": {
+    "cites": [
+      "42161313",
+      "41944040",
+      "41868013",
+      "41637578",
+      "41261101",
+      "40871191",
+      "40782375",
+      "40727669",
+      "39950286",
+      "39763716",
+      "39660892",
+      "39642206",
+      "39513041",
+      "38885177",
+      "38798623",
+      "38724503",
+      "38591689",
+      "38489385",
+      "38285946"
+    ],
+    "refs": [
+      "36247368",
+      "35590728",
+      "35378855",
+      "35307352",
+      "35198903",
+      "34965250",
+      "34599097",
+      "34507991",
+      "34428231",
+      "34170179",
+      "33864415",
+      "33704061",
+      "33661634",
+      "33571491",
+      "33453268",
+      "32934220",
+      "32857503",
+      "32029630",
+      "32019927",
+      "32007034",
+      "32004090",
+      "31540706",
+      "30602772",
+      "30339413",
+      "30099028",
+      "30017918",
+      "29364893",
+      "29133588",
+      "28938114",
+      "28894006",
+      "28283059",
+      "27374333",
+      "27289443",
+      "27212236",
+      "27056844",
+      "26777405",
+      "26406374",
+      "26317470",
+      "26274171",
+      "25747659",
+      "24368804",
+      "22398450",
+      "21368180",
+      "19460965",
+      "17256893",
+      "16268722",
+      "10045634",
+      "10042391"
+    ],
+    "similar": [
+      "37252985",
+      "40985078",
+      "37464880",
+      "41481439",
+      "38621751",
+      "36883003",
+      "41670285",
+      "35974095",
+      "39227569",
+      "40782375",
+      "39636939",
+      "36227474",
+      "36758221",
+      "39113361",
+      "40196628",
+      "34129784",
+      "40172489",
+      "40557772",
+      "37194953",
+      "41480717",
+      "40867025",
+      "36028355",
+      "38781207",
+      "39827079",
+      "39146259",
+      "41984772",
+      "36150962",
+      "37549257",
+      "39804953",
+      "35179885",
+      "41575805",
+      "33672806",
+      "35325654",
+      "37791635",
+      "38773325",
+      "29258725",
+      "39937084",
+      "40804711",
+      "38181073",
+      "40954121",
+      "35243657",
+      "40098319",
+      "34767801",
+      "39987501",
+      "33864415",
+      "38722189",
+      "40913895",
+      "36279601",
+      "36269080",
+      "37162152",
+      "40229261",
+      "37019112",
+      "35761089",
+      "35727989",
+      "39675392",
+      "41279444",
+      "40972943",
+      "39757214",
+      "40791470",
+      "40168179",
+      "40195042",
+      "39271032",
+      "40626470",
+      "38405951",
+      "36524527",
+      "32800925",
+      "38885177",
+      "30099028",
+      "40327693",
+      "41187075",
+      "34862761",
+      "36191226",
+      "37217523",
+      "39071308",
+      "35001622",
+      "36847235",
+      "37348448",
+      "29509422",
+      "41645509",
+      "39856105",
+      "40521608",
+      "36875159",
+      "36657879",
+      "41667469",
+      "36400992",
+      "37586369",
+      "35484036",
+      "36227480",
+      "35108264",
+      "40801528",
+      "39042834",
+      "38429263",
+      "37789618",
+      "39824169",
+      "34762868",
+      "40962203",
+      "35198903",
+      "39672748",
+      "37293933",
+      "36243979"
+    ],
+    "review": [
+      "37252985",
+      "37464880",
+      "38621751",
+      "35974095",
+      "34129784",
+      "40172489",
+      "40557772",
+      "41480717",
+      "36028355",
+      "39827079",
+      "39146259",
+      "36150962",
+      "35179885",
+      "41575805",
+      "38773325",
+      "29258725",
+      "40804711",
+      "34767801",
+      "40913895",
+      "36279601",
+      "36269080",
+      "35761089",
+      "39675392",
+      "39757214",
+      "40195042",
+      "39271032",
+      "36524527",
+      "32800925",
+      "38885177",
+      "30099028",
+      "37348448",
+      "29509422",
+      "36875159",
+      "36400992",
+      "35484036",
+      "40801528",
+      "39824169",
+      "40962203",
+      "39672748",
+      "36243979"
+    ],
+    "pmc": [
+      "10266063"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2220014120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37252985/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37252985",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

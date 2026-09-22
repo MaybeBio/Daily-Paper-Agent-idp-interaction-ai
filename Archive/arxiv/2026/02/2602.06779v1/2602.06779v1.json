@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2602.06779v1",
+  "title": "Radially symmetric transition-layer solutions in mass-conserving reaction-diffusion systems with bistable nonlinearity",
+  "doi": "",
+  "abstract": "Mass-conserving reaction-diffusion (MCRD) systems are widely used to model phase separation and pattern formation in cell polarity, biomolecular condensates, and ecological systems. Numerical simulations and formal asymptotic analysis suggest that such models can support stationary patterns with sharp internal interfaces. In this work, we establish for a general class of bistable MCRD systems the existence of nonconstant radially symmetric stationary solutions with a single internal transition layer on an $N$-dimensional ball, for general spatial dimension $N$. Our approach incorporates the global mass constraint directly into a refined matched-asymptotic framework complemented by a uniform spectral/linear analysis. Beyond mere existence, our framework yields arbitrarily high-order asymptotic approximations of the constructed solutions together with quantitative uniform error estimates, which provides a quantitative higher-dimensional theory of transition-layer patterns in MCRD systems and a rigorous justification for their use in modeling phase separation and pattern formation in biological and ecological settings.",
+  "authors": [
+    "Xiaoqing He",
+    "Quan-Xing Liu",
+    "Dong Ye"
+  ],
+  "published_date": "2026-02-06T15:35:19Z",
+  "updated_date": "2026-02-06T15:35:19Z",
+  "journal": "",
+  "category": "math.AP, math.DS",
+  "landing_url": "https://arxiv.org/abs/2602.06779v1",
+  "pdf_url": "https://arxiv.org/pdf/2602.06779v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "math.AP",
+    "math.DS"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2602.06779v1",
+    "raw_categories": [
+      "math.AP",
+      "math.DS"
+    ],
+    "journal_ref": ""
+  }
+}

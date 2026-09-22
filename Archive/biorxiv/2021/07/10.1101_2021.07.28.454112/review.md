@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary algorithm descriptions
+- **Assessment boundary** Scientific validity of claims, methodological soundness, evidence quality, and clarity of presentation
+- **Shared manuscript claim summary** The authors present a combined molecular dynamics and machine learning workflow (MD-ML) to study the effects of three disease-associated mutations (I168A, D169G, I168A-D169G) in the RRM1 domain of TDP-43. They claim the double mutant shows the highest packing of the protein inner core, indicating greater stability and potentially higher pathogenicity. They also claim to identify biological descriptors (interacting residue pairs and individual residues) that influence protein stability and could be experimentally evaluated for therapeutic development.
+- **Visible evidence base** Abstract, Introduction, Methods (Section 2), Results and Discussion (Section 3), Conclusion (Section 4), Supplementary algorithm descriptions, references to figures and tables
+- **Missing materials affecting confidence** Figures 1-5 and Tables S1-S2 are referenced but not provided in the supplied text. Supplementary figures S1-S6 are referenced but not available. The GitHub link for code is mentioned but not accessible in this review context. Simulation parameters, convergence criteria, and validation details are partially described but not fully verifiable.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic in neurodegenerative disease research, specifically the molecular mechanisms of TDP-43 mutations. The integration of molecular dynamics simulations with machine learning approaches is conceptually interesting and potentially valuable. However, the current manuscript has significant methodological gaps, insufficient quantitative evidence, and overreaches in several claims relative to what is demonstrated. The core conclusions about the double mutant's stability and the identified biological descriptors require stronger validation and clearer presentation of quantitative data. The manuscript would benefit from substantial revision to establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodegenerative disease mechanisms, protein misfolding and aggregation, computational biophysics, and structural biology would find this work relevant. Those studying TDP-43 proteinopathies specifically, including ALS and FTD researchers, would be interested in the mutation-specific effects on protein structure and stability. Computational biologists developing MD-ML integrated workflows would also find methodological interest. The potential identification of targetable residues for therapeutic intervention could interest drug discovery groups.
+- **Major strengths** The topic is clinically relevant and timely. The integration of MD simulation with ML approaches is a modern and potentially powerful strategy. The focus on RRM1 domain mutations with known disease relevance (particularly D169G) is well justified. The authors attempt to connect structural changes to functional implications. The workflow concept is clearly articulated and could be broadly applicable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that the I168A-D169G double mutant delineates the highest packing of the protein inner core as compared to the other mutations, which may indicate more stability and higher chances of pathogenesis.
+  - **Evidence pointer** Section 3.1, Figures 1C, 1D, 2A-F, S1A-D
+  - **Concern** The central claim about the double mutant's enhanced core packing and stability is based on qualitative descriptions of RMSD, SASA, contact maps, and porcupine plots, but no quantitative values are provided in the text. The figures are referenced but not available for inspection. The authors state that the double mutant shows the "highest packing" without presenting numerical comparisons, statistical significance tests, or error estimates across replicate simulations.
+  - **Why it matters** The primary conclusion of the paper rests on this comparative stability claim. Without quantitative data, statistical validation, and evidence of convergence, the claim cannot be evaluated. The biological significance of the observed differences between mutants is unclear without effect sizes and uncertainties.
+  - **Resolution test** Provide quantitative RMSD, SASA, and contact map values with standard deviations across multiple independent simulations. Include statistical tests comparing the double mutant against each single mutant and the wild type. Show convergence plots and replicate analysis to demonstrate that observed differences are reproducible and not simulation artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that they performed 100ns long MD simulations and used the resulting data to train machine learning models for identifying biological descriptors.
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 3.3
+  - **Concern** The manuscript lacks critical details about the simulation setup: force field parameters beyond naming AMBER03 and AMBER94, water box dimensions, ionic concentration, temperature and pressure coupling methods, equilibration protocols, and the number of independent replicates. For the ML component, the training and test split methodology, cross-validation details, hyperparameter tuning procedures, and the specific features used are inadequately described. The 2000 frames from a single 100ns trajectory per system may be insufficient for robust ML training.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of methodological detail prevents other researchers from replicating the work. The ML results are only as reliable as the data and methods used, and the current description does not allow assessment of overfitting, bias, or generalizability.
+  - **Resolution test** Provide complete simulation parameters, including force field details, solvation box specifications, ion concentrations, thermostat and barostat settings, and the number of replicates. Describe the ML pipeline in full: feature selection criteria, train-test split ratios, cross-validation strategy, hyperparameter search space, and performance metrics for each model. Justify the choice of 100ns simulation length and 2000 frames for ML training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that the identified biological descriptors could be experimentally evaluated to develop potential therapeutic strategies.
+  - **Evidence pointer** Section 3.3, Section 4, Figures 4A-D, 5A-B
+  - **Concern** The manuscript identifies interacting residue pairs and individual residues as important descriptors but does not provide a clear mechanistic interpretation of why these specific residues matter. The connection between the ML-identified features and the structural analysis is not explicitly established. The claim that these could be experimentally evaluated for therapeutic development is speculative without a concrete hypothesis about how modulating these residues would affect disease.
+  - **Why it matters** The translational value of the work depends on whether the identified descriptors are mechanistically meaningful and actionable. Without a clear biological rationale linking the identified residues to disease mechanisms, the therapeutic claim is unsupported.
+  - **Resolution test** Provide a mechanistic interpretation of the top-ranked residues and interactions, relating them to known TDP-43 function, disease mechanisms, or structural features. Discuss how these could be targeted experimentally and what specific outcomes would be predicted. If possible, compare with existing experimental data on TDP-43 mutations and their effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Literature integration
+  - **Claim pointer** The authors state that studies on the effect of disease-related mutations on the RRM domains of TDP-43 are still very limited.
+  - **Evidence pointer** Section 1, Introduction
+  - **Concern** The introduction does not adequately survey the existing computational and experimental literature on TDP-43 mutations in the RRM domains. Several studies have examined the structural and functional effects of TDP-43 mutations, including D169G, using both experimental and computational approaches. The claim of limited prior work appears to underrepresent the existing body of research.
+  - **Why it matters** Proper contextualization is essential for establishing the novelty and significance of the work. If prior studies have already addressed similar questions, the contribution of this manuscript needs to be positioned more precisely.
+  - **Resolution test** Expand the introduction to include a comprehensive review of prior computational and experimental studies on TDP-43 RRM mutations, explicitly stating what is known and what gaps remain. Clearly differentiate the current work from previous efforts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, ML methodology
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the ML approach is confusing in places. The text mentions "Objective I" and "Objective II" but does not clearly map these to the specific models and analyses performed. The relationship between the pairwise concatenation approach and the global concatenation approach is not clearly explained.
+  - **Required correction** Restructure Section 2.2 to clearly state the two objectives, the specific models used for each, and the data preparation steps for each analysis. Use a table or flowchart to illustrate the workflow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, structural analysis
+  - **Evidence pointer** Section 3.1, Figures 1C, 1D
+  - **Issue** The RMSD and SASA results are described qualitatively without numerical values. The statement that the double mutant shows the "highest packing" is not supported by specific data in the text.
+  - **Required correction** Include numerical values for RMSD and SASA for each system, with standard deviations. State the specific differences observed and whether they are statistically significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.1, simulation setup
+  - **Evidence pointer** Section 2.1
+  - **Issue** The text states "AMBER03 protein, nucleic AMBER94 37 forcefield" which is ambiguous. It is unclear whether this means AMBER03 for protein and AMBER94 for nucleic acids, or a mixed force field approach.
+  - **Required correction** Clarify the exact force field combination used, including any modifications or parameter adjustments. Provide the citation format consistently.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Code and data sharing
+  - **Evidence pointer** Section 2.2, GitHub link
+  - **Issue** The manuscript mentions a GitHub link for code sharing but does not provide the actual link in the text. The availability of simulation input files, trajectories, and analysis scripts is not stated.
+  - **Required correction** Provide the GitHub repository link and state clearly what materials are available (code, data, parameters). Consider depositing simulation data in a public repository.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-5
+  - **Evidence pointer** Figures 1-5
+  - **Issue** The figures are referenced extensively but not available for review. The text descriptions suggest complex multi-panel figures, but the quality and clarity cannot be assessed.
+  - **Required correction** Ensure all figures are high-resolution, clearly labeled, and self-explanatory. Add appropriate color scales, axis labels, and legends. Consider providing figure captions that fully explain each panel.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.3, ML results
+  - **Evidence pointer** Section 3.3, Table S1, Figure S4
+  - **Issue** The ML performance is reported as high accuracy (99.9%) and high AUC, but the specific values for each model and each comparison are not provided in the text. The variability across cross-validation folds is not reported.
+  - **Required correction** Report the mean and standard deviation of accuracy, AUC, and other relevant metrics for each model and each comparison. Include confusion matrices or precision-recall curves where appropriate.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains several typographical errors and awkward phrasings. For example, "formulized" should be "formulated", "extraneously noisy" is unclear, and some sentences are overly long and convoluted.
+  - **Required correction** Perform a thorough language edit to improve clarity and readability. Consider shortening complex sentences and using more precise terminology.
+
+## Risk / unsupported claims
+- The claim that the I168A-D169G double mutant shows the highest core packing and stability is unsupported without quantitative data and statistical analysis.
+- The claim that identified biological descriptors could be experimentally evaluated for therapeutic development is speculative and lacks mechanistic grounding.
+- The claim that the MD-ML workflow successfully identifies functionally important regions is not fully substantiated without details on model validation and feature interpretation.
+- The statement that the double mutant may lead to "enhanced level of pathogenesis" is an extrapolation from stability data without direct experimental evidence.
+- The assertion that residues in the alpha-1 strand are as important as the mutant residues is not quantitatively supported in the text.
+- The overall conclusion that the work provides information that "will help biomedical researchers" is premature given the current level of validation.

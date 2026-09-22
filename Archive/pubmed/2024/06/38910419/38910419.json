@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "38910419",
+    "doi": "10.2174/0109298665313811240530055004",
+    "title": "Structural Properties of Rat Intestinal Fatty Acid-Binding Protein with its Dynamics: Insights into Intrinsic Disorder."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The rat intestinal fatty acid-binding protein (I-FABP) is expressed in the small intestine and is involved in the absorption and transport of dietary fatty acids. It is used as a marker for intestinal injury and is associated with various gastrointestinal disorders. I-FABP has been studied extensively using conventional experimental and computational techniques. However, the detection of intrinsically disordered regions requires the application of special sampling molecular dynamics simulations along with certain bioinformatics because conventional computational and experimental studies face challenges in identifying the features of intrinsic disorder. METHODS: Replica exchange molecular dynamics simulations were conducted along with bioinformatics studies to gain deeper insights into the structural properties of I-FABP. Specifically, the Calpha and Halpha chemical shift values werecalculated, and the findings were compared to the experiments. Furthermore, secondary and tertiary structure properties were also calculated, and the protein was clustered using k-means clustering. The end-to-end distance and radius of gyration values were reported for the protein in an aqueous solution medium. In addition, its disorder tendency was studied using various bioinformatics tools. RESULTS AND CONCLUSION: It was reported that I-FABP is a flexible protein with regions that demonstrate intrinsic disorder characteristics. This flexibility and intrinsic disorder characteristics of IFABP may be related to its nature in ligand binding processes.",
+    "keywords": [
+      "I-FABP",
+      "REMD simulations",
+      "bioinformatics",
+      "gastrointestinal disorders.",
+      "intrinsic disorder",
+      "structural properties"
+    ],
+    "mesh_terms": [
+      "*Fatty Acid-Binding Proteins/chemistry/metabolism/genetics",
+      "Animals",
+      "Rats",
+      "*Molecular Dynamics Simulation",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balli, Oyku Irem",
+        "Caglayan, Sule Irem",
+        "Uverksy, Vladimir N",
+        "Coskuner-Weber, Orkid"
+      ],
+      "short_names": [
+        "Balli OI",
+        "Caglayan SI",
+        "Uverksy VN",
+        "Coskuner-Weber O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0772-9350",
+        "ORCID: 0000-0002-0772-9350"
+      ],
+      "affiliations": [
+        "Molecular Biotechnology, Turkisch-Deutsche Universitat, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey.",
+        "Molecular Biotechnology, Turkisch-Deutsche Universitat, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey.",
+        "Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences, Institute for Biological Instrumentation, Institutskaya str., 7, Pushchino, Moscow Region 142290, Russia.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL33612, USA.",
+        "Molecular Biotechnology, Turkisch-Deutsche Universitat, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balli, Oyku Irem",
+        "short_name": "Balli OI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Türkisch-Deutsche Universität, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey."
+        ]
+      },
+      {
+        "full_name": "Caglayan, Sule Irem",
+        "short_name": "Caglayan SI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Türkisch-Deutsche Universität, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey."
+        ]
+      },
+      {
+        "full_name": "Uverksy, Vladimir N",
+        "short_name": "Uverksy VN",
+        "identifiers": [
+          "0000-0002-0772-9350"
+        ],
+        "affiliations": [
+          "Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences, Institute for Biological Instrumentation, Institutskaya str., 7, Pushchino, Moscow Region 142290, Russia.",
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL33612, USA."
+        ]
+      },
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [
+          "0000-0002-0772-9350"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology, Türkisch-Deutsche Universität, Sahinkaya Caddesi No. 106, Beykoz, Istanbul, 34820, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein and peptide letters"
+    ],
+    "journal_abbrev": [
+      "Protein Pept Lett"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/24 06:41",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37506796",
+      "36876733",
+      "36466947",
+      "36334049",
+      "35780915",
+      "35566558",
+      "35349255",
+      "34008220",
+      "33984518",
+      "33580600",
+      "31936148",
+      "30476243",
+      "30304860",
+      "28474890",
+      "27819658",
+      "26619985",
+      "26443794",
+      "26260145",
+      "25458898",
+      "24041422",
+      "23251388",
+      "23203878",
+      "21068754",
+      "20716527",
+      "20100603",
+      "18435590",
+      "16618368",
+      "16187360",
+      "15751111",
+      "12222958",
+      "11093259",
+      "9430381",
+      "9204553",
+      "6667333",
+      "1740465"
+    ],
+    "similar": [
+      "38910419",
+      "38996889",
+      "31301805",
+      "18284926",
+      "31903719",
+      "34008220",
+      "22713574",
+      "9204553",
+      "33580600",
+      "9063893",
+      "30504730",
+      "31779219",
+      "32298508",
+      "23912807",
+      "36206853",
+      "23757005",
+      "30250773",
+      "19265444",
+      "24148314",
+      "18533710",
+      "19160019",
+      "24299557",
+      "8457593",
+      "24628888",
+      "3553183",
+      "30193557",
+      "23990461",
+      "32696368",
+      "36827446",
+      "11812142",
+      "33167839",
+      "28369666",
+      "23921281",
+      "34845619",
+      "17602517",
+      "15035630",
+      "16361342",
+      "19540927",
+      "12809489",
+      "23302080",
+      "28934129",
+      "8652536",
+      "19125316",
+      "28092832",
+      "9047330",
+      "22701647",
+      "10852718",
+      "24589355",
+      "39196938",
+      "24098099",
+      "25639618",
+      "38275091",
+      "3840724",
+      "35562983",
+      "32034199",
+      "15914028",
+      "24763499",
+      "12049637",
+      "8969307",
+      "23841907",
+      "31311155",
+      "18202540",
+      "28668637",
+      "33548309",
+      "29228892",
+      "30979035",
+      "8662836",
+      "33779503",
+      "28298157",
+      "16700541",
+      "17927211",
+      "10452609",
+      "26287166",
+      "9655337",
+      "35469832",
+      "19725974",
+      "24184279",
+      "29364151",
+      "26373428",
+      "30840442",
+      "36466947",
+      "12479579",
+      "33355572",
+      "33623120",
+      "8620011",
+      "38018910",
+      "11170215",
+      "30134733",
+      "31136713",
+      "19834748",
+      "18831774",
+      "9139712",
+      "31905021",
+      "26073257",
+      "20229815",
+      "2644270",
+      "28597295",
+      "33655818",
+      "23466039",
+      "31411026"
+    ],
+    "review": [
+      "38910419",
+      "33167839",
+      "39196938",
+      "32034199",
+      "30979035",
+      "26287166",
+      "29364151",
+      "30840442",
+      "12479579",
+      "33355572",
+      "26073257",
+      "20229815",
+      "28597295"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=31&issue=6&spage=458&aulast=Balli",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/231214/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,5 @@
+# Accurate model of liquid–liquid phase behavior of intrinsically disordered proteins from optimization of single-chain properties
+
+
+## Significance
+  Cells may compartmentalize proteins via a demixing process known as liquid–liquid phase separation (LLPS), which is often driven by intrinsically disordered proteins (IDPs) and regions. Protein condensates arising from LLPS may develop into insoluble protein aggregates, as in neurodegenerative diseases and cancer. Understanding the process of formation, dissolution, and aging of protein condensates requires models that accurately capture the underpinning interactions at the residue level. In this work, we leverage data from biophysical experiments on IDPs in dilute solution to develop a sequence-dependent model which predicts conformational and phase behavior of diverse and unrelated protein sequences with good accuracy. Using the model, we gain insight into the coupling between chain compaction and LLPS propensity.

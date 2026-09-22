@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.04.583202",
+  "title": "The structure of an Amyloid Precursor Protein/talin complex indicates a mechanical basis of Alzheimer's Disease.",
+  "authors": "Ellis C; Ward NL; Rice M; Ball NJ; Walle P; Najdek C; Kilinc D; Lambert J; Chapuis J; Goult BT",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-06",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文解析APP/talin复合物晶体结构并提出机械信号假说，涉及PPI界面与机制建模，但对象非无序蛋白/相分离，方法以结构生物学为主，AI/物理模拟较弱。",
+  "abstract": "Misprocessing of Amyloid Precursor Protein (APP) is one of the major causes of Alzheimer's disease. APP is a transmembrane protein comprising a large extracellular region, a single transmembrane helix and a short cytoplasmic tail containing an NPxY motif (normally referred to as the YENPTY motif). Talins are synaptic scaffold proteins that connect the cytoskeletal machinery to the plasma membrane via binding to one of two highly conserved NPxY motifs in the cytoplasmic tail of integrin transmembrane receptors. Here we report the crystal structure of an APP/talin1 complex identifying a new way to couple the cytoskeletal machinery to synaptic sites via APP. Proximity Ligation Assay (PLA) confirmed the close proximity of talin1 and APP in primary neurons, and we show that talin1 depletion has a dramatic effect on APP processing in cells. Structural modelling indicates that APP has the capacity to form an extracellular meshwork that mechanically couples the cytoskeletal meshworks of both the pre-, and post-synaptic compartments. In this context, we propose APP processing as a mechanical signalling pathway with similarities to Notch signalling, whereby the cleavage sites in APP represent mechanical sensors, with varying accessibility to cleavage by secretases. During synaptogenesis in healthy neurons, the APP/talin linkage would provide an exquisite mechanical coupling between synapses, with tightly controlled APP processing providing instructions to maintain this synchrony. Furthermore, APP directly coupling to the binary switches in talin indicates a role for APP in mechanical memory storage as postulated by the MeshCODE theory. The implication that APP is a regulator of mechanical signalling leads to a new hypothesis for Alzheimer's disease, where mis-regulation of APP dynamics results in loss of mechanical integrity of the synapse, corruption and loss of mechanical binary data, and excessive generation of the toxic plaque-forming Aβ42 peptide. Much needs to be done to experimentally validate this idea, but we present here a novel theory of Alzheimer's Disease with a role for APP in the mechanically coded binary information storage in the synapse, which identifies a potential novel therapeutic strategy for treating Alzheimer's Disease.",
+  "abstract_zh": "淀粉样前体蛋白（APP）的错误加工是阿尔茨海默病的主要原因之一。APP是一种跨膜蛋白，包含一个大的胞外区域、一个单一的跨膜螺旋和一个含有NPxY基序（通常称为YENPTY基序）的短胞质尾部。Talin蛋白是突触支架蛋白，通过结合整合素跨膜受体胞质尾部两个高度保守的NPxY基序之一，将细胞骨架机制连接到质膜。在此，我们报告了APP/talin1复合物的晶体结构，识别出一种通过APP将细胞骨架机制偶联到突触位点的新方式。邻近连接分析（PLA）证实了talin1和APP在原代神经元中的紧密邻近性，并且我们显示talin1的耗竭对细胞中APP加工有显著影响。结构建模表明，APP具有形成胞外网状结构的能力，该网状结构机械性地偶联突触前和突触后区室的细胞骨架网络。在此背景下，我们提出APP加工作为一种机械信号通路，与Notch信号传导相似，其中APP中的切割位点代表机械传感器，对分泌酶切割的可及性不同。在健康神经元的突触发生过程中，APP/talin连接将为突触间提供精妙的机械偶联，而严格控制下的APP加工则提供维持这种同步性的指令。此外，APP直接偶联到talin中的二元开关表明APP在机械记忆存储中发挥作用，正如MeshCODE理论所假设的那样。APP作为机械信号调节器的含义为阿尔茨海默病提出了一个新假说，其中APP动态的失调导致突触机械完整性的丧失、机械二元数据的损坏和丢失，以及毒性斑块形成肽Aβ42的过度生成。尽管需要大量工作来实验验证这一想法，但我们在此提出了一种关于阿尔茨海默病的新理论，其中APP在突触中机械编码的二元信息存储中发挥作用，这识别了一种潜在的新型治疗策略来治疗阿尔茨海默病。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.04.583202",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.04.583202",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.04.583202/index.html"
+}

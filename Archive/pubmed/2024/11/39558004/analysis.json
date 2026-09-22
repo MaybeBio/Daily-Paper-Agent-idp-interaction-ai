@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39558004",
+  "title": "The pathogenic APP N-terminal Val225Ala mutation alters tau protein liquid-liquid phase separation and exacerbates synaptic damage.",
+  "authors": "Chen, Jiang; Li, Song; Zhang, Fengning; Chen, Junsheng; Cai, Chuanbin; Guo, Yi; Lei, Zhifeng; Zeng, Ling-Hui; Zi, Dan; Shen, Yong; Tan, Jun",
+  "journal": "Molecular psychiatry",
+  "published_date": "2024-11-19",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究探讨APP N端V225A突变增强与tau蛋白结合并影响tau液-液相分离及突触损伤，涉及IDR/相分离背景下的蛋白互作机制，但方法以实验为主，缺乏AI或物理模拟建模，故综合评分为6。",
+  "abstract": "Amyloid precursor protein (APP) is predominantly located in synapses of neurons and its mutations have been well recognized as the most important genetic causal factor for the familial Alzheimer's disease (AD). While most disease-causal mutations of APP occur within the Abeta-coding region or immediately proximal, the pathological impacts of mutations in the N-terminus of APP protein, which remote from the Abeta sequence, on neuron and synapse are still largely unknown. It was recently reported a pathogenic APP N-terminal Val225Ala mutation (APP(V225A)) with clinically featuring progressive dementia and typical AD pathologies in brain. In our present study, we further found that APP(V225A) mutation alters the N-terminal structure of APP, which enhances its binding affinity to tau protein and significantly increases APP-mediated endocytosis. Consequently, APP(V225A) promotes the uptake of extracellular tau into SH-SY5Y cells, further linking the structural change in APP to intracellular tau accumulation. In addition, APP(V225A) also notably alters the liquid-liquid phase separation (LLPS) of intracellular tau and intensified tau phosphorylation and aggregation in SH-SY5Y cells. Moreover, APP(V225A) promote AD-like tau pathology and synaptic damages in human induced pluripotent stem cells (hiPSCs)-derived neural progenitor cells and neurons, as well as in hiPSCs-derived human brain organoids and mouse brain, which can be ameliorated by tau knockdown. Proximity labeling identified several key APP(V225A)-interacting proteins, including HS3ST3A1, which was shown to directly regulate tau LLPS and phosphorylation. These findings nicely build on our previous work on roles for APP in tau-related pathological phenotypes and further highlight the involvement of N-terminal APP as the key region for both amyloidopathy and tauopathy, two aspects of AD pathogenesis and progression. Our study may also provide a theoretical breakthrough for AD therapy and highlight the important hub roles of APP and making previously neglected N-terminal APP as a potential target for the discovery of novel disease-modifying therapeutic agents against AD, holding significant scientific values and clinical promise.",
+  "abstract_zh": "淀粉样前体蛋白（APP）主要定位于神经元突触中，其突变已被公认是家族性阿尔茨海默病（AD）最重要的遗传致病因素。尽管APP的大多数致病突变发生在Aβ编码区或其紧邻区域，但位于APP蛋白N端（远离Aβ序列）的突变对神经元和突触的病理影响仍 largely 未知。近期有报道称，一种致病性APP N端Val225Ala突变（APP(V225A)）在临床上表现为进行性痴呆和脑内典型的AD病理特征。在本研究中，我们进一步发现APP(V225A)突变改变了APP的N端结构，增强了其与tau蛋白的结合亲和力，并显著增加了APP介导的内吞作用。因此，APP(V225A)促进了细胞外tau被SH-SY5Y细胞摄取，进一步将APP的结构变化与细胞内tau积累联系起来。此外，APP(V225A)还显著改变了细胞内tau的液-液相分离（LLPS），并加剧了SH-SY5Y细胞中tau的磷酸化和聚集。而且，APP(V225A)在人类诱导多能干细胞（hiPSCs）衍生的神经祖细胞和神经元、hiPSCs衍生的人脑类器官以及小鼠脑中促进了AD样tau病理和突触损伤，这些效应可通过tau敲低得到改善。邻近标记法鉴定出几个关键的APP(V225A)相互作用蛋白，包括HS3ST3A1，该蛋白被证明直接调控tau的LLPS和磷酸化。这些发现很好地建立在我们先前关于APP在tau相关病理表型中作用的工作基础上，并进一步强调了APP N端作为淀粉样病变和tau病变（AD发病和进展的两个方面）关键区域的作用。我们的研究也可能为AD治疗提供理论突破，并强调APP的重要枢纽作用，使先前被忽视的APP N端成为发现新型AD疾病修饰治疗药物的潜在靶点，具有重要的科学价值和临床前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39558004/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39558004/",
+  "paper_page_path": "papers/pubmed/39558004/index.html"
+}

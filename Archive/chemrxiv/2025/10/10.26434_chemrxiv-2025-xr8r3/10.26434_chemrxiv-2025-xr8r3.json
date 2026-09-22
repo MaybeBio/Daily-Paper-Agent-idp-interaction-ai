@@ -1,0 +1,260 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-xr8r3",
+  "title": "CurvePotGCN- A graph neural network to predict protein-protein interactions using surface curvature and electrostatic potential as node-features",
+  "doi": "10.26434/chemrxiv-2025-xr8r3",
+  "abstract": "Conventional methods for predicting protein-protein interactions (PPIs) often depend on intricate amino acid-level data obtained from both sequences and structures. Although effective, such methods typically require high-definition information and considerable computational power. Here, we present CurvePotGCN, an innovative graph convolutional neural network that predicts PPIs through a simplified physicochemical model of protein surfaces. Our approach represents proteins as graphs wherein nodes symbolize surface clusters defined by geometric curvature and electrostatic potential, focusing exclusively on these fundamental physicochemical features rather than evolutionary conservation or complex machine learning representations. This model is built on the principle that complementary shape and electrostatic potential at the protein-protein interface are primary determinants of whether two proteins interact. CurvePotGCN achieved a predictive performance of 98% area under the receiver operating characteristic curve for human PPI and 89% for yeast PPI. Upon benchmarking, CurvePotGCN showed superior performance against contemporary methods, highlighting the effectiveness of using reduced, physicochemically based models for PPI prediction. Our study demonstrates that using biophysical properties as features can provide competitive performance to more complex representation schemes, enhancing computational efficiency while maintaining predictive accuracy.",
+  "authors": [
+    "Vishnu Kadam",
+    "Prathith Bhargav",
+    "Arnab Mukherjee"
+  ],
+  "published_date": "2025-10-21",
+  "updated_date": "2025-10-21T13:20:32Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-xr8r3",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-xr8r3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:27:35Z",
+        "timestamp": 1785414455498,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            21
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                21
+              ]
+            ],
+            "date-time": "2025-10-21T00:00:00Z",
+            "timestamp": 1761004800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001407",
+          "name": "Department of Biotechnology, Ministry of Science and Technology, India",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "BT/PR34215/AI/133/22/2019"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BT/PR34215/AI/133/22/2019"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001407",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Conventional methods for predicting protein-protein interactions (PPIs) often depend on intricate amino   acid-level data obtained from both sequences and structures. Although effective, such methods typically require high-definition information and considerable computational power. Here, we present CurvePotGCN, an innovative graph convolutional neural network that predicts PPIs through a simplified physicochemical model of protein   surfaces. Our approach represents proteins as graphs wherein nodes symbolize surface clusters defined by geometric curvature and electrostatic potential, focusing exclusively on these fundamental physicochemical features rather than evolutionary conservation or complex machine learning representations. This model is built on the principle that complementary shape and electrostatic potential at the protein-protein interface are primary determinants of whether two proteins interact. CurvePotGCN achieved a predictive performance of 98% area under the receiver operating characteristic curve for human PPI and 89% for yeast PPI. Upon benchmarking, CurvePotGCN showed superior performance against contemporary methods, highlighting the effectiveness of using reduced, physicochemically based models for PPI prediction. Our study demonstrates that using biophysical properties as features can provide competitive performance to more complex representation schemes, enhancing computational efficiency while maintaining predictive accuracy.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-xr8r3",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            21
+          ]
+        ],
+        "date-time": "2025-10-21T13:20:32Z",
+        "timestamp": 1761052832000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CurvePotGCN- A graph neural network to predict protein-protein interactions using surface curvature and electrostatic potential as node-features"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-5364-4504",
+          "authenticated-orcid": false,
+          "given": "Vishnu",
+          "family": "Kadam",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/028qa3n13",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Indian Institute of Science Education and Research Pune",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-0380-9438",
+          "authenticated-orcid": false,
+          "given": "Prathith",
+          "family": "Bhargav",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/028qa3n13",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Indian Institute of Science Education and Research Pune",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arnab",
+          "family": "Mukherjee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/028qa3n13",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Indian Institute of Science Education and Research Pune",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-xr8r3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:43:44Z",
+        "timestamp": 1778755424000
+      },
+      "score": 64.86529,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-xr8r3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            21
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-xr8r3",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1007/s12039-025-02459-7",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

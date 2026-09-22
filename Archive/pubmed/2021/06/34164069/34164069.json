@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "pmid": "34164069",
+    "doi": "10.1039/d0sc04670a",
+    "title": "Computational strategy for intrinsically disordered protein ligand design leads to the discovery of p53 transactivation domain I binding compounds that activate the p53 pathway."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins or intrinsically disordered regions (IDPs) have gained much attention in recent years due to their vital roles in biology and prevalence in various human diseases. Although IDPs are perceived as attractive therapeutic targets, rational drug design targeting IDPs remains challenging because of their conformational heterogeneity. Here, we propose a hierarchical computational strategy for IDP drug virtual screening (IDPDVS) and applied it in the discovery of p53 transactivation domain I (TAD1) binding compounds. IDPDVS starts from conformation sampling of the IDP target, then it combines stepwise conformational clustering with druggability evaluation to identify potential ligand binding pockets, followed by multiple docking screening runs and selection of compounds that can bind multi-conformations. p53 is an important tumor suppressor and restoration of its function provides an opportunity to inhibit cancer cell growth. TAD1 locates at the N-terminus of p53 and plays key roles in regulating p53 function. No compounds that directly bind to TAD1 have been reported due to its highly disordered structure. We successfully used IDPDVS to identify two compounds that bind p53 TAD1 and restore wild-type p53 function in cancer cells. Our study demonstrates that IDPDVS is an efficient strategy for IDP drug discovery and p53 TAD1 can be directly targeted by small molecules.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruan, Hao",
+        "Yu, Chen",
+        "Niu, Xiaogang",
+        "Zhang, Weilin",
+        "Liu, Hanzhong",
+        "Chen, Limin",
+        "Xiong, Ruoyao",
+        "Sun, Qi",
+        "Jin, Changwen",
+        "Liu, Ying",
+        "Lai, Luhua"
+      ],
+      "short_names": [
+        "Ruan H",
+        "Yu C",
+        "Niu X",
+        "Zhang W",
+        "Liu H",
+        "Chen L",
+        "Xiong R",
+        "Sun Q",
+        "Jin C",
+        "Liu Y",
+        "Lai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8343-7587"
+      ],
+      "affiliations": [
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China.",
+        "Beijing Nuclear Magnetic Resonance Center, Peking University Beijing 100871 China.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490.",
+        "Peking-Tsinghua Center for Life Sciences, Peking University Beijing 100871 China.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China.",
+        "Beijing Nuclear Magnetic Resonance Center, Peking University Beijing 100871 China.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490.",
+        "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+        "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490.",
+        "Peking-Tsinghua Center for Life Sciences, Peking University Beijing 100871 China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruan, Hao",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486."
+        ]
+      },
+      {
+        "full_name": "Yu, Chen",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486."
+        ]
+      },
+      {
+        "full_name": "Niu, Xiaogang",
+        "short_name": "Niu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China.",
+          "Beijing Nuclear Magnetic Resonance Center, Peking University Beijing 100871 China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weilin",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486."
+        ]
+      },
+      {
+        "full_name": "Liu, Hanzhong",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490."
+        ]
+      },
+      {
+        "full_name": "Chen, Limin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Peking-Tsinghua Center for Life Sciences, Peking University Beijing 100871 China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Ruoyao",
+        "short_name": "Xiong R",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486."
+        ]
+      },
+      {
+        "full_name": "Sun, Qi",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486."
+        ]
+      },
+      {
+        "full_name": "Jin, Changwen",
+        "short_name": "Jin C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China.",
+          "Beijing Nuclear Magnetic Resonance Center, Peking University Beijing 100871 China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+          "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490."
+        ]
+      },
+      {
+        "full_name": "Lai, Luhua",
+        "short_name": "Lai L",
+        "identifiers": [
+          "0000-0002-8343-7587"
+        ],
+        "affiliations": [
+          "BNLMS, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University Beijing 100871 China lhlai@pku.edu.cn +861062757486.",
+          "Center for Quantitative Biology, Academy of Advanced Interdisciplinary Studies, Peking University Beijing 100871 China liuying@pku.edu.cn +861062751490.",
+          "Peking-Tsinghua Center for Life Sciences, Peking University Beijing 100871 China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2020 Dec 28",
+    "pub_year": "2020",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/25 06:00",
+    "fetched_at": "2026-09-20 03:54:49"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42306789",
+      "42248893",
+      "41585721",
+      "41580425",
+      "41441193",
+      "41055109",
+      "40756902",
+      "40532196",
+      "40406608",
+      "40349675",
+      "40273444",
+      "40166082",
+      "40128232",
+      "40060496",
+      "39896485",
+      "39589880",
+      "39312019",
+      "38118365",
+      "37376405",
+      "37294104",
+      "37061608",
+      "36969402",
+      "36555602",
+      "35895105",
+      "35887312",
+      "35836176",
+      "35762723",
+      "33812316"
+    ],
+    "refs": [
+      "32709860",
+      "31926785",
+      "31799386",
+      "31395785",
+      "31303975",
+      "30682370",
+      "30278223",
+      "30247897",
+      "30082609",
+      "29878773",
+      "29808548",
+      "29750256",
+      "29735687",
+      "28976731",
+      "28935776",
+      "28885015",
+      "28743590",
+      "28673313",
+      "28651056",
+      "28226222",
+      "28225081",
+      "28054562",
+      "27819658",
+      "27484738",
+      "27356095",
+      "26931396",
+      "26858935",
+      "26807783",
+      "26574453",
+      "26507530",
+      "25764013",
+      "25531225",
+      "25362358",
+      "25358113",
+      "25271708",
+      "24551051",
+      "24098099",
+      "23946421",
+      "23883055",
+      "23303139",
+      "23082974",
+      "22815918",
+      "22559227",
+      "21706033",
+      "21530234",
+      "20889377",
+      "20660730",
+      "20598937",
+      "20131845",
+      "19935675",
+      "19584866",
+      "19217391",
+      "18573080",
+      "18410249",
+      "18391200",
+      "18316739",
+      "17302414",
+      "17287757",
+      "17080083",
+      "16876893",
+      "16455486",
+      "16270059",
+      "16211538",
+      "16200636",
+      "16028899",
+      "15815974",
+      "15558054",
+      "15501075",
+      "15269783",
+      "15027866",
+      "15027865",
+      "14704432",
+      "13679853",
+      "11099028",
+      "8875929",
+      "7108955"
+    ],
+    "similar": [
+      "34164069",
+      "34799573",
+      "31797597",
+      "26931396",
+      "25897952",
+      "30278223",
+      "31667555",
+      "26742101",
+      "39276130",
+      "35749260",
+      "33984364",
+      "32403216",
+      "39665260",
+      "25216154",
+      "24098099",
+      "30979035",
+      "33598107",
+      "26195786",
+      "31441158",
+      "22807444",
+      "22399317",
+      "26549326",
+      "32722024",
+      "31241933",
+      "37338049",
+      "39896485",
+      "41053403",
+      "40532196",
+      "37722056",
+      "39433443",
+      "36969402",
+      "26387110",
+      "32100577",
+      "21686180",
+      "31473433",
+      "39828029",
+      "34922214",
+      "22988855",
+      "31253862",
+      "38987470",
+      "31421630",
+      "31248328",
+      "31134745",
+      "18831774",
+      "40101966",
+      "30471704",
+      "28581721",
+      "30808373",
+      "19819244",
+      "34197833",
+      "25849651",
+      "19162020",
+      "35762718",
+      "22559227",
+      "40406608",
+      "35609776",
+      "41174305",
+      "38505224",
+      "40674483",
+      "34656329",
+      "34680086",
+      "21541066",
+      "21943426",
+      "36084124",
+      "25611056",
+      "24211251",
+      "37231156",
+      "18193204",
+      "25591003",
+      "38079339",
+      "35762723",
+      "28597880",
+      "40986276",
+      "30420502",
+      "38097100",
+      "38916177",
+      "22176582",
+      "37108059",
+      "37861971",
+      "32053358",
+      "41082321",
+      "31894361",
+      "27418282",
+      "29655986",
+      "33724276",
+      "39071356",
+      "41544898",
+      "27844185",
+      "38018910",
+      "15842167",
+      "32592801",
+      "34534740",
+      "29878773",
+      "36083825",
+      "22715313",
+      "21766125",
+      "41599722",
+      "27897373",
+      "38039868",
+      "35196007"
+    ],
+    "review": [
+      "34164069",
+      "30278223",
+      "31667555",
+      "32403216",
+      "30979035",
+      "31441158",
+      "22399317",
+      "26549326",
+      "36969402",
+      "26387110",
+      "32100577",
+      "21686180",
+      "39828029",
+      "34922214",
+      "22988855",
+      "25849651",
+      "22559227",
+      "40406608",
+      "38505224",
+      "38097100",
+      "29655986",
+      "41544898"
+    ],
+    "pmc": [
+      "8179352"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34164069/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d0sc04670a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34164069",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

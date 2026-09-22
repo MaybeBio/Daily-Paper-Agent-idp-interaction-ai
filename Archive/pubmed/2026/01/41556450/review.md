@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and electrostatic calculations to show that the disordered loop 2 of myosin samples conformations that modulate the electrostatic force of actin-myosin association, and that two cardiomyopathy-associated mutations (E525K and V606M) alter loop 2 conformational sampling and associative binding strength.
+- **Visible evidence base** Abstract text only; no numerical results, simulation details, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, electrostatic calculation methodology, all figures and tables, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis linking loop 2 conformational dynamics to actomyosin association, with potential relevance to cardiomyopathy mutations. However, the evidence base provided is insufficient to evaluate the technical soundness of the simulations, the robustness of the conformational sampling, or the quantitative support for the central claims. The work may be of interest to the muscle biophysics and computational biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in muscle contraction mechanisms, actomyosin kinetics, and molecular dynamics of disordered protein regions would find these results relevant. The link to cardiomyopathy-associated mutations may also interest clinical researchers studying sarcomeric protein dysfunction. The methodological approach could appeal to computational biophysicists working on electrostatic interactions in protein complexes.
+- **Major strengths** The abstract addresses a genuine gap in understanding the structural basis of actomyosin association, specifically the role of a disordered region that is typically unresolved in experimental structures. The use of multiple replicate simulations and two disease-associated mutants provides a comparative framework. The focus on electrostatic forces and positive charge presentation is mechanistically coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "loop 2 experiences disordered dynamics and that specific conformations sampled modulate the strength of the associative electrostatic force between actin and myosin" is central to the study.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no details on the simulation methodology, including force field, water model, ionic conditions, temperature coupling, or equilibration protocols. Without these, the reliability of the conformational sampling cannot be assessed. Additionally, no convergence metrics are reported, so it is unclear whether three 500 ns replicates are sufficient to sample the disordered loop 2 ensemble adequately.
+  - **Why it matters** Disordered regions require extensive sampling to characterize their conformational ensembles. Inadequate sampling or inappropriate simulation conditions could lead to artifacts that drive the reported differences between wildtype and mutants.
+  - **Resolution test** Provide full methods with force field parameters, simulation setup, and convergence analysis (e.g., block averaging, cluster population stability). Show that the conformational ensembles are reproducible across replicates and that the electrostatic calculations are robust to simulation length.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that "E525K and V606M mutations altered the conformational ensemble sampled by loop 2 and were associated with associative actin binding strength" implies a quantitative relationship.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented. The abstract does not report the magnitude of changes in electrostatic force, the statistical significance of differences between wildtype and mutants, or any correlation metrics between conformational features and binding strength. The term "associated with" is vague and does not establish a causal or even a robust correlational link.
+  - **Why it matters** Without quantitative effect sizes and uncertainty estimates, the reader cannot judge whether the observed differences are biologically meaningful or within simulation noise.
+  - **Resolution test** Report numerical values for electrostatic forces (e.g., mean and standard deviation across replicates), statistical tests comparing wildtype and mutants, and any correlation coefficients between loop 2 conformational descriptors and force.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract states that "specific conformations sampled modulate the strength of the associative electrostatic force," implying a direct mechanistic link.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how the electrostatic calculations were performed. It is unclear whether the calculations used a continuum solvent model, explicit ions, or a Poisson-Boltzmann approach. The sensitivity of the results to the choice of dielectric constants and ionic strength is not addressed.
+  - **Why it matters** Electrostatic force calculations on disordered regions are highly sensitive to methodological choices. Without this information, the quantitative claims cannot be reproduced or validated.
+  - **Resolution test** Describe the electrostatic calculation method in detail, including software, parameters, and any validation against experimental binding affinities. Show that the results are robust to reasonable variations in dielectric and ionic strength parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "associative electrostatic force" is not standard terminology in the field. It is unclear whether this refers to a force computed from a potential of mean force, a direct Coulombic sum, or something else.
+  - **Required correction** Define the term explicitly in the abstract or use standard terminology such as "electrostatic interaction energy" or "electrostatic force component."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that the E525K and V606M mutations are "clinically associated with cardiomyopathy" but does not specify the type of cardiomyopathy or the strength of the clinical evidence.
+  - **Required correction** Provide a brief specification of the cardiomyopathy phenotype and cite the relevant clinical studies in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "three 500 ns replicates each" but does not specify the starting conditions for each replicate. Different initial velocities or conformations could affect the sampled ensembles.
+  - **Required correction** Describe the initialization protocol for replicates in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology and convergence), R1-M2 (quantitative evidence and statistics), R1-M3 (electrostatic calculation details)
+- **Assessment against Nature-style criteria** Originality: The idea of linking loop 2 conformational dynamics to electrostatic association strength is not entirely novel, but the specific focus on mutation-induced ensemble shifts is a reasonable extension. Scientific importance: The work could inform understanding of actomyosin kinetics and cardiomyopathy mechanisms, but the importance is not yet demonstrated from the abstract alone. Interdisciplinary readership: The topic bridges muscle physiology and computational biophysics, which could attract a broad audience if the methods are rigorous. Technical soundness: Cannot be assessed from the abstract; the lack of methodological detail is a major barrier. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is plausible, but the abstract alone does not provide sufficient methodological or quantitative detail to support the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that loop 2 conformational sampling "modulates" electrostatic force is unsupported without quantitative data.
+- The claim that E525K and V606M mutations "altered the conformational ensemble" is unsupported without convergence and statistical analysis.
+- The claim that the mutations are "associated with associative actin binding strength" is vague and not quantitatively established.
+- The relevance of the findings to cardiomyopathy is asserted but not supported by any functional or clinical data in the abstract.

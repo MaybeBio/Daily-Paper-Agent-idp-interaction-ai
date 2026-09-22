@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "38079339",
+    "doi": "10.1080/07391102.2023.2290615",
+    "title": "IDPpred: a new sequence-based predictor for identification of intrinsically disordered protein with enhanced accuracy."
+  },
+  "content": {
+    "abstract": "Discovery of intrinsically disordered proteins (IDPs) and protein hybrids that contain both intrinsically disordered protein regions (IDPRs) along with ordered regions has changed the sequence-structure-function paradigm of protein. These proteins with lack of persistently fixed structure are often found in all organisms and play vital roles in various biological processes. Some of them are considered as potential drug targets due to their overrepresentation in pathophysiological processes. The major bottlenecks for characterizing such proteins are their occasional overexpression, difficulty in getting purified homogeneous form and the challenge of investigating them experimentally. Sequence-based prediction of intrinsic disorder remains a useful strategy especially for many large-scale proteomic investigations. However, worst accuracy still occurs for short disordered regions with less than ten residues, for the residues close to order-disorder boundaries, for regions that undergo coupled folding and binding in presence of partner, and for prediction of fully disordered proteins. Annotation of fully disordered proteins mostly relies on the far-UV circular dichroism experiment which gives overall secondary structure composition without residue-level resolution. Current methods including that using secondary structure information failed to predict half of target IDPs correctly in the recent Critical Assessment of protein Intrinsic Disorder prediction (CAID) experiment. This study utilized profiles of random sequential appearance of physicochemical properties of amino acids and random sequential appearance of order and disorder promoting amino acids in protein together with the existing CIDER feature for the prediction of IDP from sequence input. Our method was found to significantly outperform the existing predictors across different datasets.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "numerical representation of sequence",
+      "periodicity count value and predictor"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Computational Biology/methods",
+      "Amino Acid Sequence",
+      "Protein Folding",
+      "Algorithms",
+      "Databases, Protein",
+      "Protein Structure, Secondary",
+      "Software",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaurasiya, Deepak",
+        "Mondal, Rajkrishna",
+        "Lahiri, Tapobrata",
+        "Tripathi, Asmita",
+        "Ghinmine, Tejas"
+      ],
+      "short_names": [
+        "Chaurasiya D",
+        "Mondal R",
+        "Lahiri T",
+        "Tripathi A",
+        "Ghinmine T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India.",
+        "Department of Biotechnology, Nagaland University, Dimapur, Nagaland, India.",
+        "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India.",
+        "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India.",
+        "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaurasiya, Deepak",
+        "short_name": "Chaurasiya D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Rajkrishna",
+        "short_name": "Mondal R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Nagaland University, Dimapur, Nagaland, India."
+        ]
+      },
+      {
+        "full_name": "Lahiri, Tapobrata",
+        "short_name": "Lahiri T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Asmita",
+        "short_name": "Tripathi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India."
+        ]
+      },
+      {
+        "full_name": "Ghinmine, Tejas",
+        "short_name": "Ghinmine T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Indian Institute of Information Technology, Prayagraj, UP, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/11 18:42",
+    "fetched_at": "2026-09-21 03:29:37"
+  },
+  "links": {
+    "cites": [
+      "38540707"
+    ],
+    "refs": [],
+    "similar": [
+      "38079339",
+      "28365882",
+      "18831774",
+      "33875885",
+      "31756456",
+      "27115638",
+      "16618368",
+      "41534519",
+      "32771522",
+      "29228892",
+      "29042212",
+      "20100603",
+      "26090958",
+      "25534081",
+      "30657889",
+      "31425549",
+      "32696351",
+      "32112084",
+      "24093637",
+      "28369666",
+      "41419011",
+      "32901090",
+      "30819075",
+      "28076807",
+      "30135358",
+      "16187360",
+      "41174305",
+      "25287424",
+      "23723000",
+      "20823312",
+      "38701796",
+      "32535960",
+      "39576583",
+      "37990040",
+      "28232888",
+      "26198229",
+      "18611404",
+      "36458437",
+      "38166858",
+      "35469832",
+      "39571839",
+      "35507260",
+      "28934129",
+      "40859602",
+      "32034199",
+      "30717652",
+      "17206849",
+      "23056474",
+      "24573480",
+      "40577786",
+      "27085142",
+      "19128505",
+      "21874190",
+      "27503953",
+      "27111521",
+      "29982297",
+      "34626492",
+      "31441158",
+      "23466039",
+      "32253236",
+      "32702119",
+      "26513658",
+      "33291838",
+      "22101336",
+      "40054813",
+      "18991772",
+      "25496281",
+      "28155710",
+      "29080786",
+      "29716994",
+      "34048569",
+      "29595057",
+      "31411026",
+      "30099775",
+      "37709009",
+      "31683980",
+      "40254833",
+      "19208144",
+      "35196007",
+      "40031750",
+      "27787828",
+      "23170892",
+      "30066087",
+      "24587103",
+      "32112804",
+      "37553525",
+      "30471686",
+      "38097100",
+      "26301226",
+      "23798504",
+      "32599863",
+      "24573479",
+      "34545666",
+      "20007729",
+      "34461937",
+      "20221927",
+      "38226524",
+      "32696367",
+      "35562983",
+      "37626310"
+    ],
+    "review": [
+      "38079339",
+      "30657889",
+      "25287424",
+      "28232888",
+      "32034199",
+      "21874190",
+      "29982297",
+      "31441158",
+      "23466039",
+      "32253236",
+      "33291838",
+      "23170892",
+      "30066087",
+      "38097100",
+      "26301226",
+      "34545666"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2290615?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2290615",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

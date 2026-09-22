@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose that steric confinement between intracellular TCR chains, induced by receptor clustering, stretches CD3zeta cytoplasmic tails, and that this stretch is sensed by the differential membrane spacing of CD45 versus lck/fyn, leading to a 1.5- to 2-fold increase in ITAM phosphorylation.
+- **Visible evidence base** Abstract text only; no simulation details, parameter values, or quantitative results beyond the stated fold increase
+- **Missing materials affecting confidence** Full methods, simulation code, parameter choices, validation against experimental data, statistical analysis, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis with a clear chain of reasoning from clustering to steric stretch to differential phosphatase/kinase access and enhanced phosphorylation. However, the evidence base is limited to a summary of coarse-grained simulations, and the abstract does not provide sufficient detail to assess the robustness of the model, the realism of the parameters, or the strength of the quantitative estimate. The central claim of a 1.5- to 2-fold increase in phosphorylation is presented without supporting data or error analysis, making the case currently not established from the provided material.
+- **Who would be interested in the results, and why** Immunologists studying T-cell activation mechanisms, biophysicists interested in membrane receptor clustering and mechanotransduction, and computational biologists developing coarse-grained models of receptor signaling. The proposed mechanism offers a potential physical explanation for clustering-induced activation that could complement existing biochemical models.
+- **Major strengths** The hypothesis is mechanistically novel and testable, linking receptor clustering to intracellular conformational changes via steric effects. The model leverages known differences in membrane spacing of CD45 versus lck/fyn, providing a plausible sensing mechanism. The use of coarse-grained simulations is appropriate for exploring large-scale steric effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we show that steric interactions between TCRs are sufficient to induce appreciable stretch of the intracellular domains of CD3zeta chains"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that steric interactions induce "appreciable stretch" but provides no quantitative definition of stretch, no comparison to a non-clustered baseline, and no indication of the magnitude or variability of this effect across simulation conditions.
+  - **Why it matters** Without a defined threshold or quantitative measure, "appreciable" is subjective, and the reader cannot judge whether the simulated stretch is biologically meaningful or an artifact of model assumptions.
+  - **Resolution test** Provide a quantitative measure of CD3zeta stretch (e.g., end-to-end distance or extension relative to resting state) with error bars, and compare clustered versus non-clustered conditions across multiple independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we estimate a 1.5- to 2-fold increase in phosphorylation of immunoreceptor tyrosine-based activation motifs (ITAMs) at CD3zeta upon TCR clustering"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The phosphorylation estimate is presented as a single range with no derivation, no sensitivity analysis, and no indication of how the simulation output was converted to a phosphorylation rate. The abstract does not specify the kinetic model, the assumed enzyme concentrations, or the relationship between stretch and ITAM accessibility.
+  - **Why it matters** The quantitative claim is the key output of the study, but without a transparent calculation or uncertainty quantification, the estimate cannot be independently verified or compared to experimental data.
+  - **Resolution test** Show the full calculation from simulated stretch to phosphorylation, including all model parameters, and provide a sensitivity analysis over plausible parameter ranges to demonstrate the robustness of the 1.5- to 2-fold estimate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** "we hypothesize that steric confinement between the intracellular chains of the TCR could play a role"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not discuss alternative explanations for clustering-induced activation, such as increased local concentration of kinases or reduced phosphatase access due to size exclusion, which are established in the literature. The novelty of the steric stretch mechanism is not clearly distinguished from these existing models.
+  - **Why it matters** If the proposed mechanism is not differentiated from prior models, the scientific contribution may be incremental rather than transformative, and the reader cannot assess its unique value.
+  - **Resolution test** In the full manuscript, explicitly compare the steric stretch model to existing clustering models, state what new predictions it makes, and describe how these predictions could be experimentally distinguished.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "steric confinement" is used without a brief explanation of the physical concept, which may be unclear to readers outside biophysics.
+  - **Required correction** Add a short parenthetical definition, such as "steric confinement (physical crowding that restricts chain motion)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the level of coarse-graining (e.g., bead-spring, residue-level) or the timescale of the simulations, which are critical for interpreting the biological relevance.
+  - **Required correction** State the coarse-graining resolution and simulation timescale in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Biological context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with CD45, lck, fyn, and ITAMs without defining their roles, which may limit accessibility to physical scientists.
+  - **Required correction** Add one sentence explaining that CD45 is a phosphatase that removes phosphates, while lck and fyn are kinases that add them, and that ITAMs are phosphorylation sites on CD3zeta.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative definition of stretch), R1-M2 (transparent phosphorylation calculation with uncertainty), R1-M3 (differentiation from existing models)
+- **Assessment against Nature-style criteria** Originality: The steric stretch mechanism is a novel hypothesis, but its distinctiveness from established clustering models is not yet demonstrated. Scientific importance: If validated, the mechanism could provide a new physical basis for T-cell activation, but the current evidence is insufficient to establish significance. Interdisciplinary readership: The topic bridges immunology and biophysics, but the abstract lacks sufficient context for nonspecialists. Technical soundness: The simulation approach is appropriate, but the lack of quantitative detail and sensitivity analysis undermines confidence. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide enough detail to assess the validity of the simulation results or the robustness of the phosphorylation estimate. A full manuscript with detailed methods, quantitative results, and comparison to existing models would be needed to support the claims.
+
+## Risk / unsupported claims
+- The claim of "appreciable stretch" is unsupported without a quantitative definition or baseline comparison.
+- The 1.5- to 2-fold phosphorylation increase is unsupported without a transparent calculation or sensitivity analysis.
+- The hypothesis that steric confinement "could play a role" is presented as a proposal, but the abstract does not provide evidence that this mechanism operates in vivo or that it is distinct from other clustering effects.
+- The model's biological relevance is not assessable from the abstract alone, as no experimental validation or comparison to known T-cell activation data is provided.

@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40894760",
+    "doi": "10.1101/2025.08.20.671282",
+    "title": "Computational rheometry of viscoelastic networks: From random graphs to biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Multivalent biomacromolecules including multi-domain and intrinsically disordered proteins form biomolecular condensates via reversible phase transitions. Condensates are viscoelastic materials that display composition-specific rheological properties and responses to mechanical forces. Graph-based descriptions of microstructures can be combined with computational rheometry to model the outcomes of passive and active mechanical measurements. We consider two types of network models for microstructures. In the Jeffreys model, each edge in the network is a Jeffreys element. In the Stokes-Maxwell model, each edge is a Maxwell element that is embedded in an incompressible viscous fluid that can undergo Stokes flow. We describe results from comparative assessments of the two models for individual elements, ordered lattices, random geometric graphs, structured graphs, and graphs for condensates that are extracted from coarse-grained simulations of disordered proteins. Results from deformation and relaxation tests and flow field analysis reveal how distinct length and time scales contribute to the responses of different types of networks. No single test provides definitive assessments of the connections between material properties and microstructures. Instead, a range of active and passive rheometric tests are essential for distinguishing the responses of different types of networks. Our work establishes computational rheometry as a framework for bridging disparate length and timescales to assess how molecular-scale interactions and dynamics give rise to viscoelastic responses on the mesoscale.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ruoyao",
+        "Mitra, Gaurav",
+        "Ghosh, Souradeep",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Zhang R",
+        "Mitra G",
+        "Ghosh S",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-2247-201X",
+        "ORCID: 0000-0002-5454-7891",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ruoyao",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0009-0002-2247-201X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Gaurav",
+        "short_name": "Mitra G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Souradeep",
+        "short_name": "Ghosh S",
+        "identifiers": [
+          "0000-0002-5454-7891"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:33",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40727669",
+      "40653653",
+      "40629499",
+      "40614690",
+      "40603603",
+      "40481268",
+      "40473633",
+      "40455990",
+      "40434645",
+      "40408482",
+      "40386802",
+      "40216775",
+      "40188296",
+      "40128232",
+      "40098319",
+      "40087540",
+      "40074825",
+      "40028356",
+      "39947282",
+      "39885130",
+      "39866835",
+      "39856105",
+      "39747604",
+      "39613868",
+      "39610751",
+      "39568893",
+      "39562556",
+      "39464253",
+      "39412378",
+      "39385023",
+      "39356108",
+      "39260373",
+      "39225536",
+      "39168125",
+      "38649740",
+      "38553587",
+      "38549454",
+      "38503281",
+      "38429263",
+      "38363841",
+      "38154096",
+      "38112495",
+      "37996438",
+      "37932412",
+      "37853127",
+      "37789618",
+      "37782826",
+      "37684240",
+      "37645312",
+      "37468629",
+      "37386790",
+      "37328453",
+      "37196085",
+      "36881934",
+      "36513655",
+      "36436394",
+      "36247368",
+      "36198174",
+      "36175408",
+      "36071192",
+      "36038550",
+      "36004748",
+      "35795820",
+      "35727989",
+      "35641495",
+      "35501484",
+      "34931046",
+      "34887356",
+      "34819511",
+      "34785657",
+      "34784177",
+      "34716273",
+      "34654286",
+      "34645832",
+      "34636323",
+      "33782607",
+      "33514117",
+      "33303613",
+      "33302617",
+      "33212590",
+      "32767698",
+      "32661370",
+      "32482873",
+      "32302572",
+      "32302570",
+      "32168715",
+      "32029630",
+      "31682599",
+      "31634364",
+      "30926670",
+      "30914457",
+      "30217894",
+      "29961577",
+      "29364893",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28562589",
+      "28225081",
+      "27392146",
+      "27212236",
+      "26723608",
+      "26015579",
+      "25747659",
+      "23031054",
+      "22398450",
+      "21368180",
+      "19548767",
+      "19460965",
+      "18506808",
+      "18446219",
+      "17280429",
+      "12241440",
+      "11308851",
+      "10970611",
+      "9623998"
+    ],
+    "similar": [
+      "40894760",
+      "34785657",
+      "39225536",
+      "30926670",
+      "40985078",
+      "40196628",
+      "38363841",
+      "41279444",
+      "38915484",
+      "37194953",
+      "40661456",
+      "37066350",
+      "38832749",
+      "39464253",
+      "39610751",
+      "39185151",
+      "39866835",
+      "40009520",
+      "40455990",
+      "40028356",
+      "37386790",
+      "39568893",
+      "37873180",
+      "37886520",
+      "41481439",
+      "38649740",
+      "36004748",
+      "32004090",
+      "37645312",
+      "37468629",
+      "35179885",
+      "40291420",
+      "39319382",
+      "35802394",
+      "40791470",
+      "34090478",
+      "40848932",
+      "31797598",
+      "40172489",
+      "36350032",
+      "36993212",
+      "39071308",
+      "39386700",
+      "36657879",
+      "41166416",
+      "39804953",
+      "38181073",
+      "36513655",
+      "27146848",
+      "39630960",
+      "32621160",
+      "31634364",
+      "40748104",
+      "40473633",
+      "36993371",
+      "40386802",
+      "34784177",
+      "34916288",
+      "36227468",
+      "39398199",
+      "36883003",
+      "34598583",
+      "38429263",
+      "40160200",
+      "36881934",
+      "37161095",
+      "32584357",
+      "37261897",
+      "39225535",
+      "35108264",
+      "28964009",
+      "36164646",
+      "37470705",
+      "39005320",
+      "39386612",
+      "34716273",
+      "40766493",
+      "36227469",
+      "30471685",
+      "39554101",
+      "32482873",
+      "39042834",
+      "39232584",
+      "33303613",
+      "39937084",
+      "38251748",
+      "41317825",
+      "39908323",
+      "40954121",
+      "40626470",
+      "36191226",
+      "40943551",
+      "39636939",
+      "41169547",
+      "39516712",
+      "36595668",
+      "40098319",
+      "37190858",
+      "36227480",
+      "34871298"
+    ],
+    "review": [
+      "40894760",
+      "32004090",
+      "35179885",
+      "35802394",
+      "40172489",
+      "36350032",
+      "40160200",
+      "36881934",
+      "36164646"
+    ],
+    "pmc": [
+      "12393505"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40894760/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.20.671282",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

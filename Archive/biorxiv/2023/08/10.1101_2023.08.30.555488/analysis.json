@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.30.555488",
+  "title": "The early communication stages between serine proteases and enterovirus capsids in the race for viral disintegration",
+  "authors": "Corre M; Rey B; David SC; Torii S; Chiappe D; Kohn T",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-30",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过预测性互作模型揭示丝氨酸蛋白酶与肠道病毒衣壳上无序蛋白(IDP)片段的早期结合机制，并解析了决定病毒裂解的关键残基，属于IDP介导的蛋白-蛋白互作机制建模，虽未用AI/物理模拟但方法可迁移。",
+  "abstract": "<h4>Summary</h4> Enteroviruses are human pathogens known to challenge water safety 1,2 . Among the microbial stressors found in water, bacterial serine proteases contribute to the control of enterovirus persistence 3 . However, the structural interactions accounting for the susceptibility of enteroviruses to proteases remains unexplained. Here, we describe the molecular mechanisms involved in the recruitment of serine proteases to viral capsids. Among the virus types used, coxsackievirus A9 (CVA9), but not CVB5 and echovirus 11 (E11), was inactivated by Subtilisin A in a host-independent manner, while Bovine Pancreatic Trypsin (BPT) only reduced CVA9 infectivity in a host-dependent manner. Predictive interaction models of each protease with capsid protomers indicate the main targets as internal disordered protein (IDP) segments exposed either on the 5-fold vertex (DE loop VP1) or at the 5/2-fold intersection (C-terminal end VP1) of viral capsids. We further show that a functional binding protease/capsid depends on both the strength and the evolution over time of protease-VP1 complexes, and lastly on the local adaptation of proteases on surrounding viral regions. Finally, we identified three residues on CVA9 capsid that trigger cleavage by Subtilisin A, one of which acts as a sensor residue contributing to enzyme recognition on the DE loop. Overall, this study describes an important biological mechanism involved in enteroviruses biocontrol.",
+  "abstract_zh": "<h4>摘要</h4> 肠道病毒是人类病原体，已知对水安全构成挑战1,2。在水中的微生物应激源中，细菌丝氨酸蛋白酶有助于控制肠道病毒的持久性3。然而，解释肠道病毒对蛋白酶易感性的结构相互作用仍未阐明。在此，我们描述了丝氨酸蛋白酶被招募至病毒衣壳的分子机制。在所采用的病毒类型中，柯萨奇病毒A9（CVA9）而非CVB5和埃可病毒11（E11）以不依赖宿主的方式被枯草杆菌蛋白酶A灭活，而牛胰腺胰蛋白酶（BPT）仅以依赖宿主的方式降低CVA9的感染性。每种蛋白酶与衣壳原体的预测相互作用模型表明，主要靶标为暴露于病毒衣壳5重对称轴顶点（DE环VP1）或5/2重对称轴交点（VP1羧基末端）的内部无序蛋白（IDP）片段。我们进一步表明，功能性蛋白酶/衣壳结合取决于蛋白酶-VP1复合物的强度及随时间演变，并最终取决于蛋白酶在周围病毒区域的局部适应性。最后，我们鉴定了CVA9衣壳上的三个残基，它们触发枯草杆菌蛋白酶A的切割，其中一个作为传感器残基，促进酶在DE环上的识别。总体而言，本研究描述了参与肠道病毒生物控制的重要生物学机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.30.555488",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.30.555488",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.30.555488/index.html"
+}

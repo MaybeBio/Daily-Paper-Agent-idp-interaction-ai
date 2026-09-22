@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40821877",
+  "title": "Intrinsic disorder in CYP1B1 and its implications in primary congenital glaucoma pathogenesis.",
+  "authors": "Sharma, Meghan; Taylor Gonzalez, David; Antonietti, Michael; Uversky, Vladimir; Djulbegovic, Mak",
+  "journal": "Journal of proteins and proteomics",
+  "published_date": "2025-08-18",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用AlphaMissense等生物信息学工具分析CYP1B1的内在无序区域及其与先天性青光眼致病突变的关系，虽以无序蛋白为对象并涉及互作网络，但缺乏PPI机制建模和AI/物理模拟的实质方法贡献。",
+  "abstract": "Cytochrome P450 1B1 (CYP1B1) plays a critical role in the pathogenesis of primary congenital glaucoma (PCG), a severe eye disorder that can lead to pediatric blindness if untreated. Increasing evidence suggests that intrinsically disordered proteins and regions (IDPs/IDPRs), which lack a stable three-dimensional structure, are significant in disease pathology due to their flexible nature, impacting protein interactions and function. This study explores the intrinsic disorder within CYP1B1 and its implications in the molecular mechanisms underlying PCG. We employed a comprehensive bioinformatics approach to assess the structural and functional properties of CYP1B1 using tools such as AlphaMissense, a tool crafted to evaluate the functional impact of missense mutations in proteins. Our structural analysis qualitatively demonstrated that CYP1B1 contains intrinsically disordered protein regions (i.e., spaghetti-like entities) that are structureless and flexible. Correlation analysis showed that disorder decreases exponentially relative to AlphaMissense predicted pathogenicity, with an exponential decay fit (R (2) = 0.62), suggesting that highly disordered regions tend to harbor benign mutations. This study identifies critical intrinsically disordered regions within CYP1B1 and elucidates its complex interaction network, highlighting the potential role of these regions in PCG pathogenesis. The observed correlation between intrinsic disorder and reduced pathogenicity of mutations suggests that IDPRs may buffer against deleterious effects, providing a possible explanation for the variability in clinical outcomes associated with CYP1B1 mutations. These insights enhance our understanding of the molecular basis of PCG and offer potential targets for novel therapeutic interventions to combat this blinding childhood disorder.",
+  "abstract_zh": "细胞色素P450 1B1（CYP1B1）在原发性先天性青光眼（PCG）的发病机制中扮演关键角色，这是一种严重的眼部疾病，若不治疗可导致儿童失明。越来越多的证据表明， intrinsically disordered proteins and regions (IDPs/IDPRs)（固有无序蛋白及区域），即缺乏稳定三维结构的蛋白质，因其灵活性而显著影响疾病病理，进而影响蛋白质相互作用和功能。本研究探讨了CYP1B1内的固有无序性及其在PCG分子机制中的意义。我们采用综合生物信息学方法，利用AlphaMissense等工具评估CYP1B1的结构和功能特性，该工具旨在评估蛋白质中错义突变的功能影响。我们的结构分析定性表明，CYP1B1包含固有无序蛋白区域（即意大利面状实体），这些区域无结构且灵活。相关性分析显示，无序性相对于AlphaMissense预测的致病性呈指数下降，拟合指数衰减曲线（R (2) = 0.62），表明高度无序区域倾向于携带良性突变。本研究识别了CYP1B1内关键的固有无序区域，并阐明了其复杂的相互作用网络，强调这些区域在PCG发病机制中的潜在作用。观察到的固有无序性与突变致病性降低之间的相关性表明，IDPRs可能缓冲有害效应，为与CYP1B1突变相关的临床结果变异性提供了可能的解释。这些见解增进了我们对PCG分子基础的理解，并为针对这一致盲性儿童疾病的新型治疗干预提供了潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40821877/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40821877/",
+  "paper_page_path": "papers/pubmed/40821877/index.html"
+}

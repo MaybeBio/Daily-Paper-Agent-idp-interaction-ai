@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37287138",
+  "title": "Evaluation of sequence-based predictors for phase-separating protein.",
+  "authors": "Liao, Shaofeng; Zhang, Yujun; Qi, Yifei; Zhang, Zhuqing",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-06-08",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统评估了11种基于序列的相分离蛋白预测工具在负样本集上的表现，对象为IDP/相分离蛋白，但缺乏PPI互作机制建模，方法以预测器评估为主而非AI/物理模拟开发，故综合评分为6。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of proteins and nucleic acids underlies the formation of biomolecular condensates in cell. Dysregulation of protein LLPS is closely implicated in a range of intractable diseases. A variety of tools for predicting phase-separating proteins (PSPs) have been developed with the increasing experimental data accumulated and several related databases released. Comparing their performance directly can be challenging due to they were built on different algorithms and datasets. In this study, we evaluate eleven available PSPs predictors using negative testing datasets, including folded proteins, the human proteome, and non-PSPs under near physiological conditions, based on our recently updated LLPSDB v2.0 database. Our results show that the new generation predictors FuzDrop, DeePhase and PSPredictor perform better on folded proteins as a negative test set, while LLPhyScore outperforms other tools on the human proteome. However, none of the predictors could accurately identify experimentally verified non-PSPs. Furthermore, the correlation between predicted scores and experimentally measured saturation concentrations of protein A1-LCD and its mutants suggests that, these predictors could not consistently predict the protein LLPS propensity rationally. Further investigation with more diverse sequences for training, as well as considering features such as refined sequence pattern characterization that comprehensively reflects molecular physiochemical interactions, may improve the performance of PSPs prediction.",
+  "abstract_zh": "蛋白质和核酸的液-液相分离（LLPS）是细胞内生物分子凝聚体形成的基础。蛋白质LLPS的失调与一系列难治性疾病密切相关。随着实验数据的不断积累和相关数据库的发布，已开发出多种用于预测相分离蛋白（PSPs）的工具。由于这些工具基于不同的算法和数据集构建，直接比较其性能可能具有挑战性。在本研究中，我们基于最近更新的LLPSDB v2.0数据库，使用阴性测试数据集（包括折叠蛋白、人类蛋白质组以及在近生理条件下的非PSPs）评估了十一种现有的PSPs预测器。结果表明，新一代预测器FuzDrop、DeePhase和PSPredictor在折叠蛋白作为阴性测试集时表现更佳，而LLPhyScore在人类蛋白质组上优于其他工具。然而，没有任何预测器能够准确识别实验验证的非PSPs。此外，预测分数与蛋白质A1-LCD及其突变体的实验测量饱和浓度之间的相关性表明，这些预测器无法一致地合理预测蛋白质LLPS倾向。进一步使用更多样化的序列进行训练，并考虑诸如精细序列模式表征等全面反映分子物理化学相互作用的特征，可能有助于提高PSPs预测的性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37287138/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37287138/",
+  "paper_page_path": "papers/pubmed/37287138/index.html"
+}

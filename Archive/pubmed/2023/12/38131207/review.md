@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or numerical results were available for evaluation
+- **Shared manuscript claim summary** The authors used coarse-grained molecular dynamics simulations and transition path analysis to characterize the binding-wrapping mechanism of the intrinsically disordered eIF4E-binding domain of yeast eIF4G with eIF4E. They report a major pathway initiated by docking of the eIF4E-binding motif followed by wrapping of the disordered region around the eIF4E N-terminal tail, and a minor pathway attributed to topological frustration. They further claim that modulating wrapping and latching contact strengths affects frustration formation and binding kinetics.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters were provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, transition path analysis details, quantitative results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of a biologically important protein interaction. The central claim that topological frustration contributes to the binding-wrapping process of eIF4G with eIF4E is novel and could be of interest to the intrinsically disordered protein community. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the pathway identification, or the quantitative support for the frustration claim. The conclusions are stated with confidence that the visible evidence cannot currently justify.
+- **Who would be interested in the results, and why** Researchers studying cap-dependent translation initiation, the molecular biophysics of intrinsically disordered proteins, and computational studies of coupled folding and binding. The topological frustration concept may also appeal to theorists interested in protein energy landscapes and kinetic barriers.
+- **Major strengths** The study addresses a biologically relevant complex with a clear mechanistic question. The use of coarse-grained simulations and transition path analysis is appropriate for capturing large-scale conformational transitions. The identification of both major and minor pathways, and the attempt to dissect kinetic factors through contact strength manipulation, indicates a systematic approach.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that coarse-grained molecular dynamics simulations and transition path analysis revealed a major and a minor transition pathway for the binding-wrapping process.  
+  - **Evidence pointer** Abstract only; methods and results not provided  
+  - **Concern** The abstract provides no information on the simulation model, force field, system size, sampling length, number of transition paths observed, or the criteria used to classify pathways as major or minor. Without these details, the reliability of the pathway identification cannot be assessed.  
+  - **Why it matters** The central conclusions depend entirely on the statistical and physical validity of the simulated transition paths. If the sampling was insufficient or the coarse-grained model biased the energy landscape, the reported pathways could be artifacts.  
+  - **Resolution test** Provide the simulation parameters, convergence checks, and a quantitative comparison of pathway populations or fluxes.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for central claim  
+  - **Claim pointer** The authors state that a minor transition pathway indicates the involvement of topological frustration in the binding process.  
+  - **Evidence pointer** Abstract only; no figure or quantitative metric referenced  
+  - **Concern** The abstract does not define what constitutes topological frustration in this system, how it was detected in the simulations, or what evidence distinguishes frustration from other kinetic or thermodynamic effects. The claim is presented as a conclusion without visible supporting data.  
+  - **Why it matters** Topological frustration is a specific and nontrivial concept. Asserting its involvement requires a clear operational definition and evidence that the observed minor pathway is caused by frustration rather than by, for example, non-native contacts or slow conformational search.  
+  - **Resolution test** Define the frustration metric used, show the structural signature of the frustrated state, and demonstrate that the minor pathway is specifically attributable to frustration through control simulations or energetic analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The authors claim that manipulating the interaction strength of wrapping and latching contacts affects the formation of topological frustration and binding transition kinetics.  
+  - **Evidence pointer** Abstract only; no quantitative results provided  
+  - **Concern** The abstract reports qualitative effects without any numerical data, such as changes in rate constants, free energy barriers, or frustration probabilities. The direction and magnitude of the effects are not described.  
+  - **Why it matters** Without quantitative results, the reader cannot judge whether the observed effects are significant or whether they support the proposed mechanistic role of the two contact types.  
+  - **Resolution test** Report the relevant kinetic and thermodynamic quantities for the manipulated conditions and compare them to the wild-type or reference state.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "bracelet-like structure" is used without further description. It is unclear whether this refers to a specific structural motif or a general wrapping geometry.  
+  - **Required correction** Provide a brief structural description or a reference to the original characterization of this fold.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract, methods description  
+  - **Issue** The abstract does not specify the coarse-grained model used, the temperature or salt conditions, or the length of the simulations.  
+  - **Required correction** Include the model name and key simulation conditions in the abstract or refer to a methods section with full details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Scope of conclusions  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim that the findings "exemplify the involvement of topological frustration in the binding process of intrinsically disordered proteins" generalizes from a single system.  
+  - **Required correction** Soften the generalization or provide a brief argument for why this system is representative of a broader class.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation details and the lack of a defined, evidenced frustration metric prevent the central claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of topological frustration to the eIF4G/eIF4E binding process appears novel and could be of conceptual interest.  
+  - Scientific importance: The eIF4E/eIF4G interaction is biologically significant, and a mechanistic understanding of its coupled folding and binding would be valuable.  
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, and could attract readers across these fields.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail is a major limitation.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms such as "topological frustration" and "latching contacts" are introduced without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient technical or quantitative support. A full manuscript with detailed methods, results, and a clearly defined frustration metric would be required to assess whether the claims are justified.
+
+## Risk / unsupported claims
+- The claim that a minor pathway indicates topological frustration is unsupported without a defined frustration metric and evidence linking the pathway to that mechanism.
+- The claim that manipulating wrapping and latching contact strengths affects frustration formation and kinetics is unsupported without quantitative results.
+- The generalization that the findings exemplify topological frustration in intrinsically disordered protein binding broadly is not supported by a single system study.

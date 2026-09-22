@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40888475",
+  "title": "Development of D-box peptides to inhibit the anaphase-promoting complex/cyclosome.",
+  "authors": "Eapen, Rohan; Okoye, Cynthia; Stubbs, Christopher; Schimpl, Marianne; Tischer, Thomas; Fisher, Eileen J; Zacharopoulou, Maria; Ferrer, Fernando; Barford, David; Spring, David R; Lindon, Catherine; Phillips, Christopher; Itzhaki, Laura S",
+  "journal": "eLife",
+  "published_date": "2025-09-02",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究基于无序区域内的D-box降解子设计肽抑制剂靶向APC/C-Cdc20互作，虽涉及IDR介导的PPI和结合机制（含结构解析），但方法以实验为主、无AI或物理模拟建模，故综合评分为6。",
+  "abstract": "E3 ubiquitin ligases engage their substrates via 'degrons' - short linear motifs typically located within intrinsically disordered regions of substrates. As these enzymes are large, multi-subunit complexes that generally lack natural small-molecule ligands and are difficult to inhibit via conventional means, alternative strategies are needed to target them in diseases, and peptide-based inhibitors derived from degrons represent a promising approach. Here we explore peptide inhibitors of Cdc20, a substrate-recognition subunit and activator of the E3 ubiquitin ligase the anaphase-promoting complex/cyclosome (APC/C) that is essential in mitosis and consequently of interest as an anti-cancer target. APC/C engages substrates via degrons that include the 'destruction box' (D-box) motif. We used a rational design approach to construct binders containing unnatural amino acids aimed at better filling a hydrophobic pocket that contributes to the D-box binding site on the surface of Cdc20. We confirmed binding by thermal-shift assays and surface plasmon resonance and determined the structures of a number of the Cdc20-peptide complexes. Using a cellular thermal shift assay, we confirmed that the D-box peptides also bind to and stabilise Cdc20 in the cell. We found that the D-box peptides inhibit ubiquitination activity of APC/C(Cdc20) and are more potent than the small-molecule inhibitor Apcin. Lastly, these peptides function as portable degrons capable of driving the degradation of a fused fluorescent protein. Interestingly, we find that although inhibitory activity of the peptides correlates with Cdc20-binding affinity, degradation efficacy does not, which may be due to the complex nature of APC/C regulation and effects of degron binding of subunit recruitment and conformational changes. Our study lays the groundwork for the further development of these peptides as molecular therapeutics for blocking APC/C as well as potentially for harnessing the APC/C for targeted protein degradation.",
+  "abstract_zh": "E3泛素连接酶通过“降解决定子”（degrons）与其底物结合——这些通常是位于底物 intrinsically disordered regions 中的短线性基序。由于这些酶是大型多亚基复合物，通常缺乏天然小分子配体，且难以通过常规手段抑制，因此需要替代策略来在疾病中靶向它们，而源自降解决定子的肽类抑制剂代表了一种有前景的方法。在此，我们探索了Cdc20的肽抑制剂，Cdc20是E3泛素连接酶后期促进复合物/环体（APC/C）的底物识别亚基和激活因子，在有丝分裂中至关重要，因此作为抗癌靶点备受关注。APC/C通过包含“破坏盒”（D-box）基序的降解决定子与底物结合。我们采用理性设计方法构建了含有非天然氨基酸的结合分子，旨在更好地填充Cdc20表面D-box结合位点处的一个疏水口袋。我们通过热位移实验和表面等离子体共振确认了结合，并测定了多个Cdc20-肽复合物的结构。利用细胞热位移实验，我们确认D-box肽也能在细胞内结合并稳定Cdc20。我们发现D-box肽抑制APC/C(Cdc20)的泛素化活性，且比小分子抑制剂Apcin更有效。最后，这些肽作为可移动的降解决定子，能够驱动融合荧光蛋白的降解。有趣的是，我们发现尽管肽的抑制活性与Cdc20结合亲和力相关，但降解效率却不相关，这可能归因于APC/C调控的复杂性以及降解决定子结合对亚基招募和构象变化的影响。我们的研究为这些肽作为阻断APC/C的分子治疗药物以及潜在利用APC/C进行靶向蛋白降解的进一步开发奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40888475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40888475/",
+  "paper_page_path": "papers/pubmed/40888475/index.html"
+}

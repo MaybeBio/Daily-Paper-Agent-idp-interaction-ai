@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use extensive MD simulations to characterize the 3D conformational ensembles of free oligomannose N-glycans (Man5–Man9) and assess how the FcγRIIIa protein surface modulates these ensembles at glycosylation sites N45 and N162. They report that the protein shifts conformational equilibria toward pre-existing glycan conformers without inducing novel structures, and that arm elongation promotes inter-arm contacts.
+- **Visible evidence base** Abstract, Introduction, Computational Method, Results, Discussion, Conclusions sections; figures and tables referenced but not provided
+- **Missing materials affecting confidence** Figures 1–8, Tables 1–4, all Supporting Information (Figures S.1–S.18, Tables S.1–S.13), simulation parameter details, force field validation data, and convergence metrics
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of oligomannose N-glycan conformational dynamics, both free and protein-linked. The work extends the authors' prior contributions on complex N-glycans and addresses a biologically relevant question regarding how protein surfaces modulate glycan structure. The central claim, that the FcγRIIIa surface shifts rather than distorts the intrinsic glycan conformational ensemble, is plausible and potentially valuable. However, the manuscript as provided lacks the essential figures, tables, and supporting data needed to evaluate the technical soundness of the simulations and the validity of the conclusions. The evidence base is therefore insufficient for a full assessment.
+- **Who would be interested in the results, and why** Researchers in glycobiology, computational biophysics, and immunology would find interest. The work bears on antibody-dependent cellular cytotoxicity (ADCC) modulation by FcγRIIIa glycosylation, which is relevant to therapeutic antibody design. The "glycoblocks" framework may also interest those studying glycan recognition and molecular docking.
+- **Major strengths** The study addresses a biologically important and technically challenging question. The use of extensive cumulative sampling (over 54 μs for free glycans, 4 μs for linked) is commendable. The comparison between free and protein-linked glycan ensembles is a meaningful approach. The authors' prior work provides a consistent methodological framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their simulation protocol and force field choice (GLYCAM06-j1/TIP3P) are appropriate for characterizing glycan conformational ensembles.
+  - **Evidence pointer** Computational Method section; validation data not provided
+  - **Concern** The manuscript does not provide any validation of the force field and water model combination against experimental data for oligomannose N-glycans. While the authors cite consistency with prior work, no evidence is shown that GLYCAM06-j1/TIP3P reproduces known conformational preferences, NMR observables, or other experimental benchmarks for this class of glycans. The choice of TIP3P water with GLYCAM06 has known limitations for carbohydrate simulations, and the authors' assertion of appropriateness is not substantiated.
+  - **Why it matters** The central conclusions depend entirely on the reliability of the conformational ensembles generated. Without validation, the reader cannot assess whether the reported populations and structural features are artifacts of the force field or genuine properties of the glycans.
+  - **Resolution test** Provide validation data, such as comparison of simulated populations or J-couplings with NMR data for oligomannose glycans, or a discussion of known force field limitations and how they might affect the conclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "over 54 μs of cumulative sampling" was performed for free glycans and "over 4 μs" for linked glycans, implying sufficient convergence of conformational ensembles.
+  - **Evidence pointer** Computational Method section; convergence analysis not provided
+  - **Concern** No convergence metrics are presented. For intrinsically disordered and highly flexible molecules like glycans, demonstrating that the sampled ensembles are converged is essential. The manuscript does not show time-evolution of populations, block averaging, or replica-based convergence checks. Without such evidence, the reported populations (e.g., 82% open conformation for Man5) cannot be evaluated for statistical reliability.
+  - **Why it matters** If the simulations are not converged, the reported conformational preferences and the conclusions about protein-induced shifts could be artifacts of insufficient sampling.
+  - **Resolution test** Provide convergence analysis, such as cumulative population plots, split-half comparisons, or other standard metrics demonstrating that the reported ensembles are stable over the simulation time.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "all the 3D conformers observed in the analysis of the bound oligomannoses are always identified in the simulations of the corresponding unlinked forms in solution."
+  - **Evidence pointer** Results section, Figures 7–8, Tables 3–4; figures and tables not provided
+  - **Concern** This is a central claim of the paper, but the supporting figures and tables are not available in the provided material. The reader cannot verify the comparison between free and linked ensembles, nor assess the criteria used to define "conformers" and their "identification" in both conditions. The claim is therefore unverifiable from the supplied evidence.
+  - **Why it matters** The conclusion that the protein does not actively distort glycan structure rests entirely on this comparison. Without the data, the claim cannot be evaluated.
+  - **Resolution test** Provide the figures and tables with clear definitions of conformational states and the criteria for matching conformers between free and linked simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that the protein surface "shifts the oligomannoses conformational ensemble to promote conformers that satisfy the steric requirements and hydrogen bonding networks demanded by the protein's surface landscape."
+  - **Evidence pointer** Results section, Discussion section
+  - **Concern** The mechanistic interpretation is presented as a general principle, but the study only examines two glycosylation sites on one receptor. The authors do not discuss how representative these sites are, nor do they address whether the observed effects are specific to FcγRIIIa or generalizable. The claim of a general principle may be overreaching.
+  - **Why it matters** Overgeneralization from a limited set of systems could mislead readers about the universality of the proposed mechanism.
+  - **Resolution test** Soften the claim or add a discussion of limitations and the need for additional systems to establish generality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Computational Method section
+  - **Evidence pointer** "smoothing parameter of [1000,1000]" in the KDE analysis
+  - **Issue** The smoothing parameter is reported without units or context. It is unclear whether this is a bandwidth in degrees or radians, and how it was chosen.
+  - **Required correction** Clarify the units and provide justification for the chosen smoothing parameter.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational Method section
+  - **Evidence pointer** Simulation setup description
+  - **Issue** The manuscript states simulations were run "in parallel for 500 ns from nine uncorrelated starting points" but does not specify how the starting structures were generated beyond varying the two α(1–6) torsions. The method for generating "uncorrelated" starting points is not fully described.
+  - **Required correction** Provide additional detail on how the nine starting structures were generated and how independence was ensured.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** "The subset of representative isomers shown in Figure 1 is presented here for simplicity"
+  - **Issue** The manuscript states that only a subset of isomers is presented in the main text, with the rest in Supporting Information. This is acceptable, but the criteria for selecting the representative isomers are not stated.
+  - **Required correction** Briefly state the selection criteria for the representative isomers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Comparison with NMR-validated REMD analysis (reference 42)
+  - **Issue** The comparison with REMD results is mentioned but not described in detail. The reader cannot assess the nature or strength of the agreement.
+  - **Required correction** Provide a more detailed description of the comparison, including which observables were compared and the level of agreement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (force field validation), R1-M2 (convergence evidence), R1-M3 (missing figures and tables for central claim)
+- **Assessment against Nature-style criteria** Originality: The work extends prior studies on complex N-glycans to oligomannose species and addresses protein-induced conformational selection, which is a relatively underexplored area. The "glycoblocks" concept is a useful framework. Scientific importance: The connection to FcγRIIIa glycosylation and ADCC modulation gives the work biological relevance, though the direct functional implications are speculative. Interdisciplinary readership: The topic bridges glycobiology, biophysics, and immunology, but the presentation is heavily computational and may not be accessible to experimentalists without additional context. Technical soundness: Cannot be fully assessed due to missing validation and convergence data. Readability for nonspecialists: The manuscript is written for a computational chemistry audience; the biological significance could be better contextualized for a broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible and the work is potentially valuable, but the missing figures, tables, validation data, and convergence analysis prevent a full assessment. The authors should be invited to provide the complete manuscript with all supporting materials.
+
+## Risk / unsupported claims
+- The claim that the protein does not actively distort glycan structure is unsupported without the comparative data (Figures 7–8, Tables 3–4).
+- The claim that the protein surface "promotes conformers that satisfy steric requirements and hydrogen bonding networks" is a mechanistic interpretation that is not directly tested.
+- The statement that the "highly populated conformations of the Man5 linked glycans support experimental evidence of high levels of hybrid complex forms at N45" is an inference that requires the missing data to evaluate.
+- The generalizability of the "glycoblocks" framework to other glycan classes is asserted but not demonstrated.
+- The biological implications for ADCC modulation are speculative and not directly supported by the simulation data presented.

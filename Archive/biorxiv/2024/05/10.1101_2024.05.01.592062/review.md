@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce SWING, a novel interaction language model (iLM) that represents peptide and protein interactions using a grammar based on amino acid property differences. They claim SWING achieves state-of-the-art performance in peptide:MHC (pMHC) Class I and Class II prediction, enables a Mixed Class model, and shows cross-class transferability. They further claim SWING predicts interaction-specific disruption of protein-protein interactions (PPIs) by missense mutations, including Mendelian and population variants, using only sequence information, and that it is the first generalizable zero-shot iLM for this task. Validation in murine autoimmune models (MRL/lpr and NOD) is reported.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, dataset descriptions, or experimental validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, model training and evaluation details, dataset compositions, baseline comparisons, statistical analyses, and experimental validation protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful framework for interaction language modeling. The core idea of representing interactions themselves as a language is conceptually novel and could address a gap in current pLM-based approaches. However, the abstract provides no quantitative evidence, no methodological detail, and no comparative benchmarks. The claims of state-of-the-art performance, cross-class transferability, and generalizable zero-shot PPI disruption prediction are entirely unsupported by the supplied material. The experimental validation in murine models is mentioned but not described. As presented, the case is not established.
+- **Who would be interested in the results, and why** Computational biologists and immunologists working on peptide-MHC binding prediction, protein language model developers, and researchers studying variant effects on protein interactions would find this work relevant. The potential for a unified interaction language model could appeal to those seeking generalizable frameworks beyond single-sequence pLMs.
+- **Major strengths** The conceptual novelty of representing interactions as a language is a genuine departure from existing co-embedding or concatenation strategies. The claim of cross-class transferability (Class I to Class II) and the Mixed Class model suggest a potentially unified framework. The extension to interaction-specific PPI disruption prediction addresses a recognized limitation of existing variant-effect tools.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "SWING was not only successful at generating Class I and Class II models that have comparable prediction to state-of-the-art approaches"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative performance metrics, benchmark datasets, or baseline comparisons are provided. The claim of comparability to state-of-the-art is unverifiable.  
+  - **Why it matters** Without specific metrics (e.g., AUC, accuracy) and defined baselines, the reader cannot assess whether SWING is genuinely competitive or merely functional.  
+  - **Resolution test** Provide performance tables comparing SWING to established methods on standard pMHC benchmarks (e.g., IEDB, NetMHCpan) with statistical significance testing.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "the unique Mixed Class model was also successful at jointly predicting both classes" and "the SWING model trained only on Class I alleles was predictive for Class II"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts successful joint prediction and cross-class transfer without any supporting data. The novelty of cross-class prediction is emphasized, but no results are shown.  
+  - **Why it matters** Cross-class transfer is a strong claim that, if true, would be a significant advance. However, without evaluation details, it is impossible to determine whether the model is exploiting trivial features or achieving genuine generalization.  
+  - **Resolution test** Show cross-validation results for the Mixed Class model and the Class I-to-Class II transfer experiment, including performance on held-out alleles and comparison to class-specific baselines.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "SWING was successful at accurately predicting the impact of both Mendelian mutations and population variants on PPIs" and "This is the first generalizable approach that can accurately predict interaction-specific disruptions by missense mutations with only sequence information"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No datasets, evaluation metrics, or comparisons to existing methods (e.g., AlphaMissense, ESM1b) are provided. The claim of being "first" requires a thorough literature comparison that is absent.  
+  - **Why it matters** The PPI disruption prediction claim is a major extension of the framework. Without evidence, the novelty and utility cannot be evaluated. The "first" claim is particularly strong and requires explicit demonstration of no prior comparable method.  
+  - **Resolution test** Provide benchmark results on established PPI variant datasets (e.g., SKEMPI, ClinVar) with metrics such as AUROC or AUPRC, and include direct comparisons to AlphaMissense and ESM1b on the same tasks.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "SWING also accurately predicted Class II pMHC interactions in murine models of SLE (MRL/lpr model) and T1D (NOD model), that were validated experimentally"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The experimental validation is mentioned but not described. No details on the experimental assay, the number of predictions tested, the criteria for "accurate," or the statistical significance are given.  
+  - **Why it matters** Experimental validation is a key strength if properly conducted. Without details, the claim is unverifiable and the risk of overinterpretation is high.  
+  - **Resolution test** Describe the experimental setup, including the number of peptides tested, the assay type, the prediction thresholds, and the concordance statistics between predictions and experimental outcomes.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** "SWING leverages differences in amino acid properties to generate an interaction vocabulary" and "This vocabulary is the input into a LM followed by a supervised prediction step"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not explain how the interaction vocabulary is constructed, what amino acid properties are used, how the language model is trained, or how the supervised prediction step is implemented.  
+  - **Why it matters** The novelty of SWING rests on the interaction grammar. Without methodological detail, the approach cannot be reproduced or evaluated for soundness.  
+  - **Resolution test** Provide a detailed methods section describing the vocabulary construction, model architecture, training procedure, and hyperparameters.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "zero-shot" is used to describe SWING, but the abstract also mentions a "supervised prediction step." This is potentially contradictory and needs clarification.  
+  - **Required correction** Clarify whether the zero-shot claim refers to the interaction language representation or to the prediction task, and explain how the supervised step is reconciled with zero-shot usage.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Baseline comparisons  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "state-of-the-art approaches" but does not name them.  
+  - **Required correction** Specify which methods were used as baselines for pMHC prediction and PPI disruption prediction.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data availability  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No mention of data availability or code release.  
+  - **Required correction** State whether the model, code, and datasets will be made publicly available.
+
+## Risk / unsupported claims
+- The claim of "comparable prediction to state-of-the-art approaches" for pMHC Class I and Class II is unsupported by any quantitative data.
+- The claim of successful joint prediction by the Mixed Class model is unsupported.
+- The claim of cross-class transferability (Class I to Class II) is unsupported.
+- The claim of accurate prediction of PPI disruption by missense mutations is unsupported.
+- The claim of being "the first generalizable approach" for interaction-specific disruption prediction is unsupported and requires a comprehensive literature review.
+- The claim of experimental validation in murine models is unverifiable without experimental details.
+- The overall claim of SWING being a "first-in-class generalizable zero-shot iLM" is not established from the abstract alone.

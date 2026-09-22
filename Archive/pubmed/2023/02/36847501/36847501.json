@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "36847501",
+    "doi": "10.1128/spectrum.03671-22",
+    "title": "Single-Cell Transcriptomics To Define Plasmodium falciparum Stage Transition in the Mosquito Midgut."
+  },
+  "content": {
+    "abstract": "Malaria inflicts the highest rate of morbidity and mortality among the vector-borne diseases. The dramatic bottleneck of parasite numbers that occurs in the gut of the obligatory mosquito vector provides a promising target for novel control strategies. Using single-cell transcriptomics, we analyzed Plasmodium falciparum development in the mosquito gut, from unfertilized female gametes through the first 20 h after blood feeding, including the zygote and ookinete stages. This study revealed the temporal gene expression of the ApiAP2 family of transcription factors and of parasite stress genes in response to the harsh environment of the mosquito midgut. Further, employing structural protein prediction analyses, we found several upregulated genes predicted to encode intrinsically disordered proteins (IDPs), a category of proteins known for their importance in regulation of transcription, translation, and protein-protein interactions. IDPs are known for their antigenic properties and may serve as suitable targets for antibody- or peptide-based transmission suppression strategies. In total, this study uncovers the P. falciparum transcriptome from early to late parasite development in the mosquito midgut, inside its natural vector, which provides an important resource for future malaria transmission-blocking initiatives. IMPORTANCE The malaria parasite Plasmodium falciparum causes more than half a million deaths per year. The current treatment regimen targets the symptom-causing blood stage inside the human host. However, recent incentives in the field call for novel interventions to block parasite transmission from humans to the mosquito vector. Therefore, we need to better understand the parasite biology during its development inside the mosquito, including a deeper understanding of the expression of genes controlling parasite progression during these stages. Here, we have generated single-cell transcriptome data, covering P. falciparum's development, from gamete to ookinete inside the mosquito midgut, uncovering previously untapped parasite biology, including a repertoire of novel biomarkers to be explored in future transmission-blocking efforts. We anticipate that our study provides an important resource, which can be further explored to improve our understanding of the parasite biology as well as aid in guiding future malaria intervention strategies.",
+    "keywords": [
+      "Plasmodium falciparum",
+      "malaria",
+      "mosquito midgut",
+      "scRNA-seq",
+      "single cell",
+      "stage transition",
+      "transmission"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mohammed, Mubasher",
+        "Dziedziech, Alexis",
+        "Sekar, Vaishnovi",
+        "Ernest, Medard",
+        "Alves E Silva, Thiago Luiz",
+        "Balan, Balu",
+        "Emami, S Noushin",
+        "Biryukova, Inna",
+        "Friedlander, Marc R",
+        "Jex, Aaron",
+        "Jacobs-Lorena, Marcelo",
+        "Henriksson, Johan",
+        "Vega-Rodriguez, Joel",
+        "Ankarklev, Johan"
+      ],
+      "short_names": [
+        "Mohammed M",
+        "Dziedziech A",
+        "Sekar V",
+        "Ernest M",
+        "Alves E Silva TL",
+        "Balan B",
+        "Emami SN",
+        "Biryukova I",
+        "Friedlander MR",
+        "Jex A",
+        "Jacobs-Lorena M",
+        "Henriksson J",
+        "Vega-Rodriguez J",
+        "Ankarklev J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1285-7947",
+        "ORCID: 0000-0003-3170-8493"
+      ],
+      "affiliations": [
+        "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA.",
+        "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA.",
+        "Population Health and Immunity Division, The Walter and Eliza Hall Institute of Medical Research, Melbourne, Victoria, Australia.",
+        "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Population Health and Immunity Division, The Walter and Eliza Hall Institute of Medical Research, Melbourne, Victoria, Australia.",
+        "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Molecular Microbiology and Immunology, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Laboratory for Molecular Infection Medicine Sweden (MIMS), Department of Molecular Biology, Umea University, Umea, Sweden.",
+        "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA.",
+        "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+        "Microbial Single Cell Genomics, Department of Cell and Molecular Biology and Science for Life Laboratory, Uppsala University, Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mohammed, Mubasher",
+        "short_name": "Mohammed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Dziedziech, Alexis",
+        "short_name": "Dziedziech A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sekar, Vaishnovi",
+        "short_name": "Sekar V",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ernest, Medard",
+        "short_name": "Ernest M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Alves E Silva, Thiago Luiz",
+        "short_name": "Alves E Silva TL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Balan, Balu",
+        "short_name": "Balan B",
+        "identifiers": [],
+        "affiliations": [
+          "Population Health and Immunity Division, The Walter and Eliza Hall Institute of Medical Research, Melbourne, Victoria, Australia.",
+          "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Emami, S Noushin",
+        "short_name": "Emami SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Biryukova, Inna",
+        "short_name": "Biryukova I",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Friedländer, Marc R",
+        "short_name": "Friedländer MR",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jex, Aaron",
+        "short_name": "Jex A",
+        "identifiers": [
+          "0000-0002-1285-7947"
+        ],
+        "affiliations": [
+          "Population Health and Immunity Division, The Walter and Eliza Hall Institute of Medical Research, Melbourne, Victoria, Australia.",
+          "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Jacobs-Lorena, Marcelo",
+        "short_name": "Jacobs-Lorena M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Microbiology and Immunology, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Henriksson, Johan",
+        "short_name": "Henriksson J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Molecular Infection Medicine Sweden (MIMS), Department of Molecular Biology, Umeå University, Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Vega-Rodriguez, Joel",
+        "short_name": "Vega-Rodriguez J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Malaria and Vector Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Ankarklev, Johan",
+        "short_name": "Ankarklev J",
+        "identifiers": [
+          "0000-0003-3170-8493"
+        ],
+        "affiliations": [
+          "Department of Molecular Biosciences, The Wenner-Gren Institute, Stockholm University, Stockholm, Sweden.",
+          "Microbial Single Cell Genomics, Department of Cell and Molecular Biology and Science for Life Laboratory, Uppsala University, Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiology spectrum"
+    ],
+    "journal_abbrev": [
+      "Microbiol Spectr"
+    ],
+    "pub_date": "2023 Apr 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/28 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "42185256",
+      "41957628",
+      "41419483",
+      "41125888",
+      "40640876",
+      "40624152",
+      "40523953",
+      "40163471",
+      "39777415",
+      "39605504",
+      "39187486",
+      "39160174",
+      "38874346",
+      "38352447",
+      "37795097",
+      "37305421",
+      "37268002"
+    ],
+    "refs": [
+      "34385463",
+      "34265844",
+      "34045457",
+      "33665945",
+      "33393463",
+      "32620501",
+      "32256458",
+      "32165544",
+      "32139671",
+      "31439762",
+      "31271672",
+      "31080894",
+      "30959972",
+      "30814727",
+      "30367064",
+      "30096287",
+      "29965959",
+      "29914354",
+      "29718996",
+      "29580379",
+      "29233900",
+      "29094698",
+      "29039247",
+      "28376558",
+      "28181049",
+      "28177775",
+      "28081440",
+      "27560172",
+      "27111866",
+      "26919425",
+      "26883588",
+      "26513658",
+      "26409813",
+      "26030447",
+      "26018192",
+      "25883148",
+      "25310987",
+      "25225164",
+      "25220455",
+      "25185005",
+      "25184562",
+      "25073905",
+      "24572369",
+      "24385147",
+      "23382676",
+      "23028336",
+      "22628523",
+      "22282475",
+      "22129310",
+      "22098752",
+      "21771426",
+      "21646342",
+      "21282103",
+      "20711482",
+      "20386715",
+      "19662167",
+      "18761621",
+      "18248630",
+      "16203726",
+      "11154922",
+      "10366661",
+      "9386348",
+      "9280891",
+      "8401235",
+      "7637710",
+      "7487930",
+      "3088783",
+      "2204027"
+    ],
+    "similar": [
+      "36847501",
+      "26911483",
+      "24929123",
+      "18563747",
+      "34724830",
+      "29482720",
+      "23586929",
+      "32165544",
+      "33789941",
+      "22406332",
+      "17283100",
+      "35638735",
+      "33732658",
+      "27111866",
+      "33791240",
+      "9695113",
+      "17040863",
+      "40434644",
+      "17673553",
+      "21763778",
+      "19057932",
+      "37009496",
+      "31572339",
+      "38326842",
+      "11309510",
+      "40823845",
+      "34262880",
+      "18483558",
+      "27978709",
+      "16789837",
+      "9330262",
+      "37191558",
+      "27549662",
+      "22366731",
+      "29089373",
+      "19032156",
+      "36154191",
+      "34072373",
+      "12727225",
+      "28559405",
+      "32450861",
+      "20615232",
+      "40424190",
+      "32868841",
+      "25225164",
+      "32256458",
+      "12906877",
+      "14717055",
+      "33489941",
+      "33087522",
+      "17575986",
+      "34845210",
+      "35635457",
+      "20056606",
+      "22857387",
+      "14638789",
+      "41125888",
+      "11809789",
+      "17873063",
+      "30181253",
+      "23587146",
+      "16908078",
+      "22693451",
+      "40891443",
+      "29233900",
+      "16265898",
+      "34998927",
+      "35465336",
+      "26166358",
+      "27154329",
+      "41498187",
+      "30496310",
+      "11378031",
+      "37630530",
+      "27566334",
+      "37883438",
+      "17784927",
+      "15733320",
+      "37195964",
+      "40720352",
+      "9929452",
+      "33536327",
+      "10760158",
+      "23540130",
+      "39445826",
+      "15069061",
+      "28791254",
+      "9002371",
+      "9891033",
+      "11437831",
+      "25784701",
+      "40301628",
+      "29873127",
+      "23255191",
+      "39605504",
+      "37708854",
+      "22646700",
+      "11349074",
+      "37545855",
+      "37915080"
+    ],
+    "review": [
+      "36847501",
+      "22406332",
+      "27111866",
+      "9695113",
+      "9330262",
+      "14717055",
+      "34845210",
+      "40891443",
+      "16265898",
+      "11378031",
+      "37630530",
+      "17784927"
+    ],
+    "pmc": [
+      "10100735"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/spectrum.03671-22?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36847501/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36847501",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse222586",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

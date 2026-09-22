@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "35755809",
+    "doi": "10.3389/fmolb.2022.898838",
+    "title": "Investigating Intrinsically Disordered Proteins With Brownian Dynamics."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) have recently become systems of great interest due to their involvement in modulating many biological processes and their aggregation being implicated in many diseases. Since IDPs do not have a stable, folded structure, however, they cannot be easily studied with experimental techniques. Hence, conducting a computational study of these systems can be helpful and be complementary with experimental work to elucidate their mechanisms. Thus, we have implemented the coarse-grained force field for proteins (COFFDROP) in Browndye 2.0 to study IDPs using Brownian dynamics (BD) simulations, which are often used to study large-scale motions with longer time scales and diffusion-limited molecular associations. Specifically, we have checked our COFFDROP implementation with eight naturally occurring IDPs and have investigated five (Glu-Lys)(25) IDP sequence variants. From measuring the hydrodynamic radii of eight naturally occurring IDPs, we found the ideal scaling factor of 0.786 for non-bonded interactions. We have also measured the entanglement indices (average C (alpha) distances to the other chain) between two (Glu-Lys)(25) IDP sequence variants, a property related to molecular association. We found that entanglement indices decrease for all possible pairs at excess salt concentration, which is consistent with long-range interactions of these IDP sequence variants getting weaker at increasing salt concentration.",
+    "keywords": [
+      "Browndye",
+      "Brownian dynamics simulation",
+      "COFFDROP force field",
+      "intrinsically disordered proteins",
+      "molecular associations"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahn, Surl-Hee",
+        "Huber, Gary A",
+        "McCammon, J Andrew"
+      ],
+      "short_names": [
+        "Ahn SH",
+        "Huber GA",
+        "McCammon JA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States.",
+        "Department of Pharmacology, University of California, San Diego, San Diego, CA, United States.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States.",
+        "Department of Pharmacology, University of California, San Diego, San Diego, CA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahn, Surl-Hee",
+        "short_name": "Ahn SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Huber, Gary A",
+        "short_name": "Huber GA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States.",
+          "Department of Pharmacology, University of California, San Diego, San Diego, CA, United States."
+        ]
+      },
+      {
+        "full_name": "McCammon, J Andrew",
+        "short_name": "McCammon JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, San Diego, CA, United States.",
+          "Department of Pharmacology, University of California, San Diego, San Diego, CA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/28 06:00",
+    "fetched_at": "2026-09-20 11:36:24"
+  },
+  "links": {
+    "cites": [
+      "40849869",
+      "37409946",
+      "36628457"
+    ],
+    "refs": [
+      "37878721",
+      "34265844",
+      "32309795",
+      "31441158",
+      "30873835",
+      "30528464",
+      "30439585",
+      "29466338",
+      "29094409",
+      "28836357",
+      "28793210",
+      "28369057",
+      "28287151",
+      "27276251",
+      "27248669",
+      "26879470",
+      "26606496",
+      "26596171",
+      "26574429",
+      "26328871",
+      "26183799",
+      "26123630",
+      "25400526",
+      "24278008",
+      "23914146",
+      "23901099",
+      "22807669",
+      "22140358",
+      "21843480",
+      "21425296",
+      "21132109",
+      "19086274",
+      "18779323",
+      "18688269",
+      "17929838",
+      "17488841",
+      "17189335",
+      "16060653",
+      "15215472",
+      "15063651",
+      "11910019",
+      "11590163",
+      "8392365",
+      "7108955",
+      "3122208"
+    ],
+    "similar": [
+      "35755809",
+      "26574429",
+      "23912807",
+      "28448138",
+      "25400526",
+      "38928405",
+      "34656328",
+      "30091924",
+      "33591749",
+      "29808548",
+      "34845619",
+      "35944496",
+      "30813315",
+      "32859072",
+      "27936491",
+      "36066390",
+      "30913885",
+      "31756104",
+      "38250712",
+      "32639157",
+      "30933517",
+      "34680048",
+      "25331250",
+      "33355572",
+      "35762718",
+      "32816485",
+      "32227937",
+      "24278008",
+      "33945530",
+      "20483348",
+      "25375525",
+      "38039868",
+      "38275091",
+      "36641212",
+      "37831084",
+      "32403216",
+      "30979035",
+      "25919886",
+      "36468450",
+      "35377637",
+      "28554553",
+      "30250773",
+      "38696815",
+      "34390736",
+      "33337879",
+      "34546059",
+      "28805390",
+      "32579908",
+      "31441158",
+      "36291634",
+      "29990433",
+      "21766125",
+      "37108059",
+      "34032235",
+      "35053175",
+      "22399317",
+      "29548755",
+      "30184304",
+      "34150843",
+      "31809054",
+      "26376097",
+      "34358545",
+      "29573987",
+      "30528464",
+      "36084347",
+      "38987470",
+      "38112495",
+      "33791275",
+      "37442414",
+      "39046235",
+      "37838830",
+      "33810353",
+      "38097100",
+      "34285781",
+      "26727467",
+      "31702919",
+      "25207671",
+      "35074392",
+      "31552948",
+      "32227994",
+      "26301226",
+      "25496281",
+      "29907037",
+      "38165099",
+      "33382616",
+      "31667555",
+      "30875980",
+      "37452752",
+      "38118365",
+      "30066087",
+      "30840442",
+      "36579699",
+      "31613621",
+      "36346711",
+      "21440685",
+      "31475155",
+      "24211251",
+      "32357776",
+      "38222029"
+    ],
+    "review": [
+      "35755809",
+      "33591749",
+      "34680048",
+      "33355572",
+      "38039868",
+      "32403216",
+      "30979035",
+      "28554553",
+      "34390736",
+      "31441158",
+      "35053175",
+      "22399317",
+      "34358545",
+      "33791275",
+      "38097100",
+      "34285781",
+      "26301226",
+      "31667555",
+      "30875980",
+      "38118365",
+      "30066087",
+      "30840442"
+    ],
+    "pmc": [
+      "9213797"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35755809/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35755809",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt11z7g53b",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.898838",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35381286",
+  "title": "In vitro characterization and molecular dynamics simulation reveal mechanism of 14-3-3zeta regulated phase separation of the tau protein.",
+  "authors": "Han, Yue; Ye, Haiqiong; Li, Ping; Zeng, Yifan; Yang, Jing; Gao, Meng; Su, Zhengding; Huang, Yongqi",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2022-04-06",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过体外实验与分子动力学模拟揭示14-3-3zeta调控tau蛋白相分离的机制，聚焦无序tau蛋白的LLPS及PPI界面，方法含MD模拟，契合无序蛋白互作机制建模主题。",
+  "abstract": "As a major microtubule-associated protein, tau is involved in the assembly of microtubules in the central nervous system. However, under pathological conditions tau assembles into amyloid filaments. Liquid droplets formed by liquid-liquid phase separation (LLPS) are a recently identified assembly state of tau and may have a major effect on the physiological function of tau and the formation of tau aggregates. 14-3-3 proteins are ubiquitously expressed in various tissues and regulate a wide variety of biological processes. In this work, we demonstrate that 14-3-3zeta is recruited into tau droplets and regulates tau LLPS by in vitro assays. While the mobility of tau molecules inside the droplets is not affected in the presence of 14-3-3zeta, the amount and size of droplets can vary significantly. Mechanistic studies reveal that 14-3-3zeta regulates tau LLPS by electrostatic interactions and hydrophobic interactions with the proline-rich domain and the microtubule-binding domain of tau. Surprisingly, the disordered C-terminal tail rather than the amphipathic binding groove of 14-3-3zeta plays a key role. Our findings not only provide a novel dimension to understand the interactions between 14-3-3 proteins and tau, but also suggest that 14-3-3 proteins may play an important role in regulating the LLPS of their binding partners.",
+  "abstract_zh": "作为一种主要的微管相关蛋白，tau蛋白参与中枢神经系统中微管的组装。然而，在病理条件下，tau蛋白会组装成淀粉样纤维。由液-液相分离（LLPS）形成的液滴是tau蛋白近期被发现的一种组装状态，可能对tau蛋白的生理功能及tau蛋白聚集体的形成产生重要影响。14-3-3蛋白在多种组织中普遍表达，并调控多种多样的生物过程。在本工作中，我们通过体外实验证明，14-3-3zeta被招募进入tau蛋白液滴中，并调控tau蛋白的LLPS。尽管在14-3-3zeta存在时，液滴内tau蛋白分子的流动性未受影响，但液滴的数量和大小可发生显著变化。机制研究表明，14-3-3zeta通过静电相互作用和疏水相互作用与tau蛋白的富含脯氨酸结构域及微管结合结构域相互作用，从而调控tau蛋白的LLPS。令人惊讶的是，14-3-3zeta的无序C末端尾部而非两亲性结合沟槽在此过程中起关键作用。我们的发现不仅为理解14-3-3蛋白与tau蛋白之间的相互作用提供了新的维度，还提示14-3-3蛋白可能在调控其结合伴侣的LLPS中发挥重要作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35381286/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35381286/",
+  "paper_page_path": "papers/pubmed/35381286/index.html"
+}

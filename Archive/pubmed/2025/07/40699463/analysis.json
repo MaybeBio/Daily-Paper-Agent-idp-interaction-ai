@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40699463",
+  "title": "A phase separation-related gene signature for prognosis prediction and immunotherapy response evaluation in gastric cancer with targeted natural compound discovery.",
+  "authors": "Jia, Yanjuan; Ma, Yuanyuan; Li, Zhenhao; Zhang, Wenze; Lu, Rukun; Wang, Wanxia; Wei, Chaojun; Wei, Chunyan; Li, Yonghong; Gao, Xiaoling; Qu, Tao",
+  "journal": "Discover oncology",
+  "published_date": "2025-07-23",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究基于相分离相关基因构建胃癌预后与免疫治疗反应预测模型，并用分子对接筛选靶向天然化合物，虽涉及相分离与PPI相关基因，但核心是临床预后建模而非无序蛋白互作机制建模，方法以统计与对接为主，AI/物理模拟深度有限。",
+  "abstract": "BACKGROUND: Aberrant phase separation (PS) has emerged as a pivotal pathogenic mechanism in cancer development. However, its prognostic significance and influence on the tumor immune microenvironment in gastric cancer (GC) remain largely unexplored. This study aimed to develop a PS-related risk model for predicting clinical outcomes and immunotherapy response, and to identify potential natural small-molecule compounds targeting proteins within this PS-related network. METHODS: We integrated transcriptomic data from the TCGA-STAD and GSE62254 datasets with four PS-related databases (including DrLLPS, PhaSepDB, PhaSePro, and LLPSDB) to identify candidate signature genes. The prognostic model was developed using least absolute shrinkage and selection operator (LASSO) regression and validated in both cohorts. Immune checkpoint inhibitor (ICI) response between PS-related high- and low-risk groups was evaluated using TIDE algorithm scores. Potential therapeutic agents targeting signature genes were screened via Connectivity Map and HERB database analyses, followed by molecular docking validation. RESULTS: By Integrating analysis of the differential expression dataset from TCGA-STAD (n = 407, 375 tumor/32 normal) with prognosis-related dataset and PS-related dataset, we identified 78 candidate genes and developed a robust 21-gene risk prediction model. The model effectively stratified GC patients into high-risk and low-risk subgroups, with consistent performance in the independent GSE62254 validation cohort (n = 300, tumor). Compared to low-risk patients, high-risk patients exhibited poorer survival, a more immunosuppressive microenvironment, and a reduced response to immunotherapy. Moreover, computational screening identified 18 potential therapeutic natural compounds, 13 of which showed high-affinity binding to signature genes (docking scores > 6.0). CONCLUSIONS: Our study developed a novel PS-related risk model that predicts GC outcomes, characterizes tumor immune microenvironment, evaluates immunotherapy response, and identifies targeting small molecules. These findings advance the understanding of PS regulation in GC and provide a framework for personalized therapy.",
+  "abstract_zh": "背景：异常相分离（phase separation, PS）已成为癌症发展中的关键致病机制。然而，其在胃癌（gastric cancer, GC）中的预后意义及对肿瘤免疫微环境的影响仍 largely 未被探索。本研究旨在开发一种PS相关风险模型，用于预测临床结局和免疫治疗反应，并识别靶向该PS相关网络内蛋白质的潜在天然小分子化合物。方法：我们将来自TCGA-STAD和GSE62254数据集的转录组数据与四个PS相关数据库（包括DrLLPS、PhaSepDB、PhaSePro和LLPSDB）整合，以识别候选特征基因。使用最小绝对收缩和选择算子（least absolute shrinkage and selection operator, LASSO）回归开发预后模型，并在两个队列中进行验证。使用TIDE算法评分评估PS相关高风险组和低风险组之间的免疫检查点抑制剂（immune checkpoint inhibitor, ICI）反应。通过Connectivity Map和HERB数据库分析筛选靶向特征基因的潜在治疗药物，随后进行分子对接验证。结果：通过整合TCGA-STAD（n = 407，375个肿瘤/32个正常）的差异表达数据集、预后相关数据集和PS相关数据集，我们识别出78个候选基因，并开发了一个稳健的21基因风险预测模型。该模型有效将GC患者分层为高风险和低风险亚组，并在独立GSE62254验证队列（n = 300，肿瘤）中表现一致。与低风险患者相比，高风险患者表现出更差的生存率、更免疫抑制的微环境以及对免疫治疗的反应降低。此外，计算筛选识别出18种潜在治疗性天然化合物，其中13种与特征基因显示高亲和力结合（对接分数 > 6.0）。结论：我们的研究开发了一种新型PS相关风险模型，可预测GC结局、表征肿瘤免疫微环境、评估免疫治疗反应，并识别靶向小分子。这些发现推进了对GC中PS调控的理解，并为个性化治疗提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40699463/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40699463/",
+  "paper_page_path": "papers/pubmed/40699463/index.html"
+}

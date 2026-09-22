@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of eight alpha-synuclein(1-95) peptides in aqueous media, finding that water near peptide repeat units R1-R7 exhibits restricted translational and rotational mobility due to solid-like caging motions, with modest dynamic heterogeneity and relatively more restricted diffusivity near the hydrophobic R6 unit. They further claim that time scales of peptide-water and water-water hydrogen bond structural relaxations correlate with interfacial water diffusion time scales, and propose that the hindered dynamic environment near R6 may promote water-mediated inter-monomer contacts and enhance early aggregation.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, analysis methods, error estimates, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, convergence criteria, quantitative data (diffusion coefficients, relaxation times, correlation coefficients), statistical analyses, system size and concentration details, force field validation, comparison with experimental data, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting simulation study on hydration dynamics around an intrinsically disordered peptide, with a hypothesis linking local water dynamics to aggregation propensity. However, the evidence base available for review is limited to the abstract, which lacks quantitative results, methodological detail, and statistical validation. The central claims regarding restricted water mobility, dynamic heterogeneity, and the correlation between hydrogen bond relaxation and water diffusion cannot be rigorously evaluated from the supplied material. The proposed link to aggregation enhancement is speculative and not supported by direct simulation evidence at the stated concentration.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein aggregation and neurodegeneration, hydration dynamics, and molecular dynamics simulation methodology would find these results relevant. The work addresses a gap in understanding how interfacial water properties correlate with IDP conformational behavior and aggregation, which is of interest to those studying Parkinson's disease mechanisms and the physical chemistry of disordered proteins.
+- **Major strengths** The study addresses an under-explored question regarding the correlation between IDP conformational dynamics and interfacial water properties. The use of multiple peptides with a wide range of initial conformations is a reasonable approach to sample conformational diversity. The focus on repeat unit segments R1-R7 provides a systematic framework for analyzing local hydration heterogeneity. The hypothesis connecting local water dynamics to aggregation is biologically motivated and potentially testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that water near peptide surfaces exhibits significantly restricted translational and rotational mobility due to solid-like caging motions
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative measures of water mobility, no comparison with bulk water values, no error estimates, and no details on how "solid-like caging" was characterized. Without numerical data and statistical analysis, the significance of the reported restriction cannot be assessed.
+  - **Why it matters** The central finding of the study rests on demonstrating that interfacial water mobility is significantly restricted relative to bulk. Without quantitative evidence and appropriate statistical testing, this claim is unverifiable and may not withstand scrutiny.
+  - **Resolution test** Provide quantitative diffusion coefficients (translational and rotational) for water near each repeat unit and in bulk, with standard errors and statistical significance tests, along with a clear operational definition and validation of the "caging" analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that time scales of peptide-water and water-water hydrogen bond structural relaxations are correlated with the time scale of interfacial water diffusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a correlation but provides no correlation coefficients, no statistical significance, no definition of the relaxation time scales, and no description of how the correlation was computed. The direction and strength of the correlation are unspecified.
+  - **Why it matters** This correlation is presented as a key mechanistic insight linking hydrogen bond dynamics to water mobility. Without quantitative correlation analysis and appropriate statistical testing, the claim is unsupported and may be coincidental given the limited number of repeat units (seven).
+  - **Resolution test** Report correlation coefficients (e.g., Pearson or Spearman) with confidence intervals and p-values, specify the relaxation time definitions, and demonstrate robustness of the correlation across independent simulation replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the relatively more hindered dynamic environment near R6 can help create water-mediated contacts centered around R6 between peptide monomers at higher concentration, thereby enhancing early aggregation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a speculative extrapolation from single-peptide simulations to multi-peptide aggregation behavior. No simulations at higher concentration, no direct observation of water-mediated contacts, and no aggregation assays are presented. The causal chain from local water dynamics to enhanced aggregation is not established.
+  - **Why it matters** This claim extends the study beyond its direct simulation evidence and is likely to be a primary motivation for the work's significance. If unsupported, it overstates the implications of the findings and may mislead readers about the aggregation mechanism.
+  - **Resolution test** Perform simulations at higher peptide concentrations to directly test whether R6-centered water-mediated inter-monomer contacts are enhanced, or clearly reframe this as a hypothesis requiring future testing rather than a finding of this study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "solid-like caging motions" is used without definition or context, which may be unclear to readers unfamiliar with condensed-phase dynamics terminology.
+  - **Required correction** Provide a brief operational definition of caging motions in the abstract or use more accessible language describing the physical picture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the force field, water model, simulation length, temperature, or pressure conditions, which are essential for reproducibility and for assessing the reliability of the results.
+  - **Required correction** Include key simulation parameters in the abstract or ensure they are prominently stated in the full manuscript with appropriate justification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the observed degree of dynamic heterogeneity compares with previous studies of hydration dynamics around folded proteins or other IDPs, limiting the assessment of novelty.
+  - **Required correction** Add a brief comparison with relevant prior work on protein hydration dynamics to contextualize the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for restricted water mobility), R1-M2 (quantitative correlation analysis), R1-M3 (unsupported extrapolation to aggregation)
+- **Assessment against Nature-style criteria** Originality: The question of hydration dynamics around IDPs and its link to aggregation is relatively underexplored, giving the work potential originality. Scientific importance: The topic is relevant to understanding IDP behavior and neurodegeneration, but the importance hinges on the speculative aggregation link, which is not established. Interdisciplinary readership: The work could appeal to biophysicists, computational chemists, and neurobiologists, but the abstract is too technical and lacks context for broad appeal. Technical soundness: Cannot be assessed from the abstract alone; the absence of quantitative results and methodological detail is a significant limitation. Readability for nonspecialists: The abstract uses specialized terminology without adequate explanation and does not clearly convey the broader significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a reasonable simulation approach, but the central quantitative claims and the aggregation extrapolation are unsupported by the visible evidence. A supportive recommendation would require access to the full manuscript with detailed methodology, quantitative results, and statistical analyses, and would depend on whether the aggregation claim is reframed as a hypothesis or directly tested.
+
+## Risk / unsupported claims
+- The claim of "significantly restricted" water mobility near peptide surfaces is unsupported without quantitative data and statistical comparison with bulk water.
+- The claim of a correlation between hydrogen bond relaxation time scales and water diffusion time scales is unsupported without correlation coefficients and significance testing.
+- The claim that hindered dynamics near R6 can enhance early aggregation via water-mediated contacts is speculative and not directly tested in the reported simulations.
+- The degree of dynamic heterogeneity among repeat units is described as "small" but no quantitative measure is provided to support this characterization.
+- The relevance of the findings to Parkinson's disease is implied but not substantiated with any direct connection to disease mechanisms.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41250174",
+  "title": "ricePSP: a database of rice phase separation-associated proteins.",
+  "authors": "Gao, Runxin; Guo, Minrong; Luan, Shiping; Ouyang, Weizhi; Li, Xingwang",
+  "journal": "Genome biology",
+  "published_date": "2025-11-18",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建水稻相分离蛋白数据库，用预测和AlphaFold验证IDR驱动的LLPS，但缺乏PPI互作机制建模，方法偏应用而非机制研究。",
+  "abstract": "Multivalent interactions between proteins with intrinsically disordered regions or prion-like domains can drive liquid-liquid phase separation (LLPS) and form membraneless condensates essential for diverse cellular functions. Here, we predict phase separation scores for all annotated rice proteins and present ricePSP ( https://ricepsp.github.io/ ), a database of phase separation-associated proteins. AlphaFold structural predictions further validate the phase separation potential of these proteins. As a proof of concept, we apply ricePSP to identify flowering-related phase separation proteins, revealing insights into how LLPS may regulate flowering. Collectively, ricePSP provides a valuable resource for studying crop phase separation proteins and LLPS-related mechanisms in crop trait regulation.",
+  "abstract_zh": "具有内在无序区域或朊病毒样结构域的蛋白质之间的多价相互作用可以驱动液-液相分离（LLPS），并形成对多种细胞功能至关重要的无膜凝聚体。在此，我们预测了所有注释水稻蛋白的相分离分数，并呈现了ricePSP（https://ricepsp.github.io/），一个相分离相关蛋白的数据库。AlphaFold结构预测进一步验证了这些蛋白的相分离潜力。作为概念验证，我们应用ricePSP来识别与开花相关的相分离蛋白，揭示了LLPS可能如何调控开花的见解。总体而言，ricePSP为研究作物相分离蛋白及LLPS相关机制在作物性状调控中的作用提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41250174/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41250174/",
+  "paper_page_path": "papers/pubmed/41250174/index.html"
+}

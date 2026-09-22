@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods
+- **Assessment boundary** Scientific validity, methodological soundness, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors introduce TEA (Temperature-dependent Energetics derived from hydrAtion), a framework that incorporates temperature-dependent potentials into coarse-grained models for simulating thermoresponsive behavior of intrinsically disordered proteins. They derive a linear relationship between inter-residue interaction strengths and hydration free energies from extensive all-atom MD simulations, use a combination rule for heterotypic interactions, and validate the approach against experimental data on UCST- and LCST-type phase behavior.
+- **Visible evidence base** Main text figures referenced (Figures 1-6, S1-S24), tables (Tables S1-S6), methods section, and supplementary figure descriptions
+- **Missing materials affecting confidence** Actual figure content not visible; supplementary tables with fitted parameters not fully accessible; experimental datasets referenced but not shown in detail; specific numerical values for correlations and errors partially reported
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially impactful framework for incorporating temperature-dependent interactions into coarse-grained models of IDPs. The central idea of linking hydration free energies to interaction strengths is physically motivated and the single-parameter fitting approach is elegant. However, several technical aspects require clarification and additional validation before the claims of transferability and predictive power are fully established. The treatment of charged residues, the choice of combination rule, and the handling of highly charged IDPs raise questions that need to be addressed.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, intrinsically disordered proteins, phase separation, and coarse-grained simulation methodology. The work is also relevant to experimental groups studying thermoresponsive biomaterials and protein phase behavior, as it offers a framework for predicting sequence-dependent thermoresponsive properties.
+- **Major strengths** The manuscript addresses a clear gap in existing coarse-grained models, namely the inability to capture LCST-type behavior. The approach of deriving temperature dependence from all-atom simulations rather than fitting to experimental phase behavior is conceptually sound. The use of a single global scaling parameter minimizes overfitting risk. The validation against multiple experimental datasets, including identification of outliers, is a strong feature. The framework is shown to be compatible with multiple existing CG models, suggesting broad applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "heterotypic interactions at the molecular level can be well approximated by a simple combination of the homotypic interactions" and that this enables "scalable construction of a full interaction matrix."
+  - **Evidence pointer** Results section "Heterotypic Interactions Are Accurately Predicted by a Simple Combination Rule", Figure 3
+  - **Concern** The validation of the combination rule is based on only 43 heterotypic pairs at a single temperature (300 K). The manuscript does not demonstrate that the combination rule holds across the temperature range of interest (280-380 K). Since the entire framework depends on temperature-dependent interactions, it is critical to verify that the combination rule remains valid at elevated temperatures where solvation effects become more pronounced. Additionally, the manuscript does not specify which combination rule (arithmetic mean, geometric mean, or Lorentz-Berthelot) is used in the final CG implementation, and whether the choice affects the results.
+  - **Why it matters** If the combination rule fails at higher temperatures, the predicted temperature-dependent phase behavior could be systematically biased. The transferability claim depends on the combination rule being robust across conditions.
+  - **Resolution test** Provide validation of the combination rule at multiple temperatures (e.g., 280, 320, 350, 380 K) for a representative subset of pairs. Report the temperature dependence of the correlation between predicted and directly calculated heterotypic interactions. Specify which combination rule is implemented in the CG simulations and justify the choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the current TEA implementation does not accurately model highly charged IDPs, where ion effects are crucial" and attributes this to the absence of explicit ions.
+  - **Evidence pointer** Results section "TEA-Augmented CG Models Robustly Capture Thermoresponsive Phase Behavior of IDPs", Discussion section "Robustness and Limitations"
+  - **Concern** The failure to capture the behavior of highly charged IDPs (ProTα N and ProTα C) is attributed to missing ion effects, but the manuscript does not rule out other potential causes, such as the treatment of charged residues in the derivation of ΔG E. The charged residue treatment involves subtracting direct Coulombic interactions with a temperature-dependent dielectric constant, which is itself an approximation. The manuscript does not discuss whether the observed discrepancies could arise from inaccuracies in the charged-residue parametrization rather than missing ions. Furthermore, the claim that "five of the eight experimental outliers possess a nonzero net charge" and that "electrostatic repulsion likely hinders their ability to phase-separate" is presented as an explanation but is not tested.
+  - **Why it matters** The framework's limitations for charged IDPs are acknowledged, but the attribution to ion effects specifically is not rigorously established. If the issue lies in the charged-residue treatment, the framework could potentially be improved by refining that aspect rather than requiring explicit ions.
+  - **Resolution test** Perform control simulations with explicit ions for a subset of the highly charged IDPs to test whether the discrepancy is indeed due to missing ion effects. Alternatively, test whether modifying the charged-residue treatment (e.g., different dielectric screening models) improves agreement without explicit ions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the TEA framework "provides a transferable, physically interpretable route to simulate thermoresponsive IDPs with significant predictive power."
+  - **Evidence pointer** Results section "TEA-Augmented CG Models Robustly Capture Thermoresponsive Phase Behavior of IDPs", Figures 4-6
+  - **Concern** The validation of predictive power relies heavily on single-chain simulations and a limited set of phase diagram calculations. The correlation between single-chain dimensions and phase behavior is acknowledged to break down for certain sequences, yet the framework's predictive claims are largely based on this correlation. The phase diagram calculations are only shown for a small number of sequences (three ELP/RLP sequences and A1-LCD variants). The manuscript does not demonstrate predictive accuracy for a broader range of sequences with diverse physicochemical properties.
+  - **Why it matters** The central claim of predictive power requires demonstration across a diverse sequence space. If the framework only works well for sequences where single-chain behavior correlates with phase behavior, its utility is limited.
+  - **Resolution test** Expand validation to a larger and more diverse set of sequences with known thermoresponsive behavior. Provide quantitative metrics (e.g., RMSE, correlation coefficients) for the accuracy of predicted phase boundaries across this expanded set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the linearity [between ΔG E and Δu h] allows us to get the interaction strengths in the continuous temperature space" and that the mean absolute error of using equation 3 to fit the data is 0.007 kcal/mol.
+  - **Evidence pointer** Results section "Excess Free Energy ΔGE Can Be Derived from Hydration Free Energy Δuh", Figure 2
+  - **Concern** The reported mean absolute error of 0.007 kcal/mol seems remarkably low given the scatter visible in the described relationship. The manuscript does not report the range of ΔG E values or the relative error. For residues with very weak interactions (ΔG E near zero), a small absolute error could still represent a large relative error. Additionally, the manuscript notes that for analogues with |κ i | < 0.01, the correlation coefficients span from −0.86 to 0.50, which suggests that the linear relationship is not universally strong. The treatment of these weakly interacting residues in the CG implementation is not discussed.
+  - **Why it matters** If the linear relationship is weak for certain residue types, the temperature-dependent corrections for those residues may be unreliable, potentially affecting the accuracy of simulations for sequences enriched in those residues.
+  - **Resolution test** Report the relative errors and the range of ΔG E values. Discuss how residues with weak temperature dependence are handled in the CG implementation and whether the uncertainty in their κ values materially affects simulation outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 3
+  - **Issue** The description of the three-stage approach is dense and could benefit from a clearer schematic or summary figure. The relationship between the stages and how they connect to the final CG implementation is not immediately obvious.
+  - **Required correction** Consider adding a schematic figure or a more structured summary of the workflow to improve accessibility for readers unfamiliar with the methodology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Details of All-Atom Molecular Dynamics Simulations"
+  - **Issue** The manuscript states that the CHARMM General Force Field (CGenFF) was used for model compounds, with the exception of the arginine analogue, where CHARMM36m parameters were adopted. The rationale for this exception is provided, but the potential impact of mixing force field parameters on the derived thermodynamic quantities is not discussed.
+  - **Required correction** Add a brief discussion of whether the mixed parameter set could introduce systematic biases in the derived ΔG E values for arginine-containing pairs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Temperature-Dependent Homotypic Interactions for Amino Acid Side Chain Analogues Were Obtained from All-Atom MD Simulations"
+  - **Issue** The manuscript mentions that the accumulated simulation time for homotypic pairs is 410.4 μs and for heterotypic pairs is 154.8 μs, totaling 565.2 μs. However, the abstract states "500 μs long extensive all-atom molecular dynamics simulations." The discrepancy between 565.2 μs and "500 μs" should be clarified.
+  - **Required correction** Either update the abstract to reflect the total simulation time or clarify what the "500 μs" figure refers to (e.g., production simulations only, excluding equilibration).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section "A Physics-Driven Approach for Transferability"
+  - **Issue** The discussion of the geometric mean as an alternative combination rule is interesting but somewhat tangential. The comparison between arithmetic and geometric means could be streamlined or moved to supplementary material.
+  - **Required correction** Consider condensing this discussion in the main text and providing full details in the supplementary information.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Coarse-Grained Molecular Dynamics Simulations"
+  - **Issue** The manuscript states that temperature-dependent dielectric constants were used as in the CALVADOS and mpipi models, but the specific values or functional form are not provided. This makes it difficult to reproduce the simulations.
+  - **Required correction** Provide the specific temperature-dependent dielectric constant values or the functional form used, or cite the exact source where these values are tabulated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (combination rule validation across temperatures), R1-M2 (attribution of charged IDP failure to ion effects), R1-M4 (uncertainty in weakly interacting residues)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of deriving temperature-dependent CG interactions from hydration free energies is novel and represents a meaningful advance over existing approaches that either ignore temperature dependence or fit it empirically.
+  - Scientific importance: The ability to simulate both UCST and LCST behavior within a single framework addresses a significant limitation in the field. The potential for transferability across sequence space is important.
+  - Interdisciplinary readership: The work bridges physical chemistry, computational biology, and biomaterials science. The framework could be of interest to experimentalists studying thermoresponsive polymers and IDPs.
+  - Technical soundness: The methodology is generally sound, but the concerns raised above regarding combination rule validation, charged residue treatment, and uncertainty quantification need to be addressed.
+  - Readability for nonspecialists: The manuscript is well-structured but dense in places. The workflow could be better illustrated for broader accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the framework is potentially impactful, but the validation of the combination rule across temperatures, the attribution of limitations for charged IDPs, and the treatment of weakly interacting residues require additional analysis and clarification before the claims of transferability and predictive power are fully established.
+
+## Risk / unsupported claims
+- The claim that the combination rule for heterotypic interactions holds across the full temperature range is not supported by the presented evidence, which only shows validation at 300 K.
+- The attribution of the failure to model highly charged IDPs specifically to missing ion effects is not rigorously established; other potential causes (e.g., charged residue parametrization) are not ruled out.
+- The claim of "significant predictive power" is based on a limited set of validation cases and may not generalize to diverse sequence space.
+- The statement that κ i is an intrinsic thermodynamic quantity and therefore force-field independent is speculative and not directly tested.
+- The reported mean absolute error of 0.007 kcal/mol for the linear fit between ΔG E and Δu h may be misleading for weakly interacting residues where relative errors could be large.

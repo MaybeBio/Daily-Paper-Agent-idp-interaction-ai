@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2605.07554v1",
+  "title": "ProteinJEPA: Latent prediction complements protein language models",
+  "authors": "Dan Ofer; Dafna Shahaf; Michal Linial",
+  "journal": "",
+  "published_date": "2026-05-08",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出ProteinJEPA，将潜在空间预测与掩码语言建模结合用于蛋白质序列预训练，在多项下游任务（含内在无序预测）上取得提升，虽非直接研究IDR介导的PPI机制，但其AI预训练方法对无序蛋白相关预测任务有可迁移价值。",
+  "abstract": "Protein language models are trained primarily with masked language modeling (MLM), which predicts amino-acid identities at masked positions. We ask whether latent-space prediction can complement these token-level objectives under matched wall-clock budget. Across pretrained and random-init protein sequence encoders at 35--150M parameters, we find that the best protein-JEPA design is not all-position latent prediction but a variant: predicting latent targets only at masked positions, and retaining the MLM cross-entropy. We call this recipe masked-position MLM+JEPA. On a 16-task downstream suite (15 frozen linear probes plus SCOPe-40 zero-shot fold retrieval), under matched wall-clock budgets, this recipe wins more tasks than it loses against MLM-only continuation: 10 wins / 3 losses / 3 ties (hereafter W/L/T) on pretrained ESM2-35M, 11/2/3 on ESM2-150M while results in pretraining from scratch are mixed (6/8/2). Gains are seen for multiple models on 11 of 16 tasks, including stability, \\b{eta}β\\b{eta}-lactamase fitness, variant effect, intrinsic disorder, remote homology, enzyme classification, and SCOPe-40 fold retrieval. Tasks with more losses than wins are Fluorescence (TAPE) and Peptide-HLA Binding. All-position MLM+JEPA matches MLM-only overall but does not reproduce the masked-position gains. JEPA-only (no MLM) collapses in nearly every experiment. We conclude that JEPA, when combined with MLM, is competitive and can outperform pure MLM in pretraining and continued training, even under matched wall-clock budgets.",
+  "abstract_zh": "蛋白质语言模型主要通过掩码语言建模（masked language modeling, MLM）进行训练，该模型预测掩码位置的氨基酸身份。我们探讨在匹配的墙钟时间预算下，潜在空间预测是否能补充这些令牌级目标。在35至150M参数规模的预训练和随机初始化蛋白质序列编码器中，我们发现最佳蛋白质JEPA设计并非全位置潜在预测，而是一种变体：仅在掩码位置预测潜在目标，并保留MLM交叉熵。我们将此方法称为掩码位置MLM+JEPA。在包含16项任务的下游评估套件（15项冻结线性探针加上SCOPe-40零样本折叠检索）中，在匹配的墙钟时间预算下，该方法相比仅MLM的持续训练，在更多任务上获胜：在预训练ESM2-35M上为10胜/3负/3平（以下简写为W/L/T），在ESM2-150M上为11/2/3，而从零开始预训练的结果则较为混合（6/8/2）。在16项任务中的11项上，多个模型均观察到性能提升，包括稳定性、β-内酰胺酶适应性、变异效应、内在无序性、远程同源性、酶分类以及SCOPe-40折叠检索。损失多于获胜的任务包括荧光（TAPE）和肽-HLA结合。全位置MLM+JEPA整体上与仅MLM相当，但未复现掩码位置带来的增益。仅JEPA（无MLM）在几乎所有实验中均表现崩溃。我们得出结论，JEPA在与MLM结合时具有竞争力，并且在预训练和持续训练中，即使在匹配的墙钟时间预算下，也能超越纯MLM。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2605.07554v1",
+  "source_url": "https://arxiv.org/abs/2605.07554v1",
+  "paper_page_path": "papers/arxiv/2605.07554v1/index.html"
+}

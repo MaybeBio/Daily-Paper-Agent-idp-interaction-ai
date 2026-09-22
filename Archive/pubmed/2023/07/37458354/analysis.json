@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37458354",
+  "title": "Tuning the ATP-ATP and ATP-disordered protein interactions in high ATP concentration by altering water models.",
+  "authors": "Mori, Toshifumi; Yoshida, Norio",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2023-07-17",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子动力学模拟比较不同水模型对高浓度ATP与无序蛋白α-Synuclein互作的影响，揭示ATP-ATP及ATP-IDP结合机制，直接关联无序蛋白互作机制建模，方法为物理模拟，对象与互作轴均强。",
+  "abstract": "The adenosine triphosphate (ATP)-protein interactions have been of great interest since the recent experimental finding of ATP's role as a hydrotrope. The interaction between ATP and disordered proteins is fundamental to the dissolution of protein aggregates and the regulation of liquid-liquid phase separation by ATP. Molecular dynamics simulation is a powerful tool for analyzing these interactions in molecular detail but often suffers from inaccuracies in describing disordered proteins and ATPs in high concentrations. Recently, several water models have been proposed to improve the description of the protein-disordered states, yet how these models work with ATP has not been explored. To this end, here, we study how water models affect ATP and alter the ATP-ATP and ATP-protein interactions for the intrinsically disordered protein, alpha-Synuclein. Three water models, TIP4P-D, OPC, and TIP3P, are compared, while the protein force field is fixed to ff99SBildn. The results show that ATP over-aggregates into a single cluster in TIP3P water, but monomers and smaller clusters are found in TIP4P-D and OPC waters. ATP-protein interaction is also over-stabilized in TIP3P, whereas repeated binding/unbinding of ATP to alpha-Synuclein is observed in OPC and TIP4P-D waters, which is in line with the recent nuclear magnetic resonance experiment. The adenine ring-mediated interaction is found to play a major role in ATP-ATP and ATP-protein contacts. Interestingly, changing Mg2+ into Na+ strengthened the electrostatic interaction and promoted ATP oligomerization and ATP-alpha-Synuclein binding. Overall, this study shows that changing the water model can be an effective approach to improve the properties of ATP in high concentration.",
+  "abstract_zh": "三磷酸腺苷（ATP）与蛋白质之间的相互作用，自近期实验发现ATP作为水溶助剂（hydrotrope）的角色以来，一直备受关注。ATP与无序蛋白质之间的相互作用，是溶解蛋白质聚集体及调控ATP介导的液-液相分离（liquid-liquid phase separation）的基础。分子动力学（molecular dynamics）模拟是在分子细节上分析这些相互作用的强大工具，但常常在描述高浓度下的无序蛋白质和ATP时存在不准确性。近期，已有多种水模型被提出以改进对蛋白质无序状态的描述，然而这些模型与ATP的兼容性尚未被探索。为此，本研究探讨了水模型如何影响ATP，并改变ATP-ATP及ATP-蛋白质相互作用，研究对象为固有无序蛋白质α-突触核蛋白（alpha-Synuclein）。我们比较了三种水模型，即TIP4P-D、OPC和TIP3P，同时将蛋白质力场固定为ff99SBildn。结果表明，在TIP3P水中，ATP过度聚集形成单一团簇，而在TIP4P-D和OPC水中则观察到单体和较小的团簇。在TIP3P中，ATP-蛋白质相互作用也被过度稳定，而在OPC和TIP4P-D水中，观察到ATP与α-突触核蛋白的反复结合/解离，这与近期核磁共振（nuclear magnetic resonance）实验结果一致。研究发现，腺嘌呤环介导的相互作用在ATP-ATP和ATP-蛋白质接触中起主要作用。有趣的是，将Mg2+替换为Na+增强了静电相互作用，并促进了ATP寡聚化及ATP-α-突触核蛋白结合。总体而言，本研究表明，更换水模型可能是改善高浓度ATP性质的有效途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37458354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37458354/",
+  "paper_page_path": "papers/pubmed/37458354/index.html"
+}

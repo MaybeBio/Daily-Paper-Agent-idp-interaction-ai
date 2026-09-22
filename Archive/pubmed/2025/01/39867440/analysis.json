@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39867440",
+  "title": "Structure Characterization of a Disordered Peptide Using In-Droplet Hydrogen/Deuterium Exchange Mass Spectrometry and Molecular Dynamics.",
+  "authors": "Rahman, Mohammad A; Sultana, Mst Nigar; Sharif, Daud; Mahmud, Sultan; Legleiter, Justin; Li, Peng; Mertz, Blake; Valentine, Stephen J",
+  "journal": "ACS physical chemistry Au",
+  "published_date": "2025-01-27",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合液滴内HDX质谱与MD模拟，表征无序肽Nt17的构象柔性与α-螺旋倾向，虽未直接研究PPI，但为IDR结合配体时的结构转变提供了可迁移的机制建模方法。",
+  "abstract": "In-droplet hydrogen/deuterium exchange (HDX)-mass spectrometry (MS) experiments have been conducted for peptides of highly varied conformational type. A new model is presented that combines the use of protection factors (PF) from molecular dynamics (MD) simulations with intrinsic HDX rates (k (int)) to obtain a structure-to-reactivity calibration curve. Using the model, the relationship of peptide structural flexibility and HDX reactivity for different peptides is elucidated. Additionally, the model is used to describe the degree of conformational flexibility and structural bias for the disease-relevant Nt17 peptide; although highly flexible, intrinsically primed for facile conversion to alpha-helical conformation upon binding with molecular partners imparts significant in-droplet HDX protection for this peptide. In the future, a scale may be developed whereby HDX reactivity is predictive of the degree of structural flexibility and bias (propensity to form 2 degrees  structural elements such as alpha-helix, beta-sheet, and beta-turn) for intrinsically disordered regions (IDRs). Such structural resolution may ultimately be used for high-throughput screening of IDR structural transformation(s) upon binding of ligands such as drug candidates.",
+  "abstract_zh": "已对构象类型高度多样的肽段进行了液滴内氢/氘交换（HDX）-质谱（MS）实验。提出了一种新模型，该模型结合了分子动力学（MD）模拟中的保护因子（PF）与内在HDX速率（k(int)），以建立结构-反应性校准曲线。利用该模型，阐明了不同肽段的结构柔性与HDX反应性之间的关系。此外，该模型还被用于描述疾病相关Nt17肽的构象柔性和结构偏向程度；尽管该肽高度柔性，但其内在倾向于在与分子伴侣结合时易于转化为α-螺旋构象，这赋予了该肽显著的液滴内HDX保护。未来，可能开发出一种尺度，使HDX反应性能够预测 intrinsically disordered regions (IDRs) 的结构柔性程度和偏向性（即形成α-螺旋、β-折叠和β-转角等二级结构元件的倾向）。这种结构分辨率最终可用于对IDR在配体（如候选药物）结合时的结构转变进行高通量筛选。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39867440/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39867440/",
+  "paper_page_path": "papers/pubmed/39867440/index.html"
+}

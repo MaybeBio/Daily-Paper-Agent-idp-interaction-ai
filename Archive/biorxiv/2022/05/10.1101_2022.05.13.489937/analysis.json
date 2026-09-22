@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.13.489937",
+  "title": "Selective observation of semi-rigid non-core residues in dynamically complex mutant huntingtin protein fibrils",
+  "authors": "Matlahov I; Boatz JC; van der Wel PCA",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-13",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用固态NMR动态谱编辑方法观察亨廷顿蛋白纤维中半刚性非核心残基，对象为无序蛋白聚谷氨酰胺纤维，但方法为实验NMR而非AI/物理模拟，且未深入PPI机制建模，故为中档。",
+  "abstract": "Many amyloid-forming proteins, which are normally intrinsically disordered, undergo a disorder-to-order transition to form fibrils with a rigid β-sheet core flanked by disordered domains. Solid-state NMR (ssNMR) and cryogenic electron microscopy (cryoEM) excel at resolving the rigid structures within amyloid cores but studying the dynamically disordered domains remains challenging. This challenge is exemplified by mutant huntingtin exon 1 (HttEx1), which self-assembles into pathogenic neuronal inclusions in Huntington disease (HD). The mutant protein’s expanded polyglutamine (polyQ) segment forms a fibril core that is rigid and sequestered from the solvent. Beyond the core, solvent-exposed surface residues mediate biological interactions and other properties of fibril polymorphs. Here we deploy magic angle spinning ssNMR experiments to probe for semi-rigid residues proximal to the fibril core and examine how solvent dynamics impact the fibrils’ segmental dynamics. Dynamic spectral editing (DYSE) 2D ssNMR based on a combination of cross-polarization (CP) ssNMR with selective dipolar dephasing reveals the weak signals of solvent-mobilized glutamine residues, while suppressing the normally strong background of rigid core signals. This type of ‘intermediate motion selection’ (IMS) experiment based on cross-polarization (CP) ssNMR, is complementary to INEPT- and CP-based measurements that highlight highly flexible or highly rigid protein segments, respectively. Integration of the IMS-DYSE element in standard CP-based ssNMR experiments permits the observation of semi-rigid residues in a variety of contexts, including in membrane proteins and protein complexes. We discuss the relevance of semi-rigid solvent-facing residues outside the fibril core to the latter’s detection with specific dyes and positron emission tomography tracers. <h4>Highlights</h4> Mutant huntingtin exon 1 fibrils feature a broad range of molecular dynamics. Molecular motion is coupled to water dynamics outside the fiber core. Dynamics-based spectral editing ssNMR reveals mobile non-core residues. Intermediate-motion selection via dipolar dephasing of rigid sites. Semi-mobile glutamines outside the fiber core observed and identified.",
+  "abstract_zh": "许多形成淀粉样蛋白的蛋白质通常本质上是无序的，它们经历从无序到有序的转变，形成具有刚性β-折叠核心且两侧为无序结构域的纤维。固态核磁共振（ssNMR）和低温电子显微镜（cryoEM）在解析淀粉样核心内的刚性结构方面表现出色，但研究动态无序结构域仍具挑战性。这一挑战在突变型亨廷顿蛋白外显子1（HttEx1）中尤为明显，该蛋白在亨廷顿病（HD）中自组装成致病性神经元包涵体。突变蛋白的扩展多聚谷氨酰胺（polyQ）片段形成刚性且与溶剂隔离的纤维核心。在核心之外，溶剂暴露的表面残基介导生物相互作用及纤维多态性的其他特性。在此，我们采用魔角旋转ssNMR实验来探测纤维核心附近的半刚性残基，并研究溶剂动力学如何影响纤维的片段动力学。基于交叉极化（CP）ssNMR与选择性偶极去相位相结合的动态谱编辑（DYSE）二维ssNMR，揭示了溶剂动员的谷氨酰胺残基的弱信号，同时抑制了通常较强的刚性核心信号背景。这种基于交叉极化（CP）ssNMR的“中间运动选择”（IMS）实验，与分别突出高度柔性或高度刚性蛋白质片段的INEPT和CP测量方法互补。将IMS-DYSE元件整合到标准CP基ssNMR实验中，可在多种情境下观察半刚性残基，包括膜蛋白和蛋白质复合物。我们讨论了纤维核心外半刚性溶剂面向残基与后者通过特定染料和正电子发射断层扫描示踪剂检测的相关性。<h4>亮点</h4> 突变型亨廷顿蛋白外显子1纤维表现出广泛的分子动力学范围。分子运动与纤维核心外的水动力学耦合。基于动力学的谱编辑ssNMR揭示了可移动的非核心残基。通过刚性位点的偶极去相位实现中间运动选择。观察并鉴定了纤维核心外的半移动谷氨酰胺残基。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.13.489937",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.13.489937",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.13.489937/index.html"
+}

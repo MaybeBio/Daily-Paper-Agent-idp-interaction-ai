@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "37904585",
+    "doi": "10.1093/nar/gkad928",
+    "title": "DisProt in 2024: improving function annotation of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "DisProt (URL: https://disprot.org) is the gold standard database for intrinsically disordered proteins and regions, providing valuable information about their functions. The latest version of DisProt brings significant advancements, including a broader representation of functions and an enhanced curation process. These improvements aim to increase both the quality of annotations and their coverage at the sequence level. Higher coverage has been achieved by adopting additional evidence codes. Quality of annotations has been improved by systematically applying Minimum Information About Disorder Experiments (MIADE) principles and reporting all the details of the experimental setup that could potentially influence the structural state of a protein. The DisProt database now includes new thematic datasets and has expanded the adoption of Gene Ontology terms, resulting in an extensive functional repertoire which is automatically propagated to UniProtKB. Finally, we show that DisProt's curated annotations strongly correlate with disorder predictions inferred from AlphaFold2 pLDDT (predicted Local Distance Difference Test) confidence scores. This comparison highlights the utility of DisProt in explaining apparent uncertainty of certain well-defined predicted structures, which often correspond to folding-upon-binding fragments. Overall, DisProt serves as a comprehensive resource, combining experimental evidence of disorder information to enhance our understanding of intrinsically disordered proteins and their functional implications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Databases, Protein",
+      "Gene Ontology",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Sequence Annotation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aspromonte, Maria Cristina",
+        "Nugnes, Maria Victoria",
+        "Quaglia, Federica",
+        "Bouharoua, Adel",
+        "Tosatto, Silvio C E",
+        "Piovesan, Damiano"
+      ],
+      "short_names": [
+        "Aspromonte MC",
+        "Nugnes MV",
+        "Quaglia F",
+        "Bouharoua A",
+        "Tosatto SCE",
+        "Piovesan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4937-6952",
+        "ORCID: 0000-0001-8399-7907",
+        "ORCID: 0000-0002-0341-4888",
+        "ORCID: 0000-0003-4525-7793",
+        "ORCID: 0000-0001-8210-2390"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Nugnes, Maria Victoria",
+        "short_name": "Nugnes MV",
+        "identifiers": [
+          "0000-0001-8399-7907"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Quaglia, Federica",
+        "short_name": "Quaglia F",
+        "identifiers": [
+          "0000-0002-0341-4888"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Bouharoua, Adel",
+        "short_name": "Bouharoua A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Jan 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/31 06:42",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "42642434",
+      "42598852",
+      "42410059",
+      "42346572",
+      "42288727",
+      "42231907",
+      "42153318",
+      "42146638",
+      "42074121",
+      "42057422",
+      "41986457",
+      "41922570",
+      "41921197",
+      "41768832",
+      "41739875",
+      "41689628",
+      "41648466",
+      "41632843",
+      "41618842",
+      "41570036",
+      "41565673",
+      "41556340",
+      "41502944",
+      "41491828",
+      "41416523",
+      "41378882",
+      "41343238",
+      "41303502",
+      "41249866",
+      "41218076",
+      "41215709",
+      "41130962",
+      "41082321",
+      "40955630",
+      "40954205",
+      "40903947",
+      "40894573",
+      "40867524",
+      "40859602",
+      "40837623",
+      "40728623",
+      "40728621",
+      "40728619",
+      "40693919",
+      "40689753",
+      "40662788",
+      "40645189",
+      "40641938",
+      "40629388",
+      "40540578",
+      "40535106",
+      "40496891",
+      "40347452",
+      "40249051",
+      "40242292",
+      "40138319",
+      "40131945",
+      "40108172",
+      "40100133",
+      "40076632",
+      "40067116",
+      "40019509",
+      "40001548",
+      "39975278",
+      "39940886",
+      "39833102",
+      "39830132",
+      "39811792",
+      "39763873",
+      "39718444",
+      "39633727",
+      "39565202",
+      "39470701",
+      "39464109",
+      "39422127",
+      "39383002",
+      "39261533",
+      "39253485",
+      "38895377",
+      "38781245",
+      "38765610",
+      "38747347",
+      "38707546",
+      "38540707",
+      "38507044",
+      "38370653",
+      "38035367"
+    ],
+    "refs": [
+      "37761851",
+      "37621223",
+      "37400558",
+      "37246642",
+      "36866529",
+      "36416266",
+      "36008992",
+      "35992270",
+      "35795824",
+      "35789137",
+      "35238773",
+      "35102880",
+      "35073311",
+      "34986598",
+      "34850135",
+      "34791371",
+      "34265844",
+      "33882120",
+      "33875885",
+      "33325498",
+      "33305318",
+      "33156333",
+      "31985787",
+      "31744546",
+      "30278223",
+      "27794553",
+      "27636733",
+      "25531225",
+      "22127870",
+      "15310560"
+    ],
+    "similar": [
+      "37904585",
+      "34850135",
+      "41249866",
+      "31713636",
+      "33017101",
+      "39470701",
+      "38507044",
+      "37167423",
+      "39718444",
+      "25361972",
+      "36416266",
+      "27899601",
+      "35789137",
+      "29136219",
+      "37892124",
+      "33237329",
+      "32696355",
+      "17145717",
+      "28381244",
+      "33305318",
+      "28934129",
+      "15310560",
+      "33001599",
+      "22661649",
+      "40347452",
+      "39576584",
+      "40054813",
+      "30576490",
+      "32599863",
+      "27115638",
+      "31425549",
+      "40131945",
+      "39576585",
+      "22067451",
+      "38226524",
+      "41570036",
+      "26555596",
+      "35562983",
+      "33875885",
+      "25378336",
+      "33291838",
+      "30819075",
+      "41454828",
+      "40662805",
+      "29595057",
+      "38079339",
+      "39475178",
+      "24939692",
+      "31264965",
+      "30135358",
+      "26578592",
+      "40859602",
+      "30592560",
+      "37010293",
+      "23815411",
+      "37904608",
+      "37878721",
+      "38166858",
+      "40937679",
+      "39731018",
+      "40138319",
+      "31521235",
+      "39253485",
+      "26090958",
+      "22848383",
+      "28968848",
+      "24178034",
+      "30371819",
+      "32696395",
+      "18831774",
+      "41751600",
+      "35507260",
+      "19278556",
+      "40133781",
+      "34418423",
+      "29961821",
+      "28387819",
+      "23912807",
+      "33119751",
+      "22123736",
+      "36215254",
+      "22693439",
+      "41218076",
+      "20100603",
+      "24594841",
+      "32253236",
+      "22434836",
+      "33550666",
+      "37400558",
+      "31618524",
+      "24587103",
+      "32112804",
+      "37621223",
+      "24573480",
+      "23466039",
+      "35739160",
+      "39565202",
+      "29604827",
+      "23879659",
+      "35593869"
+    ],
+    "review": [
+      "37904585",
+      "33291838",
+      "31521235",
+      "19278556",
+      "34418423",
+      "32253236",
+      "37400558",
+      "31618524"
+    ],
+    "pmc": [
+      "10767923"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/2318/1944404",
+        "provider": "University of Turin Instituional Repository AperTO - Free full text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full Text from"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37904585/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37904585",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad928",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

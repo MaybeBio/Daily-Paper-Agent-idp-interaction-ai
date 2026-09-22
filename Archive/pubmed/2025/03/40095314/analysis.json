@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40095314",
+  "title": "Sizes, conformational fluctuations, and SAXS profiles for intrinsically disordered proteins.",
+  "authors": "Mugnai, Mauro L; Chakraborty, Debayan; Nguyen, Hung T; Maksudov, Farkhad; Kumar, Abhinaw; Zeno, Wade; Stachowiak, Jeanne C; Straub, John E; Thirumalai, D",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-03-17",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了可迁移的SOP-IDP粗粒化聚合物模型，通过模拟计算多种无序蛋白的尺寸、构象波动和SAXS谱，并验证了Flory标度律，为无序蛋白构象系综建模奠定基础，但未直接涉及PPI或互作机制，方法上属物理模拟而非AI。",
+  "abstract": "The preponderance of intrinsically disordered proteins (IDPs) in the eukaryotic proteome, and their ability to interact with each other, and with folded proteins, RNA, and DNA for functional purposes, have made it important to quantitatively characterize their biophysical properties. Toward this end, we developed the transferable self-organized polymer (SOP-IDP) model to calculate the properties of several IDPs. The values of the radius of gyration ( Rg ) obtained from SOP-IDP simulations are in excellent agreement (correlation coefficient of 0.96) with those estimated from SAXS experiments. For AP180 and Epsin, the predicted values of the hydrodynamic radii ( Rhs ) are in nearly quantitative agreement with those from fluorescence correlation spectroscopy (FCS) experiments. Strikingly, the calculated SAXS profiles for 36 IDPs are also nearly superimposable on the experimental profiles. The dependence of Rg and the mean end-to-end distance ( Ree ) on chain length, N , follows Flory's scaling law, Ralpha  approximately  aalphaN0.588 ( alpha = g,  and e ), suggesting that globally IDPs behave as synthetic polymers in a good solvent. This finding depends on the solvent quality, which can be altered by changing variables such as pH and salt concentration. The values of ag and ae are 0.20 and 0.48 nm, respectively. Surprisingly, finite size corrections to scaling, expected on theoretical grounds, are negligible for Rg and Ree . In contrast, only by accounting for the finite sizes of the IDPs, the dependence of experimentally measurable Rh on N can be quantitatively explained using nu = 0.588 . Although Flory scaling law captures the estimates for Rg , Ree , and Rh accurately, the spread of the simulated data around the theoretical curve is suggestive of of sequence-specific features that emerge through a fine-grained analysis of the conformational ensembles using hierarchical clustering. Typically, the ensemble of conformations partitions into three distinct clusters, having different equilibrium populations and structural properties. Without any further readjustments to the parameters of the SOP-IDP model, we also obtained nearly quantitative agreement with paramagnetic relaxation enhancement (PRE) measurements for alpha-synuclein. The transferable SOP-IDP model sets the stage for several applications, including the study of phase separation in IDPs and interactions with nucleic acids.",
+  "abstract_zh": "真核生物蛋白质组中大量存在的内在无序蛋白质（IDPs），以及它们之间及其与折叠蛋白质、RNA和DNA进行功能性相互作用的能力，使得定量表征其生物物理性质变得尤为重要。为此，我们开发了可转移的自组织聚合物（SOP-IDP）模型，以计算多种IDPs的性质。从SOP-IDP模拟中获得的回转半径（Rg）值与SAXS实验估计值高度一致（相关系数为0.96）。对于AP180和Epsin，预测的流体动力学半径（Rhs）值与荧光相关光谱（FCS）实验值几乎定量吻合。显著的是，36种IDPs的计算SAXS图谱也与实验图谱几乎重叠。Rg和平均端到端距离（Ree）对链长N的依赖性遵循Flory标度律，Rα ≈ aαN^0.588（α = g 和 e），表明全局上IDPs在良溶剂中表现为合成聚合物。这一发现依赖于溶剂质量，而溶剂质量可通过改变pH值和盐浓度等变量来调节。ag和ae的值分别为0.20和0.48 nm。令人惊讶的是，理论上预期的有限尺寸修正对Rg和Ree的影响可忽略不计。相反，只有考虑IDPs的有限尺寸，才能使用ν = 0.588定量解释实验可测量的Rh对N的依赖性。尽管Flory标度律能准确捕捉Rg、Ree和Rh的估计值，但模拟数据围绕理论曲线的散布暗示了通过层次聚类对构象系综进行细粒度分析所显现的序列特异性特征。通常，构象系综分为三个不同的簇，具有不同的平衡群体和结构性质。在不进一步调整SOP-IDP模型参数的情况下，我们还获得了与α-突触核蛋白的顺磁弛豫增强（PRE）测量几乎定量的一致性。可转移的SOP-IDP模型为多种应用奠定了基础，包括研究IDPs中的相分离及其与核酸的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40095314/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40095314/",
+  "paper_page_path": "papers/pubmed/40095314/index.html"
+}

@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "37018390",
+    "doi": "10.1126/sciadv.adg6473",
+    "title": "A conserved oligomerization domain in the disordered linker of coronavirus nucleocapsid proteins."
+  },
+  "content": {
+    "abstract": "The nucleocapsid (N-)protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has a key role in viral assembly and scaffolding of the viral RNA. It promotes liquid-liquid phase separation (LLPS), forming dense droplets that support the assembly of ribonucleoprotein particles with as-of-yet unknown macromolecular architecture. Combining biophysical experiments, molecular dynamics simulations, and analysis of the mutational landscape, we describe a heretofore unknown oligomerization site that contributes to LLPS, is required for the assembly of higher-order protein-nucleic acid complexes, and is coupled to large-scale conformational changes of N-protein upon nucleic acid binding. The self-association interface is located in a leucine-rich sequence of the intrinsically disordered linker between N-protein folded domains and formed by transient helices assembling into trimeric coiled-coils. Critical residues stabilizing hydrophobic and electrostatic interactions between adjacent helices are highly protected against mutations in viable SARS-CoV-2 genomes, and the oligomerization motif is conserved across related coronaviruses, thus presenting a target for antiviral therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Coronavirus Nucleocapsid Proteins",
+      "SARS-CoV-2/genetics",
+      "*COVID-19",
+      "Nucleocapsid/metabolism",
+      "RNA, Viral/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Huaying",
+        "Wu, Di",
+        "Hassan, Sergio A",
+        "Nguyen, Ai",
+        "Chen, Jiji",
+        "Piszczek, Grzegorz",
+        "Schuck, Peter"
+      ],
+      "short_names": [
+        "Zhao H",
+        "Wu D",
+        "Hassan SA",
+        "Nguyen A",
+        "Chen J",
+        "Piszczek G",
+        "Schuck P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8827-6639",
+        "ORCID: 0000-0002-3440-1860",
+        "ORCID: 0000-0003-3319-078X",
+        "ORCID: 0000-0002-4426-3035",
+        "ORCID: 0000-0002-5270-3678",
+        "ORCID: 0000-0002-8859-6966"
+      ],
+      "affiliations": [
+        "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Bioinformatics and Computational Biosciences Branch, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Advanced Imaging and Microscopy Resource, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Huaying",
+        "short_name": "Zhao H",
+        "identifiers": [
+          "0000-0002-8827-6639"
+        ],
+        "affiliations": [
+          "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Di",
+        "short_name": "Wu D",
+        "identifiers": [
+          "0000-0002-3440-1860"
+        ],
+        "affiliations": [
+          "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Hassan, Sergio A",
+        "short_name": "Hassan SA",
+        "identifiers": [
+          "0000-0003-3319-078X"
+        ],
+        "affiliations": [
+          "Bioinformatics and Computational Biosciences Branch, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Ai",
+        "short_name": "Nguyen A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiji",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-4426-3035"
+        ],
+        "affiliations": [
+          "Advanced Imaging and Microscopy Resource, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Piszczek, Grzegorz",
+        "short_name": "Piszczek G",
+        "identifiers": [
+          "0000-0002-5270-3678"
+        ],
+        "affiliations": [
+          "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Schuck, Peter",
+        "short_name": "Schuck P",
+        "identifiers": [
+          "0000-0002-8859-6966"
+        ],
+        "affiliations": [
+          "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2023 Apr 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/06 06:00",
+    "fetched_at": "2026-09-20 21:04:06"
+  },
+  "links": {
+    "cites": [
+      "42199010",
+      "41970879",
+      "41806061",
+      "41651417",
+      "41647560",
+      "41600868",
+      "41591303",
+      "41504442",
+      "41468288",
+      "41298366",
+      "40568176",
+      "40549905",
+      "40503686",
+      "40353409",
+      "40299982",
+      "40231263",
+      "39343003",
+      "39093972",
+      "39082816",
+      "39062463",
+      "38941236",
+      "38647335",
+      "38645044",
+      "38587193",
+      "38559000",
+      "38348041",
+      "38045338",
+      "38045241",
+      "38018991",
+      "37790474",
+      "37704626",
+      "37669309",
+      "37425873",
+      "37240420"
+    ],
+    "refs": [
+      "37637734",
+      "36347459",
+      "36202211",
+      "36139141",
+      "35883485",
+      "35871289",
+      "35787038",
+      "35783502",
+      "35728038",
+      "35696898",
+      "35675815",
+      "35637307",
+      "35608456",
+      "35573973",
+      "35551296",
+      "35273146",
+      "35157347",
+      "35132910",
+      "35131265",
+      "35044811",
+      "34822776",
+      "34761067",
+      "34735219",
+      "34634033",
+      "34498035",
+      "34371045",
+      "34292871",
+      "34265844",
+      "34161778",
+      "34083352",
+      "33997662",
+      "33782395",
+      "33730325",
+      "33556408",
+      "33479198",
+      "33290746",
+      "33248025",
+      "33247108",
+      "33208793",
+      "33200826",
+      "32979942",
+      "32906143",
+      "32881101",
+      "32763915",
+      "32654247",
+      "32562316",
+      "32484438",
+      "31565258",
+      "31505321",
+      "29790939",
+      "28720894",
+      "26889024",
+      "26474062",
+      "26412649",
+      "24753421",
+      "24418573",
+      "23178926",
+      "23020071",
+      "19052082",
+      "17406547",
+      "17379242",
+      "17332019",
+      "17002283",
+      "16479276",
+      "16285739",
+      "16228284",
+      "15849181",
+      "15020242",
+      "10653785",
+      "10384688",
+      "9917380",
+      "8946853",
+      "4366945"
+    ],
+    "similar": [
+      "37018390",
+      "38941236",
+      "33200826",
+      "38587193",
+      "17002283",
+      "40086356",
+      "39412257",
+      "38718862",
+      "36748338",
+      "33794152",
+      "33039147",
+      "36040256",
+      "32654247",
+      "33290746",
+      "37863261",
+      "33248025",
+      "33270159",
+      "33479198",
+      "39341499",
+      "33477032",
+      "36681763",
+      "36533523",
+      "33247108",
+      "38153183",
+      "15020242",
+      "38376366",
+      "35551296",
+      "34734665",
+      "39343003",
+      "37211575",
+      "32493627",
+      "33095454",
+      "39120134",
+      "16775348",
+      "34022485",
+      "40077853",
+      "17229691",
+      "34519332",
+      "16254320",
+      "33443088",
+      "38045338",
+      "39194248",
+      "34517762",
+      "24418573",
+      "33081049",
+      "36806252",
+      "39082816",
+      "34642671",
+      "33264373",
+      "33782395",
+      "39766245",
+      "38515377",
+      "39653699",
+      "36640305",
+      "40371698",
+      "32901577",
+      "32342926",
+      "39343000",
+      "33314794",
+      "39201466",
+      "33837182",
+      "34029587",
+      "35105893",
+      "33321203",
+      "19052082",
+      "36708355",
+      "33895773",
+      "35783502",
+      "37154717",
+      "34381460",
+      "34634033",
+      "40259455",
+      "39489230",
+      "32320662",
+      "40299982",
+      "35131265",
+      "34549987",
+      "39684875",
+      "35169797",
+      "39093972",
+      "14681591",
+      "23717688",
+      "32749662",
+      "36807437",
+      "37526269",
+      "35756710",
+      "33664866",
+      "38639488",
+      "39174826",
+      "33495715",
+      "37963251",
+      "37211047",
+      "38492217",
+      "31594639",
+      "38846351",
+      "33347622",
+      "35696898",
+      "35862764",
+      "32469265",
+      "32758712"
+    ],
+    "review": [
+      "37018390",
+      "32493627",
+      "40077853",
+      "24418573",
+      "36640305",
+      "32342926",
+      "39343000",
+      "35131265",
+      "35756710"
+    ],
+    "pmc": [
+      "10075959"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.adg6473?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://www.ovid.com/37018390.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37018390/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37018390",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

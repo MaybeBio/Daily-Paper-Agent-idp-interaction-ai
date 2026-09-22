@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37134270",
+  "title": "Benchmarking Molecular Dynamics Force Fields for All-Atom Simulations of Biological Condensates.",
+  "authors": "Sarthak, Kumar; Winogradoff, David; Ge, Yingda; Myong, Sua; Aksimentiev, Aleksei",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-05-03",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文在Anton 2和NAMD上系统基准测试九种全原子力场对含IDR的FUS蛋白及其RNA复合物凝聚体模拟的适用性，直接面向无序蛋白互作机制建模，方法为物理模拟，虽无AI但机制深度与可迁移性强。",
+  "abstract": "Proteins containing intrinsically disordered regions are integral parts of the cellular signaling pathways and common components of biological condensates. Point mutations in the protein sequence, genetic at birth or acquired through aging, can alter the properties of the condensates, marking the onset of neurodegenerative diseases such as ALS and dementia. While the all-atom molecular dynamics method can, in principle, elucidate the conformational changes that arise from point mutations, the applications of this method to protein condensate systems is conditioned upon the availability of molecular force fields that can accurately describe both structured and disordered regions of such proteins. Using the special-purpose Anton 2 supercomputer, we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein. Five-microsecond simulations of the full-length FUS protein characterized the effect of the force field on the global conformation of the protein, self-interactions among its side chains, solvent accessible surface area, and the diffusion constant. Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range. Next, we used these force fields to perform ten-microsecond simulations of two structured RNA binding domains of FUS bound to their respective RNA targets, finding the choice of the force field to affect stability of the RNA-FUS complex. Taken together, our data suggest that a combination of protein and RNA force fields sharing a common four-point water model provides an optimal description of proteins containing both disordered and structured regions and RNA-protein interactions. To make simulations of such systems available beyond the Anton 2 machines, we describe and validate implementation of the best performing force fields in a publicly available molecular dynamics program NAMD. Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community.",
+  "abstract_zh": "含有内在无序区域的蛋白质是细胞信号传导通路的核心组成部分，也是生物凝聚体的常见成分。蛋白质序列中的点突变，无论是出生时遗传的还是随衰老获得的，都可能改变凝聚体的性质，标志着ALS和痴呆等神经退行性疾病的发病。虽然全原子分子动力学方法原则上可以阐明点突变引起的构象变化，但将该方法应用于蛋白质凝聚体系统，取决于能否获得能准确描述此类蛋白质既有结构区域又有无序区域的分子力场。利用专用Anton 2超级计算机，我们基准测试了九种现有分子力场在描述Fused in sarcoma (FUS) 蛋白结构和动力学方面的效能。对全长FUS蛋白进行的五微秒模拟，表征了力场对蛋白质整体构象、侧链间自相互作用、溶剂可及表面积及扩散常数的影响。以动态光散射结果作为FUS回旋半径的基准，我们识别出几种能产生实验范围内FUS构象的力场。接着，我们使用这些力场对FUS的两个结构化RNA结合域与其各自RNA靶标结合进行了十微秒模拟，发现力场选择影响RNA-FUS复合物的稳定性。综合来看，我们的数据表明，共享共同四点水模型的蛋白质和RNA力场组合，为含有无序和结构区域的蛋白质及RNA-蛋白质相互作用提供了最优描述。为使此类系统的模拟超越Anton 2机器可用，我们描述并验证了在公开可用的分子动力学程序NAMD中实现最佳性能力场的方法。我们的NAMD实现能够模拟大型（数千万原子）生物凝聚体系统，并使此类模拟对更广泛的科学界开放。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37134270/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37134270/",
+  "paper_page_path": "papers/pubmed/37134270/index.html"
+}

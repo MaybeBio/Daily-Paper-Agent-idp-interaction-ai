@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "37581491",
+    "doi": "10.1021/acs.jcim.3c00592",
+    "title": "Hydrophobicity horizontal line A Single Parameter for the Accurate Prediction of Disordered Regions in Proteins."
+  },
+  "content": {
+    "abstract": "The prediction of disordered regions in proteins is crucial for understanding their functions, dynamics, and interactions. Intrinsically disordered proteins (IDPs) play a key role in many biological processes like cell signaling, recognition, and regulation, but experimentally determining these regions can be challenging due to their high mobility. To address this challenge, we present an algorithm called HydroDisPred (HDP). HDP uses a single parameter, the fraction of hydrophobicity (lambda) in each segment of the protein, to accurately predict disordered regions. The algorithm was validated using experimental data from the DisProt database and was found to be on par and, in some cases, more effective than the existing algorithms. HDP is a simple and effective method for identifying disordered regions in proteins, and its prediction is not affected by the availability of training data, unlike other ML approaches. The application is housed in the web server and can be accessed through the URL https://proseqanalyser.iitgn.ac.in/hydrodispred/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hydrophobic and Hydrophilic Interactions",
+      "Proteins/chemistry",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Nitin Kumar",
+        "Bhardwaj, Pratyasha",
+        "Radhakrishna, Mithun"
+      ],
+      "short_names": [
+        "Singh NK",
+        "Bhardwaj P",
+        "Radhakrishna M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7127-4744"
+      ],
+      "affiliations": [
+        "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India.",
+        "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India.",
+        "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India.",
+        "Center for Biomedical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Nitin Kumar",
+        "short_name": "Singh NK",
+        "identifiers": [],
+        "affiliations": [
+          "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Pratyasha",
+        "short_name": "Bhardwaj P",
+        "identifiers": [],
+        "affiliations": [
+          "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India."
+        ]
+      },
+      {
+        "full_name": "Radhakrishna, Mithun",
+        "short_name": "Radhakrishna M",
+        "identifiers": [
+          "0000-0001-7127-4744"
+        ],
+        "affiliations": [
+          "Discipline of Chemical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India.",
+          "Center for Biomedical Engineering, Indian Institute of Technology (IIT) Gandhinagar, Palaj, Gujarat 382355, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Aug 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/15 12:42",
+    "fetched_at": "2026-09-21 00:25:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37581491",
+      "38507044",
+      "32112084",
+      "32823616",
+      "17145717",
+      "29228340",
+      "37892124",
+      "17021161",
+      "16618368",
+      "28505312",
+      "22208280",
+      "18426805",
+      "39576583",
+      "29595057",
+      "21572175",
+      "31756104",
+      "35789137",
+      "18831774",
+      "36215254",
+      "21647374",
+      "37574757",
+      "19128505",
+      "31756456",
+      "35898309",
+      "27899601",
+      "29026044",
+      "34716273",
+      "39576584",
+      "22582807",
+      "24614036",
+      "20483348",
+      "35883018",
+      "36272675",
+      "39253485",
+      "38079339",
+      "34048569",
+      "41174305",
+      "27498593",
+      "33098409",
+      "32859072",
+      "30135358",
+      "31709918",
+      "15313629",
+      "28381244",
+      "37904585",
+      "33017101",
+      "19208144",
+      "35034725",
+      "27153636",
+      "18611404",
+      "29080786",
+      "34992646",
+      "40054813",
+      "35507264",
+      "31442477",
+      "30819075",
+      "17545177",
+      "26376097",
+      "25375525",
+      "23142703",
+      "31283003",
+      "21514144",
+      "40138319",
+      "37167423",
+      "31425549",
+      "26426014",
+      "40133775",
+      "23056474",
+      "15955779",
+      "39446390",
+      "33876938",
+      "41082321",
+      "23723000",
+      "41419011",
+      "26090958",
+      "36833360",
+      "40131954",
+      "34850135",
+      "38166858",
+      "40133791",
+      "32352283",
+      "32771522",
+      "36908253",
+      "31936201",
+      "30298407",
+      "30727987",
+      "21079758",
+      "20522251",
+      "36674958",
+      "34285781",
+      "23076520",
+      "40859602",
+      "20007729",
+      "22689782",
+      "37138579",
+      "41249866",
+      "33972019",
+      "31504193",
+      "37674132",
+      "30324701"
+    ],
+    "review": [
+      "37581491",
+      "31709918",
+      "21514144",
+      "26426014",
+      "36833360",
+      "34285781"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c00592",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

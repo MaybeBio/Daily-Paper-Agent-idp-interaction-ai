@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37595285",
+  "title": "Conformational Manifold Sampled by Two Short Linear Motif Segments Probed by Circular Dichroism, Vibrational, and Nuclear Magnetic Resonance Spectroscopy.",
+  "authors": "Schweitzer-Stenner, Reinhard; Kurbaj, Raghed; O'Neill, Nichole; Andrews, Brian; Shah, Riya; Urbanc, Brigita",
+  "journal": "Biochemistry",
+  "published_date": "2023-08-18",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合多种光谱与MD模拟表征两个SLiM无序短肽的构象系综，虽聚焦IDR构象而非直接PPI，但为无序区域互作界面的构象机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Disordered protein segments called short linear motifs (SLiM) serve as recognition sites for a variety of biological processes and act as targeting signals, modification, and ligand binding sites. While SLiMs do not adopt one of the known regular secondary structures, the conformational distribution might still reflect the structural propensities of their amino acid residues and possible interactions between them. In the past, conformational analyses of short peptides provided compelling evidence for the notion that individual residues are less conformationally flexible than locally expected for a random coil. Here, we combined various spectroscopies (NMR, IR, vibrational, and UV circular dichroism) to determine the Ramachandran plots of two SLiM motifs, i.e., GRRDSG and GRRTSG. They are two representatives of RxxS motifs that are capable of being phosphorylated by protein kinase A, an enzyme that plays a fundamental role in a variety of biological processes. Our results reveal that the nearest and non-nearest interactions between residues cause redistributions between polyproline II and beta-strand basins while concomitantly stabilizing extended relative to turn-forming and helical structures. They also cause shifts in basin positions. With increasing temperature, beta-strand populations become more populated at the expense of polyproline II. While molecular dynamics simulations with Amber ff14SB and CHARMM 36m force fields indicate residue-residue interactions, they do not account for the observed structural changes.",
+  "abstract_zh": "被称为短线性基序（SLiM）的无序蛋白片段，作为多种生物过程的识别位点，并充当靶向信号、修饰及配体结合位点。尽管SLiM不采用已知的规则二级结构，但其构象分布仍可能反映其氨基酸残基的结构倾向性及它们之间可能的相互作用。过去，对短肽的构象分析为“单个残基在构象上比局部预期的随机卷曲更不灵活”这一观点提供了有力证据。在此，我们结合多种光谱技术（核磁共振、红外、振动及紫外圆二色）来确定两个SLiM基序，即GRRDSG和GRRTSG的拉马钱德兰图。它们是RxxS基序的两个代表，能够被蛋白激酶A磷酸化，该酶在多种生物过程中发挥基础作用。我们的结果显示，残基间的最近及非最近相互作用导致聚脯氨酸II和β-折叠盆地之间的重新分布，同时相对于转角形成和螺旋结构，稳定了延伸结构。这些相互作用还引起盆地位置的移动。随着温度升高，β-折叠群体以牺牲聚脯氨酸II为代价变得更加丰富。尽管使用Amber ff14SB和CHARMM 36m力场的分子动力学模拟表明存在残基-残基相互作用，但它们未能解释观察到的结构变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37595285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37595285/",
+  "paper_page_path": "papers/pubmed/37595285/index.html"
+}

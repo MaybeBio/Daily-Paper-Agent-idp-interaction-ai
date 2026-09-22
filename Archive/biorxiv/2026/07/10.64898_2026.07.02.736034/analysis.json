@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.02.736034",
+  "title": "Deep-Interact Studio: An Interactive Deep Learning Model Building Platform for Biomolecular Interaction Prediction",
+  "authors": "Dipayan Sarkar; Koushik Bardhan; Chiranjib Sarkar",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍一个支持用户自定义架构、多模型比较与可解释性的生物分子互作预测深度学习平台，覆盖蛋白-蛋白等四类互作，但对象不聚焦无序蛋白/IDR，且偏平台工具而非互作机制建模，故给5分。",
+  "abstract": "Motivation Deep learning has rapidly become essential for predicting biomolecular interactions; however, most web-tools expose only a single, pre-built model with a fixed, non-configurable architecture that users cannot redesign, retrain on their own data, or compare; they are typically dedicated to one interaction type and often one species, and report prediction scores with little interpretability. These constraints force researchers across several disconnected, single-purpose tools and limit the flexibility, reproducibility, and long-term usability of existing platforms. Results We present Deep-Interact Studio, a unified, web-based deep-learning platform that addresses these limitations by shifting interaction prediction from a model-centric to a user-driven, comparative, and interpretable paradigm. Within a single interface spanning all four interaction classes, namely protein-protein, drugtarget, RNA-protein, and protein-DNA, users design their own model architectures layer by layer, configure training hyperparameters, and train them on their own data, including custom, species-specific datasets. Multiple user-built models can then be trained under identical conditions and compared side by side at both the training and inference levels, while integrated interpretability, including SHAP-based feature attribution, embedding-space visualization, and interaction hub analysis, turns predictions into auditable, mechanistically grounded results. Deep-Interact Studio is, to our knowledge, the only such platform to combine fine-grained per-layer model customization with multi-model comparison and interpretability, offering a flexible and transparent alternative to fixed, single-purpose tools. Availability and implementation Deep-Interact Studio is freely available as a web application at https://deepinteract.compbiosysnbu.in/ , with no login or installation required.",
+  "abstract_zh": "动机 深度学习已迅速成为预测生物分子相互作用的关键技术；然而，大多数网络工具仅提供单一、预构建的模型，其架构固定且不可配置，用户无法重新设计、使用自身数据重新训练或进行比较；这些工具通常专用于一种相互作用类型，且往往针对单一物种，并报告预测分数但可解释性有限。这些限制迫使研究人员在多个互不关联、单一用途的工具之间切换，并削弱了现有平台的灵活性、可重复性和长期可用性。结果 我们提出了Deep-Interact Studio，一个统一的、基于网络的深度学习平台，通过将相互作用预测从模型中心化转变为用户驱动、可比较且可解释的范式来解决上述限制。在覆盖全部四类相互作用（即蛋白质-蛋白质、药物-靶标、RNA-蛋白质和蛋白质-DNA）的单一界面中，用户可逐层设计自己的模型架构，配置训练超参数，并使用自身数据（包括自定义的物种特异性数据集）进行训练。多个用户构建的模型可在相同条件下训练，并在训练和推理层面并排比较；同时，集成的可解释性功能，包括基于SHAP的特征归因、嵌入空间可视化和相互作用枢纽分析，将预测转化为可审计且具有机制基础的结果。据我们所知，Deep-Interact Studio是唯一将细粒度逐层模型定制与多模型比较及可解释性相结合的平台，为固定、单一用途的工具提供了一种灵活且透明的替代方案。可用性与实现 Deep-Interact Studio作为网络应用可免费访问，网址为 https://deepinteract.compbiosysnbu.in/ ，无需登录或安装。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736034",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736034",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.02.736034/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.18.558189",
+  "title": "Proteome-scale characterisation of motif-based interactome rewiring by disease mutations",
+  "authors": "Kliche J; Simonetti L; Krystkowiak I; Kuss H; Diallo M; Rask E; Nilsson J; Davey NE; Ivarsson Y",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-18",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过肽噬菌体展示文库系统筛选人类IDR中疾病突变对短线性基序介导的PPI的破坏或增强，结合亲和力测量和细胞实验验证，揭示了突变驱动的基序互作组重连机制，对象、互作和方法（高通量筛选而非AI/物理模拟）齐备，但方法轴偏实验筛选，故评8分。",
+  "abstract": "Whole genome and exome sequencing are reporting on hundreds of thousands of missense mutations. Taking a pan-disease approach, we explored how mutations in the intrinsically disordered regions (IDRs) break or generate protein interactions mediated by short linear motifs. We created a peptide-phage display library tiling ∼57,000 peptides from the IDRs of the human proteome overlapping 12,301 single nucleotide variant associated with diverse phenotypes including cancer, metabolic diseases and neurological diseases. By screening 80 human proteins, we identified 366 mutation-modulated interactions, with half of the mutations diminishing binding, and half enhancing binding or creating novel interaction interfaces. The effects of the mutations were confirmed by affinity measurements. In cellular assays, the effects of motif-disruptive mutations were validated, including loss of a nuclear localisation signal in the cell division control protein CDC45 by a mutation associated with Meier-Gorlin syndrome. The study provides insights into how disease-associated mutations may perturb and rewire the motif-based interactome.",
+  "abstract_zh": "全基因组和外显子组测序报告了数十万个错义突变。采用泛疾病方法，我们探讨了 intrinsically disordered regions (IDRs) 中的突变如何破坏或生成由短线性基序介导的蛋白质相互作用。我们构建了一个肽-噬菌体展示文库，覆盖了人类蛋白质组 IDRs 中约 57,000 个肽段，这些肽段与 12,301 个与多种表型（包括癌症、代谢疾病和神经系统疾病）相关的单核苷酸变异重叠。通过筛选 80 个人类蛋白质，我们鉴定了 366 个突变调节的相互作用，其中一半突变减弱结合，一半突变增强结合或创建新的相互作用界面。突变效应通过亲和力测量得到确认。在细胞实验中，基序破坏性突变的影响得到验证，包括与 Meier-Gorlin 综合征相关的突变导致细胞分裂控制蛋白 CDC45 中核定位信号的丢失。该研究提供了关于疾病相关突变如何扰动和重连基序介导的相互作用组的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.18.558189",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.18.558189",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.18.558189/index.html"
+}

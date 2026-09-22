@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41524628",
+  "title": "The C-terminus of infectious bursal disease virus VP3 encodes a predicted intrinsically disordered region, which promotes the formation of cytoplasmic puncta and modulates their physical properties.",
+  "authors": "Brodrick, A J; Liu, M; Smith-Hicks, G; Dong, J; Egana-Labrin, S C; Broadbent, A J",
+  "journal": "mBio",
+  "published_date": "2026-01-12",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子动力学模拟和活细胞成像，揭示IBDV VP3的C端无序区域(IDR)与VP1及vRNA协同驱动液-液相分离形成病毒工厂，并调控凝聚体物理性质，直接契合无序蛋白介导PPI与相分离机制建模的核心兴趣。",
+  "abstract": "The virus factories (VFs) of infectious bursal disease virus (IBDV) are biomolecular condensates formed through liquid-liquid phase separation (LLPS). A major component of the IBDV VF is the nonstructural protein VP3, but the molecular basis underlying VF formation remains poorly understood. Here, we demonstrate that VP3 was necessary but not sufficient for phase-separated biomolecular condensates to form. Using live-cell imaging of cells transfected with fluorescent reporter-tagged proteins, our data suggested that the minimal components required to form these structures were VP3, the viral polymerase (VP1), and viral RNA (vRNA). Furthermore, using protein modeling and molecular dynamics simulations, we determined that the 36 amino acid carboxy (C)-terminus of VP3 forms a highly dynamic intrinsically disordered region (IDR). When this was removed, puncta were significantly less numerous (P < 0.0001), smaller (P < 0.0001), and more irregular in shape than puncta formed in the presence of wt VP3, demonstrating that the VP3 C-terminal IDR promoted their formation. Moreover, by fluorescence recovery after photobleaching, the VP3DeltaC puncta had a significantly reduced mobile fraction (0.29) as compared to full-length VP3 puncta (0.70) (P < 0.001), demonstrating that the VP3 C-terminal IDR modulated their physical properties. In summary, our data reveal that VP3 forms part of a higher-order complex with VP1, and likely vRNA, to drive LLPS and the formation of IBDV VFs, and that the VP3 C-terminus encodes an IDR that is essential for modulating the physical properties of the resultant structures. IMPORTANCE: Liquid-liquid phase separation (LLPS) is a phenomenon of growing interest in cell biology. It is a part of the replication cycles of diverse viruses, but our understanding of the molecular basis that underpins the mechanism of phase separation is incomplete. We previously demonstrated that the virus factories of the birnavirus IBDV, a major agricultural pathogen, are biomolecular condensates formed through LLPS. In this study, we discovered that VP3 was necessary but not sufficient for condensates to form, and the minimal components of these structures were VP3, VP1, and likely vRNA. We also discovered that the C-terminal 36 amino acid region of IBDV VP3 encoded a highly dynamic intrinsically disordered region that promoted the formation of the cytoplasmic puncta and modulated their physical properties. This work contributes to a more detailed understanding of birnavirus replication at the molecular level and to the study of LLPS as a phenomenon.",
+  "abstract_zh": "传染性法氏囊病病毒（IBDV）的病毒工厂（VFs）是通过液-液相分离（LLPS）形成的生物分子凝聚体。IBDV VF的一个主要成分是非结构蛋白VP3，但VF形成的分子基础仍知之甚少。在此，我们证明VP3对于相分离生物分子凝聚体的形成是必要的但不充分的。通过对转染荧光报告标签蛋白的细胞进行活细胞成像，我们的数据表明形成这些结构所需的最小组分是VP3、病毒聚合酶（VP1）和病毒RNA（vRNA）。此外，利用蛋白质建模和分子动力学（molecular dynamics）模拟，我们确定VP3的36个氨基酸羧基（C）末端形成了一个高度动态的内在无序区（IDR）。当该区域被移除时，与存在野生型VP3时形成的斑点相比，斑点的数量显著减少（P < 0.0001）、尺寸更小（P < 0.0001）且形状更不规则，表明VP3 C末端IDR促进了它们的形成。此外，通过光漂白后荧光恢复实验，VP3ΔC斑点的可移动分数（0.29）显著低于全长VP3斑点（0.70）（P < 0.001），表明VP3 C末端IDR调节了它们的物理性质。总之，我们的数据揭示VP3与VP1以及可能的vRNA形成高阶复合物，以驱动LLPS和IBDV VFs的形成，并且VP3 C末端编码一个IDR，该区域对调节所得结构的物理性质至关重要。重要性：液-液相分离（LLPS）是细胞生物学中日益受到关注的现象。它是多种病毒复制周期的一部分，但我们对支撑相分离机制的分子基础的理解尚不完整。我们先前证明，双RNA病毒IBDV（一种重要的农业病原体）的病毒工厂是通过LLPS形成的生物分子凝聚体。在本研究中，我们发现VP3对于凝聚体的形成是必要的但不充分的，这些结构的最小组分是VP3、VP1以及可能的vRNA。我们还发现IBDV VP3的C末端36个氨基酸区域编码一个高度动态的内在无序区，该区域促进了细胞质斑点的形成并调节了它们的物理性质。这项工作有助于在分子水平上更详细地理解双RNA病毒的复制，并促进对LLPS现象的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41524628/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41524628/",
+  "paper_page_path": "papers/pubmed/41524628/index.html"
+}

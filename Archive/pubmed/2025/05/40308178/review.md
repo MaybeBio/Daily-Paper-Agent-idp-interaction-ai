@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a hybrid molecular dynamics approach combining conventional and replica exchange molecular dynamics (REMD) simulations to map the binding free energy landscape of the AF9-BCOR complex, an intrinsically disordered protein-protein interaction implicated in MLL-rearranged leukemia. They report that REMD simulations of wild-type AF9 show loss of beta-sheets, that the E531R mutation accelerates this loss via non-native contacts, that the wild-type binding free energy landscape exhibits multiple local minima with C-terminal BCOR interactions as a potential therapeutic target, and that the mutation disrupts native interactions and reduces binding affinity.
+- **Visible evidence base** Abstract text only; no simulation parameters, convergence criteria, free energy calculations, error estimates, or structural data are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, force field parameters, system setup, convergence and equilibration details, free energy calculation methodology, error analysis, structural ensembles, comparison with experimental data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a biologically important and technically challenging problem, namely the conformational dynamics and binding of intrinsically disordered proteins in a leukemia-relevant complex. The proposed hybrid simulation strategy is potentially valuable. However, the abstract provides insufficient methodological detail and quantitative evidence to assess the validity of the reported findings. The central claims regarding beta-sheet loss, mutation effects, and the binding free energy landscape cannot be evaluated from the supplied material. The work may be of interest to the computational biophysics and drug discovery communities, but the case is not currently established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying intrinsically disordered proteins and protein-protein interactions would be interested in the methodological approach for mapping binding free energy landscapes. Researchers in leukemia biology and targeted drug discovery, particularly those focused on MLL-rearranged leukemias and the AF9-BCOR axis, would be interested in the potential therapeutic implications of the C-terminal BCOR interaction site and the E531R mutation effects.
+- **Major strengths** The biological problem is well motivated and clinically relevant, with clear therapeutic implications. The combination of conventional and REMD simulations is a sensible strategy for sampling the conformational space of intrinsically disordered proteins. The focus on a specific mutation with known functional consequences provides a useful comparative framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that REMD simulations of wild-type AF9 revealed a significant loss of beta-sheets and that the E531R mutation accelerated the rate of beta-sheet disappearance due to the formation of non-native contacts.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports qualitative observations about beta-sheet loss and non-native contacts without any quantitative metrics, such as secondary structure population fractions, time evolution of structural content, or contact maps. No simulation length, number of replicas, temperature range, or convergence criteria are provided. Without these details, the claim that beta-sheet loss is significant and that the mutation accelerates this process cannot be assessed.
+  - **Why it matters** The central mechanistic conclusion of the study depends on the reliability of the conformational sampling and the accuracy of the secondary structure analysis. If the simulations are not converged or the analysis is not robust, the reported differences between wild-type and mutant systems may be artifacts.
+  - **Resolution test** Provide quantitative secondary structure analysis with error bars, demonstrate convergence of REMD simulations through replica exchange statistics and block averaging, and show that the beta-sheet loss is reproducible across independent simulations or initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the binding free energy landscape of the wild-type AF9-BCOR complex exhibited several local minima, highlighting C-terminal BCOR interactions as a potential target for therapeutic intervention, and that the mutation disrupted native interactions and showed poor binding affinity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the binding free energy landscape was computed, which method was used to estimate free energies (for example, weighted histogram analysis, umbrella sampling, or metadynamics), or how binding affinity was quantified. No free energy values, confidence intervals, or comparison with experimental binding data are provided. The claim that C-terminal BCOR interactions are a potential therapeutic target is presented without structural or energetic evidence.
+  - **Why it matters** The therapeutic relevance of the findings rests on the accuracy of the free energy calculations and the identification of specific interaction hotspots. Without methodological details and quantitative results, the claims are not verifiable and the proposed target cannot be prioritized for drug discovery.
+  - **Resolution test** Describe the free energy calculation method, provide free energy differences with statistical uncertainties, show the structural basis for the C-terminal interaction hotspot, and compare computed binding affinities with experimental values if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their study uncovers the interaction dynamics of AF9-BCOR and introduces an innovative approach for mapping protein-protein interaction energy landscapes, offering valuable insights to advance targeted drug design.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify what is novel about the hybrid method relative to existing approaches for studying disordered protein interactions. The claim of innovation is not supported by a comparison with prior methods or by a demonstration that the approach yields new information that conventional methods cannot provide. The translational relevance to drug design is asserted but not substantiated with specific actionable insights.
+  - **Why it matters** For a methods-oriented claim, the novelty and added value of the approach must be clearly articulated and demonstrated. For a biology-oriented claim, the new mechanistic understanding must be explicit. The current abstract does neither.
+  - **Resolution test** Clearly state the methodological advance over existing techniques, provide a benchmark or comparison with alternative methods, and specify the concrete mechanistic or therapeutic insights that emerge from the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses terms such as "binding free energy landscape" and "replica exchange molecular dynamics" without brief contextual explanation, which may limit accessibility for readers in the leukemia biology community.
+  - **Required correction** Add a brief phrase explaining the significance of the binding free energy landscape and the purpose of REMD in the context of disordered proteins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not state the simulation system size, force field, or water model, which are essential for reproducibility in computational studies.
+  - **Required correction** Include key simulation parameters in the abstract or indicate that full details are provided in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The phrase "mutation disrupted the native interactions" is vague and does not specify which interactions are disrupted or how this was determined.
+  - **Required correction** Specify the types of interactions affected (for example, hydrogen bonds, hydrophobic contacts, or salt bridges) and the structural or energetic evidence for the disruption.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The proposed hybrid simulation approach may offer originality, but the abstract does not demonstrate how it differs from existing methods for disordered protein interactions. Scientific importance: The AF9-BCOR system is clinically relevant, and the potential therapeutic target is of interest, but the importance of the specific findings is not established without quantitative evidence. Interdisciplinary readership: The topic bridges computational chemistry and leukemia biology, but the abstract is not sufficiently accessible or detailed to engage both communities effectively. Technical soundness: Not assessable from the abstract due to missing methodological details and quantitative results. Readability for nonspecialists: The abstract is reasonably clear in its biological motivation but uses technical terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The biological motivation is strong and the approach is potentially valuable, but the abstract lacks the methodological detail and quantitative results needed to support the central claims. A full manuscript with rigorous simulation analysis, convergence assessment, and free energy calculations would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that REMD simulations revealed a significant loss of beta-sheets in wild-type AF9 is unsupported without quantitative secondary structure analysis.
+- The claim that the E531R mutation accelerated beta-sheet disappearance due to non-native contacts is unsupported without contact analysis and time-resolved data.
+- The claim that the binding free energy landscape exhibited several local minima is unsupported without a description of the free energy calculation method and the landscape representation.
+- The claim that C-terminal BCOR interactions are a potential therapeutic target is unsupported without structural or energetic evidence.
+- The claim that the mutation disrupted native interactions and showed poor binding affinity is unsupported without binding free energy values or comparison with experimental data.
+- The claim of an innovative approach for mapping protein-protein interaction energy landscapes is not assessable without a comparison with existing methods.

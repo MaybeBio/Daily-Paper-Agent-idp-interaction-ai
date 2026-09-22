@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "39579816",
+    "doi": "10.1016/j.ijbiomac.2024.137930",
+    "title": "Differential effects of SARS-CoV-2 amyloidogenic segments on the aggregation and toxicity of human islet amyloid polypeptide within membrane environments."
+  },
+  "content": {
+    "abstract": "Human islet amyloid polypeptide (hIAPP), an intrinsically disordered protein (IDP), plays a significant role in the pathogenesis of type 2 diabetes through its aggregation. Recent studies have suggested that certain viral protein segments exhibit amyloidogenic potential and may influence its amyloid aggregations associated with pathogenesis. However, the potential link between recurrent SARS-CoV-2 infections and the exacerbation of type 2 diabetes remains poorly understood. In this study, we explore how the amyloidogenic segments of SARS-CoV-2, specifically SK9 and FI10, influence the aggregation of hIAPP and the toxicity of the resulting conformers in a membrane environment. To investigate this, we utilized a range of biophysical techniques, including circular dichroism, nuclear magnetic resonance, atomic force microscopy, dynamic light scattering, fluorescence assays, and cell cytotoxicity assays, complemented by molecular dynamics simulations. Our results indicate that SK9 and FI10 promote hIAPP aggregation in a membrane-mimicking environment, forming distinct aggregate structures. Specifically, SK9 accelerates rapid fibril formation due to inter-chain interactions, while FI10 stabilizes oligomeric aggregates primarily through intra-chain contacts. These results reveal the differential effects of viral protein segments on amyloid formation pathways and aggregate characteristics, providing new insights into the mechanisms of amyloid aggregation for developing better therapeutic strategies against amyloid-associated diseases, particularly diabetes.",
+    "keywords": [
+      "Amyloid aggregation",
+      "Human islet amyloid polypeptide",
+      "SARS-CoV-2 amyloidogenic segments"
+    ],
+    "mesh_terms": [
+      "*Islet Amyloid Polypeptide/metabolism/chemistry",
+      "Humans",
+      "*SARS-CoV-2/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Aggregates",
+      "*COVID-19/metabolism/virology",
+      "Amyloid/metabolism/chemistry",
+      "Diabetes Mellitus, Type 2/metabolism",
+      "Microscopy, Atomic Force",
+      "Protein Aggregation, Pathological/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jianing",
+        "Mesias, Vince St Dollente",
+        "Chesney, Andrew D",
+        "Anand, Vignesh K",
+        "Feng, Xianzhen",
+        "Hsing, I-Ming",
+        "Hansmann, Ulrich H E",
+        "Huang, Jinqing"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Mesias VSD",
+        "Chesney AD",
+        "Anand VK",
+        "Feng X",
+        "Hsing IM",
+        "Hansmann UHE",
+        "Huang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China.",
+        "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China.",
+        "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States.",
+        "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China.",
+        "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States. Electronic address: uhansmann@ou.edu.",
+        "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China. Electronic address: jqhuang@ust.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jianing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Mesias, Vince St Dollente",
+        "short_name": "Mesias VSD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Chesney, Andrew D",
+        "short_name": "Chesney AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States."
+        ]
+      },
+      {
+        "full_name": "Anand, Vignesh K",
+        "short_name": "Anand VK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States."
+        ]
+      },
+      {
+        "full_name": "Feng, Xianzhen",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Hsing, I-Ming",
+        "short_name": "Hsing IM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Hansmann, Ulrich H E",
+        "short_name": "Hansmann UHE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of Oklahoma, Norman, OK 73019, United States. Electronic address: uhansmann@ou.edu."
+        ]
+      },
+      {
+        "full_name": "Huang, Jinqing",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong, China. Electronic address: jqhuang@ust.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/24 00:44",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "40353409"
+    ],
+    "refs": [],
+    "similar": [
+      "39579816",
+      "39582236",
+      "29986579",
+      "39480569",
+      "30149632",
+      "30803034",
+      "28917147",
+      "30814273",
+      "31436406",
+      "38937578",
+      "32893436",
+      "39871583",
+      "33887213",
+      "26953503",
+      "39919485",
+      "39660516",
+      "38338914",
+      "30468883",
+      "21148563",
+      "31195047",
+      "29432676",
+      "25144879",
+      "26808649",
+      "22876830",
+      "32800950",
+      "36098068",
+      "39245780",
+      "32943189",
+      "33544470",
+      "36174237",
+      "36142176",
+      "30502402",
+      "39208885",
+      "23331123",
+      "24892388",
+      "36163697",
+      "25913357",
+      "32183067",
+      "33544469",
+      "25785896",
+      "35060728",
+      "30714593",
+      "39625456",
+      "35275530",
+      "29282295",
+      "35311274",
+      "27759128",
+      "31759017",
+      "28338927",
+      "31526870",
+      "33227292",
+      "20809197",
+      "39012029",
+      "34313292",
+      "35871651",
+      "34224702",
+      "28585804",
+      "38608617",
+      "35164285",
+      "26894887",
+      "24071712",
+      "22693597",
+      "37691445",
+      "25495656",
+      "25862064",
+      "24702784",
+      "28602716",
+      "19427320",
+      "26173078",
+      "39615682",
+      "32522548",
+      "27854243",
+      "36165351",
+      "29697253",
+      "29757200",
+      "21158384",
+      "23225004",
+      "27075579",
+      "27997176",
+      "33965498",
+      "31282646",
+      "32587390",
+      "38921060",
+      "26636105",
+      "32688470",
+      "28058779",
+      "35667301",
+      "36898349",
+      "26653463",
+      "33254009",
+      "22059381",
+      "22935354",
+      "29989407",
+      "32305815",
+      "32560229",
+      "25826050",
+      "30211692",
+      "26460729",
+      "28778718",
+      "30908844"
+    ],
+    "review": [
+      "39579816",
+      "30149632",
+      "33544470",
+      "33227292",
+      "35164285",
+      "23225004",
+      "27075579",
+      "26636105",
+      "33254009"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)08741-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

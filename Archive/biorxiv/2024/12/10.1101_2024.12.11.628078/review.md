@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GeSite, a method combining a domain-adaptive protein language model with an explainable E(3)-equivariant graph convolutional network, for predicting nucleic acid-binding residues. They claim superior or comparable performance to state-of-the-art methods across multiple benchmark test sets, robustness on low-structure-similarity and newly released proteins, and that interpretability analysis reveals the model's perception of functional domains. Data and code are stated to be freely available.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark names, statistical comparisons, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark definitions, baseline methods, hyperparameters, training and test splits, interpretability methodology, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable approach to a well-studied problem, but the evidence provided is insufficient to evaluate the core claims. No quantitative performance data, benchmark specifications, or methodological details are visible. The claims of superiority, robustness, and interpretability cannot be assessed from the supplied material. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, nucleic acid interaction prediction, and protein language model applications. Researchers developing geometric deep learning methods for structural biology would also find the methodological combination relevant. The interpretability component may appeal to those studying model explainability in biological contexts.
+- **Major strengths** The proposed combination of domain-adaptive protein language models with E(3)-equivariant graph neural networks is a reasonable and current methodological direction. The stated focus on interpretability, in addition to predictive accuracy, addresses a recognized gap in the field. The commitment to open data and code is commendable and supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Prediction results across multiple benchmark test sets demonstrate that GeSite is superior or comparable to state-of-the-art prediction methods"
+  - **Evidence pointer** Abstract only; no benchmark names, metrics, or numerical results provided
+  - **Concern** The central performance claim is made without any quantitative support. No benchmark datasets are named, no evaluation metrics are specified, and no numerical comparisons with baselines are presented.
+  - **Why it matters** Without specific benchmarks and metrics, the claim of superiority or comparability cannot be verified or contextualized. The reader cannot determine the magnitude of any improvement or the practical significance of the results.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., AUC, MCC, F1) on named benchmark datasets, with statistical significance tests and comparisons to at least three state-of-the-art baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalization claim
+  - **Claim pointer** "The performance comparison on low structure similarity and newly released test proteins demonstrates the robustness and generalization of the method"
+  - **Evidence pointer** Abstract only; no definitions of "low structure similarity" or "newly released" are given
+  - **Concern** The robustness and generalization claims are stated without defining the test conditions. The criteria for "low structure similarity" and the source and date of "newly released" proteins are unspecified.
+  - **Why it matters** Generalization claims are only meaningful with clear definitions of the test scenarios. Without these, the reader cannot assess whether the evaluation protocol is rigorous or whether the results are confounded by data leakage or trivial similarity.
+  - **Resolution test** Specify the sequence or structure identity thresholds used to define low similarity, name the new release databases and their release dates, and show that training and test sets are non-overlapping.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** "Interpretability analysis exposes the perception of the prediction model on various remote and close functional domains, which is the source of its discernment"
+  - **Evidence pointer** Abstract only; no interpretability method or results described
+  - **Concern** The interpretability claim is vague and unsupported. No method for interpretability analysis is named, and no examples of identified functional domains are provided.
+  - **Why it matters** The claim that interpretability reveals the source of model discernment is a strong mechanistic statement. Without a described method and illustrative results, this claim is unfalsifiable from the provided material.
+  - **Resolution test** Describe the interpretability technique (e.g., attention weights, gradient-based attribution, or equivariant relevance propagation), show representative examples of identified domains, and relate these to known functional annotations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological detail
+  - **Claim pointer** "We propose a novel method called GeSite based the domain adaptive protein language model and explainable E(3)-equivariant graph convolution neural network"
+  - **Evidence pointer** Abstract only; no architectural or training details provided
+  - **Concern** The method is described only at a high level. No details are given on the domain adaptation strategy, the architecture of the E(3)-equivariant network, input features, training procedure, or loss functions.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and training details, the method cannot be reimplemented or compared fairly, and the novelty relative to existing equivariant networks cannot be assessed.
+  - **Resolution test** Provide a full methods section with architecture diagrams, hyperparameters, training details, and a clear description of the domain adaptation approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence of method description
+  - **Issue** The phrase "based the domain adaptive" appears to contain a grammatical error, likely intended as "based on the domain adaptive."
+  - **Required correction** Revise to "based on the domain-adaptive protein language model and explainable E(3)-equivariant graph convolutional neural network."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, performance claim sentence
+  - **Issue** The abstract does not name any of the "multiple benchmark test sets" used for evaluation.
+  - **Required correction** List the benchmark dataset names in the abstract or indicate that they are specified in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The GitHub link is provided, but no license, documentation, or usage instructions are mentioned.
+  - **Required correction** State the software license and note that documentation and usage examples are included in the repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, defined evaluation protocols, interpretability methodology, and architectural details means the central claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The combination of domain-adaptive language models with equivariant graph networks is a reasonable extension of existing work, but the abstract does not establish clear novelty over prior methods. Scientific importance: Nucleic acid-binding residue prediction is a relevant problem, but the abstract does not demonstrate a substantial advance over the state of the art. Interdisciplinary readership: The topic is of interest to computational and structural biologists, but the abstract is too sparse to attract a broader audience. Technical soundness: Cannot be assessed from the abstract alone; no methodological or statistical details are provided. Readability for nonspecialists: The abstract is concise and generally clear, but the lack of context for benchmarks and metrics limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological support for the claims. A full manuscript with detailed methods, benchmark results, and interpretability analyses would be required to assess the work fairly.
+
+## Risk / unsupported claims
+- The claim of superiority or comparability to state-of-the-art methods is unsupported by any quantitative data.
+- The claim of robustness and generalization on low-structure-similarity and newly released proteins is unsupported without defined evaluation criteria.
+- The claim that interpretability analysis reveals the source of model discernment is unsupported without a described method or results.
+- The novelty of the method relative to existing equivariant graph networks and protein language model approaches cannot be assessed from the abstract.

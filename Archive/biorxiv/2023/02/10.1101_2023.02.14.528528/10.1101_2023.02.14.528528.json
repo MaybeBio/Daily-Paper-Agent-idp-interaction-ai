@@ -1,0 +1,473 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.14.528528",
+  "title": "PIQLE: protein-protein interface quality estimation by deep graph learning of multimeric interaction geometries",
+  "doi": "10.1101/2023.02.14.528528",
+  "abstract": "Accurate modeling of protein-protein interaction interface is essential for high-quality protein complex structure prediction. Existing approaches for estimating the quality of a predicted protein complex structural model utilize only the physicochemical properties or energetic contributions of the interacting atoms, ignoring evolutionarily information or inter-atomic multimeric geometries, including interaction distance and orientations. Here we present PIQLE, a deep graph learning method for protein-protein interface quality estimation. PIQLE leverages multimeric interaction geometries and evolutionarily information along with sequence- and structure-derived features to estimate the quality of the individual interactions between the interfacial residues using a multihead graph attention network and then probabilistically combines the estimated quality of the interfacial residues for scoring the overall interface. Experimental results show that PIQLE consistently outperforms existing state-of-the-art methods on multiple independent test datasets across a wide range of evaluation metrics. Our ablation study reveals that the performance gains are connected to the effectiveness of the multihead graph attention network in leveraging multimeric interaction geometries and evolutionary information along with other sequence- and structure-derived features adopted in PIQLE. An open-source software implementation of PIQLE, licensed under the GNU General Public License v3, is freely available at https://github.com/Bhattacharya-Lab/PIQLE .",
+  "authors": [
+    "Md Hossain Shuvo",
+    "Mohimenul Karim",
+    "Rahmatullah Roche",
+    "Debswapna Bhattacharya"
+  ],
+  "published_date": "2023-02-15",
+  "updated_date": "2023-02-15T14:20:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.14.528528",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.14.528528.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:25:08Z",
+        "timestamp": 1768505108556,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 42,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate modeling of protein-protein interaction interface is essential for high-quality protein complex structure prediction. Existing approaches for estimating the quality of a predicted protein complex structural model utilize only the physicochemical properties or energetic contributions of the interacting atoms, ignoring evolutionarily information or inter-atomic multimeric geometries, including interaction distance and orientations. Here we present PIQLE, a deep graph learning method for protein-protein interface quality estimation. PIQLE leverages multimeric interaction geometries and evolutionarily information along with sequence- and structure-derived features to estimate the quality of the individual interactions between the interfacial residues using a multihead graph attention network and then probabilistically combines the estimated quality of the interfacial residues for scoring the overall interface. Experimental results show that PIQLE consistently outperforms existing state-of-the-art methods on multiple independent test datasets across a wide range of evaluation metrics. Our ablation study reveals that the performance gains are connected to the effectiveness of the multihead graph attention network in leveraging multimeric interaction geometries and evolutionary information along with other sequence- and structure-derived features adopted in PIQLE. An open-source software implementation of PIQLE, licensed under the GNU General Public License v3, is freely available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Bhattacharya-Lab/PIQLE\">https://github.com/Bhattacharya-Lab/PIQLE</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.02.14.528528",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            15
+          ]
+        ],
+        "date-time": "2023-02-15T14:20:15Z",
+        "timestamp": 1676470815000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "PIQLE: protein-protein interface quality estimation by deep graph learning of multimeric interaction geometries"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Md Hossain",
+          "family": "Shuvo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohimenul",
+          "family": "Karim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rahmatullah",
+          "family": "Roche",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9630-0141",
+          "authenticated-orcid": false,
+          "given": "Debswapna",
+          "family": "Bhattacharya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0161879"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1265",
+          "DOI": "10.1038/s41467-022-28865-w",
+          "article-title": "Improved prediction of protein-protein interactions using AlphaFold2",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1091",
+          "DOI": "10.1002/prot.25888",
+          "article-title": "Energy-based Graph Convolutional Networks for Scoring Protein Docking Models",
+          "volume": "88",
+          "year": "2020",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, X. et al. (2022) DProQ: A Gated-Graph Transformer for Protein Complex Structure Assessment. 2022.05.19.492741.",
+          "DOI": "10.1101/2022.05.19.492741"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Christoffer, C. et al. (2021) LZerD Protein-Protein Docking Webserver Enhanced With de novo Structure Prediction. Frontiers in Molecular Biosciences, 8.",
+          "DOI": "10.3389/fmolb.2021.724947"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2580",
+          "DOI": "10.1093/bioinformatics/btab154",
+          "article-title": "Protein interaction interface region prediction by geometric deep learning",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.8",
+          "year": "2022",
+          "journal-title": "Benchmarking Graph Neural Networks"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, R. et al. (2022) Protein complex prediction with AlphaFold-Multimer. 2021.10.04.463034.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.10",
+          "year": "2022",
+          "journal-title": "Independent SE(3)-Equivariant Models for End-to-End Rigid Protein Docking"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1744",
+          "DOI": "10.1038/s41467-022-29394-2",
+          "article-title": "AF2Complex predicts direct physical interactions in multimeric proteins with deep learning",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.12",
+          "unstructured": "Glorot, X. and Bengio, Y. (2010) Understanding the difficulty of training deep feedforward neural networks. In, Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics. JMLR Workshop and Conference Proceedings, pp. 249–256."
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "2444",
+          "DOI": "10.1093/bioinformatics/btac120",
+          "article-title": "TRScore: a 3D RepVGG-based scoring method for ranking protein docking models",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21949"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "3111",
+          "DOI": "10.1002/prot.22830",
+          "article-title": "Protein–protein docking benchmark version 4.0",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.18",
+          "year": "2014",
+          "journal-title": "Adam: A Method for Stochastic Optimization"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.19",
+          "year": "2017",
+          "journal-title": "Semi-Supervised Classification with Graph Convolutional Networks"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1002/pro.3295",
+          "article-title": "Dockground: A comprehensive data resource for modeling of protein complexes",
+          "volume": "27",
+          "year": "2018",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1186/s12859-017-1834-2",
+          "article-title": "Deep learning methods for protein torsion angle prediction",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "4647",
+          "DOI": "10.1093/bioinformatics/btz291",
+          "article-title": "ResPRE: high-accuracy protein contact prediction by coupling precision matrix with deep residual neural networks",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn216"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty355"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.26",
+          "first-page": "798",
+          "article-title": "Protein-protein interactions: detection, reliability assessment and applications",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21920"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21373"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu097"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24343"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.32",
+          "year": "2018",
+          "journal-title": "Graph Attention Networks"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wallner, B. (2022) AFsample: Improving Multimer Prediction with AlphaFold using Aggressive Sampling. 2022.12.20.521205.",
+          "DOI": "10.1101/2022.12.20.521205"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.34",
+          "year": "2020",
+          "journal-title": "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "2113",
+          "DOI": "10.1093/bioinformatics/btz870",
+          "article-title": "Protein docking model evaluation by 3D deep convolutional neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, X. et al. (2021) Protein Docking Model Evaluation by Graph Neural Networks. Frontiers in Molecular Biosciences, 8.",
+          "DOI": "10.3389/fmolb.2021.647915"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "947",
+          "DOI": "10.1093/bioinformatics/btab761",
+          "article-title": "Deep graph learning of inter-protein contacts",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.39",
+          "unstructured": "Yun, S. et al. (2019) Graph transformer networks. In, Proceedings of the 33rd International Conference on Neural Information Processing Systems. Curran Associates Inc., Red Hook, NY, USA, pp. 11983–11993."
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "174",
+          "DOI": "10.1016/j.ygeno.2019.01.011",
+          "article-title": "Protein complex prediction: A survey",
+          "volume": "112",
+          "year": "2020",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2011.09.012"
+        },
+        {
+          "key": "2023021800400408000_2023.02.14.528528v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.01.001"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.02.14.528528",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:16:44Z",
+        "timestamp": 1768450604000
+      },
+      "score": 77.16728,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.02.14.528528"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            15
+          ]
+        ]
+      },
+      "references-count": 42,
+      "URL": "https://doi.org/10.1101/2023.02.14.528528",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

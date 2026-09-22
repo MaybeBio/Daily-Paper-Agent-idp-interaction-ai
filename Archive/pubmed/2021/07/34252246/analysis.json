@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34252246",
+  "title": "Exploring Curated Conformational Ensembles of Intrinsically Disordered Proteins in the Protein Ensemble Database.",
+  "authors": "Quaglia, Federica; Lazar, Tamas; Hatos, Andras; Tompa, Peter; Piovesan, Damiano; Tosatto, Silvio C E",
+  "journal": "Current protocols",
+  "published_date": "2021-07-13",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 5,
+  "one_liner_zh": "介绍无序蛋白构象集合数据库PED的检索与解读方法，以Sic1为例，虽涉及IDP构象和MD模拟，但无PPI互作机制建模，偏数据库使用指南。",
+  "abstract": "The Protein Ensemble Database (PED; https://proteinensemble.org/) is the major repository of conformational ensembles of intrinsically disordered proteins (IDPs). Conformational ensembles of IDPs are primarily provided by their authors or occasionally collected from literature, and are subsequently deposited in PED along with the corresponding structured, manually curated metadata. The modeling of conformational ensembles usually relies on experimental data from small-angle X-ray scattering (SAXS), fluorescence resonance energy transfer (FRET), NMR spectroscopy, and molecular dynamics (MD) simulations, or a combination of these techniques. The growing number of scientific studies based on these data, along with the astounding and swift progress in the field of protein intrinsic disorder, has required a significant update and upgrade of PED, first published in 2014. To this end, the database was entirely renewed in 2020 and now has a dedicated team of biocurators providing manually curated descriptions of the methods and conditions applied to generate the conformational ensembles and for checking consistency of the data. Here, we present a detailed description on how to explore PED with its protein pages and experimental pages, and how to interpret entries of conformational ensembles. We describe how to efficiently search conformational ensembles deposited in PED by means of its web interface and API. We demonstrate how to make sense of the PED protein page and its associated experimental entry pages with reference to the yeast Sic1 use case. (c) 2021 The Authors. Current Protocols published by Wiley Periodicals LLC. Basic Protocol 1: Performing a search in PED Support Protocol 1: Programmatic access with the PED API Basic Protocol 2: Interpreting the protein page and the experimental entry page-the Sic1 use case Support Protocol 2: Downloading options Support Protocol 3: Understanding the validation report-the Sic1 use case Basic Protocol 3: Submitting new conformational ensembles to PED Basic Protocol 4: Providing feedback in PED.",
+  "abstract_zh": "蛋白质 ensembles 数据库（PED；https://proteinensemble.org/）是内在无序蛋白质（IDPs）构象 ensembles 的主要存储库。IDPs 的构象 ensembles 主要由其作者提供，或偶尔从文献中收集，随后连同相应的结构化、人工整理的元数据一起存入 PED。构象 ensembles 的建模通常依赖于小角 X 射线散射（SAXS）、荧光共振能量转移（FRET）、NMR 光谱和分子动力学（MD）模拟等实验数据，或这些技术的组合。基于这些数据的科学研究数量不断增长，加上蛋白质内在无序领域取得的惊人且迅速的进展，要求对首次发表于 2014 年的 PED 进行重大更新和升级。为此，该数据库在 2020 年完全更新，现拥有专门的生物策展团队，提供对生成构象 ensembles 所采用方法和条件的人工策展描述，并检查数据的一致性。在此，我们详细描述了如何通过其蛋白质页面和实验页面探索 PED，以及如何解读构象 ensembles 的条目。我们描述了如何通过其网页界面和 API 高效搜索 PED 中存储的构象 ensembles。我们以酵母 Sic1 用例为参考，演示如何理解 PED 蛋白质页面及其相关的实验条目页面。(c) 2021 作者。Current Protocols 由 Wiley Periodicals LLC 出版。基础方案 1：在 PED 中执行搜索 支持方案 1：使用 PED API 进行程序化访问 基础方案 2：解读蛋白质页面和实验条目页面——Sic1 用例 支持方案 2：下载选项 支持方案 3：理解验证报告——Sic1 用例 基础方案 3：向 PED 提交新的构象 ensembles 基础方案 4：在 PED 中提供反馈。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34252246/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34252246/",
+  "paper_page_path": "papers/pubmed/34252246/index.html"
+}

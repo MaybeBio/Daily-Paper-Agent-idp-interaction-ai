@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36571497",
+  "title": "Molecular insights into alginate beta-lactoglobulin A multivalencies-The foundation for their amorphous aggregates and coacervation.",
+  "authors": "Madsen, Mikkel; Prestel, Andreas; Madland, Eva; Westh, Peter; Tondervik, Anne; Sletta, Havard; Peters, Gunther H J; Aachmann, Finn L; Kragelund, Birthe B; Svensson, Birte",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2022-12-27",
+  "window": {
+    "start": "2022-12-26",
+    "end": "2023-01-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过ITC、NMR和分子对接研究β-乳球蛋白与海藻酸寡糖的多价动态结合，虽涉及凝聚体形成但对象为折叠蛋白-多糖而非IDP-PPI，机制建模方法可部分迁移。",
+  "abstract": "For improved control of biomaterial property design, a better understanding of complex coacervation involving anionic polysaccharides and proteins is needed. Here, we address the initial steps in condensate formation of beta-lactoglobulin A (beta-LgA) with nine defined alginate oligosaccharides (AOSs) and describe their multivalent interactions in structural detail. Binding of AOSs containing four, five, or six uronic acid residues (UARs), either all mannuronate (M), all guluronate (G), or alternating M and G embodying the block structural components of alginates, was characterized by isothermal titration calorimetry, nuclear magnetic resonance spectroscopy (NMR), and molecular docking. beta-LgA was highly multivalent exhibiting binding stoichiometries decreasing from five to two AOSs with increasing degree of polymerization (DP) and similar affinities in the mid micromolar range. The different AOS binding sites on beta-LgA were identified by NMR chemical shift perturbation analyses and showed diverse compositions of charged, polar and hydrophobic residues. Distinct sites for the shorter AOSs merged to accommodate longer AOSs. The AOSs bound dynamically to beta-LgA, as concluded from saturation transfer difference and (1) H-ligand-targeted NMR analyses. Molecular docking using Glide within the Schrodinger suite 2016-1 revealed the orientation of AOSs to only vary slightly at the preferred beta-LgA binding site resulting in similar XP glide scores. The multivalency coupled with highly dynamic AOS binding with lack of confined conformations in the beta-LgA complexes may help explain the first steps toward disordered beta-LgA alginate coacervate structures.",
+  "abstract_zh": "为了改进生物材料性能设计的控制，需要更好地理解涉及阴离子多糖和蛋白质的复杂凝聚过程。在此，我们探讨了β-乳球蛋白A（beta-LgA）与九种明确的海藻酸寡糖（AOSs）在凝聚物形成中的初始步骤，并详细描述了它们的多价相互作用。通过等温滴定量热法、核磁共振波谱（NMR）和分子对接，表征了含有四个、五个或六个糖醛酸残基（UARs）的AOSs（全部为甘露糖醛酸（M）、全部为古洛糖醛酸（G），或M和G交替，体现海藻酸盐的嵌段结构组分）的结合特性。beta-LgA表现出高度多价性，其结合化学计量随聚合度（DP）增加从五个AOSs降至两个，且亲和力相似，处于中微摩尔范围。通过NMR化学位移扰动分析，鉴定了beta-LgA上不同的AOS结合位点，这些位点显示出带电、极性和疏水性残基的多样化组成。较短的AOSs的不同位点合并以适应较长的AOSs。根据饱和转移差谱和(1)H-配体靶向NMR分析，AOSs与beta-LgA动态结合。使用Schrodinger套件2016-1中的Glide进行分子对接，显示AOSs在优选beta-LgA结合位点的取向仅略有变化，产生相似的XP Glide评分。多价性与高度动态的AOS结合，且缺乏受限构象，可能有助于解释beta-LgA海藻酸盐凝聚物结构形成的第一步无序过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36571497/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36571497/",
+  "paper_page_path": "papers/pubmed/36571497/index.html"
+}

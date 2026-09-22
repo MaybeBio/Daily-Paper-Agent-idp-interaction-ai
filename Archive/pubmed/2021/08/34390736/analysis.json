@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34390736",
+  "title": "On the Potential of Machine Learning to Examine the Relationship Between Sequence, Structure, Dynamics and Function of Intrinsically Disordered Proteins.",
+  "authors": "Lindorff-Larsen, Kresten; Kragelund, Birthe B",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-08-15",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述讨论机器学习在预测IDP/IDR序列-结构-动力学-功能关系中的应用，涵盖IDP与配体结合及凝聚体形成机制，虽为综述且未深入具体互作建模，但对象与方法高度契合本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) constitute a broad set of proteins with few uniting and many diverging properties. IDPs-and intrinsically disordered regions (IDRs) interspersed between folded domains-are generally characterized as having no persistent tertiary structure; instead they interconvert between a large number of different and often expanded structures. IDPs and IDRs are involved in an enormously wide range of biological functions and reveal novel mechanisms of interactions, and while they defy the common structure-function paradigm of folded proteins, their structural preferences and dynamics are important for their function. We here discuss open questions in the field of IDPs and IDRs, focusing on areas where machine learning and other computational methods play a role. We discuss computational methods aimed to predict transiently formed local and long-range structure, including methods for integrative structural biology. We discuss the many different ways in which IDPs and IDRs can bind to other molecules, both via short linear motifs, as well as in the formation of larger dynamic complexes such as biomolecular condensates. We discuss how experiments are providing insight into such complexes and may enable more accurate predictions. Finally, we discuss the role of IDPs in disease and how new methods are needed to interpret the mechanistic effects of genomic variants in IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）构成了一类广泛的蛋白质，它们共享少数共性，却拥有众多相异特性。IDPs——以及穿插在折叠结构域之间的固有无序区域（IDRs）——通常被描述为缺乏持久的三级结构；相反，它们在大量不同且往往更为扩展的结构之间相互转换。IDPs和IDRs参与极其广泛的生物学功能，并揭示新颖的相互作用机制；尽管它们违背了折叠蛋白常见的结构-功能范式，但其结构偏好和动态特性对其功能至关重要。在此，我们讨论IDPs和IDRs领域中的开放性问题，重点关注机器学习和其它计算方法发挥作用的领域。我们探讨旨在预测瞬时形成的局部和长程结构的计算方法，包括整合结构生物学的方法。我们讨论IDPs和IDRs通过短线性基序以及形成更大动态复合物（如生物分子凝聚体）与其它分子结合的多种不同方式。我们讨论实验如何为这些复合物提供见解，并可能促成更准确的预测。最后，我们讨论IDPs在疾病中的作用，以及如何需要新方法来解释IDPs中基因组变异的机制效应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34390736/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34390736/",
+  "paper_page_path": "papers/pubmed/34390736/index.html"
+}

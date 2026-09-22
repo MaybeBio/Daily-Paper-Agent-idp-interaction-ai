@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.28.685054",
+  "title": "Regulation of cell proliferation by a novel feedback system on Cdk function",
+  "authors": "Ryan JC; Leray B; Jain A; Coehlo N; Domingo-Sananes MR; Aspert T; Charvin G; Krockenberger MS; Chica Blaguera N; Lopez Aviles S; Takacs L; Uhlmann F; Yang L; Yue J; Liti G; Cochard V; Chevreux G; Sugiyama H; Goto Y; Aoki K; Wu PJ; Mackereth C; Tyson J; Novák B; Coudreuse D",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过实验进化发现无序蛋白Spo12作为PP2A抑制剂调控Cdk功能，涉及IDP与蛋白互作，但无AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "The proliferation of eukaryotic cells is regulated by a complex network of regulatory systems that promotes efficient cell cycle progression and ensures proper responses to the environment. Despite this complexity, the core inputs that are necessary and sufficient for robust alternation of DNA replication and mitosis are surprisingly simpler than anticipated. Indeed, fission yeast cells operating with an engineered minimal cell cycle network that lacks the highly conserved Wee1+Cdc25 feedback loops on Cdk1 function are viable, although slow growing. This provides a unique entry for evaluating how such simplified cells can evolve and improve their proliferation potential while exploring unknown mechanisms modulating cell cycle progression. Taking advantage of this model, we applied laboratory evolution assays to minimal fission yeast backgrounds and selected for the emergence of faster growing populations. We found that loss of the small disordered protein Spo12 brings about enhanced population growth in cells lacking the Wee1+Cdc25 mitotic switch. Importantly, we demonstrate that Spo12 defines a new and conserved family of inhibitors of the Cdk-counteracting phosphatase PP2A that are directly regulated by Cdk-dependent phosphorylation. Our results also reveal a trade-off associated with Spo12-dependent regulation, which may have implications for our understanding of the principles underlying the evolution of cell cycle control. Finally, our study highlights how combining simplified circuits with experimental evolution allows for uncovering regulatory elements that may be obscured by network complexity.",
+  "abstract_zh": "真核细胞的增殖受一个复杂的调控网络系统调节，该系统促进细胞周期高效进行并确保对环境作出适当响应。尽管存在这种复杂性，但足以稳健交替DNA复制和有丝分裂的核心输入却比预期简单得多。事实上，裂殖酵母细胞在缺乏高度保守的Wee1+Cdc25对Cdk1功能的反馈环路时，通过工程化的最小细胞周期网络运作仍能存活，尽管生长缓慢。这为评估此类简化细胞如何进化并提高其增殖潜力，同时探索调节细胞周期进程的未知机制，提供了一个独特切入点。利用这一模型，我们应用实验室进化实验于最小裂殖酵母背景，并筛选出生长更快的群体的出现。我们发现，在缺乏Wee1+Cdc25有丝分裂开关的细胞中，小分子无序蛋白Spo12的缺失可增强群体生长。重要的是，我们证明Spo12定义了一个新的且保守的Cdk对抗磷酸酶PP2A抑制剂家族，这些抑制剂直接受Cdk依赖性磷酸化调控。我们的结果还揭示了与Spo12依赖性调控相关的权衡，这可能对我们理解细胞周期控制进化背后的原理有所启示。最后，我们的研究强调了将简化电路与实验进化相结合如何能够揭示可能被网络复杂性掩盖的调控元件。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685054",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685054",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.28.685054/index.html"
+}

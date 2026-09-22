@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that phosphorylation of the rotavirus NSP5 protein enables allosteric control of viral condensate formation. They identify NSP5 variants with low intrinsic phase-separation propensity, engineer a low-propensity variant (SClow), and demonstrate that phosphorylation restores phase separation in vitro and viroplasm formation in cells. They further propose a dual role for phosphorylation: nucleating phase separation in low-propensity variants and modulating binding interactions in high-propensity variants.
+- **Visible evidence base** DeePhase predictions, sequence alignments, in vitro phase separation assays, mass photometry, HDX-MS, recombinant virus rescue, replication kinetics, plaque assays, smFISH, electron microscopy, western blotting
+- **Missing materials affecting confidence** Figure panels referenced but not fully described in text (e.g., exact microscopy images, quantification details for several panels); statistical details for some comparisons; raw HDX-MS data; details on DeePhase model limitations; exact sample sizes for several experiments
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in viral phase separation biology: whether phosphorylation can serve as a regulatory switch for condensate formation in diverse rotavirus strains. The combination of computational prediction, protein engineering, in vitro biochemistry, and virology is commendable. However, several technical concerns need to be addressed before the central claims are fully established. The evidence for an allosteric switch is indirect, and the mechanistic distinction between "nucleation" and "modulation" of phase separation requires stronger support. The manuscript would benefit from clearer presentation of quantitative data and additional controls.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, viral replication organelles, intrinsically disordered proteins, and phosphoregulation of biomolecular condensates. The work also has relevance for those interested in the evolution of viral proteins and the potential of IDPs as antiviral targets.
+- **Major strengths** The study combines multiple orthogonal approaches to address a biologically significant question. The use of DeePhase to identify naturally occurring low-propensity variants and the engineering of a consensus low-propensity sequence is elegant. The demonstration that phosphorylation restores phase separation in a variant that otherwise cannot form condensates is a notable finding. The HDX-MS data provide molecular-level insight into phosphorylation-dependent conformational changes. The inclusion of recombinant virus experiments bridges in vitro and cellular contexts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** The authors claim that phosphorylation drives an "allosteric switch" between binding sites on NSP5, shifting from IDR-mediated to CTR-mediated interactions.
+  - **Evidence pointer** Results section "Phosphorylation tunes NSP5 binding modes in condensates"; Figure 10 (HDX-MS)
+  - **Concern** The HDX-MS data show differential protection patterns between unmodified and phosphomimetic NSP5 in the presence of NSP2, but the interpretation as an "allosteric switch" is not directly supported. The observed changes could reflect direct electrostatic effects of phosphorylation on NSP2 binding rather than a conformational change within NSP5. No experiments directly demonstrate that phosphorylation of one region alters the conformation or binding affinity of a distal region. The authors do not provide evidence for long-range conformational coupling, which is the defining feature of allostery.
+  - **Why it matters** The central mechanistic claim of the paper rests on the concept of allosteric regulation. If the observed effects are simply due to local electrostatic changes at the phosphorylation sites, the novelty and broader significance of the work are substantially reduced.
+  - **Resolution test** The authors should either (a) provide direct evidence for long-range conformational coupling, for example by performing HDX-MS on NSP5 variants with phosphorylation sites mutated in a manner that separates local and distal effects, or (b) temper the language to describe the observed effects as phosphorylation-dependent modulation of binding interfaces rather than allostery.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that phosphorylation is "critical" for SClow NSP5 to support viroplasm formation and viral replication, based on the S67A mutant experiment.
+  - **Evidence pointer** Results section "SClow-RV displays delayed viroplasm maturation and reduced NSP5 hyperphosphorylation"; Figure 8
+  - **Concern** The S67A mutation in the SClow background abolishes viroplasm formation and viral replication. However, S67 is one of eight phosphorylation sites, and the authors do not demonstrate that S67 is specifically phosphorylated in the context of SClow. The observed phenotype could be due to a loss of phosphorylation at S67, but it could also be due to a structural or functional effect of the S67A mutation that is independent of phosphorylation. The authors should provide evidence that S67 is indeed phosphorylated in SClow and that the S67A mutation specifically abrogates this phosphorylation.
+  - **Why it matters** The conclusion that phosphorylation is required for SClow function rests entirely on this single mutant. Without direct evidence of S67 phosphorylation, the causal link between phosphorylation and function is not established.
+  - **Resolution test** Perform mass spectrometry on SClow NSP5 from infected cells to confirm phosphorylation at S67. Alternatively, complement the S67A mutant with a phosphomimetic S67D mutation and test whether this rescues viroplasm formation and replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that SClow-RV shows "delayed viroplasm maturation" and "reduced NSP5 hyperphosphorylation" compared to SA11-RV.
+  - **Evidence pointer** Results section "SClow-RV displays delayed viroplasm maturation and reduced NSP5 hyperphosphorylation"; Figure 4
+  - **Concern** The quantitative data supporting these claims are not fully presented. For example, the number of viroplasms per cell, their size distribution, and the statistical significance of the differences are not clearly reported. The western blot quantification of phosphorylation states lacks error bars and statistical analysis in the described text. The authors state that the most highly phosphorylated isoform is "absent" in SClow-RV-infected cells, but the sensitivity of the detection method is not discussed.
+  - **Why it matters** The phenotypic differences between SClow-RV and SA11-RV are central to the paper's argument that low-propensity variants rely on phosphorylation for condensate formation. Without rigorous quantification, the reader cannot assess the magnitude or significance of these differences.
+  - **Resolution test** Provide full quantitative data for viroplasm number, size, and fluorescence intensity with appropriate statistical tests. Include replicate western blots with quantification and error bars. State the detection limits of the phosphorylation assay.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model generalizability
+  - **Claim pointer** The authors propose that "phosphorylation plays a context-dependent role in the formation of replicative organelles across diverse rotaviruses" and that low-propensity variants "require phosphorylation to nucleate phase separation."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The study examines one engineered variant (SClow) derived from a consensus of four naturally occurring low-propensity sequences. The authors do not test whether any of the natural low-propensity variants (S1low-S7low) actually require phosphorylation for phase separation. The generalizability of the proposed mechanism to diverse rotavirus strains is therefore not directly demonstrated.
+  - **Why it matters** The title and abstract make broad claims about rotavirus diversity, but the experimental evidence is limited to a single engineered construct. Without testing natural variants, the claim of context-dependent roles across diverse strains remains speculative.
+  - **Resolution test** Test at least one or two natural low-propensity NSP5 variants in the same in vitro and cellular assays to determine whether they also require phosphorylation for phase separation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section "Engineering an NSP5 variant with diminished LLPS potential"
+  - **Issue** The DeePhase score distribution for 451 sequences is described, but the threshold for "high" versus "low" propensity is not clearly defined. The reader cannot assess how the S1low-S7low variants were selected.
+  - **Required correction** State the DeePhase score threshold used to classify low-propensity variants and justify this threshold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** SClow design
+  - **Evidence pointer** Results section "Engineering an NSP5 variant with diminished LLPS potential"; Figure 2
+  - **Issue** The description of how the SClow consensus sequence was generated is incomplete. The authors state that 21 degenerate positions were replaced with S4low residues, but the criteria for defining "degenerate" positions and the rationale for choosing S4low as the reference are not fully explained.
+  - **Required correction** Provide a clearer description of the consensus generation algorithm and the rationale for the S4low reference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Plaque size comparison
+  - **Evidence pointer** Results section "A low-LLPS NSP5 variant supports viroplasm formation and viral replication"; Figure 3A
+  - **Issue** The plaque size comparison (2.0 ± 1.4 mm2 vs 3.0 ± 1.7 mm2) is presented without a p-value or confidence interval.
+  - **Required correction** Provide the statistical test used and the resulting p-value or confidence interval for the plaque size comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** HDX-MS experiments
+  - **Evidence pointer** Methods section "Hydrogen-Deuterium Exchange Mass-Spectrometry (HDX-MS)"
+  - **Issue** The HDX-MS methods lack details on the number of biological replicates, the peptide coverage map, and the criteria for defining significant protection/deprotection beyond the stated 98% confidence interval.
+  - **Required correction** Provide additional methodological details, including replicate numbers, peptide coverage, and the full statistical criteria used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Poly-arginine experiments
+  - **Evidence pointer** Results section "Phosphorylation tunes NSP5 binding modes in condensates"; Expanded View Figure 9
+  - **Issue** The poly-arginine experiments are used to support electrostatic interactions, but the physiological relevance of poly-arginine as a proxy for NSP2 is not discussed.
+  - **Required correction** Add a brief discussion of the limitations of using poly-arginine and how these experiments inform the proposed model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (allosteric switch claim requires direct evidence), R1-M2 (S67 phosphorylation must be confirmed), R1-M3 (quantitative data must be fully reported)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its approach of combining machine learning prediction with experimental validation to study phosphorylation-dependent phase separation in a viral system. The concept of phosphorylation as an allosteric regulator of condensate formation is not entirely new, but its application to rotavirus NSP5 is novel.
+  - Scientific importance: The findings have potential importance for understanding how viruses regulate the formation of replication compartments and how phosphorylation can modulate phase separation. The proposed dual role of phosphorylation is interesting but requires stronger evidence.
+  - Interdisciplinary readership: The work bridges computational biology, biophysics, biochemistry, and virology, which should appeal to a broad readership. However, the technical depth in each area may limit accessibility for non-specialists.
+  - Technical soundness: The experimental approaches are generally sound, but the key mechanistic claim of allostery is not fully supported. The lack of direct evidence for phosphorylation at S67 and incomplete quantitative reporting weaken the technical case.
+  - Readability for nonspecialists: The manuscript is generally well-written, but the results section is dense and would benefit from clearer explanations of the significance of each experiment. The model presented in the discussion is helpful but comes late in the manuscript.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that a low-propensity NSP5 variant requires phosphorylation for phase separation is interesting and potentially significant. However, the allosteric switch claim and the specific role of S67 phosphorylation need to be substantiated with additional experiments. The manuscript would be strengthened by testing natural low-propensity variants and providing more complete quantitative data.
+
+## Risk / unsupported claims
+- The claim of an "allosteric switch" between binding sites is not directly supported by the data presented. HDX-MS shows differential protection but does not demonstrate long-range conformational coupling.
+- The claim that phosphorylation is "critical" for SClow function rests on a single S67A mutant without direct evidence of S67 phosphorylation.
+- The generalization to "diverse rotaviruses" is not supported by experiments on natural variants; only one engineered consensus variant was tested.
+- The statement that DeeScore accurately predicts phase separation behavior is based on a limited number of tested variants (SA11, SClow, and phosphomimetic derivatives).
+- The physiological relevance of the in vitro phase separation assays using purified components is not fully established, as the cellular environment contains many additional factors that may influence condensate formation.

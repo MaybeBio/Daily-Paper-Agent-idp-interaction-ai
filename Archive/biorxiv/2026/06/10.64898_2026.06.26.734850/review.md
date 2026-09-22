@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented in the provided text
+- **Shared manuscript claim summary** The authors present SIDFold, an AlphaFold-derived deep learning network that integrates Surface-Induced Dissociation native Mass Spectrometry (SID-nMS) data into protein structure prediction. They claim that SIDFold improves multimeric protein structure prediction accuracy over standard AlphaFold and a previously published Rosetta-based SID-guided docking method, based on benchmarks using simulated and experimental SID-ERMS data.
+- **Visible evidence base** Abstract, Introduction, Methods (partial), Results and Discussion, Conclusion, Acknowledgements. No figures, tables, supplementary materials, or code were provided.
+- **Missing materials affecting confidence** Figures 1-4, Supplementary Figures S1, Supplementary Tables S1-S2, training configuration files, example scripts, dataset CSV files, and the GitHub repository contents were not provided. These are essential for verifying the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially significant advance in integrating experimental mass spectrometry data into deep learning-based protein structure prediction. The concept is timely and the reported improvements are notable. However, the provided text lacks the essential figures, quantitative details, and methodological specifics needed to evaluate the validity and robustness of the claims. The training dataset is very small (200 proteins), and the benchmark results are presented without statistical significance testing or error analysis. The manuscript is not yet suitable for publication without substantial additional evidence and clarification.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers in integrative structural biology would be interested. The work demonstrates a novel approach to incorporating experimental data into deep learning prediction, which could be broadly applicable. Researchers using native mass spectrometry to study protein complexes would also find this relevant, as it provides a direct pipeline from MS data to structure.
+- **Major strengths** The concept of integrating SID-nMS data into a deep learning framework is novel and addresses a real limitation in current multimer prediction methods. The authors have identified a clear gap (AlphaFold's reduced accuracy for multimers) and proposed a targeted solution. The use of a custom auxiliary loss function and modified recycling loop is a creative approach. The comparison against both AlphaFold and a Rosetta-based method provides a useful benchmark context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SIDFold improves multimer prediction accuracy over AlphaFold, with 138/227 improved cases on the BETA set and 18/20 improved cases on the experimental set.
+  - **Evidence pointer** Figures 2A-E, 3A-H, location not provided
+  - **Concern** The results are presented as aggregate counts and averages without any statistical analysis. No confidence intervals, standard deviations, or significance tests are reported. The claim of "improvement" is based on raw counts of cases with decreased RMSD, which does not account for the magnitude of improvement versus worsening, nor the possibility of random variation. The manuscript states "138 of 227 cases" improved, but does not report how many cases worsened and by how much, nor whether the distribution of improvements is statistically significant.
+  - **Why it matters** Without statistical rigor, the central claim of improved accuracy cannot be distinguished from noise, especially given the small training set and the possibility of overfitting to the benchmark sets. The reader cannot assess whether the improvement is meaningful or reproducible.
+  - **Resolution test** Provide per-case RMSD values, paired statistical tests (e.g., Wilcoxon signed-rank test) comparing SIDFold and AlphaFold predictions, and report effect sizes with confidence intervals. Show the full distribution of changes, not just counts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that SIDFold is the first deep learning network to integrate SID-nMS data and the first to use any native MS data for structure prediction.
+  - **Evidence pointer** Introduction, location not provided
+  - **Concern** The novelty claim is strong and requires a thorough literature search to substantiate. The authors do not cite or discuss any prior work that may have attempted similar integrations of MS data into deep learning structure prediction, nor do they discuss the broader landscape of experimental data integration into AlphaFold-based methods beyond Alphalink and DMSFold. The claim of "first" needs to be supported by a comprehensive review of the field.
+  - **Why it matters** If the novelty claim is overstated, the significance of the work is diminished. The authors need to demonstrate that they have thoroughly searched the literature and that no prior method has used nMS data in a deep learning context.
+  - **Resolution test** Provide a comprehensive literature review in the introduction or a dedicated section, explicitly addressing prior work on MS-guided structure prediction and experimental data integration into deep learning. Justify the "first" claim with specific evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SIDFold outperforms the Rosetta-based SID_ERMS_Rescore method, with 13/16 proteins predicted below 5 Å RMSD by SIDFold versus 3/16 by Rosetta.
+  - **Evidence pointer** Figure 4, location not provided
+  - **Concern** The comparison with the Rosetta method is incomplete. The authors state that SID_ERMS_Rescore could only predict dimeric forms of the pentamers and hexamer in the experimental set, preventing direct comparison for those four proteins. This is a significant limitation that is not adequately discussed. Furthermore, the Rosetta method requires a known monomer structure, while SIDFold does not, which is a fundamental difference in the problem setup. The comparison is therefore not apples-to-apples, and the authors do not discuss how this difference affects the interpretation of the results.
+  - **Why it matters** The claim of superiority over the Rosetta method is weakened by the incomplete comparison and the different problem formulations. The reader cannot determine whether SIDFold is genuinely better or simply solving a different problem.
+  - **Resolution test** Provide a more detailed comparison, including cases where both methods can be applied under equivalent conditions. Discuss the implications of the different input requirements and how the comparison should be interpreted.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the training set was filtered to 234 proteins, with 200 used for training and 34 for validation.
+  - **Evidence pointer** Methods, "Generation of training and validation dataset", location not provided
+  - **Concern** The training set is very small for a deep learning model, especially one derived from AlphaFold which was trained on hundreds of thousands of protein structures. The authors do not discuss the implications of this small training set, nor do they provide any analysis of potential overfitting. The validation set of 34 proteins is also small, and the benchmark set of 227 proteins is used for evaluation, but the manuscript does not clarify whether the benchmark set was used for any model selection or hyperparameter tuning, which would compromise its independence.
+  - **Why it matters** A small training set raises concerns about the generalizability of the model. The authors need to demonstrate that the model is not overfitted to the training data and that the reported improvements are not artifacts of the specific training set.
+  - **Resolution test** Provide learning curves, analysis of training and validation loss, and discuss the potential for overfitting. If possible, perform cross-validation or evaluate on an independent test set. Clarify the relationship between the benchmark set and the training/validation sets.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that SIDFold is freely available on GitHub with example files and commands in the Supplementary Information.
+  - **Evidence pointer** Conclusion, location not provided
+  - **Concern** The manuscript does not provide sufficient detail for reproducing the method. The training configuration, hyperparameters, and the exact implementation of the auxiliary loss function are described only at a high level. The PyRosetta SID_ERMS_Prediction application is cited but not described in detail. The GitHub repository was not provided for review, and the supplementary materials were not available.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without detailed methods and access to the code and data, other researchers cannot verify or build upon this work.
+  - **Resolution test** Provide the GitHub repository for review, include full training configuration files, and describe the SID_ERMS_Prediction application in sufficient detail. Ensure all supplementary materials are available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction contains a typo: "PPIs cause several diseases including cancer 1 , arrhythmogenesis 2 , Alzheimer's 3 , and Parkinson's 4 , among others." The comma placement after the citation numbers is inconsistent and distracting.
+  - **Required correction** Standardize citation formatting and punctuation throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Incorporation of an auxiliary loss function into OpenFold network"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the auxiliary loss function is unclear. The authors state that "the RMSE was set to 1.0 (Equation 1)" but do not explain the rationale for this specific value beyond stating it is not mathematically possible for actual simulated data. The relationship between the RMSE and the loss function (Equations 2 and 3) is not clearly explained.
+  - **Required correction** Provide a clearer explanation of the loss function design, including the rationale for the 1.0 penalty value and how the RMSE is incorporated into the total loss.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Finetuning Inference on SID-ERMS data"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the N-effective (Neff) subsampling strategy is brief. The authors state that sequences with over 90% similarity were rounded to 1.0, but do not specify the exact similarity threshold or the algorithm used for subsampling.
+  - **Required correction** Provide more detail on the subsampling procedure, including the exact similarity threshold and the algorithm used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "SIDFold with simulated SID-ERMS data improved predictions over AlphaFold"
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement "we saw improved accuracy in 138/227 proteins, as defined by a decreased Root Mean Square Deviation (RMSD)" is ambiguous. It is unclear whether this means the average RMSD across all proteins decreased, or whether 138 individual proteins had lower RMSD.
+  - **Required correction** Clarify the metric used and report both the number of improved cases and the overall average improvement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "SID-ERMS pLDDT score"
+  - **Evidence pointer** Location not provided
+  - **Issue** The SID_pLDDT score is described as a hybrid confidence score combining average pLDDT and RMSE, but the exact formula (Equation 4) is not provided in the text.
+  - **Required correction** Include the equation in the text or refer to the supplementary materials where it should be available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical analysis), R1-M3 (incomplete comparison with Rosetta method), R1-M4 (small training set and potential overfitting), R1-M5 (insufficient reproducibility details)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of integrating SID-nMS data into a deep learning structure prediction network is novel and represents a creative advance. However, the originality claim of being "first" needs to be more rigorously substantiated.
+  - Scientific importance: If the claims are validated, this work could have significant impact on integrative structural biology and the use of MS data in structure prediction. The potential to improve multimer prediction is important given the limitations of current methods.
+  - Interdisciplinary readership: The work bridges mass spectrometry, structural biology, and deep learning, and would appeal to researchers in all three fields. The writing is generally accessible, though some technical details may be challenging for non-specialists.
+  - Technical soundness: The technical approach is plausible, but the evidence presented is insufficient to establish its validity. The lack of statistical analysis, the small training set, and the incomplete comparison with existing methods are significant concerns.
+  - Readability for nonspecialists: The manuscript is generally well-written and the logic is clear. However, the methods section assumes familiarity with both AlphaFold architecture and SID-nMS, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the work has potential, but the manuscript requires substantial revisions, including statistical analysis, more detailed methods, and access to the code and data, before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that SIDFold is the "first deep learning network to integrate SID-nMS data" and "the first deep learning network to utilize nMS data for structure prediction" is not supported by a comprehensive literature review.
+- The claim of improved accuracy over AlphaFold is not supported by statistical analysis; the reported counts of improved cases do not establish significance.
+- The claim of improved accuracy over the Rosetta-based SID_ERMS_Rescore method is weakened by the incomplete comparison (4 of 20 proteins could not be compared).
+- The claim that the network is "directly using the SID-ERMS data" based on the nonsense data experiment is suggestive but not conclusive; the experiment only shows that incorrect data leads to incorrect predictions, which could also occur with a model that ignores the data and produces random outputs.
+- The performance of SIDFold on the BETA set is reported as improved in 138/227 cases, but the manuscript does not report the distribution of changes, the average improvement, or the number of cases that worsened significantly.

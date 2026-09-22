@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37106781",
+  "title": "SPEADI: Accelerated Analysis of IDP-Ion Interactions from MD-Trajectories.",
+  "authors": "de Bruyn, Emile; Dorn, Anton Emil; Zimmermann, Olav; Rossetti, Giulia",
+  "journal": "Biology",
+  "published_date": "2023-04-28",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于MD轨迹的时间分辨径向分布函数工具SPEADI，用于分析IDP与离子的动态相互作用，虽聚焦IDP-离子而非PPI，但动态环境表征方法对IDP互作机制建模有可迁移启发。",
+  "abstract": "The disordered nature of Intrinsically Disordered Proteins (IDPs) makes their structural ensembles particularly susceptible to changes in chemical environmental conditions, often leading to an alteration of their normal functions. A Radial Distribution Function (RDF) is considered a standard method for characterizing the chemical environment surrounding particles during atomistic simulations, commonly averaged over an entire or part of a trajectory. Given their high structural variability, such averaged information might not be reliable for IDPs. We introduce the Time-Resolved Radial Distribution Function (TRRDF), implemented in our open-source Python package SPEADI, which is able to characterize dynamic environments around IDPs. We use SPEADI to characterize the dynamic distribution of ions around the IDPs Alpha-Synuclein (AS) and Humanin (HN) from Molecular Dynamics (MD) simulations, and some of their selected mutants, showing that local ion-residue interactions play an important role in the structures and behaviors of IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的无序本质使其结构系综对化学环境条件的变化尤为敏感，这常导致其正常功能的改变。径向分布函数 (Radial Distribution Function, RDF) 被视为在原子模拟中表征粒子周围化学环境的标准方法，通常对整个或部分轨迹进行平均。鉴于 IDPs 的高度结构变异性，这种平均信息可能对其并不可靠。我们引入了时间分辨径向分布函数 (Time-Resolved Radial Distribution Function, TRRDF)，并在我们的开源 Python 包 SPEADI 中实现，该函数能够表征 IDPs 周围的动态环境。我们使用 SPEADI 从分子动力学 (Molecular Dynamics, MD) 模拟中表征 IDPs Alpha-Synuclein (AS) 和 Humanin (HN) 及其部分选定突变体周围的离子动态分布，表明局部离子-残基相互作用在 IDPs 的结构和行为中扮演重要角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37106781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37106781/",
+  "paper_page_path": "papers/pubmed/37106781/index.html"
+}

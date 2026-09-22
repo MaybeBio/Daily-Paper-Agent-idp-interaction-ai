@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2605.26027v1",
+  "title": "Liquid-Liquid Phase Separation in a Minimal Explicit-Solvent Lattice Model Mimicking Protein Solutions",
+  "authors": "Siddhartha Roy; Rakesh S. Singh",
+  "journal": "",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用显式溶剂晶格模型研究蛋白质-溶剂/拥挤剂相互作用对液-液相分离相图与形貌的调控，对象为相分离凝聚体但非IDP，方法为统计物理模型而非AI/MD，对无序蛋白PPI机制建模有可迁移的相行为调控思路。",
+  "abstract": "Biomolecular condensates play essential roles in cellular processes, and recent efforts have focused on understanding their assembly and rational design principles. In this study, we have employed an explicit-solvent minimal statistical mechanical model based on the lattice-gas Hamiltonian with quenched disorder -- which mimics crowders -- to investigate how protein-solvent and protein-crowder interactions influence condensate phase behavior and morphology. The computed phase diagrams reveal rich behavior, including upper critical solution temperature (UCST), closed-loop, and reentrant type transitions under varying protein-solvent interactions at both equilibrium and out-of-equilibrium conditions. We elucidated the origin of these phase behavior changes and examined the role of protein-crowder interactions in modulating condensed phase morphology and stability. We further extended this model to binary protein mixtures where we studied the phase behavior in the presence and absence of quenched disorder. Without disorder, the system exhibits diverse phase-separated morphologies -- partially wetted, fully wetted, segregative, and associative -- with phase boundaries delicately sensitive protein-solvent interactions. The introduction of quenched disorder (or crowder) leads to a broader spectrum of complex morphologies, dictated by the interplay among protein-protein, protein-solvent, and protein-crowder interaction parameters. In general, this work underscores that protein-solvent and protein-crowder interactions, together with protein-protein interactions, can act as key regulatory parameters for modulating condensate morphology. These insights may guide future computational and experimental studies of liquid-liquid phase separation in biomolecular systems aimed at designing stimuli-responsive condensates.",
+  "abstract_zh": "生物分子凝聚体在细胞过程中扮演着重要角色，近期的研究聚焦于理解其组装及理性设计原理。在本研究中，我们采用了一个基于含淬火无序（模拟拥挤剂）的晶格气体哈密顿量的显式溶剂最小统计力学模型，以探究蛋白质-溶剂和蛋白质-拥挤剂相互作用如何影响凝聚体的相行为与形态。计算得到的相图揭示了丰富的现象，包括在平衡和非平衡条件下，随蛋白质-溶剂相互作用变化而出现的上临界溶液温度（UCST）、闭环型和重入型转变。我们阐明了这些相行为变化的起源，并考察了蛋白质-拥挤剂相互作用在调节凝聚体形态和稳定性中的作用。我们进一步将该模型扩展到二元蛋白质混合物，研究了在有无淬火无序情况下的相行为。在无无序条件下，系统表现出多样化的相分离形态——部分润湿、完全润湿、分离型和缔合型——其相边界对蛋白质-溶剂相互作用高度敏感。引入淬火无序（或拥挤剂）后，产生了更广泛的复杂形态谱，这些形态由蛋白质-蛋白质、蛋白质-溶剂和蛋白质-拥挤剂相互作用参数之间的相互博弈所决定。总体而言，本工作强调蛋白质-溶剂和蛋白质-拥挤剂相互作用，连同蛋白质-蛋白质相互作用，可作为调节凝聚体形态的关键调控参数。这些见解可能为未来针对设计刺激响应型凝聚体的生物分子系统液-液相分离的计算和实验研究提供指导。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2605.26027v1",
+  "source_url": "https://arxiv.org/abs/2605.26027v1",
+  "paper_page_path": "papers/arxiv/2605.26027v1/index.html"
+}

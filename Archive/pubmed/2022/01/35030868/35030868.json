@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "35030868",
+    "doi": "10.1103/PhysRevE.104.064404",
+    "title": "Interactive patches over amyloid-beta oligomers mediate fractal self-assembly."
+  },
+  "content": {
+    "abstract": "The monomeric units of intrinsically disordered proteins self-assemble into oligomers, protofilaments, and eventually fibrils which may turn into amyloid. The aggregation of these proteins is primarily studied in bulk with no restriction on their degrees of freedom. Herein we experimentally demonstrate that amyloid-beta (Abeta) aggregation under diffusion-limited conditions leads to its fractal self-assembly. Confocal microscopy and scanning electron microscopy with energy dispersion x-ray analysis were used to confirm that the fractal self-assemblies were formed from Abeta rather than the salt present in the two supporting media: deionized water and phosphate buffered saline. The results from the molecular docking experiments implicated that electrostatic and hydrophobic patches on the solvent-accessible surface area of the Abeta oligomers mediate the fractal self-assembly. These implications were tested with laser light scattering experiments on the oligomers formed by breaking mature fibrils of Abeta through sonication, which were observed to self-assemble into fractals when sonicated solutions were drop casted. The electrostatic interactions modulate the fractal morphologies with pH of the solution, which leads to a morphological phase transition observed through the variation in their fractal dimension. These transitions provide experimental evidence for the existing theoretical framework in terms of different kinetic models. The higher surface-to-volume ratio of these fractal self-assemblies may have applications in drug delivery, biosensing, and other biomedical applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amyloid",
+      "*Amyloid beta-Peptides",
+      "*Fractals",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Anurag",
+        "Khatun, Suparna",
+        "Pawar, Nisha",
+        "Gupta, Amar Nath"
+      ],
+      "short_names": [
+        "Singh A",
+        "Khatun S",
+        "Pawar N",
+        "Gupta AN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India.",
+        "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India.",
+        "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India.",
+        "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Anurag",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India."
+        ]
+      },
+      {
+        "full_name": "Khatun, Suparna",
+        "short_name": "Khatun S",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India."
+        ]
+      },
+      {
+        "full_name": "Pawar, Nisha",
+        "short_name": "Pawar N",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Amar Nath",
+        "short_name": "Gupta AN",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Soft Matter Laboratory, Department of Physics, Indian Institute of Technology Kharagpur, 721302, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/16 06:00",
+    "fetched_at": "2026-09-20 07:38:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35030868",
+      "32159545",
+      "29508987",
+      "21687730",
+      "21769359",
+      "31138770",
+      "35381581",
+      "25050788",
+      "24368046",
+      "22077332",
+      "18937396",
+      "22547072",
+      "27091578",
+      "20018889",
+      "16091468",
+      "28267577",
+      "26073444",
+      "29239599",
+      "12623017",
+      "26479553",
+      "29953467",
+      "22101602",
+      "20713699",
+      "27852777",
+      "23936224",
+      "18215070",
+      "21957446",
+      "25207975",
+      "25229233",
+      "25029558",
+      "19108587",
+      "12484785",
+      "35521097",
+      "23775077",
+      "21428404",
+      "22778850",
+      "20338850",
+      "31474736",
+      "25153942",
+      "22860190",
+      "22870885",
+      "21945434",
+      "26194093",
+      "28067349",
+      "26970826",
+      "31566950",
+      "28684415",
+      "16041062",
+      "10354415",
+      "23811057",
+      "23927812",
+      "19385701",
+      "25874995",
+      "17492436",
+      "23713771",
+      "29872774",
+      "22486153",
+      "23009396",
+      "19309732",
+      "22281438",
+      "24012671",
+      "25880304",
+      "23904252",
+      "22954149",
+      "28294556",
+      "25955249",
+      "29338255",
+      "25700145",
+      "25068693",
+      "32666627",
+      "31747135",
+      "11907802",
+      "24075940",
+      "22468636",
+      "21568346",
+      "32771514",
+      "38353286",
+      "17605154",
+      "25756466",
+      "28478680",
+      "23926957",
+      "28571516",
+      "25406316",
+      "17280549",
+      "33119314",
+      "33865852",
+      "33687193",
+      "21614471",
+      "28587777",
+      "34078789",
+      "30638607",
+      "38600380",
+      "34325785",
+      "38394129",
+      "36625647",
+      "36401959",
+      "35061533",
+      "35385490",
+      "36265693",
+      "35784788",
+      "38790336",
+      "23795242",
+      "36816418"
+    ],
+    "review": [
+      "35030868",
+      "29508987",
+      "24368046",
+      "21614471"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

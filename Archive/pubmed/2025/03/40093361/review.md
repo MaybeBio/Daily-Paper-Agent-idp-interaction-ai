@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Acknowledgments) without figures, tables, appendices, or supplementary material
+- **Assessment boundary** Scientific claims, methodology description, and internal logic as presented in the text; statistical and computational details are assessed only insofar as they are described
+- **Shared manuscript claim summary** The authors propose that statistical features derived from two-chain contact maps, particularly the variance and spatial distribution of interchain monomer contacts, can predict heteropolymer phase separation more accurately than traditional metrics such as B22 and Rg. They demonstrate this in a minimal hydrophobic–polar (HP) copolymer model and a chemically specific coarse-grained intrinsically disordered protein (IDP) model, and they argue the approach is transferable across chemical spaces and computationally efficient.
+- **Visible evidence base** Text descriptions of simulation protocols, classification results (AUC values with uncertainties), and qualitative statements about power spectra and model performance; no figures, tables, appendices, or supplementary data are provided
+- **Missing materials affecting confidence** All figures (including the contact map examples, power spectra, and ROC curves), all appendices (model details, simulation protocols, logistic regression specifications), the supplementary information (sequence lists, additional results), and the actual dataset of 2034 IDPs and 75 HP sequences. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful idea: using spatial information from two-chain contact maps to predict phase separation in heteropolymers. The motivation is clear, and the authors identify a genuine limitation of B22-based approaches. However, the evidence as presented is incomplete. The central claims rest on simulation results and statistical analyses that are described only qualitatively in the text, with all quantitative support relegated to figures and appendices that were not provided. The distinction between "phase separation" and "finite-sized aggregation" is critical to the entire argument, yet the operational definition and the robustness of this classification are not described in the visible text. The manuscript would benefit from a more detailed description of the methods and results in the main text, or the review should be conducted with access to the full materials.
+- **Who would be interested in the results, and why** Researchers in polymer physics, soft matter theory, and biophysics, particularly those studying phase separation of intrinsically disordered proteins and sequence-dependent behavior of heteropolymers. The approach could be of interest to computational scientists developing predictive tools for biomolecular condensate formation and to experimentalists seeking physically interpretable descriptors for sequence design. The claim of transferability across models of different chemical complexity is potentially attractive to a broad community.
+- **Major strengths** The manuscript addresses a well-recognized problem (failure of B22 to predict phase separation in some heteropolymers) with a conceptually simple and physically motivated alternative. The use of contact maps retains spatial information that is lost in scalar metrics. The authors test their approach in two very different models, which strengthens the claim of transferability. The discussion of long-wavelength dominance and the split-sum analysis is thoughtful and adds mechanistic insight. The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that contact-map statistics "predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone" (Abstract) and report specific AUC values (e.g., 0.95 ± 0.003 for contact-map variance in the B22 = −1000σ³ dataset).
+  - **Evidence pointer** Results section, "Contact-map variance outperforms B22 and Rg in predicting phase separation"; Figure 3 (not provided)
+  - **Concern** All quantitative results, including the AUC values, the comparison between models, and the uncertainty estimates, are presented in figures that were not included in the provided material. The text states the numbers but provides no way to assess the underlying data, the statistical methodology, or the robustness of the results. The logistic regression details are deferred to Appendix D, which is also missing.
+  - **Why it matters** The central claim of the paper is that contact-map statistics outperform existing metrics. Without access to the actual results, the ROC curves, the cross-validation procedure, or the uncertainty quantification, this claim cannot be evaluated. The reported uncertainties (±0.003) are remarkably small and would require a detailed description of how they were computed to be credible.
+  - **Resolution test** Provide the figures and appendices, or include the key quantitative results (AUC values, confidence intervals, and the full logistic regression specifications) in the main text. The reviewer must be able to see the ROC curves and the distribution of results across train/test splits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The authors distinguish between "phase separation" and "finite-sized aggregation" and use this distinction as the ground truth for their classifiers (Results, first subsection).
+  - **Evidence pointer** Results section, "Hydrophobic–polar copolymers with identical B22 values exhibit divergent phase behaviors"; Appendix B (not provided)
+  - **Concern** The manuscript relies on a binary classification of sequences as either "phase separating" or "aggregating," but the operational definition of this distinction is not described in the visible text. The authors state that this is "determined using direct-coexistence simulations in a slab geometry" but do not explain the criteria used to classify a sequence as one or the other. This is a critical issue because the entire predictive framework depends on this ground truth. If the classification is ambiguous or depends on simulation parameters, the reported AUC values could be misleading.
+  - **Why it matters** The distinction between phase separation and aggregation is physically subtle. Finite-sized aggregates can be precursors to phase separation, and the boundary between the two regimes may depend on system size, simulation time, or the specific observable used to define coexistence. Without a clear description of the classification criteria, the reader cannot assess whether the ground truth is meaningful or whether the classifiers are simply learning an artifact of the simulation protocol.
+  - **Resolution test** Provide a detailed description of the direct-coexistence simulation protocol and the criteria used to classify sequences as phase-separating versus aggregating. Include information on system sizes, simulation times, and the specific observables used to determine coexistence. If possible, show representative density profiles or cluster size distributions for both classes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim their approach is "transferable across different heteropolymer models" and "independent of the chemical details or coarse-graining resolution of a particular heteropolymer model" (Introduction, Discussion).
+  - **Evidence pointer** Results section, "Contact-map statistics are more discriminating than B22 and Rg in a coarse-grained IDP model"; Figure 6 (not provided)
+  - **Concern** The transferability claim is based on results from only two models: a minimal HP model with a single interaction length scale and the HPS IDP model with multiple interaction types. While these are useful test cases, they do not establish general transferability. The authors acknowledge that the contact-map mean becomes important in the IDP model but not in the HP model, which suggests that the relevant statistics may be model-dependent. It is unclear how the approach would perform in models with different interaction ranges, different numbers of monomer types, or different solvent conditions.
+  - **Why it matters** The stated goal is a method that works "across diverse heteropolymer chemistries." If the optimal set of contact-map statistics varies from model to model, the approach may require case-by-case tuning, which would limit its practical utility. The manuscript does not provide guidance on how to select the appropriate statistics for a new model.
+  - **Resolution test** Discuss the conditions under which the approach might fail or require modification. If possible, include results from a third model with qualitatively different interaction chemistry (e.g., a model with both short-range attractions and long-range repulsions, or a model with explicit solvent). Alternatively, provide a theoretical argument for why the contact-map statistics should be universally informative.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors interpret the predictive power of contact-map variance in terms of "uniform monomer–monomer interactions promote collective interactions that lead to phase separation" and "heterogeneous interactions...tend to create localized 'hot spots' that stabilize finite-sized clusters" (Discussion).
+  - **Evidence pointer** Discussion section
+  - **Concern** The mechanistic interpretation is plausible but is not directly tested. The authors do not provide evidence that sequences classified as phase-separating actually have more uniform contact maps in a way that corresponds to a physical mechanism, nor do they show that the "hot spots" in aggregating sequences correspond to specific monomer pairs that drive clustering. The connection between contact-map statistics and the many-body interactions that govern phase separation is asserted rather than demonstrated.
+  - **Why it matters** The stated value of the approach is not just prediction but also insight into "the physical mechanisms that govern heteropolymer phase behavior." If the interpretation is incorrect, the approach may still be useful for prediction but would not provide the mechanistic understanding claimed.
+  - **Resolution test** Provide direct evidence linking contact-map statistics to physical mechanisms. For example, show that sequences with high contact-map variance have clustered interaction sites that can be identified in the contact map, or that the power spectrum of the contact map correlates with the structure of the dense phase in phase-separating systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of contact map
+  - **Evidence pointer** Results section, "Contact-map variance outperforms B22 and Rg in predicting phase separation"
+  - **Issue** The definition of a "contact" is not stated in the visible text. The authors mention a cutoff distance rc = 3σ for the HP model but do not specify how contacts are defined for the IDP model or how the contact map is normalized.
+  - **Required correction** Provide a clear definition of the contact map, including the contact criterion, normalization, and any dependence on simulation parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Uncertainty quantification
+  - **Evidence pointer** Results section, "Contact-map variance outperforms B22 and Rg in predicting phase separation"
+  - **Issue** The reported AUC uncertainties (±0.003 to ±0.01) are very small, but the method for computing them is not described. It is unclear whether these are standard errors across train/test splits, bootstrap confidence intervals, or something else.
+  - **Required correction** Describe how uncertainties were computed and report the number of train/test splits or bootstrap resamples used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Acknowledgments
+  - **Issue** The authors state that "Simulation and analysis scripts can be obtained at https://github.com/wmjac/heteropolymer-phase-separation," but no version, commit hash, or license information is provided.
+  - **Required correction** Provide a specific version or commit identifier and a license to ensure reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Results section, "Contact-map statistics are more discriminating than B22 and Rg in a coarse-grained IDP model"
+  - **Issue** The IDP dataset is described as containing 2034 sequences, but the composition of this dataset (e.g., how many are natural vs. designed, the range of sequence properties) is not described in the visible text.
+  - **Required correction** Provide a brief description of the dataset composition, including the source of the sequences and the range of sequence properties represented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative evidence) and R1-M2 (unclear ground truth definition) are blocking. Without access to the figures and appendices, the central claims cannot be verified. The definition of phase separation versus aggregation is essential to the entire framework and must be described in detail.
+
+## Risk / unsupported claims
+- The claim that contact-map statistics "vastly outperform" B22 and Rg cannot be evaluated without the figures and appendices.
+- The claim that the approach is "transferable across different heteropolymer models" is supported by only two model systems and may be overstated.
+- The mechanistic interpretation of contact-map variance in terms of "hot spots" and "uniform interactions" is plausible but not directly tested.
+- The claim that the approach is "computationally efficient" is not quantified; no comparison of computational cost between contact-map calculation and alternative methods is provided.
+- The statement that "long-wavelength modes contain essentially the same information for predicting phase separation as the total contact-map variance" is based on results shown only in figures.
+- The claim that the approach "could be extended to multicomponent heteropolymer mixtures" is speculative and not supported by any results.

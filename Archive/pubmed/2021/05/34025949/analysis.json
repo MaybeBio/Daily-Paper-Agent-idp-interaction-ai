@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34025949",
+  "title": "Assessment of transferable forcefields for protein simulations attests improved description of disordered states and secondary structure propensities, and hints at multi-protein systems as the next challenge for optimization.",
+  "authors": "Abriata, Luciano A; Dal Peraro, Matteo",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-05-25",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统评估多种分子动力学力场对无序蛋白构象及弱二聚化/聚集倾向的描述，虽非直接建模PPI机制，但为无序蛋白互作模拟的力场选择提供关键基准与启发。",
+  "abstract": "Continuous assessment of transferable forcefields for molecular simulations is essential to identify their weaknesses and direct improvement efforts. The latest efforts focused on better describing disordered proteins while retaining proper description of folded domains, important because forcefields of the previous generations produce overly compact disordered states. Such improvements should additionally alleviate the related problem of over-stabilized protein-protein interactions, which has been largely overlooked. Here we evaluated three state-of-the-art forcefields, current flagships of their respective developers, optimized for ordered and disordered proteins: CHARMM36m with its recommended corrected TIP3P* water, ff19SB with the recommended OPC water, and the 2019 a99SBdisp forcefield by D. E. Shaw Research with its modified TIP4P water; plus ff14SB with TIP3P as an example of the former generation of forcefields. Our evaluation entailed simulations of (i) multiple copies of a protein that is highly soluble yet undergoes weak dimerization, (ii) a disordered peptide with low, well-characterized alpha helical propensity, and (iii) a peptide known to form insoluble beta-aggregates. Our results recapitulate ff14SB-TIP3P over-stabilizing aggregates and secondary structures and place a99SBdisp-TIP4PD at the other end i.e. predicting overly weak intermolecular interactions despite reasonably predicting secondary structure propensities. In-between, CHARMM36m-TIP3P* still over-stabilizes aggregates but predicts residue-wise alpha helical propensities in solution slightly better than ff19SB-OPC, while ff19SB-OPC poses the best prediction of weak dimerization of the soluble protein still predicting aggregation of the beta-peptides. This independent assessment shows that the claimed forcefield improvements are real, but also that a right balance between noncovalent attraction and repulsion has not yet been reached. We thus propose developers to consider systems like those tested here in their forcefield tuning protocols. Last, the good performance of CHARMM36m-TIP3P* further shows that tuning 3-point water models might still be an alternative to the more costly 4-point models like OPC and TIP4PD.",
+  "abstract_zh": "对可迁移力场进行持续评估对于分子模拟至关重要，以识别其弱点并指导改进工作。最新努力聚焦于更好地描述无序蛋白质，同时保持对折叠结构域的正确描述，这一点很重要，因为前几代力场会产生过度紧凑的无序状态。此类改进还应缓解相关的蛋白质-蛋白质相互作用过度稳定问题，而这一问题在很大程度上被忽视了。在此，我们评估了三种最先进的力场，它们是各自开发者当前的旗舰版本，针对有序和无序蛋白质进行了优化：CHARMM36m及其推荐的校正TIP3P*水模型，ff19SB及其推荐的OPC水模型，以及D. E. Shaw Research的2019 a99SBdisp力场及其改进的TIP4P水模型；此外，还包括ff14SB与TIP3P作为前一代力场的示例。我们的评估涉及模拟：（i）一种高度可溶但发生弱二聚化的蛋白质的多个拷贝，（ii）一种具有低且特征明确的α螺旋倾向性的无序肽，以及（iii）一种已知会形成不溶性β聚集体的肽。我们的结果重现了ff14SB-TIP3P过度稳定聚集体和二级结构，并将a99SBdisp-TIP4PD置于另一端，即尽管合理预测了二级结构倾向性，但预测的分子间相互作用过弱。介于两者之间，CHARMM36m-TIP3P*仍过度稳定聚集体，但在溶液中残基级α螺旋倾向性的预测上略优于ff19SB-OPC，而ff19SB-OPC对可溶蛋白弱二聚化的预测最佳，但仍预测β肽会发生聚集。这项独立评估表明，所声称的力场改进是真实的，但非共价吸引与排斥之间的正确平衡尚未达到。因此，我们建议开发者在其力场调优协议中考虑像这里测试的系统。最后，CHARMM36m-TIP3P*的良好表现进一步表明，调优三点水模型可能仍是比OPC和TIP4PD等更昂贵的四点模型更可行的替代方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34025949/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34025949/",
+  "paper_page_path": "papers/pubmed/34025949/index.html"
+}

@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "35474477",
+    "doi": "10.1093/nar/gkac279",
+    "title": "GraPES: The Granule Protein Enrichment Server for prediction of biological condensate constituents."
+  },
+  "content": {
+    "abstract": "Phase separation-based condensate formation is a novel working paradigm in biology, helping to rationalize many important cellular phenomena including the assembly of membraneless organelles. Uncovering the functional impact of cellular condensates requires a better knowledge of these condensates' constituents. Herein, we introduce the webserver GraPES (Granule Protein Enrichment Server), a user-friendly online interface containing the MaGS and MaGSeq predictors, which provide propensity scores for proteins' localization into cellular condensates. Our webpage contains models trained on human (Homo sapiens) and yeast (Saccharomyces cerevisiae) stress granule proteins. MaGS utilizes experimentally-based protein features for prediction, whereas MaGSeq is an entirely protein sequence-based implementation. GraPES is implemented in HTML/CSS and Javascript and is freely available for public use at https://grapes.msl.ubc.ca/. Documentation for using the provided webtools, descriptions of their methodology, and implementation notes can be found on the webpage.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Amino Acid Sequence",
+      "*Computers",
+      "Heat-Shock Proteins/metabolism",
+      "Organelles/metabolism",
+      "*Ribonucleoproteins/chemistry/metabolism",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "*Stress Granules/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kuechler, Erich R",
+        "Jacobson, Matthew",
+        "Mayor, Thibault",
+        "Gsponer, Jorg"
+      ],
+      "short_names": [
+        "Kuechler ER",
+        "Jacobson M",
+        "Mayor T",
+        "Gsponer J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3672-6594"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kuechler, Erich R",
+        "short_name": "Kuechler ER",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Jacobson, Matthew",
+        "short_name": "Jacobson M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Mayor, Thibault",
+        "short_name": "Mayor T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Gsponer, Jörg",
+        "short_name": "Gsponer J",
+        "identifiers": [
+          "0000-0003-3672-6594"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michael Smith Laboratories, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Jul 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/28 06:00",
+    "fetched_at": "2026-09-20 09:58:54"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41039633",
+      "40867524",
+      "40157939",
+      "39243101",
+      "39133858",
+      "37906643",
+      "37582635",
+      "37171907",
+      "37159024",
+      "36979462",
+      "36164646",
+      "35858568"
+    ],
+    "refs": [],
+    "similar": [
+      "35474477",
+      "32105731",
+      "34772786",
+      "34772789",
+      "38942013",
+      "34670846",
+      "27359124",
+      "29898402",
+      "34613784",
+      "31745569",
+      "32464092",
+      "26503781",
+      "35148816",
+      "35764627",
+      "23105015",
+      "32726575",
+      "33377110",
+      "33856219",
+      "36592044",
+      "29483269",
+      "30054385",
+      "36979462",
+      "30587571",
+      "27602576",
+      "34390821",
+      "20946828",
+      "35171482",
+      "31444270",
+      "34672913",
+      "33650968",
+      "34718740",
+      "31928844",
+      "24033457",
+      "31753533",
+      "31199001",
+      "33138914",
+      "35687670",
+      "34788540",
+      "36572187",
+      "29509422",
+      "30099026",
+      "18981231",
+      "33513942",
+      "32001628",
+      "21172806",
+      "1394434",
+      "29915153",
+      "35168563",
+      "24512104",
+      "21943185",
+      "30045872",
+      "29632271",
+      "34129687",
+      "29258725",
+      "23637899",
+      "32553117",
+      "36288994",
+      "30400756",
+      "36028355",
+      "33049246",
+      "22688810",
+      "31626750",
+      "31076235",
+      "23022486",
+      "35325654",
+      "20368989",
+      "32548680",
+      "25342717",
+      "31239354",
+      "32302572",
+      "10888672",
+      "33376791",
+      "35801939",
+      "33126250",
+      "32302571",
+      "23451152",
+      "10444597",
+      "31612960",
+      "32359423",
+      "18218704",
+      "34571008",
+      "34665639",
+      "35208686"
+    ],
+    "review": [
+      "35474477",
+      "34772786",
+      "34772789",
+      "34670846",
+      "31745569",
+      "32726575",
+      "30587571",
+      "31444270",
+      "31753533",
+      "33138914",
+      "29509422",
+      "30099026",
+      "33513942",
+      "30045872",
+      "29632271",
+      "29258725",
+      "36028355",
+      "22688810",
+      "31626750",
+      "31076235",
+      "32548680"
+    ],
+    "pmc": [
+      "9252806"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35474477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35474477",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35474477",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac279",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

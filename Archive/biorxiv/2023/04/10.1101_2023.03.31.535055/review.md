@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that the nuclear pore complex (NPC) permeability barrier in yeast is a highly dynamic radial polymer brush formed by FG nucleoporin domains, that this brush creates transient voids enabling selective transport, that the central plug is a dynamic assembly of FG domains and transport factors, that longer FG domains lead to meshwork-like behavior with reduced transport in vivo, that in vitro FG hydrogels do not recapitulate native NPC behavior, and that the barrier is not a self-assembling phase condensate.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, imaging details, mutant characterization, in vivo transport assays, and comparison datasets for in vitro hydrogels and condensates
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially significant model for NPC permeability barrier function, supported by claims of direct nanoscopic observation in vivo. However, the absence of methodological detail and quantitative evidence prevents verification of the central claims. The distinction between polymer brush and phase condensate models is conceptually important, but the evidence base provided is insufficient to establish the case.
+- **Who would be interested in the results, and why** Cell biologists studying nucleocytoplasmic transport, biophysicists interested in intrinsically disordered proteins and polymer physics, structural biologists working on nuclear pore complexes, and researchers investigating phase separation in cellular contexts. The results could reshape understanding of selective gating mechanisms and inform models of transport kinetics.
+- **Major strengths** The study addresses a long-standing controversy with direct in vivo nanoscopic measurements. The proposal of a dynamic polymer brush model with transient voids is mechanistically plausible and testable. The inclusion of mutant phenotypes and comparison with in vitro systems adds biological relevance. The claim that transport factors enhance gating selectivity is a novel integrative concept.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have determined the nanoscopic behavior of the permeability barrier directly within yeast NPCs at transport-relevant timescales.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological information is provided regarding the imaging technique, resolution, labeling strategy, or timescale of observation. The claim of direct nanoscopic determination requires validation of the experimental approach.
+  - **Why it matters** Without knowing the spatial and temporal resolution, the interpretation of FG domain dynamics and void formation cannot be assessed. Artifacts from labeling or sample preparation could confound the conclusions.
+  - **Resolution test** Provide details of the imaging modality, resolution limits, labeling strategy, and control experiments demonstrating that the observed dynamics are not artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that NPC mutants with longer FG domains show interweaving meshwork-like behavior that attenuates nucleocytoplasmic transport in vivo.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal link between FG domain length, meshwork behavior, and transport attenuation is asserted without quantitative data. No transport rates, mutant characterization, or statistical comparisons are provided.
+  - **Why it matters** This is a key functional claim linking structural behavior to physiological outcome. Without quantitative transport measurements and appropriate controls, the conclusion is unsupported.
+  - **Resolution test** Present quantitative transport assays for wild-type and mutant strains, with statistical analysis and demonstration that the meshwork phenotype is directly attributable to FG domain length.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** The authors claim that in vitro FG domain hydrogels do not recapitulate bona fide nanoscale NPC behaviors and morphologies, and that NPCs exclude self-assembling FG domain condensates in vivo.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The comparison between in vitro systems and in vivo NPC behavior is stated as a definitive conclusion, but no data are shown. The criteria for "recapitulation" and the specific differences observed are not defined.
+  - **Why it matters** This claim is central to ruling out the phase condensate model. Without explicit comparative data and defined metrics, the conclusion cannot be evaluated.
+  - **Resolution test** Provide side-by-side comparisons of in vitro hydrogels and in vivo NPCs using the same imaging and analysis methods, with clear metrics for morphology and dynamics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the permeability barrier is largely a polymer brush organized by the NPC scaffold, with gating selectivity strongly enhanced by transport factors.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The quantitative contribution of transport factors to gating selectivity is not described. No measurements of selectivity enhancement or mechanistic explanation are provided.
+  - **Why it matters** This is a central mechanistic claim that distinguishes the proposed model from alternatives. Without quantitative support, the claim remains speculative.
+  - **Resolution test** Provide quantitative measurements of transport selectivity with and without transport factors, and a mechanistic model supported by data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "radial polymer brush" is introduced without definition or context for nonspecialist readers.
+  - **Required correction** Define the term and briefly explain its relevance to NPC architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Central plug description
+  - **Evidence pointer** Abstract
+  - **Issue** The relationship between the central plug and the polymer brush model is unclear. The plug is described as a feature formed with transport factors, but its functional role is not specified.
+  - **Required correction** Clarify whether the plug is a consequence of transport activity or a structural component of the barrier.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutant description
+  - **Evidence pointer** Abstract
+  - **Issue** The nature of the FG domain length mutants is not described, including which nucleoporins were modified and the extent of length change.
+  - **Required correction** Specify the mutants used and the range of FG domain lengths tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of methodological detail and quantitative data for all central claims prevents verification of the proposed model.
+- **Assessment against Nature-style criteria** Originality is high, as the dynamic polymer brush model with transient voids and transport factor enhancement is a novel synthesis. Scientific importance is substantial given the long-standing controversy over NPC gating mechanisms. Interdisciplinary readership is likely, spanning cell biology, biophysics, and structural biology. Technical soundness cannot be assessed from the abstract alone, as no methods or data are provided. Readability for nonspecialists is moderate, with some jargon that requires definition.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and potentially significant, but the abstract alone does not provide sufficient technical or quantitative support. A full manuscript with detailed methods, controls, and quantitative analyses would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim of direct nanoscopic determination of barrier behavior is unsupported without methodological details.
+- The causal link between FG domain length, meshwork behavior, and transport attenuation is unsupported without quantitative data.
+- The conclusion that in vitro hydrogels do not recapitulate NPC behavior is unsupported without comparative data.
+- The claim that the barrier is not a phase condensate is unsupported without direct evidence excluding condensation mechanisms.
+- The enhancement of gating selectivity by transport factors is stated without quantitative support.

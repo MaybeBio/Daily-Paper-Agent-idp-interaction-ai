@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42248893",
+  "title": "Targeting the intrinsically disordered AR-NTD through a machine learning-based enhanced sampling workflow.",
+  "authors": "Zhu, Kai; Wang, Huating; Zhang, Jintu; Hu, Renling; Jiang, Linlong; Zhang, Hui; Kang, Yu; Hou, Tingjun; Li, Dan",
+  "journal": "Nature communications",
+  "published_date": "2026-06-06",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用机器学习增强采样工作流靶向无序AR-NTD，揭示其与调节剂EPI-002的结合机制并设计拮抗剂K53，虽侧重配体而非PPI，但无序蛋白构象与结合机制建模方法对本课题有直接借鉴价值。",
+  "abstract": "Targeting the intrinsically disordered N-terminal domain of the androgen receptor (AR-NTD) represents a promising strategy to overcome resistance in prostate cancer. However, its inherent lack of a stable tertiary structure and highly dynamic conformational ensemble pose formidable challenges for rational drug design. This study introduces an integrated computational workflow that combines enhanced sampling techniques and machine learning collective variables to identify druggable conformations of the AR-NTD and elucidate the binding mechanism of its modulator, EPI-002. We characterize nine metastable states of the Tau-5 region and reveal that ligand recognition is driven by pi-pi stacking and structured water-mediated hydrogen bonds. Leveraging these insights, we perform structure-based virtual screening based on the identified druggable conformations and identify K53, a rationally designed AR-NTD antagonist, which exhibits potent anti-proliferative activity in enzalutamide-resistant prostate cancer cells. K53 directly binds the AR-NTD, suppresses AR transcriptional activity, and demonstrates high selectivity for cancer cells. This work provides a rational design paradigm for targeting intrinsically disordered proteins and offers a therapeutic candidate for resistant prostate cancer.",
+  "abstract_zh": "靶向雄激素受体 intrinsically disordered N 端结构域（AR-NTD）代表了一种克服前列腺癌耐药性的有前景策略。然而，其固有缺乏稳定三级结构及高度动态的构象集合，对合理药物设计构成了严峻挑战。本研究引入了一种集成计算工作流程，结合增强采样技术和机器学习集体变量，以识别 AR-NTD 的可成药构象，并阐明其调节剂 EPI-002 的结合机制。我们表征了 Tau-5 区域的九个亚稳态状态，并揭示配体识别由 pi-pi 堆积和结构化水介导的氢键驱动。利用这些见解，我们基于已识别的可成药构象进行基于结构的虚拟筛选，并鉴定出 K53，一种合理设计的 AR-NTD 拮抗剂，在恩杂鲁胺耐药的前列腺癌细胞中表现出强效抗增殖活性。K53 直接结合 AR-NTD，抑制 AR 转录活性，并展示出对癌细胞的高选择性。这项工作为靶向 intrinsically disordered 蛋白提供了合理设计范式，并为耐药性前列腺癌提供了治疗候选药物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42248893/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42248893/",
+  "paper_page_path": "papers/pubmed/42248893/index.html"
+}

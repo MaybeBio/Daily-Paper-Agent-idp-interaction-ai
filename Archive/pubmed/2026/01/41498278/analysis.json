@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41498278",
+  "title": "Dynamics of phase separation in non-local elastic networks.",
+  "authors": "Paulin, Oliver W; Qiang, Yicheng; Zwicker, David",
+  "journal": "Soft matter",
+  "published_date": "2026-01-07",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用大变形孔隙弹性理论建模弹性网络中的相分离动力学，虽对象为合成凝胶而非IDP，但非局域弹性抑制粗化形成图案化凝聚体的机制建模思路对IDR相分离与细胞骨架互作研究有可迁移启发。",
+  "abstract": "Phase separation of a liquid mixture embedded within an elastic network is relevant to a wide range of natural and industrial systems, including biomolecular condensates interacting with the cytoskeleton, structural colouring in bird feathers, and gas bubbles forming within soft sediments. Recent experiments in synthetic polymer gels have demonstrated that when the size of phase-separated domains is comparable to the characteristic pore size of the network, a patterned phase with a well-defined length scale may emerge. Theoretical works based on an equilibrium approach have attributed this pattern formation to non-local elastic effects arising from heterogeneity of the underlying network. Here, we extend these ideas by developing a dynamic theory in which phase separation is coupled to non-local elasticity via the framework of large-deformation poroelasticity. We study our model via both linear stability analysis and numerical simulation, identifying the parameter space in which phase separation occurs, and investigating the impact of different elasticity models. We find that although local elasticity can inhibit phase separation and affect domain count, it is unable to completely suppress coarsening. In contrast, non-local elasticity arrests coarsening to form patterned domains with a well-defined length scale that decreases with increasing stiffness. Our modelling framework thus paves the way for quantitative comparisons between simulations and experiments, for example by considering a strain-stiffening network rheology.",
+  "abstract_zh": "嵌入弹性网络中的液体混合物相分离与广泛的自然和工业系统相关，包括与细胞骨架相互作用的生物分子凝聚体、鸟类羽毛中的结构色，以及软沉积物中形成的气泡。近期在合成聚合物凝胶中的实验表明，当相分离域的尺寸与网络的特征孔径相当时，可能会出现具有明确长度尺度的图案化相。基于平衡态方法的理论工作将这种图案形成归因于底层网络异质性引起的非局部弹性效应。在此，我们通过发展一种动态理论来扩展这些想法，其中相分离通过大变形孔隙弹性框架与非局部弹性耦合。我们通过线性稳定性分析和数值模拟研究我们的模型，识别发生相分离的参数空间，并考察不同弹性模型的影响。我们发现，尽管局部弹性可以抑制相分离并影响域数量，但它无法完全阻止粗化。相比之下，非局部弹性阻止粗化，形成具有明确长度尺度的图案化域，该尺度随刚度增加而减小。因此，我们的建模框架为模拟与实验之间的定量比较铺平了道路，例如通过考虑应变硬化网络流变学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41498278/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41498278/",
+  "paper_page_path": "papers/pubmed/41498278/index.html"
+}

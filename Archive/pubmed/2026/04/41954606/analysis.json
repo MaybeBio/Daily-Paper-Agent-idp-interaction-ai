@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41954606",
+  "title": "Beyond a Passive Tether: Structural Insights into the Disordered Tail of Hsp90.",
+  "authors": "Edinach, Elena; Giannouli, Angeliki; Dalaloyan, Arina; Oranges, Maria; Banik, Debasis; Yardeni, Elian Hadas; Elimelech, Annika; Sattler, Michael; Ntermanakis, Emmanouil; Su, Xun-Cheng; Goldfarb, Daniella",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过EPR/DEER和NMR研究Hsp90无序C端尾巴的构象及其与TPR共伴侣Cpr6结合时的结构响应，揭示IDR在PPI中的主动结构调节作用，但方法为实验谱学而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "The molecular chaperone Hsp90 is an abundant and essential homodimer that supports the stability and folding of hundreds of client proteins in cells. Its C-terminal domain (CTD) mediates dimerization and serves as a docking site for cochaperones bearing tetratricopeptide repeat (TPR) domains, which recognize the conserved MEEVD motif located at the end of an intrinsically disordered CTD tail. Despite its conservation, the structural role of this tail remains poorly understood. We investigated the conformational behavior of the yeast Hsp90 (yHsp90) CTD tail and its response to the binding of the TPR-containing PPIase cochaperone Cpr6. Using site-directed spin labeling with nitroxide and Gd(III) labels, we examined full-length yHsp90 (FL), isolated CTD (IsoC), and tail-truncated variants by double electron-electron resonance (DEER) and EPR spectroscopy. The CTD tails in IsoC and FL adopted distinct conformational ensembles, attributed to intramolecular interactions with the middle domain in FL. Cpr6 binding abolished these differences, indicating disruption of intramolecular tail contacts. In IsoC, the tail also stabilized an additional CTD conformation near the dimer interface that was absent in FL and was lost upon tail truncation, consistent with tail-CTD interactions observed by NMR. This population was reduced upon Cpr6 binding, shifting the IsoC conformational distribution toward that of FL. Additionally, this population was reduced in cellular environments and mimics. Together, our results demonstrate that the disordered CTD tail is an active structural element that modulates both its own conformational ensemble and CTD architecture, highlighting its potential functional relevance in the Hsp90 chaperone cycle.",
+  "abstract_zh": "分子伴侣Hsp90是一种丰富且必需的同源二聚体，支持细胞内数百种客户蛋白的稳定性和折叠。其C端结构域（CTD）介导二聚化，并作为携带四肽重复（TPR）结构域的辅助伴侣蛋白的对接位点，这些辅助伴侣蛋白识别位于内在无序CTD尾部末端的保守MEEVD基序。尽管该尾部具有保守性，但其结构作用仍知之甚少。我们研究了酵母Hsp90（yHsp90）CTD尾部的构象行为及其对含TPR的PPIase辅助伴侣蛋白Cpr6结合的响应。利用氮氧化物和Gd(III)标记的定点自旋标记，我们通过双电子-电子共振（DEER）和EPR光谱检查了全长yHsp90（FL）、分离的CTD（IsoC）和尾部截短变体。IsoC和FL中的CTD尾部采用了不同的构象集合，这归因于FL中与中间结构域的分子内相互作用。Cpr6结合消除了这些差异，表明分子内尾部接触被破坏。在IsoC中，尾部还稳定了二聚体界面附近的一种额外CTD构象，该构象在FL中不存在，并在尾部截短后丢失，这与NMR观察到的尾部-CTD相互作用一致。该群体在Cpr6结合后减少，使IsoC的构象分布向FL方向转变。此外，该群体在细胞环境和模拟物中减少。综合来看，我们的结果表明，无序CTD尾部是一个活跃的结构元件，调节其自身的构象集合和CTD架构，突显了其在Hsp90伴侣循环中的潜在功能相关性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41954606/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41954606/",
+  "paper_page_path": "papers/pubmed/41954606/index.html"
+}

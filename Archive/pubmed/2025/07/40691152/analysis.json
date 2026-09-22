@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40691152",
+  "title": "Structural host-virus interactome profiling of intact infected cells.",
+  "authors": "Bogdanow, Boris; Muhlberg, Lars; Gruska, Iris; Vetter, Barbara; Ruta, Julia; Elofsson, Arne; Wiebusch, Luder; Liu, Fan",
+  "journal": "Nature communications",
+  "published_date": "2025-07-22",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过交联质谱结合AlphaFold建模解析完整感染细胞中病毒-宿主PPI的结构互作组，涵盖无序区域，虽非IDP专一但机制建模方法可迁移。",
+  "abstract": "Virus-host protein-protein interactions (PPIs) are fundamental to viral infections, yet high-resolution identification of their structural and molecular determinants within the native context of intact infected cells has remained an unsolved challenge. Here, we provide detailed insights into the structural interactome of herpes simplex virus 1-infected human cells by combining in-cell cross-linking mass spectrometry with the selective enrichment of newly synthesized viral proteins. In productively infected cells, we obtain 739 PPIs based on 6,194 cross-links found across intracellular compartments and at the intact host endomembrane system. These structural host-virus interactome profiling (SHVIP) data resolve PPIs to the protein domain level and augment AlphaFold-based structural modeling, facilitating detailed predictions of PPI sites within structured and intrinsically disordered regions. Importantly, SHVIP captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches. Validation by molecular genetics confirms that these new SHVIP identifications are genuine virus-host PPIs occurring in the complex environment of intact infected cells.",
+  "abstract_zh": "病毒-宿主蛋白-蛋白相互作用（PPIs）是病毒感染的基础，但在完整感染细胞的天然背景下，对其结构和分子决定因素进行高分辨率鉴定仍是一个未解决的挑战。在此，我们通过结合细胞内交联质谱法与新合成病毒蛋白的选择性富集，提供了单纯疱疹病毒1型感染人细胞的结构相互作用组详细见解。在生产性感染细胞中，我们基于在细胞内区室及完整宿主内膜系统上发现的6,194个交联，获得了739个PPIs。这些结构宿主-病毒相互作用组谱（SHVIP）数据将PPIs解析至蛋白结构域水平，并增强了基于AlphaFold的结构建模，促进了对结构化及内在无序区域内PPI位点的详细预测。重要的是，SHVIP捕获了传统相互作用蛋白质组学方法难以触及的病毒-宿主PPI空间部分。分子遗传学验证确认，这些新的SHVIP鉴定结果是在完整感染细胞复杂环境中发生的真实病毒-宿主PPIs。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40691152/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40691152/",
+  "paper_page_path": "papers/pubmed/40691152/index.html"
+}

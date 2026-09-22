@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.28.741295",
+  "title": "Structure-free, site-resolved contrastive learning extends small-molecule discovery beyond the reach of structure-based modeling",
+  "authors": "Fondrie WE; Canzani D; Tatka L; Paez JS; Prymolenna A; Gutierrez A; Robbins J; McEllin B; Hubbard E; Siebenthall K; Pino LK; Federation AJ",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-30",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于序列和二维化学的对比学习模型Ptarmigan-1，无需蛋白结构即可预测小分子与蛋白残基的相互作用，覆盖无序位点，虽对象为小分子而非蛋白互作，但其对无序位点结合机制的无结构建模思路对本课题有迁移启发。",
+  "abstract": "Virtual screening asks which molecules, among an enormous space of drug-like chemistry, are worth synthesizing and testing against a protein target. Most modern methods answer this question by building and scoring an explicit three-dimensional pose through molecular docking, or the co-folding models that now approach experimental accuracy. Building these poses presumes a well-defined pocket. However, the non-orthosteric, cryptic, and intrinsically disordered sites where unexplored ligandability lies offer no such pocket to explore. Here we present Ptarmigan-1, a contrastive model that co-embeds the residues of a protein with candidate small molecules in a shared latent space, from sequence and two-dimensional chemistry alone, and without ever constructing a pose. Freed from the requirement for protein structures, Ptarmigan-1 trains directly on chemoproteomic and bioactivity data of mixed resolution, scores a compound in ten milliseconds rather than the tens of seconds a co-folding model demands, and resolves each prediction to the residues a compound engages. On well-folded, orthosteric targets it performs comparably to a collection of co-folding and docking models, and on covalent, cryptic, and disordered sites it matches or exceeds them. Ptarmigan-1 localizes reversible and covalent inhibitors to the pockets they engage, even for targets withheld from training, and screens the entire human proteome against a library of 3.4 billion compounds in under a day. By decoupling molecular recognition from structure, Ptarmigan-1 recasts virtual screening as a nearest-neighbor query in a rich latent space shared by protein residues and the compounds that bind them.",
+  "abstract_zh": "虚拟筛选探讨的是，在庞大的类药化学空间中，哪些分子值得针对蛋白质靶点进行合成和测试。大多数现代方法通过分子对接（molecular docking）或接近实验精度的共折叠模型，构建并评分一个明确的三维构象来回答这一问题。构建这些构象预设了一个明确的结合口袋。然而，非正构位点、隐蔽位点及 intrinsically disordered 位点中蕴含的未探索配体能力，并不提供这样的口袋可供探索。在此，我们提出 Ptarmigan-1，一种对比模型，它仅从序列和二维化学信息出发，将蛋白质残基与候选小分子共同嵌入一个共享的潜在空间，而无需构建任何构象。摆脱对蛋白质结构的依赖后，Ptarmigan-1 直接训练于混合分辨率的化学蛋白质组学和生物活性数据，在十毫秒内评分一个化合物，而共折叠模型则需要数十秒，并将每个预测解析到化合物所结合的残基。在折叠良好、正构位点的靶标上，其性能与一系列共折叠和对接模型相当，而在共价、隐蔽及无序位点上，则达到或超越这些模型。Ptarmigan-1 能将可逆和共价抑制剂定位到其结合的袋口，即使对于训练中未包含的靶标也是如此，并在一天内筛选整个人类蛋白质组，针对一个包含34亿化合物的库。通过将分子识别与结构解耦，Ptarmigan-1 将虚拟筛选重塑为在蛋白质残基及其结合化合物共享的丰富潜在空间中的最近邻查询。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741295",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741295",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.28.741295/index.html"
+}

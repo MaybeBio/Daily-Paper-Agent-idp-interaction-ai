@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "39936184",
+    "doi": "10.1080/07391102.2025.2460748",
+    "title": "Mechanistic insights into the phosphorylation-regulated a disordered protein interaction module."
+  },
+  "content": {
+    "abstract": "The TFIIS N-terminal domain (TND) is a crucial protein scaffold that selectively recognizes disordered ligands, known as TND-interacting motifs (TIMs). Understanding the specific mechanisms of TND-TIM interactions is essential for deciphering the transcription machinery. Here, we investigated the conformational ensembles of the TND-TIM interaction module using molecular dynamics simulations. The study revealed that the experimental structures of TND-TIM complexes, including P75-PogZ and P75-IWS1, maintained stable conformations during microsecond-long simulations, even when the linked proteins between TND and TIM were removed or when TIM was phosphorylated. Conversely, both P75-ASK and HRP2-IWS1, prepared based on the structure of P75-IWS1, are unstable in simulations; for example, the helix-1 of TIMs shifts from their initial binding site on TND. However, phosphorylation enhances TND-TIM interactions and rapidly stabilizes the complex structure. A general rule for phosphorylation regulation of TND-TIM interactions is identified: the phosphoryl group of TIM forms hydrogen bonds with the positively charged side chains of TND residues, promoting dynamic correlation between TND and the Ser-containing acidic linker of TIM, and enhancing residue-residue interactions among helix-1 and FXGF motif of TIM with TND. These phosphorylation-induced changes resulted in a higher affinity between TND and TIM. Our study provides insights into the phosphorylation-regulated TND-TIM interaction module at an atomic level, facilitating a deeper understanding of the molecular mechanisms of protein interactome assembly in transcription machinery.",
+    "keywords": [
+      "IWS1",
+      "LEDGF/P75",
+      "TFIIS N-terminal domain (TND)",
+      "molecular dynamics simulations",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Binding Sites",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Hydrogen Bonding",
+      "Protein Conformation",
+      "Protein Interaction Domains and Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zang, Yongjian",
+        "Ni, Yu",
+        "Li, Xuhua",
+        "Yang, Zhiwei",
+        "Fu, Zhaoming",
+        "Zhang, Shengli"
+      ],
+      "short_names": [
+        "Zang Y",
+        "Ni Y",
+        "Li X",
+        "Yang Z",
+        "Fu Z",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+        "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China.",
+        "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+        "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China.",
+        "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China.",
+        "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China.",
+        "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+        "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China.",
+        "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zang, Yongjian",
+        "short_name": "Zang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+          "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Yu",
+        "short_name": "Ni Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+          "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuhua",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhiwei",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Zhaoming",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Physics and Electronic Information, Yunnan Normal University, Kunming, China.",
+          "Yunnan Key Laboratory of Opto-Electronic Information Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengli",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/12 06:21",
+    "fetched_at": "2026-09-21 15:40:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39936184",
+      "36651856",
+      "34822292",
+      "26742101",
+      "40101966",
+      "24389668",
+      "26735936",
+      "33019581",
+      "39074869",
+      "23912807",
+      "25207671",
+      "29083550",
+      "27054660",
+      "34576338",
+      "31136713",
+      "24599328",
+      "20878714",
+      "25533957",
+      "39186607",
+      "26515650",
+      "32933064",
+      "34681718",
+      "29309620",
+      "33945530",
+      "28821615",
+      "31951234",
+      "32708183",
+      "28554535",
+      "39871444",
+      "37905972",
+      "36402223",
+      "25017730",
+      "29990433",
+      "33030907",
+      "40673718",
+      "22803956",
+      "29944921",
+      "34014914",
+      "27844185",
+      "24634210",
+      "33361159",
+      "29590589",
+      "35841142",
+      "42475469",
+      "32654182",
+      "23892546",
+      "33617899",
+      "26195786",
+      "28089448",
+      "32925900",
+      "42645201",
+      "34655583",
+      "42610734",
+      "30397651",
+      "33053834",
+      "42000821",
+      "29364151",
+      "29997176",
+      "31512287",
+      "37665626",
+      "15772084",
+      "39163306",
+      "41972736",
+      "40583197",
+      "28002650",
+      "26245978",
+      "28786199",
+      "26908877",
+      "28963484",
+      "34685704",
+      "40066726",
+      "42136125",
+      "27727489",
+      "33779503",
+      "42134803",
+      "30813315",
+      "42235792",
+      "30193228",
+      "21057455",
+      "28493424",
+      "1569570",
+      "23175611",
+      "30855964",
+      "29695509",
+      "27701768",
+      "29225075",
+      "37505058",
+      "29624115",
+      "34883116",
+      "35298814",
+      "22467876",
+      "28427457",
+      "33184287",
+      "23760157",
+      "26445449",
+      "41889773",
+      "26922996",
+      "27524292",
+      "41966743",
+      "24086265"
+    ],
+    "review": [
+      "39936184",
+      "36651856",
+      "32708183",
+      "33361159",
+      "29364151"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2460748?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SIGLEC7-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2025.2460748",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

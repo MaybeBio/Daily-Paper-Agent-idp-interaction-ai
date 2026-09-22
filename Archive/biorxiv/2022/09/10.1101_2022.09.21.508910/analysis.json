@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.21.508910",
+  "title": "A conserved ribosomal protein has entirely dissimilar structures in different organisms",
+  "authors": "Schierholz L; Brown CR; Helena-Bueno K; Uversky VN; Hirt RP; Barandun J; Melnikov SV",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-22",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究核糖体蛋白msL1/msL2在不同物种中结构完全不同的折叠转换，涉及无序蛋白被rRNA捕获后优化结合，虽非典型PPI/相分离，但提供了无序蛋白与伴侣结合机制建模的可迁移思路。",
+  "abstract": "<h4>ABSTRACT</h4> Ribosomes from different species can markedly differ in their composition by including dozens of ribosomal proteins that are unique to specific lineages but absent in others. However, it remains unknown how ribosomes acquire and specialize new proteins throughout evolution. Here, to help answer this question, we describe the evolution of the ribosomal protein msL1/msL2 that was recently found in ribosomes from the parasitic microorganism clade, microsporidia. We first show that this protein has a conserved location in the ribosome but entirely dissimilar structures in different organisms: in each of the analyzed species, msL1/msL2 exhibits an altered secondary structure, an inverted orientation of the N- and C-termini on the ribosomal binding surface, and a completely transformed three-dimensional fold. We then show that this evolutionary fold switching is likely caused by changes in the msL1/msL2-binding site in the ribosome; specifically, by variations in microsporidian rRNA. These observations allow us to infer an evolutionary scenario in which a small, positively-charged, de novo -born unfolded protein was first captured by rRNA to become part of the ribosome and subsequently underwent complete fold switching to optimize its binding to its evolving ribosomal binding site. Overall, our work provides a striking example of how a protein can switch its fold in the context of a complex biological assembly while retaining its specificity for its molecular partner. This finding will help us better understand the origin and evolution of new protein components of complex molecular assemblies – thereby enhancing our ability to engineer biological molecules, identify protein homologs, and peer into the history of life on Earth.",
+  "abstract_zh": "<h4>摘要</h4> 来自不同物种的核糖体在组成上可能显著不同，因为它们包含数十种核糖体蛋白，这些蛋白对特定谱系是独特的，但在其他谱系中缺失。然而，目前仍不清楚核糖体在整个进化过程中如何获得并特化新的蛋白质。在此，为帮助回答这一问题，我们描述了最近在寄生微生物分支微孢子虫（microsporidia）的核糖体中发现的一种核糖体蛋白msL1/msL2的进化过程。我们首先表明，该蛋白在核糖体中具有保守的位置，但在不同生物中其结构完全不同：在分析的每个物种中，msL1/msL2表现出改变的二級结构、核糖体结合表面上N端和C端方向的倒置，以及完全转变的三维折叠。随后我们表明，这种进化性折叠转换可能由核糖体中msL1/msL2结合位点的变化引起；具体而言，是由微孢子虫rRNA的变异所致。这些观察使我们能够推断出一个进化场景：一个小的、带正电荷的、从头（de novo）生成的非折叠蛋白首先被rRNA捕获以成为核糖体的一部分，随后经历完全的折叠转换以优化其与不断进化的核糖体结合位点的结合。总体而言，我们的工作提供了一个显著例子，说明在复杂生物组装体的背景下，蛋白质如何切换其折叠，同时保持对其分子伴侣的特异性。这一发现将帮助我们更好地理解复杂分子组装体新蛋白质组分的起源和进化，从而增强我们设计生物分子、识别蛋白质同源物以及洞察地球生命历史的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508910",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508910",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.21.508910/index.html"
+}

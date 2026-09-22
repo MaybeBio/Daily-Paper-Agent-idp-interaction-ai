@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.07.588436",
+  "title": "Development and tissue specific expression of RAPGEF1 (C3G) transcripts having exons encoding disordered segments with predicted regulatory function",
+  "authors": "Verma A; Goel A; Koner N; Gunasekaran G; Radha V",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-07",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究RAPGEF1可变剪接异构体，其额外外显子编码无序丝氨酸富集区并影响与RAP1A的互作，结合了IDR与PPI及对接预测，但机制深度有限且非相分离背景。",
+  "abstract": "The ubiquitously expressed RAPGEF1(C3G), regulates differentiation, and is essential for development of mouse embryos. While multiple transcripts have been predicted, evidence of their expression and function is scarce. We demonstrate tissue and development specific expression of novel transcripts with exons 12-14 in various combinations, in the mouse. These exons encode an intrinsically disordered serine-rich polypeptide, that undergoes phosphorylation. Isoform switching occurred during differentiation of myoblasts and mouse embryonic stem cells. In silico structure and docking studies indicated that the additional exons alter intra-molecular interactions keeping it in a closed confirmation, and interaction with its target, RAP1A. Our results demonstrate the expression of novel RAPGEF1 isoforms, and suggest cassette exon inclusion as an additional means of regulating RAPGEF1 activity during differentiation.",
+  "abstract_zh": "广泛表达的RAPGEF1（C3G）调控分化，并对小鼠胚胎发育至关重要。尽管已预测出多种转录本，但其表达和功能的证据尚属稀缺。我们展示了小鼠中，包含外显子12-14不同组合的新型转录本在组织和发育阶段特异性表达。这些外显子编码一个本质上无序的富含丝氨酸的多肽，该多肽经历磷酸化。在成肌细胞和小鼠胚胎干细胞分化过程中，发生了异构体转换。计算机结构及对接研究表明，额外外显子改变了分子内相互作用，使其保持闭合构象，并影响其与靶标RAP1A的相互作用。我们的结果证明了新型RAPGEF1异构体的表达，并提示盒式外显子包含作为分化过程中调控RAPGEF1活性的额外手段。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.07.588436",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.07.588436",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.07.588436/index.html"
+}

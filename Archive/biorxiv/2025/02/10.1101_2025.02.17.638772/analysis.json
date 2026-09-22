@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.17.638772",
+  "title": "Protein–Ligand Affinity Prediction via Jensen–Shannon Divergence of Molecular Dynamics Simulation Trajectories",
+  "authors": "Kodai Igarashi; Masahito Ohue",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-23",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用JS散度改进MD轨迹的蛋白-配体亲和力预测，虽涉及MD和结合亲和力，但对象为折叠蛋白与小分子配体，非无序蛋白/IDR/PPI，机制建模启发有限。",
+  "abstract": "Predicting the binding affinity between proteins and ligands is a critical task in drug discovery. Although various computational methods have been proposed to estimate ligand target affinity, the method of Yasuda et al. (2022) ranks affinities based on the dynamic behavior obtained from molecular dynamics (MD) simulations without requiring structural similarity among ligand substituents. Thus, its applicability is broader than that of relative binding free energy calculations. However, their approach suffers from high computational costs due to the extensive simulation time and the deep learning computations needed for each ligand pair. Moreover, in the absence of experimental Δ G values (oracle), the sign of the correlation can be misinterpreted. In this study, we present improvements to Yasuda et al.’s method. Our contributions are threefold: (1) By introducing the Jensen–Shannon (JS) divergence, we eliminate the need for deep learning-based similarity estimation, thereby significantly reducing computation time; (2) We demonstrate that production run simulation times can be halved while maintaining comparable accuracy; and (3) We propose a method to predict the sign of the correlation between the first principal component (PC1) and Δ G by using coarse Δ G estimations obtained via AutoDock Vina.",
+  "abstract_zh": "预测蛋白质与配体之间的结合亲和力是药物发现中的一项关键任务。尽管已提出多种计算方法来估算配体-靶标亲和力，但Yasuda等人（2022）的方法基于分子动力学（MD）模拟获得的动态行为对亲和力进行排序，无需配体取代基之间的结构相似性。因此，其适用性比相对结合自由能计算更为广泛。然而，他们的方法因需要大量模拟时间和每个配体对的深度学习计算而面临高昂的计算成本。此外，在缺乏实验ΔG值（oracle）的情况下，相关性的符号可能被误解。在本研究中，我们对Yasuda等人的方法进行了改进。我们的贡献有三方面：（1）通过引入Jensen–Shannon（JS）散度，我们消除了基于深度学习的相似性估计需求，从而显著减少了计算时间；（2）我们证明生产运行模拟时间可以减半，同时保持相当的准确性；（3）我们提出了一种方法，利用AutoDock Vina获得的粗略ΔG估计来预测第一主成分（PC1）与ΔG之间相关性的符号。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638772",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638772",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.17.638772/index.html"
+}

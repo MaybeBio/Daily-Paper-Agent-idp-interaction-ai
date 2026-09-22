@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract and significance statement only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract and significance statement
+- **Shared manuscript claim summary** The authors propose that the cardiac troponin T linker region is intrinsically disordered, behaves dynamically in isolation and within the troponin complex, undergoes salt-dependent polyampholyte expansion, exhibits conformational changes during complex assembly, and that the ΔE160 hypertrophic cardiomyopathy mutation does not alter linker dynamics but allosterically affects subunit interactions leading to increased contractility.
+- **Visible evidence base** Single-molecule FRET, molecular dynamics simulations, and functional reconstitution assays are mentioned but no data, figures, or quantitative results are provided in the supplied material.
+- **Missing materials affecting confidence** Full manuscript text, all figures, tables, methods, statistical analyses, simulation parameters, FRET constructs and labeling schemes, functional assay details, and any control experiments are not available for assessment.
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially significant hypothesis that the troponin T linker is intrinsically disordered and that a cardiomyopathy mutation acts allosterically rather than through local conformational changes. The combination of single-molecule FRET, simulations, and functional assays is well suited to address this question. However, the supplied material is limited to the abstract and significance statement, which prevents verification of the methodological rigor, quantitative support, and robustness of the conclusions. The claims are plausible but currently not assessable in detail.
+- **Who would be interested in the results, and why** Researchers in cardiac muscle physiology, structural biology of the sarcomere, intrinsically disordered protein biology, and molecular mechanisms of cardiomyopathy would find these results relevant. The work bridges biophysical characterization of disorder with functional consequences in a disease-relevant system, which would appeal to both basic scientists and translational investigators studying hypertrophic cardiomyopathy.
+- **Major strengths** The study addresses a previously unresolved and functionally important region of troponin using an integrated experimental and computational approach. The hypothesis that the linker is disordered and that the ΔE160 mutation acts allosterically is mechanistically interesting and challenges structure-centric views of mutation effects. The use of multiple complementary techniques strengthens the potential impact.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the linker behaves as a dynamic, intrinsically disordered region in both isolated troponin and the fully regulated troponin complex.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract states that the linker is intrinsically disordered based on FRET and simulations, but no quantitative data such as FRET efficiencies, distance distributions, or comparison to disordered versus folded controls are provided. The claim that the behavior is verified in both isolated and complex contexts requires direct comparative evidence.
+  - **Why it matters** Establishing intrinsic disorder requires rigorous demonstration that observed dynamics are not due to experimental artifacts or partial folding. Without quantitative metrics and appropriate controls, the central premise of the paper cannot be evaluated.
+  - **Resolution test** Provide FRET efficiency distributions, inferred distance distributions, and comparisons to validated disordered and folded reference systems for both isolated and complex conditions. Show that simulation-derived ensembles are consistent with FRET data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that the ΔE160 mutation does not affect linker conformational dynamics but allosterically affects interactions with other troponin subunits, leading to increased contractility.
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract asserts an allosteric mechanism without presenting data on intermolecular interactions or contractility measurements. The distinction between local and allosteric effects requires direct evidence that linker dynamics are unchanged while subunit interactions or functional outputs are altered.
+  - **Why it matters** The proposed allosteric mechanism is the key novel insight and has implications for understanding mutation effects in disordered regions. Without supporting data, the conclusion is speculative.
+  - **Resolution test** Show quantitative comparison of linker dynamics between wild-type and ΔE160, and provide functional or binding data demonstrating altered interactions with troponin I or C and increased contractility in reconstituted systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The authors used single-molecule FRET, molecular dynamics simulations, and functional reconstitution assays.
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** No methodological details are available, including FRET construct design, labeling positions, simulation force fields and sampling, and functional assay conditions. Reproducibility cannot be assessed.
+  - **Why it matters** The validity of the conclusions depends on the quality and appropriateness of the methods. For example, FRET-based disorder assessment requires careful control of dye dynamics and distance calibration, and simulations require adequate sampling and validation.
+  - **Resolution test** Provide full methods with construct details, simulation parameters, and assay protocols, and demonstrate that results are robust to methodological choices.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "polyampholyte expansion in the presence of high salt"
+  - **Issue** The term "polyampholyte expansion" is used without defining the expected behavior or the significance of the salt dependence.
+  - **Required correction** Briefly explain what polyampholyte expansion means in this context and why salt-dependent changes support the disorder model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Significance statement
+  - **Evidence pointer** Significance statement, "highlight the need to consider how key mutations affect troponin disorder rather than the structure-function relationship"
+  - **Issue** The phrase "rather than the structure-function relationship" is overly dichotomous and may misrepresent the field, as disorder and structure are not mutually exclusive.
+  - **Required correction** Rephrase to indicate that disorder should be considered alongside structure-function models, not instead of them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of intrinsic disorder and allosteric mutation effects are not supported by the supplied evidence. R1-M3 is non-blocking but essential for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of disorder-focused biophysics to a disease-relevant troponin region is novel and extends beyond prior structural studies.
+  - Scientific importance: The work could significantly advance understanding of cardiomyopathy mechanisms and the role of disorder in sarcomeric regulation.
+  - Interdisciplinary readership: The topic bridges biophysics, structural biology, and cardiac physiology, appealing to a broad audience.
+  - Technical soundness: Cannot be assessed from the abstract alone; requires full methods and data.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without sufficient explanation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is promising and the approach is appropriate, but the current evidence base is insufficient to establish the claims. Full manuscript review is necessary.
+
+## Risk / unsupported claims
+- The claim that the linker is intrinsically disordered in both isolated and complex contexts is unsupported without quantitative FRET and simulation data.
+- The claim that ΔE160 does not affect linker dynamics but allosterically alters subunit interactions and contractility is unsupported without functional and interaction data.
+- The statement that the linker is a "hotspot for cardiomyopathy mutations" is plausible but not substantiated in the supplied material.
+- The assertion that the results "clearly demonstrate" the importance of disorder is overstated given the lack of presented evidence.

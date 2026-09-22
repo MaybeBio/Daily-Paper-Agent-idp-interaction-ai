@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, final remarks, data availability) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality of the described webserver and its underlying predictors (MaGS, MaGSeq). No assessment of code functionality or live server performance beyond what is described.
+- **Shared manuscript claim summary** The authors present GraPES, a webserver hosting two predictors (MaGS and MaGSeq) for scoring protein propensity to localize to biological condensates, trained on human and yeast stress granule proteins. MaGS uses experimentally derived features; MaGSeq uses sequence-only features. The authors claim MaGSeq outperforms existing sequence-based methods (PScore, catGranule) on independent test sets and that both predictors generalize to other condensate types and species.
+- **Visible evidence base** Abstract, introduction, methods (datasets, model parameterization), results (MaGSeq performance, webserver description, input/output, usage example), final remarks, data availability. Supplementary figures referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Figures S1–S4 and Table S1 are referenced but not included. No performance metrics (e.g., AUC values, confidence intervals, statistical tests) beyond point estimates. No comparison of MaGS vs MaGSeq on the same test sets. No details on feature calculation pipelines (e.g., disorder, RBPscore) or validation of the "generalization" claim across condensate types and species beyond a summary statement.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful and accessible webserver for predicting condensate localization, with a clear rationale and a reasonable methodological approach. The sequence-only predictor (MaGSeq) addresses a genuine gap in applicability. However, the evidence presented is incomplete: key supplementary data are missing, performance claims are not statistically substantiated, and the generalization claims (to other condensates and species) are not rigorously demonstrated. The manuscript is technically sound in its core approach but requires additional evidence and clarification before the claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying phase separation, stress granules, membraneless organelles, and protein aggregation diseases. Also useful for cell biologists and bioinformaticians seeking user-friendly tools for predicting condensate constituents from sequence or experimental features. The webserver's accessibility and precomputed scores for human and yeast proteomes broaden its appeal.
+- **Major strengths** 1. Clear practical need addressed: a webserver with both experimental-feature and sequence-only predictors. 2. Use of well-curated stress granule datasets and independent test sets for benchmarking. 3. Transparent description of model features and cutoff values. 4. Open-source code and freely available server enhance reproducibility and utility. 5. Usage example (UBQLN2, LINE-1) illustrates practical application.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MaGSeq consistently outperforms the current state-of-the-art sequence-based methods PScore and catGranule" (Results, MaGSeq performance).
+  - **Evidence pointer** Figure 2A-D (referenced, not provided); Supplementary Figures S2-S4 (referenced, not provided).
+  - **Concern** The claim of consistent outperformance is based on AUC and PR curves, but no numerical values, confidence intervals, or statistical tests are reported. Without these, it is impossible to assess whether the differences are meaningful or within noise. Additionally, the PR curves are described but not shown, and the "complete negative test set" is not defined in terms of size or composition.
+  - **Why it matters** The central claim of the manuscript is that MaGSeq is a superior sequence-based predictor. If this is not rigorously demonstrated, the value proposition of the tool is weakened.
+  - **Resolution test** Provide AUC values with confidence intervals or standard errors for MaGSeq, PScore, and catGranule on the same test sets. Include PR curve data (e.g., average precision) and a statistical comparison (e.g., DeLong test for AUCs). Specify the negative test set size and how it was constructed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim generalization
+  - **Claim pointer** "MaGSeq models also show significantly higher scores for proteins in other condensates" and "show significantly higher scores for proteins known to be part of condensates in the organisms C. elegans, M. musculus, D. melanogaster, and A. thaliana" (Results, MaGSeq performance).
+  - **Evidence pointer** Supplementary Figures S3 and S4 (referenced, not provided).
+  - **Concern** The generalization claims are based on supplementary figures that are not available for review. No effect sizes, p-values, or details on the condensate protein datasets (e.g., sources, sizes, whether they overlap with training data) are provided. The statement that scores are "significantly higher" is not quantified.
+  - **Why it matters** The authors explicitly position MaGSeq as applicable beyond stress granules and beyond human/yeast. This is a key selling point, but without evidence, it remains an assertion.
+  - **Resolution test** Provide the supplementary figures with clear statistical annotations (e.g., box plots with p-values, effect sizes). Describe the condensate protein datasets used, including sources and whether they are independent of training data. For cross-species analysis, specify which parameterization (human or yeast) was used and justify the choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We then removed features systematically and assessed model performance using AUC values... while monitoring feature contributions to the GLM fit" (Methods, Model parameterization).
+  - **Evidence pointer** Methods section, location not provided.
+  - **Concern** The feature selection procedure is described only vaguely. It is unclear how features were removed (e.g., forward/backward selection, all subsets), what criteria were used to stop removal, and whether the final feature sets for human and yeast were chosen based on validation or test performance. This lack of detail limits reproducibility.
+  - **Why it matters** Reproducibility is a core expectation for computational tools. Without a precise description of feature selection, other researchers cannot replicate or independently validate the models.
+  - **Resolution test** Provide a step-by-step description of the feature selection algorithm, including stopping criteria and whether validation or test data were used for decisions. Consider including a supplementary table of all features considered and their final inclusion/exclusion status.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided.
+  - **Issue** The abstract states "MaGS utilizes experimentally-based protein features" but does not specify which features. This is a key distinction from MaGSeq and should be briefly mentioned.
+  - **Required correction** Add a short phrase listing the feature types (e.g., abundance, disorder, phosphorylation sites) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Usability
+  - **Affected element** Webserver description
+  - **Evidence pointer** Results, Webserver description, location not provided.
+  - **Issue** The description of the webserver workflow is clear but does not mention any rate limits, maximum number of sequences per submission, or expected runtime for typical queries. This information is useful for users planning large submissions.
+  - **Required correction** Add a sentence in the webserver description or documentation section about practical usage limits (e.g., maximum sequence length, number of concurrent jobs).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Usage example
+  - **Evidence pointer** Results, Usage example, location not provided.
+  - **Issue** The UBQLN2 example is helpful, but the text states "moderate to high propensity" without referencing the specific cutoff values provided earlier. This could confuse readers about how to interpret scores.
+  - **Required correction** Explicitly state which cutoff range UBQLN2's score falls into (e.g., "moderate" based on the human MaGS cutoff of 0.66–1.16).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Final remarks
+  - **Evidence pointer** Final remarks, location not provided.
+  - **Issue** The final remarks mention that MaGS is "more accurate" than MaGSeq but do not provide a quantitative comparison. This is a strong claim that should be supported or softened.
+  - **Required correction** Either provide a comparative performance metric (e.g., AUC on the same test set) or rephrase to "expected to be more accurate due to the use of experimental data."
+- **Technical failings that need to be addressed before the case is established** 1. Missing supplementary data (Figures S1-S4, Table S1) prevents verification of key claims. 2. No statistical comparison of MaGSeq against existing methods. 3. Generalization claims (other condensates, species) are not quantified. 4. Feature selection procedure is under-specified. 5. No comparison of MaGS vs MaGSeq on the same test set to support the "complementary" claim.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The concept of a webserver for condensate prediction is not entirely new, but the combination of experimental-feature and sequence-only predictors in one platform is a useful contribution.
+  - **Scientific importance** Moderate. The tool addresses a practical need in a growing field, but the underlying methodology is incremental rather than transformative.
+  - **Interdisciplinary readership** Moderate. The tool is relevant to cell biology, biophysics, and bioinformatics, but the manuscript is written primarily for a specialist audience.
+  - **Technical soundness** Weak to moderate. The core approach is reasonable, but the lack of statistical rigor and missing supplementary data undermine confidence.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally clear, but the methods section assumes familiarity with machine learning and feature engineering concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes a potentially useful tool, but the evidence base must be strengthened with complete supplementary data, statistical comparisons, and clearer methodological details before the claims are fully established.
+
+## Risk / unsupported claims
+- "MaGSeq consistently outperforms the current state-of-the-art sequence-based methods" — unsupported without numerical AUC/PR values and statistical tests.
+- "MaGSeq models also show significantly higher scores for proteins in other condensates" — unsupported without supplementary Figure S3 and effect sizes.
+- "MaGSeq models show significantly higher scores for proteins known to be part of condensates in the organisms C. elegans, M. musculus, D. melanogaster, and A. thaliana" — unsupported without supplementary Figure S4 and statistical details.
+- "MaGS is more accurate than MaGSeq" — asserted without quantitative comparison.
+- "These tools provide some of the highest known confidence predictions for biological condensate localization, outperforming similar computational methods" — referenced to prior work (13) but not substantiated in this manuscript.

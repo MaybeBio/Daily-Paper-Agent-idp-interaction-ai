@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41580070",
+  "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects.",
+  "authors": "Abakarova, Marina; Freiberger, Maria Ines; Liehrmann, Arnaud; Rera, Michael; Laine, Elodie",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-01-25",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "ProteoCast是一个预测错义变异效应的网络服务器，通过进化约束和结构上下文分析，特别关注无序区域中的功能线性肽段识别，但主要聚焦变异效应预测而非PPI互作机制建模，方法上无AI或物理模拟。",
+  "abstract": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of the underlying data. Here we present ProteoCast, a user-friendly web server that predicts variant effects through evolutionary constraint analysis and structural context integration. ProteoCast provides a three-tier variant classification (impactful, mild, neutral) to help prioritise mutations for clinical interpretation and experimental validation. It incorporates multiple sequence alignment quality controls to ensure prediction reliability and flag positions with insufficient evolutionary information. Beyond single-variant classification, ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions. Interactive visualisations guide users through results interpretation, from variant-level predictions to protein-wide functional landscapes. Evaluation on 63,000 ClinVar variants demonstrates 77 % sensitivity and 87 % specificity for pathogenicity prediction, with performance maintained across species (85 % accuracy on Drosophila lethal mutations). ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods. Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability. With its transparent, unsupervised methodology and computational efficiency (minutes per protein), ProteoCast democratises access to variant effect prediction and functional site discovery for the broader research community. The web server is freely available at: https://proteocast.ijm.fr/.",
+  "abstract_zh": "理解突变如何影响蛋白质功能仍然至关重要且具有挑战性，特别是对于临床数据库中缺乏实验表征的变异以及固有无序区域。当前的计算方法通常作为黑箱运作，提供预测时缺乏足够的透明度或对基础数据的质量评估。在此，我们介绍ProteoCast，一个用户友好的网络服务器，通过进化约束分析和结构背景整合来预测变异效应。ProteoCast提供三级变异分类（影响显著、轻微、中性），以帮助优先处理用于临床解释和实验验证的突变。它整合了多序列比对质量控制，以确保预测可靠性，并标记进化信息不足的位置。除了单变异分类外，ProteoCast采用一种基于突变敏感性的新颖分段方法，以识别无序区域中的功能性线性肽。交互式可视化引导用户进行结果解读，从变异水平预测到全蛋白质功能景观。对63,000个ClinVar变异的评估显示，致病性预测的敏感性为77%，特异性为87%，且性能在物种间保持一致（果蝇致死突变上的准确率为85%）。与基于保守性的系统发育方法相比，ProteoCast在固有无序区域中成功识别的功能基序数量是其两倍。预测可针对特定构象进行调整，例如蛋白质复合物中的结合形式，以提高准确性和可解释性。凭借其透明、无监督的方法论和计算效率（每个蛋白质仅需数分钟），ProteoCast为更广泛的研究社区普及了变异效应预测和功能位点发现。该网络服务器可免费访问：https://proteocast.ijm.fr/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41580070/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41580070/",
+  "paper_page_path": "papers/pubmed/41580070/index.html"
+}

@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "33435335",
+    "doi": "10.3390/polym13020214",
+    "title": "Role of pK(A) in Charge Regulation and Conformation of Various Peptide Sequences."
+  },
+  "content": {
+    "abstract": "Peptides containing amino acids with ionisable side chains represent a typical example of weak ampholytes, that is, molecules with multiple titratable acid and base groups, which generally exhibit charge regulating properties upon changes in pH. Charged groups on an ampholyte interact electrostatically with each other, and their interaction is coupled to conformation of the (macro)molecule, resulting in a complex feedback loop. Their charge-regulating properties are primarily determined by the pKA of individual ionisable side-chains, modulated by electrostatic interactions between the charged groups. The latter is determined by the amino acid sequence in the peptide chain. In our previous work we introduced a simple coarse-grained model of a flexible peptide. We validated it against experiments, demonstrating its ability to quantitatively predict charge on various peptides in a broad range of pH. In the current work, we investigated two types of peptide sequences: diblock and alternating, each of them consisting of an equal number of amino acids with acid and base side-chains. We showed that changing the sequence while keeping the same overall composition has a profound effect on the conformation, whereas it practically does not affect total charge on the peptide. Nevertheless, the sequence significantly affects the charge state of individual groups, showing that the zero net effect on the total charge is a consequence of unexpected cancellation of effects. Furthermore, we investigated how the difference between the pKA of acid and base side chains affects the charge and conformation of the peptide, showing that it is possible to tune the charge-regulating properties by following simple guiding principles based on the pKA and on the amino acid sequence. Our current results provide a theoretical basis for understanding of the complex coupling between the ionisation and conformation in flexible polyampholytes, including synthetic polymers, biomimetic materials and biological molecules, such as intrinsically disordered proteins, whose function can be regulated by changes in the pH.",
+    "keywords": [
+      "acid-base equilibrium",
+      "ampholyte",
+      "charge regulation",
+      "coarse-grained",
+      "constant-pH",
+      "ionization",
+      "peptide",
+      "polyelectrolyte",
+      "simulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lunkad, Raju",
+        "Murmiliuk, Anastasiia",
+        "Tosner, Zdenek",
+        "Stepanek, Miroslav",
+        "Kosovan, Peter"
+      ],
+      "short_names": [
+        "Lunkad R",
+        "Murmiliuk A",
+        "Tosner Z",
+        "Stepanek M",
+        "Kosovan P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2491-0004",
+        "ORCID: 0000-0001-6775-2563",
+        "ORCID: 0000-0003-2741-9154",
+        "ORCID: 0000-0002-7636-7234",
+        "ORCID: 0000-0002-6708-3344"
+      ],
+      "affiliations": [
+        "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic.",
+        "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic.",
+        "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic.",
+        "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic.",
+        "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lunkad, Raju",
+        "short_name": "Lunkad R",
+        "identifiers": [
+          "0000-0002-2491-0004"
+        ],
+        "affiliations": [
+          "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Murmiliuk, Anastasiia",
+        "short_name": "Murmiliuk A",
+        "identifiers": [
+          "0000-0001-6775-2563"
+        ],
+        "affiliations": [
+          "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Tošner, Zdeněk",
+        "short_name": "Tošner Z",
+        "identifiers": [
+          "0000-0003-2741-9154"
+        ],
+        "affiliations": [
+          "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Štěpánek, Miroslav",
+        "short_name": "Štěpánek M",
+        "identifiers": [
+          "0000-0002-7636-7234"
+        ],
+        "affiliations": [
+          "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Košovan, Peter",
+        "short_name": "Košovan P",
+        "identifiers": [
+          "0000-0002-6708-3344"
+        ],
+        "affiliations": [
+          "Department of Physical and Macromolecular Chemistry, Faculty of Science, Charles University, 128 43 Prague, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Polymers"
+    ],
+    "journal_abbrev": [
+      "Polymers (Basel)"
+    ],
+    "pub_date": "2021 Jan 9",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/14 06:00",
+    "fetched_at": "2026-09-20 00:44:14"
+  },
+  "links": {
+    "cites": [
+      "41457511",
+      "41442601",
+      "40894011",
+      "39817437",
+      "38818083",
+      "38370910",
+      "37707751",
+      "37376324",
+      "35053254"
+    ],
+    "refs": [
+      "35021431",
+      "33027995",
+      "32822449",
+      "32692541",
+      "32373823",
+      "31795443",
+      "31678844",
+      "31418555",
+      "31339122",
+      "31325933",
+      "31264885",
+      "30985108",
+      "30960736",
+      "30960167",
+      "30706070",
+      "30351015",
+      "29666865",
+      "29575269",
+      "29566508",
+      "29319301",
+      "29097695",
+      "28859478",
+      "28742350",
+      "28703587",
+      "28277570",
+      "28223518",
+      "27583687",
+      "26437053",
+      "25747592",
+      "25296835",
+      "24661025",
+      "23880425",
+      "23061858",
+      "21715848",
+      "21086991",
+      "19697905",
+      "17411088",
+      "15066758",
+      "10939399",
+      "9108004",
+      "8678324",
+      "8412764"
+    ],
+    "similar": [
+      "33435335",
+      "23912807",
+      "30968464",
+      "35372273",
+      "30193467",
+      "17191902",
+      "31041391",
+      "28926766",
+      "17411088",
+      "24437914",
+      "20359231",
+      "21999929",
+      "16241250",
+      "17134228",
+      "25296835",
+      "32901638",
+      "11508838",
+      "32867340",
+      "39082438",
+      "38250712",
+      "38818083",
+      "30384718",
+      "32696365",
+      "25470659",
+      "23901099",
+      "12866050",
+      "11427046",
+      "35067823",
+      "39258569",
+      "14505321",
+      "32771806",
+      "12842476",
+      "34494845",
+      "39253398",
+      "37315055",
+      "23775856",
+      "31499774",
+      "29401708",
+      "38370910",
+      "21230072",
+      "30397688",
+      "37254920",
+      "7473753",
+      "18251557",
+      "9172746",
+      "19872215",
+      "7921171",
+      "8888140",
+      "11041845",
+      "38366971",
+      "32432964",
+      "31362509",
+      "8589257",
+      "2585495",
+      "29926202",
+      "36695540",
+      "9826588",
+      "34473567",
+      "17241074",
+      "8093457",
+      "35048695",
+      "2252886",
+      "23028280",
+      "21500791",
+      "24623551",
+      "36194430",
+      "32822449",
+      "33215185",
+      "26328871",
+      "28571334",
+      "10903873",
+      "35575372",
+      "29359223",
+      "15518535",
+      "19045429",
+      "27984879",
+      "17381231",
+      "26219383",
+      "30451508",
+      "31065339",
+      "3302273",
+      "38680324",
+      "25009103",
+      "33395285",
+      "28859478",
+      "29320697",
+      "8555200",
+      "28742350",
+      "22881998",
+      "15345569",
+      "26594824",
+      "26727467",
+      "35215709",
+      "30529083",
+      "17611012",
+      "38165099",
+      "25734901",
+      "37403855",
+      "34904892",
+      "35738075",
+      "30678032",
+      "35969881"
+    ],
+    "review": [
+      "33435335",
+      "17191902",
+      "32867340"
+    ],
+    "pmc": [
+      "7827592"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=polym13020214",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33435335/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33435335",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33435335",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

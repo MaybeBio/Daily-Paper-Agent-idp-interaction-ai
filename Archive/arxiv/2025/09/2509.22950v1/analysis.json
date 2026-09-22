@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2509.22950v1",
+  "title": "Twin Peaks: Dual-Head Architecture for Structure-Free Prediction of Protein-Protein Binding Affinity and Mutation Effects",
+  "authors": "Supantha Dey; Ratul Chowdhury",
+  "journal": "",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 7,
+  "one_liner_zh": "提出一种仅用序列的双头深度学习架构，同时预测蛋白-蛋白结合亲和力及突变效应，无需结构信息，对无序蛋白等难结晶体系有应用潜力，但未直接建模无序蛋白互作机制。",
+  "abstract": "We present a novel dual-head deep learning architecture for protein-protein interaction modeling that enables simultaneous prediction of binding affinity ($ΔG$) and mutation-induced affinity changes ($ΔΔG$) using only protein sequence information. Our approach offers a significant advancement over existing methods by employing specialized prediction heads that operate on a shared representation network, allowing direct and optimized prediction of both values. To ensure robust generalization, we integrated complementary datasets from SKEMPI v2 and PDBbind with a rigorous protein domain-based splitting strategy that prevents information leakage between training and validation sets. Our architecture combines transformer-based encoders with a novel cross-attention mechanism that processes paired protein sequences directly, without requiring any structural information. The network embeds input sequences using ESM3 representations, then employs a learnable sliced window embedding layer to manage variable-length sequences efficiently. A multi-layer transformer encoder with bidirectional self-attention captures intra-protein patterns, while cross-attention layers enable explicit modeling of interactions between protein pairs. This shared representation network feeds into separate $ΔG$ and $ΔΔG$ prediction heads, allowing task-specific optimization while leveraging common features. The model achieves $ΔΔG$ validation of Pearson correlation at 0.485, while maintaining strong $ΔG$ predictions (Pearson: 0.638). While existing approaches require protein structure data and binding interface information, our model eliminates these constraints. This provides a critical advantage for the numerous proteins with unknown structures or those challenging to crystallize, such as viral and intrinsically disordered proteins.",
+  "abstract_zh": "我们提出了一种新颖的双头深度学习架构，用于蛋白质-蛋白质相互作用建模，能够仅利用蛋白质序列信息同时预测结合亲和力（$ΔG$）和突变诱导的亲和力变化（$ΔΔG$）。我们的方法通过采用在共享表示网络上运行的专业预测头，实现了对这两个值的直接和优化预测，相较于现有方法具有显著优势。为确保稳健的泛化能力，我们整合了来自SKEMPI v2和PDBbind的互补数据集，并采用严格的基于蛋白质结构域的分割策略，以防止训练集和验证集之间的信息泄漏。我们的架构结合了基于Transformer的编码器与一种新颖的交叉注意力机制，直接处理成对蛋白质序列，无需任何结构信息。网络使用ESM3表示嵌入输入序列，然后采用可学习的切片窗口嵌入层，以高效管理可变长度序列。一个具有双向自注意力的多层Transformer编码器捕获蛋白质内部模式，而交叉注意力层则实现对蛋白质对之间相互作用的显式建模。该共享表示网络馈送到独立的$ΔG$和$ΔΔG$预测头，允许在利用共同特征的同时进行任务特定优化。该模型在$ΔΔG$验证中实现了Pearson相关系数0.485，同时保持了强大的$ΔG$预测（Pearson：0.638）。虽然现有方法需要蛋白质结构数据和结合界面信息，但我们的模型消除了这些约束。这为许多结构未知或难以结晶的蛋白质（如病毒蛋白和固有无序蛋白）提供了关键优势。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2509.22950v1",
+  "source_url": "https://arxiv.org/abs/2509.22950v1",
+  "paper_page_path": "papers/arxiv/2509.22950v1/index.html"
+}

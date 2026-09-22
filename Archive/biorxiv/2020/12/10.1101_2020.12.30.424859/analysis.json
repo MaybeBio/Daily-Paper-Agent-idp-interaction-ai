@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2020.12.30.424859",
+  "title": "Protein Docking Model Evaluation by Graph Neural Networks",
+  "authors": "Xiao Wang; Sean T Flannery; Daisuke Kihara",
+  "journal": "bioRxiv",
+  "published_date": "2020-12-31",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络评估蛋白对接模型，聚焦复合物界面打分，虽非无序蛋白对象，但其基于界面图表示与AI建模的思路对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Physical interactions of proteins play key roles in many important cellular processes. Therefore, it is crucial to determine the structure of protein complexes to understand molecular mechanisms of interactions. To complement experimental approaches, which usually take a considerable amount of time and resources, various computational methods have been developed to predict the structures of protein complexes. In computational modeling, one of the challenges is to identify near-native structures from a large pool of generated models. Here, we developed a deep learning-based approach named Graph Neural Network-based DOcking decoy eValuation scorE (GNN-DOVE). To evaluate a protein docking model, GNN-DOVE extracts the interface area and represents it as a graph. The chemical properties of atoms and the inter-atom distances are used as features of nodes and edges in the graph. GNN-DOVE was trained and validated on docking models in the Dockground database. GNN-DOVE performed better than existing methods including DOVE, which is our previous development that uses convolutional neural network on voxelized structure models.",
+  "abstract_zh": "蛋白质的物理相互作用在许多重要的细胞过程中扮演关键角色。因此，确定蛋白质复合物的结构对于理解相互作用的分子机制至关重要。为了补充通常需要大量时间和资源的实验方法，已开发出多种计算方法来预测蛋白质复合物的结构。在计算建模中，一个挑战是从大量生成的模型中识别出接近天然态的结构。在此，我们开发了一种基于深度学习的方法，名为基于图神经网络的对接诱饵评估评分（Graph Neural Network-based DOcking decoy eValuation scorE，GNN-DOVE）。为了评估蛋白质对接模型，GNN-DOVE提取界面区域并将其表示为图。原子的化学性质和原子间距离用作图中节点和边的特征。GNN-DOVE在Dockground数据库中的对接模型上进行了训练和验证。GNN-DOVE的表现优于现有方法，包括我们先前开发的DOVE，该方法在体素化结构模型上使用卷积神经网络。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2020.12.30.424859",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2020.12.30.424859",
+  "paper_page_path": "papers/biorxiv/10.1101_2020.12.30.424859/index.html"
+}

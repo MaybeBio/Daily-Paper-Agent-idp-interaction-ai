@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36979339",
+  "title": "Linker Length Drives Heterogeneity of Multivalent Complexes of Hub Protein LC8 and Transcription Factor ASCIZ.",
+  "authors": "Walker, Douglas R; Jara, Kayla A; Rolland, Amber D; Brooks, Coban; Hare, Wendy; Swansiger, Andrew K; Reardon, Patrick N; Prell, James S; Barbar, Elisar J",
+  "journal": "Biomolecules",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过实验研究LC8与多价无序蛋白ASCIZ互作中连接子长度对复合物异质性的调控，虽以实验为主，但聚焦IDP介导的PPI机制，对多价互作建模有重要启发。",
+  "abstract": "LC8, a ubiquitous and highly conserved hub protein, binds over 100 proteins involved in numerous cellular functions, including cell death, signaling, tumor suppression, and viral infection. LC8 binds intrinsically disordered proteins (IDPs), and although several of these contain multiple LC8 binding motifs, the effects of multivalency on complex formation are unclear. Drosophila ASCIZ has seven motifs that vary in sequence and inter-motif linker lengths, especially within subdomain QT2-4 containing the second, third, and fourth LC8 motifs. Using isothermal-titration calorimetry, analytical-ultracentrifugation, and native mass-spectrometry of QT2-4 variants, with methodically deactivated motifs, we show that inter-motif spacing and specific motif sequences combine to control binding affinity and compositional heterogeneity of multivalent duplexes. A short linker separating strong and weak motifs results in stable duplexes but forms off-register structures at high LC8 concentrations. Contrastingly, long linkers engender lower cooperativity and heterogeneous complexation at low LC8 concentrations. Accordingly, two-mers, rather than the expected three-mers, dominate negative-stain electron-microscopy images of QT2-4. Comparing variants containing weak-strong and strong-strong motif combinations demonstrates sequence also regulates IDP/LC8 assembly. The observed trends persist for trivalent ASCIZ subdomains: QT2-4, with long and short linkers, forms heterogeneous complexes, whereas QT4-6, with similar mid-length linkers, forms homogeneous complexes. Implications of linker length variations for function are discussed.",
+  "abstract_zh": "LC8是一种普遍存在且高度保守的枢纽蛋白，可结合超过100种参与多种细胞功能的蛋白质，包括细胞死亡、信号传导、肿瘤抑制和病毒感染。LC8结合固有无序蛋白（IDPs），尽管其中一些含有多个LC8结合基序，但多价性对复合物形成的影响尚不清楚。果蝇ASCIZ具有七个基序，其序列和基序间连接区长度各异，尤其是在包含第二、第三和第四个LC8基序的QT2-4亚结构域内。通过使用等温滴定量热法、分析超速离心和天然质谱法对QT2-4变体（其中基序被系统性地失活）进行研究，我们表明基序间间距和特定基序序列共同控制多价双链体的结合亲和力和组成异质性。分隔强和弱基序的短连接区产生稳定的双链体，但在高LC8浓度下形成错位结构。相反，长连接区在低LC8浓度下导致较低的合作性和异质性复合物形成。因此，在QT2-4的负染色电子显微镜图像中，二聚体而非预期的三聚体占主导地位。比较包含弱-强和强-强基序组合的变体表明，序列也调控IDP/LC8组装。观察到的趋势在三价ASCIZ亚结构域中持续存在：具有长和短连接区的QT2-4形成异质性复合物，而具有相似中等长度连接区的QT4-6形成均质性复合物。讨论了连接区长度变化对功能的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36979339/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36979339/",
+  "paper_page_path": "papers/pubmed/36979339/index.html"
+}

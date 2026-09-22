@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supporting information were provided
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of the 33-mer gliadin peptide and its deamidated metabolite (33-mer DGP) using two IDP-validated force fields (Amber ff03ws and Amber ff99SB-disp). They claim that both force fields enable extensive conformational sampling, that the five largest clusters (78-88% of structures) are elongated, semielongated, or curved, that the two force fields produce broadly similar ensembles with ff99SB-disp favoring folded conformations, and that PPII content (58-73%) and beta content (11-23%) are preserved, consistent with prior experimental data.
+- **Visible evidence base** Abstract text only; no quantitative data, trajectory analyses, clustering parameters, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, convergence criteria, clustering methodology, experimental reference data, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful comparative study of two IDP-optimized force fields applied to disease-relevant peptides. The topic is of interest to the molecular simulation and celiac disease communities. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the validity of the clustering and secondary structure analyses, or the strength of the comparison with experimental data. Several claims are stated without supporting quantitative evidence, and the relationship between the simulation results and the biological conclusions is asserted rather than demonstrated. The work appears to be a reasonable initial step, but the case for its conclusions is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the molecular dynamics simulation community, particularly those working on intrinsically disordered proteins and force field validation, would be interested in the comparative performance of ff03ws and ff99SB-disp on PPII-rich peptides. Investigators studying celiac disease pathogenesis and the structural basis of gluten peptide immunogenicity would also find the conformational ensembles of the 33-mer and its deamidated form relevant to understanding antigen presentation and immune recognition.
+- **Major strengths** The study addresses a biologically important and structurally challenging system. The choice of two IDP-validated force fields is appropriate and directly relevant to the question of whether standard force fields are adequate for PPII-rich IDPs. The abstract reports secondary structure populations that are compared with experimental expectations, which is a useful benchmark. The work is framed as a foundation for future interaction studies, which is a reasonable and honest scope.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "both FFs allow the extensive exploration of the conformational landscape, which was not possible with the standard FF GROMOS53A6 reported before"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "extensive exploration" is presented without any quantitative convergence metrics, such as time evolution of ensemble averages, block error analysis, or comparison of independent replica trajectories. The comparison with GROMOS53A6 is mentioned but no data are shown to support the assertion that the new simulations sample a broader landscape than the prior work.
+  - **Why it matters** Adequate conformational sampling is the central technical premise of the study. Without demonstrated convergence, the reported cluster populations and secondary structure percentages cannot be interpreted as equilibrium ensemble properties, and the comparison with the earlier GROMOS53A6 study is not substantiated.
+  - **Resolution test** Provide convergence analyses (e.g., time series of radius of gyration, RMSD to cluster centroids, split-half tests) and a direct quantitative comparison of sampled conformational space with the GROMOS53A6 trajectories, such as principal component overlap or free energy surface coverage.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the five largest clusters (78-88% of the total structures) present elongated, semielongated, and curved conformations in both FFs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The clustering results are reported as a single percentage range with no information on the clustering algorithm, the metric used, the number of clusters considered, the cutoff criteria, or the structural definitions of "elongated," "semielongated," and "curved." The range 78-88% spans both peptides and both force fields, but the abstract does not specify which value corresponds to which condition.
+  - **Why it matters** The cluster populations are a primary result of the study. Without methodological detail and per-condition values, the reader cannot assess whether the clustering is robust, whether the structural classifications are objective, or whether the differences between force fields and peptides are meaningful.
+  - **Resolution test** Specify the clustering method, distance metric, and cutoff; report the population of each of the five largest clusters for each peptide and force field separately; provide representative structures or shape descriptors that justify the elongated/semielongated/curved classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** "PPII secondary structure was preserved throughout the trajectories (58-73%) together with a non-negligible content of beta structures (11-23%), in agreement with previous experimental results"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The secondary structure percentages are reported as ranges without specifying which value corresponds to which peptide or force field. The claim of agreement with "previous experimental results" is not accompanied by any citation, quantitative comparison, or description of the experimental method (e.g., circular dichroism, NMR). The beta structure content of 11-23% is described as "non-negligible," but its significance relative to experimental estimates is not explained.
+  - **Why it matters** The agreement with experiment is a key validation of the force field choice. Without a direct comparison to specific experimental values and an assessment of uncertainty in both simulation and experiment, the claim of agreement is not testable.
+  - **Resolution test** Report per-peptide and per-force-field secondary structure populations with error bars; cite and tabulate the experimental values used for comparison; state the criterion for agreement (e.g., within a defined margin).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on force field comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence "While the structures sampled are similar, the Amber ff99SB-disp trajectories explored folded conformations with a higher probability" is vague. It is unclear what "folded conformations" means for an intrinsically disordered peptide and how "higher probability" was quantified.
+  - **Required correction** Define "folded" operationally (e.g., by radius of gyration threshold or contact order) and report the quantitative probability difference with a measure of statistical significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation length and temperature
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the simulation length, temperature, or number of replicas, which are essential parameters for interpreting any molecular dynamics study.
+  - **Required correction** Add simulation length, temperature, and replica count to the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Framing
+  - **Affected element** Concluding statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence states that this work "could lead to finally disclose the molecular events that lead to CD." This is an overstatement given that the study only characterizes conformational ensembles and does not address any molecular interaction or immune pathway.
+  - **Required correction** Rephrase to reflect the actual scope, for example, "provides a foundation for future studies of peptide interactions with biologically relevant molecules."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence and comparison with GROMOS53A6 not demonstrated), R1-M2 (clustering methodology and per-condition results not provided), R1-M3 (secondary structure comparison with experiment not quantified)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of IDP-validated force fields to gliadin peptides is a reasonable extension of existing methods, but the abstract does not present a novel methodological development or an unexpected finding.
+  - Scientific importance: Moderate. The structural characterization of immunodominant celiac disease peptides is relevant, but the abstract does not establish a new biological mechanism or a definitive resolution of the structural question.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biophysicists and celiac disease researchers; the abstract does not frame the results in a way that would engage a broader readership.
+  - Technical soundness: Not assessable from the abstract. Key technical details on sampling, clustering, and secondary structure assignment are missing.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms (e.g., PPII, IDP, force fields) without brief definitions, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the central technical claims regarding sampling adequacy, cluster populations, and experimental agreement cannot be evaluated without the full manuscript and supporting data. A supportive recommendation would require the authors to provide convergence analyses, detailed clustering methodology, per-condition results, and a quantitative comparison with experimental data.
+
+## Risk / unsupported claims
+- The claim that both force fields enable "extensive exploration of the conformational landscape" is unsupported without convergence metrics.
+- The claim that the five largest clusters comprise 78-88% of structures is unverifiable without clustering details and per-condition values.
+- The claim of agreement with "previous experimental results" for PPII and beta content is unsupported without citations and quantitative comparison.
+- The statement that ff99SB-disp explored "folded conformations with a higher probability" is not defined or quantified.
+- The concluding implication that this work could lead to disclosing the molecular events of celiac disease is an overreach relative to the reported scope.

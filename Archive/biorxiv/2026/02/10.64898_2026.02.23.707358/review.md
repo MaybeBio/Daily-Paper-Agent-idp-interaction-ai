@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that esophageal and gastric cancers share a condensate-enriched transcriptional program driven by intrinsically disordered proteins, that TOPBP1 and CHERP are essential for tumor cell viability and undergo phase separation via homotypic interactions, and that condensate scaffolds represent tractable therapeutic vulnerabilities in upper gastrointestinal cancers
+- **Visible evidence base** Abstract text only; no primary data, figure legends, statistical details, or methodological descriptions were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, statistical analysis details, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking biomolecular condensates to upper gastrointestinal cancer biology, with a plausible multi-omics and simulation-based approach. However, the evidence base available for review is limited to the abstract alone, which precludes verification of the central claims regarding dependency, phase separation behavior, and therapeutic vulnerability. The work has potential appeal but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying transcriptional regulation and chromatin organization; investigators working on biomolecular condensates and phase separation; and translational scientists interested in novel therapeutic targets in esophageal and gastric cancers. The proposed link between mesoscale organization and tumor vulnerability could attract cross-disciplinary attention.
+- **Major strengths** The abstract integrates multiple methodologies, including multi-omics profiling, functional genomics, and molecular dynamics simulations, which suggests a comprehensive approach. The identification of a shared condensate-enriched program across two cancer types is potentially significant. The nomination of specific proteins, TOPBP1 and CHERP, with both dependency and phase separation evidence, provides a concrete and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TOPBP1 and CHERP are essential for tumor cell viability, defining a conserved condensate core across different tumor types
+  - **Evidence pointer** Dependency mapping, location not provided
+  - **Concern** The abstract states that dependency mapping demonstrates essentiality, but no details are given regarding the cell lines used, the number of models tested, the type of dependency assay, or the statistical thresholds applied. Without this information, the robustness and generalizability of the essentiality claim cannot be assessed.
+  - **Why it matters** The claim of a conserved condensate core across tumor types is central to the paper's significance. If the dependency data are limited to a small number of cell lines or show variable effects, the conclusion of a conserved vulnerability would be weakened.
+  - **Resolution test** Provide a clear description of the dependency screening approach, including the number and types of cell lines, the assay format, the criteria for calling essentiality, and the statistical significance thresholds. Show that the dependency is consistent across multiple independent models and is specific relative to non-transformed controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TOPBP1 and CHERP undergo phase separation through homotypic interactions mediated by intrinsically disordered regions, with saturation concentrations below 2 µM, consistent with spontaneous condensate formation observed in vitro
+  - **Evidence pointer** Machine-learned predictions and coarse-grained simulations, in vitro observations, location not provided
+  - **Concern** The abstract reports saturation concentrations below 2 µM and in vitro condensate formation, but no experimental details are provided. It is unclear whether the in vitro experiments used purified full-length proteins or only the disordered regions, what buffer conditions were used, whether the saturation concentration was measured or inferred from simulations, and how many replicates were performed.
+  - **Why it matters** Phase separation behavior is highly sensitive to experimental conditions, and the claim of physiological relevance depends on demonstrating that the observed condensation occurs at concentrations and conditions relevant to the cellular context. If the in vitro data are not robust or the simulations are not validated experimentally, the claim of spontaneous condensate formation is not established.
+  - **Resolution test** Provide detailed methods for the in vitro phase separation assays, including protein constructs, purification methods, buffer conditions, protein concentrations tested, and imaging or turbidity measurements. Clarify whether the saturation concentration was measured experimentally or derived from simulations, and show consistency between the two approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that condensate organization is a fundamental mesoscale principle in upper gastrointestinal cancers and that condensate scaffolds are tractable therapeutic vulnerabilities
+  - **Evidence pointer** Transcriptomic analyses, dependency mapping, simulations, location not provided
+  - **Concern** The abstract moves from descriptive transcriptomic associations to functional dependency and then to a therapeutic vulnerability claim. However, no evidence is presented that disrupting condensate formation, as opposed to simply depleting the proteins, has a therapeutic effect. The distinction between protein function and condensate function is not addressed.
+  - **Why it matters** The therapeutic vulnerability claim is the most translational aspect of the work. If the essentiality of TOPBP1 and CHERP is due to their canonical functions in DNA replication or RNA processing rather than their phase separation behavior, then the condensate framework may not be the operative mechanism, and the therapeutic implications would be different.
+  - **Resolution test** Provide evidence that disruption of phase separation specifically, for example through mutations in the intrinsically disordered regions that abolish condensation without affecting protein stability or canonical interactions, phenocopies the effects of protein depletion on cell viability. Alternatively, show that condensate-modulating compounds affect tumor cell viability in a manner correlated with condensate formation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of condensate-enriched transcriptional program
+  - **Evidence pointer** Transcriptomic analyses, location not provided
+  - **Issue** The abstract refers to a condensate-enriched transcriptional program but does not define how this program was identified or what distinguishes it from general transcriptional hyperactivity in cancer.
+  - **Required correction** Clarify the criteria used to define the condensate-associated gene set and how the program was shown to be enriched in esophageal and gastric cancers relative to other tumor types or normal tissue.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Selection of TOPBP1 and CHERP
+  - **Evidence pointer** Dependency mapping, location not provided
+  - **Issue** The abstract highlights TOPBP1 and CHERP but does not explain why these two proteins were selected for detailed study over other condensate-associated genes identified in the dependency screen.
+  - **Required correction** State the criteria for prioritizing these two proteins, such as strength of dependency, expression levels, or novelty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Saturation concentration claim
+  - **Evidence pointer** Simulations and in vitro observations, location not provided
+  - **Issue** The saturation concentration is reported as below 2 µM, but the precision and reproducibility of this value are not described.
+  - **Required correction** Report the measured or predicted saturation concentrations with error estimates and the number of independent determinations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The dependency data must be shown to be robust and generalizable, the phase separation data must be experimentally validated with appropriate controls, and the link between condensation and therapeutic vulnerability must be demonstrated directly.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the application of condensate biology to upper gastrointestinal cancers is relatively unexplored. Scientific importance is contingent on the strength of the dependency and phase separation data, which cannot be evaluated from the abstract alone. Interdisciplinary readership is plausible given the combination of cancer biology, biophysics, and computational approaches. Technical soundness cannot be assessed without the methods and primary data. Readability for nonspecialists is adequate, though the abstract assumes familiarity with condensate terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is ambitious, but the abstract alone does not provide sufficient detail to verify the central claims. A full review of the complete manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that TOPBP1 and CHERP are essential for tumor cell viability across different tumor types is unsupported without detailed dependency data.
+- The claim that saturation concentrations below 2 µM are consistent with spontaneous condensate formation is unsupported without experimental details and validation.
+- The claim that condensate scaffolds are tractable therapeutic vulnerabilities is unsupported, as no direct evidence links condensate disruption to therapeutic efficacy.
+- The claim that esophageal and gastric cancers share a condensate-enriched transcriptional program is weakly supported, as the definition and statistical basis of this program are not provided.

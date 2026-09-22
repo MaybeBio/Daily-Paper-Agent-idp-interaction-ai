@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.14.699531",
+  "title": "Susceptibility and Regulation of Biomolecular Condensates by Solutes",
+  "authors": "Matsuzawa T; Varma K; Bate T; Lorenz C; Larina K; Bauermann J; Matthias D; Grubić T; Style RW; Steinmetz MO; Dufresne ER",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过引入‘susceptibility’描述符，实验结合热力学理论（Flory-Huggins等）研究小分子溶质对生物分子凝聚体相平衡的调控，对象为相分离凝聚体但非IDP/IDR介导的PPI机制建模，方法上无AI或MD模拟，故综合评分为5。",
+  "abstract": "Biomolecular condensates compartmentalize biochemistry in living cells. While in vitro models of condensates involve only a few components, the cytoplasm is a complex mixture with thousands of components, including many small molecules. While many macromolecular drivers of phase separation have been revealed, the contributions from small molecules have received little attention. To quantify the impact of solutes on biomolecular condensates, we introduce susceptibility, a dimensionless descriptor of condensate response to solute perturbations. We measured how three model condensates, assembled by distinct cohesive mechanisms, respond to diverse solutes including amino acids and nucleotides. Generically, solutes shift condensate phase equilibria, with susceptibilities spanning over four orders of magnitude. These values reflect underlying molecular interactions, consistent with theoretical descriptions including Flory-Huggins and polyphasic linkages. As one example of the predictive power of susceptibility, we exploit enzymatic activity to induce condensation and modulate material properties. Our work establishes susceptibility as an indicator of the sensitivity of biomolecular condensates to solutes, with implications for cell physiology and therapeutic design. <h4>SIGNIFICANCE STATEMENT</h4> Cells compartmentalize biochemistry using biomolecular condensates formed through phase separation. Although cells contain thousands of small molecules, little is known about their influence on condensation. In such complex mixtures, mapping full phase diagrams is infeasible. Alternatively, we introduce susceptibility to characterize system response around a working composition. Using three distinct model condensates and over a dozen solutes, we observe susceptibilities varying over four orders of magnitude. We provide a general thermodynamic framework that clarifies the driving forces behind these responses, rationalizing their magnitude and their dependence on location in the phase diagram. Our work provides a framework for understanding and harnessing solutes to regulate biomolecular condensation, with implications for cell physiology and therapeutic design.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）在活细胞中区隔化生物化学过程。尽管凝聚体的体外模型仅涉及少数几种组分，细胞质却是一个包含数千种组分的复杂混合物，其中许多是小分子。虽然许多驱动相分离（phase separation）的大分子因素已被揭示，但小分子的贡献却鲜受关注。为量化溶质对生物分子凝聚体的影响，我们引入了敏感性（susceptibility），这是一种描述凝聚体对溶质扰动响应的无量纲指标。我们测量了三种由不同内聚机制组装而成的模型凝聚体对包括氨基酸和核苷酸在内的多种溶质的响应。一般而言，溶质会改变凝聚体的相平衡，其敏感性跨越四个数量级以上。这些数值反映了潜在的分子相互作用，与包括Flory-Huggins理论和多相连接（polyphasic linkages）在内的理论描述一致。作为敏感性预测能力的一个实例，我们利用酶活性诱导凝聚并调节材料性质。我们的工作确立了敏感性作为生物分子凝聚体对溶质敏感性的指标，对细胞生理学和治疗设计具有重要意义。<h4>重要声明</h4>细胞利用通过相分离形成的生物分子凝聚体来区隔化生物化学过程。尽管细胞含有数千种小分子，但关于它们对凝聚的影响知之甚少。在这种复杂混合物中，绘制完整相图是不可行的。因此，我们引入敏感性来表征系统在工作组成附近的响应。使用三种不同的模型凝聚体和十多种溶质，我们观察到敏感性变化超过四个数量级。我们提供了一个通用的热力学框架，阐明了这些响应背后的驱动力，合理化了它们的大小及其在相图中的位置依赖性。我们的工作为理解和利用溶质调控生物分子凝聚提供了框架，对细胞生理学和治疗设计具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699531",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699531",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.14.699531/index.html"
+}

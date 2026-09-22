@@ -1,0 +1,270 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.17.688766",
+  "title": "Selective Targeting of Kinesin on Lipid Droplets in the Liver Reduces Serum Lipids",
+  "doi": "10.1101/2025.11.17.688766",
+  "abstract": "The liver controls plasma lipids by secreting lipid-rich very low density lipoproteins (VLDL) into blood. Inside hepatocytes in the liver, Lipid Droplets (LDs) are transported to the smooth Endoplasmic Reticulum (sER) by kinesin-1 motors, and then catabolized in the sER to supply lipids for VLDL assembly. LDs are the only cellular organelle bounded by a phospholipid monolayer, and are thus distinct from all other (bilayer-bounded) organelles. It is therefore plausible that a given protein can bind to the LD membrane using mechanisms that are completely different from all other organelles. Indeed, here we find that kinesin-1 uses its tail domain to bind LDs, but alternative mechanisms to bind other organelles. A peptide corresponding to kinesin’s tail domain therefore competes with, and removes kinesin-1 selectively from LDs with minimal effect on other organelles. Delivery of lipids for VLDL assembly is consequently reduced, causing a remarkable reduction of ∼50% of secreted lipids (triglycerides and cholesterol) in cell culture. We further develop Orally fed Egg-liposomes as a method to deliver kinesin tail domain peptide to the liver of Zebrafish. The peptide reverses diet-induced hyperlipidaemia in Zebrafish larvae and brings the larvae back to a normolipidaemic state, thus confirming the effectiveness of our method in a physiologically relevant in-vivo situation. Strikingly, the peptide causes no unwanted accumulation of lipids in the liver, no toxicity and no developmental or behavioural defects in Zebrafish. Using a peptide to displace proteins (e.g. kinesin) selectively from LDs provides a conceptually novel and radically different approach against hyperlipidaemia. This monolayer-versus-bilayer strategy can be potentially extended to target other LD-bound proteins that function as key regulators of Lipid metabolism.",
+  "authors": [
+    "Tripathy S",
+    "Mahapatra A",
+    "Saharan O",
+    "Chatterjee H",
+    "Sengupta N",
+    "Kamat S",
+    "Nair S",
+    "Mallik R"
+  ],
+  "published_date": "2025-11-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688766",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688766.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1120427",
+    "raw_record": {
+      "id": "PPR1120427",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1120427"
+        ]
+      },
+      "doi": "10.1101/2025.11.17.688766",
+      "title": "Selective Targeting of Kinesin on Lipid Droplets in the Liver Reduces Serum Lipids",
+      "authorString": "Tripathy S, Mahapatra A, Saharan O, Chatterjee H, Sengupta N, Kamat S, Nair S, Mallik R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tripathy S",
+            "lastName": "Tripathy",
+            "firstName": "Subham",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2798-1622"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences and Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahapatra A",
+            "lastName": "Mahapatra",
+            "firstName": "Archisman",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1983-473X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences and Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saharan O",
+            "lastName": "Saharan",
+            "firstName": "Ojal",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chatterjee H",
+            "lastName": "Chatterjee",
+            "firstName": "Hindol",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sengupta N",
+            "lastName": "Sengupta",
+            "firstName": "Neelanjana",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamat S",
+            "lastName": "Kamat",
+            "firstName": "Siddhesh",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nair S",
+            "lastName": "Nair",
+            "firstName": "Sreelaja",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences and Bioengineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mallik R",
+            "lastName": "Mallik",
+            "firstName": "Roop",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences and Bioengineering, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1983-473X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2798-1622"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The liver controls plasma lipids by secreting lipid-rich very low density lipoproteins (VLDL) into blood. Inside hepatocytes in the liver, Lipid Droplets (LDs) are transported to the smooth Endoplasmic Reticulum (sER) by kinesin-1 motors, and then catabolized in the sER to supply lipids for VLDL assembly. LDs are the only cellular organelle bounded by a phospholipid monolayer, and are thus distinct from all other (bilayer-bounded) organelles. It is therefore plausible that a given protein can bind to the LD membrane using mechanisms that are completely different from all other organelles. Indeed, here we find that kinesin-1 uses its tail domain to bind LDs, but alternative mechanisms to bind other organelles. A peptide corresponding to kinesin’s tail domain therefore competes with, and removes kinesin-1  selectively from LDs with minimal effect on other organelles. Delivery of lipids for VLDL assembly is consequently reduced, causing a remarkable reduction of ∼50% of secreted lipids (triglycerides and cholesterol) in cell culture. We further develop Orally fed Egg-liposomes as a method to deliver kinesin tail domain peptide to the liver of Zebrafish. The peptide reverses diet-induced hyperlipidaemia in Zebrafish larvae and brings the larvae back to a normolipidaemic state, thus confirming the effectiveness of our method in a physiologically relevant  in-vivo situation. Strikingly, the peptide causes no unwanted accumulation of lipids in the liver, no toxicity and no developmental or behavioural defects in Zebrafish. Using a peptide to displace proteins (e.g. kinesin) selectively from LDs provides a conceptually novel and radically different approach against hyperlipidaemia. This  monolayer-versus-bilayer strategy can be potentially extended to target other LD-bound proteins that function as key regulators of Lipid metabolism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ANRF-SERB",
+            "orderIn": 0
+          },
+          {
+            "agency": "STARS-2 Grant",
+            "grantId": "2023-0210",
+            "orderIn": 0
+          },
+          {
+            "agency": "DBT/Wellcome Trust India Alliance",
+            "grantId": "IA/S/11/2500255",
+            "orderIn": 0
+          },
+          {
+            "agency": "SwarnaJayanti Fellowship",
+            "grantId": "SB/SJF/202122/01",
+            "orderIn": 0
+          },
+          {
+            "agency": "DBT/Wellcome Trust India Alliance",
+            "grantId": "IA/S/19/2/504634",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.17.688766"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1120427"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1120427&type=FILE&fileName=EMS210884-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210884",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-18",
+      "firstPublicationDate": "2025-11-17",
+      "firstIndexDate": "2025-11-18",
+      "fullTextReceivedDate": "2025-12-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

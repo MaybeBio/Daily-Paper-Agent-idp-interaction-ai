@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41126530",
+  "title": "Drude polarizable force field for phosphorylated polypeptides and proteins.",
+  "authors": "Gil Pineda, Laura I; Miller, Candace J; MacKerell, Alexander D Jr; Lemkul, Justin A",
+  "journal": "Biophysical journal",
+  "published_date": "2025-10-23",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了磷酸化氨基酸的Drude极化力场参数，并在多肽中验证磷酸化降低无序性、促进α螺旋，为无序蛋白磷酸化介导的构象变化建模提供关键工具，但未直接研究PPI或互作机制。",
+  "abstract": "Phosphorylation is a ubiquitous posttranslational modification used across all domains of life to regulate protein stability, folding, subcellular localization, function, and activity. The most common targets of protein phosphorylation are the amino acids serine, threonine, and tyrosine. The considerable change in electrostatic character of these residues upon phosphorylation, from polar neutral to strongly negatively charged at physiological pH, implies a major change in biophysical properties of these residues. Modeling phosphorylated residues in molecular dynamics simulations is a challenge given their highly charged nature, and the development of polarizable force field parameters is an important task for the extension of protein force fields. Here, we present the parametrization and validation of force field parameters for phosphorylated serine, threonine, and tyrosine in all protonation states (neutral, monoanionic, and dianionic). We targeted a range of quantum mechanical properties for electrostatic and dihedral parameter fitting and subsequently validated the force field model in the context of two full-length proteins (ERK2 and WNK1) and short polypeptides. We found that the phosphorylated amino acids maintained the expected strong interactions with lysine and arginine residues, rigidifying loops in pERK2 and pWNK1. In the short polypeptides, phosphorylation of serine and threonine reduced disorder and promoted the formation of alpha-helical turns, in agreement with previous findings. The present force field is compatible with the Drude protein force field and expands the coverage of chemical space to include these important chemical entities for future investigations of protein structure and function, particularly for conformational changes that arise in intrinsically disordered proteins upon phosphorylation.",
+  "abstract_zh": "磷酸化是一种普遍存在的翻译后修饰，在所有生命域中用于调节蛋白质稳定性、折叠、亚细胞定位、功能和活性。蛋白质磷酸化最常见的靶点是氨基酸丝氨酸、苏氨酸和酪氨酸。这些残基在磷酸化后静电特性发生显著变化，从生理pH下的极性中性变为强负电荷，这意味着这些残基的生物物理性质发生重大改变。在分子动力学 (molecular dynamics) 模拟中对磷酸化残基进行建模因其高电荷性质而具有挑战性，开发极化力场参数是扩展蛋白质力场的重要任务。在此，我们展示了磷酸化丝氨酸、苏氨酸和酪氨酸在所有质子化状态（中性、单阴离子和双阴离子）下的力场参数化与验证。我们针对一系列量子力学性质进行静电和二面角参数拟合，随后在全长蛋白质（ERK2和WNK1）及短多肽背景下验证了力场模型。我们发现磷酸化氨基酸与赖氨酸和精氨酸残基保持了预期的强相互作用，使pERK2和pWNK1中的环区刚性化。在短多肽中，丝氨酸和苏氨酸的磷酸化减少了无序性并促进了α-螺旋转角形成，这与先前发现一致。本力场与Drude蛋白质力场兼容，并扩展了化学空间覆盖范围，纳入这些重要化学实体，以用于未来蛋白质结构和功能研究，特别是针对固有无序蛋白质在磷酸化后出现的构象变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41126530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41126530/",
+  "paper_page_path": "papers/pubmed/41126530/index.html"
+}

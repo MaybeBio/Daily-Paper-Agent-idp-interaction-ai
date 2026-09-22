@@ -1,0 +1,267 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.02.502451",
+  "title": "Can pseudotopological models for SMC-driven DNA loop extrusion explain the traversal of physical roadblocks bigger than the SMC ring size?",
+  "doi": "10.1101/2022.08.02.502451",
+  "abstract": "<h4>SUMMARY</h4> DNA loop extrusion by structural-maintenance-of-chromosome (SMC) complexes has emerged as a primary organizing principle for chromosomes. The mechanism by which SMC motor proteins extrude DNA loops is still unresolved and much debated. The ring-like structure of SMC complexes prompted multiple models where the extruded DNA is topologically or pseudotopologically entrapped within the ring during loop extrusion. However, recent experiments showed the passage of roadblocks much bigger than the SMC ring size, suggesting a nontopological mechanism. Recently, attempts were made to reconcile the observed passage of large roadblocks with a pseudotopological mechanism. Here we examine the predictions of these pseudotopological models, and find that they are not consistent with some experimental data on SMC roadblock encounters. Particularly, these models predict the formation of two loops and that roadblocks will reside near the stem of the loop upon encounter – both in contrast to experimental observations. Overall, the experimental data reinforce the notion of a nontopological mechanism for extrusion of DNA.",
+  "authors": [
+    "Pradhan B",
+    "Barth R",
+    "Kim E",
+    "Davidson IF",
+    "van der Torre J",
+    "Peters J",
+    "Dekker C"
+  ],
+  "published_date": "2022-08-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.02.502451",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.02.502451.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR526942",
+    "raw_record": {
+      "id": "PPR526942",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR526942"
+        ]
+      },
+      "doi": "10.1101/2022.08.02.502451",
+      "title": "Can pseudotopological models for SMC-driven DNA loop extrusion explain the traversal of physical roadblocks bigger than the SMC ring size?",
+      "authorString": "Pradhan B, Barth R, Kim E, Davidson IF, van der Torre J, Peters J, Dekker C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pradhan B",
+            "lastName": "Pradhan",
+            "firstName": "Biswajit",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6101-8728"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barth R",
+            "lastName": "Barth",
+            "firstName": "Roman",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5602-1164"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim E",
+            "lastName": "Kim",
+            "firstName": "Eugene",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1759-6360"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davidson IF",
+            "lastName": "Davidson",
+            "firstName": "Iain",
+            "initials": "IF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van der Torre J",
+            "lastName": "van der Torre",
+            "firstName": "Jaco",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5405-3824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peters J",
+            "lastName": "Peters",
+            "firstName": "Jan-Michael",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute of Molecular Pathology (IMP), Vienna Biocenter (VBC), Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dekker C",
+            "lastName": "Dekker",
+            "firstName": "Cees",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6273-071X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, Netherlands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6273-071X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1759-6360"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5405-3824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5602-1164"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6101-8728"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>SUMMARY</h4>  DNA loop extrusion by structural-maintenance-of-chromosome (SMC) complexes has emerged as a primary organizing principle for chromosomes. The mechanism by which SMC motor proteins extrude DNA loops is still unresolved and much debated. The ring-like structure of SMC complexes prompted multiple models where the extruded DNA is topologically or pseudotopologically entrapped within the ring during loop extrusion. However, recent experiments showed the passage of roadblocks much bigger than the SMC ring size, suggesting a nontopological mechanism. Recently, attempts were made to reconcile the observed passage of large roadblocks with a pseudotopological mechanism. Here we examine the predictions of these pseudotopological models, and find that they are not consistent with some experimental data on SMC roadblock encounters. Particularly, these models predict the formation of two loops and that roadblocks will reside near the stem of the loop upon encounter – both in contrast to experimental observations. Overall, the experimental data reinforce the notion of a nontopological mechanism for extrusion of DNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "883684",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "OCENW.GROOT.201",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/03/2022.08.02.502451.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.02.502451"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR526942"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR526942&type=FILE&fileName=EMS152226-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152226",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-04",
+      "firstPublicationDate": "2022-08-03",
+      "firstIndexDate": "2022-08-04",
+      "fullTextReceivedDate": "2022-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

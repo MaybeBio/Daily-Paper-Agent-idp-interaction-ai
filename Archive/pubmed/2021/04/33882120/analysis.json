@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33882120",
+  "title": "APICURON: a database to credit and acknowledge the work of biocurators.",
+  "authors": "Hatos, Andras; Quaglia, Federica; Piovesan, Damiano; Tosatto, Silvio C E",
+  "journal": "Database : the journal of biological databases and curation",
+  "published_date": "2021-04-22",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 0,
+  "one_liner_zh": "该文介绍APICURON数据库，用于追踪和表彰生物注释者工作，与无序蛋白互作机制建模无关。",
+  "abstract": "APICURON is an open and freely accessible resource that tracks and credits the work of biocurators across multiple participating knowledgebases. Biocuration is essential to extract knowledge from research data and make it available in a structured and standardized way to the scientific community. However, processing biological data-mainly from literature-requires a huge effort that is difficult to attribute and quantify. APICURON collects biocuration events from third-party resources and aggregates this information, spotlighting biocurator contributions. APICURON promotes biocurator engagement implementing gamification concepts like badges, medals and leaderboards and at the same time provides a monitoring service for registered resources and for biocurators themselves. APICURON adopts a data model that is flexible enough to represent and track the majority of biocuration activities. Biocurators are identified through their Open Researcher and Contributor ID. The definition of curation events, scoring systems and rules for assigning badges and medals are resource-specific and easily customizable. Registered resources can transfer curation activities on the fly through a secure and robust Application Programming Interface (API). Here, we show how simple and effective it is to connect a resource to APICURON, describing the DisProt database of intrinsically disordered proteins as a use case. We believe APICURON will provide biological knowledgebases with a service to recognize and credit the effort of their biocurators, monitor their activity and promote curator engagement. Database URL: https://apicuron.org.",
+  "abstract_zh": "APICURON是一个开放且免费访问的资源，用于追踪和认可多个参与知识库中生物策展人的工作。生物策展对于从研究数据中提取知识并以结构化和标准化方式提供给科学界至关重要。然而，处理生物数据——主要来自文献——需要巨大的努力，这些努力难以归属和量化。APICURON从第三方资源收集生物策展事件并聚合这些信息，突出生物策展人的贡献。APICURON通过实施游戏化概念（如徽章、奖牌和排行榜）促进生物策展人的参与，同时为注册资源和生物策展人自身提供监控服务。APICURON采用的数据模型足够灵活，能够表示和追踪大多数生物策展活动。生物策展人通过其开放研究者与贡献者身份（Open Researcher and Contributor ID）进行识别。策展事件的定义、评分系统以及徽章和奖牌的分配规则是资源特定的，且易于定制。注册资源可以通过安全且稳健的应用编程接口（Application Programming Interface, API）实时传输策展活动。在此，我们展示了将资源连接到APICURON的简单性和有效性，并以内在无序蛋白质的DisProt数据库作为用例。我们相信APICURON将为生物知识库提供服务，以认可和表彰其生物策展人的努力，监控其活动，并促进策展人的参与。数据库URL：https://apicuron.org。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33882120/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33882120/",
+  "paper_page_path": "papers/pubmed/33882120/index.html"
+}

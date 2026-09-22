@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40861395",
+  "title": "The TEMPO integrator: accelerating molecular simulations by temporally multiscale force prediction.",
+  "authors": "Mintz, Reshef; Raveh, Barak",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-08-27",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出TEMPO积分器，通过时间多尺度力预测加速无序蛋白模型和核孔复合物的布朗动力学模拟，在保持动力学精度的同时大幅提升效率，直接服务于无序蛋白介导的互作过程建模。",
+  "abstract": "MOTIVATION: Molecular dynamics (MD) simulations enable the study of complex biomolecular processes by integrating system forces over time, but their computational inefficiency limits application at relevant scales. Enhanced sampling methods often sacrifice kinetic detail and require prior knowledge of the energy landscape. RESULTS: We developed the temporally multiscale prediction (TEMPO) Integrator, significantly reducing the number of force evaluations per simulated time unit by predicting forces at progressively larger intervals, thus boosting force-call efficiency. We incorporated the TEMPO integrator in a multiscale Brownian dynamics (MSBD) simulation tool. Compared with standard Brownian dynamics using the Euler-Maruyama integrator, our benchmarks of MSBD demonstrated 27- to 32-fold efficiency improvements for intrinsically disordered protein models and a seven-fold gain for nucleocytoplasmic transport through the nuclear pore complex (NPC), a critical cellular process in health and disease. Unlike conventional enhanced sampling, MSBD preserves kinetic properties, such as reaction rates, without relying on prior system knowledge or predefined reaction coordinates. By leveraging the inherently multiscale structure of energy landscapes, MSBD facilitates rapid molecular simulations while maintaining their accuracy. TEMPO's flexible framework is generalizable to various biomolecular systems and could complement existing enhanced sampling methods, facilitating efficient exploration of energy landscapes or complex dynamical processes. AVAILABILITY AND IMPLEMENTATION: https://github.com/ravehlab/tempo.",
+  "abstract_zh": "动机：分子动力学（molecular dynamics, MD）模拟通过随时间积分系统力来研究复杂生物分子过程，但其计算效率低下限制了在相关尺度上的应用。增强采样方法往往牺牲动力学细节，并需要能量景观的先验知识。结果：我们开发了时间多尺度预测（TEMPO）积分器，通过以逐渐增大的间隔预测力，显著减少每模拟时间单位的力评估次数，从而提升力调用效率。我们将TEMPO积分器整合到多尺度布朗动力学（multiscale Brownian dynamics, MSBD）模拟工具中。与使用Euler-Maruyama积分器的标准布朗动力学相比，我们的MSBD基准测试显示，对于 intrinsically disordered protein models，效率提升27至32倍，对于通过核孔复合体（nuclear pore complex, NPC）的核质运输（一种在健康和疾病中至关重要的细胞过程），效率提升七倍。与传统增强采样不同，MSBD保留动力学性质，如反应速率，且不依赖系统先验知识或预定义反应坐标。通过利用能量景观固有的多尺度结构，MSBD在保持准确性的同时促进快速分子模拟。TEMPO的灵活框架可推广至各种生物分子系统，并可能补充现有增强采样方法，促进能量景观或复杂动力学过程的高效探索。可用性与实现：https://github.com/ravehlab/tempo。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40861395/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40861395/",
+  "paper_page_path": "papers/pubmed/40861395/index.html"
+}

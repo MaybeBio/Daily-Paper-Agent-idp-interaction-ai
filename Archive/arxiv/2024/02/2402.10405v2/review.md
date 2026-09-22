@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (arXiv preprint 2402.10405v2)
+- **Assessment boundary** Scientific content, theoretical derivation, numerical methodology, and interpretation of results as presented in the manuscript
+- **Shared manuscript claim summary** The authors derive a continuum theory for wetting dynamics of phase-separating droplets on surfaces with reversible binding of droplet molecules to the surface. They report that surface binding accelerates wetting kinetics by nucleating a surface-bound droplet layer, with spreading times scaling as the inverse binding rate, and that this mechanism can control wetting in biological and synthetic systems.
+- **Visible evidence base** Main text (Sections I–IV), Appendices A–E, Figures 1–9 (referenced), Table 1 (referenced)
+- **Missing materials affecting confidence** Figure files and Table 1 contents were not provided; numerical solver code and detailed simulation parameters beyond those listed in the text were not available; no experimental validation data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially significant theoretical contribution to the physics of wetting in biomolecular condensate systems. The derivation from non-equilibrium thermodynamics is careful and the identification of a binding-mediated acceleration mechanism is novel. However, the manuscript has several technical issues that need to be addressed before the central claims are fully established. The scaling arguments for the growth time are not rigorously derived, the numerical methodology lacks convergence and validation details, and the connection to experimental observables is underdeveloped. The work is likely of interest to the soft matter and biophysics communities, but in its current form the evidence does not fully support all stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and their interactions with membranes, particularly those interested in wetting phenomena at cellular interfaces. The work also speaks to the broader soft matter community working on reactive and adaptive wetting, as it provides a molecular mechanism for surface property modification. Experimental groups studying condensate-membrane interactions may find the predictions testable and useful for designing experiments.
+- **Major strengths** The derivation from irreversible thermodynamics is systematic and provides a solid foundation. The identification of a binding-mediated acceleration mechanism is conceptually novel and could have broad implications. The authors address both complete and partial wetting regimes and check robustness in 3D. The manuscript is generally clearly written and the figures are well-referenced in the text.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the growth time scales as τ_g ~ k_r^{-1} for both complete and partial wetting is presented as a key result.
+  - **Evidence pointer** Section III.3, Eq. (26) and surrounding text; Section III.4
+  - **Concern** The scaling argument for τ_g is not rigorously derived. The authors state that the binding flux is negligible where μ_s^I = 0 and approximate r = k_r μ_s^II in the adjacent region, but the derivation of Eq. (26) and the subsequent scaling τ_g ~ k_r^{-1} involves several implicit assumptions about the spatial profile of μ_s and the geometry of the surface droplet that are not justified. The argument appears to assume a quasi-steady state for the surface concentration profile, but this is not stated or verified. Additionally, the crossover between the k_r^{-1} scaling and the saturation regime at large k_r is not analyzed.
+  - **Why it matters** The scaling law is a central quantitative prediction of the paper. If the derivation is not rigorous, the predictive power of the theory is compromised, and the claim that binding "speeds up wetting by orders of magnitude" is not quantitatively supported.
+  - **Resolution test** Provide a more detailed derivation of the scaling law, including explicit statements of all assumptions. Verify the scaling numerically over a wider range of k_r values and check for convergence to the predicted exponent. Alternatively, provide a scaling argument based on a controlled asymptotic analysis of the governing equations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  ​- **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The numerical results are used to support the main conclusions about wetting kinetics.
+  - **Evidence pointer** Section III.3, III.4, Appendix E
+  - **Concern** The numerical methodology is not described in sufficient detail. The authors state that they use a finite difference method with Crank-Nicolson time stepping and energy quadratization, but no information is provided on grid resolution, time step size, convergence testing, or validation against known solutions. The energy quadratization method is not standard for Cahn-Hilliard-type equations with dynamic boundary conditions, and the authors do not demonstrate that the method preserves the expected energy dissipation properties. Without this information, the accuracy of the numerical results cannot be assessed.
+  - **Why it matters** The numerical simulations are the primary evidence for the claimed acceleration of wetting dynamics. If the numerics are not converged or validated, the quantitative results (e.g., the scaling exponents, the time scales τ_n, τ_g, τ_o) may be artifacts of the discretization.
+  - **Resolution test** Provide details on grid resolution, time step, and convergence tests. Validate the numerical scheme against known analytical solutions or benchmark problems (e.g., Cahn-Hilliard with known equilibrium profiles). Show that the results are converged with respect to grid and time step refinement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim the results are relevant to biomolecular condensates in living cells and to engineering life-like systems.
+  - **Evidence pointer** Section IV (Conclusions)
+  - **Concern** The connection to experimental systems is stated but not developed. The authors do not provide estimates of the relevant dimensionless parameters (e.g., k_r, χ_0s) for realistic biological systems, nor do they discuss how the predicted acceleration could be experimentally observed. The claim that binding "could be crucial in regulating the communication between biomolecular condensates and membrane-bound organelles" is speculative without a concrete experimental context or quantitative predictions that could be tested.
+  - **Why it matters** For a theory paper to have impact beyond the modeling community, it should provide testable predictions or clear guidance for experimental design. The current manuscript does not bridge this gap.
+  - **Resolution test** Add a section discussing the expected parameter ranges for biological systems and provide specific, testable predictions (e.g., how the spreading time depends on binding affinity in measurable quantities). Alternatively, temper the claims about biological relevance and focus on the theoretical contribution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section II.4
+  - **Evidence pointer** Eqs. (13a)–(13d)
+  - **Issue** The identification of thermodynamic forces and fluxes is presented without a clear explanation of the physical meaning of each term. The reader is left to infer why certain terms appear in the entropy production rate.
+  - **Required correction** Add a brief physical interpretation of each force-flux pair, perhaps in a table or a short paragraph.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section III.3
+  - **Evidence pointer** Text following Eq. (26)
+  - **Issue** The statement "the time of fast spreading of the bulk droplet corresponds to the growth time τ_g of the surface droplet underneath" is ambiguous. It is not clear whether τ_g is defined as the time for the surface droplet to reach full coverage or some other measure.
+  - **Required correction** Define τ_g precisely and state how it is extracted from the numerical data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section III.4
+  - **Evidence pointer** Figure 6 (referenced)
+  - **Issue** The description of the overtaking time τ_o is confusing. The text says "the interface of the surface drop overtakes the interface of the bulk droplet," but it is not clear what "overtakes" means geometrically in the context of the simulation.
+  - **Required correction** Provide a schematic or a more precise description of the geometry and what τ_o represents.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Appendix E
+  - **Evidence pointer** Figure 9 (referenced)
+  - **Issue** The comparison between 2D and 3D results is presented qualitatively. The authors state that "2D and 3D studies share almost same spreading time scales," but no quantitative comparison is shown.
+  - **Required correction** Provide a table or figure showing the numerical values of τ_n, τ_g, τ_o for both 2D and 3D cases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (scaling derivation), R1-M2 (numerical methodology)
+- **Assessment against Nature-style criteria** Originality: The concept of binding-mediated acceleration of wetting is novel and not previously reported in the condensate literature. Scientific importance: The work addresses a significant gap in understanding wetting dynamics in biological systems, but the lack of experimental connection limits its immediate impact. Interdisciplinary readership: The topic bridges soft matter physics, biophysics, and cell biology, and the writing is largely accessible, though some sections require specialized knowledge. Technical soundness: The thermodynamic derivation is sound, but the scaling analysis and numerical methodology have gaps that need to be addressed. Readability for nonspecialists: The introduction and conclusions are accessible, but the derivation sections are dense and would benefit from additional context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the derivation is a solid foundation, but the scaling law and numerical results need to be more rigorously established before the central claims can be fully accepted.

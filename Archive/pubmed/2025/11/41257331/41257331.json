@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "41257331",
+    "doi": "10.1021/acs.jpcb.5c06282",
+    "title": "Across (Conformational) Space and (Relaxation) Time: Using Coarse-Grain Simulations to Probe the Intra- and Interdomain Dynamics of the Tau Protein."
+  },
+  "content": {
+    "abstract": "The biological importance of intrinsically disordered proteins (IDPs) has been established for over two decades, yet these systems remain difficult to characterize, as they are better described by conformational ensembles instead of a single reference structure for their folded counterparts. Tau is a prominent member of the IDP family, which sees its cellular function regulated by multiple phosphorylation sites and whose hyperphosphorylation is involved in neurodegenerative diseases such as Alzheimer's. We used coarse-grain MD simulations with the CALVADOS model to investigate the conformational landscape of tau without and with phosphorylations. Characterizing the local compactness of IDPs allows us to highlight how disorder comes in various flavors, as we can define different domains along the tau sequence. We define the IDP's Statistical Tertiary Organization (STO) as the average spatial arrangements of domains, which constitute an extension of the tertiary structure of folded proteins. We also use IDP-specific metrics to characterize the local curvature and flexibility of tau. Comparing the local flexibilities with T2 relaxation times from NMR experiments, we show how this metric is related to the protein dynamics. A curvature and flexibility pattern in the repeat domains can also be connected to tau binding properties, without having to explicitly model the protein's interaction partner. Finally, we rediscuss the original paperclip model that describes the spatial organization of tau and how phosphorylations impact it. The resulting changes in the protein intradomain and interdomain interaction pattern allow us to propose experimental setups to test our hypothesis.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Phosphorylation",
+      "Protein Conformation",
+      "Humans",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marien, Jules",
+        "Prevost, Chantal",
+        "Sacquin-Mora, Sophie"
+      ],
+      "short_names": [
+        "Marien J",
+        "Prevost C",
+        "Sacquin-Mora S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3516-6687",
+        "ORCID: 0000-0002-2781-4333"
+      ],
+      "affiliations": [
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 75005 Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marien, Jules",
+        "short_name": "Marien J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Prévost, Chantal",
+        "short_name": "Prévost C",
+        "identifiers": [
+          "0000-0003-3516-6687"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sacquin-Mora, Sophie",
+        "short_name": "Sacquin-Mora S",
+        "identifiers": [
+          "0000-0002-2781-4333"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Nov 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41257331",
+      "30840442",
+      "39092904",
+      "25767879",
+      "34845619",
+      "40198698",
+      "36674958",
+      "38100856",
+      "39412378",
+      "34681718",
+      "40907012",
+      "32623047",
+      "38512660",
+      "36579699",
+      "30632561",
+      "25691742",
+      "38512658",
+      "34504009",
+      "30259679",
+      "27911791",
+      "26742101",
+      "27975243",
+      "30865832",
+      "37990496",
+      "41082321",
+      "30184304",
+      "39499823",
+      "32579908",
+      "17081491",
+      "36641212",
+      "28834051",
+      "31809054",
+      "38018910",
+      "30091924",
+      "28060278",
+      "37108059",
+      "29944336",
+      "32722166",
+      "33581430",
+      "23199922",
+      "32696379",
+      "26387102",
+      "32486218",
+      "41137856",
+      "40172236",
+      "33355572",
+      "41778964",
+      "39093570",
+      "40101966",
+      "41073429",
+      "40489183",
+      "25207671",
+      "35322890",
+      "26351734",
+      "38928405",
+      "35725761",
+      "30813315",
+      "41259435",
+      "29990433",
+      "29630971",
+      "32859072",
+      "36563129",
+      "39555603",
+      "37167199",
+      "32696377",
+      "39105804",
+      "40629690",
+      "30909517",
+      "32525675",
+      "36084124",
+      "30878202",
+      "39871444",
+      "36310204",
+      "36934808",
+      "28448138",
+      "28278386",
+      "25375525",
+      "39163306",
+      "28970487",
+      "29573987",
+      "35658083",
+      "27844185",
+      "30913885",
+      "33945530",
+      "26387099",
+      "35298814",
+      "29276882",
+      "30204435",
+      "34680048",
+      "26735936",
+      "37838830",
+      "32696367",
+      "29364151",
+      "26195786",
+      "39983022",
+      "39977663",
+      "34201262",
+      "31241933",
+      "41820804",
+      "22072628"
+    ],
+    "review": [
+      "41257331",
+      "30840442",
+      "26387102",
+      "33355572",
+      "39093570",
+      "39555603",
+      "30909517",
+      "28278386",
+      "26387099",
+      "34680048"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c06282",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

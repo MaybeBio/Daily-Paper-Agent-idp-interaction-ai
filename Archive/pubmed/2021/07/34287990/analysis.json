@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34287990",
+  "title": "Tudor staphylococcal nuclease is a docking platform for stress granule components and is essential for SnRK1 activation in Arabidopsis.",
+  "authors": "Gutierrez-Beltran, Emilio; Elander, Pernilla H; Dalman, Kerstin; Dayhoff, Guy W 2nd; Moschou, Panagiotis N; Uversky, Vladimir N; Crespo, Jose L; Bozhkov, Peter V",
+  "journal": "The EMBO journal",
+  "published_date": "2021-07-22",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文揭示拟南芥Tudor-SN(TSN)作为内在无序蛋白(IDP)支架，通过IDP-IDP互作网络招募应激颗粒组分并激活SnRK1激酶，直接涉及IDP介导的PPI与凝聚体机制，虽以实验为主但机制建模思路对本课题有启发。",
+  "abstract": "Tudor staphylococcal nuclease (TSN; also known as Tudor-SN, p100, or SND1) is a multifunctional, evolutionarily conserved regulator of gene expression, exhibiting cytoprotective activity in animals and plants and oncogenic activity in mammals. During stress, TSN stably associates with stress granules (SGs), in a poorly understood process. Here, we show that in the model plant Arabidopsis thaliana, TSN is an intrinsically disordered protein (IDP) acting as a scaffold for a large pool of other IDPs, enriched for conserved stress granule components as well as novel or plant-specific SG-localized proteins. While approximately 30% of TSN interactors are recruited to stress granules de novo upon stress perception, 70% form a protein-protein interaction network present before the onset of stress. Finally, we demonstrate that TSN and stress granule formation promote heat-induced activation of the evolutionarily conserved energy-sensing SNF1-related protein kinase 1 (SnRK1), the plant orthologue of mammalian AMP-activated protein kinase (AMPK). Our results establish TSN as a docking platform for stress granule proteins, with an important role in stress signalling.",
+  "abstract_zh": "Tudor葡萄球菌核酸酶（TSN；也称为Tudor-SN、p100或SND1）是一种多功能的、进化上保守的基因表达调控因子，在动物和植物中表现出细胞保护活性，在哺乳动物中则具有致癌活性。在应激条件下，TSN与应激颗粒（SGs）稳定结合，但这一过程尚不完全清楚。在此，我们展示了在模式植物拟南芥中，TSN是一种固有无序蛋白（IDP），作为大量其他IDP的支架，这些IDP富含保守的应激颗粒组分以及新型或植物特异性的SG定位蛋白。虽然约30%的TSN相互作用蛋白在感知应激后从头被招募到应激颗粒中，但70%在应激发生前就已形成蛋白质-蛋白质相互作用网络。最后，我们证明TSN和应激颗粒的形成促进了进化上保守的能量感应SNF1相关蛋白激酶1（SnRK1）的热诱导激活，该激酶是哺乳动物AMP活化蛋白激酶（AMPK）的植物同源物。我们的结果确立了TSN作为应激颗粒蛋白的对接平台，在应激信号传导中发挥重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34287990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34287990/",
+  "paper_page_path": "papers/pubmed/34287990/index.html"
+}

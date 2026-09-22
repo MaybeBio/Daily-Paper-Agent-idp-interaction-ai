@@ -1,0 +1,497 @@
+{
+  "identity": {
+    "pmid": "42204533",
+    "doi": "10.1186/s12916-026-04957-y",
+    "title": "Thyroid-stimulating hormone receptor mediates peripheral-central neuroimmune crosstalk in autoimmune thyroid diseases."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Organ-specific autoimmune diseases, particularly Graves' disease (GD) and its extrathyroidal manifestation, Graves' orbitopathy (GO), are characterized by systemic autoimmunity that may extend its impact to the central nervous system (CNS). While thyroid-stimulating hormone receptor (TSHR) is the primary driver of pathological remodeling in the thyroid and orbital tissues, emerging evidence suggests it is also expressed in the brain and may participate in neuroimmune signaling. However, the molecular mechanisms linking peripheral TSHR-driven autoimmunity to these extended systemic features remain unclear. Thus, GD and GO provide a unique window to investigate how peripheral autoantibodies influence CNS involvement as part of its broader pathological spectrum. METHODS: Genome-wide association studies (GWAS) and post-GWAS analyses were integrated with bulk RNA sequencing, single-cell and spatial transcriptomics, and brain imaging phenotypes to comprehensively characterize peripheral and central alterations in GD and GO. Mendelian randomization was applied to test causal relationships between genetic variants and brain signatures. Structural biology analyses were further conducted including protein-protein docking, small-molecule docking, and normal mode dynamics to identify prospective modulators of TSHR. Immunofluorescence staining was performed in a GO mouse model to validate the colocalization of potential interacted proteins in the specific brain region. RESULTS: Brain imaging-derived phenotypes (IDPs) alterations in GO and GO were systematically analyzed to identify neuroanatomical and functional alterations. TSHR was further identified as a shared genetic driver across peripheral and central compartments. TSHR was expressed in spiny projection neurons, microglia, and peripheral T cells, with cell-cell communication analyses highlighting TSHR-mediated interactions among neurons, endothelial cells, and microglia. Immunofluorescence staining in a GO mouse model confirmed the colocalization of TSHR with FN1 and GNAS in the basal ganglia, providing tissue-level validation of the computationally predicted ligand-receptor interactions. Immune profiling further showed immune alterations in GD and GO. Structural modeling supported plausible physical interfaces between TSHR and interacting proteins, and small-molecule screening identified three repurposable compounds - venetoclax, irinotecan, and dutasteride - with predicted favorable docking scores and stable binding poses in our simulations. CONCLUSIONS: These findings demonstrate that TSHR acts as a molecular hub mediating peripheral-central neuroimmune crosstalk in GD and GO. The results support a broader \"disease-molecule axis\" framework that links genetic susceptibility with multi-level immune and neural mechanisms. This work provides mechanistic insights relevant to the development of TSHR-targeted therapies, with implications for both peripheral immune modulation and central regulation. However, the limited sample size, lack of longitudinal follow-up, and absence of in vivo validation warrant cautious interpretation and further investigation.",
+    "keywords": [
+      "Graves' disease",
+      "Graves' orbitopathy",
+      "genome-wide association studies",
+      "multi-omics",
+      "resting-state functional magnetic resonance imaging",
+      "thyroid-stimulating hormone receptor"
+    ],
+    "mesh_terms": [
+      "*Receptors, Thyrotropin/genetics/metabolism/immunology",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Graves Ophthalmopathy/immunology/genetics",
+      "Genome-Wide Association Study",
+      "*Graves Disease/immunology/genetics",
+      "Brain/metabolism/immunology",
+      "*Neuroimmunomodulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Haiyang",
+        "Jiang, Shufan",
+        "Zhu, Tianyi",
+        "Liu, Yuting",
+        "Li, Jipeng",
+        "Fang, Sijie",
+        "Li, Yinwei",
+        "Sun, Jing",
+        "He, Xinheng",
+        "Tong, Chuanjun",
+        "Gao, Zhengrun",
+        "Fan, Xianqun",
+        "Zhou, Huifang"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Jiang S",
+        "Zhu T",
+        "Liu Y",
+        "Li J",
+        "Fang S",
+        "Li Y",
+        "Sun J",
+        "He X",
+        "Tong C",
+        "Gao Z",
+        "Fan X",
+        "Zhou H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        ", No. 639, Zhizaoju Road, Shanghai, China.",
+        "The CAS Key Laboratory of Receptor Research and State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        ", No. 555, Zuchongzhi Road, Shanghai, China.",
+        "Institute of Neuroscience, Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences, Shanghai, China.",
+        ", No. 319, Yueyang Road, Shanghai, China.",
+        "Songjiang Research Institute, Songjiang Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. zrgao@shsmu.edu.cn.",
+        ", No. 746, Zhongshan Middle Road, Shanghai, China. zrgao@shsmu.edu.cn.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. fanxq@sjtu.edu.cn.",
+        ", No. 639, Zhizaoju Road, Shanghai, China. fanxq@sjtu.edu.cn.",
+        "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. fangzzfang@sjtu.edu.cn.",
+        ", No. 639, Zhizaoju Road, Shanghai, China. fangzzfang@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Haiyang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shufan",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tianyi",
+        "short_name": "Zhu T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuting",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jipeng",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Sijie",
+        "short_name": "Fang S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yinwei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jing",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          ", No. 639, Zhizaoju Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, Xinheng",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "The CAS Key Laboratory of Receptor Research and State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+          ", No. 555, Zuchongzhi Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Chuanjun",
+        "short_name": "Tong C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences, Shanghai, China.",
+          ", No. 319, Yueyang Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhengrun",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Songjiang Research Institute, Songjiang Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China. zrgao@shsmu.edu.cn.",
+          ", No. 746, Zhongshan Middle Road, Shanghai, China. zrgao@shsmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fan, Xianqun",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. fanxq@sjtu.edu.cn.",
+          ", No. 639, Zhizaoju Road, Shanghai, China. fanxq@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huifang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Eye Health, Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. fangzzfang@sjtu.edu.cn.",
+          ", No. 639, Zhizaoju Road, Shanghai, China. fangzzfang@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Med"
+    ],
+    "pub_date": "2026 May 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:32",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40865515",
+      "40707711",
+      "40425792",
+      "40424384",
+      "40408480",
+      "40342542",
+      "40320404",
+      "40223334",
+      "40108460",
+      "39623049",
+      "39489468",
+      "39483982",
+      "39291699",
+      "39289562",
+      "39285586",
+      "39039206",
+      "39030115",
+      "39019974",
+      "38789416",
+      "38726033",
+      "38722464",
+      "38682584",
+      "38658413",
+      "38368427",
+      "38296993",
+      "38134921",
+      "37231261",
+      "37105172",
+      "37001498",
+      "36995569",
+      "36917821",
+      "36800968",
+      "36788293",
+      "36653562",
+      "36634672",
+      "36370105",
+      "36216900",
+      "36050550",
+      "35903283",
+      "35738426",
+      "35705077",
+      "35680885",
+      "35549406",
+      "35181395",
+      "34896340",
+      "34731328",
+      "34659337",
+      "34552239",
+      "34297684",
+      "34033858",
+      "33930408",
+      "33817897",
+      "33780170",
+      "33514849",
+      "33476547",
+      "33459785",
+      "32606005",
+      "32253727",
+      "31406343",
+      "31324783",
+      "31197680",
+      "31194638",
+      "31077796",
+      "30531993",
+      "30305740",
+      "29885847",
+      "29762700",
+      "29753752",
+      "29601105",
+      "28964784",
+      "28878279",
+      "28776278",
+      "28527048",
+      "27797318",
+      "27038492",
+      "25950993",
+      "25885710",
+      "25605792",
+      "25562617",
+      "25176396",
+      "25150836",
+      "25016105",
+      "24771341",
+      "24532726",
+      "24114802",
+      "23861951",
+      "22681696",
+      "22466660",
+      "22419707",
+      "21414999",
+      "21304144",
+      "21297265",
+      "20577591",
+      "20550534",
+      "18990132",
+      "18521000",
+      "17700227",
+      "17521570",
+      "17180163",
+      "11960792",
+      "7962489"
+    ],
+    "similar": [
+      "42204533",
+      "29058307",
+      "18925838",
+      "38662129",
+      "33076782",
+      "35986869",
+      "42475469",
+      "31237525",
+      "35004341",
+      "34779257",
+      "33593429",
+      "34144327",
+      "37624749",
+      "39909461",
+      "31184281",
+      "42203012",
+      "22663548",
+      "29801507",
+      "28319174",
+      "34545512",
+      "23900776",
+      "40654270",
+      "22438231",
+      "32911689",
+      "32749654",
+      "25061884",
+      "25543543",
+      "37810891",
+      "30351237",
+      "23613015",
+      "37435490",
+      "11704996",
+      "20384487",
+      "9506762",
+      "18768899",
+      "27465319",
+      "20464711",
+      "24517461",
+      "34927457",
+      "32573180",
+      "35813642",
+      "31980336",
+      "33511087",
+      "27913646",
+      "40905523",
+      "21738647",
+      "41338297",
+      "20844004",
+      "39365735",
+      "19244275",
+      "31379878",
+      "26361261",
+      "22632366",
+      "42374926",
+      "10365678",
+      "27456991",
+      "19530272",
+      "33868176",
+      "22399514",
+      "9086563",
+      "21677036",
+      "21956421",
+      "22066476",
+      "34647608",
+      "42195214",
+      "21715431",
+      "33208049",
+      "26872090",
+      "26287396",
+      "10980691",
+      "20954819",
+      "42565655",
+      "36395261",
+      "19438904",
+      "22125104",
+      "23025526",
+      "41054857",
+      "34114495",
+      "14654350",
+      "42473870",
+      "30396220",
+      "35088429",
+      "39280007",
+      "41687076",
+      "19914592",
+      "39046281",
+      "11129118",
+      "9528975",
+      "30822352",
+      "29093229",
+      "19264867",
+      "25777757",
+      "25768836",
+      "33369369",
+      "34714162",
+      "32567373",
+      "35870804",
+      "26176182",
+      "35287535",
+      "25122677"
+    ],
+    "review": [
+      "42204533",
+      "35004341",
+      "39909461",
+      "32911689",
+      "32749654",
+      "23613015",
+      "11704996",
+      "27465319",
+      "20464711",
+      "35813642",
+      "40905523",
+      "26361261",
+      "22632366",
+      "27456991",
+      "19530272",
+      "33868176",
+      "21677036",
+      "22066476",
+      "42195214",
+      "26287396",
+      "10980691",
+      "22125104",
+      "23025526",
+      "14654350",
+      "30396220",
+      "11129118",
+      "25777757",
+      "25768836"
+    ],
+    "pmc": [
+      "13397711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-026-04957-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42204533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1122",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

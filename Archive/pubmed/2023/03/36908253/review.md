@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, results, figures, or tables were provided
+- **Shared manuscript claim summary** The authors propose a new method for predicting protein-protein interactions (PPIs) using sequences of intrinsically disordered regions (IDRs) in human proteins. They divide the PPI prediction problem into two subproblems and adapt training and test strategies accordingly. They claim that IDR sequences can aid in predicting specific features of the PPI network of intrinsically disordered proteins and that accounting for IDRs should accelerate elucidation of the eukaryotic PPI network.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, datasets, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset descriptions, baseline comparisons, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that IDR sequences carry predictive information for PPI prediction. The framing of the problem into two subproblems is a sensible contribution. However, the abstract provides no quantitative evidence, no description of the method architecture, no benchmark results, and no comparison to existing approaches. As such, the central claims are currently unverifiable from the supplied material. The work may be of interest to the computational biology community, but the evidence base is insufficient to assess technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on PPI prediction, protein function annotation, and intrinsically disordered protein biology. The proposed focus on IDR sequences could appeal to researchers studying the role of disorder in molecular recognition and to those developing sequence-based predictors for interaction networks.
+- **Major strengths** The hypothesis that IDR sequences contain predictive signals for PPIs is biologically plausible and timely. The explicit recognition that PPI prediction comprises distinct subproblems with different training and test requirements is a methodological strength that could improve evaluation practices in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that their method predicts PPIs using IDR sequences and that findings show IDR sequences can aid in predicting specific features of the PPI network.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports no quantitative results. There are no performance metrics, no comparison to existing PPI prediction methods, no dataset description, and no statistical significance measures. The claim that the method works is therefore unsupported.
+  - **Why it matters** Without quantitative evidence, the reader cannot evaluate whether the method performs adequately, whether the improvement over baselines is meaningful, or whether the conclusions are robust. The central claim of the paper is not established.
+  - **Resolution test** Provide performance metrics (e.g., AUC, precision, recall, F1) on benchmark datasets, compare against at least one established PPI prediction method, and report statistical significance or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state they divide the PPI prediction problem into two subproblems and adapt training and test strategies based on problem type.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what the two subproblems are, how the training and test strategies differ, or why this division is necessary. The methodological contribution is therefore opaque.
+  - **Why it matters** The claimed methodological advance cannot be assessed or reproduced without a clear description of the subproblems and the corresponding strategies. This is a core element of the paper's contribution.
+  - **Resolution test** Clearly define the two subproblems, describe the training and test protocols for each, and explain the rationale for the division in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of claims
+  - **Claim pointer** The authors claim that accounting for IDRs in future analyses should accelerate efforts to elucidate the eukaryotic PPI network.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports results only for human proteins. The extrapolation to the entire eukaryotic PPI network is not supported by the evidence described.
+  - **Why it matters** The claim extends beyond the visible evidence base. Without cross-species validation or a clear argument for why human IDR properties generalize, the statement is speculative.
+  - **Resolution test** Provide validation on at least one additional eukaryotic species or present a reasoned argument with supporting literature for generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "specific features of the protein interaction network" is vague. It is unclear which features are meant, such as interaction partners, interaction strength, or network topology.
+  - **Required correction** Specify which features of the PPI network are predicted, for example binary interaction status, interaction affinity, or functional modules.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given about the type of model used, the encoding of IDR sequences, or the source of training data.
+  - **Required correction** Include a brief description of the model type, sequence encoding, and data sources in the abstract or ensure these are clearly detailed in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention how the proposed method compares to existing PPI prediction approaches that do not use IDR sequences.
+  - **Required correction** Add a sentence in the abstract or introduction that situates the method relative to prior work and states the expected advantage.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, the lack of methodological detail, and the unsupported generalization to eukaryotes collectively prevent the case from being established.
+- **Assessment against Nature-style criteria** Originality: The focus on IDR sequences for PPI prediction is a fresh angle, though the abstract does not demonstrate novelty relative to existing disorder-aware predictors. Scientific importance: The topic is relevant, but the importance cannot be gauged without evidence of improved performance or new biological insight. Interdisciplinary readership: The work could appeal to both computational and experimental biologists, but the abstract is too sparse to engage a broad audience. Technical soundness: Not assessable from the abstract alone. Readability for nonspecialists: The abstract is readable but lacks context and concrete outcomes.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis and framing are promising, but the abstract alone does not provide sufficient support for the claims. A full manuscript with quantitative results and methodological detail would be required to assess the work fairly.
+
+## Risk / unsupported claims
+- The claim that the method predicts PPIs using IDR sequences is unsupported because no performance data are provided.
+- The claim that IDR sequences can aid in predicting specific features of the PPI network is unsupported because no results are shown.
+- The claim that accounting for IDRs should accelerate elucidation of the eukaryotic PPI network is speculative and not supported by the human-only evidence described.
+- The division of the PPI prediction problem into two subproblems is mentioned but not defined, making the methodological contribution unassessable.

@@ -1,0 +1,236 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-96p6b",
+  "title": "Complex structure-free compound-protein interaction prediction for mitigating activity cliff-induced discrepancies and integrated bioactivity learning",
+  "doi": "10.26434/chemrxiv-2025-96p6b",
+  "abstract": "Protein-ligand binding affinity assessment plays a pivotal role in virtual drug screening, yet conventional data-driven approaches rely heavily on limited protein-ligand crystal structures. Structure-free compound-protein interaction (CPI) methods have emerged as competitive alternatives, leveraging extensive bioactivity data to serve as more robust scoring functions. However, these methods often overlook two critical challenges that affect data efficiency and modeling accuracy: the heterogeneity of bioactivity data due to differences in bioassay measurements, and the presence of activity cliffs (ACs)—small chemical modifications that lead to significant changes in bioactivity, which have not been thoroughly investigated in CPI modeling. To address these challenges, we present CPI2M, a large-scale CPI benchmark dataset containing approximately 2 million bioactivity endpoints across four activity types (Ki, Kd, EC50, and IC50) with AC annotations. Moreover, we developed GGAP-CPI, a structure-free deep learning model trained by integrated bioactivity learning and designed to mitigate the impact of ACs on CPI prediction through advanced protein representation modelling and integrated bioactivity learning. Our comprehensive evaluation demonstrates that GGAP-CPI outperforms 12 target-specific and 7 general CPI baselines across four key scenarios (general CPI prediction, rare protein prediction, transfer learning, and virtual screening) on seven benchmarks (CPI2M, MoleculeACE, CASF-2016, MerckFEP, DUD-E, DEKOIS-v2, and LIT-PCBA). Furthermore, GGAP-CPI not only delivers stable predictions by distinguishing bioactivity differences between ACs and non-ACs, but also enriches binding pocket residues and interactions, underscoring its applicability to real-world binding affinity assessments and virtual drug screening.",
+  "authors": [
+    "Yaowen Gu",
+    "Song Xia",
+    "Qi Ouyang",
+    "Yingkai Zhang"
+  ],
+  "published_date": "2025-03-24",
+  "updated_date": "2025-03-24T06:43:19Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-96p6b",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-96p6b",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:10:06Z",
+        "timestamp": 1778753406221,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            24
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                24
+              ]
+            ],
+            "date-time": "2025-03-24T00:00:00Z",
+            "timestamp": 1742774400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "R35-GM127040"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35-GM127040"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-ligand binding affinity assessment plays a pivotal role in virtual drug screening, yet conventional data-driven approaches rely heavily on limited protein-ligand crystal structures. Structure-free compound-protein interaction (CPI) methods have emerged as competitive alternatives, leveraging extensive bioactivity data to serve as more robust scoring functions. However, these methods often overlook two critical challenges that affect data efficiency and modeling accuracy: the heterogeneity of bioactivity data due to differences in bioassay measurements, and the presence of activity cliffs (ACs)—small chemical modifications that lead to significant changes in bioactivity, which have not been thoroughly investigated in CPI modeling. To address these challenges, we present CPI2M, a large-scale CPI benchmark dataset containing approximately 2 million bioactivity endpoints across four activity types (Ki, Kd, EC50, and IC50) with AC annotations. Moreover, we developed GGAP-CPI, a structure-free deep learning model trained by integrated bioactivity learning and designed to mitigate the impact of ACs on CPI prediction through advanced protein representation modelling and integrated bioactivity learning. Our comprehensive evaluation demonstrates that GGAP-CPI outperforms 12 target-specific and 7 general CPI baselines across four key scenarios (general CPI prediction, rare protein prediction, transfer learning, and virtual screening) on seven benchmarks (CPI2M, MoleculeACE, CASF-2016, MerckFEP, DUD-E, DEKOIS-v2, and LIT-PCBA). Furthermore, GGAP-CPI not only delivers stable predictions by distinguishing bioactivity differences between ACs and non-ACs, but also enriches binding pocket residues and interactions, underscoring its applicability to real-world binding affinity assessments and virtual drug screening.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-96p6b",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            24
+          ]
+        ],
+        "date-time": "2025-03-24T06:43:19Z",
+        "timestamp": 1742798599000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Complex structure-free compound-protein interaction prediction for mitigating activity cliff-induced discrepancies and integrated bioactivity learning"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0924-5939",
+          "authenticated-orcid": false,
+          "given": "Yaowen",
+          "family": "Gu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "New York University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Song",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "New York University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Qi",
+          "family": "Ouyang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "New York University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yingkai",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "New York University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-96p6b",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:13:43Z",
+        "timestamp": 1778750023000
+      },
+      "score": 59.302742,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-96p6b"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            24
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-96p6b",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

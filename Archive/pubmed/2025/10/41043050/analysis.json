@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41043050",
+  "title": "All-Aqueous Phase Segregation Integrated Electrochemical Aptamer Biosensor Enables Picomolar Detection of SARS-CoV-2 Spike Protein.",
+  "authors": "Siu, Ryan Ho-Ping; Zhang, Yage; Liu, Sihan; Kinghorn, Andrew Brian; Guo, Wei; Shum, Ho Cheung; Tanner, Julian Alexander",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文将液-液相分离(LLPS)用于电化学适配体生物传感器，通过相分离富集SARS-CoV-2刺突蛋白实现皮摩尔检测，但对象为折叠蛋白且无PPI机制建模，方法为实验传感而非AI/物理模拟，仅LLPS概念与本课题相关。",
+  "abstract": "Electrochemical aptamer biosensors (E-ABs) are promising tools for rapid point-of-care (POC) diagnosis which utilize aptamers for the molecular recognition of specific disease biomarkers. However, E-AB sensitivity is typically limited by the binding affinity (K(D)) of the aptamer (often in the micromolar-nanomolar range), while biomarker concentrations in biofluids are often at the picomolar level or below. Liquid-liquid phase separation (LLPS) provides a robust framework to concentrate the target biomarker based on affinity-controlled partitioning within an all-aqueous environment. In this study, the integration of LLPS into E-AB is reported to overcome the sensitivity limitation and achieve picomolar Severe acute respiratory syndroome coronavirus 2 spike protein (SARS-CoV-2 S protein) detection. Preferential spike protein partition upon LLPS is verified by microscopic imaging and biochemical assays. The LLPS-integrated E-AB is developed by a peroxidase catalytic reaction to generate electrical signals in the presence of the S protein. The LLPS demonstrates successful protein concentration from synthetic human biofluids and leads to at least 100-fold sensitivity improvement to the picomolar level of the limit of detection (LOD) by altering the volume ratio (VR) of the two segregated phases. This is the first report of an LLPS-embedded E-AB application, advancing the sensitivity of aptamer electrochemical biosensing without a multi-step downstream signal amplification cascade.",
+  "abstract_zh": "电化学适配体生物传感器（E-ABs）是利用适配体对特定疾病生物标志物进行分子识别，实现快速即时诊断（POC）的有前景工具。然而，E-AB的灵敏度通常受限于适配体的结合亲和力（K(D)）（通常在微摩尔至纳摩尔范围内），而生物体液中的生物标志物浓度往往处于皮摩尔水平或更低。液-液相分离（LLPS）提供了一种基于亲和力控制的分配机制，在全水相环境中富集目标生物标志物的稳健框架。在本研究中，报道了将LLPS整合到E-AB中，以克服灵敏度限制并实现皮摩尔级别的严重急性呼吸综合征冠状病毒2刺突蛋白（SARS-CoV-2 S蛋白）检测。通过显微成像和生化分析验证了LLPS时刺突蛋白的优先分配。通过过氧化物酶催化反应在S蛋白存在下产生电信号，开发了LLPS整合的E-AB。LLPS成功实现了从合成人体生物体液中的蛋白质浓缩，并通过改变两个分离相的体积比（VR），使检测限（LOD）灵敏度至少提高100倍，达到皮摩尔水平。这是LLPS嵌入E-AB应用的首次报道，无需多步下游信号放大级联即可提升适配体电化学生物传感的灵敏度。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41043050/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41043050/",
+  "paper_page_path": "papers/pubmed/41043050/index.html"
+}

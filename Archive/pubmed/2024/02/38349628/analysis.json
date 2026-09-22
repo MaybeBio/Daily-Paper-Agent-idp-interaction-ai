@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38349628",
+  "title": "Unveiling the multicomponent phase separation through molecular dynamics simulation and graph theory.",
+  "authors": "Yan, Zeng-Shuai; Ma, Yu-Qiang; Ding, Hong-Ming",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2024-02-13",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟结合图论定量解析多组分相分离中芳香族残基与精氨酸介导的阳离子-π和π-π相互作用网络，虽对象为多肽而非典型IDP，但聚焦相分离凝聚体形成机制与网络建模，方法可迁移至无序蛋白PPI机制研究。",
+  "abstract": "Biomolecular condensates formed by multicomponent phase separation play crucial roles in diverse cellular processes. Accurate assessment of individual-molecule contributions to condensate formation and precise characterization of their spatial organization within condensates are crucial for understanding the underlying mechanism of phase separation. Using molecular dynamics simulations and graph theoretical analysis, we demonstrated quantitatively the significant roles of cation-pi and pi-pi interactions mediated by aromatic residues and arginine in the formation of condensates in polypeptide systems. Our findings reveal temperature and chain length-dependent alterations in condensate network parameters, such as the number of condensate network layers, and changes in aggregation and connectivity. Notably, we observe a transition between assortativity and disassortativity in the condensate network. Moreover, polypeptides W, Y, F, and R consistently promote condensate formation, while the contributions of other charged and two polar polypeptides (Q and N) to condensate formation depend on temperature and chain length. Furthermore, polyadenosine and polyguanosine can establish stable connections with aromatic and R polypeptides, resulting in the reduced involvement of K, E, D, Q, and N in phase separation. Overall, this study provides a distinctive, precise, and quantitative approach to characterize the multicomponent phase separation.",
+  "abstract_zh": "由多组分相分离形成的生物分子凝聚体在多种细胞过程中发挥关键作用。准确评估单个分子对凝聚体形成的贡献，并精确表征其在凝聚体内的空间组织，对于理解相分离的潜在机制至关重要。利用分子动力学模拟和图论分析，我们定量证明了由芳香族残基和精氨酸介导的阳离子-π和π-π相互作用在多肽系统凝聚体形成中的重要作用。我们的发现揭示了温度和链长依赖性的凝聚体网络参数变化，如凝聚体网络层数，以及聚集和连接性的改变。值得注意的是，我们观察到凝聚体网络中的同配性和异配性之间的转变。此外，多肽W、Y、F和R持续促进凝聚体形成，而其他带电和两种极性多肽（Q和N）对凝聚体形成的贡献取决于温度和链长。进一步地，多聚腺苷酸和多聚鸟苷酸能与芳香族和R多肽建立稳定连接，导致K、E、D、Q和N在相分离中的参与减少。总体而言，本研究提供了一种独特、精确且定量的方法来表征多组分相分离。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38349628/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38349628/",
+  "paper_page_path": "papers/pubmed/38349628/index.html"
+}

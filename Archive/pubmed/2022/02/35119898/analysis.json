@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35119898",
+  "title": "Stoichiometry Controls the Dynamics of Liquid Condensates of Associative Proteins.",
+  "authors": "Ronceray, Pierre; Zhang, Yaojun; Liu, Xichong; Wingreen, Ned S",
+  "journal": "Physical review letters",
+  "published_date": "2022-02-05",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过标度分析和分子动力学研究互补无序蛋白凝聚体中化学计量比对内部动力学的影响，揭示键断裂后替代结合伴侣稀缺导致的弛豫减慢机制，直接关联无序蛋白介导的相分离PPI机制建模。",
+  "abstract": "Multivalent associative proteins with strong complementary interactions play a crucial role in phase separation of intracellular liquid condensates. We study the internal dynamics of such \"bond-network\" condensates comprising two complementary proteins via scaling analysis and molecular dynamics. We find that when stoichiometry is balanced, relaxation slows down dramatically due to a scarcity of alternative binding partners following bond breakage. This microscopic slow-down strongly affects the bulk diffusivity, viscosity, and mixing, which provides a means to experimentally test this prediction.",
+  "abstract_zh": "具有强互补相互作用的多价缔合蛋白在细胞内液体凝聚体的相分离中起着关键作用。我们通过标度分析和分子动力学 (molecular dynamics) 研究了由两种互补蛋白组成的此类“键网络”凝聚体的内部动力学。我们发现，当化学计量比平衡时，由于键断裂后替代结合伙伴的稀缺，弛豫显著减慢。这种微观层面的减慢强烈影响整体扩散性、粘度和混合，为实验验证这一预测提供了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35119898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35119898/",
+  "paper_page_path": "papers/pubmed/35119898/index.html"
+}

@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, summary, acknowledgements, footnotes)
+- **Assessment boundary** Scientific content and technical soundness of the computational study as presented; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors use AlphaFold-predicted structures, molecular docking (HADDOCK, ClusPro), and molecular dynamics simulations (GROMACS, CHARMM) to characterize interactions among five slit-diaphragm proteins (nephrin, NEPH1, podocin, CD2AP, TRPC6). They report partner-specific conformational adaptations, transient versus stable complexes, subunit-sharing mechanisms, and enhanced binding affinity with reduced flexibility for disease-associated mutations.
+- **Visible evidence base** Abstract, Introduction, Methods (docking, MD, mutation selection, analysis), Results and Discussion sections for six interaction systems, Summary, Acknowledgements, Footnotes. Supplementary figure and table references are cited but not provided.
+- **Missing materials affecting confidence** All supplementary figures (S1-S10), supplementary tables (S1-S9), and movies (S1-S8) are referenced but not included. No structural coordinates, docking scores, or simulation parameter files are provided. No raw trajectory data or convergence metrics are shown. The Methods section is incomplete regarding specific docking protocols, simulation lengths for mutant systems, and analysis details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational exploration of slit-diaphragm protein interactions, addressing a biologically important question with potential relevance to nephrotic syndrome. The study is ambitious in scope, covering five proteins and multiple binary complexes. However, the evidence as presented is insufficient to support several central claims. The absence of all supplementary materials, which contain the quantitative data underpinning the conclusions, prevents verification of key results. The interpretation of binding energies, the functional significance of "transient" interactions, and the pathogenic relevance of the studied mutations require more rigorous support. The manuscript would benefit from clearer presentation of methods, quantitative validation of docking and simulation outcomes, and more cautious interpretation given the known limitations of AlphaFold predictions for intrinsically disordered regions.
+- **Who would be interested in the results, and why** Researchers studying podocyte biology, slit-diaphragm structure and function, and the molecular basis of proteinuria and nephrotic syndrome would find this work relevant. Computational biologists interested in protein-protein interactions involving intrinsically disordered proteins, and those applying AlphaFold and MD simulations to disease-associated variants, may also be interested. The proposed subunit-sharing model and the effects of disease mutations on IDR dynamics could inform hypotheses for experimental validation.
+- **Major strengths** The study addresses a clinically important and structurally under-characterized protein complex. The systematic approach of docking all pairwise combinations of five SD proteins is comprehensive. The identification of specific SLiMs and MoRFs at interaction interfaces provides testable hypotheses. The inclusion of disease-associated mutations and their effects on binding and dynamics is a valuable translational angle. The authors acknowledge limitations of computational predictions and the need for experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CD2AP-nephrin binding is "transient" and "may serve a regulatory or signaling role rather than forming a stable structural complex," based on ~60% direct interaction time and a ΔG of −67 kcal/mol.
+  - **Evidence pointer** Results section "CD2AP-Nephrin interaction dynamics implicate a transient nature"; Figure 3; Figure S2a; Movie S1; Table S2
+  - **Concern** The classification of this interaction as "transient" is not adequately justified. The manuscript reports that the complex maintained contact for approximately 60% of the simulation time (65 ns direct, 35 ns transient), yet the criteria for distinguishing "direct" from "transient" contact are not defined. A ΔG of −67 kcal/mol is described as "moderate-to-strong," which would typically indicate a stable interaction. The authors do not provide comparative data from other known stable versus transient complexes using the same methodology. Without a clear operational definition of transience and appropriate comparators, this central characterization is not supported.
+  - **Why it matters** The transient nature of CD2AP-nephrin interaction is a key finding that distinguishes it from the more stable CD2AP-podocin complex. This distinction underpins the proposed model of differential partner engagement and the functional interpretation of CD2AP as a dynamic adaptor. If the transience claim is not robust, the model loses its foundation.
+  - **Resolution test** Provide a quantitative definition of transient versus stable interactions (e.g., contact duration thresholds, dissociation rates from simulation). Include comparative analysis of known stable complexes (e.g., antibody-antigen) and known transient complexes (e.g., enzyme-substrate) using identical simulation and analysis protocols. Show time-resolved contact maps and distance plots for the interface.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "disease-associated variants, including CD2AP (P532S), podocin (R138Q), and nephrin (G1161V), enhance local stability but restrict the flexibility of IDR and impair SD assembly."
+  - **Evidence pointer** Results sections on mutations; Methods "Mutation studies"; Tables S2-S9; Figures S3-S10
+  - **Concern** The claim that mutations "impair SD assembly" is an extrapolation from binary complex simulations. The study only examines the effect of each mutation on a single binary complex, not on the overall assembly of the SD. Enhanced binding affinity in a binary complex does not necessarily translate to impaired assembly in a multi-protein context. Moreover, the authors do not provide a mechanistic explanation for how increased stability and reduced flexibility would impair assembly. The term "impair" implies a functional consequence that is not directly measured.
+  - **Why it matters** The translational relevance of the study depends on linking mutations to disease mechanism. Overstating the implications of binary complex simulations could mislead readers about the pathogenic mechanism. The distinction between altered binding in silico and impaired assembly in vivo is critical for the manuscript's conclusions.
+  - **Resolution test** Rephrase claims to reflect what is actually measured: mutations alter binding affinity and conformational dynamics in binary complexes. Discuss how these changes might plausibly affect SD assembly, clearly labeling this as speculation. If possible, perform simulations of higher-order complexes or include experimental data on SD assembly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The Methods section describes docking with HADDOCK and ClusPro, MD simulations with GROMACS and CHARMM, and mutation selection from dbSNP, gnomAD, ClinVar, COSMIC, and Ensembl.
+  - **Evidence pointer** Methods sections "Molecular docking studies", "MD simulations", "Mutation studies"
+  - **Concern** The Methods are insufficiently detailed to allow reproduction. Key parameters are missing: which residues were defined as "interacting regions" for truncation, how the truncation was performed, what specific HADDOCK settings were used (e.g., ambiguous interaction restraints, number of models generated, scoring function), what ClusPro settings were used, the exact CHARMM force field version, the number of simulation replicates, the equilibration protocol details, the temperature and pressure coupling methods, and the criteria for defining contacts and interactions. The mutation selection criteria are described but the specific variants studied are only listed in supplementary tables that are not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete methodological details, other researchers cannot replicate or build upon this work. The absence of supplementary materials containing the actual data compounds this problem.
+  - **Resolution test** Provide a complete Methods section with all simulation parameters, docking protocols, and analysis criteria. Include the supplementary tables and figures in the revision. Consider depositing simulation input files and trajectories in a public repository.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** The authors use AlphaFold-predicted structures as starting points for docking and simulation, and state that "early structure prediction algorithms have struggled to accurately capture the structural-functional relationships of SRNS-associated mutations (∼40% accuracy in CASP12)."
+  - **Evidence pointer** Methods "Molecular docking studies"; Introduction
+  - **Concern** The manuscript does not address the known limitations of AlphaFold for intrinsically disordered regions, which are central to this study. The authors acknowledge that "the inherent flexibility of IDRs and the lower confidence in structural predictions necessitate caution," but this caveat appears only once and is not systematically applied. No validation of the AlphaFold models is provided, such as comparison with experimental structures where available, assessment of pLDA/PAE quality for the specific regions studied, or alternative structure prediction methods. The statement about CASP12 accuracy is not contextualized with respect to AlphaFold's performance or the specific challenges of IDR prediction.
+  - **Why it matters** The reliability of the entire study depends on the quality of the starting structures. If the AlphaFold models are inaccurate in the IDR regions, the docking and simulation results may be artifacts. The authors' own caveat undermines confidence in the results without providing alternative validation.
+  - **Resolution test** Provide a systematic assessment of AlphaFold model quality for the regions studied, including pLDDT scores for the specific residues involved in interactions. Compare AlphaFold predictions with any available experimental data. Discuss how the known limitations of AlphaFold for IDRs affect the interpretation of results. Consider using multiple structure prediction methods or ensemble approaches for IDRs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states the slit-diaphragm "ensures protein-free urine," but the correct term is "ensures" (the text reads "ensuing protein-free urine," which appears to be a typographical error).
+  - **Required correction** Correct the typo to "ensuring protein-free urine."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods "MD simulations"
+  - **Issue** The Methods state that "We simulated WT protein-protein complexes for 100 ns" but do not specify the number of replicates or whether convergence was assessed. For mutant systems, only "an additional 50 ns MD simulations" is mentioned without details on equilibration or analysis.
+  - **Required correction** Specify the number of simulation replicates, convergence criteria, and whether the 50 ns mutant simulations included the same equilibration protocol as the WT simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Preferential binding of podocin with nephrin over NEPH1"
+  - **Evidence pointer** Figure 6; Tables S6-S7; Figure S2e-f
+  - **Issue** The section title claims "preferential binding" of podocin for nephrin over NEPH1, but the reported ΔG values are −95 kcal/mol for podocin-nephrin and −80 kcal/mol for podocin-NEPH1. The difference is presented without statistical analysis or error estimates, and the text does not explicitly compare these values in the section.
+  - **Required correction** Provide a direct comparison of the binding energies with appropriate uncertainty estimates, and justify the use of "preferential" based on the magnitude of the difference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section "Impact of mutations on cytoplasmic and extracellular nephrin-NEPH1 complexes"
+  - **Evidence pointer** Table S4; Table S5
+  - **Issue** The text states that cytoplasmic mutations "tripled the binding affinities" but does not specify the baseline values or the exact fold-change calculation. The extracellular mutations are described as "modest improvements" of 48% and 50%, but the basis for calling these "modest" is not defined.
+  - **Required correction** Provide the numerical values for WT and mutant binding affinities and define the criteria for "tripled" and "modest."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "Potential role of podocin and nephrin in TRPC6 channel gating"
+  - **Evidence pointer** Figure 4c; Tables S8-S9; Figure S2g-h
+  - **Issue** The section title suggests a role in "channel gating," but the simulations only examine binary complex formation and do not model channel gating or ion permeation. The connection to gating is speculative.
+  - **Required correction** Revise the section title to reflect the actual content, such as "Interactions of podocin and nephrin with TRPC6," and move any gating implications to the discussion as speculation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Methods "Mutation studies"
+  - **Evidence pointer** Table S1
+  - **Issue** The Methods state that "A comprehensive list of all complexes can be found in Table S1," but this table is not provided in the submitted materials.
+  - **Required correction** Include Table S1 in the revision or remove the reference if the table is not essential.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Results section "CD2AP-Nephrin interaction dynamics implicate a transient nature"
+  - **Evidence pointer** Figure 3a
+  - **Issue** The text states "CD2AP's coiled-coil domain (residues 569-639) interacted with a short α-helix in nephrin (residues 1213-1220)," but the figure legend is not provided, making it difficult to verify the residue ranges.
+  - **Required correction** Ensure figure legends are included and clearly indicate the residue ranges and structural features shown.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Podocin induces conformational changes in CD2AP"
+  - **Evidence pointer** Figure 3c; Figure 4b
+  - **Issue** The text describes a "pronounced bend at residues 603-606" and "minor conformational adjustments" in podocin, but no quantitative measures of these conformational changes (e.g., dihedral angles, bend angles) are provided.
+  - **Required correction** Provide quantitative descriptors of the conformational changes, such as bend angles or RMSF values for the relevant regions.
+
+## Risk / unsupported claims
+- The claim that CD2AP-nephrin interaction is "transient" is not supported by the provided evidence, as no operational definition of transience or comparative benchmarks are given.
+- The claim that disease mutations "impair SD assembly" is an extrapolation from binary complex simulations and is not directly supported.
+- The claim of "preferential binding" of podocin for nephrin over NEPH1 is based on a single ΔG value without statistical analysis.
+- The section title "Potential role of podocin and nephrin in TRPC6 channel gating" implies a functional role that is not addressed by the simulations.
+- All quantitative results (ΔG values, contact numbers, RMSD/Rg/RMSF data) are presented without error estimates or replicate information, making their reliability unassessable.
+- The statement that "these mutations effectively doubled the binding affinities" is not supported by numerical data in the text.
+- The relevance of the studied mutations to disease is asserted but not validated against clinical or functional data.
+- The use of AlphaFold-predicted structures for IDR-containing proteins is acknowledged as a limitation but not systematically addressed or validated.
+
+## Assessment against Nature-style criteria
+- **Originality** The application of AlphaFold-based docking and MD simulations to the slit-diaphragm protein complex is a novel combination, and the proposed subunit-sharing model is an interesting hypothesis. However, the approach is largely derivative of standard computational pipelines, and the novelty lies mainly in the biological system rather than methodological innovation.
+- **Scientific importance** The slit-diaphragm is a clinically important structure, and understanding its molecular assembly has implications for nephrotic syndrome. The study addresses a genuine gap in structural knowledge. However, the importance of the findings is diminished by the lack of experimental validation and the speculative nature of several conclusions.
+- **Interdisciplinary readership** The topic bridges nephrology, structural biology, and computational biology, and could attract readers from these fields. However, the manuscript assumes familiarity with computational methods without providing sufficient context for non-specialists, and the clinical relevance is not developed in a way that would engage a broad biomedical audience.
+- **Technical soundness** The technical execution is difficult to assess due to incomplete Methods and missing supplementary data. The lack of replicates, convergence analysis, and validation of AlphaFold models for IDRs are significant concerns. The interpretation of binding energies and the classification of interactions as stable or transient lack rigorous quantitative support.
+- **Readability for nonspecialists** The manuscript is generally readable, with clear section structure and logical flow. However, the Results and Discussion sections are dense with residue numbers and complex names that may be challenging for non-experts. The abstract is accessible but overstates the implications of the findings.

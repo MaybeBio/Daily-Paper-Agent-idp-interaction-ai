@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40543738",
+  "title": "Organosilicon molecules bind to the intrinsically disordered protein NUPR1 by clamping its hot-spots.",
+  "authors": "Pena, Laura F; Estaras, Matias; Gonzalez-Andres, Paula; Diez-Poza, Carlos; Rizzuti, Bruno; Abian, Olga; Velazquez-Campoy, Adrian; Iovanna, Juan L; Santofimia-Castano, Patricia; Neira, Jose L; Barbero, Asuncion",
+  "journal": "Archives of biochemistry and biophysics",
+  "published_date": "2025-06-22",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验与分子模拟揭示有机硅小分子以钳夹机制结合无序蛋白NUPR1的热点区域，虽对象为IDP且涉及结合机制建模，但互作对象为小分子而非PPI，方法以实验为主、模拟为辅，故综合评7分。",
+  "abstract": "The nuclear protein 1, or NUPR1, is an intrinsically disordered protein (IDP) involved in the development and progression of pancreatic ductal adenocarcinoma (PDAC). We have previously developed drugs capable of binding at the two hot-spot regions of NUPR1, around residues Ala33 and Thr68, hampering its interactions in cellulo. In this work, we synthesized new organosilicon molecules targeting those key hot-spots. The compounds were obtained by an acid-catalyzed intramolecular cyclization of a starting alkenol that contains a silyl group attached to the double bond. Binding between the silyl compounds and NUPR1 involved the two hot-spots, as shown by 2D (1)H-(15)N HSQC NMR. Molecular simulations clarified that the binding relies on a loose clamp mechanism of the ligands towards the hot-spots. The dissociation constants (K(d)) were around 20 muM, as measured by several biophysical techniques. However, studies in cellulo with PDAC cells did not show a decrease of cell viability upon treatment with the compounds; furthermore, proximity ligation assays in cellulo with a natural partner protein of NUPR1, G3BP, did not show a significant level of interfering in such interaction when silyl compounds were present, probably due to the high hydrophobicity of the designed compounds. Thus, in the case of NUPR1, moderate-to-high drug binding affinities (K(d) < 10 muM) in vitro and a higher hydrophilicity are necessary to hamper protein-protein interactions in cellulo. As a more general conclusion, in vitro binding of ligands to the protein hot-spots is a necessary condition in the drug design targeting IDPs, but it is not enough to guarantee inhibition of their interactions in cellulo.",
+  "abstract_zh": "核蛋白1（NUPR1）是一种 intrinsically disordered protein (IDP)，参与胰腺导管腺癌（PDAC）的发生和发展。我们此前已开发出能够结合NUPR1两个热点区域（约在Ala33和Thr68残基处）的药物，从而在细胞水平（in cellulo）阻碍其相互作用。在本工作中，我们合成了靶向这些关键热点的新型有机硅分子。这些化合物通过酸催化的分子内环化反应，由含有与双键相连的硅烷基的起始烯醇制备得到。二维 (1)H-(15)N HSQC NMR 显示，硅基化合物与NUPR1的结合涉及两个热点。分子模拟阐明，这种结合依赖于配体对热点的松散夹持机制。通过多种生物物理技术测得的解离常数（K(d)）约为20 μM。然而，在PDAC细胞中的细胞水平研究表明，用这些化合物处理后，细胞活力并未下降；此外，在细胞水平上，使用NUPR1的天然伙伴蛋白G3BP进行的邻近连接实验显示，当存在硅基化合物时，并未显著干扰这种相互作用，这可能是由于所设计化合物的高疏水性。因此，对于NUPR1而言，在体外（in vitro）需要中等至高的药物结合亲和力（K(d) < 10 μM）以及更高的亲水性，才能在细胞水平上阻碍蛋白质-蛋白质相互作用。作为更一般的结论，在体外配体与蛋白热点的结合是靶向IDP药物设计中的必要条件，但不足以保证在细胞水平上抑制其相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40543738/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40543738/",
+  "paper_page_path": "papers/pubmed/40543738/index.html"
+}

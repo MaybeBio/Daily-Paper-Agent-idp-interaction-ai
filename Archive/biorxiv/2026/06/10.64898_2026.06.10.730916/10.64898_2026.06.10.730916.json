@@ -1,0 +1,283 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.10.730916",
+  "title": "Controlling metal-carbonate phase, form, and function through de novo protein design",
+  "doi": "10.64898/2026.06.10.730916",
+  "abstract": "Biomineralization enables living systems to construct hybrid materials by controlling the location, orientation, and polymorph of inorganic crystals with proteins and other biomolecules. Despite decades of study, the molecular principles underlying these processes remain difficult to harness in engineered materials, in part because native biomineralization proteins are often intrinsically disordered, heterogeneous, or insoluble. Here we show that de novo designed protein interfaces can be assembled into reconfigurable two-dimensional arrays which template calcite nanocrystals. By fine-tuning RFdiffusion2 on repeat protein scaffolds, we further enable the design of protein architectures which selectively form aragonite, a metastable polymorph of calcium carbonate, in nucleation conditions that otherwise result in a mixture of phases. Extending beyond inorganics found in biological systems, we show that lattice-matched protein designs template cobalt carbonate formation: a flat helical repeat protein interface promotes unconfined growth, whereas soluble D3 cage assemblies yield more homogenous cobalt carbonate nanocrystals confined to the interior of the cage. These protein-cage cobalt carbonate hybrid materials function as electrocatalysts for alkaline water splitting. Our results demonstrate the potential of deep learning-based methods to unlock the structural and functional activity of protein-mineral composites.",
+  "authors": [
+    "Kwon PS",
+    "Li X",
+    "Yu LT",
+    "Pyles H",
+    "Lewis TH",
+    "Weidle C",
+    "Borst AJ",
+    "Bodinger CC",
+    "Kang A",
+    "Nguyen H",
+    "Mendoza J",
+    "Carr KD",
+    "Coventry B",
+    "Hsia Y",
+    "Molnar Z",
+    "Li D",
+    "Zhang B",
+    "Cossairt BM",
+    "Zhang S",
+    "Bera AK",
+    "De Yoreo J",
+    "Baker D"
+  ],
+  "published_date": "2026-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.10.730916",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.10.730916.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1251734",
+    "raw_record": {
+      "id": "PPR1251734",
+      "source": "PPR",
+      "doi": "10.64898/2026.06.10.730916",
+      "title": "Controlling metal-carbonate phase, form, and function through de novo protein design",
+      "authorString": "Kwon PS, Li X, Yu LT, Pyles H, Lewis TH, Weidle C, Borst AJ, Bodinger CC, Kang A, Nguyen H, Mendoza J, Carr KD, Coventry B, Hsia Y, Molnar Z, Li D, Zhang B, Cossairt BM, Zhang S, Bera AK, De Yoreo J, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kwon PS",
+            "lastName": "Kwon",
+            "firstName": "Paul",
+            "initials": "PS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7928-1009"
+            }
+          },
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xinqi",
+            "initials": "X"
+          },
+          {
+            "fullName": "Yu LT",
+            "lastName": "Yu",
+            "firstName": "Le Tracy",
+            "initials": "LT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9904-6460"
+            }
+          },
+          {
+            "fullName": "Pyles H",
+            "lastName": "Pyles",
+            "firstName": "Harley",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2695-4075"
+            }
+          },
+          {
+            "fullName": "Lewis TH",
+            "lastName": "Lewis",
+            "firstName": "Todd",
+            "initials": "TH"
+          },
+          {
+            "fullName": "Weidle C",
+            "lastName": "Weidle",
+            "firstName": "Connor",
+            "initials": "C"
+          },
+          {
+            "fullName": "Borst AJ",
+            "lastName": "Borst",
+            "firstName": "Andrew",
+            "initials": "AJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4297-7824"
+            }
+          },
+          {
+            "fullName": "Bodinger CC",
+            "lastName": "Bodinger",
+            "firstName": "Catherine",
+            "initials": "CC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-8941-2974"
+            }
+          },
+          {
+            "fullName": "Kang A",
+            "lastName": "Kang",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5487-0499"
+            }
+          },
+          {
+            "fullName": "Nguyen H",
+            "lastName": "Nguyen",
+            "firstName": "Hannah",
+            "initials": "H"
+          },
+          {
+            "fullName": "Mendoza J",
+            "lastName": "Mendoza",
+            "firstName": "Johnny",
+            "initials": "J"
+          },
+          {
+            "fullName": "Carr KD",
+            "lastName": "Carr",
+            "firstName": "Kenneth",
+            "initials": "KD"
+          },
+          {
+            "fullName": "Coventry B",
+            "lastName": "Coventry",
+            "firstName": "Brian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Hsia Y",
+            "lastName": "Hsia",
+            "firstName": "Yang",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Molnar Z",
+            "lastName": "Molnar",
+            "firstName": "Zsombor",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Li D",
+            "lastName": "Li",
+            "firstName": "Dongsheng",
+            "initials": "D"
+          },
+          {
+            "fullName": "Zhang B",
+            "lastName": "Zhang",
+            "firstName": "Bo",
+            "initials": "B"
+          },
+          {
+            "fullName": "Cossairt BM",
+            "lastName": "Cossairt",
+            "firstName": "Brandi",
+            "initials": "BM"
+          },
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Shuai",
+            "initials": "S"
+          },
+          {
+            "fullName": "Bera AK",
+            "lastName": "Bera",
+            "firstName": "Asim",
+            "initials": "AK"
+          },
+          {
+            "fullName": "De Yoreo J",
+            "lastName": "De Yoreo",
+            "firstName": "James",
+            "initials": "J"
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5487-0499"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7928-1009"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9904-6460"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2695-4075"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4297-7824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-8941-2974"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Biomineralization enables living systems to construct hybrid materials by controlling the location, orientation, and polymorph of inorganic crystals with proteins and other biomolecules. Despite decades of study, the molecular principles underlying these processes remain difficult to harness in engineered materials, in part because native biomineralization proteins are often intrinsically disordered, heterogeneous, or insoluble. Here we show that de novo designed protein interfaces can be assembled into reconfigurable two-dimensional arrays which template calcite nanocrystals. By fine-tuning RFdiffusion2 on repeat protein scaffolds, we further enable the design of protein architectures which selectively form aragonite, a metastable polymorph of calcium carbonate, in nucleation conditions that otherwise result in a mixture of phases. Extending beyond inorganics found in biological systems, we show that lattice-matched protein designs template cobalt carbonate formation: a flat helical repeat protein interface promotes unconfined growth, whereas soluble D3 cage assemblies yield more homogenous cobalt carbonate nanocrystals confined to the interior of the cage. These protein-cage cobalt carbonate hybrid materials function as electrocatalysts for alkaline water splitting. Our results demonstrate the potential of deep learning-based methods to unlock the structural and functional activity of protein-mineral composites.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.06.10.730916"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-15",
+      "firstPublicationDate": "2026-06-11",
+      "firstIndexDate": "2026-06-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

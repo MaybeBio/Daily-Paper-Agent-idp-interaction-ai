@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42140310",
+  "title": "Ensemblify: A User-friendly Platform for Generating and Analyzing Conformational Ensembles of Intrinsically Disordered Proteins and Regions.",
+  "authors": "Fernandes, Nuno P; Gomes, Tiago; Cordeiro, Tiago N",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-05-16",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 7,
+  "one_liner_zh": "Ensemblify是一个生成和分析IDP/IDR构象系综的用户友好平台，结合蒙特卡洛采样与AlphaFold置信度约束，虽非直接研究PPI，但其构象建模方法对无序蛋白互作机制研究具有可迁移价值。",
+  "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge structural characterization due to their dynamic conformational ensembles. Existing computational approaches for modeling these ensembles are often computationally expensive, inflexible, or inaccessible to non-experts, particularly for multi-domain or multi-chain proteins. We present Ensemblify, an open-source, user-friendly Python package for generating and analyzing conformational ensembles of IDPs/IDRs. Ensemblify uses a Monte Carlo algorithm coupled with neighbor-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space. Optionally, it can incorporate information from AlphaFold's confidence metrics as flexible energy restraints in PyRosetta to guide sampling. Ensemblify supports multi-domain and multi-chain proteins and can sample N-terminal, C-terminal, and inter-domain linkers while preserving folded regions. Ensemble quality can be validated and refined against experimental data such as SAXS via Bayesian/Maximum Entropy reweighting. Interactive dashboards provide in-depth structural analysis and comparison. Testing across ten structurally diverse proteins coupled with state-of-the-art benchmarking demonstrated Ensemblify's accuracy, flexibility, and ability to recover experimentally observed structural features. Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement. Ensemblify is freely available at https://github.com/CordeiroLab/ensemblify, along with installation and usage tutorials. Ensemblify can be used for scripting through its Python API or directly through the provided command-line interface (CLI). Complete documentation is available within the source-code and CLI and on Ensemblify's official documentation page (https://ensemblify.readthedocs.io).",
+  "abstract_zh": "固有无序蛋白质（IDPs）和固有无序区域（IDRs）因其动态构象集合而对结构表征构成挑战。现有的用于建模这些集合的计算方法往往计算成本高、灵活性差，或对非专家不友好，尤其对于多结构域或多链蛋白质。我们提出Ensemblify，一个开源、用户友好的Python包，用于生成和分析IDPs/IDRs的构象集合。Ensemblify采用蒙特卡洛算法，结合从精选或用户定义的片段库中对二面角进行邻域感知采样，以探索构象空间。可选地，它可以将AlphaFold的置信度指标信息作为PyRosetta中的柔性能量约束，以引导采样。Ensemblify支持多结构域和多链蛋白质，并能采样N端、C端及结构域间连接区，同时保留折叠区域。集合质量可通过贝叶斯/最大熵重加权方法，针对实验数据（如SAXS）进行验证和优化。交互式仪表板提供深入的结构分析和比较。在十个结构多样的蛋白质上的测试，结合最先进的基准测试，证明了Ensemblify的准确性、灵活性以及恢复实验观察到的结构特征的能力。整合AlphaFold置信度指标显示出改善集合-数据一致性的潜力。Ensemblify可在https://github.com/CordeiroLab/ensemblify免费获取，并附有安装和使用教程。用户可通过其Python API进行脚本编写，或直接通过提供的命令行界面（CLI）使用。完整文档可在源代码、CLI及Ensemblify官方文档页面（https://ensemblify.readthedocs.io）中获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42140310/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42140310/",
+  "paper_page_path": "papers/pubmed/42140310/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41241904",
+  "title": "Structure and Disorder Predictions of Microproteins: Usage, Applications, and Pitfalls.",
+  "authors": "Eicholt, Lars A",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文综述微蛋白的结构与无序预测工作流及注意事项，虽涉及无序预测但未聚焦PPI机制建模，方法为应用性综述，对IDR预测有参考但互作机制深度不足。",
+  "abstract": "In the past decade, computational predictions of protein structure and disorder have become widely accessible, achieving accuracy that, in some cases, rivals experimental results. These advances have been instrumental in identifying structural homologies, guiding protein design, and enhancing functional annotation. However, most prediction models are trained on \"classical proteins,\" favoring specific sequence lengths and patterns, leading to biases. Microproteins-small proteins with emerging roles in development and disease-function similarly across the tree of life and stand to benefit significantly from structure and disorder predictions. Yet, their short length and molecular interactions present unique challenges, making homology detection more difficult and requiring careful methodological considerations. Here, I outline workflows for predicting, analyzing, and refining microprotein structures and disorders, emphasizing key precautions to ensure reliable insights.",
+  "abstract_zh": "在过去十年中，蛋白质结构和无序性的计算预测已变得广泛可及，其准确性在某些情况下可与实验结果相媲美。这些进展在识别结构同源性、指导蛋白质设计以及增强功能注释方面发挥了关键作用。然而，大多数预测模型基于“经典蛋白质”训练，偏向特定的序列长度和模式，从而导致偏差。微小蛋白质——在发育和疾病中具有新兴作用的小型蛋白质——在生命树中功能相似，并有望从结构和无序性预测中显著受益。然而，其短长度和分子相互作用带来了独特挑战，使同源性检测更加困难，并需要谨慎的方法学考量。在此，我概述了预测、分析和优化微小蛋白质结构与无序性的工作流程，并强调关键注意事项以确保可靠的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41241904/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41241904/",
+  "paper_page_path": "papers/pubmed/41241904/index.html"
+}

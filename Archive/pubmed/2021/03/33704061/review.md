@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, data availability, acknowledgements)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text. No supplementary figures or appendices were available for direct inspection beyond what is referenced.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations and an analytical dimer-gel theory to show that phase separation in two-component biomolecular systems with one-to-one specific bonds is suppressed at rational polymer stoichiometries (the "magic-ratio effect"), and they characterize how phase boundaries depend on valence, stoichiometry, and binding strength.
+- **Visible evidence base** Main text figures (Figures 1–6) are referenced but not provided. Appendix 1 and Appendix 2 are referenced with figures and tables but not provided. Simulation details are summarized in the main text.
+- **Missing materials affecting confidence** All figures, appendices, simulation parameters, and code outputs are not available for direct verification. The manuscript text alone is insufficient to fully assess quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensates: how do valence, stoichiometry, and binding strength control phase boundaries in two-component systems with specific, one-to-one interactions? The authors identify a "magic-ratio effect" where phase separation is suppressed at rational polymer stoichiometries, and they support this with both simulations and a mean-field theory. The conceptual advance is significant and will interest a broad readership. However, the provided text alone does not allow verification of the quantitative results, and several claims require closer scrutiny regarding their generality and experimental relevance. The work is promising but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, condensate biology, and multivalent interactions. Also of interest to the broader soft matter and polymer physics community, and to synthetic biologists designing condensate-based systems. The magic-ratio effect provides a new design principle and a potential explanation for why certain stoichiometries are avoided or favored in natural systems.
+- **Major strengths** The question is well-motivated and biologically relevant. The combination of simulations and analytical theory is powerful and appropriate. The identification of a "magic-ratio effect" is a novel and potentially impactful concept. The authors are careful to discuss limitations, including the mean-field approximation and the discrepancy between simulated and experimental concentrations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim summary** The authors claim that the magic-ratio effect is a robust phenomenon observed in simulations and captured by their dimer-gel theory.
+  - **Evidence pointer** Figures 3, 5, 6; Appendix 1 and 2 (not provided)
+  - **Concern** The central claim of the paper rests on simulation results and theoretical predictions that are presented in figures and appendices not available in the supplied text. Without access to these data, the quantitative validity of the magic-ratio effect, the phase boundaries, and the theory's agreement with simulations cannot be assessed. The text describes trends but does not provide numerical values, error bars, or statistical analyses.
+  - **Why it matters** The core novelty of the paper is the magic-ratio effect. If the supporting data are not robust or the effect is an artifact of specific simulation parameters, the main conclusion would be undermined.
+  - **Resolution test** Provide the figures and appendices, including phase diagrams, density profiles, and cluster size analyses, with clear statistical treatment. Show that the effect persists across a range of parameters (e.g., different valences, binding strengths, system sizes).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim summary** The authors suggest the magic-ratio effect may apply to natural systems such as the pyrenoid and SUMO-SIM condensates.
+  - **Evidence pointer** Discussion section; Introduction (Freeman Rosenzweig et al., 2017; Banani et al., 2016)
+  - **Concern** The authors acknowledge that the magic-ratio effect has not been observed in SUMO-SIM or SH3-PRM systems, and they attribute this to size and linker mismatch. However, the text does not provide a quantitative framework for predicting when the effect should or should not manifest in real systems. The relevance to the pyrenoid is speculative, as the authors note that EPYC1-Rubisco geometry disfavors fully-bonded dimers.
+  - **Why it matters** The biological significance of the magic-ratio effect is a key motivation for the work. If the conditions for its occurrence are too narrow or not clearly defined, the impact on the biology community is reduced.
+  - **Resolution test** Provide a more detailed analysis of the parameter space (e.g., valence ratio, binding strength, linker length) under which the effect is expected, and discuss how these parameters map onto known biological systems. Ideally, include predictions that could be tested experimentally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Theoretical assumptions
+  - **Claim summary** The dimer-gel theory assumes the dilute phase is dominated by dimers and the dense phase is a gel of independent bonds.
+  - **Evidence pointer** Results, "Dimer-gel theory" section; Appendix 2 (not provided)
+  - **Concern** The theory's key assumption that the dilute phase is dimer-dominated may not hold for all parameter regimes, particularly for systems with unequal valences or weaker binding. The authors mention that the theory is a mean-field approximation and that correlations exist, but the text does not specify the range of validity of the dimer assumption. The correction for correlation length (valence 14 mapped to effective valence 8) is ad hoc and requires justification.
+  - **Why it matters** If the theory's assumptions break down in relevant regimes, its predictive power is limited, and the claimed agreement with simulations may be coincidental.
+  - **Resolution test** Clearly state the conditions under which the dimer assumption is valid. Provide a systematic comparison of theory and simulations across a wide parameter range, including cases where the dilute phase may contain larger oligomers. Justify the correlation-length correction with a more rigorous derivation or additional simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "We discovered a striking phenomenon"
+  - **Issue** The abstract states the magic-ratio effect is "striking" but does not define it clearly. A reader unfamiliar with the prior "magic-number" work may not understand what is meant.
+  - **Required correction** Briefly define the effect in the abstract, e.g., "phase separation is suppressed when the ratio of valences is a rational number."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction and Results
+  - **Evidence pointer** Introduction, "magic-number" effect; Results, "magic-ratio" effect
+  - **Issue** The relationship between the previously described "magic-number" effect and the new "magic-ratio" effect is not explicitly clarified. Are they the same phenomenon viewed differently, or distinct?
+  - **Required correction** Add a sentence explaining the connection, e.g., "The magic-number effect for equal stoichiometry is a special case of the more general magic-ratio effect described here."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods/Simulation details
+  - **Evidence pointer** Results, "Coarse-grained molecular-dynamics simulations" section; Appendix 1 (not provided)
+  - **Issue** The main text provides only a brief summary of the simulation model. Key parameters (e.g., interaction potentials, system size, equilibration time) are relegated to Appendix 1, which is not available.
+  - **Required correction** Include a table of key simulation parameters in the main text to improve accessibility and reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Experimental relevance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "The magic-ratio effect allows for novel mechanisms of regulation"
+  - **Issue** The discussion of regulatory mechanisms (e.g., phosphorylation changing valence) is speculative and not tied to specific experimental observations or predictions.
+  - **Required correction** Strengthen this section by proposing concrete, testable predictions, or by citing experimental systems where such regulation might be relevant.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the data (figures, appendices) that support the main claims. Without these, the quantitative accuracy of the simulations and the theory cannot be verified. Additionally, the theory's assumptions and range of validity need to be more rigorously defined and tested.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The magic-ratio effect is a novel concept that extends prior work on magic numbers in cluster formation to full phase diagrams.
+  - **Scientific importance** High. The work addresses a fundamental question in the physics of biomolecular condensates and provides a new design principle.
+  - **Interdisciplinary readership** Broad. The topic bridges biology, physics, and materials science.
+  - **Technical soundness** Cannot be fully assessed from the provided text. The methodology appears appropriate, but the evidence is not available for scrutiny.
+  - **Readability for nonspecialists** Good. The text is clearly written and the concepts are explained well, though the abstract could be more explicit about the main finding.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the approach is sound, but the evidence must be made available and the theory's limitations more clearly defined before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The existence and robustness of the magic-ratio effect across a wide parameter range (not verifiable without figures/appendices).
+- The quantitative agreement between the dimer-gel theory and simulations (not verifiable without figures/appendices).
+- The claim that the magic-ratio effect should manifest in systems with SUMO-SIM or SH3-PRM-like binding strengths (speculative, as the authors note it has not been observed).
+- The relevance of the magic-ratio effect to the pyrenoid system (acknowledged as speculative).
+- The claim that increasing linker length from 4.7 nm to 5.9 nm leads to a more than 10-fold reduction in dilute-phase concentration (referenced to Appendix 1, not provided).

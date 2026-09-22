@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.01.462783",
+  "title": "Ataxin-2 Disordered Region Promotes Huntingtin Protein Aggregation And Neurodegeneration In Drosophila Models Of Huntington’s Disease",
+  "authors": "Joern Huelsmeier; Emily Walker; Baskar Bakthavachalu; Mani Ramaswami",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-02",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文在果蝇HD模型中研究Ataxin-2无序区域(cIDR)促进亨廷顿蛋白聚集和神经退行，涉及IDR与蛋白聚集互作，但为实验表型研究，无AI/物理模拟方法，机制深度有限。",
+  "abstract": "The Ataxin-2 (Atx2) protein contributes to the progression of neurodegenerative phenotypes in animal models of amyotrophic lateral sclerosis (ALS), type 2 spinocerebellar ataxia (SCA-2), Parkinson’s Disease (PD) and Huntington’s Disease (HD). However, because the Atx2 protein contains multiple separable activities, deeper understanding requires experiments to address the exact mechanisms by which Atx2 modulates neurodegeneration (ND) progression. Recent work on two ALS models, C9ORF72 and FUS, in Drosophila has shown that a C-terminal intrinsically disordered region (cIDR) of Atx2 protein, required for assembly of ribonucleoprotein (RNP) granules, is essential for the progression of neurodegenerative phenotypes as well as for accumulation of protein inclusions associated with these ALS models. Here we show that the Atx2-cIDR also similarly contributes to the progression of degenerative phenotypes and accumulation of Huntingtin protein aggregates in Drosophila models of HD. Because Huntingtin is not an established component of RNP granules, these observations support a recently hypothesised, unexpected protein-handling function for RNP granules, which could contribute to the progression of Huntington’s disease and, potentially, other proteinopathies.",
+  "abstract_zh": "Ataxin-2（Atx2）蛋白在肌萎缩侧索硬化症（ALS）、2型脊髓小脑性共济失调（SCA-2）、帕金森病（PD）和亨廷顿病（HD）的动物模型中促进神经退行性表型的进展。然而，由于Atx2蛋白包含多个可分离的功能域，更深入的理解需要通过实验来阐明Atx2调节神经退行性（ND）进展的确切机制。近期在果蝇的两种ALS模型（C9ORF72和FUS）中的研究表明，Atx2蛋白的C端 intrinsically disordered region（cIDR）——该区域对于核糖核蛋白（RNP）颗粒的组装是必需的——对于神经退行性表型的进展以及这些ALS模型相关蛋白包涵体的积累至关重要。在此，我们显示Atx2-cIDR同样在果蝇HD模型中促进退行性表型的进展和亨廷顿蛋白聚集体的积累。由于亨廷顿蛋白并非RNP颗粒的既定组分，这些观察结果支持了最近提出的一种意想不到的RNP颗粒蛋白处理功能，该功能可能促进亨廷顿病的进展，并可能涉及其他蛋白病。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.01.462783",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.01.462783",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.01.462783/index.html"
+}

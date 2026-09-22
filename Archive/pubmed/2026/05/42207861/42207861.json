@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "42207861",
+    "doi": "10.1021/acs.jpcb.6c00859",
+    "title": "Early alpha-Synuclein Heterodimerization Kinetics Predict Parkinson's Disease Onset."
+  },
+  "content": {
+    "abstract": "Identifying physicochemical predictors that connect protein aggregation to clinical phenotypes remains challenging. Here, we examine whether simulated aggregation descriptors of the intrinsically disordered protein alpha-synuclein (alphaS) relate to the clinical age of onset in Parkinson's disease. Using a multiscale simulation framework, we combine coarse-grained (CG) models to quantify the kinetics of early dimerization with atomistic simulations to estimate dimer interaction energies, as well as CG thermodynamic protofilament binding free energies complemented by atomistic calculations. These analyses were performed for wild-type alphaS and five familial mutants, considering both homo- and heterodimeric species. The time scale of WT-mutant heterodimer formation emerges as a statistically informative predictor of age of onset, whereas homodimer formation kinetics and heterodimer protofilament binding affinities fail miserably. In contrast, homodimer protofilament binding free energies display only moderate correlation, suggesting that late-stage fibril stability alone does not determine disease initiation. Overall, the results are consistent with a two-stage aggregation process in which early oligomeric dynamics may contribute to clinically relevant aggregation behavior.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/genetics/metabolism",
+      "*Parkinson Disease/metabolism",
+      "Kinetics",
+      "Thermodynamics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Multimerization",
+      "Mutation",
+      "Dimerization"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaudhary, Sachin",
+        "Tammara, Vaishnavi",
+        "Choudhary, Bhargavi",
+        "Das, Atanu"
+      ],
+      "short_names": [
+        "Chaudhary S",
+        "Tammara V",
+        "Choudhary B",
+        "Das A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1587-681X",
+        "ORCID: 0000-0003-4994-0469"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indian Institute of Science Education and Research, Pune, Maharashtra 411008, India.",
+        "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Department of Biotechnology, Savitribai Phule Pune University, Pune, Maharashtra 411007, India.",
+        "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaudhary, Sachin",
+        "short_name": "Chaudhary S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Science Education and Research, Pune, Maharashtra 411008, India."
+        ]
+      },
+      {
+        "full_name": "Tammara, Vaishnavi",
+        "short_name": "Tammara V",
+        "identifiers": [
+          "0000-0002-1587-681X"
+        ],
+        "affiliations": [
+          "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Choudhary, Bhargavi",
+        "short_name": "Choudhary B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Savitribai Phule Pune University, Pune, Maharashtra 411007, India."
+        ]
+      },
+      {
+        "full_name": "Das, Atanu",
+        "short_name": "Das A",
+        "identifiers": [
+          "0000-0003-4994-0469"
+        ],
+        "affiliations": [
+          "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:44",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42207861",
+      "23607785",
+      "29364151",
+      "28075555",
+      "39773404",
+      "34161822",
+      "23374074",
+      "29364143",
+      "31633065",
+      "41368826",
+      "39046235",
+      "28650719",
+      "25505181",
+      "39907186",
+      "33333378",
+      "24984882",
+      "21684335",
+      "35613323",
+      "35836937",
+      "36278939",
+      "33749266",
+      "11590151",
+      "19501571",
+      "38635928",
+      "38063360",
+      "26972727",
+      "29704492",
+      "29715424",
+      "29372732",
+      "18505736",
+      "39232485",
+      "26193124",
+      "23374072",
+      "26582456",
+      "27809690",
+      "23583776",
+      "25268550",
+      "24047453",
+      "30769283",
+      "30605594",
+      "29771508",
+      "26477939",
+      "19580781",
+      "27573854",
+      "38700150",
+      "28841377",
+      "23272053",
+      "28710275",
+      "30741954",
+      "41270468",
+      "11560511",
+      "39518995",
+      "28667699",
+      "20148295",
+      "26287258",
+      "39412059",
+      "26723627",
+      "28759722",
+      "32015135",
+      "32457390",
+      "40882443",
+      "20041693",
+      "27298346",
+      "23339399",
+      "18039462",
+      "18031063",
+      "25909158",
+      "34506119",
+      "36270580",
+      "36871760",
+      "37238596",
+      "16981679",
+      "40853068",
+      "17531952",
+      "25139280",
+      "26695014",
+      "20947801",
+      "39957201",
+      "33345970",
+      "33972418",
+      "40320462",
+      "31477241",
+      "31547734",
+      "38927031",
+      "19126542",
+      "31242217",
+      "22067166",
+      "25960149",
+      "29451381",
+      "38702883",
+      "19538146",
+      "40383467",
+      "31135803",
+      "21085664",
+      "36208776",
+      "29601727",
+      "41123993",
+      "25902443",
+      "38964522",
+      "31566224"
+    ],
+    "review": [
+      "42207861",
+      "29364151",
+      "38063360",
+      "26972727",
+      "41270468",
+      "36270580",
+      "16981679",
+      "25139280"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c00859",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

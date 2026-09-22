@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "38627370",
+    "doi": "10.1038/s41467-024-46587-z",
+    "title": "Tertiary structure and conformational dynamics of the anti-amyloidogenic chaperone DNAJB6b at atomistic resolution."
+  },
+  "content": {
+    "abstract": "DNAJB6b is a molecular chaperone of the heat shock protein network, shown to play a crucial role in preventing aggregation of several disease-related intrinsically disordered proteins. Using homology modeling and microsecond-long all-atom molecular dynamics (MD) simulations, we show that monomeric DNAJB6b is a transiently interconverting protein cycling between three states: a closed state, an open state (both abundant), and a less abundant extended state. Interestingly, the reported regulatory autoinhibitory anchor between helix V in the G/F(1) region and helices II/III of the J-domain, which obstructs the access of Hsp70 to the J-domain remains present in all three states. This possibly suggests a mechanistically intriguing regulation in which DNAJB6b only becomes exposed when loaded with substrates that require Hsp70 processing. Our MD results of DNAJB6b carrying mutations in the G/F(1) region that are linked to limb-girdle muscular dystrophy type D1 (LGMDD1) show that this G/F(1) region becomes highly dynamic, pointing towards a spontaneous release of the autoinhibitory helix V from helices II/III. This would increase the probability of non-functional Hsp70 interactions to DNAJB6b without substrates. Our cellular data indeed confirm that non-substrate loaded LGMDD1 mutants have aberrant interactions with Hsp70.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Chaperones/metabolism",
+      "HSP70 Heat-Shock Proteins/metabolism",
+      "Heat-Shock Proteins/metabolism",
+      "Molecular Dynamics Simulation",
+      "Molecular Conformation",
+      "*Muscular Dystrophies, Limb-Girdle",
+      "HSP40 Heat-Shock Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Adupa, Vasista",
+        "Ustyantseva, Elizaveta",
+        "Kampinga, Harm H",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "Adupa V",
+        "Ustyantseva E",
+        "Kampinga HH",
+        "Onck PR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0750-7931",
+        "ORCID: 0000-0002-8966-8466",
+        "ORCID: 0000-0001-5632-9727"
+      ],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands.",
+        "Department of Biomedical Sciences, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands.",
+        "Department of Biomedical Sciences, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands. p.r.onck@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Adupa, Vasista",
+        "short_name": "Adupa V",
+        "identifiers": [
+          "0000-0003-0750-7931"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ustyantseva, Elizaveta",
+        "short_name": "Ustyantseva E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kampinga, Harm H",
+        "short_name": "Kampinga HH",
+        "identifiers": [
+          "0000-0002-8966-8466"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands. p.r.onck@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Apr 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/17 00:43",
+    "fetched_at": "2026-09-22 01:22:52"
+  },
+  "links": {
+    "cites": [
+      "41706864",
+      "41241098",
+      "40536953",
+      "40450039",
+      "37923706"
+    ],
+    "refs": [
+      "38508190",
+      "37923706",
+      "37523524",
+      "36302971",
+      "35637307",
+      "35148989",
+      "35056736",
+      "34791371",
+      "34759384",
+      "34282049",
+      "34265844",
+      "33574241",
+      "33177718",
+      "32427588",
+      "32350108",
+      "32268123",
+      "31955980",
+      "31591220",
+      "30562013",
+      "30385502",
+      "30024736",
+      "29735687",
+      "29581438",
+      "29330300",
+      "29290615",
+      "28831037",
+      "27819658",
+      "27151442",
+      "26702057",
+      "26362252",
+      "26247431",
+      "26205529",
+      "24920671",
+      "23962724",
+      "23904097",
+      "22814390",
+      "22366786",
+      "22334415",
+      "20651708",
+      "20159555",
+      "18686016",
+      "18663603",
+      "18211704",
+      "17212484",
+      "17084815",
+      "17023659",
+      "16737444",
+      "15987899",
+      "11908057",
+      "11868270",
+      "10997899",
+      "10593983",
+      "10022894",
+      "9644977",
+      "9145101",
+      "9130695",
+      "8749853",
+      "8637592",
+      "7774586",
+      "1730670"
+    ],
+    "similar": [
+      "38627370",
+      "38110916",
+      "31591220",
+      "26362252",
+      "35931773",
+      "32427588",
+      "24920671",
+      "37346979",
+      "37923706",
+      "38640082",
+      "20735358",
+      "22065753",
+      "33177718",
+      "35202628",
+      "20385092",
+      "33574241",
+      "33857403",
+      "15987899",
+      "29290615",
+      "10521435",
+      "25687964",
+      "26823468",
+      "25918398",
+      "21191678",
+      "33199640",
+      "28498104",
+      "12718534",
+      "17919282",
+      "20159555",
+      "19359181",
+      "17239655",
+      "9860951",
+      "31935082",
+      "34334418",
+      "32497100",
+      "26619280",
+      "10226023",
+      "16854979",
+      "20481474",
+      "22580344",
+      "12161444",
+      "15497503",
+      "9488737",
+      "9674429",
+      "29084938",
+      "35056736",
+      "9852006",
+      "19015537",
+      "36520305",
+      "27345933",
+      "20847048",
+      "11719219",
+      "22549943",
+      "24934537",
+      "24766146",
+      "31748398",
+      "15792799",
+      "23133382",
+      "22886941",
+      "12853476",
+      "38521349",
+      "9865495",
+      "31953415",
+      "12069690",
+      "8764403",
+      "33730888",
+      "22403069",
+      "32297208",
+      "19920147",
+      "9407119",
+      "20430885",
+      "9843493",
+      "21762702",
+      "7774586",
+      "22366786",
+      "22496372",
+      "25487017",
+      "28322872",
+      "11743879",
+      "15044009",
+      "26205529",
+      "20654624",
+      "18923430",
+      "21625540",
+      "18995833",
+      "19815073",
+      "17453917",
+      "24318877",
+      "25544045",
+      "38309209",
+      "25165400",
+      "21488102",
+      "7737974",
+      "9395086",
+      "31430682"
+    ],
+    "review": [
+      "38627370",
+      "15987899",
+      "17919282",
+      "10226023",
+      "22580344",
+      "36520305",
+      "27345933",
+      "24934537",
+      "9865495",
+      "33730888",
+      "32297208",
+      "25487017",
+      "17453917"
+    ],
+    "pmc": [
+      "11021509"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-46587-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38627370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38627370",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

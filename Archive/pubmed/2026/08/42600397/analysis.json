@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42600397",
+  "title": "Single-molecule fluorescence spectroscopy of biomolecular condensates.",
+  "authors": "Schuler, Benjamin; Chowdhury, Aritra; Ivanovic, Milos T; Valdimarsson, Matti; Galvanetto, Nicola",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 7,
+  "one_liner_zh": "综述单分子荧光光谱技术用于解析生物分子凝聚体的分子结构与动态，结合分子模拟揭示凝聚体组织与老化机制，虽聚焦实验方法但涉及无序蛋白凝聚体中的互作动态，对机制建模有参考价值。",
+  "abstract": "Single-molecule spectroscopy is emerging as a powerful approach for elucidating the molecular structure and dynamics of biomolecular condensates. Unlike ensemble methods, it can resolve heterogeneous conformations, dynamics, interactions, concentrations, and transport properties across a broad range of length- and timescales, even for minute amounts of biomolecules. Recent applications, especially fluorescence-based methods such as single-molecule Forster resonance energy transfer, fluorescence correlation spectroscopy (FCS), fluorescence anisotropy, and nanosecond FCS, have revealed how proteins and nucleic acids behave within dense phases, and how molecular-scale dynamics relate to mesoscopic properties and biological function. Combined with molecular simulations, these measurements yield mechanistic insight into condensate organization, dynamics, and aging. We highlight recent advances, key applications, and promising directions for probing the properties of condensates with single-molecule spectroscopy.",
+  "abstract_zh": "单分子光谱正在成为阐明生物分子凝聚体分子结构与动态的一种强有力方法。与系综方法不同，它能在广泛的长度和时间尺度上解析异质构象、动态、相互作用、浓度及输运性质，即使对于微量生物分子也是如此。近期应用，尤其是基于荧光的方法，如单分子福斯特共振能量转移、荧光相关光谱（FCS）、荧光各向异性及纳秒FCS，揭示了蛋白质和核酸在致密相中的行为，以及分子尺度动态如何与介观性质和生物学功能相关联。结合分子模拟，这些测量为凝聚体的组织、动态及老化提供了机制性见解。我们重点介绍了近期进展、关键应用及利用单分子光谱探测凝聚体性质的有前景方向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42600397/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42600397/",
+  "paper_page_path": "papers/pubmed/42600397/index.html"
+}

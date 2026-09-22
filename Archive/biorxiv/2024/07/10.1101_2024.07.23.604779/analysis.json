@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.23.604779",
+  "title": "Virus-induced paraspeckle-like condensates are essential hubs for gene expression and their formation drives genomic instability",
+  "authors": "Harper KL; Harrington E; Hayward C; Wongwiwat W; White RE; Whitehouse A",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-23",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究KSHV/EBV诱导的paraspeckle样凝聚体作为基因表达枢纽并导致基因组不稳定，涉及核内相分离凝聚体，但对象非无序蛋白介导的PPI，且无AI/物理模拟方法，仅实验表型描述，与本课题机制建模关联弱。",
+  "abstract": "<h4>Summary</h4> The nucleus is a highly structured environment containing multiple membrane-less bodies formed through liquid-liquid phase separation. These provide spatial separation and concentration of specific biomolecules enabling efficient and discrete processes to occur which regulate gene expression. One such nuclear body, paraspeckles, are comprised of multiple paraspeckle proteins (PSPs) built around the architectural RNA, NEAT1_2 . Paraspeckle function is yet to be fully elucidated but has been implicated in a variety of developmental and disease scenarios. We demonstrate that Kaposi’s sarcoma-associated herpesvirus (KSHV) drives formation of structurally distinct paraspeckles with a dramatically increased size and altered protein composition that are essential for productive lytic replication. We highlight these virus-induced paraspeckle-like structures form adjacent to virus replication centres, functioning as RNA processing hubs for both viral and cellular transcripts during infection. Notably, we reveal that PSP sequestration into virus-induced paraspeckle-like structures results in increased genome instability during both KSHV and Epstein Barr virus (EBV) infection, implicating their formation in virus-mediated tumorigenesis.",
+  "abstract_zh": "<h4>摘要</h4> 细胞核是一个高度结构化的环境，包含多个通过液-液相分离 (liquid-liquid phase separation) 形成的无膜体。这些结构为特定生物分子提供空间分离和浓缩，从而实现调控基因表达的高效且离散的过程。其中一种核体，paraspeckles，由多种paraspeckle蛋白 (PSPs) 组成，这些蛋白围绕结构RNA NEAT1_2构建。Paraspeckle的功能尚未完全阐明，但已涉及多种发育和疾病场景。我们证明，卡波西肉瘤相关疱疹病毒 (Kaposi's sarcoma-associated herpesvirus, KSHV) 驱动形成结构上独特的paraspeckles，其尺寸显著增大且蛋白质组成改变，这些结构对有效的裂解性复制至关重要。我们强调，这些病毒诱导的paraspeckle样结构形成于病毒复制中心附近，在感染期间作为病毒和细胞转录本的RNA加工枢纽。值得注意的是，我们揭示，在KSHV和爱泼斯坦-巴尔病毒 (Epstein Barr virus, EBV) 感染期间，PSP被隔离到病毒诱导的paraspeckle样结构中导致基因组不稳定性增加，暗示其形成参与病毒介导的肿瘤发生。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.23.604779",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.23.604779",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.23.604779/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors claim that FG-nucleoporin (FG-NUP) domains in the nuclear pore complex (NPC) exhibit liquid-like, nanosecond-scale mobility in living cells, but undergo a liquid-to-solid transition in vitro. They further claim that importin-β and O-GlcNAcylation jointly stabilize the dynamic FG network, maintain liquidity, and enrich importin-β near the NPC periphery, while extended FG domains remain in the central channel to form the transport barrier. These findings are presented as reconciling conflicting models of FG-NUP organization and explaining MINFLUX observations of importin-β depletion from the pore centre.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, simulation details, statistical analyses, control experiments, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding FG-NUP behaviour in live cells, with a plausible mechanistic model involving O-GlcNAcylation and importin-β. However, the evidence base provided is insufficient to evaluate the technical soundness of the claims. The central assertions regarding liquid-like mobility, the liquid-to-solid transition in vitro, and the proposed stabilizing roles of O-GlcNAcylation and importin-β cannot be assessed without access to the underlying data, methods, and controls. The abstract is well written and the conceptual framing is compelling, but the current submission format does not allow verification of the core conclusions.
+- **Who would be interested in the results, and why** Cell biologists studying nuclear transport and NPC architecture, biophysicists investigating intrinsically disordered proteins and phase behaviour, and researchers interested in post-translational regulation of transport machinery. The findings may also attract those studying IDP-related pathologies, given the proposed broader implications for viral infection, cancer, and neurodegeneration.
+- **Major strengths** The abstract addresses a long-standing debate regarding the physical state of FG-NUPs in live cells, using a combination of experimental and computational approaches. The proposed reconciliation of conflicting models and the link to recent MINFLUX observations provide a coherent conceptual framework. The emphasis on studying IDPs in their native cellular context is timely and methodologically important.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that FG domains exhibit nanosecond-scale, liquid-like mobility in live cells, and undergo a liquid-to-solid transition in vitro.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract provides no methodological detail on how picosecond time-resolved fluorescence anisotropy was applied, how site-specific labelling was achieved, or how the liquid-to-solid transition was characterized. Without these details, the validity of the mobility measurements and the interpretation of the in vitro transition cannot be evaluated.  
+  - **Why it matters** The central claim of the manuscript rests on the distinction between live-cell and in vitro behaviour. If the anisotropy measurements are not properly calibrated or if the in vitro conditions do not faithfully mimic the cellular environment, the reported transition may be an artefact of sample preparation rather than a biologically meaningful phenomenon.  
+  - **Resolution test** Provide full methods for labelling, anisotropy measurements, and in vitro sample preparation, including controls for probe photophysics, protein concentration, and buffer conditions. Show representative anisotropy decay curves and quantitative fitting parameters for both live-cell and in vitro conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that importin-β and O-GlcNAcylation together stabilise the dynamic FG network and maintain liquidity.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract states that experiments and coarse-grained simulations show this stabilizing role, but no details are given regarding the perturbation experiments (e.g., knockdown, overexpression, enzymatic removal of O-GlcNAc) or the simulation parameters. The causal relationship between O-GlcNAcylation, importin-β binding, and FG network liquidity is asserted without visible support.  
+  - **Why it matters** The proposed mechanism is a key novelty of the study. If the perturbations are not specific or if the simulations are not validated against experimental data, the mechanistic conclusion may be overstated.  
+  - **Resolution test** Provide details of genetic or pharmacological perturbations, quantification of O-GlcNAc levels, and simulation validation against experimental observables. Show that removal of O-GlcNAc or importin-β leads to loss of liquidity in live cells, and that the effect is rescued by restoring the modification or receptor.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors claim that importin-β is enriched near the NPC periphery while extended FG domains remain in the central channel.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The spatial distribution of importin-β and FG domains within the NPC is presented as a key finding, but no imaging data, quantitative analysis, or statistical comparison is provided in the abstract. The link to MINFLUX observations is mentioned but not substantiated.  
+  - **Why it matters** The proposed radial gradient is central to the mechanistic model. Without direct evidence of the spatial distribution, the model remains speculative.  
+  - **Resolution test** Provide representative images and quantitative line profiles of importin-β and FG domain localization across the NPC, with statistical comparison to control conditions. Show that the observed gradient is consistent with the MINFLUX data cited.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors claim that their findings reconcile conflicting models of FG-NUP organisation.  
+  - **Evidence pointer** Location not provided  
+  - **Concern** The abstract does not specify which conflicting models are reconciled or how the presented data resolve the discrepancies. The claim of reconciliation is broad and not tied to specific prior models or predictions.  
+  - **Why it matters** The broader significance of the work depends on clearly articulating how it resolves existing controversies. Without explicit comparison to prior models, the claim is difficult to evaluate.  
+  - **Resolution test** In the full manuscript, explicitly state which models are being reconciled, what predictions each model makes, and how the new data distinguish between them.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, statement on "liquid-to-solid transition in vitro"  
+  - **Issue** The term "liquid-to-solid transition" is used without specifying the physical basis (e.g., gelation, aggregation, or glass transition). This ambiguity may confuse readers.  
+  - **Required correction** Define the type of transition observed and the experimental readout used to characterize it.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, statement on "finely balanced FG-FG interactions"  
+  - **Issue** The phrase "finely balanced" is qualitative and does not convey the quantitative nature of the interactions.  
+  - **Required correction** Provide quantitative descriptors (e.g., interaction energies, binding affinities) or refer to specific measurements that demonstrate the balance.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract, broader implications  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim of broader implications for IDP-related diseases is stated without any supporting evidence or mechanistic link.  
+  - **Required correction** Either remove the claim or provide a brief rationale connecting the findings to specific disease mechanisms.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims regarding live-cell mobility, the in vitro transition, and the spatial distribution of importin-β cannot be verified from the abstract alone. Full methodological and quantitative data are required.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of picosecond anisotropy in live cells with coarse-grained simulations to address FG-NUP phase behaviour appears novel, but the abstract does not provide enough detail to confirm the originality of the approach or the findings.  
+  - Scientific importance: The question of FG-NUP physical state in live cells is of high importance to the nuclear transport field. If the claims are substantiated, the work would represent a significant advance.  
+  - Interdisciplinary readership: The topic bridges cell biology, biophysics, and computational biology, and the findings may appeal to a broad audience. However, the abstract assumes familiarity with NPC terminology and may not be fully accessible to nonspecialists.  
+  - Technical soundness: Cannot be assessed from the abstract. The methods are not described, and no data are shown.  
+  - Readability for nonspecialists: The abstract is concise and well structured, but some terms (e.g., FG-NUP, O-GlcNAcylation, MINFLUX) are used without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis and a plausible model, but the absence of methods, data, and controls prevents verification of the central claims. A supportive recommendation would require access to the full manuscript and evidence that the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that FG domains exhibit liquid-like mobility in live cells is unsupported without anisotropy data and controls.
+- The claim of a liquid-to-solid transition in vitro is unsupported without characterization of the transition and conditions.
+- The claim that importin-β and O-GlcNAcylation jointly stabilize the FG network is unsupported without perturbation experiments.
+- The claim of importin-β enrichment at the NPC periphery is unsupported without imaging data.
+- The claim that the findings reconcile conflicting models of FG-NUP organisation is not substantiated in the abstract.
+- The broader implications for IDP-related diseases are stated without evidence or mechanistic rationale.

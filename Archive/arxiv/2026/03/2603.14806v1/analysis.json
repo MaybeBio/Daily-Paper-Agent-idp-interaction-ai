@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.14806v1",
+  "title": "Fold-CP: A Context Parallelism Framework for Biomolecular Modeling",
+  "authors": "Dejun Lin; Simon Chu; Vishanth Iyer; Youhan Lee; John St John; Kevin Boyd; Brian Roland; Xiaowei Ren; Guoqing Zhou; Zhonglin Cao; Polina Binder; Yuliya Zhautouskaya; Jakub Zakrzewski; Maximilian Stadler; Kyle Gion; Yuxing Peng; Xi Chen; Tianjing Zhang; Philipp Junk; Michelle Dimon; Paweł Gniewek; Fabian Ortega; McKinley Polen; Ivan Grubisic; Ali Bashir; Graham Holt; Danny Kovtun; Matthias Grass; Luca Naef; Rui Wang; Jian Peng; Anthony Costa; Saee Paliwal; Eddie Calleja; Timur Rvachov; Neha Tadimeti; Roy Tal; Emine Kucukbenli",
+  "journal": "",
+  "published_date": "2026-03-16",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出Fold-CP上下文并行框架，在多个GPU上分布式运行Boltz共折叠模型，突破AlphaFold 3的硬件内存限制，可预测超3万残基的大组装体，并成功折叠含无序区域的PI4KA复合物，虽非直接研究IDR互作机制，但为大规模无序蛋白复合物建模提供了可迁移的高效方法。",
+  "abstract": "Understanding cellular machinery requires atomic-scale reconstruction of large biomolecular assemblies. However, predicting the structures of these systems has been constrained by hardware memory requirements of models like AlphaFold 3, imposing a practical ceiling of a few thousand residues that can be processed on a single GPU. Here we present NVIDIA BioNeMo Fold-CP, a context parallelism framework that overcomes this barrier by distributing the inference and training pipelines of co-folding models across multiple GPUs. We use the Boltz models as open source reference architectures and implement custom multidimensional primitives that efficiently parallelize both the dense triangular updates and the irregular, data-dependent pattern of window-batched local attention. Our approach achieves efficient memory scaling; for an N-token input distributed across P GPUs, per-device memory scales as $O(N^2/P)$, enabling the structure prediction of assemblies exceeding 30,000 residues on 64 NVIDIA B300 GPUs. We demonstrate the scientific utility of this approach through successful developer use cases: Fold-CP enabled the scoring of over 90% of Comprehensive Resource of Mammalian protein complexes (CORUM) database, as well as folding of disease-relevant PI4KA lipid kinase complex bound to an intrinsically disordered region without cropping. By providing a scalable pathway for modeling massive systems with full global context, Fold-CP represents a significant step toward the realization of a virtual cell.",
+  "abstract_zh": "理解细胞机制需要对大型生物分子组装体进行原子级重建。然而，预测这些系统的结构一直受限于AlphaFold 3等模型的硬件内存需求，在单个GPU上可处理的残基数量实际上限为数千个。在此，我们提出NVIDIA BioNeMo Fold-CP，一种上下文并行框架，通过将共折叠模型的推理和训练流程分布到多个GPU上，克服了这一障碍。我们使用Boltz模型作为开源参考架构，并实现自定义多维原语，高效并行化密集三角更新和不规则、数据依赖的窗口批处理局部注意力模式。我们的方法实现了高效的内存扩展；对于分布在P个GPU上的N个令牌输入，每设备内存按$O(N^2/P)$缩放，从而在64个NVIDIA B300 GPU上实现超过30,000个残基的组装体结构预测。我们通过成功的开发者用例展示了该方法的科学实用性：Fold-CP使得对哺乳动物蛋白复合物综合资源（CORUM）数据库中超过90%的条目进行评分成为可能，并折叠了与内在无序区域结合的疾病相关PI4KA脂质激酶复合物，无需裁剪。通过为建模具有完整全局上下文的大规模系统提供可扩展路径，Fold-CP代表了向实现虚拟细胞迈出的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.14806v1",
+  "source_url": "https://arxiv.org/abs/2603.14806v1",
+  "paper_page_path": "papers/arxiv/2603.14806v1/index.html"
+}

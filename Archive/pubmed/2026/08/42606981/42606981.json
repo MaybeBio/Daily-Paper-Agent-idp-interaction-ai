@@ -1,0 +1,184 @@
+{
+  "identity": {
+    "pmid": "42606981",
+    "doi": "10.1109/TCBBIO.2026.3724278",
+    "title": "Quantum-Enhanced Transfer Learning for IDR Binding Partner Prediction."
+  },
+  "content": {
+    "abstract": "Intrinsically Disordered Regions (IDRs) play essential roles in cellular processes through interactions with proteins, nucleic acids, lipids, and metal ions, yet predicting their binding partners remains challenging for understanding protein function and drug discovery. However, current computational methods including protein language models face performance plateaus where traditional approaches to improve accuracy have become ineffective. Here, we present a hybrid quantum-classical machine learning approach that combines variational quantum circuits with the ESM2 protein language model for multi-class IDR binding partner prediction using a prototypical network. Through systematic evaluation of quantum circuit architectures across factorial experiments, we demonstrate that the hybrid model achieves statistically significant performance improvements over classical baselines, with entanglement topology governing model stability and encoding methods determining performance gains. These findings establish that quantum advantage in computational biology emerges from architectural design principles rather than computational scale, providing a framework for overcoming performance limitations in bioinformatics applications where dataset expansion is constrained.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Seok-Jin",
+        "Shin, Hongchul"
+      ],
+      "short_names": [
+        "Kang SJ",
+        "Shin H"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Seok-Jin",
+        "short_name": "Kang SJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shin, Hongchul",
+        "short_name": "Shin H",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2026 Aug 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/17 17:45",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42606981",
+      "42475469",
+      "41760787",
+      "36851914",
+      "41921197",
+      "40603536",
+      "40286477",
+      "41188344",
+      "42437791",
+      "41534519",
+      "39763873",
+      "42449777",
+      "41422169",
+      "40715162",
+      "34905768",
+      "38701796",
+      "40756902",
+      "41896305",
+      "41648466",
+      "40914361",
+      "41374637",
+      "42350468",
+      "41427731",
+      "42503799",
+      "39122811",
+      "41977286",
+      "42173334",
+      "40877341",
+      "42015301",
+      "36210722",
+      "39990254",
+      "18831774",
+      "40944448",
+      "41822751",
+      "41387486",
+      "36908253",
+      "36945484",
+      "40133781",
+      "42358483",
+      "42256855",
+      "38672050",
+      "42608429",
+      "41555779",
+      "39981059",
+      "32535960",
+      "41378882",
+      "39576667",
+      "42399301",
+      "41294241",
+      "39177127",
+      "41491543",
+      "41922965",
+      "31521235",
+      "36315580",
+      "41020638",
+      "39532986",
+      "41671215",
+      "41999908",
+      "40811181",
+      "39848362",
+      "40957717",
+      "41383998",
+      "41529403",
+      "42100742",
+      "41436386",
+      "41125841",
+      "42491247",
+      "42310771",
+      "41174305",
+      "40883823",
+      "40209920",
+      "42380674",
+      "39933697",
+      "41963527",
+      "41396754",
+      "42464502",
+      "36833360",
+      "40650026",
+      "38795030",
+      "40658631",
+      "40728618",
+      "41578956",
+      "40403066",
+      "38275091",
+      "41310253",
+      "23912807",
+      "42348910",
+      "40346567",
+      "35652477",
+      "41492535",
+      "25724101",
+      "39093570",
+      "36272675",
+      "40760074",
+      "42012716",
+      "34830151",
+      "42426030",
+      "38166858",
+      "41210857",
+      "40857188"
+    ],
+    "review": [
+      "42606981",
+      "36851914",
+      "41555779",
+      "41922965",
+      "31521235",
+      "41999908",
+      "42491247",
+      "42310771",
+      "40209920",
+      "36833360",
+      "40650026",
+      "35652477"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

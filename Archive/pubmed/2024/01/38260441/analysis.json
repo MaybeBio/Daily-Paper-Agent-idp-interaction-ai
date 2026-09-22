@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38260441",
+  "title": "SAXS/MC studies of the mixed-folded protein Cdt1 reveal monomeric, folded over conformations.",
+  "authors": "Smith, Kyle P; Chakravarthy, Srinivas; Rahi, Amit; Chakraborty, Manas; Vosberg, Kristen M; Tonelli, Marco; Plach, Maximilian G; Grigorescu, Arabela A; Curtis, Joseph E; Varma, Dileep",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合SAXS/MC模拟表征混合折叠蛋白Cdt1的构象系综，揭示其无序区域与折叠域的相对排布，虽未直接研究PPI，但为IDR介导的构象-互作机制建模提供了可迁移的计算-实验模板。",
+  "abstract": "Cdt1 is a protein critical for DNA replication licensing and is well-established to be a binding partner of the minichromosome maintenance (MCM) complex. Cdt1 has also been demonstrated to have an emerging, \"moonlighting\" role at the kinetochore via direct binding to microtubules and to the Ndc80 complex. However, it is not known how the structure and conformations of Cdt1 could allow for these multiple, completely unique sets of protein complexes. And while there exist multiple robust methods to study entirely folded or entirely unfolded proteins, structure-function studies of combined, mixed folded/disordered proteins remain challenging. It this work, we employ multiple orthogonal biophysical and computational techniques to provide a detailed structural characterization of human Cdt1 92-546. DSF and DSCD show both folded winged helix (WH) domains of Cdt1 are relatively unstable. CD and NMR show the N-terminal and the linker regions are intrinsically disordered. Using DLS and SEC-MALS, we show that Cdt1 is polydisperse, monomeric at high concentrations, and without any apparent inter-molecular self-association. SEC-SAXS of the monomer in solution enabled computational modeling of the protein in silico. Using the program SASSIE, we performed rigid body Monte Carlo simulations to generate a conformational ensemble. Using experimental SAXS data, we filtered for conformations which did and did not fit our data. We observe that neither fully extended nor extremely compact Cdt1 conformations are consistent with our SAXS data. The best fit models have the N-terminal and linker regions extended into solution and the two folded domains close to each other in apparent \"folded over\" conformations. The best fit Cdt1 conformations are consistent with a function as a scaffold protein which may be sterically blocked without the presence of binding partners. Our studies also provide a template for combining experimental and computational biophysical techniques to study mixed-folded proteins.",
+  "abstract_zh": "Cdt1是DNA复制许可的关键蛋白，已被充分证实是小染色体维持 (minichromosome maintenance, MCM) 复合物的结合伙伴。Cdt1还被证明通过直接结合微管和Ndc80复合物，在着丝粒中发挥新兴的“兼职”作用。然而，目前尚不清楚Cdt1的结构和构象如何使其能够与这些多种、完全独特的蛋白复合物结合。尽管存在多种稳健的方法来研究完全折叠或完全未折叠的蛋白质，但对混合折叠/无序蛋白的结构-功能研究仍具挑战性。在本工作中，我们采用多种正交的生物物理和计算技术，对人Cdt1 92-546进行了详细的结构表征。DSF和DSCD显示Cdt1的两个折叠翼状螺旋 (winged helix, WH) 结构域相对不稳定。CD和NMR显示N端区域和连接区域本质上是无序的。通过DLS和SEC-MALS，我们表明Cdt1是多分散的，在高浓度下为单体，且无明显分子间自结合。溶液中单体的SEC-SAXS使我们能够在计算机内进行蛋白质的计算建模。使用SASSIE程序，我们进行了刚体蒙特卡洛模拟以生成构象集合。利用实验SAXS数据，我们筛选了符合和不符合我们数据的构象。我们观察到，既非完全伸展也非极度紧凑的Cdt1构象与我们的SAXS数据一致。最佳拟合模型显示N端和连接区域伸展至溶液中，两个折叠结构域彼此靠近，呈现明显的“折叠”构象。最佳拟合的Cdt1构象与其作为支架蛋白的功能一致，该功能在缺乏结合伙伴时可能受到空间位阻。我们的研究还为结合实验和计算生物物理技术研究混合折叠蛋白提供了模板。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38260441/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38260441/",
+  "paper_page_path": "papers/pubmed/38260441/index.html"
+}

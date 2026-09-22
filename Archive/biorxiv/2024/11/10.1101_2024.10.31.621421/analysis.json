@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.31.621421",
+  "title": "Hybrid Transformer and Neural Network Configuration for Protein Classification Using Amino Acids",
+  "authors": "Nathan Labiosa; Aryan Kohli; Christian Chung; Christopher Korban",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出混合Transformer与神经网络模型进行蛋白质分类，虽用AI方法但对象为一般折叠蛋白、无PPI或IDP/相分离机制建模，仅分类任务，对本课题启发有限。",
+  "abstract": "This study introduces a hybrid machine learning model for classifying proteins, developed to address the complexities of protein sequence and structural analysis. Utilizing an architecture that combines a lightweight transformer with a concurrent neural network, the hybrid model leverages both sequential and intrinsic physical properties of proteins. Trained on a comprehensive dataset from the Research Collaboratory for Structural Bioinformatics Protein Data Bank, the model demonstrates a classification accuracy of 95%, outperforming existing methods by at least 15%. The high accuracy achieved demonstrates the potential of this approach to innovate protein classification, facilitating advancements in drug discovery and the development of personalized medicine. By enabling precise protein function prediction, the hybrid model allows for specialized strategies in therapeutic targeting and the exploration of protein dynamics in biological systems. Future work will focus on enhancing the model’s generalizability across diverse datasets and exploring the integration of more machine learning techniques to refine predictive capabilities further. The implications of this research offer potential breakthroughs in biomedical research and the broader field of protein engineering.",
+  "abstract_zh": "本研究引入了一种用于蛋白质分类的混合机器学习模型，旨在应对蛋白质序列和结构分析的复杂性。该混合模型采用轻量级Transformer与并发神经网络相结合的架构，充分利用了蛋白质的序列特征及内在物理属性。模型在来自结构生物信息学研究合作实验室蛋白质数据银行（Research Collaboratory for Structural Bioinformatics Protein Data Bank）的综合数据集上训练，分类准确率达到95%，比现有方法至少高出15%。所实现的高准确率表明，该方法在创新蛋白质分类方面具有潜力，有助于推动药物发现和个性化医疗的发展。通过实现精确的蛋白质功能预测，该混合模型能够为治疗靶向策略和生物系统中蛋白质动力学探索提供专门化方案。未来工作将聚焦于增强模型在不同数据集上的泛化能力，并探索整合更多机器学习技术以进一步提升预测性能。本研究的成果有望在生物医学研究和更广泛的蛋白质工程领域带来突破性进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621421",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621421",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.31.621421/index.html"
+}

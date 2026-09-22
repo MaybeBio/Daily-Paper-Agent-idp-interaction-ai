@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (review article, Annual Review of Biophysics, 2025)
+- **Assessment boundary** Scientific content, technical accuracy, completeness of coverage, and clarity of the review as provided; no external literature verification performed
+- **Shared manuscript claim summary** The review synthesizes recent experimental and computational studies on how intrinsically disordered proteins and regions associate with membranes, identifies common modes of association, and discusses functional consequences including protein activation, membrane anchoring, curvature sensing, aggregation, and liquid-liquid phase separation
+- **Visible evidence base** Abstract, introduction, sections on representative IDPs, physical rules (NMR, other experimental methods, MD simulations, common modes and predictions), functional mechanisms (protein activation, membrane anchoring, curvature, fusion/fission), disease mechanisms, membrane-associated LLPS, concluding remarks, acknowledgments; figures and tables referenced but not provided
+- **Missing materials affecting confidence** Figures 1–8, Tables 1–3, and all cited references (1–136) are not included; specific experimental details, quantitative data, and methodological descriptions in the original studies cannot be independently verified
+
+## Reviewer
+- **Overall assessment** This is a well-structured and timely review that addresses an important and rapidly evolving topic at the interface of biophysics, cell biology, and computational biology. The authors have selected a representative set of IDP systems and integrated findings from NMR, MD simulations, and other techniques to extract general principles. The review is generally clear and accessible, with a logical progression from molecular mechanisms to functional and disease-related consequences. However, the absence of figures and tables in the provided material limits full evaluation of the illustrative content. The review would benefit from more critical discussion of conflicting results and from explicit articulation of open questions and testable predictions. The treatment of some topics, such as the WRG motif and Tyr-mediated insertion, is appropriately cautious, but the review could more strongly emphasize the limitations of current computational approaches and the need for quantitative validation.
+- **Who would be interested in the results, and why** Researchers in biophysics, structural biology, cell biology, and computational chemistry will find this review valuable. Specifically, those studying membrane-protein interactions, intrinsically disordered proteins, phase separation, and membrane remodeling will benefit from the synthesis of experimental and computational approaches. The review is also relevant for researchers working on neurodegenerative diseases involving amyloidogenic IDPs, as well as those interested in antimicrobial peptide mechanisms. The discussion of sequence-based predictors will interest bioinformaticians and computational biologists developing tools for functional annotation of disordered regions.
+- **Major strengths** The review provides a comprehensive and up-to-date synthesis of a complex topic, integrating findings from multiple experimental and computational techniques. The organization around physical rules and functional mechanisms is effective. The authors appropriately emphasize residue-level and atomic-level insights, which are crucial for mechanistic understanding. The discussion of common modes of association and the availability of sequence-based predictors is forward-looking and practically useful. The review also highlights the complementarity of NMR and MD simulations, which is an important methodological message.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness and balance of coverage
+  - **Claim pointer** The review claims to focus on "physical understanding of IDP–membrane association and the mechanistic understanding of cellular processes involving IDP-mediated membrane attachment, generated from studies from the past few years."
+  - **Evidence pointer** Sections "REPRESENTATIVE IDPs" through "MEMBRANE-ASSOCIATED LIQUID-LIQUID PHASE SEPARATION"
+  - **Concern** The review is selective in its coverage, which is appropriate for a review, but the criteria for selection are not explicitly stated. Some topics, such as the role of membrane lipid composition and the effects of post-translational modifications on IDP-membrane interactions, are mentioned only briefly. The review would be strengthened by a more explicit discussion of how representative the chosen systems are and what general conclusions can be drawn beyond the specific examples.
+  - **Why it matters** Readers need to understand the scope and limitations of the synthesis to assess the generality of the proposed physical rules and mechanisms. Without explicit selection criteria, the review risks appearing arbitrary in its coverage.
+  - **Resolution test** The authors should add a brief statement of selection criteria and discuss the extent to which the identified modes of association are general across the broader IDP-membrane interaction landscape.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation of computational methods
+  - **Claim pointer** The review states that "MD simulations can uniquely contribute to the characterization of IDP–membrane association" and presents several examples of mechanistic models derived from simulations.
+  - **Evidence pointer** Section "MD Simulations" under "PHYSICAL RULES GOVERNING MEMBRANE ASSOCIATION OF IDPs"
+  - **Concern** The review presents MD simulation results with limited critical assessment of their limitations, such as force field accuracy, sampling convergence, and the sensitivity of results to system setup. The authors acknowledge that "MD is still limited by inaccuracies in force fields and undersampling," but this caveat is brief and not systematically applied to the specific examples discussed. The review would benefit from a more nuanced discussion of which simulation predictions are robust and which are tentative.
+  - **Why it matters** Given the increasing reliance on MD simulations for mechanistic insights, readers need guidance on the reliability of specific predictions and on best practices for validating simulation results against experiments.
+  - **Resolution test** The authors should add a more detailed discussion of the limitations of current MD approaches for IDP-membrane systems, including specific examples where simulation predictions have been confirmed or contradicted by experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Integration of disease mechanisms
+  - **Claim pointer** The review discusses "disease mechanisms of IDPs involving membrane association" including membrane disruption, channel formation, and membrane-assisted aggregation.
+  - **Evidence pointer** Section "DISEASE MECHANISMS OF IDPs INVOLVING MEMBRANE ASSOCIATION"
+  - **Concern** The disease mechanisms section is relatively brief and does not fully integrate the physical principles discussed earlier in the review. For example, the connection between the modes of membrane association (fuzzy, amphipathic helix, deep insertion, Tyr-mediated) and the specific disease-related outcomes (channel formation, carpeting, aggregation) is not explicitly made. The review would be strengthened by a more explicit framework linking the physical rules to pathological mechanisms.
+  - **Why it matters** A key motivation for studying IDP-membrane interactions is understanding their role in disease. A clearer articulation of how the physical principles translate to pathological outcomes would increase the impact and utility of the review.
+  - **Resolution test** The authors should add a synthesis paragraph or figure that maps the identified modes of membrane association onto the disease mechanisms discussed, highlighting which physical features are most relevant for each pathological outcome.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "fuzzy" to describe membrane association
+  - **Evidence pointer** Sections "REPRESENTATIVE IDPs" and "MD Simulations"
+  - **Issue** The term "fuzzy" is used to describe dynamic membrane association, but it is not formally defined. This term may be unfamiliar to some readers.
+  - **Required correction** Provide a brief definition or explanation of "fuzzy" membrane association when first used, and consider using more descriptive terminology such as "dynamic" or "disordered" membrane association.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methodological discussion
+  - **Affected element** Discussion of experimental techniques
+  - **Evidence pointer** Section "Other Experimental Methods" and Table 1
+  - **Issue** The review mentions several experimental techniques but does not discuss their relative strengths and limitations in detail. For example, the advantages of solid-state NMR over solution NMR for membrane-bound systems are implied but not explicitly stated.
+  - **Required correction** Add a brief comparative discussion of the techniques listed in Table 1, highlighting their complementary strengths and limitations for studying IDP-membrane interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility of prediction methods
+  - **Affected element** Discussion of sequence-based predictors
+  - **Evidence pointer** Section "Common Modes and Predictions" and Table 3
+  - **Issue** The review mentions two sequence-based predictors (ReSMAP and DisoLipPred) but does not provide information on their availability, ease of use, or performance benchmarks.
+  - **Required correction** Add a sentence or two describing the availability and practical utility of these predictors, and consider including performance metrics if available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Figures 1–8
+  - **Evidence pointer** Throughout the text
+  - **Issue** The figures are referenced but not provided in the submitted material. It is not possible to assess whether the figures adequately support the claims made in the text.
+  - **Required correction** Ensure that all figures are included in the final submission and that each figure is explicitly referenced in the text with a clear description of what it shows.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The review is a synthesis of existing literature, and the technical claims are appropriately attributed to the original studies. The main limitation is the absence of figures and tables, which prevents full evaluation of the illustrative content.
+- **Assessment against Nature-style criteria** 
+  - Originality: The review synthesizes recent findings and identifies common modes of IDP-membrane association, which is a useful conceptual contribution. However, the topic has been covered in other recent reviews, and the present review does not introduce a fundamentally new framework or perspective.
+  - Scientific importance: The topic is of high importance given the growing recognition of IDP-membrane interactions in cellular regulation and disease. The review addresses a timely and significant area.
+  - Interdisciplinary readership: The review bridges biophysics, structural biology, cell biology, and computational biology, and should appeal to a broad interdisciplinary audience.
+  - Technical soundness: The technical content appears sound based on the provided text, with appropriate caveats about the limitations of MD simulations and the need for experimental validation. However, the absence of figures and tables limits full verification.
+  - Readability for nonspecialists: The review is generally well-written and accessible, with clear explanations of key concepts. Some sections, particularly those on MD simulations, may be challenging for nonspecialists, but the overall structure and flow are effective.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review provides a valuable synthesis of an important topic and is generally well-executed. The major concerns identified are not fatal but would benefit from attention to improve the completeness, balance, and critical depth of the review. The absence of figures and tables in the submitted material must be addressed in the final submission.

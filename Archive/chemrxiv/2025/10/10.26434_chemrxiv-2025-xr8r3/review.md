@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CurvePotGCN, a graph convolutional neural network that predicts protein-protein interactions (PPIs) using surface curvature and electrostatic potential as node features. They report 98% area under the receiver operating characteristic curve (AUC) for human PPI and 89% for yeast PPI, and claim superior performance against contemporary methods, with improved computational efficiency.
+- **Visible evidence base** Abstract text only; no quantitative details on datasets, model architecture, training procedures, or benchmarking protocols
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset descriptions, benchmark definitions, baseline model specifications, computational cost measurements, and any statistical validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that reduces PPI prediction to a small set of physicochemical surface features. The reported performance figures are striking, but the absence of methodological detail and benchmark context prevents verification of the central claims. The work has potential value for the structural bioinformatics community, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in protein interaction prediction, structural bioinformatics, and graph neural network applications in biology would be interested. The claim that simplified physicochemical features can match or exceed complex representation schemes is relevant to those seeking computationally efficient alternatives for large-scale interactome studies.
+- **Major strengths** The conceptual simplification is elegant and potentially impactful. The focus on interpretable biophysical features rather than opaque deep learning representations is a refreshing direction. The reported performance, if reproducible, would be competitive with state-of-the-art methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CurvePotGCN achieved a predictive performance of 98% area under the receiver operating characteristic curve for human PPI and 89% for yeast PPI"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the datasets used for training and evaluation, including their size, composition, positive-to-negative ratio, or whether they are standard benchmarks. Without this context, the reported AUC values cannot be interpreted. High AUC values can arise from trivial dataset characteristics such as imbalance or sequence similarity between training and test sets.
+  - **Why it matters** PPI prediction benchmarks are highly sensitive to dataset construction. If the datasets are not standard or are not split appropriately, the reported performance may not reflect genuine predictive ability and would not be comparable to existing methods.
+  - **Resolution test** Provide dataset names, sizes, class balance, and a clear description of train/test splitting. Report performance on established benchmarks such as Dscript, DeepPPI, or similar widely used PPI datasets, with comparison to baselines under identical conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CurvePotGCN showed superior performance against contemporary methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which contemporary methods were compared, on which datasets, or under what evaluation protocol. Without this information, the claim of superiority is unverifiable. It is also unclear whether the comparison used identical training and test splits and whether statistical significance was assessed.
+  - **Why it matters** Benchmarking claims are only meaningful when the comparison is fair and reproducible. If the baselines were not tuned or were evaluated under different conditions, the reported superiority could be an artifact.
+  - **Resolution test** List all baseline methods, their versions or implementations, hyperparameter settings, and the exact evaluation protocol. Provide confidence intervals or statistical tests for performance differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "enhancing computational efficiency while maintaining predictive accuracy"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative measure of computational efficiency is provided. The abstract claims improved efficiency but does not report runtime, memory usage, or scaling behavior relative to baselines. This claim is currently unsupported.
+  - **Why it matters** Computational efficiency is a stated motivation of the work. Without measurements, the reader cannot assess whether the claimed advantage is real or marginal.
+  - **Resolution test** Report wall-clock training and inference times, memory consumption, and hardware specifications for CurvePotGCN and all baselines on the same datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that nodes represent "surface clusters defined by geometric curvature and electrostatic potential" but does not explain how these clusters are derived or how many nodes a typical protein yields.
+  - **Required correction** Add a brief description of the clustering procedure and typical graph sizes to help readers gauge the model's complexity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalization claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports results for human and yeast PPI but does not discuss whether the model generalizes to other species or to interaction types beyond binary classification.
+  - **Required correction** Clarify the scope of the model's applicability or acknowledge limitations regarding species and interaction types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Feature representation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract emphasizes that the model uses only curvature and electrostatic potential, but it is unclear how these features are computed and whether they are derived from experimental structures or predicted models.
+  - **Required correction** Specify the source of structural data and the method for computing curvature and electrostatic potential.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of predictive performance, benchmark superiority, and computational efficiency are all unverifiable from the abstract alone.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the combination of surface curvature and electrostatic potential as graph node features is a distinctive approach. Scientific importance is potentially high if the claims hold, because a simplified and efficient PPI predictor would be broadly useful. Interdisciplinary readership is plausible, spanning machine learning and structural biology. Technical soundness cannot be assessed from the abstract, as no methodological or statistical details are provided. Readability for nonspecialists is adequate, though some terms such as "surface clusters" and "node-features" could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is promising, and I would be supportive if the technical concerns regarding dataset transparency, benchmark rigor, and efficiency measurements are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The reported AUC values of 98% for human and 89% for yeast PPI are unsupported without dataset details.
+- The claim of superior performance against contemporary methods is unsupported without specification of baselines and evaluation protocols.
+- The claim of enhanced computational efficiency is unsupported without quantitative measurements.
+- The general applicability of the model beyond the two reported species is unassessable from the abstract.

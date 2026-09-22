@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract, with supporting statements from the data availability and author contribution sections
+- **Shared manuscript claim summary** The authors establish three baselines for intrinsically disordered region (IDR) prediction using AlphaFoldDB models, benchmarked against the CAID dataset, and report that AlphaFoldDB is highly competitive for predicting both IDRs and conditionally folded binding regions
+- **Visible evidence base** Abstract text, data availability statement, author contributions, acknowledgments
+- **Missing materials affecting confidence** Full manuscript text, all figures, tables, methods description, detailed statistical results, and the CAID dataset specifications are not provided
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful benchmarking contribution to the disorder prediction field, with a clear claim that AlphaFoldDB models perform competitively for IDR and conditionally folded region prediction. However, the abstract alone provides insufficient methodological detail to evaluate the robustness of the baselines, the statistical significance of the reported competitiveness, or the generalizability of the findings. The claim of "surprising" competitiveness is intriguing but requires quantitative support that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure prediction, intrinsically disordered protein analysis, and benchmark development would be the primary audience. Researchers using AlphaFoldDB for functional annotation of proteins with disordered regions may also find the results relevant for interpreting predicted models. The work could inform practical decisions about using AlphaFoldDB outputs for disorder-related annotations.
+- **Major strengths** The work addresses a timely question about the utility of AlphaFoldDB beyond folded structure prediction. The use of the CAID dataset as a benchmark provides a community-recognized reference standard. The explicit data and code availability statements support reproducibility, which is a notable strength for a benchmarking study.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "AlphaFoldDB is highly competitive for predicting both IDRs and conditionally folded binding regions"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that AlphaFoldDB is "highly competitive" but provides no quantitative metrics, no comparison details against other predictors, and no statistical measures such as confidence intervals or significance tests. The term "highly competitive" is undefined in the visible material.
+  - **Why it matters** Without quantitative evidence, the central claim cannot be evaluated for its validity or magnitude. The reader cannot determine whether the competitiveness is marginal or substantial, nor whether it holds across different IDR types or datasets.
+  - **Resolution test** Provide specific performance metrics (e.g., AUC, Matthews correlation coefficient, F1 score) for AlphaFoldDB against CAID baselines, with appropriate statistical comparisons and error estimates.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we establish three baselines for IDR prediction from AlphaFoldDB models based on the recent CAID dataset"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe what the three baselines are, how they were derived from AlphaFoldDB models, or what specific features of the models were used (e.g., pLDDT scores, per-residue confidence, or derived features). The methodological basis for the baselines is entirely opaque.
+  - **Why it matters** The reproducibility of the study depends on a clear description of the baseline construction. Without this information, the reader cannot assess whether the baselines are reasonable, whether they are truly independent of the CAID training data, or whether they could be trivially derived.
+  - **Resolution test** Describe the three baselines explicitly, including the exact AlphaFoldDB features used, the transformation applied to obtain disorder scores, and the rationale for each baseline choice.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "demonstrating the plasticity of the disorder to structure continuum"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract implies a conceptual interpretation of the results as evidence for a "disorder to structure continuum," but the connection between the benchmarking results and this broader biological concept is not explained. It is unclear how competitive prediction performance translates into evidence about the physical or functional continuum.
+  - **Why it matters** This interpretive claim extends beyond the benchmarking results and may overreach the data. If the authors intend to make a conceptual argument, they need to articulate the logical link between prediction performance and the biological continuum.
+  - **Resolution test** Provide a clear mechanistic or conceptual argument connecting the prediction results to the disorder-to-structure continuum, or soften the claim to be strictly about prediction performance.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "conditional folding" is used without definition. Nonspecialist readers may not know what this means in the context of disordered regions.
+  - **Required correction** Define "conditional folding" at first use, for example as the propensity of a disordered region to adopt a folded structure upon binding or in a specific cellular context.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement, location not provided
+  - **Issue** The data availability statement lists multiple URLs but does not specify which data corresponds to which URL, nor whether the Code Ocean capsule contains the exact analysis scripts or only the data.
+  - **Required correction** Clarify the contents of each repository and ensure the Code Ocean capsule includes both the data and the analysis code for full reproducibility.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the size or composition of the CAID dataset used, nor whether the evaluation was performed on a held-out test set or the full dataset.
+  - **Required correction** Specify the dataset size, the number of proteins or regions evaluated, and the train-test split if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of competitiveness and baseline establishment cannot be evaluated without quantitative results and methodological detail. R1-M3 is non-blocking but should be addressed to avoid overinterpretation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of benchmarking AlphaFoldDB for disorder prediction is not entirely novel, as others have explored AlphaFold confidence scores for disorder, but the specific focus on conditional folding regions may add a new angle. The originality is moderate and cannot be fully assessed from the abstract.
+  - Scientific importance: The work addresses a practical question relevant to the large community using AlphaFoldDB. If the baselines are robust and the competitiveness is confirmed, the results could inform how researchers interpret AlphaFoldDB outputs for disordered proteins. The importance is moderate and depends on the strength of the evidence.
+  - Interdisciplinary readership: The topic sits at the intersection of structural biology, bioinformatics, and protein science. The abstract is written in a way that is accessible to these communities, but the lack of detail limits broader appeal.
+  - Technical soundness: Not assessable from the abstract. The absence of methods and quantitative results prevents any judgment on the technical quality of the benchmarking.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but the undefined term "conditional folding" and the lack of context for the baselines reduce accessibility for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the absence of quantitative results and methodological detail means the central claims cannot be verified. The recommendation would be supportive if the full manuscript provides the missing evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that AlphaFoldDB is "highly competitive" for IDR and conditionally folded region prediction is unsupported in the abstract due to the absence of any quantitative metrics or comparisons.
+- The claim of "establishing three baselines" is unsupported because the baselines are not described.
+- The interpretive claim about "plasticity of the disorder to structure continuum" is unsupported as a logical consequence of the benchmarking results without additional explanation.
+- The generalizability of the findings to other datasets or prediction tasks is not assessable from the supplied material.

@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "33747706",
+    "doi": "10.1007/s13205-021-02698-8",
+    "title": "Exploring the conformational dynamics and flexibility of intrinsically disordered HIV-1 Nef protein using molecular dynamic network approaches."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins represent a class of proteins that lack fixed and well-defined three-dimensional structures in solution. HIV-1 Nef is an intrinsically disordered peripheral membrane protein involved in the replication and pathogenesis of HIV-1 infection. Nef controls expression levels of cell surface CD4 molecules that are essential for adaptive immunity. Despite the lack of fixed and stable structures, Nef physically interacts with the host cellular proteins (AP-1/MHC-I) and modulates intracellular trafficking pathways. Therefore, it is essential to understand how this dynamic conformational flexibility affects Nef structures and function. In this study, we combined all-atom molecular dynamics (MD) simulations and dynamic network approaches to better understand the structure and dynamics of Nef in two different forms, the free unbound and the bound state. Using the MD simulation approach, we show that the intrinsically disordered Nef exhibit a large dynamic field with more atomic fluctuations and lesser thermodynamic stability in the unbound conditions. The conformations of Nef change over time, and this protein remains more compact, folded, and stable in the bound form. The dynamic network analysis revealed regions of the protein capable of modulating the conformational behavior of the disordered Nef. The average betweenness centrality (BC) unveiled residues that are critical for mediating protein-protein interactions. The average shortest path length (L) and the perturbation response scanning exposed residues that are likely to be important in steering protein conformational changes. Overall, the study demonstrates how all-atom MD simulations combined with the dynamic network approach can be used to gain further insights into the structure and dynamics-function relationship of intrinsically disordered HIV-1 Nef. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13205-021-02698-8.",
+    "keywords": [
+      "Betweenness centrality",
+      "Perturbation response scanning",
+      "Principal component analysis",
+      "Shortest path length",
+      "Simulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhattarai, Anil",
+        "Emerson, Isaac Arnold"
+      ],
+      "short_names": [
+        "Bhattarai A",
+        "Emerson IA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4212-0927"
+      ],
+      "affiliations": [
+        "Bioinformatics Programming Laboratory, Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu 632014 India. GRID: grid.412813.d. ISNI: 0000 0001 0687 4946",
+        "Bioinformatics Programming Laboratory, Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu 632014 India. GRID: grid.412813.d. ISNI: 0000 0001 0687 4946"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhattarai, Anil",
+        "short_name": "Bhattarai A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Programming Laboratory, Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu 632014 India."
+        ]
+      },
+      {
+        "full_name": "Emerson, Isaac Arnold",
+        "short_name": "Emerson IA",
+        "identifiers": [
+          "0000-0003-4212-0927"
+        ],
+        "affiliations": [
+          "Bioinformatics Programming Laboratory, Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology (VIT), Vellore, Tamil Nadu 632014 India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "3 Biotech"
+    ],
+    "journal_abbrev": [
+      "3 Biotech"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/23 06:00",
+    "fetched_at": "2026-09-20 02:13:58"
+  },
+  "links": {
+    "cites": [
+      "41724836",
+      "40291443",
+      "39867680"
+    ],
+    "refs": [
+      "31552948",
+      "30525229",
+      "29378140",
+      "28575169",
+      "28259050",
+      "27899601",
+      "27348048",
+      "27322406",
+      "25814479",
+      "25643757",
+      "25531225",
+      "25380315",
+      "24739139",
+      "24725176",
+      "24688699",
+      "24089719",
+      "23758161",
+      "22889332",
+      "22705789",
+      "21514144",
+      "21468322",
+      "21287616",
+      "19851447",
+      "19714202",
+      "19514729",
+      "19373827",
+      "18856071",
+      "18438604",
+      "18375510",
+      "17267500",
+      "16981200",
+      "15738986",
+      "15659419",
+      "14695252",
+      "12198485",
+      "11214326",
+      "9504803",
+      "9450757",
+      "9384576",
+      "9194185",
+      "8612235",
+      "8108382",
+      "7975204",
+      "1749773"
+    ],
+    "similar": [
+      "33747706",
+      "32447788",
+      "23912807",
+      "39285530",
+      "25387963",
+      "29378140",
+      "30840442",
+      "32786705",
+      "9351809",
+      "9811611",
+      "22506277",
+      "26735936",
+      "31915283",
+      "25585010",
+      "18725938",
+      "9384576",
+      "31999450",
+      "27161574",
+      "29990433",
+      "26355431",
+      "20726603",
+      "10329619",
+      "29548979",
+      "24671380",
+      "25105502",
+      "23189058",
+      "16439540",
+      "30250773",
+      "15784265",
+      "27037822",
+      "30058229",
+      "26794929",
+      "22537596",
+      "31597760",
+      "9582271",
+      "15992165",
+      "25915798",
+      "32061646",
+      "31877033",
+      "33030907",
+      "20020046",
+      "32859072",
+      "15569716",
+      "9166767",
+      "29046444",
+      "19012413",
+      "21543478",
+      "31552948",
+      "26742101",
+      "25822027",
+      "23607785",
+      "29104751",
+      "29719201",
+      "12970439",
+      "31245383",
+      "34037423",
+      "31775511",
+      "29267381",
+      "31136713",
+      "25855872",
+      "31809054",
+      "32679070",
+      "25207671",
+      "22643973",
+      "9811606",
+      "32862141",
+      "24446368",
+      "16784224",
+      "22705789",
+      "15133044",
+      "30528464",
+      "22253588",
+      "29735687",
+      "34354764",
+      "27508433",
+      "19754142",
+      "31756456",
+      "32664566",
+      "32119016",
+      "22468560",
+      "24706755",
+      "21049125",
+      "32929427",
+      "24589355",
+      "24603188",
+      "26178998",
+      "26575776",
+      "38984065",
+      "37242981",
+      "36275619",
+      "35187088",
+      "38808365",
+      "36438625",
+      "36618049",
+      "39393291",
+      "31375633",
+      "38454968"
+    ],
+    "review": [
+      "33747706",
+      "30840442",
+      "25585010",
+      "27161574",
+      "32862141",
+      "21049125",
+      "37242981",
+      "36438625"
+    ],
+    "pmc": [
+      "7933326"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33747706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s13205-021-02698-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33747706",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33747706",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

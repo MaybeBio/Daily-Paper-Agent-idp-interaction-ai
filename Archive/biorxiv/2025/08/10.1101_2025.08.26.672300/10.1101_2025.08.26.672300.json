@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.26.672300",
+  "title": "Ensemblify: a user-friendly tool for generating ensembles of intrinsically disordered regions of AlphaFold and user-defined models",
+  "doi": "10.1101/2025.08.26.672300",
+  "abstract": "<h4>Motivation</h4> Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge structural characterization due to their dynamic conformational ensembles and lack of stable structure. Existing computational approaches for modelling these ensembles are either computationally intensive, limited in flexibility, or inaccessible to non-experts, especially when dealing with multi-domain or multi-chain proteins. <h4>Results</h4> We present Ensemblify, an open-source, user-friendly Python package for generating and analyzing conformational ensembles of IDPs/IDRs. Ensemblify uses a Monte Carlo algorithm coupled with neighbour-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space. It directly incorporates information from AlphaFold’s confidence metrics as flexible energy restraints in PyRosetta to guide the sampling. It supports multi-chain and multi-domain proteins and can sample N-terminal, C-terminal, and inter-domain linkers while preserving folded regions. Ensemble quality can be validated and refined against experimental data such as SAXS via Bayesian/Maximum Entropy (BME) reweighting. Interactive dashboards provide in-depth structural analysis and comparison. Testing across 10 diverse proteins demonstrated Ensemblify’s accuracy, flexibility, and ability to recover experimentally observed structural features. Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement. <h4>Availability</h4> Ensemblify is freely available at https://github.com/CordeiroLab/ensemblify , along with detailed installation instructions and usage tutorials. Ensemblify can be used for scripting through its Python API or directly through the provided command-line interface (CLI). Complete documentation is available within the source-code and CLI and on Ensemblify’s official documentation page ( https://ensemblify.readthedocs.io ). <h4>Contact</h4> tiago.gomes@itqb.unl.pt , tiago.cordeiro@itqb.unl.pt <h4>Supplementary information</h4> Supplementary data is available online.",
+  "authors": [
+    "Fernandes NP",
+    "Gomes T",
+    "Cordeiro TN"
+  ],
+  "published_date": "2025-08-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.26.672300",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.26.672300.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1074330",
+    "raw_record": {
+      "id": "PPR1074330",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.26.672300",
+      "title": "Ensemblify: a user-friendly tool for generating ensembles of intrinsically disordered regions of AlphaFold and user-defined models",
+      "authorString": "Fernandes NP, Gomes T, Cordeiro TN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fernandes NP",
+            "lastName": "Fernandes",
+            "firstName": "Nuno",
+            "initials": "NP"
+          },
+          {
+            "fullName": "Gomes T",
+            "lastName": "Gomes",
+            "firstName": "Tiago",
+            "initials": "T"
+          },
+          {
+            "fullName": "Cordeiro TN",
+            "lastName": "Cordeiro",
+            "firstName": "Tiago",
+            "initials": "TN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2663-3220"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3238-290X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2663-3220"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-4583-288X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Motivation</h4>  Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge structural characterization due to their dynamic conformational ensembles and lack of stable structure. Existing computational approaches for modelling these ensembles are either computationally intensive, limited in flexibility, or inaccessible to non-experts, especially when dealing with multi-domain or multi-chain proteins. <h4>Results</h4>  We present Ensemblify, an open-source, user-friendly Python package for generating and analyzing conformational ensembles of IDPs/IDRs. Ensemblify uses a Monte Carlo algorithm coupled with neighbour-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space. It directly incorporates information from AlphaFold’s confidence metrics as flexible energy restraints in PyRosetta to guide the sampling. It supports multi-chain and multi-domain proteins and can sample N-terminal, C-terminal, and inter-domain linkers while preserving folded regions. Ensemble quality can be validated and refined against experimental data such as SAXS via Bayesian/Maximum Entropy (BME) reweighting. Interactive dashboards provide in-depth structural analysis and comparison. Testing across 10 diverse proteins demonstrated Ensemblify’s accuracy, flexibility, and ability to recover experimentally observed structural features. Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement. <h4>Availability</h4>  Ensemblify is freely available at  https://github.com/CordeiroLab/ensemblify , along with detailed installation instructions and usage tutorials. Ensemblify can be used for scripting through its Python API or directly through the provided command-line interface (CLI). Complete documentation is available within the source-code and CLI and on Ensemblify’s official documentation page (  https://ensemblify.readthedocs.io ).  <h4>Contact</h4>  tiago.gomes@itqb.unl.pt ,  tiago.cordeiro@itqb.unl.pt <h4>Supplementary information</h4>  Supplementary data is available online.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.26.672300"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-09-02",
+      "firstPublicationDate": "2025-08-30",
+      "firstIndexDate": "2025-09-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

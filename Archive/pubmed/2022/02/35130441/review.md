@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report the first computational study of the full-length intrinsically disordered protein MeCP2, built by completing the experimentally solved MBD domain with ab initio modeling. Using all-atom and coarse-grained simulations, they characterize the conformational ensemble, report two main coarse-grained conformations (globular and two-globule), validate the all-atom model against experimental data (W104 buried, R111 and R133 solvent-accessible, 4.1% alpha-helix content vs 4% experimental), and compare their Modeller model with an AlphaFold prediction that was unstable in water.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or supplementary materials are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, experimental comparison details, AlphaFold model construction and simulation conditions, and all quantitative results beyond those stated in the abstract.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable first computational study of full-length MeCP2, addressing a significant gap in the structural biology of an important IDP linked to Rett syndrome. The reported agreement with limited experimental data is encouraging. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the conformational sampling, or the validity of the comparisons made. The claim of being the "first computational study" and the interpretation of the AlphaFold result require careful scrutiny. The work is of interest to the IDP and computational biophysics communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those involved in neurodevelopmental disorders; computational biophysicists developing and applying multiscale simulation approaches; and experimentalists seeking structural models of MeCP2 for functional or mutational studies. The work provides a starting point for investigating MeCP2 mutants and interactions with binding partners.
+- **Major strengths** Addresses a clear gap, as no full-length MeCP2 structure exists. Combines all-atom and coarse-grained simulations, a sensible multiscale strategy for an IDP. Reports quantitative agreement with specific experimental observables (burial of W104, accessibility of R111 and R133, alpha-helix content), which lends some credibility to the model. The comparison with AlphaFold is timely and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Two main conformations were sampled in the coarse-grained simulations: a globular structure similar to the one observed in the all-atom force field and a two-globule conformation."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that two conformations were sampled but provides no information on the statistical weight, free energy difference, or convergence of these states. It is unclear whether the two-globule conformation is a metastable state or an artifact of insufficient sampling or force field limitations. The similarity between the coarse-grained globular structure and the all-atom result is mentioned but not quantified.
+  - **Why it matters** For an IDP, the conformational ensemble is the key output. Without evidence of sampling convergence and a quantitative description of the populations of the two states, the biological relevance of the two-globule conformation cannot be assessed. The claim of characterizing the "conformational space" is therefore not supported.
+  - **Resolution test** Provide convergence metrics (e.g., block error analysis, time evolution of radius of gyration), free energy profiles along relevant reaction coordinates, and population estimates for each conformational state. Quantify the structural similarity between coarse-grained and all-atom ensembles (e.g., via RMSD or contact map overlap).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our all-atom model is in good agreement with the available experimental data, predicting amino acid W104 to be buried, amino acids R111 and R133 to be solvent-accessible, and having a 4.1% alpha-helix content, compared to the 4% found experimentally."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports agreement with three experimental observables but does not describe how these were measured in the simulations (e.g., solvent-accessible surface area calculations, secondary structure assignment method) or how the experimental values were obtained. The precision of the alpha-helix content match (4.1% vs 4%) is striking but may be coincidental given the known sensitivity of such measurements to force field and analysis method. No error bars or statistical uncertainties are provided for the simulation values.
+  - **Why it matters** Agreement with experiment is a central pillar of the paper's validity. Without details on the comparison methodology and uncertainty quantification, the reader cannot judge whether the agreement is meaningful or fortuitous. Overstated precision could mislead.
+  - **Resolution test** Specify the exact simulation and analysis protocols used to compute each observable. Provide statistical uncertainties (e.g., standard error over independent simulation blocks). Describe the experimental methods and conditions from which the reference values were taken. Discuss the sensitivity of the results to force field choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The present work is the first computational study of the full-length protein."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of being the "first" computational study is a strong statement that cannot be verified from the abstract alone. It is possible that other computational studies of full-length MeCP2 or closely related constructs exist, or that the authors are using a narrow definition of "full-length" that excludes prior work.
+  - **Why it matters** The novelty claim is a key part of the paper's significance. If incorrect, it would substantially reduce the perceived contribution. The authors must demonstrate a thorough literature search to support this claim.
+  - **Resolution test** Provide a comprehensive literature review in the manuscript, including searches for related IDP simulations and any prior models of MeCP2. If prior work exists, clearly differentiate the current contribution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The model was not stable in water and underwent further folding."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The statement regarding the AlphaFold model is ambiguous. It is unclear what "not stable" means quantitatively (e.g., large RMSD drift, unfolding of secondary structure) and what "further folding" implies. The comparison between the AlphaFold model and the Modeller model is mentioned but not described in terms of metrics or outcomes.
+  - **Why it matters** The AlphaFold comparison is a modern and relevant aspect of the study. A vague description undermines the utility of this comparison for readers who may wish to use AlphaFold models for IDPs. The instability of the AlphaFold model in water is an important observation but needs to be characterized rigorously.
+  - **Resolution test** Provide quantitative measures of stability (e.g., RMSD vs time, radius of gyration vs time) for both models. Describe the structural changes during "further folding" (e.g., secondary structure content evolution). State the criteria used to judge stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms like "ab initio modeling" and "coarse-grained simulations" without brief explanation, which may be opaque to readers outside computational biophysics.
+  - **Required correction** Add a brief parenthetical explanation for these terms, e.g., "ab initio modeling (prediction of structure from sequence alone)" and "coarse-grained simulations (reduced-resolution models for longer timescales)."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the simulation timescales or the number of replicas used, which are critical for assessing the reliability of IDP sampling.
+  - **Required correction** Include total simulation time per system and number of independent runs in the abstract or clearly reference the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions the potential for "further studies, e.g., on mutants of the protein or its interactions with its biological partners" but does not indicate whether the current model is suitable for such studies (e.g., whether the conformational ensemble is sufficiently representative).
+  - **Required correction** Add a sentence clarifying the limitations of the model for downstream applications, or state that the ensemble provides a reasonable starting point.
+
+## Risk / unsupported claims
+- The claim of being the "first computational study of the full-length protein" is unverifiable from the abstract and requires a comprehensive literature review.
+- The quantitative agreement with experimental data (W104 buried, R111 and R133 accessible, 4.1% vs 4% alpha-helix) is presented without methodological detail or uncertainty quantification, making it unassessable.
+- The existence and relative population of the "two-globule conformation" is stated without convergence or statistical evidence.
+- The statement that the AlphaFold model "was not stable in water and underwent further folding" is vague and lacks quantitative support.
+- The overall claim of providing a "detailed (if perhaps incomplete) conformational ensemble" is not supported by the abstract alone, as no ensemble properties (e.g., radius of gyration distribution, contact maps) are reported.

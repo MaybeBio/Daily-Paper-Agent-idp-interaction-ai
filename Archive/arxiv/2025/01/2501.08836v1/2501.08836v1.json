@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2501.08836v1",
+  "title": "Enhanced condensate fluidity in modified patchy particle models",
+  "doi": "",
+  "abstract": "Biomolecular condensates are formed via liquid-liquid phase separation of proteins, often together with nucleic acids, typically driven by interactions between low-affinity binding sites. The computational study of such condensates that accounts both for the droplet-scale fluid behavior and the internal structure of the condensate requires coarse-grained models. Recently, patchy particle models, representing proteins as sphere with a repulsive core and directional attractive patches, have emerged as a powerful tool. However, these simulations are typically limited by slow dynamics and struggle to capture the full range of material properties of fluid-like condensates. Here we study modified patchy particle models to simulate the formation and dynamics of biomolecular condensates. By incorporating flexible patches and weak isotropic attractions between cores, our models preserve key equilibrium characteristics, including the phase behavior and the local structure of the condensate, while significantly accelerating the system dynamics. These modifications enable the simulation of larger, more complex systems previously inaccessible due to prohibitive relaxation times and provide a versatile tool for studying condensate dynamics.",
+  "authors": [
+    "Alena Taskina",
+    "Devika Magan",
+    "Simon Dannenberg",
+    "Stefan Klumpp"
+  ],
+  "published_date": "2025-01-15T14:39:04Z",
+  "updated_date": "2025-01-15T14:39:04Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2501.08836v1",
+  "pdf_url": "https://arxiv.org/pdf/2501.08836v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2501.08836v1",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

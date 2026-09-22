@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40671581",
+  "title": "A coarse-grained model for disordered proteins under crowded conditions.",
+  "authors": "Rauh, Arrien Symon; Tesei, Giulio; Lindorff-Larsen, Kresten",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究开发了与CALVADOS兼容的PEG粗粒化模型，用于模拟拥挤条件下无序蛋白的链压缩与相分离行为，并通过hnRNPA1 A1-LCD和α-突触核蛋白变体展示了如何量化弱相分离倾向，属于无序蛋白互作/相分离机制建模的物理模拟方法，对象、互作、方法三者齐备。",
+  "abstract": "Macromolecular crowding may strongly affect the dynamics and function of proteins, with intrinsically disordered proteins being particularly sensitive to their crowded environment. To understand the influences of crowding on chain compaction and phase separation (PS) behavior of disordered proteins, both experiments with synthetic crowders-like polyethylene glycol (PEG) and ficoll-and theoretical models and molecular simulation approaches have been applied. Here, we developed a residue-based coarse-grained model for PEG that is compatible with the protein CALVADOS model. To achieve this, we optimized model parameters by comparing simulations with experimental data on single-chain PEG and on PEG-induced compaction of disordered proteins. With our model we show how titrations of PEG can be used to quantify PS propensities of proteins that are not prone to phase separate strongly. We illustrate this for both variants of the low-complexity domain of hnRNPA1 (A1-LCD), and for wild-type and a redesigned variant of alpha-synuclein. Notably, we observe that the PEG crowding response changes between charge patterning variants of alpha-synuclein, which is not the case for the variants that vary the number of aromatic residues in the A1-LCD. We expect that our model will be useful for the interpretation of crowding experiments with disordered proteins, and we envisage it to be a starting point for explorations of proteins with weak propensities to phase separate.",
+  "abstract_zh": "大分子拥挤可能强烈影响蛋白质的动力学和功能，其中固有无序蛋白对其拥挤环境尤为敏感。为了理解拥挤对无序蛋白链压缩和相分离（phase separation, PS）行为的影响，已应用了合成拥挤剂（如聚乙二醇（PEG）和ficoll）的实验以及理论模型和分子模拟方法。在此，我们开发了一种基于残基的PEG粗粒化模型，该模型与蛋白质CALVADOS模型兼容。为实现这一目标，我们通过将模拟与单链PEG及PEG诱导的无序蛋白压缩的实验数据进行比较，优化了模型参数。利用我们的模型，我们展示了如何通过PEG滴定来量化那些不易强烈相分离的蛋白质的PS倾向。我们以hnRNPA1低复杂度结构域（A1-LCD）的两种变体，以及α-突触核蛋白的野生型和一种重新设计的变体为例进行了说明。值得注意的是，我们观察到PEG拥挤响应在α-突触核蛋白的电荷模式变体之间发生变化，而A1-LCD中芳香族残基数量变化的变体则没有这种情况。我们预期我们的模型将有助于解释无序蛋白的拥挤实验，并设想它将成为探索弱相分离倾向蛋白质的起点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40671581/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40671581/",
+  "paper_page_path": "papers/pubmed/40671581/index.html"
+}

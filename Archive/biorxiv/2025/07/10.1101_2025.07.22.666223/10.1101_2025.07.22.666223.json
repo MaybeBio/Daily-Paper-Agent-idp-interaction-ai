@@ -1,0 +1,727 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.22.666223",
+  "title": "Machine Learning and Network Analysis to Predict Hypothetical Protein Functions of Aeromonas <i>hydrophila</i>",
+  "doi": "10.1101/2025.07.22.666223",
+  "abstract": "Aeromonas hydrophila , antibiotic resistant gram negative bacteria, is a major fish pathogen. Moreover, A. hydrophila is considered to cause 13% of gastroenteritis cases in the United States. Therefore, it is important to identify groups of proteins that are effective in antibiotic resistance and causing mortality in aquaculture. We train machine learning models on existing A. hydrophila genomes to predict functions of 83 carefully filtered hypothetical proteins. Network analysis is conducted to cluster these proteins based on their similarities. Both ML and network analysis inform about possible roles of these proteins in vaccine candidacy and fish mortality.",
+  "authors": [
+    "Harun Pirim",
+    "Zaidur Rahman",
+    "Saviz Saei",
+    "Sangam Gyawali",
+    "Mohammad Marufuzzaman",
+    "Nazanin Tajik",
+    "Hasan Tekedar"
+  ],
+  "published_date": "2025-07-29",
+  "updated_date": "2025-07-29T14:50:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666223",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666223.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:23:31Z",
+        "timestamp": 1768526611617,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 70,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                29
+              ]
+            ],
+            "date-time": "2025-07-29T00:00:00Z",
+            "timestamp": 1753747200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  <jats:italic>Aeromonas hydrophila</jats:italic>\n                  , antibiotic resistant gram negative bacteria, is a major fish pathogen. Moreover,\n                  <jats:italic>A. hydrophila</jats:italic>\n                  is considered to cause 13% of gastroenteritis cases in the United States. Therefore, it is important to identify groups of proteins that are effective in antibiotic resistance and causing mortality in aquaculture. We train machine learning models on existing\n                  <jats:italic>A. hydrophila</jats:italic>\n                  genomes to predict functions of 83 carefully filtered hypothetical proteins. Network analysis is conducted to cluster these proteins based on their similarities. Both ML and network analysis inform about possible roles of these proteins in vaccine candidacy and fish mortality.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.22.666223",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2025-07-29T14:50:15Z",
+        "timestamp": 1753800615000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Machine Learning and Network Analysis to Predict Hypothetical Protein Functions of Aeromonas\n                  <i>hydrophila</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Harun",
+          "family": "Pirim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zaidur",
+          "family": "Rahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Saviz",
+          "family": "Saei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sangam",
+          "family": "Gyawali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad",
+          "family": "Marufuzzaman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nazanin",
+          "family": "Tajik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hasan",
+          "family": "Tekedar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/00207713-42-3-412"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.2",
+          "first-page": "129",
+          "article-title": "An update on the genus aeromonas: Taxonomy",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "epidemiology, and pathogenicity, Microorganisms"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.3",
+          "first-page": "mgen001261",
+          "article-title": "Genomic characterization of aeromonas spp. isolates from striped catfish with motile aeromonas septicemia and human bloodstream infections in vietnam",
+          "volume": "10",
+          "year": "2024",
+          "journal-title": "Microbial Genomics"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12879-021-06784-3"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.5",
+          "first-page": "e51940",
+          "article-title": "Watery diarrhea is not always clostridioides difficile: A case report of aeromonas hydrophila gastroenteritis",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Cureus"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "72",
+          "DOI": "10.12659/AJCR.882773",
+          "article-title": "Fatal septicemia and endotoxic shock due to aeromonas hydrophila",
+          "volume": "13",
+          "year": "2012",
+          "journal-title": "American Journal of Case Reports"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.7",
+          "first-page": "e00807",
+          "article-title": "Prevalence and virulence potential of Aeromonas spp. isolated from human diarrheal samples in north east italy",
+          "volume": "11",
+          "year": "2023",
+          "journal-title": "Microbiology Spectrum"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.8",
+          "first-page": "6",
+          "article-title": "A case of mortality caused by aeromonas hydrophila in wild-caught red-eyed crocodile skinks (tribolonotus gracilis)",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Veterinary Sciences"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.9",
+          "first-page": "109504",
+          "article-title": "Transcriptome analysis of host anti-aeromonas hydrophila infection revealed the pathogenicity of a. hydrophila to american eels (anguilla rostrata)",
+          "volume": "147",
+          "year": "2024",
+          "journal-title": "Fish & Shellfish Immunology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.10",
+          "first-page": "552",
+          "article-title": "Isolation",
+          "volume": "13",
+          "year": "2024",
+          "journal-title": "identification, and characterisation of a novel st2378 aeromonas hydrophila strain from naturally diseased frogs, rana dybowskii, Pathogens"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "736707",
+          "DOI": "10.1016/j.aquaculture.2021.736707",
+          "article-title": "Identification of aeromonas veronii isolated from largemouth bass micropterus salmoides and histopathological analysis",
+          "volume": "540",
+          "year": "2021",
+          "journal-title": "Aquaculture"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.12",
+          "first-page": "1698",
+          "article-title": "Isolation",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "identification and characteristics of aeromonas veronii from diseased crucian carp (carassius auratus gibelio), Frontiers in Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.13",
+          "first-page": "1008870",
+          "article-title": "Aeromonas species isolated from aquatic organisms",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "insects, chicken, and humans in india show similar antimicrobial resistance profiles, Frontiers in Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.14",
+          "unstructured": "National Agricultural Statistics Service, USDA, Aquaculture sales total $1.7 billion in 2023, https://www.nass.usda.gov/Newsroom/2024/12-16-2024.php, 2024. Accessed on May 20, 2025. (Note: The URL seems to have a date of Dec 16, 2024, but the text mentions data for 2023. The title of the news also says “2023”. Using 2024 as publication year based on URL, but the content refers to 2023 data.)."
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.15",
+          "first-page": "3240",
+          "article-title": "A review of bacterial co-infections in farmed catfish: Components",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "diagnostics, and treatment directions, Animals"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.16",
+          "first-page": "315",
+          "article-title": "The isolation",
+          "volume": "4",
+          "year": "1994",
+          "journal-title": "identification, and systematics of the motile aeromonas species, Annual Review of Fish Diseases"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.17",
+          "first-page": "e00438",
+          "article-title": "Complete genome sequence of the highly virulent aeromonas hydrophila al09-71 isolated from diseased channel catfish in west alabama",
+          "volume": "2",
+          "year": "2014",
+          "journal-title": "Genome Announcements"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.18",
+          "first-page": "200",
+          "article-title": "Apr",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "Persistence of a wild-type virulent aeromonas hydrophila isolate in pond sediments from commercial catfish ponds: A laboratory study, Veterinary Sciences"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.19",
+          "first-page": "1769",
+          "article-title": "Molecular characteristics",
+          "volume": "81",
+          "year": "2019",
+          "journal-title": "pathogenicity and medication regimen of aeromonas hydrophila isolated from common carp (cyprinus carpio l.), Journal of Veterinary Medical Science"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.20",
+          "first-page": "336",
+          "article-title": "Identification",
+          "volume": "164",
+          "year": "2013",
+          "journal-title": "virulence, and mass spectrometry of toxic ecp fractions of west alabama isolates of aeromonas hydrophila obtained from a 2010 disease outbreak, Veterinary Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "734898",
+          "DOI": "10.1016/j.aquaculture.2019.734898",
+          "article-title": "The severity of motile aeromonas septicemia caused by virulent aeromonas hydrophila in channel catfish is influenced by nutrients and microbes in water",
+          "volume": "519",
+          "year": "2020",
+          "journal-title": "Aquaculture"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "747",
+          "DOI": "10.1111/jfd.13174",
+          "article-title": "Analysis of virulence and immunogenic factors in aeromonas hydrophila: Towards the development of live vaccines",
+          "volume": "43",
+          "year": "2020",
+          "journal-title": "Journal of Fish Diseases"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.23",
+          "first-page": "531",
+          "article-title": "Expression",
+          "volume": "48",
+          "year": "2017",
+          "journal-title": "purification, and characterization of hemolytic toxin from virulent aeromonas hydrophila, Journal of the World Aquaculture Society"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1139/m81-174"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.25",
+          "first-page": "1337",
+          "article-title": "Virulence factors of aeromonas hydrophila: In the wake of reclassification",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Frontiers in Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.26",
+          "first-page": "1375534",
+          "article-title": "Tad pili contribute to the virulence and biofilm formation of virulent aeromonas hydrophila",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Frontiers in Cellular and Infection Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.27",
+          "first-page": "538",
+          "article-title": "Prevalence",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "virulence gene distribution and alarming the multidrug resistance of aeromonas hydrophila associated with disease outbreaks in freshwater aquaculture, Antibiotics"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.28",
+          "first-page": "55",
+          "article-title": "Emergence of extensively drug-resistant aeromonas hydrophila complex isolated from wild mugil cephalus (striped mullet) and mediterranean seawater",
+          "volume": "15",
+          "year": "2022",
+          "journal-title": "Veterinary World"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1186/s12866-023-02827-8",
+          "article-title": "Multidrug-resistant aeromonas bacteria prevalence in nile tilapia broodstock",
+          "volume": "23",
+          "year": "2023",
+          "journal-title": "BMC Microbiology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "100812",
+          "DOI": "10.1016/j.aqrep.2021.100812",
+          "article-title": "Comparative transcriptomic analysis reveals the molecular mechanisms related to oxytetracyclineresistance in strains of aeromonas hydrophila",
+          "volume": "21",
+          "year": "2021",
+          "journal-title": "Aquaculture Reports"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1186/s12917-023-03860-5",
+          "article-title": "Molecular characterization and antibiotics resistance of aeromonas species isolated from farmed african catfish clarias gariepinus burchell, 1822",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "BMC Veterinary Research"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1473-3099(16)00100-6"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.33",
+          "first-page": "e01503",
+          "article-title": "Hypothetical protein gene1038 contributes to colistin resistance in aeromonas hydrophila",
+          "volume": "65",
+          "year": "2021",
+          "journal-title": "Antimicrobial Agents and Chemotherapy"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv398"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm960"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh024"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(98)01336-X"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbn008"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "595",
+          "DOI": "10.1089/omi.2013.0017",
+          "article-title": "Application of machine learning to proteomics data: classification and biomarker identification in postgenomics biology",
+          "volume": "17",
+          "year": "2013",
+          "journal-title": "Omics: a journal of integrative biology"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PMIC.201900351"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.2c00711"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/cbdd.13701"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-024-05789-4"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbae120",
+          "DOI": "10.1093/bioadv/vbae120",
+          "article-title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "397",
+          "DOI": "10.1002/prot.25832",
+          "article-title": "Machine learning techniques for protein function prediction",
+          "volume": "88",
+          "year": "2020",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac476"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2281"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh024"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq249"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki025"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/2629691",
+          "article-title": "Ncbi blastp on high-performance reconfigurable computing systems",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "ACM Transactions on Reconfigurable Technology and Systems (TRETS)"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.crbiot.2022.02.004"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fbioe.2020.01032"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.05.015"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. M. Oshiro , P. S. Perez , J. A. Baranauskas , How many trees in a random forest?, in: P. Perner (Ed.), Machine Learning and Data Mining in Pattern Recognition, Springer Berlin Heidelberg, Berlin, Heidelberg, 2012, pp. 154–168.",
+          "DOI": "10.1007/978-3-642-31537-4_13"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0218001405003983"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00500-020-05297-6"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1024691352"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-020-00349-y"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13042-022-01766-6"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.66",
+          "first-page": "24261",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "34",
+          "year": "2021"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.67",
+          "unstructured": "X. Glorot , Y. Bengio , Understanding the difficulty of training deep feedforward neural networks, in: Y. W. Teh , M. Titterington (Eds.), Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics, volume 9 of Proceedings of Machine Learning Research, PMLR, Chia Laguna Resort, Sardinia, Italy, 2010, pp. 249–256. URL: https://proceedings.mlr.press/v9/glorot10a.html."
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth483"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "838",
+          "DOI": "10.1002/prot.21298",
+          "article-title": "Achieving 80% ten-fold cross-validated accuracy for secondary structure prediction by large-scale training",
+          "volume": "66",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2025073106450484000_2025.07.22.666223v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Zien , N. Krämer , S. Sonnenburg , G. Rätsch , The feature importance ranking measure, in: W. Buntine , M. Grobelnik , D. Mladenić , J. Shawe-Taylor (Eds.), Machine Learning and Knowledge Discovery in Databases, Springer Berlin Heidelberg, Berlin, Heidelberg, 2009, pp. 694–709.",
+          "DOI": "10.1007/978-3-642-04174-7_45"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.22.666223",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:13:33Z",
+        "timestamp": 1768468413000
+      },
+      "score": 48.66328,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.22.666223"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            29
+          ]
+        ]
+      },
+      "references-count": 70,
+      "URL": "https://doi.org/10.1101/2025.07.22.666223",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

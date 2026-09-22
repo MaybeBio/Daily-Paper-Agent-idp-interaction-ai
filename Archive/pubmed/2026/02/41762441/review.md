@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, experimental section, and supporting information list.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated conclusions. Editorial and stylistic issues are considered only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors identify a 16-mer peptide derived from ZFTA (residues 426-441) as a novel substrate for the Kelch domain of KLHL20, characterize its binding via SPR biosensor analysis, use AlphaFold2-based modelling to guide peptide design, and propose a "fuzzy binding" mechanism involving multiple transient interaction modes between disordered peptide regions and the KLHL20 Kelch domain.
+- **Visible evidence base** SPR biosensor sensorgrams and steady-state analyses, computational models (AlphaFold2, alanine scanning), thermal shift assays, crystallisation trials, NMR preliminary data, peptide synthesis and purity data.
+- **Missing materials affecting confidence** The full supporting information (Figures S1-S11, Tables S1-S2) is not provided. Raw SPR data, detailed kinetic parameters, model validation metrics, and the complete alanine scanning results are not available for independent assessment. The NMR data are only mentioned as preliminary with no spectra shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an interesting and timely question regarding substrate recognition mechanisms of KLHL20, a Cullin-3 E3 ligase adaptor. The authors combine experimental SPR analysis with computational modelling to explore peptide binding, and propose a "fuzzy binding" model. However, the study is largely descriptive and exploratory, with weak quantitative support for the central claims. The key finding that ZFTA is a novel KLHL20 substrate is based solely on a phage display-derived peptide, with no biological validation. The "fuzzy binding" mechanism is inferred from the inability to fit standard kinetic models, rather than demonstrated directly. The manuscript would benefit from stronger experimental evidence, clearer quantitative analysis, and a more critical interpretation of the limitations.
+- **Who would be interested in the results, and why** Researchers studying ubiquitin-proteasome system biology, specifically Cullin-RING E3 ligase substrate recognition; structural biologists interested in protein-peptide interactions involving disordered regions; drug discovery scientists exploring the druggability of Kelch domain proteins; and computational biologists developing methods for modelling protein-peptide complexes.
+- **Major strengths** The study addresses an important and understudied aspect of KLHL20 biology, namely the molecular basis of substrate recognition. The combination of SPR biosensor analysis with computational modelling is a reasonable approach. The authors are transparent about the difficulties encountered, including poor model confidence, complex binding kinetics, and unsuccessful crystallography. The comparison with a known substrate (DAPK1) provides a useful reference point. The discussion of "fuzzy binding" as a potential mechanism is conceptually interesting and relevant to the broader field of disordered protein interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for central claim
+  - **Claim pointer** The manuscript claims that ZFTA is a novel KLHL20 substrate, based on a 16-mer peptide identified via phage display.
+  - **Evidence pointer** Abstract; Introduction; Results, "Interaction Analysis of ZFTA and DAPK1 Peptides"; Discussion
+  - **Concern** The identification of ZFTA as a KLHL20 substrate is based entirely on a peptide derived from ZFTA that was found to bind KLHL20Kelch in a phage display screen. No data are presented to demonstrate that full-length ZFTA is a bona fide substrate of KLHL20 in a cellular context. The authors themselves state in the Introduction that "we have not attempted to establish the biological relevance of ZFTA as a KLHL20 substrate." This is a significant limitation that undermines the title claim of "Identification of ZFTA as a Novel KLHL20 Substrate." The manuscript would be more accurately framed as a study of peptide binding to KLHL20Kelch, with ZFTA as a putative substrate.
+  - **Why it matters** The central claim of the paper, as stated in the title, is the identification of a novel substrate. Without biological validation, this claim is not supported by the evidence presented. The study may still be valuable as a biophysical characterization of peptide binding, but the framing is misleading.
+  - **Resolution test** The authors should either provide evidence that full-length ZFTA is ubiquitinated or degraded in a KLHL20-dependent manner in cells, or revise the title and framing to accurately reflect the scope of the study as a peptide-level biophysical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis and model fitting
+  - **Claim pointer** The manuscript reports KD app values for peptide binding (e.g., 35 µM for peptide 1) and states that binding is "complex" and not well described by a 1:1 model.
+  - **Evidence pointer** Results, "Interaction Analysis of ZFTA and DAPK1 Peptides"; Figure 1; Figures S1, S3, S5, S6
+  - **Concern** The quantitative analysis of the SPR data is not sufficiently rigorous. The authors report that a 1:1 model fits poorly and that a 2-state model does not improve the fit, but they do not provide a systematic evaluation of alternative models, nor do they report any goodness-of-fit statistics. The KD app values are described as "estimates" but the uncertainty in these values is not quantified. The "pseudo-steady state analysis" used to rank peptides is not described in sufficient detail to be reproduced. The claim that binding is "complex" is based on the failure of standard models, which could also be due to experimental artifacts such as mass transport, aggregation, or non-specific binding.
+  - **Why it matters** The quantitative binding parameters are central to the conclusions about relative affinities and the proposed "fuzzy binding" mechanism. Without a rigorous and transparent analysis, the reader cannot assess the validity of these conclusions.
+  - **Resolution test** The authors should provide a detailed description of the data analysis procedure, including the models tested, the criteria for model selection, and the uncertainty in the reported parameters. They should also consider whether experimental artifacts could explain the complex kinetics and address this possibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for "fuzzy binding" mechanism
+  - **Claim pointer** The manuscript concludes that the interaction mechanism reflects "fuzzy binding," where the peptide can bind in multiple orientations or conformations.
+  - **Evidence pointer** Discussion; Figure 9
+  - **Concern** The "fuzzy binding" model is presented as the most plausible explanation for the complex binding kinetics, but the evidence is indirect. The authors exclude a ligand-induced conformational change based on time-course experiments, but they do not provide direct evidence for multiple binding modes. The computational models are of low confidence, particularly for the C-terminal region, and the alanine scanning data show poor correlation with predictions. The "fuzzy binding" model is plausible, but it is presented as a conclusion rather than a hypothesis that requires further testing.
+  - **Why it matters** The proposed mechanism is a major conclusion of the paper. If the evidence is not strong, the conclusion is not well supported.
+  - **Resolution test** The authors should either provide more direct evidence for multiple binding modes (e.g., via NMR, ITC, or mutational analysis) or present the "fuzzy binding" model more cautiously as a hypothesis that is consistent with the data but requires further validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The study relies heavily on computational modelling with AlphaFold2 and alanine scanning, and on SPR data that are described as difficult to reproduce.
+  - **Evidence pointer** Methods, "Modelling of Peptide-Protein Complex"; Methods, "SPR Biosensor Interaction Analysis"; Discussion
+  - **Concern** The authors note that "this project experienced unusual difficulties in reproducing biosensor data, even for controls." This is a significant concern for the reliability of the reported results. The computational modelling is described but the specific parameters, input sequences, and validation metrics are not provided in sufficient detail. The alanine scanning results are mentioned but not shown in full.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. If the authors themselves experienced difficulties in reproducing their own data, this raises questions about the robustness of the findings. The lack of detailed methods for the computational modelling limits the reader's ability to assess the validity of the predictions.
+  - **Resolution test** The authors should provide a more detailed description of the computational methods, including input sequences, model selection criteria, and confidence metrics. They should also discuss the reproducibility issues in more detail and provide guidance on how to obtain reliable data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure is referenced but not shown in the provided text. The description of the sensorgrams and steady-state plots is not sufficient to fully understand the data.
+  - **Required correction** Ensure that the figure is clearly presented with labeled axes, and that the key features (e.g., concentration-dependent response, lack of steady state) are visible and described in the legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results, "Interaction Analysis of ZFTA and DAPK1 Peptides"
+  - **Issue** The term "KD app" is used, but the definition of "apparent" is not explicitly stated. It is unclear whether this refers to a steady-state approximation, a pseudo-first-order approximation, or something else.
+  - **Required correction** Define "KD app" clearly in the Methods or Results section, and explain the conditions under which this approximation is valid.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors discuss the difficulties in studying this system, but they do not explicitly acknowledge the limitations of the "fuzzy binding" model or the lack of biological validation.
+  - **Required correction** Add a paragraph in the Discussion that explicitly states the limitations of the study, including the lack of cellular validation and the indirect nature of the evidence for "fuzzy binding."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference to personal communication
+  - **Affected element** Introduction; Acknowledgments
+  - **Evidence pointer** Introduction; Acknowledgments
+  - **Issue** The identification of the ZFTA peptide via phage display is attributed to a personal communication from Prof. Ylva Ivarsson. This is not a citable source.
+  - **Required correction** If the phage display data have been published, cite the relevant publication. If not, consider whether this information can be included in the manuscript or if it should be removed.
+- **Technical failings that need to be addressed before the case is established** The lack of biological validation for ZFTA as a KLHL20 substrate (R1-M1) is the most significant technical failing. The quantitative SPR analysis is not sufficiently rigorous (R1-M2), and the evidence for the "fuzzy binding" mechanism is indirect (R1-M3). The reproducibility issues and lack of detailed methods (R1-M4) also need to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is moderately original. While the concept of "fuzzy binding" is not new, its application to KLHL20 substrate recognition is novel. However, the study is largely exploratory and does not provide a major conceptual advance.
+  - **Scientific importance** The question of how E3 ligase adaptors recognize disordered substrates is important, but the study does not provide definitive answers. The lack of biological validation limits the significance of the findings.
+  - **Interdisciplinary readership** The study will appeal to a niche audience of researchers in ubiquitin biology, biophysics, and computational structural biology. It is unlikely to attract a broad interdisciplinary readership.
+  - **Technical soundness** The technical soundness is mixed. The SPR experiments appear to be carefully performed, but the data analysis is not sufficiently rigorous. The computational modelling is used appropriately but with acknowledged limitations.
+  - **Readability for nonspecialists** The manuscript is written in a clear and accessible style, but the technical details of SPR and computational modelling may be challenging for nonspecialists. The abstract is concise and informative.
+- **Recommendation posture** Currently not established from the provided evidence. The study has merit as a biophysical characterization of peptide binding to KLHL20Kelch, but the central claim of identifying ZFTA as a novel substrate is not supported without biological validation. The quantitative analysis and the evidence for the proposed mechanism need to be strengthened. The authors should be encouraged to revise the manuscript to address these concerns.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.08.698524",
+  "title": "GraphESMStable: A Deep Learning Framework for Protein Stability Prediction Fusing Pre-trained Sequence Models and Graph Neural Networks",
+  "authors": "Haoyu Zhang; Zhenyu Li; Jiahao He",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-09",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出融合预训练序列模型与图神经网络的深度学习框架预测蛋白质突变稳定性，虽涉及蛋白互作相关突变效应，但对象非无序蛋白/IDR/相分离，且未聚焦PPI机制建模，仅稳定性预测，与本课题关联较弱。",
+  "abstract": "Predicting protein stability is fundamental, yet existing computational methods often face limitations in generalization, reliance on single data modalities, and challenges with complex multi-point mutations. To address these, we propose GraphESMStable, a novel deep learning framework for predicting protein mutation-induced thermal stability changes. GraphESMStable integrates rich evolutionary context from a frozen pre-trained protein sequence language model with fine-grained three-dimensional structural geometry captured by a trainable Graph Neural Network. A sophisticated residue-level cross-attention mechanism facilitates the deep fusion of these distinct modal representations. The framework features a dedicated prediction head capable of predicting an entire single-point mutation landscape in a single forward pass, and an Epistasis Decoder explicitly modeling non-additive effects for multi-point mutations. Trained exclusively on a large-scale dataset, GraphESMStable achieves state-of-the-art performance, outperforming baselines across a diverse suite of independent evaluation benchmarks. This includes superior generalization on multiple stability datasets, cross-metric generalization to thermal melting prediction, and a significant lead in predicting double mutation epistatic effects. Furthermore, it demonstrates robust performance in predicting human pathogenic mutation stability and achieves substantial improvements in low-sample fitness prediction tasks. Our ablation studies confirm the synergistic benefits of this cross-modal fusion. GraphESMStable represents a significant advancement towards building highly generalizable and efficient foundational models for protein stability prediction, offering broad applicability in protein design and biomedical research.",
+  "abstract_zh": "预测蛋白质稳定性是基础性的，然而现有计算方法常常面临泛化能力有限、依赖单一数据模态以及处理复杂多点突变的挑战。为解决这些问题，我们提出了GraphESMStable，一种用于预测蛋白质突变诱导热稳定性变化的新型深度学习框架。GraphESMStable将来自冻结预训练蛋白质序列语言模型的丰富进化上下文与可训练图神经网络捕获的细粒度三维结构几何相结合。一种精密的残基级交叉注意力机制促进了这些不同模态表示的深度融合。该框架配备了一个专用预测头，能够在单次前向传播中预测整个单点突变景观，以及一个显式建模多点突变非加性效应的上位性解码器（Epistasis Decoder）。仅在大规模数据集上训练，GraphESMStable达到了最先进的性能，在多样化的独立评估基准套件中超越了基线方法。这包括在多个稳定性数据集上的卓越泛化能力、对热熔解预测的跨指标泛化，以及在预测双突变上位效应方面的显著领先。此外，它在预测人类致病突变稳定性方面表现出稳健性能，并在低样本适应性预测任务中实现了显著改进。我们的消融研究证实了这种跨模态融合的协同效益。GraphESMStable代表了朝着构建高度可泛化和高效的蛋白质稳定性预测基础模型迈出的重要一步，在蛋白质设计和生物医学研究中具有广泛适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698524",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698524",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.08.698524/index.html"
+}

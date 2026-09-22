@@ -1,0 +1,678 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.17.738698",
+  "title": "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function",
+  "doi": "10.64898/2026.07.17.738698",
+  "abstract": "The Origin Recognition Complex (ORC) is known for initiating DNA replication in eukaryotic cells, but increasing evidence suggests that ORC has multiple functions. Here we show that the organization and function of two major nuclear components, heterochromatin and the nucleolus, depend on multivalent interactions between Orc1 and Heterochromatin Protein 1a (HP1a) in Drosophila melanogaster . Specifically, binding requires two short motifs (R1 and R2) in the intrinsically disordered region (IDR) of Orc1, and two motifs (HGM and CTE) located in the N- and C-terminal regions of HP1a. Pairing of these four motifs promotes ORC–HP1 interactions, which also requires HP1 dimerization. Disrupting ORC–HP1a interactions by mutating the R1/R2 motifs causes defects in heterochromatin functions, specifically suppression of Position-Effect Variegation (PEV), ribosomal DNA (rDNA) decondensation, increased rRNA transcription, and nucleolar expansion, without global loss of H3K9me2 epigenetic modifications. Our findings indicate that ORC acts as a structural regulator that organizes heterochromatic regions and promotes proper genome regulation through multivalent interactions with HP1 and chromatin.",
+  "authors": [
+    "Yuchang Luo",
+    "Srivarsha Rajshekar",
+    "Harish Kumar",
+    "James M. Berger",
+    "Gary H. Karpen",
+    "Michael R. Botchan"
+  ],
+  "published_date": "2026-07-20",
+  "updated_date": "2026-07-20T10:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738698",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738698.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T14:01:53Z",
+        "timestamp": 1784815313405,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 67,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                20
+              ]
+            ],
+            "date-time": "2026-07-20T00:00:00Z",
+            "timestamp": 1784505600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "5R01GM141045-04"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5R01GM141045-04"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R35GM139653"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM139653"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R35CA263778"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35CA263778"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>\n                  The Origin Recognition Complex (ORC) is known for initiating DNA replication in eukaryotic cells, but increasing evidence suggests that ORC has multiple functions. Here we show that the organization and function of two major nuclear components, heterochromatin and the nucleolus, depend on multivalent interactions between Orc1 and Heterochromatin Protein 1a (HP1a) in\n                  <jats:italic>Drosophila melanogaster</jats:italic>\n                  . Specifically, binding requires two short motifs (R1 and R2) in the intrinsically disordered region (IDR) of Orc1, and two motifs (HGM and CTE) located in the N- and C-terminal regions of HP1a. Pairing of these four motifs promotes ORC–HP1 interactions, which also requires HP1 dimerization. Disrupting ORC–HP1a interactions by mutating the R1/R2 motifs causes defects in heterochromatin functions, specifically suppression of Position-Effect Variegation (PEV), ribosomal DNA (rDNA) decondensation, increased rRNA transcription, and nucleolar expansion, without global loss of H3K9me2 epigenetic modifications. Our findings indicate that ORC acts as a structural regulator that organizes heterochromatic regions and promotes proper genome regulation through multivalent interactions with HP1 and chromatin.\n                </jats:p>",
+      "DOI": "10.64898/2026.07.17.738698",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T10:45:12Z",
+        "timestamp": 1784544312000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuchang",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5224-5531",
+          "authenticated-orcid": false,
+          "given": "Srivarsha",
+          "family": "Rajshekar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Harish",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0666-1240",
+          "authenticated-orcid": false,
+          "given": "James M.",
+          "family": "Berger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gary H.",
+          "family": "Karpen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael R.",
+          "family": "Botchan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-025-01587-5"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1633580100"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1072802"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0896-6273(00)80752-7"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0896-6273(00)80753-9"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80415-8"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.128.9.1697"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2003.1360"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.48562"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1009945107"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.119"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22989"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22822"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100913-013325"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf976"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.202001578"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/19.7.1587"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600088"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.201000598"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.468413"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(99)00260-2"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1995.tb00069.x"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/20.18.5232"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.113.160713"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0805189105"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-0272-6"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(89)90790-3"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.25.7.2539-2546.2005"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1139816"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1007/BF00374060",
+          "article-title": "The relation of a particular chromosomal element to the development of the nucleoli in Zea mays",
+          "volume": "21",
+          "year": "1934",
+          "journal-title": "Zeitschrift für Zellforschung und mikroskopische Anatomie"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.221648.113"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1010"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1276"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1159"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm118"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1002473"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb1514"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.272237.115"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.20148"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/21.5.1121"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-025-01806-7"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.03.003"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2006.04.474"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00823-08"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2024.09.013"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.63972"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.21.7.2555-2569.2001"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.337204"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000769"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.12.016"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkag201"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.321646.118"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s44318-024-00127-z"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.108.4.1407"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/131.2.345"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.87.24.9923"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg306"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae122"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10956"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0665-7"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/16.15.4508"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.64",
+          "first-page": "198",
+          "article-title": "Methods for the quantitative estimation of the red and brown pigments of D. melanogaster",
+          "volume": "61",
+          "year": "1985",
+          "journal-title": "Dros Inf Serv"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18637/jss.v067.i01"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2024.09.013"
+        },
+        {
+          "key": "2026072306150537000_2026.07.17.738698v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.52416"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.17.738698",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T13:15:31Z",
+        "timestamp": 1784812531000
+      },
+      "score": 90.45275,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.17.738698"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ]
+      },
+      "references-count": 67,
+      "URL": "https://doi.org/10.64898/2026.07.17.738698",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

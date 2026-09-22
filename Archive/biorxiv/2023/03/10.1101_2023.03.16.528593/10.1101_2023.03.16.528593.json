@@ -1,0 +1,471 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.16.528593",
+  "title": "DeepBindGCN: Integrating Molecular Vector Representation with Graph Convolutional Neural Networks for Accurate Protein-Ligand Interaction Prediction",
+  "doi": "10.1101/2023.03.16.528593",
+  "abstract": "The core of large-scale drug virtual screening is to accurately and efficiently select the binders with high affinity from large libraries of small molecules in which nonbinders are usually dominant. The protein pocket, ligand spatial information, and residue types/atom types play a pivotal role in binding affinity. Here we used the pocket residues or ligand atoms as nodes and constructed edges with the neighboring information to comprehensively represent the protein pocket or ligand information. Moreover, we find that the model with pre-trained molecular vectors performs better than the onehot representation. The main advantage of DeepBindGCN is that it is non-dependent on docking conformation and concisely keeps the spatial information and physical-chemical feature. Notably, the DeepBindGCN_BC has high precision in many DUD.E datasets, and DeepBindGCN_RG achieve a very low RMSE value in most DUD.E datasets. Using TIPE3 and PD-L1 dimer as proof-of-concept examples, we proposed a screening pipeline by integrating DeepBindGCN_BC, DeepBindGCN_RG, and other methods to identify strong binding affinity compounds. In addition, a DeepBindGCN_RG_x model has been used for comparing performance with other methods in PDBbind v.2016 and v.2013 core set. It is the first time that a non-complex dependent model achieves an RMSE value of 1.3843 and Pearson-R value of 0.7719 in the PDBbind v.2016 core set, showing comparable prediction power with the state-of-the-art affinity prediction models that rely upon the 3D complex. Our DeepBindGCN provides a powerful tool to predict the protein-ligand interaction and can be used in many important large-scale virtual screening application scenarios.",
+  "authors": [
+    "Haiping Zhang",
+    "Konda Mani Saravanan",
+    "John Z.H. Zhang"
+  ],
+  "published_date": "2023-03-20",
+  "updated_date": "2023-03-20T13:50:17Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.528593",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.528593.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T17:41:31Z",
+        "timestamp": 1787506891495,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 44,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The core of large-scale drug virtual screening is to accurately and efficiently select the binders with high affinity from large libraries of small molecules in which nonbinders are usually dominant. The protein pocket, ligand spatial information, and residue types/atom types play a pivotal role in binding affinity. Here we used the pocket residues or ligand atoms as nodes and constructed edges with the neighboring information to comprehensively represent the protein pocket or ligand information. Moreover, we find that the model with pre-trained molecular vectors performs better than the onehot representation. The main advantage of DeepBindGCN is that it is non-dependent on docking conformation and concisely keeps the spatial information and physical-chemical feature. Notably, the DeepBindGCN_BC has high precision in many DUD.E datasets, and DeepBindGCN_RG achieve a very low RMSE value in most DUD.E datasets. Using TIPE3 and PD-L1 dimer as proof-of-concept examples, we proposed a screening pipeline by integrating DeepBindGCN_BC, DeepBindGCN_RG, and other methods to identify strong binding affinity compounds. In addition, a DeepBindGCN_RG_x model has been used for comparing performance with other methods in PDBbind v.2016 and v.2013 core set. It is the first time that a non-complex dependent model achieves an RMSE value of 1.3843 and Pearson-R value of 0.7719 in the PDBbind v.2016 core set, showing comparable prediction power with the state-of-the-art affinity prediction models that rely upon the 3D complex. Our DeepBindGCN provides a powerful tool to predict the protein-ligand interaction and can be used in many important large-scale virtual screening application scenarios.</jats:p>",
+      "DOI": "10.1101/2023.03.16.528593",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ],
+        "date-time": "2023-03-20T13:50:17Z",
+        "timestamp": 1679320217000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "DeepBindGCN: Integrating Molecular Vector Representation with Graph Convolutional Neural Networks for Accurate Protein-Ligand Interaction Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Haiping",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Konda Mani",
+          "family": "Saravanan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John Z.H.",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "11779322211030364",
+          "DOI": "10.1177/11779322211030364",
+          "article-title": "DEELIG: A Deep Learning Approach to Predict Protein-igand Binding Affinity",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "Bioinform. Biol. Insights"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, J. et al. (2021) Chemical toxicity prediction based on semi-supervised learning and graph convolutional neural network. J. Cheminform.",
+          "DOI": "10.21203/rs.3.rs-733550/v1"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, Z. et al. (2021) ILearnPlus: A comprehensive and automated machine-learning platform for nucleic acid and protein sequence analysis, prediction and visualization. Nucleic Acids Res.",
+          "DOI": "10.1093/nar/gkab122"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fayngerts, S.A. et al. (2014) TIPE3 is the transfer protein of lipid second messengers that promote cancer. Cancer Cell.",
+          "DOI": "10.1016/j.ccr.2014.07.025"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guzik, K. et al. (2017) Small-Molecule Inhibitors of the Programmed Cell Death-1/Programmed Death-Ligand 1 (PD-1/PD-L1) Interaction via Transiently Induced Protein States and Dimerization of PD-L1. J. Med. Chem.",
+          "DOI": "10.1021/acs.jmedchem.7b00293"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiménez, J. et al. (2018) KDEEP: Protein-Ligand Absolute Binding Affinity Prediction via 3D-Convolutional Neural Networks. J. Chem. Inf. Model.",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01306"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Klebe, G. (2013) Protein-Ligand Interactions as the Basis for Drug Action. In, Drug Design.",
+          "DOI": "10.1007/978-3-642-17907-5"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kojima, R. et al. (2020) KGCN: A graph-based deep learning framework for chemical structures. J. Cheminform.",
+          "DOI": "10.26434/chemrxiv.11859684.v1"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kwon, Y. et al. (2020) AK-Score: Accurate Protein-Ligand Binding Affinity Prediction Using an Ensemble of 3D-Convolutional Neural Networks. Int. J. Mol. Sci., 21.",
+          "DOI": "10.26434/chemrxiv.12015045"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.12",
+          "unstructured": "Landrum, G. (2006) RDKit: Open-source Cheminformatics. Http://Www.Rdkit.Org/."
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Q. et al. (2021) TIPE3 promotes non-small cell lung cancer progression via the protein kinase B/extracellular signal-regulated kinase 1/2-glycogen synthase kinase 3β-β-catenin/Snail axis. Transl. Lung Cancer Res.",
+          "DOI": "10.21037/tlcr-21-147"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Y. et al. (2019) DeepAtom: A Framework for Protein-Ligand Binding Affinity Prediction. In, 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)., pp. 303–310.",
+          "DOI": "10.1109/BIBM47256.2019.8982964"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1186/s13321-021-00536-w",
+          "article-title": "Learning protein-ligand binding affinity with atomic environment vectors",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "J. Cheminform."
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moesser, M.A. et al. (2022) Protein-Ligand Interaction Graphs: Learning from Ligand-Shaped 3D Interaction Graphs to Improve Binding Affinity Prediction. bioRxiv.",
+          "DOI": "10.1101/2022.03.04.483012"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3661",
+          "DOI": "10.1039/D1SC06946B",
+          "article-title": "PIGNet: a physics-informed deep learning model toward generalized drug–target interaction predictions",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Murtagh, F. and Contreras, P. (2012) Algorithms for hierarchical clustering: An overview. Wiley Interdiscip. Rev. Data Min. Knowl. Discov.",
+          "DOI": "10.1002/widm.53"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm300687e"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, Thin et al. (2021) GraphDTA: Predicting drug target binding affinity with graph neural networks. Bioinformatics.",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pettersen, E.F. et al. (2004) UCSF Chimera - A visualization system for exploratory research and analysis. J. Comput. Chem.",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks372"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Savojardo, C. et al. (2018) DeepSig: Deep learning improves signal peptide detection in proteins. Bioinformatics.",
+          "DOI": "10.1093/bioinformatics/btx818"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Seo, S. et al. (2021) Binding affinity prediction for protein–ligand complex using deep attention mechanism based on intermolecular interactions. BMC Bioinformatics.",
+          "DOI": "10.1101/2021.03.18.436020"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0249404"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stepniewska-Dziubinska, M.M. et al. (2018) Development and evaluation of a deep learning model for protein-ligand binding affinity prediction. Bioinformatics.",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Torng, W. and Altman, R.B. (2019) Graph Convolutional Neural Networks for Predicting Drug-Target Interactions. J. Chem. Inf. Model.",
+          "DOI": "10.1101/473074"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Visualizer, D.S. (2005) v4. 0.100. 13345. Accelrys Softw. Inc.",
+          "DOI": "10.1049/cp:20050764"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, S. et al. (2021) SE-OnionNet: A Convolution Neural Network for Protein-Ligand Binding Affinity Prediction. Front. Genet., 11.",
+          "DOI": "10.3389/fgene.2020.607824"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab474",
+          "DOI": "10.1093/bib/bbab474",
+          "article-title": "A point cloud-based deep learning strategy for protein-ligand binding affinity prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Brief. Bioinform"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.32",
+          "unstructured": "Wang, Y. et al. (2021) ResAtom System: Protein and Ligand Affinity Prediction Model Based on Deep Learning."
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan, H. et al. (2021) Protein-ligand binding affinity prediction model based on graph attention network. Math. Biosci. Eng.",
+          "DOI": "10.3934/mbe.2021451"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, H. , Gong, X. , et al. (2022) An Efficient Modern Strategy to Screen Drug Candidates Targeting RdRp of SARS-CoV-2 With Potentially High Selectivity and Specificity. Front. Chem., 10.",
+          "DOI": "10.3389/fchem.2022.933102"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fphar.2021.772296"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "e7362",
+          "DOI": "10.7717/peerj.7362",
+          "article-title": "DeepBindRG: a deep learning based method for estimating effective protein-ligand affinity",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "PeerJ"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, H. , Saravanan, K.M. , et al. (2022) Generating and screening de novo compounds against given targets using ultrafast deep learning models as core components. Brief. Bioinform., bbac226.",
+          "DOI": "10.1093/bib/bbac226"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1016/j.ymeth.2019.03.012",
+          "article-title": "IVS2vec: A tool of Inverse Virtual Screening based on word2vec and deep learning techniques",
+          "volume": "166",
+          "year": "2019",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Haiping , Zhang, T. , et al. (2021) A novel virtual drug screening pipeline with deep-leaning as core component identifies inhibitor of pancreatic alpha-amylase. In, Proceedings - 2021 IEEE International Conference on Bioinformatics and Biomedicine, BIBM 2021.",
+          "DOI": "10.1109/BIBM52615.2021.9669306"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1008489"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "247",
+          "DOI": "10.1016/j.ymeth.2022.07.009",
+          "article-title": "DeepBindBC: A practical deep learning method for identifying native-like protein-ligand complexes in virtual screening",
+          "volume": "205",
+          "year": "2022",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Haiping , Lin, X. , et al. (2022) Validation of Deep Learning-Based DFCNN in Extremely Large-Scale Virtual Screening and Application in Trypsin I Protease Inhibitor Discovery. Front. Mol. Biosci., 9.",
+          "DOI": "10.3389/fmolb.2022.872086"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, S. et al. (2019) Graph convolutional networks: a comprehensive review. Comput. Soc. Networks.",
+          "DOI": "10.1186/s40649-019-0069-y"
+        },
+        {
+          "key": "2023032215250464000_2023.03.16.528593v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao, Q. et al. (2019) AttentionDTA: Prediction of drug-target binding affinity using attention model. In, Proceedings - 2019 IEEE International Conference on Bioinformatics and Biomedicine, BIBM 2019.",
+          "DOI": "10.1109/BIBM47256.2019.8983125"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.16.528593",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:25:34Z",
+        "timestamp": 1768451134000
+      },
+      "score": 68.01453,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.16.528593"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 44,
+      "URL": "https://doi.org/10.1101/2023.03.16.528593",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.3390/molecules28124691",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33419008",
+  "title": "Effect of the Water Model in Simulations of Protein-Protein Recognition and Association.",
+  "authors": "Emperador, Agusti; Crehuet, Ramon; Guardia, Elvira",
+  "journal": "Polymers",
+  "published_date": "2021-01-10",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究系统比较不同水模型对泛素及无序蛋白ACTR自结合/解离动力学的影响，揭示水模型对无序蛋白参与PPI结合机制模拟的关键作用，为IDR介导互作的物理模拟提供重要方法学参考。",
+  "abstract": "We study self-association of ubiquitin and the disordered protein ACTR using the most commonly used water models. We find that dissociation events are found only with TIP4P-EW and TIP4P/2005, while the widely used TIP3P water model produces straightforward aggregation of the molecules due to the absence of dissociation events. We also find that TIP4P/2005 is the only water model that reproduces the fast association/dissociation dynamics of ubiquitin and best identifies its binding surface. Our results show the critical role of the water model in the description of protein-protein interactions and binding.",
+  "abstract_zh": "我们利用最常用的水模型研究了泛素和无序蛋白ACTR的自缔合作用。我们发现，仅在使用TIP4P-EW和TIP4P/2005模型时观察到解离事件，而广泛使用的TIP3P水模型由于缺乏解离事件，导致分子直接聚集。我们还发现，TIP4P/2005是唯一能重现泛素快速缔合/解离动力学并最佳识别其结合表面的水模型。我们的结果表明，水模型在描述蛋白质-蛋白质相互作用和结合中起着关键作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33419008/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33419008/",
+  "paper_page_path": "papers/pubmed/33419008/index.html"
+}

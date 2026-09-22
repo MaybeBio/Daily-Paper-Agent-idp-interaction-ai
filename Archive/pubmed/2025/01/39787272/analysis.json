@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39787272",
+  "title": "Catalytic Assembly of Peptides Mediated by Complex Coacervates.",
+  "authors": "Li, Wang; Zhou, Yang; Tong, Tianyi; He, Sheng; Wang, Congsen; Zhang, Xinran; Cao, Xiao-Yu; Yang, Liulin; Tian, Zhong-Qun",
+  "journal": "ACS nano",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究复合凝聚层催化肽组装，涉及相分离与肽组装动力学，但对象为短肽而非无序蛋白，且无AI/物理模拟方法，仅实验机制探讨。",
+  "abstract": "The assembly of peptides is generally mediated by liquid-liquid phase separation, which enables control over assembly kinetics, final structure, and functions of peptide-based supramolecular materials. Modulating phase separation can alter the assembly kinetics of peptides by changing solvents or introducing external fields. Herein, we demonstrate that the assembly of peptides can be effectively catalyzed by complex coacervates. The negatively charged sodium alginate (SA) can form complex coacervates with the positively charged KLVFFAE (Abeta(16-22), abbreviated as KE) peptide, thereby lowering the nucleation barrier and promoting the assembly of the peptide. As the binding affinity of SA-KE and the dosage of SA decrease, the system shifts from a relatively inefficient template-induced assembly to a highly efficient catalytic assembly before ultimately reverting to slow spontaneous assembly. Therefore, both the affinity as well as the stoichiometry do not follow the intuitive rule that \"more is better\", but rather there exists an optimal value that maximizes the rate of assembly.",
+  "abstract_zh": "肽的组装通常由液-液相分离 (liquid-liquid phase separation) 介导，这能够控制基于肽的超分子材料的组装动力学、最终结构和功能。通过改变溶剂或引入外部场，调节相分离可以改变肽的组装动力学。在此，我们证明复合凝聚层 (complex coacervates) 能够有效催化肽的组装。带负电的海藻酸钠 (sodium alginate, SA) 能与带正电的KLVFFAE (Abeta(16-22)，简称KE) 肽形成复合凝聚层，从而降低成核屏障并促进肽的组装。随着SA-KE的结合亲和力和SA用量的减少，系统从相对低效的模板诱导组装转变为高效催化组装，最终恢复到缓慢的自发组装。因此，亲和力和化学计量比均不遵循“越多越好”的直观规则，而是存在一个最大化组装速率的最优值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39787272/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39787272/",
+  "paper_page_path": "papers/pubmed/39787272/index.html"
+}

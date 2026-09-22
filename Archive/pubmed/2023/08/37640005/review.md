@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract as provided, without access to the full manuscript text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational analysis of missense variants in the autophagy regulator beclin 1, using sequence-based and structure-based tools to predict deleterious nsSNPs, followed by molecular dynamics simulations to assess structural stability and protein-protein interaction effects, and prediction of post-translational modification sites.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, or figures are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, and any statistical or validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a straightforward computational study with potentially useful findings for researchers studying beclin 1 function and disease-associated variants. However, the abstract lacks sufficient methodological detail and quantitative results to evaluate the robustness of the predictions or the significance of the findings. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in autophagy biology, computational genomics, and precision medicine may find the predicted deleterious variants and their potential effects on beclin 1 interactions useful for prioritizing functional studies or interpreting patient-derived variants. The molecular dynamics results could inform structural studies of beclin 1 complexes.
+- **Major strengths** The study addresses a relevant protein with established disease associations. The combination of sequence-based and structure-based prediction tools, followed by molecular dynamics simulations, represents a reasonable multi-tiered computational approach. The focus on protein-protein interaction interfaces adds functional context beyond simple stability predictions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that twelve coding region deleterious variants were predicted using sequence-based tools and nine using structure-based tools, and that MD simulations revealed altered stability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which prediction tools were used, what thresholds defined "deleterious," whether the sequence-based and structure-based predictions overlapped, or how the MD simulations were set up, including force field, simulation length, and analysis metrics. Without these details, the reliability of the predictions and the interpretation of "altered stability" cannot be assessed.
+  - **Why it matters** Computational predictions are highly dependent on tool choice and parameters. Overlapping or conflicting predictions between methods carry different interpretations. MD simulation outcomes such as RMSD, RMSF, or free energy changes are needed to support claims of destabilization. The current abstract does not allow a reader to judge whether the methods were appropriate or the results robust.
+  - **Resolution test** The full manuscript must provide a detailed methods section listing all tools, versions, thresholds, and simulation parameters, along with quantitative results for each variant, including stability metrics and interaction energy changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the identified nsSNPs were predicted to significantly affect beclin 1 interactions with ATG14L1, UVRAG, and VPS34, and to alter protein-protein interfaces.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state which specific variants affect which interactions, the magnitude of the predicted effects, or the computational method used to assess interface alterations. The biological relevance of these predicted changes is not contextualized, for example whether the affected residues are known to be critical for binding or whether the predicted effects are within the range of natural variation.
+  - **Why it matters** The claim of significant effects on key interactions is central to the study's potential impact. Without specific variant-interaction pairs and quantitative measures, the claim remains vague and cannot be evaluated for biological plausibility or translational relevance.
+  - **Resolution test** The full manuscript should present a table or figure mapping each deleterious variant to its predicted effect on each interaction partner, with scores or energies, and a discussion of whether the affected residues are known functional hotspots.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that destabilization of the beclin 1 ECD domain was observed due to nsSNPs W300R and E302K.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain what the ECD domain is in this context, how destabilization was measured, or why these two specific variants were highlighted. The term "ECD" is not standard for beclin 1 domains, which may confuse readers. The basis for selecting these variants for emphasis is unclear.
+  - **Why it matters** Domain nomenclature and the selection rationale affect interpretability. If ECD refers to a specific structural domain, its definition should be provided. The choice of W300R and E302K as highlighted examples needs justification, such as largest predicted destabilization or known disease association.
+  - **Resolution test** The full manuscript should define the ECD domain, provide stability metrics for all variants, and explain why these two variants are emphasized.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses abbreviations such as nsSNPs, ECD, and MD without defining them at first use, which may hinder readers outside computational biology.
+  - **Required correction** Define all abbreviations at first use in the abstract and full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract only
+  - **Issue** The concluding statement that the study "might aid in understanding the basis of anomalies" is vague and does not specify how the findings could be applied, for example in variant interpretation for clinical genetics or in designing functional experiments.
+  - **Required correction** Provide a more specific statement of potential applications or testable hypotheses arising from the predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Post-translational modification predictions
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract mentions thirty-one potential phosphorylation and three ubiquitination sites but does not indicate the prediction confidence, the tools used, or whether any of these sites overlap with the deleterious variants.
+  - **Required correction** Include tool names, confidence thresholds, and a brief note on whether any predicted modification sites coincide with the identified deleterious variants.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient methodological or quantitative detail to support the central claims of variant prediction and interaction effects. R1-M3 is non-blocking but requires clarification.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach is not novel in itself, as similar computational pipelines have been applied to other proteins. The specific application to beclin 1 may offer some new information, but the abstract does not demonstrate a unique methodological contribution.
+  - Scientific importance: Beclin 1 is a relevant protein, and identifying potentially deleterious variants could be useful. However, the abstract does not establish whether the predicted variants are novel, disease-associated, or functionally validated, limiting the perceived importance.
+  - Interdisciplinary readership: The topic bridges computational biology and autophagy research, but the abstract is written in a way that assumes familiarity with both fields, which may limit broader appeal.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the reliability of the predictions.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific jargon without definition, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide enough detail to evaluate the technical validity or significance of the findings. A full manuscript review would be required to determine whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that twelve sequence-based and nine structure-based deleterious variants were predicted is unverifiable without tool names and thresholds.
+- The claim that MD simulations revealed altered stability is unsupported without simulation parameters and quantitative metrics.
+- The claim of significant effects on beclin 1 interactions with ATG14L1, UVRAG, and VPS34 is unsupported without specific variant-interaction data.
+- The claim of ECD domain destabilization due to W300R and E302K is unverifiable without domain definition and stability measurements.
+- The prediction of thirty-one phosphorylation and three ubiquitination sites is unverifiable without tool details and confidence scores.
+- The overall conclusion that the findings could aid in understanding beclin 1 dysfunction is speculative and not supported by the abstract data.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors use dissipative particle dynamics simulations to compare how hydrophobic versus specific interactions influence phase separation of intrinsically disordered protein chains, reporting distinct network structures, material properties, and dynamics, with specific interactions yielding more stable condensates and failing to induce phase separation in alternating chain sequences.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology details, parameter values, quantitative results, figures, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in biomolecular condensate research, namely how interaction type modulates phase separation behavior. The central claim that hydrophobic and specific interactions produce qualitatively different condensate properties is plausible and could be of value to the field. However, the abstract alone provides insufficient detail to evaluate the rigor of the simulation approach, the robustness of the findings, or the generality of the conclusions. Several claims, particularly regarding alternating chains and material property differences, lack quantitative support in the visible material. The work may merit consideration after full review of the manuscript, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intrinsically disordered proteins would find these results relevant, as the work addresses how interaction chemistry influences condensate material properties and dynamics. Computational biophysicists and soft matter scientists using coarse-grained simulations would also be interested in the methodological approach and its implications for designing or interpreting condensate models.
+- **Major strengths** The study addresses a timely and important question about how interaction types, rather than just interaction strengths, shape phase separation behavior. The use of dissipative particle dynamics is appropriate for probing mesoscale properties such as viscosity and diffusion. The comparison between hydrophobic and specific interactions is conceptually clear and likely to yield practically useful insights for tuning condensate properties.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that hydrophobic interactions promote more dynamic clusters while specific interactions result in more stable condensates due to longer bond lifetimes and reduced mobility.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as numerical values for viscosity, diffusion coefficients, bond lifetimes, or cluster sizes, to support the claimed differences between interaction types. Without these data, the reader cannot assess the magnitude or statistical significance of the observed effects.  
+  - **Why it matters** The central conclusion rests on the existence of distinct material and dynamic properties between the two interaction regimes. If the differences are small or within simulation noise, the conclusion would be weakened. Quantitative evidence is essential to establish the claim.  
+  - **Resolution test** Provide numerical values with error estimates or statistical comparisons for viscosity, diffusion coefficients, and bond lifetimes for both interaction types, ideally across multiple simulation replicates or parameter sets.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that in the case of alternating chains, specific interactions were not sufficient to induce phase separation structures.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This claim is presented without any supporting detail, such as the range of interaction strengths tested, the criteria used to define phase separation, or comparison with hydrophobic interactions under the same alternating chain condition. The absence of this context makes the claim difficult to interpret or verify.  
+  - **Why it matters** This result appears to be a key differentiator between interaction types and may have implications for sequence design. If the finding is based on a narrow parameter range or a specific definition of phase separation, its generality is unclear.  
+  - **Resolution test** Specify the parameter ranges explored, the order parameter or criterion used to identify phase separation, and show comparative data for hydrophobic interactions under identical conditions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The study uses dissipative particle dynamics simulations to analyze network structure, material properties, and dynamic behavior.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details are provided, including model parameters, chain length, interaction potential forms, system size, equilibration protocol, or simulation time. Without these, the reproducibility of the simulations cannot be assessed.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methodological detail in the abstract is expected, but the full manuscript must contain these details for the work to be evaluated.  
+  - **Resolution test** Ensure the full manuscript includes complete simulation parameters, force field or model description, and analysis protocols, and confirm that these are sufficient for an independent group to reproduce the results.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "specific interactions" is used without definition. It is unclear whether this refers to hydrogen bonding, electrostatic interactions, or designed sticker motifs.  
+  - **Required correction** Define "specific interactions" explicitly in the abstract or introduction, and clarify how they are modeled in the simulations.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Scope of conclusions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract claims the study provides "valuable insights for fine-tuning the properties of biomolecular condensates," but no specific guidance or design principle is stated.  
+  - **Required correction** Add a sentence in the abstract or conclusion that states a concrete implication, such as which interaction type is preferable for achieving a desired condensate property.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract moves from results to a specific finding about alternating chains without explaining why this case is relevant or how it relates to the main comparison.  
+  - **Required correction** Briefly contextualize the alternating chain result, for example by stating whether it represents a sequence design constraint or a limitation of specific interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims regarding distinct material properties and the alternating chain result are not quantitatively supported in the visible material. R1-M3 is not blocking but is necessary for reproducibility assessment.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of how interaction type, as opposed to interaction strength, affects phase separation is a relatively underexplored area, and the study appears to offer a novel comparative angle. However, the abstract does not clearly situate the work against prior simulation studies, so the degree of novelty is not fully assessable.  
+  - Scientific importance: The topic is relevant to the broad and active field of biomolecular condensates, and the findings could inform both fundamental understanding and practical design. The importance is moderate to high, depending on the robustness and generality of the results.  
+  - Interdisciplinary readership: The work bridges biophysics, soft matter physics, and molecular biology, and the abstract is written in a way that is accessible to nonspecialists. The potential readership is broad.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of quantitative results and methodological detail prevents evaluation of the simulation quality and the validity of the conclusions.  
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, making it accessible to a general scientific audience. The key concepts are introduced adequately for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable study, but the absence of quantitative results and methodological detail means the central claims cannot be evaluated. A full manuscript review is necessary, and the authors should be asked to provide the missing data and details before a final decision can be made.
+
+## Risk / unsupported claims
+- The claim that hydrophobic interactions promote more dynamic clusters than specific interactions is unsupported in the abstract due to lack of quantitative data.
+- The claim that specific interactions result in more stable condensates due to longer bond lifetimes and reduced mobility is unsupported without numerical evidence.
+- The claim that viscosity and diffusion coefficients varied significantly between interaction types is unsupported without reported values or statistical analysis.
+- The claim that specific interactions were not sufficient to induce phase separation in alternating chains is unsupported without parameter ranges and comparison data.
+- The general statement that the study provides insights for fine-tuning condensate properties is not substantiated by any specific design principle in the abstract.

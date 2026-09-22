@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41840143",
+  "title": "Allosteric regulation of enzymatic catalysis by molecular crowding.",
+  "authors": "Ren, Weitong; Lu, Jiajun; Huang, Hengyan; Zhang, Jian; Chen, Yuxin; Yan, Zhiqiang; Li, Wenfei; Wang, Wei",
+  "journal": "Communications chemistry",
+  "published_date": "2026-03-17",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用分子模拟研究分子拥挤对腺苷酸激酶催化变构调控的机制，虽涉及凝聚体环境与酶构象动态，但对象为折叠酶而非无序蛋白/IDR，且无PPI界面或AI方法，机制建模思路可部分迁移。",
+  "abstract": "Enzymes within cells often function in crowded environments due to the high concentration of macromolecules and the formation of biomolecular condensates. However, most enzyme kinetics insights stem from dilute solution studies. In this study, we examined how molecular crowding impacts enzyme catalysis by constructing a residue-resolved dynamic energy landscape model that explicitly accounts for the crowding agent. By performing molecular simulations for the full enzymatic cycle of a model enzyme adenylate kinase, we revealed a crowding-induced allosteric regulation mechanism of enzymatic catalysis. The crowding agent modifies the conformational distribution of the enzyme, which in turn alters the enzymatic dynamics. Additional simulations of AdK variants with various intrinsic conformational propensities showed that the effect of molecular crowding depends on the rate-limiting step in the enzymatic cycle. Molecular crowding increases enzymatic activity if the rate-limiting step involves the formation of the catalytically competent enzyme-substrate complex and decreases the activity if the rate-limiting step involves the product release. The results revealed in this work not only shed insights into the general biophysical principle of protein dynamics under a crowded cellular environment but also provide a computational framework to understand the diversity of existing experimental observations of the molecular crowding effects on enzyme catalysis.",
+  "abstract_zh": "细胞内的酶常常在高浓度大分子和生物分子凝聚物形成的拥挤环境中发挥功能。然而，大多数酶动力学见解源自稀溶液研究。在本研究中，我们通过构建一个明确考虑拥挤剂的残基分辨动态能量景观模型，探讨了分子拥挤如何影响酶催化。通过对模型酶腺苷酸激酶的完整酶促循环进行分子模拟，我们揭示了拥挤诱导的酶催化变构调控机制。拥挤剂改变酶的构象分布，进而影响酶动力学。对具有不同内在构象倾向的AdK变体的额外模拟表明，分子拥挤的效果取决于酶促循环中的限速步骤。如果限速步骤涉及催化活性酶-底物复合物的形成，分子拥挤会增加酶活性；如果限速步骤涉及产物释放，则会降低活性。本工作揭示的结果不仅为拥挤细胞环境下蛋白质动力学的普遍生物物理原理提供了见解，还为理解分子拥挤对酶催化影响的现有实验观察多样性提供了计算框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41840143/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41840143/",
+  "paper_page_path": "papers/pubmed/41840143/index.html"
+}

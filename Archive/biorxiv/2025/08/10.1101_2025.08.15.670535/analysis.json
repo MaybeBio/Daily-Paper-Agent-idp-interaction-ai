@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.15.670535",
+  "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions",
+  "authors": "Peng J; Zhao L",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-20",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用AlphaFold2 multimer预测果蝇蛋白互作组，发现无序区域在预测的高置信度PPI中介导结合，直接关注IDR介导的互作机制建模，方法为AI预测，对象与互作轴均强，但未深入相分离背景。",
+  "abstract": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including Drosophila . Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 multimer to examine and predict protein-protein interactions from both physical and functional datasets in Drosophila . We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present the predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies. <h4>Author Summary</h4> Understanding which proteins interact with each other and how they interact is essential for uncovering fundamental biology and for identifying new pathways involved in health and disease. However, identifying protein-protein interactions experimentally is often challenging and error-prone, and many organisms still lack comprehensive interaction maps. In this study, we use AlphaFold2-multimer, a powerful artificial intelligence tool, to generate high-confidence predictions of PPIs in Drosophila melanogaster , a widely used model organism. We highlight the importance of incorporating often neglected functional associations when predicting protein-protein interactions at a genomic scale. The predictions enable us to examine how intrinsically disordered regions can mediate binding across large interaction networks, revealing widespread, structurally plausible interactions in vivo . Overall, our work demonstrates how AlphaFold predictions can greatly expand our understanding of the structural forces that shape protein interaction networks and help reveal hidden layers of cellular complexes and pathways.",
+  "abstract_zh": "蛋白质通过与其他蛋白质在细胞内的动态相互作用发挥功能，形成对细胞过程至关重要的复杂网络。尽管高分辨率和高通量方法显著推进了我们对蛋白质如何相互作用的了解，但许多重要蛋白质-蛋白质相互作用的分子细节仍未得到充分表征，尤其是在非哺乳动物物种中，包括果蝇（*Drosophila*）。深度学习技术的最新进展使得在网络水平上预测多种细胞通路中的分子细节成为可能。在本研究中，我们使用AlphaFold2 multimer来检查和预测果蝇中来自物理和功能数据集的蛋白质-蛋白质相互作用。我们发现功能关联对高置信度预测有显著贡献。通过详细的结构分析，我们还发现内在无序区域（intrinsically disordered regions）在预测的高置信度相互作用中的重要性。我们的研究强调了无序区域在蛋白质-蛋白质相互作用中的重要性，并展示了在预测蛋白质间物理相互作用时纳入功能相互作用的必要性。我们进一步构建了一个交互式网络界面来展示预测结果，以促进功能探索、比较分析以及为未来研究生成机制性假设。\n\n<h4>作者总结</h4> 理解哪些蛋白质相互相互作用以及它们如何相互作用，对于揭示基础生物学和识别涉及健康与疾病的新通路至关重要。然而，通过实验识别蛋白质-蛋白质相互作用通常具有挑战性且易出错，许多生物体仍缺乏全面的相互作用图谱。在本研究中，我们使用AlphaFold2-multimer，一种强大的人工智能工具，来生成黑腹果蝇（*Drosophila melanogaster*）中蛋白质-蛋白质相互作用的高置信度预测，黑腹果蝇是一种广泛使用的模式生物。我们强调在基因组规模预测蛋白质-蛋白质相互作用时纳入常被忽视的功能关联的重要性。这些预测使我们能够检查内在无序区域如何在大规模相互作用网络中介导结合，揭示在体内广泛存在且结构上合理的相互作用。总体而言，我们的工作展示了AlphaFold预测如何极大地扩展我们对塑造蛋白质相互作用网络的结构力量的理解，并有助于揭示细胞复合物和通路的隐藏层次。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670535",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670535",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.15.670535/index.html"
+}

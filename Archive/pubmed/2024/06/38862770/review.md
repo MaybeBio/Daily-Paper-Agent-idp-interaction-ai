@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Figures are referenced but not provided as image files.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and alignment of claims with presented evidence. No assessment of language polish or editorial formatting beyond readability.
+- **Shared manuscript claim summary** The authors use a residue-level coarse-grained molecular dynamics model (HPS) to simulate liquid–liquid phase separation of repetitive polyproline-arginine (poly PR) peptides. They report that LLPS requires a minimum repeat length, that the critical salt concentration increases with peptide length, that hydrophobic interactions dominate over electrostatic interactions in driving LLPS, that temperature increase suppresses LLPS, that sequence order affects phase separation propensity, and that simulations of GR15 with salmon sperm DNA match experimental observations.
+- **Visible evidence base** Text descriptions of simulation results, density profile analyses (Figures 4 and 5), phase diagrams (Figure 3), sequence variation results (Figures 11 and 12), and GR15-DNA simulation and experimental images (Figures 13 and 14). Table 1 provides truncation parameters.
+- **Missing materials affecting confidence** Figure images are not available for direct inspection. Simulation parameter files, force field details beyond truncation distances, convergence criteria, error estimates, and raw trajectory data are not provided. Experimental methods for GR15-DNA verification are described only briefly.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in the biophysics of LLPS and applies a well-established coarse-grained model to a biologically important peptide system. The central claims regarding length-dependent thresholds and the dominance of hydrophobic interactions are plausible and partially supported by the described results. However, the evidence as presented has notable gaps. The phase diagram in Figure 3 is described qualitatively without quantitative criteria for defining phase separation. The claim that electrostatic interactions have minor effects is based on a limited set of charge modifications. The GR15-DNA comparison is presented as validation but lacks quantitative metrics. The temperature effect is reported for a single peptide at a single salt concentration. These limitations reduce the strength of the conclusions as currently stated.
+- **Who would be interested in the results, and why** Researchers studying liquid–liquid phase separation, particularly those focused on repetitive peptides and dipeptide repeat proteins linked to neurodegeneration. The work may also interest computational biophysicists developing or applying coarse-grained models for IDP phase behavior. The connection to C9ORF72-related ALS and FTD provides translational relevance for disease-oriented audiences.
+- **Major strengths** The study addresses a biologically important system with direct disease relevance. The use of a residue-level coarse-grained model allows systematic exploration of length, salt, and sequence effects. The inclusion of sequence-order variation and the GR15-DNA comparison adds breadth. The finding that hydrophobic interactions dominate over electrostatics is a useful contribution if robustly supported.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PR peptides with fewer than 10 repeats exhibit no LLPS at any salt concentration up to 3 M, and that a phase diagram can be constructed showing LLPS regions as a function of length and salt concentration.
+  - **Evidence pointer** Figure 3, Results section "Simulation of poly PR with different polymerization lengths in salt solution"
+  - **Concern** The criteria for determining whether phase separation occurred are not defined. The text states that "grey dots indicate no phase separation, while green dots indicate LLPS" but does not specify the quantitative metric used to make this binary classification. Density profiles are mentioned for PR15 and PR25, but it is unclear whether these were used systematically for all peptides and salt concentrations. Without a clear operational definition of LLPS in the simulation context, the phase diagram cannot be independently evaluated or reproduced.
+  - **Why it matters** The central claim of the paper, that a length threshold exists for LLPS and that critical salt concentration scales with length, depends entirely on the reliability of the phase separation criterion. If the criterion is subjective or inconsistent, the entire phase diagram is called into question.
+  - **Resolution test** Provide a quantitative definition of phase separation used in the analysis, such as a threshold in density contrast, cluster size, or order parameter. Apply this criterion uniformly to all simulated conditions and report the values used to classify each data point in Figure 3.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors conclude that hydrophobic interactions play a dominant role in driving LLPS, while electrostatic interactions have a minor effect, based on simulations where the hydrophobic value of arginine was reduced and where the charge of arginine was increased.
+  - **Evidence pointer** Figures 7, 8, and 9, Results section "Simulation of the regulation of poly PR by hydrophobic and electrostatic interactions"
+  - **Concern** The perturbation of hydrophobic interactions is described as changing the "hydrophobic value" of arginine, but the mapping between this parameter and the physical hydrophobicity scale is not explained. Similarly, the charge modification is described as setting the charge to 1.5 or 2, but the relationship between this change and the Debye–Hückel screening in the model is not quantified. The text states that electrostatic changes had "no significant impact" on aggregation, but no quantitative measure of aggregation state is provided to support this claim.
+  - **Why it matters** The relative contribution of hydrophobic versus electrostatic interactions is a key mechanistic conclusion. Without a clear description of how these interactions were perturbed and how the outcomes were measured, the conclusion cannot be assessed for robustness or compared with other studies.
+  - **Resolution test** Provide the specific parameter values used for hydrophobicity and charge perturbations, describe how these map to the HPS model, and report quantitative measures of aggregation (e.g., cluster size, density contrast) for each condition tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that simulations of GR15 with salmon sperm DNA "mirror experimental observations" and that this validates the simulation program's capability to predict phase separation behavior.
+  - **Evidence pointer** Figures 13 and 14, Results section "Simulation and experimental verification of phase separation of GR15 and salmon sperm DNA"
+  - **Concern** The comparison between simulation and experiment is qualitative. The text states that phase separation was observed in all simulated cases and that experimental droplets became larger with increasing DNA concentration, but no quantitative comparison is made between simulated and experimental phase boundaries, droplet sizes, or concentration thresholds. The experimental methods are described in a single sentence without details on sample preparation, imaging conditions, or analysis.
+  - **Why it matters** The claim of validation is central to establishing the predictive power of the model. A qualitative visual similarity is insufficient to demonstrate that the simulation quantitatively captures the physics of the experimental system.
+  - **Resolution test** Provide quantitative metrics for both simulation and experiment, such as the critical concentration for phase separation, droplet size distributions, or density profiles, and perform a statistical comparison between the two.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that increasing temperature impedes LLPS of PR15, with aggregation disappearing at 340 K.
+  - **Evidence pointer** Figure 10, Results section "The effect of temperature on phase separation"
+  - **Concern** The temperature effect is reported for a single peptide (PR15) at a single salt concentration (1500 mM). The text attributes the effect to "temperature-induced alteration in the conformational entropy of the polypeptide," but no conformational analysis is presented to support this mechanistic interpretation.
+  - **Why it matters** Temperature dependence is a common feature of LLPS systems and can provide insight into the thermodynamics of phase separation. However, a single condition is insufficient to establish a general trend or a mechanistic explanation.
+  - **Resolution test** Extend the temperature study to multiple peptides and salt concentrations, and provide conformational analysis (e.g., radius of gyration, end-to-end distance) to support the entropy-based interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, simulation parameters
+  - **Evidence pointer** "Simulation model" section
+  - **Issue** The manuscript states that the HPS model and GENESIS platform are used, but does not provide the specific version of the force field, the source of the parameter file, or the exact simulation protocol beyond timestep and total steps.
+  - **Required correction** Provide the specific parameter file version, simulation box dimensions, number of chains, and any equilibration procedures in the methods or supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** "Simulation of poly PR with different polymerization lengths in salt solution"
+  - **Issue** The phase diagram in Figure 3a is described as showing "the dependence of liquid–liquid separation range for PR series repetitive peptides at various KCl concentrations," but the axes and the meaning of the boundary between grey and green regions are not explained in the text.
+  - **Required correction** Clarify the axes of Figure 3a and describe how the boundary between phase-separated and non-phase-separated regions was determined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, sequence variation
+  - **Evidence pointer** Figures 11 and 12
+  - **Issue** The text states that different sequences of proline-arginine exhibited distinct degrees of aggregation, but the specific sequences tested are not listed, and the relationship between sequence and aggregation is not quantified.
+  - **Required correction** List the sequences tested and provide a quantitative measure of aggregation for each sequence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, experimental validation
+  - **Evidence pointer** "Simulation and experimental verification of phase separation of GR15 and salmon sperm DNA"
+  - **Issue** The experimental protocol for the GR15-DNA validation is described in a single sentence without buffer conditions, concentrations, or imaging details.
+  - **Required correction** Provide a full experimental methods section, including buffer composition, peptide and DNA concentrations, incubation conditions, and imaging parameters.
+
+## Risk / unsupported claims
+- The claim that PR peptides with fewer than 10 repeats exhibit no LLPS at any salt concentration is not fully supported because the phase separation criterion is not defined.
+- The claim that hydrophobic interactions dominate over electrostatic interactions is not quantitatively supported, as the perturbation parameters and outcome measures are not described.
+- The claim that the GR15-DNA simulations validate the simulation program is not supported by quantitative comparison with experimental data.
+- The mechanistic interpretation of temperature effects via conformational entropy is speculative, as no conformational analysis is presented.
+- The statement that "changes in the quantity of PR peptides do not affect the results of phase separation" is based on a single set of simulations with fixed total arginine count and is not generalized across conditions.

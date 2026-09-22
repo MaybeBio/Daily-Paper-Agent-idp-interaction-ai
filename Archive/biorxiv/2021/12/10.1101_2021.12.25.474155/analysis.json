@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.25.474155",
+  "title": "The SARS-CoV-2 nucleocapsid protein preferentially binds long and structured RNAs",
+  "authors": "Tai CE; Tayeb-Fligelman E; Griner S; Salwinski L; Bowler JT; Abskharon R; Cheng X; Seidler PM; Jiang YX; Eisenberg DS; Guo F",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-27",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究SARS-CoV-2核衣壳蛋白与RNA的结合偏好，涉及低复杂度域和相分离，但对象为RNA而非蛋白互作，且方法为生化实验，无AI/物理模拟，故机制建模启发有限。",
+  "abstract": "<h4>ABSTRACT</h4> The SARS-CoV-2 nucleocapsid protein (NCAP) functions in viral RNA genome packaging, virion assembly, RNA synthesis and translation, and regulation of host immune response. RNA-binding is central to these processes. Little is known how NCAP selects its binding partners in the myriad of host and viral RNAs. To address this fundamental question, we employed electrophoresis mobility shift and competition assays to compare NCAP binding to RNAs that are of SARS-CoV-2 vs. non-SARS-CoV-2, long vs. short, and structured vs. unstructured. We found that although NCAP can bind all RNAs tested, it primarily binds structured RNAs, and their association suppresses strong interaction with single-stranded RNAs. NCAP prefers long RNAs, especially those containing multiple structures separated by single-stranded linkers that presumably offer conformational flexibility. Additionally, all three major regions of NCAP bind RNA, including the low complexity domain and dimerization domain that promote formation of NCAP oligomers, amyloid fibrils and liquid-liquid phase separation. Combining these observations, we propose that NCAP-NCAP interactions that mediate higher-order structures during packaging also drive recognition of the genomic RNA and call this mechanism recognition-by-packaging. This study provides a biochemical basis for understanding the complex NCAP-RNA interactions in the viral life cycle and a broad range of similar biological processes. <h4>HIGHLIGHTS</h4> NCAP primarily binds structured RNAs. NCAP prefers multiple RNA structures separated by single-stranded linkers. NCAP favors binding to long RNAs.",
+  "abstract_zh": "<h4>摘要</h4> SARS-CoV-2核衣壳蛋白（NCAP）在病毒RNA基因组包装、病毒粒子组装、RNA合成与翻译以及宿主免疫应答调控中发挥作用。RNA结合是这些过程的核心。关于NCAP如何在众多宿主和病毒RNA中选择其结合伙伴，目前知之甚少。为解答这一基本问题，我们采用电泳迁移率变动和竞争实验，比较NCAP与SARS-CoV-2来源与非SARS-CoV-2来源、长链与短链、结构化与非结构化RNA的结合情况。我们发现，尽管NCAP能结合所有测试的RNA，但它主要结合结构化RNA，且这种结合抑制了与单链RNA的强相互作用。NCAP偏好长链RNA，尤其是那些包含由单链连接子分隔的多个结构、可能提供构象灵活性的RNA。此外，NCAP的所有三个主要区域均能结合RNA，包括促进NCAP寡聚体、淀粉样纤维和液-液相分离形成的低复杂度结构域和二聚化结构域。综合这些观察，我们提出，在包装过程中介导高阶结构的NCAP-NCAP相互作用也驱动基因组RNA的识别，并将此机制称为“包装识别机制”。本研究为理解病毒生命周期中复杂的NCAP-RNA相互作用及一系列类似生物过程提供了生化基础。<h4>亮点</h4> NCAP主要结合结构化RNA。NCAP偏好由单链连接子分隔的多个RNA结构。NCAP倾向于结合长链RNA。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.25.474155",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.25.474155",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.25.474155/index.html"
+}

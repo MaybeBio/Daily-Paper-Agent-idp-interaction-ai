@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "41857035",
+    "doi": "10.1038/s41467-026-70840-2",
+    "title": "Membrane interfacial potential governs surface condensation and fibrillation of alpha-Synuclein in neurons."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed via liquid-liquid phase separation (LLPS) are essential for cellular organization. alpha-Synuclein, an amyloidogenic protein linked to Parkinson's Disease (PD), undergoes phase separation at high concentrations, but the influence of lipid membranes on this process remains unclear. Here, combining in vitro reconstitution, cell biology, and simulations, we show that membranous interfaces promote alpha-Synuclein condensation at physiologically relevant sub-critical concentrations ( ~ 10 nM) without crowding agents. Notably, condensation occurs only on membranes with a specific stoichiometry of lipids, underscoring the role of interfacial potential. These condensates serve as nucleation sites for fibril formation, leading to membrane deformation and rupture. A lattice gas model reveals this behavior as a prewetting-like transition, where an attractive membrane induces local phase separation below the bulk saturation concentration. Indeed altering interfacial potential by lipid composition and membrane depolarization not only drastically changes alpha-Synuclein puncta size and number but also triggers their release from neurons. These findings reveal the crucial role of lipid membrane interfaces in regulating alpha-Synuclein condensation, aggregation and release, shedding light on a potential mechanism of their cell-to-cell propagation during neurodegeneration.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism/chemistry",
+      "*Neurons/metabolism",
+      "Phase Separation",
+      "Humans",
+      "Animals",
+      "*Cell Membrane/metabolism",
+      "Membrane Lipids/metabolism/chemistry",
+      "Parkinson Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shaikh, Jafarulla",
+        "Nagarajan, Aniruddha",
+        "Mitra, Tuhina",
+        "Modak, Aninda Sundar",
+        "Biswas, Krittika",
+        "Meher, Geetanjali",
+        "Bhausaheb, Aher Jayesh",
+        "Kannan, Nimal Archish",
+        "Sahu, Bhavani Shankar",
+        "Ghatak, Swagata",
+        "Choubey, Sandeep",
+        "Saleem, Mohammed"
+      ],
+      "short_names": [
+        "Shaikh J",
+        "Nagarajan A",
+        "Mitra T",
+        "Modak AS",
+        "Biswas K",
+        "Meher G",
+        "Bhausaheb AJ",
+        "Kannan NA",
+        "Sahu BS",
+        "Ghatak S",
+        "Choubey S",
+        "Saleem M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6019-8344",
+        "ORCID: 0000-0001-5462-401X",
+        "ORCID: 0000-0002-7387-6148",
+        "ORCID: 0000-0002-1798-1269"
+      ],
+      "affiliations": [
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Institute of Mathematical Sciences, Chennai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "National Brain Research Centre, Manesar, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "National Brain Research Centre, Manesar, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Homi Bhabha National Institute, Mumbai, India. sandeep@imsc.res.in.",
+        "Institute of Mathematical Sciences, Chennai, India. sandeep@imsc.res.in.",
+        "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India. saleem@niser.ac.in.",
+        "Homi Bhabha National Institute, Mumbai, India. saleem@niser.ac.in.",
+        "Center for Interdisciplinary Sciences, National Institute of Science Education & Research, Bhubaneshwar, India. saleem@niser.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shaikh, Jafarulla",
+        "short_name": "Shaikh J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Nagarajan, Aniruddha",
+        "short_name": "Nagarajan A",
+        "identifiers": [],
+        "affiliations": [
+          "Homi Bhabha National Institute, Mumbai, India.",
+          "Institute of Mathematical Sciences, Chennai, India."
+        ]
+      },
+      {
+        "full_name": "Mitra, Tuhina",
+        "short_name": "Mitra T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Modak, Aninda Sundar",
+        "short_name": "Modak AS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Krittika",
+        "short_name": "Biswas K",
+        "identifiers": [],
+        "affiliations": [
+          "National Brain Research Centre, Manesar, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Geetanjali",
+        "short_name": "Meher G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Bhausaheb, Aher Jayesh",
+        "short_name": "Bhausaheb AJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Kannan, Nimal Archish",
+        "short_name": "Kannan NA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Sahu, Bhavani Shankar",
+        "short_name": "Sahu BS",
+        "identifiers": [
+          "0000-0001-6019-8344"
+        ],
+        "affiliations": [
+          "National Brain Research Centre, Manesar, India."
+        ]
+      },
+      {
+        "full_name": "Ghatak, Swagata",
+        "short_name": "Ghatak S",
+        "identifiers": [
+          "0000-0001-5462-401X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Choubey, Sandeep",
+        "short_name": "Choubey S",
+        "identifiers": [
+          "0000-0002-7387-6148"
+        ],
+        "affiliations": [
+          "Homi Bhabha National Institute, Mumbai, India. sandeep@imsc.res.in.",
+          "Institute of Mathematical Sciences, Chennai, India. sandeep@imsc.res.in."
+        ]
+      },
+      {
+        "full_name": "Saleem, Mohammed",
+        "short_name": "Saleem M",
+        "identifiers": [
+          "0000-0002-1798-1269"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research, Bhubaneshwar, India. saleem@niser.ac.in.",
+          "Homi Bhabha National Institute, Mumbai, India. saleem@niser.ac.in.",
+          "Center for Interdisciplinary Sciences, National Institute of Science Education & Research, Bhubaneshwar, India. saleem@niser.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 07:10",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40307115",
+      "40074825",
+      "39982820",
+      "39914390",
+      "39827271",
+      "39630867",
+      "39327453",
+      "37770698",
+      "37770422",
+      "37318128",
+      "36990217",
+      "36595668",
+      "36376990",
+      "36201591",
+      "36044566",
+      "35996000",
+      "35902591",
+      "35878395",
+      "35761089",
+      "35411085",
+      "35211183",
+      "35165426",
+      "34977897",
+      "34599097",
+      "34374536",
+      "33820972",
+      "32736645",
+      "32726575",
+      "32514159",
+      "31937751",
+      "31753533",
+      "30853217",
+      "30846599",
+      "30661983",
+      "30197194",
+      "30045872",
+      "29472250",
+      "29467003",
+      "28225081",
+      "27298346",
+      "27212236",
+      "27056844",
+      "26503040",
+      "26406374",
+      "26317470",
+      "25747659",
+      "25695735",
+      "25548530",
+      "24960410",
+      "24876496",
+      "23509977",
+      "20484626",
+      "20345754",
+      "19460965",
+      "19167303",
+      "18948503",
+      "18187657",
+      "17360623",
+      "16319880",
+      "12217698",
+      "11500495",
+      "10233076",
+      "9944693",
+      "9042345"
+    ],
+    "similar": [
+      "41857035",
+      "40916915",
+      "42393234",
+      "24146972",
+      "35276458",
+      "40440171",
+      "41147343",
+      "39612640",
+      "34871547",
+      "27298346",
+      "28671142",
+      "23823878",
+      "40770610",
+      "38808534",
+      "42387849",
+      "34774499",
+      "37238596",
+      "38714700",
+      "32513706",
+      "39818366",
+      "39116032",
+      "41397943",
+      "40721018",
+      "37337111",
+      "26297828",
+      "26972727",
+      "20423294",
+      "15126689",
+      "39549813",
+      "30093536",
+      "31548400",
+      "42212534",
+      "35787838",
+      "35657723",
+      "34165838",
+      "29853639",
+      "40775530",
+      "36802433",
+      "41957206",
+      "32514159",
+      "26381411",
+      "22251432",
+      "34199427",
+      "41821508",
+      "34431665",
+      "26669123",
+      "36373662",
+      "36115020",
+      "39426376",
+      "28096355",
+      "24728187",
+      "16000336",
+      "36551244",
+      "16953580",
+      "41482580",
+      "26610255",
+      "41339963",
+      "41428873",
+      "22500765",
+      "25643172",
+      "36939875",
+      "21179192",
+      "18691382",
+      "31099098",
+      "16679557",
+      "32235856",
+      "39383232",
+      "36812386",
+      "35485974",
+      "41856188",
+      "41087580",
+      "41815072",
+      "30287222",
+      "41801138",
+      "33386842",
+      "40658845",
+      "25484190",
+      "38272228",
+      "21489994",
+      "23775688",
+      "41476182",
+      "25446002",
+      "32629061",
+      "36653193",
+      "29273335",
+      "20550572",
+      "29953201",
+      "23390095",
+      "33566579",
+      "33940158",
+      "16762368",
+      "24607710",
+      "38973194",
+      "29747690",
+      "28133550",
+      "40189878",
+      "17652776",
+      "33774037",
+      "28069058",
+      "34439733"
+    ],
+    "review": [
+      "41857035",
+      "39612640",
+      "28671142",
+      "38808534",
+      "42387849",
+      "26972727",
+      "20423294",
+      "15126689",
+      "42212534",
+      "35787838",
+      "41957206",
+      "26669123",
+      "36373662",
+      "26610255",
+      "41339963",
+      "18691382",
+      "31099098",
+      "30287222",
+      "23775688",
+      "23390095",
+      "28133550",
+      "17652776"
+    ],
+    "pmc": [
+      "7619073"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70840-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41857035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

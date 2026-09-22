@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41614174",
+  "title": "Phosphorylation of alpha‑Synuclein Fibrils at S129 Changes DNAJB1 Binding as Probed by Solid-State NMR.",
+  "authors": "Pacheco, Sayuri; Reselammal, Dhanya S; Li, Shanlong; Zhang, Qingya; Velloor, Gauri; Chen, Jianhan; Siemer, Ansgar B",
+  "journal": "JACS Au",
+  "published_date": "2026-01-30",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用固态NMR和MD模拟研究α-突触核蛋白纤维IDR的S129磷酸化如何增强DNAJB1结合，聚焦无序区域介导的PPI机制，但对象为纤维而非相分离，方法以实验为主、MD为辅，故评7分。",
+  "abstract": "Amyloid fibrils formed by the protein alpha-synuclein are implicated in the pathogenesis of synucleinopathies. In addition to their rigid cross-beta core, these fibrils have intrinsically disordered regions on their surface, which are important for interactions with other cellular components, such as chaperones. Chaperones play a vital role in preventing and reversing amyloid formation in neurodegenerative diseases. How they recognize misfolded proteins is an active field of research. DNAJB1 is a cochaperone that recognizes fibrils and recruits other chaperones such as Hsp70 and Apg2, which collectively disaggregate fibrils formed by alpha-synuclein, tau, and huntingtin. Because DNAJB1 was reported to bind the C-terminus of alpha-synuclein and S129 in this C-terminus is predominantly phosphorylated in patient-derived fibrils, we wanted to determine the effect of this post-translational modification on DNAJB1 binding. Using electron micrographs, NMR spectroscopy, and binding assays, we show that phosphorylation at S129 reduces the dynamics of the intrinsically disordered C-terminus of alpha-synuclein fibrils and increases the binding of DNAJB1 to this very C-terminus. MD simulations further suggest that the reduced dynamics is due to increased interaction of the phosphorylated C-terminus with the fibril core. DNAJB1 binds the exact same region at the C-terminus, indicating the phosphorylation at S129 might have a dual effect of reducing fibril surface dynamics and increasing chaperone recognition.",
+  "abstract_zh": "由蛋白质α-突触核蛋白形成的淀粉样纤维与突触核蛋白病的发病机制有关。除了其刚性的交叉β核心外，这些纤维表面还具有内在无序区域，这些区域对于与其他细胞成分（如分子伴侣）的相互作用至关重要。分子伴侣在预防和逆转神经退行性疾病中的淀粉样蛋白形成方面发挥着重要作用。它们如何识别错误折叠蛋白是一个活跃的研究领域。DNAJB1是一种共伴侣蛋白，能够识别纤维并招募其他分子伴侣，如Hsp70和Apg2，这些伴侣共同解聚由α-突触核蛋白、tau和亨廷顿蛋白形成的纤维。由于据报道DNAJB1结合α-突触核蛋白的C末端，且该C末端中的S129在患者来源的纤维中主要被磷酸化，我们旨在确定这种翻译后修饰对DNAJB1结合的影响。利用电子显微照片、核磁共振波谱和结合实验，我们表明S129处的磷酸化降低了α-突触核蛋白纤维内在无序C末端的动态性，并增加了DNAJB1与该C末端的结合。分子动力学模拟进一步表明，动态性降低是由于磷酸化C末端与纤维核心的相互作用增强所致。DNAJB1结合C末端的完全相同区域，表明S129处的磷酸化可能具有双重效应：既降低纤维表面动态性，又增强分子伴侣识别。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41614174/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41614174/",
+  "paper_page_path": "papers/pubmed/41614174/index.html"
+}

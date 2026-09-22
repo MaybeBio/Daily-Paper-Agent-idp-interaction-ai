@@ -1,0 +1,5 @@
+# Hydration free energy is a significant predictor of globular protein incorporation into condensates
+
+
+## Significance Statement
+  Understanding the extent to which molecules can partition into biomolecular condensates is crucial for deciphering cellular organization and function. This study introduces a simple computational approach to predict the partitioning of globular proteins into condensates using hydration free energy as a key predictor, which can be calculated from static globular protein structures. By comparing different hydration free energy predictors, we also higlight the limitations of relying solely on this hydration free energy, emphasizing the need to consider other molecular factors. We finally analyze the shortcomings of the hydration free energy precitions, and discuss other factors that contribute to partitioning of clients into condensates, namely specific interactions and net charge of the scaffold molecules, and different properties of water in the condensate.

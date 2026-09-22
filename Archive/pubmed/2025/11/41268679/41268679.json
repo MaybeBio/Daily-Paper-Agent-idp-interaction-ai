@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41268679",
+    "doi": "10.1021/acsnano.5c07661",
+    "title": "The Liquid State of RIM1alpha and RBP Condensates is Maintained by Lipids."
+  },
+  "content": {
+    "abstract": "At the presynapse, RIM1alpha and RIM-binding protein (RBP) play a crucial role in regulating vesicle docking and priming. Emerging evidence suggests that these proteins are involved in the organization of the active zone where they cluster with membrane proteins and lipids, forming protein condensates driven by liquid-liquid phase separation (LLPS). While protein phase separation has been associated with cellular function, it has also been linked to various disorders, as liquid condensates can promote protein aggregation, leading to dysfunction. In this work, we investigated the phase behavior of RIM1alpha and RBP. We find that under physiological conditions and in the absence of crowding agents, RIM1alpha and RBP have the ability to spontaneously form biomolecular condensates. Moreover, these liquid condensates have the propensity to mature over time, resulting in a liquid-to-solid transition. Using a combination of fluorescence microscopy with biophysical techniques and characterization methods, we confirm that these solid aggregates are beta-sheet-rich and fibrillar in nature. These observations not only add to the growing evidence that supports that RIM1alpha and RBP can phase separate, but we also show that these proteins can aggregate into fibrillar structures within condensates. Finally, we find that in the presence of lipid vesicles, this liquid-to-solid transition is suppressed, indicating the potential role that lipids play in maintaining the liquid state of RIM1alpha/RBP condensates. In the context of protein aggregation, these biophysical observations report on the mechanisms behind the phase separation and subsequent aggregation of RIM1alpha and RBP.",
+    "keywords": [
+      "amyloid formation",
+      "biophysics",
+      "lipid vesicles",
+      "liquid-to-solid transition",
+      "liquid-liquid phase separation (LLPS)",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Lipids/chemistry",
+      "*Biomolecular Condensates/chemistry",
+      "Phase Transition",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fischer, Charlotte M",
+        "Toprakcioglu, Zenon",
+        "de Csillery, Ella",
+        "Kaminski Schierle, Gabriele S",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Fischer CM",
+        "Toprakcioglu Z",
+        "de Csillery E",
+        "Kaminski Schierle GS",
+        "Knowles TPJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1964-8432",
+        "ORCID: 0000-0002-1843-2202",
+        "ORCID: 0000-0002-7879-0140"
+      ],
+      "affiliations": [
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fischer, Charlotte M",
+        "short_name": "Fischer CM",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Toprakcioglu, Zenon",
+        "short_name": "Toprakcioglu Z",
+        "identifiers": [
+          "0000-0003-1964-8432"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "de Csilléry, Ella",
+        "short_name": "de Csilléry E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kaminski Schierle, Gabriele S",
+        "short_name": "Kaminski Schierle GS",
+        "identifiers": [
+          "0000-0002-1843-2202"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/21 06:27",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [
+      "42336922"
+    ],
+    "refs": [
+      "41612036",
+      "40281357",
+      "40109301",
+      "39854227",
+      "39729994",
+      "39349560",
+      "38714700",
+      "38462838",
+      "37837191",
+      "37749234",
+      "37549257",
+      "36802433",
+      "36674928",
+      "36638180",
+      "35930639",
+      "35901206",
+      "35761089",
+      "35595170",
+      "35181198",
+      "35135293",
+      "34480923",
+      "33930220",
+      "33827920",
+      "33597515",
+      "33510441",
+      "33417833",
+      "33169001",
+      "32514159",
+      "32428558",
+      "32403081",
+      "32302572",
+      "31570834",
+      "31506351",
+      "31296649",
+      "31097543",
+      "30814253",
+      "30661983",
+      "29976799",
+      "29606581",
+      "29472250",
+      "29358076",
+      "29096080",
+      "28819146",
+      "28492240",
+      "28225081",
+      "27374333",
+      "26557057",
+      "26553976",
+      "26317470",
+      "25639775",
+      "25288112",
+      "24183019",
+      "24050397",
+      "23060190",
+      "22794257",
+      "22710157",
+      "22398450",
+      "21262469",
+      "21241895",
+      "21098279",
+      "20152114",
+      "19251628",
+      "17630786",
+      "17110340",
+      "16865347",
+      "16052212",
+      "12154365",
+      "11988172",
+      "11797009",
+      "11343654",
+      "10748113",
+      "9252191"
+    ],
+    "similar": [
+      "41268679",
+      "40291420",
+      "33930220",
+      "39476948",
+      "41480717",
+      "39116032",
+      "40164149",
+      "35108264",
+      "40531332",
+      "40098319",
+      "32661370",
+      "38446881",
+      "40184654",
+      "39964249",
+      "36227471",
+      "38971606",
+      "37720552",
+      "41535729",
+      "36524527",
+      "39482532",
+      "39880155",
+      "38722189",
+      "40515902",
+      "38175843",
+      "35998851",
+      "34391803",
+      "39134696",
+      "40603603",
+      "37549257",
+      "39349560",
+      "37019112",
+      "40616404",
+      "39947751",
+      "37267850",
+      "34871547",
+      "39366355",
+      "36503242",
+      "39987501",
+      "37735903",
+      "34371110",
+      "36642156",
+      "34767801",
+      "40748104",
+      "31928729",
+      "36350032",
+      "33583140",
+      "37230179",
+      "36594499",
+      "39541973",
+      "37238596",
+      "39924792",
+      "38579181",
+      "40940766",
+      "41587927",
+      "37386790",
+      "39670461",
+      "34235141",
+      "40629388",
+      "35657723",
+      "40082181",
+      "34916288",
+      "41034691",
+      "40557772",
+      "40149942",
+      "38593269",
+      "35616128",
+      "38999934",
+      "38251748",
+      "41596484",
+      "39865610",
+      "39520054",
+      "35943083",
+      "34334791",
+      "37293933",
+      "39460625",
+      "36150962",
+      "40721018",
+      "37782826",
+      "39826709",
+      "39037698",
+      "40893951",
+      "34129784",
+      "40502018",
+      "41646863",
+      "40108179",
+      "41506147",
+      "41547174",
+      "41603224",
+      "37770446",
+      "34374536",
+      "34862761",
+      "41307542",
+      "34759902",
+      "40439464",
+      "39549813",
+      "33765580",
+      "32603410",
+      "39053405",
+      "39075031",
+      "35881789"
+    ],
+    "review": [
+      "41268679",
+      "33930220",
+      "41480717",
+      "39964249",
+      "37720552",
+      "36524527",
+      "39482532",
+      "39880155",
+      "38175843",
+      "35998851",
+      "39134696",
+      "40616404",
+      "39947751",
+      "37267850",
+      "39366355",
+      "36503242",
+      "37735903",
+      "34371110",
+      "36642156",
+      "34767801",
+      "31928729",
+      "36350032",
+      "33583140",
+      "37230179",
+      "39924792",
+      "40940766",
+      "41587927",
+      "34235141",
+      "40557772",
+      "41596484",
+      "34334791",
+      "36150962",
+      "39037698",
+      "34129784",
+      "41646863",
+      "41506147",
+      "41547174",
+      "41307542",
+      "34759902",
+      "33765580"
+    ],
+    "pmc": [
+      "12874637"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41268679/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.5c07661",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

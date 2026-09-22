@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods
+- **Assessment boundary** Scientific claims, experimental support, technical soundness, and significance of the reported findings
+- **Shared manuscript claim summary** The authors report that an intrinsically disordered region (IDR) at the C-terminus of the C. elegans PUF protein FBF-2 autoinhibits its RNA-binding affinity. A crystal structure shows this CT region binds to the same site on the RNA-binding domain as the partner protein LST-1. The CT contains an electronegative cluster that, when constrained near the 5′ end of bound RNA, reduces binding affinity via electrostatic repulsion. LST-1 binding displaces the CT and relieves autoinhibition, increasing RNA-binding affinity. This mechanism is proposed to explain the interdependence of FBF-2 and LST-1 in germline stem cell self-renewal.
+- **Visible evidence base** Crystal structure of FBF-2 RBD+CT with cFBE RNA at 2.1 Å; ITC binding assays; EMSA binding assays; SPR kinetic measurements; molecular dynamics simulations; differential scanning calorimetry; in vivo genetic data from prior work
+- **Missing materials affecting confidence** Supplementary tables and figures referenced but not provided; source data files not accessible; peer review file not available; Supplementary Movie 1 not viewable
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and mechanistically detailed study of how an intrinsically disordered region in a PUF protein autoinhibits RNA binding and how a partner protein relieves this autoinhibition. The combination of structural, biophysical, and kinetic data provides strong support for the proposed model. The work is significant for understanding IDR-mediated regulation of RNA-binding proteins and has implications for the broader PUF protein family. However, several technical concerns regarding data analysis, particularly in the SPR experiments and the interpretation of the electrostatic repulsion mechanism, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, intrinsically disordered regions, post-transcriptional gene regulation, and stem cell biology. The findings are relevant to understanding how IDRs modulate protein-RNA interactions and how partner proteins can regulate RNA-binding activity, with implications for the PUF protein family across species.
+- **Major strengths** 1) The crystal structure provides direct evidence for the intramolecular CT-RBD interaction and its similarity to LST-1 binding. 2) The combination of ITC, EMSA, and SPR provides complementary biophysical evidence. 3) The identification of an electronegative cluster and its role in electrostatic repulsion is a novel mechanistic insight. 4) The demonstration that LST-1 relieves autoinhibition provides a clear functional rationale for the FBF-2-LST-1 partnership.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of kinetic measurements
+  - **Claim pointer** The authors claim that the CT increases the off-rate for RNA binding, and that this is the primary mechanism of autoinhibition.
+  - **Evidence pointer** Figure 5, SPR assays section
+  - **Concern** The authors acknowledge that the fit of the SPR binding curves for the association phase of FBF-2 RBD and RBD+CT mutants is poorer than for RBD+CT WT. This is a significant limitation because the kon values derived from poorly fitted association phases may be unreliable. The claim that the CT specifically increases koff (rather than decreasing kon) depends critically on the accuracy of both kinetic parameters. If the association phase fits are poor, the derived kon values may be inaccurate, which would affect the interpretation of the mechanism.
+  - **Why it matters** The central mechanistic claim is that autoinhibition operates by increasing the off-rate. If the kinetic parameters are not reliably determined, this conclusion is not firmly established. Alternative mechanisms, such as a decreased on-rate or a combination of both, cannot be excluded.
+  - **Resolution test** The authors should provide a more rigorous analysis of the SPR data, including global fitting with a mass transport model, and report the goodness-of-fit statistics for each curve. Alternatively, they could use an orthogonal method such as stopped-flow fluorescence or surface plasmon resonance with a different immobilization strategy to confirm the kinetic parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of electrostatic repulsion mechanism
+  - **Claim pointer** The authors propose that an electronegative cluster in the CT reduces RNA-binding affinity by electrostatic repulsion with the negatively charged RNA backbone.
+  - **Evidence pointer** Figure 4, MD simulations section
+  - **Concern** The MD simulations show reduced conformational flexibility of the CT when RNA is bound, and the authors interpret this as evidence for electrostatic repulsion. However, reduced flexibility could also result from steric hindrance or other non-electrostatic effects. The alanine substitution experiment (Loop6A) partially addresses this, but the interpretation that the effect is specifically due to electrostatic repulsion is not directly tested. The authors do not show that the Loop6A mutations specifically alter electrostatic interactions, as opposed to affecting the conformational ensemble of the CT in other ways.
+  - **Why it matters** The proposed mechanism of electrostatic repulsion is a key novel aspect of the study. If the mechanism is not specifically electrostatic, the conclusions about how IDRs regulate RNA binding would need to be revised.
+  - **Resolution test** The authors could perform MD simulations with the Loop6A mutant to show that the reduced negative charge specifically alters the interaction with RNA. Alternatively, they could vary ionic strength in the EMSA or SPR experiments to demonstrate that the autoinhibitory effect is salt-dependent, which would support an electrostatic mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors suggest that this IDR-mediated autoinhibition and relief by partner proteins may be a general mechanism for PUF proteins.
+  - **Evidence pointer** Discussion section
+  - **Concern** The study focuses exclusively on FBF-2 and LST-1. While the authors discuss other PUF proteins and potential regulatory mechanisms, they do not provide experimental evidence that this mechanism applies to other PUF proteins. The sequence comparisons in Supplementary Figure 4 are speculative and not experimentally validated.
+  - **Why it matters** The broader significance of the work depends on whether the mechanism is generalizable. If it is specific to FBF-2, the impact is more limited.
+  - **Resolution test** The authors should either temper their claims about generalizability or provide at least one additional example of a PUF protein with a similar autoinhibitory CT that is relieved by a partner protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2, ITC section
+  - **Issue** The ITC data for the interaction between FBF-2 RBD+CT and LST-1 A shows that binding was too weak to be detected. This is reported as a qualitative observation, but no upper limit for the Kd is provided.
+  - **Required correction** Provide an estimate of the detection limit of the ITC assay, or state the maximum Kd that could be measured under the experimental conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** EMSA data
+  - **Evidence pointer** Figure 3, EMSA section
+  - **Issue** The EMSA Kd values are reported as means from at least three independent technical replicates, but no error bars or confidence intervals are shown in the figures.
+  - **Required correction** Include error bars or confidence intervals in the binding curves, or state in the figure legend that error bars are omitted for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structural analysis
+  - **Affected element** Crystal structure
+  - **Evidence pointer** Figure 1, structure determination section
+  - **Issue** The structure shows only 7 residues of the CT (607-613) in the electron density, while the rest of the CT is disordered. The authors should discuss the potential functional significance of the disordered portions of the CT.
+  - **Required correction** Add a sentence in the Discussion about the potential role of the disordered regions flanking the PIM in the CT.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** In vivo significance
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The in vivo relevance of the autoinhibition mechanism is inferred from genetic data showing that a truncated FBF-2 lacking the CT causes sterility. However, the biochemical data are all in vitro, and the connection between the biochemical mechanism and the in vivo phenotype is not directly tested.
+  - **Required correction** Acknowledge this limitation explicitly and suggest future experiments to test the in vivo relevance of the autoinhibition mechanism.
+
+## Risk / unsupported claims
+- The claim that the CT accelerates dissociation from RNA is based on SPR data with acknowledged poor fits for the association phase; the kinetic parameters may not be reliable.
+- The claim that electrostatic repulsion is the mechanism of autoinhibition is inferred from MD simulations and alanine mutagenesis but is not directly tested.
+- The generalizability of the mechanism to other PUF proteins is speculative and not experimentally supported.
+- The in vivo significance of the autoinhibition mechanism is inferred but not directly tested.
+- The functional importance of the disordered regions flanking the CT PIM is not addressed.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.25.614883",
+  "title": "The dimerization domain of SARS CoV 2 Nucleocapsid protein is partially disordered as a monomer and forms a high affinity dynamic complex",
+  "authors": "Jasmine Cubuk; J. Jeremias Incicco; Kathleen B. Hall; Alex S. Holehouse; Melissa D. Stuchell-Brereton; Andrea Soranno",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-25",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过单分子FRET研究SARS-CoV-2核衣壳蛋白二聚化域的单体部分无序构象及高亲和动态二聚体形成，揭示偶联折叠与结合的互作机制，并关联相分离倾向，虽无AI/物理模拟方法，但对象与互作机制建模高度契合。",
+  "abstract": "The SARS-CoV-2 Nucleocapsid (N) is a 419 amino acids protein that drives the compaction and packaging of the viral genome. This compaction is aided not only by protein-RNA interactions, but also by protein-protein interactions that contribute to increasing the valence of the nucleocapsid protein. Here, we focused on quantifying the mechanisms that control dimer formation. Single-molecule Förster Resonance Energy Transfer enabled us to investigate the conformations of the dimerization domain in the context of the full-length protein as well as the energetics associated with dimerization. Under monomeric conditions, we observed significantly expanded configurations of the dimerization domain (compared to the folded dimer structure), which are consistent with a dynamic conformational ensemble. The addition of unlabeled protein stabilizes a folded dimer configuration with a high mean transfer efficiency, in agreement with predictions based on known structures. Dimerization is characterized by a dissociation constant of ∼ 12 nM at 23 O C and is driven by strong enthalpic interactions between the two protein subunits, which originate from the coupled folding and binding. Interestingly, the dimer structure retains some of the conformational heterogeneity of the monomeric units, and the addition of denaturant reveals that the dimer domain can significantly expand before being completely destabilized. Our findings suggest that the inherent flexibility of the monomer form is required to adopt the specific fold of the dimer domain, where the two subunits interlock with one another. We proposed that the retained flexibility of the dimer form may favor the capture and interactions with RNA, and that the temperature dependence of dimerization may explain some of the previous observations regarding the phase separation propensity of the N protein.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白是一种由419个氨基酸组成的蛋白质，驱动病毒基因组的压缩和包装。这种压缩不仅依赖于蛋白质-RNA相互作用，还依赖于蛋白质-蛋白质相互作用，后者有助于增加核衣壳蛋白的价数。在此，我们聚焦于量化控制二聚体形成的机制。单分子福斯特共振能量转移（single-molecule Förster Resonance Energy Transfer）使我们能够研究全长蛋白背景下二聚化结构域的构象，以及与二聚化相关的能量学。在单体条件下，我们观察到二聚化结构域显著扩展的构象（与折叠的二聚体结构相比），这与动态构象系综一致。添加未标记蛋白稳定了具有高平均转移效率的折叠二聚体构象，这与基于已知结构的预测相符。二聚化的特征在于23°C下解离常数约为12 nM，并由两个蛋白质亚基之间的强焓相互作用驱动，这种相互作用源于偶联的折叠与结合。有趣的是，二聚体结构保留了单体单元的部分构象异质性，而添加变性剂揭示二聚体结构域在完全失稳前可以显著扩展。我们的发现表明，单体形式的固有柔性是采用二聚体结构域特定折叠所必需的，其中两个亚基相互锁定。我们提出，二聚体形式保留的柔性可能有利于捕获和与RNA相互作用，而二聚化的温度依赖性可能解释了先前关于N蛋白相分离倾向的一些观察结果。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614883",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.25.614883",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.25.614883/index.html"
+}

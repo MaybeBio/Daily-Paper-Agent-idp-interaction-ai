@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2510.15939v2",
+  "title": "Hallucinations in AlphaFold3 for Intrinsically Disordered Proteins with disorder in Biological Process Residues",
+  "authors": "Shreya Gopalan; Sundar Narayanan",
+  "journal": "",
+  "published_date": "2025-10-08",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究系统评估AlphaFold3对无序蛋白IDR的预测幻觉，聚焦无序蛋白对象与AI预测方法，虽未直接建模PPI机制，但对无序蛋白互作预测可靠性有重要启示。",
+  "abstract": "Protein structure prediction has advanced significantly with the introduction of AlphaFold3, a diffusion-based model capable of predicting complex biomolecular interactions across proteins, nucleic acids, small molecules, and ions. While AlphaFold3 demonstrates high accuracy in folded proteins, its performance on intrinsically disordered proteins (IDPs), which comprise 30 to 40 percent of the human proteome and play critical roles in transcription, signaling, and disease, remains less explored. This study evaluated AlphaFold3's predictions of IDPs with a focus on intrinsically disordered regions (IDRs) using 72 proteins curated from the DisProt database. Predictions were generated across multiple random seeds and ensemble outputs, and residue-level pLDDT scores were compared with experimental disorder annotations. Our analysis reveals that 32 percent of residues are misaligned with DisProt, with percent representing hallucinations where AlphaFold3 incorrectly predicts order in disordered regions or vice versa. Additionally, 10 percent of residues exhibited context-driven misalignment, suggesting that AlphaFold3 implicitly incorporates stable structural assumptions. Importantly, 18 percent of residues associated with biological processes showed hallucinations, raising concerns about downstream implications in drug discovery and disease research. These findings highlight the limitations of AlphaFold3 in modeling IDRs, the need for refined hallucination metrics beyond the pLDDT, and the importance of integrating experimental disorder data to improve prediction reliability.",
+  "abstract_zh": "随着AlphaFold3的引入，蛋白质结构预测取得了显著进展。AlphaFold3是一种基于扩散的模型，能够预测蛋白质、核酸、小分子和离子之间的复杂生物分子相互作用。尽管AlphaFold3在折叠蛋白上表现出高准确性，但其在固有无序蛋白（IDPs）上的性能仍较少被探索。IDPs占人类蛋白质组的30%至40%，在转录、信号传导和疾病中发挥关键作用。本研究评估了AlphaFold3对IDPs的预测，重点关注固有无序区域（IDRs），使用了从DisProt数据库精选的72种蛋白质。预测通过多个随机种子和集成输出生成，并将残基水平的pLDDT分数与实验性无序注释进行比较。我们的分析显示，32%的残基与DisProt不一致，其中百分比代表幻觉现象，即AlphaFold3错误地预测无序区域为有序，或反之。此外，10%的残基表现出上下文驱动的错位，表明AlphaFold3隐含地纳入了稳定的结构假设。重要的是，与生物过程相关的18%的残基显示出幻觉，引发了对药物发现和疾病研究中下游影响的担忧。这些发现突显了AlphaFold3在建模IDRs方面的局限性，需要超越pLDDT的精细化幻觉指标，以及整合实验性无序数据以提高预测可靠性的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2510.15939v2",
+  "source_url": "https://arxiv.org/abs/2510.15939v2",
+  "paper_page_path": "papers/arxiv/2510.15939v2/index.html"
+}

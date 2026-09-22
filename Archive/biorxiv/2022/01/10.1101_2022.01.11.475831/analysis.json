@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.11.475831",
+  "title": "De novo protein structure prediction by incremental inter-residue geometries prediction and model quality assessment using deep learning",
+  "authors": "Jun Liu; Guang-Xing He; Kai-Long Zhao; Gui-Jun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-12",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于深度学习的从头蛋白质结构预测方法RocketX，通过闭环反馈机制迭代优化残基间几何约束预测与模型质量评估，虽非无序蛋白对象，但其互作几何建模与AI方法对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Motivation The successful application of deep learning has promoted progress in protein model quality assessment. How to use model quality assessment to further improve the accuracy of protein structure prediction, especially not reliant on the existing templates, is helpful for unraveling the folding mechanism. Here, we investigate whether model quality assessment can be introduced into structure prediction to form a closed-loop feedback, and iteratively improve the accuracy of de novo protein structure prediction. Results In this study, we propose a de novo protein structure prediction method called RocketX. In RocketX, a feedback mechanism is constructed through the geometric constraint prediction network GeomNet, the structural simulation module, and the model quality evaluation network EmaNet. In GeomNet, the co-evolutionary features extracted from MSA that search from the sequence databases are sent to an improved residual neural network to predict the inter-residue geometric constraints. The structure model is folded based on the predicted geometric constraints. In EmaNet, the 1D and 2D features are extracted from the folded model and sent to the deep residual neural network to estimate the inter-residue distance deviation and per-residue lDDT of the model, which will be fed back to GeomNet as dynamic features to correct the geometries prediction and progressively improve model accuracy. RocketX is tested on 483 benchmark proteins and 20 FM targets of CASP14. Experimental results show that the closed-loop feedback mechanism significantly contributes to the performance of RocketX, and the prediction accuracy of RocketX outperforms that of the state-of-the-art methods trRosetta (without templates) and RaptorX. In addition, the blind test results on CAMEO show that although no template is used, the prediction accuracy of RocketX on medium and hard targets is comparable to the advanced methods that integrate templates. Availability The RocketX web server are freely available at http://zhanglab-bioinf.com/RocketX . Contact zgj@zjut.edu.cn",
+  "abstract_zh": "动机 深度学习的成功应用推动了蛋白质模型质量评估的进展。如何利用模型质量评估进一步提高蛋白质结构预测的准确性，尤其是不依赖现有模板的情况下，有助于揭示折叠机制。在此，我们探究模型质量评估是否能引入结构预测中形成闭环反馈，并迭代提升从头蛋白质结构预测的准确性。结果 在本研究中，我们提出了一种名为RocketX的从头蛋白质结构预测方法。在RocketX中，通过几何约束预测网络GeomNet、结构模拟模块和模型质量评估网络EmaNet构建了反馈机制。在GeomNet中，从序列数据库搜索的MSA中提取的共进化特征被送入改进的残差神经网络，以预测残基间几何约束。结构模型基于预测的几何约束进行折叠。在EmaNet中，从折叠模型中提取1D和2D特征，并送入深度残差神经网络以估计模型的残基间距离偏差和每残基lDDT，这些将作为动态特征反馈给GeomNet，以修正几何预测并逐步提高模型准确性。RocketX在483个基准蛋白质和CASP14的20个FM目标上进行了测试。实验结果表明，闭环反馈机制显著促进了RocketX的性能，且RocketX的预测准确性优于最先进的方法trRosetta（无模板）和RaptorX。此外，在CAMEO上的盲测结果显示，尽管未使用模板，RocketX在中度和困难目标上的预测准确性与集成模板的先进方法相当。可用性 RocketX网络服务器可免费访问于http://zhanglab-bioinf.com/RocketX。联系方式 zgj@zjut.edu.cn",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.11.475831",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.11.475831",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.11.475831/index.html"
+}

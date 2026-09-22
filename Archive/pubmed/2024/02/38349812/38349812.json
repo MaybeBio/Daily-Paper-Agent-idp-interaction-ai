@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "38349812",
+    "doi": "10.1111/febs.17084",
+    "title": "Intrinsically disordered Pseudomonas chaperone FapA slows down the fibrillation of major biofilm-forming functional amyloid FapC."
+  },
+  "content": {
+    "abstract": "Functional bacterial amyloids play a crucial role in the formation of biofilms, which mediate chronic infections and contribute to antimicrobial resistance. This study focuses on the FapC amyloid fibrillar protein from Pseudomonas, a major contributor to biofilm formation. We investigate the initial steps of FapC amyloid formation and the impact of the chaperone-like protein FapA on this process. Using solution nuclear magnetic resonance (NMR), we recently showed that both FapC and FapA are intrinsically disordered proteins (IDPs). Here, the secondary structure propensities (SSPs) are compared to alphafold (DeepMind, protein structure prediction tool/algorithm: https://alphafold.ebi.ac.uk/) models. We further demonstrate that the FapA chaperone interacts with FapC and significantly slows down the formation of FapC fibrils. Our NMR titrations reveal ~ 18% of the resonances show FapA-induced chemical shift perturbations (CSPs), which has not been previously observed, the largest being for A82, N201, C237, C240, A241, and G245. These sites may suggest a specific interaction site and/or hotspots of fibrillation inhibition/control interface at the repeat-1 (R1)/loop-2 (L2) and L2/R3 transition areas and at the C-terminus of FapC. Remarkably, ~ 90% of FapA NMR signals exhibit substantial CSPs upon titration with FapC, the largest being for S63, A69, A80, and I92. A temperature-dependent effect of FapA was observed on FapC by thioflavin T (ThT) and NMR experiments. This study provides a detailed understanding of the interaction between the FapA and FapC, shedding light on the regulation and slowing down of amyloid formation, and has important implications for the development of therapeutic strategies targeting biofilms and associated infections.",
+    "keywords": [
+      "Pseudomonas FapC",
+      "bacterial biofilm",
+      "chaperone FapA",
+      "functional bacterial amyloid (FuBA)",
+      "intrinsically disordered protein (IDP)",
+      "solution-state NMR spectroscopy"
+    ],
+    "mesh_terms": [
+      "*Biofilms/drug effects/growth & development",
+      "*Amyloid/metabolism/chemistry",
+      "*Molecular Chaperones/metabolism/chemistry/genetics",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Pseudomonas/metabolism",
+      "Protein Structure, Secondary",
+      "Nuclear Magnetic Resonance, Biomolecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Byeon, Chang-Hyeock",
+        "Hansen, Kasper Holst",
+        "Jeffrey, Jasper",
+        "Saricayir, Hakan",
+        "Andreasen, Maria",
+        "Akbey, Umit"
+      ],
+      "short_names": [
+        "Byeon CH",
+        "Hansen KH",
+        "Jeffrey J",
+        "Saricayir H",
+        "Andreasen M",
+        "Akbey U"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3161-2969"
+      ],
+      "affiliations": [
+        "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Biomedicine, Aarhus University, Aarhus, Denmark.",
+        "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Biomedicine, Aarhus University, Aarhus, Denmark.",
+        "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Byeon, Chang-Hyeock",
+        "short_name": "Byeon CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Hansen, Kasper Holst",
+        "short_name": "Hansen KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "Department of Biomedicine, Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jeffrey, Jasper",
+        "short_name": "Jeffrey J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Saricayir, Hakan",
+        "short_name": "Saricayir H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Andreasen, Maria",
+        "short_name": "Andreasen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Akbey, Ümit",
+        "short_name": "Akbey Ü",
+        "identifiers": [
+          "0000-0003-3161-2969"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/13 18:44",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "41823381",
+      "41376223",
+      "40991694",
+      "40530859",
+      "39116134"
+    ],
+    "refs": [],
+    "similar": [
+      "38349812",
+      "36368411",
+      "37798606",
+      "37162737",
+      "39706277",
+      "40991694",
+      "32084414",
+      "34688606",
+      "27298344",
+      "40348191",
+      "35807329",
+      "39116779",
+      "39135495",
+      "33903234",
+      "20572935",
+      "23504942",
+      "37330291",
+      "37082589",
+      "29964047",
+      "31308084",
+      "31421227",
+      "40495649",
+      "34748745",
+      "31195143",
+      "30622185",
+      "31459612",
+      "32719003",
+      "41347620",
+      "31717821",
+      "29753779",
+      "38556224",
+      "24065419",
+      "37984030",
+      "40024004",
+      "30018113",
+      "24592895",
+      "28502465",
+      "27766502",
+      "35126986",
+      "23794453",
+      "31984626",
+      "24116129",
+      "30049797",
+      "32102851",
+      "27784787",
+      "28176659",
+      "26195786",
+      "31370706",
+      "37741938",
+      "25284680",
+      "35007533",
+      "25116453",
+      "40037507",
+      "30592554",
+      "27844185",
+      "24035282",
+      "41465500",
+      "25317949",
+      "24008243",
+      "41159917",
+      "32007275",
+      "30252478",
+      "26500638",
+      "40782957",
+      "32779018",
+      "24410358",
+      "35658951",
+      "31521230",
+      "39180270",
+      "37289306",
+      "32696383",
+      "35733961",
+      "21878629",
+      "35055108",
+      "39740355",
+      "24333248",
+      "30471686",
+      "39344640",
+      "29565118",
+      "26451841",
+      "26387102",
+      "41708001",
+      "25533957",
+      "30489014",
+      "32696373",
+      "32900808",
+      "41371612",
+      "41860219",
+      "29925531",
+      "30006266",
+      "30573682",
+      "39302107",
+      "28877484",
+      "37873242",
+      "30527137",
+      "26184172",
+      "35474152",
+      "25217638",
+      "30371005",
+      "35053175"
+    ],
+    "review": [
+      "38349812",
+      "35807329",
+      "31195143",
+      "41347620",
+      "29753779",
+      "40024004",
+      "28502465",
+      "23794453",
+      "28176659",
+      "40037507",
+      "41465500",
+      "24008243",
+      "31521230",
+      "39740355",
+      "26387102",
+      "30489014",
+      "30527137"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38349812.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/febs.17084",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

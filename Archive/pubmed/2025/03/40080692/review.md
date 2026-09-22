@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report experimental and simulation studies of polyethylene glycol (PEG) and dextran (Dex) mixtures with controlled molecular weight polydispersity. They claim that increased polydispersity, specifically a higher fraction of short-chain components, narrows the two-phase region, reduces concentration differences and interfacial tension between coexisting phases, enriches the Dex-rich phase with longer Dex chains, and produces a gradual chain-length transition across the interface. They further claim that polydispersity does not affect critical concentration or critical exponents, and that condensation kinetics are limited by diffusion-driven aggregation rather than nucleation.
+- **Visible evidence base** Abstract text only; no experimental methods, simulation details, quantitative results, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, error analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and relevant question in biomolecular condensate research, namely the role of molecular weight polydispersity in phase separation. The combination of experiments and simulations is appropriate and potentially powerful. However, the abstract provides only qualitative claims without quantitative support, and several statements are ambiguous or potentially overreaching given the information presented. The scientific premise is sound, but the evidence base visible here is insufficient to evaluate the robustness of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation in polymer and colloid systems, and the physical chemistry of intracellular organization would find these results relevant. The work connects polymer physics concepts to cellular processes, so it may also appeal to biophysicists and cell biologists interested in the material properties of condensates. The focus on polydispersity addresses a realistic feature of cellular macromolecules that is often neglected in idealized models.
+- **Major strengths** The research question is well motivated by the need to understand molecular diversity in cellular condensates. The use of both experiments and molecular simulations provides complementary approaches. The abstract identifies specific and measurable outcomes, such as two-phase region width, interfacial tension, and chain-length partitioning, which are physically meaningful observables.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that polydisperse systems exhibit a narrower two-phase region, reduced concentration differences, and reduced interfacial tension between coexisting phases.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these findings without any quantitative values, error estimates, or statistical significance. It is unclear how the degree of polydispersity was varied, how many conditions were tested, and whether the reported effects are monotonic or threshold-dependent.
+  - **Why it matters** Without quantitative data, the reader cannot assess the magnitude or reliability of the reported effects. The claim that polydispersity narrows the two-phase region is central to the paper, and its validity depends on careful comparison across a range of polydispersity values.
+  - **Resolution test** Provide quantitative phase diagrams for at least two polydispersity levels, with error bars and statistical tests, and specify the polydispersity index values used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim precision
+  - **Claim pointer** The authors claim that the Dex-rich phase is enriched with longer Dex chains compared to the PEG-rich phase, with a gradual transition in chain length across the interface.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The statement is ambiguous regarding the direction of enrichment. It is unclear whether the Dex-rich phase is enriched in longer Dex chains relative to the overall Dex distribution, relative to the PEG-rich phase, or both. The phrase "gradual transition in chain length across their interface" is also vague and could refer to a continuous gradient or a stepwise change.
+  - **Why it matters** The chain-length partitioning is a key mechanistic insight. Ambiguity in the claim prevents the reader from understanding the physical picture and makes the result difficult to reproduce or compare with theory.
+  - **Resolution test** Clarify the reference distribution for enrichment and provide a quantitative profile of chain-length distribution as a function of position across the interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that polydispersity has no significant effects on the critical concentration and critical exponents.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a null result, and the abstract provides no indication of the statistical power or the range of polydispersity tested. A null claim requires evidence that the measurements were sensitive enough to detect effects if they existed.
+  - **Why it matters** Null results are only meaningful if the experimental and simulation methods are validated against known cases and if the parameter space is sufficiently broad. Without this context, the claim is not assessable.
+  - **Resolution test** Provide a comparison of critical concentration and critical exponents across polydispersity levels, including confidence intervals and a statement of the detection limit of the methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that phase separation is not limited by nucleation rate but by diffusion-driven aggregation of polymers.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The kinetics claim is presented as a definitive conclusion, but the abstract does not describe how nucleation and diffusion contributions were distinguished. No timescales, concentration dependencies, or comparison with theoretical models are provided.
+  - **Why it matters** The kinetic mechanism is a major conclusion with implications for understanding condensate formation in cells. Without evidence ruling out nucleation limitations, the claim is premature.
+  - **Resolution test** Provide kinetic data showing the time evolution of phase separation under varying viscosity or polymer concentration, and compare with predictions from nucleation-limited and diffusion-limited models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "dynamic formation" is used without definition. It is unclear whether this refers to the time-dependent process of condensate assembly or to the reversible nature of condensates.
+  - **Required correction** Define "dynamic formation" or replace with a more precise term such as "kinetics of condensate formation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental system description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the molecular weight ranges of PEG and Dex, the polydispersity indices used, or the concentration range explored. This information is essential for contextualizing the results.
+  - **Required correction** Add a brief statement of the molecular weight ranges and polydispersity indices in the abstract or refer to a table in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Relevance to cellular conditions
+  - **Evidence pointer** Abstract, introduction
+  - **Issue** The abstract states that the system mimics cellular conditions, but no justification is given for why PEG and Dex mixtures are representative of intracellular condensates.
+  - **Required correction** Provide a brief rationale for the choice of PEG and Dex as model systems, or soften the claim of cellular relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence for all major claims, and the kinetic mechanism claim is not supported by any described analysis.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the focus on polydispersity in phase separation is a relatively underexplored angle. Scientific importance is potentially high given the relevance to biomolecular condensates, but the current abstract does not establish the significance of the findings beyond a qualitative level. Interdisciplinary readership is plausible, as the work bridges polymer physics and cell biology, but the abstract may be too specialized for a broad audience. Technical soundness cannot be assessed from the abstract alone, as no methods or data are visible. Readability for nonspecialists is acceptable, though some terms such as "critical exponents" and "interfacial tension" may require context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The research question is promising and the approach is appropriate, but the abstract alone does not provide sufficient quantitative support for the major claims. A full manuscript with detailed methods, data, and statistical analyses would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that polydispersity narrows the two-phase region is unsupported without quantitative phase diagrams.
+- The claim that polydispersity reduces concentration differences and interfacial tension is unsupported without numerical values and error estimates.
+- The claim that the Dex-rich phase is enriched with longer Dex chains is ambiguous and unsupported without quantitative chain-length distributions.
+- The claim that polydispersity has no effect on critical concentration and critical exponents is unsupported without statistical power analysis.
+- The claim that phase separation is diffusion-limited rather than nucleation-limited is unsupported without kinetic data and model comparison.
+- The relevance of PEG and Dex mixtures to cellular condensates is asserted but not justified.

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance statement, Results, Discussion, Materials and Methods summary, and author contributions. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and theoretical framework as presented in the main text. Assessment is limited by the absence of supplementary materials, which are frequently cited for key quantitative results.
+- **Shared manuscript claim summary** The authors propose that HYPK is a "marginally disordered" protein whose conformational behavior is governed not only by net charge but also by charge patterning, as quantified by the sequence charge decoration (SCD) metric. They support this with FRET-based measurements of end-to-end distance under varying temperature, crowding, and ionic strength, and with charge-flipped variants designed using SCD predictions.
+- **Visible evidence base** Main-text figures (Figs. 1–5), Table 1, and equations for FRET efficiency. Supplementary figures (S1–S14), tables (S2, S3), and methods are referenced but not available for review.
+- **Missing materials affecting confidence** All supplementary figures and tables, detailed methods for SCD and SCDlowsalt calculations, Hill coefficient fitting procedure, simulation parameters for CAMPARI and explicit-solvent MD, and raw data for FRET curves and CD spectra.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of intrinsically disordered proteins: what determines the boundary between disordered and folded-like behavior? The authors present a compelling narrative that charge patterning, not just net charge, governs the conformational properties of a "marginal" IDP. The experimental design, using FRET-based end-to-end distance measurements combined with charge-flipped variants, is logical and well-motivated. However, the strength of the conclusions depends critically on supplementary data that were not provided for review. Several claims regarding cooperativity, the role of local secondary structure, and the predictive power of SCD require closer quantitative scrutiny. The distinction between "marginal" and "typical" IDP behavior is somewhat qualitative, and the authors' own data show that HYPK's behavior is temperature-dependent, complicating the classification. Overall, the work is potentially significant, but the current evidence base is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in sequence–ensemble relationships, charge patterning, and the physical chemistry of IDP conformations. The work is also relevant to those studying Huntington's disease, given HYPK's role in translation regulation and its interaction with huntingtin. The methodological approach, combining FRET, mutagenesis, and theory, will appeal to biophysicists and computational biologists working on IDPs.
+- **Major strengths** 1. The study addresses a nuanced and under-explored question: what makes an IDP "marginal" and how does charge patterning, beyond net charge, dictate conformational behavior? 2. The combination of experimental FRET measurements with SCD-based predictions and all-atom simulations provides a multi-pronged approach. 3. The design of charge-flipped variants with extreme SCD values is a clever and powerful strategy to test the theory. 4. The comparison of three proteins near the Uversky boundary provides a useful context for interpreting HYPK's behavior. 5. The authors are transparent about the limitations of their FRET assay (not quantitatively relating EFRET to Ree) and the potential influence of fluorescent protein labels.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that HYPK exhibits a cooperative thermal transition, supported by a Hill coefficient of 9 ± 1, is central to the "marginal" classification.
+  - **Evidence pointer** Figure 2B, Supplementary Figure S5, Supplementary Figure S6, "location not provided" for Hill coefficient fitting details.
+  - **Concern** The cooperativity claim rests on a Hill coefficient derived from a normalized FRET curve, but the fitting procedure, the model used, and the statistical significance of the fit are not described in the main text. The Hill coefficient is a strong claim that requires rigorous justification. Furthermore, the authors state that HYPK shows a cooperative transition only at 300 mg/mL PEG-6000, but the dependence of this cooperativity on crowder concentration is not systematically explored. The physical interpretation of a Hill coefficient for a conformational transition in a disordered protein is also not discussed.
+  - **Why it matters** The "marginal" classification of HYPK is a central thesis of the paper. If the cooperativity is not robustly demonstrated, the distinction between HYPK and a "typical" IDP like PKIα becomes less clear, weakening the overall narrative.
+  - **Resolution test** Provide the full fitting procedure, the raw data for the normalized FRET curves, and a statistical comparison of fits with and without a cooperative transition (e.g., Hill coefficient vs. a simple linear or polynomial model). Show that the Hill coefficient is significantly different from 1 and that the fit is robust across replicates and crowder concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SCD and SCDlowsalt accurately predict the relative sizes and salt responses of the designed variants.
+  - **Evidence pointer** Figure 4, Figure 5, Table 1, Supplementary Tables S2 and S3, "location not provided" for SCD definitions and simulation details.
+  - **Concern** The predictive power of SCD is a key claim, but the comparison between theory and experiment is largely qualitative. The authors show that the rank order of sizes (e.g., HYPKV1 < HYPKV2) matches predictions, but do not provide a quantitative comparison of the magnitudes of the changes. The SCDlowsalt predictions for salt response are also only qualitatively compared. The simulations (CAMPARI and explicit MD) show the same trends but differ quantitatively from each other, and the authors attribute this to force-field differences without further analysis. The influence of FP labels on the measured FRET efficiencies is acknowledged but not fully deconvoluted from the intrinsic IDP behavior.
+  - **Why it matters** The manuscript claims to provide a predictive framework for IDP conformations. Without a quantitative assessment of the agreement between theory and experiment, the practical utility of SCD for designing IDP variants with predictable properties is not established.
+  - **Resolution test** Provide a quantitative comparison, such as a correlation plot between predicted and measured Ree values (or changes in Ree) for all variants. For the salt response, provide a quantitative metric (e.g., slope of Ree vs. ionic strength) and compare it to SCDlowsalt predictions. Discuss the discrepancies between CAMPARI and MD results and justify the choice of simulation parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The claim that HYPK's expansion at low temperature upon salt addition is due to counterion condensation or changes in secondary structure that alter effective charge patterning.
+  - **Evidence pointer** Figure 3B, Figure 2E, "location not provided" for CD data at varying salt concentrations.
+  - **Concern** The authors offer two possible explanations for the anomalous salt-induced expansion of HYPK at T < 45 °C, but do not provide direct evidence for either. The CD data (Fig. 2E) show increased helicity at low temperature with crowder, but the effect of salt on secondary structure is not shown. The counterion condensation hypothesis is speculative and not tested.
+  - **Why it matters** This anomalous behavior is a key observation that distinguishes HYPK from PKIα. Without a mechanistic explanation, the interpretation of HYPK as a "marginal" protein whose behavior is governed by charge patterning remains incomplete.
+  - **Resolution test** Perform CD or other structural measurements as a function of salt concentration at low temperature to test whether secondary structure changes correlate with the observed expansion. Alternatively, use simulations to directly test the counterion condensation hypothesis by analyzing ion distributions around the protein.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The claim that FP labels are a preferable choice over small-molecule dyes for FRET measurements in this context.
+  - **Evidence pointer** Figure S1, "location not provided" for dye-labeling details.
+  - **Concern** The authors demonstrate that dye-labeled HYPK shows anomalous behavior under crowding conditions, which they attribute to dye–dye or dye–protein sticking. However, they do not fully rule out the possibility that the FP labels themselves introduce artifacts, such as non-specific interactions with the IDP or with crowder molecules. The simulations with FP labels (Table S3) show that the labels increase the overall dimensions, but the effect on the *relative* trends between variants is not thoroughly discussed.
+  - **Why it matters** The choice of labeling strategy is fundamental to the validity of the FRET measurements. If the FP labels significantly perturb the IDP conformation or its response to environmental changes, the conclusions drawn from the data could be compromised.
+  - **Resolution test** Provide a more detailed characterization of the FP-labeled constructs, such as comparing the FRET-derived sizes with independent measurements (e.g., SAXS or SEC-MALS) for at least one variant. Discuss the potential for FP–IDP interactions and how they might affect the interpretation of the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A, "location not provided"
+  - **Issue** The Uversky plot in Figure 1A is described but not shown in the main text. The placement of the three proteins relative to the boundary is crucial for the "marginal" classification.
+  - **Required correction** Include the Uversky plot in the main text or provide a clear description of where each protein falls relative to the boundary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** FRET efficiency calculation
+  - **Evidence pointer** Equation 1, "location not provided"
+  - **Issue** The FRET efficiency is calculated as EFRET = A/(A+D), which is an uncorrected ratio. The authors do not discuss potential artifacts from differential quantum yields, spectral crosstalk, or direct acceptor excitation.
+  - **Required correction** Acknowledge these potential artifacts and describe any corrections applied, or justify why they are negligible for the qualitative comparisons made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of temperature effects
+  - **Evidence pointer** Figure 2A–C, "location not provided"
+  - **Issue** The authors attribute the expansion of all proteins with temperature to chain entropy gain. However, for HYPK, the increase in helicity at low temperature (Fig. 2E) suggests that secondary structure formation could also contribute to the observed changes in EFRET.
+  - **Required correction** Discuss the potential contribution of secondary structure changes to the temperature-dependent FRET signal, particularly for HYPK.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with previous studies
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Issue** The authors mention previous studies on charge patterning and IDP dimensions but do not provide a detailed comparison of their results with those studies.
+  - **Required correction** Add a brief comparison with key prior work on charge patterning (e.g., Das and Pappu) to contextualize the novelty of the findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout, "location not provided"
+  - **Issue** The term "marginally disordered" is used throughout but is not rigorously defined. The authors use it to describe proteins near the Uversky boundary, but the operational definition is unclear.
+  - **Required correction** Provide a clear operational definition of "marginal" in the context of this study, perhaps based on specific biophysical criteria (e.g., degree of secondary structure, cooperativity, or response to environmental changes).
+- **Technical failings that need to be addressed before the case is established** 1. The Hill coefficient analysis (R1-M1) is not described in sufficient detail and is central to the cooperativity claim. 2. The quantitative agreement between SCD predictions and experimental measurements (R1-M2) is not established. 3. The mechanistic explanation for HYPK's anomalous salt response (R1-M3) is speculative and lacks direct evidence. 4. The potential artifacts from FP labels (R1-M4) are not fully addressed.
+
+## Risk / unsupported claims
+- The claim that HYPK exhibits a cooperative thermal transition with a Hill coefficient of 9 ± 1 is not fully supported by the evidence provided in the main text, as the fitting procedure and statistical significance are not described.
+- The claim that SCD and SCDlowsalt provide quantitative predictions of IDP dimensions and salt responses is not supported by a quantitative comparison between theory and experiment.
+- The claim that HYPK's expansion at low temperature upon salt addition is due to counterion condensation or secondary structure changes is speculative and not directly tested.
+- The claim that FP labels are preferable to small-molecule dyes for this system is based on a single comparison and does not fully rule out FP-induced artifacts.
+- The classification of HYPK as "marginally disordered" is based on qualitative observations and lacks a clear operational definition.

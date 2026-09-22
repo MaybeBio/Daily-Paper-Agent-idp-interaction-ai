@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (perspective article)
+- **Assessment boundary** Scientific content, technical soundness, clarity, and alignment with stated aims; no assessment of formatting or journal fit beyond Nature-style criteria
+- **Shared manuscript claim summary** The authors review computational modeling approaches for genome organization, focusing on maximum entropy optimization as a unifying framework for parameterizing coarse-grained models across scales. They present their own work on whole-genome modeling at 1 Mb resolution and near-atomistic modeling of nucleosome arrays, and argue that maximum entropy optimization enables data-driven mechanistic modeling, de novo prediction from epigenetic marks, and insights into phase separation and chromatin dynamics.
+- **Visible evidence base** Full text including abstract, introduction, sections on whole-genome and nucleosome-scale modeling, perspective on dynamics, equations (Eqs. 1–4), figures referenced (Figs. 1–10), and references cited within text
+- **Missing materials affecting confidence** Figures and their captions were not provided; specific numerical results (e.g., correlation coefficients, percentages of reproduced loops) are stated but not accompanied by error bars or statistical details; no supplementary information or methodological appendices were available
+
+## Reviewer
+- **Overall assessment** This is a well-written perspective that provides a useful synthesis of computational approaches to genome organization, with a clear emphasis on maximum entropy optimization as a versatile tool. The authors successfully connect mesoscale and near-atomistic modeling efforts under a common conceptual framework. The manuscript is likely to be of interest to the biophysics and computational biology communities. However, several technical claims, particularly regarding the accuracy and transferability of the described models, are presented without sufficient quantitative detail or statistical support. The perspective nature of the article mitigates some of these concerns, but the case for the broad applicability of the maximum entropy approach would be strengthened by more rigorous reporting of model performance and limitations.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, polymer physics, and genome biology would find this perspective valuable. It offers a coherent overview of modeling strategies and highlights a specific methodological framework (maximum entropy optimization) that could be adopted by others. The discussion of de novo prediction from epigenetic marks and the treatment of phase separation in chromatin are timely topics that would appeal to a broad interdisciplinary audience.
+- **Major strengths** The manuscript provides a clear and accessible introduction to the challenges of modeling genome organization across scales. The emphasis on maximum entropy optimization as a unifying principle is well argued and supported by examples from the authors' own work. The discussion of hypothesis-driven versus data-driven approaches is balanced and informative. The perspective on chromosome dynamics and the potential for extending maximum entropy methods to non-equilibrium systems is forward-looking and thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their whole-genome model "succeeds in recapitulating the microphase separation between the two compartments and the checkerboard pattern seen in Hi-C contact maps" and that the chromatin-state based model "reproduces over 74% of the CTCF-mediated chromatin loops, correctly identifies ~80% of the TAD boundaries, and captures over 57% of the significant enhancer–promoter contacts."
+  - **Evidence pointer** Section "Perspective: Data-driven mechanistic modeling", Figs. 4 and 5 (figures not provided)
+  - **Concern** The quantitative claims regarding model performance are stated without any measure of uncertainty, statistical significance, or comparison to null models or alternative approaches. The correlation coefficient of 0.96 between simulated and experimental contact maps is mentioned, but the SCC of 0.7 is presented without context regarding what constitutes an acceptable threshold. The percentages of reproduced loops, TAD boundaries, and enhancer–promoter contacts are given as single numbers without confidence intervals or sensitivity analyses.
+  - **Why it matters** For a perspective article that advocates a specific methodological framework, the credibility of the approach depends on the robustness of the reported performance metrics. Without statistical context, readers cannot assess whether these results are exceptional, typical, or marginal compared to existing methods. This weakens the case for the broad adoption of the maximum entropy approach.
+  - **Resolution test** Provide confidence intervals or standard deviations for the reported metrics, compare performance to at least one alternative modeling approach, and discuss the sensitivity of results to model parameters (e.g., resolution, threshold function f(rij; ro), and the number of training iterations).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the maximum entropy optimization algorithm "produces the least biased or 'most likely' chromosome structures based on the given knowledge" and that conclusions drawn from these structures are "more reliable than those based on specific features of Hi-C data."
+  - **Evidence pointer** Section "Structural ensemble refinement approaches" and "Perspective: Data-driven mechanistic modeling"
+  - **Concern** The claim of "least biased" structures is a strong statement that requires careful qualification. Maximum entropy optimization ensures that the model matches experimental constraints while maximizing entropy relative to a prior, but the choice of prior and the set of constraints fundamentally shape the resulting ensemble. The authors do not discuss the sensitivity of their conclusions to these choices, nor do they address potential degeneracies in the solution space (i.e., multiple ensembles that satisfy the same constraints).
+  - **Why it matters** The central thesis of the perspective is that maximum entropy optimization provides a principled and reliable framework for genome modeling. If the method is sensitive to subjective choices in prior or constraints, the claim of "least biased" is overstated and could mislead readers who are not familiar with the nuances of the approach.
+  - **Resolution test** Acknowledge the dependence of results on the choice of prior and constraints, and provide a brief discussion of how the method has been validated against independent experimental data (e.g., imaging, FISH) beyond the training data. If such validation exists, cite it explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the maximum entropy optimization algorithm serves as an effective strategy for parameterizing coarse-grained models in both cases" (whole-genome and nucleosome-scale) and that it "could help address the role of phase-separating proteins in chromatin organization with near-atomistic details."
+  - **Evidence pointer** Sections "Perspective: Data-driven mechanistic modeling" and "Study the role of phase separation in chromatin organization with MOFF"
+  - **Concern** The perspective would benefit from a more critical discussion of the limitations of the maximum entropy approach. For example, the method relies on the availability of high-quality experimental data for parameterization, which may not exist for all cell types or conditions. The transferability of the resulting force fields (e.g., MOFF) to systems not included in the training set is claimed but not thoroughly demonstrated. The authors mention that MOFF "performed well for de novo prediction of IDP structural ensembles" but do not provide comparative benchmarks against other force fields.
+  - **Why it matters** A perspective article should not only advocate for a method but also provide a balanced view of its limitations. Without this, the reader may overestimate the general applicability of the approach, which could lead to inappropriate use in future studies.
+  - **Resolution test** Add a paragraph explicitly discussing the limitations of maximum entropy optimization, including data requirements, computational cost, and scenarios where the method may fail or underperform. Provide benchmarks or cite studies that compare MOFF to other force fields for IDPs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The opening sentence "The genome is often hailed as the blueprint of life" is somewhat clichéd and could be replaced with a more precise statement. The subsequent discussion of non-coding regions and gene regulation is clear but could benefit from a brief definition of key terms (e.g., enhancers, promoters) for readers outside the field.
+  - **Required correction** Consider revising the opening to be more specific, and add a parenthetical definition of "enhancers" and "promoters" on first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Equation 2 and surrounding text
+  - **Evidence pointer** Section "Structural ensemble refinement approaches"
+  - **Issue** The derivation of Eq. (2) is presented without a clear explanation of how the Lagrange multipliers αij are determined in practice. The text states that they "can be determined via an efficient iterative optimization procedure" but does not describe the procedure or its convergence properties.
+  - **Required correction** Add a brief description of the iterative procedure (e.g., gradient descent, Newton's method) and mention any known convergence issues or computational challenges.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Perspective: Chromosome Dynamics"
+  - **Evidence pointer** Section "Perspective: Chromosome Dynamics"
+  - **Issue** The discussion of non-equilibrium dynamics and effective temperature is interesting but may be difficult to follow for readers without a background in statistical mechanics. The connection between the perturbation theory of Wang and Wolynes and the authors' own work is stated but not fully explained.
+  - **Required correction** Consider adding a brief intuitive explanation of the effective temperature concept and its relevance to chromatin dynamics, or refer the reader to a review for details.
+- **Technical failings that need to be addressed before the case is established** The quantitative performance claims (R1-M1) need statistical context. The claim of "least biased" structures (R1-M2) needs qualification regarding sensitivity to prior and constraints. The generalizability of MOFF (R1-M3) needs comparative benchmarks or explicit acknowledgment of limitations.
+- **Assessment against Nature-style criteria** 
+  - Originality: The perspective does not present new experimental or computational results but offers a synthesis of existing work under a unifying framework. The emphasis on maximum entropy optimization as a cross-scale tool is a useful conceptual contribution, though not entirely novel.
+  - Scientific importance: The topic is of high importance to genome biology and biophysics. The authors' own contributions are significant, but the perspective would be strengthened by a more critical assessment of the field's open challenges.
+  - Interdisciplinary readership: The manuscript is accessible to a broad audience, but some sections (e.g., the discussion of non-equilibrium dynamics) may be challenging for nonspecialists. The use of equations is appropriate but could be better integrated with intuitive explanations.
+  - Technical soundness: The technical content is generally sound, but the lack of statistical detail for performance claims and the unqualified "least biased" statement are weaknesses.
+  - Readability for nonspecialists: The writing is clear and well-organized, but some jargon could be better defined. The figures (not provided) are likely to aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The perspective has merit and would be a valuable contribution to the literature, but the quantitative claims need to be contextualized, and the limitations of the approach should be acknowledged more explicitly.
+
+## Risk / unsupported claims
+- The claim that the whole-genome model reproduces 74% of CTCF-mediated loops, 80% of TAD boundaries, and 57% of enhancer–promoter contacts is unsupported without confidence intervals or comparison to alternative methods.
+- The claim that maximum entropy optimization produces "the least biased" structures is unsupported without a discussion of sensitivity to prior and constraint choices.
+- The claim that MOFF "performed well for de novo prediction of IDP structural ensembles" is unsupported without comparative benchmarks against other force fields.
+- The statement that "chromatin indeed favors more disordered configurations" in the presence of PRC2 is presented as a conclusion but lacks citation or quantitative support in the provided text.

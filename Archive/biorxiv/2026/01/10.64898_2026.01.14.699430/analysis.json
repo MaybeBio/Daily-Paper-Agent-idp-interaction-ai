@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.14.699430",
+  "title": "A dynamic displacement mechanism drives protein import into mitochondria",
+  "authors": "Sucec I; Guillerm U; Schneider J; Ganesan I; Webling N; Kapitonova A; Steiert C; Schmelter F; Feignier A; Singh R; Fielden LF; Dung J; Rapaport D; Bersch B; Busch KB; Dehez F; Wiedemann N; Schanda P",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-14",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文揭示线粒体Tom22胞质无序域通过形成瞬时α螺旋作为置换元件，竞争性结合受体Tom20/Tom70以驱动前体蛋白向转运孔释放，属于无序蛋白介导的蛋白-蛋白互作机制建模研究，虽无AI/物理模拟方法，但机制深度与IDR-PPI核心高度契合。",
+  "abstract": "Most mitochondrial proteins are produced in the cytosol and imported through the translocase of the outer mitochondrial membrane (TOM) to reach their final destination. Although this protein entry gate has been structurally characterized, it remains unclear how precursor proteins are handed off from the cytosolic receptor domains to the translocation pore. Here we show that the cytosolic domain of Tom22 - traditionally viewed as the central TOM receptor - acts not as a structured scaffold but as a largely disordered, flexible segment that plays an active role in precursor transfer. Atomic-level structural techniques and in vivo experiments identified a conserved short linear motif that forms a transient α-helical element within this disordered domain. By binding to the canonical precursor protein binding sites of the receptors Tom20 and Tom70, this critical α-helical segment acts as a precursor protein displacement element (PPDE). This competitive interaction facilitates the release of preproteins directly above the import pore, and thereby drives translocation across the outer mitochondrial membrane. These findings reveal that flexibility, rather than rigid structure, underlies the central transfer step of mitochondrial outer-membrane protein translocation. Our results point to a versatile mechanism for ligand displacement in chaperone, receptor, and transport systems that must balance selective binding with efficient release.",
+  "abstract_zh": "大多数线粒体蛋白在细胞质中合成，并通过线粒体外膜转位酶（TOM）导入以到达其最终目的地。尽管这一蛋白质进入门控已在结构上得到表征，但前体蛋白如何从胞质受体结构域传递至转位孔仍不清楚。在此，我们表明Tom22的胞质结构域——传统上被视为中央TOM受体——并非作为结构化支架，而是作为大部分无序、灵活的片段，在前体转移中发挥积极作用。原子级结构技术和体内实验鉴定了一个保守的短线性基序，该基序在此无序结构域内形成瞬时的α-螺旋元件。通过结合受体Tom20和Tom70的典型前体蛋白结合位点，这一关键的α-螺旋片段充当了前体蛋白置换元件（PPDE）。这种竞争性相互作用促进了前体蛋白在导入孔正上方的释放，从而驱动跨线粒体外膜的转位。这些发现揭示，灵活性而非刚性结构，是线粒体外膜蛋白转位中央转移步骤的基础。我们的结果指向一种在伴侣、受体和转运系统中配体置换的通用机制，这些系统必须平衡选择性结合与高效释放。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699430",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699430",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.14.699430/index.html"
+}

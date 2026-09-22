@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.08.519673",
+  "title": "HLApollo: A superior transformer model for pan-allelic peptide-MHC-I presentation prediction, with diverse negative coverage, deconvolution and protein language features",
+  "authors": "William John Thrift; Nicolas W. Lounsbury; Quade Broadwell; Amy Heidersbach; Emily Freund; Yassan Abdolazimi; Qui T Phung; Jieming Chen; Aude-Hélène Capietto; Ann-Jay Tong; Christopher M. Rose; Craig Blanchette; Jennie R Lill; Benjamin Haley; Lélia Delamarre; Richard Bourgon; Kai Liu; Suchit Jhunjhunwala",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用Transformer模型预测肽-MHC-I呈递，对象是抗原肽与MHC-I的互作，非无序蛋白/IDR/相分离，且无PPI机制建模或AI/物理方法对无序互作的启发，故与本课题关联较弱。",
+  "abstract": "Antigen presentation on MHC class I (MHC-I) is key to the adaptive immune response to cancerous cells. Computational prediction of peptide presentation by MHC-I has enabled individualized cancer immunotherapies. Here, we introduce HLApollo, a transformer-based approach with end-to-end modeling of MHC-I sequence, deconvolution, and flanking sequences. To achieve this, we develop a novel training strategy, negative set switching, which greatly reduces overfitting to falsely presumed negatives that are necessarily found in presentation datasets. HLApollo shows a meaningful improvement compared to recent MHC-I models on peptide presentation (20.19% average precision (AP)) and immunogenicity (4.1% AP). As expected, adding gene expression boosts the performance of HLApollo. More interestingly, we show that introduction of features from a protein language model, ESM 1b, remarkably recoups much of the benefits of gene expression in absence of true expression measurements. Finally, we demonstrate excellent pan-allelic generalization, and introduce a framework for estimating the expected accuracy of HLApollo for untrained alleles. This guides the use of HLApollo in a clinical setting, where rare alleles may be observed in some subjects, particularly for underrepresented minorities.",
+  "abstract_zh": "MHC I类（MHC-I）上的抗原呈递是对癌细胞适应性免疫反应的关键。通过MHC-I对肽段呈递的计算预测已实现个体化癌症免疫治疗。在此，我们介绍HLApollo，一种基于Transformer的方法，对MHC-I序列、去卷积及侧翼序列进行端到端建模。为实现此目标，我们开发了一种新颖的训练策略——负集切换，该策略大幅减少了对呈递数据集中必然存在的假阴性样本的过拟合。与近期MHC-I模型相比，HLApollo在肽段呈递（平均精度（AP）20.19%）和免疫原性（AP 4.1%）方面显示出显著改进。如预期，加入基因表达可提升HLApollo的性能。更有趣的是，我们表明引入蛋白质语言模型ESM 1b的特征，在缺乏真实表达测量时，能显著弥补基因表达带来的大部分益处。最后，我们展示了优异的泛等位基因泛化能力，并引入了一个框架来估计HLApollo对未训练等位基因的预期准确性。这指导了HLApollo在临床环境中的应用，其中某些受试者可能观察到稀有等位基因，尤其是在代表性不足的少数群体中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519673",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519673",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.08.519673/index.html"
+}

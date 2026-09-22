@@ -1,0 +1,533 @@
+{
+  "identity": {
+    "pmid": "37935659",
+    "doi": "10.1038/s41467-023-42374-4",
+    "title": "Targeting nucleic acid phase transitions as a mechanism of action for antimicrobial peptides."
+  },
+  "content": {
+    "abstract": "Antimicrobial peptides (AMPs), which combat bacterial infections by disrupting the bacterial cell membrane or interacting with intracellular targets, are naturally produced by a number of different organisms, and are increasingly also explored as therapeutics. However, the mechanisms by which AMPs act on intracellular targets are not well understood. Using machine learning-based sequence analysis, we identified a significant number of AMPs that have a strong tendency to form liquid-like condensates in the presence of nucleic acids through phase separation. We demonstrate that this phase separation propensity is linked to the effectiveness of the AMPs in inhibiting transcription and translation in vitro, as well as their ability to compact nucleic acids and form clusters with bacterial nucleic acids in bacterial cells. These results suggest that the AMP-driven compaction of nucleic acids and modulation of their phase transitions constitute a previously unrecognised mechanism by which AMPs exert their antibacterial effects. The development of antimicrobials that target nucleic acid phase transitions may become an attractive route to finding effective and long-lasting antibiotics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Antimicrobial Cationic Peptides/chemistry",
+      "Antimicrobial Peptides",
+      "*Anti-Infective Agents/pharmacology",
+      "Anti-Bacterial Agents/pharmacology",
+      "Bacteria/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sneideris, Tomas",
+        "Erkamp, Nadia A",
+        "Ausserwoger, Hannes",
+        "Saar, Kadi L",
+        "Welsh, Timothy J",
+        "Qian, Daoyuan",
+        "Katsuya-Gaviria, Kai",
+        "Johncock, Margaret L L Y",
+        "Krainer, Georg",
+        "Borodavka, Alexander",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Sneideris T",
+        "Erkamp NA",
+        "Ausserwoger H",
+        "Saar KL",
+        "Welsh TJ",
+        "Qian D",
+        "Katsuya-Gaviria K",
+        "Johncock MLLY",
+        "Krainer G",
+        "Borodavka A",
+        "Knowles TPJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4095-2105",
+        "ORCID: 0000-0003-0762-8872",
+        "ORCID: 0000-0002-5926-3628",
+        "ORCID: 0000-0001-7817-5722",
+        "ORCID: 0000-0002-8539-3346",
+        "ORCID: 0000-0002-0818-7477",
+        "ORCID: 0000-0003-0643-1795",
+        "ORCID: 0000-0002-9626-7636",
+        "ORCID: 0000-0002-5729-2687",
+        "ORCID: 0000-0002-7879-0140"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK.",
+        "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, UK. ab2677@cam.ac.uk.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK. tpjk2@cam.ac.uk.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Ave, Cambridge, UK. tpjk2@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sneideris, Tomas",
+        "short_name": "Sneideris T",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Erkamp, Nadia A",
+        "short_name": "Erkamp NA",
+        "identifiers": [
+          "0000-0003-4095-2105"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Ausserwöger, Hannes",
+        "short_name": "Ausserwöger H",
+        "identifiers": [
+          "0000-0003-0762-8872"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [
+          "0000-0002-5926-3628"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Welsh, Timothy J",
+        "short_name": "Welsh TJ",
+        "identifiers": [
+          "0000-0001-7817-5722"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Qian, Daoyuan",
+        "short_name": "Qian D",
+        "identifiers": [
+          "0000-0002-8539-3346"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Katsuya-Gaviria, Kai",
+        "short_name": "Katsuya-Gaviria K",
+        "identifiers": [
+          "0000-0002-0818-7477"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Johncock, Margaret L L Y",
+        "short_name": "Johncock MLLY",
+        "identifiers": [
+          "0000-0003-0643-1795"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Krainer, Georg",
+        "short_name": "Krainer G",
+        "identifiers": [
+          "0000-0002-9626-7636"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Borodavka, Alexander",
+        "short_name": "Borodavka A",
+        "identifiers": [
+          "0000-0002-5729-2687"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, UK. ab2677@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, UK. tpjk2@cam.ac.uk.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Ave, Cambridge, UK. tpjk2@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Nov 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/08 00:41",
+    "fetched_at": "2026-09-21 02:42:42"
+  },
+  "links": {
+    "cites": [
+      "42621198",
+      "42474037",
+      "42445483",
+      "42332835",
+      "42192130",
+      "42156700",
+      "42074078",
+      "41844723",
+      "41557242",
+      "41481446",
+      "41477210",
+      "41379853",
+      "41301610",
+      "41203654",
+      "41160325",
+      "41140584",
+      "41138864",
+      "41118255",
+      "41085739",
+      "41040397",
+      "41016026",
+      "40983867",
+      "40787370",
+      "40646173",
+      "40493051",
+      "40475503",
+      "39825096",
+      "39620214",
+      "39367191",
+      "39201795",
+      "39065030",
+      "38792795",
+      "38413751"
+    ],
+    "refs": [
+      "36543777",
+      "36421280",
+      "36336658",
+      "35675815",
+      "35333653",
+      "35077681",
+      "34669478",
+      "34507991",
+      "34496967",
+      "34157309",
+      "33878678",
+      "33827920",
+      "33597515",
+      "33502444",
+      "33387533",
+      "33186556",
+      "33178164",
+      "33151284",
+      "32909564",
+      "32710089",
+      "32675239",
+      "32514159",
+      "32456986",
+      "32445438",
+      "32343944",
+      "32302572",
+      "32117132",
+      "32107480",
+      "32004090",
+      "31790873",
+      "30926670",
+      "30682370",
+      "30611750",
+      "30603876",
+      "30471691",
+      "30197298",
+      "30044391",
+      "29961577",
+      "29867793",
+      "29650702",
+      "29602697",
+      "29569441",
+      "29540517",
+      "29526694",
+      "29511089",
+      "29483269",
+      "29192926",
+      "28935776",
+      "28922109",
+      "28556382",
+      "28306503",
+      "28225081",
+      "28083516",
+      "27851933",
+      "27616769",
+      "27212236",
+      "27000559",
+      "26678709",
+      "26602694",
+      "26317470",
+      "26215047",
+      "26015579",
+      "25288112",
+      "24789011",
+      "23680982",
+      "21382611",
+      "20203666",
+      "19601838",
+      "19041293",
+      "18448075",
+      "17272268",
+      "14654705",
+      "12093755",
+      "9514864",
+      "6077933"
+    ],
+    "similar": [
+      "37935659",
+      "31114762",
+      "38306612",
+      "34606679",
+      "34768832",
+      "36905712",
+      "37515922",
+      "37100185",
+      "35254957",
+      "37695921",
+      "36108158",
+      "28167546",
+      "35072444",
+      "34502067",
+      "25629960",
+      "34984699",
+      "21203984",
+      "37499896",
+      "29196622",
+      "35717207",
+      "36115654",
+      "35752270",
+      "35868409",
+      "34323184",
+      "34985302",
+      "36162762",
+      "20423145",
+      "34931393",
+      "34854051",
+      "37509189",
+      "35862981",
+      "37833572",
+      "30611750",
+      "36362111",
+      "36720196",
+      "26902206",
+      "28953347",
+      "36283984",
+      "31581426",
+      "37120707",
+      "33980680",
+      "29103131",
+      "27849600",
+      "23553602",
+      "37240379",
+      "36602379",
+      "35290038",
+      "35604438",
+      "35864258",
+      "38317847",
+      "37450018",
+      "35598243",
+      "29957118",
+      "36370097",
+      "35829704",
+      "36152992",
+      "37356506",
+      "36575095",
+      "34955061",
+      "20696877",
+      "37151189",
+      "32124698",
+      "27213366",
+      "30009702",
+      "34750687",
+      "36056849",
+      "26748808",
+      "30605048",
+      "28035594",
+      "24092498",
+      "36329825",
+      "29671805",
+      "35419659",
+      "36982826",
+      "24211081",
+      "36226982",
+      "36012387",
+      "27612614",
+      "39276418",
+      "15880793",
+      "28814242",
+      "35861280",
+      "34183822",
+      "35262120",
+      "35298806",
+      "35945701",
+      "26139115",
+      "35887325",
+      "22029824",
+      "31637796",
+      "31774045",
+      "18039080",
+      "30439615",
+      "37056758",
+      "36764469",
+      "37419291",
+      "29165350",
+      "25760092",
+      "36195597",
+      "38088493",
+      "34520689",
+      "36903402",
+      "38042311",
+      "38358574",
+      "38507933",
+      "38839785",
+      "35168787",
+      "35290019",
+      "35980829",
+      "38483479",
+      "38333674"
+    ],
+    "review": [
+      "37935659",
+      "34606679",
+      "34768832",
+      "36905712",
+      "37515922",
+      "35254957",
+      "28167546",
+      "35072444",
+      "25629960",
+      "34984699",
+      "21203984",
+      "37499896",
+      "35717207",
+      "35752270",
+      "35868409",
+      "34323184",
+      "34931393",
+      "30611750",
+      "31581426",
+      "23553602",
+      "37240379",
+      "35604438",
+      "38317847",
+      "37450018",
+      "35598243",
+      "29957118",
+      "37356506",
+      "34955061",
+      "20696877",
+      "32124698",
+      "27213366",
+      "30009702",
+      "34750687",
+      "26748808",
+      "30605048",
+      "28035594",
+      "24092498",
+      "36982826",
+      "36012387",
+      "39276418",
+      "15880793",
+      "28814242",
+      "34183822",
+      "35262120",
+      "35945701",
+      "26139115",
+      "31637796",
+      "31774045",
+      "18039080",
+      "30439615",
+      "37056758",
+      "25760092",
+      "38088493",
+      "36903402",
+      "38042311"
+    ],
+    "pmc": [
+      "10630377"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-42374-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37935659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37935659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/242603/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

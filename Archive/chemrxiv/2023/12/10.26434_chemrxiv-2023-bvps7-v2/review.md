@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors introduce InterGraph, a graph neural network model that represents protein-ligand interactions as topological multigraphs with interaction spheres of varying edge densities, trained on PDBbind data and achieving an RMSE of 1.34 on a hold-out test set, with reported accuracy across several protein families and sensitivity to binding mode.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or dataset specifications provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, hyperparameters, dataset split methodology, baseline comparisons, statistical significance tests, and all figures or tables referenced in the abstract
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible approach to binding affinity prediction using multigraph representations of protein-ligand interactions. The core idea of encoding interaction spheres with varying edge densities is conceptually interesting and potentially useful. However, the abstract provides insufficient technical detail to evaluate the novelty, rigor, or generalizability of the method. The reported RMSE of 1.34 lacks context without baseline comparisons or error analysis. The claims regarding family-specific accuracy and binding mode sensitivity are stated without supporting quantitative evidence. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug design would be the primary audience. Researchers developing graph neural network methods for molecular property prediction would also find the multigraph encoding strategy relevant. The potential improvement in binding affinity prediction accuracy could interest pharmaceutical industry scientists involved in virtual screening and lead optimization.
+- **Major strengths** The multigraph representation with interaction spheres is a conceptually novel approach to encoding spatial organization in protein-ligand systems. The explicit filtering of interactions beyond 9 Å is a sensible physical constraint that may reduce noise. The reported sensitivity to binding mode suggests the model captures meaningful structural information rather than relying solely on ligand features.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves an RMSE value of 1.34 on a hold-out test set
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The RMSE value is reported without any comparative baseline, error distribution analysis, or context regarding the range of binding affinities in the test set. It is unclear whether 1.34 represents a meaningful improvement over existing methods or even over simple baselines such as ligand-only models or molecular weight-based predictions.
+  - **Why it matters** Without baseline comparisons, the reader cannot assess whether the multigraph approach provides any advantage over established methods. The central claim of the work, that the multigraph encoding improves binding affinity prediction, requires demonstrating superiority or at least parity with existing state-of-the-art approaches.
+  - **Resolution test** Provide RMSE values for at least one established baseline method (e.g., a standard GNN, a fingerprint-based model, or a published benchmark result) evaluated on the same train-test split. Include error distributions and correlation coefficients to contextualize the reported RMSE.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is trained using a ligand binding dataset from PDBbind and tested on a hold-out test set
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which version of PDBbind was used, how the train-test split was constructed, whether the split was based on protein sequence similarity or ligand scaffold diversity, or whether any data preprocessing steps such as filtering for complex quality or redundancy removal were applied. These details are essential for reproducibility and for assessing potential data leakage.
+  - **Why it matters** Binding affinity prediction benchmarks are highly sensitive to dataset construction. Inappropriate splitting can lead to inflated performance estimates. Without this information, the reported RMSE cannot be independently verified or compared to other published results.
+  - **Resolution test** Specify the PDBbind version, the exact splitting criteria, the number of complexes in training and test sets, and any filtering or clustering steps applied. Ideally, provide the split file or a clear description that allows replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The model exhibits higher accuracy for hydrolase, lyase, and families of proteins involved in mediating protein-protein interactions
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** This claim is made without any quantitative data. No RMSE values, correlation coefficients, or sample sizes are provided for these specific protein families. It is also unclear how these families were defined and whether the sample sizes are sufficient to draw statistically meaningful conclusions.
+  - **Why it matters** Family-specific performance claims, if substantiated, would be valuable for guiding practical applications. However, without supporting statistics, this claim is anecdotal and cannot be evaluated. It may also reflect dataset imbalance rather than genuine model capability.
+  - **Resolution test** Provide per-family RMSE values with sample sizes and confidence intervals. Include a statistical test comparing family-specific performance to the overall performance. Clarify the family classification scheme used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The InterGraph method displayed sensitivity to the binding mode when compared to a set of complexes that had undergone redocking calculations
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the model is sensitive to binding mode but provides no details on the redocking protocol, the number of complexes tested, the magnitude of the sensitivity, or how sensitivity was quantified. It is unclear whether this sensitivity is a desirable property or a source of instability.
+  - **Why it matters** Binding mode sensitivity has practical implications for pose selection in docking workflows. If the model can discriminate correct from incorrect poses, this would be a significant contribution. However, the current statement is too vague to assess the validity or utility of this finding.
+  - **Resolution test** Describe the redocking protocol, the number of complexes, the range of pose deviations tested, and provide quantitative metrics showing how predictions change with pose quality. Compare against a baseline model to demonstrate that the sensitivity is specific to the multigraph approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Interaction spheres definition
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that interaction spheres assign varying edge densities but does not explain how these densities are determined or how the spheres are constructed geometrically.
+  - **Required correction** Provide a brief description of how interaction spheres are defined, including the number of spheres, their radii, and how edge density varies within each sphere.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention any comparison to existing binding affinity prediction models, which would help position the work in the field.
+  - **Required correction** Add a sentence in the results or discussion section referencing at least one or two established methods and how the proposed approach compares.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of the term topological
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term topological is used to describe the multigraph representation, but it is not clear whether this refers to topological data analysis concepts or simply to graph topology.
+  - **Required correction** Clarify the intended meaning of topological in this context, or use a more precise term such as graph-based or structural.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Units and scale
+  - **Affected element** RMSE interpretation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The RMSE of 1.34 is reported without units. Binding affinity is typically expressed in pKd, pKi, or kcal/mol, and the interpretation of the RMSE depends critically on the unit.
+  - **Required correction** State the units of the binding affinity values used in training and evaluation, and if applicable, provide the RMSE in both logarithmic and linear scales.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of baseline comparisons, dataset details, per-family statistics, and binding mode sensitivity quantification collectively prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The multigraph encoding with interaction spheres is a novel contribution that has not been described in the literature to my knowledge. Scientific importance: Binding affinity prediction is a central problem in computational drug discovery, and improvements in accuracy would have broad impact. Interdisciplinary readership: The work bridges machine learning, structural biology, and medicinal chemistry, which aligns with the interdisciplinary scope of Nature. Technical soundness: Cannot be assessed from the abstract alone. The reported results lack the necessary context and statistical rigor to establish technical validity. Readability for nonspecialists: The abstract is written in accessible language, though some terms such as topological multigraphs and interaction spheres would benefit from brief definitions for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising, and I would be supportive if the technical concerns regarding baseline comparisons, dataset transparency, and quantitative substantiation of the family-specific and binding mode sensitivity claims are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of achieving an RMSE of 1.34 is unsupported without baseline comparisons or error analysis.
+- The claim of higher accuracy for specific protein families is unsupported without per-family quantitative data.
+- The claim of binding mode sensitivity is unsupported without details on the redocking protocol and quantitative metrics.
+- The general statement that the model accurately predicts binding affinity values for several protein-ligand complexes is vague and not quantifiable from the abstract.
+- The assertion that interactions beyond 9 Å are not relevant or established is presented as a fact without citation or justification.

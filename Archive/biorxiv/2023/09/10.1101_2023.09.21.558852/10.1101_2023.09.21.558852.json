@@ -1,0 +1,167 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.21.558852",
+  "title": "Systematic identification of inter-chromosomal interaction networks supports the existence of RNA factories",
+  "doi": "10.1101/2023.09.21.558852",
+  "abstract": "Most studies of genome organization have focused on intra-chromosomal ( cis ) contacts because they harbor key features such as DNA loops and topologically associating domains. Inter-chromosomal ( trans ) contacts have received much less attention, and tools for interrogating potential biologically relevant trans structures are lacking. Here, we develop a computational framework to identify sets of loci that jointly interact in trans from Hi-C data. This method, trans-C, initiates probabilistic random walks with restarts from a set of seed loci to traverse an input Hi-C contact network, thereby identifying sets of trans -contacting loci. We validate trans-C in three increasingly complex models of established trans contacts: the Plasmodium falciparum var genes, the mouse olfactory receptor “Greek islands”, and the human RBM20 cardiac splicing factory. We then apply trans-C to systematically test the hypothesis that genes co-regulated by the same trans -acting element (i.e., a transcription or splicing factor) co-localize in three dimensions to form “RNA factories” that maximize the efficiency and accuracy of RNA biogenesis. We find that many loci with multiple binding sites of the same transcription factor interact with one another in trans , especially those bound by transcription factors with intrinsically disordered domains. Similarly, clustered binding of a subset of RNA binding proteins correlates with trans interaction of the encoding loci. These findings support the existence of trans interacting chromatin domains (TIDs) driven by RNA biogenesis. Trans-C provides an efficient computational framework for studying these and other types of trans interactions, empowering studies of a poorly understood aspect of genome architecture.",
+  "authors": [
+    "Hristov BH",
+    "Noble WS",
+    "Bertero A"
+  ],
+  "published_date": "2023-09-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558852",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558852.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR729674",
+    "raw_record": {
+      "id": "PPR729674",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR729674"
+        ]
+      },
+      "doi": "10.1101/2023.09.21.558852",
+      "title": "Systematic identification of inter-chromosomal interaction networks supports the existence of RNA factories",
+      "authorString": "Hristov BH, Noble WS, Bertero A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hristov BH",
+            "lastName": "Hristov",
+            "firstName": "Borislav Hrisimirov",
+            "initials": "BH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noble WS",
+            "lastName": "Noble",
+            "firstName": "William Stafford",
+            "initials": "WS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, USA"
+                },
+                {
+                  "affiliation": "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bertero A",
+            "lastName": "Bertero",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4919-9087"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biotechnology Center “Guido Tarone”, Dept. of Molecular Biotechnology and Health Sciences, University of Turin, Torino, Italy"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4919-9087"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Most studies of genome organization have focused on intra-chromosomal (  cis ) contacts because they harbor key features such as DNA loops and topologically associating domains. Inter-chromosomal (  trans ) contacts have received much less attention, and tools for interrogating potential biologically relevant  trans structures are lacking. Here, we develop a computational framework to identify sets of loci that jointly interact in  trans from Hi-C data. This method, trans-C, initiates probabilistic random walks with restarts from a set of seed loci to traverse an input Hi-C contact network, thereby identifying sets of  trans -contacting loci. We validate trans-C in three increasingly complex models of established  trans contacts: the  Plasmodium falciparum var genes, the mouse olfactory receptor “Greek islands”, and the human RBM20 cardiac splicing factory. We then apply trans-C to systematically test the hypothesis that genes co-regulated by the same  trans -acting element (i.e., a transcription or splicing factor) co-localize in three dimensions to form “RNA factories” that maximize the efficiency and accuracy of RNA biogenesis. We find that many loci with multiple binding sites of the same transcription factor interact with one another in  trans , especially those bound by transcription factors with intrinsically disordered domains. Similarly, clustered binding of a subset of RNA binding proteins correlates with  trans interaction of the encoding loci. These findings support the existence of  trans interacting chromatin domains (TIDs) driven by RNA biogenesis. Trans-C provides an efficient computational framework for studying these and other types of  trans interactions, empowering studies of a poorly understood aspect of genome architecture.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.21.558852"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR729674"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR729674&type=FILE&fileName=EMS188470-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188470",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "igsr"
+        ]
+      },
+      "dateOfCreation": "2023-09-25",
+      "firstPublicationDate": "2023-09-22",
+      "firstIndexDate": "2023-09-25",
+      "fullTextReceivedDate": "2023-11-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

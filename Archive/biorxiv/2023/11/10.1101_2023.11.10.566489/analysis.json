@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.10.566489",
+  "title": "Intrinsically disordered regions and RNA binding domains contribute to protein enrichment in biomolecular condensates in <i>Xenopus</i> oocytes",
+  "authors": "Liam C. O’Connell; Victoria Johnson; Anika K. Hutton; Jessica P. Otis; Anastasia C. Murthy; Mark C. Liang; Szu-Huan Wang; Nicolas L. Fawzi; Kimberly L. Mowry",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-10",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究Xenopus卵母细胞中hnRNPAB的IDR和RNA结合域对L-body凝聚体富集的贡献，对象为IDR/凝聚体且涉及PPI，但方法以实验为主，缺乏AI或物理模拟建模，故评6分。",
+  "abstract": "Proteins containing both intrinsically disordered regions (IDRs) and RNA binding domains (RBDs) can phase separate in vitro , forming bodies similar to cellular biomolecular condensates. However, how IDR and RBD domains contribute to in vivo recruitment of proteins to biomolecular condensates remains poorly understood. Here, we analyzed the roles of IDRs and RBDs in L-bodies, biomolecular condensates present in Xenopus oocytes. We show that a cytoplasmic isoform of hnRNPAB, which contains two RBDs and an IDR, is highly enriched in L-bodies. While both of these domains contribute to hnRNPAB self-association and phase separation in vitro and mediate enrichment into L-bodies in oocytes, neither the RBDs nor the IDR replicate the localization of full-length hnRNPAB. Our results suggest a model where the additive effects of the IDR and RBDs regulate hnRNPAB partitioning into L-bodies. This model likely has widespread applications as proteins containing RBD and IDR domains are common biomolecular condensate residents.",
+  "abstract_zh": "同时含有固有无序区域（IDRs）和RNA结合结构域（RBDs）的蛋白质在体外能够发生相分离（phase separation），形成类似于细胞生物分子凝聚体的结构。然而，IDR和RBD结构域如何促进蛋白质在体内被招募至生物分子凝聚体中，目前仍知之甚少。在此，我们分析了IDRs和RBDs在L-小体（L-bodies）中的作用，L-小体是非洲爪蟾卵母细胞中存在的生物分子凝聚体。我们表明，含有两个RBDs和一个IDR的hnRNPAB细胞质异构体在L-小体中高度富集。尽管这两个结构域均有助于hnRNPAB在体外的自结合和相分离，并介导其在卵母细胞中富集至L-小体，但无论是RBDs还是IDR都无法完全复制全长hnRNPAB的定位。我们的结果提出一个模型，即IDR和RBDs的加性效应调控hnRNPAB在L-小体中的分配。该模型可能具有广泛的应用前景，因为含有RBD和IDR结构域的蛋白质是生物分子凝聚体的常见组成成分。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566489",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566489",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.10.566489/index.html"
+}

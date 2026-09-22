@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.09.647954",
+  "title": "The leader proteins of Theiler’s virus and Boone cardiovirus use a combination of Short Linear Motifs (SLiMs) to target RSK kinases to the nuclear pore complex",
+  "authors": "Lizcano-Perret B; Wavreil F; Veinstein M; Duflos C; Milcamps R; Sorgeloos F; Michiels T",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-10",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究心肌炎病毒L蛋白通过两个短线性基序(SLiM)劫持RSK激酶并靶向核孔复合物RAE1/NUP98的PPI机制，使用AlphaFold预测和共免疫沉淀验证，对象为无序SLiM介导的病毒-宿主互作，但未涉及相分离/凝聚体，方法以实验验证为主、AI预测为辅，机制建模深度中等。",
+  "abstract": "Unrelated pathogens, including viruses and bacteria, use a common DDVF-like short linear motif (SLiM) to interact with cellular kinases of the RSK (p90 S6 ribosomal kinase) family. Such a “DDVF” SLiM occurs in the leader (L) protein encoded by picornaviruses of the genus Cardiovirus , including Theiler’s murine encephalomyelitis virus (TMEV), Boone cardiovirus (BCV), and Encephalomyocarditis virus (EMCV). The L-RSK complex is targeted to the nuclear pore, where RSK triggers FG-nucleoporins hyperphosphorylation, thereby causing nucleocytoplasmic trafficking disruption. In this work, we identified a second SLiM in the L proteins of TMEV and BCV, which enables the L-RSK complex to interact with RAE1 at the level of the nuclear pore complex. AlphaFold predictions suggest that the RAE1-interacting SLiM of L proteins is analogous to that found in unrelated viral proteins such as ORF6 of SARS-CoV-1/2, ORF10 of Kaposi sarcoma-associated herpes virus (KSHV), and the matrix (M) protein of vesicular stomatitis virus (VSV). Co-immunoprecipitations confirmed the interaction between BCV L and RAE1 and competition experiments revealed that L can compete with ORF6 for RAE1 binding, suggesting that BCV and TMEV L proteins interact with RAE1 via the same docking site as M, ORF6, or ORF10. This RAE1 binding SLiM tentatively named “M-acidic”, is predicted to occur in other viral proteins such as Rift valley fever virus NSs as well as in cell proteins such as NXF1. BCV and TMEV L proteins use a combination of two independent SLiMs to hijack cellular kinases and retarget those kinases toward the nuclear pore complex. <h4>Importance</h4> Protein-protein interactions are critical to regulate cell physiology. Short linear motifs (SLiMs) are unstructured protein sequences, which usually bind to structured domains of partner proteins. They typically mediate low affinity, transient interactions, which are particularly suitable for fine tuning cell physiology or helping cells to react promptly to stress situations. Owing to their fast replication and to the high error rate of their polymerases, viruses, particularly RNA viruses are prone to acquire SLiMs that mimic cellular SLiMs and thereby interfere with host cell signaling. In this work, we show that the leader (“L”) protein expressed by some cardioviruses ( Picornaviridae family) uses two SLiMs in combination, which are individually shared by other pathogens: the first one, described previously, enables the L protein to hijack cellular kinases named RSKs, and the second one described in this work enables the L-RSK complex to target proteins RAE1 and NUP98 in the nuclear pore complex.",
+  "abstract_zh": "无关病原体，包括病毒和细菌，利用共同的DDVF样短线性基序（SLiM）与RSK（p90 S6核糖体激酶）家族的细胞激酶相互作用。这种“DDVF”SLiM出现在由心病毒属（Cardiovirus）的小核糖核酸病毒编码的前导（L）蛋白中，包括泰勒氏鼠脑脊髓炎病毒（TMEV）、布恩心病毒（BCV）和脑心肌炎病毒（EMCV）。L-RSK复合物被靶向核孔，在那里RSK触发FG-核孔蛋白过度磷酸化，从而导致核质运输中断。在本工作中，我们在TMEV和BCV的L蛋白中鉴定出第二个SLiM，该基序使L-RSK复合物能够在核孔复合体水平与RAE1相互作用。AlphaFold预测表明，L蛋白的RAE1相互作用SLiM与无关病毒蛋白中发现的类似，如SARS-CoV-1/2的ORF6、卡波西肉瘤相关疱疹病毒（KSHV）的ORF10以及水疱性口炎病毒（VSV）的基质（M）蛋白。免疫共沉淀实验确认了BCV L与RAE1之间的相互作用，竞争实验表明L能与ORF6竞争RAE1结合，提示BCV和TMEV L蛋白通过与M、ORF6或ORF10相同的对接位点与RAE1相互作用。这个RAE1结合SLiM暂命名为“M-acidic”，预计也存在于其他病毒蛋白中，如裂谷热病毒NSs，以及细胞蛋白如NXF1中。BCV和TMEV L蛋白利用两个独立SLiM的组合来劫持细胞激酶，并将这些激酶重新靶向核孔复合体。<h4>重要性</h4>蛋白质-蛋白质相互作用对调节细胞生理至关重要。短线性基序（SLiMs）是无结构的蛋白质序列，通常与伴侣蛋白的结构域结合。它们通常介导低亲和力、瞬时的相互作用，特别适合微调细胞生理或帮助细胞迅速应对应激情况。由于病毒复制速度快且聚合酶错误率高，病毒尤其是RNA病毒易于获得模拟细胞SLiM的基序，从而干扰宿主细胞信号传导。在本工作中，我们展示了某些心病毒（小核糖核酸病毒科）表达的前导（“L”）蛋白组合使用两个SLiM，这两个基序分别由其他病原体共享：第一个基序（先前已描述）使L蛋白能够劫持名为RSK的细胞激酶，第二个基序（本工作描述）使L-RSK复合物能够靶向核孔复合体中的RAE1和NUP98蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.09.647954",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.09.647954",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.09.647954/index.html"
+}

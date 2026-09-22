@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40441417",
+  "title": "Structural Plasticity and Functional Dynamics of Pigeon Cryptochrome 4 as Avian Magnetoreceptor.",
+  "authors": "Xiong, Chuanye; Kandhan, Palanisamy; Zoltowski, Brian D; Tao, Peng",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-05-30",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用T-REMD模拟结合自编码器/t-ICA分析鸽隐花色素4的构象动态，聚焦其IDR（CCE和PBL）的结构可塑性，虽未直接研究PPI，但为无序区域构象机制建模提供了可迁移的计算方法。",
+  "abstract": "Cryptochromes (CRYs) are key flavoproteins involved in biological processes such as circadian rhythm regulation and magnetoreception. Type IV CRYs have been identified as primary candidates for avian magnetoreception. However, their structural flexibility, particularly within the cryptochrome C-terminal extension (CCE) and phosphate-binding loop (PBL), remains poorly understood. In this study, we employed temperature replica exchange molecular dynamics (T-REMD) simulations combined with advanced dimensionality reduction techniques, including autoencoder and time-lagged independent component analysis (t-ICA), to explore the conformational space of Columba livia cryptochrome 4 (ClCRY4), as the only available crystal structure of Type IV CRYs to date. By using Drosophila cryptochrome (dCRY) as a reference structure, we assessed the reliability of T-REMD sampling in capturing key states of ClCRY4. Our results indicate that the CCE region of ClCRY4 displays unique conformational dynamics and cooperative interactions with the PBL, highlighting the need for further investigation. The clustering analysis of ClCRY4 conformations revealed multiple structural states, underscoring the functional significance of its intrinsically disordered regions (IDRs). This study provides a novel computational approach for studies of CRYs dynamics, through which the modeling of one CRY with full structure could be used to benchmark the computational study of another CRY only with partial structural information available.",
+  "abstract_zh": "隐花色素（Cryptochromes, CRYs）是参与昼夜节律调节和磁感应等生物过程的关键黄素蛋白。IV型CRYs已被确定为鸟类磁感应的主要候选分子。然而，其结构灵活性，特别是在隐花色素C端延伸区（CCE）和磷酸盐结合环（PBL）内的灵活性，仍知之甚少。在本研究中，我们采用温度副本交换分子动力学（T-REMD）模拟，结合先进的降维技术，包括自编码器和时间滞后独立成分分析（t-ICA），以探索鸽（Columba livia）隐花色素4（ClCRY4）的构象空间，该结构是迄今唯一可用的IV型CRYs晶体结构。以果蝇隐花色素（dCRY）作为参考结构，我们评估了T-REMD采样在捕捉ClCRY4关键状态中的可靠性。我们的结果表明，ClCRY4的CCE区域表现出独特的构象动力学，并与PBL存在协同相互作用，凸显了进一步研究的必要性。对ClCRY4构象的聚类分析揭示了多种结构状态，强调了其内在无序区域（IDRs）的功能重要性。本研究为CRYs动力学研究提供了一种新颖的计算方法，通过该方法，具有完整结构的CRY建模可用于基准测试仅具有部分结构信息的另一种CRY的计算研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40441417/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40441417/",
+  "paper_page_path": "papers/pubmed/40441417/index.html"
+}

@@ -1,0 +1,326 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.11.681810",
+  "title": "Unfold to refold: Tracking the initial steps of PrP C unfolding in the context of PrP Sc propagation",
+  "doi": "10.1101/2025.10.11.681810",
+  "abstract": "It might have been believed that elucidation of the atomistic structure of PrP Sc would lead to an immediate understanding of the mechanism of prion propagation. However, PrP Sc , now known to be a “simple” amyloid, can just template a previously unfolded polypeptide chain. Therefore, PrP Sc can easily template the disordered ∼90-120 domain of an incoming PrP C molecule, but not its ∼121-231 folded domain (FD). The FD needs to accommodate into the ∼121-230 PrP Sc surface, an inert “procrustean bed”. Thus, a mechanism for concerted unfolding/refolding of the FD must exist, with FD unfolding as a key element. To explore how this might happen, we performed thermal unfolding of recombinant bank vole PrP C (90-231), that is a universal PrP Sc propagator PrP Sc , tracking changes at the residue level with solution NMR to pinpoint early unfolding propensity. Our data suggest that a key early event is the destabilization of the short β1-β2 assembly, and that the segment contiguous to the disordered tail, ∼121-140, encompassing β1 and its adjacent coils, is the most likely region to unfold first. Spectroscopic data obtained at higher temperatures suggest that portions of alpha helix α2 are likely the last elements of the FD to unfold and refold into the PrP Sc conformation. Molecular Dynamics simulations assisted the interpretation of these changes and suggest separation of α1 from the rest of the FD ensemble. Our data provide a conceivable timeline of the early events in PrP Sc -assisted conversion of PrP C and should serve as a starting framework to develop a future atomistic model of PrP Sc propagation.",
+  "authors": [
+    "Sabzehei S",
+    "Rigoli M",
+    "Cacheiro R",
+    "Díaz-Arias I",
+    "Eraña H",
+    "Lago RP",
+    "Guerra A",
+    "Rezaei H",
+    "Castilla J",
+    "Biasini E",
+    "Sánchez-Pedregal VM",
+    "Martín-Pastor M",
+    "Requena JR"
+  ],
+  "published_date": "2025-10-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.11.681810",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.11.681810.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1100341",
+    "raw_record": {
+      "id": "PPR1100341",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1100341"
+        ]
+      },
+      "doi": "10.1101/2025.10.11.681810",
+      "title": "Unfold to refold: Tracking the initial steps of PrP  <sup>C</sup>  unfolding in the context of PrP  <sup>Sc</sup>  propagation",
+      "authorString": "Sabzehei S, Rigoli M, Cacheiro R, Díaz-Arias I, Eraña H, Lago RP, Guerra A, Rezaei H, Castilla J, Biasini E, Sánchez-Pedregal VM, Martín-Pastor M, Requena JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sabzehei S",
+            "lastName": "Sabzehei",
+            "firstName": "Sanaz",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMUS Biomedical Research Institute and Department of Medical Sciences, - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rigoli M",
+            "lastName": "Rigoli",
+            "firstName": "Marta",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7448-1896"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular, Computational and Integrative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cacheiro R",
+            "lastName": "Cacheiro",
+            "firstName": "Raúl",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMUS Biomedical Research Institute and Department of Medical Sciences, - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Díaz-Arias I",
+            "lastName": "Díaz-Arias",
+            "firstName": "Iria",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMUS Biomedical Research Institute and Department of Medical Sciences, - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eraña H",
+            "lastName": "Eraña",
+            "firstName": "Hasier",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Basque Research and Technology Alliance (BRTA), Prion Research Lab, ,"
+                },
+                {
+                  "affiliation": "ATLAS Molecular Pharma S. L. Bizkaia Technology Park, Derio, Spain"
+                },
+                {
+                  "affiliation": "Centro de Investigación Biomédica en Red de Enfermedades Infecciosas (CIBERINFEC), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lago RP",
+            "lastName": "Lago",
+            "firstName": "Rubén",
+            "initials": "RP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMUS Biomedical Research Institute and Department of Medical Sciences, - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guerra A",
+            "lastName": "Guerra",
+            "firstName": "Arcadio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIQUS Research Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rezaei H",
+            "lastName": "Rezaei",
+            "firstName": "Human",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , VIM, Jouy-en-Josas,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castilla J",
+            "lastName": "Castilla",
+            "firstName": "Joaquín",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Basque Research and Technology Alliance (BRTA), Prion Research Lab, ,"
+                },
+                {
+                  "affiliation": "Centro de Investigación Biomédica en Red de Enfermedades Infecciosas (CIBERINFEC), , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biasini E",
+            "lastName": "Biasini",
+            "firstName": "Emiliano",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular, Computational and Integrative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sánchez-Pedregal VM",
+            "lastName": "Sánchez-Pedregal",
+            "firstName": "Víctor",
+            "initials": "VM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Organic Chemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martín-Pastor M",
+            "lastName": "Martín-Pastor",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unidade de Resonancia Magnética, CACTUS, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Requena JR",
+            "lastName": "Requena",
+            "firstName": "Jesús",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMUS Biomedical Research Institute and Department of Medical Sciences, - ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7448-1896"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "It might have been believed that elucidation of the atomistic structure of PrP  Sc would lead to an immediate understanding of the mechanism of prion propagation. However, PrP  Sc , now known to be a “simple” amyloid, can just template a previously unfolded polypeptide chain. Therefore, PrP  Sc can easily template the disordered ∼90-120 domain of an incoming PrP  C molecule, but not its ∼121-231 folded domain (FD). The FD needs to accommodate into the ∼121-230 PrP  Sc surface, an inert “procrustean bed”. Thus, a mechanism for concerted unfolding/refolding of the FD must exist, with FD unfolding as a key element. To explore how this might happen, we performed thermal unfolding of recombinant bank vole PrP  C (90-231), that is a universal PrP  Sc propagator PrP  Sc , tracking changes at the residue level with solution NMR to pinpoint early unfolding propensity. Our data suggest that a key early event is the destabilization of the short β1-β2 assembly, and that the segment contiguous to the disordered tail, ∼121-140, encompassing β1 and its adjacent coils, is the most likely region to unfold first. Spectroscopic data obtained at higher temperatures suggest that portions of alpha helix α2 are likely the last elements of the FD to unfold and refold into the PrP  Sc conformation. Molecular Dynamics simulations assisted the interpretation of these changes and suggest separation of α1 from the rest of the FD ensemble. Our data provide a conceivable timeline of the early events in PrP  Sc -assisted conversion of PrP  C and should serve as a starting framework to develop a future atomistic model of PrP  Sc propagation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Telethon",
+            "grantId": "GGP20043",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.11.681810"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1100341"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1100341&type=FILE&fileName=EMS209824-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209824",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-14",
+      "firstPublicationDate": "2025-10-12",
+      "firstIndexDate": "2025-10-14",
+      "fullTextReceivedDate": "2025-11-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

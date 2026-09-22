@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.07.548080",
+  "title": "SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network",
+  "authors": "Xing Zhang; Hongmei Yin; Fei Ling; Jian Zhan; Yaoqi Zhou",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-07",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于接触图的图神经网络SPIN-CGNN用于固定骨架蛋白序列设计，虽涉及GNN方法，但对象为折叠蛋白设计而非无序蛋白/IDR互作，且无PPI机制建模，仅方法上对图构建有可迁移启发。",
+  "abstract": "Recent advances in deep learning have significantly improved the ability to infer protein sequences directly from protein structures for the fix-backbone design. The methods have evolved from the early use of multi-layer perceptrons to convolutional neural networks, transformer, and graph neural networks (GNN). However, the conventional approach of constructing K-nearest-neighbors (KNN) graph for GNN has limited the utilization of edge information, which plays a critical role in network performance. Here we introduced SPIN-CGNN based on protein contact maps for nearest neighbors. Together with auxiliary edge updates and selective kernels, we found that SPIN-CGNN provided a comparable performance in refolding ability by AlphaFold2 to the current state-of-the-art techniques but a significant improvement over them in term of sequence recovery, perplexity, deviation from amino-acid compositions of native sequences, conservation of hydrophobic positions, and low complexity regions, according to the test by unseen structures and “hallucinated” structures. Results suggest that low complexity regions in the sequences designed by deep learning techniques remain to be improved, when compared to the native sequences.",
+  "abstract_zh": "深度学习的最新进展显著提升了直接从蛋白质结构推断蛋白质序列的能力，用于固定骨架设计。这些方法已从早期使用多层感知器演变为卷积神经网络、Transformer和图神经网络（GNN）。然而，为GNN构建K近邻（KNN）图的传统方法限制了边信息的利用，而边信息在网络性能中起着关键作用。在此，我们引入了基于蛋白质接触图的SPIN-CGNN用于最近邻构建。结合辅助边更新和选择性核，我们发现，根据对未见结构和“幻觉”结构的测试，SPIN-CGNN在AlphaFold2的重折叠能力方面与当前最先进技术表现相当，但在序列恢复率、困惑度、与天然序列氨基酸组成的偏差、疏水位置保守性以及低复杂度区域方面显著优于它们。结果表明，与天然序列相比，深度学习技术设计的序列中的低复杂度区域仍有待改进。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.07.548080",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.07.548080",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.07.548080/index.html"
+}

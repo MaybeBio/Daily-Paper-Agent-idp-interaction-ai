@@ -1,0 +1,301 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.01.502196",
+  "title": "Quantitative real-time in-cell imaging reveals heterogeneous clusters of proteins prior to condensation",
+  "doi": "10.1101/2022.08.01.502196",
+  "abstract": "The formation of biomolecular condensates underpins many cellular processes; however, our current understanding of condensate formation within cells is largely based on observing the final near-equilibrium condensate state. It is less clear how proteins behave before condensates form or at concentrations at which condensation does not occur in cells. Here, we use a combination of fluorescence microscopy and photobleaching analysis to quantify phase separation of negative elongation factor (NELF) in living and stressed cells. We use the recently reported system of stress-induced condensation of NELF in human nuclei as a model to study the behaviour of proteins before condensation. We find that pre-condensate heterogeneous clusters both grow and shrink and are not freely diffusing. Unexpectedly, we also find such small dynamic clusters in unstressed cells in which condensates do not form. We provide a categorisation of small and large clusters based on their dynamics and their response to p38 kinase inhibition. Overall, our data are best explained as non-classical nucleation with a flat free-energy landscape for clusters of a range of sizes and an inhibition of condensation.",
+  "authors": [
+    "Lan C",
+    "Kim J",
+    "Ulferts S",
+    "Aprile-Garcia F",
+    "Anandamurugan A",
+    "Grosse R",
+    "Sawarkar R",
+    "Reinhardt A",
+    "Hugel T"
+  ],
+  "published_date": "2022-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.01.502196",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.01.502196.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR528278",
+    "raw_record": {
+      "id": "PPR528278",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR528278"
+        ]
+      },
+      "doi": "10.1101/2022.08.01.502196",
+      "title": "Quantitative real-time in-cell imaging reveals heterogeneous clusters of proteins prior to condensation",
+      "authorString": "Lan C, Kim J, Ulferts S, Aprile-Garcia F, Anandamurugan A, Grosse R, Sawarkar R, Reinhardt A, Hugel T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lan C",
+            "lastName": "Lan",
+            "firstName": "Chenyang",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, University of Freiburg, Freiburg, Germany"
+                },
+                {
+                  "affiliation": "BIOSS and CIBSS Signalling Research Centres, University of Freiburg, Freiburg, Germany"
+                },
+                {
+                  "affiliation": "PicoQuant GmbH, Rudower Chaussee 29, 12489 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim J",
+            "lastName": "Kim",
+            "firstName": "Juhyeong",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, University of Freiburg, Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ulferts S",
+            "lastName": "Ulferts",
+            "firstName": "Svenja",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental and Clinical Pharmacology and Toxicology, University of Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aprile-Garcia F",
+            "lastName": "Aprile-Garcia",
+            "firstName": "Fernando",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Immunobiology and Epigenetics, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anandamurugan A",
+            "lastName": "Anandamurugan",
+            "firstName": "Abhinaya",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-3850-8727"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, University of Freiburg, Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grosse R",
+            "lastName": "Grosse",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3380-5273"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental and Clinical Pharmacology and Toxicology, University of Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sawarkar R",
+            "lastName": "Sawarkar",
+            "firstName": "Ritwick",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council (MRC), University of Cambridge, Cambridge, CB2 1QR, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reinhardt A",
+            "lastName": "Reinhardt",
+            "firstName": "Aleks",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hugel T",
+            "lastName": "Hugel",
+            "firstName": "Thorsten",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3292-4569"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, University of Freiburg, Freiburg, Germany"
+                },
+                {
+                  "affiliation": "BIOSS and CIBSS Signalling Research Centres, University of Freiburg, Freiburg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3380-5273"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3292-4569"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-3850-8727"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The formation of biomolecular condensates underpins many cellular processes; however, our current understanding of condensate formation within cells is largely based on observing the final near-equilibrium condensate state. It is less clear how proteins behave before condensates form or at concentrations at which condensation does not occur in cells. Here, we use a combination of fluorescence microscopy and photobleaching analysis to quantify phase separation of negative elongation factor (NELF) in living and stressed cells. We use the recently reported system of stress-induced condensation of NELF in human nuclei as a model to study the behaviour of proteins before condensation. We find that pre-condensate heterogeneous clusters both grow and shrink and are not freely diffusing. Unexpectedly, we also find such small dynamic clusters in unstressed cells in which condensates do not form. We provide a categorisation of small and large clusters based on their dynamics and their response to p38 kinase inhibition. Overall, our data are best explained as non-classical nucleation with a flat free-energy landscape for clusters of a range of sizes and an inhibition of condensation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "681891",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/02/2022.08.01.502196.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.01.502196"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR528278"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR528278&type=FILE&fileName=EMS152242-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37582808",
+            "reference": "Nature communications. 2023 Aug;14(1):4831",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152242",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-08-05",
+      "firstPublicationDate": "2022-08-02",
+      "firstIndexDate": "2022-08-05",
+      "fullTextReceivedDate": "2022-09-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

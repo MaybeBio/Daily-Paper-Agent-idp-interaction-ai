@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and figure/table legends as provided.
+- **Assessment boundary** Assessment is limited to the scientific content, experimental design, data interpretation, and internal consistency of the provided manuscript. No external validation of raw data, spectra, or simulation trajectories was performed.
+- **Shared manuscript claim summary** The authors claim that the SARS-CoV-2 NSP1 C-terminal region (residues 131–180, NSP1-CTR) is intrinsically disordered in isolation in aqueous solution, and that it undergoes disorder-to-order transitions, particularly toward alpha-helical conformations, in the presence of TFE, SDS micelles, and lipid vesicles. These conformational changes are attributed primarily to hydrophobic interactions, with supporting evidence from circular dichroism, fluorescence spectroscopy, fluorescence lifetime, anisotropy decay, zeta potential measurements, and molecular dynamics simulations.
+- **Visible evidence base** The evidence base includes: CD spectra in buffer, TFE, SDS, DOPS, and DOPC; intrinsic Trp fluorescence spectra; fluorescence lifetime data (Table 1); time-resolved fluorescence anisotropy decay data (Table 2); zeta potential measurements (Table 3); MD simulation analyses (RMSD, RMSF, Rg, SASA) in water, TFE, SDS, DOPS, and DOPC; and replica-exchange MD simulations at four temperatures. Sequence alignment and disorder prediction (PONDR VSL2) are also presented.
+- **Missing materials affecting confidence** The following materials were not provided and would affect confidence: raw CD spectra with buffer subtraction details; exact protein concentration verification; full fluorescence lifetime fitting parameters (e.g., individual decay components, amplitudes); anisotropy decay raw data and fitting residuals; MD simulation force field parameters and validation of the initial model; convergence criteria for MD simulations; statistical analysis details (e.g., number of replicates, error bars); and details on peptide purity verification beyond the supplier statement.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and timely question regarding the conformational behavior of a functionally important region of SARS-CoV-2 NSP1. The reductionist approach of studying the isolated C-terminal region is reasonable and complements existing structural studies of NSP1 in complex with the ribosome. The combination of biophysical experiments and MD simulations is appropriate for the stated goal. However, the manuscript has several significant weaknesses. The interpretation of the fluorescence data, particularly the anisotropy decay results, is incomplete and potentially overinterpreted. The MD simulation methodology lacks critical details and validation. The claim that hydrophobic interactions are the primary driver of conformational change is not fully supported by the data presented, as electrostatic interactions are not systematically dissected. The manuscript would benefit from a more rigorous quantitative analysis and a clearer presentation of the limitations of the study. Overall, the core observation that NSP1-CTR is disordered in isolation and can adopt helical structure in membrane-mimetic environments is plausible and of interest, but the current evidence does not fully establish the mechanistic claims made.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 molecular biology, particularly those focused on NSP1 function and host translation shutoff, would be interested. Additionally, the broader community studying intrinsically disordered proteins and their conformational transitions in membrane-mimetic environments would find this relevant. The study provides a biophysical characterization of a viral IDR, which could inform future studies on NSP1 inhibitor design and understanding of viral-host interactions.
+- **Major strengths** The study addresses a gap in the literature by characterizing the isolated C-terminal region of NSP1, which has not been previously studied in isolation. The use of multiple complementary biophysical techniques (CD, fluorescence, lifetime, anisotropy, zeta potential) is commendable. The inclusion of MD simulations to complement experimental observations is a strength. The study is relevant to understanding the disorder-to-order transition of a viral protein region implicated in host translation inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of fluorescence anisotropy interpretation
+  - **Claim pointer** The authors state that "the rotational correlation time θ1 (faster rotational correlation time) was observed around one ns in all conditions" and that "rotational correlation time θ2 (slower rotational correlation time) was observed beyond 200 ns at higher SDS concentration, TFE, and ethanol, representing the global conformational dynamics of NSP1-CTR."
+  - **Evidence pointer** Table 2, Figure 8, Section "Time-Resolved Fluorescence Anisotropy Decay"
+  - **Concern** The anisotropy decay data are presented with θ2 values exceeding 200 ns, and in some cases 1300–1600 ns. For a peptide of approximately 50 residues (molecular weight ~5.5 kDa), the expected global rotational correlation time in aqueous solution at room temperature is on the order of a few nanoseconds. Values of 1300–1600 ns are physically implausible for a monomeric peptide of this size and suggest either aggregation, the formation of large micellar complexes, or an artifact in the fitting procedure. The authors do not discuss this discrepancy. The interpretation that these long correlation times represent "global conformational dynamics" of the peptide is not supported by the data. The fitting model (bi-exponential) may not be appropriate, and the lack of reported error bars or goodness-of-fit statistics for the anisotropy decays is a significant omission.
+  - **Why it matters** The anisotropy data are used to support the claim of conformational change and increased order in the presence of SDS, TFE, and ethanol. If the interpretation is incorrect, this line of evidence is invalidated. The implausible correlation times raise questions about the sample state (e.g., aggregation) and the validity of the conclusions drawn from this technique.
+  - **Resolution test** The authors must provide a detailed analysis of the anisotropy decay data, including the individual decay components, their amplitudes, and the goodness-of-fit (e.g., reduced chi-squared). They must explain the physical basis for rotational correlation times exceeding 200 ns for a peptide of this size. Dynamic light scattering or size-exclusion chromatography data to rule out aggregation in the presence of SDS, TFE, and ethanol would be essential. Alternatively, the authors should temper their interpretation of the anisotropy data and acknowledge the possibility of aggregation artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulation methodology
+  - **Claim pointer** The authors state that "the model constituted three helices (residues 145LGDEL149, 155EDFQE159, and 169VTRELMREL177) mainly at C-terminal" and that after simulation in water, the structure "lost its 10% helicity from 42% to 32%." They also describe simulations in TFE, SDS, DOPS, and DOPC.
+  - **Evidence pointer** Section "Molecular dynamics (MD) simulation", Figures 4, 9, 10
+  - **Concern** The MD simulation methodology is described with insufficient detail to assess its validity. The initial model was generated using PepFold, but no information is provided on the quality of this model or how it was validated. The force field used for the simulations is not specified (only "Gromos54A7" is mentioned for the water simulation, but the force field for the TFE, SDS, and lipid simulations is not stated). The simulation of a peptide in 8 M TFE is mentioned, but the TFE model and its parameters are not described. For the lipid simulations, the authors state they used CHARMM-GUI and "previously described parameters," but no citation or specific force field is given. The replica-exchange MD simulations are described, but the exchange rates and convergence criteria are not reported. The statement "the final production MD was performed for 500 ns?" and "All these four replicas were allowed to exchange throughout the simulation period of 100 ns?" contain question marks, suggesting uncertainty in the manuscript itself. Without these details, the simulation results cannot be evaluated.
+  - **Why it matters** The MD simulations are presented as complementary evidence to support the experimental findings. If the simulations are not performed with appropriate methodology, the conclusions drawn from them are not reliable. The lack of force field details, model validation, and convergence analysis prevents the reader from assessing the quality of the simulations.
+  - **Resolution test** The authors must provide a complete description of the simulation methodology, including the force field used for each system, the water model, the TFE and SDS models, the lipid parameters, the equilibration protocol, and the production run lengths. They must also report on the convergence of the simulations (e.g., RMSD stabilization, replica exchange acceptance ratios). The question marks in the text must be resolved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for mechanistic claim of hydrophobic interactions
+  - **Claim pointer** The authors conclude that "the conformational dynamics are primarily because of hydrophobic interaction" and that "hydrophobic interactions primarily play a role in the disorder-structure paradigm of this IDR system."
+  - **Evidence pointer** Section "Zeta potential measurement", Section "Discussion"
+  - **Concern** The claim that hydrophobic interactions are the primary driver of conformational change is not directly tested. The zeta potential measurements show a minor change for DOPS and essentially no change for DOPC upon peptide addition. The authors interpret the lack of charge change for DOPC as evidence for hydrophobic interactions, but this is an indirect inference. The experiments with TFE and SDS do not isolate hydrophobic interactions from other effects (e.g., electrostatic, hydrogen bonding). The authors do not perform experiments with mutations that would alter hydrophobicity or charge to test their hypothesis. The MD simulations could potentially address this, but the analysis presented does not decompose the interaction energies into hydrophobic and electrostatic components.
+  - **Why it matters** The central mechanistic claim of the paper is that hydrophobic interactions drive the conformational transition. Without direct evidence, this claim is speculative. The distinction between hydrophobic and electrostatic interactions is important for understanding the molecular basis of NSP1-CTR function and for potential inhibitor design.
+  - **Resolution test** The authors should either (a) perform additional experiments to directly test the role of hydrophobic interactions (e.g., using a series of peptides with altered hydrophobicity, or using chaotropic agents), (b) provide an energy decomposition analysis from the MD simulations that quantifies hydrophobic versus electrostatic contributions, or (c) significantly temper their mechanistic claims and present the results as descriptive rather than mechanistic.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure legend states "Panel (E) Ellipticity change at 198 nm and 222 nm in the presence of TFE" but the panel labels in the figure are not clearly described in the text. The panels are labeled A, B, D, G, H in the legend, skipping C, E, F, I which are mentioned in the text. This is confusing.
+  - **Required correction** The figure panels should be labeled consistently and the legend should be revised to clearly indicate which panel corresponds to which condition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table lists "CHISEQ (x2)" as a column header. This appears to be a typo for "chi-squared" (χ²). The values are reported without units or context.
+  - **Required correction** Correct the header to "χ²" and provide a brief explanation of the fitting quality metric in the table legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section "Fluorescence lifetime measurement"
+  - **Evidence pointer** Section "Fluorescence lifetime measurement"
+  - **Issue** The excitation wavelength is stated as 284 nm, but the emission wavelength is 345 nm. For Trp fluorescence, the typical excitation wavelength is 280–295 nm. The choice of 284 nm is unusual and should be justified.
+  - **Required correction** Provide a justification for the excitation wavelength or correct it if it is a typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "NSP1-CTR", "NSP1– C terminal", "NSP1-C terminal", and "NSP1–F1" are used inconsistently. The use of en dashes and hyphens varies.
+  - **Required correction** Standardize the terminology and use consistent formatting throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Section "Circular dichroism spectroscopy"
+  - **Evidence pointer** Section "Circular dichroism spectroscopy"
+  - **Issue** The CD spectroscopy section does not specify the temperature at which spectra were recorded, the number of scans averaged, or the path length of the cuvette.
+  - **Required correction** Add these experimental details to the methods section.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Figures 3, 5, 7
+  - **Evidence pointer** Figures 3, 5, 7
+  - **Issue** No error bars or statistical analysis are shown for the CD, fluorescence, or lifetime data. It is unclear how many independent replicates were performed.
+  - **Required correction** Provide information on the number of replicates and include error bars or statistical analysis where appropriate.
+
+## Risk / unsupported claims
+- The claim that "the conformational dynamics are primarily because of hydrophobic interaction" is not directly supported by the experimental data presented. The zeta potential data show only minor changes, and no experiments directly manipulate hydrophobic interactions.
+- The interpretation of the fluorescence anisotropy data, specifically the assignment of θ2 values exceeding 200 ns to "global conformational dynamics," is unsupported and physically implausible for a peptide of this size without aggregation.
+- The statement that "the NSP1-CTR gain helical propensity in the presence of SDS and TFE" is supported by the CD data, but the quantitative extent of this change and its biological relevance are not fully established.
+- The claim that the MD simulations "testify" the experimental results is not fully supported, as the simulation methodology is incompletely described and the correlation between simulation and experiment is qualitative at best.
+- The conclusion that "NSP1-CTR can acquire different structural conformation to perform functional roles in host cells" is speculative and goes beyond the data presented, which only show conformational changes in vitro in the presence of membrane-mimetic agents.

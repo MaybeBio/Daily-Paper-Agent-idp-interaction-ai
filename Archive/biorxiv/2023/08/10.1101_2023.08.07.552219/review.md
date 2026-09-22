@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a systematic assessment of AlphaFold-Multimer for predicting protein interaction interfaces involving folded domains and short linear motifs, propose a fragmentation strategy to optimize sensitivity, apply it to neurodevelopmental disorder-associated proteins, and validate several predicted interfaces experimentally.
+- **Visible evidence base** Abstract text only; no experimental details, statistical measures, or dataset descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, experimental validation protocols, and quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially valuable evaluation of AlphaFold-Multimer for a challenging class of protein interactions, with experimental validation of several predicted interfaces. However, the abstract alone provides insufficient detail to assess the rigor of the computational benchmarking, the validity of the fragmentation strategy, or the strength of the experimental evidence. The claims are plausible but not fully verifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and structural biologists working on protein interaction prediction, particularly those applying deep learning methods to disordered regions and short linear motifs. Experimentalists studying protein interactions in neurodevelopmental disorders may also find the validated interfaces useful. The work addresses a gap in applying AlphaFold-Multimer beyond globular domain interactions.
+- **Major strengths** The study tackles a biologically important and technically challenging problem, namely interface prediction for short linear motif-mediated interactions, which are underrepresented in structural databases. The combination of computational prediction with experimental validation is a strong design. The authors acknowledge limitations, including false positives and sensitivity trade-offs, which indicates a balanced assessment.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that AlphaFold-Multimer predictions were "highly sensitive but not very specific" for small fragments, and that sensitivity decreased with longer fragments or full-length proteins.  
+  - **Evidence pointer** Abstract only; no quantitative metrics or dataset details provided  
+  - **Concern** The abstract reports sensitivity and specificity outcomes without providing any numerical values, thresholds, or definitions of "small" versus "long" fragments. It is unclear how sensitivity and specificity were calculated, what constituted a true positive, or how the ELM database was used as ground truth.  
+  - **Why it matters** Without these details, the central benchmarking claim cannot be evaluated or reproduced. The performance characteristics are the foundation for the proposed fragmentation strategy, so any weakness here undermines the entire methodological contribution.  
+  - **Resolution test** Provide precision, recall, and specificity values with confidence intervals, define fragment length categories, and describe the positive and negative sets used for benchmarking.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that a "fragmentation strategy" was delineated to optimize sensitivity and applied to neurodevelopmental disorder-associated proteins.  
+  - **Evidence pointer** Abstract only; no description of the strategy or its rationale  
+  - **Concern** The fragmentation strategy is mentioned but not described. It is unclear how fragments were generated, what lengths were chosen, how boundaries were selected, or how the strategy was optimized. Without this information, the approach cannot be assessed for novelty or validity.  
+  - **Why it matters** The fragmentation strategy is a key methodological contribution. If it is not clearly defined and justified, the reader cannot determine whether it is a generalizable solution or an ad hoc fix.  
+  - **Resolution test** Provide a detailed description of the fragmentation algorithm, including parameters, optimization criteria, and a comparison against alternative strategies.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The abstract claims that experiments "supported predicted interfaces" for seven protein pairs, providing "novel molecular insights."  
+  - **Evidence pointer** Abstract only; no experimental methods or results described  
+  - **Concern** The experimental validation is summarized in a single sentence. No details are given on the experimental methods used, the nature of the support (e.g., co-immunoprecipitation, mutagenesis, binding assays), or the strength of the evidence. The claim of "novel molecular insights" is not substantiated.  
+  - **Why it matters** Experimental validation is the key differentiator of this work from purely computational studies. If the validation is weak or indirect, the conclusions about interface relevance are not established.  
+  - **Resolution test** Describe the experimental methods, show representative data, and clarify what level of support each interface received (e.g., confirmed binding, functional impact, or structural evidence).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that the work "highlights exciting perspectives, but also reveals clear limitations."  
+  - **Evidence pointer** Abstract only  
+  - **Concern** The abstract does not specify what the "clear limitations" are beyond sensitivity issues with longer fragments. It is unclear whether the limitations are fundamental to AlphaFold-Multimer or specific to the authors' implementation.  
+  - **Why it matters** A balanced assessment of limitations is valuable, but vague statements do not help the community understand where improvements are needed.  
+  - **Resolution test** Enumerate specific limitations with examples, such as failure modes, types of interactions not captured, or computational costs.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses terms like "short linear motifs" and "intrinsically disordered regions" without brief definitions, which may limit accessibility for readers outside structural biology.  
+  - **Required correction** Add a brief parenthetical definition for these terms or rephrase to make the context clearer.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The phrase "highly sensitive but not very specific" is ambiguous without context. It is unclear whether this refers to the fraction of true interfaces recovered or the fraction of predictions that are correct.  
+  - **Required correction** Use standard terminology such as recall and precision, and provide values.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not mention how many total interactions were tested or how many predictions were made, so the scale of the study is unclear.  
+  - **Required correction** Include the number of protein pairs tested and the number of high-confidence predictions generated.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The benchmarking metrics, fragmentation strategy, and experimental validation are all insufficiently described to support the central claims.
+
+## Risk / unsupported claims
+- The claim that AlphaFold-Multimer is "highly sensitive but not very specific" for small fragments is unsupported without quantitative metrics.
+- The claim that the fragmentation strategy "optimizes sensitivity" is unsupported without a description of the strategy and its evaluation.
+- The claim that experiments "supported" seven predicted interfaces is unsupported without experimental details.
+- The claim of "novel molecular insights" for the validated interfaces is unsupported without functional or mechanistic data.
+- The general applicability of the approach to other interaction types is not assessable from the abstract.

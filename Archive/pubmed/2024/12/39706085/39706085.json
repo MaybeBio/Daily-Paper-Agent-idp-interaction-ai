@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "39706085",
+    "doi": "10.1016/j.jcis.2024.12.064",
+    "title": "Assessing the interaction between the N-terminal region of the membrane protein magnesium transporter A and a lipid bilayer."
+  },
+  "content": {
+    "abstract": "This study investigates the interaction of KEIF, the intrinsically disordered N-terminal region of the magnesium transporter MgtA, with lipid bilayers mimicking cell membranes. Combining experimental techniques such as neutron reflectometry (NR), quartz-crystal microbalance with dissipation monitoring (QCM-D), synchrotron radiation circular dichroism (SRCD), and oriented circular dichroism (OCD), with molecular dynamics (MD) simulations, we characterized KEIF's adsorption behavior. HYPOTHESIS: KEIF undergoes conformational changes upon interacting with lipid bilayers, potentially influencing MgtA's function within the plasma membrane. EXPERIMENTS: The study assessed KEIF's structural transitions and position within lipid bilayers under various conditions, including zwitterionic versus anionic bilayers and different salt concentrations. The techniques analyzed adsorption-induced structural shifts and peptide localization within the bilayer. FINDINGS: KEIF transitions from a disordered to a more structured state, notably increasing alpha-helical content upon adsorption to lipid bilayers. The peptide resides primarily in the hydrophobic tail region of the bilayer, where it may displace lipids. Electrostatic interactions, modulated by bilayer charge and ionic strength, play a critical role. These results suggest that KEIF's conformational changes and bilayer interactions can be integral to its potential modulatory role in MgtA function within the plasma membrane. This research highlights the importance of surface-induced structural transitions in intrinsically disordered proteins and their implications for membrane protein modulation.",
+    "keywords": [
+      "Intrinsically disordered proteins",
+      "Lipid bilayer",
+      "MgtA",
+      "Peptide adsorption",
+      "Protein-lipid interaction"
+    ],
+    "mesh_terms": [
+      "*Lipid Bilayers/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Bacterial Proteins/chemistry/metabolism",
+      "*Cation Transport Proteins/chemistry/metabolism",
+      "Antiporters"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Skog, Amanda Eriksson",
+        "Jones, Nykola C",
+        "Mansson, Linda K",
+        "Morth, Jens Preben",
+        "Vronning Hoffmann, Soren",
+        "Gerelli, Yuri",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Skog AE",
+        "Jones NC",
+        "Mansson LK",
+        "Morth JP",
+        "Vronning Hoffmann S",
+        "Gerelli Y",
+        "Skepo M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden.",
+        "ISA, Department of Physics & Astronomy, Aarhus University, Aarhus C, 8000, Denmark.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden.",
+        "Section for Protein Chemistry and Enzyme Technology, Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Kgs. Lyngby, 2800, Denmark.",
+        "ISA, Department of Physics & Astronomy, Aarhus University, Aarhus C, 8000, Denmark.",
+        "Institute for Complex Systems, Consiglio Nazionale delle Ricerche, Piazzale Aldo Moro 5, Roma, 00185, Italy; Department of Physics, Sapienza University of Rome,Piazzale Aldo Moro 2, Roma, 00185, Italy.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden. Electronic address: marie.skepo@compchem.lu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Skog, Amanda Eriksson",
+        "short_name": "Skog AE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jones, Nykola C",
+        "short_name": "Jones NC",
+        "identifiers": [],
+        "affiliations": [
+          "ISA, Department of Physics & Astronomy, Aarhus University, Aarhus C, 8000, Denmark."
+        ]
+      },
+      {
+        "full_name": "Månsson, Linda K",
+        "short_name": "Månsson LK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden."
+        ]
+      },
+      {
+        "full_name": "Morth, Jens Preben",
+        "short_name": "Morth JP",
+        "identifiers": [],
+        "affiliations": [
+          "Section for Protein Chemistry and Enzyme Technology, Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Kgs. Lyngby, 2800, Denmark."
+        ]
+      },
+      {
+        "full_name": "Vrønning Hoffmann, Søren",
+        "short_name": "Vrønning Hoffmann S",
+        "identifiers": [],
+        "affiliations": [
+          "ISA, Department of Physics & Astronomy, Aarhus University, Aarhus C, 8000, Denmark."
+        ]
+      },
+      {
+        "full_name": "Gerelli, Yuri",
+        "short_name": "Gerelli Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Complex Systems, Consiglio Nazionale delle Ricerche, Piazzale Aldo Moro 5, Roma, 00185, Italy; Department of Physics, Sapienza University of Rome,Piazzale Aldo Moro 2, Roma, 00185, Italy."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, Lund, 22100, Sweden. Electronic address: marie.skepo@compchem.lu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/21 16:43",
+    "fetched_at": "2026-09-21 13:47:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39706085",
+      "32316569",
+      "23823878",
+      "31039613",
+      "31769649",
+      "24374318",
+      "36387274",
+      "31012268",
+      "38776691",
+      "39490263",
+      "23493873",
+      "35736265",
+      "30292933",
+      "21294560",
+      "20036213",
+      "32696378",
+      "29291379",
+      "26649316",
+      "25307196",
+      "9724538",
+      "37227075",
+      "8823199",
+      "29106975",
+      "28585804",
+      "24892900",
+      "28623699",
+      "40149898",
+      "34424234",
+      "26042544",
+      "26305016",
+      "24561501",
+      "26756718",
+      "23073177",
+      "34266242",
+      "22500755",
+      "39450869",
+      "27987458",
+      "40191893",
+      "31324942",
+      "7626245",
+      "34576869",
+      "35594588",
+      "29660601",
+      "39892008",
+      "24383916",
+      "31118479",
+      "16852905",
+      "24530910",
+      "22108168",
+      "38100855",
+      "15035638",
+      "22844242",
+      "15454444",
+      "36142470",
+      "24236572",
+      "33877598",
+      "28623332",
+      "26188795",
+      "30550881",
+      "24429702",
+      "32589394",
+      "24628664",
+      "39306670",
+      "35662645",
+      "11148042",
+      "28888369",
+      "30021071",
+      "39558641",
+      "22947861",
+      "12911309",
+      "29340405",
+      "10563802",
+      "39150323",
+      "26947182",
+      "24281254",
+      "26650755",
+      "27616067",
+      "39046846",
+      "31560853",
+      "33721805",
+      "27995125",
+      "26354323",
+      "33818061",
+      "17207456",
+      "35951303",
+      "19003888",
+      "29125878",
+      "37210796",
+      "22693597",
+      "29753257",
+      "18850739",
+      "19576903",
+      "15274634",
+      "17240980",
+      "38942776",
+      "28367578",
+      "25646717",
+      "28636916",
+      "21105749",
+      "19459601"
+    ],
+    "review": [
+      "39706085",
+      "27995125"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(24)02916-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

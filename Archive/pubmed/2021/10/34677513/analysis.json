@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34677513",
+  "title": "Plant Sterol Clustering Correlates with Membrane Microdomains as Revealed by Optical and Computational Microscopy.",
+  "authors": "Tang, Ling; Li, Yang; Zhong, Cheng; Deng, Xin; Wang, Xiaohua",
+  "journal": "Membranes",
+  "published_date": "2021-10-23",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文结合FLIM与全原子多尺度MD模拟研究植物甾醇与磷脂的相互作用及膜微域/相分离形成，对象为脂质膜而非无序蛋白/IDR，且不涉及蛋白-蛋白互作，但MD模拟膜相分离的机制建模思路对IDR介导的凝聚体相分离研究有一定方法学启发。",
+  "abstract": "Local inhomogeneities in lipid composition play a crucial role in the regulation of signal transduction and membrane traffic. This is particularly the case for plant plasma membrane, which is enriched in specific lipids, such as free and conjugated forms of phytosterols and typical phytosphingolipids. Nevertheless, most evidence for microdomains in cells remains indirect, and the nature of membrane inhomogeneities has been difficult to characterize. We used a new push-pull pyrene probe and fluorescence lifetime imaging microscopy (FLIM) combined with all-atom multiscale molecular dynamics simulations to provide a detailed view on the interaction between phospholipids and phytosterol and the effect of modulating cellular phytosterols on membrane-associated microdomains and phase separation formation. Our understanding of the organization principles of biomembranes is limited mainly by the challenge to measure distributions and interactions of lipids and proteins within the complex environment of living cells. Comparing phospholipids/phytosterol compositions typical of liquid-disordered (Ld) and liquid-ordered (Lo) domains, we furthermore show that phytosterols play crucial roles in membrane homeostasis. The simulation work highlights how state-of-the-art modeling alleviates some of the prior concerns and how unrefuted discoveries can be made through a computational microscope. Altogether, our results support the role of phytosterols in the lateral structuring of the PM of plant cells and suggest that they are key compounds for the formation of plant PM microdomains and the lipid-ordered phase.",
+  "abstract_zh": "脂质组成的局部不均一性在信号转导和膜运输的调控中起着关键作用。植物质膜尤其如此，其富含特定脂质，如游离和结合形式的植物甾醇及典型的植物鞘脂。然而，细胞中微结构域的大多数证据仍是间接的，膜不均一性的本质一直难以表征。我们使用了一种新型推拉型芘探针和荧光寿命成像显微镜 (FLIM)，结合全原子多尺度分子动力学 (molecular dynamics) 模拟，以提供关于磷脂与植物甾醇之间相互作用以及调节细胞植物甾醇对膜相关微结构域和相分离 (phase separation) 形成影响的详细视图。我们对生物膜组织原理的理解主要受限于在活细胞复杂环境中测量脂质和蛋白质分布及相互作用的挑战。通过比较典型液体无序 (Ld) 和液体有序 (Lo) 结构域的磷脂/植物甾醇组成，我们进一步表明植物甾醇在膜稳态中发挥关键作用。模拟工作突显了最先进的建模如何缓解先前的一些担忧，以及如何通过计算显微镜做出无可辩驳的发现。总体而言，我们的结果支持植物甾醇在植物细胞质膜 (PM) 横向结构化中的作用，并表明它们是植物PM微结构域和脂质有序相形成的关键化合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34677513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34677513/",
+  "paper_page_path": "papers/pubmed/34677513/index.html"
+}

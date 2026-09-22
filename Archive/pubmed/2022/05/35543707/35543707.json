@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "35543707",
+    "doi": "10.1021/acs.jpcb.1c10954",
+    "title": "Molecular Dynamics-Assisted Interpretation of Experimentally Determined Intrinsically Disordered Protein Conformational Components: The Case of Human alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Mass spectrometry and single molecule force microscopy are two experimental approaches able to provide structural information on intrinsically disordered proteins (IDPs). These techniques allow the dissection of conformational ensembles in their main components, although at a low-resolution level. In this work, we interpret the results emerging from these experimental approaches on human alpha synuclein (AS) by analyzing a previously published 73 mus-long molecular-dynamics (MD) simulation of the protein in explicit solvent. We further compare MD-based predictions of single molecule Forster resonance energy transfer (smFRET) data of AS in solution with experimental data. The combined theoretical and experimental data provide a description of AS main conformational ensemble, shedding light into its intramolecular interactions and overall structural compactness. This analysis could be easily transferred to other IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Single Molecule Imaging",
+      "alpha-Synuclein/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Palomino-Hernandez, Oscar",
+        "Santambrogio, Carlo",
+        "Rossetti, Giulia",
+        "Fernandez, Claudio O",
+        "Grandori, Rita",
+        "Carloni, Paolo"
+      ],
+      "short_names": [
+        "Palomino-Hernandez O",
+        "Santambrogio C",
+        "Rossetti G",
+        "Fernandez CO",
+        "Grandori R",
+        "Carloni P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2032-4630",
+        "ORCID: 0000-0003-0454-7735",
+        "ORCID: 0000-0002-9010-0149"
+      ],
+      "affiliations": [
+        "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen, 52425 Aachen, Germany.",
+        "Computation-Based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus.",
+        "Institute of Life Science, The Hebrew University of Jerusalem, 91904 Jerusalem, Israel.",
+        "Department of Biotechnology and Biosciences, University of Milan-Bicocca, 20126 Milan, Italy.",
+        "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Department of Neurology, University Hospital Aachen, RWTH Aachen University, Pauwelsstrasse 30, 52074 Aachen, Germany.",
+        "Julich Supercomputing Center (JSC), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Max Planck Laboratory for Structural Biology, Chemistry and Molecular Biophysics of Rosario (MPLbioR, UNR-MPI-NAT). Partner Laboratory of the Max Planck Institute for Biophysical Chemistry (MPI-NAT, MPG). Centro de Estudios Interdisciplinarios, Universidad Nacional de Rosario, Rosario, Argentina S2002LRK Rosario, Argentina.",
+        "Department of Biotechnology and Biosciences, University of Milan-Bicocca, 20126 Milan, Italy.",
+        "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen, 52425 Aachen, Germany.",
+        "Institute for Neuroscience and Medicine (INM-11) Forschungszentrum Julich, 52425 Julich, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Palomino-Hernandez, Oscar",
+        "short_name": "Palomino-Hernandez O",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen, 52425 Aachen, Germany.",
+          "Computation-Based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus.",
+          "Institute of Life Science, The Hebrew University of Jerusalem, 91904 Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Santambrogio, Carlo",
+        "short_name": "Santambrogio C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biosciences, University of Milan-Bicocca, 20126 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Rossetti, Giulia",
+        "short_name": "Rossetti G",
+        "identifiers": [
+          "0000-0002-2032-4630"
+        ],
+        "affiliations": [
+          "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Department of Neurology, University Hospital Aachen, RWTH Aachen University, Pauwelsstraße 30, 52074 Aachen, Germany.",
+          "Jülich Supercomputing Center (JSC), Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Fernandez, Claudio O",
+        "short_name": "Fernandez CO",
+        "identifiers": [
+          "0000-0003-0454-7735"
+        ],
+        "affiliations": [
+          "Max Planck Laboratory for Structural Biology, Chemistry and Molecular Biophysics of Rosario (MPLbioR, UNR-MPI-NAT). Partner Laboratory of the Max Planck Institute for Biophysical Chemistry (MPI-NAT, MPG). Centro de Estudios Interdisciplinarios, Universidad Nacional de Rosario, Rosario, Argentina S2002LRK Rosario, Argentina."
+        ]
+      },
+      {
+        "full_name": "Grandori, Rita",
+        "short_name": "Grandori R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biosciences, University of Milan-Bicocca, 20126 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Carloni, Paolo",
+        "short_name": "Carloni P",
+        "identifiers": [
+          "0000-0002-9010-0149"
+        ],
+        "affiliations": [
+          "Computational Biomedicine, Institute for Neuroscience and Medicine (INM-9) and Institute for Advanced Simulations (IAS-5), Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen, 52425 Aachen, Germany.",
+          "Institute for Neuroscience and Medicine (INM-11) Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2022 May 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/12 06:00",
+    "fetched_at": "2026-09-20 10:18:03"
+  },
+  "links": {
+    "cites": [
+      "37982746",
+      "37407505",
+      "37338049",
+      "37165646"
+    ],
+    "refs": [],
+    "similar": [
+      "35543707",
+      "32840111",
+      "31809054",
+      "30840442",
+      "32623047",
+      "31635031",
+      "30933517",
+      "33581430",
+      "30184304",
+      "30979035",
+      "35950933",
+      "30771181",
+      "29621630",
+      "32159932",
+      "30413085",
+      "36416865",
+      "37407505",
+      "36934808",
+      "36641212",
+      "32859072",
+      "36217309",
+      "24361273",
+      "35129612",
+      "33355572",
+      "35053175",
+      "32453478",
+      "38996889",
+      "31241933",
+      "25331250",
+      "32097582",
+      "34015255",
+      "34252246",
+      "29474083",
+      "37982746",
+      "26437245",
+      "34680048",
+      "31699336",
+      "31903719",
+      "26387101",
+      "22760335",
+      "22947936",
+      "34944399",
+      "33444020",
+      "32579908",
+      "38275091",
+      "26387099",
+      "33345970",
+      "25919886",
+      "31297688",
+      "31548393",
+      "28095698",
+      "30471690",
+      "25375525",
+      "28805390",
+      "31402649",
+      "23214618",
+      "32696379",
+      "26030189",
+      "27588692",
+      "30002265",
+      "35934194",
+      "37990496",
+      "25345588",
+      "30876367",
+      "23794453",
+      "25367087",
+      "37338049",
+      "25771525",
+      "20580965",
+      "29490247",
+      "30813629",
+      "27159632",
+      "35130691",
+      "34543573",
+      "20499903",
+      "31375817",
+      "28612216",
+      "30865832",
+      "37133846",
+      "31552948",
+      "32698546",
+      "32239382",
+      "36463772",
+      "33310020",
+      "34656328",
+      "29548979",
+      "31613621",
+      "29733855",
+      "35912724",
+      "26387104",
+      "29792674",
+      "36750251",
+      "29492731",
+      "39190324",
+      "34546059",
+      "30917118",
+      "32816485",
+      "26566073",
+      "24410358",
+      "30365227",
+      "25855872",
+      "30230839",
+      "31021441",
+      "29157493",
+      "28834051",
+      "28493424",
+      "27159340",
+      "31477241",
+      "27844185",
+      "30909517",
+      "33831596",
+      "37459524",
+      "35926718",
+      "29642031",
+      "26807783",
+      "38053335",
+      "37458354",
+      "30632561",
+      "38351230",
+      "33481784",
+      "37904608",
+      "35923464",
+      "37241789",
+      "37114769",
+      "27802394",
+      "38461354",
+      "37406151",
+      "37106781",
+      "33096078",
+      "28003858",
+      "38830621",
+      "34888535",
+      "33246199",
+      "36671771",
+      "21297620",
+      "32268219",
+      "38895430"
+    ],
+    "review": [
+      "35543707",
+      "30840442",
+      "30979035",
+      "30413085",
+      "36217309",
+      "35129612",
+      "33355572",
+      "35053175",
+      "32097582",
+      "34680048",
+      "26387101",
+      "22760335",
+      "26387099",
+      "23794453",
+      "30813629",
+      "28612216",
+      "36463772",
+      "26387104",
+      "36750251",
+      "30365227",
+      "31021441",
+      "29157493",
+      "30909517",
+      "35926718",
+      "26807783",
+      "37241789",
+      "33096078",
+      "28003858",
+      "33246199"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c10954",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

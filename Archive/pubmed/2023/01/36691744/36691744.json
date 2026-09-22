@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "36691744",
+    "doi": "10.1002/pro.4572",
+    "title": "Structural investigation of CDCA3-Cdh1 protein-protein interactions using in vitro studies and molecular dynamics simulation."
+  },
+  "content": {
+    "abstract": "The anaphase-promoting complex/cyclosome (APC/C) ubiquitin ligase and its cofactor, Cdh1, regulate the expression of several cell-cycle proteins and their functions during mitosis. Levels of the protein cell division cycle-associated protein 3 (CDCA3), which is functionally required for mitotic entry, are regulated by APC/C(Cdh1) . CDCA3 is an intrinsically disordered protein and contains both C-terminal KEN box and D-box recognition motifs, enabling binding to Cdh1. Our previous findings demonstrate that CDCA3 has a phosphorylation-dependent non-canonical ABBA-like motif within the linker region bridging these two recognition motifs and is required for efficient binding to Cdh1. Here, we sought to identify and further characterize additional residues that participate within this ABBA-like motif using detailed in vitro experiments and in silico modeling studies. We identified the role of H-bonds, hydrophobic and ionic interactions across the CDCA3 ABBA-like motif in the linker region between KEN and D-box motifs. This linker region adopts a well-defined structure when bound to Cdh1 in the presence of phosphorylation. Upon alanine mutation, the structure of this region is lost, leading to higher flexibility, and alteration in affinities due to binding to alternate sites on Cdh1. Our findings identify roles for the anchoring residues in the non-canonical ABBA-like motif to promote binding to the APC/C(Cdh1) and regulation of CDCA3 protein levels.",
+    "keywords": [
+      "CDCA3",
+      "Cdh1",
+      "anaphase-promoting complex/cyclosome",
+      "co-immunoprecipitation",
+      "molecular dynamics simulation",
+      "pairwise energy decomposition"
+    ],
+    "mesh_terms": [
+      "Cdh1 Proteins/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Anaphase-Promoting Complex-Cyclosome/metabolism",
+      "*Cell Cycle Proteins/chemistry",
+      "Cell Cycle"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbhuiya, Tabassum Khair",
+        "Fisher, Mark",
+        "Boittier, Eric D",
+        "Bolderson, Emma",
+        "O'Byrne, Kenneth J",
+        "Richard, Derek J",
+        "Adams, Mark Nathaniel",
+        "Gandhi, Neha S"
+      ],
+      "short_names": [
+        "Barbhuiya TK",
+        "Fisher M",
+        "Boittier ED",
+        "Bolderson E",
+        "O'Byrne KJ",
+        "Richard DJ",
+        "Adams MN",
+        "Gandhi NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8975-4877",
+        "ORCID: 0000-0003-3422-454X",
+        "ORCID: 0000-0002-9611-1017",
+        "ORCID: 0000-0002-2849-1177",
+        "ORCID: 0000-0002-6754-5633",
+        "ORCID: 0000-0002-4839-8471",
+        "ORCID: 0000-0003-1906-5018",
+        "ORCID: 0000-0003-3119-6731"
+      ],
+      "affiliations": [
+        "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia.",
+        "Department of Chemistry, University of Basel, Basel, Switzerland.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia.",
+        "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+        "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbhuiya, Tabassum Khair",
+        "short_name": "Barbhuiya TK",
+        "identifiers": [
+          "0000-0001-8975-4877"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Fisher, Mark",
+        "short_name": "Fisher M",
+        "identifiers": [
+          "0000-0003-3422-454X"
+        ],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Boittier, Eric D",
+        "short_name": "Boittier ED",
+        "identifiers": [
+          "0000-0002-9611-1017"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bolderson, Emma",
+        "short_name": "Bolderson E",
+        "identifiers": [
+          "0000-0002-2849-1177"
+        ],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "O'Byrne, Kenneth J",
+        "short_name": "O'Byrne KJ",
+        "identifiers": [
+          "0000-0002-6754-5633"
+        ],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Richard, Derek J",
+        "short_name": "Richard DJ",
+        "identifiers": [
+          "0000-0002-4839-8471"
+        ],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Adams, Mark Nathaniel",
+        "short_name": "Adams MN",
+        "identifiers": [
+          "0000-0003-1906-5018"
+        ],
+        "affiliations": [
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia.",
+          "Centre for Genomics and Personalised Health, and School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Kelvin Grove, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Neha S",
+        "short_name": "Gandhi NS",
+        "identifiers": [
+          "0000-0003-3119-6731"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalised Health, and School of Chemistry and Physics, Faculty of Science, Queensland University of Technology, Brisbane, Queensland, Australia.",
+          "Cancer and Ageing Research Program, Woolloongabba, Queensland, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/25 06:00",
+    "fetched_at": "2026-09-20 18:49:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35752942",
+      "35637307",
+      "34572879",
+      "34050247",
+      "34025949",
+      "33207556",
+      "32881101",
+      "31455778",
+      "31211445",
+      "31062799",
+      "30816466",
+      "30368859",
+      "30226575",
+      "29627567",
+      "29497085",
+      "29467944",
+      "28487093",
+      "28423514",
+      "27444142",
+      "26636222",
+      "26605738",
+      "26592383",
+      "26583988",
+      "26083744",
+      "25673160",
+      "25669885",
+      "23707760",
+      "23264757",
+      "23219899",
+      "22839099",
+      "22582031",
+      "22182469",
+      "21541066",
+      "20408171",
+      "17677198",
+      "17545237",
+      "16763193",
+      "15268177",
+      "15264254",
+      "15048829",
+      "12679038",
+      "6667333"
+    ],
+    "similar": [
+      "36691744",
+      "27226622",
+      "21107322",
+      "12208850",
+      "18596038",
+      "24163370",
+      "23707760",
+      "23091007",
+      "25072887",
+      "26994663",
+      "10733526",
+      "12956947",
+      "18519589",
+      "18573889",
+      "17158872",
+      "16287863",
+      "26252546",
+      "37146968",
+      "31562243",
+      "30396569",
+      "27120157",
+      "30303738",
+      "11562348",
+      "24301314",
+      "23049888",
+      "27368103",
+      "27410035",
+      "25540434",
+      "10793135",
+      "21460798",
+      "18321983",
+      "10500174",
+      "31000600",
+      "27939943",
+      "26083744",
+      "25825779",
+      "20053638",
+      "14701726",
+      "23029325",
+      "23708605",
+      "16204042",
+      "29883473",
+      "24004664",
+      "9651679",
+      "23972993",
+      "17726374",
+      "23933137",
+      "27080259",
+      "15916961",
+      "11448992",
+      "35729193",
+      "11340163",
+      "33971196",
+      "18556659",
+      "26650195",
+      "16113654",
+      "32165320",
+      "29875408",
+      "16455800",
+      "14742878",
+      "24301385",
+      "19015261",
+      "38622115",
+      "17030612",
+      "11003657",
+      "16123585",
+      "16921029",
+      "22479614",
+      "15536123",
+      "25669885",
+      "16810178",
+      "17376772",
+      "31420536",
+      "32572094",
+      "21986944",
+      "10848588",
+      "22437499",
+      "18976910",
+      "19390576",
+      "15014502",
+      "21186364",
+      "25490258",
+      "18498748",
+      "15916960",
+      "31175280",
+      "15467459",
+      "29700288",
+      "21092369",
+      "20064487",
+      "11562349",
+      "27514492",
+      "34271087",
+      "19362536",
+      "16138013",
+      "20089834",
+      "33310066",
+      "11566880",
+      "11782312",
+      "35634770",
+      "28502659"
+    ],
+    "review": [
+      "36691744",
+      "26650195",
+      "32165320"
+    ],
+    "pmc": [
+      "9926468"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36691744.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36691744/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36691744",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4572",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1599",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

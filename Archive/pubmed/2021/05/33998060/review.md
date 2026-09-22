@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the 18.5-kDa isoform of myelin basic protein (MBP) adopts a helical conformation upon binding to phosphatidylinositol (PI)-containing liposomes, with increased helix content in the presence of more negatively charged phosphoinositides (PIP and PIP2). Secondary-structure analysis indicates approximately 40% helix content comprising eight helical segments. Molecular-dynamics (MD) simulations of these segments in the presence of a PI membrane predict two amphiphilic and three nonamphiphilic helices as membrane-interaction sites, with proposed electrostatic and hydrophobic interaction mechanisms.
+- **Visible evidence base** Abstract text only; no spectra, analysis details, simulation parameters, or structural data are provided
+- **Missing materials affecting confidence** Full manuscript, VUVCD spectra, secondary-structure analysis methodology and results, MD simulation setup and validation, distance analysis details, and any statistical or error assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible biophysical study combining vacuum-ultraviolet circular-dichroism (VUVCD) spectroscopy and molecular-dynamics simulations to characterize MBP conformation on phosphoinositide-containing membranes. The central claim that MBP forms approximately 40% helical content with eight segments and that specific helices mediate membrane interaction through distinct mechanisms is interesting but cannot be adequately evaluated from the abstract alone. The isodichroic point observation is a notable feature that supports a two-state transition model, but the quantitative and mechanistic conclusions require scrutiny of the full data.
+- **Who would be interested in the results, and why** Researchers in myelin biology, membrane protein biophysics, and lipid-protein interaction studies would find these results relevant. The work addresses the structural basis of MBP-membrane interactions, which is central to understanding myelin sheath compaction and demyelinating diseases such as multiple sclerosis. The combined spectroscopic and computational approach may also interest methodologists in the VUVCD and MD simulation communities.
+- **Major strengths** The study addresses a biologically important question regarding the membrane-bound conformation of MBP. The use of VUVCD to access far-UV spectral features is technically advanced. The systematic variation of phosphoinositide headgroup charge (PI, PIP, PIP2) provides a logical framework for probing electrostatic effects. The integration of experimental secondary-structure determination with MD simulations offers a complementary approach to characterize membrane-interaction sites.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that secondary-structure analysis revealed approximately 40% helix contents and eight helix segments in the membrane-bound state.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the method used for secondary-structure analysis from VUVCD spectra, nor does it provide any error estimates or validation of the derived helix content and segment number. The assignment of exactly eight helix segments from spectral data alone is unusual and requires justification, as CD-based secondary-structure estimation typically provides fractional content rather than discrete segment counts.
+  - **Why it matters** The claim of eight specific helix segments is a central quantitative result that underpins the subsequent MD simulations. If the segment assignment is not robustly derived, the entire simulation strategy and its conclusions are compromised.
+  - **Resolution test** The full manuscript must describe the secondary-structure analysis algorithm, its validation against known protein structures, the uncertainty in helix content estimates, and the criteria used to define discrete helix segments. A cross-validation with an independent method (e.g., NMR or crystallography on a related construct) would strengthen confidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD simulations of the eight segments predicted two amphiphilic and three nonamphiphilic helices as membrane-interaction sites, with nonamphiphilic helices interacting electrostatically and amphiphilic helices invading the membrane interior.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no information on the simulation protocol, force field, membrane model, equilibration criteria, or convergence assessment. The distinction between amphiphilic and nonamphiphilic helices and the inferred interaction mechanisms (electrostatic versus hydrophobic) are presented as definitive conclusions without any quantitative metrics (e.g., insertion depth, contact frequencies, free energy estimates).
+  - **Why it matters** Molecular-dynamics simulations are only meaningful if properly validated and if the observed interactions are shown to be stable and reproducible. Without these details, the mechanistic claims are unsupported and may reflect simulation artifacts rather than physical reality.
+  - **Resolution test** The full manuscript must provide simulation parameters, convergence checks, replicate runs, and quantitative analysis of membrane interaction (e.g., residue-membrane distance distributions, insertion depth profiles, interaction energy decomposition). The distinction between amphiphilic and nonamphiphilic behavior should be supported by explicit structural and energetic criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that MBP interacts with the PI membrane via amphiphilic and nonamphiphilic helices under the control of a delicate balance between electrostatic and hydrophobic interactions.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not discuss how these findings relate to the physiological function of MBP in myelin sheath compaction or to previous structural models of MBP-membrane interaction. The broader significance of the proposed interaction mechanism is not articulated.
+  - **Why it matters** For a Nature-style audience, the work must demonstrate conceptual advance beyond a descriptive characterization. The abstract currently lacks a clear statement of how the proposed mechanism advances understanding of MBP function or provides new insights into myelin biology.
+  - **Resolution test** The full manuscript should include a discussion section that contextualizes the findings within existing models of MBP-membrane interaction and explains the functional implications for myelin sheath stability. A comparison with prior structural or computational studies of MBP would help establish novelty.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract assumes familiarity with MBP isoforms and myelin sheath structure without providing sufficient context for a general biophysics readership.
+  - **Required correction** Add one sentence briefly explaining the biological role of MBP and why its membrane-bound conformation is important.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Isodichroic point interpretation
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that an isodichroic point was observed but does not specify the wavelength or the number of spectra that share this point. The interpretation that this indicates enhanced membrane-bound conformation is plausible but requires verification that the isodichroic point is not coincidental.
+  - **Required correction** Specify the wavelength of the isodichroic point and state whether it is shared across all three lipid conditions or only a subset. Provide a brief justification for the two-state interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** MD simulation description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions 250 ns simulations but does not indicate whether this was sufficient for convergence of membrane binding events, which may be slow on this timescale.
+  - **Required correction** Add a statement on convergence assessment or acknowledge the timescale limitation in the abstract or full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative claims (eight helix segments and the specific interaction mechanisms) cannot be evaluated or trusted without full methodological details and validation. The lack of error analysis and simulation validation means the core conclusions are not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of VUVCD with MD simulations for MBP on phosphoinositide membranes appears novel, but the abstract does not clearly differentiate this from prior MBP structural studies. Assessment: moderate originality, not fully established.
+  - Scientific importance: The work addresses a relevant biological question, but the abstract does not articulate the conceptual advance or functional implications. Assessment: moderate importance, needs stronger framing.
+  - Interdisciplinary readership: The study bridges spectroscopy, computational biology, and membrane biophysics, which could appeal to multiple communities. However, the abstract is written in a specialized manner that may limit accessibility. Assessment: moderate.
+  - Technical soundness: The VUVCD approach is technically advanced, but the lack of methodological detail and validation for both the spectral analysis and simulations prevents assessment of technical rigor. Assessment: currently insufficiently supported.
+  - Readability for nonspecialists: The abstract is concise but assumes background knowledge. Assessment: adequate for specialists, needs improvement for broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting study with plausible findings, but the absence of methodological detail, validation, and error analysis for the key quantitative claims prevents a supportive recommendation. The authors should be encouraged to resubmit with full methodological transparency and validation, after which the work may merit consideration.
+
+## Risk / unsupported claims
+- The claim of exactly eight helix segments is unsupported without a described and validated secondary-structure analysis method.
+- The mechanistic distinction between amphiphilic and nonamphiphilic helices and their respective interaction modes (electrostatic versus hydrophobic) is unsupported without quantitative simulation analysis.
+- The statement that increased negative charge on liposome surfaces enhances membrane-bound conformation is plausible but not quantitatively supported in the abstract.
+- The physiological relevance of the proposed interaction mechanism to myelin sheath function is not addressed and therefore cannot be evaluated.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, computational details, results and discussion, conclusions, and supplementary material references. No figures, tables, or supplementary files were provided.
+- **Assessment boundary** The review is limited to the claims and evidence presented in the provided text. No external validation, replication, or access to raw data was performed.
+- **Shared manuscript claim summary** The authors combine AlphaFold2 predictions and molecular dynamics simulations to characterize the binding of proline-rich motif (PRM) peptides to the Src homology 3 (SH3) domain. They report that proline-to-alanine mutations increase peptide flexibility and weaken binding, charge-altering mutations change binding mode and strength, and that in the PRM(H) series, binding is driven by local flexibility and hydrophobic effects. They further claim that average RMSD and dendrogram height correlate with experimental dissociation constants.
+- **Visible evidence base** Text descriptions of simulation protocols, qualitative statements about structural ensembles, contact maps, distance maps, RMSD values, radius of gyration, solvation free energies, and intrapeptide interaction energies. References to figures (Figure 1-5, S1-S8) and tables (Table 1) are made, but the actual data are not visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information are absent. This includes the contact maps, distance maps, RMSD plots, dendrograms, solvation free energy values, and the sequence table. Without these, quantitative verification of the claims is impossible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, the molecular basis of PRM:SH3 interactions, with potential implications for biomolecular condensation. The combination of AlphaFold2 and MD simulations is a reasonable and modern approach. However, the current text presents qualitative conclusions that are not fully supported by the visible evidence. The central claims regarding the correlation of RMSD and dendrogram height with binding affinity are intriguing but require the missing figures to be evaluated. The discussion of the PRM(H) series, particularly the role of intrapeptide interactions, is speculative and needs more rigorous quantitative support. The manuscript is potentially interesting but is not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, protein-peptide interactions, and biomolecular condensates. The work offers a methodological framework that could be applied to other multivalent interaction systems. The findings on the role of flexibility and hydrophobic effects in binding affinity are of general interest to those studying molecular recognition.
+- **Major strengths** The study uses a state-of-the-art approach (AlphaFold2 + MD) to address a specific and important biological question. The authors have designed a series of mutations to probe different aspects of the interaction, which is a systematic approach. The focus on the PRM(H) series and the attempt to explain its higher affinity through a combination of direct and indirect effects is a thoughtful and nuanced interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The authors claim that "the root-mean-square deviation and dendrogram height are correlated to experimental dissociation constants."
+  - **Evidence pointer** Figure 5b and 5c, location not provided
+  - **Concern** The central quantitative claim of the paper, the correlation between RMSD/dendrogram height and experimental Kd, is presented without any visible data. The text states the trend "generally followed" the experimental values, but no correlation coefficients, statistical significance, or the actual plots are shown. Without this evidence, the claim is unverifiable.
+  - **Why it matters** This correlation is presented as a key finding and a potential predictive tool. If it is not robustly demonstrated, the main conclusion of the paper is weakened.
+  - **Resolution test** Provide the plots of average RMSD and dendrogram height against the experimental Kd values for all variants. Include a statistical analysis, such as a Spearman or Pearson correlation, to quantify the strength of the relationship.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The authors state that "proline-to-alanine mutations enhance flexibility, weakening the binding affinity" and that this is due to "the increased degree of freedom in the dihedral angles."
+  - **Evidence pointer** Figure 3a-c, Figure 4, location not provided
+  - **Concern** The claim that increased flexibility is the direct cause of weakened binding is inferred from qualitative observations of "larger fluctuations" and changes in dihedral angle populations. The manuscript does not provide a quantitative link between the observed flexibility and the binding free energy. The solvation free energy (G sol) data is mentioned but not shown, and it is used to argue against a hydrophobic effect, which is a negative result.
+  - **Why it matters** The mechanism proposed is a causal one. To support it, the authors need to show that the change in flexibility is directly related to the change in binding affinity, and not just a correlated observation.
+  - **Resolution test** Provide a quantitative analysis of the flexibility, such as the RMSF per residue, and correlate it with the change in binding free energy upon mutation. Alternatively, perform a more rigorous free energy decomposition to show the entropic cost of binding is increased in the mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that in the PRM(H) series, proline-to-alanine mutations have two roles: a direct effect (reducing interaction with the protein) and an indirect effect (enhancing intrapeptide interactions that compete with the protein-peptide interaction).
+  - **Evidence pointer** Figure 5e-i, location not provided
+  - **Concern** This is a complex and interesting hypothesis, but the evidence presented in the text is largely qualitative. The authors mention "intrapeptide interaction energies" and "intrapeptide contact maps and distance maps" but do not show the data. The conclusion that the "stapling position" determines the efficiency of the intrapeptide interaction is speculative without a clear quantitative comparison between the P7A and P9A mutants.
+  - **Why it matters** This is the primary explanation for the non-additive mutational effects in the PRM(H) series. If this mechanism is not well-supported, the understanding of this high-affinity system remains incomplete.
+  - **Resolution test** Show the intrapeptide interaction energy values for all PRM(H) variants. Provide the intrapeptide contact maps and distance maps for P7A, P9A, and P7AP9A, and clearly demonstrate the difference in the "stapling" efficiency between the P7A and P9A mutations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods
+  - **Evidence pointer** Computational Details, location not provided
+  - **Issue** The text states that "the first 10 ns were considered as the equilibration period and were discarded from the analysis." This is a short equilibration time for a 100 ns simulation, and it is unclear if this is sufficient for the system to reach equilibrium, especially for the larger complexes.
+  - **Required correction** Justify the choice of a 10 ns equilibration period, perhaps by showing that system properties (e.g., RMSD, energy) have converged by that time.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Computational Details, location not provided
+  - **Issue** The manuscript states that "all simulations were repeated 10 times under the same computational conditions" but does not specify how the initial velocities were randomized beyond using "distinct random seeds." This is sufficient, but the text could be clearer.
+  - **Required correction** Clarify that the 10 replicas are independent simulations with different initial velocity distributions, as is standard practice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** PRM(H) Systems, location not provided
+  - **Issue** The text mentions "dumbbell-like shapes" for the bound PRM(H) peptides. This is a descriptive term that is not standard in the field.
+  - **Required correction** Use more standard terminology, such as "the central region is tightly bound while the termini are flexible and solvent-exposed."
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible quantitative data to support the main claims. The correlation between RMSD/dendrogram height and Kd (R1-M1) and the mechanism for the PRM(H) series (R1-M3) are not established without the figures. The causal link between flexibility and binding affinity (R1-M2) is also not quantitatively demonstrated.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of AlphaFold2 and MD to study this specific system is not entirely novel, but the focus on the PRM(H) series and the proposed dual mechanism of mutation effects offers a fresh perspective.
+  - **Scientific importance** The work has the potential to be important for understanding protein-peptide interactions and their role in condensation. However, the significance is currently limited by the lack of robust quantitative evidence.
+  - **Interdisciplinary readership** The topic is of interest to computational chemists, biophysicists, and cell biologists. The writing is generally accessible, but the lack of clear data presentation will hinder a broad readership.
+  - **Technical soundness** The simulation protocols are standard and appear sound. The main issue is the analysis and presentation of the results, which is not sufficiently rigorous to support the claims.
+  - **Readability for nonspecialists** The abstract and introduction are clear. However, the results section relies heavily on references to missing figures, making it difficult for any reader to follow the argument.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a sound methodological basis and interesting hypotheses, but the core claims are not verifiable without the missing figures and quantitative analyses. I would be supportive if the technical concerns, particularly the lack of evidence for the main correlations and mechanisms, are fully addressed.
+
+## Risk / unsupported claims
+- The claim that RMSD and dendrogram height correlate with experimental Kd is unsupported without the corresponding figures and statistical analysis.
+- The claim that proline-to-alanine mutations increase flexibility and that this directly causes weakened binding is not quantitatively supported.
+- The proposed dual mechanism (direct and indirect effects) for the PRM(H) series is speculative and not supported by visible data.
+- The statement that "electrostatic interactions are the primary driving force" for PRM WT binding is a strong conclusion that is not directly supported by the data presented in the text.
+- The claim that the PRM(H) series is primarily driven by hydrophobic effects is based on a comparison of G sol values that are not shown.

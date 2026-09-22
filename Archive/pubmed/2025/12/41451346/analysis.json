@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41451346",
+  "title": "Neurogenic locus notch homolog protein 1 (NOTCH 1) SNP informatics coupled with intrinsically disordered regions and post-translational modifications reveals the complex structural crosstalk of Lung Adenocarcinoma (LUAD).",
+  "authors": "John, Pearl; Sudandiradoss, C",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2025-12-26",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过SNP生物信息学、分子对接和动力学模拟，分析NOTCH1的IDR/PEST域及PTM在肺腺癌中的结构互作，虽涉及IDR和PPI机制，但方法偏传统计算且互作机制深度有限。",
+  "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD) is the predominant histological subtype of lung cancer, representing a major contributor to cancer mortality rate marked by a high frequency of mutations and intricate interactions between multiple signalling pathways. OBJECTIVE: Here we explore the role of NOTCH1 associated Single nucleotide polymorphisms (SNPs) IDR and PTM in LUAD progression. Although the NOTCH1 expression is downregulated, it has been validated as an important prognostic marker because of its complex biological roles under specific conditions. METHODS: With the aid of In silico tools we predicted and identified the deleterious SNPs. The Molecular Docking and dynamics simulations (MDS) were conducted to characterize these mutations. RESULTS: A total of 43 deleterious SNPs were found in the sequential SNP analysis with 13 SNPs resulted deleterious and damaging effects. The stabilizing SNPs such as S1464I, A1705V and T1602I are found within the conserved and functional domains of NOTCH1. In addition, 1660-2555 sequence region of the PEST domain was recognized as an Intrinsically Disordered Region (IDR) with a score of above 0.5. Moreover, the presence of the two phosphodegrons (SCF_FBW7_1 at 2129-2136 and SCF_FBW7_2 at 2508-2515) along with the Post Translational Modification (PTM) such as o-linked glycosylation and Phosphothreonine within the IDR region, PEST and conserved domains suggest functional significance in LUAD progression. CONCLUSION: In conclusion our research highlights the potential regulatory role of identified SNPs, PTMs, and the functional domains of Notch1, particularly the PEST domain and IDR, in pathophysiology of LUAD particularly through the crosstalk of the EMT signalling.",
+  "abstract_zh": "背景：肺腺癌（LUAD）是肺癌的主要组织学亚型，是癌症死亡率的重要贡献因素，其特征为高频突变及多条信号通路之间的复杂相互作用。目的：本文探讨NOTCH1相关单核苷酸多态性（SNPs）、IDR和PTM在LUAD进展中的作用。尽管NOTCH1表达下调，但由于其在特定条件下的复杂生物学作用，已被验证为重要的预后标志物。方法：借助In silico工具，我们预测并鉴定了有害SNPs。进行了分子对接和动力学模拟（MDS）以表征这些突变。结果：在序列SNP分析中，共发现43个有害SNPs，其中13个SNPs具有有害和损伤效应。稳定型SNPs如S1464I、A1705V和T1602I位于NOTCH1的保守和功能域内。此外，PEST结构域的1660-2555序列区域被识别为内在无序区（IDR），得分高于0.5。而且，两个磷酸化降解子（SCF_FBW7_1位于2129-2136和SCF_FBW7_2位于2508-2515）以及翻译后修饰（PTM）如O-连接糖基化和磷酸化苏氨酸存在于IDR区域、PEST和保守域内，提示其在LUAD进展中的功能重要性。结论：总之，我们的研究强调了所鉴定的SNPs、PTMs以及Notch1功能域（特别是PEST域和IDR）在LUAD病理生理学中的潜在调控作用，尤其是通过EMT信号通路的串扰。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41451346/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41451346/",
+  "paper_page_path": "papers/pubmed/41451346/index.html"
+}

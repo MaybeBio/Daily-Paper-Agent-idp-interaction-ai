@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Discussion) without supplementary material files
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions based on the provided text and referenced figures/tables
+- **Shared manuscript claim summary** The authors use computational approaches (MD, SMD, MM-PBSA, DelPhi/DelphiForce, BSKP clustering) to propose that tubulin C-terminal tails (CTTs), particularly β-tubulin CTT, enhance kinesin (KIF7) binding through a two-step mechanism: transient capture/guiding of the motor head followed by stabilization via disorder-to-helix transition, electrostatic enhancement, and hydrogen-bond network remodeling
+- **Visible evidence base** Main text, figure legends (Figs. 1–4), references to supplementary figures/tables/movies (Figs. S1, Table S1, Movies S1–S3)
+- **Missing materials affecting confidence** Supplementary figures, tables, and movies; simulation parameter details (e.g., simulation lengths, number of replicas, convergence criteria); structural validation metrics for AlphaFold/SWISS-MODEL predictions; raw trajectory data
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question about the mechanistic role of tubulin CTTs in kinesin binding, using a combination of established computational methods. The central hypothesis, that β-tubulin CTT acts as a dynamic tether that captures and stabilizes KIF7, is plausible and consistent with prior literature. However, the evidence presented has several methodological gaps and potential overinterpretations that currently limit the strength of the conclusions. The study would benefit from additional validation, clearer reporting of simulation protocols, and more cautious interpretation of the clustering and free energy results.
+- **Who would be interested in the results, and why** Researchers in cytoskeletal biophysics, molecular motors, and computational biophysics would find this work relevant. The focus on KIF7 and the TUBA4A–TUBB8 isotype pair also makes it of interest to developmental biologists studying oocyte maturation and spindle assembly, as well as those investigating tubulin isotype diversity and its functional consequences.
+- **Major strengths** The study addresses a specific and under-explored question (KIF7–CTT interaction) with a multi-method computational approach. The use of SMD to directly probe dissociation and rebinding is appropriate. The comparison with and without CTTs provides a clear control. The discussion thoughtfully connects the findings to prior models ("catch-and-guide", "soft landing") and identifies isotype-specific relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** The authors claim that MD simulations with BPSK clustering show the β-tubulin CTT transitions from a disordered state to a stable α-helix upon kinesin binding, and that this transition is functionally relevant.
+  - **Evidence pointer** Methods "Biomolecular structural k-means clustering (BSKP)"; Results "The β-tubulin CTT captures KIF7 and stabilizes the kinesin-tubulin binding"; Fig. 1
+  - **Concern** The manuscript does not report essential simulation details: total simulation time, number of replicas, equilibration length, temperature/pressure coupling specifics beyond the brief mention, and criteria for selecting the "stages" shown in Fig. 1. The BPSK method is described only briefly; the distance metric, number of clusters (set to 2), and how cluster representatives were validated are not fully explained. Without these details, the claim that the CTT undergoes a reproducible disorder-to-helix transition cannot be evaluated. Additionally, the initial structure prediction (AlphaFold3) for CTTs is likely to be unreliable given their intrinsically disordered nature, and the authors do not discuss how this affects the starting conformations.
+  - **Why it matters** The central mechanistic claim rests on the observed conformational transition. If the simulation protocol is not reproducible or the clustering is not robust, the conclusion that the CTT "acts like a clamp" is not supported.
+  - **Resolution test** Provide full simulation parameters (length, replicas, thermostat/barostat settings, timestep), describe the BPSK distance metric and cluster validation, and show convergence of the clustering results. Discuss the limitations of AlphaFold3 for disordered regions and how initial conformations were generated and equilibrated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / interpretation
+  - **Claim pointer** The authors claim that the presence of CTTs increases the binding component of electrostatic force by 15–20% and reduces binding free energy, thereby stabilizing the complex.
+  - **Evidence pointer** Methods "Electrostatic force calculation" and "Binding free energy calculation"; Results "The CTTs enhance electrostatic interactions and reduce binding free energy between KIF7 and tubulin"; Fig. 3
+  - **Concern** The electrostatic force calculations are performed on "the complex structure" at 0 ns and 100 ns, but it is unclear which structures were used (e.g., the cluster representatives from BPSK? The SMD endpoints?). The MM-PBSA calculation is described as using "sample structures" but the number of frames, the sampling interval, and whether the calculations were performed on the same trajectories are not stated. The reported difference in binding free energy (−25.33 vs −22.52 kcal/mol) is small and the standard deviations are not reported, making it impossible to assess significance. The claim that the "binding component" is more accurate is presented as a validation of prior work, but the authors do not compare their calculated forces to any experimental or independent computational benchmark.
+  - **Why it matters** The quantitative claims (15–20% enhancement, free energy difference) are central to the conclusion that CTTs enhance binding. Without proper statistical reporting and methodological clarity, these numbers cannot be interpreted.
+  - **Resolution test** Specify which structures were used for electrostatic and free energy calculations, report the number of frames and standard deviations for all energy components, and provide a statistical comparison (e.g., block averaging or bootstrap) between the with- and without-CTT systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / novelty
+  - **Claim pointer** The authors claim that their study provides "direct structural evidence" for the "catch-and-guide" model and extends it to KIF7.
+  - **Evidence pointer** Discussion section; Fig. 2; Movies S1–S3
+  - **Concern** The SMD simulations are performed with a constant pulling force, which is a non-equilibrium method. The observation that the CTT "hooks" KIF7 during forced dissociation and that KIF7 is "pulled back" upon force removal is qualitative and based on visual inspection of trajectories (Movies S1–S3). The authors do not quantify the rebinding process (e.g., time to rebind, probability of rebinding, free energy profile along the pulling coordinate). The claim of "direct structural evidence" is therefore overstated; the evidence is indirect and simulation-specific.
+  - **Why it matters** The novelty of the work partly rests on providing mechanistic insight into the capture/rebinding process. If this is only qualitative, the contribution is more limited.
+  - **Resolution test** Provide quantitative analysis of the SMD trajectories, such as the work done during pulling, the rupture force, the rebinding time distribution, or a potential of mean force calculation. Alternatively, temper the claim to "consistent with" rather than "direct evidence for".
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Introduction
+  - **Issue** The opening paragraph is dense and assumes familiarity with kinesin biology. The significance of KIF7 as a non-canonical kinesin and the rationale for choosing the TUBA4A–TUBB8 pair could be introduced more gently for a broad readership.
+  - **Required correction** Add one or two sentences explaining why KIF7 is an interesting motor to study (e.g., its role in Hedgehog signaling) and why the oocyte-specific tubulin isotypes matter biologically.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Modelling and molecular dynamics simulation"
+  - **Evidence pointer** Methods
+  - **Issue** The text states "CHARMM36m force field was applied, and the atoms in the system were parameterized by CHARMM36 force field." This is contradictory or at least confusing. CHARMM36m is a variant of CHARMM36; the authors should clarify which force field was used for which component (protein, ions, etc.).
+  - **Required correction** Clarify the force field usage, e.g., "CHARMM36m was used for the protein, and CHARMM36 parameters were used for ions and other small molecules."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Electrostatic force calculation"
+  - **Evidence pointer** Methods
+  - **Issue** The dielectric constants are set to 2 for protein and 80 for water, which is standard, but the ionic strength is not reported. The salt concentration is mentioned as 150 mM in the simulation setup, but it is unclear if this was used in the DelPhi calculations.
+  - **Required correction** State the ionic strength used in the Poisson-Boltzmann calculations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of isotype-specific differences is interesting but speculative. The authors mention that CTT sequences diverge across isotypes but do not provide a sequence comparison or discuss which specific residues might drive the observed differences.
+  - **Required correction** Add a brief sequence alignment or a table comparing CTT sequences of relevant tubulin isotypes, and discuss which residues are likely to be functionally important.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "The β-tubulin CTT captures KIF7 and stabilizes the kinesin-tubulin binding"
+  - **Evidence pointer** Fig. 1
+  - **Issue** The figure legend and text refer to "stages" of the simulation, but it is unclear what defines a stage (e.g., time windows, clustering states). This makes it difficult to follow the narrative of conformational change.
+  - **Required correction** Define "stages" in the text or figure legend, and consider labeling them with time points or cluster IDs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation details and clustering validation), R1-M2 (statistical reporting of free energy and force calculations)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application to KIF7 and the TUBA4A–TUBB8 isotype pair is new, but the general concept of CTTs as electrostatic tethers is established in the literature. The two-step "capture and stabilize" mechanism is a reasonable synthesis of prior models, but the novelty is incremental.
+  - **Scientific importance** Moderate. The findings are relevant to understanding kinesin–microtubule interactions and tubulin isotype function, but the impact is limited by the computational nature of the study and the lack of experimental validation. The connection to oocyte biology is interesting but not developed.
+  - **Interdisciplinary readership** Limited. The manuscript is written for a computational biophysics audience. Developmental biologists and cell biologists may find the framing too technical, and the biological implications are not explored in depth.
+  - **Technical soundness** Currently insufficient. The lack of simulation details, statistical reporting, and validation of the clustering approach undermines confidence in the quantitative claims. The SMD analysis is qualitative and the free energy calculations are not rigorously benchmarked.
+  - **Readability for nonspecialists** Acceptable but improvable. The structure is clear, but the introduction and some results sections assume prior knowledge. The figures are informative but the legends could be more self-contained.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the qualitative observations are interesting, but the methodological reporting and quantitative analysis are insufficient to support the central claims. I would be supportive if the authors provide full simulation details, statistical analysis of the free energy and force calculations, and a more cautious interpretation of the SMD results.
+
+## Risk / unsupported claims
+- The claim that the β-tubulin CTT "acts like a clamp" that captures and draws KIF7 into proximity is based on qualitative inspection of SMD trajectories and is not quantitatively supported.
+- The claim of "direct structural evidence" for the "catch-and-guide" model is overstated; the evidence is indirect and simulation-specific.
+- The reported 15–20% enhancement of electrostatic binding forces and the binding free energy difference (−25.33 vs −22.52 kcal/mol) are presented without standard deviations or statistical testing, making them uninterpretable.
+- The statement that AlphaFold predicts an α-helical conformation for CTTs "consistent with their structure in the kinesin-bound state" is not validated against the experimental cryo-EM structure (PDB: 6MLQ) used for initial alignment.
+- The claim that the "binding component" of electrostatic force is a more accurate predictor of binding affinity is presented as a validation of prior work, but no comparison to experimental binding affinities is provided.
+- The biological relevance to oocyte maturation and embryonic development is asserted but not supported by any functional or experimental data.

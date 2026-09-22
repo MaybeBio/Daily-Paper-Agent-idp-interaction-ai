@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34179102",
+  "title": "Progressive Phosphorylation Modulates the Self-Association of a Variably Modified Histone H3 Peptide.",
+  "authors": "Papamokos, George V; Tziatzos, George; Papageorgiou, Dimitrios G; Georgatos, Spyros; Kaxiras, Efthimios; Politou, Anastasia S",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2021-06-29",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究组蛋白H3无序尾肽在不同磷酸化程度下的自缔合，揭示磷酸化阈值调控IDR互作界面的机制，虽对象为IDR肽段而非完整PPI，但方法聚焦互作机制建模，对无序蛋白互作与相分离调控有直接启发。",
+  "abstract": "Protein phosphorylation is a key regulatory mechanism in eukaryotic cells. In the intrinsically disordered histone tails, phosphorylation is often a part of combinatorial post-translational modifications and an integral part of the \"histone code\" that regulates gene expression. Here, we study the association between two histone H3 tail peptides modified to different degrees, using fully atomistic molecular dynamics simulations. Assuming that the initial conformations are either alpha-helical or fully extended, we compare the propensity of the two peptides to associate with one another when both are unmodified, one modified and the other unmodified, or both modified. The simulations lead to the identification of distinct inter- and intramolecular interactions in the peptide dimer, highlighting a prominent role of a fine-tuned phosphorylation rheostat in peptide association. Progressive phosphorylation appears to modulate peptide charge, inducing strong and specific intermolecular interactions between the monomers, which do not result in the formation of amorphous or ordered aggregates, as documented by experimental evidence derived from Circular Dichroism and NMR spectroscopy. However, upon complete saturation of positive charges by phosphate groups, this effect is reversed: intramolecular interactions prevail and dimerization of zero-charge peptides is markedly reduced. These findings underscore the role of phosphorylation thresholds in the dynamics of intrinsically disordered proteins. Phosphorylation rheostats might account for the divergent effects of histone modifications on the modulation of chromatin structure.",
+  "abstract_zh": "蛋白质磷酸化是真核细胞中的一个关键调控机制。在 intrinsically disordered 组蛋白尾部，磷酸化通常是组合性翻译后修饰的一部分，并且是调控基因表达的“组蛋白密码”的组成部分。在此，我们使用全原子分子动力学 (molecular dynamics) 模拟，研究了两种修饰程度不同的组蛋白 H3 尾部肽段之间的关联。假设初始构象为 α-螺旋或完全伸展状态，我们比较了两种肽段在以下情况下的相互关联倾向：两者均未修饰、一个修饰而另一个未修饰，或两者均修饰。模拟结果识别出肽段二聚体中不同的分子间和分子内相互作用，突显了精细调控的磷酸化变阻器在肽段关联中的重要作用。渐进性磷酸化似乎调节肽段电荷，诱导单体之间强烈且特异的分子间相互作用，但这些相互作用并未导致无定形或有序聚集体的形成，这一点由圆二色性和核磁共振波谱实验证据所证实。然而，当正电荷被磷酸基团完全饱和时，这种效应发生逆转：分子内相互作用占主导，零电荷肽段的二聚化显著减少。这些发现强调了磷酸化阈值在 intrinsically disordered 蛋白质动态中的角色。磷酸化变阻器可能解释了组蛋白修饰对染色质结构调节的差异性效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34179102/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34179102/",
+  "paper_page_path": "papers/pubmed/34179102/index.html"
+}

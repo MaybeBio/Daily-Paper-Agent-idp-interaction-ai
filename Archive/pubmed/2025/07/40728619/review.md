@@ -1,0 +1,52 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The abstract describes DEPICTER2, a web server integrating six sequence-based predictors for intrinsic disorder and disorder functions, and claims that it provides convenient, automated, batch-capable predictions without software installation, with a case study illustrating result interpretation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or performance data provided
+- **Missing materials affecting confidence** Full manuscript, method descriptions, validation or benchmarking data, case study details, server screenshots or user interface documentation, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise description of a web server that aggregates six existing predictors for intrinsic disorder functions. The resource appears useful for the community, and the abstract is clearly written. However, the abstract provides no quantitative evidence of performance, usability, or comparison with alternative tools, and the claims of convenience and automation are not substantiated with data. The scientific contribution, as presented, is primarily descriptive rather than evaluative, and the case study is mentioned but not described in sufficient detail to assess its value.
+- **Who would be interested in the results, and why** Researchers in computational biology and structural biology who study intrinsically disordered proteins and their functional roles, particularly those interested in predicting disorder-based binding regions, linkers, and interactions with multiple ligand types. Practitioners seeking an accessible, no-installation web tool for batch predictions would also find this resource relevant.
+- **Major strengths** The abstract clearly identifies the six integrated methods and their specific prediction targets, which helps users understand the scope of the tool. The emphasis on batch processing and server-side automation addresses practical usability concerns. The free availability and explicit URL enhance accessibility and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract implies that DEPICTER2 provides reliable and useful predictions by integrating six state-of-the-art methods, and that the case study illustrates how to interpret results.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no performance metrics, benchmarking results, or comparison with existing tools. The claim that the six methods are "state-of-the-art" is not supported by any data in the supplied material. The case study is mentioned but not described, so its illustrative value cannot be assessed.
+  - **Why it matters** For a methods-oriented resource paper, readers need evidence that the integrated tool performs at least as well as its individual components or existing alternatives. Without such evidence, the scientific contribution is limited to a description of a web interface, which may not meet the standards of a methods journal.
+  - **Resolution test** Provide quantitative benchmarking results comparing DEPICTER2 predictions with those of individual component methods and other available servers, using standard datasets. Describe the case study in sufficient detail, including input, output, and interpretation steps, to demonstrate its utility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Description of method selection
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the authors "describe and motivate selection of the six predictors," but does not indicate the criteria used for selection, such as accuracy, speed, or complementarity.
+  - **Required correction** Add a brief statement in the abstract or manuscript specifying the selection criteria, or clarify that the selection rationale is detailed in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Server availability and access
+  - **Evidence pointer** Abstract text; URL provided
+  - **Issue** The abstract states the server is freely available, but does not mention whether the underlying code or prediction models are open source, which may affect reproducibility for users who wish to run predictions locally.
+  - **Required correction** Clarify the licensing and availability of the underlying software and models, or state that the server is the only access point.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Prediction scope
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists six methods but does not specify whether all methods are applicable to all input sequences or whether there are restrictions based on sequence length or organism type.
+  - **Required correction** Add a sentence in the abstract or manuscript describing any input restrictions or limitations of the individual methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 is the primary technical failing, as the absence of performance data prevents assessment of the tool's reliability and utility. The lack of case study details also undermines the claim that the resource aids interpretation.
+- **Assessment against Nature-style criteria** Originality: The abstract does not demonstrate novelty beyond aggregating existing methods, which is a common approach for web servers. Scientific importance: The topic is relevant to the disorder research community, but the importance is not established without performance evidence. Interdisciplinary readership: The tool may appeal to structural biologists and bioinformaticians, but the abstract does not clearly articulate broader interdisciplinary relevance. Technical soundness: Cannot be assessed from the abstract alone, as no technical details or validation are provided. Readability for nonspecialists: The abstract is clear and accessible, with minimal jargon, which is a positive aspect.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful resource, but the lack of performance data and case study details means the scientific case is not yet made. A revised version with benchmarking results and a detailed case study could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the six methods are "state-of-the-art" is unsupported by any data in the supplied material.
+- The implication that DEPICTER2 provides reliable predictions is not supported by performance metrics.
+- The claim that the case study illustrates result interpretation is not assessable, as no details are provided.
+- The statement that the prediction process is "fully automated" and "does not require installation" is plausible but not verifiable from the abstract alone.

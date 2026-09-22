@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "38942776",
+    "doi": "10.1021/acs.jpcb.4c01876",
+    "title": "Intrinsically Disordered Membrane Anchors of Rheb, RhoA, and DiRas3 Small GTPases: Molecular Dynamics, Membrane Organization, and Interactions."
+  },
+  "content": {
+    "abstract": "Protein structure has been well established to play a key role in determining function; however, intrinsically disordered proteins and regions (IDPs and IDRs) defy this paradigm. IDPs and IDRs exist as an ensemble of structures rather than a stable 3D structure yet play essential roles in many cell-signaling processes. Nearly all Ras superfamily GTPases are tethered to membranes by a lipid tail at the end of a flexible IDR. The sequence of the IDR is a key determinant of membrane localization, and interaction between the IDR and the membrane has been shown to affect signaling in RAS proteins through the modulation of dynamic membrane organization. Here, we utilized atomistic molecular dynamics simulations to study the membrane interaction, conformational dynamics, and lipid sorting of three IDRs from small GTPases Rheb, RhoA, and DiRas3 in model membranes representing their physiological target membranes. We found that complementarity between the lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity. We also show that electrostatic interactions between anionic lipids and basic residues on IDRs are correlated with sampling of semistable conformational substates, and lack of these interactions is associated with greater conformational diversity. Finally, we show that small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic lipids and, in some cases, excluding other lipids from their immediate vicinity in favor of anionic lipids.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Cell Membrane/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Lipid Bilayers/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Monomeric GTP-Binding Proteins/metabolism/chemistry",
+      "*Ras Homolog Enriched in Brain Protein/metabolism/chemistry",
+      "*rhoA GTP-Binding Protein/metabolism/chemistry",
+      "rho GTP-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hutchins, Chase M",
+        "Gorfe, Alemayehu A"
+      ],
+      "short_names": [
+        "Hutchins CM",
+        "Gorfe AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9328-4692"
+      ],
+      "affiliations": [
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States.",
+        "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, 6431 Fannin St., Houston, Texas 77030, United States.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States.",
+        "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, 6431 Fannin St., Houston, Texas 77030, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hutchins, Chase M",
+        "short_name": "Hutchins CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States.",
+          "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, 6431 Fannin St., Houston, Texas 77030, United States."
+        ]
+      },
+      {
+        "full_name": "Gorfe, Alemayehu A",
+        "short_name": "Gorfe AA",
+        "identifiers": [
+          "0000-0002-9328-4692"
+        ],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States.",
+          "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, 6431 Fannin St., Houston, Texas 77030, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Jul 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/29 00:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [
+      "41847025",
+      "40801144",
+      "39708912",
+      "38943706"
+    ],
+    "refs": [
+      "37919400",
+      "37915607",
+      "36658753",
+      "35687481",
+      "35098229",
+      "34653389",
+      "34450002",
+      "34222339",
+      "34063660",
+      "33526670",
+      "32752662",
+      "32367017",
+      "32015543",
+      "31825828",
+      "31652660",
+      "31554397",
+      "31532697",
+      "31213978",
+      "30616834",
+      "29976879",
+      "29967243",
+      "29141223",
+      "28041850",
+      "27715448",
+      "26958889",
+      "26574340",
+      "26498066",
+      "26488642",
+      "26293964",
+      "25531225",
+      "25418296",
+      "24606139",
+      "24470015",
+      "23341755",
+      "23258433",
+      "22368766",
+      "21819968",
+      "21354400",
+      "21112291",
+      "20496934",
+      "19580743",
+      "18351591",
+      "18216768",
+      "17220896",
+      "17212484",
+      "16212495",
+      "15731001",
+      "15111413",
+      "12766776",
+      "12728271",
+      "12719238",
+      "12642680",
+      "12381310",
+      "11701921",
+      "9874798",
+      "8744570",
+      "8621061",
+      "6667333",
+      "2661017"
+    ],
+    "similar": [
+      "38942776",
+      "38712287",
+      "37919400",
+      "38943706",
+      "33517146",
+      "37609330",
+      "31441158",
+      "23409921",
+      "39453744",
+      "29763584",
+      "39093570",
+      "30878482",
+      "39539017",
+      "37657994",
+      "33155649",
+      "35034725",
+      "32824743",
+      "39653037",
+      "35930019",
+      "31804089",
+      "34390736",
+      "24892900",
+      "25992726",
+      "21354399",
+      "35882686",
+      "15728574",
+      "31999450",
+      "36987865",
+      "39446390",
+      "27807972",
+      "29550429",
+      "34825861",
+      "24115198",
+      "32696378",
+      "36674958",
+      "31709918",
+      "31724233",
+      "38297118",
+      "33076213",
+      "24316235",
+      "33406091",
+      "39993015",
+      "39933697",
+      "30022112",
+      "30855964",
+      "40042172",
+      "33243935",
+      "38275091",
+      "40574713",
+      "41276815",
+      "33248138",
+      "33567297",
+      "41163390",
+      "24027208",
+      "36821650",
+      "27715448",
+      "29194576",
+      "26735067",
+      "32403216",
+      "34557680",
+      "40963021",
+      "31756456",
+      "35094056",
+      "33719450",
+      "26305016",
+      "39232584",
+      "36833360",
+      "38296708",
+      "34626492",
+      "29791766",
+      "24532081",
+      "38220424",
+      "26149687",
+      "33684117",
+      "26735936",
+      "36131545",
+      "30058229",
+      "29309620",
+      "21388959",
+      "39706085",
+      "31003202",
+      "28041850",
+      "30297718",
+      "12093360",
+      "33119751",
+      "31554397",
+      "35139468",
+      "39589885",
+      "35869787",
+      "28924037",
+      "38987470",
+      "32020911",
+      "40631955",
+      "39047943",
+      "34656327",
+      "27844185",
+      "30559268",
+      "30504247",
+      "41378882",
+      "32385295"
+    ],
+    "review": [
+      "38942776",
+      "38943706",
+      "31441158",
+      "39093570",
+      "37657994",
+      "33155649",
+      "35930019",
+      "34390736",
+      "35882686",
+      "31709918",
+      "33243935",
+      "33248138",
+      "33567297",
+      "24027208",
+      "36821650",
+      "27715448",
+      "32403216",
+      "36833360",
+      "38296708",
+      "24532081",
+      "38220424",
+      "31003202",
+      "35139468",
+      "32020911"
+    ],
+    "pmc": [
+      "11265623"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38942776/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38942776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c01876",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

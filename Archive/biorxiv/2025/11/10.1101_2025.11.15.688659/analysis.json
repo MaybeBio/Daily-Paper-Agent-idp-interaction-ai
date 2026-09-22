@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.15.688659",
+  "title": "Sequence-aware Prediction of Point Mutation-induced Effects on Protein-Protein Binding Affinity using Deep Learning",
+  "authors": "Jianan Zhuang; Zonghui Li; Suhui Wang; Renchao Zheng; Guijun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 6,
+  "one_liner_zh": "提出序列感知深度学习模型SAMAffinity预测点突变对蛋白-蛋白结合亲和力变化(ΔΔG)，虽非无序蛋白对象，但聚焦PPI结合机制与界面感知建模，方法可迁移至IDR介导互作研究。",
+  "abstract": "Amino acid mutations may lead to significant changes in the binding affinity of protein complexes, thereby causing a series of cellular dysfunctions. Therefore, accurate prediction of protein-protein binding affinity changes (ΔΔG) induced by amino acid mutations is of great importance for understanding protein-protein interactions (PPIs). In this study, we propose SAMAffinity, a protein sequence-aware deep learning architecture for predicting changes in protein-protein binding affinity caused by amino acid mutations. SAMAffinity predicts mutation-induced ΔΔG by integrating multi-source sequence features, leveraging a Mutation-Site Identification (MSI) module to highlight local semantic shifts and a Binding-Interface Awareness (BIA) module to capture interaction changes. Benchmark evaluations on public datasets show that under the mutation-level data splitting strategy, SAMAffinity outperforms the state-of-the-art sequence-based method AttABseq by 33.3%, 72.3%, 31.8%, and 30.5% on S1131, S4169, S645, and M1101 datasets, respectively. Moreover, under the complex-level data splitting strategy, SAMAffinity surpasses the structure-based method MpbPPI by 22.9%, 22.7%, 5.0%, and 11.4% on the corresponding datasets. Beyond predictive accuracy, the strong consistency between the model’s predicted distribution and natural amino-acid mutation tendencies indicates that SAMAffinity effectively captures the underlying mutational landscape shaped by intrinsic biochemical and evolutionary factors. Based on this capability, SAMAffinity demonstrated strong generalization in a study of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) cases, suggesting its potential for optimizing therapeutic antibody design.",
+  "abstract_zh": "氨基酸突变可能导致蛋白质复合物结合亲和力的显著变化，从而引发一系列细胞功能障碍。因此，准确预测由氨基酸突变引起的蛋白质-蛋白质结合亲和力变化（ΔΔG）对于理解蛋白质-蛋白质相互作用（PPIs）至关重要。在本研究中，我们提出了SAMAffinity，一种蛋白质序列感知的深度学习架构，用于预测氨基酸突变引起的蛋白质-蛋白质结合亲和力变化。SAMAffinity通过整合多源序列特征，利用突变位点识别（MSI）模块突出局部语义变化，以及结合界面感知（BIA）模块捕捉相互作用变化，来预测突变诱导的ΔΔG。在公共数据集上的基准评估显示，在突变级数据分割策略下，SAMAffinity在S1131、S4169、S645和M1101数据集上分别比最先进的基于序列的方法AttABseq提高了33.3%、72.3%、31.8%和30.5%。此外，在复合物级数据分割策略下，SAMAffinity在相应数据集上分别比基于结构的方法MpbPPI提高了22.9%、22.7%、5.0%和11.4%。除了预测准确性之外，模型预测分布与自然氨基酸突变倾向之间的强一致性表明，SAMAffinity有效捕捉了由内在生化和进化因素塑造的潜在突变景观。基于这一能力，SAMAffinity在严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）病例研究中表现出强大的泛化能力，表明其具有优化治疗性抗体设计的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688659",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688659",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.15.688659/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.08.552407",
+  "title": "Whole genome structural predictions reveal hidden diversity in putative oxidative enzymes of the lignocellulose degrading ascomycete Parascedosporium putredinis NO1",
+  "authors": "Scott CJ; Leadbeater DR; Oates NC; James SR; Newling K; Li Y; McGregor NG; Bird S; Bruce NC",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-10",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究对降解木质纤维素的真菌进行全基因组结构预测，发现氧化酶新序列，但对象为折叠酶而非无序蛋白，无PPI互作机制，且方法为结构搜索而非AI/物理模拟，与本课题关联微弱。",
+  "abstract": "Economic valorisation of lignocellulose is paramount to realising a true circular bioeconomy; however, this requires the development of systems and processes to expand the repertoire of bioproducts beyond current renewable fuels, chemicals, and sustainable materials. Parascedosporium putredinis NO1 is an ascomycete that thrived at the later stages of a wheat- straw composting community culture, indicating a propensity to degrade recalcitrant lignin- enriched biomass, but exists within an underrepresented and underexplored fungal lineage. This strain has proven an exciting candidate for the identification of new enzymes targeting recalcitrant components of lignocellulose following the recent discovery of a new lignin β-ether linkage cleaving enzyme. The first genome for the genus Parascedosporium for P. putredinis NO1 genome was sequenced, assembled, and annotated. The genome is 39 Mb in size, consisting of 21 contigs annotated to contain 9.998 protein-coding sequences. The carbohydrate-active enzyme (CAZyme) repertoire was compared to 2570 ascomycete genomes and in detail with Trichoderma reesei , Fusarium oxysporum, and sister taxa Scedosporium boydii. Significant expansion in the oxidative auxiliary activity class of CAZymes was observed in the P. putredinis NO1 genome resulting from increased sequences encoding putative lytic polysaccharide monooxygenases (LPMOs), oxidative enzymes acting within LPMO redox systems, and lignin-degrading laccases. P. putredinis NO1 scored above the 95 th percentile for AA gene density across the ascomycete phylum, suggesting a primarily oxidative strategy for lignocellulose breakdown. Novel structure-based searching approaches were employed, revealing 17 new sequences with structural similarity to LPMO, laccase, and peroxidase sequences and which are potentially new lignocellulose-degrading enzymes. <h4>Importance</h4> An annotated reference genome has revealed P. putredinis NO1 as a useful resource for the identification of new lignocellulose degrading enzymes for biorefining of woody plant biomass. Utilising a ‘structure-omics’ based searching strategy, new potentially lignocellulose-active sequences were identified that would have been missed by traditional sequence searching methods. These new identifications, alongside the discovery of novel enzymatic functions from this underexplored lineage with the recent discovery of a new phenol oxidase that cleaves the main structural β-O-4 linkage in lignin from P. putredinis NO1 highlights the underexplored and poorly represented family Microascaceae as particularly interesting candidates worthy of further exploration toward the valorisation of high value biorenewable products.",
+  "abstract_zh": "木质纤维素的经济增值对于实现真正的循环生物经济至关重要；然而，这需要开发系统与工艺，以将生物产品的范围扩展到当前可再生燃料、化学品和可持续材料之外。*Parascedosporium putredinis* NO1 是一种子囊菌，在小麦秸秆堆肥群落培养的后期阶段繁盛生长，表明其具有降解顽固性富含木质素生物质的倾向，但该菌株属于代表性不足且研究较少的真菌谱系。该菌株在最近发现一种新的木质素β-醚键裂解酶后，已被证明是鉴定靶向木质纤维素顽固组分新酶的有前景候选菌株。首个*Parascedosporium*属基因组，即*P. putredinis* NO1基因组，已完成测序、组装和注释。该基因组大小为39 Mb，由21个重叠群组成，注释包含9,998个蛋白质编码序列。其碳水化合物活性酶（CAZyme）库与2570个子囊菌基因组进行了比较，并与*Trichoderma reesei*、*Fusarium oxysporum*及姐妹分类群*Scedosporium boydii*进行了详细比对。在*P. putredinis* NO1基因组中，观察到CAZymes氧化辅助活性类别的显著扩展，这源于编码推定裂解性多糖单加氧酶（LPMOs）、在LPMO氧化还原系统中作用的氧化酶以及木质素降解漆酶的序列增加。*P. putredinis* NO1在子囊菌门中AA基因密度方面得分超过第95百分位，表明其采用主要氧化策略进行木质纤维素分解。采用新型基于结构的搜索方法，揭示了17个与LPMO、漆酶和过氧化物酶序列具有结构相似性的新序列，这些序列可能是新的木质纤维素降解酶。\n\n<h4>重要性</h4> 一个已注释的参考基因组揭示了*P. putredinis* NO1作为鉴定用于木质植物生物质生物精炼的新型木质纤维素降解酶的有用资源。利用基于“结构组学”的搜索策略，识别出了传统序列搜索方法可能遗漏的潜在木质纤维素活性新序列。这些新发现，加上从这一研究不足的谱系中发现新酶功能（最近从*P. putredinis* NO1中发现了一种裂解木质素中主要结构β-O-4键的新型酚氧化酶），突显了代表性不足且描述较少的*Microascaceae*科作为值得进一步探索的有趣候选对象，以推动高价值生物可再生产品的增值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552407",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552407",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.08.552407/index.html"
+}

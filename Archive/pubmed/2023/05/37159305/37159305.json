@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "pmid": "37159305",
+    "doi": "10.1021/acs.jpclett.3c00705",
+    "title": "Coacervation-Induced Remodeling of Nanovesicles."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered peptides can form biomolecular condensates through liquid-liquid phase separation. These condensates play diverse roles in cells, including inducing large-scale changes in membrane morphology. Here we employ coarse-grained molecular dynamics simulations to identify the most salient physical principles that govern membrane remodeling by condensates. By systematically varying the interaction strengths among the polymers and lipids in our coarse-grained model, we are able to recapitulate various membrane transformations observed in different experiments. Endocytosis and exocytosis of the condensate are observed when the interpolymeric attraction is stronger than polymer-lipid interaction. We find a critical size of the condensate required to exhibit successful endocytosis. Multilamellarity and local gelation are observed when the polymer-lipid attraction is significantly stronger than the interpolymeric attraction. Our insights provide essential guidance to the design of (bio)polymers for the manipulation of membrane morphology in various applications such as drug delivery and synthetic biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Polymers",
+      "Lipids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Sayantan",
+        "Cui, Qiang"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Cui Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4612-7758",
+        "ORCID: 0000-0001-6214-5211"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States.",
+        "Department of Chemistry, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States.",
+        "Department of Physics, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, Massachusetts 02215, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Sayantan",
+        "short_name": "Mondal S",
+        "identifiers": [
+          "0000-0002-4612-7758"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States."
+        ]
+      },
+      {
+        "full_name": "Cui, Qiang",
+        "short_name": "Cui Q",
+        "identifiers": [
+          "0000-0001-6214-5211"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States.",
+          "Department of Physics, Boston University, 590 Commonwealth Avenue, Boston, Massachusetts 02215, United States.",
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, Massachusetts 02215, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2023 May 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/09 18:41",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [
+      "41965924",
+      "41957206",
+      "41652163",
+      "41372463",
+      "40113768",
+      "39952269",
+      "39660892",
+      "39183928"
+    ],
+    "refs": [],
+    "similar": [
+      "37159305",
+      "38407041",
+      "37190858",
+      "39071308",
+      "33704061",
+      "32584357",
+      "37252985",
+      "38383656",
+      "35865903",
+      "33629837",
+      "36227468",
+      "39398199",
+      "36004748",
+      "38181073",
+      "35179885",
+      "38582523",
+      "36829460",
+      "35054543",
+      "37018196",
+      "32426986",
+      "35597639",
+      "32571937",
+      "30948640",
+      "24506488",
+      "34865286",
+      "21219026",
+      "35198903",
+      "39319382",
+      "35699057",
+      "38961263",
+      "34240971",
+      "36272811",
+      "33453922",
+      "30398246",
+      "32087632",
+      "38579181",
+      "27841477",
+      "33299652",
+      "36524527",
+      "31499808",
+      "34074792",
+      "32179374",
+      "36412795",
+      "28744008",
+      "35501484",
+      "33087563",
+      "31675790",
+      "28650048",
+      "23912807",
+      "22325271",
+      "33376791",
+      "37325682",
+      "27043009",
+      "33819031",
+      "24892900",
+      "37705794",
+      "30448729",
+      "34664748",
+      "27797198",
+      "33300985",
+      "28217775",
+      "29091028",
+      "25028042",
+      "35643628",
+      "27526680",
+      "26222139",
+      "31017394",
+      "27216316",
+      "31601944",
+      "29445792",
+      "33144560",
+      "33533781",
+      "35243863",
+      "35881789",
+      "24840627",
+      "23005893",
+      "27058982",
+      "33934416",
+      "36175408",
+      "32513082",
+      "28110529",
+      "35085576",
+      "25528473",
+      "37242981",
+      "38260307",
+      "35378855"
+    ],
+    "review": [
+      "37159305",
+      "35179885",
+      "34865286",
+      "36524527",
+      "33300985",
+      "27058982",
+      "32513082"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.3c00705",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

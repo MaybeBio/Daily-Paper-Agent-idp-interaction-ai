@@ -1,0 +1,174 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.19.492622",
+  "title": "DEGRONOPEDIA - a web server for proteome-wide inspection of degrons",
+  "doi": "10.1101/2022.05.19.492622",
+  "abstract": "<h4>ABSTRACT</h4> The ubiquitin-proteasome system is a proteolytic pathway that removes damaged and unwanted proteins. Their selective turnover is initiated by ubiquitin (Ub) attachment, mainly by Ub ligases that recognize substrates through their short linear motifs termed degrons. A degradation-targeting degron comprises a nearby Ub-modified residue and an intrinsically disordered region (IDR) involved in interaction with the proteasome. Degron-signaling has been studied over the last decades, yet there are no resources for systematic screening of degron sites to facilitate studies on their biological significance, such as targeted protein degradation approaches. To bridge this gap, we developed DEGRONOPEDIA, a web server that allows exploration of degron motifs in the proteomes of seven model organisms and maps these data to Lys, Cys, Thr, and Ser residues that can undergo ubiquitination and to IDRs proximal to them, both in sequence and structure. The server also reports the post-translational modifications and pathogenic mutations within the degron and its flanking regions, as these can modulate the degron’s accessibility. Degrons often occur at the amino or carboxyl end of a protein substrate, acting as initiators of the N-/C-degron pathway, respectively. Therefore, since they may appear following the protease cleavage, DEGRONOPEDIA simulate sequence nicking based on experimental data and theoretical predictions and screen for emerging degron motifs. Moreover, we implemented machine learning to predict the stability of the N-/C-termini, facilitating the identification of substrates of the N-/C-degron pathways. We are confident that our tool will stimulate research on degron-signaling providing output information in a ready-to-validate context. DEGRONOPEDIA can be freely accessed at degronopedia.com .",
+  "authors": [
+    "Szulc NA",
+    "Stefaniak F",
+    "Piechota M",
+    "Cappannini A",
+    "Bujnicki JM",
+    "Pokrzywa W"
+  ],
+  "published_date": "2022-05-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492622",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492622.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496437",
+    "raw_record": {
+      "id": "PPR496437",
+      "source": "PPR",
+      "doi": "10.1101/2022.05.19.492622",
+      "title": "DEGRONOPEDIA - a web server for proteome-wide inspection of degrons",
+      "authorString": "Szulc NA, Stefaniak F, Piechota M, Cappannini A, Bujnicki JM, Pokrzywa W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Szulc NA",
+            "lastName": "Szulc",
+            "firstName": "Natalia",
+            "initials": "NA"
+          },
+          {
+            "fullName": "Stefaniak F",
+            "lastName": "Stefaniak",
+            "firstName": "Filip",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5758-9416"
+            }
+          },
+          {
+            "fullName": "Piechota M",
+            "lastName": "Piechota",
+            "firstName": "Małgorzata",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7511-8626"
+            }
+          },
+          {
+            "fullName": "Cappannini A",
+            "lastName": "Cappannini",
+            "firstName": "Andrea",
+            "initials": "A"
+          },
+          {
+            "fullName": "Bujnicki JM",
+            "lastName": "Bujnicki",
+            "firstName": "Janusz",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6633-165X"
+            }
+          },
+          {
+            "fullName": "Pokrzywa W",
+            "lastName": "Pokrzywa",
+            "firstName": "Wojciech",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5110-4462"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5758-9416"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7511-8626"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5110-4462"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6633-165X"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  The ubiquitin-proteasome system is a proteolytic pathway that removes damaged and unwanted proteins. Their selective turnover is initiated by ubiquitin (Ub) attachment, mainly by Ub ligases that recognize substrates through their short linear motifs termed degrons. A degradation-targeting degron comprises a nearby Ub-modified residue and an intrinsically disordered region (IDR) involved in interaction with the proteasome. Degron-signaling has been studied over the last decades, yet there are no resources for systematic screening of degron sites to facilitate studies on their biological significance, such as targeted protein degradation approaches. To bridge this gap, we developed DEGRONOPEDIA, a web server that allows exploration of degron motifs in the proteomes of seven model organisms and maps these data to Lys, Cys, Thr, and Ser residues that can undergo ubiquitination and to IDRs proximal to them, both in sequence and structure. The server also reports the post-translational modifications and pathogenic mutations within the degron and its flanking regions, as these can modulate the degron’s accessibility. Degrons often occur at the amino or carboxyl end of a protein substrate, acting as initiators of the N-/C-degron pathway, respectively. Therefore, since they may appear following the protease cleavage, DEGRONOPEDIA simulate sequence nicking based on experimental data and theoretical predictions and screen for emerging degron motifs. Moreover, we implemented machine learning to predict the stability of the N-/C-termini, facilitating the identification of substrates of the N-/C-degron pathways. We are confident that our tool will stimulate research on degron-signaling providing output information in a ready-to-validate context. DEGRONOPEDIA can be freely accessed at  degronopedia.com .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/22/2022.05.19.492622.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.19.492622"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38567734",
+            "reference": "Nucleic acids research. 2024 Jul;52(W1):W221-W232",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-24",
+      "firstPublicationDate": "2022-05-22",
+      "firstIndexDate": "2022-05-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

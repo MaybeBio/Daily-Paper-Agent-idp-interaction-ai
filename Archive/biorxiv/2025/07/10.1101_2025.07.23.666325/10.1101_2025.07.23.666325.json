@@ -1,0 +1,166 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.23.666325",
+  "title": "A knowledge-based distance metric highlights underperformance of variant effect predictors on gain-of-function missense variants",
+  "doi": "10.1101/2025.07.23.666325",
+  "abstract": "Most current variant effect predictors (VEPs) are less effective at identifying non-loss-of-function (non-LOF) disease variants, which arise due to a gain of function (GOF) or dominant-negative (DN) mechanism. Previously, we showed that Extent of Disease Clustering (EDC), a structure-derived metric, can be used to prioritize putative non-LOF genes due to the tendency of their pathogenic missense variants to cluster. We also introduced a structure-derived spatial distance metric, Spatial Proximity to Disease Variants (SPDV), which proved useful for scoring RyR1 variants. Here, we apply EDC and SPDV across thousands of human disease genes. In comparison with 72 variant effect predictors (VEPs), SPDV exceeds or is at least as effective as half of the tested models at identifying dominant disease variants. When applied to GOF variants, SPDV performs similarly to top VEPs. We show that SPDV performance improves with increasing target EDC values and identify an EDC threshold after which SPDV consistently surpasses all other predictors. Its use as an analytical metric enables the identification of a subset of putative GOF disease genes where current VEP methods underperform relative to SPDV, indicating they may be improved by incorporating spatial distance information.",
+  "authors": [
+    "Gerasimavicius L",
+    "Marsh JA"
+  ],
+  "published_date": "2025-07-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666325",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666325.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1056896",
+    "raw_record": {
+      "id": "PPR1056896",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1056896"
+        ]
+      },
+      "doi": "10.1101/2025.07.23.666325",
+      "title": "A knowledge-based distance metric highlights underperformance of variant effect predictors on gain-of-function missense variants",
+      "authorString": "Gerasimavicius L, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gerasimavicius L",
+            "lastName": "Gerasimavicius",
+            "firstName": "Lukas",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6874-3850"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6874-3850"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Most current variant effect predictors (VEPs) are less effective at identifying non-loss-of-function (non-LOF) disease variants, which arise due to a gain of function (GOF) or dominant-negative (DN) mechanism. Previously, we showed that Extent of Disease Clustering (EDC), a structure-derived metric, can be used to prioritize putative non-LOF genes due to the tendency of their pathogenic missense variants to cluster. We also introduced a structure-derived spatial distance metric, Spatial Proximity to Disease Variants (SPDV), which proved useful for scoring RyR1 variants. Here, we apply EDC and SPDV across thousands of human disease genes. In comparison with 72 variant effect predictors (VEPs), SPDV exceeds or is at least as effective as half of the tested models at identifying dominant disease variants. When applied to GOF variants, SPDV performs similarly to top VEPs. We show that SPDV performance improves with increasing target EDC values and identify an EDC threshold after which SPDV consistently surpasses all other predictors. Its use as an analytical metric enables the identification of a subset of putative GOF disease genes where current VEP methods underperform relative to SPDV, indicating they may be improved by incorporating spatial distance information.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/28/2025.07.23.666325.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.23.666325"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1056896"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1056896&type=FILE&fileName=EMS207678-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207678",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-07-31",
+      "firstPublicationDate": "2025-07-28",
+      "firstIndexDate": "2025-07-31",
+      "fullTextReceivedDate": "2025-08-08",
+      "hasEvaluations": "Y"
+    }
+  }
+}

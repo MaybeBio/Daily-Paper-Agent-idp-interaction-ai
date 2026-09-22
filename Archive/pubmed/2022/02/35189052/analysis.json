@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35189052",
+  "title": "The epigenetic dimension of protein structure.",
+  "authors": "Azzaz, Fodil; Fantini, Jacques",
+  "journal": "Biomolecular concepts",
+  "published_date": "2022-02-22",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文批判AlphaFold对无序区域建模的缺陷，提出蛋白质结构的表观遗传维度概念，涉及IDR构象与配体结合的结构化，但未深入PPI机制建模或AI/物理方法，仅作概念性讨论。",
+  "abstract": "Accurate prediction of protein structure is one of the most challenging goals of biology. The most recent achievement is AlphaFold, a machine learning method that has claimed to have solved the structure of almost all human proteins. This technological breakthrough has been compared to the sequencing of the human genome. However, this triumphal statement should be treated with caution, as we identified serious flaws in some AlphaFold models. Disordered regions are often represented by large loops that clash with the overall protein geometry, leading to unrealistic structures, especially for membrane proteins. In fact, AlphaFold comes up against the notion that protein folding is not solely determined by genomic information. We suggest that all parameters controlling the structure of a protein without being strictly encoded in its amino acid sequence should be coined \"epigenetic dimension of protein structure.\" Such parameters include for instance protein solvation by membrane lipids, or the structuration of disordered proteins upon ligand binding, but exclude sequence-encoded sites of post-translational modifications such as glycosylation. In our view, this paradigm is necessary to reconcile two opposite properties of living systems: beyond rigorous biological coding, evolution has given way to a certain level of uncertainty and anarchy.",
+  "abstract_zh": "蛋白质结构的精确预测是生物学中最具挑战性的目标之一。最新的成就是AlphaFold，一种机器学习方法，据称已解决了几乎所有人类蛋白质的结构。这一技术突破被比作人类基因组的测序。然而，这一胜利宣言应谨慎对待，因为我们发现了一些AlphaFold模型中的严重缺陷。无序区域常被表示为与整体蛋白质几何结构冲突的大环，导致不切实际的结构，尤其是对于膜蛋白。事实上，AlphaFold面临的概念是，蛋白质折叠并非仅由基因组信息决定。我们建议，所有控制蛋白质结构但并非严格编码在其氨基酸序列中的参数，应被称为“蛋白质结构的表观遗传维度”。此类参数包括例如膜脂对蛋白质的溶剂化作用，或配体结合时无序蛋白质的结构化，但不包括序列编码的翻译后修饰位点，如糖基化。我们认为，这一范式对于调和生命系统的两个相反特性是必要的：超越严格的生物编码，进化已让位于一定程度的不确定性和无序性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35189052/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35189052/",
+  "paper_page_path": "papers/pubmed/35189052/index.html"
+}

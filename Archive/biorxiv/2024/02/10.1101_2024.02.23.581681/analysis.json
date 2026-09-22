@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.23.581681",
+  "title": "The importance of stereochemistry in the disorder-order continuum of protein-protein interactions",
+  "authors": "Newcombe EA; Due AD; Sottini A; Fernandes CB; Staby L; Delaforge E; Bartling CRO; Brakti I; Bugge K; Schuler B; Skriver K; Olsen JG; Kragelund BB",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-26",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过镜像氨基酸配体实验，系统考察无序-有序连续谱中蛋白质互作对立体化学的依赖性，揭示完全无序复合物不受手性约束而耦合折叠结合需正确手性，虽以实验为主且无AI/物理模拟方法，但聚焦IDP介导的PPI结合机制，对无序复合物形成机制建模有直接启发。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins can bind via the formation of highly disordered protein complexes without the formation of 3D-structure. Most naturally occurring proteins are “left-handed” or levorotatory (L), made up only of L-amino acids, imprinting molecular structure and communication with stereochemistry. In contrast, their mirror image “right-handed” or dextrorotatory (D) amino acids are rare in Nature. Whether disordered protein complexes are truly independent of 3D-topology and thus of chiral constraints is not clear. To test the chiral constraints of disordered protein-protein interactions, a set of interacting protein pairs covering the disorder-order continuum was chosen as representative examples. By observing both the natural ligands and their stereochemical mirror images in free and bound states, we discovered that chirality was inconsequential in a fully disordered complex. However, if the interaction relied on the ligand undergoing coupled folding and binding, correct stereochemistry was essential. Between these extremes, binding could be observed for the D-ligand with a strength that correlated with the amount of disorder in the final complex. These findings have important implications for our understanding of protein-protein interactions, the molecular processes leading to complex formation, the use of D-peptides in drug discovery, and the chemistry of protein evolution of the first living entities on Earth.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白质可通过形成高度无序的蛋白质复合物进行结合，而无需形成三维结构。大多数天然存在的蛋白质为“左手性”或左旋（L），仅由L-氨基酸组成，从而以立体化学方式印记分子结构和通讯。相比之下，其镜像“右手性”或右旋（D）氨基酸在自然界中较为罕见。无序蛋白质复合物是否真正独立于三维拓扑结构，从而不受手性约束，尚不清楚。为检验无序蛋白质-蛋白质相互作用的手性约束，选取一组覆盖无序-有序连续体的相互作用蛋白质对作为代表性示例。通过观察天然配体及其立体化学镜像在自由态和结合态下的行为，我们发现手性在完全无序的复合物中无关紧要。然而，若相互作用依赖于配体经历偶联折叠与结合，则正确的立体化学至关重要。在这两个极端之间，可观察到D-配体的结合，其强度与最终复合物中的无序程度相关。这些发现对我们理解蛋白质-蛋白质相互作用、导致复合物形成的分子过程、D-肽在药物发现中的应用以及地球上首批生命实体蛋白质进化的化学机制具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581681",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581681",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.23.581681/index.html"
+}

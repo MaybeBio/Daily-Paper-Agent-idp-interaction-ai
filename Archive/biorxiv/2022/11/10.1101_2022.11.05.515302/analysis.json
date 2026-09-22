@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.05.515302",
+  "title": "Keratin filament mechanics and energy dissipation are determined by metal-like plasticity",
+  "authors": "Lorenz C; Forsting J; Style RW; Klumpp S; Köster S",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-05",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用光镊和计算模型研究角蛋白与波形蛋白单丝力学与能量耗散机制，对象为中间丝而非无序蛋白/IDR，且不涉及PPI或相分离，但单丝力学建模思路对IDR力学机制研究有间接启发。",
+  "abstract": "Cell mechanics is determined by an intracellular biopolymer network, including intermediate filaments that are expressed in a cell-type specific manner. A prominent pair of intermediate filaments are keratin and vimentin as the epithelial-to-mesenchymal transition is associated with a switch from keratin to vimentin. The transition coincides with a change in cellular mechanics, and thus dynamic properties of the cells. This observation raises the question of how the mechanical properties already differ on the single filament level. Here we use optical tweezers and a computational model to compare the stretching and dissipation behavior of the two filament types. We find that keratin and vimentin filaments behave in opposite ways: keratin filaments elongate, but retain their stiffness, whereas vimentin filaments soften, but retain their length. This finding is explained by fundamentally different ways to dissipate energy: viscous subunits sliding within keratin filaments and non-equilibrium α helix unfolding in vimentin filaments.",
+  "abstract_zh": "细胞力学由细胞内生物聚合物网络决定，其中包括以细胞类型特异性方式表达的中间丝。角蛋白和波形蛋白是一对显著的中间丝，因为上皮-间质转化与从角蛋白到波形蛋白的转换相关。这一转换与细胞力学及其动态特性的变化相吻合。这一观察提出了一个问题：在单丝水平上，力学性质如何已经存在差异。在此，我们使用光镊和计算模型来比较这两种丝类型的拉伸和耗散行为。我们发现角蛋白和波形蛋白丝表现出相反的行为：角蛋白丝伸长但保持其刚度，而波形蛋白丝软化但保持其长度。这一发现通过根本不同的能量耗散方式得以解释：角蛋白丝内粘性亚基滑动，以及波形蛋白丝中非平衡α螺旋展开。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515302",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515302",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.05.515302/index.html"
+}

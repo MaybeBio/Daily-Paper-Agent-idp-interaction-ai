@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "36080494",
+    "doi": "10.3390/molecules27175726",
+    "title": "Modified Protein-Water Interactions in CHARMM36m for Thermodynamics and Kinetics of Proteins in Dilute and Crowded Solutions."
+  },
+  "content": {
+    "abstract": "Proper balance between protein-protein and protein-water interactions is vital for atomistic molecular dynamics (MD) simulations of globular proteins as well as intrinsically disordered proteins (IDPs). The overestimation of protein-protein interactions tends to make IDPs more compact than those in experiments. Likewise, multiple proteins in crowded solutions are aggregated with each other too strongly. To optimize the balance, Lennard-Jones (LJ) interactions between protein and water are often increased about 10% (with a scaling parameter, lambda = 1.1) from the existing force fields. Here, we explore the optimal scaling parameter of protein-water LJ interactions for CHARMM36m in conjunction with the modified TIP3P water model, by performing enhanced sampling MD simulations of several peptides in dilute solutions and conventional MD simulations of globular proteins in dilute and crowded solutions. In our simulations, 10% increase of protein-water LJ interaction for the CHARMM36m cannot maintain stability of a small helical peptide, (AAQAA)(3) in a dilute solution and only a small modification of protein-water LJ interaction up to the 3% increase (lambda = 1.03) is allowed. The modified protein-water interactions are applicable to other peptides and globular proteins in dilute solutions without changing thermodynamic properties from the original CHARMM36m. However, it has a great impact on the diffusive properties of proteins in crowded solutions, avoiding the formation of too sticky protein-protein interactions.",
+    "keywords": [
+      "CHARMM36m",
+      "NBFIX",
+      "crowding simulations",
+      "enhanced sampling method",
+      "intrinsically disordered proteins",
+      "molecular dynamics simulation",
+      "molecular force fields",
+      "van der Waals interaction"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Peptides",
+      "Thermodynamics",
+      "*Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsubara, Daiki",
+        "Kasahara, Kento",
+        "Dokainish, Hisham M",
+        "Oshima, Hiraku",
+        "Sugita, Yuji"
+      ],
+      "short_names": [
+        "Matsubara D",
+        "Kasahara K",
+        "Dokainish HM",
+        "Oshima H",
+        "Sugita Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4387-4790",
+        "ORCID: 0000-0001-9738-9216"
+      ],
+      "affiliations": [
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+        "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Toyonaka 560-8531, Osaka, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako 351-0198, Saitama, Japan.",
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako 351-0198, Saitama, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Hyogo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsubara, Daiki",
+        "short_name": "Matsubara D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kasahara, Kento",
+        "short_name": "Kasahara K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+          "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Toyonaka 560-8531, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Dokainish, Hisham M",
+        "short_name": "Dokainish HM",
+        "identifiers": [
+          "0000-0002-4387-4790"
+        ],
+        "affiliations": [
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako 351-0198, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Oshima, Hiraku",
+        "short_name": "Oshima H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [
+          "0000-0001-9738-9216"
+        ],
+        "affiliations": [
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako 351-0198, Saitama, Japan.",
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Hyogo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2022 Sep 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "42589225",
+      "39874290",
+      "39660892",
+      "38578072",
+      "38252018",
+      "37793083",
+      "37774143",
+      "37589409",
+      "37006777"
+    ],
+    "refs": [
+      "35795820",
+      "35381009",
+      "35377637",
+      "35239418",
+      "34593638",
+      "34516126",
+      "34423314",
+      "34278793",
+      "34215742",
+      "34096718",
+      "33934416",
+      "33876938",
+      "33545530",
+      "33484712",
+      "33302617",
+      "33243857",
+      "33078950",
+      "32980615",
+      "32132204",
+      "31714766",
+      "31539245",
+      "31483661",
+      "31451651",
+      "31396897",
+      "31270472",
+      "31036655",
+      "30990694",
+      "30633867",
+      "29735687",
+      "29670280",
+      "29364893",
+      "29151345",
+      "28718930",
+      "28666087",
+      "28651056",
+      "28592654",
+      "27819658",
+      "27801646",
+      "26753008",
+      "26574453",
+      "26300708",
+      "25764013",
+      "25400522",
+      "25352545",
+      "24889800",
+      "24463371",
+      "23402619",
+      "23341755",
+      "22577825",
+      "22455930",
+      "22443635",
+      "22352398",
+      "21843480",
+      "21539772",
+      "21506571",
+      "20947758",
+      "20331846",
+      "20018653",
+      "19045004",
+      "18688361",
+      "18573087",
+      "17212484",
+      "16981200",
+      "16709409",
+      "16392929",
+      "15939018",
+      "15296744",
+      "15185334",
+      "14531054",
+      "9164455",
+      "7688609",
+      "7213619",
+      "6667333"
+    ],
+    "similar": [
+      "36080494",
+      "30865832",
+      "39536029",
+      "23912807",
+      "40569578",
+      "33382616",
+      "34185520",
+      "34576338",
+      "32859072",
+      "36387274",
+      "33587794",
+      "32816485",
+      "25207671",
+      "28805390",
+      "33355572",
+      "27819658",
+      "35408509",
+      "29080468",
+      "33174726",
+      "28226222",
+      "31714774",
+      "33337879",
+      "34025949",
+      "35920605",
+      "30066087",
+      "39225535",
+      "25084962",
+      "35174713",
+      "34491058",
+      "30230839",
+      "39340152",
+      "29186229",
+      "29091442",
+      "22462831",
+      "33444020",
+      "35044776",
+      "40128232",
+      "28787166",
+      "38877893",
+      "34125530",
+      "36641212",
+      "33810353",
+      "37452752",
+      "41298416",
+      "36744506",
+      "26575776",
+      "24589355",
+      "35074392",
+      "26574374",
+      "24506488",
+      "30811210",
+      "40172236",
+      "30840442",
+      "30407814",
+      "32227937",
+      "33459730",
+      "28425679",
+      "37556237",
+      "26910732",
+      "20687517",
+      "37646172",
+      "34546059",
+      "39983022",
+      "30730736",
+      "28926706",
+      "26894933",
+      "36171073",
+      "26030189",
+      "32367806",
+      "40907012",
+      "33720710",
+      "28448138",
+      "38949117",
+      "23914143",
+      "36697521",
+      "33591749",
+      "31241940",
+      "39561991",
+      "34680048",
+      "34524800",
+      "31552948",
+      "33411518",
+      "31702919",
+      "41129692",
+      "38928405",
+      "34509724",
+      "30514082",
+      "34860517",
+      "36232586",
+      "35308859",
+      "32852943",
+      "41350115",
+      "40068541",
+      "29808548",
+      "33453267",
+      "37989551",
+      "22443635",
+      "28095698",
+      "25855872",
+      "25871264"
+    ],
+    "review": [
+      "36080494",
+      "33355572",
+      "29080468",
+      "28226222",
+      "30066087",
+      "30840442",
+      "33591749",
+      "34680048",
+      "40068541"
+    ],
+    "pmc": [
+      "9457699"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules27175726",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36080494/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36080494",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

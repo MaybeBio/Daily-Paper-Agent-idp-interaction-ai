@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.27.534361",
+  "title": "Phase Separation and Ageing of Glycine-Rich Protein from Tick Adhesive",
+  "authors": "Ganar KA; Turbina P; Nandy M; Chen C; Suylen D; van der Beelen S; Pascoe EL; Koenraadt CJ; Dijkgraaf I; Deshpande S",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-27",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究蜱虫唾液中无序甘氨酸富集蛋白的液-液相分离及老化成胶机制，通过实验揭示C端阳离子-π/π-π互作与N端静电调控凝聚体形成，虽无AI/物理模拟方法，但聚焦IDR介导的相分离与互作机制，对无序蛋白PPI机制建模有直接参考价值。",
+  "abstract": "Hard ticks feed on their host for multiple days. To ensure firm attachment, they secrete a protein-rich saliva that eventually forms a solid cement cone. The underlying mechanism of this liquid-to-solid transition is not yet understood. This study focuses on the phase transitions of a disordered glycine-rich protein (GRP) that is prominent in tick saliva. We show that GRP undergoes liquid-liquid phase separation via simple coacervation to form biomolecular condensates in salty environments. Cation-pi and pi-pi interactions near the C-terminus promote coacervation while a negatively charged N-terminus prolongs its onset through electrostatic repulsion. Interestingly, GRP condensates exhibit ageing and undergo liquid-to-gel transition to form viscoelastic networks as well as solid-like condensates. Lastly, we provide evidence for protein-rich condensates in natural tick saliva. Our findings provide a starting point to gain insights into the bioadhesion of ticks, develop novel tick control strategies, and towards biomedical applications such as tissue sealants.",
+  "abstract_zh": "硬蜱在其宿主上取食数天。为确保牢固附着，它们分泌富含蛋白质的唾液，最终形成坚固的水泥锥。这种从液态到固态转变的潜在机制尚不清楚。本研究聚焦于蜱唾液中显著存在的一种无序甘氨酸富集蛋白（GRP）的相变。我们表明，GRP通过简单共凝聚在盐性环境中发生液-液相分离，形成生物分子凝聚体。C末端附近的阳离子-π和π-π相互作用促进共凝聚，而带负电的N末端通过静电排斥延长其起始时间。有趣的是，GRP凝聚体表现出老化现象，并经历液-凝胶转变，形成粘弹性网络以及类固态凝聚体。最后，我们提供了天然蜱唾液中蛋白质富集凝聚体的证据。我们的发现为理解蜱的生物粘附、开发新型蜱控制策略以及组织密封剂等生物医学应用提供了起点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.27.534361",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.27.534361",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.27.534361/index.html"
+}

@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "40920236",
+    "doi": "10.1021/acs.jpcb.5c05492",
+    "title": "Distribution and Relative Size of Protein Binding Domains Cooperatively Influence Phase Separation of Protein-RNA Mixtures."
+  },
+  "content": {
+    "abstract": "Multivalent protein-protein interactions play essential roles in mediating liquid-liquid phase separation (LLPS) that drives biomolecular condensate formation. Here, we systematically investigate how the spatial distribution and relative size of protein binding domains (PBDs) would influence LLPS in a mixture of spherical proteins and RNA single strands by using a patchy-particle polymer model, wherein each protein contains a fixed number of PBDs on the surface distributed closely or sparsely. Intriguingly, we find that LLPS behavior exhibits a nontrivial dependence on the cooperative interplay between PBD distribution and protein size: while sparsely distributed PBDs are more favorable to LLPS for small proteins, closely packed PBDs facilitate LLPS for larger counterparts. In the former case, large multilayer protein clusters can be formed around the RNA strand connected by sparsely distributed PBDs, while in the latter case, mainly bilayer dense clusters are favored by closely packed PBDs. Furthermore, we have performed extensive simulations to demonstrate that such observations depend on temperature and interaction strength. Our study, therefore, may shed some new light on the understanding of protein-RNA LLPS.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry",
+      "Protein Binding",
+      "*Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Xubiao",
+        "Jiang, Huijun",
+        "Hou, Zhonghuai"
+      ],
+      "short_names": [
+        "Ji X",
+        "Jiang H",
+        "Hou Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7243-5431",
+        "ORCID: 0000-0003-1241-7041"
+      ],
+      "affiliations": [
+        "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China.",
+        "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China.",
+        "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Xubiao",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Huijun",
+        "short_name": "Jiang H",
+        "identifiers": [
+          "0000-0001-7243-5431"
+        ],
+        "affiliations": [
+          "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Zhonghuai",
+        "short_name": "Hou Z",
+        "identifiers": [
+          "0000-0003-1241-7041"
+        ],
+        "affiliations": [
+          "Hefei National Research Center for Physical Sciences at the Microscale and Key Laboratory of Precision and Intelligent Chemistry, Department of Chemical Physics, University of Science and Technology of China, Hefei, Anhui 230026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Sep 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/08 12:42",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40920236",
+      "29712961",
+      "35108264",
+      "38231854",
+      "34748548",
+      "33571491",
+      "40098319",
+      "41074186",
+      "36444977",
+      "38526948",
+      "40632496",
+      "29677513",
+      "32881044",
+      "29511089",
+      "38943248",
+      "39704478",
+      "33982350",
+      "41272974",
+      "23912807",
+      "34156864",
+      "38804888",
+      "33139563",
+      "29526694",
+      "39460625",
+      "38356260",
+      "35142991",
+      "38547652",
+      "36464283",
+      "41457474",
+      "33744316",
+      "41535729",
+      "38322526",
+      "40616404",
+      "41305495",
+      "40748104",
+      "36181270",
+      "40792356",
+      "28924037",
+      "39006762",
+      "39920037",
+      "37222424",
+      "32371601",
+      "37001915",
+      "39642205",
+      "33264400",
+      "42105592",
+      "41714601",
+      "39342654",
+      "39302099",
+      "32615218",
+      "33076213",
+      "39029245",
+      "37130439",
+      "32696384",
+      "39162498",
+      "36993212",
+      "38251748",
+      "35198873",
+      "33982369",
+      "34029402",
+      "40516596",
+      "34787357",
+      "40305655",
+      "40463193",
+      "32577653",
+      "41442543",
+      "39116032",
+      "39922493",
+      "38657863",
+      "39194247",
+      "41363845",
+      "35895272",
+      "31506351",
+      "39990825",
+      "33938068",
+      "36199253",
+      "38566033",
+      "39957101",
+      "37398035",
+      "41193489",
+      "30762296",
+      "38568799",
+      "38511671",
+      "40794947",
+      "33672806",
+      "38446881",
+      "41206632",
+      "40588021",
+      "38029395",
+      "39256186",
+      "38808958",
+      "39343003",
+      "39947751",
+      "41524628",
+      "34718734",
+      "32405004",
+      "41405960",
+      "31906602",
+      "31270472",
+      "41672170"
+    ],
+    "review": [
+      "40920236",
+      "32881044",
+      "35142991",
+      "38547652",
+      "36464283",
+      "40616404",
+      "39006762",
+      "39920037",
+      "39990825",
+      "41206632",
+      "38029395",
+      "38808958"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c05492",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

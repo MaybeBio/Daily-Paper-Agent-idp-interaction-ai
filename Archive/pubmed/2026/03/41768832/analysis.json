@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41768832",
+  "title": "Manifold of Polyampholyte Necklaces: From Charge Migration to Hierarchical Structure.",
+  "authors": "Wu, Yiheng; Rumyantsev, Artem M; de Pablo, Juan J",
+  "journal": "Macromolecules",
+  "published_date": "2026-03-02",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过标度理论和分子动力学模拟研究电荷不平衡聚两性电解质的项链状构象，虽对象为合成聚合物而非IDP，但其电荷序列-构象关系建模思路对无序蛋白IDR构象预测有可迁移启发，且涉及单链构象而非PPI互作机制。",
+  "abstract": "Single-chain conformations of charge-imbalanced polyampholytes are controlled by an interplay of nonelectrostatic interactions between monomers, defined by the solvent quality, and Coulomb forces between charged monomers, which are sensitive to their primary sequence. Electrostatic interactions manifest themselves as effective short-range attractions between opposite charges and, simultaneously, as long-range repulsions owing to a net global charge of the chain. As a result, polyampholytes can adopt globular, stretched, or intermediate necklace conformations. To provide a complete description of their conformational behavior, we consider chains with Markov charge statistics and construct a scaling diagram of states in the coordinates of charge blockiness and solvent quality. Ten scaling regimes of various necklaces are identified, which can be classified into three types: (i) \"charge-in-beads\" necklaces form at moderate charge blockiness, with the bead size defined by the Rayleigh instability criterion; (ii) \"charge-in-strings\" necklaces are stable at higher blockiness of like charges, which enables the net charge imbalance to migrate from the beads to the strings; (iii) \"hierarchical\" necklaces, which are necklace-in-necklace conformations identified herein for the first time, comprise beads of two different sizes that coexist when the charge blockiness is high and the solvent quality is poor. For all three types of necklaces, scaling predictions are quantitatively confirmed by molecular dynamics simulations. Our findings on the conformational statistics of charge-imbalanced polyampholytes may contribute to improved prediction and classification of the structure of intrinsically disordered proteins/regions (IDPs/IDRs).",
+  "abstract_zh": "电荷不平衡聚两性电解质的单链构象由单体间的非静电相互作用（由溶剂质量决定）与带电单体间的库仑力（对其一级序列敏感）之间的相互作用控制。静电相互作用表现为相反电荷间的有效短程吸引，同时由于链的净全局电荷而产生长程排斥。因此，聚两性电解质可以呈现球状、伸展状或中间项链状构象。为提供其构象行为的完整描述，我们考虑具有马尔可夫电荷统计的链，并构建电荷嵌段性和溶剂质量坐标下的标度状态图。识别出十种不同项链的标度区域，可分为三类：（i）在中等电荷嵌段性下形成“珠内电荷”项链，珠尺寸由瑞利不稳定性准则定义；（ii）在较高同种电荷嵌段性下稳定存在“链内电荷”项链，这使得净电荷不平衡能够从珠迁移至链段；（iii）“层级”项链，即项链中嵌套项链的构象，本文首次识别，包含两种不同尺寸的珠，在电荷嵌段性高且溶剂质量差时共存。对于所有三类项链，标度预测均通过分子动力学模拟定量确认。我们关于电荷不平衡聚两性电解质构象统计的发现可能有助于改进对 intrinsically disordered proteins/regions (IDPs/IDRs) 结构的预测和分类。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41768832/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41768832/",
+  "paper_page_path": "papers/pubmed/41768832/index.html"
+}

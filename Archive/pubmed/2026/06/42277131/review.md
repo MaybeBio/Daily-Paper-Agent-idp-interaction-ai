@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Discussion and conclusions) with figure legends and supplementary information descriptions. No actual figures, tables, or supplementary files were provided.
+- **Assessment boundary** Assessment is limited to the textual content of the manuscript as supplied. Claims regarding figures, tables, and supplementary materials are evaluated based on their descriptions in the text only.
+- **Shared manuscript claim summary** The authors present an integrative computational study combining AlphaFold 3 modeling, structural filtering, and molecular dynamics simulations to characterize the interaction between dimeric Nipah virus W protein and human 14-3-3σ. They propose a heterotetrameric assembly stabilized by a Cys421-Cys421 disulfide bond in the W dimer and phosphorylated Ser449 interactions with the 14-3-3σ binding groove. Model 3 is identified as the most stable candidate through a multi-parameter scoring approach.
+- **Visible evidence base** Text descriptions of methods, results, and figure legends. No raw data, actual figures, tables, or supplementary files were accessible for direct verification.
+- **Missing materials affecting confidence** All figures (Figs. 1-8), all supplementary tables (S1-S7), all supplementary figures (S1-S3), the complete dataset of 1000 AlphaFold 3 models, and the actual scoring outputs. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational investigation of a biologically relevant protein-protein interaction. The topic is of interest to the virology and structural biology communities, and the methodological approach is reasonable. However, the manuscript has several significant weaknesses. The central claim of a stable heterotetrameric assembly relies heavily on a single disulfide bond whose biological relevance is speculative, and the authors themselves acknowledge the lack of experimental evidence for W protein dimerization. The scoring methodology, while described, cannot be fully evaluated without the supplementary data. The biological interpretation extends considerably beyond what the computational evidence can support. The manuscript would benefit from clearer presentation of the limitations and a more measured interpretation of the results.
+- **Who would be interested in the results, and why** Researchers studying Nipah virus pathogenesis and immune evasion mechanisms would be interested in the proposed structural model of the W-14-3-3σ interaction. The computational biology community, particularly those working on IDP-containing complexes and AlphaFold-based modeling, may find the methodological framework useful. Structural biologists interested in 14-3-3 protein interactions with viral proteins would also find relevance.
+- **Major strengths** The study addresses a biologically important question for which experimental structural data are lacking. The computational workflow is comprehensive, combining state-of-the-art tools (AlphaFold 3, MD simulations with modern force fields) in a systematic manner. The authors appropriately acknowledge the speculative nature of the disulfide-mediated dimerization. The robustness testing of the scoring approach through random weighting schemes is a good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the results support the structural feasibility of the proposed interaction and demonstrate that the complex can adopt stable conformations consistent with known binding features."
+  - **Evidence pointer** Results section, Figs. 3-8, Tables S3-S7
+  - **Concern** The central claim of structural feasibility and stability rests entirely on computational predictions. The authors state that "experimental evidence directly addressing the oligomeric state of the Nipah virus W protein remains limited," yet the entire heterotetrameric model depends on W dimerization via a Cys421-Cys421 disulfide bond. Without experimental validation of W dimerization, the biological relevance of the modeled assembly is uncertain. Furthermore, the stability assessment relies on MD simulations of only 100 ns to 1 μs, which may be insufficient to draw firm conclusions about the stability of a complex involving an intrinsically disordered protein. The RMSD plateau values of 5-8 Å are relatively high and may indicate significant conformational flexibility rather than a well-defined stable complex.
+  - **Why it matters** The primary contribution of this study is the proposed structural model. If the dimerization premise is incorrect or the stability claims are overstated, the entire model loses biological relevance. The manuscript does not provide sufficient evidence to distinguish between a biologically meaningful assembly and an artifact of the modeling pipeline.
+  - **Resolution test** The authors should either provide experimental evidence supporting W dimerization (e.g., crosslinking, co-immunoprecipitation, or analytical ultracentrifugation data) or substantially temper their claims to clearly present the model as a purely hypothetical construct. Additionally, longer simulations or enhanced sampling methods should be employed to more rigorously assess stability, and the authors should discuss the biological significance of the observed RMSD values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The authors state that "a total of 1000 independent runs with different random seeds were performed" and that "nine models were retained for further MD simulations."
+  - **Evidence pointer** Methods section, Table S1, Table S2
+  - **Concern** The selection process from 1000 models to 9 models is described only in terms of two distance criteria. However, the manuscript does not provide sufficient detail on how the 1000 models were distributed across the structural classification categories (structured, intermediate, disordered), how many models satisfied each criterion individually, or how the final nine were chosen when multiple models met the criteria. The statement that "models meeting the disulfide criterion were prioritized even if Sep449 site distances slightly exceeded the threshold" introduces a subjective element that is not quantified. Without access to the supplementary tables, the reproducibility of this selection is questionable.
+  - **Why it matters** The selection of models for expensive MD simulations is a critical step that can introduce bias. If the selection criteria are not fully transparent and reproducible, the subsequent results may not be generalizable. The scientific community needs to be able to reproduce the model selection to have confidence in the final conclusions.
+  - **Resolution test** The authors should provide a complete description of the model selection process, including the number of models satisfying each criterion, the distribution of the 1000 models across structural classes, and a clear decision tree for how the final nine were selected. The supplementary tables should be made available for review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** The authors state that "the results suggest that W dimerization may enhance its affinity for 14-3-3σ, potentially stabilizing a multimeric assembly capable of sequestering the IκBα/p65 complex."
+  - **Evidence pointer** Discussion and conclusions section
+  - **Concern** This statement extends the computational findings to a proposed biological mechanism involving IκBα/p65 sequestration. However, the manuscript provides no direct evidence linking the modeled W-14-3-3σ complex to IκBα/p65. The reference to experimental findings (reference 15) showing that W recruits 14-3-3σ to the nucleus and suppresses NF-κB-dependent transcription is used to support this claim, but the connection between the modeled complex and the specific mechanism of IκBα/p65 sequestration is entirely speculative. The authors do not model or experimentally test this interaction.
+  - **Why it matters** Overinterpretation of computational results can mislead the field and generate unfounded hypotheses that waste resources. The distinction between what the model shows and what the authors speculate about the biological mechanism should be clearly delineated.
+  - **Resolution test** The authors should either provide additional computational evidence (e.g., modeling the ternary complex with IκBα/p65) or clearly label this as speculation and suggest it as a direction for future experimental investigation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that "the ff19SB force field was selected due to its improved backbone parameterization and more accurate description of secondary structure propensities compared to earlier Amber force fields."
+  - **Evidence pointer** Methods section
+  - **Concern** While ff19SB is a reasonable choice, the manuscript does not provide any validation that this force field, in combination with the phosaa19SB parameters for the phosphorylated serine, accurately represents the behavior of this specific system. No comparison with experimental data or alternative force fields is provided. Given that the W protein is intrinsically disordered, the choice of force field is particularly critical, as IDP behavior is highly sensitive to force field parameters. The authors do not discuss potential limitations of the force field for modeling IDPs.
+  - **Why it matters** The reliability of the MD simulation results depends on the accuracy of the force field. For IDP-containing systems, force field choice can dramatically affect the observed conformational ensemble. Without validation or discussion of this limitation, the stability claims may not be robust.
+  - **Resolution test** The authors should either provide validation of their force field choice for this system (e.g., comparison with experimental data on W protein or similar IDPs) or discuss the potential limitations and how they might affect the conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, simulation parameters
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that simulations were performed at 309.75 K but does not justify this temperature choice. Standard physiological temperature is typically 310 K, and the 0.25 K difference is unusual.
+  - **Required correction** Clarify the rationale for the specific temperature used or state that it represents physiological temperature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, MM/PBSA calculations
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript mentions MM/PBSA and MM/GBSA calculations but does not specify the internal dielectric constant, salt concentration, or other parameters used in these calculations. These parameters can significantly affect the computed binding free energies.
+  - **Required correction** Provide the full set of parameters used for the MM/PBSA and MM/GBSA calculations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, hydrogen bond analysis
+  - **Evidence pointer** Fig. 3, Fig. 6
+  - **Issue** The hydrogen bond analysis is presented as heatmaps, but the manuscript does not describe how hydrogen bonds were defined (e.g., distance and angle cutoffs) or how the frequencies were calculated.
+  - **Required correction** Provide the criteria used for hydrogen bond identification and the method for calculating frequencies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, model selection
+  - **Evidence pointer** Results section, Table S1
+  - **Issue** The classification of models into structured, intermediate, and disordered groups is mentioned, but the manuscript does not explain what metric was used for this classification or how the thresholds were determined.
+  - **Required correction** Clarify the metric and thresholds used for the structural classification of the models.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion and conclusions section
+  - **Evidence pointer** Discussion and conclusions section
+  - **Issue** The authors mention that "approximately 31.6% of the W protein sequence is predicted to be intrinsically disordered" based on UniProt annotation, but they do not discuss how this prediction was made or what method was used.
+  - **Required correction** Provide the source and method for the disorder prediction, or clarify that this is from UniProt's automated annotation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Fig. 1, Fig. 2
+  - **Issue** The figure legends are very brief and do not fully describe the content of the figures. For example, Fig. 2 is described only as "Computational workflow including AlphaFold 3 model generation, structural filtering, molecular dynamics simulations, and final model selection" without specifying the steps in sufficient detail.
+  - **Required correction** Expand the figure legends to provide sufficient detail for readers to understand the figures without referring to the main text.
+
+## Risk / unsupported claims
+- The claim that the W protein forms a stable dimer via a Cys421-Cys421 disulfide bond is unsupported by experimental evidence and is acknowledged by the authors as speculative.
+- The claim that the modeled complex "provides a plausible structural basis" for the experimental observation of NF-κB suppression is an overreach, as the manuscript does not model or test the interaction with IκBα/p65.
+- The claim that "Model 3 consistently achieved the highest composite scores, identifying it as the most stable and promising candidate" cannot be fully evaluated without access to the scoring data and supplementary tables.
+- The statement that "the results support the structural feasibility of the proposed interaction" is based solely on computational predictions and should be presented with appropriate caveats.
+- The biological significance of the observed RMSD values (5-8 Å plateau) is not discussed, and the claim of "overall structural stability" may be overstated for a complex containing an intrinsically disordered protein.
+- The manuscript claims to be "the first comprehensive in silico investigation" of this interaction, but the literature search supporting this claim is not presented in sufficient detail to verify its novelty.

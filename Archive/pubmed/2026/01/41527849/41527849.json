@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41527849",
+    "doi": "10.1242/jcs.264236",
+    "title": "A short linear motif, conserved from yeast to human, binds to members of the Spa2 family of cortical scaffold proteins."
+  },
+  "content": {
+    "abstract": "Tip growth is closely tied to fungal pathogenicity. Budding yeast Spa2 (the homolog of GIT1 and GIT2 in mammals), a multi-domain protein and member of the polarisome, orchestrates tip growth in yeasts and other fungi. We identified a conserved short linear motif in the Rab GTPase-activating proteins (RabGAPs) Msb3 and Msb4, and the MAP kinase kinases Ste7 and Mkk1, which mediates their interaction with Spa2. AlphaFold predictions suggest that these initially unstructured motifs adopt an alpha-helical conformation upon binding to the hydrophobic cleft in the N-terminal domain of Spa2. Altering the predicted key contact residues in either Spa2 or the motif reduces complex stability. Such mutations also cause mis-localization of Msb3, Msb4 and Ste7 within the cell. Deleting the motif in Msb3 or Msb4 abolishes tip-directed growth of the yeast bud. Protein assemblies that spatially confine secretion to specific membrane regions are a common feature of eukaryotic cells. Accordingly, complexes between proteins with this motif and Spa2 were predicted in orthologs and paralogs across selected Opisthokonta, including pathogenic fungi and humans. A search for functional motifs in conformationally flexible regions of all yeast proteins identified Dse3 as a novel Spa2-binding partner.",
+    "keywords": [
+      "AlphaFold",
+      "Intrinsically disordered sequences",
+      "Polar vesicular transport",
+      "Protein complex prediction",
+      "Short linear motifs"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "Amino Acid Motifs",
+      "Protein Binding",
+      "Conserved Sequence",
+      "Amino Acid Sequence",
+      "*GTPase-Activating Proteins/metabolism/chemistry/genetics",
+      "Cytoskeletal Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bareis, Lara",
+        "Siewert, Annika",
+        "Grupp, Benjamin",
+        "Bergner, Tim",
+        "Read, Clarissa",
+        "Timmermann, Steffi",
+        "Schmid, Nicole",
+        "Johnsson, Nils"
+      ],
+      "short_names": [
+        "Bareis L",
+        "Siewert A",
+        "Grupp B",
+        "Bergner T",
+        "Read C",
+        "Timmermann S",
+        "Schmid N",
+        "Johnsson N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4046-3689",
+        "ORCID: 0000-0002-9109-8132",
+        "ORCID: 0000-0003-1416-835X"
+      ],
+      "affiliations": [
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany.",
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany.",
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany.",
+        "Electron Microscopy Facility, Ulm University, Albert-Einstein-Allee 11, D-89081 Ulm, Germany.",
+        "Electron Microscopy Facility, Ulm University, Albert-Einstein-Allee 11, D-89081 Ulm, Germany.",
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany.",
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany.",
+        "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bareis, Lara",
+        "short_name": "Bareis L",
+        "identifiers": [
+          "0000-0002-4046-3689"
+        ],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Siewert, Annika",
+        "short_name": "Siewert A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Grupp, Benjamin",
+        "short_name": "Grupp B",
+        "identifiers": [
+          "0000-0002-9109-8132"
+        ],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Bergner, Tim",
+        "short_name": "Bergner T",
+        "identifiers": [],
+        "affiliations": [
+          "Electron Microscopy Facility, Ulm University, Albert-Einstein-Allee 11, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Read, Clarissa",
+        "short_name": "Read C",
+        "identifiers": [],
+        "affiliations": [
+          "Electron Microscopy Facility, Ulm University, Albert-Einstein-Allee 11, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Timmermann, Steffi",
+        "short_name": "Timmermann S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmid, Nicole",
+        "short_name": "Schmid N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Johnsson, Nils",
+        "short_name": "Johnsson N",
+        "identifiers": [
+          "0000-0003-1416-835X"
+        ],
+        "affiliations": [
+          "Institute of Molecular Genetics and Cell Biology, Department of Biology, Ulm University, James-Franck-Ring N27, D-89081 Ulm, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cell science"
+    ],
+    "journal_abbrev": [
+      "J Cell Sci"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/13 07:43",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39864625",
+      "39843714",
+      "38718835",
+      "37957331",
+      "37938157",
+      "37774136",
+      "37140053",
+      "36331188",
+      "35134079",
+      "33656555",
+      "32978966",
+      "32780989",
+      "32503980",
+      "31964708",
+      "31362951",
+      "30959095",
+      "26305040",
+      "25547157",
+      "25038412",
+      "24859315",
+      "22930834",
+      "22743772",
+      "22291944",
+      "22172676",
+      "21118957",
+      "20693302",
+      "20489023",
+      "18079728",
+      "17952059",
+      "16279839",
+      "16166638",
+      "15334558",
+      "12937275",
+      "12913108",
+      "12473661",
+      "12361575",
+      "11747810",
+      "10938112",
+      "10866679",
+      "10436009",
+      "10022848",
+      "9717240",
+      "9632790",
+      "8909546",
+      "8062390",
+      "3532111",
+      "2673544",
+      "2647769"
+    ],
+    "similar": [
+      "41527849",
+      "16166638",
+      "9443897",
+      "35134079",
+      "27061942",
+      "22593206",
+      "26681517",
+      "26578768",
+      "25547157",
+      "31351147",
+      "10679030",
+      "30686108",
+      "23264647",
+      "16231214",
+      "9214378",
+      "10923023",
+      "16889659",
+      "12473661",
+      "16757736",
+      "30959095",
+      "14521938",
+      "11134045",
+      "22505609",
+      "11071925",
+      "16735437",
+      "25065647",
+      "26903512",
+      "9201718",
+      "8441469",
+      "26150415",
+      "12052827",
+      "16428446",
+      "2211820",
+      "21215255",
+      "9367979",
+      "22006927",
+      "15743816",
+      "38802374",
+      "12372256",
+      "40931936",
+      "33917059",
+      "11350163",
+      "1860883",
+      "22593576",
+      "8552082",
+      "20060839",
+      "16325503",
+      "11866512",
+      "28064039",
+      "26253171",
+      "18674629",
+      "17914055",
+      "9632790",
+      "9154984",
+      "31352862",
+      "16467474",
+      "26717309",
+      "16547092",
+      "15668246",
+      "18211691",
+      "39864625",
+      "28407364",
+      "22661326",
+      "29601579",
+      "30228181",
+      "11013213",
+      "15473003",
+      "25409870",
+      "29053845",
+      "10527945",
+      "25122681",
+      "41437840",
+      "12727870",
+      "26587879",
+      "16219684",
+      "40758840",
+      "21945532",
+      "40320752",
+      "24598142",
+      "33484718",
+      "12665577",
+      "8320260",
+      "40455837",
+      "10938112",
+      "26865368",
+      "16087740",
+      "18809678",
+      "22993212",
+      "32994219",
+      "17274825",
+      "20872164",
+      "17720810",
+      "39122012",
+      "15331663",
+      "11431472",
+      "19929855",
+      "17597076",
+      "18332124",
+      "25486365",
+      "2009858"
+    ],
+    "review": [
+      "41527849"
+    ],
+    "pmc": [
+      "12831199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41527849/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.biologists.com/jcs/article-lookup/doi/10.1242/jcs.264236",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

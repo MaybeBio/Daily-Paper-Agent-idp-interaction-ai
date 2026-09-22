@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose that NPM1 exhibits salt-dependent reentrant phase separation driven by conformational plasticity of its intrinsically disordered region (IDR), with low salt favoring compact conformations that inhibit LLPS, intermediate salt promoting extended conformations that enable LLPS, and high salt disrupting interactions to dissolve condensates. They integrate MD simulations and smFRET to support this mechanism.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or experimental results are accessible
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods, simulation parameters, smFRET data, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically appealing model for NPM1 phase behavior, linking IDR conformational plasticity to salt-dependent reentrant LLPS. The combination of MD and smFRET is well suited to address the question. However, the abstract alone provides no quantitative evidence, and several claims are stated without supporting data. The reentrant phase behavior is described qualitatively, and the causal link between conformational states and phase outcomes is asserted rather than demonstrated. The work is potentially significant for understanding nucleolar organization, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation mechanisms, intrinsically disordered proteins, nucleolar biology, and ribosome biogenesis. The proposed framework connecting IDR plasticity to salt-dependent phase behavior could inform broader studies of environmental sensitivity in condensate assembly.
+- **Major strengths** The study addresses a biologically important system with clear relevance to nucleolar function. The integration of computational and single-molecule experimental approaches is appropriate for probing conformational dynamics. The reentrant phase behavior is a nontrivial observation that, if robust, would advance mechanistic understanding of IDR-driven LLPS.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that low salt concentrations stabilize intrachain interactions, maintaining a compact conformation that suppresses intermolecular contact and inhibits LLPS, and that intermediate ionic strengths enable interchain electrostatic networks that facilitate LLPS.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states these mechanistic conclusions without presenting any quantitative data from MD simulations or smFRET experiments. No measures of conformational dimensions, interaction energies, or phase boundaries are given. The causal sequence from salt concentration to conformational state to phase behavior is asserted but not supported by visible evidence.
+  - **Why it matters** Without quantitative support, the reader cannot assess whether the proposed mechanism is uniquely supported or merely one of several possible interpretations. The central claim of the paper, that IDR conformational plasticity drives reentrant phase behavior, requires direct evidence linking conformational changes to phase outcomes.
+  - **Resolution test** Provide quantitative data from MD simulations (e.g., radius of gyration, contact maps, interaction energies) and smFRET (e.g., FRET efficiency distributions) across the salt range, along with phase diagrams showing LLPS boundaries. Demonstrate that conformational changes precede or correlate with phase transitions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** The abstract claims that excessive charge screening at high salt concentrations disrupts both intra- and intermolecular interactions, leading to condensate dissolution.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanism for high-salt dissolution is stated as charge screening, but no evidence is provided to distinguish this from other possible causes, such as changes in hydration, ion-specific effects, or altered IDR secondary structure propensities. The abstract does not report whether the reentrant behavior is reversible or whether hysteresis occurs.
+  - **Why it matters** The reentrant phase behavior is the central phenomenon of the study. If the high-salt dissolution mechanism is not rigorously established, the proposed framework remains speculative. Alternative explanations could undermine the claim that electrostatic crosstalk is the primary driver.
+  - **Resolution test** Include control experiments or simulations with different salt types, measure zeta potential or binding affinities, and show that dissolution correlates with charge screening rather than other ion-specific effects. Report reversibility and any hysteresis in phase behavior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The abstract claims that the findings expand understanding of how NPM1 IDR governs condensate assembly and functions in ribosome biogenesis within the granular component region of the nucleolus.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any data connecting the in vitro or in silico findings to cellular conditions. Salt concentrations in the nucleolus are not reported, and no cellular experiments are mentioned. The relevance to ribosome biogenesis is stated as an implication rather than demonstrated.
+  - **Why it matters** The biological significance of the work depends on whether the salt-dependent behavior observed in vitro occurs under physiologically relevant conditions. Without this link, the claim of expanding understanding of nucleolar function is not supported.
+  - **Resolution test** Measure or estimate nucleolar salt concentrations, perform experiments under these conditions, or include cellular assays showing that perturbations to the proposed mechanism affect ribosome biogenesis or nucleolar organization.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "reentrant phase behavior" is used without definition or context. Readers unfamiliar with this concept may not understand its significance.
+  - **Required correction** Define reentrant phase behavior explicitly, for example, as a non-monotonic response where phase separation occurs only within an intermediate range of a control parameter.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methodological detail
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions MD simulations and smFRET but does not specify the salt range studied, the NPM1 construct used, or the conditions of the experiments.
+  - **Required correction** Include the salt concentration range, the NPM1 construct details, and key experimental conditions in the abstract or indicate where these are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Language
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "electrostatic crosstalk" is used in the title and abstract but is not defined. It is unclear whether this refers to competition between intra- and interchain interactions or to a more specific mechanism.
+  - **Required correction** Define "electrostatic crosstalk" in the abstract or use more precise language that conveys the intended meaning without ambiguity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims are not supported by visible quantitative evidence. R1-M3 is non-blocking but important for establishing biological relevance.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed link between IDR conformational plasticity and salt-dependent reentrant phase behavior is conceptually interesting and may offer a new perspective on NPM1 regulation. However, reentrant phase separation has been reported for other systems, so the novelty depends on the specific mechanism and system.
+  - Scientific importance: NPM1 is a key nucleolar protein, and understanding its phase behavior has implications for ribosome biogenesis and nucleolar organization. The work could be important if the mechanism is rigorously established.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology, and would appeal to a broad audience interested in phase separation.
+  - Technical soundness: Cannot be assessed from the abstract alone. The combination of MD and smFRET is appropriate, but the quality of the data and analyses is not visible.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the absence of quantitative data and the lack of demonstrated causality between conformational states and phase behavior prevent a supportive recommendation. If the full manuscript provides robust evidence addressing the blocking concerns, the work could be considered for publication.
+
+## Risk / unsupported claims
+- The claim that low salt concentrations stabilize intrachain interactions and inhibit LLPS is unsupported by visible data.
+- The claim that intermediate ionic strengths enable interchain electrostatic networks that facilitate LLPS is unsupported by visible data.
+- The claim that high salt concentrations disrupt both intra- and intermolecular interactions via charge screening is unsupported by visible data.
+- The claim that the findings expand understanding of NPM1 function in ribosome biogenesis within the nucleolus is not assessable from the abstract.
+- The causal relationship between IDR conformational plasticity and reentrant phase behavior is asserted but not demonstrated in the supplied material.

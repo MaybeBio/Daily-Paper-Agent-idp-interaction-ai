@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report direct measurement of absolute heat capacities of alanine peptides by differential scanning calorimetry (DSC), combined with an ensemble-based statistical-thermodynamic model and Bayesian inference, to determine the backbone conformational entropy change (ΔS_BB) accompanying alpha-helix formation. They report ΔS_BB = (5.2 ± 0.3) cal mol⁻¹ K⁻¹ per peptide unit for the helix-to-coil transition, lower than previous experimental values but consistent with recent molecular dynamics estimates. They further claim that determination of enthalpy and heat capacity changes provides a unified thermodynamic picture of alpha-helix formation, with implications for protein folding energetics and intrinsically disordered protein binding.
+- **Visible evidence base** Abstract text only; no experimental details, model equations, uncertainty analysis, or comparison datasets are provided
+- **Missing materials affecting confidence** Full manuscript, DSC thermograms, peptide sequence details, model specification, Bayesian prior choices, convergence diagnostics, uncertainty propagation methods, comparison with prior experimental and simulation values, and any validation against independent measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable approach to a long-standing problem in protein thermodynamics, namely the direct determination of backbone conformational entropy in helix formation. The combination of DSC measurements with Bayesian inference is methodologically interesting and the reported value, if robust, would be an important contribution. However, the abstract alone provides insufficient detail to assess the validity of the experimental design, the appropriateness of the statistical model, the treatment of systematic errors, and the robustness of the uncertainty estimate. The claim of a "unified thermodynamic picture" is not substantiated by the evidence presented. The work is likely of interest to the biophysics and protein folding communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein folding thermodynamics, computational biophysics, and the study of intrinsically disordered proteins would be interested. The reported ΔS_BB value bears directly on the energetic balance of folding and on models of coupled folding and binding. The methodological combination of calorimetry with Bayesian inference may also appeal to those developing statistical-thermodynamic approaches to biomolecular systems.
+- **Major strengths** The study addresses a fundamental and difficult-to-measure quantity in protein thermodynamics. The use of absolute heat capacity measurements, rather than indirect inference, is a conceptually strong approach. The reported value is placed in context with both previous experiments and molecular dynamics simulations, suggesting an attempt at reconciliation. The Bayesian framework, if properly implemented, offers a principled way to propagate uncertainties and incorporate prior knowledge.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "measuring the absolute heat capacities of a series of alanine peptides using differential scanning calorimetry" enables "a robust determination of helix-coil parameters using an ensemble-based statistical-thermodynamic model and Bayesian inference."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any details on the peptide lengths, the number of peptides measured, the concentration range, the buffer conditions, or the DSC data analysis procedures. Absolute heat capacity measurements are notoriously sensitive to baseline determination, cell calibration, and concentration errors. Without these details, the reliability of the input data cannot be assessed.
+  - **Why it matters** The entire conclusion rests on the quality of the DSC measurements. If the absolute heat capacities are systematically biased, the inferred ΔS_BB will be correspondingly biased. The claim of "robust determination" cannot be evaluated without evidence of experimental controls and reproducibility.
+  - **Resolution test** Provide full experimental methods, including peptide synthesis and purification details, DSC protocols, baseline subtraction procedures, calibration standards, and replicate measurements. Show that the measured heat capacities are consistent with known values for alanine peptides or with independent techniques.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "an ensemble-based statistical-thermodynamic model and Bayesian inference" were used to determine helix-coil parameters, and report ΔS_BB = (5.2 ± 0.3) cal mol⁻¹ K⁻¹ per peptide unit.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the statistical-thermodynamic model used, the nature of the ensemble, the parameters that were fit, the priors chosen for the Bayesian inference, or the convergence and identifiability of the posterior distribution. The uncertainty of ±0.3 cal mol⁻¹ K⁻¹ is reported without any indication of whether it reflects statistical uncertainty only or includes systematic contributions.
+  - **Why it matters** The reported value and its uncertainty are the central quantitative result. Without model specification and uncertainty analysis, the reader cannot judge whether the value is model-dependent, whether the priors dominate the posterior, or whether the uncertainty is realistic. The comparison with previous experimental and simulation values is only meaningful if the uncertainty is credible.
+  - **Resolution test** Provide the full model equations, the likelihood function, the prior distributions with justification, posterior predictive checks, and a sensitivity analysis to prior choices. Report whether the uncertainty includes systematic errors and how they were estimated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the determination of enthalpy and heat capacity changes offers a unified thermodynamic picture of alpha-helix formation" and that this "has important implications for understanding the net energetic balance in protein folding and the interactions of intrinsically disordered proteins that undergo alpha-helix folding upon binding."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not present the enthalpy and heat capacity changes that were determined, nor does it explain how they combine with the entropy change to form a "unified picture." The implications for protein folding and intrinsically disordered proteins are stated without any quantitative or conceptual elaboration.
+  - **Why it matters** The broader significance of the work depends on the coherence of the thermodynamic description and its relevance to other systems. Without presenting the full thermodynamic profile and its implications, the claim of importance is unsupported.
+  - **Resolution test** Present the enthalpy and heat capacity changes in the full manuscript, show how they relate to the entropy change, and provide a concrete discussion of how the results inform the energetics of folding or coupled folding and binding.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "ensemble-based statistical-thermodynamic model" and "Bayesian inference" without brief explanation, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Add one sentence clarifying the nature of the model and the role of Bayesian inference in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The comparison with "previous experimental values" and "recent estimates from molecular dynamics simulations" is made without citing specific values or studies, which reduces the ability of readers to contextualize the result.
+  - **Required correction** Include the specific prior values and references in the abstract or indicate that full comparisons are provided in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of combining absolute heat capacity measurements with Bayesian inference for helix-coil parameter determination appears novel, but the abstract does not provide enough detail to confirm the degree of methodological innovation.
+  - Scientific importance: The quantity measured is fundamental to protein thermodynamics, and a reliable value for ΔS_BB would be of broad interest. However, the importance claim is not yet substantiated by the evidence presented.
+  - Interdisciplinary readership: The work bridges experimental thermodynamics, statistical mechanics, and computational biology, which could attract a broad audience. The abstract, however, does not currently make the interdisciplinary relevance explicit.
+  - Technical soundness: Not assessable from the abstract. The experimental and modeling details are essential and are not provided.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the reported value is potentially significant, but the abstract alone does not provide sufficient experimental, modeling, and uncertainty details to support the central claims. A full manuscript with complete methods and validation would be required to assess the case.
+
+## Risk / unsupported claims
+- The reported value of ΔS_BB = (5.2 ± 0.3) cal mol⁻¹ K⁻¹ per peptide unit is unsupported without details of the experimental measurements and statistical model.
+- The claim of a "unified thermodynamic picture" of alpha-helix formation is unsupported as the enthalpy and heat capacity changes are not presented.
+- The stated implications for protein folding energetics and intrinsically disordered protein binding are not substantiated by any quantitative or conceptual evidence in the abstract.
+- The comparison with previous experimental and simulation values is not verifiable without specific references and values.

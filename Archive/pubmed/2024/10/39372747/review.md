@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2024.07.25.605144)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No supplementary figures or tables were available for direct inspection beyond what is described in the text.
+- **Shared manuscript claim summary** The authors use DNP-enhanced solid-state NMR on rapidly frozen solutions of the FUS low-complexity domain (FUS-LC) to compare local conformational distributions in homogeneous versus phase-separated states. They report nearly identical 2D spectra and estimate that β-strand-like conformational populations differ by no more than 5–10% between the two states.
+- **Visible evidence base** Main text figures (Figs. 1–7) are described in detail; supplementary figures (S1–S7) and tables (S1–S3) are referenced but not directly inspected. Methods are described in full.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S7, S1–S3), raw NMR data, and the simulation code referenced in the Data Availability section were not provided for this review. This limits independent verification of quantitative claims, particularly the 5–10% estimate.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular phase separation: whether LLPS is accompanied by changes in local conformational distributions of intrinsically disordered proteins. The experimental approach, using rapid freezing followed by DNP-enhanced ssNMR, is novel and well-suited to the question, as it avoids the viscosity-related resolution limitations of solution NMR in dense phases. The data presented are internally consistent and the conclusions are appropriately cautious. However, the quantitative estimate of 5–10% maximum difference in β-strand populations relies on simulations whose details are only partially described, and the sensitivity of the method to detect small conformational changes is not fully established. The manuscript is well-written and the logic is clear, but several technical points require clarification before the central claim can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and the molecular mechanisms of membraneless organelle formation. The methodological approach (rapid freezing + DNP ssNMR) will also be of interest to the solid-state NMR community and to biophysicists developing tools to study biomolecular condensates. The finding that LLPS does not induce major local conformational changes in FUS-LC has implications for models of phase separation that invoke specific interchain interactions.
+- **Major strengths**
+  - Novel experimental approach: first application of rapid-freezing DNP ssNMR to compare conformational distributions in homogeneous versus phase-separated IDP solutions.
+  - Direct comparison under otherwise identical conditions (concentration, solvent, temperature), avoiding confounding variables.
+  - Multiple labeling strategies (uniform, residue-type-specific, and site-specific) provide complementary levels of resolution.
+  - Careful control experiments, including optical microscopy of frozen samples and DNP parameter measurements, support the preservation of phase-separated states upon freezing.
+  - Cautious interpretation with explicit acknowledgment of the method's limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** "From simulations of the effects of changes in conformational distributions on 2D ssNMR lineshapes, we estimate that populations of β-strand-like conformations in the phase-separated state may differ from those in the homogeneous state by no more than 5–10%."
+  - **Evidence pointer** Discussion section; Fig. 7; Supplementary Fig. S7
+  - **Concern** The 5–10% quantitative bound is derived from simulations that are only partially described in the main text. The simulation methodology (how conformations were reweighted, how chemical shifts were predicted, how noise and linewidths were modeled) is not fully specified, and the sensitivity of the conclusion to simulation parameters is not explored. Without a more detailed description of the simulation protocol and its validation, the quantitative claim cannot be independently assessed.
+  - **Why it matters** The quantitative bound is a central conclusion of the paper and is likely to be cited. If the simulation methodology is not transparent or is overly sensitive to assumptions, the bound may be misleading.
+  - **Resolution test** Provide a full description of the simulation protocol, including the definition of β-strand-like conformations, the reweighting scheme, the chemical shift prediction method, and the noise model. Show that the 5–10% bound is robust to reasonable variations in these parameters. Ideally, include a figure showing the simulated difference spectra for a range of εβ values alongside the experimental difference spectra.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Method sensitivity
+  - **Claim pointer** "The ssNMR data for rapidly frozen FUS-LC solutions presented above indicate that local conformational distributions in these IDPs are nearly the same in homogeneous and phase-separated states."
+  - **Evidence pointer** Results section, Figs. 2–5
+  - **Concern** The sensitivity of the ssNMR experiment to detect conformational differences is not quantitatively established. The authors note that linewidths are 6.5–8.0 ppm, attributed to conformational heterogeneity, but the extent to which a 5–10% change in β-strand population would actually perturb the observed spectra is only addressed through the simulations described in R1-M1. Without an independent experimental benchmark (e.g., a sample with a known conformational perturbation), the null result could reflect insufficient sensitivity rather than true similarity.
+  - **Why it matters** The central conclusion is a negative result. For such a conclusion to be convincing, the method's detection limit must be demonstrated. If the method cannot resolve small conformational changes, the claim of "nearly identical" is weakened.
+  - **Resolution test** Provide an experimental control or a more rigorous theoretical argument demonstrating the sensitivity of the 2D spectra to known conformational changes. For example, compare spectra of FUS-LC in a denaturing versus native condition, or use a mutant with a known conformational bias. Alternatively, show that the simulated difference spectra for εβ = 1.2 are clearly distinguishable from noise in the experimental setup.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusion
+  - **Claim pointer** "The ssNMR data for rapidly frozen FUS-LC solutions presented above indicate that local conformational distributions in these IDPs are nearly the same in homogeneous and phase-separated states."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is performed on a single protein (FUS-LC) at a single concentration and solvent condition. The authors appropriately limit their conclusion to FUS-LC, but the broader implication, that LLPS generally does not alter IDP conformations, is implied by the framing of the question. The authors should more explicitly state the scope of their conclusion and discuss whether their findings are likely to generalize to other IDPs with different sequence compositions or interaction motifs.
+  - **Why it matters** The field is actively debating whether LLPS involves specific conformational changes. If the authors intend their result to inform this debate, they should clarify the extent to which a single protein can be representative.
+  - **Resolution test** Add a paragraph in the Discussion explicitly addressing the generalizability of the findings, referencing sequence features of FUS-LC that may or may not be representative of other phase-separating IDPs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Measurements of transition temperatures"
+  - **Evidence pointer** Fig. 1c–1e
+  - **Issue** The hysteresis in TLLPS between heating and cooling is attributed to droplet settling, but the magnitude of the hysteresis (1–3°C) is not quantified for each condition. It would be helpful to report the heating and cooling TLLPS values separately.
+  - **Required correction** Report TLLPS values for both heating and cooling ramps, or state that only cooling values are used and justify this choice.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "ssNMR data analyses"
+  - **Evidence pointer** Methods section
+  - **Issue** The procedure for scaling 1D slices to minimize RMS differences is described, but the choice of scaling region (excluding the 30 ppm diagonal region) is not justified. Different scaling choices could affect the apparent similarity of the spectra.
+  - **Required correction** Justify the choice of scaling region or show that the conclusions are insensitive to the scaling procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on freezing artifacts
+  - **Evidence pointer** Discussion section
+  - **Issue** The argument that rapid freezing preserves the phase-separated state relies on the optical microscopy images (Figs. 1f, 1g) and diffusion arguments. However, the microscopy was performed with slow freezing, not rapid freezing. The extrapolation from slow to rapid freezing is reasonable but should be stated more explicitly as an inference.
+  - **Required correction** Clarify that the microscopy demonstrates preservation of droplets under slow freezing, and that the preservation under rapid freezing is inferred from diffusion timescales and prior work.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, section on sel-15N,13C-FUS61–214
+  - **Evidence pointer** Fig. 5
+  - **Issue** The authors note that the Q93C substitution was required for ligation but do not discuss whether this substitution could affect the conformational properties or phase behavior of the construct. A brief comment on this would strengthen the paper.
+  - **Required correction** Add a sentence addressing the potential impact of the Q93C substitution on the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Fig. 6
+  - **Evidence pointer** Fig. 6b
+  - **Issue** The center-of-mass analysis is described in the text, but the figure caption does not fully explain the meaning of the symbols (squares vs. crosses) or the error bars. This makes the figure difficult to interpret without referring back to the text.
+  - **Required correction** Expand the Fig. 6 caption to define all symbols and error bars.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The quantitative 5–10% bound requires a more detailed and validated simulation methodology.
+  - R1-M2: The sensitivity of the ssNMR method to detect conformational changes must be demonstrated, either through experimental controls or more rigorous theoretical analysis.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The application of rapid-freezing DNP ssNMR to compare conformational distributions in homogeneous versus phase-separated IDP solutions is novel and represents a methodological advance.
+  - **Scientific importance** Moderate to high. The question of whether LLPS alters IDP conformations is central to understanding the molecular basis of phase separation. The negative result for FUS-LC is informative but requires confirmation in other systems.
+  - **Interdisciplinary readership** Moderate. The work will appeal to biophysicists, structural biologists, and researchers in the phase separation field. The methods section is technical and may be less accessible to a broader biological audience.
+  - **Technical soundness** Generally sound, but the quantitative claim (5–10%) is not fully supported by the described methodology. The experimental design is careful and the controls are appropriate.
+  - **Readability for nonspecialists** The introduction and discussion are clear and accessible. The results section is more technical but remains understandable. The manuscript would benefit from a brief explanation of why 2D ssNMR spectra are sensitive to conformational distributions for nonspecialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The experimental approach is novel and the qualitative conclusion (no major conformational changes) is likely correct. However, the quantitative bound and the method's sensitivity must be more rigorously established before the central claim can be fully accepted.
+
+## Risk / unsupported claims
+- The 5–10% quantitative bound on β-strand population differences is not fully supported by the described simulation methodology (R1-M1).
+- The claim that the method would detect conformational changes if they existed (i.e., the sensitivity of the experiment) is not independently demonstrated (R1-M2).
+- The extrapolation from slow-freezing microscopy to rapid-freezing preservation is an inference, not a direct observation.
+- The potential effect of the Q93C substitution in the sel-15N,13C-FUS61–214 construct on conformational properties is not discussed.

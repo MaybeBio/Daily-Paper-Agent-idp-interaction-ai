@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2022.11.03.22281867",
+  "title": "A comprehensive knowledgebase of known and predicted human genetic variants associated with COVID-19 susceptibility and severity",
+  "authors": "Kars ME; Stein D; Sevim Bayrak Ç; Stenson PD; Cooper DN; Itan Y",
+  "journal": "medRxiv",
+  "published_date": "2022-11-07",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 0,
+  "one_liner_zh": "该文构建COVID-19宿主遗传变异知识库并开发机器学习分类器预测重症变异，与无序蛋白/IDR介导的蛋白互作机制建模完全无关。",
+  "abstract": "Host genetic susceptibility is a key risk factor for severe illness associated with COVID-19. Despite numerous studies of COVID-19 host genetics, our knowledge of COVID-19-associated variants is still limited, and there is no resource comprising all the published variants and categorizing them based on their confidence level. Also, there are currently no computational tools available to predict novel COVID-19 severity variants. Therefore, we collated 820 host genetic variants reported to affect COVID-19 susceptibility by means of a systematic literature search and confidence evaluation, and obtained 196 high-confidence variants. We then developed the first machine learning classifier of severe COVID-19 variants to perform a genome-wide prediction of COVID-19 severity for 82,468,698 missense variants in the human genome. We further evaluated the classifier’s predictions using feature importance analyses to investigate the biological properties of COVID-19 susceptibility variants, which identified conservation scores as the most impactful predictive features. The results of enrichment analyses revealed that genes carrying high-confidence COVID-19 susceptibility variants shared pathways, networks, diseases and biological functions, with the immune system and infectious disease being the most significant categories. Additionally, we investigated the pleiotropic effects of COVID-19-associated variants using phenome-wide association studies (PheWAS) in ∼40,000 BioMe BioBank genotyped individuals, revealing pre-existing conditions that could serve to increase the risk of severe COVID-19 such as chronic liver disease and thromboembolism. Lastly, we generated a web-based interface for exploring, downloading and submitting genetic variants associated with COVID-19 susceptibility for use in both research and clinical settings ( https://itanlab.shinyapps.io/COVID19webpage/ ). Taken together, our work provides the most comprehensive COVID-19 host genetics knowledgebase to date for the known and predicted genetic determinants of severe COVID-19, a resource that should further contribute to our understanding of the biology underlying COVID-19 susceptibility and facilitate the identification of individuals at high risk for severe COVID-19.",
+  "abstract_zh": "宿主遗传易感性是与COVID-19相关的严重疾病的关键风险因素。尽管已有大量关于COVID-19宿主遗传学的研究，但我们对COVID-19相关变异的知识仍然有限，且缺乏一个包含所有已发表变异并根据其置信度进行分类的资源。此外，目前尚无计算工具可用于预测新的COVID-19严重性变异。因此，我们通过系统性文献检索和置信度评估，整理了820个据报道影响COVID-19易感性的宿主遗传变异，并获得了196个高置信度变异。随后，我们开发了首个严重COVID-19变异的机器学习分类器，对人类基因组中的82,468,698个错义变异进行了全基因组范围的COVID-19严重性预测。我们进一步利用特征重要性分析评估了分类器的预测结果，以探究COVID-19易感性变异的生物学特性，其中保守性评分被确定为最具影响力的预测特征。富集分析结果显示，携带高置信度COVID-19易感性变异的基因共享通路、网络、疾病和生物学功能，其中免疫系统和感染性疾病是最显著类别。此外，我们利用约40,000名BioMe生物库基因分型个体进行了全表型关联研究（PheWAS），以探究COVID-19相关变异的多效性效应，揭示了可能增加严重COVID-19风险的既有疾病，如慢性肝病和血栓栓塞。最后，我们构建了一个基于网页的界面，用于探索、下载和提交与COVID-19易感性相关的遗传变异，供研究和临床使用（ https://itanlab.shinyapps.io/COVID19webpage/ ）。综上所述，我们的工作为已知和预测的严重COVID-19遗传决定因素提供了迄今为止最全面的COVID-19宿主遗传学知识库，这一资源应进一步促进我们对COVID-19易感性生物学基础的理解，并有助于识别严重COVID-19高风险个体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2022.11.03.22281867",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2022.11.03.22281867",
+  "paper_page_path": "papers/medrxiv/10.1101_2022.11.03.22281867/index.html"
+}

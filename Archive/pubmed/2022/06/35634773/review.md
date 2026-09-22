@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to evidence presented, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors combine molecular dynamics (MD) simulations with circuit topology (CT) analysis to characterize the conformational dynamics of the intrinsically disordered N-terminal domain of the human androgen receptor (AR-NTD). They report that AR-NTD folds into two distinct sub-regions (N-terminal region, NR, residues 1–224; C-terminal region, CR, residues 225–538), that CR contains a compact core with lower solvent accessibility, that topological evolution is directional for CR but not NR, and that the identified conformations can dock to the ligand-binding domain (LBD), DNA-binding domain (DBD), and the inhibitor EPI-001 in ways consistent with known functional interactions.
+- **Visible evidence base** Methods descriptions for structure prediction (I-TASSER), MD simulations (SIRAH coarse-grained force field, 5 μs, three replicates), molecular docking (ClusPro, AutoDock), and CT analysis. Results sections describing Figures 1–5 and supplementary figures S1–S23. No raw data, trajectory files, or detailed numerical outputs are provided.
+- **Missing materials affecting confidence** The manuscript text is provided without figures, tables, or supplementary material. This limits verification of quantitative claims, visual evidence for structural claims, and the statistical robustness of the analyses. No information on convergence of MD simulations beyond RMSD/RMSF descriptions is available. No experimental validation data (e.g., CD, SEC, crosslinking) are shown, though referenced.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel application of circuit topology to an intrinsically disordered protein, which is conceptually interesting and potentially valuable for the field. The combination of MD with topological analysis is a reasonable approach to extract meaningful patterns from highly dynamic systems. However, the evidence as presented is insufficient to fully support several key claims, particularly regarding the existence of two distinct sub-regions, the functional implications of the docking results, and the specificity of the proposed regulatory mechanisms. The reliance on a single structure prediction method (I-TASSER) without robust validation, the coarse-grained force field choice, and the lack of quantitative convergence metrics weaken the technical foundation. The manuscript would benefit from clearer presentation of the topological analysis methodology and from additional validation or comparison with experimental data.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, nuclear hormone receptor biology (particularly androgen receptor function and regulation), and those interested in topological approaches to protein structure and dynamics. The potential drug-binding site identification may interest medicinal chemists working on AR-targeted therapies for prostate cancer and Kennedy's disease.
+- **Major strengths** 1) Novel application of circuit topology to an IDP, extending the approach beyond folded proteins. 2) Multi-timescale analysis of topological evolution, which is a thoughtful way to handle the dynamic nature of the system. 3) Integration of simulation with docking to generate functional hypotheses. 4) The proposed model of NR/CR competition for DBD binding is testable and biologically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that AR-NTD folds into two disjoint regions (NR and CR) with distinct topological and dynamic properties is central to the paper.
+  - **Evidence pointer** Results section "AR-NTD folds into two disjoint highly dynamic regions"; Figures 1d–g; location not provided for specific data points.
+  - **Concern** The identification of two sub-regions is based on MD simulations starting from a single I-TASSER model. The authors state that the I-TASSER model was chosen over AlphaFold and RoseTTAFold based on confidence measures and comparison with CD data, but no quantitative comparison is shown. The separation into NR and CR may be an artifact of the initial model or the specific force field used. The authors mention that melting at 350 K and re-simulation recovered the two regions, but this is described qualitatively without data. The claim of "two disjoint regions" requires demonstration that this is a robust feature of the AR-NTD energy landscape, not a property of the starting structure.
+  - **Why it matters** If the two-region structure is not robust, subsequent claims about differential dynamics, topological evolution, and functional implications (docking, drug binding) are built on an unreliable foundation.
+  - **Resolution test** Provide quantitative evidence that the NR/CR separation is observed across multiple independent starting structures (e.g., from different prediction methods or from extended equilibration), and show that the separation is stable over time. Include a comparison of structural properties (e.g., radius of gyration, contact maps) between the I-TASSER model and the simulated ensemble. If possible, validate against experimental data (e.g., SAXS, smFRET) that can distinguish between extended and collapsed conformations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "topological mapping of the dynamics reveals a traceable time-scale dependent topological evolution" and that CR shows a directional trajectory while NR does not.
+  - **Evidence pointer** Results section "Dynamic CT analysis reveals temporal regimes for topological development"; Figures 2d, S9–S15; location not provided.
+  - **Concern** The topological analysis relies on contact definitions (distance cutoff 4.5 Å, at least five atoms within cutoff) and on time filtering of contacts. The choice of these parameters is not justified, and the sensitivity of the results to these choices is not explored. The claim of "directional" evolution for CR is based on visual inspection of trajectories in the S/P/X triangular space, but no quantitative measure of directionality or statistical significance is provided. The distinction between "short," "middle," and "long" lifetime regimes (cutoffs at 0.5 and 2 μs) appears arbitrary and is not derived from the data. The authors state that the power-law fit is better for short lifetimes, but no fitting parameters or goodness-of-fit metrics are given.
+  - **Why it matters** The central methodological contribution is the dynamic CT analysis. If the parameters are not robust and the directional claims are not quantified, the novelty and reliability of the approach are undermined.
+  - **Resolution test** Perform a sensitivity analysis of the CT parameters (contact cutoff, atom count, time filtering thresholds) and show that the main conclusions are unchanged. Provide quantitative measures of directionality (e.g., drift in the S/P/X space, autocorrelation of topological states) with error bars across the three replicates. Justify the time-regime boundaries based on the data (e.g., using a change-point analysis or model selection).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / claim support
+  - **Claim pointer** The claim that the identified conformations can dock to LBD, DBD, and EPI-001 in ways that are functionally relevant, including the proposal of a regulatory mechanism for DBD binding.
+  - **Evidence pointer** Results sections "AR-NTD adopts several prototypic shapes capable of targeting AR-LBD" and "AR NTD-DBD interaction suggests a regulatory role via two distinct binding modes"; Figures 3–5, S20–S23; location not provided.
+  - **Concern** The docking studies are performed using ClusPro and AutoDock, which are rigid-body or semi-flexible docking tools. The AR-NTD is intrinsically disordered, and the conformations used for docking are snapshots from MD simulations. The authors do not address the question of whether these conformations are representative of the ensemble or whether the docking results are robust to the choice of conformation. The claim that the docking pose from cluster 2 is "nearly identical" to the cryo-EM structure is not quantified (no RMSD value is given). The functional implications (e.g., occlusion of the DBD DNA-binding surface by CR) are inferred from static docking poses without dynamic or experimental validation. The authors mention unpublished GST-pull-down data, which cannot be evaluated.
+  - **Why it matters** The functional model proposed (NR/CR competition for DBD binding, drug-induced inhibition of RAP74 binding) is a key selling point of the paper. If the docking results are not robust or the conformations are not representative, the functional claims are speculative.
+  - **Resolution test** Provide quantitative comparison of the docking poses to the cryo-EM structure (e.g., RMSD of the interface residues). Test the robustness of the docking results by using multiple conformations from the MD ensemble and by using different docking protocols. If possible, validate the proposed interactions with experimental data (e.g., mutagenesis, crosslinking, or binding assays). Clearly distinguish between simulation-based predictions and experimentally supported claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / completeness
+  - **Claim pointer** The claim that the approach is a "workflow for analysis of other NHRs" and that the findings "set the stage for future investigations."
+  - **Evidence pointer** Conclusion section; location not provided.
+  - **Concern** The manuscript does not provide sufficient detail for the CT analysis to be reproduced. The custom Python code is mentioned but not described in detail, and no availability statement is given. The parameters for the CT analysis (e.g., how contacts are defined, how the S/P/X classification is performed) are described only briefly. The authors state that the analysis was performed using a "custom-made Jupyter lab data analysis file," but this is not accessible.
+  - **Why it matters** For a methodological contribution, reproducibility is essential. Without access to the code or a detailed description of the algorithm, other researchers cannot apply the method to their own systems.
+  - **Resolution test** Provide a detailed description of the CT algorithm, including pseudocode or a flowchart, and make the code available (e.g., on GitHub or as a supplementary file). Include a step-by-step guide for applying the method to other IDPs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "this poses a major challenge for experimental and computational analysis to decipher its conformation" is vague. It is unclear whether the challenge is for experimental analysis, computational analysis, or both, and what specific aspect of conformation is being deciphered.
+  - **Required correction** Rephrase to specify the challenge, e.g., "the high conformational dynamics of AR-NTD complicates both experimental structure determination and computational modeling of its ensemble."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, Molecular dynamics setup
+  - **Evidence pointer** Methods section, "Molecular dynamics setup"
+  - **Issue** The authors state that "Three MD simulation with different random seeds started from energy minimized predicted structure obtained from structure prediction pipeline." It is unclear whether the three simulations started from the same structure or from different structures. If the same, the replicates only sample different initial velocities, not different initial conformations.
+  - **Required correction** Clarify whether the three replicates used the same starting structure or different ones. If the same, acknowledge that this limits sampling of conformational space.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "AR-NTD adopts several prototypic shapes capable of targeting AR-LBD"
+  - **Evidence pointer** Results section, Figure 3a
+  - **Issue** The authors state that "Structures from the same circuit topology groups were similar in global shape and distinct from other groups." This is a qualitative statement. It is unclear how similarity was assessed and whether this is a meaningful distinction given the high flexibility of the domain.
+  - **Required correction** Provide a quantitative measure of shape similarity (e.g., RMSD of the Cα atoms after alignment) and show that the within-group similarity is significantly higher than between-group similarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "AR NTD-DBD interaction suggests a regulatory role via two distinct binding modes"
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The authors state that "no cysteine residues were involved in these interactions." This is an observation, but its significance is not explained. It is unclear why this is relevant to the proposed regulatory mechanism.
+  - **Required correction** Either remove this statement or explain its relevance (e.g., if cysteine modification is known to affect DBD binding).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion, final paragraph
+  - **Issue** The phrase "we have applied a multi time-scale analysis to highlight the topological evolution of the system" is vague. The authors do not specify what "multi time-scale" means in practice, beyond the lifetime filtering.
+  - **Required correction** Specify the time scales considered (e.g., short <0.5 μs, middle 0.5–2 μs, long >2 μs) and explain why these particular scales were chosen.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (robustness of two-region claim), R1-M2 (parameter sensitivity and quantification of topological trajectories), R1-M3 (docking robustness and functional claims), R1-M4 (reproducibility of CT method).
+- **Assessment against Nature-style criteria**  
+  *Originality*: The application of circuit topology to an IDP is novel and represents a conceptual advance over purely geometric analyses. However, the originality is somewhat tempered by the fact that the approach is an extension of existing CT methods rather than a fundamentally new concept.  
+  *Scientific importance*: The AR-NTD is a challenging and biologically important target, and the potential identification of a regulatory mechanism and drug-binding site is of interest. However, the importance is not fully established because the functional claims are based on computational predictions without experimental validation.  
+  *Interdisciplinary readership*: The work bridges structural biology, biophysics, and computational biology, and the topological framework could appeal to a broad audience. However, the presentation is heavily technical and may be difficult for non-specialists to follow, particularly the CT analysis.  
+  *Technical soundness*: The MD simulations are standard, but the choice of a single starting structure and the lack of convergence analysis are concerns. The CT analysis is not described in sufficient detail to assess its validity. The docking studies are preliminary and not robustly validated.  
+  *Readability for nonspecialists*: The abstract is accessible, but the methods and results sections are dense and assume significant background knowledge. The figures are not available for review, which limits assessment of clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting idea and a potentially useful approach, but the key claims are not sufficiently supported by the evidence as presented. The authors need to address the technical concerns, particularly the robustness of the two-region claim, the sensitivity of the CT analysis, and the validation of the docking results. If these issues are resolved, the manuscript could be suitable for publication in a specialized journal, but it is not clear that it would meet the broad-impact bar of Nature.
+
+## Risk / unsupported claims
+- The claim that AR-NTD folds into two disjoint regions (NR and CR) is not robustly supported, as it is based on simulations from a single starting structure.
+- The claim of "directional" topological evolution for CR is not quantified and may be an artifact of the analysis parameters.
+- The claim that the docking pose from cluster 2 is "nearly identical" to the cryo-EM structure is not quantified.
+- The proposed regulatory mechanism for DBD binding (CR occluding the DNA-binding surface) is inferred from static docking poses and is not experimentally validated.
+- The claim that EPI-001 binds to a previously unknown site in the CR core is based on docking alone and is not supported by experimental binding data.
+- The unpublished GST-pull-down data mentioned in the conclusion cannot be evaluated and should not be used to support claims.
+- The generalizability of the approach to other NHRs is asserted but not demonstrated.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a comprehensive bioinformatics analysis of five human MICAL family members (MICAL1, MICAL2, MICAL3, MICAL-L1, MICAL-L2) and their most disordered interactors, concluding that all five proteins are highly disordered, participate in diverse cellular functions, and are implicated in neurodegeneration, cancer, and muscle dystrophy. They suggest that insights into intrinsic disorder may inform therapeutic target discovery.
+- **Visible evidence base** Abstract text only; tool names listed (FuzDrop, RIDAO, InterPro, IuPred, STRING, AlphaFold, UniProt) but no quantitative results, methodological details, or validation data are presented
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, disorder prediction scores, interactor selection criteria, statistical analyses, and any validation or comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract addresses a potentially interesting gap in the characterization of intrinsic disorder in MICAL family proteins. However, the claims as stated are largely qualitative and cannot be evaluated without the underlying data. The abstract does not provide any quantitative disorder measures, comparative benchmarks, or functional evidence linking disorder to the proposed disease associations. The scientific case is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying cytoskeletal dynamics, actin regulation, and the MICAL family specifically would find the disorder characterization useful. Investigators working on intrinsically disordered proteins and their functional roles in signaling and disease may also be interested. Clinically oriented groups studying neurodegeneration, cancer, or muscle dystrophy could find the disease associations relevant if substantiated.
+- **Major strengths** The topic addresses a genuine gap in the literature, as intrinsic disorder in MICAL proteins has not been systematically characterized. The use of multiple complementary bioinformatics tools is appropriate for disorder prediction. The inclusion of interactor analysis broadens the potential functional relevance beyond the five core proteins.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "all five MICALs are highly disordered" and that these proteins "take part in myriad of cellular functions" and are "involved in pathogenesis of various diseases, such as neurodegeneration, cancer, and muscle dystrophy."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative disorder scores, prediction thresholds, or comparative data are presented to support the claim of "highly disordered." The disease associations are stated without any specific evidence linking disorder features to pathogenic mechanisms.
+  - **Why it matters** Without quantitative measures and clear criteria for "high disorder," the central claim is unfalsifiable from the abstract. Disease associations require specific mechanistic or correlational evidence, not just literature-based inference.
+  - **Resolution test** Provide disorder propensity scores for each protein with defined thresholds, compare against a control set of globular proteins, and present specific data linking disorder regions to functional or disease-relevant interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "the top most disordered interactors" were analyzed using STRING and other tools.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The criteria for selecting "top most disordered interactors" are not defined. It is unclear whether disorder was measured on the interactors themselves or inferred from interaction networks, and how the STRING confidence scores were integrated with disorder predictions.
+  - **Why it matters** Reproducibility requires explicit selection criteria and integration logic. Without this, the interactor analysis cannot be assessed or replicated.
+  - **Resolution test** Specify the exact selection pipeline, including STRING confidence thresholds, disorder prediction cutoffs, and how multiple tools were reconciled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional claim support
+  - **Claim pointer** The abstract claims that "insights may help to find out potential therapeutic targets in biological processes controlled by MICAL proteins."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No evidence is presented that disorder features are druggable or that the identified regions correspond to known or potential binding sites. The therapeutic implication is speculative and unsupported.
+  - **Why it matters** Therapeutic claims require at least preliminary evidence of targetability, such as identification of binding motifs, known ligand interactions, or functional validation.
+  - **Resolution test** Provide evidence that specific disordered regions are involved in protein-protein interactions relevant to disease pathways, or temper the claim to a hypothesis-generating statement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "myriad of cellular functions" is vague and not tied to specific functional data from the analysis.
+  - **Required correction** Replace with a concise list of specific functional categories or pathways supported by the interactor analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Tool justification
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists seven tools but does not explain why each was chosen or how their outputs were integrated.
+  - **Required correction** Briefly state the role of each tool in the analysis pipeline, or refer to a methods section where this is detailed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** "Intrinsic disorder characteristics" is imprecise; it could refer to disorder propensity, length of disordered regions, or conformational properties.
+  - **Required correction** Specify which disorder features were assessed, such as percent disordered residues, disorder-prone regions, or MoRF predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative disorder data, defined interactor selection criteria, and any functional or mechanistic evidence linking disorder to disease. Without these, the core claims are not verifiable.
+- **Assessment against Nature-style criteria** Originality: The focus on intrinsic disorder in MICAL proteins is a reasonable niche contribution, but the abstract does not demonstrate conceptual novelty beyond applying existing tools to a new family. Scientific importance: Potentially relevant to cytoskeletal biology and disorder research, but the disease implications are asserted without evidence, limiting current importance. Interdisciplinary readership: The topic could appeal to cell biologists, biophysicists, and clinical researchers, but the abstract does not frame the findings in a way that would engage nonspecialists. Technical soundness: Cannot be assessed from the abstract; no validation, controls, or error analysis are presented. Readability for nonspecialists: The abstract is accessible but relies on domain-specific terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract indicates a potentially useful analysis, but the claims are unsupported by quantitative data and defined methods. A revised version with full methodological detail and explicit results would be required for a supportive posture.
+
+## Risk / unsupported claims
+- The claim that all five MICALs are "highly disordered" is unsupported without quantitative scores and thresholds.
+- The disease associations (neurodegeneration, cancer, muscle dystrophy) are stated without specific evidence from the analysis.
+- The therapeutic target implication is speculative and not grounded in any presented data.
+- The interactor analysis is not assessable because selection criteria and integration logic are undefined.
+- The functional diversity claim ("myriad of cellular functions") is not tied to any specific results.

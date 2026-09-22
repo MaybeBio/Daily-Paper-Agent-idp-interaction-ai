@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and presentation of the FuzDrop server as described in the manuscript
+- **Shared manuscript claim summary** The manuscript describes a web server (FuzDrop) that predicts sequence-based propensities for liquid-liquid phase separation (pLLPS, pDP) and aggregation hot-spots within droplet states, and visualizes these predictions on AlphaFold-predicted protein structures. The server integrates FuzPred and Espritz algorithms, provides interactive outputs, and cross-links to external databases.
+- **Visible evidence base** Abstract, Introduction, Principles section, Server features section, Conclusions, Data Availability, Funding
+- **Missing materials affecting confidence** No figures, tables, or supplementary data were provided. No performance benchmarks, validation datasets, or comparison with existing tools were shown. No user statistics, server architecture details, or implementation specifics were included.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful and timely web resource for the growing community studying liquid-liquid phase separation and protein aggregation. The integration of AlphaFold structures for visualization is a practical addition. However, the manuscript is largely descriptive and lacks quantitative validation or novel methodological contributions beyond previously published work. The claims about predictive accuracy and biological utility are not substantiated with data in the provided text. The writing is clear but the scientific depth is limited for a Nature-level audience.
+- **Who would be interested in the results, and why** Researchers studying phase separation, membraneless organelles, protein aggregation, and amyloid-related diseases. Also computational biologists developing prediction tools for protein biophysics. The server's accessibility and visualization features may appeal to experimentalists seeking to interpret their own protein sequences in the context of condensate formation.
+- **Major strengths** 
+  - Addresses a relevant and rapidly growing area of cell biology
+  - Provides a practical, accessible web tool with interactive features
+  - Integrates multiple prediction algorithms and external databases in one platform
+  - Visualizes predictions on AlphaFold structures, which is a useful and current approach
+  - Clear writing and logical organization
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims the FuzDrop method provides "robust results over many different binding partners and cellular conditions" and that it can identify mutations that "can induce formation of amyloid aggregates, including those implicated in human diseases."
+  - **Evidence pointer** Principles section, "Interactions in the droplet state of proteins"; Abstract
+  - **Concern** The manuscript does not provide any quantitative performance metrics, validation on independent datasets, or comparison with existing phase separation prediction tools. The AUC values cited (86-91%) are from previous publications, not from new analyses presented here. The claim about identifying disease-relevant mutations is supported only by a single example (FUS G156E) without systematic evaluation.
+  - **Why it matters** Without independent validation or benchmarking, readers cannot assess whether the predictions are reliable for their own proteins of interest. The clinical relevance claim requires more than anecdotal evidence.
+  - **Resolution test** Provide validation statistics on held-out datasets, benchmark against existing tools (e.g., catGRANULE, PScore), and include a systematic analysis of known disease mutations versus benign polymorphisms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript states that the FuzDrop server "offers insights into the complex behavior of proteins in their condensed states and facilitates the understanding of the functional relationships of proteins."
+  - **Evidence pointer** Abstract; Conclusions
+  - **Concern** The manuscript is purely descriptive of a web server. It does not present new biological insights, new algorithmic developments, or new datasets. The novelty is limited to the integration of existing methods and the visualization on AlphaFold structures. For a journal like Nucleic Acids Research, this may be acceptable as a web server paper, but the scientific impact claim is overstated.
+  - **Why it matters** The stated contribution to understanding protein function is not demonstrated. The manuscript would be strengthened by case studies showing how the server's predictions led to new biological hypotheses or experimental validation.
+  - **Resolution test** Include at least one detailed case study where FuzDrop predictions were experimentally validated or led to a novel biological insight not previously known.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes the visualization of predictions on AlphaFold structures and notes that "the AlphaFold method, by providing individual structures, may not offer an accurate representation of the disordered nature of droplet regions."
+  - **Evidence pointer** "Graphical representation of droplet-promoting regions and aggregation hot-spots" section
+  - **Concern** The manuscript acknowledges a limitation of using single AlphaFold structures for disordered regions but does not discuss how this affects the interpretation of the visualizations. No guidance is provided to users on how to interpret predictions in disordered regions where AlphaFold confidence is low.
+  - **Why it matters** Users may over-interpret structural visualizations in regions where the underlying structure prediction is unreliable. This could lead to incorrect biological conclusions.
+  - **Resolution test** Add a discussion of AlphaFold confidence scores (pLDDT) and how they relate to the reliability of the visualization. Provide guidance or a disclaimer for users when predictions fall in low-confidence regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** "INTRODUCTION" section
+  - **Issue** The introduction assumes familiarity with phase separation concepts and terminology. Terms like "membraneless organelles," "droplet state," and "multivalency" are used without brief definitions for readers outside the field.
+  - **Required correction** Add brief definitions or a glossary for key terms to make the manuscript accessible to a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Server features
+  - **Evidence pointer** "Download options" section
+  - **Issue** The manuscript mentions that predictions can be downloaded in .tsv format but does not specify the exact columns or data schema. This limits reproducibility and ease of use for computational users.
+  - **Required correction** Provide a description of the output file format, including column headers and data types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Server features
+  - **Evidence pointer** "Cellular context-dependence (binding mode entropy)" section
+  - **Issue** The threshold for Sbind (≥2.20) is stated but the rationale for this specific cutoff is not explained. It is unclear whether this is an empirically derived or theoretically motivated threshold.
+  - **Required correction** Provide justification for the Sbind threshold, including how it was determined and its sensitivity/specificity trade-offs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** "Protein features and cross-links to other databases" section
+  - **Evidence pointer** "Protein features and cross-links to other databases" section
+  - **Issue** The description of cross-links to databases (PhaSepDB, LLPSDB, PhaSePro, DisProt, FuzDB, PED) is brief and does not explain how these databases complement each other or when a user might prefer one over another.
+  - **Required correction** Add a sentence or two describing the unique value of each database and how they collectively support the interpretation of FuzDrop predictions.
+
+## Risk / unsupported claims
+- The claim that FuzDrop can identify disease-relevant mutations is supported only by a single example (FUS G156E) and lacks systematic validation.
+- The statement that the server "facilitates the understanding of the functional relationships of proteins" is not demonstrated with any biological case study.
+- The performance metrics (AUC values) cited are from previous publications and are not re-validated in this manuscript.
+- The claim of "robust results over many different binding partners and cellular conditions" is not supported by new data presented here.
+- The utility of AlphaFold visualization for disordered regions is acknowledged as limited but no guidance is provided for users.

@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "39384813",
+    "doi": "10.1038/s41467-024-53136-1",
+    "title": "Disordered regions of human eIF4B orchestrate a dynamic self-association landscape."
+  },
+  "content": {
+    "abstract": "Eukaryotic translation initiation factor eIF4B is required for efficient cap-dependent translation, it is overexpressed in cancer cells, and may influence stress granule formation. Due to the high degree of intrinsic disorder, eIF4B is rarely observed in cryo-EM structures of translation complexes and only ever by its single structured RNA recognition motif domain, leaving the molecular details of its large intrinsically disordered region (IDR) unknown. By integrating experiments and simulations we demonstrate that eIF4B IDR orchestrates and fine-tunes an intricate transition from monomers to a condensed phase, in which large-size dynamic oligomers form before mesoscopic phase separation. Single-molecule spectroscopy combined with molecular simulations enabled us to characterize the conformational ensembles and underlying intra- and intermolecular dynamics across the oligomerization transition. The observed sensitivity to ionic strength and molecular crowding in the self-association landscape suggests potential regulation of eIF4B nanoscopic and mesoscopic behaviors such as driven by protein modifications, binding partners or changes to the cellular environment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Eukaryotic Initiation Factor-2B/metabolism/chemistry/genetics",
+      "Cryoelectron Microscopy",
+      "Protein Multimerization",
+      "Protein Binding",
+      "Protein Conformation",
+      "Single Molecule Imaging",
+      "Eukaryotic Initiation Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Swain, Bikash Chandra",
+        "Sarkis, Pascale",
+        "Ung, Vanessa",
+        "Rousseau, Sabrina",
+        "Fernandez, Laurent",
+        "Meltonyan, Ani",
+        "Aho, V Esperance",
+        "Mercadante, Davide",
+        "Mackereth, Cameron D",
+        "Aznauryan, Mikayel"
+      ],
+      "short_names": [
+        "Swain BC",
+        "Sarkis P",
+        "Ung V",
+        "Rousseau S",
+        "Fernandez L",
+        "Meltonyan A",
+        "Aho VE",
+        "Mercadante D",
+        "Mackereth CD",
+        "Aznauryan M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6002-8652",
+        "ORCID: 0009-0002-3587-6611",
+        "ORCID: 0000-0002-9494-2837",
+        "ORCID: 0009-0001-4204-965X",
+        "ORCID: 0000-0002-0613-9586",
+        "ORCID: 0009-0007-4558-3130",
+        "ORCID: 0000-0001-6792-7706",
+        "ORCID: 0000-0002-0776-7947",
+        "ORCID: 0000-0002-5395-3441"
+      ],
+      "affiliations": [
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "School of Chemical Sciences, University of Auckland, Auckland, New Zealand.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France.",
+        "Institut de Biologie Structurale (IBS), UMR 5075, F-38044, Grenoble, France.",
+        "School of Chemical Sciences, University of Auckland, Auckland, New Zealand.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, F-33000, Bordeaux, France. cameron.mackereth@inserm.fr.",
+        "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Europeen de Chimie et Biologie, F-33600, Pessac, France. mikayel.aznauryan@inserm.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Swain, Bikash Chandra",
+        "short_name": "Swain BC",
+        "identifiers": [
+          "0000-0001-6002-8652"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Sarkis, Pascale",
+        "short_name": "Sarkis P",
+        "identifiers": [
+          "0009-0002-3587-6611"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Ung, Vanessa",
+        "short_name": "Ung V",
+        "identifiers": [
+          "0000-0002-9494-2837"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Rousseau, Sabrina",
+        "short_name": "Rousseau S",
+        "identifiers": [
+          "0009-0001-4204-965X"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Fernandez, Laurent",
+        "short_name": "Fernandez L",
+        "identifiers": [
+          "0000-0002-0613-9586"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Meltonyan, Ani",
+        "short_name": "Meltonyan A",
+        "identifiers": [],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Aho, V Esperance",
+        "short_name": "Aho VE",
+        "identifiers": [
+          "0009-0007-4558-3130"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France.",
+          "Institut de Biologie Structurale (IBS), UMR 5075, F-38044, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [
+          "0000-0001-6792-7706"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Mackereth, Cameron D",
+        "short_name": "Mackereth CD",
+        "identifiers": [
+          "0000-0002-0776-7947"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, F-33000, Bordeaux, France. cameron.mackereth@inserm.fr."
+        ]
+      },
+      {
+        "full_name": "Aznauryan, Mikayel",
+        "short_name": "Aznauryan M",
+        "identifiers": [
+          "0000-0002-5395-3441"
+        ],
+        "affiliations": [
+          "University of Bordeaux, Inserm, CNRS, ARNA Laboratory, U1212, UMR 5320, Institut Européen de Chimie et Biologie, F-33600, Pessac, France. mikayel.aznauryan@inserm.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 00:37",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [
+      "42244568",
+      "42172735",
+      "42010022",
+      "41969219",
+      "41758937",
+      "41019118",
+      "40671581",
+      "40086831",
+      "39591970"
+    ],
+    "refs": [
+      "38547866",
+      "38365983",
+      "38287194",
+      "38052923",
+      "37721444",
+      "37368134",
+      "37337111",
+      "35858576",
+      "35787038",
+      "34992286",
+      "34931046",
+      "34716273",
+      "34048569",
+      "33997662",
+      "33885174",
+      "33782395",
+      "33649309",
+      "33597515",
+      "33450720",
+      "32883864",
+      "32857953",
+      "32696384",
+      "32484438",
+      "32302572",
+      "32268096",
+      "32218953",
+      "32029630",
+      "31604601",
+      "31165735",
+      "30587571",
+      "30471690",
+      "30217894",
+      "29981536",
+      "29604882",
+      "29526694",
+      "29494255",
+      "29466338",
+      "29401259",
+      "28746339",
+      "27807972",
+      "27601676",
+      "27566405",
+      "27528663",
+      "27220849",
+      "27145874",
+      "26496610",
+      "26484595",
+      "26359986",
+      "26344199",
+      "26324716",
+      "26147918",
+      "26113725",
+      "24499181",
+      "24135829",
+      "23184954",
+      "22821515",
+      "22664984",
+      "22492978",
+      "21840318",
+      "21500218",
+      "21218223",
+      "21128621",
+      "21113024",
+      "20948310",
+      "20094052",
+      "20086100",
+      "20064460",
+      "19739874",
+      "19369421",
+      "18719248",
+      "18410159",
+      "17185422",
+      "16337595",
+      "16113120",
+      "15071500",
+      "12885229",
+      "11701327",
+      "11418588",
+      "8816444",
+      "8520220",
+      "8182051",
+      "8139536",
+      "7543843",
+      "6853516",
+      "2390971",
+      "353875"
+    ],
+    "similar": [
+      "39384813",
+      "33122085",
+      "39847343",
+      "16803875",
+      "23912807",
+      "25533957",
+      "27858515",
+      "39993015",
+      "27601676",
+      "29364151",
+      "39093570",
+      "31461845",
+      "34243065",
+      "33355572",
+      "27836976",
+      "31951234",
+      "23760157",
+      "39453744",
+      "32824743",
+      "31678340",
+      "39617253",
+      "33779503",
+      "32654182",
+      "39589885",
+      "24080224",
+      "29401259",
+      "8816444",
+      "39858608",
+      "28924037",
+      "36987865",
+      "32735805",
+      "40403066",
+      "35841142",
+      "22299678",
+      "37146977",
+      "15766281",
+      "24848014",
+      "33076213",
+      "29550429",
+      "11565745",
+      "34883116",
+      "37368134",
+      "37269287",
+      "35047555",
+      "34576338",
+      "34876589",
+      "15233788",
+      "27838525",
+      "39486437",
+      "23972852",
+      "11836388",
+      "32579908",
+      "32323533",
+      "30840442",
+      "39740355",
+      "20795652",
+      "29791766",
+      "26807783",
+      "18977752",
+      "32225071",
+      "33587794",
+      "36750251",
+      "26918762",
+      "38902525",
+      "33030249",
+      "28242763",
+      "19493973",
+      "32561718",
+      "39089542",
+      "10438840",
+      "31441158",
+      "33406091",
+      "28493424",
+      "32128405",
+      "25017730",
+      "26030674",
+      "35658951",
+      "32020911",
+      "40183636",
+      "29309620",
+      "30071273",
+      "34504002",
+      "38365983",
+      "33248138",
+      "26195786",
+      "34825861",
+      "20948310",
+      "29425497",
+      "29982297",
+      "40101966",
+      "32487732",
+      "34845619",
+      "26562397",
+      "38955181",
+      "31136713",
+      "39807013",
+      "33744316",
+      "31804089",
+      "30316104",
+      "29490247"
+    ],
+    "review": [
+      "39384813",
+      "29364151",
+      "39093570",
+      "31461845",
+      "33355572",
+      "31678340",
+      "27838525",
+      "30840442",
+      "39740355",
+      "26807783",
+      "36750251",
+      "31441158",
+      "32020911",
+      "33248138",
+      "29982297"
+    ],
+    "pmc": [
+      "11464913"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53136-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39384813/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

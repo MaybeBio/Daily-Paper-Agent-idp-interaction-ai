@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "41573920",
+    "doi": "10.64898/2025.12.01.691696",
+    "title": "Distinguishing near- versus off-critical phase behaviors of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered prion-like low complexity domains (PLCDs) drive phase transitions that underlie the biogenesis of different biomolecular condensates. There are suggestions of condensates formed by different proteins being in the vicinity of thermodynamic critical points. To enable quantitative adjudication of near-versus off-critical phase behaviors, we analyzed results from large-scale simulations of an archetypal PLCD that undergoes phase separation coupled to percolation. Mapping of critical points required the use of finite-size scaling and computation of Binder cumulants. We find that the binodal can be demarcated into three distinct regimes. Regime I is farthest from the critical point, with the dilute phase being akin to a gas of dispersed polymers. Regime II lies above the intersection of the overlap line and the dilute arm of the binodal. Here, dilute phases are characterized by heterogeneous cluster-size distributions with heavy tails. In Regimes I and II, dense phases are confined percolated networks. Regime III is closest to the critical point. Here, the dense phase becomes unconfined and the per-colated network swells to become system-spanning. In Regime III, the dilute phase also forms a percolated, system-spanning network. Thus, Regime III comprises two interconnected, system-spanning networks. Strikingly, across the entire temperature range, conformational distributions of individual chains within dense and dilute phases closely follow Gaussian chain statistics. Changes to sequence-encoded interactions change critical temperatures and the locations of different regimes. Our results show that regime-specific cluster-size distributions within dilute phases are measurable signatures of near-versus off-critical phase behaviors of condensate-forming systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitra, Gaurav",
+        "Ghosh, Souradeep",
+        "Ruff, Kiersten M",
+        "Zhang, Ruoyao",
+        "Chauhan, Gaurav",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Mitra G",
+        "Ghosh S",
+        "Ruff KM",
+        "Zhang R",
+        "Chauhan G",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8340-4016",
+        "ORCID: 0000-0002-5454-7891"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Mitra, Gaurav",
+        "short_name": "Mitra G",
+        "identifiers": [
+          "0000-0001-8340-4016"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ghosh, Souradeep",
+        "short_name": "Ghosh S",
+        "identifiers": [
+          "0000-0002-5454-7891"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ruff, Kiersten M",
+        "short_name": "Ruff KM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Ruoyao",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chauhan, Gaurav",
+        "short_name": "Chauhan G",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 06:29",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41573920",
+      "42161313",
+      "36993212",
+      "38260590",
+      "32619404",
+      "40188296",
+      "37205474",
+      "39568948",
+      "36513655",
+      "37684240",
+      "34931046",
+      "36993371",
+      "37161095",
+      "39937084",
+      "41250436",
+      "37261897",
+      "37856873",
+      "37577555",
+      "39486437",
+      "40985078",
+      "32168715",
+      "37066350",
+      "37090622",
+      "36004748",
+      "37468629",
+      "33453925",
+      "40848932",
+      "35179885",
+      "30471685",
+      "39225535",
+      "37252985",
+      "39356108",
+      "40748104",
+      "38915484",
+      "35787038",
+      "33684117",
+      "32822449",
+      "36353733",
+      "40386802",
+      "36321557",
+      "41700935",
+      "39005320",
+      "39677697",
+      "29091028",
+      "32696386",
+      "34110175",
+      "31783713",
+      "41088757",
+      "33307683",
+      "38782886",
+      "38429263",
+      "33302617",
+      "37079924",
+      "40196628",
+      "37307457",
+      "38326345",
+      "36595668",
+      "36227466",
+      "40690668",
+      "41670285",
+      "41662498",
+      "37215004",
+      "40944421",
+      "34928290",
+      "41481439",
+      "40475453",
+      "37903925",
+      "36365699",
+      "39415718",
+      "27426284",
+      "36272811",
+      "34186525",
+      "26764742",
+      "37094002",
+      "39807013",
+      "40291420",
+      "32087632",
+      "39690597",
+      "33265970",
+      "41279444",
+      "37668016",
+      "40970906",
+      "35333653",
+      "40588121",
+      "36181270",
+      "37372301",
+      "39947751",
+      "37932412",
+      "18783771",
+      "41279136",
+      "39372747",
+      "35054543",
+      "35330124",
+      "36180409",
+      "38526948",
+      "37579155",
+      "36412795",
+      "35105084",
+      "24730776",
+      "41187075"
+    ],
+    "review": [
+      "41573920",
+      "35179885",
+      "36321557"
+    ],
+    "pmc": [
+      "12822682"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41573920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.01.691696",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

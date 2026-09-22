@@ -1,0 +1,276 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.08.600855",
+  "title": "The WAVE complex forms linear arrays at negative membrane curvature to instruct lamellipodia formation",
+  "doi": "10.1101/2024.07.08.600855",
+  "abstract": "Cells generate a wide range of actin-based membrane protrusions for various cell behaviors. These protrusions are organized by different actin nucleation promoting factors. For example, N-WASP controls finger-like filopodia, whereas the WAVE complex controls sheet-like lamellipodia. These different membrane morphologies likely reflect different patterns of nucleator self-organization. N-WASP phase separation has been successfully studied through biochemical reconstitutions, but how the WAVE complex self-organizes to instruct lamellipodia is unknown. Because WAVE complex self-organization has proven refractory to cell-free studies, we leverage in vivo biochemical approaches to investigate WAVE complex organization within its native cellular context. With single molecule tracking and molecular counting, we show that the WAVE complex forms highly regular multilayered linear arrays at the plasma membrane that are reminiscent of a microtubule-like organization. Similar to the organization of microtubule protofilaments in a curved array, membrane curvature is both necessary and sufficient for formation of these WAVE complex linear arrays, though actin polymerization is not. This dependency on negative membrane curvature could explain both the templating of lamellipodia and their emergent behaviors, including barrier avoidance. Our data uncover the key biophysical properties of mesoscale WAVE complex patterning and highlight an integral relationship between NPF self-organization and cell morphogenesis.",
+  "authors": [
+    "Wu M",
+    "Marchando P",
+    "Meyer K",
+    "Tang Z",
+    "Woolfson DN",
+    "Weiner OD"
+  ],
+  "published_date": "2024-07-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.600855",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.600855.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR878075",
+    "raw_record": {
+      "id": "PPR878075",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR878075"
+        ]
+      },
+      "doi": "10.1101/2024.07.08.600855",
+      "title": "The WAVE complex forms linear arrays at negative membrane curvature to instruct lamellipodia formation",
+      "authorString": "Wu M, Marchando P, Meyer K, Tang Z, Woolfson DN, Weiner OD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu M",
+            "lastName": "Wu",
+            "firstName": "Muziyue",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, , , ,"
+                },
+                {
+                  "affiliation": "Cardiovascular Research Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marchando P",
+            "lastName": "Marchando",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Education, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer K",
+            "lastName": "Meyer",
+            "firstName": "Kirstin",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2228-2550"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, , , ,"
+                },
+                {
+                  "affiliation": "Cardiovascular Research Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tang Z",
+            "lastName": "Tang",
+            "firstName": "Ziqi",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0425-0173"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computational Science and Engineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woolfson DN",
+            "lastName": "Woolfson",
+            "firstName": "Derek",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weiner OD",
+            "lastName": "Weiner",
+            "firstName": "Orion",
+            "initials": "OD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                },
+                {
+                  "affiliation": "Max Planck-Bristol Centre for Minimal Biology, , ,"
+                },
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building , ,"
+                },
+                {
+                  "affiliation": "Bristol BioDesign Institute, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2228-2550"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0425-0173"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Cells generate a wide range of actin-based membrane protrusions for various cell behaviors. These protrusions are organized by different actin nucleation promoting factors. For example, N-WASP controls finger-like filopodia, whereas the WAVE complex controls sheet-like lamellipodia. These different membrane morphologies likely reflect different patterns of nucleator self-organization. N-WASP phase separation has been successfully studied through biochemical reconstitutions, but how the WAVE complex self-organizes to instruct lamellipodia is unknown. Because WAVE complex self-organization has proven refractory to cell-free studies, we leverage  in vivo biochemical approaches to investigate WAVE complex organization within its native cellular context. With single molecule tracking and molecular counting, we show that the WAVE complex forms highly regular multilayered linear arrays at the plasma membrane that are reminiscent of a microtubule-like organization. Similar to the organization of microtubule protofilaments in a curved array, membrane curvature is both necessary and sufficient for formation of these WAVE complex linear arrays, though actin polymerization is not. This dependency on negative membrane curvature could explain both the templating of lamellipodia and their emergent behaviors, including barrier avoidance. Our data uncover the key biophysical properties of mesoscale WAVE complex patterning and highlight an integral relationship between NPF self-organization and cell morphogenesis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Science Foundation",
+            "grantId": "2019598",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Foundation",
+            "grantId": "DBI-1548297",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V004220/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "American Heart Association",
+            "grantId": "23PRE1018810",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "GM118167",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Unpaywall",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11257481"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.08.600855"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR878075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR878075&type=FILE&fileName=EMS197428-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40668190",
+            "reference": "The Journal of cell biology. 2025 Sep;224(9):e202410098",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197428",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-07-10",
+      "firstPublicationDate": "2024-07-08",
+      "firstIndexDate": "2024-07-10",
+      "fullTextReceivedDate": "2025-06-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

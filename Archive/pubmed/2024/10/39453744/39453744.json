@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "39453744",
+    "doi": "10.1073/pnas.2408071121",
+    "title": "Intrinsically disordered region amplifies membrane remodeling to augment selective ER-phagy."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) play a pivotal role in organellar remodeling. They transduce signals across membranes, scaffold signaling complexes, and mediate vesicular traffic. Their functions are regulated by constraining conformational ensembles through specific intra- and intermolecular interactions, physical tethering, and posttranslational modifications. The endoplasmic reticulum (ER)-phagy receptor FAM134B/RETREG1, known for its reticulon homology domain (RHD), includes a substantial C-terminal IDR housing the LC3 interacting motif. Beyond engaging the autophagic machinery, the function of the FAM134B-IDR is unclear. Here, we investigate the characteristics of the FAM134B-IDR by extensive modeling and molecular dynamics simulations. We present detailed structural models for the IDR, mapping its conformational landscape in solution and membrane-anchored configurations. Our analysis reveals that depending on the membrane anchor, the IDRs collapse onto the membrane and induce positive membrane curvature to varying degrees. The charge patterns underlying this Janus-like behavior are conserved across other ER-phagy receptors. We found that IDRs alone are sufficient to sense curvature. When combined with RHDs, they intensify membrane remodeling and drive efficient protein clustering, leading to faster budding, thereby amplifying RHD remodeling functions. Our simulations provide a perspective on IDRs of FAM134B, their Janus-like membrane interactions, and the resulting modulatory functions during large-scale ER remodeling.",
+    "keywords": [
+      "ER remodeling",
+      "IDRs",
+      "conformational entropy",
+      "curvature induction",
+      "structural ensemble"
+    ],
+    "mesh_terms": [
+      "*Endoplasmic Reticulum/metabolism",
+      "*Membrane Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Intracellular Signaling Peptides and Proteins/metabolism/genetics/chemistry",
+      "Autophagy/physiology",
+      "Cell Membrane/metabolism",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Poveda-Cuevas, Sergio Alejandro",
+        "Lohachova, Kateryna",
+        "Markusic, Borna",
+        "Dikic, Ivan",
+        "Hummer, Gerhard",
+        "Bhaskara, Ramachandra M"
+      ],
+      "short_names": [
+        "Poveda-Cuevas SA",
+        "Lohachova K",
+        "Markusic B",
+        "Dikic I",
+        "Hummer G",
+        "Bhaskara RM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3087-6674",
+        "ORCID: 0000-0001-7826-8320",
+        "ORCID: 0009-0007-8302-812X",
+        "ORCID: 0000-0001-8156-9511",
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0002-7742-0391"
+      ],
+      "affiliations": [
+        "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+        "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany.",
+        "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+        "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany.",
+        "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+        "International Max Planck Research School on Cellular Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany.",
+        "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+        "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany.",
+        "Max-Planck Institute of Biophysics, Department of Theoretical Biophysics, Frankfurt am Main 60438, Germany.",
+        "Goethe University Frankfurt, Department of Physics, Institute of Biophysics, Frankfurt am Main 60438, Germany.",
+        "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+        "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Poveda-Cuevas, Sergio Alejandro",
+        "short_name": "Poveda-Cuevas SA",
+        "identifiers": [
+          "0000-0002-3087-6674"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+          "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Lohachova, Kateryna",
+        "short_name": "Lohachova K",
+        "identifiers": [
+          "0000-0001-7826-8320"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+          "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Markusic, Borna",
+        "short_name": "Markusic B",
+        "identifiers": [
+          "0009-0007-8302-812X"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+          "International Max Planck Research School on Cellular Biophysics, Max-von-Laue-Strasse 3, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Dikic, Ivan",
+        "short_name": "Dikic I",
+        "identifiers": [
+          "0000-0001-8156-9511"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+          "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Max-Planck Institute of Biophysics, Department of Theoretical Biophysics, Frankfurt am Main 60438, Germany.",
+          "Goethe University Frankfurt, Department of Physics, Institute of Biophysics, Frankfurt am Main 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Bhaskara, Ramachandra M",
+        "short_name": "Bhaskara RM",
+        "identifiers": [
+          "0000-0002-7742-0391"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, School of Medicine, Institute of Biochemistry II, Frankfurt am Main 60590, Germany.",
+          "Goethe University Frankfurt, Buchmann Institute for Molecular Life Sciences, Riedberg Campus, Frankfurt am Main 60438, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Oct 29",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/25 22:27",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "41593210",
+      "41268727",
+      "41267521",
+      "41224962",
+      "41168463",
+      "40760246",
+      "40557772",
+      "40222412",
+      "39653037"
+    ],
+    "refs": [
+      "38324698",
+      "38297184",
+      "38297118",
+      "37225996",
+      "37225994",
+      "37155239",
+      "37087736",
+      "36016498",
+      "35930019",
+      "35452617",
+      "35451616",
+      "35377637",
+      "35353508",
+      "35188422",
+      "34962393",
+      "34912806",
+      "34817999",
+      "34716273",
+      "34507520",
+      "34265844",
+      "33623120",
+      "33591770",
+      "33577679",
+      "33532844",
+      "33509650",
+      "33307683",
+      "33155649",
+      "32989223",
+      "32339173",
+      "31659280",
+      "31621751",
+      "31498621",
+      "31180661",
+      "31147549",
+      "30297718",
+      "29505559",
+      "29490246",
+      "28373566",
+      "28195464",
+      "27819658",
+      "26621095",
+      "26580045",
+      "26574417",
+      "26133421",
+      "25531225",
+      "25032790",
+      "24773235",
+      "24223529",
+      "24115198",
+      "23901099",
+      "23203878",
+      "22902598",
+      "21500218",
+      "20385839",
+      "17569554",
+      "17212484",
+      "10908673",
+      "9895674",
+      "9254694",
+      "6667333"
+    ],
+    "similar": [
+      "39453744",
+      "39653037",
+      "31147549",
+      "31996076",
+      "33591770",
+      "37225996",
+      "31006538",
+      "31930741",
+      "38705724",
+      "31748416",
+      "37225994",
+      "31101736",
+      "42192129",
+      "41348592",
+      "39584582",
+      "39762646",
+      "40209949",
+      "40778749",
+      "39128711",
+      "40154686",
+      "37043189",
+      "35477002",
+      "37490852",
+      "32559118",
+      "40133256",
+      "34212292",
+      "30297718",
+      "35452617",
+      "40760246",
+      "40959290",
+      "32716134",
+      "32620754",
+      "34338405",
+      "39394962",
+      "30143524",
+      "41178515",
+      "36952345",
+      "41557796",
+      "25409870",
+      "40816353",
+      "38942776",
+      "33199694",
+      "30559329",
+      "41365991",
+      "42117627",
+      "38102139",
+      "26040720",
+      "28617241",
+      "40277456",
+      "40619017",
+      "36657701",
+      "24115198",
+      "26735936",
+      "32154249",
+      "39925135",
+      "38774969",
+      "39093570",
+      "35930019",
+      "35795666",
+      "41083602",
+      "42318785",
+      "32851973",
+      "31336002",
+      "39689859",
+      "39039299",
+      "40328253",
+      "31386802",
+      "33627133",
+      "39264156",
+      "36693319",
+      "32086669",
+      "39094564",
+      "35949353",
+      "31116513",
+      "34929448",
+      "41593210",
+      "30177506",
+      "37680133",
+      "37273064",
+      "39539017",
+      "40503170",
+      "33436890",
+      "29945970",
+      "37929762",
+      "35867233",
+      "41787734",
+      "35253652",
+      "33076213",
+      "41312666",
+      "41697115",
+      "39303699",
+      "35451616",
+      "32824743",
+      "31804089",
+      "29763584",
+      "38597191",
+      "41661358",
+      "38297118",
+      "40530859",
+      "34743744"
+    ],
+    "review": [
+      "39453744",
+      "39584582",
+      "35477002",
+      "35452617",
+      "40959290",
+      "39394962",
+      "33199694",
+      "32154249",
+      "39093570",
+      "35930019",
+      "31386802",
+      "31116513",
+      "41593210",
+      "30177506",
+      "37680133",
+      "39303699"
+    ],
+    "pmc": [
+      "11536123"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2408071121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39453744/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

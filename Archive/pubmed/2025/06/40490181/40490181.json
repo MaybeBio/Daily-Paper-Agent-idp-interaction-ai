@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "40490181",
+    "doi": "10.1016/j.ijbiomac.2025.145048",
+    "title": "Biopolymer hydrogels in biomedicine: Bridging chemistry, biology, and clinical translation."
+  },
+  "content": {
+    "abstract": "Biopolymer hydrogels are revolutionizing biomedicine by synergizing ecological sustainability with dynamic biofunctionality, offering transformative solutions for tissue regeneration and precision therapeutics. Derived from polysaccharides (e.g., chitosan, hyaluronic acid), proteins (e.g., collagen, silk fibroin), and nucleic acids, these hydrogels recapitulate critical extracellular matrix (ECM) features through tunable viscoelasticity (elastic modulus: 1-100 kPa), multi-stimuli responsiveness (enzyme/pH/ROS), and spatiotemporal bioactivity. Recent innovations leverage their structure-function relationships: protein-polysaccharide interpenetrating networks (e.g., gelatin-oxidized alginate) enable stage-specific cytokine release (e.g., IL-10/TGF-beta dual delivery) and interfacial tissue regeneration, while glycosaminoglycan-mimetic hydrogels direct stem cell differentiation via stiffness-mediated YAP/TAZ mechanotransduction. However, clinical translation faces critical barriers: reconciling injectability with load-bearing resilience, synchronizing degradation kinetics with tissue remodeling phases, and modulating immune-microenvironment crosstalk to balance biointegration and fibrosis (e.g., M1-to-M2 macrophage polarization). Emerging strategies address these through covalent-noncovalent dual crosslinking, zwitterionic immunomodulatory interfaces, and 4D-bioprinted architectures with anisotropic bioactivity. Challenges persist in preventing phase separation in hybrid systems and matching metabolic kinetics in vivo. Future directions demand molecular-scale engineering of dynamic networks, machine learning-guided multi-omics customization, and standardized validation frameworks. This review delineates a roadmap for transforming natural hydrogels from bioactive scaffolds to intelligent, clinically viable systems for active tissue repair and disease modulation.",
+    "keywords": [
+      "Biopolymer",
+      "Biosafety",
+      "Clinical",
+      "Fabrication",
+      "Hydrogels",
+      "Regenerative medicine",
+      "Structural"
+    ],
+    "mesh_terms": [
+      "*Hydrogels/chemistry/therapeutic use",
+      "Biopolymers/chemistry",
+      "Humans",
+      "Animals",
+      "Tissue Engineering/methods",
+      "Biocompatible Materials/chemistry",
+      "*Translational Research, Biomedical",
+      "Extracellular Matrix/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bailei",
+        "Song, Suxian",
+        "Zhou, Yu",
+        "Chen, Xinjiani",
+        "Zhang, Zhen",
+        "Liu, Xiaojun",
+        "Zhang, Rongqing"
+      ],
+      "short_names": [
+        "Li B",
+        "Song S",
+        "Zhou Y",
+        "Chen X",
+        "Zhang Z",
+        "Liu X",
+        "Zhang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China. Electronic address: libl1213@foxmail.com.",
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China. Electronic address: 19849635738@163.com.",
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China. Electronic address: yu-zhou20@tsinghua.org.cn.",
+        "Department of Pharmaceutics, Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang 314001, China. Electronic address: 1601111432@pku.edu.cn.",
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China. Electronic address: zhangzhen@tsinghua-zj.edu.cn.",
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China; Taizhou Innovation Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang 318000, China. Electronic address: liuxiaojun@tsinghua-zj.edu.cn.",
+        "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China; Taizhou Innovation Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang 318000, China. Electronic address: rqzhang@mail.tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bailei",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China. Electronic address: libl1213@foxmail.com."
+        ]
+      },
+      {
+        "full_name": "Song, Suxian",
+        "short_name": "Song S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China. Electronic address: 19849635738@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yu",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China. Electronic address: yu-zhou20@tsinghua.org.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinjiani",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, Jiaxing Key Laboratory for Photonanomedicine and Experimental Therapeutics, College of Medicine, Jiaxing University, Jiaxing, Zhejiang 314001, China. Electronic address: 1601111432@pku.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhen",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China. Electronic address: zhangzhen@tsinghua-zj.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaojun",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China; Taizhou Innovation Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang 318000, China. Electronic address: liuxiaojun@tsinghua-zj.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rongqing",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Yangtze Delta Region Institute of Tsinghua University, Jiaxing, Zhejiang Province 314006, China; Zhejiang Key Laboratory of Multiomics and Molecular Enzymology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang, Zhejiang 314006, China; Taizhou Innovation Center, Yangtze Delta Region Institute of Tsinghua University, Zhejiang 318000, China. Electronic address: rqzhang@mail.tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/10 00:30",
+    "fetched_at": "2026-09-21 19:48:09"
+  },
+  "links": {
+    "cites": [
+      "42506545",
+      "42504260",
+      "42458200",
+      "42326722",
+      "42281924",
+      "42280485",
+      "42280186",
+      "42196081",
+      "42023081",
+      "41745040",
+      "41624251",
+      "41567951",
+      "41425149"
+    ],
+    "refs": [],
+    "similar": [
+      "40490181",
+      "33049725",
+      "26621695",
+      "35163339",
+      "40752703",
+      "29649641",
+      "34874044",
+      "41330502",
+      "41475712",
+      "40411774",
+      "41340224",
+      "39357721",
+      "38795882",
+      "40373869",
+      "38768611",
+      "25417321",
+      "30769137",
+      "36830649",
+      "27694050",
+      "39567171",
+      "41195813",
+      "29225174",
+      "36593913",
+      "40033394",
+      "40119420",
+      "37504436",
+      "38896849",
+      "29410166",
+      "30557856",
+      "35930000",
+      "39665396",
+      "41125016",
+      "40000221",
+      "40935305",
+      "40847847",
+      "40392297",
+      "37793600",
+      "37981271",
+      "38816677",
+      "41197845",
+      "32323469",
+      "40445067",
+      "41155894",
+      "35352081",
+      "41461357",
+      "31787346",
+      "40806513",
+      "40646356",
+      "40482738",
+      "30246835",
+      "41346706",
+      "28804933",
+      "33356174",
+      "23629621",
+      "30929614",
+      "38470831",
+      "34201769",
+      "27915024",
+      "40725153",
+      "40680916",
+      "26602821",
+      "28634933",
+      "31599365",
+      "40919655",
+      "24907660",
+      "36240467",
+      "40710658",
+      "40837705",
+      "41451166",
+      "38053691",
+      "28823716",
+      "24836951",
+      "40808075",
+      "38400658",
+      "32578533",
+      "40507800",
+      "23603210",
+      "38832500",
+      "41254726",
+      "39007419",
+      "40865832",
+      "41395664",
+      "41297807",
+      "40945536",
+      "30735811",
+      "29736573",
+      "29722634",
+      "30006315",
+      "25411409",
+      "26961807",
+      "35442107",
+      "40436349",
+      "41218154",
+      "28187512",
+      "39965423",
+      "28167392",
+      "38844005",
+      "40744131",
+      "33739203",
+      "37483847"
+    ],
+    "review": [
+      "40490181",
+      "35163339",
+      "40752703",
+      "41330502",
+      "41475712",
+      "40411774",
+      "39357721",
+      "38795882",
+      "38768611",
+      "25417321",
+      "30769137",
+      "36830649",
+      "39567171",
+      "41195813",
+      "36593913",
+      "40033394",
+      "40119420",
+      "37504436",
+      "38896849",
+      "39665396",
+      "41125016",
+      "40000221",
+      "40392297",
+      "38816677",
+      "41197845",
+      "40445067",
+      "41155894",
+      "35352081",
+      "41461357",
+      "31787346",
+      "40806513",
+      "40646356",
+      "40482738",
+      "41346706",
+      "28804933",
+      "33356174",
+      "27915024",
+      "40725153",
+      "40680916",
+      "26602821",
+      "31599365",
+      "40919655",
+      "40710658",
+      "40837705",
+      "41451166",
+      "38053691",
+      "24836951",
+      "40808075",
+      "38400658",
+      "40507800",
+      "23603210",
+      "41254726",
+      "40865832",
+      "41297807",
+      "29736573",
+      "29722634",
+      "35442107",
+      "41218154",
+      "28187512",
+      "38844005"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)05601-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

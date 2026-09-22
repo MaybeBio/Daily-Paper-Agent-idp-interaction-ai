@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39028515",
+  "title": "Microscale Thermophoresis Analysis of Chromatin Interactions.",
+  "authors": "Corbeski, Ivan; Horn, Velten; van der Valk, Ramon A; le Paige, Ulric; Dame, Remus T; van Ingen, Hugo",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍微尺度热泳(MST)技术用于染色质互作分析，涉及蛋白-蛋白/蛋白-DNA结合，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅实验技术方法学描述，对本课题启发有限。",
+  "abstract": "Architectural DNA-binding proteins are key to the organization and compaction of genomic DNA inside cells. The activity of architectural proteins is often subject to further modulation and regulation through the interaction with a diverse array of other protein factors. Detailed knowledge on the binding modes involved is crucial for our understanding of how these protein-protein and protein-DNA interactions shape the functional landscape of chromatin in all kingdoms of life: bacteria, archaea, and eukarya.Microscale thermophoresis (MST) is a biophysical technique for the study of biomolecular interactions. It has seen increasing application in recent years thanks to its solution-based nature, rapid application, modest sample demand, and the sensitivity of the thermophoresis effect to binding events.Here, we describe the use of MST in the study of chromatin interactions. The emphasis lies on the wide range of ways in which these experiments are set up and the diverse types of information they reveal. These aspects are illustrated with four very different systems: the sequence-dependent DNA compaction by architectural protein HMfB, the sequential binding of core histone complexes to histone chaperone APLF, the impact of the nucleosomal context on the recognition of histone modifications, and the binding of a viral peptide to the nucleosome. Special emphasis is given to the key steps in the design, execution, and analysis of MST experiments in the context of the provided examples.",
+  "abstract_zh": "结构性的DNA结合蛋白（architectural DNA-binding proteins）是细胞内基因组DNA组织和压缩的关键。结构蛋白的活性通常通过与多种其他蛋白质因子的相互作用而受到进一步的调节和控制。深入了解所涉及的结合模式，对于我们理解这些蛋白质-蛋白质和蛋白质-DNA相互作用如何塑造细菌、古菌和真核生物所有生命领域中染色质的功能景观至关重要。微量热泳动（Microscale thermophoresis, MST）是一种用于研究生物分子相互作用的生物物理技术。近年来，由于其基于溶液的特性、快速应用、适度的样品需求以及热泳效应对结合事件的敏感性，该技术得到了越来越多的应用。在此，我们描述了MST在染色质相互作用研究中的应用。重点在于这些实验设置的多种方式及其揭示的多样化信息类型。这些方面通过四个截然不同的系统进行说明：结构蛋白HMfB对序列依赖性DNA的压缩、核心组蛋白复合物与组蛋白伴侣APLF的连续结合、核小体环境对组蛋白修饰识别的影响，以及病毒肽与核小体的结合。特别强调了在所提供的示例背景下，MST实验设计、执行和分析中的关键步骤。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39028515/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39028515/",
+  "paper_page_path": "papers/pubmed/39028515/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41102979",
+  "title": "Predicting Pose Distribution of Protein Domains Connected by Flexible Linkers Is an Unsolved Problem.",
+  "authors": "McBride, Allen C; Yu, Feng; Cheng, Edward H; Mpouli, Aulane; Soe, Aimee C; Hammel, Michal; Montelione, Gaetano T; Oas, Terrence G; Tsutakawa, Susan E; Donald, Bruce R",
+  "journal": "Proteins",
+  "published_date": "2025-10-17",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过CASP16挑战评估预测柔性连接子连接结构域间姿态分布的方法，直接聚焦无序连接子介导的域间互作构象建模，虽非典型IDP-PPI但机制建模思路高度相关。",
+  "abstract": "In CASP16, we assessed the ability of computational methods to predict the distribution of relative orientations of two domains tethered by a flexible linker. The range of interdomain distances and orientations (poses) of such domain-linker-domain (D-L-D) proteins can play an important role in protein function, allostery, aggregation, and the thermodynamics of binding. The CASP16 Conformational Ensembles Experiment included two challenges to predict the interdomain pose distribution of a Staphylococcal protein A (SpA) D-L-D construct, called ZLBT-C, in which two of SpA's five nearly identical domains are connected by either (1) a six-residue wild-type (WT) linker (kadnkf), or (2) an all-glycine (Gly6) linker. The wild-type linker has a highly conserved sequence and is thought to contribute to the energetic barrier for binding with host antibodies. Ground truth was provided by nuclear magnetic resonance (NMR) residual dipolar coupling (RDC) data on WT protein and small angle X-ray scattering (SAXS) data on both proteins in solution. Twenty-five predictor groups submitted 35 sets of predicted conformational distributions, in the form of population-weighted finite ensembles of discrete structures. Unlike traditional CASP assessments that compare predicted atomic models to experimental atomic models, the accuracy of these predictions was assessed by back-calculating NMR RDCs and SAXS curves from each ensemble of atomic models and comparing these results to respective experimental data. Accuracy was also assessed by using kernelization to compare ensembles to the continuous orientational distributions optimally fit to experimental data. In our assessment, predictions spanned a wide range of accuracy, but none were close fits to the combined NMR and SAXS data. In addition, none were able to recapitulate the observed difference between WT and Gly6 proteins, as observed in the SAXS data. These results, and our analysis, highlighted strengths and weaknesses, plus complementarity of NMR RDC and SAXS analysis.",
+  "abstract_zh": "在CASP16中，我们评估了计算方法预测由柔性连接子连接的两个结构域相对取向分布的能力。此类结构域-连接子-结构域（D-L-D）蛋白质的域间距离和取向（姿态）范围可能在蛋白质功能、变构、聚集及结合热力学中发挥重要作用。CASP16构象系综实验包括两个挑战，旨在预测金黄色葡萄球菌蛋白A（SpA）的D-L-D构建体（称为ZLBT-C）的域间姿态分布，其中SpA五个几乎相同的结构域中的两个通过（1）六残基野生型（WT）连接子（kadnkf）或（2）全甘氨酸（Gly6）连接子相连。野生型连接子具有高度保守的序列，被认为有助于与宿主抗体结合的能量屏障。真实数据由野生型蛋白的核磁共振（NMR）残余偶极耦合（RDC）数据以及两种蛋白在溶液中的小角X射线散射（SAXS）数据提供。二十五个预测小组提交了35组预测的构象分布，形式为群体加权的离散结构有限系综。与传统CASP评估（将预测的原子模型与实验原子模型进行比较）不同，这些预测的准确性通过从每个原子模型系综反算NMR RDC和SAXS曲线，并将这些结果与相应实验数据进行比较来评估。准确性还通过使用核化方法将系综与最优拟合实验数据的连续取向分布进行比较来评估。在我们的评估中，预测结果覆盖了广泛的准确性范围，但没有任何一个能紧密拟合NMR和SAXS数据的组合。此外，没有一个能重现SAXS数据中观察到的WT和Gly6蛋白之间的差异。这些结果及我们的分析突出了NMR RDC和SAXS分析的优势、劣势及互补性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41102979/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41102979/",
+  "paper_page_path": "papers/pubmed/41102979/index.html"
+}

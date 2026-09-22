@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "36754843",
+    "doi": "10.1093/bib/bbad009",
+    "title": "A hybrid positive unlabeled learning framework for uncovering scaffolds across human proteome by measuring the propensity to drive phase separation."
+  },
+  "content": {
+    "abstract": "Scaffold proteins drive liquid-liquid phase separation (LLPS) to form biomolecular condensates and organize various biochemical reactions in cells. Dysregulation of scaffolds can lead to aberrant condensate assembly and various complex diseases. However, bioinformatics predictors dedicated to scaffolds are still lacking and their development suffers from an extreme imbalance between limited experimentally identified scaffolds and unlabeled candidates. Here, using the joint distribution of hybrid multimodal features, we implemented a positive unlabeled (PU) learning-based framework named PULPS that combined ProbTagging and penalty logistic regression (PLR) to profile the propensity of scaffolds. PULPS achieved the best AUC of 0.8353 and showed an area under the lift curve (AUL) of 0.8339 as an estimation of true performance. Upon reviewing recent experimentally verified scaffolds, we performed a partial recovery with 2.85% increase in AUL from 0.8339 to 0.8577. In comparison, PULPS showed a 45.7% improvement in AUL compared with PLR, whereas 8.2% superiority over other existing tools. Our study first proved that PU learning is more suitable for scaffold prediction and demonstrated the widespread existence of phase separation states. This profile also uncovered potential scaffolds that co-drive LLPS in the human proteome and generated candidates for further experiments. PULPS is free for academic research at http://pulps.zbiolab.cn.",
+    "keywords": [
+      "area under the lift curve",
+      "hybrid multimodal features",
+      "liquid-liquid phase separation",
+      "positive unlabeled learning",
+      "scaffold protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome",
+      "*Cell Physiological Phenomena"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Peiran",
+        "Cai, Ruoxi",
+        "Lugo-Martinez, Jose",
+        "Guo, Yaping"
+      ],
+      "short_names": [
+        "Jiang P",
+        "Cai R",
+        "Lugo-Martinez J",
+        "Guo Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1586-7806",
+        "ORCID: 0000-0001-9937-363X"
+      ],
+      "affiliations": [
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA.",
+        "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Peiran",
+        "short_name": "Jiang P",
+        "identifiers": [
+          "0000-0003-1586-7806"
+        ],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China.",
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Cai, Ruoxi",
+        "short_name": "Cai R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China."
+        ]
+      },
+      {
+        "full_name": "Lugo-Martinez, Jose",
+        "short_name": "Lugo-Martinez J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Yaping",
+        "short_name": "Guo Y",
+        "identifiers": [
+          "0000-0001-9937-363X"
+        ],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, Henan 450001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Mar 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/09 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41488366",
+      "40867524",
+      "40736746"
+    ],
+    "refs": [],
+    "similar": [
+      "36754843",
+      "37287138",
+      "35168563",
+      "35895272",
+      "33827920",
+      "33583140",
+      "31594803",
+      "33535034",
+      "35687670",
+      "36528388",
+      "33765580",
+      "33809541",
+      "32861878",
+      "34624295",
+      "36524527",
+      "35803926",
+      "32696384",
+      "35142991",
+      "33517364",
+      "34235141",
+      "32548680",
+      "30514760",
+      "34129784",
+      "29632271",
+      "34487789",
+      "33453930",
+      "35093128",
+      "33319830",
+      "28113437",
+      "36310223",
+      "33913240",
+      "30682370",
+      "32615218",
+      "33997539",
+      "33890467",
+      "35179885",
+      "36444977",
+      "36551199",
+      "32824618",
+      "31691822",
+      "35750966",
+      "33982350",
+      "36310226",
+      "36518754",
+      "35943083",
+      "34585805",
+      "31444270",
+      "31237369",
+      "36396954",
+      "35883530",
+      "30606735",
+      "33510441",
+      "34304571",
+      "34334791",
+      "31906602",
+      "36594499",
+      "35998851",
+      "35628304",
+      "36230986",
+      "34102212",
+      "31941785",
+      "24816822",
+      "34179096",
+      "35853678",
+      "34076821",
+      "36350034",
+      "33071614",
+      "34816836",
+      "29511089",
+      "36028355",
+      "33579564",
+      "33057154"
+    ],
+    "review": [
+      "36754843",
+      "33583140",
+      "31594803",
+      "33765580",
+      "36524527",
+      "35803926",
+      "35142991",
+      "34235141",
+      "32548680",
+      "34129784",
+      "29632271",
+      "34487789",
+      "33319830",
+      "33913240",
+      "30682370",
+      "33997539",
+      "35179885",
+      "32824618",
+      "35750966",
+      "34585805",
+      "31444270",
+      "31237369",
+      "33510441",
+      "34334791",
+      "35998851",
+      "35628304",
+      "36230986",
+      "36350034",
+      "34816836",
+      "36028355",
+      "33579564"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36754843.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad009",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

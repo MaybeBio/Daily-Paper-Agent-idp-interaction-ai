@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure/table references) as provided.
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the claims as presented in the provided text. No external data, supplementary files, or raw spectra were available for independent verification.
+- **Shared manuscript claim summary** The authors identify the STI1 domain of yeast ubiquilin Dsk2 as the primary driver of self-association and phase separation in vitro. Using NMR spectroscopy and molecular dynamics simulations, they report that the STI1 domain dynamically engages three transient amphipathic helices within intrinsically disordered regions. Deletion of the STI1 domain or these helices reduces phase separation propensity in vitro. In vivo, STI1 deletion increases proteasome-containing condensates, attributed to accumulation of polyubiquitinated substrates. The authors propose a model where STI1-helix interactions are replaceable by STI1-client interactions for chaperone or protein quality control outcomes.
+- **Visible evidence base** NMR chemical shift assignments (84% coverage), 15N relaxation data, SEC-MALS, SAXS, CALVADOS3 coarse-grained simulations, AlphaFold2 multimer predictions, phase diagrams, fluorescence and brightfield microscopy, yeast deletion strains with western blotting.
+- **Missing materials affecting confidence** Supplementary figures (S1–S12), tables (S1–S5), raw NMR spectra, SAXS data curves, simulation trajectories (referenced via Zenodo), and detailed statistical analyses were not provided. This limits independent verification of key quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and technically ambitious study of Dsk2 self-association and phase separation, with residue-level resolution achieved through NMR. The identification of transient helices in disordered regions as interaction partners for the STI1 domain is novel and mechanistically interesting. However, several concerns regarding the interpretation of NMR intensity changes, the quantitative link between in vitro and in vivo observations, and the robustness of the computational models need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, ubiquitin-proteasome system biology, intrinsically disordered proteins, and chaperone-client interactions. The work also has relevance for understanding ubiquilin family proteins in neurodegeneration, given the conserved STI1 domain architecture.
+- **Major strengths** 1) Residue-level NMR analysis of a full-length shuttle protein is technically impressive and provides a rare view into dynamic interactions across folded and disordered regions. 2) The combination of experimental (NMR, SEC-MALS, SAXS, microscopy) and computational (CALVADOS3, AlphaFold2) approaches is integrative and rigorous. 3) The in vivo experiments using CRISPR-based STI1 deletion provide a functional context, even if the interpretation is complex. 4) The proposed model of STI1-helix interactions being reminiscent of chaperone-client binding is conceptually appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of NMR interpretation
+  - **Claim pointer** The authors state that "the STI1 domain interacts with three transient amphipathic helices within the intrinsically-disordered regions of Dsk2" based on NMR CSPs and intensity changes.
+  - **Evidence pointer** Results section "STI1 domain interacts with transient helices in Dsk2", Figures 3 and 4 (location not provided)
+  - **Concern** The interpretation of concentration-dependent peak intensity decreases as evidence for specific STI1-helix interactions is not fully justified. Intensity changes could also arise from non-specific aggregation, exchange broadening due to conformational exchange unrelated to STI1 binding, or changes in oligomerization state. The authors do not provide quantitative analysis (e.g., binding isotherms, dissociation constants) to support a specific interaction model. Additionally, the claim that STI1-STI1 interactions occur is inferred from intensity losses, but no direct evidence (e.g., intermolecular NOEs, cross-linking, or analytical ultracentrifugation) is presented.
+  - **Why it matters** The central mechanistic claim of the paper rests on the specificity of STI1-helix interactions. Without quantitative binding data or direct evidence of intermolecular contacts, alternative explanations for the observed NMR changes cannot be excluded.
+  - **Resolution test** Provide titration series with quantitative fitting of intensity changes to a binding model, or use isotope-filtered NMR experiments to directly detect intermolecular contacts between STI1 and the transient helices. Alternatively, use paramagnetic relaxation enhancement (PRE) or cross-saturation experiments to map the interaction interface.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative link between in vitro and in vivo observations
+  - **Claim pointer** The authors state that "deletion of the STI1 domain in Dsk2 has the opposite effect [in vivo], resulting in an increase of proteasome-containing condensates due to an accumulation of polyubiquitinated substrates."
+  - **Evidence pointer** Results section "Deletion of the Dsk2 STI1 domain promotes proteasome condensate formation in vivo", Figure 6 (location not provided)
+  - **Concern** The in vivo result is presented as "opposite" to the in vitro finding, but the mechanistic connection is indirect. The authors attribute the increased condensate formation to accumulation of polyubiquitinated substrates, but they do not directly demonstrate that this accumulation is caused by loss of STI1 chaperone function rather than by other effects of the deletion (e.g., altered protein stability, changes in Dsk2 expression levels, or indirect effects on proteasome function). The western blot data show increased polyubiquitin levels, but causality is not established.
+  - **Why it matters** The paper proposes a dual role for the STI1 domain: promoting phase separation in vitro but limiting condensate formation in vivo. This apparent contradiction is central to the proposed model. Without a clear causal link, the model remains speculative.
+  - **Resolution test** Perform rescue experiments with STI1 domain mutants that separate chaperone function from self-association. Alternatively, measure Dsk2 protein levels and proteasome activity in the deletion strains to rule out indirect effects. Use a reporter system to directly assess the role of polyubiquitin accumulation in condensate formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Robustness of computational models
+  - **Claim pointer** The authors use CALVADOS3 simulations to support the existence of STI1-helix interactions and AlphaFold2 multimer to model the binding mode.
+  - **Evidence pointer** Results section "STI1 domain interacts with transient helices in Dsk2", Figures 4E–G, 7C–E (location not provided)
+  - **Concern** The CALVADOS3 simulations are coarse-grained and rely on the assumption that the STI1 domain is folded and rigid. The authors note that AlphaFold predictions of STI1 domains are generally of low confidence, which raises questions about the validity of using a fixed folded structure for the STI1 domain in simulations. The AlphaFold2 multimer predictions are presented without confidence metrics or validation against experimental data. The choice of "rank 2", "rank 3", and "rank 1" models appears arbitrary.
+  - **Why it matters** The computational models are used to support the structural interpretation of the NMR data. If the models are not robust, the proposed binding mode and the analogy to chaperone-client interactions are weakened.
+  - **Resolution test** Provide confidence metrics (pLDDT, PAE) for the AlphaFold2 multimer predictions. Validate the CALVADOS3 simulations against experimental SAXS data more rigorously, and test the sensitivity of the results to the choice of STI1 structure. Consider using atomistic simulations or enhanced sampling methods to verify the predicted interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Phase diagram measurements
+  - **Evidence pointer** Methods section "Phase Diagram measurements" (location not provided)
+  - **Issue** The description of phase diagram measurements is brief. It is unclear how the saturation concentration (csat) was determined from the supernatant after centrifugation, and whether any correction for non-specific loss was applied.
+  - **Required correction** Provide more detail on the centrifugation and quantification steps, including how the supernatant was sampled and whether any control experiments were performed to account for protein adsorption to tubes or pipette tips.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** In vivo quantification
+  - **Evidence pointer** Results section "Deletion of the Dsk2 STI1 domain promotes proteasome condensate formation in vivo", Figure 6 (location not provided)
+  - **Issue** The statistical analysis for the in vivo puncta quantification is not described in the text. It is unclear how many biological replicates were performed and what statistical test was used.
+  - **Required correction** Add a description of the statistical methods used for the in vivo experiments, including the number of replicates and the specific tests performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The text refers to supplementary figures and tables extensively, but these were not provided. This makes it difficult to fully evaluate the data.
+  - **Required correction** Ensure that all supplementary materials are made available for review, or at least provide key data in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Transient helices"
+  - **Evidence pointer** Results section "Short helices exist within intrinsically disordered regions of Dsk2" (location not provided)
+  - **Issue** The term "transient helices" is used throughout, but the degree of helicity and the timescale of the transient behavior are not quantified. It would be helpful to provide estimates of helical population from chemical shift deviations or other methods.
+  - **Required correction** Provide quantitative estimates of helical propensity (e.g., fraction helicity) for the three regions, and discuss the timescales of the transient behavior in the context of the NMR relaxation data.
+- **Technical failings that need to be addressed before the case is established** 1) The lack of quantitative binding analysis for STI1-helix interactions (R1-M1). 2) The indirect causal link between STI1 deletion and increased condensate formation in vivo (R1-M2). 3) The unvalidated computational models used to support the structural interpretation (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its residue-level mapping of interactions in a full-length ubiquilin family member, which has not been achieved before. The identification of transient helices as STI1 interaction partners is novel. **Scientific importance:** The findings have implications for understanding how shuttle proteins mediate condensate formation and how STI1 domains function in chaperone-client recognition. This is of broad interest to the fields of protein quality control and phase separation. **Interdisciplinary readership:** The work bridges structural biology, biophysics, and cell biology, and should appeal to a broad audience. However, the heavy reliance on NMR and simulation methods may limit accessibility for some readers. **Technical soundness:** The NMR work is technically impressive, but the interpretation of intensity changes as specific interactions needs strengthening. The in vivo experiments are well-designed but the causal link is incomplete. The computational models require further validation. **Readability for nonspecialists:** The manuscript is generally well-written, but the results section is dense and may be challenging for readers without a background in NMR spectroscopy. A more accessible summary of the key findings and their significance would improve readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a novel and potentially important finding, but the central claims require additional quantitative support and validation before they can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the STI1 domain "dynamically engages" the transient helices is supported by NMR CSPs and intensity changes, but the dynamic nature (timescales, affinity) is not quantified.
+- The statement that "removal of the STI1 domain or these helices significantly reduces the propensity for Dsk2 to phase separate" is supported by phase diagram data, but the quantitative comparison across constructs is not fully presented.
+- The in vivo conclusion that "deletion of the STI1 domain promotes proteasome condensate formation" is supported by microscopy data, but the mechanistic link to polyubiquitin accumulation is inferred, not directly demonstrated.
+- The analogy between Dsk2 STI1-helix interactions and chaperone-client interactions (e.g., Hop-DP2, M. bicuspidata Dsk2) is based on structural modeling and sequence similarity, but direct experimental evidence for this conservation is lacking.
+- The claim that "the STI1 domain is the major contributor to both self-association and phase separation" is supported by deletion experiments, but the relative contributions of other regions (e.g., UBL-UBA interactions) are not fully deconvoluted.

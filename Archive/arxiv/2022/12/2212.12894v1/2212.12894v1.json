@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2212.12894v1",
+  "title": "A charge dependent long-ranged force drives tailored assembly of matter in solution",
+  "doi": "",
+  "abstract": "The interaction between charged objects in solution is generally expected to recapitulate two central principles of electromagnetics: (i) like-charged objects repel, and (ii) they do so regardless of the sign of their electrical charge. Here we demonstrate experimentally that the solvent plays a hitherto unforeseen but crucial role in interparticle interactions, and importantly, that interactions in the fluid phase can break charge-reversal symmetry. We show that in aqueous solution, negatively charged particles can attract at long range while positively charged particles repel. In solvents that exhibit an inversion of the net molecular dipole at an interface, such as alcohols, we find that the converse can be true: positively charged particles may attract whereas negatives repel. The observations hold across a wide variety of surface chemistries: from inorganic silica and polymeric particles to polyelectrolyte- and polypeptide-coated surfaces in aqueous solution. A theory of interparticle interactions that invokes solvation at an interface explains the observations. Our study establishes a specific and unanticipated mechanism by which the molecular solvent may give rise to a strong and long-ranged force in solution, with immediate ramifications for a variety of particulate and molecular processes including tailored self-assembly, gelation and crystallization, as well as biomolecular condensation, coacervation and phase segregation. These findings also shed light on the solvent-induced interfacial electrical potential - an elusive quantity in electrochemistry and interface science implicated in many natural and technological processes, such as atmospheric chemical reactions, electrochemical energy storage and conversion, and the conduction of ions across cell membranes.",
+  "authors": [
+    "Sida Wang",
+    "Rowan Walker-Gibbons",
+    "Bethany Watkins",
+    "Melissa Flynn",
+    "Madhavi Krishnan"
+  ],
+  "published_date": "2022-12-25T11:30:50Z",
+  "updated_date": "2022-12-25T11:30:50Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph, physics.chem-ph",
+  "landing_url": "https://arxiv.org/abs/2212.12894v1",
+  "pdf_url": "https://arxiv.org/pdf/2212.12894v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph",
+    "physics.chem-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2212.12894v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph",
+      "physics.chem-ph"
+    ],
+    "journal_ref": ""
+  }
+}

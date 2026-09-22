@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35597639",
+  "title": "Multiphase organization is a second phase transition within multi-component biomolecular condensates.",
+  "authors": "Mazarakos, Konstantinos; Zhou, Huan-Xiang",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-05-22",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用平均场理论与分子动力学模拟研究多组分凝聚体内部的多相组织作为第二相变，虽未直接聚焦IDP，但为无序蛋白介导的相分离/凝聚体内部PPI机制建模提供了可迁移的理论与模拟框架。",
+  "abstract": "We present a mean-field theoretical model, along with molecular dynamics simulations, to show that the multiphase organization of multi-component condensates is a second phase transition. Whereas the first phase transition that leads to the separation of condensates from the bulk phase is driven by the overall attraction among the macromolecular components, the second phase transition can be driven by the disparity in the strength between the self- and cross-species attraction. At a fixed level of disparity in interaction strengths, both of the phase transitions can be observed by decreasing the temperature, leading first to the separation of condensates from the bulk phase and then to component demixing inside condensates. The existence of a critical temperature for demixing and predicted binodals are verified by molecular dynamics simulations of model mixtures.",
+  "abstract_zh": "我们提出一个平均场理论模型，并结合分子动力学模拟，以展示多组分凝聚体的多相组织是第二次相变。导致凝聚体从主体相分离的第一次相变由大分子组分间的整体吸引力驱动，而第二次相变则可由自物种吸引与交叉物种吸引之间的强度差异驱动。在固定的相互作用强度差异水平下，通过降低温度可以观察到两次相变，首先导致凝聚体从主体相分离，随后在凝聚体内部发生组分去混合。去混合临界温度的存在以及预测的双节线已通过模型混合物的分子动力学模拟得到验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35597639/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35597639/",
+  "paper_page_path": "papers/pubmed/35597639/index.html"
+}

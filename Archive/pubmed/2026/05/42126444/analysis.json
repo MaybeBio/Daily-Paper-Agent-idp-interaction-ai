@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42126444",
+  "title": "Programmable DNA Folding Modulates Phase Behavior and Dynamics of DNA/Peptide Condensates.",
+  "authors": "Katzir, Itai; Wen, Yanbing; Razi, Inbal; Skoi, Vadim; Beck, Roy; Dong, Hao; Lampel, Ayala",
+  "journal": "ACS nano",
+  "published_date": "2026-05-13",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过可编程DNA折叠与粗粒化模拟研究DNA/肽凝聚体的相行为，虽对象为DNA而非IDP，但聚焦核酸-肽互作与相分离机制建模，对无序蛋白介导的PPI和凝聚体机制研究有可迁移启发。",
+  "abstract": "Membraneless compartments formed by liquid-liquid phase separation (LLPS) regulate biochemical reactions and play a key role in both physiological and pathological processes, including viral replication. In retroviral systems, the extent of genome folding is critical for the efficient packaging of new viral particles, a process mediated by the nucleocapsid (NC) protein that chaperones RNA folding and assembly. Here, we sought to elucidate how nucleic-acid folding and structural folding influence LLPS and whether an HIV NC-derived peptide (HNP) can modulate this process through chaperone-like activity. To this end, we designed a programmable single-stranded DNA (ssDNA) library spanning varying degrees of folding and palindromic architectures, enabling systematic investigation of how nanoscale structural order governs coacervation. Using circular dichroism, FRET, SAXS, and coarse-grained simulations, we correlate DNA conformations with phase behavior and emergent condensate material properties. We find that interactions with HNP promote DNA folding and that increasing DNA order suppresses LLPS, whereas structural disorder and palindromic linkers that induce DNA dimerization enhance phase separation by facilitating multivalent interactions and in turn increasing condensate viscosity. Together, these findings identify two programmable determinants, local structural order and palindromic dimerization, that govern DNA/peptide condensate behavior, offering mechanistic insight into viral genome organization and guiding principles for tuning the physicochemical and material properties of synthetic condensates.",
+  "abstract_zh": "由液-液相分离（liquid-liquid phase separation, LLPS）形成的无膜区室调控生化反应，并在生理和病理过程中发挥关键作用，包括病毒复制。在逆转录病毒系统中，基因组折叠的程度对于新病毒颗粒的高效包装至关重要，这一过程由核壳（nucleocapsid, NC）蛋白介导，该蛋白作为分子伴侣促进RNA折叠和组装。在此，我们旨在阐明核酸折叠和结构折叠如何影响LLPS，以及HIV NC衍生肽（HIV NC-derived peptide, HNP）是否能通过类伴侣活性调节这一过程。为此，我们设计了一个可编程的单链DNA（single-stranded DNA, ssDNA）文库，涵盖不同程度的折叠和回文结构，从而系统研究纳米尺度结构有序性如何调控凝聚作用。利用圆二色光谱、FRET、SAXS和粗粒化模拟，我们将DNA构象与相行为及涌现的凝聚体材料性质相关联。我们发现，与HNP的相互作用促进DNA折叠，且DNA有序性的增加抑制LLPS，而结构无序性和诱导DNA二聚化的回文连接子则通过促进多价相互作用并进而增加凝聚体粘度来增强相分离。综合来看，这些发现确定了两个可编程的决定因素，即局部结构有序性和回文二聚化，它们调控DNA/肽凝聚体行为，为病毒基因组组织提供机制性见解，并为调节合成凝聚体的理化及材料性质提供指导原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42126444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42126444/",
+  "paper_page_path": "papers/pubmed/42126444/index.html"
+}

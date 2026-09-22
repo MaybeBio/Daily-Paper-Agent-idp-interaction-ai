@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.15.464588",
+  "title": "The Pathogenic R5L Mutation Disrupts Formation of Tau Complexes on the Microtubule by Altering Local N-Terminal Structure",
+  "authors": "Cario A; Savastano A; Wood NB; Liu Z; Previs MJ; Hendricks AG; Zweckstetter M; Berger CL",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-16",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究Tau蛋白N端R5L突变如何通过改变局部结构影响微管上的Tau复合物形成，涉及IDP与微管的互作机制，但对象为IDP-微管而非IDP-PPI，且方法以实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "The microtubule-associated protein (MAP) Tau is an intrinsically disordered protein (IDP) primarily expressed in axons, where it functions to regulate microtubule dynamics, modulate motor protein motility, and participate in signaling cascades. Tau misregulation and point mutations are linked to neurodegenerative diseases, including Progressive Supranuclear Palsy (PSP), Pick’s Disease and Alzheimer’s disease. Many disease-associated mutations in Tau occur in the C-terminal microtubule-binding domain of the protein. Effects of C-terminal mutations in Tau have led to the widely accepted disease-state theory that missense mutations in Tau reduce microtubule-binding affinity or increase Tau propensity to aggregate. Here, we investigate the effect of an N-terminal disease-associated mutation in Tau, R5L, on Tau-microtubule interactions using an in vitro reconstituted system. Contrary to the canonical disease-state theory, we determine the R5L mutation does not reduce Tau affinity for the microtubule using Total Internal Reflection Fluorescence (TIRF) Microscopy. Rather, the R5L mutation decreases the ability of Tau to form larger order complexes, or Tau patches, at high concentrations of Tau. Using Nuclear Magnetic Resonance (NMR), we show that the R5L mutation results in a local structural change that reduces interactions of the projection domain in the presence of microtubules. Altogether, these results challenge both the current paradigm of how mutations in Tau lead to disease and the role of the projection domain in modulating Tau behavior on the microtubule surface. <h4>Significance Statement</h4> The microtubule-associated protein Tau is strongly linked to a number of neurological diseases. Disease onset is typically associated with weakened interaction with the microtubule, but this widely accepted model is based on hyperphosphorylation or mutations within the C-terminal microtubule-binding domain of Tau. Here, we find an N-terminal disease-associated mutation in Tau, R5L, does not reduce Tau affinity for microtubules, but instead modifies the N-terminal structure, altering Tau’s behavior and ability to condense on the microtubule surface. Our findings challenge the current paradigms of both how mutations in Tau lead to disease and the functional role of the N-terminal region of Tau.",
+  "abstract_zh": "微管相关蛋白（MAP）Tau是一种 intrinsically disordered protein (IDP)，主要在轴突中表达，其功能包括调节微管动力学、调节运动蛋白的移动性以及参与信号级联反应。Tau的失调和点突变与神经退行性疾病相关，包括进行性核上性麻痹（PSP）、皮克病和阿尔茨海默病。Tau中许多与疾病相关的突变发生在蛋白质的C端微管结合域。Tau中C端突变的影响导致了广泛接受的疾病状态理论，即Tau中的错义突变会降低微管结合亲和力或增加Tau聚集倾向。在此，我们利用体外重组系统研究Tau中一个N端疾病相关突变R5L对Tau-微管相互作用的影响。与经典的疾病状态理论相反，我们通过全内反射荧光（TIRF）显微镜确定R5L突变并未降低Tau对微管的亲和力。相反，R5L突变降低了Tau在高浓度下形成高阶复合物或Tau斑块的能力。利用核磁共振（NMR），我们表明R5L突变导致局部结构变化，在微管存在时减少了投影域的相互作用。总体而言，这些结果挑战了当前关于Tau突变如何导致疾病的范式以及投影域在调节Tau在微管表面行为中的作用。\n\n< h4>意义声明</h4> 微管相关蛋白Tau与多种神经系统疾病密切相关。疾病发作通常与微管相互作用减弱相关，但这一广泛接受的模型基于Tau的过度磷酸化或C端微管结合域内的突变。在此，我们发现Tau中一个N端疾病相关突变R5L并未降低Tau对微管的亲和力，而是改变了N端结构，从而改变了Tau在微管表面的行为及其凝聚能力。我们的发现挑战了当前关于Tau突变如何导致疾病的范式以及Tau N端区域的功能作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464588",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464588",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.15.464588/index.html"
+}

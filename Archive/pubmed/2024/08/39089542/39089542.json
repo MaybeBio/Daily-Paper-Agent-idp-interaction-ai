@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "39089542",
+    "doi": "10.1016/j.ijbiomac.2024.134291",
+    "title": "Intrinsic disorder and salt-dependent conformational changes of the N-terminal region of TFIP11 splicing factor."
+  },
+  "content": {
+    "abstract": "Tuftelin Interacting Protein 11 (TFIP11) was identified as a critical human spliceosome assembly regulator, interacting with multiple proteins and localising in membrane-less organelles. However, a lack of structural information on TFIP11 limits the rationalisation of its biological role. TFIP11 is predicted as an intrinsically disordered protein (IDP), and more specifically concerning its N-terminal (N-TER) region. IDPs lack a defined tertiary structure, existing as a dynamic conformational ensemble, favouring protein-protein and protein-RNA interactions. IDPs are involved in liquid-liquid phase separation (LLPS), driving the formation of subnuclear compartments. Combining disorder prediction, molecular dynamics, and spectroscopy methods, this contribution shows the first evidence TFIP11 N-TER is a polyampholytic IDP, exhibiting a structural duality with the coexistence of ordered and disordered assemblies, depending on the ionic strength. Increasing the salt concentration enhances the protein conformational flexibility, presenting a more globule-like shape, and a fuzzier unstructured arrangement that could favour LLPS and protein-RNA interaction. The most charged and hydrophilic regions are the most impacted, including the G-Patch domain essential to TFIP11 function. This study gives a better understanding of the salt-dependent conformational behaviour of the N-TER TFIP11, supporting the hypothesis of the formation of different types of protein assembly, in line with its multiple biological roles.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "Molecular dynamics",
+      "Polyampholyte",
+      "Protein assembly",
+      "Spectroscopy",
+      "Spliceosome protein",
+      "Tuftelin interacting protein 11"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "Humans",
+      "Protein Conformation",
+      "Molecular Dynamics Simulation",
+      "RNA-Binding Proteins/chemistry/metabolism",
+      "RNA Splicing Factors/chemistry/metabolism/genetics",
+      "Salts/chemistry",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Juniku, Blinera",
+        "Mignon, Julien",
+        "Careme, Rachel",
+        "Genco, Alexia",
+        "Obeid, Anna Maria",
+        "Mottet, Denis",
+        "Monari, Antonio",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Juniku B",
+        "Mignon J",
+        "Careme R",
+        "Genco A",
+        "Obeid AM",
+        "Mottet D",
+        "Monari A",
+        "Michaux C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hopital, B-4000 Liege, Belgium.",
+        "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium.",
+        "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium.",
+        "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hopital, B-4000 Liege, Belgium.",
+        "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hopital, B-4000 Liege, Belgium.",
+        "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hopital, B-4000 Liege, Belgium. Electronic address: dmottet@uliege.be.",
+        "Universite Paris Cite and CNRS, ITODYS, F-75006, Paris, France.",
+        "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Juniku, Blinera",
+        "short_name": "Juniku B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hôpital, B-4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium."
+        ]
+      },
+      {
+        "full_name": "Carême, Rachel",
+        "short_name": "Carême R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium."
+        ]
+      },
+      {
+        "full_name": "Genco, Alexia",
+        "short_name": "Genco A",
+        "identifiers": [],
+        "affiliations": [
+          "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hôpital, B-4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Obeid, Anna Maria",
+        "short_name": "Obeid AM",
+        "identifiers": [],
+        "affiliations": [
+          "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hôpital, B-4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mottet, Denis",
+        "short_name": "Mottet D",
+        "identifiers": [],
+        "affiliations": [
+          "GIGA-Molecular Biology of Diseases, Molecular Analysis of Gene Expression (MAGE) Laboratory, University of Liege, B34, Avenue de l'Hôpital, B-4000 Liège, Belgium. Electronic address: dmottet@uliege.be."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité and CNRS, ITODYS, F-75006, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry of Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, B-5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 00:46",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39089542",
+      "35944496",
+      "19857462",
+      "32579908",
+      "33076213",
+      "15868102",
+      "27844185",
+      "34789764",
+      "39093570",
+      "32393642",
+      "32020911",
+      "29548979",
+      "29511089",
+      "33310020",
+      "37219402",
+      "29982297",
+      "29413001",
+      "31756456",
+      "39163306",
+      "30066087",
+      "29068531",
+      "19122807",
+      "33684117",
+      "34259536",
+      "33945530",
+      "19165350",
+      "26195786",
+      "34504009",
+      "25496281",
+      "31441158",
+      "34246632",
+      "26735936",
+      "29382046",
+      "25207671",
+      "29276882",
+      "38252962",
+      "33230318",
+      "32783888",
+      "33581430",
+      "24671380",
+      "33355572",
+      "38220424",
+      "34986640",
+      "32371601",
+      "30813315",
+      "30840442",
+      "34680048",
+      "38296708",
+      "39225535",
+      "30793144",
+      "34845619",
+      "37290157",
+      "38018910",
+      "26742101",
+      "35029261",
+      "28493424",
+      "34029402",
+      "38987470",
+      "36464283",
+      "33260713",
+      "30979035",
+      "32323533",
+      "29990433",
+      "34610267",
+      "34576338",
+      "32925900",
+      "25307499",
+      "34102212",
+      "34844028",
+      "34716273",
+      "33982369",
+      "29635373",
+      "26387104",
+      "28111343",
+      "31136713",
+      "33719450",
+      "31425549",
+      "32621228",
+      "34626492",
+      "29907037",
+      "34799573",
+      "33187345",
+      "29425497",
+      "33744316",
+      "39056166",
+      "29306779",
+      "32936312",
+      "31911439",
+      "26073257",
+      "30184304",
+      "29763584",
+      "37722056",
+      "24532081",
+      "23942625",
+      "36131545",
+      "31356778",
+      "30527137",
+      "29843482",
+      "26226419",
+      "36350034"
+    ],
+    "review": [
+      "39089542",
+      "39093570",
+      "32020911",
+      "37219402",
+      "29982297",
+      "29413001",
+      "30066087",
+      "29068531",
+      "31441158",
+      "29382046",
+      "33355572",
+      "38220424",
+      "30840442",
+      "34680048",
+      "38296708",
+      "36464283",
+      "33260713",
+      "30979035",
+      "34610267",
+      "25307499",
+      "34844028",
+      "29635373",
+      "26387104",
+      "29306779",
+      "31911439",
+      "26073257",
+      "24532081",
+      "31356778",
+      "30527137",
+      "26226419"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)05096-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/2268/316693",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      }
+    ],
+    "text_mined": []
+  }
+}

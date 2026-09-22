@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.09.622674",
+  "title": "Bivalent interaction through an intrinsically disordered linker promotes transcription activation complex assembly in Notch signaling",
+  "authors": "Cyril Cook; Kristen M. Ramsey; Doug Barrick",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-11",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过ITC和异源三聚体模型定量解析Notch信号中NICD无序连接区介导的双价PPI对转录激活复合物组装的能量贡献，虽无AI/物理模拟但聚焦IDR介导的互作机制建模，对无序蛋白多价互作能量框架有直接启发。",
+  "abstract": "The Notch signaling pathway regulates cellular differentiation by activating transcription through an unusual heterotrimeric complex comprising the Notch receptor’s intracellular domain (NICD), the DNA-binding protein CSL, and the coactivator MAML. NICD has two binding sites for CSL, a short motif in the RAM region and an ankyrin domain (ANK), connected by an intrinsically disordered linker and which form a bivalent ternary complex with CSL and MAML. Although bivalency is required for maximal transcription activation, the energetic contributions of bivalency and heterotrimer formation within this essential complex are unknown. To elucidate the energetics of bivalency we first determine the free energy of the CSL-ANK-MAML heterotrimer, using isothermal titration calorimetry and developing an obligate heterotrimer model to analyze the data. By comparing this heterotrimerization reaction with binding reactions involving different regions of RAMANK, we determine the energetic contribution of bivalency to heterotrimer assembly. We show that bivalency through the disordered linker increases the effective concentration of ANK, and that the bivalent interaction enhances occupancy of RAM and ANK at their binding sites on CSL by about three orders of magnitude. By redefining the standard state to a lower, more physiological protein concentration, we reveal the importance of the RAMANK intrinsically disordered linker for assembly of the Notch transcription activation complex. This work provides a framework whereby the energetic contributions of intrinsically disordered linkers to higher-order multivalent assembly may be analyzed.",
+  "abstract_zh": "Notch信号通路通过一个不寻常的异源三聚体复合物激活转录来调控细胞分化，该复合物包含Notch受体的胞内结构域（NICD）、DNA结合蛋白CSL和共激活因子MAML。NICD具有两个与CSL结合的位点，即RAM区域中的一个短基序和锚蛋白结构域（ANK），它们通过一个内在无序的连接区相连，并与CSL和MAML形成二价三元复合物。尽管二价性对于最大转录激活是必需的，但二价性和异源三聚体形成在该关键复合物中的能量贡献尚不清楚。为了阐明二价性的能量学，我们首先使用等温滴定量热法测定CSL-ANK-MAML异源三聚体的自由能，并开发了一个专性异源三聚体模型来分析数据。通过将此异源三聚化反应与涉及RAMANK不同区域的结合反应进行比较，我们确定了二价性对异源三聚体组装的能量贡献。我们表明，通过无序连接区的二价性增加了ANK的有效浓度，并且二价相互作用将RAM和ANK在其CSL结合位点上的占据率提高了约三个数量级。通过将标准状态重新定义为更低、更生理性的蛋白质浓度，我们揭示了RAMANK内在无序连接区在Notch转录激活复合物组装中的重要性。这项工作提供了一个框架，通过该框架可以分析内在无序连接区对高阶多价组装的能量贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.09.622674",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.09.622674",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.09.622674/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.07.680707",
+  "title": "Functional Group Composition: The Blueprint for Protein Interactions",
+  "authors": "Olsson TN; Anindya AL; García-Bonete M; Vrouwe E; Marguet D; Preto J; Calandrini V; Pettini M; Ruffenach S; Torres J; Chandrasekaran V; Bokarewa M; Mezzasalma SA; Katona G",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用机器学习基于功能基团组成预测无序蛋白相关肽段与survivin的结合，实验验证并揭示组成蓝图，虽未深入机制建模，但对象、互作与方法齐备且具启发。",
+  "abstract": "Understanding the complex landscape of protein interactions, especially those involving intrinsically disordered proteins (IDPs), is fundamental yet challenging due to their structural heterogeneity and flexibility. Traditional sequence-based homology methods frequently fall short in characterizing IDP functions and interactions. Here, we present a novel approach leveraging supervised and unsupervised machine learning techniques, focusing exclusively on the compositional features of proteins. An Edmond-Ogston-inspired mixing model can reliably predict the degree of survivin (BIRC5) binding as a function of peptide composition alone, revealing a first interesting connection with the composition diagrams of chemical thermodynamics. By representing protein sequences through their functional group compositions, we demonstrate that specific compositions robustly predict binding interactions with survivin, an important human protein in cellular regulation pathways. Experimental validation via peptide microarray confirms the predictive power of our simplified compositional model, independent of exact amino acid sequences. Extending this method across the human proteome, we identified distinct compositional signatures correlating with survivin interactions and revealed fine grained biologically meaningful functional clusters based on compositional similarity. Our findings suggest a compositional blueprint underpinning protein interactions, offering a powerful, simplified framework to decode complex biological networks.",
+  "abstract_zh": "理解蛋白质相互作用的复杂图景，尤其是涉及固有无序蛋白质（IDPs）的相互作用，是基础性的但因其结构异质性和灵活性而具有挑战性。传统的基于序列的同源方法在表征IDP功能和相互作用方面常常力不从心。在此，我们提出了一种新方法，利用监督和无监督机器学习技术，仅聚焦于蛋白质的组成特征。一种受Edmond-Ogston启发的混合模型能够仅基于肽组成可靠预测survivin（BIRC5）结合程度，揭示了与化学热力学组成图的一个有趣初步联系。通过将蛋白质序列表示为其官能团组成，我们证明特定组成能稳健预测与survivin的结合相互作用，survivin是细胞调控通路中的重要人类蛋白质。通过肽微阵列的实验验证确认了我们简化组成模型的预测能力，且不依赖于精确氨基酸序列。将此方法扩展到人类蛋白质组，我们识别出与survivin相互作用相关的独特组成特征，并基于组成相似性揭示了细粒度且具有生物学意义的功能簇。我们的发现表明，蛋白质相互作用背后存在一种组成蓝图，为解码复杂生物网络提供了强大且简化的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680707",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680707",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.07.680707/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34032430",
+  "title": "Misfolding and Self-Assembly Dynamics of Microtubule-Binding Repeats of the Alzheimer-Related Protein Tau.",
+  "authors": "He, Huan; Liu, Yuying; Sun, Yunxiang; Ding, Feng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2021-05-26",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级离散分子动力学模拟系统研究tau蛋白无序MTB重复序列的单体错误折叠与二聚化自组装动态，聚焦无序蛋白互作（二聚化）的机制建模，方法为物理模拟，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "Pathological aggregation of intrinsically disordered tau protein, driven by the interactions between microtubule-binding (MTB) domains, is associated with Alzheimer's disease. The MTB domain contains either three or four repeats with sequence similarities. Compared to amyloid beta, many aspects of the misfolding and aggregation mechanisms of tau are largely unknown. In this study, we systematically investigated the dynamics of monomer misfolding and dimerization of each MTB repeat using atomistic discrete molecular dynamic simulations. Our results revealed that all the four repeat monomers (R1-R4) were very dynamic, featuring frequent conformational conversion and lacking stable conformations. While R1, R2, and R4 monomers occasionally adopted partially helical conformations, R3 monomers frequently formed beta-sheets. In dimerization simulations, R3 displayed the strongest aggregation propensity with high beta-sheet contents, while R1 was the least prone to aggregation. The R2 and R4 dimers contained both helix and beta-sheet structures. The beta-sheets in R4 assemblies were dominant with beta-hairpin conformation. In R2 and R3 dimers, intermolecular beta-sheets were mainly driven by residues around the paired helical filament (PHF) regions. Residues around the PHF6* in R2 and PHF6 in R3 had significantly higher intermolecular contacts than other regions, suggesting that these residues play a key role in the amyloid aggregation of tau. Our results on the structural ensembles and early aggregation dynamics of each tau MTB repeat will help understand the nucleation and fibrillization of tau.",
+  "abstract_zh": "intrinsically disordered tau蛋白的病理性聚集，由微管结合（MTB）结构域之间的相互作用驱动，与阿尔茨海默病相关。MTB结构域包含三个或四个具有序列相似性的重复序列。与淀粉样β相比，tau蛋白的错误折叠和聚集机制在许多方面仍 largely 未知。在本研究中，我们利用原子级离散分子动力学模拟，系统研究了每个MTB重复序列的单体错误折叠和二聚化动力学。我们的结果显示，所有四个重复单体（R1-R4）都非常动态，表现出频繁的构象转换，且缺乏稳定构象。虽然R1、R2和R4单体偶尔采用部分螺旋构象，但R3单体频繁形成β-折叠。在二聚化模拟中，R3表现出最强的聚集倾向，具有高β-折叠含量，而R1最不易聚集。R2和R4二聚体同时包含螺旋和β-折叠结构。R4组装中的β-折叠以β-发夹构象为主。在R2和R3二聚体中，分子间β-折叠主要由配对螺旋丝（PHF）区域周围的残基驱动。R2中PHF6*和R3中PHF6周围的残基在分子间接触上显著高于其他区域，表明这些残基在tau的淀粉样聚集过程中起关键作用。我们对每个tau MTB重复序列的结构集合和早期聚集动力学的研究结果，将有助于理解tau的成核和纤维化过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34032430/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34032430/",
+  "paper_page_path": "papers/pubmed/34032430/index.html"
+}

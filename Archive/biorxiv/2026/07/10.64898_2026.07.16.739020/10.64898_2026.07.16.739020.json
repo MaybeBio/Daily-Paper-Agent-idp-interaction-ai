@@ -1,0 +1,383 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.16.739020",
+  "title": "A machine learning model predicts protein stability of annotated and alternate protein isoforms",
+  "doi": "10.64898/2026.07.16.739020",
+  "abstract": "The regulation of protein stability is essential for cellular homeostasis and is determined by a combination of intrinsic sequence motifs and extrinsic recognition enzymes. Despite growing knowledge of the protein degradation machinery, the ability to predict a protein’s stability from its amino acid sequence remains challenging. Here we develop a machine learning model to predict protein stability from N-terminal amino acid sequences. Using our model and experimental validation, we identify known and novel sequence motifs governing protein stability. We additionally use this model to predict the stability of alternative translational isoforms with distinct N-termini produced from the same mRNA. Despite differing by a limited number of amino acids, we identify N-terminal isoforms with drastically different stabilities relative to their annotated counterparts, highlighting the potential of N-terminal extensions and truncations to regulate protein function. Together, this model provides a valuable tool for evaluating additional protein datasets and protein design strategies.",
+  "authors": [
+    "Océane Marescal",
+    "Iain M. Cheeseman"
+  ],
+  "published_date": "2026-07-17",
+  "updated_date": "2026-07-17T14:15:14Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.739020",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.739020.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:34:09Z",
+        "timestamp": 1785418449393,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 28,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2026-07-17T00:00:00Z",
+            "timestamp": 1784246400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35GM126930"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM126930"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "Rare as One"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Rare as One"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/02qenvm24",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The regulation of protein stability is essential for cellular homeostasis and is determined by a combination of intrinsic sequence motifs and extrinsic recognition enzymes. Despite growing knowledge of the protein degradation machinery, the ability to predict a protein’s stability from its amino acid sequence remains challenging. Here we develop a machine learning model to predict protein stability from N-terminal amino acid sequences. Using our model and experimental validation, we identify known and novel sequence motifs governing protein stability. We additionally use this model to predict the stability of alternative translational isoforms with distinct N-termini produced from the same mRNA. Despite differing by a limited number of amino acids, we identify N-terminal isoforms with drastically different stabilities relative to their annotated counterparts, highlighting the potential of N-terminal extensions and truncations to regulate protein function. Together, this model provides a valuable tool for evaluating additional protein datasets and protein design strategies.</jats:p>",
+      "DOI": "10.64898/2026.07.16.739020",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T14:15:14Z",
+        "timestamp": 1784297714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A machine learning model predicts protein stability of annotated and alternate protein isoforms"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Océane",
+          "family": "Marescal",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Whitehead Institute for Biomedical Research, Cambridge, MA 02142"
+            },
+            {
+              "name": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02142"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3829-5612",
+          "authenticated-orcid": false,
+          "given": "Iain M.",
+          "family": "Cheeseman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Whitehead Institute for Biomedical Research, Cambridge, MA 02142"
+            },
+            {
+              "name": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02142"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.07.037"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.09.015"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.666"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.02.004"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.04.028"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-025-00870-z"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s43556-021-00043-2"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060815-014922"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw4912"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3018930"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1183147"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-04097-8"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0808891105"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.11.031"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1210303109"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14348/molcells.2016.2329"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2021.10.010"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08088-3"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aay0262"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1218"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.10.002"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1160462"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1160489"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.1907"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2025.10.013"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/narcan/zcae026"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2019.05.024"
+        },
+        {
+          "key": "2026072016201119000_2026.07.16.739020v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.201845947"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.16.739020",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T23:20:21Z",
+        "timestamp": 1784589621000
+      },
+      "score": 62.42665,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.16.739020"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "references-count": 28,
+      "URL": "https://doi.org/10.64898/2026.07.16.739020",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.08.430344",
+  "title": "Energetic and structural features of SARS-CoV-2 N-protein co-assemblies with nucleic acids",
+  "doi": "10.1101/2021.02.08.430344",
+  "abstract": "<h4>Summary</h4> Nucleocapsid (N) protein of the SARS-CoV-2 virus packages the viral genome into well-defined ribonucleoprotein particles, but the molecular pathway is still unclear. N-protein is dimeric and consists of two folded domains with nucleic acid (NA) binding sites, surrounded by intrinsically disordered regions that promote liquid-liquid phase separation. Here we use biophysical tools to study N-protein interactions with oligonucleotides of different length, examining the size, composition, secondary structure, and energetics of the resulting states. We observe formation of supramolecular clusters or nuclei preceding growth into phase-separated droplets. Short hexanucleotide NA forms compact 2:2 N-protein/NA complexes with reduced disorder. Longer oligonucleotides expose additional N-protein interactions and multi-valent protein-NA interactions, which generate higher-order mixed oligomers and simultaneously promote growth of droplets. Phase separation is accompanied by a significant increase in protein secondary structure, different from that caused by initial NA binding, which may contribute to the assembly of ribonucleoprotein particles within molecular condensates.",
+  "authors": [
+    "Zhao H",
+    "Wu D",
+    "Nguyen A",
+    "Li Y",
+    "Adão RC",
+    "Valkov E",
+    "Patterson GH",
+    "Piszczek G",
+    "Schuck P"
+  ],
+  "published_date": "2021-02-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.08.430344",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.08.430344.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR280619",
+    "raw_record": {
+      "id": "PPR280619",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR280619"
+        ]
+      },
+      "doi": "10.1101/2021.02.08.430344",
+      "title": "Energetic and structural features of SARS-CoV-2 N-protein co-assemblies with nucleic acids",
+      "authorString": "Zhao H, Wu D, Nguyen A, Li Y, Adão RC, Valkov E, Patterson GH, Piszczek G, Schuck P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Huaying",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dynamics of Macromolecular Assembly Section, Laboratory of Cellular Imaging and Macromolecular Biophysics, National Institute of Biomedical Imaging and Bioengineering, 13 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu D",
+            "lastName": "Wu",
+            "firstName": "Di",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biophysics Core Facility, National Heart, Lung, and Blood Institute, 50 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen A",
+            "lastName": "Nguyen",
+            "firstName": "Ai",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dynamics of Macromolecular Assembly Section, Laboratory of Cellular Imaging and Macromolecular Biophysics, National Institute of Biomedical Imaging and Bioengineering, 13 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein/Peptide Sequencing Facility, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adão RC",
+            "lastName": "Adão",
+            "firstName": "Regina",
+            "initials": "RC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dynamics of Macromolecular Assembly Section, Laboratory of Cellular Imaging and Macromolecular Biophysics, National Institute of Biomedical Imaging and Bioengineering, 13 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valkov E",
+            "lastName": "Valkov",
+            "firstName": "Eugene",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Messenger RNA Regulation and Decay Section, RNA Biology Laboratory, Center for Cancer Research, National Cancer Institute, Building 560, Room 21-105A, Frederick, MD 21702"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patterson GH",
+            "lastName": "Patterson",
+            "firstName": "George",
+            "initials": "GH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section on Biophotonics, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piszczek G",
+            "lastName": "Piszczek",
+            "firstName": "Grzegorz",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biophysics Core Facility, National Heart, Lung, and Blood Institute, 50 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuck P",
+            "lastName": "Schuck",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dynamics of Macromolecular Assembly Section, Laboratory of Cellular Imaging and Macromolecular Biophysics, National Institute of Biomedical Imaging and Bioengineering, 13 South Drive, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Summary</h4>  Nucleocapsid (N) protein of the SARS-CoV-2 virus packages the viral genome into well-defined ribonucleoprotein particles, but the molecular pathway is still unclear. N-protein is dimeric and consists of two folded domains with nucleic acid (NA) binding sites, surrounded by intrinsically disordered regions that promote liquid-liquid phase separation. Here we use biophysical tools to study N-protein interactions with oligonucleotides of different length, examining the size, composition, secondary structure, and energetics of the resulting states. We observe formation of supramolecular clusters or nuclei preceding growth into phase-separated droplets. Short hexanucleotide NA forms compact 2:2 N-protein/NA complexes with reduced disorder. Longer oligonucleotides expose additional N-protein interactions and multi-valent protein-NA interactions, which generate higher-order mixed oligomers and simultaneously promote growth of droplets. Phase separation is accompanied by a significant increase in protein secondary structure, different from that caused by initial NA binding, which may contribute to the assembly of ribonucleoprotein particles within molecular condensates.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.08.430344"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR280619"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR280619&type=FILE&fileName=EMS116457-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33997662",
+            "reference": "iScience. 2021 Jun;24(6):102523",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS116457",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2021-02-11",
+      "firstPublicationDate": "2021-02-09",
+      "firstIndexDate": "2021-02-11",
+      "fullTextReceivedDate": "2021-03-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

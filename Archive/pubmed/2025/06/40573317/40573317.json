@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "40573317",
+    "doi": "10.3390/ph18060922",
+    "title": "Prognostic Modeling of Deleterious IDUA Mutations L238Q and P385R in Hurler Syndrome Through Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "MPS I (Mucopolysaccharidosis type I) is a rare lysosomal storage disease originating from the deficiency of the enzyme alpha-L-iduronidase, encoded by the IDUA gene, which impairs the degradation of glycosaminoglycans (GAGs) and diminishes biological functioning across several organs. Background: Out of the eleven MPS disorders, MPS I includes three syndromes, of which the first, named Hurler syndrome, affects the most. Methods: Several in silico tools were used, such as ConSurf (73 variants), Mutation Assessor (69 variants), PredictSNP, MAPP, PhDSNP, Polyphen-1, Polyphen-2, SIFT, SNAP, PANTHER, MetaSNP (24 variants); Missense 3D-DB (11 variants) and AlignGVGD (eight variants) for physicochemical properties; and I-Mutant, Mupro, CUPSAT, and INPS for stability predictions (four variants). Results: A molecular docking study was performed for the two variants: L238Q and P385R scored -7.22 and -7.05 kcal/mol, respectively, and the native scored -7.14 kcal/mol with IDR as the ligand. Molecular dynamics anticipated how these molecules fluctuate over a period of 100 nanoseconds. Conclusions: Alpha-L-iduronidase enzyme has a critical role in the lysosomal degradation of glycosaminoglycans. According to the comparative analysis of the three structures by MDS, P385R had the least stability in all aspects of the plots. Our study demonstrates that the mutation significantly alters protein stability and binding efficiency with the ligands.",
+    "keywords": [
+      "IDR",
+      "IDUA",
+      "Mucopolysaccharidosis I",
+      "deleterious variants",
+      "molecular docking",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Priya Nanda Kumar, Madhana",
+        "Dharsini Selvamani, Esakki",
+        "Pai Panemangalore, Archana",
+        "Kumar Nanda Kumar, Sidharth",
+        "Vasudevan, Vasundra",
+        "Ramasamy, Magesh"
+      ],
+      "short_names": [
+        "Priya Nanda Kumar M",
+        "Dharsini Selvamani E",
+        "Pai Panemangalore A",
+        "Kumar Nanda Kumar S",
+        "Vasudevan V",
+        "Ramasamy M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9508-8097"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India.",
+        "Department of Bioinformatics, Bishop Heber College, Tiruchirapalli 620017, India.",
+        "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India.",
+        "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India.",
+        "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India.",
+        "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Priya Nanda Kumar, Madhana",
+        "short_name": "Priya Nanda Kumar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+        ]
+      },
+      {
+        "full_name": "Dharsini Selvamani, Esakki",
+        "short_name": "Dharsini Selvamani E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Bishop Heber College, Tiruchirapalli 620017, India."
+        ]
+      },
+      {
+        "full_name": "Pai Panemangalore, Archana",
+        "short_name": "Pai Panemangalore A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+        ]
+      },
+      {
+        "full_name": "Kumar Nanda Kumar, Sidharth",
+        "short_name": "Kumar Nanda Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+        ]
+      },
+      {
+        "full_name": "Vasudevan, Vasundra",
+        "short_name": "Vasudevan V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+        ]
+      },
+      {
+        "full_name": "Ramasamy, Magesh",
+        "short_name": "Ramasamy M",
+        "identifiers": [
+          "0000-0002-9508-8097"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Biomedical Sciences & Technology, Sri Ramachandra Institute of Higher Education and Research (DU), Chennai 600116, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2025 Jun 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 06:27",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "42568503",
+      "42318466",
+      "42253320",
+      "42158598"
+    ],
+    "refs": [
+      "38960474",
+      "37061342",
+      "36544314",
+      "36518267",
+      "36484697",
+      "35856247",
+      "35776277",
+      "33572941",
+      "33502607",
+      "33344633",
+      "32896280",
+      "32596782",
+      "32188113",
+      "31702846",
+      "31211405",
+      "30740407",
+      "30635084",
+      "30281819",
+      "30275469",
+      "29987523",
+      "29893426",
+      "29860391",
+      "28482034",
+      "27038471",
+      "26812303",
+      "25877637",
+      "24803870",
+      "24234437",
+      "23819846",
+      "22075996",
+      "21727090",
+      "20523748",
+      "18974171",
+      "18563462",
+      "18510993",
+      "18383312",
+      "17526529",
+      "16895930",
+      "15980571",
+      "15980478",
+      "12499312",
+      "12198485",
+      "10592235"
+    ],
+    "similar": [
+      "40573317",
+      "24368159",
+      "29843745",
+      "20301341",
+      "11159948",
+      "31304092",
+      "15300847",
+      "12189649",
+      "19751987",
+      "31758674",
+      "23786846",
+      "31473686",
+      "27146977",
+      "29282708",
+      "31298590",
+      "8680403",
+      "7550232",
+      "31194252",
+      "21831683",
+      "8213840",
+      "21734815",
+      "33389473",
+      "27520059",
+      "8664897",
+      "37516270",
+      "24411223",
+      "22056610",
+      "28676128",
+      "40291162",
+      "29801497",
+      "10466419",
+      "36332477",
+      "15081804",
+      "24077583",
+      "31834922",
+      "7998955",
+      "16435195",
+      "28608934",
+      "21639919",
+      "28649535",
+      "37347427",
+      "10356309",
+      "28752568",
+      "40892789",
+      "34833038",
+      "25459762",
+      "25345091",
+      "35664514",
+      "23837464",
+      "31544795",
+      "30052969",
+      "27896125",
+      "9097952",
+      "27196898",
+      "35141277",
+      "11580912",
+      "25599668",
+      "19396826",
+      "39897474",
+      "36901952",
+      "36159322",
+      "12517274",
+      "39367605",
+      "21364962",
+      "32461912",
+      "41071200",
+      "35011691",
+      "33319323",
+      "24100243",
+      "19839758",
+      "31679559",
+      "29198892",
+      "17728118",
+      "9425437",
+      "36813914",
+      "21253856",
+      "24036510",
+      "37213966",
+      "36518267",
+      "31319022",
+      "26407983",
+      "39132856",
+      "40612044",
+      "33572941",
+      "39819897",
+      "29119347",
+      "8554071",
+      "38250526",
+      "39469785",
+      "33117653",
+      "37473537",
+      "21393040",
+      "37189891",
+      "21667973",
+      "34746235",
+      "28973713",
+      "24053568",
+      "21778683",
+      "14559116",
+      "28182871"
+    ],
+    "review": [
+      "40573317",
+      "8680403",
+      "25345091",
+      "12517274"
+    ],
+    "pmc": [
+      "12195877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph18060922",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40573317/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40616978",
+  "title": "Minimal models for RNA simulations.",
+  "authors": "Thirumalai, D; Hori, Naoto; Nguyen, Hung T",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-07-06",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了用于RNA模拟的粗粒化模型，涵盖RNA折叠及RNA-RNA互作驱动的相分离，并提及RNA-蛋白互作建模挑战，虽对象为RNA而非IDP，但其相分离与互作机制建模思路对本课题有迁移启发。",
+  "abstract": "The increasing importance of RNA as a prime player in biology can hardly be overstated. Problems in RNA, such as folding and RNA-RNA interactions that drive phase separation, require cations. Because experiments alone cannot reveal the dynamics of cation-RNA interactions, well calibrated theory and computations are needed to predict how ions control the behavior of RNA. The perspective describes the development and use of coarse-grained models at different resolutions. We focus on single- and three-interaction site models, in which electrostatic interactions are treated using a combination of explicit and implicit representations. Applications to the folding of ribozymes and riboswitches are discussed, with emphasis on the role of monovalent and divalent cations. We also discuss phase separation in low-complexity sequences. Challenges in the simulation of complex problems such as ribosome assembly and RNA chaperones, requiring developments of models for RNA-protein interactions, are pointed out.",
+  "abstract_zh": "RNA作为生物学核心角色的重要性日益凸显，这一点再怎么强调也不为过。RNA中的问题，如折叠及驱动相分离 (phase separation) 的RNA-RNA相互作用，需要阳离子的参与。由于仅靠实验无法揭示阳离子-RNA相互作用的动态过程，因此需要经过良好校准的理论和计算来预测离子如何控制RNA的行为。本视角文章描述了不同分辨率下粗粒化模型的发展与应用。我们聚焦于单作用位点和三作用位点模型，其中静电相互作用通过显式和隐式表示的组合来处理。讨论了这些模型在核酶和核糖开关折叠中的应用，重点强调了单价和二价阳离子的作用。我们还探讨了低复杂度序列中的相分离现象。针对核糖体组装和RNA伴侣等复杂问题的模拟挑战，指出了开发RNA-蛋白质相互作用模型的必要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40616978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40616978/",
+  "paper_page_path": "papers/pubmed/40616978/index.html"
+}

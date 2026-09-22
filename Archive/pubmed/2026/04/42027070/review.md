@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a "hierarchical binding hydrotrope mechanism" for ATP's action on alpha-synuclein, based on NMR titration and MD simulations, in which the adenine ring forms weak multisite interactions and the triphosphate group forms fewer but stronger contacts at N-terminal lysines, disrupting long-range intramolecular contacts and causing conformational expansion balanced by favorable solvation, with the relative contribution of each moiety shifting with ATP concentration.
+- **Visible evidence base** NMR titration experiments monitoring ATP signals; MD simulations; energetic analysis. Specific figures, tables, and quantitative data are not provided in the abstract.
+- **Missing materials affecting confidence** Full methods, NMR spectra and fitting parameters, MD simulation details (force field, timescales, system setup), energetic analysis methodology, quantitative binding affinities, statistical analyses, and any validation or control experiments.
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially significant hypothesis regarding the moiety-specific roles of ATP in modulating alpha-synuclein conformation. The combination of NMR and MD is appropriate for the question posed. However, the abstract-level evidence is insufficient to fully evaluate the robustness of the proposed mechanism, particularly the quantitative claims about binding affinities, the concentration-dependent shift in moiety contributions, and the energetic balance between conformational cost and solvation. Several key claims are stated without supporting quantitative data, and the proposed mechanism's predictive power is not demonstrated.
+- **Who would be interested in the results, and why** Researchers in the fields of protein biophysics, neurodegeneration (particularly Parkinson's disease), biomolecular condensates and phase separation, and cellular metabolism. The work also has relevance for those studying hydrotropes and small-molecule chaperones, as well as the broader community interested in how metabolites regulate protein homeostasis under physiological and pathological conditions.
+- **Major strengths** The study addresses a timely and important question about the dual role of ATP as both an energy currency and a solubility-preserving hydrotrope. The moiety-specific dissection using NMR and MD is a logical and powerful approach. The proposed "hierarchical binding hydrotrope mechanism" is conceptually novel and provides a testable framework for understanding concentration-dependent hydrotropic effects. The focus on alpha-synuclein, a disease-relevant intrinsically disordered protein, enhances the translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the adenine ring of ATP formed weak multisite interactions with alpha-synuclein, whereas the triphosphate group formed fewer but stronger contacts" is presented as a definitive finding.
+  - **Evidence pointer** NMR titration experiments (specific figures not provided)
+  - **Concern** The abstract states qualitative differences in binding modes but provides no quantitative parameters such as dissociation constants, number of binding sites, or chemical shift perturbation magnitudes. Without these data, the relative "weakness" and "strength" of the two moieties' interactions cannot be assessed, nor can the claim of "multisite" versus "fewer" contacts be verified.
+  - **Why it matters** The entire proposed mechanism rests on the differential binding properties of the two moieties. If the quantitative basis is not established, the hierarchical mechanism lacks a firm foundation.
+  - **Resolution test** Provide quantitative binding parameters (e.g., Kd values, Hill coefficients, number of sites) from NMR titrations, with appropriate error estimates and fits, for both the adenine and triphosphate moieties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The claim that "triphosphate-mediated contacts occurred primarily at N-terminal lysine residues and disrupted long-range intramolecular contacts, resulting in conformational expansion" is presented as a direct outcome of MD simulations.
+  - **Evidence pointer** MD simulations (specific details not provided)
+  - **Concern** The abstract does not specify the simulation conditions, force field, sampling time, or how conformational expansion was quantified. It is also unclear whether the disruption of long-range contacts was directly observed or inferred. Without these details, the reliability of the MD-based mechanistic conclusion cannot be evaluated.
+  - **Why it matters** The proposed mechanism depends on a causal chain from triphosphate-lysine contacts to conformational expansion. If the simulations are under-sampled or the analysis is indirect, the causal link is not established.
+  - **Resolution test** Provide simulation details, convergence checks, and direct evidence of long-range contact disruption (e.g., contact maps before and after ATP binding). Show that the observed expansion is statistically robust across replicate simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for proposed mechanism
+  - **Claim pointer** The claim that "the predominant contribution of each ATP moiety shifts with ATP concentration because the two moieties differ in microscopic affinity and the number of accessible interaction sites" is the central proposal of the "hierarchical binding hydrotrope mechanism."
+  - **Evidence pointer** Energetic analysis and NMR/MD integration (specific data not provided)
+  - **Concern** The abstract provides no quantitative model, no titration curves across a range of ATP concentrations, and no experimental or simulation data that directly demonstrate a concentration-dependent shift in moiety contributions. The energetic analysis is mentioned but not described in terms of its outputs or uncertainties.
+  - **Why it matters** The proposed mechanism is a concentration-dependent model. Without explicit demonstration of the shift in binding mode as a function of ATP concentration, the mechanism remains speculative.
+  - **Resolution test** Provide experimental or simulation data showing the relative occupancy of adenine- versus triphosphate-mediated contacts across a range of ATP concentrations, and show that the proposed model quantitatively fits these data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "hierarchical binding hydrotrope mechanism"
+  - **Issue** The term "hierarchical" is not defined or explained in the abstract. It is unclear whether it refers to a temporal sequence, an affinity hierarchy, or a structural hierarchy.
+  - **Required correction** Define the term explicitly when first introduced, and clarify what aspect of the mechanism is "hierarchical."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Physiological relevance statement
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the mechanism "clarifies how this metabolite modulates the conformational properties of aggregation-prone proteins under physiological conditions" is an extrapolation. The abstract does not state the ATP concentrations used in experiments or simulations, nor whether they fall within the physiological range.
+  - **Required correction** State the ATP concentrations used and explicitly discuss how they relate to physiological concentrations (typically 1 to 10 mM intracellular).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** NMR and MD methods (details not provided)
+  - **Issue** The abstract does not specify the NMR nuclei monitored (e.g., 1H, 31P) or the isotope labeling scheme, nor the MD force field and water model. These details are essential for reproducibility.
+  - **Required correction** Include these methodological specifics in the full manuscript and summarize key parameters in the abstract or methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding parameters missing), R1-M2 (MD simulation details and direct evidence of contact disruption missing), R1-M3 (no direct demonstration of concentration-dependent shift in moiety contributions).
+- **Assessment against Nature-style criteria** 
+  - Originality: The moiety-specific dissection of ATP's hydrotropic action is a novel angle, and the proposed hierarchical mechanism is conceptually original. However, the abstract does not clearly differentiate this from prior work on ATP as a hydrotrope, and the novelty claim would be strengthened by explicit comparison to existing models.
+  - Scientific importance: The question is important for understanding protein homeostasis and neurodegeneration. The potential to link metabolic state (ATP levels) to protein conformation is significant. However, the importance is currently asserted rather than demonstrated with robust evidence.
+  - Interdisciplinary readership: The topic bridges biophysics, biochemistry, and cell biology, and would appeal to a broad readership. The abstract is written in a way that is largely accessible, though some terms (e.g., "hydrotrope") may require definition for nonspecialists.
+  - Technical soundness: The combination of NMR and MD is appropriate, but the abstract does not provide enough detail to assess the technical rigor. Key quantitative data and simulation validation are missing.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context. The proposed mechanism is described in a logical sequence, but the lack of quantitative anchors makes it harder to follow for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The proposed mechanism is interesting and plausible, but the abstract-level evidence is insufficient to support the quantitative and mechanistic claims. The manuscript could become supportive if the full text provides the missing quantitative data, simulation details, and direct demonstration of the concentration-dependent shift in moiety contributions.
+
+## Risk / unsupported claims
+- The claim that the adenine ring forms "weak multisite interactions" and the triphosphate group forms "fewer but stronger contacts" is unsupported without quantitative binding parameters.
+- The claim that triphosphate-mediated contacts "disrupted long-range intramolecular contacts, resulting in conformational expansion" is unsupported without simulation details and direct contact analysis.
+- The claim that "this expansion incurred a conformational energy cost that was balanced by more favorable solvation" is unverifiable from the abstract alone.
+- The proposed "hierarchical binding hydrotrope mechanism" and its concentration-dependent shift in moiety contributions is not directly demonstrated and remains speculative.
+- The statement that the mechanism "clarifies how this metabolite modulates the conformational properties of aggregation-prone proteins under physiological conditions" is an overreach given that physiological relevance is not established in the abstract.

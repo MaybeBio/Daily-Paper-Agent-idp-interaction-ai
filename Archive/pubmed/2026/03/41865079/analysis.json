@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41865079",
+  "title": "Dynamic yet well-defined organization of the FUS RGG3 dense phase.",
+  "authors": "Polyansky, Anton A; Fruhbauer, Benjamin; Zagrovic, Bojan",
+  "journal": "Communications chemistry",
+  "published_date": "2026-03-22",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用微秒级MD模拟和分形分析，在原子分辨率下揭示FUS RGG3无序区域致密相中动态但有序的多尺度组织与瞬时互作机制，直接契合无序蛋白相分离中PPI机制建模的核心课题。",
+  "abstract": "Intrinsically disordered protein regions (IDRs) play a key role in the formation of biomolecular condensates, a ubiquitous mode of cellular compartmentalization, but the underlying microscopic details remain unclear. Here, microsecond-level molecular dynamics simulations and fractal formalism are employed to study at atomistic resolution a model dense phase composed of 24 copies of a C-terminal 73-residue arginine- and glycine-rich IDR (RGG3) of fused in sarcoma (FUS) protein in the absence of RNA. RGG3 displays a highly dynamic behavior in the dense phase with only a small configurational entropy loss and a minor slowdown in diffusion as compared to the dilute phase. Despite rapid mixing, short contact residence times and structurally heterogenous binding interfaces in the dense phase, RGG3 exhibits a distinct dynamic binding mode, with statistically defined interaction motifs and a robust multi-scale topology of self-associated protein clusters. An analysis of bound water suggests that solvent entropy may significantly contribute to the thermodynamics of condensate formation. Our results demonstrate how a well-defined organization of the disordered protein dense phase across scales emerges from highly heterogenous, transient interactions at the molecular level.",
+  "abstract_zh": "intrinsically disordered protein regions（IDRs）在生物分子凝聚体的形成中发挥关键作用，这是一种普遍的细胞区室化模式，但其背后的微观细节仍不清楚。本研究采用微秒级分子动力学模拟和分形形式主义，在原子分辨率下研究由肉瘤融合蛋白（FUS）C端73残基富含精氨酸和甘氨酸的IDR（RGG3）的24个拷贝组成的模型致密相，在无RNA条件下的行为。与稀相相比，RGG3在致密相中表现出高度动态行为，仅具有较小的构象熵损失和轻微的扩散减慢。尽管在致密相中存在快速混合、短接触驻留时间和结构异质的结合界面，RGG3仍展现出独特的动态结合模式，具有统计定义的相互作用基序和自关联蛋白簇的稳健多尺度拓扑结构。对结合水的分析表明，溶剂熵可能对凝聚体形成的热力学有显著贡献。我们的结果展示了无序蛋白致密相在跨尺度上的明确组织如何从分子水平上的高度异质、瞬时相互作用中涌现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41865079/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41865079/",
+  "paper_page_path": "papers/pubmed/41865079/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33534636",
+  "title": "Solid-Phase Separation of Toxic Phosphorothioate Antisense Oligonucleotide-Protein Nucleolar Aggregates Is Cytoprotective.",
+  "authors": "Liang, Xue-Hai; De Hoyos, Cheryl Li; Shen, Wen; Zhang, Lingdi; Fazio, Michael; Crooke, Stanley T",
+  "journal": "Nucleic acid therapeutics",
+  "published_date": "2021-02-04",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究探讨硫代反义寡核苷酸(PS-ASO)与蛋白形成的核仁聚集体发生固/液相分离及其细胞保护作用，对象涉及相分离凝聚体但非典型IDP，互作机制聚焦于蛋白迁移与结合亲和力，方法以实验为主，缺乏AI或物理模拟建模，故综合评分为6。",
+  "abstract": "Phosphorothioate antisense oligonucleotides (PS-ASOs) interact with proteins and can localize to or induce the formation of a variety of subcellular PS-ASO-protein or PS-ASO-ribonucleoprotein aggregates. In this study, we show that these different aggregates that form with varying compositions at various concentrations in the cytosol, nucleus, and nucleolus may undergo phase separations in cells. Some aggregates can form with both nontoxic and toxic PS-ASOs, such as PS bodies, paraspeckles, and nuclear filaments. However, toxic PS-ASOs have been shown to form unique nucleolar aggregates that result in nucleolar dysfunction and apoptosis. These include liquid-like aggregates that we labeled \"cloudy nucleoli\" and solid-like perinucleolar filaments. Toxic nucleolar aggregates may undergo solid-phase separation and in the solid phase, protein mobility in and out of the aggregates is limited. Other aggregates appear to undergo liquid-phase separation, including paraspeckles and perinucleolar caps, in which protein mobility is negatively correlated with the binding affinity of the proteins to PS-ASOs. However, PS bodies and nuclear filaments are solid-like aggregates. Importantly, in cells that survived treatment with toxic PS-ASOs, solid-like PS-ASO aggregates accumulated, especially Hsc70-containing nucleolus-like structures, in which modest pre-rRNA transcriptional activity was retained and appeared to mitigate the nucleolar toxicity. This is the first demonstration that exogenous drugs, PS-ASOs, can form aggregates that undergo phase separations and that solid-phase separation of toxic PS-ASO-induced nucleolar aggregates is cytoprotective.",
+  "abstract_zh": "硫代磷酸酯反义寡核苷酸（PS-ASOs）与蛋白质相互作用，并可定位至或诱导形成多种亚细胞PS-ASO-蛋白质或PS-ASO-核糖核蛋白聚集体。在本研究中，我们表明这些在细胞质、细胞核和核仁中以不同浓度、不同组成形成的聚集体可能在细胞内发生相分离。一些聚集体可由无毒性和毒性PS-ASOs共同形成，例如PS小体、副斑点（paraspeckles）和核丝。然而，毒性PS-ASOs已被证明会形成独特的核仁聚集体，导致核仁功能障碍和细胞凋亡。这些包括我们标记为“云雾状核仁”的液体样聚集体和固体样核周丝。毒性核仁聚集体可能经历固相分离，在固相中，蛋白质进出聚集体的流动性受限。其他聚集体似乎经历液相分离，包括副斑点和核周帽，其中蛋白质流动性与蛋白质对PS-ASOs的结合亲和力呈负相关。然而，PS小体和核丝是固体样聚集体。重要的是，在经毒性PS-ASOs处理后存活的细胞中，固体样PS-ASO聚集体积累，尤其是含有Hsc70的核仁样结构，其中保留了适度的前rRNA转录活性，并似乎减轻了核仁毒性。这是首次证明外源性药物PS-ASOs可形成经历相分离的聚集体，且毒性PS-ASOs诱导的核仁聚集体的固相分离具有细胞保护作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33534636/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33534636/",
+  "paper_page_path": "papers/pubmed/33534636/index.html"
+}

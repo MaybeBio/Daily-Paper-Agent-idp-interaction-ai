@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "39605539",
+    "doi": "10.1101/2024.11.12.623257",
+    "title": "Covalent adducts formed by the androgen receptor transactivation domain and small molecule drugs remain disordered."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins are implicated in many human diseases. Small molecules that target the disordered androgen receptor transactivation domain have entered human trials for the treatment of castration-resistant prostate cancer. These molecules have been shown to react with cysteine residues of the androgen receptor transactivation domain and form covalent adducts under physiological conditions. It is currently unclear how covalent attachment of these molecules alters the conformational ensemble of the androgen receptor. Here, we utilize all-atom molecular dynamics computer simulations to simulate covalent adducts of the small molecule ligands EPI-002 and EPI-7170 bound to the disordered androgen receptor transactivation domain. Our simulations reveal that the conformational ensembles of androgen receptor transactivation domain covalent adducts are heterogeneous and disordered. We find that covalent attachment of EPI-002 and EPI-7170 increases the population of collapsed helical transactivation domain conformations relative to the populations observed in non-covalent binding simulations and we identify networks of protein-ligand interactions that stabilize collapsed conformations in covalent adduct ensembles. We compare the populations of protein-ligand interactions observed in covalent adduct ensembles to those observed in non-covalent ligand-bound ensembles and find substantial differences. Our results provide atomically detailed descriptions of covalent adducts formed by small molecules and an intrinsically disordered protein and suggest strategies for developing more potent covalent inhibitors of intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jiaqi",
+        "Robustelli, Paul J"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Robustelli PJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Dartmouth College, Hanover, NH, USA.",
+        "Department of Chemistry, Dartmouth College, Hanover, NH, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jiaqi",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH, USA."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul J",
+        "short_name": "Robustelli PJ",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:36",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39466712",
+      "38297118",
+      "38251829",
+      "38049566",
+      "37957331",
+      "37949765",
+      "37904608",
+      "37338049",
+      "36577061",
+      "36535377",
+      "36302916",
+      "36229685",
+      "36008483",
+      "35974095",
+      "35649268",
+      "35446534",
+      "35210421",
+      "35130691",
+      "34197833",
+      "33978290",
+      "33812316",
+      "33579943",
+      "33148639",
+      "32966806",
+      "32939066",
+      "32734688",
+      "32708219",
+      "32403216",
+      "32100577",
+      "29735687",
+      "29596915",
+      "29225078",
+      "28743590",
+      "28225081",
+      "28063280",
+      "27525313",
+      "27356095",
+      "27101974",
+      "26616604",
+      "26507530",
+      "26488642",
+      "26275458",
+      "25531225",
+      "23722902",
+      "22824207",
+      "21714551",
+      "21514144",
+      "21455239",
+      "20541699",
+      "18284209",
+      "17212484",
+      "15116359",
+      "15023052",
+      "11896058",
+      "6667333"
+    ],
+    "similar": [
+      "39605539",
+      "40446154",
+      "36302916",
+      "39665260",
+      "40490871",
+      "37998041",
+      "39990458",
+      "41332594",
+      "31797597",
+      "39053630",
+      "25897952",
+      "36577061",
+      "39359255",
+      "29225078",
+      "30565725",
+      "37338049",
+      "40406608",
+      "36674785",
+      "32786705",
+      "27576691",
+      "32100577",
+      "35634773",
+      "40532196",
+      "26195786",
+      "39896485",
+      "33382616",
+      "38116409",
+      "18284208",
+      "32654182",
+      "22815918",
+      "30840442",
+      "34115515",
+      "33030907",
+      "27356095",
+      "33984364",
+      "36107327",
+      "34252246",
+      "31241933",
+      "39276130",
+      "36934808",
+      "35749260",
+      "27140928",
+      "26735936",
+      "23722902",
+      "20541699",
+      "27844185",
+      "37646172",
+      "32840111",
+      "34298994",
+      "28232883",
+      "22468560",
+      "38781245",
+      "41432303",
+      "24187427",
+      "27628492",
+      "37971402",
+      "32323533",
+      "34869581",
+      "34298700",
+      "35129612",
+      "24995857",
+      "34164069",
+      "37549772",
+      "17942941",
+      "21528875",
+      "23912807",
+      "21285252",
+      "38370653",
+      "31248328",
+      "32966806",
+      "30731089",
+      "34576338",
+      "37556237",
+      "36084124",
+      "32502383",
+      "29298412",
+      "39186607",
+      "10419007",
+      "33076213",
+      "31502857",
+      "38146836",
+      "28289210",
+      "20404210",
+      "7591265",
+      "28003858",
+      "34506104",
+      "22506277",
+      "24098099",
+      "29719201",
+      "33871257",
+      "39190324",
+      "35923464",
+      "21308712",
+      "30500458",
+      "23189058",
+      "22253588",
+      "40101966",
+      "29621630",
+      "30204435",
+      "25387963"
+    ],
+    "review": [
+      "39605539",
+      "39053630",
+      "39359255",
+      "30565725",
+      "40406608",
+      "32100577",
+      "30840442",
+      "35129612",
+      "21285252",
+      "10419007",
+      "28003858"
+    ],
+    "pmc": [
+      "11601358"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39605539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.11.12.623257",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

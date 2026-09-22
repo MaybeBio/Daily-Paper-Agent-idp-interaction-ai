@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.07.527493",
+  "title": "Vir1p, the Yeast Homolog of Virilizer, is Required for mRNA m 6 A Methylation and Meiosis",
+  "doi": "10.1101/2023.02.07.527493",
+  "abstract": "N 6 -Methyladenosine (m 6 A) is one of the most abundant modifications found on eukaryotic mRNAs. mRNA methylation regulates a host of biological processes including meiosis, a specialized diploid cell division program that results in the formation of haploid cells (gametes). During budding yeast meiosis, m 6 A levels peak early, before the initiation of the meiotic divisions. High-throughput studies and work from our lab showed that Ygl036wp, a previously uncharacterized protein interacts with Kar4p, a meiotic protein required for mRNA m 6 A-methylation. Ygl036wp has no discernable domains except for several intrinsically disordered regions. However, protein folding prediction tools showed that Ygl036wp folds like VIRMA/Virilizer/VIR, which is involved in mRNA m 6 A-methylation in higher eukaryotes. In addition, Ygl036wp has several conserved motifs shared with VIRMA/Virilizer/VIR proteins. Accordingly, we propose to call the gene VIR1 for budding yeast ortholog of VIR MA/Virilizer/VIR 1 . In support, Vir1p interacts with all other members of the yeast methyltransferase complex and is required for mRNA m 6 A methylation and meiosis. Vir1p is required for the stability of proteins comprising the methyltransferase complex, suggesting that Vir1p acts as a scaffold to stabilize the complex. The vir1 Δ/Δ mutant is defective for premeiotic S-phase, which is suppressed by overexpression of the early meiotic transcription factor IME1; additional overexpression of the translational regulator RIM4 is required for sporulation. Consistent with IME1 suppression, vir1 Δ/Δ exhibits a defect in the abundance of IME1 mRNA, as well as transcripts within Ime1p’s regulon. Suppression by IME1 revealed a defect in the expression of the middle meiotic transcription factor, Ndt80p (and genes in its regulon), which is rescued by additional overexpression of RIM4 . Together, these data suggest that Vir1p is required for cells to initiate the meiotic program and for progression through the meiotic divisions and spore formation. <h4>Author Summary</h4> Ygl036wp is a previously uncharacterized protein that we propose to name Vir1p (budding yeast ortholog of VIR MA/Virilizer/VIR 1 ). Work from our lab and others initially found an interaction between Vir1p and members of the yeast mRNA methyltransferase complex (Kar4p and Mum2p). We found that Vir1p interacts with all known members of the methyltransferase complex and is required for mRNA methylation. Vir1p is required early in meiosis; vir1 Δ/Δ mutants arrest due to the reduced expression of Ime1p. Lower levels of Ime1p cause severe disruption to the meiotic transcriptome in vir1 Δ/Δ. The vir1 Δ/Δ meiotic defect can be partially suppressed by the overexpression of IME1 ; full suppression requires overexpression of both IME1 and RIM4 . Using recent advances in protein folding predictions, we found that Vir1p is a remote homolog of VIRMA/Virilizer/VIR and shares conserved motifs with the protein from other organisms. Vir1p, like VIRMA/Virilizer/VIR, stabilizes the methyltransferase complex.",
+  "authors": [
+    "Park ZM",
+    "Belnap E",
+    "Remillard M",
+    "Rose MD"
+  ],
+  "published_date": "2023-02-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.07.527493",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.07.527493.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR614150",
+    "raw_record": {
+      "id": "PPR614150",
+      "source": "PPR",
+      "doi": "10.1101/2023.02.07.527493",
+      "title": "Vir1p, the Yeast Homolog of Virilizer, is Required for mRNA m  <sup>6</sup>  A Methylation and Meiosis",
+      "authorString": "Park ZM, Belnap E, Remillard M, Rose MD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Park ZM",
+            "lastName": "Park",
+            "firstName": "Zachory",
+            "initials": "ZM"
+          },
+          {
+            "fullName": "Belnap E",
+            "lastName": "Belnap",
+            "firstName": "Ethan",
+            "initials": "E"
+          },
+          {
+            "fullName": "Remillard M",
+            "lastName": "Remillard",
+            "firstName": "Matthew",
+            "initials": "M"
+          },
+          {
+            "fullName": "Rose MD",
+            "lastName": "Rose",
+            "firstName": "Mark",
+            "initials": "MD"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "N  6 -Methyladenosine (m  6 A) is one of the most abundant modifications found on eukaryotic mRNAs. mRNA methylation regulates a host of biological processes including meiosis, a specialized diploid cell division program that results in the formation of haploid cells (gametes). During budding yeast meiosis, m  6 A levels peak early, before the initiation of the meiotic divisions. High-throughput studies and work from our lab showed that Ygl036wp, a previously uncharacterized protein interacts with Kar4p, a meiotic protein required for mRNA m  6 A-methylation. Ygl036wp has no discernable domains except for several intrinsically disordered regions. However, protein folding prediction tools showed that Ygl036wp folds like VIRMA/Virilizer/VIR, which is involved in mRNA m  6 A-methylation in higher eukaryotes. In addition, Ygl036wp has several conserved motifs shared with VIRMA/Virilizer/VIR proteins. Accordingly, we propose to call the gene  VIR1 for  budding yeast ortholog of  VIR MA/Virilizer/VIR  1 . In support, Vir1p interacts with all other members of the yeast methyltransferase complex and is required for mRNA m  6 A methylation and meiosis. Vir1p is required for the stability of proteins comprising the methyltransferase complex, suggesting that Vir1p acts as a scaffold to stabilize the complex. The  vir1 Δ/Δ mutant is defective for premeiotic S-phase, which is suppressed by overexpression of the early meiotic transcription factor  IME1; additional overexpression of the translational regulator  RIM4 is required for sporulation.  Consistent with  IME1 suppression,  vir1 Δ/Δ exhibits a defect in the abundance of  IME1 mRNA, as well as transcripts within Ime1p’s regulon. Suppression by  IME1 revealed a defect in the expression of the middle meiotic transcription factor, Ndt80p (and genes in its regulon), which is rescued by additional overexpression of  RIM4 . Together, these data suggest that Vir1p is required for cells to initiate the meiotic program and for progression through the meiotic divisions and spore formation.  <h4>Author Summary</h4>  Ygl036wp is a previously uncharacterized protein that we propose to name Vir1p (budding yeast ortholog of  VIR MA/Virilizer/VIR  1 ). Work from our lab and others initially found an interaction between Vir1p and members of the yeast mRNA methyltransferase complex (Kar4p and Mum2p). We found that Vir1p interacts with all known members of the methyltransferase complex and is required for mRNA methylation. Vir1p is required early in meiosis;  vir1 Δ/Δ mutants arrest due to the reduced expression of Ime1p. Lower levels of Ime1p cause severe disruption to the meiotic transcriptome in  vir1 Δ/Δ. The  vir1 Δ/Δ meiotic defect can be partially suppressed by the overexpression of  IME1 ; full suppression requires overexpression of both  IME1 and  RIM4 . Using recent advances in protein folding predictions, we found that Vir1p is a remote homolog of VIRMA/Virilizer/VIR and shares conserved motifs with the protein from other organisms. Vir1p, like VIRMA/Virilizer/VIR, stabilizes the methyltransferase complex.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/07/2023.02.07.527493.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.07.527493"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36930734",
+            "reference": "Genetics. 2023 May;224(1):iyad043",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-02-11",
+      "firstPublicationDate": "2023-02-07",
+      "firstIndexDate": "2023-02-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

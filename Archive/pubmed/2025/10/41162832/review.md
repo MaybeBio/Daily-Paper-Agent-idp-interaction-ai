@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and references to supplementary material.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. Editorial and stylistic issues are noted only where they affect clarity or reproducibility.
+- **Shared manuscript claim summary** The authors propose that the C-terminal tails of GroEL, mitochondrial mHsp60, and chloroplastic Cpn60 chaperonins, previously considered disordered, adopt significant populations of polyproline II (PPII) helices. This is supported by CD and NMR spectroscopy on synthetic peptides and by MD simulations of GroEL7·GroES7 complexes in different nucleotide and client-bound states.
+- **Visible evidence base** Abstract, full introduction, results, discussion, materials and methods, figure legends referenced in text, and supplementary figure/table/video references. No raw spectra, simulation trajectories, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures, tables, and videos are referenced but not included in the provided material. Raw NMR chemical shift assignments, CD spectra, and MD trajectory analyses are not directly assessable. The manuscript states data availability in supplementary material only.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a focused and timely question regarding the conformational preferences of chaperonin C-terminal tails. The combination of solution spectroscopy and MD simulations is appropriate and the conclusions are generally consistent with the presented evidence. However, several technical aspects require clarification and additional analysis before the case is fully established, particularly regarding the quantitative estimation of PPII populations, the interpretation of CD data, and the generalizability of the MD findings to the full-length protein context.
+- **Who would be interested in the results, and why** Researchers studying chaperonin mechanism, protein folding, intrinsically disordered proteins, and PPII helix biology. The findings may also interest those working on GroEL engineering and biotechnological applications, as well as structural biologists using integrative approaches combining experiment and simulation.
+- **Major strengths** The study addresses a previously undercharacterized region of a well-studied molecular machine. The use of multiple complementary techniques (CD, NMR, MD) is commendable. The inclusion of both bacterial and eukaryotic homologs broadens the relevance. The MD simulations are extensive and consider multiple functional states, which adds mechanistic depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative interpretation of CD data
+  - **Claim pointer** The authors state that PPII helix populations are 43% and 47% for GroELCtS and mHsp60CtS at 0°C, and 41% and 43% at 37°C, based on the empirical equation of Park et al. (1997).
+  - **Evidence pointer** Results section, "The Gly-rich stretch of GroEL and mHsp60 contains a high percentage of PPII helix"; Materials and Methods, "Circular dichroism spectroscopy"
+  - **Concern** The empirical equation used to estimate PPII populations was developed for specific peptide systems and may not be directly transferable to glycine/methionine-rich sequences without validation. The equation assumes a two-state model and a fixed molar ellipticity value for 100% PPII, which is likely sequence-dependent. The authors do not provide error estimates or independent validation of these population values.
+  - **Why it matters** The quantitative population estimates are central to the paper's main claim. If the calibration is inappropriate, the absolute values may be inaccurate, although the qualitative conclusion of significant PPII population might still hold. This affects the strength of the conclusion and its comparison with MD-derived populations.
+  - **Resolution test** Provide validation of the empirical equation for the specific peptide sequences, e.g., by comparing with NMR-derived populations or by using a more modern analysis method such as SESCA or BeStSel. Include error estimates from replicate measurements and discuss the limitations of the two-state assumption.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of MD findings
+  - **Claim pointer** The authors conclude that the C-terminal tails of GroEL and mHsp60 adopt PPII helices and that these may form a bundle that plugs the barrel bottom, based on simulations of pre-assembled PPII helical bilayers.
+  - **Evidence pointer** Results section, "Complete C-terminal tails contain smaller populations of PPII helix"; Discussion
+  - **Concern** The MD simulations were performed on peptides or on the C-terminal segments within the GroEL7·GroES7 complex, but the initial conditions for the pre-assembled bundle simulations were constructed manually. The relevance of these simulations to the actual in situ behavior of the tails is unclear, especially given that the tails are attached to the folded equatorial domain and experience confinement and tethering effects. The observation that independently modeled tails do not spontaneously assemble within 1 μs does not rule out assembly on longer timescales or under different conditions.
+  - **Why it matters** The claim that the tails may form a functional bundle that blocks the barrel is speculative and depends on the relevance of the simulation setup. If the pre-assembled bundle is an artificial construct, the conclusion about its stability may not reflect the true behavior of the tails in the intact chaperonin.
+  - **Resolution test** Discuss the limitations of the simulation setup more explicitly. If possible, perform simulations starting from fully extended or random-coil tails and assess whether any spontaneous association occurs on the microsecond timescale. Alternatively, temper the conclusion about bundle formation and focus on the intrinsic PPII propensity of the isolated tails.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of peptide models
+  - **Claim pointer** The authors use synthetic peptides corresponding to the C-terminal tails to draw conclusions about the behavior of the full-length protein.
+  - **Evidence pointer** Results sections; Materials and Methods, "Peptides"
+  - **Concern** The peptides are N-acetylated and have additional residues (His or Lys) added for solubility. The presence of these extra residues, particularly the three Lys residues in the complete tail peptides, could influence the conformational preferences of the native sequence. Additionally, the peptides lack the context of the full-length protein, where the tails are tethered to the equatorial domain and experience high local concentrations and confinement within the barrel.
+  - **Why it matters** The conclusions about PPII populations in the isolated peptides may not quantitatively reflect the behavior of the tails in the intact chaperonin. The authors do acknowledge this limitation in the discussion, but the extent to which the peptide data can be extrapolated to the full-length protein is not fully addressed.
+  - **Resolution test** Provide a more detailed discussion of how the peptide modifications might affect the results. If possible, include a control experiment with a peptide lacking the solubility tags or with a different tag. Alternatively, use NMR or CD on a construct that includes the folded domain and the tail to assess the effect of tethering.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Results section, "The Gly-rich stretch of GroEL and mHsp60 contains a high percentage of PPII helix"
+  - **Evidence pointer** Figure 2 and Supplementary Figures 1, 2, 5
+  - **Issue** The text refers to "Supp. Figure 5" in multiple contexts, but it is unclear whether this is the same figure or if there is a numbering error. The supplementary figure numbering should be checked for consistency.
+  - **Required correction** Verify all supplementary figure numbers and ensure they are cited correctly and consistently throughout the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The description of the simulation setup states that "the seven AGGMGGMGGMGGMM C-terminal segments were assembled into a bilayer of seven PPII helices," but the sequence of the C-terminal tail in GroEL is typically longer and includes additional residues. The exact sequence used for the simulations should be specified.
+  - **Required correction** Provide the exact sequence of the C-terminal segment used in the simulations and clarify how it corresponds to the full-length protein sequence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results section, "The Gly-rich stretch of GroEL and mHsp60 contains a high percentage of PPII helix"
+  - **Evidence pointer** Figure 2c,d
+  - **Issue** The CD spectra are shown as single traces without error bars or replicate measurements. It is unclear how many independent measurements were performed and whether the observed differences between peptides are statistically significant.
+  - **Required correction** Include error bars or state the number of replicates and the variability between measurements. If only single measurements were performed, acknowledge this limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of NMR data
+  - **Affected element** Results section, "The Gly-rich stretch of GroEL and mHsp60 contains a high percentage of PPII helix"
+  - **Evidence pointer** Supplementary Figures 1, 3, 4
+  - **Issue** The authors state that the lack of dispersion in 1HN and 13Cα chemical shifts indicates absence of α-helix and β-strand, which is reasonable. However, the use of 3J HNHα couplings to distinguish PPII from statistical coil is mentioned but not shown quantitatively. The range of 5.5–8.0 Hz is broad and may not be diagnostic.
+  - **Required correction** Provide a table of measured 3J HNHα values for each residue or at least a summary of the distribution. Discuss how these values support the PPII assignment over other extended conformations.
+- **Technical failings that need to be addressed before the case is established** The quantitative PPII population estimates from CD rely on an empirical equation that is not validated for these sequences. The MD simulations of pre-assembled bundles are based on manually constructed initial states, and the relevance to the in situ behavior of the tails is not fully established. The peptide models include solubility tags that may affect conformation. These issues do not necessarily invalidate the conclusions but require additional analysis and discussion to strengthen the case.
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on the conformational preferences of chaperonin C-terminal tails, which have been largely overlooked. Scientific importance: The findings have implications for understanding chaperonin function, particularly the role of the C-terminal tails in client binding and barrel sealing. The importance is moderate and primarily of interest to the chaperonin and protein folding communities. Interdisciplinary readership: The work bridges structural biology, biophysics, and computational biology, but the appeal is likely limited to specialists in these areas. Technical soundness: The combination of CD, NMR, and MD is appropriate, but the quantitative interpretation of CD data and the simulation setup require further validation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with chaperonin biology and biophysical methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core conclusion that the C-terminal tails adopt significant PPII populations is plausible and supported by the qualitative data. However, the quantitative estimates and the extrapolation to the full-length protein context need to be strengthened. The authors should address the concerns regarding CD calibration, simulation setup, and peptide model relevance before the case is fully established.
+
+## Risk / unsupported claims
+- The quantitative PPII population percentages (43%, 47%, 41%, 43%) derived from the empirical CD equation are not validated for these specific sequences and should be treated with caution.
+- The claim that the C-terminal tails may form a PPII helical bundle that plugs the barrel bottom is speculative and not directly supported by the simulation data, since the pre-assembled bundle was constructed manually and spontaneous assembly was not observed.
+- The extrapolation of peptide-based findings to the behavior of the full-length protein is not fully supported, given the absence of tethering and confinement effects in the peptide models.
+- The statement that the C-terminal tails of chloroplastic Cpn60 "also adopt PPII conformations" is based on CD data alone, without corroborating NMR or simulation evidence for these specific sequences.

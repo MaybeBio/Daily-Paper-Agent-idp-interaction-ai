@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35983230",
+  "title": "Virus-host interaction analysis in colorectal cancer identifies core virus network signature and small molecules.",
+  "authors": "A V S, Sai Krishna; Sinha, Swati; Donakonda, Sainitin",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-08-20",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过病毒-宿主网络分析、SLiM序列分析和分子对接/分子动力学模拟，筛选结直肠癌相关病毒蛋白靶点及候选药物，虽涉及无序蛋白相关SLiM和PPI网络，但核心是抗病毒药物筛选而非无序蛋白介导互作机制建模，方法可迁移但对象和机制深度有限。",
+  "abstract": "Colorectal cancer (CRC) is a significant contributor to cancer-related deaths caused by an unhealthy lifestyle. Multiple studies reveal that viruses are involved in colorectal tumorigenesis. The viruses such as Human Cytomegalovirus (HCMV), Human papillomaviruses (HPV16 & HPV18), and John Cunningham virus (JCV) are known to cause colorectal cancer. The molecular mechanisms of cancer genesis and maintenance shared by these viruses remain unclear. We analysed the virus-host networks and connected them with colorectal cancer proteome datasets and extracted the core shared interactions in the virus-host CRC network. Our network topology analysis identified prominent virus proteins RL6 (HCMV), VE6 (HPV16 and HPV18), and Large T antigen (JCV). Sequence analysis uncovered short linear motifs (SLiMs) in each viral target. We used these targets to identify the antiviral drugs through a structure-based virtual screening approach. This analysis highlighted that temsavir, pimodivir, famotine, and bictegravir bind to each virus protein target, respectively. We also assessed the effect of drug binding using molecular dynamic simulations, which shed light on the modulatory effect of drug molecules on SLiM regions in viral targets. Hence, our systematic screening of virus-host networks revealed viral targets, which could be crucial for cancer therapy.",
+  "abstract_zh": "结直肠癌（CRC）是导致与不健康生活方式相关的癌症死亡的重要因素。多项研究表明，病毒参与结直肠肿瘤的发生。已知人类巨细胞病毒（HCMV）、人乳头瘤病毒（HPV16 和 HPV18）以及约翰·坎宁安病毒（JCV）等病毒可导致结直肠癌。这些病毒共有的癌症发生和维持的分子机制仍不清楚。我们分析了病毒-宿主网络，并将其与结直肠癌蛋白质组数据集关联，提取了病毒-宿主CRC网络中的核心共享相互作用。我们的网络拓扑分析识别出显著的病毒蛋白RL6（HCMV）、VE6（HPV16 和 HPV18）以及大T抗原（JCV）。序列分析揭示了每个病毒靶标中的短线性基序（SLiMs）。我们利用这些靶标，通过基于结构的虚拟筛选方法识别抗病毒药物。该分析突出显示，替姆萨韦、匹莫地韦、法莫替尼和比克替拉韦分别与每个病毒蛋白靶标结合。我们还通过分子动力学模拟评估了药物结合的效果，揭示了药物分子对病毒靶标中SLiM区域的调节作用。因此，我们对病毒-宿主网络的系统筛选揭示了病毒靶标，这些靶标可能对癌症治疗至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35983230/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35983230/",
+  "paper_page_path": "papers/pubmed/35983230/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36637342",
+  "title": "Network Hamiltonian Models for Unstructured Protein Aggregates, with Application to gammaD-Crystallin.",
+  "authors": "Diessner, Elizabeth M; Freites, J Alfredo; Tobias, Douglas J; Butts, Carter T",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-01-14",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用网络哈密顿模型对gammaD-晶状体蛋白聚集体的蛋白-蛋白互作进行拓扑粗粒化建模，虽对象非无序蛋白，但互作机制建模与粗粒化方法对IDR介导的PPI研究有可迁移启发。",
+  "abstract": "Network Hamiltonian models (NHMs) are a framework for topological coarse-graining of protein-protein interactions, in which each node corresponds to a protein, and edges are drawn between nodes representing proteins that are noncovalently bound. Here, this framework is applied to aggregates of gammaD-crystallin, a structural protein of the eye lens implicated in cataract disease. The NHMs in this study are generated from atomistic simulations of equilibrium distributions of wild-type and the cataract-causing variant W42R in solution, performed by Wong, E. K.; Prytkova, V.; Freites, J. A.; Butts, C. T.; Tobias, D. J. Molecular Mechanism of Aggregation of the Cataract-Related gammaD-Crystallin W42R Variant from Multiscale Atomistic Simulations. Biochemistry2019, 58 (35), 3691-3699. Network models are shown to successfully reproduce the aggregate size and structure observed in the atomistic simulation, and provide information about the transient protein-protein interactions therein. The system size is scaled from the original 375 monomers to a system of 10000 monomers, revealing a lowering of the upper tail of the aggregate size distribution of the W42R variant. Extrapolation to higher and lower concentrations is also performed. These results provide an example of the utility of NHMs for coarse-grained simulation of protein systems, as well as their ability to scale to large system sizes and high concentrations, reducing computational costs while retaining topological information about the system.",
+  "abstract_zh": "网络哈密顿模型（NHMs）是蛋白质-蛋白质相互作用拓扑粗粒化的一种框架，其中每个节点对应一种蛋白质，边连接代表非共价结合蛋白质的节点。在此，该框架被应用于γD-晶状体蛋白（gammaD-crystallin）的聚集体，这是一种与白内障疾病相关的眼晶状体结构蛋白。本研究的NHMs基于野生型和致白内障变异体W42R在溶液中的平衡分布的原子模拟生成，该模拟由Wong, E. K.; Prytkova, V.; Freites, J. A.; Butts, C. T.; Tobias, D. J. 在《Biochemistry》2019, 58 (35), 3691-3699中进行的“多尺度原子模拟揭示白内障相关γD-晶状体蛋白W42R变异体聚集的分子机制”中完成。网络模型被证明能成功再现原子模拟中观察到的聚集体大小和结构，并提供其中瞬时蛋白质-蛋白质相互作用的信息。系统规模从原始的375个单体扩展到10000个单体的系统，揭示了W42R变异体聚集体大小分布上尾部的降低。还进行了向更高和更低浓度的外推。这些结果展示了NHMs在蛋白质系统粗粒化模拟中的实用性，以及它们扩展到大规模系统和高浓度的能力，在保留系统拓扑信息的同时降低计算成本。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36637342/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36637342/",
+  "paper_page_path": "papers/pubmed/36637342/index.html"
+}

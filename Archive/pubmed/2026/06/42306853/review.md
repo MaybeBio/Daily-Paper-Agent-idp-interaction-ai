@@ -1,0 +1,27 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of full-text evidence, figures, or methods
+- **Shared manuscript claim summary** The authors argue that intrinsically disordered regions (IDRs) in chromatin regulatory proteins are central to nuclear biochemistry and cancer biology, that approximately 20% of cancer-driver mutations map to disordered regions, that current understanding is fragmented across case studies, and that integrating mechanistic insights with high-content experimental platforms and predictive frameworks could improve variant effect prediction and therapeutic targeting of the disordered proteome.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or references provided
+- **Missing materials affecting confidence** Full text, figures, tables, methods, statistical analyses, and reference list; the abstract does not specify how the 20% figure was derived, which IDRs are discussed, what experimental platforms are highlighted, or what predictive frameworks are proposed
+
+## Reviewer
+- **Overall assessment** This Perspective abstract presents a timely and potentially important synthesis of IDR biology in chromatin regulation and cancer. The framing is clear and the ambition is commendable. However, the abstract alone provides insufficient detail to evaluate the depth, novelty, or rigor of the synthesis. The 20% statistic is presented without sourcing or methodological context, and the proposed predictive framework is described only in general terms. The case for a unified approach is plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Cancer biologists studying chromatin regulators, biophysicists interested in phase separation and disordered proteins, computational biologists developing variant effect predictors, and clinicians or drug developers targeting epigenetic pathways. The Perspective could serve as a conceptual bridge between molecular mechanism and translational application.
+- **Major strengths** The topic is highly relevant and underexplored in a synthetic form. The abstract clearly identifies a gap between case-specific studies and generalizable principles. The proposed integration of biophysical grammar, high-content platforms, and predictive modeling is a sensible and forward-looking structure. The writing is accessible and well organized.
+- **Major Concerns** None identified from the supplied material, as the abstract does not contain sufficient detail to raise specific technical concerns. However, the absence of evidence means the core claims are currently unverifiable.
+- **Minor Comments** None identified from the supplied material, as the abstract is too brief to support granular comments.
+- **Technical failings that need to be addressed before the case is established** The 20% cancer-driver mutation statistic is presented without a source or definition of "cancer-driver mutations" and "map to disordered regions." The abstract does not specify which IDRs or cancer types are covered, which experimental platforms are highlighted, or how the predictive framework would be validated. These gaps must be addressed in the full text.
+- **Assessment against Nature-style criteria**  
+  - Originality: The abstract suggests a synthesis that may be novel, but the degree of novelty cannot be assessed without seeing how the authors distinguish their framework from existing reviews on IDRs and phase separation.  
+  - Scientific importance: The topic is important, given the prevalence of IDRs in chromatin regulators and the challenge of interpreting variants in disordered regions. The potential impact is high if the synthesis is rigorous.  
+  - Interdisciplinary readership: The abstract is written to appeal to molecular biologists, biophysicists, and computational scientists, which is appropriate for a broad audience.  
+  - Technical soundness: Not assessable from the abstract; no methods or data are presented.  
+  - Readability for nonspecialists: The abstract is clear and avoids excessive jargon, though terms like "biomolecular condensation" and "high-content experimental platforms" may require some background.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising and the topic is worthy of a Perspective, but the supplied material is insufficient to evaluate the scientific case. A decision would require the full text.
+
+## Risk / unsupported claims
+- The claim that approximately 20% of cancer-driver mutations map to disordered regions is unsupported in the abstract; no source or definition is provided.
+- The claim that a unified approach "could improve prediction" and "help establish a foundation for therapeutic targeting" is speculative and not backed by evidence in the abstract.
+- The existence and quality of "high-content experimental platforms" that enable generalizable principles are asserted but not specified or demonstrated.
+- The overall claim that IDRs "organize nuclear biochemistry" through multivalent interactions and condensation is presented as established fact, but the abstract does not provide supporting citations or data.

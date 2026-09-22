@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.21.683479",
+  "title": "The promise of AlphaFold for gene structure annotation",
+  "authors": "Davison HR; Böhme U; Mesdaghi S; Wilkinson PA; Roos DS; Jones AR; Rigden DJ",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-21",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用AlphaFold 3结构预测评分辅助基因结构注释，虽涉及无序区域但非PPI机制建模，方法为AI应用且无互作机制深度，与本课题关联较弱。",
+  "abstract": "<h4>Background</h4> As sequencing technology improves, more genomes become available. Most lack annotation, automated methods are error prone, and few genomes are ever manually curated due to time and cost. Protein structure prediction software may provide new angles for assessing and improving gene models without requiring experimental data. In this paper, we explore whether scores from protein structure prediction can aid in scoring gene model quality. We chose three species ( Fusarium graminearum , Toxoplasma gondii , and Aspergillus fumigatus ) from the VEuPathDB database which have collectively undergone more than 1000 manual curation events. We modelled translations of the gene models with AlphaFold 3, before and after curation, collecting various scores. Then we carried out structure searching of the PDB with Foldseek and sequence-based domain identification using InterProScan. We profiled the scores produced by these methods to identify those best for gene model assessment. <h4>Results</h4> AlphaFold 3 scores strongly favoured manually improved over pre-improvement models, supporting 75% of manually-curated changes in F. graminearum , 65% in T. gondii , and 84% in A. fumigatus (the lower percentage in T. gondii attributed to a high level of disorder). Further, combining scores across multiple tools (AlphaFold 3, Foldseek and InterProScan) provided additional improvements in model scoring. <h4>Conclusion</h4> Overall, the most discriminative scores combined outputs of AlphaFold 3 and Foldseek. Our results therefore highlight the potential of scores derived from deep learning-based protein structure prediction for scoring gene models in the absence of experimental data. Future work should focus on intrinsically disordered regions and developing integrated tools to apply this approach.",
+  "abstract_zh": "<h4>背景</h4> 随着测序技术的进步，可获得更多基因组。大多数缺乏注释，自动化方法易出错，且由于时间和成本，很少有基因组经过人工整理。蛋白质结构预测软件可能为评估和改进基因模型提供新视角，而无需实验数据。本文探讨了蛋白质结构预测的评分是否有助于评估基因模型质量。我们从VEuPathDB数据库中选择三个物种（禾谷镰刀菌（Fusarium graminearum）、弓形虫（Toxoplasma gondii）和烟曲霉（Aspergillus fumigatus）），这些物种共经历了超过1000次人工整理事件。我们使用AlphaFold 3对整理前后的基因模型翻译进行建模，并收集各种评分。随后，我们利用Foldseek对PDB进行结构搜索，并使用InterProScan进行基于序列的结构域识别。我们分析了这些方法产生的评分，以确定最适合基因模型评估的指标。<h4>结果</h4> AlphaFold 3评分强烈倾向于人工改进后的模型，支持了F. graminearum中75%、T. gondii中65%和A. fumigatus中84%的人工整理变更（T. gondii中较低百分比归因于高水平的无序性）。此外，结合多种工具（AlphaFold 3、Foldseek和InterProScan）的评分进一步改善了模型评分。<h4>结论</h4> 总体而言，最具区分度的评分结合了AlphaFold 3和Foldseek的输出。因此，我们的结果凸显了基于深度学习的蛋白质结构预测评分在缺乏实验数据情况下评估基因模型的潜力。未来工作应聚焦于内在无序区域，并开发集成工具以应用此方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683479",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683479",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.21.683479/index.html"
+}

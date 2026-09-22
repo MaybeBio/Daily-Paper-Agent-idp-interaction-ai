@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40677912",
+  "title": "Expose flexible conformations for intrinsically disordered protein.",
+  "authors": "Yang, Jiaan; Ji, Wenxin; Cheng, Wen Xiang; Wu, Gang; Sheng, Si Tong; Zhang, Peng; Lin, Jun; Chen, Xiaojia; Shi, Qiong",
+  "journal": "Current research in structural biology",
+  "published_date": "2025-07-18",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于蛋白质结构指纹（PFSC/PFVM）和FiveFold预测方法，显式展示P53、α-突触核蛋白等无序蛋白的多种柔性构象，虽未直接研究PPI，但为无序蛋白构象建模提供了可迁移的AI/物理方法思路。",
+  "abstract": "The folding conformation of native protein has flexibility in different degrees, which may bring difficulty in presenting the structures, and also it causes complexity in understanding the relationship between structure and functions. Although many methods and databases provide information for intrinsically disordered protein (IDP), they are mainly limited to determining the intrinsically disordered regions (IDR) lacking knowledge of possible folding patterns. To overcome the barrier, the protein structure fingerprint technology has been developed, which includes PFSC (Protein Folding Shape Code) (Yang, 2008) and PFVM (Protein Folding Variation Matrix) (Yang et al., 2022) algorithms as well as FiveFold (Yang et al., 2025) approach for protein structure prediction, which are able explicitly to expose the possible conformational structures for intrinsically disordered protein. Three proteins, human cellular tumor antigen P53, human alpha-synuclein, and human protamine-2, are taken as samples for demonstration of how to obtain their folding conformation structures for intrinsically disordered proteins. The folding features for intrinsically disordered proteins with given structures may be revealed by the alignment of PFSC strings, and the folding possibility for intrinsically disordered proteins without a given structure can be exhibited by the local folding variations in PFVM. Furthermore, the multiple conformational 3D structures for intrinsically disordered protein can be predicted by FiveFold approach, which provides a significant tool further to understand the intrinsic disorder of proteins.",
+  "abstract_zh": "天然蛋白的折叠构象具有不同程度的灵活性，这可能给结构呈现带来困难，也导致理解结构与功能之间关系的复杂性。尽管许多方法和数据库为固有无序蛋白（IDP）提供信息，但它们主要局限于确定固有无序区域（IDR），缺乏对可能折叠模式的了解。为克服这一障碍，已开发出蛋白质结构指纹技术，包括PFSC（蛋白质折叠形状码）(Yang, 2008)和PFVM（蛋白质折叠变异矩阵）(Yang et al., 2022)算法，以及用于蛋白质结构预测的FiveFold (Yang et al., 2025)方法，这些技术能够明确揭示固有无序蛋白的可能构象结构。以三种蛋白质——人细胞肿瘤抗原P53、人α-突触核蛋白和人鱼精蛋白-2——为样本，演示如何获得固有无序蛋白的折叠构象结构。对于具有给定结构的固有无序蛋白，其折叠特征可通过PFSC字符串的比对来揭示；对于没有给定结构的固有无序蛋白，其折叠可能性可通过PFVM中的局部折叠变异来展示。此外，固有无序蛋白的多重构象3D结构可通过FiveFold方法预测，这为进一步理解蛋白质的内在无序性提供了重要工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40677912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40677912/",
+  "paper_page_path": "papers/pubmed/40677912/index.html"
+}

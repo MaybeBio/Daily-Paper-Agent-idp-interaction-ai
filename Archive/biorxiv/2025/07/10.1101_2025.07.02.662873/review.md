@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends) as provided
+- **Assessment boundary** Scientific claims, experimental design, evidence quality, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that highly conserved mRNA 3′UTRs act as RNA-based chaperones for intrinsically disordered regions (IDRs) in proteins, promoting IDR-IDR interactions and preventing IDR-folded domain interactions during translation, thereby controlling protein activity. This is supported by experiments on MYC, UTX, and JMJD3, with in-cell crosslinking mass spectrometry, in vitro RNA-binding and crosslinking assays, and a co-translational disome assay.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative form), Discussion, Methods, Figure legends (supplementary), Table descriptions
+- **Missing materials affecting confidence** Actual figures and data panels (Figures 1–7, S1–S7) are not viewable; numerical values, statistical outputs, and raw data are not directly assessable; ChIP-seq and RNA-seq quality metrics are not provided; some results are described as "data not shown"
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually novel and potentially important hypothesis: that mRNA 3′UTRs can act as chaperones for IDR-containing proteins during translation, influencing protein folding and activity. The combination of transcriptomic analysis, cell-based assays, crosslinking mass spectrometry, and in vitro biochemistry is ambitious and the data, as described, appear to support the core model. However, several key claims rest on evidence that is either indirect, described without full quantitative detail, or dependent on assumptions that are not fully tested. The manuscript would benefit from additional mechanistic dissection and clearer presentation of the data supporting the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying post-transcriptional gene regulation, mRNA function beyond translation templates, protein folding and chaperone biology, intrinsically disordered proteins, and transcriptional regulation. The work also has implications for the design of expression vectors and recombinant protein production, and for understanding diseases linked to IDR-containing proteins.
+- **Major strengths** The hypothesis is original and challenges the conventional view of 3′UTRs as primarily cis-regulatory elements for mRNA stability and localization. The combination of in-cell and in vitro approaches is powerful. The identification of a specific regulatory IDR region and the demonstration that RNA-IDR binding changes domain interaction preference in vitro is compelling. The use of multiple orthogonal assays (IF, ChIP-seq, XL-MS, disome assay) strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for central claim
+  - **Claim pointer** The claim that the KDM6B 3′UTR changes JMJD3 protein folding co-translationally, acting as an RNA-based IDR chaperone, is central to the manuscript.
+  - **Evidence pointer** Results sections "The KDM6B 3′UTR in the mRNA template changes JMJD3 protein conformation" and "Simultaneous presence of the KDM6B 3′UTR and the IDR RNA-binding region are required for co-translational effects on JMJD3 nascent chain interactions"; Figures 2, 4
+  - **Concern** The XL-MS data are described as showing "a significant, 3′UTR-dependent difference in crosslinking pattern," but the actual data are not shown. The distinction between intra-molecular and inter-molecular crosslinks is not clearly addressed, and the authors acknowledge that XL-MS cannot distinguish between these. The disome assay is a proxy for co-translational interactions but does not directly demonstrate altered folding. The in vitro experiments use isolated domains, not full-length protein, and the relevance of the observed domain interaction preference to the full-length protein in cells is inferred rather than demonstrated. The claim that the 3′UTR "chaperones" the IDR implies a direct, co-translational interaction, but the evidence for this specific mechanism is indirect.
+  - **Why it matters** The central mechanistic claim of the paper rests on this evidence. If the 3′UTR effect is indirect, or if the observed changes in crosslinking are due to altered protein-protein interactions rather than folding, the model would need substantial revision.
+  - **Resolution test** Provide the XL-MS data with clear annotation of crosslink types and statistical analysis. Perform experiments that directly test co-translational folding, e.g., using nascent chain labeling and protease sensitivity, or single-molecule FRET. Show that the 3′UTR and IDR interact directly in cells, e.g., via RNA immunoprecipitation or proximity ligation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose that "3′UTR-dependent protein folding could be a widely used mechanism for activity regulation of transcriptional regulators" and that "only the subset of 4,910 human proteins whose IDRs contain hydrophobic amino acid clusters are potentially susceptible."
+  - **Evidence pointer** Results sections "mRNAs with highly conserved 3′UTRs encode proteins with long IDRs" and "3′UTR-dependent changes in protein states occur in candidates with hydrophobic clusters in their IDRs"; Figures 1, 6, 7
+  - **Concern** The generalizability claim is based on a computational prediction (4,910 proteins) and a small number of experimentally tested candidates (MYC, UTX, JMJD3, FOXP2). The validation experiments for the ten candidates are described as "low-resolution" crosslinking western blots, and the criteria for calling a difference "significant" are not defined. The correlation between HP clusters and 3′UTR dependence is suggestive but not proven to be causal. The authors do not test whether the 3′UTR is necessary and sufficient for the activity of other IDR-containing proteins beyond the three main candidates.
+  - **Why it matters** The title and abstract imply a broad, generalizable mechanism. If the effect is limited to a few proteins, the significance is substantially reduced.
+  - **Resolution test** Expand the validation to a larger, more diverse set of IDR-containing proteins with HP clusters. Use a more quantitative readout than crosslinking western blots. Test whether the presence of HP clusters is both necessary and sufficient for 3′UTR-dependent activity regulation, e.g., by swapping HP clusters between proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic alternative explanations
+  - **Claim pointer** The authors argue against alternative models, including 3′UTR-dependent recruitment of interaction partners or enzymes, and differences in translation rate.
+  - **Evidence pointer** Results sections "Alternative models by which the KDM6B 3′UTR could result in a permanent change in protein folding" and "Not all 3′UTRs function as RNA-mediated chaperones for JMJD3"
+  - **Concern** The argument against the translation rate model is based on the observation that the IDR deletion mutants do not differ in codon distribution. However, this does not rule out 3′UTR-dependent effects on translation initiation or elongation that are independent of codon optimality. The SILAC-based interactome analysis is described as showing "no major differences," but the data are not shown, and the sensitivity of the assay is not discussed. The possibility that the 3′UTR affects mRNA localization, and that this in turn affects protein folding through local environmental factors, is not fully addressed.
+  - **Why it matters** The authors' model is one of several possible explanations for their observations. If alternative mechanisms are not rigorously excluded, the specificity of the proposed chaperone function is weakened.
+  - **Resolution test** Directly measure translation rates of the NU and U constructs, e.g., using ribosome profiling or reporter assays. Perform a more sensitive and quantitative interactome analysis. Test whether the 3′UTR effect is dependent on mRNA localization by tethering the mRNA to different cellular compartments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor and statistical reporting
+  - **Claim pointer** The manuscript makes several quantitative claims, including "nearly twice as many genes," "median decrease of less than 10%," "median decrease of 56%," and "95:5 dimer ratio."
+  - **Evidence pointer** Results sections "Including 3′UTRs in mRNA templates increases protein activity of transcriptional regulators" and "The hydrophobic region in the regulatory IDR has a repressive effect on JMJD3 protein activity"; Figures 1, 3, 4
+  - **Concern** The statistical methods are described in the Methods, but the specific statistical tests, effect sizes, and confidence intervals for the key comparisons are not reported in the Results. The number of biological replicates is not stated for many experiments. The "95:5 dimer ratio" is presented without error bars or statistical analysis. The criteria for defining "partially rescued" genes in the UTX RNA-seq analysis are not fully described.
+  - **Why it matters** Without proper statistical reporting, it is difficult to assess the robustness of the findings and to compare them with other studies.
+  - **Resolution test** Provide full statistical details for all key experiments, including exact p-values, effect sizes, confidence intervals, and numbers of replicates. Present the dimer ratio data with error bars and a statistical test. Clearly define the criteria for "partial rescue" and provide the underlying data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of definitions
+  - **Affected element** Definition of "highly conserved" 3′UTR
+  - **Evidence pointer** Results section "mRNAs with highly conserved 3′UTRs encode proteins with long IDRs"; Figure 1
+  - **Issue** The threshold for "highly conserved" (PhyloP ≥2, at least 150 nucleotides) is stated, but the rationale for these specific cutoffs is not provided. It is unclear how sensitive the results are to these parameters.
+  - **Required correction** Provide a sensitivity analysis or justify the chosen thresholds based on prior literature or data distribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** In vitro transcription of 3′UTRs
+  - **Evidence pointer** Methods section "In vitro experiments"
+  - **Issue** The methods state that 3′UTRs were in vitro transcribed, but the length and sequence context of the RNA fragments used are not specified. It is unclear whether the full-length 3′UTR or only fragments were used.
+  - **Required correction** Specify the exact RNA constructs used in the in vitro assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Role of TIAL1
+  - **Evidence pointer** Results section "RNA-mediated IDR chaperone activity for JMJD3 requires the condensate-enriched RNA-binding protein TIAL1"
+  - **Issue** The authors show that TIAL1 is required for the 3′UTR-dependent activity, but the mechanism is not explored. It is unclear whether TIAL1 is required for mRNA localization to condensates, for direct RNA-IDR bridging, or for another function.
+  - **Required correction** Discuss possible mechanisms and suggest experiments to distinguish them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Supplementary Figure legends
+  - **Issue** The figure legends are not provided in the text, making it difficult to assess the data presented.
+  - **Required correction** Include figure legends in the manuscript text.
+- **Technical failings that need to be addressed before the case is established** The central claim of co-translational chaperone activity requires direct evidence. The XL-MS data must be shown and analyzed to distinguish intra- vs. inter-molecular crosslinks. The disome assay needs validation as a readout of co-translational folding. The in vitro experiments should be extended to full-length protein. The generalizability claim requires testing on a larger panel of proteins with quantitative readouts.
+
+## Risk / unsupported claims
+- The claim that 3′UTRs act as "chaperones" for IDRs is supported by indirect evidence and is not directly demonstrated.
+- The claim that this mechanism is "widely used" is based on computational prediction and a small number of experimental examples.
+- The claim that the HP clusters are the key regulatory element is supported by mutagenesis but the mechanism by which they interfere with folding is not shown.
+- The claim that the 3′UTR effect is co-translational is supported by the disome assay, but this assay is a proxy and has not been validated for this purpose.
+- The claim that the 3′UTR does not affect protein abundance or localization is based on data that are not fully shown.
+- The claim that the 3′UTR effect is not due to translation rate is based on an indirect argument and is not fully tested.
+- The claim that TIAL1 is required for chaperone activity is shown, but the mechanism is unknown.
+- The claim that the 3′UTR effect is specific to IDR-containing proteins with HP clusters is based on a small number of examples and a computational correlation.

@@ -1,0 +1,339 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.09.29.462446",
+  "title": "Gaussian Network Model Revisited: Effects of Mutation and Ligand Binding on Protein Behavior",
+  "doi": "10.1101/2021.09.29.462446",
+  "abstract": "The coarse-grained Gaussian Network model, GNM, considers only the alpha carbons of the folded protein. Therefore it is not directly applicable to the study of mutation or ligand binding problems where atomic detail is required. This shortcoming is improved by including the local effect of heavy atoms in the neighborhood of each alpha carbon into the Kirchoff Adjacency Matrix. The presence of other atoms in the coordination shell of each alpha carbon diminishes the magnitude of fluctuations of that alpha carbon. But more importantly, it changes the graph-like connectivity structure, i.e., the Kirchoff Adjacency Matrix of the whole system which introduces amino acid specific and position specific information into the classical coarse-grained GNM which was originally modelled in analogy with phantom network theory of rubber elasticity. With this modification, it is now possible to make predictions on the effects of mutation and ligand binding on residue fluctuations and their pair-correlations. We refer to the new model as ‘all-atom GNM’. Using examples from published data we show that the all-atom GNM applied to in silico mutated proteins and to their laboratory mutated structures gives similar results. Thus, loss and gain of correlations, which may be related to loss and gain of function, may be studied by using simple in silico mutations only.",
+  "authors": [
+    "Burak Erman"
+  ],
+  "published_date": "2021-10-01",
+  "updated_date": "2021-10-01T15:01:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462446",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462446.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:44:44Z",
+        "timestamp": 1768495484412,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The coarse-grained Gaussian Network model, GNM, considers only the alpha carbons of the folded protein. Therefore it is not directly applicable to the study of mutation or ligand binding problems where atomic detail is required. This shortcoming is improved by including the local effect of heavy atoms in the neighborhood of each alpha carbon into the Kirchoff Adjacency Matrix. The presence of other atoms in the coordination shell of each alpha carbon diminishes the magnitude of fluctuations of that alpha carbon. But more importantly, it changes the graph-like connectivity structure, i.e., the Kirchoff Adjacency Matrix of the whole system which introduces amino acid specific and position specific information into the classical coarse-grained GNM which was originally modelled in analogy with phantom network theory of rubber elasticity. With this modification, it is now possible to make predictions on the effects of mutation and ligand binding on residue fluctuations and their pair-correlations. We refer to the new model as ‘all-atom GNM’. Using examples from published data we show that the all-atom GNM applied to in silico mutated proteins and to their laboratory mutated structures gives similar results. Thus, loss and gain of correlations, which may be related to loss and gain of function, may be studied by using simple in silico mutations only.</jats:p>",
+      "DOI": "10.1101/2021.09.29.462446",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2021-10-01T15:01:10Z",
+        "timestamp": 1633100470000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Gaussian Network Model Revisited: Effects of Mutation and Ligand Binding on Protein Behavior"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2496-6059",
+          "authenticated-orcid": false,
+          "given": "Burak",
+          "family": "Erman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1359-0278(97)00024-2"
+        },
+        {
+          "issue": "1666",
+          "key": "2021100404401560000_2021.09.29.462446v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "351",
+          "DOI": "10.1098/rspa.1976.0146",
+          "article-title": "Statistical thermodynamics of random networks",
+          "volume": "351",
+          "year": "1976",
+          "journal-title": "Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma00231a023"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.433846"
+        },
+        {
+          "issue": "12",
+          "key": "2021100404401560000_2021.09.29.462446v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1435",
+          "DOI": "10.1063/1.1748098",
+          "article-title": "Statistical thermodynamics of rubber elasticity",
+          "volume": "19",
+          "year": "1951",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1359-0278(97)00041-2"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.22.12500"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yeh, S.-W. ; Huang, T.-T. ; Liu, J.-W. ; Yu, S.-H. ; Shih, C.-H. ; Hwang, J.-K. ; Echave, J. , Local packing density is the main structural determinant of the rate of protein sequence evolution at site level. BioMed research international 2014, 2014.",
+          "DOI": "10.1155/2014/572409"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2071"
+        },
+        {
+          "issue": "1",
+          "key": "2021100404401560000_2021.09.29.462446v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "124",
+          "DOI": "10.1007/s11538-012-9797-y",
+          "article-title": "Coarse grained normal mode analysis vs. refined Gaussian network model for protein residue-level structural fluctuations",
+          "volume": "75",
+          "year": "2013",
+          "journal-title": "Bulletin of mathematical biology"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.435714"
+        },
+        {
+          "issue": "10",
+          "key": "2021100404401560000_2021.09.29.462446v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1607",
+          "DOI": "10.1021/ma00244a011",
+          "article-title": "Experimental Results Relating Stress and Birefringence to Strain in Poly(Dimethylsiloxane) Networks - Comparisons with Theory",
+          "volume": "16",
+          "year": "1983",
+          "journal-title": "Macromolecules"
+        },
+        {
+          "issue": "10",
+          "key": "2021100404401560000_2021.09.29.462446v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1601",
+          "DOI": "10.1021/ma00244a010",
+          "article-title": "Theory of Strain Birefringence of Amorphous Polymer Networks",
+          "volume": "16",
+          "year": "1983",
+          "journal-title": "Macromolecules"
+        },
+        {
+          "issue": "6",
+          "key": "2021100404401560000_2021.09.29.462446v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1554",
+          "DOI": "10.1021/ma60078a036",
+          "article-title": "Elastic-Modulus and Degree of Cross-Linking of Poly(Ethyl Acrylate) Networks",
+          "volume": "13",
+          "year": "1980",
+          "journal-title": "Macromolecules"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma00231a022"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/bf00276625"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1723785"
+        },
+        {
+          "issue": "11",
+          "key": "2021100404401560000_2021.09.29.462446v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "4990",
+          "DOI": "10.1063/1.431245",
+          "article-title": "An approach to rubber elasticity with internal constraints",
+          "volume": "63",
+          "year": "1975",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0016474"
+        },
+        {
+          "issue": "3",
+          "key": "2021100404401560000_2021.09.29.462446v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "729",
+          "DOI": "10.1021/acs.jpcb.0c08409",
+          "article-title": "Synchronous and Asynchronous Response in Dynamically Perturbed Proteins",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.22",
+          "unstructured": "Dassault Systèmes BIOVIA, D. S. M. E., Release 2017, San Diego: Dassault Systèmes, 2016."
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.05.047"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(65)80285-6"
+        },
+        {
+          "key": "2021100404401560000_2021.09.29.462446v1.25",
+          "unstructured": "B. Ozguney ; Erman, B. ; Haliloglu, T. , Work in progress. 2021."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.29.462446",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:13:30Z",
+        "timestamp": 1768443210000
+      },
+      "score": 59.93147,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.09.29.462446"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1101/2021.09.29.462446",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1088/1478-3975/ac50ba",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

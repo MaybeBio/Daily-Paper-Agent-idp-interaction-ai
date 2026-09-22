@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38019577",
+  "title": "Spidroins under the Influence of Alcohol: Effect of Ethanol on Secondary Structure and Molecular Level Solvation of Silk-Like Proteins.",
+  "authors": "Tolmachev, Dmitry A; Malkamaki, Maaria; Linder, Markus B; Sammalkorpi, Maria",
+  "journal": "Biomacromolecules",
+  "published_date": "2023-11-29",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用大规模MD模拟结合实验研究乙醇对蛛丝蛋白（含无序区域）二级结构与溶剂化的影响，虽涉及无序蛋白和分子机制，但聚焦溶剂效应而非PPI互作机制，方法上以物理模拟为主，对无序蛋白互作建模有部分启发。",
+  "abstract": "Future sustainable materials based on designer biomolecules require control of the solution assembly, but also interfacial interactions. Alcohol treatments of protein materials are an accessible means to this, making understanding of the process at the molecular level of seminal importance. We focus here on the influence of ethanol on spidroins, the main proteins of silk. By large-scale atomistically detailed molecular dynamics (MD) simulations and interconnected experiments, we characterize the protein aggregation, secondary structure changes, molecular level origins of them, and solvation environment changes for the proteins, as induced by ethanol as a solvation additive. The MD and circular dichoroism (CD) findings jointly show that ethanol promotes ordered structure in the protein molecules, leading to an increase of helix content and turns but also increased aggregation, as revealed by dynamic light scattering (DLS) and light microscopy. The structural changes correlate at the molecular level with increased intramolecular hydrogen bonding. The simulations reveal that polar amino acids, such as glutamine and serine, are most influenced by ethanol, whereas glycine residues are most prone to be involved in the ethanol-induced secondary structure changes. Furthermore, ethanol engages in interactions with the hydrophobic alanine-rich regions of the spidroin, significantly decreasing the hydrophobic interactions of the protein with itself and its surroundings. The protein solutes also change the microstructure of water/ethanol mixtures, essentially decreasing the level of larger local clustering. Overall, the work presents a systematic characterization of ethanol effects on a widely used, common protein type, spidroins, and generalizes the findings to other intrinsically disordered proteins by pinpointing the general features of the response. The results can aid in designing effective alcohol treatments for proteins, but also enable design and tuning of protein material properties by a relatively controllable solvation handle, the addition of ethanol.",
+  "abstract_zh": "基于设计生物分子的未来可持续材料需要控制溶液组装，同时还需调控界面相互作用。对蛋白质材料进行醇处理是实现这一目标的一种可行手段，因此从分子层面理解该过程具有至关重要的意义。我们在此聚焦于乙醇对蛛丝蛋白（spidroins，丝的主要蛋白质）的影响。通过大规模原子级详细的分子动力学（molecular dynamics, MD）模拟及相互关联的实验，我们表征了乙醇作为溶剂添加剂所诱导的蛋白质聚集、二级结构变化、这些变化的分子层面起源，以及蛋白质溶剂化环境的变化。MD和圆二色光谱（circular dichroism, CD）结果共同表明，乙醇促进蛋白质分子中有序结构的形成，导致螺旋含量和转角增加，同时动态光散射（dynamic light scattering, DLS）和光学显微镜揭示聚集程度也增加。这些结构变化在分子层面与分子内氢键增强相关。模拟揭示，极性氨基酸，如谷氨酰胺和丝氨酸，受乙醇影响最大，而甘氨酸残基最易参与乙醇诱导的二级结构变化。此外，乙醇与蛛丝蛋白中富含丙氨酸的疏水区域发生相互作用，显著降低了蛋白质与自身及周围环境的疏水相互作用。蛋白质溶质还改变了水/乙醇混合物的微观结构，实质上减少了较大局部聚集的程度。总体而言，本研究系统表征了乙醇对一种广泛使用的常见蛋白质类型——蛛丝蛋白的影响，并通过指出响应的普遍特征，将发现推广至其他固有无序蛋白质。这些结果有助于设计有效的蛋白质醇处理方法，同时也能通过相对可控的溶剂化手段——添加乙醇，来设计和调控蛋白质材料性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38019577/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38019577/",
+  "paper_page_path": "papers/pubmed/38019577/index.html"
+}

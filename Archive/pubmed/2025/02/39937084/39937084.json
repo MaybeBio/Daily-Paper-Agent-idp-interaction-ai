@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "39937084",
+    "doi": "10.7554/eLife.99068",
+    "title": "Decoding phase separation of prion-like domains through data-driven scaling laws."
+  },
+  "content": {
+    "abstract": "Proteins containing prion-like low complexity domains (PLDs) are common drivers of the formation of biomolecular condensates and are prone to misregulation due to amino acid mutations. Here, we exploit the accuracy of our residue-resolution coarse-grained model, Mpipi, to quantify the impact of amino acid mutations on the stability of 140 PLD mutants from six proteins (hnRNPA1, TDP43, FUS, EWSR1, RBM14, and TIA1). Our simulations reveal the existence of scaling laws that quantify the range of change in the critical solution temperature of PLDs as a function of the number and type of amino acid sequence mutations. These rules are consistent with the physicochemical properties of the mutations and extend across the entire family tested, suggesting that scaling laws can be used as tools to predict changes in the stability of PLD condensates. Our work offers a quantitative lens into how the emergent behavior of PLD solutions vary in response to physicochemical changes of single PLD molecules.",
+    "keywords": [
+      "biomolecular condensates",
+      "critical temperature",
+      "disordered proteins",
+      "none",
+      "phase separation",
+      "physics of living systems",
+      "prion-like low complexity domains",
+      "scaling laws"
+    ],
+    "mesh_terms": [
+      "*Prions/chemistry/genetics",
+      "Protein Domains",
+      "Mutation",
+      "Protein Stability",
+      "Humans",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maristany, M Julia",
+        "Gonzalez, Anne Aguirre",
+        "Espinosa, Jorge R",
+        "Huertas, Jan",
+        "Collepardo-Guevara, Rosana",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Maristany MJ",
+        "Gonzalez AA",
+        "Espinosa JR",
+        "Huertas J",
+        "Collepardo-Guevara R",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8875-9225",
+        "ORCID: 0000-0001-9530-2658",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Madrid, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, United States.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [
+          "0009-0009-8875-9225"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Anne Aguirre",
+        "short_name": "Gonzalez AA",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, United States.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Feb 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/12 12:25",
+    "fetched_at": "2026-09-21 15:40:18"
+  },
+  "links": {
+    "cites": [
+      "42231907",
+      "42032061",
+      "41645509",
+      "41446170",
+      "40985078",
+      "40661456",
+      "40659554",
+      "40650026",
+      "40524024",
+      "40403066",
+      "40375868",
+      "40196628",
+      "40193474",
+      "40131954",
+      "40028356",
+      "39804953",
+      "38895487",
+      "38798623"
+    ],
+    "refs": [
+      "38445729",
+      "38297184",
+      "37684240",
+      "37194953",
+      "36443315",
+      "36227469",
+      "36181270",
+      "35795820",
+      "35675815",
+      "35641495",
+      "35512095",
+      "35119946",
+      "35001622",
+      "34965250",
+      "34931046",
+      "34863777",
+      "34784177",
+      "34716273",
+      "34598580",
+      "34356638",
+      "34271007",
+      "34233002",
+      "34222258",
+      "33934416",
+      "33912591",
+      "33877835",
+      "33865811",
+      "33672806",
+      "33619090",
+      "33597515",
+      "33515602",
+      "33453922",
+      "33303613",
+      "33212590",
+      "33139563",
+      "33078839",
+      "33051572",
+      "33049211",
+      "33010236",
+      "32934220",
+      "32857852",
+      "32482873",
+      "32359423",
+      "32227994",
+      "32048997",
+      "32029630",
+      "32004090",
+      "31839263",
+      "31756104",
+      "31681941",
+      "31444270",
+      "31270472",
+      "31266957",
+      "31237369",
+      "30682370",
+      "30679483",
+      "30481590",
+      "30471685",
+      "30045872",
+      "29961577",
+      "29786080",
+      "29677515",
+      "29650702",
+      "29610493",
+      "29517898",
+      "29424691",
+      "29364893",
+      "29358076",
+      "29301985",
+      "29273772",
+      "29091028",
+      "28942918",
+      "28935776",
+      "28894006",
+      "28636597",
+      "28225081",
+      "27914198",
+      "27807972",
+      "27374333",
+      "27003292",
+      "26526393",
+      "26412307",
+      "26406374",
+      "26317470",
+      "26283796",
+      "26015579",
+      "25747659",
+      "24840975",
+      "23901099",
+      "23629963",
+      "23455423",
+      "22984159",
+      "22454397",
+      "22398450",
+      "19303844",
+      "18929508",
+      "16916929",
+      "12392418",
+      "11095185"
+    ],
+    "similar": [
+      "39937084",
+      "34784177",
+      "38326345",
+      "34018649",
+      "37090622",
+      "39804953",
+      "26283796",
+      "36993212",
+      "33081049",
+      "33307683",
+      "34102212",
+      "37684240",
+      "29961577",
+      "23912807",
+      "40172489",
+      "39109535",
+      "37205474",
+      "34129687",
+      "33513942",
+      "36883003",
+      "37952770",
+      "34762868",
+      "37155880",
+      "37194953",
+      "35727989",
+      "39004265",
+      "34648275",
+      "37252985",
+      "37013374",
+      "40178008",
+      "34887356",
+      "40028356",
+      "39276934",
+      "37130459",
+      "33159853",
+      "39386612",
+      "39827079",
+      "39928699",
+      "37464880",
+      "36595668",
+      "34862761",
+      "38181073",
+      "38987300",
+      "40291420",
+      "36979462",
+      "37668016",
+      "32029630",
+      "35795820",
+      "40098319",
+      "39826709",
+      "38029395",
+      "24352465",
+      "36112647",
+      "33706787",
+      "39476948",
+      "31197139",
+      "38999934",
+      "38798623",
+      "38848869",
+      "35001622",
+      "37386790",
+      "36004748",
+      "36273579",
+      "38526948",
+      "37720552",
+      "30005071",
+      "32426986",
+      "37549257",
+      "39605385",
+      "34737230",
+      "36829460",
+      "38464104",
+      "37293933",
+      "38804888",
+      "33934561",
+      "37586369",
+      "36638831",
+      "38941236",
+      "39005320",
+      "36758221",
+      "36819870",
+      "29784771",
+      "34304571",
+      "37470705",
+      "37486948",
+      "40291709",
+      "40321778",
+      "36227474",
+      "39326491",
+      "34090478",
+      "33558506",
+      "35809564",
+      "40102453",
+      "36513655",
+      "37695778",
+      "26100899",
+      "39271032",
+      "39537752",
+      "37856873",
+      "39319382"
+    ],
+    "review": [
+      "39937084",
+      "40172489",
+      "33513942",
+      "40178008",
+      "39827079",
+      "37464880",
+      "38029395",
+      "37720552",
+      "33934561"
+    ],
+    "pmc": [
+      "11820118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39937084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1645",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.99068",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

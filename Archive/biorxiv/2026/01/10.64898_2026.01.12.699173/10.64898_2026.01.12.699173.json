@@ -1,0 +1,633 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.12.699173",
+  "title": "Protein-peptide Interaction Representation Learning with Pretrained Language Models",
+  "doi": "10.64898/2026.01.12.699173",
+  "abstract": "Protein-peptide Interactions (PpIs) paly essential roles in diverse cellular processes, yet their systematic identification remains challenging due to the limited availability of experimentally annotated protein-peptide interaction data. To address this challenge, we present PepInter, a sequence-based Deep Learning (DL) framework that leverages large-scale pretraining on structurally derived pseudo protein-peptide pairs to learn interaction-relevant representations. Specifically, energy-dominant peptide fragments are extracted from protein complexes curated from non-redundant Protein Data Bank (PDB) structures, enabling the construction of pseudo protein-peptide interaction pairs that capture interface interaction patterns shared with canonical protein-protein interactions. This strategy allows the model to acquire interaction-aware priors in the absence of large-scale annotated protein-peptide complex datasets. Built upon the ESM-Cambrian (ESMC) architecture, PepInter adopts a two-stage pretraining strategy. In the first stage, masked language modeling is used to learn general protein sequence representations. In the second stage, the model is further trained to predict Rosetta-derived energetic scores, explicitly incorporating structural interaction signals into the learned embeddings. Following pretraining, PepInter is fine-tuned for both protein-peptide interaction classification and peptide bioactivity regression tasks. Across multiple benchmark datasets, including protein-peptide binding affinity prediction, PepInter consistently outperforms existing baseline methods and demonstrates strong generalization in identifying biologically meaningful PpIs. Case studies further highlight its ability to recover known interaction patterns and predict novel protein-peptide interactions. Together, these results establish PepInter as a scalable and effective framework for protein-peptide interaction prediction, with strong potential to accelerate peptide-based drug discovery.",
+  "authors": [
+    "Xinke Zhan",
+    "Silong Zhai",
+    "Tiantao Liu",
+    "Shaolong Lin",
+    "Tao Bi",
+    "Bingwen Zhu",
+    "Shirley W.I. Siu"
+  ],
+  "published_date": "2026-01-13",
+  "updated_date": "2026-01-13T22:20:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699173",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699173.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            5
+          ]
+        ],
+        "date-time": "2026-04-05T00:46:39Z",
+        "timestamp": 1775349999584,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                13
+              ]
+            ],
+            "date-time": "2026-01-13T00:00:00Z",
+            "timestamp": 1768262400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-peptide Interactions (PpIs) paly essential roles in diverse cellular processes, yet their systematic identification remains challenging due to the limited availability of experimentally annotated protein-peptide interaction data. To address this challenge, we present PepInter, a sequence-based Deep Learning (DL) framework that leverages large-scale pretraining on structurally derived pseudo protein-peptide pairs to learn interaction-relevant representations. Specifically, energy-dominant peptide fragments are extracted from protein complexes curated from non-redundant Protein Data Bank (PDB) structures, enabling the construction of pseudo protein-peptide interaction pairs that capture interface interaction patterns shared with canonical protein-protein interactions. This strategy allows the model to acquire interaction-aware priors in the absence of large-scale annotated protein-peptide complex datasets. Built upon the ESM-Cambrian (ESMC) architecture, PepInter adopts a two-stage pretraining strategy. In the first stage, masked language modeling is used to learn general protein sequence representations. In the second stage, the model is further trained to predict Rosetta-derived energetic scores, explicitly incorporating structural interaction signals into the learned embeddings. Following pretraining, PepInter is fine-tuned for both protein-peptide interaction classification and peptide bioactivity regression tasks. Across multiple benchmark datasets, including protein-peptide binding affinity prediction, PepInter consistently outperforms existing baseline methods and demonstrates strong generalization in identifying biologically meaningful PpIs. Case studies further highlight its ability to recover known interaction patterns and predict novel protein-peptide interactions. Together, these results establish PepInter as a scalable and effective framework for protein-peptide interaction prediction, with strong potential to accelerate peptide-based drug discovery.</jats:p>",
+      "DOI": "10.64898/2026.01.12.699173",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2026-01-13T22:20:11Z",
+        "timestamp": 1768342811000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Protein-peptide Interaction Representation Learning with Pretrained Language Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Xinke",
+          "family": "Zhan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Silong",
+          "family": "Zhai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tiantao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shaolong",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tao",
+          "family": "Bi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Research Center of Integrated Traditional Chinese and Western Medicine, Southwest Medical University, Sichuan, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bingwen",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Infection and Immunity, Henan Academy of Innovations in Medical Science, Zhengzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shirley W.I.",
+          "family": "Siu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macau SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2008.06.004"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.2",
+          "first-page": "631",
+          "article-title": "Role of helicity of α-helical antimicrobial peptides to improve specificity. Prot",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1038/s42004-024-01147-w",
+          "article-title": "Chemoenzymatic tandem cyclization for the facile synthesis of bicyclic peptides",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Comm. Chem"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "8182",
+          "DOI": "10.1039/D4FO02083A",
+          "article-title": "A review of the biological activities of lactoferrin: Mechanisms and potential applications",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Food Funct"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "596",
+          "DOI": "10.1038/s41477-018-0212-z",
+          "article-title": "The dynamics of root cap sloughing in Arabidopsis is regulated by peptide signalling",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "Nat. Plants"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1589"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1038/s41592-019-0687-1",
+          "article-title": "Biophysical prediction of protein–peptide interactions and signaling networks using machine learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nat. Met"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c00602"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "3814",
+          "DOI": "10.1021/acs.jcim.1c00475",
+          "article-title": "Protein-peptide binding site detection using 3D convolutional neural networks",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "3",
+          "key": "2026020510425130000_2026.01.12.699173v1.10",
+          "first-page": "2029",
+          "article-title": "SPPPred: sequence-based protein-peptide binding residue prediction using genetic programming and ensemble learning",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "IEEE ACM. Trans. Comput. Bi"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky357"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr431"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx335"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx614"
+        },
+        {
+          "issue": "4",
+          "key": "2026020510425130000_2026.01.12.699173v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1016/j.gpb.2013.03.002",
+          "article-title": "PepBind: a comprehensive database and computational tool for analysis of protein-peptide interactions",
+          "volume": "11",
+          "year": "2013",
+          "journal-title": "Genom. Proteom. Bioinform"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "4267",
+          "DOI": "10.1038/s41598-019-38498-7",
+          "article-title": "Predicting protein-peptide interaction sites using distant protein complexes as structural templates",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Sci. rep"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.17",
+          "first-page": "15385",
+          "article-title": "Protein language pragmatic analysis and progressive transfer learning for profiling peptide–protein interactions",
+          "volume": "8",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Neural Networks Learn. Syst"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.18",
+          "first-page": "1",
+          "article-title": "PepGPL: A Multi-Task Framework for Identifying Peptide-Protein Interactions and Corresponding Binding Residues",
+          "volume": "22",
+          "year": "2024",
+          "journal-title": "International Conference on Bioinformatics, Computational Biology and Health Informatics"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "133811",
+          "DOI": "10.1016/j.ijbiomac.2024.133811",
+          "article-title": "A deep attention model for wide-genome protein-peptide binding affinity prediction at a sequence level",
+          "volume": "276",
+          "year": "2024",
+          "journal-title": "Int. J. Biol. Macromol"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-orgpsych-032414-111335"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.21",
+          "unstructured": "Koroteev, M.V .; BERT: a review of applications in natural language processing and understanding. arXiv preprint arXiv:2103.11943, 2021."
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.22",
+          "first-page": "7112",
+          "article-title": "ProtTrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, X. ; Chen, Z. ; Yu, D. ; Jiang, Q. ; Chen, Z. ; Yan, B. ; Qin, J. ; Liu, Y. ; Wang, J . TPepPro: a deep learning model for predicting peptide-protein interactions. Bioinf. 2025, 41, btae708.",
+          "DOI": "10.1093/bioinformatics/btae708"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.24",
+          "first-page": "952",
+          "article-title": "Druggable protein–protein interactions–from hot spots to hot segments",
+          "volume": "17",
+          "year": "2013",
+          "journal-title": "Curr. Opin. Biotechnol"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.25",
+          "first-page": "W536",
+          "article-title": "Peptiderive server: derive peptide inhibitors from protein–protein interactions",
+          "volume": "4",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "W264",
+          "DOI": "10.1093/nar/gkae278",
+          "article-title": "PPI3D: a web server for searching, analyzing and modeling protein-protein, protein-peptide and protein-nucleic acid interactions",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2406407121"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty635"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "3955",
+          "DOI": "10.1021/acs.jcim.4c02394",
+          "article-title": "Prediction of Umami Peptides Based on a Large Language Model of Proteins",
+          "volume": "65",
+          "year": "2025",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lei, Y. ; Li, S. ; Liu, Z. ; Wan, F. ; Tian, T. ; Li, S. ; Zhao, D. ; Zeng, J . A Deep-Learning Framework for Multi-Level Peptide-Protein Interaction Prediction. Nat. Commun. 2021, 12.",
+          "DOI": "10.1038/s41467-021-25772-4"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.34",
+          "unstructured": "ESM Team . ESM Cambrian : Revealing the mysteries of proteins with unsupervised learning. EvolutionaryScale Website, 2024, https://evolutionaryscale.ai/blog/esm-cambrian."
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, T.Y. ; Goyal, P. ; Girshick, R. ; He, K. ; Dollár, P . Focal loss for dense object detection. IEEE Int. Conf. Comput. Vis. 2017, 2980–2988.",
+          "DOI": "10.1109/ICCV.2017.324"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Makansi, O. ; Ilg, E. ; Cicek, O. ; Brox, T . Overcoming limitations of mixture density networks: A sampling and fitting framework for multimodal future prediction. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit. 2019, 7144–7153.",
+          "DOI": "10.1109/CVPR.2019.00731"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.37",
+          "unstructured": "Loshchilov, I. ; Hutter, F. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101. 2017."
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, T . XGBoost: A Scalable Tree Boosting System. Cornell University, 2016.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "2994",
+          "DOI": "10.1039/D5DD00311C",
+          "article-title": "MAARDTI: a multi-perspective attention aggregation model for the prediction of drug–target interactions",
+          "volume": "4",
+          "year": "2025",
+          "journal-title": "Digi. Discov"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab715"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2579",
+          "DOI": "10.1038/s41598-025-86918-8",
+          "article-title": "Predicting drug and target interaction with dilated reparameterize convolution",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad778",
+          "DOI": "10.1093/bioinformatics/btad778",
+          "article-title": "TEFDTA: a transformer encoder and fingerprint representation combined prediction method for bonded and non-bonded drug-target affinities",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinfor"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.44",
+          "first-page": "852",
+          "article-title": "AttentionDTA: Drug–target binding affinity prediction by sequence-based deep learning with attention mechanism",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/endrev/bnab005"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd3777"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1234",
+          "DOI": "10.1210/me.2013-1116",
+          "article-title": "Minireview: signal bias, allosterism, and polymorphic variation at the GLP-1R: implications for drug discovery",
+          "volume": "27",
+          "year": "2013",
+          "journal-title": "Mole. Endocrinol"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202200372",
+          "DOI": "10.1002/cbic.202200372",
+          "article-title": "Synthetic α-Helical Peptides as Potential Inhibitors of the ACE2 SARS-CoV-2 Interaction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "ChemBioChem"
+        },
+        {
+          "key": "2026020510425130000_2026.01.12.699173v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "104678",
+          "DOI": "10.1016/j.fbio.2024.104678",
+          "article-title": "Identification and Molecular Mechanism of Novel ACE Inhibitory Peptides from Broccoli Protein",
+          "volume": "61",
+          "year": "2024",
+          "journal-title": "Food Biosci"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.12.699173",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T18:42:59Z",
+        "timestamp": 1770316979000
+      },
+      "score": 53.14032,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.12.699173"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.64898/2026.01.12.699173",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

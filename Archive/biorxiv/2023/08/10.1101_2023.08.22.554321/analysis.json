@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.22.554321",
+  "title": "Employing Machine Learning Techniques to Detect Protein-Protein Interaction: A Survey, Experimental, and Comparative Evaluations",
+  "authors": "Kamal Taha",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-23",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该综述系统梳理并实验比较了用于PPI检测的机器学习技术，但对象不涉及无序蛋白/IDR/相分离，且侧重算法分类与性能评估而非互作机制建模，对课题仅有方法层面的间接参考价值。",
+  "abstract": "This survey paper provides an in-depth analysis of various machine learning techniques and algorithms that are utilized in the detection of PPI (Protein-Protein Interactions). For every technique examined, the paper evaluates its efficiency, shortcomings, possibilities for enhancement, and outlook for the future. A major challenge in current survey papers focusing on machine learning algorithms for PPI identification is the successful categorization of these algorithms. To overcome this challenge, the paper introduces a novel hierarchical taxonomy that organizes algorithms into more intricate categories and distinct techniques. The proposed taxonomy is constructed on a four-tier structure, beginning with the broad methodology category, and ending with specific sub-techniques. This structure facilitates a more systematic and exhaustive categorization of algorithms, aiding researchers in grasping the connections between different algorithms and techniques. Included in the paper are both empirical and experimental assessments to classify the various techniques. The empirical assessment judges the techniques according to four standards. The experimental evaluations carry out the following rankings: (1) the algorithms that employ the same specific sub-technique, (2) the different sub-techniques that employ the same technique, (3) the different techniques that employ the same methodology sub-category, and (4) the different methodology sub-categories within the same methodology category. By merging the new methodological taxonomy, empirical analyses, and experimental evaluations, the paper provides a multifaceted and thorough comprehension of the machine learning methods and algorithms for PPI detection. This synthesis helps researchers make well-informed decisions. In its conclusion, the paper furnishes crucial insights into the future possibilities of machine learning techniques for PPI identification, underscoring potential advancements and areas ripe for continued exploration and development.",
+  "abstract_zh": "本综述论文深入分析了用于检测蛋白质-蛋白质相互作用（PPI）的各种机器学习技术与算法。针对每种被考察的技术，论文评估了其效率、缺陷、改进潜力及未来前景。当前聚焦于PPI识别的机器学习算法的综述论文面临的一个主要挑战是这些算法的成功分类。为克服此挑战，论文引入了一种新颖的层次化分类体系，将算法组织为更复杂的类别和独特的技术。所提出的分类体系构建于四层结构之上，从广泛的方法论类别开始，直至具体的子技术。此结构促进了更系统化和详尽的算法分类，帮助研究者理解不同算法与技术之间的联系。论文中包含了实证和实验评估，以对各类技术进行分类。实证评估依据四项标准评判技术。实验评估执行以下排名：（1）采用相同具体子技术的算法，（2）采用相同技术的不同子技术，（3）采用相同方法论子类别的不同技术，以及（4）同一方法论类别内的不同方法论子类别。通过融合新的方法论分类体系、实证分析和实验评估，论文为PPI检测的机器学习方法和算法提供了多方面的全面理解。这种综合有助于研究者做出明智决策。在结论部分，论文提供了关于PPI识别机器学习技术未来可能性的关键见解，强调了潜在的进展和有待持续探索与发展的领域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.22.554321",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.22.554321",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.22.554321/index.html"
+}

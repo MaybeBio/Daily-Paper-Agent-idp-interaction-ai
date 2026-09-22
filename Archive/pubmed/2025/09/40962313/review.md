@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors present CGBack, a denoising diffusion probabilistic model-based framework for backmapping coarse-grained (CG) molecular representations to all-atom structures. They claim accurate reconstruction across diverse protein systems, from small to large scales, including single-chain and multichain systems and densely packed intrinsically disordered proteins in condensates. They further claim that CGBack outperforms conventional pipelines in preserving stereochemistry and avoiding high-energy configurations, and that it will enable more efficient multiscale simulation workflows.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, quantitative results, or comparisons are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, quantitative performance metrics, benchmark definitions, comparison baselines, model architecture details, training data description, hyperparameters, stereochemistry evaluation methodology, energy validation protocols, and code or data availability statements.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the multiscale modeling community, addressing a recognized bottleneck in CG-to-atomistic reconstruction. The proposed method, CGBack, is positioned as a general-purpose backmapping tool with demonstrated applicability to challenging systems such as multichain assemblies and condensates. However, the abstract provides no quantitative evidence, no methodological detail, and no comparison to existing approaches. The core claims of accuracy, stereochemical preservation, and energy quality are entirely unsupported in the supplied material. The work may be of interest, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists who use CG simulations for large biomolecular systems and require reliable atomistic reconstruction for downstream analysis. Researchers developing multiscale simulation pipelines, particularly those working on intrinsically disordered proteins, protein condensates, and large multichannel assemblies, would find a robust backmapping tool valuable. Method developers in the machine learning for molecular systems community would also be interested in the diffusion-based approach.
+- **Major strengths** The problem addressed is well-recognized and important. The proposed framework targets a clear gap in existing backmapping methods, namely scalability to large and complex systems. The inclusion of both backmapping and refinement procedures suggests a thoughtful pipeline design. The demonstrated scope, including multichain systems and condensates, indicates ambition beyond typical benchmarks.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "CGBack is capable of accurately backmapping both single-chain and multichain molecular systems, including densely packed intrinsically disordered proteins in condensates."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract asserts accurate backmapping across diverse systems but provides no quantitative metrics, no error analysis, and no comparison to reference structures or existing methods. Accuracy is a central claim and cannot be evaluated without numerical results.  
+  - **Why it matters** Without quantitative validation, the claim of accuracy is unsubstantiated. The reader cannot assess whether the method meets the standards required for practical use in multiscale pipelines.  
+  - **Resolution test** Provide quantitative accuracy metrics, such as RMSD or similar measures, for each system class, with comparisons to established backmapping methods and to the original atomistic trajectories.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "CGBack consists of backmapping and refinement procedures and accurately recovers atomic coordinates."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe the model architecture, training data, feature representation, or the refinement procedure. Without these details, the technical soundness of the approach cannot be assessed.  
+  - **Why it matters** Reproducibility and technical evaluation require knowledge of the model design and training protocol. The absence of this information prevents the reader from understanding how the method works and whether it is likely to generalize.  
+  - **Resolution test** Provide a full methods section describing the diffusion model architecture, input and output representations, training set composition, and the refinement algorithm.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** "Conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract implies that CGBack addresses these limitations but provides no data on stereochemical correctness, energy distributions, or minimization requirements for either CGBack or conventional methods.  
+  - **Why it matters** The stated motivation for the method rests on these limitations. Without comparative evidence, the reader cannot determine whether CGBack actually overcomes them.  
+  - **Resolution test** Provide quantitative comparisons of stereochemical validity, energy distributions, and minimization steps required for CGBack versus at least one conventional backmapping method.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "CGBack can be a powerful tool for multiscale molecular simulation pipelines" and "will enable more efficient workflows for protein modeling, as well as for other biomolecules across different CG models."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract claims applicability to other biomolecules and different CG models, but only protein systems are mentioned. No evidence is provided for transferability to non-protein molecules or to CG models other than the one used in this work.  
+  - **Why it matters** The stated scope of the tool extends beyond the demonstrated systems. Without evidence, these claims are speculative and may mislead potential users.  
+  - **Resolution test** Provide results for at least one non-protein system and for at least one additional CG model, or temper the claims to match the demonstrated scope.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "backmapping" is used without definition. While common in the field, a brief clarification would aid nonspecialist readers.  
+  - **Required correction** Define backmapping in the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope clarity  
+  - **Affected element** System description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions "diverse protein systems" and "densely packed intrinsically disordered proteins in condensates" but does not specify the number of systems, their sizes, or the range of complexity.  
+  - **Required correction** Provide a brief summary of the benchmark systems, including size range and complexity.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Availability  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** No mention of code or data availability. For a method paper, this is an important omission.  
+  - **Required correction** State whether code and training data will be made available, and under what license.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish the core claims of accuracy, technical soundness, advantage over existing methods, or generalizability.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of diffusion models to backmapping is not entirely new, but the claimed scope, particularly for large multichain systems and condensates, may represent a novel contribution. This cannot be fully assessed from the abstract.  
+  - Scientific importance: The problem is important and timely. If the claims are substantiated, the work would be of significant value to the multiscale modeling community.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning, biophysics, and computational chemistry. The abstract is written in a way that is accessible to these communities, though nonspecialists may need more context.  
+  - Technical soundness: Not assessable from the abstract. No methodological or validation details are provided.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms such as "backmapping" and "coarse-grained" are used without definition, which may hinder readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the core claims are unsupported. A decision would require the full manuscript with quantitative results, methodological detail, and comparisons to existing methods. If the full paper provides this evidence, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim of accurate backmapping across diverse systems is unsupported without quantitative metrics.
+- The claim that CGBack addresses limitations of conventional pipelines is unsupported without comparative data.
+- The claim of applicability to other biomolecules and different CG models is speculative and not supported by the abstract.
+- The overall utility of CGBack as a general-purpose tool cannot be assessed from the supplied material.

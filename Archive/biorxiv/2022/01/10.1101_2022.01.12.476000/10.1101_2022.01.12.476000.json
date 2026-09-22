@@ -1,0 +1,360 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.01.12.476000",
+  "title": "Computational Prediction of Heteromeric Protein Complex Disassembly Order with Hybrid Monte Carlo/Molecular Dynamics Simulation",
+  "doi": "10.1101/2022.01.12.476000",
+  "abstract": "The physicochemical entity of biological phenomenon in the cell is a network of biochemical reactions and the activity of such a network is regulated by multimeric protein complexes. Mass spectroscopy (MS) experiments and multimeric protein docking simulations based on structural bioinformatics techniques have revealed the molecular-level stoichiometry and static configuration of subcomplexes in their bound forms, then revealing the subcomplex populations and formation orders. Meanwhile, these methodologies are not designed to straightforwardly examine temporal dynamics of multimeric protein assembly and disassembly, essential physicochemical properties to understand functional expression mechanisms of proteins in the biological environment. To address the problem, we had developed an atomistic simulation in the framework of the hybrid Monte Carlo/Molecular Dynamics (hMC/MD) method and succeeded in observing disassembly of homomeric pentamer of the serum amyloid P component protein in experimentally consistent order. In this study, we improved the hMC/MD method to examine disassembly processes of the tryptophan synthase tetramer, a paradigmatic heteromeric protein complex in MS studies. We employed the likelihood-based selection scheme to determine a dissociation-prone subunit pair at each hMC/MD simulation cycle and achieved highly reliable predictions of the disassembly orders with the success rate over 0.9 without a priori knowledge of the MS experiments and structural bioinformatics simulations. We similarly succeeded in reliable predictions for the other three tetrameric protein complexes. These achievements indicate the potential availability of our hMC/MD approach as the general purpose methodology to obtain microscopic and physicochemical insights into multimeric protein complex formation.",
+  "authors": [
+    "Ikuo Kurisaki",
+    "Shigenori Tanaka"
+  ],
+  "published_date": "2022-01-12",
+  "updated_date": "2022-01-12T19:05:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.01.12.476000",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.01.12.476000.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:30:48Z",
+        "timestamp": 1768498248528,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The physicochemical entity of biological phenomenon in the cell is a network of biochemical reactions and the activity of such a network is regulated by multimeric protein complexes. Mass spectroscopy (MS) experiments and multimeric protein docking simulations based on structural bioinformatics techniques have revealed the molecular-level stoichiometry and static configuration of subcomplexes in their bound forms, then revealing the subcomplex populations and formation orders. Meanwhile, these methodologies are not designed to straightforwardly examine temporal dynamics of multimeric protein assembly and disassembly, essential physicochemical properties to understand functional expression mechanisms of proteins in the biological environment. To address the problem, we had developed an atomistic simulation in the framework of the hybrid Monte Carlo/Molecular Dynamics (hMC/MD) method and succeeded in observing disassembly of homomeric pentamer of the serum amyloid P component protein in experimentally consistent order. In this study, we improved the hMC/MD method to examine disassembly processes of the tryptophan synthase tetramer, a paradigmatic heteromeric protein complex in MS studies. We employed the likelihood-based selection scheme to determine a dissociation-prone subunit pair at each hMC/MD simulation cycle and achieved highly reliable predictions of the disassembly orders with the success rate over 0.9 without\n                  <jats:italic>a priori</jats:italic>\n                  knowledge of the MS experiments and structural bioinformatics simulations. We similarly succeeded in reliable predictions for the other three tetrameric protein complexes. These achievements indicate the potential availability of our hMC/MD approach as the general purpose methodology to obtain microscopic and physicochemical insights into multimeric protein complex formation.\n                </jats:p>",
+      "DOI": "10.1101/2022.01.12.476000",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ],
+        "date-time": "2022-01-12T19:05:16Z",
+        "timestamp": 1642014316000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Computational Prediction of Heteromeric Protein Complex Disassembly Order with Hybrid Monte Carlo/Molecular Dynamics Simulation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4519-1093",
+          "authenticated-orcid": false,
+          "given": "Ikuo",
+          "family": "Kurisaki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6659-2788",
+          "authenticated-orcid": false,
+          "given": "Shigenori",
+          "family": "Tanaka",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-04853-x"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005937",
+          "DOI": "10.1371/journal.pcbi.1005937",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "Plos Comput. Biol."
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1016/j.sbi.2017.04.006",
+          "volume": "44",
+          "year": "2017",
+          "journal-title": "Curr. Opin. Struc. Biol."
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.201694818"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.02.044"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.06.004"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaf6846"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "6176",
+          "DOI": "10.1021/acs.jpclett.0c01487",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "J. Phys. Chem. Lett."
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "4749",
+          "DOI": "10.1021/acsomega.0c05579",
+          "volume": "6",
+          "year": "2021",
+          "journal-title": "ACS Omega"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2012.07.001"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0520479"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi101761e"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi400795e"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.111150298"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0108767307035623"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-09654-8"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky427"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.19"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.265.5176.1219"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp8001614"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp902584c"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.24",
+          "unstructured": "D. A. Case , D. S. Cerutti , T. E. Cheatham, III , T. A. Darden , R. E. Duke , T. J. Giese , H. Gohlke , A. W. Goetz , D. Greene , N. Homeyer , S. Izadi , A. Kovalenko , T. S. Lee , S. LeGrand , P. Li , C. Lin , J. Liu , T. Luchko , R. Luo , D. Mermelstein , K. M. Merz , G. Monard , H. Nguyen , I. Omelyan , A. Onufriev , F. Pan , R. Qi , D. R. Roe , A. Roitberg , C. Sagui , C. Simmerling , W. M. Botello-Smith , J. Swails , R. C. Walker , J. Wang , R. M. Wolf , X. Wu , L. Xiao , D. M. York and P. A. Kollman , Amber 17, University of California, San Francisco, 2017."
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2012.09.022"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20130"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp060770i"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. D. Lee and E.-J. Wagenmakers , Bayesian cognitive modeling : a practical course, Cambridge University Press, Cambridge, 2013.",
+          "DOI": "10.1017/CBO9781139087759"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008929526011"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.30",
+          "unstructured": "R Core Team, R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria, 2019."
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1432-1033.1993.tb17679.x"
+        },
+        {
+          "key": "2022011905050626000_2022.01.12.476000v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi962794t"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.01.12.476000",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:34:12Z",
+        "timestamp": 1768444452000
+      },
+      "score": 57.91568,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.01.12.476000"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.1101/2022.01.12.476000",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D2CP00267A",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

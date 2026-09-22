@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.02.597011",
+  "title": "A CRISPR homing screen finds a chloroquine resistance transporter-like protein of the Plasmodium oocyst essential for mosquito transmission of malaria",
+  "authors": "Balakrishnan A; Hunziker M; Tiwary P; Pandey V; Drew D; Billker O",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-02",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该文是疟原虫蚊期阶段的CRISPR基因筛选研究，对象为寄生虫蛋白，不涉及无序蛋白/IDR/相分离，也无PPI机制建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>SUMMARY</h4> Genetic screens with barcoded Plasmo GEM vectors have identified thousands of Plasmodium gene functions in haploid blood stages, gametocytes and liver stages. However, the formation of diploid cells by fertilisation has hindered the use of genetic screens to investigate vector-parasite interactions during the mosquito stages of the parasite. In this study, we developed a scalable genetic system that uses barcoded gene targeting vectors equipped with a CRISPR-mediated homing mechanism to generate homozygous loss-of-function mutants to reveal gene functions in the functionally diploid life cycle stages. In this system, a knockout vector additionally expressing a gRNA for its target is integrated into one of the parental alleles and directs Cas9 to the intact allele after fertilisation, leading to its disruption. We find that this homing strategy is 90% effective in the oocyst, resulting in the generation of homozygous genotypes. A pilot screen reveals that PBANKA_0916000 encodes a chloroquine resistance transporter-like protein, CRTL, essential for oocyst growth and sporogony. The data point to an unexpected importance for the transmission of malaria of the poorly understood digestive vacuole of the oocyst that contains hemozoin crystals. The new screening strategy provides a method to discover systematically and at scale the essential malaria transmission genes whose first essential functions are after fertilisation in the bloodmeal, enabling their potential as targets for transmission-blocking interventions to be assessed.",
+  "abstract_zh": "<h4>摘要</h4> 利用带有条形码的Plasmo GEM载体的遗传筛选已在单倍体血液阶段、配子体及肝阶段鉴定出数千个疟原虫基因功能。然而，受精形成二倍体细胞的过程阻碍了遗传筛选在寄生虫蚊期阶段研究载体-寄生虫相互作用的运用。在本研究中，我们开发了一种可扩展的遗传系统，该系统利用配备CRISPR介导的归巢机制的条形码基因靶向载体，生成纯合功能缺失突变体，以揭示功能性二倍体生命周期阶段的基因功能。在该系统中，一个额外表达针对其靶标的gRNA的敲除载体被整合到亲本等位基因之一中，并在受精后引导Cas9作用于完整等位基因，导致其破坏。我们发现，这种归巢策略在卵囊中的有效性达90%，从而产生纯合基因型。一项初步筛选揭示，PBANKA_0916000编码一种氯喹抗性转运蛋白样蛋白CRTL，该蛋白对卵囊生长和孢子生殖至关重要。数据表明，含有疟色素晶体的卵囊消化泡在疟疾传播中具有出乎意料的重要性，而这一结构此前了解甚少。这一新筛选策略提供了一种方法，可系统且大规模地发现那些首次必需功能发生在血餐后受精阶段的疟疾传播必需基因，从而评估其作为传播阻断干预靶点的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597011",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597011",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.02.597011/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42014948",
+  "title": "Generative Machine Learning of Conformational Ensembles of Intrinsically Disordered Proteins: Progress and Opportunities.",
+  "authors": "Roy, Irawati; Mondal, Jagannath",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-04-22",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述聚焦生成式机器学习在无序蛋白构象系综生成与分析方法上的进展，虽未直接研究PPI，但为IDP构象采样与实验数据融合提供了可迁移的建模思路，对IDP介导互作的机制建模有重要启发。",
+  "abstract": "Machine-learning methods are increasingly shaping how conformational ensembles of intrinsically disordered proteins (IDPs) are generated and analyzed. Recent generative AI models provide efficient routes to sample IDP conformational space without relying exclusively on long-time scale simulations. These methods can recover many sequence-dependent features at substantially lower cost, but their performance remains uneven. Most models are trained on coarse-grained simulation data, whereas all-atom training is still limited to short peptides and narrow sequence families, constraining structural resolution and generalizability across diverse IDPs. Incorporating experimental observables into training or sampling is also still emerging rather than routine. In this Perspective, we review recent methodological advances, highlight conceptual insights, and identify key limitations and opportunities. We focus on hybrid simulation-ML strategies, approaches that integrate SAXS, NMR, and single-molecule data into generative frameworks, and practical challenges in scaling to longer, more complex IDPs while maintaining experimental grounding.",
+  "abstract_zh": "机器学习方法正日益深刻地影响着 intrinsically disordered proteins (IDPs) 构象集合的生成与分析方式。近期的生成式 AI 模型为采样 IDP 构象空间提供了高效途径，无需完全依赖长时间尺度模拟。这些方法能以显著更低的成本恢复许多序列依赖性特征，但其性能仍参差不齐。大多数模型基于粗粒化模拟数据进行训练，而全原子训练仍局限于短肽和狭窄的序列家族，这限制了结构分辨率及跨多样 IDP 的泛化能力。将实验观测数据纳入训练或采样过程也仍处于新兴阶段，尚未成为常规做法。在本 Perspective 中，我们回顾了近期的方法学进展，强调概念性见解，并指出关键局限与机遇。我们聚焦于混合模拟-机器学习策略、将 SAXS、NMR 和单分子数据整合进生成框架的方法，以及在保持实验依据的同时扩展到更长、更复杂 IDP 所面临的实际挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42014948/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42014948/",
+  "paper_page_path": "papers/pubmed/42014948/index.html"
+}

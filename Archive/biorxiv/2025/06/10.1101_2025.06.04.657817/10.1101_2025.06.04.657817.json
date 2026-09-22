@@ -1,0 +1,185 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.04.657817",
+  "title": "A simple workflow to identify novel Small Linear Motif (SLiM)-mediated interactions with AlphaFold",
+  "doi": "10.1101/2025.06.04.657817",
+  "abstract": "Short linear motifs (SLiMs) are highly compact interaction modules embedded within disordered protein regions and are increasingly recognized for their central role in maintaining cellular homeostasis. Due to their small size, degeneracy and transient binding, SLiMs remain difficult to detect both experimentally and computationally. Here, we show that AlphaFold, used via ColabFold, offers a practical and accessible alternative for in-silico SLiM discovery. Unlike previous studies focused on structural accuracy, we evaluated AlphaFold’s capacity to reveal SLiMs independently of model quality. To this end, we benchmarked several scoring metrics and showed that AlphaFold2 combined with MiniPAE yields the best performance, outperforming AlphaFold3 in this context. Building on these findings, we also provide a streamlined and cost-effective workflow for SLiM prediction requiring no installation or local computation. To overcome challenges associated with SLiM validation, we also introduce a highly sensitive detection method based on proximity labeling in living cells. This workflow was used to predict the occurrence of SLiMs that mediate binding to ribosomal protein S6 kinase A3 (RPS6KA3 or RSK2). By leveraging Colabfold and MiniPAE available through Colab notebooks, our approach provides a scalable and widely accessible strategy for identifying functional SLiMs in proteins of interest. MiniPAE can be accessed at https://github.com/martinovein/MiniPAE <h4>Short description</h4> Martin Veinstein is a PhD student in Biomedical Sciences at the de Duve Institute, UCLouvain, Belgium. He specializes in Small Linear Motifs (SLiMs) in the context of host–virus interactions and has developed strong expertise in bioinformatics, structural biology, and predictive modeling. Victor J is a unfergradiate student at the ECAM Brussels Engineering School, Haute Ecole “ICHEC-ECAM-ISFSC”, Brussels, Belgium. His activities span form September to November 2023. B.I. Iorga is a CNRS Research Director at the Institut de Chimie des Substances Naturelles in Gif-sur-Yvette, France. His research focuses among others on methodological developments in molecular modeling and the in-silico prediction of antibiotic resistance using machine learning and deep learning approaches. Raphael Helaers is a Senior Investigator and leads bioinformatics infrastructure at the de Duve Institute, UCLouvain, Belgium. He has developed strong expertise in next-generation sequencing and software development, along with a deep interest in biology, genetics, and evolution. Thomas Michiels is a Full Professor and researcher at the de Duve Institute, UCLouvain, Belgium. His research focuses on virus-mediated subversion of the innate immune response. Frederic Sorgeloos is an adjunct Professor at the INRS, Laval, Canada. He currently focuses on the subversion of cellular homeostasis through small linear peptides encoded by viral and bacterial pathogens. <h4>Short abstract</h4> Various AlphaFold2/3 scoring metrics were systematically benchmarked for their ability to detect Small Linear Motifs (SLiMs) Based on this evaluation, a user-friendly and cost-effective in-silico workflow is proposed to identify novel SLiMs-targeting proteins The utility of this workflow is demonstrated through the prediction of previously uncharacterized SLiMs interacting with RSK kinases. A sensitive in-vitro assay is proposed to streamline the validation of low-affinity SLiM-target interactions. Together, our workflow and associated validation assay offer an integrated pipeline for the discovery and validation of SLiM-mediated protein-protein interactions.",
+  "authors": [
+    "Veinstein M",
+    "Janssens V",
+    "Iorga B",
+    "Helaers R",
+    "Michiels T",
+    "Sorgeloos F"
+  ],
+  "published_date": "2025-06-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657817",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657817.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1033326",
+    "raw_record": {
+      "id": "PPR1033326",
+      "source": "PPR",
+      "doi": "10.1101/2025.06.04.657817",
+      "title": "A simple workflow to identify novel Small Linear Motif (SLiM)-mediated interactions with AlphaFold",
+      "authorString": "Veinstein M, Janssens V, Iorga B, Helaers R, Michiels T, Sorgeloos F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Veinstein M",
+            "lastName": "Veinstein",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0571-5916"
+            }
+          },
+          {
+            "fullName": "Janssens V",
+            "lastName": "Janssens",
+            "initials": "V"
+          },
+          {
+            "fullName": "Iorga B",
+            "lastName": "Iorga",
+            "firstName": "B.I.",
+            "initials": "B"
+          },
+          {
+            "fullName": "Helaers R",
+            "lastName": "Helaers",
+            "initials": "R"
+          },
+          {
+            "fullName": "Michiels T",
+            "lastName": "Michiels",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9615-8053"
+            }
+          },
+          {
+            "fullName": "Sorgeloos F",
+            "lastName": "Sorgeloos",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6492-8524"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9615-8053"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0571-5916"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6492-8524"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Short linear motifs (SLiMs) are highly compact interaction modules embedded within disordered protein regions and are increasingly recognized for their central role in maintaining cellular homeostasis. Due to their small size, degeneracy and transient binding, SLiMs remain difficult to detect both experimentally and computationally. Here, we show that AlphaFold, used via ColabFold, offers a practical and accessible alternative for  in-silico SLiM discovery.  Unlike previous studies focused on structural accuracy, we evaluated AlphaFold’s capacity to reveal SLiMs independently of model quality. To this end, we benchmarked several scoring metrics and showed that AlphaFold2 combined with MiniPAE yields the best performance, outperforming AlphaFold3 in this context. Building on these findings, we also provide a streamlined and cost-effective workflow for SLiM prediction requiring no installation or local computation. To overcome challenges associated with SLiM validation, we also introduce a highly sensitive detection method based on proximity labeling in living cells. This workflow was used to predict the occurrence of SLiMs that mediate binding to ribosomal protein S6 kinase A3 (RPS6KA3 or RSK2). By leveraging Colabfold and MiniPAE available through Colab notebooks, our approach provides a scalable and widely accessible strategy for identifying functional SLiMs in proteins of interest. MiniPAE can be accessed at  https://github.com/martinovein/MiniPAE <h4>Short description</h4>  Martin Veinstein is a PhD student in Biomedical Sciences at the de Duve Institute, UCLouvain, Belgium. He specializes in Small Linear Motifs (SLiMs) in the context of host–virus interactions and has developed strong expertise in bioinformatics, structural biology, and predictive modeling. Victor J is a unfergradiate student at the ECAM Brussels Engineering School, Haute Ecole “ICHEC-ECAM-ISFSC”, Brussels, Belgium. His activities span form September to November 2023. B.I. Iorga is a CNRS Research Director at the Institut de Chimie des Substances Naturelles in Gif-sur-Yvette, France. His research focuses among others on methodological developments in molecular modeling and the  in-silico prediction of antibiotic resistance using machine learning and deep learning approaches.  Raphael Helaers is a Senior Investigator and leads bioinformatics infrastructure at the de Duve Institute, UCLouvain, Belgium. He has developed strong expertise in next-generation sequencing and software development, along with a deep interest in biology, genetics, and evolution. Thomas Michiels is a Full Professor and researcher at the de Duve Institute, UCLouvain, Belgium. His research focuses on virus-mediated subversion of the innate immune response. Frederic Sorgeloos is an adjunct Professor at the INRS, Laval, Canada. He currently focuses on the subversion of cellular homeostasis through small linear peptides encoded by viral and bacterial pathogens. <h4>Short abstract</h4>  Various AlphaFold2/3 scoring metrics were systematically benchmarked for their ability to detect Small Linear Motifs (SLiMs) Based on this evaluation, a user-friendly and cost-effective  in-silico workflow is proposed to identify novel SLiMs-targeting proteins  The utility of this workflow is demonstrated through the prediction of previously uncharacterized SLiMs interacting with RSK kinases. A sensitive  in-vitro assay is proposed to streamline the validation of low-affinity SLiM-target interactions.  Together, our workflow and associated validation assay offer an integrated pipeline for the discovery and validation of SLiM-mediated protein-protein interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Fonds de la Recherche Scientifique - FNRS",
+            "grantId": "PDR T.0154.23",
+            "orderIn": 0
+          },
+          {
+            "agency": "Fonds de la Recherche Scientifique - FNRS",
+            "grantId": "Aspirant FNRS fellowship",
+            "orderIn": 0
+          },
+          {
+            "agency": "EOS joint programme of Fonds de la recherche scientifique-FNRS and Fonds wetenschappelijk onderzoek-Vlaanderen-FWO",
+            "grantId": "40007527",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/08/2025.06.04.657817.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.04.657817"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41016010",
+            "reference": "Briefings in bioinformatics. 2025 Aug;26(5):bbaf501",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-06-13",
+      "firstPublicationDate": "2025-06-08",
+      "firstIndexDate": "2025-06-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

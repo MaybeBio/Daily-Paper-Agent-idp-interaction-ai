@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability statement)
+- **Assessment boundary** Scientific content, methodological rigor, validation strategy, and claims as presented in the provided text. No supplementary figures, tables, or external data were available for inspection.
+- **Shared manuscript claim summary** The authors present FlyPredictome, a structural interactome for Drosophila built from 1.5 million pairwise AlphaFold-Multimer predictions. They introduce iLIS, a local confidence metric, benchmark it against experimental and computational datasets, validate predicted interfaces via enrichment of phenotype-associated missense mutations, and construct an evidence-supported PPI network with hierarchical modular organization.
+- **Visible evidence base** Main text figures referenced (Figures 1-4, S1.1-S1.4), tables referenced (S1-S9), methods descriptions, benchmark dataset descriptions, and database/software availability statements.
+- **Missing materials affecting confidence** All supplementary figures and tables (S1-S9), benchmark dataset details, full statistical outputs, database contents, and network viewer were not provided. This limits independent verification of quantitative claims and methodological details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial computational resource with a well-motivated methodological innovation in iLIS. The benchmarking strategy is thoughtful, and the allele enrichment analysis provides a compelling functional validation. However, several claims require additional evidence or clarification, particularly regarding the independence of the validation approach, the handling of redundancy in the prediction set, and the generalizability of the iLIS threshold. The resource itself is likely to be valuable to the Drosophila community, but the strength of the conclusions should be tempered by the acknowledged limitations of computational PPI prediction.
+- **Who would be interested in the results, and why** Drosophila geneticists and cell biologists studying signaling pathways, developmental processes, and protein complex assembly would benefit from the structural predictions and network resource. Computational biologists developing or benchmarking PPI prediction methods would be interested in the iLIS metric and its comparative performance. The allele enrichment framework could be of interest to the broader human genetics community as a template for functionally annotating predicted interaction interfaces.
+- **Major strengths** 1) The iLIS metric addresses a genuine limitation of global confidence scores for interactions involving flexible or disordered proteins, with a clear mechanistic rationale. 2) The multi-dataset benchmarking strategy (Y2H, AP-MS, literature-curated, cross-species) provides a robust assessment of metric performance. 3) The allele enrichment analysis offers an independent, genetics-based validation of predicted interfaces. 4) The resource is presented as an open database with interactive tools, maximizing community utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation independence
+  - **Claim pointer** "Testing their functional relevance, we find that phenotype-associated missense mutations are enriched at predicted interaction interfaces."
+  - **Evidence pointer** Results section "Phenotype-associated alleles are enriched at predicted interfaces"; Figure 3
+  - **Concern** The allele enrichment analysis uses missense mutations compiled from FlyBase allele descriptions and genetic interaction records. The authors do not clarify whether any of these mutations were previously used to train or calibrate the AlphaFold-Multimer models or the iLIS metric. More critically, the analysis does not appear to control for potential confounding factors such as mutation density in structured versus disordered regions, or the possibility that phenotype-associated mutations are generally enriched in protein regions with high evolutionary constraint, which may correlate with but not be causally related to interaction interfaces.
+  - **Why it matters** The enrichment analysis is presented as a key validation of the biological relevance of predicted interfaces. If the analysis is confounded by conservation or other regional properties, the claim of interface-specific functional importance would be overstated. The authors do address conservation using PhyloP scores, but the logistic regression approach and its limitations are not fully described.
+  - **Resolution test** Provide a more detailed description of the logistic regression model, including all covariates and interaction terms. Demonstrate that the interface enrichment persists when restricting to mutations in genes with at least one known PPI, and when excluding mutations in regions of high conservation. Consider a permutation test that preserves the marginal distribution of mutations across protein regions while randomizing interface assignment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Prediction set redundancy
+  - **Claim pointer** "FlyPredictome, a structural interactome based on 1.5 million pairwise AlphaFold-Multimer predictions."
+  - **Evidence pointer** Results section "FlyPredictome database and evidence-supported PPI network"; Figure 4
+  - **Concern** The manuscript does not describe how the 1.5 million pairwise predictions were selected. If this represents an all-by-all screen of the Drosophila proteome, the number seems low (the Drosophila proteome has ~14,000 proteins, which would yield ~98 million pairs). If it is a filtered subset, the filtering criteria are not stated. This ambiguity affects the interpretation of the resource's coverage and the meaning of the positive prediction counts.
+  - **Why it matters** The scope and completeness of the prediction set determine the resource's utility. Without knowing the selection criteria, users cannot assess whether absence from the database implies a predicted non-interaction or simply lack of testing. This also affects the interpretation of recovery rates against experimental datasets.
+  - **Resolution test** Clearly state the source of the 1.5 million pairs (e.g., all-by-all, STRING-filtered, literature-nominated) and provide the filtering criteria. Report the total number of possible pairs and the fraction tested. If a subset was used, discuss potential biases in coverage.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Threshold generalizability
+  - **Claim pointer** "we established thresholds at 10% false positive rate (FPR) for iLIS (≥ 0.223) and ipTM (≥ 0.48)"
+  - **Evidence pointer** Results section "iLIS: a local confidence metric for identifying protein-protein interactions"; Table S2
+  - **Concern** The iLIS threshold is calibrated on a benchmark set of Y2H-derived PPIs and controls. The authors apply this same threshold across all subsequent analyses, including the human predictome comparison. However, the optimal threshold may vary by protein class, interaction type, or organism. The authors acknowledge this possibility in the methods but do not test the sensitivity of their conclusions to threshold choice.
+  - **Why it matters** The threshold determines the classification of all 1.5 million predictions. If the threshold is not robust across protein classes, the positive/negative calls in the database could be systematically biased, affecting downstream analyses and user interpretations.
+  - **Resolution test** Perform a sensitivity analysis showing how recovery rates, allele enrichment, and network properties vary across a range of iLIS thresholds. Report the area under the ROC curve for different protein classes (e.g., by cellular compartment, by disorder content) to assess threshold stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Benchmark dataset construction
+  - **Evidence pointer** Methods section "Benchmark dataset construction"
+  - **Issue** The description of the positive reference set states it "integrates four sources" but does not specify the overlap or redundancy between these sources. It is unclear whether the 774 PPIs are unique pairs or include duplicates across sources.
+  - **Required correction** Clarify whether the 774 PPIs are unique gene pairs after merging across sources, and report the contribution from each source.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Allele enrichment analysis
+  - **Evidence pointer** Results section "Phenotype-associated alleles are enriched at predicted interfaces"; Figure 3
+  - **Issue** The permutation test P values are reported as "P < 10−5" without specifying the exact value or the number of permutations used. The text mentions 100,000 permutations in the methods, but the resolution of the P value is not consistent with this number.
+  - **Required correction** Report exact P values or state the minimum achievable P value given the number of permutations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Resource accessibility
+  - **Affected element** Database and network viewer
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The manuscript states the database is available but does not provide any usage statistics, example queries, or documentation of the API. The interactive network viewer is hosted on GitHub Pages, which may have limitations for large datasets.
+  - **Required correction** Provide a brief description of the database schema, query capabilities, and any API endpoints. Include a screenshot or example query in the supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Comparison with Peng and Zhao (2026)
+  - **Evidence pointer** Results section "Benchmarking iLIS across experimental and computational PPI datasets"; Figure S1.3
+  - **Issue** The comparison with Peng and Zhao (2026) uses their "possible" tier (pDockQ < 0.23 with ipTM ≥ 50 or minimum inter-chain PAE ≤ 10 Å) as the reference for iLIS-unique calls. However, the authors do not report how many of the 1,070 iLIS-unique pairs were also flagged by Peng and Zhao's other criteria or whether these pairs have any independent experimental support.
+  - **Required correction** Provide a breakdown of the 1,070 pairs by Peng and Zhao's classification tiers and report any overlap with experimental datasets not used in the original benchmark.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation independence) and R1-M2 (prediction set redundancy) are the primary technical issues. The allele enrichment analysis requires more rigorous confounding control, and the prediction set composition must be clarified. R1-M3 (threshold generalizability) is important but not blocking if addressed with sensitivity analyses.
+- **Assessment against Nature-style criteria** Originality: High. The iLIS metric is a novel contribution that addresses a recognized limitation in the field. Scientific importance: High for the Drosophila community and relevant to the broader structural genomics field. Interdisciplinary readership: Moderate. The resource will appeal primarily to fly geneticists and computational biologists; the broader cell biology audience may find the allele enrichment framework of interest. Technical soundness: Generally strong, but with the concerns noted above regarding validation independence and prediction set composition. Readability for nonspecialists: Good. The manuscript is clearly written, with appropriate context for the non-expert, though some methods sections assume familiarity with structural prediction tools.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core innovation (iLIS) and the resource itself are valuable. The manuscript would be strengthened by addressing the validation independence concern, clarifying the prediction set composition, and providing sensitivity analyses for the threshold choice. These are addressable with additional analyses and clarifications rather than requiring fundamental changes to the approach.
+
+## Risk / unsupported claims
+- The claim that iLIS "preferentially identifies interactions involving flexible proteins" is supported by the benchmark data but the magnitude of this advantage and its consistency across protein classes is not fully quantified.
+- The statement that the predicted Fz-Dsh complex "closely matches" the human DVL2-FZD4 cryo-EM structure is made without reporting the RMSD values or the alignment method details in the main text.
+- The assignment of CG3448 as the fly XRCC4 ortholog is supported by sequence homology and co-purification data, but the functional significance of this assignment is not experimentally validated.
+- The claim that the network reveals "modular organization from signaling pathways to individual protein complexes" is based on the clustering analysis, but the statistical significance of the modular structure beyond what would be expected by chance is not reported.
+- The generalizability of the iLIS threshold to the human predictome is asserted but not tested with a human-specific benchmark.

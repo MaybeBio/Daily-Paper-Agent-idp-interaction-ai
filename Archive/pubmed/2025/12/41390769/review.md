@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, and figure legends
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided material
+- **Shared manuscript claim summary** The authors propose that the non-catalytic DNA polymerase epsilon subunit (POLE2) functions as a general receptor for NPF (Asn-Pro-Phe) short linear motifs, expanding the known repertoire of NPF-binding proteins beyond EH domains. They support this with native holdup assays, fluorescence polarization, mutagenesis, AlphaFold predictions, and proximity labeling.
+- **Visible evidence base** Figures 1–6, Supplementary Figures 1–19, Supplementary Data 1–4, methods sections for cloning, protein expression, nHU experiments, mass spectrometry, and proximity labeling
+- **Missing materials affecting confidence** Raw mass spectrometry data files, full statistical analysis outputs, validation of AlphaFold predictions against experimental structures, and details on antibody validation for proximity labeling experiments
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially significant finding that POLE2, a core DNA replication protein, may act as a general NPF motif receptor. The experimental approach is innovative, combining quantitative binding assays with proteome-wide screening. However, several technical concerns regarding the interpretation of binding data, the specificity of the proposed interaction surface, and the biological relevance of the identified interactions require clarification before the central claims can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying DNA replication and repair mechanisms, particularly those focused on the eukaryotic replisome and its regulation. Additionally, the SLiM biology community and scientists interested in protein-protein interaction networks mediated by short linear motifs will find the methodological framework and the proposed cross-talk between NPF-mediated networks of interest.
+- **Major strengths** The study introduces a quantitative native holdup assay adapted for peptide-based interactomics, which is a valuable methodological contribution. The combination of biochemical, structural prediction, and cellular approaches provides multiple lines of evidence. The identification of natural POLE2 variants with altered NPF binding properties has potential clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding measurements
+  - **Claim pointer** The authors claim that POLE2 binds NPF-containing peptides with micromolar affinities, as measured by fluorescence polarization and nHU assays.
+  - **Evidence pointer** Figure 1I–J, Figure 4A, Supplementary Data 2
+  - **Concern** The fluorescence polarization experiments were performed with a fluorescein-labeled DONSON peptide and recombinant MBP-tagged POLE2. The reported dissociation constant of 16 µM is relatively weak, and the competitive binding assay yielded 13 µM. However, the nHU experiments in cell extracts report apparent affinities of 0.28 µM for the same interaction, a ~40-fold discrepancy. The authors attribute this to protein destabilization or tag effects, but this large difference raises questions about the reliability of either measurement. Additionally, the nHU titration experiments with endogenous POLE (Figure 4A) report affinities for WDHD1 and TTF2 peptides, but the methodology for converting depletion values to Kapp values relies on assumptions about prey concentration that are not fully validated.
+  - **Why it matters** The quantitative affinity measurements are central to the claim that POLE2 is a bona fide NPF receptor. If the affinity measurements are not reliable, the biological significance of these interactions, particularly in the context of competitive binding with EH domains, cannot be properly assessed.
+  - **Resolution test** Provide a direct comparison of binding affinities measured by multiple orthogonal methods (e.g., ITC, SPR) for the same POLE2-peptide pair. Clarify the discrepancy between in vitro and ex vivo measurements, and provide validation of the Kapp calculation method using known interaction pairs with established affinities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of the proposed binding surface
+  - **Claim pointer** The authors claim that NPF motifs bind to a shallow pocket near the POLE2 C-terminus, with key residues Y513, E520, and S522 involved in coordination.
+  - **Evidence pointer** Figure 2, Supplementary Figures 6–7
+  - **Concern** The mutagenesis data show that E520A, S522A, and Y513C completely disrupt NPF binding, while Y311F has no effect and D284G only reduces binding 5-fold. However, the authors do not provide evidence that these mutations do not globally destabilize POLE2. The proximity labeling data (Figure 6) show that Y513C and S522A reduce POLE2 stability, which confounds the interpretation of the binding data. The authors acknowledge this for the cellular experiments but do not address whether the in vitro binding defects are due to specific loss of the binding surface or to protein misfolding.
+  - **Why it matters** The identification of a specific binding surface is critical for understanding the molecular basis of NPF recognition and for predicting which POLE2 mutations might have functional consequences. If the mutations cause global destabilization, the conclusions about the binding interface are not supported.
+  - **Resolution test** Perform biophysical characterization (e.g., circular dichroism, thermal stability assays) of the POLE2 mutants to demonstrate that they are properly folded. Alternatively, use a complementary approach such as hydrogen-deuterium exchange or cross-linking mass spectrometry to map the binding interface independently of mutagenesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance of identified interactions
+  - **Claim pointer** The authors propose that POLE2 recruits NPF-containing proteins involved in replication, DNA repair, and transcription regulation, and that this may link replication with other processes.
+  - **Evidence pointer** Figure 3, Figure 6, Supplementary Data 1, 4
+  - **Concern** The proximity labeling experiments identify many potential interactors, but the authors only validate a few (WDHD1, DONSON, POLA1). The claim that POLE2 serves as a "central hub" is based on the identification of 17 NPF-containing partners out of 70 significant interactors. However, the authors do not demonstrate that these interactions occur in a cellular context where POLE2 is engaged in replication. The functional significance of these interactions is not tested, and the authors do not show any phenotypic consequences of disrupting the NPF-POLE2 interaction.
+  - **Why it matters** The broader claim that POLE2 links replication with other nuclear processes through NPF recognition requires functional validation. Without evidence that these interactions are biologically relevant, the significance of the finding is limited to a biochemical observation.
+  - **Resolution test** Perform functional assays, such as replication fork progression analysis in cells expressing POLE2 mutants that cannot bind NPF motifs, or demonstrate that the identified interactors are required for specific DNA repair or transcription processes. Provide evidence that the interactions occur at endogenous protein levels and are not artifacts of overexpression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of NPF recognition
+  - **Claim pointer** The authors claim that POLE2 is a "general NPF-motif receptor" that binds diverse NPF-containing peptides, including canonical EH-domain ligands.
+  - **Evidence pointer** Figure 1C–H, Figure 3B
+  - **Concern** The nHU experiments with peptide baits show that POLE2 binds to several NPF-containing peptides, but the selectivity of this interaction is not thoroughly characterized. The authors do not test whether POLE2 binds to other proline-rich motifs or to peptides with mutations in the NPF core. The claim of "general" recognition is based on a limited set of peptides, and the authors do not provide a comprehensive analysis of the sequence determinants beyond the core NPF tripeptide.
+  - **Why it matters** The concept of a "general receptor" implies broad specificity, which has implications for understanding the potential for cross-talk and competition between different NPF-binding proteins. If POLE2 is highly selective, the biological impact may be more limited.
+  - **Resolution test** Perform a systematic mutational analysis of the NPF motif and flanking regions to define the sequence requirements for POLE2 binding. Test a panel of NPF-containing peptides from diverse proteins to assess the breadth of recognition. Compare the binding specificity of POLE2 with that of EH domains to determine the degree of overlap.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1C–H
+  - **Evidence pointer** Figure 1C–H
+  - **Issue** The volcano plots in Figure 1C–H are difficult to interpret without clear labels for the significance threshold and the identity of the highlighted proteins. The authors mention that POLE/POLE2 are highlighted in red, but it is not clear which other proteins are shown.
+  - **Required correction** Add clear labels to the volcano plots indicating the significance threshold and the names of the highlighted proteins. Consider using a consistent color scheme across panels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Methods, Statistical analysis
+  - **Evidence pointer** Methods, "Statistical and bioinformatics analysis of the proteomics data for nHU samples"
+  - **Issue** The authors state that a hyperbolic significance threshold was applied but do not provide the exact parameters or the rationale for choosing this threshold. The description of the imputation method is also brief.
+  - **Required correction** Provide more detail on the statistical methods, including the exact formula for the significance threshold and the parameters used. Describe the imputation method more precisely and discuss its potential impact on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Validation of AlphaFold predictions
+  - **Affected element** Figure 2, Methods, AF3 predictions
+  - **Evidence pointer** Figure 2, Methods, "AF3 predictions"
+  - **Issue** The authors rely heavily on AlphaFold 3 predictions to support the structural model of NPF binding, but they do not provide any experimental validation of the predicted complex structure.
+  - **Required correction** Acknowledge the limitations of AlphaFold predictions and consider providing additional experimental evidence, such as mutagenesis of the predicted interface residues or cross-linking data, to support the structural model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "Motif mediated interactions: distinct networks or coherent interactome"
+  - **Issue** The discussion of the potential cross-talk between NPF-mediated networks is speculative and does not address the limitations of the study, such as the lack of functional validation and the potential for artifacts in the proximity labeling experiments.
+  - **Required correction** Add a paragraph discussing the limitations of the study and the need for future work to validate the biological significance of the identified interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding affinity discrepancy), R1-M2 (mutation specificity vs. protein stability)
+
+## Risk / unsupported claims
+- The claim that POLE2 is a "central hub" linking replication with other processes is not supported by functional data.
+- The claim that the identified NPF motifs in full-length proteins are responsible for the observed interactions is not directly tested for most partners.
+- The biological relevance of the identified interactions in the context of DNA replication is not demonstrated.
+- The generalizability of POLE2 as a "general NPF-motif receptor" is not fully established due to limited peptide testing.
+- The clinical significance of the natural POLE2 variants (D284G, Y513C) is speculative and not supported by patient data or functional studies.

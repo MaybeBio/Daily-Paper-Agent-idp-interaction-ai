@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33963445",
+  "title": "Variants in GCNA, X-linked germ-cell genome integrity gene, identified in men with primary spermatogenic failure.",
+  "authors": "Hardy, Jimmaline J; Wyrwoll, Margot J; Mcfadden, William; Malcher, Agnieszka; Rotte, Nadja; Pollock, Nijole C; Munyoki, Sarah; Veroli, Maria V; Houston, Brendan J; Xavier, Miguel J; Kasak, Laura; Punab, Margus; Laan, Maris; Kliesch, Sabine; Schlegel, Peter; Jaffe, Thomas; Hwang, Kathleen; Vukina, Josip; Brieno-Enriquez, Miguel A; Orwig, Kyle; Yanowitz, Judith; Buszczak, Michael; Veltman, Joris A; Oud, Manon; Nagirnaja, Liina; Olszewska, Marta; O'Bryan, Moira K; Conrad, Donald F; Kurpisz, Maciej; Tuttelmann, Frank; Yatsenko, Alexander N",
+  "journal": "Human genetics",
+  "published_date": "2021-05-09",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究鉴定男性不育相关GCNA基因变异，并对无序区域内的变异做了计算建模，但对象为生殖细胞基因组完整性蛋白而非PPI/相分离，互作机制与AI/物理模拟方法均较弱，仅边缘相关。",
+  "abstract": "Male infertility impacts millions of couples yet, the etiology of primary infertility remains largely unknown. A critical element of successful spermatogenesis is maintenance of genome integrity. Here, we present a genomic study of spermatogenic failure (SPGF). Our initial analysis (n = 176) did not reveal known gene-candidates but identified a potentially significant single-nucleotide variant (SNV) in X-linked germ-cell nuclear antigen (GCNA). Together with a larger follow-up study (n = 2049), 7 likely clinically relevant GCNA variants were identified. GCNA is critical for genome integrity in male meiosis and knockout models exhibit impaired spermatogenesis and infertility. Single-cell RNA-seq and immunohistochemistry confirm human GCNA expression from spermatogonia to elongated spermatids. Five identified SNVs were located in key functional regions, including N-terminal SUMO-interacting motif and C-terminal Spartan-like protease domain. Notably, variant p.Ala115ProfsTer7 results in an early frameshift, while Spartan-like domain missense variants p.Ser659Trp and p.Arg664Cys change conserved residues, likely affecting 3D structure. For variants within GCNA's intrinsically disordered region, we performed computational modeling for consensus motifs. Two SNVs were predicted to impact the structure of these consensus motifs. All identified variants have an extremely low minor allele frequency in the general population and 6 of 7 were not detected in > 5000 biological fathers. Considering evidence from animal models, germ-cell-specific expression, 3D modeling, and computational predictions for SNVs, we propose that identified GCNA variants disrupt structure and function of the respective protein domains, ultimately arresting germ-cell division. To our knowledge, this is the first study implicating GCNA, a key genome integrity factor, in human male infertility.",
+  "abstract_zh": "男性不育影响数百万对夫妇，然而原发性不育的病因在很大程度上仍属未知。精子发生成功的一个关键因素是基因组完整性的维持。在此，我们呈现了一项关于精子发生失败（SPGF）的基因组研究。我们的初步分析（n = 176）未发现已知的候选基因，但识别出一个在X连锁生殖细胞核抗原（GCNA）中可能具有显著意义的单核苷酸变异（SNV）。结合一项更大的后续研究（n = 2049），共鉴定出7个可能具有临床相关性的GCNA变异。GCNA对男性减数分裂中的基因组完整性至关重要，且敲除模型表现出精子发生受损和不育。单细胞RNA测序和免疫组织化学证实，人类GCNA从精原细胞到长形精子细胞均有表达。五个已识别的SNV位于关键功能区域，包括N端SUMO相互作用基序和C端类Spartan蛋白酶结构域。值得注意的是，变异p.Ala115ProfsTer7导致早期移码，而类Spartan结构域错义变异p.Ser659Trp和p.Arg664Cys改变了保守残基，可能影响三维结构。对于GCNA内在无序区域内的变异，我们进行了共识基序的计算建模。两个SNV被预测会影响这些共识基序的结构。所有已识别的变异在一般人群中的次要等位基因频率极低，且7个中的6个在超过5000名生物学父亲中未被检测到。综合考虑动物模型、生殖细胞特异性表达、三维建模及SNV的计算预测证据，我们提出已识别的GCNA变异破坏了相应蛋白质结构域的结构和功能，最终阻止生殖细胞分裂。据我们所知，这是第一项将GCNA（一个关键的基因组完整性因子）与人类男性不育相关联的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33963445/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33963445/",
+  "paper_page_path": "papers/pubmed/33963445/index.html"
+}

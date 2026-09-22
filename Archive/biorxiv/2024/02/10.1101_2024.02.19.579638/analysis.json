@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.19.579638",
+  "title": "Combining computational biology and experimental knowledge to draw a structural profile of the active membrane-assembled NADPH oxidase complex",
+  "authors": "Aimeur SZ; Fas BA; Serfaty X; Santuz H; Sacquin-Mora S; Bizouarn T; Taly A; BACIOU L",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-19",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用AlphaFold2建模活性NADPH氧化酶复合物超结构，结合分子动力学模拟，揭示无序区域在蛋白-蛋白及膜-蛋白互作中驱动多亚基组装，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "The phagocyte NADPH oxidase complex (NOX2) is activated by various intracellular stimuli, resulting in the generation of reactive oxygen species, which are responsible for many physiological processes, including innate immune defense. Structures of the cytochrome b558, membrane catalytic core of the complex, in their resting state have been solved experimentally. Unfortunately, very little is known about the structure of the active complex, as it involves the assembly of modular proteins and disordered regions, that have been shown to be essential to the function of the enzyme. Here, we modelled the supra-structure of the active complex using Alphafold2 and taking into account experimental data as well as conformational analyses by SRCD. AF2 ability to generate complexes enabled us to visualize ways in which subunits could assemble together, and revealed the implications of intrinsically disordered regions in protein-protein and membrane-protein interactions. Additional Molecular Dynamics simulations of the membrane embedded complex bring further insight regarding the system dynamics. Altogether, our work provides evidence for a model of the structure of the active complex where disordered regions can enable multi-subunit assembly.",
+  "abstract_zh": "吞噬细胞NADPH氧化酶复合物（NOX2）被多种细胞内刺激激活，产生活性氧，这些活性氧负责许多生理过程，包括先天免疫防御。细胞色素b558（复合物的膜催化核心）在静息状态下的结构已通过实验解析。遗憾的是，关于活性复合物的结构知之甚少，因为它涉及模块化蛋白质和无序区域的组装，而这些已被证明对酶的功能至关重要。在此，我们使用Alphafold2对活性复合物的超结构进行了建模，并结合了实验数据以及通过SRCD进行的构象分析。AF2生成复合物的能力使我们能够可视化亚基可能组装的方式，并揭示了 intrinsically disordered regions（内在无序区域）在蛋白质-蛋白质和膜-蛋白质相互作用中的意义。对膜嵌入复合物的额外分子动力学 (molecular dynamics) 模拟进一步提供了关于系统动力学的见解。总体而言，我们的工作为活性复合物结构的模型提供了证据，其中无序区域能够实现多亚基组装。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.19.579638",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.579638",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.19.579638/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36379279",
+  "title": "Concerted enhanced-sampling simulations to elucidate the helix-fibril transition pathway of intrinsically disordered alpha-Synuclein.",
+  "authors": "Saurabh, Archi; Prabhu, N Prakash",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2022-11-16",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用增强采样MD模拟解析α-Synuclein从单体到纤维的构象转变路径，对象为IDP且用物理模拟方法，但聚焦单蛋白构象转变而非PPI互作机制，故给7分。",
+  "abstract": "Fibril formation of alpha-synuclein is linked with Parkinson's disease. The intrinsically disordered nature of alpha-syn provides extensive conformational plasticity and becomes difficult to characterize its transition pathway from native monomeric to disease-associated fibril form. We implemented different simulation methods such as steered dynamics-umbrella sampling, and replica-exchange and conventional MD simulations to access various conformational states of alpha-syn. Nineteen distinct intermediate structures were identified by free energy landscape and cluster analysis. They were then sorted based on secondary structure and solvent exposure of fibril-core residues to illustrate the fibril dissociation pathway. The analysis showed that following the initial dissociation of the polypeptide chain from the fibril, alpha-syn might form either compact-conformations by long-range interactions or extended-conformations stabilized by local interactions. This leads alpha-syn to adapt two different pathways. The secondary structure, solvation, contact distance, interaction energies and backbone dihedrals of thirty-two selected residues were analyzed for all the 19 intermediates. The results suggested that formation of beta-turns, reorganization of salt bridges, and dihedral changes in the hydrophobic regions are the major driving forces for helix-fibril transition. Structural features of the intermediates also correlated with the earlier experimental and computational studies. The study provides critical information on the fibrillation pathway of alpha-syn.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）的纤维形成与帕金森病相关。alpha-syn的内在无序特性赋予其广泛的构象可塑性，使其从天然单体到疾病相关纤维形态的转变路径难以表征。我们采用了不同的模拟方法，如定向动力学-伞形采样（steered dynamics-umbrella sampling）、副本交换（replica-exchange）和常规分子动力学（molecular dynamics）模拟，以获取alpha-syn的各种构象状态。通过自由能景观和聚类分析，识别出十九种不同的中间结构。随后，根据纤维核心残基的二级结构和溶剂暴露程度对这些结构进行分类，以阐明纤维解离路径。分析表明，在多肽链从纤维初始解离后，alpha-syn可能通过长程相互作用形成紧凑构象，或通过局部相互作用稳定形成伸展构象。这导致alpha-syn适应两条不同的路径。对所有19种中间体，分析了三十二个选定残基的二级结构、溶剂化、接触距离、相互作用能和骨架二面角。结果表明，β-转角（beta-turns）的形成、盐桥的重组以及疏水区域二面角的变化是螺旋-纤维转变的主要驱动力。中间体的结构特征也与先前的实验和计算研究相关联。该研究为alpha-syn的纤维化路径提供了关键信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36379279/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36379279/",
+  "paper_page_path": "papers/pubmed/36379279/index.html"
+}

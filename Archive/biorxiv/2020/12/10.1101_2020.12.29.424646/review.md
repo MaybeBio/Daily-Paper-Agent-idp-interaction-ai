@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract and highlights
+- **Shared manuscript claim summary** The C-terminal domain of the SARS-CoV-2 envelope protein (E-CTD) is intrinsically disordered in solution, folds into an ordered structure in the presence of membrane mimetics, undergoes conformational changes in the presence of osmolytes, and forms amyloid-like fibrils upon prolonged incubation under physiological conditions. These observations are interpreted as evidence that E-CTD can adopt multiple conformations depending on its environment, with implications for the structural basis of the viral infection process.
+- **Visible evidence base** Abstract text, highlights, and a graphical abstract description. No figures, tables, methods, or quantitative data are provided.
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, quantitative biophysical data (e.g., circular dichroism spectra, fluorescence data, electron microscopy images), statistical analyses, and details of sample preparation and conditions. The graphical abstract is described but not shown.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis that the SARS-CoV-2 E-CTD is conformationally plastic, transitioning among disordered, membrane-bound, and amyloid states. However, the evidence base available for this review is limited to the abstract and highlights, which contain no quantitative data, no methodological details, and no direct experimental results. The core claims are therefore not assessable for technical soundness from the supplied material. The work may be of interest to the virology and biophysics communities, but the case for the conclusions is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 biology, particularly those focused on the structural and functional roles of the envelope protein in viral assembly and pathogenesis. Also, biophysicists and structural biologists interested in intrinsically disordered proteins, membrane-induced folding, and amyloid formation. The findings could inform studies on viral-host membrane interactions and potential therapeutic targeting of E.
+- **Major strengths** The abstract addresses a relevant and timely topic, namely the environmental dependence of a viral protein domain. The proposed conformational plasticity of E-CTD is a coherent and testable hypothesis. The use of multiple biophysical conditions (solution, membrane mimetics, osmolytes, prolonged incubation) suggests a systematic approach, though details are not provided.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The E-CTD is intrinsically disordered in solution, folds into an ordered structure in the presence of membrane mimetics, and forms amyloid-like fibrils upon prolonged incubation.
+  - **Evidence pointer** Abstract, highlights, graphical abstract description; no specific figures or tables provided
+  - **Concern** The abstract asserts specific structural transitions but provides no quantitative data, such as secondary structure percentages, binding affinities, or fibril characterization. No methods are described, so it is impossible to evaluate the rigor of the experiments, the controls used, or the reproducibility of the observations.
+  - **Why it matters** Without experimental details and data, the claims of disorder, induced folding, and amyloid formation cannot be verified. The conclusions rest entirely on unshown results, and the abstract alone does not meet the standard for establishing the stated findings.
+  - **Resolution test** Provide the full manuscript with methods, figures, and quantitative analyses. For example, show circular dichroism or NMR data for disorder and folding, and electron microscopy or Thioflavin T assays for fibril formation, with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The findings provide insight into the structural basis of the role of E in the viral infection process.
+  - **Evidence pointer** Abstract, final sentence
+  - **Concern** The abstract claims that the observed conformational changes provide insight into the role of E in infection, but no functional assays or mechanistic links are presented. The connection between in vitro conformational states and in vivo viral function is speculative.
+  - **Why it matters** The stated significance of the work depends on this link. Without evidence that the conformational transitions are relevant to viral assembly, budding, or pathogenesis, the broader impact of the findings is not established.
+  - **Resolution test** Include functional data or a clear mechanistic model that connects the observed conformational states to specific viral processes, or temper the claim to reflect the speculative nature of the link.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** Terms such as "large unilamellar vesicles," "micelles," and "osmolytes" are used without brief explanation, which may hinder nonspecialist readers.
+  - **Required correction** Add brief parenthetical definitions or context for these terms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Highlights
+  - **Evidence pointer** Highlights section
+  - **Issue** The highlight "The E-CTD folds into an ordered structure in presence of membrane mimetics" is stated as a definitive fact, but the abstract does not specify the nature or extent of the ordering.
+  - **Required correction** Qualify the statement, for example by noting the conditions or the degree of structure observed, to avoid overstatement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Graphical abstract description
+  - **Evidence pointer** Graphical abstract section
+  - **Issue** The graphical abstract is described but not shown, and the description mentions a "predicted structure" from PEP-FOLD, but the basis for this prediction and its validation are not provided.
+  - **Required correction** Include the graphical abstract and clarify the role of the predicted structure, noting that it is computational and not experimentally determined.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of experimental data and methods prevents verification of the core claims, and the link to viral infection is unsupported.
+- **Assessment against Nature-style criteria** Originality: The idea of conformational plasticity in a viral envelope protein is not entirely novel, but the specific focus on E-CTD and its multiple states may offer a fresh angle. Scientific importance: Potentially relevant to SARS-CoV-2 biology, but the significance is not demonstrated from the abstract. Interdisciplinary readership: The topic could appeal to virologists, biophysicists, and structural biologists, but the abstract lacks sufficient detail to engage these groups effectively. Technical soundness: Not assessable from the supplied material. Readability for nonspecialists: The abstract is generally clear but uses technical terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of data and methods means the claims cannot be evaluated. A full manuscript with rigorous experimental support would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that E-CTD is intrinsically disordered in solution is unsupported without spectroscopic or other biophysical data.
+- The claim that E-CTD folds into an ordered structure in the presence of membrane mimetics is unsupported without quantitative structural data.
+- The claim that E-CTD forms amyloid-like fibrils is unsupported without imaging or dye-binding assays.
+- The claim that the findings provide insight into the structural basis of E's role in infection is speculative and not supported by functional evidence.
+- The graphical abstract description includes a predicted structure from PEP-FOLD, but its relevance and validation are not described.

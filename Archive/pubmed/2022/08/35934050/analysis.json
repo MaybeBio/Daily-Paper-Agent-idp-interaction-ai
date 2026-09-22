@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35934050",
+  "title": "An intrinsically disordered transcription activation domain increases the DNA binding affinity and reduces the specificity of NFkappaB p50/RelA.",
+  "authors": "Baughman, Hannah E R; Narang, Dominic; Chen, Wei; Villagran Suarez, Amalia C; Lee, Joan; Bachochin, Maxwell J; Gunther, Tristan R; Wolynes, Peter G; Komives, Elizabeth A",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2022-08-08",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物物理实验表征NFkappaB p50/RelA的无序转录激活域(TAD)对DNA结合亲和力与特异性的影响，虽涉及IDR与DNA互作机制，但对象为蛋白-DNA而非PPI，且方法为实验而非AI/物理模拟，故综合评分为6。",
+  "abstract": "Many transcription factors contain intrinsically disordered transcription activation domains (TADs), which mediate interactions with coactivators to activate transcription. Historically, DNA-binding domains and TADs have been considered as modular units, but recent studies have shown that TADs can influence DNA binding. Whether these results can be generalized to more TADs is not clear. Here, we biophysically characterized the NFkappaB p50/RelA heterodimer including the RelA TAD and investigated the TAD's influence on NFkappaB-DNA interactions. In solution, we show the RelA TAD is disordered but compact, with helical tendency in two regions that interact with coactivators. We determined that the presence of the TAD increased the stoichiometry of NFkappaB-DNA complexes containing promoter DNA sequences with tandem kappaB recognition motifs by promoting the binding of NFkappaB dimers in excess of the number of kappaB sites. In addition, we measured the binding affinity of p50/RelA for DNA containing tandem kappaB sites and single kappaB sites. While the presence of the TAD enhanced the binding affinity of p50/RelA for all kappaB sequences tested, it also increased the affinity for nonspecific DNA sequences by over 10-fold, leading to an overall decrease in specificity for kappaB DNA sequences. In contrast, previous studies have generally reported that TADs decrease DNA-binding affinity and increase sequence specificity. Our results reveal a novel function of the RelA TAD in promoting binding to nonconsensus DNA, which sheds light on previous observations of extensive nonconsensus DNA binding by NFkappaB in vivo in response to strong inflammatory signals.",
+  "abstract_zh": "许多转录因子含有内在无序的转录激活结构域（TADs），这些结构域通过介导与共激活因子的相互作用来激活转录。历史上，DNA结合结构域和TADs被视为模块化单元，但近期研究表明TADs可以影响DNA结合。这些结果是否能推广到更多TADs尚不清楚。在此，我们对包含RelA TAD的NFkappaB p50/RelA异二聚体进行了生物物理表征，并研究了该TAD对NFkappaB-DNA相互作用的影响。在溶液中，我们显示RelA TAD是无序但紧凑的，在与共激活因子相互作用的两个区域具有螺旋倾向。我们确定，TAD的存在通过促进超出kappaB位点数量的NFkappaB二聚体结合，增加了含有串联kappaB识别基序的启动子DNA序列的NFkappaB-DNA复合物的化学计量比。此外，我们测量了p50/RelA对含有串联kappaB位点和单个kappaB位点的DNA的结合亲和力。虽然TAD的存在增强了p50/RelA对所有测试的kappaB序列的结合亲和力，但它也增加了对非特异性DNA序列的亲和力超过10倍，导致对kappaB DNA序列的特异性整体下降。相比之下，先前研究通常报道TADs降低DNA结合亲和力并增加序列特异性。我们的结果揭示了RelA TAD在促进非共识DNA结合方面的新功能，这为先前观察到的NFkappaB在体内对强炎症信号响应时广泛结合非共识DNA的现象提供了启示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35934050/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35934050/",
+  "paper_page_path": "papers/pubmed/35934050/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.09.527857",
+  "title": "Condensate formation of the human RNA-binding protein SMAUG1 is controlled by its intrinsically disordered regions and interactions with 14-3-3 proteins",
+  "authors": "John Fehilly; Olivia Carey; Eoghan Thomas O’Leary; Stephen O’Shea; Klaudia Juda; Rahel Fitzel; Pooja Selvaraj; Andrew J. Lindsay; Bálint Mészáros; Kellie Dean",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-10",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究SMAUG1通过朊病毒样无序区驱动液-液相分离凝聚体形成，并揭示14-3-3蛋白通过磷酸化短线性基序直接互作促进凝聚体溶解的调控机制，结合计算预测、结构建模与实验，高度契合无序蛋白介导PPI与相分离机制建模主题。",
+  "abstract": "SMAUG1 is a human RNA-binding protein that is known to be dysregulated in a wide range of diseases. It is evolutionarily conserved and has been shown to form condensates containing translationally repressed RNAs. This indicates that condensation is central to proper SMAUG1 function; however, the factors governing condensation are largely unknown. In this work, we show that SMAUG1 drives the formation of liquid-like condensates in cells through its non-conventional C-terminal prion-like disordered region. We use biochemical assays to show that this liquid-liquid phase separation is independent of RNA binding and does not depend on other large, disordered regions that potentially harbor several binding sites for partner proteins. Using a combination of computational predictions, structural modeling, in vitro and in cell measurements, we also show that SMAUG1-driven condensation is negatively regulated by direct interactions with members of the 14-3-3 protein family. These interactions are mediated by four distinct phospho-regulated short linear motifs embedded in the disordered regions of SMAUG1, working synergistically. Interactions between SMAUG1 and 14-3-3 proteins drive the dissolution of condensates, alter the dynamics of the condensed state, and are likely to be intertwined with currently unknown regulatory mechanisms. Our results provide information on how SMAUG1 phase separation is regulated and the first known instance of 14-3-3 proteins being able to completely dissolve condensates by directly interacting with a phase separation driver, which might be a general mechanism in cells to regulate biological condensation. Graphical abstract Highlights SMAUG1 is a human RNA-binding protein capable of condensation with unknown regulation A prion-like domain of SMAUG1 drives condensation via liquid-liquid phase separation SMAUG1 interacts with 14-3-3 proteins via four phospho-regulated short linear motifs 14-3-3 interactions change the dynamics of SMAUG1 condensates, promoting their dissolution This is the first described regulatory mechanism for SMAUG1-driven condensation",
+  "abstract_zh": "SMAUG1是一种人类RNA结合蛋白，已知在多种疾病中表达失调。它在进化上保守，并已被证明能形成含有翻译抑制RNA的凝聚体。这表明凝聚对于SMAUG1的正常功能至关重要；然而，调控凝聚的因素在很大程度上尚不清楚。在本工作中，我们展示了SMAUG1通过其非传统的C端朊病毒样无序区域驱动细胞中液体样凝聚体的形成。我们使用生化实验表明，这种液-液相分离 (liquid-liquid phase separation) 独立于RNA结合，并且不依赖于其他可能含有多个伙伴蛋白结合位点的大型无序区域。结合计算预测、结构建模、体外和细胞内测量，我们还表明SMAUG1驱动的凝聚受到与14-3-3蛋白家族成员直接相互作用的负调控。这些相互作用由嵌入在SMAUG1无序区域中的四个不同的磷酸化调控短线性基序介导，并协同作用。SMAUG1与14-3-3蛋白之间的相互作用驱动凝聚体的溶解，改变凝聚态的动态，并可能与目前未知的调控机制交织在一起。我们的结果提供了关于SMAUG1相分离如何被调控的信息，以及14-3-3蛋白通过直接与相分离驱动因子相互作用而完全溶解凝聚体的首个已知实例，这可能是在细胞中调控生物凝聚的普遍机制。图形摘要 亮点 SMAUG1是一种人类RNA结合蛋白，能够形成凝聚，但调控机制未知 SMAUG1的朊病毒样结构域通过液-液相分离驱动凝聚 SMAUG1通过四个磷酸化调控的短线性基序与14-3-3蛋白相互作用 14-3-3相互作用改变SMAUG1凝聚体的动态，促进其溶解 这是首个描述的SMAUG1驱动凝聚的调控机制",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.09.527857",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.09.527857",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.09.527857/index.html"
+}

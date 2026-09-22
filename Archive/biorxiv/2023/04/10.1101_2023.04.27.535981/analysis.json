@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.27.535981",
+  "title": "Development of constrained peptide inhibitors targeting an oncogenic E3 ubiquitin ligase",
+  "authors": "Zenkevičiūtė G; Xu W; Iegre J; Seki H; Tan YS; Rowling PJ; Ferrer F; Verma C; Spring DR; Laman H; Itzhaki LS",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-27",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究开发靶向致癌E3泛素连接酶Skp2/Cks1的大环肽抑制剂，涉及无序p27介导的蛋白互作抑制，但方法以实验为主、无AI/物理模拟建模，故评7分。",
+  "abstract": "SCF Skp2/Cks1 is an E3 ubiquitin ligase, whose substrate specificity is determined by the oncogenic F-box protein Skp2 and the adaptor protein Cks1. A principal target of SCF Skp2/Cks1 is the cyclin-dependent kinase inhibitor p27. Elevated levels of Skp2 and reduced levels of p27 are common in a variety of cancers, and there is consequently a need to develop effective inhibitors of the Skp2-p27 interaction. However, conventional small-molecule approaches are challenging due to the extended bi-molecular interface that spans both Skp2 and Cks1, the lack of suitable binding pockets on this surface, and the intrinsically disordered nature of p27. Here, we develop macrocyclic peptides capable of binding to SCF Skp2/Cks1 with nanomolar affinities, an enhancement of almost two orders of magnitude over the natural p27 peptide. We show that these macrocyclic peptides inhibit p27 ubiquitination in vitro, restore p27 levels in a breast cancer cell line, and reduce cell proliferation.",
+  "abstract_zh": "SCF Skp2/Cks1是一种E3泛素连接酶，其底物特异性由致癌性F-box蛋白Skp2和衔接蛋白Cks1决定。SCF Skp2/Cks1的主要靶标是细胞周期蛋白依赖性激酶抑制剂p27。在多种癌症中，Skp2水平升高和p27水平降低常见，因此有必要开发有效的Skp2-p27相互作用抑制剂。然而，由于跨越Skp2和Cks1的扩展双分子界面、该表面缺乏合适的结合口袋以及p27的内在无序特性，传统小分子方法面临挑战。在此，我们开发了能够以纳摩尔亲和力结合SCF Skp2/Cks1的大环肽，其亲和力比天然p27肽增强了近两个数量级。我们证明这些大环肽在体外抑制p27泛素化，在乳腺癌细胞系中恢复p27水平，并减少细胞增殖。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.27.535981",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.27.535981",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.27.535981/index.html"
+}

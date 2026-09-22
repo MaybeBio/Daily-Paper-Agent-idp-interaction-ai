@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors reconstituted HRS and clathrin on lipid membranes in vitro, observed that HRS forms two-dimensional condensates on negatively charged membranes, and that these condensates promote assembly of flat clathrin lattices. They report correlative cryo-tomography of HRS-labeled endosomes showing a pure hexagonal lattice, and propose that cholesterol enhances HRS recruitment and phase separation, with a positive feedback loop concentrating cholesterol beneath HRS condensates, leading to sorting of ubiquitinated cargoes. The central claim is that two-dimensional phase separation of HRS drives flat clathrin coat assembly.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical details, experimental replicates, controls, and any quantitative data supporting the claims
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis linking two-dimensional phase separation of HRS to flat clathrin lattice assembly. However, the evidence base provided is insufficient to evaluate the technical rigor or the strength of the conclusions. Several claims are stated without quantitative support or methodological detail, and the causal relationships proposed require substantially more evidence than is visible in the abstract. The work addresses a genuine gap in understanding flat clathrin structures, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Cell biologists studying endocytosis, clathrin-mediated trafficking, and ESCRT machinery would be the primary audience. Researchers interested in phase separation and membrane organization, as well as those studying lipid-protein interactions, would also find the results relevant. The potential link between cholesterol and HRS condensation could attract investigators working on membrane microdomain organization and lipid-dependent signaling.
+- **Major strengths** The study addresses an understudied aspect of clathrin biology, namely flat lattices, which are distinct from the well-characterized curved budding structures. The combination of in vitro reconstitution with correlative cryo-tomography of cellular endosomes is a powerful approach that could provide direct structural evidence. The proposed positive feedback mechanism involving cholesterol is conceptually novel and could have broad implications for membrane organization.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "HRS was found to form protein condensates. These condensates spread as a two-dimensional layer on negatively charged membranes and promoted the assembly of clathrin into a flat coat."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that HRS forms condensates and that these spread as a two-dimensional layer, but no experimental evidence is described to distinguish a true two-dimensional phase separation from non-specific aggregation or simple surface adsorption. The criteria used to define "condensate" and "two-dimensional layer" are not stated.  
+  - **Why it matters** The central mechanistic claim depends on the demonstration that HRS undergoes bona fide two-dimensional phase separation on membranes. Without clear biophysical characterization, such as fluorescence recovery after photobleaching, FRET, or quantitative imaging showing liquid-like behavior and lateral mobility, the claim remains unsupported.  
+  - **Resolution test** Provide quantitative evidence of two-dimensional phase separation, including concentration-dependent behavior, mobility measurements, and demonstration of reversibility or fusion events. Show that the observed structures are not artifacts of protein aggregation or membrane binding alone.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Correlative cryo-tomography of HRS-labeled endosomes revealed a pure hexagonal lattice, consistent with flat clathrin structures."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims a "pure hexagonal lattice" from cryo-tomography, but no details are given on how the lattice was classified as hexagonal, how many tomograms were analyzed, what the resolution was, or how the authors distinguished hexagonal from other lattice geometries. The term "pure" implies a statistical or structural claim that requires quantitative analysis.  
+  - **Why it matters** The structural interpretation is central to linking the in vitro observations to cellular flat clathrin lattices. If the lattice assignment is not rigorously supported, the connection between the reconstituted system and the cellular context is weakened.  
+  - **Resolution test** Provide representative tomograms, subtomogram averaging results, lattice classification criteria, and statistical analysis of lattice geometry across multiple endosomes. Show that the hexagonal assignment is robust and not confounded by other lattice types.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** "Cholesterol enhanced HRS recruitment to the membrane both in cells and in supported bilayers. Furthermore, cholesterol promoted the phase separation of HRS onto membranes, which in turn concentrated cholesterol underneath. This positive feedback promoted the formation of HRS-clathrin microdomains that sorted reconstituted ubiquitinated cargoes."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract proposes a positive feedback loop between cholesterol and HRS phase separation, but the evidence for causality is not described. It is unclear whether cholesterol directly promotes HRS phase separation or whether the observed cholesterol enrichment is a consequence of HRS condensation. The claim that this feedback "promoted" cargo sorting implies a functional outcome that requires demonstration of specificity and directionality.  
+  - **Why it matters** The proposed feedback mechanism is a key novelty of the study. Without controlled experiments that manipulate cholesterol levels, HRS concentration, and membrane composition independently, the causal relationships cannot be established. The cargo sorting claim also requires evidence that sorting is specific to ubiquitinated cargoes and dependent on the proposed mechanism.  
+  - **Resolution test** Perform experiments with cholesterol depletion or addition in a dose-dependent manner, use mutant HRS that cannot phase separate, and show that cargo sorting is abolished or enhanced accordingly. Provide quantitative measurements of cholesterol enrichment and demonstrate that the feedback loop is required for microdomain formation and sorting.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and completeness  
+  - **Claim pointer** "We reconstituted the flat assembly of ESCRT-0 protein HRS and clathrin onto lipid membranes in vitro."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the reconstitution conditions, including protein concentrations, lipid compositions, buffer conditions, or the methods used to assess flat versus curved assembly. Without these details, the reproducibility of the reconstitution cannot be evaluated.  
+  - **Why it matters** Reconstitution experiments are highly sensitive to experimental conditions. The claim that flat assembly was achieved in vitro requires that the conditions be clearly specified and that controls rule out artifacts such as protein denaturation, non-specific aggregation, or membrane deformation.  
+  - **Resolution test** Provide full methods for the reconstitution, including all component concentrations, lipid compositions, and validation of the flat versus curved morphology. Include negative controls and demonstrate that the observed flat assembly is specific to the described conditions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "HRS condensates" is used without defining whether these are liquid-like, gel-like, or solid aggregates. The physical state of the condensate is important for interpreting the mechanism.  
+  - **Required correction** Define the material properties of the condensates and provide evidence for their physical state.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Quantitative data  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that cholesterol "enhanced" HRS recruitment and that condensates "promoted" clathrin assembly, but no quantitative measures are given, such as fold changes, concentrations, or statistical significance.  
+  - **Required correction** Include quantitative values and statistical analyses for the key observations.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretive caution  
+  - **Affected element** Cargo sorting claim  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The claim that HRS-clathrin microdomains "sorted" ubiquitinated cargoes is stated without specifying the sorting mechanism or the efficiency of sorting.  
+  - **Required correction** Clarify what is meant by sorting and provide quantitative measurements of cargo enrichment or exclusion.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Cellular relevance  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "HRS-labeled endosomes" but does not specify the cell type or whether the observations are generalizable across different endosomal populations.  
+  - **Required correction** Specify the cellular context and discuss the generalizability of the findings.
+
+## Risk / unsupported claims
+- The claim that HRS forms two-dimensional condensates on membranes is unsupported without biophysical characterization.
+- The claim that cryo-tomography revealed a "pure hexagonal lattice" is unsupported without structural analysis details.
+- The proposed positive feedback loop between cholesterol and HRS phase separation is unsupported without causal experiments.
+- The claim that HRS-clathrin microdomains sort ubiquitinated cargoes is unsupported without functional assays.
+- The overall conclusion that "two-dimensional phase-separation of HRS drives the assembly of flat clathrin coats" is not established from the abstract alone, as the causal link between phase separation and flat lattice assembly is not demonstrated.

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, supplementary figure/table references) for the article by Day et al., Polymer Chemistry, 2025, DOI 10.1039/D4PY00341A.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. Editorial or stylistic recommendations are limited to those affecting clarity for the target readership.
+- **Shared manuscript claim summary** The authors report a multi-technique characterization of four compositionally identical 20mer peptoids (dib, alt, r1, r2) to assess conformational ensemble differences driven by hydrophobic patterning. They claim: (1) atomistic REMD simulations reveal statistically significant differences in compactness (alt most compact, dib most disordered); (2) LC-IMS-MS distinguishes the sequences, with alt most compact and r2 more disordered than r1; (3) DOSY NMR and DEER spectroscopy do not resolve differences among the sequences; (4) a novel colorimetric assay using Reichardt's dye on immobilized sequences visually recapitulates the conformational trends from simulations and LC-IMS-MS.
+- **Visible evidence base** Main text figures referenced (Fig. 1a–c, 2a–b, 3a–c, 4a–c, 5a–b), supplementary figures/tables referenced (S1–S24, Tables S1–S4), and textual descriptions of methods and results. No raw data, spectra, chromatograms, or simulation trajectories are provided in the manuscript text.
+- **Missing materials affecting confidence** Raw LC-MS chromatograms, IMS arrival time distributions, DOSY decay curves, DEER time-domain data and distance distributions, simulation convergence metrics, force field validation details, dye assay calibration data, and statistical analysis details (e.g., exact p-values, sample sizes, replicates) are not included in the provided text. Supplementary figures are referenced but not available for inspection.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely challenge: characterizing conformational ensembles of small, disordered peptidomimetics. The combination of simulation, LC-IMS-MS, DOSY, DEER, and a novel colorimetric assay is ambitious and potentially valuable. However, the evidence presented in the text is insufficient to fully support several key claims, particularly regarding the statistical significance of simulation differences, the resolving power of LC-IMS-MS, and the quantitative interpretation of the colorimetric assay. The claim that the colorimetric assay "recapitulates" conformational trends is plausible but not rigorously established from the data described. The manuscript would benefit from clearer presentation of quantitative results and explicit statistical comparisons across techniques.
+- **Who would be interested in the results, and why** Researchers in peptidomimetic chemistry, disordered protein biophysics, polymer characterization, and biomaterials design. The colorimetric assay, if validated, could be of broad interest to laboratories seeking low-cost, high-throughput conformational screening tools. The comparative assessment of multiple characterization techniques for small disordered oligomers is also relevant to method development in analytical chemistry and biophysics.
+- **Major strengths** (1) The study addresses a significant gap: characterizing subtle conformational differences in small (<3 kDa) disordered oligomers. (2) The multi-technique approach is comprehensive and includes both computational and experimental methods. (3) The colorimetric assay concept is novel and potentially transformative for high-throughput screening. (4) The choice of model system (HP peptoids) is well-justified and isolates hydrophobic patterning as a variable. (5) The authors acknowledge limitations of individual techniques (e.g., DEER resolution) and frame the work as complementary.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical support
+  - **Claim pointer** "The differences in the distributions are statically significant by two-tailed independent t-test to α < 0.0001" (simulation results, Section "Atomistic simulations").
+  - **Evidence pointer** Section "Atomistic simulations", Figure 3a, Tables S1–S3 (referenced, not provided).
+  - **Concern** The claim of statistical significance is made without presenting the actual test statistics, effect sizes, or details of the comparison (e.g., which distributions were compared, whether multiple comparisons were corrected for). The t-test assumes independence and normality, which may not hold for conformational ensemble data. Additionally, the practical significance of a 0.03 nm difference in Rg(bkb) is not discussed.
+  - **Why it matters** The central conclusion that the four sequences adopt distinct conformational ensembles rests on this statistical claim. Without transparent reporting of the analysis, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide the full statistical output (test statistic, degrees of freedom, p-values for all pairwise comparisons), a description of the multiple comparison correction method, and a discussion of effect size and biological/practical relevance. Alternatively, provide confidence intervals or Bayesian credible intervals for the mean differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence support
+  - **Claim pointer** "Using a gradient of aqueous solvent to organic solvent, we observed that alt eluted earliest on the LC chromatogram compared to r1 and r2... Evaluating both LC and IMS, all measurements are statistically differentiable using an independent two-tailed t-test at α = 0.05, and r2 had a longer retention and larger CCS value, data consistent with the conclusion from the simulations that r2 is more disordered than r1 and alt."
+  - **Evidence pointer** Section "Experimental characterization of peptoid sequences", Figure 4a, Figures S6–S8 (referenced, not provided).
+  - **Concern** The claim that LC retention time differences (9.60 vs 9.63 vs 9.70 min) are statistically significant and interpretable as conformational differences is not well-supported. Retention time in reversed-phase LC is influenced by multiple factors including hydrophobicity, and the authors themselves note that "branched small molecules have been observed to elute earlier via LC than their linear isomers with a larger surface area." The connection between retention time and conformational compactness is not established. Additionally, the CCS differences (460.4 vs 461.7 vs 462.2 Å²) are very small (0.3–0.4%) and may be within instrumental variability; the claim of statistical significance requires reporting of measurement replicates and instrumental precision.
+  - **Why it matters** The LC-IMS-MS data are presented as key experimental validation of the simulation predictions. If the differences are not robust or not interpretable as conformational differences, the validation is weakened.
+  - **Resolution test** Provide replicate measurements (n ≥ 3) with standard deviations for both retention times and CCS values. Report the instrumental precision and demonstrate that the observed differences exceed measurement uncertainty. Discuss the physical basis for relating retention time to conformational compactness in this system, or temper the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence support
+  - **Claim pointer** "The darkest color was observed for alt, correlating with the more compact structure consistent with observations from simulations and LC-IMS-MS... The paler color of dib correlates with the most disordered structure... The randomized sequences were intermediate in dye saturation with r1 darker than r2, consistent with observations from LC-IMS-MS and simulations."
+  - **Evidence pointer** Section "Immobilized colorimetric assay", Figure 5a–b, Figures S19–S24 (referenced, not provided).
+  - **Concern** The colorimetric assay is presented as a key novel contribution, but the quantification method is not described. The text states that "differences in hue anticipated for the solvatochromic Reichardt's dye were challenging to quantify" and that "the dye saturation showed slight variations in replicate preparations and under different cameras." This suggests the assay is qualitative or semi-quantitative at best. The claim that the assay "recapitulates" conformational trends requires a quantitative correlation between color output and a conformational metric (e.g., Rg or CCS), which is not presented.
+  - **Why it matters** The novelty and utility of the colorimetric assay depend on its ability to reliably report conformational differences. Without a clear quantification method, reproducibility assessment, and correlation to established metrics, the assay's validity is not established.
+  - **Resolution test** Provide a quantitative image analysis method (e.g., RGB values, hue analysis) with calibration curves. Show a correlation plot between colorimetric output and Rg or CCS for the four sequences. Report inter-batch and inter-camera variability with appropriate statistics. If the assay is intended as qualitative, state this explicitly and temper the claims accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** "The average Rg appears similar to alt, which we hypothesize is due to the lack of steric hinderance from side-chains" (referring to gly20).
+  - **Evidence pointer** Section "Atomistic simulations", Figure 3a, Figure S2 (referenced, not provided).
+  - **Concern** The comparison to gly20 is mentioned but not systematically discussed. The gly20 control is intended to represent a random coil, but its Rg distribution is described as "wider" than the peptoids. The interpretation that gly20's similar average Rg to alt is due to "lack of steric hindrance" is speculative and not tested. A more rigorous comparison of the full distributions (e.g., via Kolmogorov-Smirnov test or overlap coefficient) would strengthen the analysis.
+  - **Why it matters** The gly20 control is important for interpreting the role of hydrophobic side-chains in driving compaction. A superficial comparison weakens the mechanistic conclusions.
+  - **Resolution test** Provide a quantitative comparison of the full Rg distributions (e.g., KS test, overlap coefficient) and discuss the implications for the role of side-chains in conformational preferences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that the colorimetric assay "provides a complementary method to characterize the disorder of macromolecules," but the term "disorder" is used without defining whether it refers to conformational heterogeneity, lack of secondary structure, or something else.
+  - **Required correction** Define "disorder" in the context of this work, or use a more specific term such as "conformational heterogeneity" or "chain compaction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Section "Immobilized colorimetric assay", "location not provided"
+  - **Issue** The concentration of Reichardt's dye (0.15 mM) and buffer conditions are given, but the incubation time, temperature, and washing steps are not described.
+  - **Required correction** Provide complete experimental conditions for the colorimetric assay to enable reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** DEER discussion
+  - **Evidence pointer** Section "Experimental characterization of peptoid sequences", Figure 4c, Figure S15 (referenced, not provided)
+  - **Issue** The text states that DEER average distances were "not differentiable" but does not discuss whether this is due to technique limitations (as noted for the 2–8 nm range) or genuine similarity in end-to-end distances. The interpretation is ambiguous.
+  - **Required correction** Clarify whether the non-differentiability is expected given the technique's resolution limits and the expected distance range, and discuss what this implies for the conformational conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Simulation analysis
+  - **Evidence pointer** Section "Atomistic simulations", Figure 3a, "location not provided"
+  - **Issue** The number of independent simulations or replicas used for the statistical analysis is not stated. It is unclear whether the 50,000 conformations are from a single trajectory or multiple independent runs.
+  - **Required correction** Report the number of independent simulations and how conformations were sampled for statistical analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusions
+  - **Evidence pointer** Section "Conclusions", "location not provided"
+  - **Issue** The conclusion states that "the alternating sequence was the most compact," but this is only one of several findings. The broader implications for design rules in peptidomimetics are not discussed in sufficient depth.
+  - **Required correction** Expand the discussion of how these findings inform sequence-structure relationships and what design principles can be derived.
+
+## Risk / unsupported claims
+- The claim that simulation differences are statistically significant (α < 0.0001) is unsupported without full statistical reporting.
+- The claim that LC retention time differences reflect conformational differences is not established; alternative explanations (e.g., hydrophobicity) are not excluded.
+- The claim that the colorimetric assay "recapitulates" conformational trends is not quantitatively supported; the assay appears qualitative or semi-quantitative based on the text.
+- The claim that "differences between these model sequences were more challenging to resolve with characterization tools developed for intrinsically disordered proteins and polymers" (abstract) is presented as a general statement but is only demonstrated for DOSY and DEER in this specific system.
+- The mechanistic interpretation of gly20's Rg distribution ("lack of steric hindrance") is speculative and not tested.
+- The statement that "the alternating sequence was the most compact" is supported by simulation and LC-IMS-MS but the magnitude of the effect and its practical significance are not quantified.

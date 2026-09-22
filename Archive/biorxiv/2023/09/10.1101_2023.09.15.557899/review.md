@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, materials and methods) as provided on bioRxiv
+- **Assessment boundary** Scientific claims, experimental and computational evidence, internal consistency, and reporting quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 nucleoprotein (N) associates with anionic lipid membranes, including phosphoinositides, phosphatidylserine, and phosphatidic acid, via electrostatic interactions mediated by its C-terminal domain (CTD), and that this association occurs for both free and oligomeric forms of N. They propose a lipid-dependent model for N recruitment to membrane assembly sites.
+- **Visible evidence base** Lipid overlay assays (PIP strips and membrane lipid strips), large unilamellar vesicle (LUV) pelleting assays, surface plasmon resonance (SPR) binding experiments, BS3 cross-linking of N from cell lysates, and molecular dynamics (MD) simulations of N-CTD dimers with three membrane models
+- **Missing materials affecting confidence** Figures 1-10 and Tables 1 are referenced but not provided; no numerical data, statistical analyses, replicates, or error estimates are reported; no raw SPR sensorgrams or binding affinities are given; no details on the denaturation/refolding protocol are provided; no information on the validation of the cross-linked N oligomers is given; no simulation convergence or reproducibility metrics are reported
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important and understudied aspect of SARS-CoV-2 biology, namely the lipid-binding properties of the nucleoprotein and its possible role in virus assembly. The combination of in vitro, cellular, and computational approaches is commendable and appropriate for the question posed. However, the current presentation is largely qualitative, with key quantitative data, statistical validation, and methodological details absent from the provided text. The central claims are plausible but not fully established from the evidence as described. The manuscript would benefit from substantial revision to strengthen the quantitative basis, clarify ambiguities, and provide the missing experimental and computational details.
+- **Who would be interested in the results, and why** Virologists studying coronavirus assembly and budding, membrane biophysicists interested in protein-lipid interactions, structural biologists working on nucleocapsid proteins, and researchers investigating host-pathogen interactions at lipid membranes. The findings could inform antiviral strategies targeting N-membrane interactions.
+- **Major strengths** The study addresses a genuine gap in understanding how N is recruited to assembly sites. The combination of multiple orthogonal techniques (lipid strips, vesicle pelleting, SPR, cross-linking, MD simulations) is a strength. The identification of the CTD as the lipid-binding region and the electrostatic basis of interaction is mechanistically coherent. The use of multiple membrane models in simulations is thoughtful.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and quantitative support
+  - **Claim pointer** The authors claim that N protein "strongly associates" with anionic lipids including phosphoinositides and phosphatidylserine, and that this binding is electrostatic in nature.
+  - **Evidence pointer** Figures 1-3; Results section "The SARS-CoV-2 nucleoprotein associates with membranes containing anionic lipids"
+  - **Concern** The evidence presented is entirely qualitative. No quantitative binding data (e.g., dissociation constants, binding stoichiometry, or relative binding intensities) are provided. The lipid overlay assays are semi-quantitative at best, and the LUV pelleting and SPR experiments are described without any numerical results, sensorgrams, or statistical analysis. The claim of "strong" association is not supported by any quantitative metric.
+  - **Why it matters** Without quantitative binding parameters, the biological relevance of the interaction cannot be assessed. The strength of association is central to the proposed model of N recruitment to membranes, and the current evidence does not allow the reader to evaluate whether this interaction is specific, high-affinity, or physiologically meaningful.
+  - **Resolution test** Provide quantitative binding data, such as apparent Kd values from SPR or titration experiments, with appropriate replicates and statistical analysis. Include representative sensorgrams and binding isotherms. For lipid overlay assays, provide densitometric quantification with error bars and statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental controls and specificity
+  - **Claim pointer** The authors claim that N associates with anionic lipids but not with zwitterionic lipids, and that this is specific to the CTD.
+  - **Evidence pointer** Figures 1, 2, 4, 5; Results sections on lipid binding and domain mapping
+  - **Concern** The text does not describe critical controls. For example, no negative control protein (e.g., a non-lipid-binding protein) is mentioned for the lipid overlay or vesicle pelleting assays. The specificity of the CTD-mediated binding is inferred from truncation constructs, but no alanine mutagenesis or charge-reversal mutants are shown to confirm that specific residues are responsible. The cross-linking experiments with BS3 are described but no validation of the cross-linked species (e.g., by mass spectrometry or size-exclusion chromatography) is provided.
+  - **Why it matters** Without appropriate controls and mutagenesis, the claim that lipid binding is specific to the CTD and mediated by electrostatics remains correlative. Alternative explanations, such as non-specific aggregation or binding via a contaminant, cannot be excluded.
+  - **Resolution test** Include a negative control protein in all binding assays. Perform site-directed mutagenesis of the positively charged residues identified in simulations and test their effect on lipid binding. Validate the cross-linked N species biophysically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational evidence and simulation rigor
+  - **Claim pointer** The authors claim that MD simulations support the experimental findings and identify specific residues involved in lipid interactions.
+  - **Evidence pointer** Figures 6-10; Results section "Computational Studies of the nucleoprotein C-terminal domain with lipid membranes"; Table 1
+  - **Concern** The simulation methodology is described but key details are missing. The authors state that 1 μs production runs were performed with two replicas per membrane model, but no convergence analysis, error estimates, or block averaging are reported. The choice of starting orientations is described qualitatively. The analysis of lipid contacts, occupancy, and residence time is presented without statistical uncertainty. The claim that one monomer shows "significantly higher" interactions than the other is not supported by any statistical test. The functional relevance of the identified residues is not tested experimentally.
+  - **Why it matters** Molecular dynamics simulations are only meaningful if they are converged and reproducible. Without error analysis and convergence checks, the reader cannot assess the reliability of the simulation results. The claim of asymmetric monomer behavior is a strong statement that requires statistical support.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD over time, block-averaged errors), replicate-to-replicate variability, and statistical tests for differences between monomers. Ideally, validate the identified residues experimentally through mutagenesis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and model support
+  - **Claim pointer** The authors propose a "lipid-dependent model" for N recruitment to M assembly sites, suggesting that lipid interactions play an essential role in assembly.
+  - **Evidence pointer** Conclusions section; overall manuscript
+  - **Concern** The proposed model is speculative and goes beyond the presented data. The experiments demonstrate that N can bind anionic lipids in vitro and in silico, but no experiments directly link this binding to N recruitment to M protein or to virus assembly in cells. The claim that lipid interactions "may play an essential role" is not tested. The connection between the observed lipid binding and the proposed biological function is not established.
+  - **Why it matters** The broader significance of the work depends on the biological relevance of the lipid interaction. Without functional experiments (e.g., mutagenesis disrupting lipid binding and assessing effects on assembly or VLP production), the model remains a hypothesis.
+  - **Resolution test** Perform experiments that directly test the role of N-lipid interactions in assembly, such as mutating the identified lipid-binding residues and assessing N localization, M interaction, or VLP production. Alternatively, temper the conclusions to match the evidence.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Materials and methods, N protein expression and purification
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The purification protocol is described briefly. The denaturation and refolding step mentioned in the Results is not described in the Methods. The concentration of N protein used in assays is not stated.
+  - **Required correction** Provide a full description of the denaturation/refolding protocol and state protein concentrations used in all assays.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures 1-10
+  - **Evidence pointer** Results section
+  - **Issue** The figures are referenced but not shown in the provided text. It is not possible to assess the quality of the data or the appropriateness of the analysis.
+  - **Required correction** Ensure all figures are included and clearly labeled, with appropriate legends describing experimental conditions and statistical information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology and consistency
+  - **Affected element** Results section, computational studies
+  - **Evidence pointer** Results section "Computational Studies of the nucleoprotein C-terminal domain with lipid membranes"
+  - **Issue** The lipid nomenclature is inconsistent. The text refers to "PI(1,4)" and "PI(1,3)" but standard nomenclature is PI(4,5)P2 or PI(3,4)P2. The authors also use "PI(1,4)" in the text but "PI(4,5)P2" in the abstract. This is confusing.
+  - **Required correction** Use standard lipid nomenclature consistently throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All experimental results
+  - **Evidence pointer** Results section
+  - **Issue** No statistical tests, error bars, or replicate numbers are reported for any of the experimental data.
+  - **Required correction** Add statistical analysis, including the number of independent replicates, error bars, and appropriate statistical tests for all quantitative data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites several references but does not discuss prior work on coronavirus N-lipid interactions in detail. The authors mention a study from nearly thirty years ago but do not provide a critical comparison with their current findings.
+  - **Required correction** Expand the introduction to include a more thorough discussion of prior work on N-lipid interactions and how the current study advances this area.
+
+## Risk / unsupported claims
+- The claim that N "strongly associates" with anionic lipids is unsupported by quantitative data.
+- The claim that lipid binding is mediated specifically by the CTD is supported only by truncation experiments without mutagenesis validation.
+- The claim that N oligomers bind lipids is based on cross-linking experiments that are not validated.
+- The claim that one CTD monomer shows "significantly higher" lipid interactions than the other is unsupported by statistical analysis.
+- The proposed model for N recruitment to M assembly sites via lipid interactions is speculative and not directly tested.
+- The biological relevance of the observed lipid binding to virus assembly is not established experimentally.
+- The simulation results lack convergence analysis and error estimates, making their reliability uncertain.

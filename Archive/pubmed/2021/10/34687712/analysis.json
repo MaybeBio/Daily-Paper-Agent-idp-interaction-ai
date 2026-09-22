@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34687712",
+  "title": "Flanking Disorder of the Folded alphaalpha-Hub Domain from Radical Induced Cell Death1 Affects Transcription Factor Binding by Ensemble Redistribution.",
+  "authors": "Staby, Lasse; Due, Amanda D; Kunze, Micha Ben Achim; Jorgensen, Maria Louise Monster; Skriver, Karen; Kragelund, Birthe B",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR和动力学分析揭示无序侧翼区域通过构象系综重分布调控折叠RST结构域与转录因子的结合亲和力，直接聚焦IDR介导的PPI机制，虽以实验为主但机制建模深度高，对无序蛋白互作建模有重要启发。",
+  "abstract": "Protein intrinsic disorder is essential for organization of transcription regulatory interactomes. In these interactomes, the majority of transcription factors as well as their interaction partners have co-existing order and disorder. Yet, little attention has been paid to their interplay. Here, we investigate how order is affected by flanking disorder in the folded alphaalpha-hub domain RST from Radical-Induced Cell Death1 (RCD1), central in a large interactome of transcription factors. We show that the intrinsically disordered C-terminal tail of RCD1-RST shifts its conformational ensemble towards a pseudo-bound state through weak interactions with the ligand-binding pocket. An unfolded excited state is also accessible on the ms timescale independent of surrounding disordered regions, but its population is lowered by 50% in their presence. Flanking disorder additionally lowers transcription factor binding-affinity without affecting the dissociation rate constant, in accordance with similar bound-states assessed by NMR. The extensive dynamics of the RCD1-RST domain, modulated by flanking disorder, is suggestive of its adaptation to many different transcription factor ligands. The study illustrates how disordered flanking regions can tune fold and function through ensemble redistribution and is of relevance to modular proteins in general, many of which play key roles in regulation of genes.",
+  "abstract_zh": "蛋白质内在无序性对于转录调控相互作用组的组织至关重要。在这些相互作用组中，大多数转录因子及其相互作用伙伴同时具有有序性和无序性。然而，它们之间的相互作用却鲜少受到关注。在此，我们研究了在折叠的alphaalpha-hub结构域RST中，侧翼无序性如何影响有序性，该结构域来自Radical-Induced Cell Death1（RCD1），是大型转录因子相互作用组中的核心。我们表明，RCD1-RST的固有无序C末端尾部通过配体结合口袋的弱相互作用，将其构象集合转向伪结合状态。一个未折叠的激发态在毫秒时间尺度上也可及，且独立于周围的无序区域，但其群体在存在这些区域时降低了50%。侧翼无序性还降低了转录因子的结合亲和力，而不影响解离速率常数，这与通过NMR评估的类似结合态一致。RCD1-RST结构域的广泛动态性，受侧翼无序性调节，暗示其适应多种转录因子配体。该研究阐明了无序侧翼区域如何通过集合重分布来调节折叠和功能，并对一般模块化蛋白质具有相关性，其中许多在基因调控中发挥关键作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34687712/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34687712/",
+  "paper_page_path": "papers/pubmed/34687712/index.html"
+}

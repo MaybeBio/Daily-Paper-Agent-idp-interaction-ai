@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "40748104",
+    "doi": "10.1063/5.0275344",
+    "title": "Unraveling the impact of interaction types on phase separation of intrinsically disordered protein chains."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, formed through liquid-liquid phase separation (LLPS) of biomolecules, play essential roles in various cellular processes. Despite significant advances in understanding the driving forces behind LLPS, the specific impact of different types of interactions on phase separation behaviors remains underexplored. In this study, we utilized dissipative particle dynamics simulations to analyze the network structure, material properties, and dynamic behavior of intrinsically disordered protein (IDP) chains under hydrophobic and specific interactions with varying strengths. Our results demonstrate that while both hydrophobic and specific interactions can lead to phase separation, they produce distinct behaviors. Hydrophobic interactions promote the formation of more dynamic clusters, whereas specific interactions result in more stable condensates due to longer bond lifetimes and reduced mobility among IDP chains. Notably, the viscosity and diffusion coefficients of the condensates varied significantly between the two types of interactions, reflecting their differing material properties. Furthermore, in the case of alternating chains, specific interactions were not sufficient to induce phase separation structures. Overall, this study highlights the critical role of interaction types in shaping the phase separation behaviors of IDPs, providing valuable insights for fine-tuning the properties of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Viscosity",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "Phase Transition",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yuan-Qiang",
+        "Sheng, Yan-Jing",
+        "Ma, Yu-Qiang",
+        "Ding, Hong-Ming"
+      ],
+      "short_names": [
+        "Chen YQ",
+        "Sheng YJ",
+        "Ma YQ",
+        "Ding HM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9577-9672",
+        "ORCID: 0000-0002-9224-4779"
+      ],
+      "affiliations": [
+        "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China.",
+        "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "Jiangsu Physical Science Research Center, Nanjing 210093, China.",
+        "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yuan-Qiang",
+        "short_name": "Chen YQ",
+        "identifiers": [
+          "0000-0002-9577-9672"
+        ],
+        "affiliations": [
+          "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Yan-Jing",
+        "short_name": "Sheng YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu-Qiang",
+        "short_name": "Ma YQ",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+          "Jiangsu Physical Science Research Center, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Hong-Ming",
+        "short_name": "Ding HM",
+        "identifiers": [
+          "0000-0002-9224-4779"
+        ],
+        "affiliations": [
+          "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Aug 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/01 12:33",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42041496",
+      "41670285"
+    ],
+    "refs": [],
+    "similar": [
+      "40748104",
+      "39947751",
+      "39987501",
+      "41481439",
+      "39225535",
+      "38348795",
+      "34716273",
+      "29509422",
+      "33139563",
+      "32393642",
+      "32312191",
+      "36350034",
+      "40455990",
+      "39964249",
+      "39042834",
+      "33076213",
+      "40009520",
+      "36657879",
+      "33302617",
+      "36524527",
+      "37468629",
+      "40094245",
+      "30926670",
+      "38979955",
+      "41457474",
+      "40616404",
+      "41166416",
+      "38251748",
+      "40028898",
+      "32696384",
+      "33930220",
+      "40098319",
+      "39271032",
+      "40439464",
+      "33971237",
+      "38824391",
+      "35179885",
+      "40792356",
+      "38252962",
+      "37815389",
+      "31260322",
+      "39257779",
+      "30471685",
+      "36350032",
+      "31667345",
+      "32087632",
+      "40136009",
+      "34588591",
+      "40515902",
+      "40420812",
+      "35883530",
+      "33069007",
+      "41272974",
+      "40804711",
+      "40324711",
+      "34624295",
+      "36702825",
+      "40588121",
+      "34916288",
+      "35126984",
+      "32936641",
+      "33684117",
+      "37191808",
+      "39804953",
+      "33260713",
+      "40278867",
+      "40291420",
+      "39833115",
+      "40082181",
+      "40574501",
+      "37735903",
+      "41187075",
+      "40058249",
+      "39922493",
+      "39510346",
+      "38260590",
+      "32168715",
+      "39342654",
+      "34029402",
+      "38407041",
+      "38383656",
+      "37328094",
+      "40325419",
+      "39592156",
+      "34785657",
+      "33890467",
+      "39815790",
+      "37231298",
+      "37293933",
+      "38112495",
+      "36343363",
+      "40943143",
+      "34737230",
+      "32824618",
+      "38308651",
+      "38462838",
+      "35802394",
+      "40985078",
+      "40848932",
+      "39166772"
+    ],
+    "review": [
+      "40748104",
+      "39947751",
+      "38348795",
+      "29509422",
+      "32312191",
+      "36350034",
+      "39964249",
+      "36524527",
+      "38979955",
+      "40616404",
+      "33930220",
+      "39271032",
+      "35179885",
+      "36350032",
+      "33069007",
+      "40804711",
+      "33260713",
+      "37735903",
+      "40058249",
+      "40325419",
+      "39592156",
+      "40943143",
+      "32824618",
+      "35802394"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0275344",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

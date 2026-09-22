@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.10.612218",
+  "title": "ProtRNA: A Protein-derived RNA Language Model by Cross-Modality Transfer Learning",
+  "authors": "Ruoxi Zhang; Ben Ma; Gang Xu; Jianpeng Ma",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-14",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出跨模态迁移学习将蛋白语言模型ESM-2用于RNA序列建模，对象为RNA而非无序蛋白/IDR，且不涉及蛋白-蛋白互作或互作机制建模，仅方法上对AI建模有间接启发。",
+  "abstract": "Protein language models (PLM), such as the highly successful ESM-2, have proven particularly effective. However, language models designed for RNA continue to face challenges. A key question is: can the information derived from PLMs be harnessed and transferred to RNA? To investigate this, a model termed ProtRNA has been developed by cross-modality transfer learning strategy for addressing the challenges posed by RNA’s limited and less conserved sequences. By leveraging the evolutionary and physicochemical information encoded in protein sequences, the ESM-2 model is adapted to processing “low-resource” RNA sequence data. The results show comparable or superior performance in various RNA downstream tasks, with only 1/8 the trainable parameters and 1/6 the training data employed by the primary reference baseline RNA language model. This approach highlights the potential of cross-modality transfer learning in biological language models.",
+  "abstract_zh": "蛋白质语言模型（PLM），如极为成功的ESM-2，已被证明特别有效。然而，专为RNA设计的语言模型仍面临挑战。一个关键问题是：能否利用并转移从PLM中获得的信息到RNA？为探究此问题，通过跨模态迁移学习策略开发了一种名为ProtRNA的模型，以应对RNA序列有限且保守性低所带来的挑战。通过利用蛋白质序列中编码的进化与理化信息，ESM-2模型被适应于处理“低资源”RNA序列数据。结果表明，在多种RNA下游任务中，其性能相当或更优，而可训练参数仅为主要参考基线RNA语言模型的1/8，训练数据为其1/6。该方法凸显了跨模态迁移学习在生物语言模型中的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.10.612218",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.10.612218",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.10.612218/index.html"
+}

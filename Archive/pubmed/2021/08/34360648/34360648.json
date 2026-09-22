@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "34360648",
+    "doi": "10.3390/ijms22157883",
+    "title": "Effect of Polyphosphorylation on Behavior of Protein Disordered Regions."
+  },
+  "content": {
+    "abstract": "Proteins interact with many charged biological macromolecules (polyelectrolytes), including inorganic polyphosphates. Recently a new protein post-translational modification, polyphosphorylation, or a covalent binding of polyphosphate chain to lysine, was demonstrated in human and yeast. Herein, we performed the first molecular modeling study of a possible effect of polyphosphorylation on behavior of the modified protein using replica exchange molecular dynamics simulations in atomistic force field with explicit water. Human endoplasmin (GRP-94), a member of heat shock protein 90 family, was selected as a model protein. Intrinsically disordered region in N-terminal domain serving as a charged linker between domains and containing a polyacidic serine and lysine-rich motif, was selected as a potent polyphosphorylation site according to literature data. Polyphosphorylation, depending on exact modification site, has been shown to influence on the disordered loop flexibility and induce its further expanding, as well as induce changes in interaction with ordered part of the molecule. As a result, polyphosphorylation in N-terminal domain might affect interaction of HSP90 with client proteins since these chaperones play a key role in protein folding.",
+    "keywords": [
+      "HSP90",
+      "PASK-motif",
+      "endoplasmin",
+      "inorganic polyphosphate",
+      "post-translational modification",
+      "protein polyphosphorylation"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Humans",
+      "Membrane Glycoproteins/*chemistry/*metabolism",
+      "Phosphorylation",
+      "Polyphosphates/*metabolism",
+      "Protein Binding",
+      "Protein Conformation",
+      "*Protein Processing, Post-Translational",
+      "Sequence Homology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Semenyuk, Pavel I"
+      ],
+      "short_names": [
+        "Semenyuk PI"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7759-6445"
+      ],
+      "affiliations": [
+        "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119234 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Semenyuk, Pavel I",
+        "short_name": "Semenyuk PI",
+        "identifiers": [
+          "0000-0001-7759-6445"
+        ],
+        "affiliations": [
+          "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119234 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jul 23",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/08 06:00",
+    "fetched_at": "2026-09-20 04:44:21"
+  },
+  "links": {
+    "cites": [
+      "41725076",
+      "40976416"
+    ],
+    "refs": [
+      "33998006",
+      "33147371",
+      "33113373",
+      "31519161",
+      "31400913",
+      "30871103",
+      "30617049",
+      "29924597",
+      "29881919",
+      "29788355",
+      "29725062",
+      "29590613",
+      "28559789",
+      "28429788",
+      "27819658",
+      "27570072",
+      "27050154",
+      "26862182",
+      "26335097",
+      "25773596",
+      "25391399",
+      "24560923",
+      "23811344",
+      "23145473",
+      "21816086",
+      "21623415",
+      "20525284",
+      "19614568",
+      "17873058",
+      "16625188",
+      "11093259",
+      "10872445"
+    ],
+    "similar": [
+      "34360648",
+      "25773596",
+      "38701742",
+      "26862182",
+      "38701741",
+      "31844018",
+      "33998006",
+      "31466120",
+      "29881919",
+      "32034011",
+      "29590613",
+      "38945730",
+      "37660293",
+      "29924597",
+      "30190324",
+      "26482291",
+      "27098855",
+      "29267381",
+      "30871103",
+      "12492485",
+      "10945979",
+      "32933064",
+      "26742101",
+      "9083109",
+      "12482845",
+      "28225045",
+      "21185362",
+      "15792812",
+      "27701768",
+      "28537252",
+      "21918774",
+      "26048414",
+      "30787103",
+      "10836264",
+      "16421106",
+      "28864776",
+      "19278259",
+      "28930677",
+      "7890776",
+      "32847853",
+      "31241933",
+      "22174274",
+      "28934129",
+      "11955007",
+      "29719201",
+      "26851279",
+      "26851286",
+      "1318687",
+      "7592870",
+      "7901220",
+      "18191449",
+      "10651806",
+      "12951510",
+      "29276035",
+      "15274640",
+      "18067320",
+      "31501246",
+      "10623527",
+      "27515256",
+      "25138014",
+      "16968706",
+      "30058226",
+      "39042517",
+      "29434596",
+      "32184088",
+      "18175325",
+      "16678853",
+      "26735936",
+      "27627884",
+      "30185622",
+      "31248328",
+      "31136713",
+      "8756626",
+      "32112804",
+      "10922361",
+      "11533032",
+      "32367806",
+      "12145316"
+    ],
+    "review": [
+      "34360648",
+      "26862182",
+      "33998006",
+      "29881919",
+      "38945730",
+      "26482291",
+      "27098855",
+      "30871103",
+      "21918774",
+      "26851279",
+      "26851286"
+    ],
+    "pmc": [
+      "8345927"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22157883",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34360648/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34360648",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1278",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

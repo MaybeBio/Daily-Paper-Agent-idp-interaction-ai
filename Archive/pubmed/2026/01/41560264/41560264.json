@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41560264",
+    "doi": "10.1103/tn2w-kzb8",
+    "title": "Tuning nuclear rheology through transient chromatin cross-links."
+  },
+  "content": {
+    "abstract": "In eukaryotic cells, the nucleolus is a pivotal subnuclear organelle, instrumental in ribosomal RNA synthesis and nuclear organization. Although the unique viscoelastic properties of the nucleolus are associated with transient interactions between chromatin and regulatory proteins, the specific mechanistic details driving nucleolar phase separation and mechanical responses have remained largely undefined. In this study, we employ a computational approach to elucidate chromatin-protein interactions within the nucleolus of budding yeast, using a sophisticated bead-spring polymer model. This model integrates DNA and nucleolar architectures with dynamic simulations of interactions involving chromosomal structural maintenance proteins and rDNA transcriptional regulators through systematically varied cross-linking kinetics. Our findings reveal that modulations in protein-DNA interactions critically dictate the phase behavior, relaxation dynamics, and viscoelastic properties of the nucleolus, underscoring a complex but precise regulatory mechanism at play. Notably, protein-mediated bridging emerges as a critical factor enhancing nucleolar condensation and modulating stress relaxation, highlighting the transformative role of transient cross-linking in nuclear mechanics regulation. These insights not only deepen our understanding of nucleolar function but also open avenues for interventions in genetic engineering and disease therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/metabolism/chemistry",
+      "*Rheology",
+      "Cell Nucleolus/metabolism",
+      "*Cell Nucleus/metabolism",
+      "Elasticity",
+      "Phase Separation",
+      "*Models, Biological",
+      "Viscosity",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yin-Dong",
+        "Wu, Chao-Hao",
+        "Shi, Han-Xuan",
+        "Merlitz, Holger",
+        "Bloom, Kerry S",
+        "Forest, M Gregory",
+        "Wu, Chen-Xu",
+        "Cao, Xue-Zheng"
+      ],
+      "short_names": [
+        "Zhang YD",
+        "Wu CH",
+        "Shi HX",
+        "Merlitz H",
+        "Bloom KS",
+        "Forest MG",
+        "Wu CX",
+        "Cao XZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China. ROR: https://ror.org/00mcjh785",
+        "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China. ROR: https://ror.org/00mcjh785",
+        "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China. ROR: https://ror.org/00mcjh785",
+        "Leibniz-Institut fur Polymerforschung Dresden, 01069 Dresden, Germany. ROR: https://ror.org/01tspta37",
+        "University of North Carolina at Chapel Hill, Department of Biology, Chapel Hill, North Carolina 27599, USA. ROR: https://ror.org/0130frc33",
+        "University of North Carolina at Chapel Hill, Departments of Mathematics and Applied Physical Sciences, Chapel Hill, North Carolina 27599, USA. ROR: https://ror.org/0130frc33",
+        "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China. ROR: https://ror.org/00mcjh785",
+        "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China. ROR: https://ror.org/00mcjh785"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yin-Dong",
+        "short_name": "Zhang YD",
+        "identifiers": [],
+        "affiliations": [
+          "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chao-Hao",
+        "short_name": "Wu CH",
+        "identifiers": [],
+        "affiliations": [
+          "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shi, Han-Xuan",
+        "short_name": "Shi HX",
+        "identifiers": [],
+        "affiliations": [
+          "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Merlitz, Holger",
+        "short_name": "Merlitz H",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Bloom, Kerry S",
+        "short_name": "Bloom KS",
+        "identifiers": [],
+        "affiliations": [
+          "University of North Carolina at Chapel Hill, Department of Biology, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Forest, M Gregory",
+        "short_name": "Forest MG",
+        "identifiers": [],
+        "affiliations": [
+          "University of North Carolina at Chapel Hill, Departments of Mathematics and Applied Physical Sciences, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Chen-Xu",
+        "short_name": "Wu CX",
+        "identifiers": [],
+        "affiliations": [
+          "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cao, Xue-Zheng",
+        "short_name": "Cao XZ",
+        "identifiers": [],
+        "affiliations": [
+          "Xiamen University, Department of Physics and Fujian Provincial Key Laboratory for Soft Functional Materials Research, College of Physical Science and Technology, Xiamen 361005, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:29",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "41761918"
+    ],
+    "refs": [
+      "39724779",
+      "39002538",
+      "38755828",
+      "38753956",
+      "38753513",
+      "38538789",
+      "37820734",
+      "37683610",
+      "37457299",
+      "36471076",
+      "35911447",
+      "35831310",
+      "35650969",
+      "35606569",
+      "35420890",
+      "34819511",
+      "34341548",
+      "34320406",
+      "33836082",
+      "33767413",
+      "33649325",
+      "33574602",
+      "33067435",
+      "32873929",
+      "32541649",
+      "32320676",
+      "32243075",
+      "31922749",
+      "31577909",
+      "31553911",
+      "31543265",
+      "31433796",
+      "31386385",
+      "31235807",
+      "31225478",
+      "30889417",
+      "30620603",
+      "29628210",
+      "29606315",
+      "29472443",
+      "28977453",
+      "28057760",
+      "27739532",
+      "27257057",
+      "27212236",
+      "27210764",
+      "26084584",
+      "25482191",
+      "25008017",
+      "24806919",
+      "24268574",
+      "24021628",
+      "23974728",
+      "23878273",
+      "22940469",
+      "21368180",
+      "19886810",
+      "19362534",
+      "16055730",
+      "12560555",
+      "10382072",
+      "2673672"
+    ],
+    "similar": [
+      "41560264",
+      "42475469",
+      "28977453",
+      "39738032",
+      "21095207",
+      "40675030",
+      "30656516",
+      "29364875",
+      "18925405",
+      "36696177",
+      "30625028",
+      "33836082",
+      "188446",
+      "40623675",
+      "30339413",
+      "33706099",
+      "20601371",
+      "19048103",
+      "25093501",
+      "23912807",
+      "20554704",
+      "34819511",
+      "24711086",
+      "40726293",
+      "34972957",
+      "23580549",
+      "31184714",
+      "40517275",
+      "1693849",
+      "25349213",
+      "23974728",
+      "30046888",
+      "20875127",
+      "33055158",
+      "21900751",
+      "28981686",
+      "26836305",
+      "38099650",
+      "31769409",
+      "39162498",
+      "21483487",
+      "14742713",
+      "21778410",
+      "39126157",
+      "28096332",
+      "40412390",
+      "20305389",
+      "29725012",
+      "32320676",
+      "33498839",
+      "41408051",
+      "39245872",
+      "16544190",
+      "15643076",
+      "22275877",
+      "25981436",
+      "31447250",
+      "40434645",
+      "40935304",
+      "30634859",
+      "40848932",
+      "21046224",
+      "34127447",
+      "34953860",
+      "36348119",
+      "28536618",
+      "40068812",
+      "14585976",
+      "9718368",
+      "27956701",
+      "36293155",
+      "15265990",
+      "12211630",
+      "30064522",
+      "6428744",
+      "19948494",
+      "40266794",
+      "34358306",
+      "21835027",
+      "36135364",
+      "31399547",
+      "20026667",
+      "28972159",
+      "33177195",
+      "32372397",
+      "19339170",
+      "23703787",
+      "196290",
+      "39797762",
+      "21295884",
+      "15635413",
+      "32106410",
+      "19372586",
+      "37372977",
+      "28575119",
+      "41317825",
+      "11469856",
+      "8305731",
+      "40993129",
+      "10219245"
+    ],
+    "review": [
+      "41560264",
+      "40675030",
+      "30656516",
+      "18925405",
+      "20601371",
+      "20554704",
+      "40726293",
+      "30046888",
+      "31447250",
+      "30634859",
+      "34127447",
+      "28536618",
+      "40068812",
+      "12211630",
+      "34358306",
+      "20026667",
+      "19339170",
+      "21295884"
+    ],
+    "pmc": [
+      "13100467"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41560264/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

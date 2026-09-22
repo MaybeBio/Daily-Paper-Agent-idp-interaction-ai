@@ -1,0 +1,384 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.29.696866",
+  "title": "A Mechanism-Aware Dual Attention Deep Model for Molecular-Protein Binding Affinity Prediction with Enhanced Generalizability and Interpretability",
+  "doi": "10.64898/2025.12.29.696866",
+  "abstract": "Accurate prediction of molecular-protein binding affinity (MPBA) is paramount in drug discovery, yet current computational models often lack generalizability, interpretability, and explicit mechanistic understanding. To address these limitations, we introduce BindMecNet (Binding Mechanism Network), a novel mechanism-aware, multi-scale deep model. BindMec-Net’s core innovation lies in its Interfacial Interaction Prediction Module, which explicitly predicts an atom-residue level interaction map, serving as a crucial mechanistic inductive bias. This map guides a Mechanism-Aware Dual Attention Interaction Module, ensuring that information exchange between protein and ligand representations is focused on genuinely interacting regions, fostering a deeper understanding of binding mechanisms. We employ a robust two-stage training strategy: initial pre-training on PDBBind with a multi-task loss (affinity and interaction prediction), followed by fine-tuning on challenging generalization datasets using predicted protein and ligand structures. Our comprehensive evaluations on unseen protein families using predicted binding conformations demonstrate BindMecNet’s superior performance, significantly outperforming state-of-the-art deep learning baselines. Ablation studies confirm that both the PDBBind pre-training and the explicit mechanistic inductive bias are critical for achieving this enhanced generalizability and accuracy. Furthermore, BindMecNet’s predicted interaction maps offer valuable, interpretable insights into binding hotspots, paving the way for more rational and mechanism-driven drug design.",
+  "authors": [
+    "Richard Brown",
+    "Daniel Thompson"
+  ],
+  "published_date": "2025-12-29",
+  "updated_date": "2025-12-30T02:55:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696866",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696866.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "date-time": "2025-12-31T14:47:21Z",
+        "timestamp": 1767192441348,
+        "version": "3.48.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2025-12-29T00:00:00Z",
+            "timestamp": 1766966400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Accurate prediction of molecular-protein binding affinity (MPBA) is paramount in drug discovery, yet current computational models often lack generalizability, interpretability, and explicit mechanistic understanding. To address these limitations, we introduce BindMecNet (Binding Mechanism Network), a novel mechanism-aware, multi-scale deep model. BindMec-Net’s core innovation lies in its Interfacial Interaction Prediction Module, which explicitly predicts an atom-residue level interaction map, serving as a crucial mechanistic inductive bias. This map guides a Mechanism-Aware Dual Attention Interaction Module, ensuring that information exchange between protein and ligand representations is focused on genuinely interacting regions, fostering a deeper understanding of binding mechanisms. We employ a robust two-stage training strategy: initial pre-training on PDBBind with a multi-task loss (affinity and interaction prediction), followed by fine-tuning on challenging generalization datasets using predicted protein and ligand structures. Our comprehensive evaluations on unseen protein families using predicted binding conformations demonstrate BindMecNet’s superior performance, significantly outperforming state-of-the-art deep learning baselines. Ablation studies confirm that both the PDBBind pre-training and the explicit mechanistic inductive bias are critical for achieving this enhanced generalizability and accuracy. Furthermore, BindMecNet’s predicted interaction maps offer valuable, interpretable insights into binding hotspots, paving the way for more rational and mechanism-driven drug design.</jats:p>",
+      "DOI": "10.64898/2025.12.29.696866",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            30
+          ]
+        ],
+        "date-time": "2025-12-30T02:55:18Z",
+        "timestamp": 1767063318000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Mechanism-Aware Dual Attention Deep Model for Molecular-Protein Binding Affinity Prediction with Enhanced Generalizability and Interpretability"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Richard",
+          "family": "Brown",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Northern Caribbean University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Thompson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Northern Caribbean University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.1",
+          "DOI": "10.18653/v1/2021.naacl-demos.8"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.2",
+          "DOI": "10.18653/v1/2023.findings-emnlp.725"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.3",
+          "DOI": "10.18653/v1/2021.acl-long.493"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.4",
+          "DOI": "10.18653/v1/2021.emnlp-main.451"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.5",
+          "DOI": "10.48550/ARXIV.2410.10447"
+        },
+        {
+          "year": "2017",
+          "journal-title": "arXiv preprint",
+          "article-title": "ISLAND: In-Silico Prediction of Proteins Binding Affinity Using Sequence Descriptors",
+          "key": "2025123106400726000_2025.12.29.696866v1.6"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.7",
+          "DOI": "10.18653/v1/2021.acl-long.72"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xuan, Y. , Zhang, X. , Li, S. S. , Shen, Z. , Xie, X. , Garcia, L. P. , and Togneri, R. , “A new approach to extract fetal electrocardiogram using affine combination of adaptive filters,” ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), IEEE, 2023, pp. 1–5.",
+          "key": "2025123106400726000_2025.12.29.696866v1.8",
+          "DOI": "10.1109/ICASSP49357.2023.10095885"
+        },
+        {
+          "year": "2024",
+          "journal-title": "arXiv preprint",
+          "article-title": "Auto-landmark: Acoustic landmark dataset and open-source toolkit for landmark extraction",
+          "key": "2025123106400726000_2025.12.29.696866v1.9"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.10",
+          "DOI": "10.18653/v1/2021.emnlp-main.642"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.11",
+          "DOI": "10.18653/v1/2021.emnlp-main.11"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.12",
+          "DOI": "10.18653/v1/2021.findings-acl.84"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.13",
+          "DOI": "10.18653/v1/2021.findings-acl.93"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Y. , Shen, T. , Geng, X. , Long, G. , and Jiang, D. , “ClarET: Pre-training a Correlation-Aware Context-To-Event Transformer for Event-Centric Generation and Classification,” Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2022, pp. 2559–2575.",
+          "key": "2025123106400726000_2025.12.29.696866v1.14",
+          "DOI": "10.18653/v1/2022.acl-long.183"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.15",
+          "DOI": "10.18653/v1/2021.acl-long.254"
+        },
+        {
+          "year": "2023",
+          "journal-title": "arXiv preprint",
+          "article-title": "Do Deep Learning Models Really Outperform Traditional Approaches in Molecular Docking?",
+          "key": "2025123106400726000_2025.12.29.696866v1.16"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.17",
+          "DOI": "10.18653/v1/2021.findings-acl.278"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.18",
+          "DOI": "10.18653/v1/2021.acl-demo.15"
+        },
+        {
+          "issue": "10",
+          "key": "2025123106400726000_2025.12.29.696866v1.19",
+          "first-page": "65",
+          "article-title": "Real-time Threat Identification Systems for Financial API Attacks under Federated Learning Framework",
+          "volume": "7",
+          "year": "2025",
+          "journal-title": "Academic Journal of Business & Management"
+        },
+        {
+          "key": "2025123106400726000_2025.12.29.696866v1.20",
+          "first-page": "40861",
+          "article-title": "Semi-supervised knowledge transfer across multi-omic single-cell data",
+          "volume": "37",
+          "year": "2024",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.21",
+          "DOI": "10.18653/v1/2021.findings-emnlp.101"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.22",
+          "DOI": "10.18653/v1/2023.acl-long.310"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.23",
+          "DOI": "10.18653/v1/2022.acl-long.246"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, F. , Chen, H. , Zhu, Z. , Zhang, Z. , Lin, Z. , Qiao, Z. , Zheng, Y. , and Wu, X. , “A survey on foundation language models for single-cell biology,” Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025, pp. 528–549.",
+          "key": "2025123106400726000_2025.12.29.696866v1.24",
+          "DOI": "10.18653/v1/2025.acl-long.26"
+        },
+        {
+          "year": "2025",
+          "journal-title": "arXiv preprint",
+          "article-title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+          "key": "2025123106400726000_2025.12.29.696866v1.25"
+        },
+        {
+          "issue": "2",
+          "key": "2025123106400726000_2025.12.29.696866v1.26",
+          "first-page": "49",
+          "article-title": "Measuring Supply Chain Resilience with Foundation Time-Series Models",
+          "volume": "1",
+          "year": "2025",
+          "journal-title": "European Journal of Engineering and Technologies"
+        },
+        {
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Y. , Li, X. , Wang, Q. , and Shen, J. , “Visual In-Context Learning for Large Vision-Language Models,” Findings of the Association for Computational Linguistics, ACL 2024, Bangkok, Thailand and virtual meeting, August 11-16, 2024, Association for Computational Linguistics, 2024, pp. 15890–15902.",
+          "key": "2025123106400726000_2025.12.29.696866v1.27",
+          "DOI": "10.18653/v1/2024.findings-acl.940"
+        },
+        {
+          "unstructured": "Zhou, Y. , Zhang, J. , Chen, G. , Shen, J. , and Cheng, Y. , “Less Is More: Vision Representation Compression for Efficient Video Generation with Large Language Models,”, 2024.",
+          "key": "2025123106400726000_2025.12.29.696866v1.28"
+        },
+        {
+          "year": "2025",
+          "journal-title": "arXiv preprint",
+          "article-title": "Enhanced mean field game for interactive decision-making with varied stylish multi-vehicles",
+          "key": "2025123106400726000_2025.12.29.696866v1.29"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.30",
+          "DOI": "10.1109/TVT.2025.3638264"
+        },
+        {
+          "year": "2025",
+          "journal-title": "arXiv preprint",
+          "article-title": "Evaluating scenario-based decision-making for interactive autonomous driving using rational criteria: A survey",
+          "key": "2025123106400726000_2025.12.29.696866v1.31"
+        },
+        {
+          "issue": "9",
+          "key": "2025123106400726000_2025.12.29.696866v1.32",
+          "first-page": "108",
+          "article-title": "Real-Time Adaptive Dispatch Algorithm for Dynamic Vehicle Routing with Time-Varying Demand",
+          "volume": "8",
+          "year": "2025",
+          "journal-title": "Academic Journal of Computing & Information Science"
+        },
+        {
+          "doi-asserted-by": "publisher",
+          "key": "2025123106400726000_2025.12.29.696866v1.33",
+          "DOI": "10.18653/v1/2021.naacl-main.300"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.29.696866",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "date-time": "2025-12-31T14:40:16Z",
+        "timestamp": 1767192016000
+      },
+      "score": 68.866234,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.29.696866"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.64898/2025.12.29.696866",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

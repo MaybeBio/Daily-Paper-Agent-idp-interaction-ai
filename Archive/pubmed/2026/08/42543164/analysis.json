@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42543164",
+  "title": "Intron retention in health and amyotrophic lateral sclerosis.",
+  "authors": "Wang, Chloe Y; Taylor, Stephanie; Pandya, Virenkumar A; Clarke, Benjamin E; Pal, Koustav; Shelkovnikova, Tatyana A; Wang, Yiran; Luisier, Raphaelle; Patani, Rickie",
+  "journal": "Brain : a journal of neurology",
+  "published_date": "2026-08-03",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 4,
+  "one_liner_zh": "综述内含子保留(IR)在健康和ALS中的作用，涉及RNP复合物定位、RBP功能丧失及LLPS，并提及AI加速发现，但对象非IDP/IDR，且无具体PPI机制建模或AI/物理方法应用。",
+  "abstract": "Intron retention (IR) is the molecular phenomenon by which introns, historically thought to represent non-coding 'junk', remain unspliced within pre-mRNA transcripts, resulting in their incorporation into the mature mRNA molecule. While the role of IR is well established in species of plant, fungi, insects and viruses, it remains relatively understudied in mammalian biology. It was previously assumed that IR only played a limited role in downregulating a transcript's translation potential through downstream initiation of nuclear detention or nonsense mediated decay (NMD). However, recent studies highlight IR's significantly more complex and dynamic contribution to cellular physiology and disease. In particular, a role for IR is emerging in both health and neurodegenerative diseases, including amyotrophic lateral sclerosis (ALS), a rapidly progressive and invariably fatal disease that renders patients paralysed and unable to eat, speak or breathe. Significant technological advances now permit a comprehensive interrogation of previously unrecognized aspects of RNA metabolism in clinically relevant human cell types. In this review, we focus on the differential role(s) of nuclear and cytoplasmic intron retaining transcripts (nIRTs and cIRTs, respectively), as well as how IRTs may influence subcellular localization of ribonucleoprotein (RNP) complexes, loss of function of bound RNA binding proteins (RBPs) and liquid-liquid phase separation (LLPS) in physiology and disease. Additionally, we discuss the potential of IRTs as independent regulatory elements beyond their protein-coding functions and highlight how artificial intelligence is poised to accelerate discoveries in this area. In the context of IR's increasing appreciation, we also highlight its potential as a therapeutic target and explore current and future challenges in this burgeoning field.",
+  "abstract_zh": "内含子保留（intron retention, IR）是一种分子现象，即历史上被认为代表非编码“垃圾”的内含子在前体mRNA转录本中未被剪接，从而被整合到成熟mRNA分子中。尽管IR在植物、真菌、昆虫和病毒物种中的作用已被充分确立，但在哺乳动物生物学中其研究相对不足。此前认为，IR仅通过下游启动核滞留或无义介导的mRNA降解（nonsense mediated decay, NMD）在降低转录本翻译潜力方面发挥有限作用。然而，近期研究突显了IR在细胞生理学和疾病中更为复杂且动态的贡献。特别是，IR在健康和神经退行性疾病中的作用逐渐显现，包括肌萎缩侧索硬化症（amyotrophic lateral sclerosis, ALS），这是一种快速进展且必然致命的疾病，使患者瘫痪，无法进食、说话或呼吸。显著的技术进步现允许对临床相关人类细胞类型中RNA代谢的先前未识别方面进行全面探究。在本综述中，我们聚焦于核内和胞质内含子保留转录本（分别称为nIRTs和cIRTs）的差异性作用，以及IRTs如何影响核糖核蛋白（ribonucleoprotein, RNP）复合物的亚细胞定位、结合RNA结合蛋白（RNA binding proteins, RBPs）的功能丧失，以及生理和疾病中的液-液相分离（liquid-liquid phase separation, LLPS）。此外，我们讨论了IRTs作为独立调控元件超越其蛋白质编码功能的潜力，并强调人工智能如何有望加速该领域的发现。在IR日益受到重视的背景下，我们还突显其作为治疗靶点的潜力，并探讨这一新兴领域当前和未来的挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42543164/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42543164/",
+  "paper_page_path": "papers/pubmed/42543164/index.html"
+}

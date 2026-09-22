@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure legends referenced but not provided, supplementary material referenced but not provided)
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and alignment with Nature-style criteria based solely on the supplied manuscript text
+- **Shared manuscript claim summary** The authors construct amphiphilic DNA-nanomotifs that disperse phase-separated droplets formed from self-interacting DNA Y-motifs, and they argue that the observed concentration-dependent dispersal (rounding, fusion prevention, and full dispersal at high concentrations) mimics the stepwise dispersal of transcriptional clusters in zebrafish embryo stem cells with increasing transcription levels. They support this with Brownian dynamics and lattice simulations.
+- **Visible evidence base** Main text descriptions of experiments (fluorescence microscopy, DLS, sessile droplet method), simulation results, and references to figures (Figure 1A–E, 2A–I, 3A–B, 4A–D, 5A–H) and supplementary figures (S1–S7). No raw data, figure images, or detailed methods are provided in the supplied material.
+- **Missing materials affecting confidence** Figure images and full figure legends, Materials and Methods section, supplementary figures and tables, raw quantitative data (e.g., droplet counts, volume distributions, statistical tests), and details of simulation parameters and analysis pipelines. These are essential for verifying the quantitative claims and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing biomimetic system where DNA-based amphiphiles control the size and dispersal of synthetic phase-separated droplets, with a claimed parallel to transcriptional cluster dynamics in vivo. The idea is creative and potentially of broad interest. However, the evidence as presented in the text is largely qualitative or descriptive, with key quantitative analyses and methodological details relegated to figures and supplementary materials that were not available for review. The causal link between the amphiphilic mechanism and the observed dispersal, and the strength of the analogy to the biological system, are not fully established from the provided material. The simulations are a valuable addition but their parameters and validation are not fully described. The manuscript is likely to be of interest to researchers in synthetic biology, DNA nanotechnology, and biophysics of phase separation, but the current evidence base is insufficient to fully support the central claims.
+- **Who would be interested in the results, and why** Researchers in DNA nanotechnology and synthetic biology, particularly those working on programmable self-assembly and biomimetic compartmentalization. Biophysicists studying phase separation and its control by amphiphilic molecules would also find the system relevant. The potential to mimic transcriptional cluster behavior with simple DNA constructs could attract cell biologists interested in nuclear organization, though they may view the analogy as speculative without more direct biological validation.
+- **Major strengths** 1. The concept of using purely DNA-based amphiphiles to control droplet size and induce dispersal is novel and elegant, avoiding chemical modification. 2. The study combines experiments with two types of simulations (Brownian dynamics and lattice-based), which strengthens the mechanistic interpretation if the models are well-validated. 3. The comparison to a biological system (transcriptional clusters in zebrafish) provides a compelling motivation and potential broader relevance. 4. The use of multiple experimental techniques (fluorescence microscopy, DLS, surface tension measurements) adds methodological diversity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that increasing amphiphile concentrations cause rounding, prevent fusion, and fully disperse droplets is central to the paper.
+  - **Evidence pointer** Figures 2B–I, 3A, 4B–D; location not provided for quantitative data
+  - **Concern** The text describes visual impressions and qualitative trends (e.g., "visually apparent reduction of droplet diameter", "automated analysis revealed") but does not provide the actual quantitative data, statistical analyses, or error bars in the text. The reader cannot assess the magnitude of effects, variability, or whether differences are significant.
+  - **Why it matters** The core claim of concentration-dependent dispersal requires robust quantitative evidence. Without access to the underlying data and statistical tests, the claim is not verifiable from the supplied material.
+  - **Resolution test** Provide the quantitative data (e.g., droplet size distributions, counts, sphericity values) with appropriate statistical tests in the main text or supplementary, and ensure figure legends clearly state what is shown and how significance was assessed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** The authors claim that the amphiphilic effect (affinity for droplets plus repulsive tail) is sufficient to explain the observed dispersal.
+  - **Evidence pointer** Figures 3B, 5A–H; simulation descriptions in text; location not provided for simulation parameters
+  - **Concern** The simulations are described as supporting the mechanism, but the parameters, validation, and sensitivity analysis are not provided. It is unclear whether the simulations were calibrated to match experiments or if they make independent predictions. The lattice model is described as "phenomenological" but the mapping to the physical system is not detailed.
+  - **Why it matters** The mechanistic claim rests heavily on the simulations. If the models are not rigorously validated or if parameters are tuned to reproduce the desired outcome, the conclusion that amphiphiles are sufficient is weakened.
+  - **Resolution test** Provide full simulation details, including interaction potentials, parameter values, and a demonstration that the observed behavior is robust to parameter variations. Show quantitative comparison between simulation and experimental results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological analogy validity
+  - **Claim pointer** The authors claim that the dispersal of synthetic droplets mimics the stepwise dispersal of transcriptional clusters with increasing transcription levels.
+  - **Evidence pointer** Figure 1A–E; location not provided for raw imaging data
+  - **Concern** The biological data are presented as a correlation between transcription levels (Pol II S2P intensity) and cluster dispersal, but the text does not provide quantitative details on how many cells/embryos were analyzed, how the intensity thresholds were chosen, or whether the observed trends are statistically robust. The analogy to the synthetic system is based on qualitative similarity of trends, not a direct mechanistic test.
+  - **Why it matters** The claim of mimicking biological behavior is a key selling point. If the biological data are not rigorously quantified, the analogy remains speculative and the broader significance is diminished.
+  - **Resolution test** Provide detailed quantitative analysis of the zebrafish data, including sample sizes, statistical tests, and clear criteria for defining cluster dispersal. Discuss potential alternative explanations for the observed trends.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methods detail
+  - **Claim pointer** The manuscript reports specific measurements (e.g., surface tension 5.2 ± 0.6 μN/m, DLS droplet diameters) and experimental procedures.
+  - **Evidence pointer** Materials and Methods section not provided; references to "see Materials and Methods" in text
+  - **Concern** The Materials and Methods section is not included in the supplied material, so experimental protocols, buffer conditions, DNA sequences, imaging parameters, and analysis algorithms cannot be evaluated. This is critical for reproducibility.
+  - **Why it matters** Nature-style criteria require sufficient methodological detail for others to reproduce the work. Without this, the technical soundness cannot be fully assessed.
+  - **Resolution test** Provide the full Materials and Methods section, including all experimental conditions, DNA sequences, and analysis code or detailed algorithms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1 description
+  - **Evidence pointer** Figure 1A–E; location not provided
+  - **Issue** The text describes "unfolded and dispersed" clusters and "sphericity-volume scatter plots" but does not explain how sphericity is defined or how the scatter plots are interpreted. A reader unfamiliar with the methods may struggle to follow.
+  - **Required correction** Define sphericity and explain the axes and interpretation of the scatter plots in the text or figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Use of "amphiphile" and "amphiphilic"
+  - **Evidence pointer** Throughout the text
+  - **Issue** The terms "amphiphile", "amphiphile-motif", and "amphiphilic" are used interchangeably, which could confuse readers about whether they refer to the same entity.
+  - **Required correction** Use consistent terminology, e.g., "amphiphilic nanomotif" or "amphiphile-motif", and define it at first use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantitative claims in text
+  - **Evidence pointer** Figures 2C, 2I, 4C; location not provided
+  - **Issue** The text reports means ± SEM for some values (e.g., droplet counts) but does not state the number of replicates or the statistical test used for comparisons.
+  - **Required correction** Add replicate numbers and statistical test details for all quantitative comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of figure references
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Figure S1–S7 referenced in text
+  - **Issue** The supplementary figures are referenced but not described in the text, so their content and relevance are unclear.
+  - **Required correction** Briefly describe what each supplementary figure shows in the main text or provide a supplementary figure legend.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for dispersal), R1-M2 (simulation validation), R1-M3 (biological data rigor), R1-M4 (missing methods). These are blocking because the central claims cannot be verified without them.
+- **Assessment against Nature-style criteria** Originality: High. The use of DNA-based amphiphiles to control phase-separated droplet dispersal is a novel concept that has not been previously reported to my knowledge. Scientific importance: Moderate to high. The work could inform both synthetic biology and understanding of biological phase separation, but the direct relevance to transcriptional clusters is not yet fully demonstrated. Interdisciplinary readership: The topic bridges DNA nanotechnology, biophysics, and cell biology, which could attract a broad audience, but the current presentation may be too specialized for nonspecialists without clearer context. Technical soundness: Cannot be fully assessed due to missing methods and quantitative data. The described experiments and simulations are plausible but not verifiable from the supplied material. Readability for nonspecialists: The text is generally clear but relies on jargon (e.g., "Y-motifs", "Pol II S5P") without sufficient introduction, and the biological motivation could be better explained for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The concept is promising and the study has potential, but the current evidence base is insufficient to establish the central claims. The authors must provide full quantitative data, methods, and simulation details to allow verification.
+
+## Risk / unsupported claims
+- The claim that amphiphile-induced dispersal of synthetic droplets "mimics" transcriptional cluster dispersal is not quantitatively supported; the biological data are presented as a correlation without rigorous statistical analysis.
+- The claim that the amphiphilic mechanism is "sufficient" to explain the observations relies on simulations whose parameters and validation are not described.
+- The claim that poly-T-based dispersal is due to "generic charge-based exclusion" is presented as a theory without direct experimental evidence (e.g., zeta potential measurements or control experiments with different charge densities).
+- The statement that "all of the experimental and theoretical systems examined in this study" show a "stereotypical dispersal process" is an overgeneralization without a systematic quantitative comparison across systems.
+- The reproducibility of the titration experiment is mentioned (Figure S6) but the data are not shown in the supplied material, so this claim is unverifiable.

@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41241351",
+    "doi": "10.1016/j.ijbiomac.2025.149044",
+    "title": "PhaseNet: A computational framework for identifying phase-separating proteins based on protein language model."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed via liquid-liquid phase separation (LLPS) play vital roles in diverse cellular processes, and their dysregulation has been linked to numerous diseases. Accurate identification of phase-separating proteins is therefore essential for elucidating the molecular mechanisms underlying these condensates. We present PhaseNet, a dual-task computational framework designed to both distinguish LLPS proteins from non-LLPS proteins and classify LLPS proteins into self-assembling (PS-Self) and partner-dependent (PS-Part) categories. In the first task, PhaseNet integrates features from pretrained protein language models (ESM), sequence encodings (ZSCALE and BLOSUM), and a modular architecture combining CNN-BiGRU and multi-head attention mechanisms. These heterogeneous features are fused using an attention-guided strategy and optimized with HSIC-based regularization to enhance discriminative performance. For the second task, PhaseNet employs Lasso-based feature selection on ESM-derived embeddings, followed by a stacking ensemble of five classifiers: Random Forest, Extra Trees, GBDT, XGBoost, and MLP. Comprehensive benchmarking across multiple independent test sets demonstrates that PhaseNet surpasses existing LLPS predictors in both general identification and fine-grained classification. This modular and interpretable framework offers a robust tool for the systematic discovery and annotation of phase-separating proteins.",
+    "keywords": [
+      "Deep learning",
+      "Ensemble learning",
+      "Phase-separating proteins",
+      "Protein language model"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "*Computational Biology/methods",
+      "*Biomolecular Condensates/chemistry",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Xuxin",
+        "Guan, Jiahui",
+        "Xie, Peilin",
+        "Wang, Feng",
+        "Zhao, Zhihao",
+        "Liu, Xingchen",
+        "Lee, Tzong-Yi",
+        "Chiang, Ying-Chih",
+        "Yao, Lantian",
+        "Wang, Junwen"
+      ],
+      "short_names": [
+        "He X",
+        "Guan J",
+        "Xie P",
+        "Wang F",
+        "Zhao Z",
+        "Liu X",
+        "Lee TY",
+        "Chiang YC",
+        "Yao L",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China.",
+        "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, The University of Hong Kong, Hong Kong, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu, Taiwan.",
+        "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China. Electronic address: chiangyc@cuhk.edu.cn.",
+        "School of Informatics, Xiamen University, 361005, Xiamen, China. Electronic address: lantianyao@xmu.edu.cn.",
+        "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, The University of Hong Kong, Hong Kong, China. Electronic address: junwen@hku.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Xuxin",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Jiahui",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Peilin",
+        "short_name": "Xie P",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhihao",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xingchen",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lee, Tzong-Yi",
+        "short_name": "Lee TY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chiang, Ying-Chih",
+        "short_name": "Chiang YC",
+        "identifiers": [],
+        "affiliations": [
+          "Kobilka Institute of Innovative Drug Discovery, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Road, 518172, Shenzhen, China. Electronic address: chiangyc@cuhk.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yao, Lantian",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, Xiamen University, 361005, Xiamen, China. Electronic address: lantianyao@xmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Junwen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, The University of Hong Kong, Hong Kong, China. Electronic address: junwen@hku.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/16 00:27",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41807480"
+    ],
+    "refs": [],
+    "similar": [
+      "41241351",
+      "39434494",
+      "41405960",
+      "40629388",
+      "39067723",
+      "40794947",
+      "40098319",
+      "40632496",
+      "39804953",
+      "37287138",
+      "40616404",
+      "34371110",
+      "41325268",
+      "33827920",
+      "40515902",
+      "39987501",
+      "38812466",
+      "35108264",
+      "38251748",
+      "34129784",
+      "39964249",
+      "38446881",
+      "41192641",
+      "34716273",
+      "39460625",
+      "41263814",
+      "40730560",
+      "38824664",
+      "39576667",
+      "34334791",
+      "39663388",
+      "39182368",
+      "35687670",
+      "41021316",
+      "41039633",
+      "40943143",
+      "39566793",
+      "41168713",
+      "34916288",
+      "39947751",
+      "40328028",
+      "40235638",
+      "40975372",
+      "40439464",
+      "37925283",
+      "39476948",
+      "38812315",
+      "40791163",
+      "39979996",
+      "40820010",
+      "36350034",
+      "40792356",
+      "41442811",
+      "37293933",
+      "40977265",
+      "40925423",
+      "41363845",
+      "35168563",
+      "40628826",
+      "40863882",
+      "41272974",
+      "37464880",
+      "41362309",
+      "40463193",
+      "41360394",
+      "34206440",
+      "41206398",
+      "38971606",
+      "38303473",
+      "33517364",
+      "40172489",
+      "39178343",
+      "41372420",
+      "34767801",
+      "39795988",
+      "37895097",
+      "37609923",
+      "35803926",
+      "40028898",
+      "35799660",
+      "33930220",
+      "37735903",
+      "31906602",
+      "38205268",
+      "40970906",
+      "41092354",
+      "37191808",
+      "40539959",
+      "39572876",
+      "39257779",
+      "39121059",
+      "38063081",
+      "41232885",
+      "39457474",
+      "39705832",
+      "38042897",
+      "40867524",
+      "40748104",
+      "33809541",
+      "39033393"
+    ],
+    "review": [
+      "41241351",
+      "40616404",
+      "34371110",
+      "34129784",
+      "39964249",
+      "41263814",
+      "34334791",
+      "40943143",
+      "39947751",
+      "37925283",
+      "36350034",
+      "41442811",
+      "37464880",
+      "40172489",
+      "39178343",
+      "34767801",
+      "37895097",
+      "35803926",
+      "33930220",
+      "37735903",
+      "39705832"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)09601-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

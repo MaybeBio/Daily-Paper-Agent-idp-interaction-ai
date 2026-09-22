@@ -1,0 +1,57 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract; no full text, figures, or tables were provided for evaluation
+- **Shared manuscript claim summary** The abstract argues that numerous biomolecular condensates associate with the cytoskeleton, that their membrane-less interface enables rapid collection of cytoskeleton components and polymerases to modulate cytoskeleton dynamics, that these condensates must balance fluidity and rigidity to function, that regulatory factors influencing their material states are poorly understood, and that the review covers recently identified key factors altering condensate physical characteristics and the reciprocal influence of newly nucleated cytoskeletal fibers.
+- **Visible evidence base** Abstract text only; no sections, figures, tables, or reference list were supplied
+- **Missing materials affecting confidence** Full manuscript text, figures, tables, reference list, and any methodological or review selection details; without these, the depth, accuracy, and completeness of the review cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and conceptually interesting topic at the interface of biomolecular condensates and cytoskeletal biology. The framing of a functional paradox between fluidity and rigidity is compelling and likely to attract broad readership. However, the abstract provides only a high-level summary with no specific examples, mechanistic details, or evidence of the claimed coverage. The scientific case for the review's novelty and completeness cannot be evaluated from the supplied material. The writing is clear and accessible, but the lack of substantive content limits confidence in the review's contribution.
+- **Who would be interested in the results, and why** Cell biologists studying cytoskeletal dynamics, biophysicists interested in phase separation and material properties of condensates, and researchers in the broader field of intracellular organization would find this review relevant. The topic bridges molecular cell biology and biophysics, and the emphasis on regulatory factors and reciprocal fiber-condensate interactions could appeal to those investigating mechanobiology and cellular architecture.
+- **Major strengths** The abstract identifies a clear and important conceptual tension in cytoskeletal condensate function, namely the need for both fluidity and rigidity. It also highlights a significant gap in knowledge regarding regulatory factors, which frames the review as addressing an unmet need. The writing is concise and accessible to nonspecialists.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the review "covers recently identified key factors that alter the physical characteristics of cytoskeletal condensates and highlights the influence that newly nucleated cytoskeletal fibers, in turn, have on the condensates."
+  - **Evidence pointer** Abstract only; no sections, figures, or tables provided
+  - **Concern** The abstract asserts a comprehensive coverage of key factors and reciprocal influences, but no specific factors, examples, or mechanistic insights are presented. Without the full text, it is impossible to verify whether the review indeed covers the claimed scope or whether the selection of factors is justified and representative.
+  - **Why it matters** The central value of a review lies in its synthesis and critical evaluation of the literature. The abstract alone does not demonstrate that the review provides a substantive, accurate, or balanced account of the field. If the coverage is incomplete or biased, the review could mislead readers about the state of knowledge.
+  - **Resolution test** Provide the full manuscript text, including specific examples of regulatory factors, a description of how they alter condensate material states, and evidence for the reciprocal influence of cytoskeletal fibers. The review should include a clear framework for how factors were selected and how the balance between fluidity and rigidity is achieved in specific systems.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Numerous biomolecular condensates associate with the cytoskeleton" is vague. It does not specify the types of condensates, the cytoskeletal components involved, or the nature of the association.
+  - **Required correction** Specify representative examples of cytoskeletal condensates and the cytoskeletal fibers they associate with, to give readers a concrete entry point.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope definition
+  - **Affected element** Review scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract does not define the temporal or conceptual boundaries of the review, such as the period covered or the criteria for including studies.
+  - **Required correction** State the review period and inclusion criteria, or at least indicate whether the focus is on recent advances in a defined timeframe.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Mechanistic depth
+  - **Affected element** Conceptual framing
+  - **Evidence pointer** Abstract, third sentence
+  - **Issue** The paradox of fluidity and rigidity is stated but not elaborated. The abstract does not explain how these properties might be reconciled or what mechanisms could underlie the transition between states.
+  - **Required correction** Briefly indicate the proposed mechanisms, such as post-translational modifications, crosslinking, or changes in component stoichiometry, to give readers a preview of the review's conceptual contribution.
+- **Technical failings that need to be addressed before the case is established** The abstract does not provide sufficient evidence to establish that the review offers a novel or comprehensive synthesis. The lack of specific examples, mechanistic details, and a defined scope means the case for the review's value is not established from the supplied material. Full text is required to assess technical soundness, including the accuracy of cited studies and the logical coherence of the synthesis.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is timely and the framing of a fluidity-rigidity paradox is conceptually interesting, but the abstract does not demonstrate a novel angle beyond existing reviews on condensates.
+  - Scientific importance: The question of how condensates regulate cytoskeletal dynamics is important, but the abstract does not provide evidence of broad impact or specific advances.
+  - Interdisciplinary readership: The topic bridges cell biology and biophysics, and the abstract is written accessibly, suggesting potential appeal across disciplines.
+  - Technical soundness: Cannot be assessed from the abstract alone; no data, methods, or detailed arguments are provided.
+  - Readability for nonspecialists: The abstract is clear and jargon-light, which is a strength, but the lack of concrete examples limits its accessibility for those unfamiliar with the field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising but insufficient to judge the review's contribution. A revised assessment would require the full manuscript, including specific examples, a defined scope, and a clear synthesis of the literature.
+
+## Risk / unsupported claims
+- The claim that the review "covers recently identified key factors" is unsupported because no specific factors are named in the abstract.
+- The claim that "newly nucleated cytoskeletal fibers" influence condensates is asserted without examples or mechanistic explanation.
+- The statement that "very little is known about the regulatory factors" is a general assertion that cannot be verified without a literature survey.
+- The overall framing of the fluidity-rigidity paradox is plausible but not substantiated with specific evidence in the abstract.

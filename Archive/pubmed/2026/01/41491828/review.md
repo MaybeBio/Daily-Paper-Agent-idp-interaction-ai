@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including Introduction, Results, Discussion, Methods, and Supplementary Information references
+- **Assessment boundary** Scientific claims, experimental evidence, methodological rigor, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the yeast transcriptional regulator Ixr1 contains intrinsically disordered regions (IDRs) with prion-like characteristics, supported by bioinformatic predictions, biophysical characterization, in vitro amyloid formation assays, in vivo foci formation, and a Sup35-based prion assay
+- **Visible evidence base** Figures 1-8 (described in text), Supplementary Figures S1-S4, Supplementary Tables S1-S3, Methods section
+- **Missing materials affecting confidence** Raw data files, full figure images, supplementary material content (only referenced, not provided), statistical analysis details, strain validation data, replicate numbers for quantitative assays
+
+## Reviewer
+- **Overall assessment** The manuscript presents a comprehensive characterization of Ixr1 as a candidate prion-like protein, combining computational predictions with experimental validation. The work addresses a relevant question in prion biology and transcriptional regulation. However, several technical concerns regarding the interpretation of key experiments, particularly the Sup35-based prion assay and the in vivo foci formation data, need to be addressed before the prion-like claim is fully established. The study is potentially interesting but requires additional controls and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying prion biology, intrinsically disordered proteins, fungal transcriptional regulation, and protein aggregation mechanisms would find this work relevant. The study contributes to the growing understanding of Q/N-rich domains in regulatory proteins and their potential role in phenotypic diversification.
+- **Major strengths** The study combines multiple complementary approaches (bioinformatic prediction, biophysical characterization, in vitro aggregation assays, in vivo localization, and functional prion assays) to characterize Ixr1. The use of established prion assay systems (Sup35-based) provides a functional readout. The identification of a new candidate prion protein in yeast is of potential interest given the limited number of known yeast prions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for prion behavior
+  - **Claim pointer** The manuscript claims that Ixr1 PrDs can replace the PrD of Sup35 in restoring the Ade+ phenotype, indicating prion-forming ability
+  - **Evidence pointer** Results section, Figure 8a; "data not shown" for initial transformation results
+  - **Concern** The Sup35-based prion assay results are presented with minimal quantitative detail. The text states "we obtain positive results (data not shown)" for the initial chimera test, and Figure 8a shows colony phenotypes but lacks quantification of conversion frequencies, statistical analysis, or proper controls (e.g., empty vector, known non-prion Q/N-rich protein as negative control). The distinction between true [PSI+] formation and other mechanisms of Ade+ suppression is not rigorously established.
+  - **Why it matters** The prion-like claim rests critically on this functional assay. Without proper quantification and controls, the Ade+ phenotype could result from non-prion mechanisms such as increased read-through due to overexpression artifacts or mutations.
+  - **Resolution test** Provide quantitative data on Ade+ colony frequencies with appropriate statistical analysis, include negative controls (e.g., a known non-prion Q/N-rich domain), demonstrate that the phenotype is heritable and curable by established prion-curing methods, and show that the effect is dependent on Hsp104 where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo aggregation evidence
+  - **Claim pointer** The manuscript claims that Ixr1 PrDs form foci in yeast cells, indicating amyloid-like aggregation in vivo
+  - **Evidence pointer** Results section, Figure 7
+  - **Concern** The foci formation data are presented qualitatively without quantification of the percentage of cells showing foci, the number of foci per cell, or comparison between [PIN+] and [pin-] strains. The text mentions that PrD2 and PrD3 showed "higher frequencies" but no numerical data are provided. Additionally, the specificity of foci formation is not established, as many overexpressed proteins can form non-specific aggregates.
+  - **Why it matters** Foci formation is presented as evidence of amyloid-like behavior in vivo, but without quantification and appropriate controls (e.g., a non-aggregating protein control, or a known amyloid-forming protein as positive control), the significance of this observation is unclear.
+  - **Resolution test** Provide quantitative data on foci frequency across strains and time points, include proper controls, and demonstrate that foci correspond to amyloid-like structures (e.g., via SDD-AGE or amyloid-specific dye staining).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biophysical characterization
+  - **Claim pointer** The manuscript claims that Ixr1 is intrinsically disordered based on CD spectroscopy and that it adopts a molten globule or pre-molten globule state
+  - **Evidence pointer** Results section, Figure 3
+  - **Concern** The CD spectroscopy data are described qualitatively. The double wavelength plot (MRE at 200 and 222 nm) is mentioned but the actual data points and the classification boundaries are not shown. The assignment of Ixr1 to a specific disordered state (MG vs PMG vs RC-like) relies on this analysis, but the discrimination between these states is subtle and requires careful interpretation.
+  - **Why it matters** The disordered nature of Ixr1 is a central claim of the manuscript. If the biophysical characterization is not rigorous, the foundation for the prion-like hypothesis is weakened.
+  - **Resolution test** Show the actual CD spectra, the double wavelength plot with data points, and provide quantitative secondary structure estimates with errors. Consider additional biophysical characterization (e.g., SEC-MALS, SAXS) to support the conformational state assignment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Prion-curing experiments
+  - **Claim pointer** The manuscript claims that PrD4 shows curability by guanidine hydrochloride, while PrD1-PrD3 do not, suggesting differential prion properties
+  - **Evidence pointer** Results section, Figure 8b
+  - **Concern** The curing experiment is described for only one time point (40 generations) and the results are presented without quantification. The differential behavior of PrD4 versus PrD1-PrD3 is interesting but not explained or discussed in sufficient depth. The lack of curability for PrD1-PrD3 could indicate either that they form Hsp104-independent prions or that the Ade+ phenotype is not prion-mediated.
+  - **Why it matters** The differential response to GdnHCl is used to support the prion interpretation, but alternative explanations are not adequately addressed.
+  - **Resolution test** Provide time-course data for curing experiments, quantify the loss of Ade+ phenotype, and include appropriate controls (e.g., known Hsp104-dependent and independent prions).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 8a quantification
+  - **Evidence pointer** Results section, Figure 8a
+  - **Issue** The chart showing "frequency of [PSI+] strains" is mentioned but the actual values, error bars, and statistical tests are not described in the text.
+  - **Required correction** Provide the quantitative data in the figure legend or text, including sample sizes and statistical significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Amyloid formation assay
+  - **Evidence pointer** Methods section, "Amyloid formation in vitro"
+  - **Issue** The description of the filter retardation assay is incomplete. The text mentions "Nanosep 300 K Omega ultracentrifuge columns" but the centrifugation conditions and the distinction between retained and flow-through fractions are not clearly described.
+  - **Required correction** Provide complete details of the filter retardation assay protocol, including centrifugation speed, time, and how the retained fraction was processed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Multiple experiments
+  - **Evidence pointer** Throughout Results
+  - **Issue** The manuscript lacks explicit statistical information for most experiments, including replicate numbers, error bars, and significance tests.
+  - **Required correction** Add statistical details for all quantitative experiments, including the number of independent replicates and the statistical tests used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not adequately address the limitations of the study, particularly the lack of evidence for a natural prion state of Ixr1 in yeast under physiological conditions.
+  - **Required correction** Add a paragraph discussing the limitations and the distinction between prion-like behavior in overexpression systems and natural prion formation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section, Figure 1
+  - **Issue** The prediction results from multiple disorder predictors are shown but the agreement or disagreement between predictors is not quantified or discussed.
+  - **Required correction** Consider adding a measure of consensus between predictors or a table summarizing the predictions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Title and text
+  - **Issue** The term "prion-like behavior" is used in the title, but the manuscript does not fully establish that Ixr1 exhibits all hallmarks of prion behavior (e.g., heritable epigenetic inheritance, conformational propagation).
+  - **Required correction** Consider softening the title or providing a clearer definition of what is meant by "prion-like" in this context.
+
+## Risk / unsupported claims
+- The claim that Ixr1 is a prion-like protein is not fully supported by the presented evidence, as the key functional assay (Sup35 replacement) lacks quantitative data and appropriate controls
+- The statement that "Ixr1 aggregation is highly ordered" is not directly demonstrated; the manuscript does not show structural characterization of the aggregates (e.g., X-ray fiber diffraction, solid-state NMR)
+- The claim that Ixr1 PrDs show "characteristic of a prion-like protein" is an overstatement given the lack of demonstration of heritable, self-propagating conformational states
+- The differential GdnHCl sensitivity between PrD4 and PrD1-PrD3 is reported without mechanistic explanation
+- The AI-based molecular modeling of the Ixr1-Ssn8 interaction (Supplementary Figure S4) is presented as supportive evidence but the functional relevance is speculative
+- The manuscript mentions "data not shown" for the initial Sup35 chimera results, which is not acceptable for a key experiment supporting the main claim

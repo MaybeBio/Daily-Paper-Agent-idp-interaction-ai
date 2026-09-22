@@ -1,0 +1,737 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.16.553551",
+  "title": "Control of G protein-coupled receptor function via membrane-interacting intrinsically disordered C-terminal domains",
+  "doi": "10.1101/2023.08.16.553551",
+  "abstract": "G protein-coupled receptors (GPCRs) control intracellular signaling cascades via agonist-dependent coupling to intracellular transducers including heterotrimeric G proteins, GPCR kinases (GRKs), and arrestins. In addition to their critical interactions with the transmembrane core of active GPCRs, all three classes of transducers have also been reported to interact with receptor C-terminal domains (CTDs). An underexplored aspect of GPCR CTDs is their possible role as lipid sensors given their proximity to the membrane. CTD-membrane interactions have the potential to control the accessibility of key regulatory CTD residues to downstream effectors and transducers. Here we report that the CTDs of two closely related family C GPCRs, metabotropic glutamate receptor 2 (mGluR2) and mGluR3, bind to membranes and that this interaction can regulate receptor function. We first characterize CTD structure with NMR spectroscopy, revealing lipid composition-dependent modes of membrane binding. Using molecular dynamics simulations and structure-guided mutagenesis, we then identify key conserved residues and cancer-associated mutations that modulate CTD-membrane binding. Finally, we provide evidence that mGluR3 transducer coupling is controlled by CTD-membrane interactions in live cells, which may be subject to regulation by CTD phosphorylation and changes in membrane composition. This work reveals a novel mechanism of GPCR modulation, suggesting that CTD-membrane binding may be a general regulatory mode throughout the broad GPCR superfamily. Significance Statement G protein-coupled receptors (GPCRs) allow cells to sense and respond to their environment and constitute the largest class of targets for approved therapeutic drugs. Temporally precise GPCR signaling is achieved by coupling the binding of extracellular ligands to the binding of intracellular signal transducers (e.g. heterotrimeric G proteins) and regulators (e.g. β-arrestins). The C-terminal domains (CTDs) of GPCRs are targets of various post-translational modifications and play a critical role in transducer and regulator recruitment. Here we report novel interactions of the CTDs of two GPCRs of the metabotropic glutamate receptor family with cellular membranes. These interactions serve to regulate CTD accessibility and thus, mGluR coupling to transducers and regulators. We propose that dynamic CTD-membrane interaction constitutes a general mechanism for regulating GPCR function.",
+  "authors": [
+    "Chiara Mancinelli",
+    "Dagan C. Marx",
+    "Alberto J. Gonzalez-Hernandez",
+    "Kevin Huynh",
+    "Lucia Mancinelli",
+    "Anisul Arefin",
+    "George Khelashvilli",
+    "Joshua Levitz",
+    "David Eliezer"
+  ],
+  "published_date": "2023-08-17",
+  "updated_date": "2023-08-17T18:25:13Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553551",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553551.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T10:47:15Z",
+        "timestamp": 1779101235995,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            17
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 93,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>G protein-coupled receptors (GPCRs) control intracellular signaling cascades via agonist-dependent coupling to intracellular transducers including heterotrimeric G proteins, GPCR kinases (GRKs), and arrestins. In addition to their critical interactions with the transmembrane core of active GPCRs, all three classes of transducers have also been reported to interact with receptor C-terminal domains (CTDs). An underexplored aspect of GPCR CTDs is their possible role as lipid sensors given their proximity to the membrane. CTD-membrane interactions have the potential to control the accessibility of key regulatory CTD residues to downstream effectors and transducers. Here we report that the CTDs of two closely related family C GPCRs, metabotropic glutamate receptor 2 (mGluR2) and mGluR3, bind to membranes and that this interaction can regulate receptor function. We first characterize CTD structure with NMR spectroscopy, revealing lipid composition-dependent modes of membrane binding. Using molecular dynamics simulations and structure-guided mutagenesis, we then identify key conserved residues and cancer-associated mutations that modulate CTD-membrane binding. Finally, we provide evidence that mGluR3 transducer coupling is controlled by CTD-membrane interactions in live cells, which may be subject to regulation by CTD phosphorylation and changes in membrane composition. This work reveals a novel mechanism of GPCR modulation, suggesting that CTD-membrane binding may be a general regulatory mode throughout the broad GPCR superfamily.</jats:p>\n                <jats:sec>\n                  <jats:title>Significance Statement</jats:title>\n                  <jats:p>G protein-coupled receptors (GPCRs) allow cells to sense and respond to their environment and constitute the largest class of targets for approved therapeutic drugs. Temporally precise GPCR signaling is achieved by coupling the binding of extracellular ligands to the binding of intracellular signal transducers (e.g. heterotrimeric G proteins) and regulators (e.g. β-arrestins). The C-terminal domains (CTDs) of GPCRs are targets of various post-translational modifications and play a critical role in transducer and regulator recruitment. Here we report novel interactions of the CTDs of two GPCRs of the metabotropic glutamate receptor family with cellular membranes. These interactions serve to regulate CTD accessibility and thus, mGluR coupling to transducers and regulators. We propose that dynamic CTD-membrane interaction constitutes a general mechanism for regulating GPCR function.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.08.16.553551",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2023-08-17T18:25:13Z",
+        "timestamp": 1692296713000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Control of G protein-coupled receptor function via membrane-interacting intrinsically disordered C-terminal domains"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2653-4698",
+          "authenticated-orcid": false,
+          "given": "Chiara",
+          "family": "Mancinelli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0149-3778",
+          "authenticated-orcid": false,
+          "given": "Dagan C.",
+          "family": "Marx",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2817-2475",
+          "authenticated-orcid": false,
+          "given": "Alberto J.",
+          "family": "Gonzalez-Hernandez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kevin",
+          "family": "Huynh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lucia",
+          "family": "Mancinelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anisul",
+          "family": "Arefin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7235-8579",
+          "authenticated-orcid": false,
+          "given": "George",
+          "family": "Khelashvilli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8169-6323",
+          "authenticated-orcid": false,
+          "given": "Joshua",
+          "family": "Levitz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1311-7537",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Eliezer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.07.009"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/mol.117.111062"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom12050617"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.02.23.529712"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37233-1"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-02632-8"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw5188"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.46041"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03680-3"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07055-2"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(04)00226-1"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12120"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2020.06.002"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.07.002"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-019-0256-2"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-1954-0"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-1953-1"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.21179"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/pharmrev.120.000082"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/362970"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.1960"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0325-6"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.10.018"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.11.15.516577"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.07.18.549504"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2020.07.008"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13396"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1249489"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03641-w"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnmol.2012.00052"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2018.05.018"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature20566"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mcn.2018.03.014"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2021.109050"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03495-2"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-0881-4"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2021.109648"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.08.13.552748"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2019.05.001"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-9124-2_13"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2018.08.005"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(92)81949-5"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00520-5"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnmol.2017.00154"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aav8207"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-021-00374-w"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms5955"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-052809-155121"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja507832e"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c3cp52085d"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b03460"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1103979108"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(00)01626-1"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.950"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad986"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.03.042"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.09.044"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2014.89"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/bst20200467"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adi8076"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-022-00623-z"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cb300429e"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M203954200"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnmol.2017.00146"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacsau.0c00039"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.6b00539"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2021.101442"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coemr.2020.10.003"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E07-10-1058"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.bjp.0707662"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.2001707"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03691-0"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fcell.2021.807913"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-023-00830-2"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01488-1"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21287"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00935"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23702"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2009.04.013"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0000880"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b01066"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/membranes11050307"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005659"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c09412"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.01.002"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00249-022-01627-8"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh429"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2021.02.020"
+        },
+        {
+          "key": "2024050612451274000_2023.08.16.553551v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.50.31553"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.16.553551",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:05:25Z",
+        "timestamp": 1768453525000
+      },
+      "score": 80.822975,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.16.553551"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            17
+          ]
+        ]
+      },
+      "references-count": 93,
+      "URL": "https://doi.org/10.1101/2023.08.16.553551",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

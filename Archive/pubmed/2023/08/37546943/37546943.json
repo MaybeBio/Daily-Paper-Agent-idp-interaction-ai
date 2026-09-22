@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "37546943",
+    "doi": "10.1101/2023.07.25.550520",
+    "title": "Local Disordered Region Sampling (LDRS) for Ensemble Modeling of Proteins with Experimentally Undetermined or Low Confidence Prediction Segments."
+  },
+  "content": {
+    "abstract": "The Local Disordered Region Sampling (LDRS, pronounced loaders) tool, developed for the IDPConformerGenerator platform (Teixeira et al. 2022), provides a method for generating all-atom conformations of intrinsically disordered regions (IDRs) at N- and C-termini of and in loops or linkers between folded regions of an existing protein structure. These disordered elements often lead to missing coordinates in experimental structures or low confidence in predicted structures. Requiring only a pre-existing PDB structure of the protein with missing coordinates or with predicted confidence scores and its full-length primary sequence, LDRS will automatically generate physically meaningful conformational ensembles of the missing flexible regions to complete the full-length protein. The capabilities of the LDRS tool of IDPConformerGenerator include modeling phosphorylation sites using enhanced Monte Carlo Side Chain Entropy (MC-SCE) (Bhowmick and Head-Gordon 2015), transmembrane proteins within an all-atom bilayer, and multi-chain complexes. The modeling capacity of LDRS capitalizes on the modularity, ability to be used as a library and via command-line, and computational speed of the IDPConformerGenerator platform.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zi Hao",
+        "Teixeira, Joao M C",
+        "Zhang, Oufan",
+        "Tsangaris, Thomas E",
+        "Li, Jie",
+        "Gradinaru, Claudiu C",
+        "Head-Gordon, Teresa",
+        "Forman-Kay, Julie D"
+      ],
+      "short_names": [
+        "Liu ZH",
+        "Teixeira JMC",
+        "Zhang O",
+        "Tsangaris TE",
+        "Li J",
+        "Gradinaru CC",
+        "Head-Gordon T",
+        "Forman-Kay JD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+        "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America.",
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada.",
+        "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+        "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America.",
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada.",
+        "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+        "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America.",
+        "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, California 94720-1462, United States of America.",
+        "Department of Bioengineering, University of California, Berkeley, California 94720-1762, United States of America.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zi Hao",
+        "short_name": "Liu ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Teixeira, João M C",
+        "short_name": "Teixeira JMC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Zhang, Oufan",
+        "short_name": "Zhang O",
+        "identifiers": [],
+        "affiliations": [
+          "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+          "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America."
+        ]
+      },
+      {
+        "full_name": "Tsangaris, Thomas E",
+        "short_name": "Tsangaris TE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      },
+      {
+        "full_name": "Li, Jie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+          "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America."
+        ]
+      },
+      {
+        "full_name": "Gradinaru, Claudiu C",
+        "short_name": "Gradinaru CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      },
+      {
+        "full_name": "Head-Gordon, Teresa",
+        "short_name": "Head-Gordon T",
+        "identifiers": [],
+        "affiliations": [
+          "Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States of America.",
+          "Department of Chemistry, University of California, Berkeley, California 94720-1460 United States of America.",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, California 94720-1462, United States of America.",
+          "Department of Bioengineering, University of California, Berkeley, California 94720-1762, United States of America."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jul 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/07 06:41",
+    "fetched_at": "2026-09-21 00:11:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38726305",
+      "37595014",
+      "36927031",
+      "36291635",
+      "36030416",
+      "35431773",
+      "34791371",
+      "34783395",
+      "34418423",
+      "34282049",
+      "34265844",
+      "33623120",
+      "33357399",
+      "32840111",
+      "32818062",
+      "32775701",
+      "32561718",
+      "32525675",
+      "32268219",
+      "32006288",
+      "31461845",
+      "28232893",
+      "26038108",
+      "25702871",
+      "25533957",
+      "25482539",
+      "24333094",
+      "24207126",
+      "23704889",
+      "22613562",
+      "21890895",
+      "18351591",
+      "15985178",
+      "12717019",
+      "11746699",
+      "10737933",
+      "10592235",
+      "10388571",
+      "6667333",
+      "1582530"
+    ],
+    "similar": [
+      "37546943",
+      "38060268",
+      "36030416",
+      "38764597",
+      "34864847",
+      "37674132",
+      "38995731",
+      "32599863",
+      "34680137",
+      "16729264",
+      "39253485",
+      "33267376",
+      "37155239",
+      "27111521",
+      "38915510",
+      "33406091",
+      "39072126",
+      "34179096",
+      "38297118",
+      "23798504",
+      "39190324",
+      "36711874",
+      "24763317",
+      "38370653",
+      "34557680",
+      "31999450",
+      "26548662",
+      "29763584",
+      "24565175",
+      "38781245",
+      "36008992",
+      "30802457",
+      "31797596",
+      "31978465",
+      "39093570",
+      "39071267",
+      "38018910",
+      "29573987",
+      "31362509",
+      "36272675",
+      "22095648",
+      "35129612",
+      "27307636",
+      "25482539",
+      "30840442",
+      "30708941",
+      "38297184",
+      "15099834",
+      "32525675",
+      "23422426",
+      "37133846",
+      "31375817",
+      "37982746",
+      "36959451",
+      "22468560",
+      "26138206",
+      "34418423",
+      "24564893",
+      "25136274",
+      "17206849",
+      "31303975",
+      "28381244",
+      "31797595",
+      "26683124",
+      "35298814",
+      "27037822",
+      "38275091",
+      "34285781",
+      "23142703",
+      "34627764",
+      "26242913",
+      "21829444",
+      "37883249",
+      "32195305",
+      "37595014",
+      "32357776",
+      "22613562",
+      "22253588",
+      "33076213",
+      "15154746",
+      "18662925",
+      "20063887",
+      "25502193",
+      "36331868",
+      "21220121",
+      "24204571",
+      "38713459",
+      "36833360",
+      "31756456",
+      "25358803",
+      "15103629",
+      "28168752",
+      "33725442",
+      "34630939",
+      "28003858",
+      "16972169"
+    ],
+    "review": [
+      "37546943",
+      "39093570",
+      "35129612",
+      "30840442",
+      "30708941",
+      "36959451",
+      "34418423",
+      "31303975",
+      "34285781",
+      "25502193",
+      "36833360"
+    ],
+    "pmc": [
+      "10402175"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37546943/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37546943",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.07.25.550520",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "40216579",
+    "doi": "10.1016/j.jmb.2025.169103",
+    "title": "K(D)SAXS: A Tool for Analyzing Binding Equilibria With SAXS Data Using Explicit Models."
+  },
+  "content": {
+    "abstract": "K(D)SAXS is a computational tool for estimating dissociation constants (K(D)) from small-angle X-ray scattering (SAXS) titration experiments. By combining ensemble analysis with mass-balance equations, K(D)SAXS effectively models complex equilibria involving multiple species, ranging from simple oligomerization to transient and multivalent interactions, including intrinsically disordered proteins. For each species in equilibrium, the tool supports the integration of theoretical scattering profiles derived from ensemble structural models, X-ray crystallography, NMR, AlphaFold predictions, or molecular dynamics simulations. With its intuitive dashboard interface, K(D)SAXS enables researchers to input SAXS titration data, validate structural models and interactions, and compute species-specific scattering profiles. Additionally, it determines the relative populations of biomolecular species in equilibrium across user-defined Kᴅ ranges and concentrations. Applications of K(D)SAXS to systems such as beta-lactoglobulin oligomerization and the PCNA-p15PAF complex highlight its capacity to resolve complex equilibria and deliver accurate K(D) estimations. As an open-source platform, K(D)SAXS bridges computational and experimental methodologies, advancing SAXS-based analysis of macromolecular interactions and enhancing insights into dynamic biological systems. K(D)SAXS is freely accessible as a web server at https://kdsaxs.itqb.unl.pt.",
+    "keywords": [
+      "Small-Angle X-ray Scattering (SAXS)",
+      "binding affinity",
+      "biomolecular interactions",
+      "equilibrium dynamics",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Scattering, Small Angle",
+      "*X-Ray Diffraction/methods",
+      "*Software",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Models, Molecular",
+      "Crystallography, X-Ray",
+      "Lactoglobulins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomes, Tiago",
+        "Ruiz, Lidia",
+        "Martin-Malpartida, Pau",
+        "Bernado, Pau",
+        "Baptista, Antonio M",
+        "Macias, Maria J",
+        "Cordeiro, Tiago N"
+      ],
+      "short_names": [
+        "Gomes T",
+        "Ruiz L",
+        "Martin-Malpartida P",
+        "Bernado P",
+        "Baptista AM",
+        "Macias MJ",
+        "Cordeiro TN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal.",
+        "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain.",
+        "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain.",
+        "Centre de Biologie Structurale, Universite de Montpellier, INSERM, CNRS, Montpellier, France.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal.",
+        "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain; ICREA, Passeig Lluis Companys 23, Barcelona 08010, Spain.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal. Electronic address: tiago.cordeiro@itqb.unl.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gomes, Tiago",
+        "short_name": "Gomes T",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal."
+        ]
+      },
+      {
+        "full_name": "Ruiz, Lidia",
+        "short_name": "Ruiz L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain."
+        ]
+      },
+      {
+        "full_name": "Martin-Malpartida, Pau",
+        "short_name": "Martin-Malpartida P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, INSERM, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Baptista, António M",
+        "short_name": "Baptista AM",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal."
+        ]
+      },
+      {
+        "full_name": "Macias, Maria J",
+        "short_name": "Macias MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, The Barcelona Institute of Science and Technology, Baldiri Reixac, 10, Barcelona 08028, Spain; ICREA, Passeig Lluís Companys 23, Barcelona 08010, Spain."
+        ]
+      },
+      {
+        "full_name": "Cordeiro, Tiago N",
+        "short_name": "Cordeiro TN",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal. Electronic address: tiago.cordeiro@itqb.unl.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Aug 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/12 00:42",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [
+      "42358499"
+    ],
+    "refs": [],
+    "similar": [
+      "40216579",
+      "28180305",
+      "30617833",
+      "30840442",
+      "32035901",
+      "29352739",
+      "26320411",
+      "37582436",
+      "20507903",
+      "22639100",
+      "31251056",
+      "33862013",
+      "23972848",
+      "26945933",
+      "32006283",
+      "22338662",
+      "32696361",
+      "25855813",
+      "17182256",
+      "21947276",
+      "29548755",
+      "26387105",
+      "21665925",
+      "37578017",
+      "23456097",
+      "29218556",
+      "29605933",
+      "31860156",
+      "27151198",
+      "36641209",
+      "18694757",
+      "23912807",
+      "34107023",
+      "22821520",
+      "35290631",
+      "28501583",
+      "30021105",
+      "36856266",
+      "28668130",
+      "23216378",
+      "36710010",
+      "31402649",
+      "31445067",
+      "24687405",
+      "25897115",
+      "29218562",
+      "30901335",
+      "30878202",
+      "22044150",
+      "26504146",
+      "24588935",
+      "25108308",
+      "29886536",
+      "36641212",
+      "32119546",
+      "20097063",
+      "25615859",
+      "29626538",
+      "23376408",
+      "23255205",
+      "23142499",
+      "26548662",
+      "33582993",
+      "26637017",
+      "26057674",
+      "36641211",
+      "22988847",
+      "22800408",
+      "36410959",
+      "34761467",
+      "19275229",
+      "21892474",
+      "31204190",
+      "30617829",
+      "26095982",
+      "23767571",
+      "28471369",
+      "37948805",
+      "23835228",
+      "21462184",
+      "35483823",
+      "28299734",
+      "34995477",
+      "32679070",
+      "33260426",
+      "26018949",
+      "32859072",
+      "25765781",
+      "20801888",
+      "23291239",
+      "21332357",
+      "27496803",
+      "23495971",
+      "29172147",
+      "20106957",
+      "29218557",
+      "22954648",
+      "24092048",
+      "36641216",
+      "20558299"
+    ],
+    "review": [
+      "40216579",
+      "30617833",
+      "30840442",
+      "32035901",
+      "29352739",
+      "26320411",
+      "37582436",
+      "22639100",
+      "26945933",
+      "21947276",
+      "26387105",
+      "29218556",
+      "28501583",
+      "23216378",
+      "31445067",
+      "24687405",
+      "22044150",
+      "24588935",
+      "25108308",
+      "20097063",
+      "23376408",
+      "23142499",
+      "36641211",
+      "22988847",
+      "22800408",
+      "31204190",
+      "30617829",
+      "23835228",
+      "34995477",
+      "33260426",
+      "25765781",
+      "21332357",
+      "23495971",
+      "29172147",
+      "22954648"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00169-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-558",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

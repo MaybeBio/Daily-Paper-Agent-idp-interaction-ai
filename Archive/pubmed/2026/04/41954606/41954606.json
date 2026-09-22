@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41954606",
+    "doi": "10.1021/jacs.6c04189",
+    "title": "Beyond a Passive Tether: Structural Insights into the Disordered Tail of Hsp90."
+  },
+  "content": {
+    "abstract": "The molecular chaperone Hsp90 is an abundant and essential homodimer that supports the stability and folding of hundreds of client proteins in cells. Its C-terminal domain (CTD) mediates dimerization and serves as a docking site for cochaperones bearing tetratricopeptide repeat (TPR) domains, which recognize the conserved MEEVD motif located at the end of an intrinsically disordered CTD tail. Despite its conservation, the structural role of this tail remains poorly understood. We investigated the conformational behavior of the yeast Hsp90 (yHsp90) CTD tail and its response to the binding of the TPR-containing PPIase cochaperone Cpr6. Using site-directed spin labeling with nitroxide and Gd(III) labels, we examined full-length yHsp90 (FL), isolated CTD (IsoC), and tail-truncated variants by double electron-electron resonance (DEER) and EPR spectroscopy. The CTD tails in IsoC and FL adopted distinct conformational ensembles, attributed to intramolecular interactions with the middle domain in FL. Cpr6 binding abolished these differences, indicating disruption of intramolecular tail contacts. In IsoC, the tail also stabilized an additional CTD conformation near the dimer interface that was absent in FL and was lost upon tail truncation, consistent with tail-CTD interactions observed by NMR. This population was reduced upon Cpr6 binding, shifting the IsoC conformational distribution toward that of FL. Additionally, this population was reduced in cellular environments and mimics. Together, our results demonstrate that the disordered CTD tail is an active structural element that modulates both its own conformational ensemble and CTD architecture, highlighting its potential functional relevance in the Hsp90 chaperone cycle.",
+    "keywords": [],
+    "mesh_terms": [
+      "*HSP90 Heat-Shock Proteins/chemistry/metabolism",
+      "Models, Molecular",
+      "Protein Domains",
+      "Protein Conformation",
+      "*Saccharomyces cerevisiae Proteins/chemistry/metabolism",
+      "Saccharomyces cerevisiae/chemistry",
+      "Electron Spin Resonance Spectroscopy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Edinach, Elena",
+        "Giannouli, Angeliki",
+        "Dalaloyan, Arina",
+        "Oranges, Maria",
+        "Banik, Debasis",
+        "Yardeni, Elian Hadas",
+        "Elimelech, Annika",
+        "Sattler, Michael",
+        "Ntermanakis, Emmanouil",
+        "Su, Xun-Cheng",
+        "Goldfarb, Daniella"
+      ],
+      "short_names": [
+        "Edinach E",
+        "Giannouli A",
+        "Dalaloyan A",
+        "Oranges M",
+        "Banik D",
+        "Yardeni EH",
+        "Elimelech A",
+        "Sattler M",
+        "Ntermanakis E",
+        "Su XC",
+        "Goldfarb D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8017-5457",
+        "ORCID: 0009-0002-8883-6816",
+        "ORCID: 0000-0003-3051-0047",
+        "ORCID: 0000-0001-5714-7159"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemistry, University of Crete, Heraklion 70013, Greece.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Protein Analysis Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg 85764, Germany.",
+        "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching 85748, Germany.",
+        "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg 85764, Germany.",
+        "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching 85748, Germany.",
+        "Department of Chemistry, University of Crete, Heraklion 70013, Greece.",
+        "State Key Laboratory of Elemento-Organic Chemistry, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Edinach, Elena",
+        "short_name": "Edinach E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Giannouli, Angeliki",
+        "short_name": "Giannouli A",
+        "identifiers": [
+          "0000-0001-8017-5457"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Department of Chemistry, University of Crete, Heraklion 70013, Greece."
+        ]
+      },
+      {
+        "full_name": "Dalaloyan, Arina",
+        "short_name": "Dalaloyan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Oranges, Maria",
+        "short_name": "Oranges M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Banik, Debasis",
+        "short_name": "Banik D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Yardeni, Elian Hadas",
+        "short_name": "Yardeni EH",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Analysis Unit, Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Elimelech, Annika",
+        "short_name": "Elimelech A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg 85764, Germany.",
+          "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching 85748, Germany."
+        ]
+      },
+      {
+        "full_name": "Sattler, Michael",
+        "short_name": "Sattler M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Biology, Molecular Targets and Therapeutics Center, Helmholtz Munich, Neuherberg 85764, Germany.",
+          "Bavarian NMR Center and Department of Bioscience, TUM School of Natural Sciences, Technical University of Munich, Garching 85748, Germany."
+        ]
+      },
+      {
+        "full_name": "Ntermanakis, Emmanouil",
+        "short_name": "Ntermanakis E",
+        "identifiers": [
+          "0009-0002-8883-6816"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Crete, Heraklion 70013, Greece."
+        ]
+      },
+      {
+        "full_name": "Su, Xun-Cheng",
+        "short_name": "Su XC",
+        "identifiers": [
+          "0000-0003-3051-0047"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Elemento-Organic Chemistry, College of Chemistry, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Goldfarb, Daniella",
+        "short_name": "Goldfarb D",
+        "identifiers": [
+          "0000-0001-5714-7159"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Apr 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 12:45",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40261701",
+      "39737863",
+      "38718835",
+      "38358120",
+      "38071428",
+      "37957331",
+      "37945740",
+      "37774136",
+      "37228112",
+      "36385050",
+      "35739160",
+      "34937942",
+      "34937936",
+      "34928609",
+      "34529007",
+      "34418423",
+      "34380015",
+      "33888206",
+      "33715381",
+      "33547294",
+      "33279866",
+      "31862713",
+      "31218813",
+      "30745292",
+      "30277780",
+      "29079741",
+      "28834777",
+      "28429788",
+      "28145030",
+      "28078740",
+      "28076802",
+      "26787875",
+      "26552819",
+      "26334574",
+      "25988145",
+      "25531225",
+      "24942700",
+      "24613341",
+      "24121563",
+      "23818240",
+      "23807285",
+      "23434533",
+      "23424088",
+      "22824801",
+      "22448103",
+      "21414251",
+      "21170051",
+      "19029910",
+      "18571956",
+      "17101799",
+      "16625188",
+      "16601002",
+      "16188474",
+      "15815974",
+      "15556629",
+      "15274928",
+      "12525481",
+      "12093276",
+      "12015977",
+      "11278815",
+      "10942767",
+      "10681067",
+      "10648151",
+      "10647931",
+      "9927435",
+      "9230303",
+      "8943039",
+      "8289821"
+    ],
+    "similar": [
+      "41954606",
+      "38071428",
+      "31862713",
+      "18485364",
+      "25945584",
+      "28192191",
+      "34928609",
+      "16421106",
+      "9927435",
+      "25380751",
+      "24466147",
+      "26565746",
+      "17101799",
+      "23926110",
+      "16625188",
+      "33547294",
+      "34380015",
+      "22505624",
+      "29930177",
+      "39366960",
+      "27723736",
+      "23396352",
+      "24613341",
+      "39543960",
+      "28495207",
+      "22227520",
+      "32565117",
+      "33789348",
+      "15497503",
+      "24567332",
+      "22354036",
+      "37228112",
+      "19696785",
+      "23727266",
+      "15466438",
+      "19234467",
+      "29463764",
+      "33147371",
+      "21183720",
+      "33610544",
+      "15364569",
+      "22315411",
+      "42025871",
+      "41435837",
+      "18412542",
+      "20159554",
+      "12611898",
+      "11604493",
+      "12482845",
+      "28537252",
+      "18211007",
+      "25468961",
+      "28139700",
+      "19300478",
+      "20663878",
+      "24327656",
+      "18991631",
+      "9819421",
+      "15044454",
+      "10400612",
+      "41123251",
+      "30228181",
+      "27771574",
+      "19061638",
+      "12788914",
+      "28851842",
+      "11441008",
+      "17034249",
+      "21700222",
+      "30894538",
+      "9707442",
+      "32994435",
+      "26330616",
+      "19554567",
+      "10942767",
+      "24760083",
+      "31399574",
+      "24794838",
+      "12145316",
+      "35667441",
+      "16407978",
+      "9187656",
+      "9660753",
+      "9915798",
+      "12890674",
+      "10944121",
+      "12492485",
+      "18362168",
+      "28408431",
+      "24462205",
+      "33030907",
+      "22660624",
+      "32179743",
+      "23260660",
+      "12235160",
+      "35202628",
+      "29267381",
+      "12667448",
+      "41794062",
+      "16461354"
+    ],
+    "review": [
+      "41954606",
+      "42025871"
+    ],
+    "pmc": [
+      "13107436"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41954606/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c04189",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

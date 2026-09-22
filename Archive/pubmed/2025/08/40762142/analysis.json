@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40762142",
+  "title": "Complex remodeling of biomembranes and vesicles by condensate droplets.",
+  "authors": "Lipowsky, Reinhard",
+  "journal": "Soft matter",
+  "published_date": "2025-08-05",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合实验与模拟，用流体弹性理论建模凝聚体液滴与生物膜的润湿及重塑机制，虽聚焦膜而非蛋白互作，但相分离液滴-膜界面的物理建模思路对IDR介导PPI机制研究有可迁移启发。",
+  "abstract": "Condensate droplets are formed by liquid-liquid phase separation in aqueous solutions of macromolecules such as polymers and proteins. Here, we look at the interactions of such droplets with biomembranes, integrating the results of recent experimental studies and computer simulations into the theoretical framework of fluid elasticity. The droplets can be formed via segregative or associative phase separation. It is argued that the corresponding phase diagrams exhibit one or two critical demixing points at constant temperature and that the vicinity of such a critical point leads to complete wetting of the membranes by the droplets. In general, both exterior and interior droplets can exhibit different wetting geometries, characterized by three apparent contact angles on the scale of a few hundred nanometers, as resolved by conventional light microscopy, and by two intrinsic contact angles on the scale of a few tens of nanometers. In response to a reduction of vesicle volume or to an increase of membrane area, the vesicle-droplet systems undergo a variety of remodeling processes, such as complete engulfment of the droplets or nanotubulation of the membranes. The closure of membrane necks adjacent to condensate droplets can proceed via several distinct morphological pathways. For partial wetting, the nanotubes adhere to the liquid-liquid interfaces and can then transform into double-membrane sheets.",
+  "abstract_zh": "凝聚体液滴是由聚合物和蛋白质等大分子在水溶液中的液-液相分离形成的。在此，我们考察了此类液滴与生物膜之间的相互作用，将近期实验研究和计算机模拟的结果整合到流体弹性理论框架中。液滴可通过分离性或结合性相分离形成。据论证，相应的相图在恒温条件下呈现一个或两个临界去混点，且此类临界点附近会导致液滴对膜的完全润湿。一般而言，外部和内部液滴均可表现出不同的润湿几何形态，其特征为在数百纳米尺度上由常规光学显微镜分辨出的三个表观接触角，以及在数十纳米尺度上的两个内在接触角。响应于囊泡体积的减少或膜面积的增加，囊泡-液滴系统经历多种重塑过程，例如液滴的完全吞噬或膜的纳米管化。与凝聚体液滴相邻的膜颈闭合可通过若干不同的形态路径进行。对于部分润湿情况，纳米管附着于液-液界面，随后可转变为双膜片层结构。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40762142/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40762142/",
+  "paper_page_path": "papers/pubmed/40762142/index.html"
+}

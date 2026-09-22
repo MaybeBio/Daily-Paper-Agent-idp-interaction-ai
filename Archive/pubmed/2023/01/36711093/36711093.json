@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "36711093",
+    "doi": "10.1021/jacsau.2c00414",
+    "title": "Sequence Tendency for the Interaction between Low-Complexity Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Reversible interaction between intrinsically disordered proteins (IDPs) is considered as the driving force for liquid-liquid phase separation (LLPS), while the detailed description of such a transient interaction process still remains a challenge. And the mechanisms underlying the behavior of IDP interaction, for example, the possible relationship with its inherent conformational fluctuations and sequence features, remain elusive. Here, we use atomistic molecular dynamics (MD) simulation to investigate the reversible association of the LAF-1 RGG domain, the IDP with ultra-low LLPS concentration (0.06 mM). We find that the duration of the association between two RGG domains is highly heterogeneous, and the sustained associations essentially dominate the IDP interaction. More interestingly, such sustained associations are mediated by a finite region, that is, the C-terminal region 138-168 (denoted as a contact-prone region). We noticed that such sequence tendency is attributed to the extended conformation of the RGG domain during its inherent conformational fluctuations. Hence, our results suggest that there is a certain region in this low-complexity IDP which can essentially dominate their interaction and should be also important to the LLPS. And the inherent conformational fluctuations are actually essential for the emergence of such a hot region of IDP interaction. The importance of this hot region to LLPS is verified by experiment.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Moxin",
+        "Xue, Bin",
+        "Li, Qingtai",
+        "Shi, Rui",
+        "Cao, Yi",
+        "Wang, Wei",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Zhang M",
+        "Xue B",
+        "Li Q",
+        "Shi R",
+        "Cao Y",
+        "Wang W",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0411-3067",
+        "ORCID: 0000-0003-1493-7868",
+        "ORCID: 0000-0001-5441-0302",
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China.",
+        "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China.",
+        "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China.",
+        "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China.",
+        "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Moxin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Bin",
+        "short_name": "Xue B",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qingtai",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Rui",
+        "short_name": "Shi R",
+        "identifiers": [
+          "0000-0002-0411-3067"
+        ],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yi",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0003-1493-7868"
+        ],
+        "affiliations": [
+          "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-5441-0302"
+        ],
+        "affiliations": [
+          "Collaborative Innovation Center of Advanced Microstructures, National Laboratory of Solid State Microstructure, Department of Physics, Nanjing University, Nanjing210093, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Hangzhou310058, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2023 Jan 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/31 06:00",
+    "fetched_at": "2026-09-20 18:57:53"
+  },
+  "links": {
+    "cites": [
+      "41675962",
+      "41596327",
+      "39807013",
+      "38862770",
+      "38347544",
+      "38279531",
+      "37890778"
+    ],
+    "refs": [
+      "35795820",
+      "35675815",
+      "35377637",
+      "34719929",
+      "34716273",
+      "34637756",
+      "34374536",
+      "33623120",
+      "33355572",
+      "33307683",
+      "33139563",
+      "33004511",
+      "32639157",
+      "32393642",
+      "32302571",
+      "32029630",
+      "31483661",
+      "31270472",
+      "31260322",
+      "31139718",
+      "30926670",
+      "30913885",
+      "30873835",
+      "30765518",
+      "30397688",
+      "29961577",
+      "29735687",
+      "29677514",
+      "29548755",
+      "29472250",
+      "29466338",
+      "29424691",
+      "29364893",
+      "29064502",
+      "28942918",
+      "28894006",
+      "28507126",
+      "28472402",
+      "28283059",
+      "27910877",
+      "27824447",
+      "27768896",
+      "27545621",
+      "27483190",
+      "27203111",
+      "27050677",
+      "26922996",
+      "26619985",
+      "26455390",
+      "26412307",
+      "26406374",
+      "26378813",
+      "26340721",
+      "26317470",
+      "26286827",
+      "26015579",
+      "25747659",
+      "25531225",
+      "25436423",
+      "25400522",
+      "25004990",
+      "24606139",
+      "21768607",
+      "20408171",
+      "19460965",
+      "17212484",
+      "16392929",
+      "16189514",
+      "16169070",
+      "11964222",
+      "8744570"
+    ],
+    "similar": [
+      "36711093",
+      "32393642",
+      "35944496",
+      "37662293",
+      "37722056",
+      "33302617",
+      "39354680",
+      "33684117",
+      "39089542",
+      "30840442",
+      "34029402",
+      "36115020",
+      "34984754",
+      "24211251",
+      "27844185",
+      "39256186",
+      "35883530",
+      "23912807",
+      "36350034",
+      "33355572",
+      "34259536",
+      "33078950",
+      "29511089",
+      "30909517",
+      "34504009",
+      "21766125",
+      "33934416",
+      "26195786",
+      "34986640",
+      "33555894",
+      "30865832",
+      "35119946",
+      "31021441",
+      "28834051",
+      "25207671",
+      "33945530",
+      "33982369",
+      "31270472",
+      "36387274",
+      "33403854",
+      "32579908",
+      "35575335",
+      "25897952",
+      "35126984",
+      "36524527",
+      "33686854",
+      "29364893",
+      "31260322",
+      "36084124",
+      "24671380",
+      "32615218",
+      "31809054",
+      "35142991",
+      "22399317",
+      "30813315",
+      "24446368",
+      "32696367",
+      "36346711",
+      "29557644",
+      "26387104",
+      "31054969",
+      "22253588",
+      "29276882",
+      "36430801",
+      "33030907",
+      "31241933",
+      "34844028",
+      "32816485",
+      "34845619",
+      "33382616",
+      "35297101",
+      "36018855",
+      "19278259",
+      "34656328",
+      "28914483",
+      "36291634",
+      "31756104",
+      "36077201",
+      "32859072",
+      "26735936",
+      "26226419",
+      "37998041",
+      "36545140"
+    ],
+    "review": [
+      "36711093",
+      "30840442",
+      "36350034",
+      "33355572",
+      "30909517",
+      "35119946",
+      "31021441",
+      "36524527",
+      "35142991",
+      "22399317",
+      "26387104",
+      "31054969",
+      "34844028",
+      "26226419",
+      "36545140"
+    ],
+    "pmc": [
+      "9875249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacsau.2c00414",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36711093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36711093",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.2c00414",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

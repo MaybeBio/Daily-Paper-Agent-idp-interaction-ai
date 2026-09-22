@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37864328",
+  "title": "State-dependent dynamics of extramembrane domains in the beta(2) -adrenergic receptor.",
+  "authors": "Nikte, Siddhanta V; Joshi, Manali; Sengupta, Durba",
+  "journal": "Proteins",
+  "published_date": "2023-10-21",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用原子级分子动力学模拟分析β2肾上腺素受体跨膜外结构域（含无序区域）的状态依赖性动态，虽对象为膜蛋白而非典型IDP-PPI，但无序区域构象动态与配体/G蛋白偶联的机制建模思路对IDR介导互作研究有可迁移启发。",
+  "abstract": "G protein-coupled receptors (GPCRs) are membrane-bound signaling proteins that play an essential role in cellular signaling processes. Due to their intrinsic function of transmitting internal signals in response to external cues, these receptors are adapted to be highly dynamic in nature. The beta(2) -adrenergic receptor (beta(2) AR) is a representative member of the family that has been extensively analyzed in terms of its structure and activation. Although the structure of the transmembrane domain has been characterized in the different functional states of the receptor, the conformational dynamics of the extramembrane domains, especially the intrinsically disordered regions are still emerging. In this study, we analyze the state-dependent dynamics of extramembrane domains of beta(2) AR using atomistic molecular dynamics simulations. We introduce a parameter, the residue excess dynamics that allows us to better quantify receptor dynamics. Using this measure, we show that the dynamics of the extramembrane domains are sensitive to the receptor state. Interestingly, the ligand-bound intermediate R' state shows the maximal dynamics compared to either the active R*G or inactive R states. Ligand binding appears to be correlated with high residue excess dynamics that are dampened upon G protein coupling. The intracellular loop-3 (ICL3) domain has a tendency to flip towards the membrane upon ligand binding, which could contribute to receptor \"priming.\" We highlight an important ICL1-helix-8 interplay that is broken in the ligand-bound state but is retained in the active state. Overall, our study highlights the importance of characterizing the functional dynamics of the GPCR loop domains.",
+  "abstract_zh": "G蛋白偶联受体（G protein-coupled receptors, GPCRs）是膜结合信号蛋白，在细胞信号传导过程中发挥关键作用。由于其响应外部刺激传递内部信号的内在功能，这些受体在本质上具有高度动态性。β(2)-肾上腺素能受体（beta(2) AR）是该家族的代表性成员，其结构和激活机制已被广泛研究。尽管跨膜结构域在不同功能状态下的结构已被表征，但膜外结构域，特别是内在无序区域的构象动态仍处于探索阶段。在本研究中，我们利用原子级分子动力学（molecular dynamics）模拟分析了beta(2) AR膜外结构域的状态依赖性动态。我们引入了一个参数——残基超额动态（residue excess dynamics），以更好地量化受体动态。通过该度量，我们表明膜外结构域的动态对受体状态敏感。有趣的是，配体结合的中间R'状态相比活性R*G或非活性R状态表现出最大的动态。配体结合似乎与高残基超额动态相关，而这种动态在G蛋白偶联后被抑制。细胞内环3（ICL3）结构域在配体结合后倾向于向膜翻转，这可能有助于受体的“预激活”（priming）。我们强调了ICL1-螺旋8之间的重要相互作用，该作用在配体结合状态下被破坏，但在活性状态下得以保留。总体而言，我们的研究强调了表征GPCR环结构域功能动态的重要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37864328/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37864328/",
+  "paper_page_path": "papers/pubmed/37864328/index.html"
+}

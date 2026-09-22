@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "41480867",
+    "doi": "10.1021/acs.jctc.5c01468",
+    "title": "The Protein Force Field Plays a Crucial Role in Obtaining Accurate Macromolecular Ensembles of IDPs."
+  },
+  "content": {
+    "abstract": "Atomistic models of water with increased dispersion interactions (e.g., OPC, TIP4P-D) have been proposed to produce extended conformational ensembles of intrinsically disordered proteins (IDPs). However, the role of the protein force field in obtaining accurate macromolecular ensembles of IDPs remains unclear. Isolating the influence of the protein and water models by comparison to an experimental measure (such as X-ray scattering) requires an atomic consideration of the hydration layer waters around a thermally fluctuating protein. To enable an atomically detailed scattering calculation around a thermally fluctuating solute, we have developed a new scattering model termed small and wide angle X-ray scattering for all molecular dynamics engines (SWAXS-AMDE). SWAXS-AMDE can handle the trajectory files from all of the popular molecular dynamics (MD) simulation softwares, thus facilitating a straightforward validation of force field improvements. SWAXS-AMDE computed scattering profiles for polyampholyte peptides show the AMBER ff19SB protein force field to play a crucial role in obtaining accurate macromolecular ensembles of both folded proteins and IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Water/chemistry",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Adhikari Sridhar, Rohan",
+        "Shi, Winnie H",
+        "Marciel, Amanda B",
+        "Chapman, Walter G"
+      ],
+      "short_names": [
+        "Adhikari Sridhar R",
+        "Shi WH",
+        "Marciel AB",
+        "Chapman WG"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4096-9310",
+        "ORCID: 0000-0002-9310-8015",
+        "ORCID: 0000-0001-9403-396X",
+        "ORCID: 0000-0002-8789-9041"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States.",
+        "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States.",
+        "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Adhikari Sridhar, Rohan",
+        "short_name": "Adhikari Sridhar R",
+        "identifiers": [
+          "0000-0003-4096-9310"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States.",
+          "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Shi, Winnie H",
+        "short_name": "Shi WH",
+        "identifiers": [
+          "0000-0002-9310-8015"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States."
+        ]
+      },
+      {
+        "full_name": "Marciel, Amanda B",
+        "short_name": "Marciel AB",
+        "identifiers": [
+          "0000-0001-9403-396X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States."
+        ]
+      },
+      {
+        "full_name": "Chapman, Walter G",
+        "short_name": "Chapman WG",
+        "identifiers": [
+          "0000-0002-8789-9041"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Rice University, 6100 Main St., Houston, Texas 77005, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Jan 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/02 13:09",
+    "fetched_at": "2026-09-17 23:28:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41480867",
+      "32859072",
+      "41073429",
+      "40907012",
+      "30840442",
+      "26030189",
+      "31402649",
+      "41298416",
+      "35377637",
+      "35950933",
+      "29808548",
+      "30878202",
+      "31809054",
+      "29172147",
+      "40172236",
+      "30865832",
+      "33623120",
+      "39651234",
+      "37990496",
+      "29548755",
+      "37646172",
+      "31613621",
+      "31548393",
+      "32840111",
+      "34252246",
+      "22004761",
+      "29080468",
+      "36641212",
+      "31657215",
+      "36387274",
+      "26574339",
+      "29026044",
+      "40095314",
+      "26320411",
+      "26575776",
+      "26387110",
+      "39746152",
+      "37452752",
+      "39642200",
+      "29571687",
+      "31552948",
+      "39056166",
+      "34546059",
+      "29792674",
+      "38928405",
+      "40569578",
+      "36468450",
+      "28226222",
+      "30204435",
+      "29573987",
+      "28095698",
+      "33459730",
+      "32696361",
+      "33382616",
+      "22044150",
+      "30865820",
+      "33582993",
+      "33355572",
+      "41082321",
+      "41259435",
+      "28805390",
+      "33591749",
+      "31241933",
+      "30091924",
+      "25992735",
+      "35129612",
+      "30979035",
+      "31877033",
+      "32696367",
+      "33574233",
+      "32585849",
+      "28448138",
+      "26387105",
+      "40060049",
+      "30876367",
+      "35725761",
+      "39499823",
+      "34817999",
+      "39979079",
+      "32816485",
+      "24174539",
+      "37108059",
+      "34627764",
+      "33725442",
+      "30250773",
+      "34680048",
+      "30617833",
+      "25207671",
+      "39340152",
+      "26548662",
+      "32227937",
+      "30230839",
+      "29218556",
+      "38949117",
+      "34032235",
+      "25028885",
+      "32579908",
+      "26387099",
+      "33810353",
+      "31756104"
+    ],
+    "review": [
+      "41480867",
+      "30840442",
+      "29172147",
+      "29080468",
+      "26320411",
+      "26387110",
+      "28226222",
+      "22044150",
+      "33355572",
+      "33591749",
+      "35129612",
+      "30979035",
+      "26387105",
+      "34680048",
+      "30617833",
+      "29218556"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c01468",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

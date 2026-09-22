@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for verification
+- **Shared manuscript claim summary** The authors propose that serine and aromatic residues promote miscibility of intrinsically disordered region (IDR) condensates, while charged amino acids drive immiscibility. They support this with pairwise screening of 28 IDRs, mutagenesis, network analyses, and simulations. They further claim that serine phosphorylation acts as a regulatory switch, and that TF-Pol II condensate miscibility directly influences transactivation and transcriptional output.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, figure legends, or supplementary information were supplied
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical reporting, simulation parameters, mutagenesis construct details, phosphorylation site mapping, transcriptional assay protocols, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and broadly relevant hypothesis regarding sequence determinants of condensate miscibility. However, the current evidence base is insufficient to evaluate the rigor of the claims. The central conclusions rest on correlative screening, causal mutagenesis, and computational modeling, but none of these components can be assessed from the abstract alone. The claim that miscibility directly influences transactivation is particularly strong and would require careful quantitative demonstration. The work may be of interest to the condensate and transcription fields, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, IDR sequence-function relationships, and transcriptional regulation. The proposed residue-level grammar could be useful for predicting and engineering condensate behavior, which would appeal to synthetic biology and cell biology audiences. The connection to TF-Pol II interactions and transcription may also interest gene regulation researchers.
+- **Major strengths** The abstract addresses a timely and important question about condensate miscibility determinants. The scale of the pairwise screen (28 IDRs, 378 combinations) suggests a systematic approach. The combination of experimental mutagenesis with network analyses and simulations is a reasonable triangulation strategy. The proposed regulatory role of phosphorylation adds a dynamic dimension that could be mechanistically interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that serine and aromatic residues promote miscibility while charged amino acids drive immiscibility, and that mutagenesis establishes these as causal relationships.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that mutagenesis establishes causality, but no details are given regarding the number of mutants, the magnitude of effects, the specificity of the mutations, or whether the effects are consistent across multiple IDR contexts. Without these details, it is impossible to determine whether the causal claim is robust or based on limited examples.
+  - **Why it matters** The central thesis of the paper rests on the causal role of specific residue types. If the mutagenesis data are limited or inconsistent, the residue-level grammar claim would be substantially weakened. The abstract does not provide enough information to judge whether the causal relationship is general or context-dependent.
+  - **Resolution test** Provide the full mutagenesis dataset, including the number of IDRs tested, the number of mutations per IDR, the effect sizes on miscibility, and statistical significance. Show that mutations in serine, aromatic, and charged residues produce consistent and directional changes across multiple IDR pairs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that protein-protein interaction network analyses and molecular simulations reveal that serine and aromatic residues favor heterotypic interactions, whereas high charge content reinforces homotypic association.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify what network analyses were performed, what interaction data were used, or how simulations were parameterized. It is unclear whether the simulations recapitulate the experimental conditions or whether the network analyses are based on curated interaction databases that may not reflect condensate-specific interactions. The link between these computational results and the experimental observations is asserted but not demonstrated.
+  - **Why it matters** The computational component is presented as supporting mechanistic evidence. If the simulations or network analyses are not well-validated or are based on assumptions that do not hold for IDR condensates, the mechanistic interpretation would be speculative. The abstract does not allow the reader to assess the quality or relevance of these analyses.
+  - **Resolution test** Provide details on the simulation force field, system size, and timescales, and show that the simulated heterotypic versus homotypic preferences match experimental miscibility outcomes. For network analyses, specify the data source, the metric used to define interaction preference, and the statistical significance of the residue-type associations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that miscibility between TF and Pol II condensates directly influences transactivation, and that modulating charged residue content in TFs correspondingly tunes transcription.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is the strongest functional claim in the abstract, yet no quantitative data are presented. It is unclear how transactivation was measured, what the magnitude of the effect was, whether the effect is specific to condensate miscibility or could be explained by other properties of the mutated TFs, and whether the correlation between charge content and transcriptional output is causal or coincidental.
+  - **Why it matters** The link between condensate miscibility and transcriptional function is a major selling point of the paper. If this connection is not rigorously established, the broader significance of the residue-level grammar is diminished. The abstract does not provide enough information to distinguish a direct mechanistic role of miscibility from indirect effects on TF stability, DNA binding, or recruitment.
+  - **Resolution test** Provide dose-response data for charge content mutations versus transcriptional output, include controls for TF expression and nuclear localization, and show that miscibility changes precede or correlate with transcriptional changes in a manner that supports causality. Ideally, rescue experiments or orthogonal perturbations of miscibility would strengthen the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that serine phosphorylation acts as a regulatory switch that shifts the balance and alters condensate miscibility.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which phosphorylation sites were examined, how many IDRs were tested, whether the effect is general or specific to certain IDRs, or whether phosphorylation mimics or phosphomutants were used. The direction of the switch is also unclear, as it is not stated whether phosphorylation increases or decreases miscibility.
+  - **Why it matters** Phosphorylation as a regulatory switch is an interesting and potentially impactful claim. However, without details on the scope and direction of the effect, it is not possible to evaluate whether this is a general principle or a case-specific observation. The abstract leaves the reader uncertain about the robustness of this finding.
+  - **Resolution test** Specify the phosphorylation sites, the number of IDRs tested, the direction of the miscibility change, and whether the effect is recapitulated with phosphomimetic and phosphodead mutants. Show that the phosphorylation effect is consistent across multiple IDR contexts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "factors governing their miscibility remain poorly understood" is vague and does not specify what is already known versus what is new.
+  - **Required correction** Clarify the specific gap in knowledge that this study addresses, such as the lack of a systematic residue-level understanding of miscibility determinants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Screening results
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract states that 28 IDRs were examined in 378 pairwise combinations but does not report the range or distribution of miscibility outcomes, nor the criteria for classifying a pair as miscible or immiscible.
+  - **Required correction** Include a brief statement on the distribution of miscibility outcomes and the threshold used to define miscibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Residue-level grammar"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "grammar" is evocative but not defined. It is unclear whether this refers to a predictive rule, a quantitative model, or a qualitative framework.
+  - **Required correction** Define what is meant by "grammar" and specify whether the findings enable quantitative prediction or only qualitative classification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** TF-Pol II connection
+  - **Evidence pointer** Abstract, penultimate sentence
+  - **Issue** The abstract implies a general relationship between TF charge content and transcriptional output, but it is unclear how many TFs were tested and whether the effect is specific to certain TF families.
+  - **Required correction** State the number of TFs examined and note any exceptions or context dependencies.
+
+## Risk / unsupported claims
+- The causal role of serine and aromatic residues in promoting miscibility is asserted but cannot be evaluated without mutagenesis details.
+- The mechanistic interpretation that serine and aromatic residues favor heterotypic interactions while charge reinforces homotypic association is unsupported without simulation and network analysis details.
+- The claim that serine phosphorylation acts as a regulatory switch is unsupported without site-specific data and directionality.
+- The claim that TF-Pol II condensate miscibility directly influences transactivation is unsupported without quantitative functional data and appropriate controls.
+- The generalizability of the proposed residue-level grammar to IDRs beyond the 28 tested is not established from the abstract.

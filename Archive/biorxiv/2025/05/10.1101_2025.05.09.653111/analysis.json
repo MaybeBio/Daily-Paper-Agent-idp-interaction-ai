@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.09.653111",
+  "title": "De novo design of peptides localizing at the interface of biomolecular condensates",
+  "authors": "Schneider TN; Gil-Garcia M; Bühler MA; Santos LF; Faltova L; Guillén-Gosálbez G; Arosio P",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-11",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合粗粒化模拟、机器学习和混合整数线性规划，从头设计定位于生物分子凝聚体界面的肽段，并揭示无序蛋白IDR凝聚体界面定位的分子语法，直接契合无序蛋白介导互作与相分离的机制建模主题。",
+  "abstract": "The interface of biomolecular condensates has been shown to play an important role in processes such as protein aggregation and biochemical reactions. Targeted modulation of these interfaces could, therefore, serve as an effective strategy for engineering condensates and modifying aberrant behaviors. However, the molecular grammar driving the preferential localization of molecules at condensate interfaces remains largely unknown. In this study, we developed a computational pipeline that combines highthroughput coarse-grained simulations, machine learning, and mixed-integer linear programming to design peptides that selectively partition at the interfaces of specific condensate targets. Using this workflow, we designed and synthesized peptides that localize at the interface of three distinct condensates formed by different intrinsically disordered protein regions (IDRs). These peptides exhibit surfactant-like architectures, with one tail incorporated into the condensate and the other excluded from the dense phase. In all cases, the tail entering the condensates is enriched in aromatic residues, while the sequence of the excluded tail varies among the IDRs. For hnRNPA1- and LAF1-IDRs, the excluded tail is enriched in lysines and matches the net charge of the condensate-forming protein, promoting electrostatic repulsion. In the case of DDX4-IDR, which exhibits the lowest charge density, the excluded tail mainly consists of uncharged valine residues, which exhibit negligible interactions with the scaffold protein. These results highlight the importance of the net charge of the scaffold as a key physicochemical parameter for designing peptides with preferential interfacial localization. Overall, our pipeline represents a promising strategy for the rational design of interface-localizing peptides and the identification of the corresponding molecular grammar.",
+  "abstract_zh": "生物分子凝聚体的界面已被证明在蛋白质聚集和生化反应等过程中发挥重要作用。因此，对这些界面的靶向调控可作为工程化凝聚体和修正异常行为的有效策略。然而，驱动分子优先定位于凝聚体界面的分子语法仍 largely 未知。在本研究中，我们开发了一个计算流程，结合高通量粗粒化模拟、机器学习和混合整数线性规划，以设计选择性分配于特定凝聚体靶标界面的肽段。利用该工作流程，我们设计并合成了定位于由不同 intrinsically disordered protein regions (IDRs) 形成的三种不同凝聚体界面的肽段。这些肽段表现出表面活性剂样结构，其中一个尾部嵌入凝聚体，另一个尾部被排除在致密相之外。在所有情况下，进入凝聚体的尾部富含芳香族残基，而被排除尾部的序列在不同 IDR 间有所变化。对于 hnRNPA1- 和 LAF1-IDR，被排除的尾部富含赖氨酸，并与凝聚体形成蛋白的净电荷匹配，从而促进静电排斥。在 DDX4-IDR 的情况下，其电荷密度最低，被排除的尾部主要由不带电的缬氨酸残基组成，这些残基与支架蛋白的相互作用可忽略不计。这些结果强调了支架净电荷作为设计具有优先界面定位肽段的关键物理化学参数的重要性。总体而言，我们的流程代表了合理设计界面定位肽段及识别相应分子语法的一种有前景的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653111",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653111",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.09.653111/index.html"
+}

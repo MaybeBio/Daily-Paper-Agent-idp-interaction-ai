@@ -1,0 +1,583 @@
+{
+  "identity": {
+    "pmid": "34835118",
+    "doi": "10.3390/v13112312",
+    "title": "The HIV-1 Nucleocapsid Regulates Its Own Condensation by Phase-Separated Activity-Enhancing Sequestration of the Viral Protease during Maturation."
+  },
+  "content": {
+    "abstract": "A growing number of studies indicate that mRNAs and long ncRNAs can affect protein populations by assembling dynamic ribonucleoprotein (RNP) granules. These phase-separated molecular 'sponges', stabilized by quinary (transient and weak) interactions, control proteins involved in numerous biological functions. Retroviruses such as HIV-1 form by self-assembly when their genomic RNA (gRNA) traps Gag and GagPol polyprotein precursors. Infectivity requires extracellular budding of the particle followed by maturation, an ordered processing of  approximately 2400 Gag and  approximately 120 GagPol by the viral protease (PR). This leads to a condensed gRNA-NCp7 nucleocapsid and a CAp24-self-assembled capsid surrounding the RNP. The choreography by which all of these components dynamically interact during virus maturation is one of the missing milestones to fully depict the HIV life cycle. Here, we describe how HIV-1 has evolved a dynamic RNP granule with successive weak-strong-moderate quinary NC-gRNA networks during the sequential processing of the GagNC domain. We also reveal two palindromic RNA-binding triads on NC, KxxFxxQ and QxxFxxK, that provide quinary NC-gRNA interactions. Consequently, the nucleocapsid complex appears properly aggregated for capsid reassembly and reverse transcription, mandatory processes for viral infectivity. We show that PR is sequestered within this RNP and drives its maturation/condensation within minutes, this process being most effective at the end of budding. We anticipate such findings will stimulate further investigations of quinary interactions and emergent mechanisms in crowded environments throughout the wide and growing array of RNP granules.",
+    "keywords": [
+      "HIV-1",
+      "RNA",
+      "atomic-force microscopy",
+      "biomolecular condensates",
+      "enzyme catalysis",
+      "liquid-liquid phase separation",
+      "molecular dynamics",
+      "nucleocapsid",
+      "protease"
+    ],
+    "mesh_terms": [
+      "HIV Infections/*virology",
+      "*HIV-1/immunology/physiology",
+      "Humans",
+      "Nucleocapsid Proteins/*immunology",
+      "Viral Proteases/*immunology",
+      "Virus Assembly"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lyonnais, Sebastien",
+        "Sadiq, S Kashif",
+        "Lorca-Oro, Cristina",
+        "Dufau, Laure",
+        "Nieto-Marquez, Sara",
+        "Escriba, Tuixent",
+        "Gabrielli, Natalia",
+        "Tan, Xiao",
+        "Ouizougun-Oubari, Mohamed",
+        "Okoronkwo, Josephine",
+        "Reboud-Ravaux, Michele",
+        "Gatell, Jose Maria",
+        "Marquet, Roland",
+        "Paillart, Jean-Christophe",
+        "Meyerhans, Andreas",
+        "Tisne, Carine",
+        "Gorelick, Robert J",
+        "Mirambeau, Gilles"
+      ],
+      "short_names": [
+        "Lyonnais S",
+        "Sadiq SK",
+        "Lorca-Oro C",
+        "Dufau L",
+        "Nieto-Marquez S",
+        "Escriba T",
+        "Gabrielli N",
+        "Tan X",
+        "Ouizougun-Oubari M",
+        "Okoronkwo J",
+        "Reboud-Ravaux M",
+        "Gatell JM",
+        "Marquet R",
+        "Paillart JC",
+        "Meyerhans A",
+        "Tisne C",
+        "Gorelick RJ",
+        "Mirambeau G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3154-8568",
+        "ORCID: 0000-0002-5112-0307",
+        "ORCID: 0000-0001-5222-3925",
+        "ORCID: 0000-0002-2406-0118",
+        "ORCID: 0000-0002-4209-3976",
+        "ORCID: 0000-0003-1647-8917",
+        "ORCID: 0000-0003-0620-5317",
+        "ORCID: 0000-0001-8308-4948"
+      ],
+      "affiliations": [
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Centre d'Etudes des Maladies Infectieuses et Pharmacologie Anti-Infectieuse (CEMIPAI), CNRS UAR 3725, Universite de Montpellier, 1919 Route de Mende, CEDEX 05, 34293 Montpellier, France.",
+        "Infection Biology Laboratory, Department of Experimental and Health Sciences (DCEXS), Universitat Pompeu Fabra, Carrer Doctor Aiguader 88, 08003 Barcelona, Spain.",
+        "Molecular and Cellular Modeling Group, Heidelberg Institute for Theoretical Studies (HITS), Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117 Heidelberg, Germany.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculte des Sciences et d'Ingenierie (FSI), Sorbonne Universite, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculte des Sciences et d'Ingenierie (FSI), Sorbonne Universite, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculte des Sciences et d'Ingenierie (FSI), Sorbonne Universite, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Facultat de Medicina y Ciencias de la Salud, Universitat de Barcelona, Carrer de Casanova 143, 08036 Barcelona, Spain.",
+        "Architecture et Reactivite de l'ARN, CNRS UPR 9002, Universite de Strasbourg, 2 Allee Conrad Roentgen, 67000 Strasbourg, France.",
+        "Architecture et Reactivite de l'ARN, CNRS UPR 9002, Universite de Strasbourg, 2 Allee Conrad Roentgen, 67000 Strasbourg, France.",
+        "Infection Biology Laboratory, Department of Experimental and Health Sciences (DCEXS), Universitat Pompeu Fabra, Carrer Doctor Aiguader 88, 08003 Barcelona, Spain.",
+        "Institucio Catalana de Recerca i Estudis Avancats (ICREA), Passeig de Lluis Companys 23, 08010 Barcelona, Spain.",
+        "Expression Genetique Microbienne, CNRS UMR 8261, Institut de Biologie Physico-Chimique (IBPC), Universite de Paris, 13 Rue Pierre et Marie Curie, 75005 Paris, France.",
+        "AIDS and Cancer Virus Program, Leidos Biomedical Research, Inc., Frederick National Laboratory for Cancer Research, Frederick, MD 21701, USA.",
+        "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomediques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+        "Biologie Integrative des Organismes Marins (BIOM), CNRS UMR 7232, Observatoire Oceanologique de Banyuls (OOB), Faculte des Sciences et d'Ingenierie (FSI), Sorbonne Universite, 1 Avenue Pierre Fabre, 66650 Banyuls-sur-Mer, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lyonnais, Sébastien",
+        "short_name": "Lyonnais S",
+        "identifiers": [
+          "0000-0002-3154-8568"
+        ],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+          "Centre d'Etudes des Maladies Infectieuses et Pharmacologie Anti-Infectieuse (CEMIPAI), CNRS UAR 3725, Université de Montpellier, 1919 Route de Mende, CEDEX 05, 34293 Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Sadiq, S Kashif",
+        "short_name": "Sadiq SK",
+        "identifiers": [
+          "0000-0002-5112-0307"
+        ],
+        "affiliations": [
+          "Infection Biology Laboratory, Department of Experimental and Health Sciences (DCEXS), Universitat Pompeu Fabra, Carrer Doctor Aiguader 88, 08003 Barcelona, Spain.",
+          "Molecular and Cellular Modeling Group, Heidelberg Institute for Theoretical Studies (HITS), Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany.",
+          "Genome Biology Unit, European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lorca-Oró, Cristina",
+        "short_name": "Lorca-Oró C",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Dufau, Laure",
+        "short_name": "Dufau L",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculté des Sciences et d'Ingénierie (FSI), Sorbonne Université, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Nieto-Marquez, Sara",
+        "short_name": "Nieto-Marquez S",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Escribà, Tuixent",
+        "short_name": "Escribà T",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Gabrielli, Natalia",
+        "short_name": "Gabrielli N",
+        "identifiers": [
+          "0000-0001-5222-3925"
+        ],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tan, Xiao",
+        "short_name": "Tan X",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+          "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculté des Sciences et d'Ingénierie (FSI), Sorbonne Université, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Ouizougun-Oubari, Mohamed",
+        "short_name": "Ouizougun-Oubari M",
+        "identifiers": [
+          "0000-0002-2406-0118"
+        ],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Okoronkwo, Josephine",
+        "short_name": "Okoronkwo J",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Reboud-Ravaux, Michèle",
+        "short_name": "Reboud-Ravaux M",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Adaptation and Ageing (B2A), CNRS UMR 8256 & INSERM ERL U1164, Institut de Biologie Paris-Seine (IBPS), Faculté des Sciences et d'Ingénierie (FSI), Sorbonne Université, 7 Quai St Bernard, CEDEX 05, 75252 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Gatell, José Maria",
+        "short_name": "Gatell JM",
+        "identifiers": [],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+          "Facultat de Medicina y Ciencias de la Salud, Universitat de Barcelona, Carrer de Casanova 143, 08036 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Marquet, Roland",
+        "short_name": "Marquet R",
+        "identifiers": [
+          "0000-0002-4209-3976"
+        ],
+        "affiliations": [
+          "Architecture et Réactivité de l'ARN, CNRS UPR 9002, Université de Strasbourg, 2 Allée Conrad Roentgen, 67000 Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Paillart, Jean-Christophe",
+        "short_name": "Paillart JC",
+        "identifiers": [
+          "0000-0003-1647-8917"
+        ],
+        "affiliations": [
+          "Architecture et Réactivité de l'ARN, CNRS UPR 9002, Université de Strasbourg, 2 Allée Conrad Roentgen, 67000 Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Meyerhans, Andreas",
+        "short_name": "Meyerhans A",
+        "identifiers": [
+          "0000-0003-0620-5317"
+        ],
+        "affiliations": [
+          "Infection Biology Laboratory, Department of Experimental and Health Sciences (DCEXS), Universitat Pompeu Fabra, Carrer Doctor Aiguader 88, 08003 Barcelona, Spain.",
+          "Institució Catalana de Recerca i Estudis Avançats (ICREA), Passeig de Lluís Companys 23, 08010 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tisné, Carine",
+        "short_name": "Tisné C",
+        "identifiers": [],
+        "affiliations": [
+          "Expression Génétique Microbienne, CNRS UMR 8261, Institut de Biologie Physico-Chimique (IBPC), Université de Paris, 13 Rue Pierre et Marie Curie, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Gorelick, Robert J",
+        "short_name": "Gorelick RJ",
+        "identifiers": [],
+        "affiliations": [
+          "AIDS and Cancer Virus Program, Leidos Biomedical Research, Inc., Frederick National Laboratory for Cancer Research, Frederick, MD 21701, USA."
+        ]
+      },
+      {
+        "full_name": "Mirambeau, Gilles",
+        "short_name": "Mirambeau G",
+        "identifiers": [
+          "0000-0001-8308-4948"
+        ],
+        "affiliations": [
+          "Infectious Disease & AIDS Research Unit, Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), Villaroel 170, 08036 Barcelona, Spain.",
+          "Biologie Intégrative des Organismes Marins (BIOM), CNRS UMR 7232, Observatoire Océanologique de Banyuls (OOB), Faculté des Sciences et d'Ingénierie (FSI), Sorbonne Université, 1 Avenue Pierre Fabre, 66650 Banyuls-sur-Mer, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Viruses"
+    ],
+    "journal_abbrev": [
+      "Viruses"
+    ],
+    "pub_date": "2021 Nov 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-20 06:38:22"
+  },
+  "links": {
+    "cites": [
+      "37385580",
+      "37029379",
+      "36768473",
+      "36640305"
+    ],
+    "refs": [
+      "34739248",
+      "34099940",
+      "33950570",
+      "33868368",
+      "33672806",
+      "33669141",
+      "33579564",
+      "33510441",
+      "33503539",
+      "33469149",
+      "33425253",
+      "33319830",
+      "33290746",
+      "33260713",
+      "33247108",
+      "33200826",
+      "33081049",
+      "33068411",
+      "33003650",
+      "32960169",
+      "32901111",
+      "32857852",
+      "32824618",
+      "32805219",
+      "32662769",
+      "32632317",
+      "32482873",
+      "32458879",
+      "32320662",
+      "32312191",
+      "32302570",
+      "32189162",
+      "32080961",
+      "32004090",
+      "31801870",
+      "31506351",
+      "31483661",
+      "31444270",
+      "31356058",
+      "31001538",
+      "30876916",
+      "30682370",
+      "30617047",
+      "29986076",
+      "29716768",
+      "29677515",
+      "29677514",
+      "29560725",
+      "29258725",
+      "28819146",
+      "28790177",
+      "28283059",
+      "28225081",
+      "27821493",
+      "27565348",
+      "27280284",
+      "26609855",
+      "26583970",
+      "26574229",
+      "26474062",
+      "26359986",
+      "26317470",
+      "26178992",
+      "26178982",
+      "25986307",
+      "25816761",
+      "25749978",
+      "25747659",
+      "25713345",
+      "25710462",
+      "25624496",
+      "25595806",
+      "25531407",
+      "25488808",
+      "25368424",
+      "25368421",
+      "24986025",
+      "24954787",
+      "24813443",
+      "24293648",
+      "24034610",
+      "23754941",
+      "23055560",
+      "23043111",
+      "22814429",
+      "22762019",
+      "22398450",
+      "21823648",
+      "21762796",
+      "21159863",
+      "21045549",
+      "21045548",
+      "20427536",
+      "19887455",
+      "19154740",
+      "19105629",
+      "18684831",
+      "18657842",
+      "17925344",
+      "17712401",
+      "17634233",
+      "17392343",
+      "17096588",
+      "17020765",
+      "16541064",
+      "16449201",
+      "16434700",
+      "15507631",
+      "15194685",
+      "14694138",
+      "14531054",
+      "12584357",
+      "11344257",
+      "10982342",
+      "10926523",
+      "10627527",
+      "10400764",
+      "9847302",
+      "9769219",
+      "9561194",
+      "9465785",
+      "9430589",
+      "9223458",
+      "8077202",
+      "6954476",
+      "3249040",
+      "2463307",
+      "2187485",
+      "1658777",
+      "1255758"
+    ],
+    "similar": [
+      "34835118",
+      "19070880",
+      "26178992",
+      "9525604",
+      "36001979",
+      "18343475",
+      "29491167",
+      "20828778",
+      "37385580",
+      "32823718",
+      "21157181",
+      "33081049",
+      "33003650",
+      "26912613",
+      "25231305",
+      "20459747",
+      "17712401",
+      "25392219",
+      "9261401",
+      "25410868",
+      "29986076",
+      "7745687",
+      "24789780",
+      "36865181",
+      "12414928",
+      "8383840",
+      "34201134",
+      "12465460",
+      "7529035",
+      "21091985",
+      "20980522",
+      "17020765",
+      "9499052",
+      "25016037",
+      "30217825",
+      "16449201",
+      "10196321",
+      "25488808",
+      "24741085",
+      "32320662",
+      "8794295",
+      "34696351",
+      "12432236",
+      "25644662",
+      "29180782",
+      "9370371",
+      "25275119",
+      "16275648",
+      "12731867",
+      "22334652",
+      "29540207",
+      "25981241",
+      "27515235",
+      "27626441",
+      "32344834",
+      "9032340",
+      "32213612",
+      "29954247",
+      "31652757",
+      "15507624",
+      "25352557",
+      "9813197",
+      "15731102",
+      "11278562",
+      "32987107",
+      "12719547",
+      "25905033",
+      "9813210",
+      "8680959",
+      "29891653",
+      "11533179",
+      "21123373",
+      "22633243",
+      "36640305",
+      "29237328",
+      "22448757",
+      "10482606",
+      "9261426",
+      "15659370",
+      "32230826",
+      "21864346",
+      "39002735",
+      "37759470",
+      "37337634"
+    ],
+    "review": [
+      "34835118",
+      "32823718",
+      "21157181",
+      "33003650",
+      "12465460",
+      "25016037",
+      "27626441",
+      "9813197",
+      "36640305",
+      "39002735"
+    ],
+    "pmc": [
+      "8625067"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=v13112312",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hiv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HIV"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34835118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34835118",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

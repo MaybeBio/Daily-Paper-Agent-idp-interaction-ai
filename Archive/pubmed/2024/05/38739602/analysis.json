@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38739602",
+  "title": "AlphaFold2 modeling and molecular dynamics simulations of an intrinsically disordered protein.",
+  "authors": "Guo, Hao-Bo; Huntington, Baxter; Perminov, Alexander; Smith, Kenya; Hastings, Nicholas; Dennis, Patrick; Kelley-Loughnane, Nancy; Berry, Rajiv",
+  "journal": "PloS one",
+  "published_date": "2024-05-13",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold2建模和分子动力学模拟研究无序蛋白Nvjp-1的单体与二聚体构象，虽涉及IDP和PPI（二聚体）及AI/物理方法，但主要聚焦构象异质性与pLDDT特征，对互作机制建模深度有限。",
+  "abstract": "We use AlphaFold2 (AF2) to model the monomer and dimer structures of an intrinsically disordered protein (IDP), Nvjp-1, assisted by molecular dynamics (MD) simulations. We observe relatively rigid dimeric structures of Nvjp-1 when compared with the monomer structures. We suggest that protein conformations from multiple AF2 models and those from MD trajectories exhibit a coherent trend: the conformations of an IDP are deviated from each other and the conformations of a well-folded protein are consistent with each other. We use a residue-residue interaction network (RIN) derived from the contact map which show that the residue-residue interactions in Nvjp-1 are mainly transient; however, those in a well-folded protein are mainly persistent. Despite the variation in 3D shapes, we show that the AF2 models of both disordered and ordered proteins exhibit highly consistent profiles of the pLDDT (predicted local distance difference test) scores. These results indicate a potential protocol to justify the IDPs based on multiple AF2 models and MD simulations.",
+  "abstract_zh": "我们利用AlphaFold2 (AF2) 结合分子动力学 (molecular dynamics, MD) 模拟，对 intrinsically disordered protein (IDP) Nvjp-1 的单体和二聚体结构进行了建模。与单体结构相比，我们观察到Nvjp-1的二聚体结构相对刚性。我们提出，来自多个AF2模型的蛋白质构象与MD轨迹中的构象呈现出一致趋势：IDP的构象彼此偏离，而良好折叠蛋白质的构象则相互一致。我们使用基于接触图衍生的残基-残基相互作用网络 (residue-residue interaction network, RIN)，显示Nvjp-1中的残基-残基相互作用主要是瞬时的；然而，在良好折叠蛋白质中，这些相互作用主要是持久的。尽管三维形状存在差异，我们展示了无序和有序蛋白质的AF2模型均表现出高度一致的pLDDT (predicted local distance difference test) 分数分布。这些结果表明，基于多个AF2模型和MD模拟，存在一种潜在方案来判定IDPs。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38739602/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38739602/",
+  "paper_page_path": "papers/pubmed/38739602/index.html"
+}

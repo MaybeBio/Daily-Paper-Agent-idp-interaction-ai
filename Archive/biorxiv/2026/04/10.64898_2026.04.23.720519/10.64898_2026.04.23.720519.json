@@ -1,0 +1,341 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.23.720519",
+  "title": "Graph Neural Networks (GNNs) for Protein-Ligand Interaction Prediction",
+  "doi": "10.64898/2026.04.23.720519",
+  "abstract": "Predicting protein-ligand interactions in the modern drug discovery has revolved from the involvement of artificial intelligence and structural bioinformatics using Graph Neural Networks (GNNs). The limited explainability of GNN models presents an important encumbrance in biomedical research, but it has achieved a high degree of accuracy in determining and identifying binding affinity and active compounds, as evidenced by [1] [2] [3] [4]. Here this research focuses on the interpretation of protein-ligand interactions at a molecular level, a rapidly developing area within Graph Neural Networks (GNNs). Now days modern study handling techniques such as visualization techniques, attention mechanism and model-based feature ascription by model to boost, and make robust and decrease false predictions on binding. Along with some approaches include like graph pooling strategies, message-passing optimization, self-supervised learning, transfer learning and contrastive learning are rapidly utilized to enhance the representative learnings. Furthermore, integration of molecular docking simulations, hybrid deep learning architectures and protein language model gives more reliable & biological predictions of protein-ligand interactions. That focuses on given process that identifies key ligand atoms and binding residues, as well as physicochemical factors influencing affinity, through chemical thought processes. Here this research work identified the challenges of developing biologically significant explanations, transparency, and the corollary dataset biases on interpretability. The research work conducted an in-depth investigation into the consolidation of protein language models to establish more reliable pathways for future research, examining hybrid architectures, transparent and energy-efficient GNNs, and scientifically grounded AI models for drug discovery. My research work highlights that XGNNs establishes a connection between Deep Learning and Biochemical expertise with increased confidence, which will enhance the accuracy of predictive models and computational models.",
+  "authors": [
+    "Subhasankar Khilar",
+    "Elamathi Natarajan"
+  ],
+  "published_date": "2026-04-24",
+  "updated_date": "2026-04-25T04:10:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720519",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720519.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2026-05-01T20:26:44Z",
+        "timestamp": 1777667204545,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 21,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                24
+              ]
+            ],
+            "date-time": "2026-04-24T00:00:00Z",
+            "timestamp": 1776988800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting protein-ligand interactions in the modern drug discovery has revolved from the involvement of artificial intelligence and structural bioinformatics using Graph Neural Networks (GNNs). The limited explainability of GNN models presents an important encumbrance in biomedical research, but it has achieved a high degree of accuracy in determining and identifying binding affinity and active compounds, as evidenced by [1] [2] [3] [4]. Here this research focuses on the interpretation of protein-ligand interactions at a molecular level, a rapidly developing area within Graph Neural Networks (GNNs). Now days modern study handling techniques such as visualization techniques, attention mechanism and model-based feature ascription by model to boost, and make robust and decrease false predictions on binding. Along with some approaches include like graph pooling strategies, message-passing optimization, self-supervised learning, transfer learning and contrastive learning are rapidly utilized to enhance the representative learnings. Furthermore, integration of molecular docking simulations, hybrid deep learning architectures and protein language model gives more reliable &amp; biological predictions of protein-ligand interactions.</jats:p>\n                <jats:p>That focuses on given process that identifies key ligand atoms and binding residues, as well as physicochemical factors influencing affinity, through chemical thought processes. Here this research work identified the challenges of developing biologically significant explanations, transparency, and the corollary dataset biases on interpretability. The research work conducted an in-depth investigation into the consolidation of protein language models to establish more reliable pathways for future research, examining hybrid architectures, transparent and energy-efficient GNNs, and scientifically grounded AI models for drug discovery. My research work highlights that XGNNs establishes a connection between Deep Learning and Biochemical expertise with increased confidence, which will enhance the accuracy of predictive models and computational models.</jats:p>",
+      "DOI": "10.64898/2026.04.23.720519",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2026-04-25T04:10:10Z",
+        "timestamp": 1777090210000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Graph Neural Networks (GNNs) for Protein-Ligand Interaction Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-9280-7249",
+          "authenticated-orcid": false,
+          "given": "Subhasankar",
+          "family": "Khilar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Biotecnika Info Labs Pvt Ltd, Bangalore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1944-9137",
+          "authenticated-orcid": false,
+          "given": "Elamathi",
+          "family": "Natarajan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biotecnika Info Labs Pvt Ltd, Bangalore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.1",
+          "first-page": "19",
+          "article-title": "Graph Convolutional Neural Networks for Predicting Drug-Target Interaction",
+          "volume": "25",
+          "author": "†. a. R. B. A. W. Torng*",
+          "year": "2019",
+          "journal-title": "journal of chemical information and modeling"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.2",
+          "first-page": "21",
+          "article-title": "Protein-Ligand Interaction Graphs: Learning from Ligand-Shaped 3D Interaction Graphs to Improve Binding Affinity Prediction",
+          "volume": "07",
+          "author": "*. D. K. 2. F. B. 1. C. D. 1. A. B. 3. Marc A.Moesser 1",
+          "year": "2022",
+          "journal-title": "bioRxiv"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.3",
+          "first-page": "1",
+          "article-title": "GNNSeq: A Sequence-Based Graph Neural Network for Predicting Protein–Ligand Binding Affinity",
+          "volume": "26",
+          "author": "M. S. 2. A. K. 3. a. S. D. 4. S. D. 1",
+          "year": "2025",
+          "journal-title": "Pharmaceuticals"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw068"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2010.01127.x"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd4609"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(96)80061-3"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "436",
+          "DOI": "10.1038/nature14539",
+          "article-title": "Deep learning",
+          "volume": "2015",
+          "author": "Y. B. Y. &. H. G. LeCun",
+          "year": "2015",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-019-0024-5"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. e. a. Wu, “A comprehensive survey on graph neural networks,” IEEE Transactions on Neural Networks and Learning Systems, vol. 32(1), pp. 4–24.",
+          "DOI": "10.1109/TNNLS.2020.2978386"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.11",
+          "unstructured": "J. e. a. Gilmer, “Neural message passing for quantum chemistry,” Proceedings of ICML, 2017."
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.01.001"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.13",
+          "first-page": "14",
+          "article-title": "A Cascade Graph Convolutional Network for Predicting Protein–Ligand Binding Affinity",
+          "volume": "14",
+          "author": "Y. Z. 2. C. Z. 3. B. W. 4. a. P. C. 1. H. S. 1",
+          "year": "2021",
+          "journal-title": "International journal of Molecular Sciences"
+        },
+        {
+          "issue": "1",
+          "key": "2026042900450547000_2026.04.23.720519v1.14",
+          "first-page": "a492",
+          "article-title": "Explainable Graph Neural Networks (XGNNs) For Protein-Ligand Interaction Interpretation",
+          "volume": "11",
+          "year": "2026",
+          "journal-title": "International Journal for Research Trends and Innovation"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd1549"
+        },
+        {
+          "issue": "1",
+          "key": "2026042900450547000_2026.04.23.720519v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1517/17460441.2014.866943",
+          "article-title": "Support vector machines for drug discovery",
+          "volume": "9",
+          "author": "K. &. B. J. Heikamp",
+          "year": "2014",
+          "journal-title": "Expert Opinion on Drug Discovery"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.17",
+          "first-page": "5",
+          "volume": "24",
+          "author": "A. G. M. G. B. G. V. N. Ioannidis",
+          "year": "2020",
+          "journal-title": "“GRAPH NEURAL NETWORKS FOR PREDICTING PROTEIN FUNCTIONS,”"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.18",
+          "unstructured": "D. K. e. a. Duvenaud, “Convolutional networks on graphs for learning molecular fingerprints,” NeurIPS, 2015."
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.19",
+          "unstructured": "http://www.pdbbind.org.cn, “PDBbind,” PDBbind, 2024."
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.20",
+          "first-page": "4",
+          "article-title": "Interpretable Prediction of Protein-Ligand Interaction by Convolutional Neural Network",
+          "volume": "20",
+          "author": "J. J. P. Y. F. Hu†",
+          "year": "2022",
+          "journal-title": "International Conference on Bioinformatics and Biomedicine (BIBM)"
+        },
+        {
+          "key": "2026042900450547000_2026.04.23.720519v1.21",
+          "unstructured": "J. S. S. S. R. P. F. V. O. &. D. G. E. Gilmer, “Neural message passing for quantum chemistry,” Proceedings of ICML, 2017."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.23.720519",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            29
+          ]
+        ],
+        "date-time": "2026-04-29T07:45:46Z",
+        "timestamp": 1777448746000
+      },
+      "score": 74.58415,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.23.720519"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ]
+      },
+      "references-count": 21,
+      "URL": "https://doi.org/10.64898/2026.04.23.720519",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.29.591764",
+  "title": "SOP-MULTI: A self-organized polymer based coarse-grained model for multi-domain and intrinsically disordered proteins with conformation ensemble consistent with experimental scattering data",
+  "authors": "Baratam K; Srivastava A",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-02",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了SOP-MULTI粗粒化力场，用于模拟含折叠与无序区域的多域蛋白构象系综，并通过实验散射数据验证，为无序蛋白介导的互作机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "Multidomain proteins with long flexible linkers and full-length intrinsically disordered proteins (IDPs) are best defined as an ensemble of conformations rather than a single structure. Determining high-resolution ensemble structures of such proteins poses various challenges using tools from experimental structural biophysics. Integrative approaches combining available low-resolution ensemble-averaged experimental data and in silico biomolecular reconstructions are now often used for the purpose. However, an exhaustive Boltzmann weighted conformation sampling for large proteins, especially for ones where both the folded and disordered domains exist in the same polypeptide chain, remains a challenge. In this work, we present a 2-site per amino-acid resolution SOP-MULTI force field for simulating coarse-grained models of multidomain proteins. SOP-MULTI combines two well-established self-organized polymer (SOP) models —: (i) SOP-SC models for folded systems and (ii) SOP-IDP for IDPs. For the SOP-MULTI, we train the cross-interaction terms between the beads belonging to the folded and disordered regions to generate experimentally-consistent conformation ensembles for full-length multi-domain proteins such as hnRNPA1, TDP-43, G3BP1, hGHR-ECD, TIA1, HIV-1 Gag, Poly-Ubiquitin and FUS. When back-mapped to all-atom resolution, SOP-MULTI trajectories faithfully recapitulate the scattering data over the range of the reciprocal space. We also show that individual folded domains preserve native contacts with respect to solved folded structures, and root mean square fluctuations of residues in folded domains match those obtained from all-atom molecular dynamics simulations trajectories of the same folded systems. SOP-MULTI Force Field is made available as a LAMMPS-compatible user package along with setup codes for generating the required files for any full-length protein with folded and disordered regions.",
+  "abstract_zh": "具有长柔性连接子的多结构域蛋白和全长 intrinsically disordered proteins (IDPs) 最好被定义为构象集合体，而非单一结构。使用实验结构生物物理学的工具确定此类蛋白的高分辨率集合体结构面临多种挑战。结合可用的低分辨率集合平均实验数据和计算机模拟生物分子重建的整合方法，现在常被用于此目的。然而，对于大型蛋白，尤其是折叠结构域和无序结构域共存于同一多肽链中的蛋白，进行穷举的 Boltzmann 加权构象采样仍然是一个挑战。在本工作中，我们提出了一种每氨基酸残基2位点的 SOP-MULTI 力场，用于模拟多结构域蛋白的粗粒化模型。SOP-MULTI 结合了两种成熟的 self-organized polymer (SOP) 模型——：(i) 用于折叠系统的 SOP-SC 模型和 (ii) 用于 IDPs 的 SOP-IDP。对于 SOP-MULTI，我们训练了折叠区域和无序区域珠子之间的交叉相互作用项，以生成全长多结构域蛋白（如 hnRNPA1、TDP-43、G3BP1、hGHR-ECD、TIA1、HIV-1 Gag、Poly-Ubiquitin 和 FUS）的实验一致性构象集合体。当反向映射到全原子分辨率时，SOP-MULTI 轨迹在倒易空间范围内忠实地再现了散射数据。我们还表明，各个折叠结构域相对于已解析的折叠结构保持了天然接触，且折叠结构域中残基的均方根波动与相同折叠系统的全原子分子动力学模拟轨迹所得结果一致。SOP-MULTI 力场以 LAMMPS 兼容的用户包形式提供，并附带设置代码，用于生成任何具有折叠和无序区域的全长蛋白所需的文件。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.29.591764",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.29.591764",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.29.591764/index.html"
+}

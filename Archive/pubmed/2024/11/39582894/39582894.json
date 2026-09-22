@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "39582894",
+    "doi": "10.1016/j.csbj.2024.10.051",
+    "title": "Impact of water models on the structure and dynamics of enzyme tunnels."
+  },
+  "content": {
+    "abstract": "Protein hydration plays a vital role in many biological functions, and molecular dynamics simulations are frequently used to study it. However, the accuracy of these simulations is often sensitive to the water model used, a phenomenon particularly evident in intrinsically disordered proteins. Here, we investigated the extent to which the choice of water model alters the behavior of complex networks of tunnels within proteins. Tunnels are essential because they allow the exchange of substrates and products between buried enzyme active sites and the bulk solvent, directly affecting enzyme efficiency and selectivity, making the study of tunnels crucial for a holistic understanding of enzyme function at the molecular level. By performing simulations of haloalkane dehalogenase LinB and its two variants with engineered tunnels using TIP3P and OPC models, we investigated their effects on the overall tunnel topology. We also analyzed the properties of the primary tunnels, including their conformation, bottleneck dimensions, sampling efficiency, and the duration of tunnel openings. Our data demonstrate that all three proteins exhibited similar conformational behavior in both models but differed in the geometrical characteristics of their auxiliary tunnels, consistent with experimental observations. Interestingly, the results indicate that the stability of the open tunnels might be sensitive to the water model used. Because TIP3P can provide comparable data on the overall tunnel network, it is a valid choice when computational resources are limited or compatibility issues impede the use of OPC. However, OPC seems preferable for calculations requiring an accurate description of transport kinetics.",
+    "keywords": [
+      "Channels",
+      "Enzymes",
+      "Explicit water models",
+      "Ligand transport",
+      "Molecular dynamics simulations",
+      "Tunnels"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sethi, Aaftaab",
+        "Agrawal, Nikhil",
+        "Brezovsky, Jan"
+      ],
+      "short_names": [
+        "Sethi A",
+        "Agrawal N",
+        "Brezovsky J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Biomolecular Interactions and Transport, Department of Gene Expression, Institute of Molecular Biology and Biotechnology, Faculty of Biology, Adam Mickiewicz University, Uniwersytetu Poznanskiego 6, Poznan 61-614, Poland.",
+        "Latvian Institute of Organic Synthesis, Aizkraukles 21, LV, Riga 1006, Latvia.",
+        "Laboratory of Biomolecular Interactions and Transport, Department of Gene Expression, Institute of Molecular Biology and Biotechnology, Faculty of Biology, Adam Mickiewicz University, Uniwersytetu Poznanskiego 6, Poznan 61-614, Poland.",
+        "International Institute of Molecular and Cell Biology in Warsaw, Ks Trojdena 4, Warsaw 02-109, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sethi, Aaftaab",
+        "short_name": "Sethi A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biomolecular Interactions and Transport, Department of Gene Expression, Institute of Molecular Biology and Biotechnology, Faculty of Biology, Adam Mickiewicz University, Uniwersytetu Poznanskiego 6, Poznan 61-614, Poland."
+        ]
+      },
+      {
+        "full_name": "Agrawal, Nikhil",
+        "short_name": "Agrawal N",
+        "identifiers": [],
+        "affiliations": [
+          "Latvian Institute of Organic Synthesis, Aizkraukles 21, LV, Riga 1006, Latvia."
+        ]
+      },
+      {
+        "full_name": "Brezovsky, Jan",
+        "short_name": "Brezovsky J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biomolecular Interactions and Transport, Department of Gene Expression, Institute of Molecular Biology and Biotechnology, Faculty of Biology, Adam Mickiewicz University, Uniwersytetu Poznanskiego 6, Poznan 61-614, Poland.",
+          "International Institute of Molecular and Cell Biology in Warsaw, Ks Trojdena 4, Warsaw 02-109, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/25 11:34",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [
+      "42198259",
+      "42074202",
+      "41340396",
+      "40353417",
+      "40227553"
+    ],
+    "refs": [],
+    "similar": [
+      "39582894",
+      "39680044",
+      "39143923",
+      "22745119",
+      "38669675",
+      "38978395",
+      "19577578",
+      "39407342",
+      "32308927",
+      "29478278",
+      "23912807",
+      "27863020",
+      "29086302",
+      "19003999",
+      "25663659",
+      "33886257",
+      "23587001",
+      "30671430",
+      "32859072",
+      "32530640",
+      "34458806",
+      "33576049",
+      "23093919",
+      "40337920",
+      "29858243",
+      "25043499",
+      "31026496",
+      "30865832",
+      "17645312",
+      "14525993",
+      "39378441",
+      "35127674",
+      "36827335",
+      "30217852",
+      "31768193",
+      "20823547",
+      "15736949",
+      "19948126",
+      "19754142",
+      "12952988",
+      "28989656",
+      "39095391",
+      "31661858",
+      "34768230",
+      "11939779",
+      "11967377",
+      "25601796",
+      "26493722",
+      "21541958",
+      "34633813",
+      "26478812",
+      "28379694",
+      "37163419",
+      "34926879",
+      "28410930",
+      "39291728",
+      "34686053",
+      "29104751",
+      "12214315",
+      "24151979",
+      "26575935",
+      "25562190",
+      "31457386",
+      "36387274",
+      "36582480",
+      "30126275",
+      "14744129",
+      "19701186",
+      "19113888",
+      "32612758",
+      "35585433",
+      "22015681",
+      "36073971",
+      "34170125",
+      "29741570",
+      "32510956",
+      "23955950",
+      "26226318",
+      "29648448",
+      "15298890",
+      "27110726",
+      "27392745",
+      "23564727",
+      "35517169",
+      "34546059",
+      "27957758",
+      "34025949",
+      "35317575",
+      "35580137",
+      "22690872",
+      "27186491",
+      "38545161",
+      "38867069",
+      "26913499",
+      "34266281",
+      "35738509",
+      "31259246",
+      "35968960",
+      "31045561",
+      "24976371"
+    ],
+    "review": [
+      "39582894",
+      "25663659",
+      "33886257",
+      "23587001",
+      "31026496",
+      "34926879",
+      "28410930",
+      "27110726",
+      "27957758"
+    ],
+    "pmc": [
+      "11584523"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(24)00371-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39582894/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

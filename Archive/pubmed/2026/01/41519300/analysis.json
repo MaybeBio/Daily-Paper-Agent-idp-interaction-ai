@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41519300",
+  "title": "Computational perspectives on tubulin E-hook structure and mechanisms.",
+  "authors": "Bromley, Alexander C; Reinemann, Dana N",
+  "journal": "Biophysical reports",
+  "published_date": "2026-01-11",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述聚焦微管蛋白E-hook（本质无序C端尾巴）介导的微管相关蛋白互作，系统梳理了计算模拟（MD等）在解析其结构动态与结合机制上的进展，虽为综述且未直接建模PPI，但对象与机制问题高度相关，方法可迁移。",
+  "abstract": "E-hooks, or the C-terminal tails of tubulin, mediate interactions between microtubules and associated proteins. Despite their functional importance in cellular and physiological processes, their structural variability and mechanistic roles remain poorly understood. E-hooks are thought to be intrinsically disordered to some degree, making crystallographic studies difficult and necessitating the use of computational tools to study their structures and how they change E-hook function. This review synthesizes recent computational efforts to elucidate E-hook structure, dynamics, and functional differentiation across tubulin isotypes. We examine studies probing E-hooks in isolation or with globular cores, which have revealed subunit-specific features influencing microtubule behavior. We also evaluate the role of E-hooks in modulating binding affinity and conformational states of motor proteins and microtubule-associated proteins. Finally, we highlight adjacent technological and methodological advances that have implications for both the interpretation of past findings and the design of future studies, offering new directions for the investigation of E-hook-mediated microtubule regulation.",
+  "abstract_zh": "E-hooks，即微管蛋白的C末端尾巴，介导微管与相关蛋白之间的相互作用。尽管它们在细胞和生理过程中具有功能重要性，但其结构变异性和机制作用仍知之甚少。E-hooks被认为在某种程度上是内在无序的，这使得晶体学研究困难重重，并需要使用计算工具来研究其结构及其如何改变E-hook功能。本综述综合了近期计算方面的努力，以阐明E-hooks在不同微管蛋白同型中的结构、动力学和功能分化。我们审视了在孤立状态或与球状核心结合时探测E-hooks的研究，这些研究揭示了影响微管行为的亚基特异性特征。我们还评估了E-hooks在调节马达蛋白和微管相关蛋白的结合亲和力及构象状态中的作用。最后，我们强调了相邻的技术和方法学进展，这些进展对过去发现的解读和未来研究的设计均有影响，为E-hook介导的微管调控研究提供了新方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41519300/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41519300/",
+  "paper_page_path": "papers/pubmed/41519300/index.html"
+}

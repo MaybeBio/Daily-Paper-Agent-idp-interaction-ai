@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "39025569",
+    "doi": "10.1016/bs.mie.2024.03.006",
+    "title": "Characterization of domain formation in complex membranes."
+  },
+  "content": {
+    "abstract": "A widely known property of lipid membranes is their tendency to undergo a separation into disordered (L(d)) and ordered (L(o)) domains. This impacts the local structure of the membrane relevant for the physical (e.g., enhanced electroporation) and biological (e.g., protein sorting) significance of these regions. The increase in computing power, advancements in simulation software, and more detailed information about the composition of biological membranes shifts the study of these domains into the focus of classical molecular dynamics simulations. In this chapter, we present a versatile yet robust analysis pipeline that can be easily implemented and adapted for a wide range of lipid compositions. It employs Gaussian-based Hidden Markov Models to predict the hidden order states of individual lipids by describing their structure through the area per lipid and the average S(CC) order parameters per acyl chain. Regions of the membrane with a high correlation between ordered lipids are identified by employing the Getis-Ord local spatial autocorrelation statistic on a Voronoi tessellation of the lipids. As an example, the approach is applied to two distinct systems at a coarse-grained resolution, demonstrating either a strong tendency towards phase separation (1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC), 1,2-dilinoleoyl-sn-glycero-3-phosphocholine (DIPC), cholesterol) or a weak tendency toward phase separation (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC), 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine (PUPC), cholesterol). Explanations of the steps are complemented by coding examples written in Python, providing both a comprehensive understanding and practical guidance for a seamless integration of the workflow into individual projects.",
+    "keywords": [
+      "Gaussian mixture model",
+      "Gaussian-based hidden Markov model",
+      "Getis-Ord statistic",
+      "Hidden Markov model",
+      "Liquid-ordered domain",
+      "Membrane domain"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Lipid Bilayers/chemistry",
+      "Phosphatidylcholines/chemistry",
+      "Markov Chains",
+      "Software",
+      "Membrane Lipids/chemistry",
+      "Membrane Microdomains/chemistry",
+      "1,2-Dipalmitoylphosphatidylcholine/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trollmann, Marius F W",
+        "Bockmann, Rainer A"
+      ],
+      "short_names": [
+        "Trollmann MFW",
+        "Bockmann RA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology-Theoretical & Computational Membrane Biophysics, Department of Biology, Friedrich-Alexander-Universitat (FAU) Erlangen-Nurnberg; Erlangen National High Performance Computing Center (NHR@FAU).",
+        "Computational Biology-Theoretical & Computational Membrane Biophysics, Department of Biology, Friedrich-Alexander-Universitat (FAU) Erlangen-Nurnberg; Erlangen National High Performance Computing Center (NHR@FAU); FAU Profile Center Immunomedicine (FAU I-MED), FAU Erlangen-Nurnberg. Electronic address: rainer.boeckmann@fau.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trollmann, Marius F W",
+        "short_name": "Trollmann MFW",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology-Theoretical & Computational Membrane Biophysics, Department of Biology, Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg; Erlangen National High Performance Computing Center (NHR@FAU)."
+        ]
+      },
+      {
+        "full_name": "Böckmann, Rainer A",
+        "short_name": "Böckmann RA",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology-Theoretical & Computational Membrane Biophysics, Department of Biology, Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg; Erlangen National High Performance Computing Center (NHR@FAU); FAU Profile Center Immunomedicine (FAU I-MED), FAU Erlangen-Nürnberg. Electronic address: rainer.boeckmann@fau.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in enzymology"
+    ],
+    "journal_abbrev": [
+      "Methods Enzymol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/19 00:42",
+    "fetched_at": "2026-09-22 01:33:11"
+  },
+  "links": {
+    "cites": [
+      "40528540"
+    ],
+    "refs": [],
+    "similar": [
+      "39025569",
+      "22325271",
+      "33261497",
+      "30468704",
+      "24498317",
+      "21194215",
+      "7696506",
+      "10866969",
+      "30870466",
+      "31657431",
+      "21376014",
+      "18839945",
+      "22053903",
+      "42075976",
+      "33157120",
+      "20642452",
+      "26525664",
+      "25087883",
+      "28001077",
+      "23702462",
+      "26025586",
+      "15954788",
+      "17766350",
+      "29101041",
+      "23707907",
+      "30178378",
+      "22960042",
+      "37579987",
+      "32071249",
+      "31268447",
+      "23258433",
+      "25806833",
+      "18178660",
+      "26067631",
+      "27664500",
+      "38740276",
+      "28597209",
+      "39905732",
+      "21205902",
+      "25561007",
+      "33034537",
+      "38320120",
+      "36903487",
+      "23356741",
+      "30414630",
+      "39978121",
+      "30019106",
+      "23805738",
+      "24621400",
+      "21884678",
+      "9138572",
+      "26472395",
+      "19837045",
+      "23871914",
+      "19576903",
+      "12655369",
+      "29733641",
+      "29874610",
+      "27934518",
+      "26709741",
+      "37879075",
+      "18410103",
+      "9726938",
+      "23685123",
+      "29730243",
+      "23747294",
+      "27218880",
+      "21945563",
+      "30540307",
+      "42148694",
+      "17887779",
+      "27526680",
+      "37401178",
+      "26116433",
+      "28731702",
+      "11782182",
+      "24456489",
+      "30030544",
+      "10675516",
+      "25732027",
+      "35895895",
+      "9858729",
+      "24845659",
+      "27103534",
+      "36088534",
+      "17237202",
+      "23521567",
+      "27901162",
+      "19296622",
+      "30216061",
+      "30529459",
+      "11222302",
+      "18390624",
+      "11591163",
+      "20955684",
+      "28886648",
+      "39429033",
+      "26488654",
+      "21694459",
+      "18837540"
+    ],
+    "review": [
+      "39025569"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0076-6879(24)00090-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINB3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

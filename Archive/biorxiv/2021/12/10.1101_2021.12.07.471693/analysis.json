@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.07.471693",
+  "title": "Interpretable and Generalizable Attention-Based Model for Predicting Drug-Target Interaction Using 3D Structure of Protein Binding Sites: SARS-CoV-2 Case Study and in-Lab Validation",
+  "authors": "Mehdi Yazdani-Jahromi; Niloofar Yousefi; Aida Tayebi; Ozlem Ozmen Garibay; Sudipta Seal; Elayaraja Kolanthai; Craig J. Neal",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-09",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用基于蛋白结合位点3D结构的图注意力深度学习模型预测药物-靶标互作，对象为折叠蛋白与小分子，非无序蛋白/IDR/相分离，且互作机制建模深度有限，仅部分方法可迁移。",
+  "abstract": "In this study, we introduce and implement an interpretable graph-based deep learning prediction model, which utilizes protein binding sites along with self-attention to learn which protein binding sites interact with a given ligand. Our proposed model enables interpretability by identifying the protein binding sites that contribute the most towards the Drug-Target Interaction. Results on three benchmark datasets show improved performance compared to previous graph-based models. More significantly, unlike previous studies our model performance remains close to the optimal performance when tested with new proteins (ie., high generalizablity). Through multidisciplinary collaboration, we further experimentally evaluate the practical potential of our proposed approach. To achieve this, we first computationally predict binding interaction of some candidate compounds with a target protein, then experimentally validate the binding interactions for these pairs in the laboratory. The high agreement between the computationally-predicted and experimentally-observed (measured) DTIs illustrates the potential of our method as an effective pre-screening tool in drug re-purposing applications.",
+  "abstract_zh": "在本研究中，我们引入并实现了一种可解释的基于图的深度学习预测模型，该模型利用蛋白质结合位点及自注意力机制来学习哪些蛋白质结合位点与给定配体相互作用。我们提出的模型通过识别对药物-靶点相互作用贡献最大的蛋白质结合位点，实现了可解释性。在三个基准数据集上的结果表明，与先前的基于图的模型相比，性能有所提升。更重要的是，与以往研究不同，我们的模型在测试新蛋白质时（即高泛化性）性能仍接近最优水平。通过多学科合作，我们进一步实验评估了所提方法的实际潜力。为此，我们首先计算预测一些候选化合物与目标蛋白的结合相互作用，然后在实验室中实验验证这些配对的结合相互作用。计算预测与实验观察（测量）的DTIs之间的高度一致性，展示了我们的方法作为药物再利用应用中有效预筛选工具的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471693",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471693",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.07.471693/index.html"
+}

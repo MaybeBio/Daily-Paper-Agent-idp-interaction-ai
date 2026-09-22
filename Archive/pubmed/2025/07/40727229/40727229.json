@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "40727229",
+    "doi": "10.1021/acsphyschemau.5c00005",
+    "title": "Structural and Functional Relevance of Charge-Based Transient Interactions inside Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) perform diverse biological functions without adopting stable folded structures, instead existing as dynamic ensembles of flexible conformations. While these conformations were traditionally attributed to weak, nonspecific interactions, emerging evidence emphasizes the role of transient, specific interactions. Here, we investigate how charged amino acids within IDP sequences influence the prevalence of these interactions. Using model peptides, we establish an empirical relationship between the fraction of transient interactions and a novel sequence metric, the effective charge patch length. Extending this analysis to IDP ensembles with varying levels of transient interactions, we uncover heteropolymeric structural behaviors, including network formation in phase-separated condensates. A large-scale analysis reveals that approximately 20% of disordered regions in the human proteome exhibit charge-driven transient interactions, contributing to heteropolymeric conformational ensembles. Finally, we explore the functional enrichment of these interactions, underscoring their potential role in mediating diverse biological processes.",
+    "keywords": [
+      "intrinsically disordered protein",
+      "molecular dynamics",
+      "polymer model",
+      "structural feature",
+      "transient interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wohl, Samuel",
+        "Gilron, Yishai",
+        "Zheng, Wenwei"
+      ],
+      "short_names": [
+        "Wohl S",
+        "Gilron Y",
+        "Zheng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9603-009X"
+      ],
+      "affiliations": [
+        "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States. RINGGOLD: 7864",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States. RINGGOLD: 7864",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States. RINGGOLD: 7864"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wohl, Samuel",
+        "short_name": "Wohl S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      },
+      {
+        "full_name": "Gilron, Yishai",
+        "short_name": "Gilron Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS physical chemistry Au"
+    ],
+    "journal_abbrev": [
+      "ACS Phys Chem Au"
+    ],
+    "pub_date": "2025 Jul 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 11:14",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42147780"
+    ],
+    "refs": [
+      "40131954",
+      "39779860",
+      "39568948",
+      "39464253",
+      "39105804",
+      "38973194",
+      "38825283",
+      "38718835",
+      "38707546",
+      "38308651",
+      "38297118",
+      "37971402",
+      "37957331",
+      "37957147",
+      "37816028",
+      "37684425",
+      "36917561",
+      "36603581",
+      "36513655",
+      "36331868",
+      "35948766",
+      "35923464",
+      "35675815",
+      "35512095",
+      "34931046",
+      "34716273",
+      "34504002",
+      "34259536",
+      "33827920",
+      "33305318",
+      "33212590",
+      "32639157",
+      "32227994",
+      "32029630",
+      "31521230",
+      "31488718",
+      "31139718",
+      "30939006",
+      "30682370",
+      "30581045",
+      "30420502",
+      "30217894",
+      "30193467",
+      "29604882",
+      "29571687",
+      "29364893",
+      "28571334",
+      "28288117",
+      "28283059",
+      "28259050",
+      "27583570",
+      "27145874",
+      "26967199",
+      "26919016",
+      "26477262",
+      "26455390",
+      "26328871",
+      "26015579",
+      "25863585",
+      "25531225",
+      "24120937",
+      "23901099",
+      "23180855",
+      "22984159",
+      "20499903",
+      "20483348",
+      "19162471",
+      "18576630",
+      "15102452",
+      "10860987",
+      "1734283"
+    ],
+    "similar": [
+      "40727229",
+      "39554085",
+      "36917561",
+      "36674958",
+      "40317235",
+      "41566033",
+      "38177684",
+      "35126984",
+      "30913885",
+      "32579908",
+      "39163306",
+      "38252962",
+      "35119946",
+      "33581430",
+      "40095314",
+      "35944496",
+      "30840442",
+      "20404210",
+      "23754493",
+      "41137856",
+      "30909517",
+      "29509422",
+      "41725507",
+      "27936491",
+      "35454150",
+      "32639157",
+      "37459524",
+      "31809054",
+      "41082321",
+      "32696367",
+      "39093570",
+      "33945530",
+      "32816485",
+      "41432303",
+      "39499823",
+      "38018910",
+      "28425679",
+      "21766125",
+      "41259435",
+      "26387104",
+      "40185744",
+      "27844185",
+      "37607621",
+      "40574501",
+      "31794728",
+      "35436286",
+      "31021441",
+      "34390736",
+      "30813315",
+      "28448138",
+      "25897952",
+      "32403216",
+      "33076213",
+      "38739602",
+      "39225535",
+      "26301226",
+      "38039868",
+      "38297118",
+      "31756104",
+      "26735936",
+      "40748104",
+      "30204435",
+      "29990433",
+      "32227994",
+      "25496281",
+      "23901099",
+      "39248414",
+      "34545666",
+      "32345021",
+      "36291634",
+      "40264953",
+      "24739176",
+      "39977663",
+      "18481860",
+      "32357776",
+      "33719450",
+      "41166416",
+      "38220424",
+      "37108059",
+      "36346711",
+      "40128232",
+      "20483348",
+      "30979035",
+      "33530506",
+      "38096754",
+      "23912807",
+      "31552948",
+      "34123251",
+      "28516012",
+      "24606139",
+      "35129612",
+      "40360271",
+      "37722056",
+      "29982297",
+      "35034725",
+      "33230318",
+      "32840111",
+      "37645312",
+      "22399317",
+      "33876640"
+    ],
+    "review": [
+      "40727229",
+      "35119946",
+      "30840442",
+      "30909517",
+      "29509422",
+      "41725507",
+      "39093570",
+      "26387104",
+      "31021441",
+      "34390736",
+      "32403216",
+      "26301226",
+      "38039868",
+      "34545666",
+      "40264953",
+      "38220424",
+      "30979035",
+      "33530506",
+      "38096754",
+      "28516012",
+      "24606139",
+      "35129612",
+      "29982297"
+    ],
+    "pmc": [
+      "12291128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40727229/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/apcach/article-lookup/doi/10.1021/acsphyschemau.5c00005",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

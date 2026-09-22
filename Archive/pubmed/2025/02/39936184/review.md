@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to characterize the conformational stability and phosphorylation-dependent regulation of TFIIS N-terminal domain (TND) interactions with disordered TND-interacting motifs (TIMs). They report that experimental complex structures (P75-PogZ, P75-IWS1) remain stable in microsecond simulations, that phosphorylation stabilizes otherwise unstable complexes (P75-ASK, HRP2-IWS1), and that a general mechanism involving hydrogen bonds between the phosphoryl group and positively charged TND residues enhances TND-TIM affinity.
+- **Visible evidence base** Abstract text only; no simulation parameters, force fields, convergence metrics, structural figures, or quantitative affinity data are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and validation, force field choices, replica or repeat information, structural figures, trajectory analyses, binding free energy calculations, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of phosphorylation-regulated disordered protein interactions in the transcription machinery. The central claims, however, are supported only by qualitative statements about simulation outcomes, with no quantitative data, methodological detail, or validation evidence visible in the provided material. The proposed "general rule" for phosphorylation regulation is a strong mechanistic claim that cannot be assessed from the abstract alone. The work may be of interest to the structural biology and transcription communities, but the evidence base as presented is insufficient to establish the case.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and phosphorylation-dependent interaction modules; researchers in transcription regulation, particularly those focused on TFIIS and its interaction network; computational biophysicists interested in simulation-based studies of protein-protein interactions involving disordered regions.
+- **Major strengths** The study addresses a biologically relevant and mechanistically underexplored question, namely how phosphorylation regulates interactions involving disordered protein motifs. The use of microsecond-scale molecular dynamics simulations is appropriate for probing conformational stability of protein complexes. The identification of a potential general mechanism, if well supported, would be a valuable contribution to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that experimental TND-TIM complex structures "maintained stable conformations during microsecond-long simulations" and that other complexes are "unstable in simulations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative metrics for stability, such as root-mean-square deviation (RMSD), root-mean-square fluctuation (RMSF), or contact persistence over time. No information is given on simulation length per system, number of replicates, force field parameters, or equilibration protocols. Without these details, the stability and instability claims are not verifiable.
+  - **Why it matters** Stability assessments in molecular dynamics are highly sensitive to simulation setup and analysis criteria. A claim that one complex is stable and another is not requires clear operational definitions and statistical support. The absence of such information prevents any independent evaluation of the central finding.
+  - **Resolution test** Provide quantitative stability metrics for all simulated systems, including time series of RMSD and RMSF, contact maps, and a clear definition of "stable" versus "unstable" with statistical thresholds. Include simulation lengths, number of replicates, and force field validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The authors propose a "general rule" whereby the phosphoryl group of TIM forms hydrogen bonds with positively charged TND residues, promoting dynamic correlation and enhancing residue-residue interactions, resulting in higher affinity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The proposed mechanism is stated as a general rule, but the abstract provides no quantitative evidence such as hydrogen bond occupancy, interaction energies, or binding free energy calculations. No data are shown to support the claim of "higher affinity" between TND and TIM upon phosphorylation.
+  - **Why it matters** A general mechanistic rule requires demonstration across multiple systems with consistent quantitative support. The claim of enhanced affinity is a thermodynamic statement that cannot be inferred from qualitative descriptions of simulation trajectories. Without free energy calculations or experimental binding data, this claim is unsupported.
+  - **Resolution test** Provide hydrogen bond occupancy analyses, per-residue interaction energy decompositions, and binding free energy estimates (e.g., MM-PBSA or similar) for phosphorylated versus unphosphorylated systems. If experimental affinity data exist, include them; otherwise, clearly state the computational basis for the affinity claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "phosphorylation enhances TND-TIM interactions and rapidly stabilizes the complex structure" and that this is a general rule.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract describes simulations of four complexes (P75-PogZ, P75-IWS1, P75-ASK, HRP2-IWS1), but it is unclear how many phosphorylation sites were tested, whether the same phosphorylation site was used across systems, and whether the proposed rule holds for all TIMs or only a subset. The generalizability claim may exceed the evidence presented.
+  - **Why it matters** A "general rule" requires systematic variation of sequence and phosphorylation context. If only a limited set of systems was tested, the claim should be appropriately scoped.
+  - **Resolution test** Clearly state the number of systems, phosphorylation sites, and sequence contexts tested. If the rule is derived from a limited set, revise the claim to reflect the actual scope of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "a disordered protein interaction module" in the title is vague. It is unclear whether "module" refers to the TND-TIM complex, the TND scaffold, or the broader interaction network.
+  - **Required correction** Clarify the definition of "module" in the title or abstract to accurately reflect the system studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given on the simulation software, force field, water model, temperature, pressure, or ionic conditions.
+  - **Required correction** Include these details in the methods section of the full manuscript to enable reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Statement on "dynamic correlation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "promoting dynamic correlation between TND and the Ser-containing acidic linker of TIM" is not defined. It is unclear what metric was used to assess dynamic correlation.
+  - **Required correction** Define the correlation metric (e.g., dynamic cross-correlation matrix) and report the relevant values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The stability claims and the proposed general mechanism require quantitative evidence that is not visible in the abstract. Without these, the central conclusions are not established.
+- **Assessment against Nature-style criteria** Originality: The question of phosphorylation-regulated disordered protein interactions is timely and the specific focus on TND-TIM modules appears novel. Scientific importance: The transcription machinery context gives the work potential significance, but the importance is not fully demonstrated without experimental validation or clear functional implications. Interdisciplinary readership: The work may appeal to structural biologists, computational chemists, and transcription researchers, but the abstract is too specialized and lacks context for a broad audience. Technical soundness: Not assessable from the abstract; the absence of methodological detail and quantitative metrics is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative support for the central claims. I would be supportive if the full manuscript provides the missing methodological detail, quantitative stability metrics, and interaction energy analyses.
+
+## Risk / unsupported claims
+- The claim that experimental TND-TIM complexes "maintained stable conformations" is unsupported without quantitative stability metrics.
+- The claim that phosphorylation "rapidly stabilizes" unstable complexes is unsupported without time-resolved data.
+- The proposed "general rule" for phosphorylation regulation is unsupported as a general statement given the limited visible evidence.
+- The claim of "higher affinity" between TND and TIM upon phosphorylation is unsupported without free energy calculations or experimental binding data.
+- The statement that the study provides "insights at an atomic level" is not verifiable from the abstract alone.

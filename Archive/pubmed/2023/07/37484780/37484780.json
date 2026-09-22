@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "37484780",
+    "doi": "10.1007/s40203-023-00153-5",
+    "title": "In silico analysis of sporozoite surface antigen 1 of Theileria annulata (TaSPAG1) for multi-epitope vaccine design against theileriosis."
+  },
+  "content": {
+    "abstract": "Tropical theileriosis is a protozoan infection caused by Theileria annulata, which significantly affects cattle worldwide. This study was aimed to analyze the TaSPAG1 protein and design a novel multi-epitope vaccine candidate. Online tools were employed for the prediction of Physico-chemical properties, antigenicity, allergenicity, solubility, transmembrane domains and signal peptide, posttranslational modification (PTM) sites, secondary and tertiary structures as well as intrinsically disordered regions, followed by identification and screening of potential linear and conformational B-cell epitopes and those peptides having affinity to bind bovine major histocompatibility complex class I (MHC-I) molecules. Next, a multi-epitope vaccine construct was designed and analyzed. This 907-residue protein was hydrophilic (GRAVY: -0.399) and acidic (pI: 5.04) in nature, with high thermotolerance (aliphatic: 71.27). Also, 5 linear and 12 conformational B-cell epitopes along with 8 CTL epitopes were predicted for TaSPAG1. The 355-residue vaccine candidate had a MW of about 35 kDa and it was antigenic, non-allergenic, soluble and stable, which was successfully interacted with cattle MHC-I molecule and finally cloned into the pET28a(+) vector. Further wet studies are required to assess the vaccine efficacy in cattle. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40203-023-00153-5.",
+    "keywords": [
+      "Bioinformatics",
+      "Immunogenic epitopes",
+      "SPAG1",
+      "Theileria annulata"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azimi-Resketi, Mojtaba",
+        "Akbari, Mehdi",
+        "Heydaryan, Saeed",
+        "Eftekhari, Amirreza",
+        "Balali, Javad",
+        "Shams, Morteza",
+        "Sargazi, Dariush"
+      ],
+      "short_names": [
+        "Azimi-Resketi M",
+        "Akbari M",
+        "Heydaryan S",
+        "Eftekhari A",
+        "Balali J",
+        "Shams M",
+        "Sargazi D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Parasitology and Mycology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran. GRID: grid.411036.1. ISNI: 0000 0001 1498 685X",
+        "Department of Parasitology, School of Medicine, Hamadan University of Medical Sciences, Hamadan, Iran. GRID: grid.411950.8. ISNI: 0000 0004 0611 9280",
+        "Department of Internal Medicine, Faculty of Veterinary Medicine, University of Tehran, Tehran, Iran. GRID: grid.46072.37. ISNI: 0000 0004 0612 7950",
+        "Faculty of Veterinary Medicine, Garmsar Branch, Islamic Azad University, Garmsar, Iran. GRID: grid.449232.a. ISNI: 0000 0004 0494 0390",
+        "Doctor of Veterinary Medicine student, Sanandaj Branch, Islamic Azad University, Sanandaj, Iran. GRID: grid.472332.3. ISNI: 0000 0004 0494 2337",
+        "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran. GRID: grid.449129.3. ISNI: 0000 0004 0611 9408",
+        "Doctorate in Veterinary Medicine, Head of Zabol Veterinary Network, Zabol, Baluchistan, Sistan Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azimi-Resketi, Mojtaba",
+        "short_name": "Azimi-Resketi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Parasitology and Mycology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Akbari, Mehdi",
+        "short_name": "Akbari M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Parasitology, School of Medicine, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Heydaryan, Saeed",
+        "short_name": "Heydaryan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Faculty of Veterinary Medicine, University of Tehran, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Eftekhari, Amirreza",
+        "short_name": "Eftekhari A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Veterinary Medicine, Garmsar Branch, Islamic Azad University, Garmsar, Iran."
+        ]
+      },
+      {
+        "full_name": "Balali, Javad",
+        "short_name": "Balali J",
+        "identifiers": [],
+        "affiliations": [
+          "Doctor of Veterinary Medicine student, Sanandaj Branch, Islamic Azad University, Sanandaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Shams, Morteza",
+        "short_name": "Shams M",
+        "identifiers": [],
+        "affiliations": [
+          "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran."
+        ]
+      },
+      {
+        "full_name": "Sargazi, Dariush",
+        "short_name": "Sargazi D",
+        "identifiers": [],
+        "affiliations": [
+          "Doctorate in Veterinary Medicine, Head of Zabol Veterinary Network, Zabol, Baluchistan, Sistan Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "In silico pharmacology"
+    ],
+    "journal_abbrev": [
+      "In Silico Pharmacol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/24 06:42",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "40310112",
+      "39816796"
+    ],
+    "refs": [
+      "35434127",
+      "34390868",
+      "34214673",
+      "33836177",
+      "33434702",
+      "33266365",
+      "33201237",
+      "32854179",
+      "32328540",
+      "32205198",
+      "32174036",
+      "30785653",
+      "30374343",
+      "30357391",
+      "29844632",
+      "28575391",
+      "27876911",
+      "27647496",
+      "25549265",
+      "25348405",
+      "25102031",
+      "24878803",
+      "24167156",
+      "23737448",
+      "22984622",
+      "20934990",
+      "20185242",
+      "19642274",
+      "19055730",
+      "17517781",
+      "17274845",
+      "17207271",
+      "16894596",
+      "16870344",
+      "16481113",
+      "15938515",
+      "15811656",
+      "15463034",
+      "11544192",
+      "10792761",
+      "10547684",
+      "10540314",
+      "9837735",
+      "9754318",
+      "9171335",
+      "9080177",
+      "8875574",
+      "8631374",
+      "7517029",
+      "6802745",
+      "6203832",
+      "3929346",
+      "2508037",
+      "2499888",
+      "1907728",
+      "1501630"
+    ],
+    "similar": [
+      "37484780",
+      "30374343",
+      "39234242",
+      "35434127",
+      "35434130",
+      "38654954",
+      "37312723",
+      "33667832",
+      "31954995",
+      "38028215",
+      "36003896",
+      "10563395",
+      "35033847",
+      "37521850",
+      "38747635",
+      "32663606",
+      "9512755",
+      "34362869",
+      "38004674",
+      "38746047",
+      "36987521",
+      "35080659",
+      "33434702",
+      "38923222",
+      "38051433",
+      "33987075",
+      "30918289",
+      "37323936",
+      "34557233",
+      "30822457",
+      "37466666",
+      "32856858",
+      "34539293",
+      "36960094",
+      "31078709",
+      "38494264",
+      "38187223",
+      "35318896",
+      "33368661",
+      "37793308",
+      "37519638",
+      "36451670",
+      "34032200",
+      "37239164",
+      "36290364",
+      "34214673",
+      "35371033",
+      "28583072",
+      "33599191",
+      "32923731",
+      "34425197",
+      "36603375",
+      "35670904",
+      "36065642",
+      "36775659",
+      "34221846",
+      "31962160",
+      "22621863",
+      "34879939",
+      "33737928",
+      "33425647",
+      "11897130",
+      "7517029",
+      "29195784",
+      "34866641",
+      "34566545",
+      "28411163",
+      "35071728",
+      "34931120",
+      "24775445",
+      "25186069",
+      "38046066",
+      "36910313",
+      "37804521",
+      "31931259",
+      "35441904",
+      "29861180",
+      "38241922",
+      "36845087",
+      "31509776",
+      "31634814",
+      "35918631",
+      "36085036",
+      "34556364",
+      "32897148",
+      "29409517",
+      "33547334",
+      "33062414",
+      "31052316",
+      "36459272",
+      "33765919",
+      "22305545",
+      "36277884",
+      "8631374",
+      "35574284",
+      "38641595"
+    ],
+    "review": [
+      "37484780",
+      "10563395"
+    ],
+    "pmc": [
+      "10356686"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37484780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s40203-023-00153-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

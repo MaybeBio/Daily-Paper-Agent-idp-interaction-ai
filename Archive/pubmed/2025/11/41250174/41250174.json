@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "41250174",
+    "doi": "10.1186/s13059-025-03842-w",
+    "title": "ricePSP: a database of rice phase separation-associated proteins."
+  },
+  "content": {
+    "abstract": "Multivalent interactions between proteins with intrinsically disordered regions or prion-like domains can drive liquid-liquid phase separation (LLPS) and form membraneless condensates essential for diverse cellular functions. Here, we predict phase separation scores for all annotated rice proteins and present ricePSP ( https://ricepsp.github.io/ ), a database of phase separation-associated proteins. AlphaFold structural predictions further validate the phase separation potential of these proteins. As a proof of concept, we apply ricePSP to identify flowering-related phase separation proteins, revealing insights into how LLPS may regulate flowering. Collectively, ricePSP provides a valuable resource for studying crop phase separation proteins and LLPS-related mechanisms in crop trait regulation.",
+    "keywords": [
+      "Condensate",
+      "Flowering",
+      "IDR",
+      "Liquid-liquid phase separation",
+      "Phase separation-associated protein",
+      "Rice"
+    ],
+    "mesh_terms": [
+      "*Oryza/genetics/metabolism",
+      "*Plant Proteins/chemistry/metabolism/genetics",
+      "*Databases, Protein",
+      "Flowers/genetics",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Runxin",
+        "Guo, Minrong",
+        "Luan, Shiping",
+        "Ouyang, Weizhi",
+        "Li, Xingwang"
+      ],
+      "short_names": [
+        "Gao R",
+        "Guo M",
+        "Luan S",
+        "Ouyang W",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. wzouyang@mail.hzau.edu.cn.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. xingwangli@mail.hzau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Runxin",
+        "short_name": "Gao R",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Minrong",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Shiping",
+        "short_name": "Luan S",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Weizhi",
+        "short_name": "Ouyang W",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. wzouyang@mail.hzau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xingwang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. xingwangli@mail.hzau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2025 Nov 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/18 06:26",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41606643"
+    ],
+    "refs": [
+      "40524959",
+      "40203040",
+      "39844526",
+      "39706711",
+      "39425452",
+      "38788692",
+      "38720462",
+      "38718835",
+      "38565952",
+      "38514621",
+      "38419328",
+      "38078942",
+      "37878721",
+      "37496271",
+      "36435966",
+      "36376475",
+      "36124686",
+      "35817823",
+      "35687670",
+      "35637307",
+      "35248762",
+      "35231447",
+      "35181198",
+      "35168563",
+      "34726756",
+      "34585805",
+      "34426573",
+      "34418423",
+      "34404448",
+      "34334791",
+      "34265844",
+      "34233164",
+      "34210966",
+      "33910901",
+      "33771451",
+      "33469149",
+      "33341945",
+      "33089895",
+      "33065269",
+      "33049212",
+      "32848244",
+      "32719552",
+      "32548680",
+      "32461553",
+      "31881292",
+      "31570834",
+      "31543265",
+      "31430179",
+      "31225911",
+      "31043738",
+      "30682370",
+      "29650702",
+      "29602697",
+      "29220485",
+      "28340338",
+      "28225081",
+      "25288112",
+      "24825614",
+      "23415227",
+      "21368180",
+      "19460965"
+    ],
+    "similar": [
+      "41250174",
+      "40796552",
+      "39947751",
+      "35142991",
+      "40615422",
+      "38322526",
+      "31941785",
+      "33913240",
+      "38979955",
+      "29511089",
+      "36524527",
+      "41457474",
+      "28924037",
+      "39987501",
+      "31911439",
+      "32824618",
+      "34029402",
+      "40792356",
+      "37496271",
+      "36657879",
+      "36575582",
+      "31444270",
+      "33076213",
+      "35918061",
+      "35802394",
+      "33139563",
+      "39844526",
+      "32312191",
+      "40372645",
+      "35287709",
+      "40515902",
+      "40616404",
+      "40588121",
+      "34291921",
+      "35481633",
+      "35883530",
+      "36350034",
+      "34571015",
+      "33744316",
+      "31691822",
+      "29526694",
+      "33971237",
+      "34102212",
+      "40748104",
+      "38063081",
+      "41272974",
+      "38356260",
+      "31612960",
+      "34951585",
+      "40646517",
+      "38898313",
+      "39592156",
+      "38723938",
+      "35682883",
+      "37032432",
+      "40629388",
+      "34179096",
+      "40203040",
+      "40985478",
+      "41092354",
+      "36464283",
+      "38855848",
+      "38597222",
+      "41433062",
+      "34522448",
+      "41497175",
+      "35179885",
+      "33260713",
+      "39922493",
+      "34984754",
+      "39833115",
+      "38042897",
+      "39256186",
+      "39979561",
+      "40324711",
+      "40848932",
+      "30471685",
+      "39705832",
+      "36227478",
+      "38976557",
+      "33078839",
+      "41363845",
+      "34716273",
+      "29716768",
+      "41009632",
+      "31237369",
+      "40867524",
+      "39679446",
+      "38251748",
+      "39339640",
+      "33684117",
+      "39248370",
+      "37290157",
+      "39342654",
+      "30217894",
+      "32696384",
+      "37794023",
+      "33765580",
+      "37285890",
+      "29220485"
+    ],
+    "review": [
+      "41250174",
+      "39947751",
+      "35142991",
+      "33913240",
+      "38979955",
+      "36524527",
+      "31911439",
+      "32824618",
+      "37496271",
+      "31444270",
+      "35802394",
+      "32312191",
+      "40616404",
+      "34291921",
+      "36350034",
+      "39592156",
+      "38723938",
+      "37032432",
+      "40985478",
+      "36464283",
+      "38855848",
+      "38597222",
+      "34522448",
+      "41497175",
+      "35179885",
+      "33260713",
+      "39705832",
+      "33078839",
+      "29716768",
+      "41009632",
+      "31237369",
+      "39679446",
+      "39339640",
+      "33765580"
+    ],
+    "pmc": [
+      "12621404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03842-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41250174/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

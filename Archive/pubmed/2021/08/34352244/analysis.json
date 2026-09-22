@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34352244",
+  "title": "Coarse-grained simulations of phase separation driven by DNA and its sensor protein cGAS.",
+  "authors": "Su, Zhaoqian; Dhusia, Kalyani; Wu, Yinghao",
+  "journal": "Archives of biochemistry and biophysics",
+  "published_date": "2021-08-06",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用基于聚合物的粗粒化模型模拟cGAS-DNA介导的相分离，揭示多价性和IDR在凝聚体形成中的机制，虽对象非典型IDP但聚焦相分离PPI机制建模，方法可迁移。",
+  "abstract": "The enzyme cGAS functions as a sensor that recognizes the cytosolic DNA from foreign pathogen. The activation of the protein triggers the transcription of inflammatory genes, leading into the establishment of an antipathogen state. An interesting new discovery is that the detection of DNA by cGAS induced the formation of liquid-like droplets. However how cells regulate the formation of these droplets is still not fully understood. In order to unravel the molecular mechanism beneath the DNA-mediated phase separation of cGAS, we developed a polymer-based coarse-grained model which takes into accounts the basic structural organization in DNA and cGAS, as well as the binding properties between these biomolecules. This model was further integrated into a hybrid simulation algorithm. With this computational method, a multi-step kinetic process of aggregation between cGAS and DNA was observed. Moreover, we systematically tested the model under different concentrations and binding parameters. Our simulation results show that phase separation requires both cGAS dimerization and protein-DNA interactions, whereas polymers can be kinetically trapped in small aggregates under strong binding affinities. Additionally, we demonstrated that supramolecular assembly can be facilitated by increasing the number of functional modules in protein or DNA polymers, suggesting that multivalency and intrinsic disordered regions play positive roles in regulating phase separation. This is consistent to previous experimental evidences. Taken together, this is, to the best of our knowledge, the first computational model to study condensation of cGAS-DNA complexes. While the method can reach the timescale beyond the capability of atomic-level MD simulations, it still includes information about spatial arrangement of functional modules in biopolymers that is missing in the mean-field theory. Our work thereby adds a useful dimension to a suite of existing experimental and computational techniques to study the dynamics of phase separation in biological systems.",
+  "abstract_zh": "酶cGAS作为一种传感器，识别来自外来病原体的胞质DNA。该蛋白的激活触发炎症基因的转录，从而建立抗病原体状态。一个有趣的新发现是，cGAS对DNA的检测诱导了液滴状结构的形成。然而，细胞如何调控这些液滴的形成仍未完全明了。为了揭示cGAS DNA介导相分离 (phase separation) 的分子机制，我们开发了一种基于聚合物的粗粒化模型，该模型考虑了DNA和cGAS的基本结构组织以及这些生物分子之间的结合特性。此模型进一步整合到混合模拟算法中。利用这种计算方法，我们观察到了cGAS与DNA之间多步骤的聚集动力学过程。此外，我们系统地在不同浓度和结合参数下测试了该模型。我们的模拟结果表明，相分离需要cGAS二聚化和蛋白质-DNA相互作用，而在强结合亲和力下，聚合物可能在动力学上被困于小聚集体中。另外，我们证明了通过增加蛋白质或DNA聚合物中功能模块的数量可以促进超分子组装，这表明多价性和内在无序区域在调控相分离中发挥积极作用。这与先前的实验证据一致。综上所述，据我们所知，这是首个研究cGAS-DNA复合物凝聚的计算模型。虽然该方法能达到超越原子级分子动力学 (molecular dynamics) 模拟能力的时间尺度，但它仍包含了平均场理论中缺失的生物聚合物功能模块空间排列信息。因此，我们的工作为研究生物系统中相分离动力学的现有实验和计算技术套件增添了一个有用的维度。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34352244/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34352244/",
+  "paper_page_path": "papers/pubmed/34352244/index.html"
+}

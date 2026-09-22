@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.25.509395",
+  "title": "AF2-multimer guided high accuracy prediction of typical and atypical ATG8 binding motifs",
+  "authors": "Ibrahim T; Khandare V; Mirkin FG; Tumtas Y; Bubeck D; Bozkurt TO",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-26",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold-Multimer预测典型和非典型ATG8结合基序(AIM/LIR)，聚焦无序短线性基序介导的蛋白互作识别，方法上以AI建模为主，但未深入互作机制或相分离背景，故评7分。",
+  "abstract": "Macroautophagy/autophagy is an intracellular degradation process central to cellular homeostasis and defense against pathogens in eukaryotic cells. Regulation of autophagy relies on hierarchical binding of autophagy cargo receptors and adaptors to ATG8/LC3 protein family members. Interactions with ATG8/LC3 are typically facilitated by a conserved, short linear sequence, referred to as the ATG8/LC3 interacting motif/region (AIM/LIR), present in autophagy adaptors and receptors as well as pathogen virulence factors targeting host autophagy machinery. Since the canonical AIM/LIR sequence can be found in many proteins, identifying functional AIM/LIR motifs has proven challenging. Here we show that protein modelling using Alphafold-Multimer (AF2-multimer) identifies both canonical and atypical AIM/LIR motifs with a high level of accuracy. AF2-multimer can be modified to detect additional functional AIM/LIR motifs by using protein sequences with mutations in primary AIM/LIR residues. By combining protein modelling data from AF2-multimer with phylogenetic analysis of protein sequences and protein-protein interaction assays, we demonstrate that AF2-multimer predicts the physiologically relevant AIM motif in the ATG8-interacting protein 2 (ATI-2) as well as the previously uncharacterized non-canonical AIM motif in ATG3 from potato ( Solanum tuberosum ). AF2-multimer also identified the AIM/LIR motifs in pathogen-encoded virulence factors that target ATG8 members in their plant and human hosts, revealing that cross-kingdom ATG8-LIR/AIM associations can also be predicted by AF2-multimer. We conclude that the AF2-guided discovery of autophagy adaptors/receptors will substantially accelerate our understanding of the molecular basis of autophagy in all biological kingdoms.",
+  "abstract_zh": "巨自噬/自噬是一种细胞内降解过程，对真核细胞的稳态维持和病原体防御至关重要。自噬的调控依赖于自噬货物受体和适配器与ATG8/LC3蛋白家族成员之间的层级结合。与ATG8/LC3的相互作用通常由一段保守的短线性序列促进，称为ATG8/LC3相互作用基序/区域（AIM/LIR），该序列存在于自噬适配器、受体以及靶向宿主自噬机制的病原体毒力因子中。由于典型的AIM/LIR序列可在许多蛋白质中发现，识别功能性AIM/LIR基序已被证明具有挑战性。在此，我们展示了使用Alphafold-Multimer（AF2-multimer）进行蛋白质建模，能够以高准确度识别典型和非典型的AIM/LIR基序。通过使用在主要AIM/LIR残基上发生突变的蛋白质序列，AF2-multimer可被修改以检测额外的功能性AIM/LIR基序。通过将AF2-multimer的蛋白质建模数据与蛋白质序列的系统发育分析及蛋白质-蛋白质相互作用实验相结合，我们证明AF2-multimer能够预测ATG8相互作用蛋白2（ATI-2）中生理相关的AIM基序，以及马铃薯（Solanum tuberosum）中ATG3内先前未表征的非典型AIM基序。AF2-multimer还识别了病原体编码的毒力因子中的AIM/LIR基序，这些因子靶向植物和人类宿主中的ATG8成员，揭示跨界的ATG8-LIR/AIM关联也可由AF2-multimer预测。我们得出结论，AF2引导的自噬适配器/受体发现将大幅加速我们对所有生物界中自噬分子基础的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509395",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509395",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.25.509395/index.html"
+}

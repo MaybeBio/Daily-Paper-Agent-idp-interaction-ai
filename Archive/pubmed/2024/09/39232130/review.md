@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that disordered regions (DRs) in the IRE1α ER lumenal domain (LD) mediate stress-induced clustering through weak multivalent interactions, forming biomolecular condensates that are stabilized by membrane tethering and unfolded peptide binding, and that these DRs regulate IRE1α signaling in cells.
+- **Visible evidence base** In vitro reconstitution assays (SLB-based clustering, solution phase separation), FRAP analyses, mass photometry, MD simulations, mutagenesis, and cell-based assays (XBP1 splicing, immunofluorescence)
+- **Missing materials affecting confidence** Raw quantitative data (e.g., FRAP curves with replicates, statistical details for mass photometry distributions), full figure panels with all replicates, exact sample sizes for cell-based experiments, and details on MD simulation convergence and sampling
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the unfolded protein response field: how IRE1α assembles into signaling-competent clusters. The authors provide a compelling combination of in vitro reconstitution, computational modeling, and cell-based validation to support a model in which disordered regions in the IRE1α LD drive clustering through weak multivalent interactions. The work is technically ambitious and the conclusions are largely supported by the data presented. However, several concerns regarding quantitative rigor, mechanistic specificity, and the physiological relevance of the in vitro conditions warrant attention before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying the unfolded protein response, IRE1 biology, membrane protein clustering, biomolecular condensates and phase separation, and the general cell signaling community. The findings may also interest those studying how disordered regions regulate protein assembly on membranes, a topic of broad relevance to cell biology.
+- **Major strengths** The study combines multiple orthogonal approaches (in vitro reconstitution, MD simulations, mutagenesis, cell-based assays) to address a long-standing question. The use of SLBs to recapitulate membrane-tethered clustering is innovative and physiologically relevant. The identification of specific DRs that modulate clustering provides mechanistic insight. The demonstration that clustering is reversible and dynamic distinguishes this work from simple aggregation models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that IRE1α LD forms "stable clusters" on SLBs and that these clusters are "dynamic and reversible" based on FRAP and wash-out experiments.
+  - **Evidence pointer** Figure 1C-E, Figure EV1B-G, Appendix Table S1-S2
+  - **Concern** The quantitative analysis of FRAP data is not fully described. The authors report diffusion coefficients and mobile fractions but do not provide details on the fitting model, the number of independent experiments for each condition, or statistical comparisons between conditions. The claim of "stability" versus "dynamics" relies on these measurements, and without proper statistical treatment, the distinction between stable clusters and dynamic assemblies is not rigorously established.
+  - **Why it matters** The central model distinguishes between stable, long-lived clusters (relevant for sustained signaling) and dynamic assemblies (relevant for reversible regulation). Without robust quantitative support, this distinction remains suggestive rather than demonstrated.
+  - **Resolution test** Provide full FRAP datasets with replicate numbers, statistical comparisons between conditions (e.g., wild-type vs mutants, with vs without peptides), and details on the fitting procedure. Show that the observed differences in mobile fractions and recovery times are statistically significant and reproducible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The authors claim that "disordered regions in IRE1α LD mediate its stress-induced clustering" and that specific mutations in DR2 (312TLPL315 and 352LNYL355) impair clustering.
+  - **Evidence pointer** Figures 3, 4, 5, 6
+  - **Concern** The mutagenesis strategy replaces 3-4 residue stretches with glycine-serine, which is a relatively drastic change that could affect local structure, stability, or folding beyond simply disrupting the specific interactions proposed. The authors do not provide evidence that these mutations do not globally perturb the LD structure or stability. Additionally, the choice of which residues to mutate appears somewhat arbitrary, and the authors do not systematically dissect which specific residues within the mutated stretches are critical.
+  - **Why it matters** The conclusion that specific DRs mediate clustering depends on the specificity of the mutations. If the mutations cause global structural perturbations, the observed effects on clustering may not be attributable to the loss of specific multivalent interactions.
+  - **Resolution test** Provide biophysical characterization of the mutant proteins (e.g., circular dichroism, size-exclusion chromatography, thermal stability) to demonstrate that they are properly folded and structurally similar to wild-type. Consider more targeted mutations (e.g., single-residue substitutions) to identify specific residues critical for clustering.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors claim that "dysregulated clustering of IRE1α mutants led to defects in IRE1α signaling" and that the DRs are important for stress-induced clustering in cells.
+  - **Evidence pointer** Figure 6, Figure EV5
+  - **Concern** The cell-based experiments rely on overexpression of IRE1α at levels approximately 30-fold over endogenous, which may not reflect physiological conditions. The authors acknowledge that endogenous clusters are generally too small to visualize, but the use of such high overexpression could drive clustering through non-physiological mechanisms. Additionally, the XBP1 splicing assays show modest differences between wild-type and mutants, and the statistical analysis is not fully described.
+  - **Why it matters** The physiological relevance of the proposed model depends on whether the clustering behavior observed at high overexpression reflects what happens at endogenous levels. If the effects are only apparent at non-physiological expression levels, the relevance to native IRE1 signaling is uncertain.
+  - **Resolution test** Perform experiments at lower expression levels where possible, or use alternative approaches such as endogenous tagging or dimerization-dependent fluorescent proteins to visualize clustering at more physiological levels. Provide full statistical details for the XBP1 splicing data, including effect sizes and confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational support
+  - **Claim pointer** The authors claim that MD simulations "reveal that DR2 and the linker region form clusters" and that "weak multivalent interactions drive IRE1α LD clustering."
+  - **Evidence pointer** Figure 3C-E, Appendix Figures 2-3
+  - **Concern** The MD simulations are performed on isolated DR peptides at high concentrations (16 or 33 copies), which may not accurately represent the behavior of these regions in the context of the full-length LD. The simulations are relatively short (20 µs coarse-grained) and the authors do not demonstrate convergence or provide error estimates for the contact maps. The connection between the simulated peptide behavior and the full-length protein clustering is not directly established.
+  - **Why it matters** The computational results are used to support the mechanistic model, but if the simulations do not accurately capture the behavior of the full-length protein, the conclusions drawn from them may be misleading.
+  - **Resolution test** Provide evidence of simulation convergence, include error estimates for contact maps, and ideally perform simulations on larger constructs or with the full-length LD to validate the peptide-level findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1F-H
+  - **Evidence pointer** Figure 1F-H
+  - **Issue** The phase diagrams in Figure 1F-H are described in the text but the exact conditions (protein concentration, PEG concentration, incubation time) for each panel are not clearly stated in the figure legend.
+  - **Required correction** Add a clear description of the conditions for each panel in the figure legend, including protein concentrations, PEG concentrations, and incubation times.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6C-D
+  - **Evidence pointer** Figure 6C-D
+  - **Issue** The statistical analysis for the XBP1 splicing data is not fully described. The authors state that P values were determined by a two-sided Student's t test, but do not specify whether corrections for multiple comparisons were applied or provide effect sizes.
+  - **Required correction** Provide full statistical details, including the number of independent experiments, whether corrections for multiple comparisons were applied, and effect sizes with confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Mass photometry
+  - **Evidence pointer** Figure 5A-B
+  - **Issue** The mass photometry experiments are described but the calibration procedure and the analysis pipeline are not fully detailed. The authors reference a Python script but do not describe the key parameters used for particle detection and mass assignment.
+  - **Required correction** Provide a more detailed description of the mass photometry data analysis, including the calibration procedure, particle detection thresholds, and how the molecular mass distributions were derived.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates about the role of DRs in other UPR sensors (PERK and ATF6) without providing experimental evidence. While this is appropriate for a discussion, the speculative nature should be clearly flagged.
+  - **Required correction** Clearly indicate that the extension to PERK and ATF6 is speculative and not directly tested in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative rigor of FRAP), R1-M2 (mutant specificity), R1-M3 (physiological relevance of overexpression)
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of phase separation concepts to IRE1α clustering and in the identification of specific DRs as regulators. Scientific importance: The findings have implications for understanding UPR signaling and membrane protein clustering, which are of broad interest. Interdisciplinary readership: The work bridges cell biology, biophysics, and computational biology, making it accessible to a broad audience. Technical soundness: The experimental approaches are generally sound, but the quantitative rigor of some analyses needs strengthening. Readability for nonspecialists: The manuscript is well-written and the concepts are explained clearly, though some sections (e.g., MD simulations) may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important and the experimental approach is innovative, but the quantitative rigor of the FRAP analysis, the specificity of the mutants, and the physiological relevance of the overexpression system need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that DRs in IRE1α LD "mediate" stress-induced clustering is supported by correlative evidence but the causal relationship is not fully established.
+- The claim that "weak multivalent interactions" drive clustering is inferred from MD simulations and mutagenesis but direct binding measurements are not provided.
+- The extension of the model to PERK and ATF6 in the discussion is speculative and not supported by experimental evidence.
+- The claim that IRE1α LD clusters on SLBs "recapitulate the physical properties of IRE1α assemblies in cells" is based on qualitative comparison and lacks quantitative validation.
+- The physiological relevance of the in vitro conditions (e.g., 11% PEG, high protein concentrations) to the cellular environment is not fully addressed.

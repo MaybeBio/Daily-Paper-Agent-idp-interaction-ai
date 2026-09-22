@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supporting data were provided
+- **Shared manuscript claim summary** The authors combine simulations using standard and modified force fields with spatially resolved solvation free energy analysis to compare strategies for correcting the imbalance between intra-protein and protein-water interactions in simulations of intrinsically disordered proteins. They report that enhanced Lennard-Jones interactions between protein atoms and water oxygens improve solvation of nonpolar groups, while modified electrostatics or strengthened protein-water hydrogen interactions affect polar group hydration and water orientation. They conclude that distinct correction strategies have qualitatively different effects on solvation, which may not be captured by global experimental observables such as radius of gyration but may influence aggregation and phase separation.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force field versions, system setup, analysis procedures, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, force field parameter details, statistical analyses, and any comparison to experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially useful comparative analysis of force field correction strategies for intrinsically disordered protein simulations. The central claim that different correction strategies have qualitatively distinct effects on solvation is plausible and could be of value to the simulation community. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the solvation analysis, or the strength of the conclusions. The claim that global observables may not capture these differences is speculative in the absence of direct comparative data. The manuscript may merit consideration after full review of the supporting evidence.
+- **Who would be interested in the results, and why** Researchers in molecular simulation of intrinsically disordered proteins, force field development, and biophysical chemistry. The work addresses a well-known problem of collapsed conformational ensembles in IDP simulations and compares practical correction strategies, which is directly relevant to practitioners seeking to improve simulation accuracy. The solvation analysis approach may also interest those studying protein-water interactions and hydration shell properties.
+- **Major strengths** The abstract addresses a recognized and important problem in the field. The comparative design across multiple correction strategies is a useful framing. The focus on spatially resolved solvation free energy contributions is a potentially insightful analytical approach that goes beyond global conformational metrics.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that distinct strategies to balance intra-protein and protein-water interactions have qualitatively different effects on protein solvation, specifically identifying which interaction types affect nonpolar versus polar groups.
+  - **Evidence pointer** Abstract only; no methods, figures, or tables provided
+  - **Concern** The abstract provides no methodological detail on how the solvation free energy contributions were computed, what system was simulated beyond the K-18 domain of Tau, which force fields were used, how the modifications were implemented, or how statistical uncertainty was assessed. Without this information, the reliability of the reported differences between strategies cannot be evaluated.
+  - **Why it matters** The central conclusion depends entirely on the accuracy and robustness of the solvation analysis. If the computational methods are flawed or the comparisons are not properly controlled, the qualitative differences claimed could be artifacts of the analysis rather than genuine physical effects.
+  - **Resolution test** The full manuscript must provide a complete description of the simulation protocols, the solvation free energy decomposition method, convergence criteria, and uncertainty quantification. The results must demonstrate that the reported differences between strategies are statistically significant and robust to simulation length and analysis parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The abstract states that differences between strategies are not necessarily captured by comparisons to experiments reporting global parameters such as radius of gyration, but will influence aggregation or phase separation tendency.
+  - **Evidence pointer** Abstract only; no experimental comparisons or aggregation/phase separation data provided
+  - **Concern** The claim that global observables may not capture the differences is presented without any direct evidence. No experimental data on radius of gyration or other global parameters are shown, and no simulations or experiments on aggregation or phase separation are described. The assertion about downstream consequences is speculative.
+  - **Why it matters** This claim extends the findings beyond the immediate simulation results to implications for biologically relevant processes. If unsupported, it overstates the significance of the work and could mislead readers about the practical consequences of choosing one correction strategy over another.
+  - **Resolution test** The full manuscript must include direct comparisons between simulated global observables and experimental data for each force field variant, and either provide evidence linking solvation differences to aggregation or phase separation behavior or explicitly frame this as a hypothesis for future work.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract implies that the findings apply generally to intrinsically disordered proteins, using the K-18 domain of Tau as a representative system.
+  - **Evidence pointer** Abstract only; single system studied
+  - **Concern** The study is based on a single protein domain. The abstract does not discuss whether the conclusions are expected to hold for other IDPs with different sequence compositions, charge distributions, or chain lengths. The generalizability of the findings is unclear.
+  - **Why it matters** If the conclusions are system-specific, the practical guidance for choosing correction strategies would be limited. The field would benefit from knowing the scope of applicability of these findings.
+  - **Resolution test** The full manuscript should discuss sequence features of K-18 that may influence the results and place the findings in the context of other IDP simulation studies. If additional systems were studied, they should be described. If not, the limitations should be explicitly acknowledged.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "known imbalance between intra-protein and protein-water interactions" is vague. It is not clear what specific imbalance is being referenced or how it manifests in simulations.
+  - **Required correction** Specify the nature of the imbalance, for example whether it refers to overattractive protein-water interactions, underattractive intra-protein interactions, or a specific energetic mismatch, and cite the relevant literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field description
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract refers to "standard and modified force fields" without naming which force fields were used or what modifications were applied. This is insufficient for readers to assess the relevance to their own work.
+  - **Required Correction** Name the specific force fields and the nature of the modifications, or state that these details are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative support
+  - **Affected element** Results summary
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract describes qualitative differences between strategies but provides no quantitative information, such as the magnitude of changes in solvation free energy or the extent of water orientation changes.
+  - **Required Correction** Include representative quantitative values or effect sizes in the abstract, or clarify that such details are in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The technical soundness of the solvation analysis cannot be assessed from the abstract, and the speculative claims about global observables and downstream consequences are not supported by any visible evidence. R1-M3 is non-blocking but should be addressed for completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The comparative approach across multiple correction strategies with spatially resolved solvation analysis is a useful contribution, though the individual strategies are established in the literature. The originality is moderate and depends on the novelty of the analytical decomposition.
+  - Scientific importance: The problem of collapsed IDP ensembles is important, and practical guidance on correction strategies would be valuable. However, the importance of the specific findings cannot be fully assessed without the full results.
+  - Interdisciplinary readership: The work is primarily of interest to computational biophysicists and force field developers. The broader biological implications are mentioned but not demonstrated, limiting interdisciplinary reach.
+  - Technical soundness: Cannot be evaluated from the abstract. The lack of methodological detail is a significant concern.
+  - Readability for nonspecialists: The abstract is reasonably clear for a specialist audience but uses jargon such as "Lennard-Jones interactions" and "solvation free energy contributions" without explanation. It is not accessible to a broad scientific readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the blocking concerns regarding technical soundness and unsupported conclusions must be resolved through full manuscript review. A supportive recommendation would require the full methods and results to demonstrate the robustness of the solvation analysis and to substantiate or temper the claims about global observables and downstream biological consequences.
+
+## Risk / unsupported claims
+- The claim that distinct correction strategies have qualitatively different effects on solvation is unsupported without methodological details and quantitative results.
+- The claim that global observables such as radius of gyration may not capture these differences is unsupported; no comparative data are provided.
+- The claim that the differences will influence aggregation or phase-separation tendency is speculative and not backed by any evidence in the abstract.
+- The generalizability of the findings beyond the K-18 domain of Tau is unassessable from the abstract.

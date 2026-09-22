@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose a stoichiometric interaction (SI) potential for domain-resolution mesoscopic MD simulations of liquid-liquid phase separation (LLPS). They claim the SI potential maintains binding domain valency, that SI alone cannot quantitatively reproduce LLPS phase diagrams, that combining SI with a pairwise interaction (representing specific and nonspecific interactions, respectively) yields fluid condensates whereas pairwise interaction alone does not, and that phase diagrams for systems with different numbers of tandem domains agree quantitatively with experiments in all but one case.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results are visible
+- **Missing materials affecting confidence** Full manuscript, methods description, simulation parameters, phase diagram data, experimental comparison details, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological contribution to mesoscopic simulations of LLPS, addressing a real limitation of pairwise interaction models in regulating binding domain valency. The proposed SI potential is conceptually reasonable, and the reported need to combine it with a pairwise interaction for quantitative phase diagram reproduction is an honest and informative finding. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the method, the statistical quality of the simulation results, or the rigor of the experimental comparisons. The claim of quantitative agreement with experiments in "all but one case" is particularly difficult to assess without seeing the phase diagram data and the experimental sources.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying biomolecular condensates and LLPS. The work is also relevant to experimental biologists studying phase-separating systems with multivalent proteins, as the method offers a way to model valency-controlled interactions at mesoscopic resolution. The quantitative comparison with experimental phase diagrams may interest a broader soft matter and biophysics audience.
+- **Major strengths** The work addresses a clearly identified limitation in existing mesoscopic models, namely the inability of pairwise interactions to regulate binding domain valency. The proposed solution is conceptually simple and physically motivated. The authors report a negative result (SI alone insufficient) and a practical resolution (combine SI with pairwise interaction), which suggests a thoughtful and systematic approach. The comparison with experimental phase diagrams, if rigorous, would strengthen the practical utility of the method.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The SI potential maintains the valency of interacting domains in test systems.
+  - **Evidence pointer** Abstract, "First, we verified that the SI potential maintained the valency of the interacting domains for the test systems." Location not provided.
+  - **Concern** The abstract states that the SI potential maintains valency but provides no details on how valency is defined, measured, or verified. No information is given on the test systems, the range of conditions tested, or the quantitative criteria for "maintained." Without this information, the central methodological claim cannot be evaluated.
+  - **Why it matters** Valency maintenance is the core justification for introducing the SI potential. If the verification is incomplete or the definition of valency is ambiguous, the entire methodological contribution is undermined.
+  - **Resolution test** Provide a clear definition of valency in the context of the model, describe the test systems and conditions, and show quantitative results demonstrating that valency is maintained within acceptable tolerances across relevant parameter ranges.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The phase diagrams of systems with different numbers of tandem domains agree quantitatively with experiments in all but one case.
+  - **Evidence pointer** Abstract, "We also compared the phase diagrams of the systems containing different numbers of tandem domains with those obtained from the experiments and found quantitative agreement in all but one case." Location not provided.
+  - **Concern** The claim of quantitative agreement with experimental phase diagrams is a strong and specific assertion, but the abstract provides no numerical data, no definition of "quantitative agreement," no specification of which systems were compared, and no identification of the one exceptional case. The criteria for agreement (e.g., temperature and concentration ranges, error tolerances) are entirely unspecified.
+  - **Why it matters** This claim is likely the most impactful result for the broader community, as it suggests the model has predictive power. Without transparent criteria and data, the claim cannot be independently assessed, and the one exception raises questions about the model's limits that are not addressed.
+  - **Resolution test** Show the phase diagrams for all systems tested, define the quantitative metric used for agreement (e.g., percent error in coexistence curves), specify the experimental data sources, and explicitly discuss the one case that did not agree, including possible reasons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Biomolecular condensates with the mixed SI and pairwise interaction exhibited fluidity, whereas those with the pairwise interaction alone showed no detectable diffusion.
+  - **Evidence pointer** Abstract, "Biomolecular condensates with the mixed SI and pairwise interaction exhibited fluidity, whereas those with the pairwise interaction alone showed no detectable diffusion." Location not provided.
+  - **Concern** The abstract reports a qualitative difference in fluidity between two model variants but provides no quantitative measure of diffusion, no simulation timescales, no system sizes, and no statistical analysis. "No detectable diffusion" could reflect insufficient simulation time or finite-size effects rather than a genuine physical difference.
+  - **Why it matters** The fluidity difference is presented as a key advantage of the mixed interaction model. If the observation is an artifact of simulation setup, the practical benefit of the method is not established.
+  - **Resolution test** Provide mean squared displacement data, diffusion coefficients with error bars, simulation durations relative to characteristic relaxation times, and system size checks to confirm that the absence of diffusion in the pairwise-only case is not a simulation artifact.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, "stoichiometric interaction (SI) potential." Location not provided.
+  - **Issue** The term "stoichiometric interaction" is introduced without a brief intuitive explanation of what it means physically. Nonspecialist readers may not immediately grasp why this potential differs from a standard pairwise interaction.
+  - **Required correction** Add one sentence in the abstract explaining the physical basis of the SI potential, e.g., that it couples interaction strength to the occupancy state of binding domains.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, model description
+  - **Evidence pointer** Abstract, "We had to combine the SI and a pairwise interaction; the former and the latter represent the specific and nonspecific interactions, respectively." Location not provided.
+  - **Issue** The abstract does not specify how the two potentials are combined (e.g., additive, weighted, or conditional). The relative weighting or coupling scheme could significantly affect the results.
+  - **Required correction** Briefly state the functional form of the combination or refer to a methods section where this is specified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, context
+  - **Evidence pointer** Abstract, "Domain-resolution mesoscopic model simulations have been explored for cases in which condensates are formed by multivalent proteins with tandem domains." Location not provided.
+  - **Issue** The abstract does not mention any prior attempts to address the valency limitation or how the proposed method compares to alternative approaches (e.g., patchy particle models or explicit binding site models).
+  - **Required correction** Add a brief statement in the introduction or discussion situating the SI potential relative to existing methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (valency verification), R1-M2 (quantitative phase diagram agreement), R1-M3 (fluidity difference). These three concerns are blocking because the abstract alone does not provide sufficient evidence to establish the central claims of the manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a valency-regulating potential for mesoscopic LLPS simulations appears novel, though the abstract does not fully establish how it differs from existing approaches.
+  - Scientific importance: The work addresses a genuine need in the LLPS simulation community and could have broad utility if the method is validated. The quantitative comparison with experiments, if rigorous, would enhance importance.
+  - Interdisciplinary readership: The topic is relevant to biophysics, computational chemistry, and cell biology. The abstract is accessible to these audiences, though the terminology could be clarified for nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone. The blocking concerns above must be resolved.
+  - Readability for nonspecialists: The abstract is generally clear but would benefit from a brief explanation of the SI potential and its physical motivation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea and honest reporting of limitations, but the absence of methods, data, and figures prevents verification of the central claims. I would be supportive if the technical concerns are resolved in the full manuscript, particularly the valency verification, the quantitative criteria for phase diagram agreement, and the fluidity comparison.
+
+## Risk / unsupported claims
+- The claim that the SI potential maintains valency is unsupported without quantitative verification data.
+- The claim of quantitative agreement with experimental phase diagrams in "all but one case" is unsupported without phase diagram data, agreement metrics, and identification of the exceptional case.
+- The claim that pairwise interaction alone shows "no detectable diffusion" is unsupported without diffusion data and simulation time checks.
+- The relative performance of the SI potential compared to other valency-regulating methods is not addressed and cannot be assessed.

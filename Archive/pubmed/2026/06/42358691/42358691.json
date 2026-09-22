@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "42358691",
+    "doi": "10.1021/jacsau.6c00322",
+    "title": "A Molecular Grammar for Programmable Multiphase Protein-RNA Vesicles."
+  },
+  "content": {
+    "abstract": "Protein-RNA phase separation gives rise to biomolecular condensates with rich internal organization, yet the molecular rules that connect sequence-encoded interactions to the emergent condensate spatial organization remain poorly understood. Here, using large-scale residue-level coarse-grained simulations, we identify a molecular grammar that governs the formation of multiphase protein-RNA condensates. We show that asymmetries in protein-protein and protein-RNA interactions, together with protein stoichiometry, chain length, and condensate density, collectively determine whether condensates adopt homogeneous, layered, biphasic, or vesicle-like morphologies. Vesicular condensates form spontaneously from well-mixed initial conditions without requiring flux-driven oversaturation or extreme charge imbalance, distinguishing this mechanism from previously proposed routes to condensate hollowing. We rationalize the full morphological progression as sequence-encoded amphiphile self-assembly: the protein-RNA complex behaves as a single-chain amphiphile whose effective packing parameter is set by Domain H/L stoichiometry, spanning micelles, cylinders, hollow vesicles, and inverse phases.",
+    "keywords": [
+      "biomolecular condensates",
+      "coarse-grained simulations",
+      "hollow condensates",
+      "molecular grammar",
+      "multiphase vesicles",
+      "phase separation",
+      "protein-RNA interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, Vysakh",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States. RINGGOLD: 1177",
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States. RINGGOLD: 1177",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, United States.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States.",
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, United States.",
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Jun 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 16:10",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41452986",
+      "41187075",
+      "40604277",
+      "40525694",
+      "40474273",
+      "40403066",
+      "40108179",
+      "39937954",
+      "39866835",
+      "39806140",
+      "39551864",
+      "39432826",
+      "38949285",
+      "38885177",
+      "38580324",
+      "38571310",
+      "38383656",
+      "38363841",
+      "38331392",
+      "37973891",
+      "37794023",
+      "37735903",
+      "37735186",
+      "37645312",
+      "37470705",
+      "37408305",
+      "37325682",
+      "36875159",
+      "36839691",
+      "36595668",
+      "36469950",
+      "36424481",
+      "36223394",
+      "36196602",
+      "35516774",
+      "35378855",
+      "34947284",
+      "34916288",
+      "34129784",
+      "34103467",
+      "33597515",
+      "33558506",
+      "33264400",
+      "32954548",
+      "32934220",
+      "32824618",
+      "32571937",
+      "31792412",
+      "31743027",
+      "31626750",
+      "31117592",
+      "30926670",
+      "29544249",
+      "29364893",
+      "28556382",
+      "27602576",
+      "27289443",
+      "26777405",
+      "21500218",
+      "20462355",
+      "19229944",
+      "18083189",
+      "16220905",
+      "15070345",
+      "4273690"
+    ],
+    "similar": [
+      "42358691",
+      "41867831",
+      "35727989",
+      "33558506",
+      "42146575",
+      "38383656",
+      "40985078",
+      "36993212",
+      "40848932",
+      "42517612",
+      "40172489",
+      "36883003",
+      "40954121",
+      "40782375",
+      "41670285",
+      "40661423",
+      "36191226",
+      "40196628",
+      "40009520",
+      "37470705",
+      "40661408",
+      "39386700",
+      "42126444",
+      "34762868",
+      "40881393",
+      "39605385",
+      "41169547",
+      "39636939",
+      "37194953",
+      "37668016",
+      "40661504",
+      "41279444",
+      "41637578",
+      "30926670",
+      "32571937",
+      "33672806",
+      "39937084",
+      "37684240",
+      "37276062",
+      "39975191",
+      "39578406",
+      "41659460",
+      "37205474",
+      "35108264",
+      "41573846",
+      "40028356",
+      "40136009",
+      "42056202",
+      "40985614",
+      "39356108",
+      "37408305",
+      "42143038",
+      "41415414",
+      "41933903",
+      "35378855",
+      "33982350",
+      "33864415",
+      "41415473",
+      "42260147",
+      "35293386",
+      "41868013",
+      "37705794",
+      "41726936",
+      "40098319",
+      "36819870",
+      "35364105",
+      "40766493",
+      "37252985",
+      "41452986",
+      "41575805",
+      "41645509",
+      "41272271",
+      "39541973",
+      "39319382",
+      "41187075",
+      "37486948",
+      "41129218",
+      "38308651",
+      "36175408",
+      "37386790",
+      "31634364",
+      "42223083",
+      "40747072",
+      "39386696",
+      "41256623",
+      "38987300",
+      "38416758",
+      "37105967",
+      "41540001",
+      "37034777",
+      "37586369",
+      "38260590",
+      "41524628",
+      "42350353",
+      "40626470",
+      "42055532",
+      "37131735",
+      "41804277",
+      "42465451",
+      "34785657"
+    ],
+    "review": [
+      "42358691",
+      "40172489",
+      "37276062"
+    ],
+    "pmc": [
+      "13292008"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42358691/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.6c00322",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

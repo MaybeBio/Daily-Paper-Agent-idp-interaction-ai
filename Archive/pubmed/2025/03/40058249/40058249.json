@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "40058249",
+    "doi": "10.1016/j.sbi.2025.103026",
+    "title": "Deciphering driving forces of biomolecular phase separation from simulations."
+  },
+  "content": {
+    "abstract": "The formation and modulation of biomolecular condensates as well as their structural and dynamic properties are determined by an intricate interplay of different driving forces, which down at the microscopic scale involve molecular interactions of the biological macromolecules and the surrounding solvent and ions. Molecular simulations are increasingly used to provide detailed insights into the various processes and thermodynamic driving forces at play, thereby yielding mechanistic understanding and aiding the interpretation of experiments at the level of individual amino acid residues or even atoms. Here we summarize recent advances in the field of biocondensate simulations with a focus on coarse-grained and all-atom molecular dynamics (MD) simulations. We highlight possible future challenges concerning computationally efficient and physically accurate simulations of increasingly large and complex biocondensate systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Thermodynamics",
+      "*Biomolecular Condensates/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schafer, Lars V",
+        "Stelzl, Lukas S"
+      ],
+      "short_names": [
+        "Schafer LV",
+        "Stelzl LS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Theoretical Chemistry, Ruhr University Bochum, Universitatsstr. 150, D-44801 Bochum, Germany. Electronic address: lars.schaefer@ruhr-uni-bochum.de.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Johann-Becher-Weg 7, D-55128 Mainz, Germany. Electronic address: lstelzl@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schäfer, Lars V",
+        "short_name": "Schäfer LV",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Ruhr University Bochum, Universitätsstr. 150, D-44801 Bochum, Germany. Electronic address: lars.schaefer@ruhr-uni-bochum.de."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Johann-Becher-Weg 7, D-55128 Mainz, Germany. Electronic address: lstelzl@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 07:59",
+    "fetched_at": "2026-09-21 16:32:45"
+  },
+  "links": {
+    "cites": [
+      "42275977",
+      "42159250",
+      "42055532",
+      "41991555",
+      "41902470",
+      "41811876",
+      "41446138",
+      "41169547",
+      "40475677"
+    ],
+    "refs": [],
+    "similar": [
+      "40058249",
+      "40172489",
+      "39227569",
+      "39636939",
+      "40009520",
+      "39804953",
+      "35727989",
+      "40408482",
+      "38649740",
+      "40028356",
+      "39605385",
+      "40203038",
+      "37735186",
+      "39034215",
+      "40373290",
+      "37695778",
+      "30926670",
+      "37468629",
+      "40229261",
+      "38383403",
+      "40108179",
+      "36883003",
+      "38445729",
+      "35501484",
+      "39225535",
+      "37194953",
+      "39271032",
+      "37535543",
+      "37171907",
+      "39964249",
+      "37252985",
+      "39178343",
+      "38383656",
+      "38181073",
+      "38979955",
+      "40455990",
+      "38832749",
+      "34767801",
+      "40098319",
+      "39541973",
+      "38413010",
+      "33864415",
+      "39319382",
+      "40439464",
+      "35793442",
+      "36071192",
+      "38429263",
+      "39818849",
+      "38593269",
+      "34772789",
+      "39042834",
+      "36758221",
+      "34772786",
+      "23912807",
+      "34716273",
+      "35325654",
+      "37772963",
+      "38781377",
+      "39947751",
+      "39987501",
+      "37470705",
+      "33453922",
+      "40136009",
+      "30508766",
+      "38580324",
+      "37043540",
+      "37408305",
+      "38348795",
+      "36993212",
+      "34772790",
+      "39484915",
+      "37742069",
+      "35597639",
+      "39486437",
+      "26574429",
+      "39591652",
+      "40305655",
+      "39575859",
+      "21830782",
+      "23406326",
+      "33704061",
+      "24506488",
+      "40129029",
+      "39677697",
+      "37721444",
+      "32199430",
+      "36004748",
+      "34074792",
+      "36778479",
+      "33314347",
+      "40028898",
+      "23451897",
+      "37684240",
+      "38999934",
+      "39196681",
+      "40131954",
+      "17949219",
+      "37131742",
+      "28530269",
+      "39670461"
+    ],
+    "review": [
+      "40058249",
+      "40172489",
+      "39034215",
+      "38383403",
+      "38445729",
+      "39271032",
+      "37171907",
+      "39964249",
+      "39178343",
+      "38979955",
+      "34767801",
+      "38413010",
+      "36071192",
+      "34772789",
+      "34772786",
+      "37772963",
+      "39947751",
+      "30508766",
+      "38348795",
+      "34772790",
+      "39575859",
+      "21830782"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(25)00044-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

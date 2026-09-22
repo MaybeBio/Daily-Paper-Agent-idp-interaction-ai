@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36452990",
+    "doi": "10.1002/pro.4522",
+    "title": "DisCanVis: Visualizing integrated structural and functional annotations to better understand the effect of cancer mutations located within disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play important roles in a wide range of biological processes and have been associated with various diseases, including cancer. In the last few years, cancer genome projects have systematically collected genetic variations underlying multiple cancer types. In parallel, the number and different types of disordered proteins characterized by experimental methods have also significantly increased. Nevertheless, the role of IDPs in various types of cancer is still not well understood. In this work, we present DisCanVis, a novel visualization tool for cancer mutations with a special focus on IDPs. In order to aid the interpretation of observed mutations, genome level information is combined with information about the structural and functional properties of proteins. The web server enables users to inspect individual proteins, collect examples with existing annotations of protein disorder and associated function or to discover currently uncharacterized examples with likely disease relevance. Through a REST API interface and precompiled tables the analysis can be extended to a group of proteins.",
+    "keywords": [
+      "cancer genome projects",
+      "intrinsically disordered proteins",
+      "mutations",
+      "sequence predictions",
+      "sequence variations",
+      "visualization",
+      "web server"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Neoplasms/genetics",
+      "Mutation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deutsch, Norbert",
+        "Pajkos, Matyas",
+        "Erdos, Gabor",
+        "Dosztanyi, Zsuzsanna"
+      ],
+      "short_names": [
+        "Deutsch N",
+        "Pajkos M",
+        "Erdos G",
+        "Dosztanyi Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5791-9825",
+        "ORCID: 0000-0001-6218-5192",
+        "ORCID: 0000-0002-3624-5937"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Institute of Biology, ELTE Eotvos Lorand University, Budapest, Hungary.",
+        "Department of Biochemistry, Institute of Biology, ELTE Eotvos Lorand University, Budapest, Hungary.",
+        "Department of Biochemistry, Institute of Biology, ELTE Eotvos Lorand University, Budapest, Hungary.",
+        "Department of Biochemistry, Institute of Biology, ELTE Eotvos Lorand University, Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deutsch, Norbert",
+        "short_name": "Deutsch N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Biology, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Pajkos, Mátyás",
+        "short_name": "Pajkos M",
+        "identifiers": [
+          "0000-0001-5791-9825"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Biology, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Erdős, Gábor",
+        "short_name": "Erdős G",
+        "identifiers": [
+          "0000-0001-6218-5192"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Biology, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Dosztányi, Zsuzsanna",
+        "short_name": "Dosztányi Z",
+        "identifiers": [
+          "0000-0002-3624-5937"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Biology, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/02 06:00",
+    "fetched_at": "2026-09-20 17:11:30"
+  },
+  "links": {
+    "cites": [
+      "41883999",
+      "41390769"
+    ],
+    "refs": [
+      "35487971",
+      "35061901",
+      "34791404",
+      "34791371",
+      "34788852",
+      "34718738",
+      "34554931",
+      "34048569",
+      "33875885",
+      "33806614",
+      "33237329",
+      "33237286",
+      "33125078",
+      "32778778",
+      "32620905",
+      "32005838",
+      "31777943",
+      "31738401",
+      "31612960",
+      "31444270",
+      "30395331",
+      "30371878",
+      "29860432",
+      "29385418",
+      "29212253",
+      "29036655",
+      "29024246",
+      "28292960",
+      "27899635",
+      "27159632",
+      "27150584",
+      "27085803",
+      "26993806",
+      "26152401",
+      "25831548",
+      "25741868",
+      "25691825",
+      "25613900",
+      "24641320",
+      "23838290",
+      "23665034",
+      "23609542",
+      "22908213",
+      "22399315",
+      "22135298",
+      "21918772",
+      "20052757",
+      "17576682",
+      "16024819",
+      "15608251",
+      "15019783",
+      "12112692",
+      "12045153",
+      "11380252",
+      "11125122",
+      "10592235",
+      "10592178",
+      "9862982",
+      "9665178",
+      "7803762"
+    ],
+    "similar": [
+      "36452990",
+      "34626492",
+      "31756456",
+      "33017101",
+      "34048569",
+      "34390736",
+      "26387101",
+      "21918772",
+      "35789137",
+      "36551304",
+      "35275927",
+      "32859072",
+      "24532081",
+      "36257361",
+      "21686180",
+      "33230318",
+      "25611056",
+      "33806614",
+      "32731489",
+      "32020911",
+      "30527137",
+      "32103094",
+      "28369666",
+      "32771522",
+      "23794453",
+      "32696395",
+      "25502193",
+      "32503351",
+      "25287424",
+      "31382021",
+      "36178373",
+      "35436286",
+      "37167423",
+      "22080206",
+      "30058229",
+      "33237329",
+      "27153636",
+      "27794210",
+      "27548131",
+      "28076807",
+      "24656084",
+      "33355572",
+      "26387104",
+      "25496281",
+      "30813315",
+      "24008243",
+      "23170892",
+      "29982297",
+      "24010708",
+      "32579908",
+      "35454181",
+      "28095698",
+      "24739176",
+      "34032235",
+      "36416266",
+      "26387099",
+      "27988422",
+      "36310204",
+      "32253236",
+      "28381244",
+      "27844185",
+      "29076577",
+      "27004461",
+      "34545666",
+      "35034725",
+      "27484738",
+      "32034199",
+      "36641212",
+      "31613621",
+      "34922214",
+      "25331250",
+      "32295482",
+      "30909517",
+      "36291634",
+      "26851284",
+      "30218496",
+      "33087759",
+      "26387105",
+      "35139468",
+      "24098099",
+      "31375817",
+      "28365882",
+      "28226222",
+      "30733475",
+      "26549326",
+      "32161300",
+      "32623047",
+      "24063528"
+    ],
+    "review": [
+      "36452990",
+      "34390736",
+      "26387101",
+      "36551304",
+      "24532081",
+      "36257361",
+      "21686180",
+      "32020911",
+      "30527137",
+      "23794453",
+      "25502193",
+      "25287424",
+      "31382021",
+      "22080206",
+      "27794210",
+      "27548131",
+      "24656084",
+      "33355572",
+      "26387104",
+      "24008243",
+      "23170892",
+      "29982297",
+      "26387099",
+      "27988422",
+      "32253236",
+      "27004461",
+      "34545666",
+      "32034199",
+      "34922214",
+      "30909517",
+      "26387105",
+      "35139468",
+      "28226222"
+    ],
+    "pmc": [
+      "9793970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36452990/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36452990",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4522",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

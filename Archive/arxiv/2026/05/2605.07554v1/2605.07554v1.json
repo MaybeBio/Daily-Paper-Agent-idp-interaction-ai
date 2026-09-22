@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2605.07554v1",
+  "title": "ProteinJEPA: Latent prediction complements protein language models",
+  "doi": "",
+  "abstract": "Protein language models are trained primarily with masked language modeling (MLM), which predicts amino-acid identities at masked positions. We ask whether latent-space prediction can complement these token-level objectives under matched wall-clock budget. Across pretrained and random-init protein sequence encoders at 35--150M parameters, we find that the best protein-JEPA design is not all-position latent prediction but a variant: predicting latent targets only at masked positions, and retaining the MLM cross-entropy. We call this recipe masked-position MLM+JEPA. On a 16-task downstream suite (15 frozen linear probes plus SCOPe-40 zero-shot fold retrieval), under matched wall-clock budgets, this recipe wins more tasks than it loses against MLM-only continuation: 10 wins / 3 losses / 3 ties (hereafter W/L/T) on pretrained ESM2-35M, 11/2/3 on ESM2-150M while results in pretraining from scratch are mixed (6/8/2). Gains are seen for multiple models on 11 of 16 tasks, including stability, \\b{eta}β\\b{eta}-lactamase fitness, variant effect, intrinsic disorder, remote homology, enzyme classification, and SCOPe-40 fold retrieval. Tasks with more losses than wins are Fluorescence (TAPE) and Peptide-HLA Binding. All-position MLM+JEPA matches MLM-only overall but does not reproduce the masked-position gains. JEPA-only (no MLM) collapses in nearly every experiment. We conclude that JEPA, when combined with MLM, is competitive and can outperform pure MLM in pretraining and continued training, even under matched wall-clock budgets.",
+  "authors": [
+    "Dan Ofer",
+    "Dafna Shahaf",
+    "Michal Linial"
+  ],
+  "published_date": "2026-05-08T10:30:54Z",
+  "updated_date": "2026-05-08T10:30:54Z",
+  "journal": "",
+  "category": "cs.LG, cs.AI, q-bio.BM, stat.ML",
+  "landing_url": "https://arxiv.org/abs/2605.07554v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.07554v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "cs.AI",
+    "q-bio.BM",
+    "stat.ML"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2605.07554v1",
+    "raw_categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM",
+      "stat.ML"
+    ],
+    "journal_ref": ""
+  }
+}

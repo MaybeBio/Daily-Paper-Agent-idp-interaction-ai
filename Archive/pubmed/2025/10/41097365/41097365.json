@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "41097365",
+    "doi": "10.3390/molecules30193946",
+    "title": "A Hybrid UA-CG Force Field for Aggregation Simulation of Amyloidogenic Peptide via Liquid-like Intermediates."
+  },
+  "content": {
+    "abstract": "Elucidating amyloid formation inside biomolecular condensates requires models that resolve (i) local, chemistry specific contacts controlling beta registry and (ii) mesoscale phase behavior and cluster coalescence on microsecond timescales-capabilities beyond single resolution models. We present a hybrid united atom/coarse grained (UA-CG) force field coupling a PACE UA peptide model with the MARTINI CG framework. Cross resolution nonbonded parameters are first optimized against all atom side chain potentials of mean force to balance the relative strength between different types of interactions and then refined through universal parameter scaling by matching radius of gyration distributions for specific systems using. We applied this approach to simulate a recently reported model system comprising the LVFFAR(9) peptide that can co-assemble into amyloid fibrils via liquid-liquid phase separation. Our ten-microsecond simulations reveal rapid droplet formation populated by micelle like nanostructures with its inner core composed of LVFF clusters. The nanostructures can further fuse but the fusion is reaction-limited due to an electrostatic coalescence barrier. beta structures emerge once clusters exceed ~10 peptides, and the LVFFAR(9) fraction modulates amyloid polymorphism, reversing parallel versus antiparallel registry at lower LVFFAR(9). These detailed insights generated from long simulations highlight the promise of our hybrid UA-CG strategy in investigating the molecular mechanism of condensate aging.",
+    "keywords": [
+      "amyloidogenesis",
+      "biomolecular condensates",
+      "hybrid resolution simulation",
+      "liquid-liquid phase separation",
+      "reaction limited coalescence"
+    ],
+    "mesh_terms": [
+      "*Amyloidogenic Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Amyloid/chemistry",
+      "*Protein Aggregates",
+      "*Peptides/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Hang",
+        "Li, Shu",
+        "Han, Wei"
+      ],
+      "short_names": [
+        "Zheng H",
+        "Li S",
+        "Han W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2825-0576",
+        "ORCID: 0000-0002-4434-6172",
+        "ORCID: 0000-0003-0759-1766"
+      ],
+      "affiliations": [
+        "School of Chemical Biology and Biotechnology, Peking University Shenzhen Graduate School, Shenzhen 518055, China.",
+        "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China.",
+        "Department of Chemistry, Hong Kong Baptist University, Kowloon, Hong Kong 999077, China.",
+        "Institute of Chemical Biology, Shenzhen Bay Laboratory, Shenzhen 518132, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Hang",
+        "short_name": "Zheng H",
+        "identifiers": [
+          "0000-0002-2825-0576"
+        ],
+        "affiliations": [
+          "School of Chemical Biology and Biotechnology, Peking University Shenzhen Graduate School, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shu",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0002-4434-6172"
+        ],
+        "affiliations": [
+          "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, China."
+        ]
+      },
+      {
+        "full_name": "Han, Wei",
+        "short_name": "Han W",
+        "identifiers": [
+          "0000-0003-0759-1766"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Hong Kong Baptist University, Kowloon, Hong Kong 999077, China.",
+          "Institute of Chemical Biology, Shenzhen Bay Laboratory, Shenzhen 518132, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2025 Oct 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 06:30",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40830340",
+      "40028356",
+      "39908323",
+      "39134696",
+      "39103332",
+      "38374639",
+      "38206800",
+      "37645312",
+      "37171907",
+      "36881934",
+      "36607820",
+      "36175408",
+      "35946870",
+      "35795820",
+      "35727989",
+      "35561002",
+      "34716273",
+      "33934416",
+      "33510441",
+      "33307683",
+      "33049214",
+      "33049211",
+      "32619404",
+      "31753533",
+      "30682370",
+      "29602697",
+      "29364893",
+      "29301985",
+      "28225081",
+      "26883720",
+      "26621095",
+      "26616630",
+      "26589065",
+      "26587968",
+      "26574392",
+      "23204949",
+      "23071427",
+      "10031026"
+    ],
+    "similar": [
+      "41097365",
+      "23406326",
+      "22742737",
+      "40708482",
+      "28906103",
+      "35946870",
+      "35293386",
+      "34830214",
+      "21494747",
+      "37070341",
+      "30973229",
+      "24624945",
+      "31301554",
+      "39136546",
+      "39046235",
+      "23267112",
+      "33356290",
+      "40128232",
+      "40419040",
+      "31968963",
+      "21761818",
+      "37043540",
+      "39854227",
+      "38382283",
+      "34491058",
+      "40172489",
+      "27396751",
+      "37016179",
+      "20557067",
+      "22911567",
+      "26587669",
+      "34313292",
+      "38731878",
+      "41091939",
+      "36615582",
+      "37725682",
+      "40782375",
+      "35793442",
+      "30792475",
+      "33727072",
+      "33307683",
+      "37414583",
+      "41071752",
+      "33221697",
+      "39349560",
+      "30170005",
+      "38112495",
+      "24368046",
+      "26301845",
+      "30677300",
+      "21146432",
+      "35561002",
+      "30141801",
+      "38347806",
+      "33494369",
+      "25804723",
+      "39226847",
+      "26340561",
+      "29035554",
+      "24506488",
+      "38261634",
+      "26574390",
+      "34391803",
+      "31020417",
+      "37329644",
+      "34940778",
+      "28992696",
+      "28102001",
+      "32070740",
+      "29985420",
+      "39283804",
+      "40877270",
+      "26574429",
+      "41088757",
+      "25029558",
+      "27012425",
+      "35481658",
+      "26965454",
+      "36341999",
+      "41202479",
+      "35167075",
+      "39116032",
+      "34165988",
+      "32145950",
+      "37931005",
+      "37267850",
+      "38979955",
+      "30080038",
+      "21219143",
+      "35060728",
+      "25068615",
+      "27610460",
+      "23298062",
+      "38652055",
+      "24712306",
+      "35617668",
+      "24686253",
+      "40436371",
+      "26575730",
+      "28283568"
+    ],
+    "review": [
+      "41097365",
+      "30973229",
+      "40172489",
+      "27396751",
+      "37414583",
+      "33221697",
+      "24368046",
+      "26965454",
+      "37267850",
+      "38979955"
+    ],
+    "pmc": [
+      "12526129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules30193946",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41097365/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

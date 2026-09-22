@@ -1,0 +1,43 @@
+{
+  "source": "arxiv",
+  "source_id": "2401.10438v1",
+  "title": "Diffusion of intrinsically disordered proteins within viscoelastic membraneless droplets",
+  "doi": "10.1103/jsdl-chm9",
+  "abstract": "In living cells, intrinsically disordered proteins (IDPs), such as FUS and DDX4, undergo phase separation, forming biomolecular condensates. Using molecular dynamics simulations, we investigate their behavior in their respective homogenous droplets. We find that the proteins exhibit transient subdiffusion due to the viscoelastic nature and confinement effects in the droplets. The conformation and the instantaneous diffusivity of the proteins significantly vary between the interior and the interface of the droplet, resulting in non-Gaussianity in the displacement distributions. This study highlights key aspects of IDP behavior in biomolecular condensates.",
+  "authors": [
+    "Fuga Watanabe",
+    "Takuma Akimoto",
+    "Robert B. Best",
+    "Kresten Lindorff-Larsen",
+    "Ralf Metzler",
+    "Eiji Yamamoto"
+  ],
+  "published_date": "2024-01-19T01:02:25Z",
+  "updated_date": "2024-01-19T01:02:25Z",
+  "journal": "Phys. Rev. Research 7, 043117 (2025)",
+  "category": "cond-mat.soft, cond-mat.stat-mech, physics.bio-ph, physics.comp-ph, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2401.10438v1",
+  "pdf_url": "https://arxiv.org/pdf/2401.10438v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.stat-mech",
+    "physics.bio-ph",
+    "physics.comp-ph",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2401.10438v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.stat-mech",
+      "physics.bio-ph",
+      "physics.comp-ph",
+      "q-bio.BM"
+    ],
+    "journal_ref": "Phys. Rev. Research 7, 043117 (2025)"
+  }
+}

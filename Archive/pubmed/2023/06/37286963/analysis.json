@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37286963",
+  "title": "Rescuing biologically relevant consensus regions across replicated samples.",
+  "authors": "Jalili, Vahid; Cremona, Marzia A; Palluzzi, Fernando",
+  "journal": "BMC bioinformatics",
+  "published_date": "2023-06-08",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究ChIP-seq复制样本中弱结合位点的统计救援方法（MSPC），对象为蛋白-DNA结合，不涉及无序蛋白、PPI或AI/物理模拟，与本课题无关。",
+  "abstract": "BACKGROUND: Protein-DNA binding sites of ChIP-seq experiments are identified where the binding affinity is significant based on a given threshold. The choice of the threshold is a trade-off between conservative region identification and discarding weak, but true binding sites. RESULTS: We rescue weak binding sites using MSPC, which efficiently exploits replicates to lower the threshold required to identify a site while keeping a low false-positive rate, and we compare it to IDR, a widely used post-processing method for identifying highly reproducible peaks across replicates. We observe several master transcription regulators (e.g., SP1 and GATA3) and HDAC2-GATA1 regulatory networks on rescued regions in K562 cell line. CONCLUSIONS: We argue the biological relevance of weak binding sites and the information they add when rescued by MSPC. An implementation of the proposed extended MSPC methodology and the scripts to reproduce the performed analysis are freely available at https://genometric.github.io/MSPC/ ; MSPC is distributed as a command-line application and an R package available from Bioconductor ( https://doi.org/doi:10.18129/B9.bioc.rmspc ).",
+  "abstract_zh": "背景：在ChIP-seq实验中，蛋白质-DNA结合位点根据给定阈值下结合亲和力的显著性进行识别。阈值的选择是在保守区域识别与丢弃弱但真实的结合位点之间的权衡。结果：我们使用MSPC来拯救弱结合位点，该方法有效利用重复样本降低识别位点所需的阈值，同时保持较低的假阳性率，并将其与IDR（一种广泛用于跨重复样本识别高度可重复峰的后处理方法）进行比较。我们在K562细胞系中拯救的区域观察到多个主转录调控因子（如SP1和GATA3）以及HDAC2-GATA1调控网络。结论：我们论证了弱结合位点的生物学相关性，以及当它们被MSPC拯救时所增加的信息。所提出的扩展MSPC方法的实现及用于重现所执行分析的脚本可在 https://genometric.github.io/MSPC/ 免费获取；MSPC作为命令行应用程序和R包分发，可从Bioconductor获取（ https://doi.org/doi:10.18129/B9.bioc.rmspc ）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37286963/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37286963/",
+  "paper_page_path": "papers/pubmed/37286963/index.html"
+}

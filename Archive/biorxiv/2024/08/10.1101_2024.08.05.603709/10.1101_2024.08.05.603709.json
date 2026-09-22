@@ -1,0 +1,374 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.05.603709",
+  "title": "Structures of human PTP1B variants reveal allosteric sites to target for weight loss therapy",
+  "doi": "10.1101/2024.08.05.603709",
+  "abstract": "Protein Tyrosine Phosphatase 1B (PTP1B) is a negative regulator of leptin signaling whose disruption protects against diet-induced obesity in mice. We investigated whether structural characterization of human PTP1B variant proteins might reveal allosteric sites to target for weight loss therapy. To do so, we selected 12 rare variants for functional characterization from exomes from 997 people with persistent thinness and 200,000 people from UK Biobank. Seven of 12 variants impaired PTP1B function by increasing leptin-stimulated STAT3 phosphorylation in human cells. Focusing on the variants in and near the ordered catalytic domain, we ascribed structural mechanism to their functional effects using in vitro enzyme activity assays, room-temperature X-ray crystallography, and local hydrogen-deuterium exchange mass spectrometry (HDX-MS). By combining these complementary structural biology experiments for multiple variants, we characterize an inherent allosteric network in PTP1B that differs from previously reported allosteric inhibitor-driven mechanisms mediated by catalytic loop motions. The most functionally impactful variant sites map to highly ligandable surface sites, suggesting untapped opportunities for allosteric drug design. Overall, these studies can inform the targeted design of allosteric PTP1B inhibitors for the treatment of obesity. <h4>Significance</h4> Obesity is a growing public health concern worldwide. The human enzyme PTP1B is a validated obesity drug target, but to date, effective PTP1B inhibitors have not been developed. Allosteric drugs, which target parts of a protein distant from the active site, offer advantages for specific inhibition — but finding promising allosteric sites that bind ligands and convey allosteric signals remains challenging. To address this knowledge gap, we used human genetic studies in thin people to identify amino acid variants that diminish PTP1B function. We then used complementary structural biology methods to show that the variants exploit distinct allosteric wiring within PTP1B that includes ligand-enriched binding sites. This work demonstrates how a unique combination of genetics and biophysics can unveil promising allosteric sites in challenging drug target proteins.",
+  "authors": [
+    "Perdikari A",
+    "Woods VA",
+    "Ebrahim A",
+    "Lawler K",
+    "Bounds R",
+    "Singh NI",
+    "Mehlman T(",
+    "Riley BT",
+    "Sharma S",
+    "Morris JW",
+    "Keogh JM",
+    "Henning E",
+    "Smith M",
+    "Farooqi IS",
+    "Keedy DA"
+  ],
+  "published_date": "2024-08-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.603709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.603709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR891617",
+    "raw_record": {
+      "id": "PPR891617",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR891617"
+        ]
+      },
+      "doi": "10.1101/2024.08.05.603709",
+      "title": "Structures of human PTP1B variants reveal allosteric sites to target for weight loss therapy",
+      "authorString": "Perdikari A, Woods VA, Ebrahim A, Lawler K, Bounds R, Singh NI, Mehlman T(, Riley BT, Sharma S, Morris JW, Keogh JM, Henning E, Smith M, Farooqi IS, Keedy DA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Perdikari A",
+            "lastName": "Perdikari",
+            "firstName": "Aliki",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woods VA",
+            "lastName": "Woods",
+            "firstName": "Virgil",
+            "initials": "VA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                },
+                {
+                  "affiliation": "PhD Program in Biochemistry, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ebrahim A",
+            "lastName": "Ebrahim",
+            "firstName": "Ali",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lawler K",
+            "lastName": "Lawler",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bounds R",
+            "lastName": "Bounds",
+            "firstName": "Rebecca",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh NI",
+            "lastName": "Singh",
+            "firstName": "Nathanael",
+            "initials": "NI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mehlman T(",
+            "lastName": "Mehlman",
+            "firstName": "Tamar (Skaist)",
+            "initials": "T(",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8896-1628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                },
+                {
+                  "affiliation": "PhD Program in Biochemistry, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riley BT",
+            "lastName": "Riley",
+            "firstName": "Blake",
+            "initials": "BT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma S",
+            "lastName": "Sharma",
+            "firstName": "Shivani",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1128-4331"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                },
+                {
+                  "affiliation": "PhD Program in Biology, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morris JW",
+            "lastName": "Morris",
+            "firstName": "Jackson",
+            "initials": "JW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keogh JM",
+            "lastName": "Keogh",
+            "firstName": "Julia",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Henning E",
+            "lastName": "Henning",
+            "firstName": "Elana",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith M",
+            "lastName": "Smith",
+            "firstName": "Miriam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farooqi IS",
+            "lastName": "Farooqi",
+            "firstName": "Sadaf",
+            "initials": "IS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Cambridge Metabolic Research Laboratories and , Institute of Metabolic Science & ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keedy DA",
+            "lastName": "Keedy",
+            "firstName": "Daniel",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Initiative, ; , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, ; , ,"
+                },
+                {
+                  "affiliation": "PhD Programs in Biochemistry, Biology, and Chemistry, ; , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1128-4331"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8896-1628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Protein Tyrosine Phosphatase 1B (PTP1B) is a negative regulator of leptin signaling whose disruption protects against diet-induced obesity in mice. We investigated whether structural characterization of human PTP1B variant proteins might reveal allosteric sites to target for weight loss therapy. To do so, we selected 12 rare variants for functional characterization from exomes from 997 people with persistent thinness and 200,000 people from UK Biobank. Seven of 12 variants impaired PTP1B function by increasing leptin-stimulated STAT3 phosphorylation in human cells. Focusing on the variants in and near the ordered catalytic domain, we ascribed structural mechanism to their functional effects using  in vitro enzyme activity assays, room-temperature X-ray crystallography, and local hydrogen-deuterium exchange mass spectrometry (HDX-MS). By combining these complementary structural biology experiments for multiple variants, we characterize an inherent allosteric network in PTP1B that differs from previously reported allosteric inhibitor-driven mechanisms mediated by catalytic loop motions. The most functionally impactful variant sites map to highly ligandable surface sites, suggesting untapped opportunities for allosteric drug design. Overall, these studies can inform the targeted design of allosteric PTP1B inhibitors for the treatment of obesity.  <h4>Significance</h4>  Obesity is a growing public health concern worldwide. The human enzyme PTP1B is a validated obesity drug target, but to date, effective PTP1B inhibitors have not been developed. Allosteric drugs, which target parts of a protein distant from the active site, offer advantages for specific inhibition — but finding promising allosteric sites that bind ligands and convey allosteric signals remains challenging. To address this knowledge gap, we used human genetic studies in thin people to identify amino acid variants that diminish PTP1B function. We then used complementary structural biology methods to show that the variants exploit distinct allosteric wiring within PTP1B that includes ligand-enriched binding sites. This work demonstrates how a unique combination of genetics and biophysics can unveil promising allosteric sites in challenging drug target proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.05.603709"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.05.603709"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR891617"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR891617&type=FILE&fileName=EMS203661-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41135676",
+            "reference": "The Journal of biological chemistry. 2025 Dec;301(12):110852",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203661",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ensembl",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-08-09",
+      "firstPublicationDate": "2024-08-07",
+      "firstIndexDate": "2024-08-09",
+      "fullTextReceivedDate": "2025-03-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

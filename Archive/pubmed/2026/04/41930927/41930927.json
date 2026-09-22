@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41930927",
+    "doi": "10.1002/smll.202514678",
+    "title": "NPM1 Undergoes Salt-Dependent Reentrant Phase Separation Driven by IDR Conformational Plasticity and Electrostatic Crosstalk."
+  },
+  "content": {
+    "abstract": "The liquid-liquid phase separation (LLPS) of nucleophosmin1 (NPM1) is essential for the assembly of pre-ribosomal subunits. However, the interplay between the conformational transitions of the intrinsically disordered region (IDR) of NPM1 and its biologically critical phase transition remains poorly understood. Here, we uncover a salt-concentration-dependent reentrant phase behavior of NPM1 originating from electrostatically driven IDR plasticity. By integrating molecular dynamics (MD) simulations and single-molecule Forster resonance energy transfer (smFRET) techniques, we demonstrate that low salt concentrations stabilize intrachain interactions, maintaining a compact conformation that suppresses intermolecular contact and thereby inhibits LLPS. At intermediate ionic strengths, weakened intrachain interactions result in conformational extension, enabling interchain electrostatic networks that facilitate LLPS. Excessive charge screening at high salt concentrations disrupts both intra- and intermolecular interactions, leading to condensate dissolution. Our study establishes a mechanistic framework linking conformational plasticity, intra- and interchain electrostatic interactions, and phase behavior, expanding our understanding of how dynamic molecular architectures of the NPM1 IDR govern biomolecular condensate assembly and its functions in ribosome biogenesis within the granular component region of the nucleolus.",
+    "keywords": [
+      "NPM1",
+      "conformational plasticity",
+      "liquid-liquid phase separation",
+      "molecular dynamics simulation",
+      "single-molecule FRET"
+    ],
+    "mesh_terms": [
+      "Nucleophosmin",
+      "Phase Separation",
+      "*Static Electricity",
+      "*Nuclear Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Fluorescence Resonance Energy Transfer",
+      "Salts/chemistry/pharmacology",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhen, Yanning",
+        "Tan, Yuan",
+        "Tang, Yiming",
+        "Sneideris, Tomas",
+        "Ausserwoger, Hannes",
+        "Wen, Jitao",
+        "Knowles, Tuomas P J",
+        "Perrett, Sarah",
+        "Wei, Guanghong",
+        "Wu, Si"
+      ],
+      "short_names": [
+        "Zhen Y",
+        "Tan Y",
+        "Tang Y",
+        "Sneideris T",
+        "Ausserwoger H",
+        "Wen J",
+        "Knowles TPJ",
+        "Perrett S",
+        "Wei G",
+        "Wu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7743-8236"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+        "University of the Chinese Academy of Sciences, Beijing, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+        "University of the Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhen, Yanning",
+        "short_name": "Zhen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+          "University of the Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yuan",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sneideris, Tomas",
+        "short_name": "Sneideris T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Ausserwöger, Hannes",
+        "short_name": "Ausserwöger H",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Wen, Jitao",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Perrett, Sarah",
+        "short_name": "Perrett S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Si",
+        "short_name": "Wu S",
+        "identifiers": [
+          "0000-0001-7743-8236"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing, China.",
+          "University of the Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/03 13:36",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41930927",
+      "29483575",
+      "37540843",
+      "30498217",
+      "41804277",
+      "41457474",
+      "40028898",
+      "31751897",
+      "33076213",
+      "34259536",
+      "41001641",
+      "41524628",
+      "39162498",
+      "39466031",
+      "40842365",
+      "34571015",
+      "39922493",
+      "32853771",
+      "35944496",
+      "41433062",
+      "41298246",
+      "33139563",
+      "40966042",
+      "33597515",
+      "41755632",
+      "36524527",
+      "42159288",
+      "42299771",
+      "40449653",
+      "41965924",
+      "38862770",
+      "38526948",
+      "42223083",
+      "39528457",
+      "39342654",
+      "33684117",
+      "42106138",
+      "39089542",
+      "33629837",
+      "42316432",
+      "36463407",
+      "38973194",
+      "39807013",
+      "40654645",
+      "41536170",
+      "36227472",
+      "41481439",
+      "38855848",
+      "40675030",
+      "39531035",
+      "41540001",
+      "37705750",
+      "34737230",
+      "38109356",
+      "36841957",
+      "38965780",
+      "41609052",
+      "36543022",
+      "25207671",
+      "39387162",
+      "38287572",
+      "30823702",
+      "41406720",
+      "40748104",
+      "40925422",
+      "34291921",
+      "40305655",
+      "42438122",
+      "38446061",
+      "41363845",
+      "39738032",
+      "40646517",
+      "36671389",
+      "30981631",
+      "26836305",
+      "39947751",
+      "23276223",
+      "39225535",
+      "33831596",
+      "42127263",
+      "12496069",
+      "41177429",
+      "34374536",
+      "39645030",
+      "40574713",
+      "29548979",
+      "40236119",
+      "40616404",
+      "16771493",
+      "24673507",
+      "39384813",
+      "41000164",
+      "39439298",
+      "38546977",
+      "40093048",
+      "37961614",
+      "40792356",
+      "40053704",
+      "37998041",
+      "41714601"
+    ],
+    "review": [
+      "41930927",
+      "32853771",
+      "36524527",
+      "38855848",
+      "40675030",
+      "34291921",
+      "39947751",
+      "40616404"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/smll.202514678",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

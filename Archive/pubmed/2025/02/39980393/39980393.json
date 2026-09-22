@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "39980393",
+    "doi": "10.1039/d4cp04292a",
+    "title": "Insight into the thermo-responsive phase behavior of the P1 domain of alpha-synuclein using atomistic simulations."
+  },
+  "content": {
+    "abstract": "Biomolecular condensate formation driven by intrinsically disordered proteins (IDPs) is regulated by interactions between various domains of the proteins. Such condensates are implicated in various neurodegenerative diseases. The presynaptic intrinsically disordered protein, alpha-Syn is involved in the pathogenesis of Parkinson's disease. The central non-amyloid beta-component (NAC) domain in the protein is considered to be a major driver of pathogenic aggregation, although recent studies have suggested that the P1 domain from the flanking N-terminal region can act as a 'master controller' for alpha-Syn function and aggregation. To gain molecular insight into the phase behavior of the P1 domain itself, we investigate how assemblies of P1 (residues 36-42) chains phase separate with varying temperatures using all-atom molecular dynamics simulations. The simulations reveal that P1 is able to phase separate above a lower critical solution temperature. Formation of a condensed phase is driven by exclusion of water molecules by the hydrophobic chains. P1 chain density in the condensate is determined by weak multi-chain interactions between the residues. Moreover, tyrosine (Y(39)) is involved in the formation of strongest contacts between residue pairs in the dense phase. These results provide a detailed picture of condensate formation by a key segment of the alpha-Syn molecule.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Temperature",
+      "Protein Domains",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Sanchari",
+        "Biswas, Mithun"
+      ],
+      "short_names": [
+        "Chakraborty S",
+        "Biswas M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8204-2954"
+      ],
+      "affiliations": [
+        "National Institute of Technology Rourkela, Rourkela 769008, India. biswasm@nitrkl.ac.in.",
+        "National Institute of Technology Rourkela, Rourkela 769008, India. biswasm@nitrkl.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Sanchari",
+        "short_name": "Chakraborty S",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Technology Rourkela, Rourkela 769008, India. biswasm@nitrkl.ac.in."
+        ]
+      },
+      {
+        "full_name": "Biswas, Mithun",
+        "short_name": "Biswas M",
+        "identifiers": [
+          "0000-0002-8204-2954"
+        ],
+        "affiliations": [
+          "National Institute of Technology Rourkela, Rourkela 769008, India. biswasm@nitrkl.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/21 06:22",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39980393",
+      "29874605",
+      "29286644",
+      "29364151",
+      "39232485",
+      "25869255",
+      "39046235",
+      "39306670",
+      "36278939",
+      "33302617",
+      "39868549",
+      "29715424",
+      "39175373",
+      "32157247",
+      "33345970",
+      "25210774",
+      "30769283",
+      "39947752",
+      "23214618",
+      "39462994",
+      "29604892",
+      "32623047",
+      "35657723",
+      "26479553",
+      "29996119",
+      "23607785",
+      "37238596",
+      "31903719",
+      "39693815",
+      "36373662",
+      "36008493",
+      "28796507",
+      "26119103",
+      "30184304",
+      "26601760",
+      "39504036",
+      "37198991",
+      "20359221",
+      "39651184",
+      "22860160",
+      "32393642",
+      "29782835",
+      "29853639",
+      "26723627",
+      "30917651",
+      "31699336",
+      "34871547",
+      "31575115",
+      "19576220",
+      "33676889",
+      "36379279",
+      "33719460",
+      "30853581",
+      "25389903",
+      "40020199",
+      "35787838",
+      "26193124",
+      "38272228",
+      "37961424",
+      "27096466",
+      "38663121",
+      "37060757",
+      "37407505",
+      "34948050",
+      "27809690",
+      "23374072",
+      "29704492",
+      "20026206",
+      "38700150",
+      "20620148",
+      "37189428",
+      "38801346",
+      "33352154",
+      "30917654",
+      "39561991",
+      "35241680",
+      "31505208",
+      "28710275",
+      "26695014",
+      "39116032",
+      "39818366",
+      "36944862",
+      "37431676",
+      "32120928",
+      "26553504",
+      "33903234",
+      "30810027",
+      "34431665",
+      "37923923",
+      "27901101",
+      "30142698",
+      "39084146",
+      "18975920",
+      "38458997",
+      "35011320",
+      "37768058",
+      "28024449",
+      "30102984",
+      "34636232",
+      "18769546"
+    ],
+    "review": [
+      "39980393",
+      "29364151",
+      "39947752",
+      "36373662",
+      "37198991",
+      "30853581",
+      "35787838",
+      "37060757",
+      "30142698"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4cp04292a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

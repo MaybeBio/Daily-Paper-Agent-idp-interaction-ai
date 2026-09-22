@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37307457",
+    "doi": "10.1073/pnas.2221804120",
+    "title": "Phase separation of intrinsically disordered FG-Nups is driven by highly dynamic FG motifs."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered FG-Nups in the central channel of the nuclear pore complex (NPC) form a selective permeability barrier, allowing small molecules to traverse by passive diffusion, while large molecules can only translocate with the help of nuclear transport receptors. The exact phase state of the permeability barrier remains elusive. In vitro experiments have shown that some FG-Nups can undergo phase separation into condensates that display NPC-like permeability barrier properties. Here, we use molecular dynamics simulations at amino acid resolution to study the phase separation characteristics of each of the disordered FG-Nups of the yeast NPC. We find that GLFG-Nups undergo phase separation and reveal that the FG motifs act as highly dynamic hydrophobic stickers that are essential for the formation of FG-Nup condensates featuring droplet-spanning percolated networks. Additionally, we study phase separation in an FG-Nup mixture that resembles the NPC stoichiometry and observe that an NPC condensate is formed containing multiple GLFG-Nups. We find that the phase separation of this NPC condensate is also driven by FG-FG interactions, similar to the homotypic FG-Nup condensates. Based on the observed phase separation behavior, the different FG-Nups of the yeast NPC can be divided into two classes: The FG-Nups (mostly GLFG-type) located in the central channel of the NPC form a highly dynamic percolated network formed by many short-lived FG-FG interactions, while the peripheral FG-Nups (mostly FxFG-type) at the entry and exit of the NPC channel likely form an entropic brush.",
+    "keywords": [
+      "FG-Nups",
+      "intrinsically disordered proteins",
+      "nuclear pore complex",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae",
+      "*Amino Acids",
+      "Diffusion",
+      "Entropy",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dekker, Maurice",
+        "Van der Giessen, Erik",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "Dekker M",
+        "Van der Giessen E",
+        "Onck PR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7096-8576",
+        "ORCID: 0000-0001-5632-9727"
+      ],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dekker, Maurice",
+        "short_name": "Dekker M",
+        "identifiers": [
+          "0000-0001-7096-8576"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Van der Giessen, Erik",
+        "short_name": "Van der Giessen E",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Jun 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/12 19:12",
+    "fetched_at": "2026-09-20 22:47:20"
+  },
+  "links": {
+    "cites": [
+      "42613378",
+      "42530092",
+      "42465456",
+      "42273831",
+      "42118317",
+      "42059155",
+      "41387701",
+      "41331088",
+      "41100670",
+      "41004004",
+      "40780415",
+      "40749166",
+      "40576548",
+      "40464641",
+      "40164612",
+      "39803495",
+      "39768219",
+      "39677697",
+      "39660892",
+      "39578912",
+      "39567561",
+      "39311028",
+      "39282864",
+      "39273335",
+      "39205388",
+      "39142062",
+      "39000572",
+      "38773271",
+      "38483313",
+      "38376900",
+      "36494425"
+    ],
+    "refs": [
+      "38376900",
+      "36765044",
+      "36494425",
+      "36302971",
+      "36138110",
+      "36050301",
+      "35787038",
+      "35675815",
+      "35314668",
+      "34982960",
+      "34931046",
+      "34873036",
+      "34762868",
+      "34473567",
+      "34193851",
+      "33790297",
+      "33333019",
+      "32879490",
+      "32730793",
+      "32619404",
+      "31723007",
+      "31626769",
+      "30914747",
+      "30704069",
+      "30682370",
+      "29961577",
+      "29677515",
+      "29602697",
+      "29539637",
+      "29500415",
+      "29442997",
+      "29091028",
+      "28864541",
+      "28340338",
+      "28011771",
+      "27697925",
+      "27673359",
+      "26894898",
+      "26658558",
+      "26589045",
+      "26544936",
+      "26338152",
+      "25631821",
+      "25562883",
+      "25391399",
+      "25229147",
+      "23238392",
+      "22901806",
+      "22579281",
+      "22571273",
+      "22561191",
+      "20368288",
+      "20304795",
+      "19801417",
+      "19680227",
+      "17693259",
+      "17418788",
+      "17082456",
+      "17079785",
+      "16769882",
+      "16211538",
+      "12910457",
+      "11283009",
+      "11250898",
+      "10684247"
+    ],
+    "similar": [
+      "37307457",
+      "28068389",
+      "24626154",
+      "39356635",
+      "26658558",
+      "29033133",
+      "38018404",
+      "39282864",
+      "28506890",
+      "30704069",
+      "34639238",
+      "32622019",
+      "35098921",
+      "34473567",
+      "28734076",
+      "25692596",
+      "34995711",
+      "36302971",
+      "30902367",
+      "25229147",
+      "32168597",
+      "38260360",
+      "35679397",
+      "37066338",
+      "39205388",
+      "33790297",
+      "26530420",
+      "12543930",
+      "27673359",
+      "33548309",
+      "29350911",
+      "34339633",
+      "34324340",
+      "24739174",
+      "22357553",
+      "28887410",
+      "12604785",
+      "31914646",
+      "32794558",
+      "29429880",
+      "29500415",
+      "17079785",
+      "29374059",
+      "23427268",
+      "31839259",
+      "29590630",
+      "34322491",
+      "34237287",
+      "26878241",
+      "19278659",
+      "25631821",
+      "24066078",
+      "33336681",
+      "28579449",
+      "24144701",
+      "17630825",
+      "19801417",
+      "26791761",
+      "27136131",
+      "26456112",
+      "21327077",
+      "37100914",
+      "30342747",
+      "33617830",
+      "28669824",
+      "31723007",
+      "17418788",
+      "19759143",
+      "21647294",
+      "38766144",
+      "23238392",
+      "32696372",
+      "37876551",
+      "29632211",
+      "30456374",
+      "29442997",
+      "36765044",
+      "21447814",
+      "37254647",
+      "15557115",
+      "23404701",
+      "20513410",
+      "26311873",
+      "35412248",
+      "37498221",
+      "30471692",
+      "35089308",
+      "31262825",
+      "22901806",
+      "36040030",
+      "23357007",
+      "24558427",
+      "38302116",
+      "26541386",
+      "16461911",
+      "11387327",
+      "26338152",
+      "37469276",
+      "20368455",
+      "28638491",
+      "25944393",
+      "12917401",
+      "38181073",
+      "37961422"
+    ],
+    "review": [
+      "37307457",
+      "39282864",
+      "28506890",
+      "34995711",
+      "27673359",
+      "32794558",
+      "34322491",
+      "33336681",
+      "28579449",
+      "19801417",
+      "26791761",
+      "28669824",
+      "37876551"
+    ],
+    "pmc": [
+      "10288634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2221804120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37307457/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37307457",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37307457",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

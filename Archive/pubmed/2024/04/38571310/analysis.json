@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38571310",
+  "title": "Energy landscapes of homopolymeric RNAs revealed by deep unsupervised learning.",
+  "authors": "Ramachandran, Vysakh; Potoyan, Davit A",
+  "journal": "Biophysical journal",
+  "published_date": "2024-04-04",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子模拟与深度无监督学习绘制同聚RNA的温度依赖构象能量景观，揭示单链构象动力学可预测RNA凝聚体形成倾向，虽对象为RNA而非蛋白IDR，但其单链能量景观与相分离倾向的建模思路对无序蛋白介导PPI及凝聚体机制研究有可迁移启发。",
+  "abstract": "Conformational dynamics of RNA plays important roles in a variety of cellular functions such as transcriptional regulation, catalysis, scaffolding, and sensing. Recently, RNAs with low-complexity sequences have been shown to phase separate and form condensate phases similar to lowcomplexity protein domains. The affinity for phase separation and the material characteristics of RNA condensates are strongly dependent on sequence composition and patterning. We hypothesize that differences in the affinities for RNA phase separation can be uncovered by studying sequence-dependent conformational dynamics of single RNA chains. To this end, we have employed atomistic simulations and deep dimensionality reduction techniques to map temperature-dependent conformational free energy landscapes for 20 base-long homopolymeric RNA sequences: poly(U), poly(G), poly(C), and poly(A). The energy landscapes of homopolymeric RNAs reveal a plethora of metastable states with qualitatively different populations stemming from differences in base chemistry. Through detailed analysis of base, phosphate, and sugar interactions, we show that experimentally observed temperature-driven shifts in metastable state populations align with experiments on RNA phase transitions. Specifically, we find that the thermodynamics of unfolding of homopolymeric RNA follows the poly(G) > poly(A) > poly(C) > poly(U) order of stability, mirroring the propensity of RNA to form condensates. To conclude, this work shows that at least for homopolymeric RNA sequences the single-chain conformational dynamics contains sufficient information for predicting and quantifying condensate forming affinities of RNAs. Thus, we anticipate that atomically detailed studies of temeprature -dependent energy landscapes of RNAs will be a useful guide for understanding the propensity of various RNA molecules to form condensates.",
+  "abstract_zh": "RNA的构象动态在多种细胞功能中发挥重要作用，例如转录调控、催化、支架作用和感知。近期研究表明，具有低复杂度序列的RNA能够发生相分离（phase separation），并形成类似于低复杂度蛋白结构域的凝聚相。相分离的亲和力以及RNA凝聚体的材料特性强烈依赖于序列组成和排列模式。我们假设，通过研究单链RNA的序列依赖性构象动态，可以揭示RNA相分离亲和力的差异。为此，我们采用原子模拟和深度降维技术，绘制了20个碱基长的同聚RNA序列（poly(U)、poly(G)、poly(C)和poly(A)）的温度依赖性构象自由能景观。同聚RNA的能量景观揭示了大量亚稳态，这些亚稳态的群体差异源于碱基化学性质的差异，且具有定性不同的分布。通过对碱基、磷酸基和糖相互作用的详细分析，我们表明实验观察到的温度驱动的亚稳态群体变化与RNA相变实验一致。具体而言，我们发现同聚RNA的去折叠热力学遵循poly(G) > poly(A) > poly(C) > poly(U)的稳定性顺序，这反映了RNA形成凝聚体的倾向。总之，这项工作表明，至少对于同聚RNA序列，单链构象动态包含足够的信息，可用于预测和量化RNA的凝聚体形成亲和力。因此，我们预期对RNA温度依赖性能量景观的原子级详细研究，将成为理解各种RNA分子形成凝聚体倾向的有用指南。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38571310/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38571310/",
+  "paper_page_path": "papers/pubmed/38571310/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.19.449089",
+  "title": "SPOT-Contact-Single: Improving Single-Sequence-Based Prediction of Protein Contact Map using a Transformer Language Model",
+  "authors": "Jaspreet Singh; Thomas Litfin; Jaswinder Singh; Kuldip Paliwal; Yaoqi Zhou",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-20",
+  "window": {
+    "start": "2021-06-14",
+    "end": "2021-06-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer语言模型(ESM-1b)和残差网络做单序列接触图预测，虽涉及蛋白结构预测和AI方法，但对象非无序蛋白/IDR，且不涉及PPI或互作机制建模，仅对结构预测有间接启发。",
+  "abstract": "Motivation Accurate prediction of protein contact-map is essential for accurate protein structure and function prediction. As a result, many methods have been developed for protein contact map prediction. However, most methods rely on protein-sequence-evolutionary information, which may not exist for many proteins due to lack of naturally occurring homologous sequences. Moreover, generating evolutionary profiles is computationally intensive. Here, we developed a contact-map predictor utilizing the output of a pre-trained language model ESM-1b as an input along with a large training set and an ensemble of residual neural networks. Results We showed that the proposed method makes a significant improvement over a single-sequence-based predictor SSCpred with 15% improvement in the F1-score for the independent CASP14-FM test set. It also outperforms evolutionary-profile-based methods TrRosetta and SPOT-Contact with 48.7% and 48.5% respective improvement in the F1-score on the proteins without homologs (Neff=1) in the independent SPOT-2018 set. The new method provides a much faster and reasonably accurate alternative to evolution-based methods, useful for large-scale prediction. Availability Stand-alone-version of SPOT-Contact-Single is available at https://github.com/jas-preet/SPOT-Contact-Single . Direct prediction can also be made at https://sparks-lab.org/server/spot-contact-single . The datasets used in this research can also be downloaded from the GitHub. Contact jaspreetsingh2@griffithuni.edu.au , k.paliwal@griffith.edu.au , and zhouyq@szbl.ac.cn Supplementary information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机 准确预测蛋白质接触图谱对于蛋白质结构和功能预测至关重要。因此，已开发出许多用于蛋白质接触图谱预测的方法。然而，大多数方法依赖于蛋白质序列进化信息，而由于缺乏天然存在的同源序列，许多蛋白质可能不具备这些信息。此外，生成进化图谱计算强度大。在此，我们开发了一种接触图谱预测器，利用预训练语言模型ESM-1b的输出作为输入，并结合大型训练集和残差神经网络集成。结果 我们表明，所提出的方法在独立CASP14-FM测试集上，相较于基于单序列的预测器SSCpred，在F1分数上实现了15%的显著提升。在独立SPOT-2018集合中，对于无同源物（Neff=1）的蛋白质，该方法也优于基于进化图谱的方法TrRosetta和SPOT-Contact，F1分数分别提高了48.7%和48.5%。新方法为基于进化的方法提供了一种更快且合理准确的替代方案，适用于大规模预测。可用性 SPOT-Contact-Single的独立版本可在https://github.com/jas-preet/SPOT-Contact-Single获取。直接预测也可在https://sparks-lab.org/server/spot-contact-single进行。本研究中使用的数据集也可从GitHub下载。联系方式 jaspreetsingh2@griffithuni.edu.au ， k.paliwal@griffith.edu.au ， 和 zhouyq@szbl.ac.cn 补充信息 补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.19.449089",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.19.449089",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.19.449089/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40128403",
+  "title": "Adapting to salinity: structural dynamics of the DNA polymerase III beta subunit in Salinibacter ruber.",
+  "authors": "Sengupta, Aveepsa; Das, Dhrubajyoti; Debnath, Anisha; Akhter, Yusuf; Kumar, Ashutosh",
+  "journal": "Extremophiles : life under extreme conditions",
+  "published_date": "2025-03-25",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过分子动力学模拟研究盐杆菌DNA聚合酶IIIβ亚基二聚体的结构动态与界面构象变化，对象涉及IDR和负电表面，但互作对象为DNA而非蛋白-蛋白互作，方法为物理模拟，对无序蛋白界面机制建模有部分启发。",
+  "abstract": "Halophilic bacteria thrive in high-salt environments through structural modifications in their proteins. One such adaptation is seen in the DNA polymerase III beta subunit, which acts as a \"sliding clamp\" for the DNA polymerase III, the replication machinery's key enzyme. Like other halophilic proteins, DNA Pol III beta of Salinibacter ruber displays an increased concentration of acidic amino acids, intrinsically disordered regions, and a negatively charged surface. A detailed study using interaction and molecular dynamics simulations analyses unveils the structural intricacies of S. ruber's beta subunit dimer at the molecular level. The elliptical shape of the dimer facilitates its efficient loading onto DNA in salty environments. Modifications in the dimer enable the DNA loading-unloading mechanism by stabilizing the dimeric conformation at high salt concentrations. Additionally, the study sheds light on the molecular-level conformational changes in the interfaces of the Pol III beta subunit.",
+  "abstract_zh": "嗜盐细菌通过其蛋白质的结构修饰在高盐环境中繁衍生息。其中一种适应性变化体现在DNA聚合酶III的β亚基上，该亚基作为DNA聚合酶III（复制机制的关键酶）的“滑动夹钳”发挥作用。与其他嗜盐蛋白质类似，Salinibacter ruber的DNA Pol III β亚基表现出酸性氨基酸浓度增加、 intrinsically disordered regions（内在无序区域）以及带负电的表面。通过相互作用和分子动力学 (molecular dynamics) 模拟分析的详细研究，在分子水平上揭示了S. ruber β亚基二聚体的结构复杂性。二聚体的椭圆形形状有利于其在含盐环境中高效装载到DNA上。二聚体的修饰通过在高盐浓度下稳定二聚体构象，实现了DNA装载-卸载机制。此外，该研究还阐明了Pol III β亚基界面在分子水平上的构象变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40128403/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40128403/",
+  "paper_page_path": "papers/pubmed/40128403/index.html"
+}

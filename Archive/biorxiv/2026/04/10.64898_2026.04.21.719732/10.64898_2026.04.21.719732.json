@@ -1,0 +1,164 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.21.719732",
+  "title": "SPIN: A Scalable Bioinformatics Pipeline for Screening Pathogenicity Related Host-Pathogen Protein INteractions Using AlphaFold3",
+  "doi": "10.64898/2026.04.21.719732",
+  "abstract": "Traditional experimental approaches have greatly advanced our understanding of protein-protein interactions (PPIs) that govern host susceptibility or resistance. Nonetheless, the molecular characterization of microbial effectors and their cognate host targets remains challenging in many economically important plant pathosystems. AlphaFold3 (AF3) has transformed structural biology by achieving near-experimental accuracy in protein structure and complex prediction. A bioinformatics pipeline SPIN (Screening Pathogenicity-Related Host/Pathogen Protein INteractions) was developed for large-scale prediction of interactions between the host and pathogen-secreted proteins. SPIN integrates three core modules: pathogen and host protein preprocessing using bioinformatics tools (SignalP6.0, OrthoFinder, CD-HIT), AF3-based interaction modeling, supported by automated input generation and output filtering. However, AF3 training bias toward mammalian proteins necessitated careful evaluation in plant systems. Benchmarking against experimentally validated plant PPIs revealed that derivative metrics emphasizing interfacial geometry and residue-level contact (ipSAE and pDockQ) provide superior discrimination compared to native global confidence measures (pTM and ipTM), particularly for proteins with intrinsically disordered regions. A multi-metric confidence scoring framework combining pLDDT, PAE, ipSAE, and pDockQ, improved prediction reliability by enhancing recall and reduced false positives through robust assessment of structural confidence and interface quality. For proof-of-concept, SPIN was applied to examine the molecular landscape underlying two economically important diseases of citrus (Citrus L.) caused by Candidatus Liberibacter asiaticus and Ca. Phytoplasma citri. Both pathogens are phloem-limited and cause distinct symptoms, citrus greening and witches' broom, respectively. AF3-predicted interactome data revealed conserved host colonization strategies alongside disease-specific molecular mechanisms, demonstrating the utility of SPIN for dissecting and supporting mechanistic studies in plant-pathogen interactions.",
+  "authors": [
+    "Bao Z",
+    "Khanna H",
+    "Dhand B",
+    "Boukari W",
+    "Tiwari T",
+    "Poudel M",
+    "Messina CD",
+    "Jain M",
+    "Huguet-Tapia JC",
+    "Loria R"
+  ],
+  "published_date": "2026-04-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719732",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719732.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1214216",
+    "raw_record": {
+      "id": "PPR1214216",
+      "source": "PPR",
+      "doi": "10.64898/2026.04.21.719732",
+      "title": "SPIN: A Scalable Bioinformatics Pipeline for Screening Pathogenicity Related Host-Pathogen Protein INteractions Using AlphaFold3",
+      "authorString": "Bao Z, Khanna H, Dhand B, Boukari W, Tiwari T, Poudel M, Messina CD, Jain M, Huguet-Tapia JC, Loria R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bao Z",
+            "lastName": "Bao",
+            "firstName": "Zhenghong",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Khanna H",
+            "lastName": "Khanna",
+            "firstName": "Harsh",
+            "initials": "H"
+          },
+          {
+            "fullName": "Dhand B",
+            "lastName": "Dhand",
+            "firstName": "Bhuvan",
+            "initials": "B"
+          },
+          {
+            "fullName": "Boukari W",
+            "lastName": "Boukari",
+            "firstName": "Wardatou",
+            "initials": "W"
+          },
+          {
+            "fullName": "Tiwari T",
+            "lastName": "Tiwari",
+            "firstName": "Trishna",
+            "initials": "T"
+          },
+          {
+            "fullName": "Poudel M",
+            "lastName": "Poudel",
+            "firstName": "Mousami",
+            "initials": "M"
+          },
+          {
+            "fullName": "Messina CD",
+            "lastName": "Messina",
+            "firstName": "Carlos",
+            "initials": "CD"
+          },
+          {
+            "fullName": "Jain M",
+            "lastName": "Jain",
+            "firstName": "Mukesh",
+            "initials": "M"
+          },
+          {
+            "fullName": "Huguet-Tapia JC",
+            "lastName": "Huguet-Tapia",
+            "firstName": "Jose Carlos",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7667-1167"
+            }
+          },
+          {
+            "fullName": "Loria R",
+            "lastName": "Loria",
+            "firstName": "Rosemary",
+            "initials": "R"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7667-1167"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Traditional experimental approaches have greatly advanced our understanding of protein-protein interactions (PPIs) that govern host susceptibility or resistance. Nonetheless, the molecular characterization of microbial effectors and their cognate host targets remains challenging in many economically important plant pathosystems. AlphaFold3 (AF3) has transformed structural biology by achieving near-experimental accuracy in protein structure and complex prediction. A bioinformatics pipeline SPIN (Screening Pathogenicity-Related Host/Pathogen Protein INteractions) was developed for large-scale prediction of interactions between the host and pathogen-secreted proteins. SPIN integrates three core modules: pathogen and host protein preprocessing using bioinformatics tools (SignalP6.0, OrthoFinder, CD-HIT), AF3-based interaction modeling, supported by automated input generation and output filtering. However, AF3 training bias toward mammalian proteins necessitated careful evaluation in plant systems. Benchmarking against experimentally validated plant PPIs revealed that derivative metrics emphasizing interfacial geometry and residue-level contact (ipSAE and pDockQ) provide superior discrimination compared to native global confidence measures (pTM and ipTM), particularly for proteins with intrinsically disordered regions. A multi-metric confidence scoring framework combining pLDDT, PAE, ipSAE, and pDockQ, improved prediction reliability by enhancing recall and reduced false positives through robust assessment of structural confidence and interface quality. For proof-of-concept, SPIN was applied to examine the molecular landscape underlying two economically important diseases of citrus (Citrus L.) caused by Candidatus Liberibacter asiaticus and Ca. Phytoplasma citri. Both pathogens are phloem-limited and cause distinct symptoms, citrus greening and witches' broom, respectively. AF3-predicted interactome data revealed conserved host colonization strategies alongside disease-specific molecular mechanisms, demonstrating the utility of SPIN for dissecting and supporting mechanistic studies in plant-pathogen interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.04.21.719732"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-04-23",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

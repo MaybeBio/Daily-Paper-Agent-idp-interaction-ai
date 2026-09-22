@@ -1,0 +1,5 @@
+# Modeling the effects of phosphorylation on phase separation of the FUS low-complexity domain
+
+
+## Abstract
+  Aggregation of the RNA-binding protein fused in sarcoma (FUS) is a hallmark of neurodegenerative diseases. Phosphorylation of Ser/Thr in the FUS low-complexity domain (FUS-LC) may regulate phase separation of FUS and prevent pathological aggregation in cells. However, many details of this process remain elusive to date. In this work, we systematically investigated the phosphorylation of FUS-LC and the underlying molecular mechanism by molecular dynamics (MD) simulations and free energy calculations. The results clearly show that phosphorylation can destroy the fibril core structure of FUS-LC by breaking interchain interactions, particularly contacts involving residues like Tyr, Ser, and Gln. Among the six phosphorylation sites, Ser61 and Ser84 may have more important effects on the stability of the fibril core. Our study reveals structural and dynamic details of FUS-LC phase separation modulated by phosphorylation.

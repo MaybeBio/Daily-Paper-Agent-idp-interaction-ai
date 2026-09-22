@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "41378109",
+    "doi": "10.1007/s12551-025-01343-5",
+    "title": "Microscopy-based techniques for studying the material properties of biomolecular condensates in the cellular environment."
+  },
+  "content": {
+    "abstract": "The material properties of biomolecular condensates, such as interfacial tension, viscoelasticity, stiffness, and molecular dynamics, are crucial for their biological functions in processes like signal transduction, stress response, and gene regulation. These properties influence both endogenous condensates, like the nucleolus and stress granules, and synthetic condensates engineered for potential drug delivery applications. In vitro studies, using purified components, provide controlled environments to explore the fundamental physics of phase separation, offering high precision in manipulating molecular components and conditions. However, cell-based characterisations are indispensable for understanding the physiological relevance of biomolecular condensates, accounting for molecular crowding, post-translational modifications, and interactions with cellular structures. Light-microscopy techniques offer the potential to bridge in vitro findings with in cellulo behaviour. This review outlines some fundamental challenges of in cellulo studies and discusses the potential of fluorescently labelling biomolecular condensates using the tetracysteine tag/biarsenical dye strategy. We describe how fluorescence-based techniques, including fluorescence recovery after photobleaching (FRAP) and emerging techniques like fluorescence lifetime imaging microscopy (FLIM), flicker spectroscopy, and raster image correlation spectroscopy (RICS), may be used to gain a detailed understanding of the material properties of biomolecular condensates within the cellular environment. Finally, we discuss the potential of Brillouin light scattering (BLS) microscopy, a label-free technique that holds potential for deciphering the cellular biophysics of biomolecular condensates.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Material properties",
+      "Microscopy-based characterisation",
+      "Phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ng, Tin Long Chris",
+        "Capalbo, Luisa",
+        "Kumita, Janet R"
+      ],
+      "short_names": [
+        "Ng TLC",
+        "Capalbo L",
+        "Kumita JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4779-7646",
+        "ORCID: 0009-0002-1208-0514",
+        "ORCID: 0000-0002-3887-4964"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK. ROR: https://ror.org/013meh722. GRID: grid.5335.0. ISNI: 0000 0001 2188 5934",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK. ROR: https://ror.org/013meh722. GRID: grid.5335.0. ISNI: 0000 0001 2188 5934",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK. ROR: https://ror.org/013meh722. GRID: grid.5335.0. ISNI: 0000 0001 2188 5934"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ng, Tin Long Chris",
+        "short_name": "Ng TLC",
+        "identifiers": [
+          "0000-0003-4779-7646"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK."
+        ]
+      },
+      {
+        "full_name": "Capalbo, Luisa",
+        "short_name": "Capalbo L",
+        "identifiers": [
+          "0009-0002-1208-0514"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK."
+        ]
+      },
+      {
+        "full_name": "Kumita, Janet R",
+        "short_name": "Kumita JR",
+        "identifiers": [
+          "0000-0002-3887-4964"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1PD UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reviews"
+    ],
+    "journal_abbrev": [
+      "Biophys Rev"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 07:44",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42010614"
+    ],
+    "refs": [
+      "41238911",
+      "40515693",
+      "40375868",
+      "39878648",
+      "39747604",
+      "39578406",
+      "39555968",
+      "39400294",
+      "39196681",
+      "39080489",
+      "38809580",
+      "38670952",
+      "38622124",
+      "38612940",
+      "38609349",
+      "38429263",
+      "38335954",
+      "38041404",
+      "37957430",
+      "37481632",
+      "37468629",
+      "37261897",
+      "37217523",
+      "37196085",
+      "36998664",
+      "36747054",
+      "36350032",
+      "36247368",
+      "36227473",
+      "36163138",
+      "35974095",
+      "35918061",
+      "35641495",
+      "35001870",
+      "34785657",
+      "34655524",
+      "34648259",
+      "34645832",
+      "34341589",
+      "33957055",
+      "33453924",
+      "33431663",
+      "33386842",
+      "33348982",
+      "33169001",
+      "32767698",
+      "32514159",
+      "32029630",
+      "32004090",
+      "31604601",
+      "31562305",
+      "31548707",
+      "31540706",
+      "31529970",
+      "31175012",
+      "30926670",
+      "30682370",
+      "30608810",
+      "30339413",
+      "30272018",
+      "30216718",
+      "30190551",
+      "30017918",
+      "29961577",
+      "29483575",
+      "29258725",
+      "29151920",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28749075",
+      "28636597",
+      "28466942",
+      "28225081",
+      "27374333",
+      "27357569",
+      "27240257",
+      "26317470",
+      "26015579",
+      "25580242",
+      "25321392",
+      "23042527",
+      "22621335",
+      "22539214",
+      "22398450",
+      "21368180",
+      "20885379",
+      "19460965",
+      "18940670",
+      "17982447",
+      "17644560",
+      "17351621",
+      "15967811",
+      "12022841",
+      "10087617",
+      "9657724",
+      "3816703"
+    ],
+    "similar": [
+      "41378109",
+      "40291420",
+      "38609349",
+      "23912807",
+      "33453924",
+      "38722189",
+      "39113361",
+      "37359769",
+      "36227474",
+      "39271032",
+      "40727669",
+      "37894933",
+      "39702967",
+      "33684296",
+      "36227471",
+      "37162152",
+      "36227477",
+      "39883284",
+      "40801528",
+      "37194953",
+      "39575859",
+      "40518709",
+      "39568893",
+      "34759902",
+      "35832192",
+      "38621751",
+      "38781207",
+      "40999735",
+      "41191214",
+      "39034215",
+      "34129687",
+      "39890724",
+      "34785657",
+      "41480717",
+      "38429263",
+      "37013374",
+      "39964249",
+      "39484615",
+      "38086853",
+      "34636323",
+      "34090478",
+      "37019112",
+      "39146259",
+      "40557772",
+      "36875159",
+      "40136009",
+      "37268555",
+      "36879427",
+      "39535884",
+      "34772789",
+      "34144468",
+      "31606941",
+      "38405951",
+      "37586369",
+      "40779395",
+      "37252985",
+      "37759550",
+      "39757214",
+      "36227487",
+      "34552246",
+      "38649740",
+      "35674796",
+      "39541973",
+      "40108179",
+      "38360555",
+      "35895272",
+      "31199001",
+      "41469832",
+      "34772786",
+      "36847235",
+      "36247368",
+      "36690068",
+      "37464880",
+      "33864415",
+      "37973891",
+      "36240277",
+      "40381401",
+      "39826709",
+      "33514117",
+      "40692378",
+      "33661634",
+      "40194320",
+      "39455581",
+      "39827079",
+      "38658705",
+      "36311142",
+      "40466569",
+      "37772963",
+      "40164149",
+      "36657879",
+      "40102453",
+      "40849651",
+      "39168125",
+      "37873180",
+      "41287583",
+      "39071308",
+      "36304323",
+      "41268679",
+      "38773325",
+      "35243657"
+    ],
+    "review": [
+      "41378109",
+      "38609349",
+      "37359769",
+      "39271032",
+      "40727669",
+      "39702967",
+      "33684296",
+      "39883284",
+      "40801528",
+      "39575859",
+      "34759902",
+      "35832192",
+      "38621751",
+      "40999735",
+      "41191214",
+      "39034215",
+      "41480717",
+      "39964249",
+      "39146259",
+      "40557772",
+      "36875159",
+      "37268555",
+      "36879427",
+      "34772789",
+      "34144468",
+      "31606941",
+      "37759550",
+      "39757214",
+      "38360555",
+      "41469832",
+      "34772786",
+      "37464880",
+      "40381401",
+      "40194320",
+      "39827079",
+      "38658705",
+      "36311142",
+      "40466569",
+      "37772963",
+      "40849651"
+    ],
+    "pmc": [
+      "12686230"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41378109/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12551-025-01343-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

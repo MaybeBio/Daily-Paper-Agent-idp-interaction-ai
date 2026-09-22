@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37721444",
+  "title": "Cross-Talk of Cation-pi Interactions with Electrostatic and Aromatic Interactions: A Salt-Dependent Trade-off in Biomolecular Condensates.",
+  "authors": "Hazra, Milan Kumar; Levy, Yaakov",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2023-09-18",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究阳离子-π、静电与芳香族相互作用在生物分子凝聚体中的盐依赖性权衡，聚焦IDR/相分离体系中的互作机制建模，方法为物理模拟，对象与互作轴均强，但未涉及AI方法。",
+  "abstract": "Biomolecular condensates are essential for cellular functionality, yet the complex interplay among the diverse molecular interactions that mediate their formation remains poorly understood. Here, using coarse-grained molecular dynamics simulations, we address the contribution of cation-pi interactions to the stability of condensates formed via liquid-liquid phase separation. We found greater stabilization of up to 80% via cation-pi interactions in condensates formed from peptides with higher aromatic residue content or less charge clustering. The contribution of cation-pi interactions to droplet stability increases with increasing ionic strength, suggesting a trade-off between cation-pi and electrostatic interactions. Cation-pi interactions, therefore, can compensate for reduced electrostatic interactions, such as occurs at higher salt concentrations and in sequences with less charged residue content or clustering. Designing condensates with desired biophysical characteristics therefore requires quantification not only of the individual interactions but also cross-talks involving charge-charge, pi-pi, and cation-pi interactions.",
+  "abstract_zh": "生物分子凝聚体对细胞功能至关重要，然而介导其形成的多种分子相互作用之间的复杂关联仍知之甚少。在此，我们利用粗粒化分子动力学模拟，探讨了阳离子-π相互作用对通过液-液相分离形成的凝聚体稳定性的贡献。我们发现，在含有较高芳香族残基含量或较少电荷聚集的肽段形成的凝聚体中，阳离子-π相互作用可提供高达80%的额外稳定化作用。阳离子-π相互作用对液滴稳定性的贡献随离子强度增加而增强，表明阳离子-π与静电相互作用之间存在权衡关系。因此，阳离子-π相互作用可以补偿减弱的静电相互作用，例如在较高盐浓度以及带电残基含量或聚集较少的序列中发生的情况。因此，设计具有所需生物物理特性的凝聚体，不仅需要量化单个相互作用，还需考虑电荷-电荷、π-π和阳离子-π相互作用之间的交叉对话。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37721444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37721444/",
+  "paper_page_path": "papers/pubmed/37721444/index.html"
+}

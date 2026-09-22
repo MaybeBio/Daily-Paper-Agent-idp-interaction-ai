@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.01.621466",
+  "title": "AlloPool: An Adaptive Graph Neural Network for Dynamic Allosteric Network Prediction in Protein Systems",
+  "authors": "M. Marfoglia; L. Guirardel; P. Barth",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络AlloPool从MD/SMD轨迹中预测动态变构网络与关键位点，对象为折叠蛋白（非IDP），但变构通讯与互作机制建模思路对IDR介导的PPI动态网络预测有可迁移启发。",
+  "abstract": "Allosteric communication is essential to protein function, facilitating the dynamic regulation of biological responses through the propagation of structural and dynamic changes between regulatory and effector sites in response to stimuli. Traditional approaches to studying protein allostery often rely on static protein structures or abstract representations involving fully connected interaction graphs, which do not capture the temporal and state-dependent nature of these dynamic systems. Here, we introduce AlloPool, a graph neural network (GNN)-based model that iteratively prunes residue interactions to identify minimal, time-dependent interaction networks that govern long-range structural and dynamic responses to chemical or mechanical stimuli. Using temporal attention and graph aggregation, AlloPool accounts for evolving protein conformations in both molecular dynamics (MD) and steered MD (SMD) simulations to predict MD and SMD trajectories. We validate AlloPool on the Pin-1 protein and the ADGRG1 and B1AR receptors, showcasing its ability to accurately recapitulate protein motions, infer allosteric communication pathways, and identify critical allosteric sites. Additionally, AlloPool identifies force-dependent changes in GAIN domain structure and reconstructs directed information flow under mechanical load. Comparative analyses indicate that AlloPool outperforms existing models in MD and SMD trajectory reconstruction, presenting a new framework for analyzing force- and ligand-induced allosteric motions. This work advances the modeling of allosteric systems and offers broad potential for applications in drug discovery, synthetic biology, and protein engineering.",
+  "abstract_zh": "变构通讯对蛋白质功能至关重要，通过调控位点与效应位点之间结构和动态变化的传播，响应刺激并促进生物反应的动态调节。传统研究蛋白质变构的方法通常依赖于静态蛋白质结构或涉及全连接相互作用图的抽象表示，这些方法未能捕捉这些动态系统的时间依赖性和状态依赖性。在此，我们引入AlloPool，一种基于图神经网络（GNN）的模型，通过迭代剪除残基相互作用，识别控制化学或机械刺激下长程结构和动态响应的最小时间依赖性相互作用网络。利用时间注意力和图聚合，AlloPool在分子动力学（MD）和受控分子动力学（SMD）模拟中考虑蛋白质构象的演化，以预测MD和SMD轨迹。我们在Pin-1蛋白以及ADGRG1和B1AR受体上验证了AlloPool，展示了其准确重现蛋白质运动、推断变构通讯通路和识别关键变构位点的能力。此外，AlloPool识别了GAIN结构域中力依赖性变化，并在机械负荷下重建定向信息流。比较分析表明，AlloPool在MD和SMD轨迹重建方面优于现有模型，为分析力和配体诱导的变构运动提供了新框架。这项工作推进了变构系统的建模，并在药物发现、合成生物学和蛋白质工程中具有广泛的应用潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621466",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621466",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.01.621466/index.html"
+}

@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.15.520545",
+  "title": "Cryo-EM structures of chronic traumatic encephalopathy tau filaments with PET ligand flortaucipir",
+  "doi": "10.1101/2022.12.15.520545",
+  "abstract": "Positron emission tomography (PET) imaging allows monitoring the progression of amyloid aggregation in the living brain. [ 18 F]-Flortaucipir is the only approved PET tracer compound for the visualisation of tau aggregation. Here, we describe cryo-EM experiments on tau filaments in the presence and absence of flortaucipir. We used tau filaments isolated from the brain of an individual with Alzheimer’s disease (AD), and from the brain of an individual with primary age-related tauopathy (PART) with a co-pathology of chronic traumatic encephalopathy (CTE). Unexpectedly, we were unable to visualise additional cryo-EM density for flortaucipir for AD paired helical or straight filaments (PHFs or SFs), but we did observe density for flortaucipir binding to CTE Type I filaments from the case with PART. In the latter, flortaucipir binds in a 1:1 molecular stoichiometry with tau, adjacent to lysine 353 and aspartate 358. By adopting a tilted geometry with respect to the helical axis, the 4.7 Å distance between neighbouring tau monomers is reconciled with the 3.5 Å distance consistent with π-π-stacking between neighbouring molecules of flortaucipir.",
+  "authors": [
+    "Shi Y",
+    "Ghetti B",
+    "Goedert M",
+    "Scheres SH"
+  ],
+  "published_date": "2022-12-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.15.520545",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.15.520545.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR585443",
+    "raw_record": {
+      "id": "PPR585443",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR585443"
+        ]
+      },
+      "doi": "10.1101/2022.12.15.520545",
+      "title": "Cryo-EM structures of chronic traumatic encephalopathy tau filaments with PET ligand flortaucipir",
+      "authorString": "Shi Y, Ghetti B, Goedert M, Scheres SH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shi Y",
+            "lastName": "Shi",
+            "firstName": "Yang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Laboratory of Molecular Biology, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghetti B",
+            "lastName": "Ghetti",
+            "firstName": "Bernardino",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Indiana University School of Medicine, Indianapolis, IN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goedert M",
+            "lastName": "Goedert",
+            "firstName": "Michel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Laboratory of Molecular Biology, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scheres SH",
+            "lastName": "Scheres",
+            "firstName": "Sjors H.W.",
+            "initials": "SH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0462-6540"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Laboratory of Molecular Biology, Cambridge, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0462-6540"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Positron emission tomography (PET) imaging allows monitoring the progression of amyloid aggregation in the living brain. [  18 F]-Flortaucipir is the only approved PET tracer compound for the visualisation of tau aggregation. Here, we describe cryo-EM experiments on tau filaments in the presence and absence of flortaucipir. We used tau filaments isolated from the brain of an individual with Alzheimer’s disease (AD), and from the brain of an individual with primary age-related tauopathy (PART) with a co-pathology of chronic traumatic encephalopathy (CTE). Unexpectedly, we were unable to visualise additional cryo-EM density for flortaucipir for AD paired helical or straight filaments (PHFs or SFs), but we did observe density for flortaucipir binding to CTE Type I filaments from the case with PART. In the latter, flortaucipir binds in a 1:1 molecular stoichiometry with tau, adjacent to lysine 353 and aspartate 358. By adopting a tilted geometry with respect to the helical axis, the 4.7 Å distance between neighbouring tau monomers is reconciled with the 3.5 Å distance consistent with π-π-stacking between neighbouring molecules of flortaucipir.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/17/2022.12.15.520545.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.15.520545"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR585443"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR585443&type=FILE&fileName=EMS158903-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37330290",
+            "reference": "Journal of molecular biology. 2023 Jun;435(11):168025",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158903",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-12-17",
+      "firstPublicationDate": "2022-12-15",
+      "firstIndexDate": "2022-12-17",
+      "fullTextReceivedDate": "2022-12-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

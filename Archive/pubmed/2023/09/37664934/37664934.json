@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "37664934",
+    "doi": "10.31083/j.fbl2808157",
+    "title": "Structure of the Myelin Sheath Proteolipid Plasmolipin (PLLP) in a Ganglioside-Containing Lipid Raft."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Plasmolipin (PLLP) is a membrane protein located in lipid rafts that participates in the formation of myelin. It is also implicated in many pathologies, such as neurological disorders, type 2 diabetes, and cancer metastasis. To better understand how PLLP interacts with raft components (gangliosides and cholesterol), we undertook a global study combining in silico simulations and physicochemical measurements of molecular interactions in various PLLP-ganglioside systems. METHODS: In silico studies consisted of molecular dynamics simulations in reconstructed membrane environments. PLLP-ganglioside interaction measurements were performed by microtensiometry at the water-air interface on ganglioside monolayers. RESULTS: We have elucidated the mode of interaction of PLLP with ganglioside GM1 and characterized this interaction at the molecular level. We showed that GM1 induces the structuring of the extracellular loops of PLLP and that this interaction propagates a conformational signal through the plasma membrane, involving a cholesterol molecule located between transmembrane domains. This conformational wave is finally transmitted to the intracellular domain of the protein, consistent with the role of PLLP in signal transduction. CONCLUSIONS: This study is a typical example of the epigenetic dimension of protein structure, a concept developed by our team to describe the chaperone effect of gangliosides on disordered protein motifs which associate with lipid rafts. From a physiological point of view, these data shed light on the role of gangliosides in myelin formation. From a pathological point of view, this study will help to design innovative therapeutic strategies focused on ganglioside-PLLP interactions in various PLLP-associated diseases.",
+    "keywords": [
+      "cholesterol",
+      "disease",
+      "ganglioside",
+      "lipid rafts",
+      "neurological disorder",
+      "plasmolipin",
+      "signal transduction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "G(M1) Ganglioside",
+      "Gangliosides",
+      "Membrane Microdomains",
+      "*Myelin Sheath",
+      "Proteolipids",
+      "*Myelin and Lymphocyte-Associated Proteolipid Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azzaz, Fodil",
+        "Mazzarino, Morgane",
+        "Chahinian, Henri",
+        "Yahi, Nouara",
+        "Scala, Coralie Di",
+        "Fantini, Jacques"
+      ],
+      "short_names": [
+        "Azzaz F",
+        "Mazzarino M",
+        "Chahinian H",
+        "Yahi N",
+        "Scala CD",
+        "Fantini J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France.",
+        "School of Medicine, University Hospital of Wales Heath Park, 14 4XN Cardiff CF, UK.",
+        "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France.",
+        "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France.",
+        "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland.",
+        "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azzaz, Fodil",
+        "short_name": "Azzaz F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Mazzarino, Morgane",
+        "short_name": "Mazzarino M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University Hospital of Wales Heath Park, 14 4XN Cardiff CF, UK."
+        ]
+      },
+      {
+        "full_name": "Chahinian, Henri",
+        "short_name": "Chahinian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Yahi, Nouara",
+        "short_name": "Yahi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Scala, Coralie Di",
+        "short_name": "Scala CD",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Fantini, Jacques",
+        "short_name": "Fantini J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Medicine, Aix-Marseille University, INSERM UMR_S 1072, Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2023 Aug 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 06:43",
+    "fetched_at": "2026-09-21 01:08:59"
+  },
+  "links": {
+    "cites": [
+      "41632392",
+      "41594651",
+      "41577839",
+      "40994720",
+      "39941090",
+      "38362940"
+    ],
+    "refs": [],
+    "similar": [
+      "37664934",
+      "26002055",
+      "34837695",
+      "34955555",
+      "29306438",
+      "12871592",
+      "28734966",
+      "28324651",
+      "36331354",
+      "1695242",
+      "11308022",
+      "12044171",
+      "36675271",
+      "25313007",
+      "22572791",
+      "33398996",
+      "16639029",
+      "25499607",
+      "7929173",
+      "37052878",
+      "34999972",
+      "23852579",
+      "30484243",
+      "21670940",
+      "35034721",
+      "28935104",
+      "16045452",
+      "23805749",
+      "24759545",
+      "16118364",
+      "34081780",
+      "32770506",
+      "1402926",
+      "24371137",
+      "11705889",
+      "27155581",
+      "27610460",
+      "2993972",
+      "17704805",
+      "26119566",
+      "1881515",
+      "1284679",
+      "8874015",
+      "11964241",
+      "36701103",
+      "21676530",
+      "19139760",
+      "3989569",
+      "23899502",
+      "18463156",
+      "6741732",
+      "27043189",
+      "11520799",
+      "11350083",
+      "6882761",
+      "25140899",
+      "7082666",
+      "25178424",
+      "32951428",
+      "32916822",
+      "15629689",
+      "25733521",
+      "6209415",
+      "18585706",
+      "36603410",
+      "17428477",
+      "19647738",
+      "9545544",
+      "18342620",
+      "32028715",
+      "15002743",
+      "32436385",
+      "12691736",
+      "21214571",
+      "34328594",
+      "26540054",
+      "11018060",
+      "25931034",
+      "2579206",
+      "6477883",
+      "30457145",
+      "24122042",
+      "31698188",
+      "12637320",
+      "14607985",
+      "712245",
+      "37523476",
+      "1423800",
+      "4066767",
+      "11463647",
+      "18334715",
+      "12153479",
+      "17253773",
+      "33117120",
+      "38362940",
+      "37766261",
+      "38001622"
+    ],
+    "review": [
+      "37664934",
+      "28734966",
+      "36331354",
+      "37052878",
+      "30484243",
+      "35034721",
+      "23899502",
+      "32916822",
+      "18342620",
+      "32028715",
+      "34328594",
+      "25931034",
+      "18334715",
+      "33117120",
+      "38362940"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/37664934/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.imrpress.com/journal/FBL/28/8/10.31083/j.fbl2808157",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

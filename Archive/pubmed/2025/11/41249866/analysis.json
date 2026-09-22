@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41249866",
+  "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation.",
+  "authors": "Nugnes, Maria Victoria; Bouhraoua, Kamel Eddine Adel; Zoubiri, Mehdi; Pancsa, Rita; Ficho, Erzsebet; Tompa, Peter; Piovesan, Damiano; Tosatto, Silvio C E; Aspromonte, Maria Cristina",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-11-18",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍DisProt数据库2026年更新，收录IDP/IDR实验证据并整合AI文献筛选工具，虽涉及无序蛋白对象但无PPI机制建模或AI/物理方法实质贡献，属资源型工作。",
+  "abstract": "DisProt (https://disprot.org/) is an open database integrating experimental evidence on intrinsically disordered proteins (IDPs), intrinsically disordered regions (IDRs), and their functions. Over the past two years, the database has grown over 20%, now comprising 3201 IDPs and 13 347 pieces of evidence, including over 1500 new structural state annotations and >1300 new function annotations. DisProt has systematically adopted the Minimum Information About Disorder Experiments (MIADE) guidelines, more than doubling annotations with experimental details and improving the interpretability of disorder-related experiments. The website has evolved into a hybrid knowledgebase and deposition system, introducing a Deposition Page that allows direct submissions by external users. Through BLAST-based homology propagation in MobiDB, DisProt disorder regions and linear interacting peptides have been extended from hundreds to hundreds of thousands of proteins across >11 000 organisms. This new release marks a paradigm shift by integrating computational predictions as valid evidence and introducing major updates and restructuring of the IDP Ontology, enhancing accuracy, interoperability, and semantic clarity. DisProt continues to support community engagement through training resources together with DisTriage, an AI-based literature triage tool, providing curators with regularly updated lists of prioritized publications.",
+  "abstract_zh": "DisProt（https://disprot.org/）是一个整合内在无序蛋白质（IDPs）、内在无序区域（IDRs）及其功能实验证据的开放数据库。过去两年间，该数据库增长超过20%，目前包含3201个IDPs和13347条证据，其中包括超过1500条新的结构状态注释和超过1300条新的功能注释。DisProt已系统性地采纳了无序实验最低信息（MIADE）指南，使带有实验细节的注释数量翻倍以上，并提升了无序相关实验的可解释性。该网站已演变为一个混合型知识库和沉积系统，引入了沉积页面，允许外部用户直接提交数据。通过MobiDB中基于BLAST的同源传播，DisProt的无序区域和线性相互作用肽已从数百种扩展到超过11000种生物中的数十万种蛋白质。此次新版本标志着范式转变，将计算预测整合为有效证据，并引入IDP本体论的重大更新和重构，增强了准确性、互操作性和语义清晰度。DisProt继续通过培训资源以及基于AI的文献分诊工具DisTriage支持社区参与，为策展人提供定期更新的优先出版物列表。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41249866/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41249866/",
+  "paper_page_path": "papers/pubmed/41249866/index.html"
+}

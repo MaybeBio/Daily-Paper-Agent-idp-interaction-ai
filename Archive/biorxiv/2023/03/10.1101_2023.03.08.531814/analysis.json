@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.08.531814",
+  "title": "Combining pairwise structural similarity and deep learning interface contact prediction to estimate protein complex model accuracy in CASP15",
+  "authors": "Jianlin Cheng; Raj Shekhor Roy; Jian Liu; Nabin Giri; Zhiye Guo",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-12",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出结合成对结构相似性与深度学习界面接触预测的复合物模型质量评估方法，虽非针对无序蛋白，但其互作界面建模与AI方法对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Estimating the accuracy of quaternary structural models of protein complexes and assemblies (EMA) is important for predicting quaternary structures and applying them to studying protein function and interaction. The pairwise similarity between structural models is proven useful for estimating the quality of protein tertiary structural models, but it has been rarely applied to predicting the quality of quaternary structural models. Moreover, the pairwise similarity approach often fails when many structural models are of low quality and similar to each other. To address the gap, we developed a hybrid method (MULTICOM_qa) combining a pairwise similarity score (PSS) and an interface contact probability score (ICPS) based on the deep learning inter-chain contact prediction for estimating protein complex model accuracy. It blindly participated in the 15th Critical Assessment of Techniques for Protein Structure Prediction (CASP15) in 2022 and ranked first out of 24 predictors in estimating the global accuracy of assembly models. The average per-target correlation coefficient between the model quality scores predicted by MULTICOM_qa and the true quality scores of the models of CASP15 assembly targets is 0.66. The average per-target ranking loss in using the predicted quality scores to rank the models is 0.14. It was able to select good models for most targets. Moreover, several key factors (i.e., target difficulty, model sampling difficulty, skewness of model quality, and similarity between good/bad models) for EMA are identified and analayzed. The results demonstrate that combining the multi-model method (PSS) with the complementary single-model method (ICPS) is a promising approach to EMA. The source code of MULTICOM_qa is available at https://github.com/BioinfoMachineLearning/MULTICOM_qa .",
+  "abstract_zh": "评估蛋白质复合物和组装体的四级结构模型准确性（EMA）对于预测四级结构并将其应用于研究蛋白质功能和相互作用具有重要意义。结构模型之间的成对相似性已被证明可用于估计蛋白质三级结构模型的质量，但很少被应用于预测四级结构模型的质量。此外，当许多结构模型质量较低且彼此相似时，成对相似性方法往往失效。为解决这一空白，我们开发了一种混合方法（MULTICOM_qa），结合了成对相似性评分（PSS）和基于深度学习链间接触预测的界面接触概率评分（ICPS），用于估计蛋白质复合物模型的准确性。该方法于2022年盲法参加了第15届蛋白质结构预测关键技术评估（CASP15），在估计组装模型全局准确性方面，在24个预测器中排名第一。MULTICOM_qa预测的模型质量评分与CASP15组装靶标模型真实质量评分之间的平均每靶标相关系数为0.66。使用预测质量评分对模型进行排序时，平均每靶标排序损失为0.14。该方法能够为大多数靶标选择出良好模型。此外，识别并分析了影响EMA的几个关键因素（即靶标难度、模型采样难度、模型质量偏态以及好/坏模型之间的相似性）。结果表明，将多模型方法（PSS）与互补的单模型方法（ICPS）相结合是EMA的一种有前景的方法。MULTICOM_qa的源代码可在 https://github.com/BioinfoMachineLearning/MULTICOM_qa 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531814",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531814",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.08.531814/index.html"
+}

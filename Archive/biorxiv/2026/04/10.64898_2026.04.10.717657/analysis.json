@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.10.717657",
+  "title": "Graph Machine Learning for Physiological Role Prediction in Protein Contact Networks: A Large-Scale Comparative Study on the Human Proteome",
+  "authors": "Mattia Cervellini; Alessio Martino",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-14",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用图机器学习基于蛋白接触网络预测人类蛋白质组酶功能，对象为折叠蛋白结构，不涉及无序蛋白/IDR/PPI互作机制，方法虽为AI但无可迁移的互作机制建模启发。",
+  "abstract": "Proteins are fundamental macromolecules involved in virtually all biological processes. Their physiological roles are tightly linked to their three-dimensional structure, which can be naturally abstracted as Protein Contact Networks (PCNs), i.e., graphs where residues are nodes and edges encode spatial proximity. This representation enables the application of graph machine learning to address the protein functional annotation gap at proteome scale. In this work, protein function prediction is studied on the majority of the human proteome, focusing on enzymatic activity and enzyme class assignment as well-defined and biologically meaningful targets. A large-scale supervised analysis was conducted on PCNs derived from experimentally resolved human protein structures. Multiple graph-based learning paradigms were systematically compared under a unified evaluation protocol, including handcrafted graph embeddings, kernel methods, and end-to-end Graph Neural Networks (GNNs). Feature engineering approaches included (i) spectral density embeddings of the normalized graph Laplacian and (ii) higher-order topological representations based on simplicial complexes, with optional INDVAL-based feature selection. These representations were paired with linear, ensemble, and kernel classifiers, while GNNs were trained directly on raw PCNs exploiting a diverse set of message-passing strategies. Two tasks were considered: binary classification of enzymatic versus non-enzymatic proteins and multiclass prediction of first-level Enzyme Commission (EC) classes. Performance was assessed using repeated stratified splits to ensure robust and variance-aware evaluation. In the binary enzymatic classification task, the Jaccard-based graph kernel achieved the best performance with an adjusted balanced accuracy of 0.90, closely followed by GNNs trained end-to-end on PCNs. In the multiclass EC prediction task, GNNs demonstrated superior discriminative power, reaching an adjusted balanced accuracy of 0.92 and outperforming all explicit embedding and kernel-based approaches. Overall, results indicate that EC class prediction is intrinsically more complex than binary enzymatic discrimination and benefits from the higher expressivity of deep message-passing architectures. The findings demonstrate that graph-based representations of protein structure support competitive functional prediction at proteome scale, with classical kernel methods and modern GNNs offering complementary strengths in terms of accuracy, inference-time applicability, and flexibility.",
+  "abstract_zh": "蛋白质是参与几乎所有生物过程的基本大分子。其生理作用与其三维结构紧密相关，这种结构可自然地抽象为蛋白质接触网络 (Protein Contact Networks, PCNs)，即残基为节点、边编码空间邻近性的图。这种表示使得图机器学习能够应用于蛋白质组规模的功能注释缺口。在本工作中，蛋白质功能预测在人类蛋白质组的大部分上进行研究，聚焦于酶活性和酶类分配作为明确且生物学上有意义的目标。对来自实验解析的人类蛋白质结构的PCNs进行了大规模监督分析。在统一评估协议下，系统比较了多种基于图的学习范式，包括手工设计的图嵌入、核方法以及端到端图神经网络 (Graph Neural Networks, GNNs)。特征工程方法包括：(i) 归一化图拉普拉斯算子的谱密度嵌入，以及 (ii) 基于单纯复形的高阶拓扑表示，可选INDVAL特征选择。这些表示与线性、集成和核分类器配对，而GNNs则直接在原始PCNs上训练，利用多样化的消息传递策略。考虑了两个任务：酶与非酶蛋白的二元分类以及一级酶委员会 (Enzyme Commission, EC) 类的多类预测。性能通过重复分层分割进行评估，以确保稳健且方差感知的评估。在二元酶分类任务中，基于Jaccard的图核实现了最佳性能，调整后平衡准确率为0.90，紧随其后的是在PCNs上端到端训练的GNNs。在多类EC预测任务中，GNNs展现出优越的判别能力，达到调整后平衡准确率0.92，优于所有显式嵌入和基于核的方法。总体而言，结果表明EC类预测本质上比二元酶判别更复杂，并受益于深度消息传递架构的更高表达力。研究结果证明，基于图的蛋白质结构表示支持蛋白质组规模的竞争性功能预测，经典核方法和现代GNNs在准确性、推理时间适用性和灵活性方面提供互补优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717657",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717657",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.10.717657/index.html"
+}

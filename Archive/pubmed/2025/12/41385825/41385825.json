@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "41385825",
+    "doi": "10.1016/j.sbi.2025.103198",
+    "title": "Advances in the determination of disordered protein ensemble."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play essential roles in regulation, signaling, and phase separation, yet their structural complexity cannot be captured by a single conformation. Instead, they populate dynamic ensembles that encode a context-dependent function. Recent advances in experimental techniques coupled with physics-based simulations, coarse-grained models, and machine learning, have transformed our ability to generate and interpret IDP ensembles. Integrative frameworks now combine complementary data with computational approaches to refine ensembles at both local and global levels. Nevertheless, challenges remain in benchmarking, error estimation, and modeling assemblies involving protein-protein and protein-nucleic acid interactions. We highlight recent progress and outline the emerging directions that will shape the next generation of ensemble determination methods.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Models, Molecular",
+      "Humans",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghafouri, Hamidreza",
+        "Tosatto, Silvio C E",
+        "Monzon, Alexander Miguel"
+      ],
+      "short_names": [
+        "Ghafouri H",
+        "Tosatto SCE",
+        "Monzon AM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy; Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, 70126, Italy. Electronic address: silvio.tosatto@unipd.it.",
+        "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy. Electronic address: alexander.monzon@unipd.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghafouri, Hamidreza",
+        "short_name": "Ghafouri H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy; Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, 70126, Italy. Electronic address: silvio.tosatto@unipd.it."
+        ]
+      },
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Via Ugo Bassi 58/B, 35131, Padova, Italy. Electronic address: alexander.monzon@unipd.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 00:32",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42147780",
+      "41708867"
+    ],
+    "refs": [],
+    "similar": [
+      "41385825",
+      "39093570",
+      "34680048",
+      "41432303",
+      "29573987",
+      "41579411",
+      "30840442",
+      "40068541",
+      "38053335",
+      "33355572",
+      "38275091",
+      "41082321",
+      "35129612",
+      "40349675",
+      "30979035",
+      "38987470",
+      "27844185",
+      "32696369",
+      "34390736",
+      "40081192",
+      "39499823",
+      "32403216",
+      "23794453",
+      "36083825",
+      "38781245",
+      "39555603",
+      "34845619",
+      "36774359",
+      "28259050",
+      "27159632",
+      "25863585",
+      "36674958",
+      "30413085",
+      "39163306",
+      "41644540",
+      "26387099",
+      "34656328",
+      "33421906",
+      "39196930",
+      "31441158",
+      "40532196",
+      "33545530",
+      "40101966",
+      "34716273",
+      "33555894",
+      "31356778",
+      "40095314",
+      "26967199",
+      "34504009",
+      "37241789",
+      "39740355",
+      "32840111",
+      "24008243",
+      "33310020",
+      "33623120",
+      "26387101",
+      "37338049",
+      "39522439",
+      "36641212",
+      "41137856",
+      "36934808",
+      "35119946",
+      "35944496",
+      "25358803",
+      "26453218",
+      "40360271",
+      "40128232",
+      "31809054",
+      "32859072",
+      "27988422",
+      "38296708",
+      "26387102",
+      "28394890",
+      "29539394",
+      "31756104",
+      "29982297",
+      "37904608",
+      "39504303",
+      "41086136",
+      "38177684",
+      "26387104",
+      "30124042",
+      "40034137",
+      "38018910",
+      "31548393",
+      "28095698",
+      "25631161",
+      "31425549",
+      "36917561",
+      "32345021",
+      "31241933",
+      "24278008",
+      "26574339",
+      "26549326",
+      "33945530",
+      "37883249",
+      "25502193",
+      "30091924",
+      "33248138",
+      "36671509"
+    ],
+    "review": [
+      "41385825",
+      "39093570",
+      "34680048",
+      "41579411",
+      "30840442",
+      "40068541",
+      "33355572",
+      "35129612",
+      "40349675",
+      "30979035",
+      "34390736",
+      "40081192",
+      "32403216",
+      "23794453",
+      "39555603",
+      "28259050",
+      "25863585",
+      "30413085",
+      "26387099",
+      "33421906",
+      "31441158",
+      "33545530",
+      "31356778",
+      "37241789",
+      "39740355",
+      "24008243",
+      "26387101",
+      "39522439",
+      "35119946",
+      "27988422",
+      "38296708",
+      "26387102",
+      "29982297",
+      "26387104",
+      "26549326",
+      "25502193",
+      "33248138"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(25)00216-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34998327",
+  "title": "Limitations of field-theory simulation for exploring phase separation: The role of repulsion in a lattice protein model.",
+  "authors": "Nilsson, Daniel; Bozorg, Behruz; Mohanty, Sandipan; Soderberg, Bo; Irback, Anders",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-01-10",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用复朗之万场论模拟探索晶格蛋白模型的相分离，并对比蒙特卡洛揭示排斥作用导致的采样局限，虽对象为简化HP模型而非真实IDP，但聚焦相分离机制建模且方法为物理模拟，对本课题有方法学启发。",
+  "abstract": "Field-theory simulation by the complex Langevin method offers an alternative to conventional sampling techniques for exploring the forces driving biomolecular liquid-liquid phase separation. Such simulations have recently been used to study several polyampholyte systems. Here, we formulate a field theory corresponding to the hydrophobic/polar (HP) lattice protein model, with finite same-site repulsion and nearest-neighbor attraction between HH bead pairs. By direct comparison with particle-based Monte Carlo simulations, we show that complex Langevin sampling of the field theory reproduces the thermodynamic properties of the HP model only if the same-site repulsion is not too strong. Unfortunately, the repulsion has to be taken weaker than what is needed to prevent condensed droplets from assuming an artificially compact shape. Analysis of a minimal and analytically solvable toy model hints that the sampling problems caused by repulsive interaction may stem from loss of ergodicity.",
+  "abstract_zh": "利用复朗之万方法进行的场论模拟，为探索驱动生物分子液-液相分离的力提供了传统采样技术的替代方案。此类模拟最近已被用于研究多种多聚两性电解质系统。在此，我们构建了一个对应于疏水/极性（HP）晶格蛋白质模型的场论，该模型包含有限同点位点排斥和HH珠对之间的最近邻吸引。通过与基于粒子的蒙特卡洛模拟直接比较，我们表明，仅当同点位点排斥不太强时，场论的复朗之万采样才能重现HP模型的热力学性质。不幸的是，排斥强度必须弱于防止凝聚液滴呈现人为紧凑形状所需的值。对一个最小且可解析求解的玩具模型的分析暗示，由排斥相互作用引起的采样问题可能源于遍历性的丧失。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34998327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34998327/",
+  "paper_page_path": "papers/pubmed/34998327/index.html"
+}

@@ -1,0 +1,363 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.10.617378",
+  "title": "The small GTPase Ran defines Nuclear Pore Complex Asymmetry",
+  "doi": "10.1101/2024.10.10.617378",
+  "abstract": "<h4>Summary</h4> Nuclear pore complexes (NPCs) bridge across the nuclear envelope and mediate nucleocytoplasmic exchange. They consist of hundreds of nucleoporin building blocks and exemplify the structural complexity of macromolecular assemblies. To ensure transport directionality, different nucleoporin complexes are attached to the cytosolic and nuclear face of the NPC. How those asymmetric structures are faithfully assembled onto the symmetric scaffold architecture that exposes the same interaction surfaces to either side, remained enigmatic. Here we combine cryo-electron tomography, subtomogram averaging, and template matching with live cell imaging to address this question in budding yeast and Drosophila melanogaster . We genetically induce ectopic nuclear pores and show that pores outside the nuclear envelope are symmetric. We furthermore demonstrate that the peripheral NPC configuration depends on the nucleotide state of the small GTPase Ran. Our findings indicate that the nuclear transport system is self-regulatory, namely the same molecular mechanism controls both transport and transport channel composition.",
+  "authors": [
+    "Sachweh J",
+    "Börmel M",
+    "Klumpe S",
+    "Becker A",
+    "Taniguchi R",
+    "Kubańska MA",
+    "Pintschovius V",
+    "Kaindl E",
+    "Plitzko JM",
+    "Wilfling F",
+    "Beck M",
+    "Hampoelz B"
+  ],
+  "published_date": "2024-10-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.10.617378",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.10.617378.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR923104",
+    "raw_record": {
+      "id": "PPR923104",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR923104"
+        ]
+      },
+      "doi": "10.1101/2024.10.10.617378",
+      "title": "The small GTPase Ran defines Nuclear Pore Complex Asymmetry",
+      "authorString": "Sachweh J, Börmel M, Klumpe S, Becker A, Taniguchi R, Kubańska MA, Pintschovius V, Kaindl E, Plitzko JM, Wilfling F, Beck M, Hampoelz B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sachweh J",
+            "lastName": "Sachweh",
+            "firstName": "Jenny",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4461-750X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Börmel M",
+            "lastName": "Börmel",
+            "firstName": "Mandy",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Electron Microscopy Core Facility, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klumpe S",
+            "lastName": "Klumpe",
+            "firstName": "Sven",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8350-6503"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                },
+                {
+                  "affiliation": "Research Group CryoEM Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Becker A",
+            "lastName": "Becker",
+            "firstName": "Anja",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taniguchi R",
+            "lastName": "Taniguchi",
+            "firstName": "Reiya",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kubańska MA",
+            "lastName": "Kubańska",
+            "firstName": "Marta Anna",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pintschovius V",
+            "lastName": "Pintschovius",
+            "firstName": "Verena",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaindl E",
+            "lastName": "Kaindl",
+            "firstName": "Eva",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plitzko JM",
+            "lastName": "Plitzko",
+            "firstName": "Jürgen",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6402-8315"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Group CryoEM Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilfling F",
+            "lastName": "Wilfling",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6559-7261"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Mechanisms of Cellular Quality Control, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beck M",
+            "lastName": "Beck",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                },
+                {
+                  "affiliation": "Institute of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hampoelz B",
+            "lastName": "Hampoelz",
+            "firstName": "Bernhard",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sociology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4354-891X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4461-750X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6402-8315"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6559-7261"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8350-6503"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3835-8238"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Nuclear pore complexes (NPCs) bridge across the nuclear envelope and mediate nucleocytoplasmic exchange. They consist of hundreds of nucleoporin building blocks and exemplify the structural complexity of macromolecular assemblies. To ensure transport directionality, different nucleoporin complexes are attached to the cytosolic and nuclear face of the NPC. How those asymmetric structures are faithfully assembled onto the symmetric scaffold architecture that exposes the same interaction surfaces to either side, remained enigmatic. Here we combine cryo-electron tomography, subtomogram averaging, and template matching with live cell imaging to address this question in budding yeast and  Drosophila melanogaster . We genetically induce ectopic nuclear pores and show that pores outside the nuclear envelope are symmetric. We furthermore demonstrate that the peripheral NPC configuration depends on the nucleotide state of the small GTPase Ran. Our findings indicate that the nuclear transport system is self-regulatory, namely the same molecular mechanism controls both transport and transport channel composition.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "724379",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101054823",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.10.617378"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.10.617378"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR923104"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR923104&type=FILE&fileName=EMS199373-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40829587",
+            "reference": "Cell. 2025 Oct;188(21):5931-5946.e16",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199373",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-10-13",
+      "firstPublicationDate": "2024-10-11",
+      "firstIndexDate": "2024-10-13",
+      "fullTextReceivedDate": "2024-10-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

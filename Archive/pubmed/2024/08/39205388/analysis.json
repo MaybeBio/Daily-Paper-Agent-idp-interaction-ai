@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39205388",
+  "title": "C9orf72 polyPR interaction with the nuclear pore complex.",
+  "authors": "Jafarinia, Hamidreza; Van der Giessen, Erik; Onck, Patrick R",
+  "journal": "Biophysical journal",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究C9orf72 polyPR与含无序FG-Nups的核孔复合物互作及转运机制，对象为IDR、聚焦PPI机制且采用物理模拟，高度契合课题。",
+  "abstract": "The C9orf72 gene associated with amyotrophic lateral sclerosis/frontotemporal dementia is translated to five dipeptide repeat proteins, among which poly-proline-arginine (PR) is the most toxic in cell and animal models, contributing to a variety of cellular defects. It has been proposed that polyPR disrupts nucleocytoplasmic transport (NCT) through several mechanisms including accumulation in the nuclear pore complex (NPC), accumulation in the nucleolus, and direct interactions with transport receptors. The NPC, which is the key regulator of transport between the cytoplasm and nucleus, plays a central role in these suggested mechanisms. Exploring polyPR interaction with the NPC provides valuable insight into the molecular details of polyPR-mediated NCT defects. To address this, we use coarse-grained molecular dynamics models of polyPR and the yeast NPC lined with intrinsically disordered FG-nucleoporins (FG-Nups). Our findings indicate no aggregation of polyPR within the NPC or permanent binding to FG-Nups. Instead, polyPR translocates through the NPC, following a trajectory through the central low-density region of the pore. In the case of longer polyPRs, we observe a higher energy barrier for translocation and a narrower translocation channel. Our study shows that polyPR and FG-Nups are mainly engaged in steric interactions inside the NPC with only a small contribution of specific cation-pi, hydrophobic, and electrostatic interactions, allowing polyPR to overcome the entropic barrier of the NPC in a size-dependent manner.",
+  "abstract_zh": "与肌萎缩侧索硬化/额颞叶痴呆相关的C9orf72基因翻译产生五种二肽重复蛋白，其中多聚脯氨酸-精氨酸（PR）在细胞和动物模型中毒性最强，导致多种细胞缺陷。已有研究提出，polyPR通过多种机制破坏核质运输（NCT），包括在核孔复合体（NPC）中积累、在核仁中积累以及与转运受体直接相互作用。NPC作为细胞质与细胞核之间运输的关键调控者，在这些提出的机制中发挥核心作用。探索polyPR与NPC的相互作用，为理解polyPR介导的NCT缺陷的分子细节提供了宝贵见解。为此，我们使用polyPR和由内在无序FG-核孔蛋白（FG-Nups）衬里的酵母NPC的粗粒化分子动力学模型。我们的研究结果表明，polyPR在NPC内无聚集，也不与FG-Nups永久结合。相反，polyPR穿过NPC，沿孔中央低密度区域的轨迹进行转运。对于较长的polyPR，我们观察到更高的转运能垒和更窄的转运通道。我们的研究表明，polyPR与FG-Nups在NPC内主要涉及空间相互作用，仅少量特异性阳离子-π、疏水和静电相互作用参与，这使得polyPR能够以尺寸依赖的方式克服NPC的熵屏障。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39205388/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39205388/",
+  "paper_page_path": "papers/pubmed/39205388/index.html"
+}

@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42153320",
+    "doi": "10.1093/bib/bbag235",
+    "title": "MuFGPS: enhancing liquid-liquid phase separation protein prediction through multi-level features and ensemble learning."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is a key mechanism driving the assembly of membrane-less organelles and is increasingly recognized for its involvement in essential cellular functions and various diseases. However, existing computational approaches largely rely on sequence-level descriptors and often fail to explicitly incorporate structural topology information, limiting their ability to capture the complex determinants of LLPS behavior. Accurate identification of LLPS-capable proteins remains challenging due to their sequence diversity and complex structural determinants. Here, we present MuFGPS (Multi-level Feature Graph-based Predictor for Phase-Separating proteins), a predictive framework integrating sequence-derived physicochemical features, Define Secondary Structure of Proteins-annotated secondary structures, and graph-based structural embeddings from AlphaFold residue contact maps via a multi-head Graph Attention Network. Class imbalance is addressed using Synthetic Minority Oversampling Technique (SMOTE), and classification is performed through a stacking ensemble of Random Forest, XGBoost, and LightGBM. Benchmarks against six representative methods demonstrate that MuFGPS achieves superior performance across all metrics, with notable gains in F1-score and matthews correlation coefficient (MCC). Ablation analyses confirm the synergistic contributions of structural features and ensemble learning to accuracy and robustness. MuFGPS offers a scalable and high-accuracy framework for proteome-wide LLPS protein prediction.",
+    "keywords": [
+      "AlphaFold",
+      "ensemble learning",
+      "graph attention network",
+      "liquid-liquid phase separation (LLPS)",
+      "multi-level feature integration"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "*Proteins/chemistry",
+      "Boosting Machine Learning Algorithms",
+      "*Computational Biology/methods",
+      "Prediction Algorithms",
+      "*Machine Learning",
+      "Random Forest"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xian, Lei",
+        "Zou, Quan",
+        "Qi, Ren",
+        "Niu, Mengting",
+        "Wang, Yansu"
+      ],
+      "short_names": [
+        "Xian L",
+        "Zou Q",
+        "Qi R",
+        "Niu M",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-8569-8023",
+        "ORCID: 0000-0001-6406-1142",
+        "ORCID: 0000-0001-9175-4649"
+      ],
+      "affiliations": [
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China.",
+        "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, R. de Luis Gonzaga Gomes, Macau 999078, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, No. 5, Zhongguancun South Street, Haidian District, Beijing 100081, China.",
+        "School of Life Science and Technology, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China.",
+        "School of Electronic and Communication Engineering, Shenzhen Polytechnic University, No. 7098, Liuxian Avenue, Nanshan District, Shenzhen 518055, Guangdong, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xian, Lei",
+        "short_name": "Xian L",
+        "identifiers": [
+          "0009-0006-8569-8023"
+        ],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [
+          "0000-0001-6406-1142"
+        ],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China.",
+          "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, R. de Luís Gonzaga Gomes, Macau 999078, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Ren",
+        "short_name": "Qi R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, No. 5, Zhongguancun South Street, Haidian District, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Mengting",
+        "short_name": "Niu M",
+        "identifiers": [
+          "0000-0001-9175-4649"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China.",
+          "School of Electronic and Communication Engineering, Shenzhen Polytechnic University, No. 7098, Liuxian Avenue, Nanshan District, Shenzhen 518055, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yansu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Avenue, West Hi-Tech Zone, Chengdu 611731, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 May 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 06:30",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41389438",
+      "40466240",
+      "40421658",
+      "39952928",
+      "38565952",
+      "38553587",
+      "38459060",
+      "38380794",
+      "38205268",
+      "36124686",
+      "35687670",
+      "35610022",
+      "35149762",
+      "35025997",
+      "34791371",
+      "34334791",
+      "34265844",
+      "34234347",
+      "33827920",
+      "32076047",
+      "31691822",
+      "31612960",
+      "30682370",
+      "29424691",
+      "28575391",
+      "28225081",
+      "28076807",
+      "27320918",
+      "27051975",
+      "25352545",
+      "24825614",
+      "23060610",
+      "22190692",
+      "6667333"
+    ],
+    "similar": [
+      "42153320",
+      "41241351",
+      "40794947",
+      "41405960",
+      "42592589",
+      "41633286",
+      "42214054",
+      "39067723",
+      "41772316",
+      "38380794",
+      "41456007",
+      "42380674",
+      "40282384",
+      "42021134",
+      "42335477",
+      "40133201",
+      "41787364",
+      "41996322",
+      "42119874",
+      "41535484",
+      "42475469",
+      "42374910",
+      "42184109",
+      "39121059",
+      "41679678",
+      "42218244",
+      "39434494",
+      "39979996",
+      "41311650",
+      "42288527",
+      "36990028",
+      "42132949",
+      "42044068",
+      "42074175",
+      "42336024",
+      "42467612",
+      "42589294",
+      "41617871",
+      "35168563",
+      "40618698",
+      "41419964",
+      "41688057",
+      "41864877",
+      "33827920",
+      "42281397",
+      "41372420",
+      "42168245",
+      "41931572",
+      "41805524",
+      "40569190",
+      "38812315",
+      "41826845",
+      "40703379",
+      "41039229",
+      "40815964",
+      "41934166",
+      "42366619",
+      "40817318",
+      "42050907",
+      "42266872",
+      "41714171",
+      "41901583",
+      "41120647",
+      "41998703",
+      "41185463",
+      "42220548",
+      "41905267",
+      "34418678",
+      "42443634",
+      "40820010",
+      "40143108",
+      "42286075",
+      "36528388",
+      "40171777",
+      "35713780",
+      "42234843",
+      "41452825",
+      "39487084",
+      "41094395",
+      "42437763",
+      "41154264",
+      "41739380",
+      "40069309",
+      "42215669",
+      "31393553",
+      "42157243",
+      "41642902",
+      "39930351",
+      "41586860",
+      "41046492",
+      "42318270",
+      "42126889",
+      "39576667",
+      "42053346",
+      "40315433",
+      "42517130",
+      "39223474",
+      "40925423",
+      "41734354",
+      "37796176"
+    ],
+    "review": [
+      "42153320",
+      "42184109"
+    ],
+    "pmc": [
+      "13184532"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42153320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag235",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "identity": {
+    "pmid": "40878020",
+    "doi": "10.1021/acs.jcim.5c01622",
+    "title": "Molecular Dynamics Simulations Reveal Conformational Determinants of the Dynamic Association between alpha-Synuclein and Membranes."
+  },
+  "content": {
+    "abstract": "Interaction of alpha-synuclein with membranes is associated with normal cellular functions and the etiology of neurodegenerative diseases. Structural characterization of the membrane-bound alpha-synuclein is key to understanding the interaction mechanism. However, it represents a significant challenge because the intrinsically disordered nature of alpha-synuclein leads to a multitude of membrane-binding modes and highly dynamic conformations at the membrane surface. The present work investigated the binding of alpha-synuclein to a mixed POPC/POPG bilayer and provided atomic-level characterization of the protein-membrane complex based on extensive molecular dynamics simulations. The binding process is triggered by the adsorption of lysine residues to the negatively charged PG headgroups and results in differential binding modes stemming from the balance of heterogeneous intramolecular contacts of alpha-synuclein and its interaction with the membrane. The membrane-binding residues are primarily located in the first nine residues and the five imperfect KTKEGV repeats in the N-terminus. Network analysis of intramolecular interactions identifies the interaction between the N-terminus and C-terminus as the major interference factor in membrane binding. Repeats 1, 3, and 5 which are less engaged in intramolecular contacts display higher membrane-binding propensities, whereas Repeat 4 is the least membrane-bound due to strong interactions with Repeat 3, Repeat 5, and the C-terminus. Our results reveal crucial intramolecular interactions governing the membrane binding of alpha-synuclein and would enlighten the development of therapeutic strategies targeting the alpha-synuclein-membrane interaction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Phosphatidylcholines/chemistry/metabolism",
+      "*Lipid Bilayers/metabolism/chemistry",
+      "*Cell Membrane/metabolism/chemistry",
+      "Phosphatidylglycerols/chemistry/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Jiahui",
+        "Guo, Cong"
+      ],
+      "short_names": [
+        "Huang J",
+        "Guo C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8655-0780"
+      ],
+      "affiliations": [
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai 200444, China.",
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai 200444, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Jiahui",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Cong",
+        "short_name": "Guo C",
+        "identifiers": [
+          "0000-0001-8655-0780"
+        ],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai 200444, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Sep 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/29 08:45",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40878020",
+      "28604248",
+      "23493873",
+      "39306670",
+      "33415971",
+      "41428873",
+      "24316000",
+      "16519533",
+      "27273030",
+      "29853639",
+      "30019106",
+      "38263741",
+      "22494024",
+      "19167303",
+      "23140320",
+      "17729279",
+      "23823878",
+      "33719460",
+      "37768058",
+      "31917569",
+      "21179192",
+      "18082181",
+      "21144817",
+      "22325285",
+      "16953580",
+      "16042398",
+      "14596606",
+      "25255476",
+      "24940776",
+      "39756734",
+      "32091512",
+      "33437978",
+      "26649316",
+      "23583776",
+      "24383916",
+      "27177693",
+      "19576220",
+      "37843472",
+      "29652823",
+      "36362195",
+      "33784451",
+      "24376740",
+      "22877705",
+      "22387432",
+      "28585804",
+      "21112291",
+      "21396938",
+      "24743023",
+      "23831067",
+      "25665896",
+      "29273335",
+      "22693597",
+      "26119565",
+      "21222117",
+      "27298346",
+      "27455027",
+      "17868158",
+      "29891712",
+      "40775530",
+      "23740253",
+      "31937832",
+      "25008278",
+      "26278640",
+      "22402267",
+      "33345970",
+      "38916260",
+      "27936589",
+      "34808193",
+      "17071657",
+      "28702543",
+      "24905915",
+      "33482036",
+      "24892900",
+      "19328772",
+      "30872688",
+      "40966386",
+      "15709783",
+      "32513706",
+      "19905150",
+      "30350681",
+      "19126542",
+      "34015255",
+      "28597209",
+      "26972046",
+      "30625272",
+      "29548366",
+      "22306739",
+      "22767608",
+      "12885775",
+      "33356274",
+      "18930058",
+      "31226488",
+      "37489886",
+      "30771175",
+      "19167304",
+      "25561023",
+      "36278939",
+      "18636713",
+      "8031756",
+      "21477580"
+    ],
+    "review": [
+      "40878020",
+      "26972046"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01622",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

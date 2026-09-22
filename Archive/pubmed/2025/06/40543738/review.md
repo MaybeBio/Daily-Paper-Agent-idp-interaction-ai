@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report synthesis of new organosilicon compounds targeting two hot-spot regions of the intrinsically disordered protein NUPR1, demonstrate binding via NMR and molecular simulations with dissociation constants around 20 µM, but observe no effect on cell viability or on NUPR1-G3BP interaction in cellular assays, concluding that in vitro binding is necessary but not sufficient for in-cellulo inhibition.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond K(d) values, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR spectra, simulation parameters, cellular assay protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent narrative with a clear negative result in cellular assays, which is valuable for the IDP drug discovery field. However, the limited information available prevents full evaluation of the technical rigor, data quality, and the strength of the conclusions. The claim that binding involves both hot-spots is supported only by a single NMR technique mentioned without details. The conclusion that hydrophobicity explains the lack of cellular activity is plausible but not directly evidenced in the abstract.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins as drug targets, medicinal chemists developing organosilicon compounds, and investigators studying protein-protein interaction inhibition in cancer contexts, particularly pancreatic ductal adenocarcinoma. The negative cellular results and the proposed necessary-but-not-sufficient framework for IDP drug design will be of interest to those developing screening and validation strategies for IDP-targeting ligands.
+- **Major strengths** The study addresses a significant challenge in IDP drug discovery by directly comparing in vitro binding with in-cellulo functional outcomes. The use of multiple biophysical techniques to measure K(d) values adds credibility. The explicit reporting of negative cellular results is commendable and provides important context for the field. The synthesis of novel organosilicon compounds expands the chemical space explored for IDP targeting.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Binding between the silyl compounds and NUPR1 involved the two hot-spots, as shown by 2D (1)H-(15)N HSQC NMR"
+  - **Evidence pointer** Abstract, NMR section; location not provided
+  - **Concern** The abstract states that NMR showed binding at both hot-spots but provides no information on the extent of chemical shift perturbations, the number of compounds tested, the concentration ranges used, or whether the assignments were established for the specific compounds. Without these details, it is not possible to assess whether the binding at both hot-spots is robustly demonstrated or whether the effect is weak or partial.
+  - **Why it matters** The claim that both hot-spots are engaged is central to the proposed "clamp mechanism" and to the interpretation of the cellular results. If binding is only partial or occurs at one site preferentially, the conclusions about the necessity of dual-site engagement would be weakened.
+  - **Resolution test** Provide full NMR data including chemical shift perturbation plots, assignment information, and titration curves for each compound, demonstrating significant and saturable perturbations at both hot-spot regions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Molecular simulations clarified that the binding relies on a loose clamp mechanism of the ligands towards the hot-spots"
+  - **Evidence pointer** Abstract, simulations section; location not provided
+  - **Concern** The abstract mentions molecular simulations but does not specify the simulation method, force field, sampling time, or how the "loose clamp mechanism" was defined and quantified. It is unclear whether this mechanism is a robust finding or an interpretation based on limited sampling.
+  - **Why it matters** The clamp mechanism is presented as a key mechanistic insight. Without methodological details and validation, the claim cannot be evaluated for reproducibility or generalizability across the compound series.
+  - **Resolution test** Provide simulation protocols, convergence analyses, and a clear operational definition of the clamp mechanism with supporting structural and dynamic data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "studies in cellulo with PDAC cells did not show a decrease of cell viability upon treatment with the compounds; furthermore, proximity ligation assays in cellulo with a natural partner protein of NUPR1, G3BP, did not show a significant level of interfering in such interaction when silyl compounds were present, probably due to the high hydrophobicity of the designed compounds"
+  - **Evidence pointer** Abstract, cellular assays section; location not provided
+  - **Concern** The abstract attributes the lack of cellular activity to high hydrophobicity but provides no direct evidence for this explanation. No data on compound permeability, intracellular concentrations, solubility, or cellular uptake are mentioned. The alternative explanation that the compounds do not reach the target or are metabolized is not addressed.
+  - **Why it matters** The hydrophobicity explanation is a central conclusion of the paper and is used to derive the general principle that hydrophilicity is necessary for in-cellulo activity. Without direct evidence, this conclusion remains speculative.
+  - **Resolution test** Provide measurements of compound solubility, cellular uptake, intracellular localization, or other direct evidence linking hydrophobicity to the observed lack of activity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** K(d) value reporting
+  - **Evidence pointer** Abstract, binding measurements section
+  - **Issue** The abstract states K(d) values were "around 20 µM" but does not specify the range across compounds or the variability between techniques.
+  - **Required correction** Report the range of K(d) values and the agreement between techniques for each compound.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with previous work
+  - **Evidence pointer** Abstract, introduction
+  - **Issue** The abstract mentions previously developed drugs with K(d) values below 10 µM but does not state whether those compounds showed cellular activity, which would strengthen the comparison.
+  - **Required correction** Briefly state the cellular activity of the previously developed compounds to contextualize the current negative results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "loose clamp mechanism"
+  - **Evidence pointer** Abstract, simulations section
+  - **Issue** The term "loose clamp" is not defined and may be ambiguous to readers unfamiliar with the prior work.
+  - **Required correction** Provide a brief operational definition or refer to a prior publication where the term is defined.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of dual hot-spot binding, the clamp mechanism, and the hydrophobicity-based explanation for cellular inactivity are not fully supported by the abstract-level evidence. Full experimental details and direct supporting data are required.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its use of organosilicon compounds for IDP targeting and in its explicit reporting of negative cellular results. However, the conceptual framework of in vitro binding being necessary but not sufficient is not entirely new and has been discussed in the IDP field.
+  - Scientific importance: The negative results and the proposed design criteria are useful for the community but do not represent a major conceptual advance. The importance is moderate and primarily of interest to specialists.
+  - Interdisciplinary readership: The work bridges synthetic chemistry, biophysics, and cell biology, but the abstract does not present findings that would attract a broad interdisciplinary audience beyond those directly working on IDP drug discovery.
+  - Technical soundness: Cannot be fully assessed from the abstract. The use of multiple biophysical techniques is a positive sign, but the lack of methodological detail prevents verification.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms such as "hot-spots," "clamp mechanism," and "proximity ligation assays" without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful study, but the key mechanistic and explanatory claims require full experimental details and direct supporting data. A revised manuscript with complete methods and results could be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that binding involves both hot-spots is not fully supported without detailed NMR data.
+- The "loose clamp mechanism" is not defined or evidenced at the abstract level.
+- The attribution of the lack of cellular activity to high hydrophobicity is speculative without direct measurements.
+- The general conclusion that in vitro binding is necessary but not sufficient for in-cellulo inhibition is presented as a general principle but is derived from a single protein and compound series.

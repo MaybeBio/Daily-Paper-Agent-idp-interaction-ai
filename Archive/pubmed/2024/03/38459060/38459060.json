@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "38459060",
+    "doi": "10.1038/s41467-024-46445-y",
+    "title": "Machine learning predictor PSPire screens for phase-separating proteins lacking intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "The burgeoning comprehension of protein phase separation (PS) has ushered in a wealth of bioinformatics tools for the prediction of phase-separating proteins (PSPs). These tools often skew towards PSPs with a high content of intrinsically disordered regions (IDRs), thus frequently undervaluing potential PSPs without IDRs. Nonetheless, PS is not only steered by IDRs but also by the structured modular domains and interactions that aren't necessarily reflected in amino acid sequences. In this work, we introduce PSPire, a machine learning predictor that incorporates both residue-level and structure-level features for the precise prediction of PSPs. Compared to current PSP predictors, PSPire shows a notable improvement in identifying PSPs without IDRs, which underscores the crucial role of non-IDR, structure-based characteristics in multivalent interactions throughout the PS process. Additionally, our biological validation experiments substantiate the predictive capacity of PSPire, with 9 out of 11 chosen candidate PSPs confirmed to form condensates within cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Shuang",
+        "Hu, Jiaojiao",
+        "Yu, Zhaowei",
+        "Li, Dan",
+        "Liu, Cong",
+        "Zhang, Yong"
+      ],
+      "short_names": [
+        "Hou S",
+        "Hu J",
+        "Yu Z",
+        "Li D",
+        "Liu C",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3511-5513",
+        "ORCID: 0000-0002-1609-1539",
+        "ORCID: 0000-0003-3425-6672",
+        "ORCID: 0000-0001-6316-2734"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 201210, China.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 200032, China.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 201210, China. liulab@sioc.ac.cn.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 200032, China. liulab@sioc.ac.cn.",
+        "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China. yzhang@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Shuang",
+        "short_name": "Hou S",
+        "identifiers": [
+          "0000-0003-3511-5513"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jiaojiao",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 201210, China.",
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhaowei",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0002-1609-1539"
+        ],
+        "affiliations": [
+          "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+          "Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cong",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0003-3425-6672"
+        ],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 201210, China. liulab@sioc.ac.cn.",
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, 200032, China. liulab@sioc.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0001-6316-2734"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cardiology and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China. yzhang@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Mar 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/09 10:42",
+    "fetched_at": "2026-09-21 05:42:04"
+  },
+  "links": {
+    "cites": [
+      "42310761",
+      "42243951",
+      "42231907",
+      "42225071",
+      "42204980",
+      "42184109",
+      "42180533",
+      "42153320",
+      "41987292",
+      "41862773",
+      "41667449",
+      "41647538",
+      "41405960",
+      "41062450",
+      "41003226",
+      "40867524",
+      "40794947",
+      "40666952",
+      "40629388",
+      "40442783",
+      "40424294",
+      "40315433",
+      "39826710",
+      "39663388",
+      "39464109",
+      "39290787",
+      "39138204",
+      "39033393"
+    ],
+    "refs": [
+      "37794023",
+      "37207400",
+      "36592929",
+      "35766380",
+      "35687670",
+      "35537451",
+      "35168563",
+      "34791371",
+      "34291921",
+      "34265844",
+      "34020549",
+      "33798566",
+      "33723425",
+      "33619090",
+      "33610793",
+      "33535034",
+      "33510441",
+      "33318217",
+      "32947964",
+      "32548680",
+      "32302571",
+      "32004090",
+      "31906602",
+      "31691822",
+      "31626750",
+      "31612960",
+      "31584089",
+      "31391587",
+      "31267591",
+      "31252218",
+      "30994888",
+      "30449618",
+      "30244836",
+      "30181255",
+      "30126895",
+      "29961577",
+      "29944854",
+      "29930091",
+      "29439243",
+      "29424691",
+      "29091028",
+      "28453683",
+      "28076807",
+      "27320918",
+      "25747659",
+      "25514926",
+      "25352545",
+      "25321392",
+      "24825614",
+      "22190692",
+      "19460965",
+      "18400099",
+      "15264254",
+      "7108955",
+      "6667333",
+      "4843792"
+    ],
+    "similar": [
+      "38459060",
+      "33610793",
+      "40867524",
+      "41667449",
+      "36528065",
+      "42214054",
+      "33248138",
+      "28924037",
+      "36959451",
+      "36908253",
+      "33078839",
+      "41534519",
+      "41033554",
+      "34179096",
+      "36272675",
+      "42585785",
+      "42244740",
+      "33076213",
+      "40944448",
+      "34390736",
+      "36009025",
+      "41232529",
+      "24115198",
+      "41114728",
+      "42150060",
+      "38252962",
+      "31797595",
+      "35168563",
+      "35481633",
+      "41862773",
+      "32702119",
+      "35883444",
+      "30878482",
+      "42475469",
+      "40403066",
+      "42230638",
+      "32824743",
+      "41571439",
+      "42310761",
+      "34710373",
+      "33627133",
+      "42598852",
+      "24027208",
+      "41337585",
+      "40574713",
+      "35275927",
+      "31175370",
+      "40131954",
+      "36575582",
+      "37498545",
+      "36291695",
+      "25391399",
+      "41629626",
+      "38316988",
+      "36754681",
+      "32535960",
+      "39614773",
+      "35918061",
+      "36008992",
+      "39232584",
+      "29066345",
+      "42306853",
+      "39383002",
+      "42106138",
+      "36821650",
+      "34090478",
+      "39933697",
+      "42507643",
+      "36657879",
+      "36851914",
+      "29424691",
+      "37657994",
+      "39446390",
+      "32756939",
+      "38941236",
+      "35767567",
+      "33616531",
+      "39253485",
+      "29763584",
+      "40631955",
+      "31756456",
+      "29042212",
+      "38588835",
+      "33069007",
+      "31441158",
+      "38297118",
+      "38275091",
+      "39093570",
+      "30135358",
+      "33243935",
+      "42259285",
+      "23142703",
+      "35436286",
+      "34428231",
+      "40286477",
+      "41944598",
+      "36458437",
+      "18831774",
+      "40315433",
+      "36412795"
+    ],
+    "review": [
+      "38459060",
+      "33610793",
+      "33248138",
+      "36959451",
+      "33078839",
+      "34390736",
+      "24027208",
+      "36754681",
+      "42306853",
+      "36821650",
+      "36851914",
+      "37657994",
+      "38588835",
+      "33069007",
+      "31441158",
+      "39093570"
+    ],
+    "pmc": [
+      "10923898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-46445-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38459060/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38459060",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-387",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

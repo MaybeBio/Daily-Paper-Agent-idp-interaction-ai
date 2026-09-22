@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "42647377",
+    "doi": "10.3390/proteomes14030041",
+    "title": "A Propeller with a Flexible Twist: A Computational Analysis of Intrinsically Disordered Regions in PIEZO Gating and PIEZO-Associated Channelopathies."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Mechanosensitive ion channels PIEZO1 and PIEZO2 are key mediators of mechanotransduction, which converts physical forces into cellular signals involved in proprioception, touch, vascular function, and other physiological processes. Mutations in human PIEZO proteins are linked to various diseases, such as hereditary xerocytosis, lymphatic dysplasia, and proprioceptive dysfunction. However, the role of intrinsic disorder in the regulation of these proteins and their susceptibility for disease-associated mutations remains unclear. METHODS: We analyzed canonical human PIEZO1 and PIEZO2 protein sequences using machine learning, neural network, and energy-based disorder predictors, together with the prediction of disorder-mediated binding regions, phase separation propensity, interaction networks, evolutionary conservation, clinically annotated human variants, and peptide structural modeling. RESULTS: Both proteins showed moderate intrinsic disorder, with PIEZO2 having slightly greater disorder propensity and higher predicted phase separation potential. Intrinsically disordered regions frequently overlapped binding-prone segments and post-translational modification sites, supporting regulatory functions. Evolutionary comparisons showed strong conservation of PIEZO proteins, while selected disordered regions retained disorder propensity despite greater sequence variability. Disease-causing variants mainly affected the ordered regions of both proteins, whereas disordered regions contained proportionally more benign variants and relatively few pathogenic mutations. The modeling of mutations within disordered hotspots showed altered local conformational tendencies, indicating that some disease variants may disrupt dynamic interaction interfaces rather than global structure. Interaction network analysis linked both proteins to enriched mechanotransduction, ion transport, and cytoskeletal pathways. CONCLUSIONS: Overall, our findings identify intrinsic disorder as an underappreciated feature of PIEZO channel biology and provide a framework for interpreting PIEZO-associated channelopathies. PIEZO proteins also perfectly illustrate the proteoform concept, where one gene yields a highly diverse kit of mechanosensitive molecular tools. While humans only have two primary PIEZO genes (PIEZO1 and PIEZO2), the body generates a vast array of functional variations.",
+    "keywords": [
+      "PIEZO1",
+      "PIEZO2",
+      "channelopathy",
+      "intrinsically disordered region",
+      "liquid-liquid phase separation",
+      "mechanosensitive ion channel",
+      "post-translational modification",
+      "protein-protein interaction",
+      "proteoform"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shukla, Shivam",
+        "Elzy, Mason",
+        "Shrestha, Abiral",
+        "Uversky, Vladimir N"
+      ],
+      "short_names": [
+        "Shukla S",
+        "Elzy M",
+        "Shrestha A",
+        "Uversky VN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Department of Integrative Biology, University of South Florida-St. Petersburg, St. Petersburg, FL 33701, USA.",
+        "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA.",
+        "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA.",
+        "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shukla, Shivam",
+        "short_name": "Shukla S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology, University of South Florida-St. Petersburg, St. Petersburg, FL 33701, USA.",
+          "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA."
+        ]
+      },
+      {
+        "full_name": "Elzy, Mason",
+        "short_name": "Elzy M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA."
+        ]
+      },
+      {
+        "full_name": "Shrestha, Abiral",
+        "short_name": "Shrestha A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Research Group, C. Leon King High School, Hillsborough County Public Schools, Tampa, FL 33610, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteomes"
+    ],
+    "journal_abbrev": [
+      "Proteomes"
+    ],
+    "pub_date": "2026 Aug 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/26 17:37",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42647377",
+      "42475469",
+      "33422128",
+      "18831774",
+      "28728825",
+      "29171028",
+      "30500111",
+      "28728816",
+      "42585785",
+      "37820892",
+      "17391016",
+      "28728814",
+      "23912807",
+      "34667178",
+      "37626310",
+      "42636812",
+      "40799657",
+      "30096183",
+      "30628892",
+      "36717101",
+      "37762415",
+      "28934129",
+      "32112123",
+      "27164907",
+      "40319601",
+      "38941236",
+      "42290021",
+      "33610426",
+      "25138014",
+      "35861699",
+      "40708698",
+      "41512952",
+      "33361157",
+      "38166858",
+      "42278235",
+      "23055912",
+      "40481689",
+      "39125972",
+      "36929465",
+      "35797829",
+      "39251883",
+      "42211053",
+      "32142647",
+      "41155507",
+      "33357399",
+      "41033554",
+      "35436566",
+      "24727949",
+      "34711306",
+      "34637041",
+      "29257115",
+      "42164363",
+      "31820049",
+      "32721629",
+      "24726865",
+      "40407495",
+      "33304713",
+      "42364125",
+      "37561450",
+      "40828855",
+      "39021275",
+      "38220424",
+      "39979561",
+      "40353513",
+      "29261642",
+      "26957115",
+      "25305018",
+      "27743844",
+      "38385239",
+      "39936392",
+      "29176668",
+      "31521236",
+      "41717081",
+      "39356664",
+      "35701561",
+      "40206431",
+      "42437078",
+      "40863236",
+      "39892695",
+      "31521235",
+      "40867524",
+      "33799876",
+      "26373641",
+      "30988732",
+      "21528128",
+      "23633940",
+      "31235572",
+      "34236889",
+      "35292651",
+      "28527849",
+      "37146970",
+      "23723000",
+      "40557590",
+      "32371601",
+      "36768473",
+      "33548309",
+      "33719450",
+      "38534336",
+      "39062518",
+      "40221640"
+    ],
+    "review": [
+      "42647377",
+      "33422128",
+      "28728825",
+      "29171028",
+      "30500111",
+      "28728816",
+      "28728814",
+      "34667178",
+      "36717101",
+      "37762415",
+      "33610426",
+      "40708698",
+      "35797829",
+      "39251883",
+      "42211053",
+      "33357399",
+      "35436566",
+      "38220424",
+      "40353513",
+      "25305018",
+      "27743844",
+      "38385239",
+      "39936392",
+      "31521236",
+      "35701561",
+      "42437078",
+      "40863236",
+      "31521235",
+      "26373641"
+    ],
+    "pmc": [
+      "13510524"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=proteomes14030041",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42647377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

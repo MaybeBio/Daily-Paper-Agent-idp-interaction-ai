@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41617687",
+  "title": "Multistep receptor binding of the hepatitis B virus preS1 domain.",
+  "authors": "Kobayashi, Chisa; Ekimoto, Toru; Ooka, Koji; Mifune, Junki; Matsuzawa, Kayo; Que, Lusheng; Li, Yingfang; Kusunoki, Atsuto; Morita, Takeshi; Shionoya, Kaho; Nagano, Makoto; Wakae, Kousho; Isogawa, Masanori; Muramatsu, Masamichi; Ohto, Umeharu; Nomura, Norimichi; Park, Sam-Yong; Sureau, Camille; Arai, Munehito; Ikeguchi, Mitsunori; Watashi, Koichi",
+  "journal": "Nature communications",
+  "published_date": "2026-01-31",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合结构模拟与病毒学实验，揭示乙肝病毒无序preS1肽段通过多步构象变化与受体NTCP形成稳定复合物的机制，是IDP介导PPI机制建模的典型范例。",
+  "abstract": "The preS1 domain present on hepatitis B and D virus particles is an intrinsically disordered peptide (IDP) essential for recognizing the host receptor, sodium taurocholate co-transporting polypeptide (NTCP). However, it remains poorly understood how the disordered preS1 peptide achieves high-affinity binding through its conformational change. Here, we reveal a stepwise binding process through which multiple regions within preS1 cooperate to establish the stable binding to NTCP. By combining structure-based molecular simulations with virological assays, we show that Asn9(preS1), Gly12(preS1), and His17(preS1) primarily mediate the NTCP binding by forming a tandem loop core structure that docks into the bile acid tunnel of NTCP, creating an extensive binding interface. Another interaction via Trp41(preS1) stabilizes the flexible preS1 33-48 aa stretch embedded onto the NTCP outerface, particularly involving Asn87(NTCP) and Tyr146(NTCP). Mutation in these key residues abolishes virion infectivity in cell culture and mouse models, demonstrating the biological significance of this binding maturation. These findings propose a multistep mechanism for viral IDP-mediated receptor recognition that ensures high virion infectivity and strict host specificity.",
+  "abstract_zh": "乙型肝炎和丁型肝炎病毒颗粒上的preS1结构域是一种 intrinsically disordered peptide (IDP)，对于识别宿主受体钠牛磺胆酸共转运多肽 (NTCP) 至关重要。然而，关于无序的preS1肽如何通过其构象变化实现高亲和力结合，目前仍知之甚少。在此，我们揭示了一个逐步结合过程，通过该过程，preS1内的多个区域协同作用，建立与NTCP的稳定结合。通过将基于结构的分子模拟 (molecular dynamics) 与病毒学实验相结合，我们表明Asn9(preS1)、Gly12(preS1)和His17(preS1)主要通过形成串联环状核心结构来介导NTCP结合，该结构对接入NTCP的胆汁酸隧道，形成广泛的结合界面。另一个通过Trp41(preS1)的相互作用稳定了嵌入NTCP外表面的柔性preS1 33-48氨基酸片段，特别涉及Asn87(NTCP)和Tyr146(NTCP)。这些关键残基的突变在细胞培养和小鼠模型中消除了病毒粒子的感染性，证明了这种结合成熟的生物学意义。这些发现提出了病毒IDP介导受体识别的多步骤机制，确保了高病毒粒子感染性和严格的宿主特异性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41617687/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41617687/",
+  "paper_page_path": "papers/pubmed/41617687/index.html"
+}

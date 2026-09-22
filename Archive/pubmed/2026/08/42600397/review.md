@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or data were available for evaluation
+- **Shared manuscript claim summary** The abstract asserts that single-molecule fluorescence spectroscopy, including smFRET, FCS, fluorescence anisotropy, and nanosecond FCS, is emerging as a powerful approach to resolve heterogeneous conformations, dynamics, interactions, concentrations, and transport properties in biomolecular condensates, and that combining these measurements with molecular simulations yields mechanistic insight into condensate organization, dynamics, and aging.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or references were provided
+- **Missing materials affecting confidence** Full text, methods section, figures, tables, references, and any quantitative results; without these, the specific claims about "recent applications" and "key applications" cannot be verified or assessed for accuracy, completeness, or novelty
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and timely overview of the potential of single-molecule fluorescence spectroscopy for studying biomolecular condensates. The topic is of current interest, and the authors correctly identify a gap between ensemble methods and the need for molecular-scale resolution in condensate research. However, the abstract is largely programmatic and descriptive, with no specific findings, quantitative examples, or critical evaluation of the cited methods. The claim that these methods "reveal" specific behaviors and "yield mechanistic insight" is not supported by any data or detailed discussion in the provided material. The abstract reads as a high-level perspective rather than a critical review, and its scientific value cannot be fully assessed without the full text.
+- **Who would be interested in the results, and why** Researchers in biophysics, physical chemistry, and cell biology who study biomolecular condensates, phase separation, and intracellular organization. The abstract would also appeal to method developers in single-molecule fluorescence and to computational scientists who use molecular simulations to interpret such data. The promise of linking molecular-scale dynamics to mesoscopic properties is of broad interest to the condensate community.
+- **Major strengths** The abstract identifies a clear and important niche, namely the application of single-molecule methods to condensates, which is a rapidly growing area. It correctly emphasizes the ability of single-molecule approaches to resolve heterogeneity and dynamics that ensemble methods miss. The mention of combining experiments with simulations is a forward-looking and constructive point. The writing is clear and accessible to a broad audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence and support
+  - **Claim pointer** The abstract claims that "recent applications... have revealed how proteins and nucleic acids behave within dense phases, and how molecular-scale dynamics relate to mesoscopic properties and biological function."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract makes strong claims about what single-molecule methods have "revealed" and how they "yield mechanistic insight," but no specific examples, data, or citations are provided in the supplied material. Without the full text, it is impossible to verify whether these claims are supported by the cited literature or by the authors' own work.
+  - **Why it matters** The scientific value of a review article depends on the accuracy and specificity of its claims. If the abstract overstates what has been achieved, it could mislead readers about the maturity of the field. Conversely, if the full text provides strong evidence, the abstract should reflect that specificity to justify the review's contribution.
+  - **Resolution test** Provide the full text or a detailed summary of specific studies, including quantitative results, that substantiate the claims about what single-molecule methods have revealed. The abstract should be revised to include at least one concrete example or a more cautious phrasing if such evidence is not available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and critical evaluation
+  - **Claim pointer** The abstract states that the authors "highlight recent advances, key applications, and promising directions."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not indicate what is new or critical in this review relative to existing reviews on condensates or single-molecule methods. There is no mention of unresolved controversies, methodological limitations, or comparative assessment of different techniques. The abstract reads as a general endorsement rather than a critical review.
+  - **Why it matters** A review in a journal like Current Opinion in Structural Biology is expected to provide a critical perspective, not just a summary. Without a clear statement of what the authors add beyond prior reviews, the manuscript's contribution is unclear.
+  - **Resolution test** Revise the abstract to state explicitly what new insights, critical comparisons, or unresolved questions the review addresses. Provide at least one sentence that distinguishes this review from prior work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and specificity
+  - **Affected element** "broad range of length- and timescales"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "broad range of length- and timescales" is vague. It would be more informative to specify the approximate ranges accessible by the discussed methods, such as nanometers to micrometers and nanoseconds to seconds.
+  - **Required correction** Add a brief specification of the length and timescales accessible by single-molecule fluorescence methods, or rephrase to indicate the relevant ranges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** "nanosecond FCS"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** Nanosecond FCS is mentioned as a distinct method, but it is a variant of FCS. The abstract could clarify whether it is discussed as a separate technique or as an extension of FCS, to avoid confusion.
+  - **Required correction** Clarify the relationship between FCS and nanosecond FCS, or group them appropriately in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** "aging"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "aging" is used without definition. In the condensate field, aging can refer to changes in material properties over time, but it may also imply irreversible processes. A brief clarification would help nonspecialist readers.
+  - **Required correction** Define or contextualize "aging" in the abstract, for example by referring to time-dependent changes in condensate properties.
+- **Technical failings that need to be addressed before the case is established** The abstract does not provide any technical details, data, or references that would allow the claims to be evaluated. The case for the review's value is not established from the abstract alone. The full text must be provided to assess whether the claims are supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is timely, but the abstract does not demonstrate a novel angle or critical insight beyond what is already known in the field. The originality of the review cannot be assessed from the abstract.
+  - Scientific importance: The importance of single-molecule methods for condensates is clear and well recognized. The abstract does not add new evidence of importance beyond this general statement.
+  - Interdisciplinary readership: The abstract is written in a way that is accessible to biophysicists, cell biologists, and chemists, which is appropriate. However, the lack of specific examples limits its appeal to a broader readership.
+  - Technical soundness: The abstract mentions established methods, but no technical details are provided. The soundness of the review's technical content cannot be evaluated.
+  - Readability for nonspecialists: The abstract is clear and jargon-light, which is a strength. However, terms like "nanosecond FCS" and "aging" could be clarified for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising but does not provide sufficient information to assess the scientific contribution. A revised abstract with specific examples, a clear statement of novelty, and a more critical tone would strengthen the case. The full text is required for a definitive recommendation.
+
+## Risk / unsupported claims
+- The claim that single-molecule methods "have revealed how proteins and nucleic acids behave within dense phases" is unsupported in the abstract, as no specific findings are cited.
+- The claim that these measurements "yield mechanistic insight into condensate organization, dynamics, and aging" is unsupported without examples or data.
+- The statement that the authors "highlight recent advances, key applications, and promising directions" is unverifiable without the full text.
+- The implicit claim that the review covers a "broad range of length- and timescales" is not substantiated with specific ranges or examples.

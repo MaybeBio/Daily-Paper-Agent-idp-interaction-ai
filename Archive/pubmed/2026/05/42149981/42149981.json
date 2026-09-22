@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "42149981",
+    "doi": "10.1146/annurev-biodatasci-092624-110614",
+    "title": "Toward Quantitative Domain-Motif Interactomes: State of the Art, Challenges, and Perspectives."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) drive cellular function. Obtaining quantitative maps of protein interactomes is essential for linking genotype to phenotype and predicting cellular outcomes. A large fraction of PPIs are mediated by domain-motif interactions (DMIs), where motifs within intrinsically disordered regions bind to structured domains in partner proteins. These transient and low-affinity interactions play central roles in regulatory and cell signaling processes, and their disruption has been linked to disease. However, due to their transient and dynamic nature, systematic experimental characterization of DMIs has been challenging. Recent advances in high-throughput experimental technologies and machine learning are transforming our ability to map and predict DMIs on a proteome-wide scale. Here, we review the molecular characteristics of motifs, domains, and their interactions; discuss emerging experimental and computational approaches for their discovery; and outline current challenges and future directions toward quantitative DMI interactomes.",
+    "keywords": [
+      "binding affinity",
+      "domain-motif interactions",
+      "high-throughput experimental methods",
+      "prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Protein Interaction Mapping/methods",
+      "Machine Learning",
+      "*Protein Interaction Domains and Motifs",
+      "*Protein Interaction Maps",
+      "Amino Acid Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Valverde, Jesus Alvarado",
+        "Luck, Katja"
+      ],
+      "short_names": [
+        "Valverde JA",
+        "Luck K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany; email: k.luck@imb-mainz.de.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany; email: k.luck@imb-mainz.de.",
+        "Institute for Quantitative and Computational Biosciences (IQCB), Johannes Gutenberg University, Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Valverde, Jesús Alvarado",
+        "short_name": "Valverde JA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany; email: k.luck@imb-mainz.de."
+        ]
+      },
+      {
+        "full_name": "Luck, Katja",
+        "short_name": "Luck K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany; email: k.luck@imb-mainz.de.",
+          "Institute for Quantitative and Computational Biosciences (IQCB), Johannes Gutenberg University, Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annual review of biomedical data science"
+    ],
+    "journal_abbrev": [
+      "Annu Rev Biomed Data Sci"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 18:33",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42149981",
+      "38439692",
+      "29730529",
+      "26297553",
+      "28002650",
+      "42475469",
+      "25350354",
+      "30402352",
+      "41941631",
+      "38995545",
+      "30731167",
+      "31531123",
+      "23912807",
+      "19660471",
+      "41765352",
+      "30287797",
+      "25417202",
+      "40195117",
+      "23336252",
+      "21635751",
+      "30002402",
+      "23988124",
+      "15064475",
+      "37061423",
+      "28092029",
+      "21034480",
+      "24853495",
+      "35242211",
+      "20502673",
+      "42450302",
+      "38545252",
+      "27074302",
+      "41816949",
+      "42248543",
+      "29220074",
+      "40425414",
+      "39936389",
+      "34160596",
+      "22003397",
+      "17465672",
+      "25905427",
+      "39214321",
+      "23497081",
+      "28092048",
+      "41820106",
+      "37099901",
+      "40231383",
+      "23651452",
+      "42013464",
+      "26476431",
+      "35642445",
+      "26936767",
+      "24339775",
+      "30156155",
+      "23815620",
+      "29240760",
+      "33451135",
+      "35615014",
+      "36880207",
+      "18641010",
+      "22079048",
+      "28387819",
+      "21879107",
+      "22827524",
+      "27792167",
+      "22729399",
+      "32708183",
+      "32047225",
+      "32459334",
+      "18329319",
+      "26053890",
+      "27879651",
+      "31578253",
+      "25946106",
+      "19208164",
+      "26681426",
+      "23056474",
+      "37633550",
+      "15262809",
+      "22561014",
+      "20939902",
+      "17937822",
+      "22710164",
+      "33383033",
+      "31207240",
+      "30715274",
+      "20360771",
+      "41570036",
+      "19649592",
+      "27435737",
+      "32028878",
+      "28245811",
+      "39511478",
+      "25038412",
+      "39025452",
+      "19649589",
+      "32428443",
+      "40874616",
+      "25938916",
+      "33693490"
+    ],
+    "review": [
+      "42149981",
+      "38439692",
+      "29730529",
+      "30287797",
+      "40195117",
+      "23988124",
+      "15064475",
+      "37061423",
+      "24853495",
+      "42450302",
+      "27074302",
+      "29220074",
+      "40425414",
+      "39936389",
+      "17465672",
+      "39214321",
+      "41820106",
+      "37099901",
+      "42013464",
+      "26476431",
+      "26936767",
+      "30156155",
+      "36880207",
+      "22827524",
+      "22729399",
+      "32708183",
+      "18329319",
+      "27879651",
+      "26681426",
+      "22561014",
+      "22710164",
+      "19649592",
+      "25038412",
+      "19649589",
+      "33693490"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-092624-110614?crawler=true&mimetype=application/pdf",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

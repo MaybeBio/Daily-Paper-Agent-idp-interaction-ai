@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, acknowledgments)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and presentation as presented in the provided text
+- **Shared manuscript claim summary** The authors present a 3D model of the full-length cytoplasmic domain of the receptor tyrosine kinase KIT, including the juxtamembrane region, kinase domain, kinase insertion domain, and C-tail, attached to a transmembrane helix and embedded in a lipid bilayer. Using three 2-µs conventional molecular dynamics simulations, they characterize the structural dynamics of this multidomain construct, identify four intrinsically disordered regions (JMR, KID, A-loop, C-tail), analyze inter-domain and intra-domain couplings, and propose that the inactive state encodes properties relevant to activation and post-translational signaling events.
+- **Visible evidence base** Abstract, full results section with figure references (Figures 1-9, S1-S7), discussion, and methods section describing modeling, simulation, and analysis protocols
+- **Missing materials affecting confidence** Figures and supplementary materials referenced but not provided; no raw simulation data, trajectory analyses, or validation metrics beyond those described in text; no comparison to experimental data beyond crystallographic structures cited
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question about the structural dynamics of intrinsically disordered regions in a multidomain receptor tyrosine kinase. The computational approach is appropriate in principle, and the authors have made a reasonable effort to construct a full-length cytoplasmic domain model with a membrane environment. However, the evidence presented does not fully support several key claims, particularly regarding "inherent coupling" and "allosteric regulation." The analysis relies heavily on qualitative descriptions of correlation patterns and free energy landscapes without sufficient quantitative rigor or statistical validation. The claim that the inactive state "encodes all properties" of the active protein is speculative and not supported by the data presented. The manuscript would benefit from clearer articulation of what is novel relative to prior work, more robust quantitative analyses, and tempering of overreaching interpretations.
+- **Who would be interested in the results, and why** Researchers studying receptor tyrosine kinase structure and function, particularly those interested in KIT signaling mechanisms, intrinsically disordered proteins, and allosteric regulation in multidomain proteins. Computational biophysicists working on membrane protein simulations may also find the methodological approach of interest. The potential link to cancer biology, given KIT mutations in various malignancies, could attract a broader translational audience.
+- **Major strengths** The construction of a full-length cytoplasmic domain model including previously missing regions is a valuable contribution. The use of three independent 2-µs simulations with different initial velocities provides some assessment of reproducibility. The identification of four IDRs and their characterization through multiple complementary analyses (RMSD, RMSF, clustering, DSSP, PCA, free energy landscapes) is thorough. The consideration of the membrane environment and transmembrane helix adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Strongly coupled movements within each domain and between distant domains of KIT prove the functional interdependence of these regions, described as allosteric regulation"
+  - **Evidence pointer** Section 2.6, Figure 7
+  - **Concern** The claim of "proof" of functional interdependence via allosteric regulation is not supported by the evidence presented. Cross-correlation maps and PCA modes demonstrate correlated motions in the simulations, but correlated motion does not establish allosteric coupling or functional interdependence. No perturbation analysis, mutational studies, or free energy calculations along specific allosteric pathways are provided. The term "prove" is inappropriate for correlational analysis from MD simulations. The authors should either provide more direct evidence of allosteric coupling (e.g., communication pathway analysis, perturbation response scanning) or substantially temper the claim.
+  - **Why it matters** The central thesis of the paper rests on this claim of allosteric coupling between IDRs. If the evidence is only correlational, the conclusion overreaches the data, undermining the manuscript's main contribution.
+  - **Resolution test** Provide quantitative analysis of allosteric communication (e.g., dynamic network analysis, mutual information, or perturbation-based methods) that demonstrates information transfer between specific regions. Alternatively, revise the claim to state that correlated motions are observed, without asserting functional allosteric coupling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We suggested that KIT, in its inactive state, encodes all properties of the active protein and its post-transduction events"
+  - **Evidence pointer** Abstract, Section 3
+  - **Concern** This is a strong, sweeping claim that goes far beyond what the simulation data can support. The study examines only the inactive state of KIT in a specific membrane environment. No simulations of active states, phosphorylation events, ligand binding, or downstream signaling interactions are performed. The claim that all properties of the active protein and post-transduction events are "encoded" in the inactive state is speculative and unfalsifiable from the present data.
+  - **Why it matters** This claim frames the significance of the work but is not substantiated. Overstatement of implications reduces the credibility of the manuscript and could mislead readers about the strength of the conclusions.
+  - **Resolution test** Remove or substantially revise this claim. If retained, provide specific testable predictions derived from the inactive state simulations that could be validated experimentally or computationally in future work.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The identification of four IDRs (JMR, KID, A-loop, C-tail) and their characterization as "intrinsically disordered"
+  - **Evidence pointer** Sections 2.1-2.5, Figures 2, 5, 6
+  - **Concern** The classification of regions as "intrinsically disordered" appears to be based primarily on secondary structure variability and conformational heterogeneity observed in the simulations. However, the authors do not appear to use established disorder prediction tools (e.g., IUPred, PONDR, DISOPRED) or experimental data to support this classification. The term "intrinsically disordered" has specific biophysical meaning, and the evidence presented may be insufficient to make this designation. Additionally, the JMR in KIT is known to adopt structured conformations in some crystal structures, so the claim of intrinsic disorder needs more careful justification.
+  - **Why it matters** The classification of these regions as IDRs is central to the manuscript's framing and interpretation. If the classification is not well-supported, the conclusions about IDR coupling and function are weakened.
+  - **Resolution test** Apply established disorder prediction tools to the KIT sequence and compare with simulation results. Discuss the relationship between simulation-observed conformational heterogeneity and experimentally characterized disorder. Clarify whether the regions are fully disordered or partially structured with disordered segments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The free energy landscapes (FELs) show "two global minima" and the manuscript interprets these as distinct conformational states
+  - **Evidence pointer** Section 2.7, Figures 8, 9
+  - **Concern** The free energy landscapes are computed from three 2-µs simulations. The statistical convergence of these FELs is not demonstrated. With only 2 µs per replica, it is unlikely that the conformational space of a highly flexible multidomain protein with multiple IDRs is adequately sampled. The authors do not provide block error analysis, convergence metrics, or comparison of FELs across individual replicas to establish that the observed minima are converged features rather than artifacts of limited sampling. The population estimates (16%, 7%, 12%, 11%) are presented without error bars or statistical uncertainty.
+  - **Why it matters** The interpretation of distinct conformational states and their relative populations depends critically on adequate sampling. If the FELs are not converged, the conclusions about two-state behavior and state populations are unreliable.
+  - **Resolution test** Provide convergence analysis (e.g., time evolution of FEL features, block averaging, replica comparison). If convergence cannot be demonstrated, acknowledge this limitation and temper claims about distinct states and their populations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The model construction and simulation methodology
+  - **Evidence pointer** Section 4.1, 4.2
+  - **Concern** Several methodological details are unclear or potentially problematic. (1) The initial model was taken from a previous study at 2 µs of simulation, but the equilibration protocol for the new construct is not fully described. (2) The N-terminal residue is stated as I516, but the construct is described as "I516-R946" with 431 amino acids, which appears inconsistent (946-516+1 = 431, so this is correct). (3) The protonation states were assigned at physiological pH, but no details are given for titratable residues near the membrane interface. (4) The force field combination (ff14SB for protein, Lipid17 for membrane, TIP3P water) is standard, but the authors do not discuss potential limitations. (5) The manual orientation of the transmembrane helix in the membrane is a potential source of bias that is not discussed.
+  - **Why it matters** The reliability of the simulation results depends on the quality of the model and simulation setup. Unclear or potentially biased procedures could affect the conclusions.
+  - **Resolution test** Provide additional methodological details, including the full equilibration protocol, validation of the model (e.g., Ramachandran plots, packing quality), and discussion of potential biases in the manual membrane insertion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Figure 2
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of secondary structure changes in JMR, KID, and C-tail is qualitative. The authors state that these regions "changed their folding" but do not provide quantitative measures of secondary structure content or transition rates.
+  - **Required correction** Provide quantitative secondary structure analysis (e.g., percentage of time in each secondary structure type per residue) to support the qualitative descriptions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Figure 4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The hydrogen bond analysis is described, but the criteria for defining "regular" versus "weak" hydrogen bonds are not clearly stated. The distinction between "strong and long-lived" and "weak and unsteady" contacts is not quantified.
+  - **Required correction** Define the geometric and occupancy criteria used to classify hydrogen bonds. Provide quantitative occupancy values for key interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.6, Figure 7
+  - **Evidence pointer** Section 2.6
+  - **Issue** The cross-correlation analysis is described, but the authors do not specify which atoms were used (Cα only or all atoms) or how the correlation values were normalized. The threshold for considering motions "highly coupled" is not stated.
+  - **Required correction** Specify the atoms used, the normalization procedure, and the threshold for defining significant correlation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7, Figures 8, 9
+  - **Evidence pointer** Section 2.7
+  - **Issue** The free energy landscape calculation is described, but the choice of reaction coordinates (RMSD, Rg, PC1, PC2) is not justified. The authors do not discuss why these particular coordinates are most informative for describing KIT conformational states.
+  - **Required correction** Justify the choice of reaction coordinates and discuss whether other coordinates might reveal additional features of the conformational landscape.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of allosteric regulation in IDPs is broad and cites general concepts, but does not specifically connect the observed simulation data to established allosteric mechanisms in KIT or other RTKs in a concrete way.
+  - **Required correction** Provide a more focused discussion that links specific simulation observations to specific allosteric mechanisms, with reference to experimental evidence where available.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.3, Equation 1
+  - **Evidence pointer** Section 4.3
+  - **Issue** The curvature angle calculation is described, but the selection of "most structurally stable residues" for defining vectors is not clearly justified. The criteria for stability are not stated.
+  - **Required correction** Define the criteria for selecting stable residues and discuss how sensitive the angle calculations are to this choice.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (overclaiming allosteric coupling from correlational data), R1-M2 (unsupported claim about encoding all active state properties), R1-M3 (insufficient justification for IDR classification), R1-M4 (lack of convergence analysis for free energy landscapes)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of full-length modeling with membrane environment to KIT is somewhat novel, but the general approach of studying IDP dynamics in multidomain proteins is well established. Scientific importance: Moderate. Understanding KIT regulation is clinically relevant, but the findings are largely descriptive and do not provide mechanistic insight beyond what is already known about IDP behavior. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biophysicists and RTK researchers; the broad claims about allosteric regulation and signaling are not developed enough to attract a wider audience. Technical soundness: Questionable. The simulation methodology is standard, but the analysis lacks quantitative rigor in several areas (convergence, statistical validation, classification criteria). Readability for nonspecialists: Acceptable. The manuscript is generally well-written and the concepts are explained clearly, though some sections are dense with technical detail.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript addresses an interesting question and the model construction is a useful contribution, but the central claims about allosteric coupling and the functional significance of IDRs are not sufficiently supported by the evidence presented. Major revisions are needed to address the concerns about evidence sufficiency and technical rigor.
+
+## Risk / unsupported claims
+- The claim that "strongly coupled movements... prove the functional interdependence of these regions, described as allosteric regulation" is unsupported. Correlated motion in MD simulations does not establish allosteric coupling.
+- The claim that "KIT, in its inactive state, encodes all properties of the active protein and its post-transduction events" is speculative and not testable from the presented data.
+- The classification of JMR, KID, A-loop, and C-tail as "intrinsically disordered regions" is not rigorously justified with established prediction tools or experimental evidence.
+- The free energy landscape features (two global minima, population estimates) are presented without convergence analysis or statistical uncertainty, making their reliability unassessable.
+- The statement that "the overall structure of KIT represents a continuous spectrum of conformations" is a broad generalization that may overstate the significance of the observed conformational heterogeneity.
+- The suggestion that IDR disorder "allows them to evolve faster than protein domains that adopt defined stable structures" is an evolutionary claim that is not addressed by the simulation data.

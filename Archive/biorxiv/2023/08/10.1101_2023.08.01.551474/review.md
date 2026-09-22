@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors present hierarchical chain growth (HCG) as a method to construct structural ensembles of single-stranded RNA (ssRNA). They claim that HCG, using fragment libraries from MD simulations, produces ensembles in good agreement with NMR, SAXS, and single-molecule FRET experiments for homo- and heteropolymeric ssRNAs, with further improvement via Bayesian inference of ensembles (BioEn). They also claim applicability to RNA structures combining base-paired and unpaired regions, illustrated for the 5' untranslated region (UTR) of SARS-CoV-2 mRNA.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods description, fragment library construction details, MD simulation parameters, experimental datasets used for comparison, refinement details, and validation statistics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for generating ssRNA structural ensembles, addressing a genuine challenge in RNA biophysics. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness of HCG, the quality of agreement with experiments, or the generalizability of the method. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in RNA structural biology, computational biophysics, and molecular simulation would be interested. The method could benefit those studying RNA dynamics, folding, and interactions, particularly for systems where experimental characterization is difficult. The SARS-CoV-2 UTR application may also attract virology-focused structural biologists.
+- **Major strengths** The method addresses a real bottleneck in RNA structural characterization. The use of multiple experimental techniques (NMR, SAXS, FRET) for validation is commendable. The inclusion of ensemble refinement via BioEn suggests methodological rigor. The demonstration on a biologically relevant system (SARS-CoV-2 UTR) enhances potential impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "HCG assembles the structures of protein and nucleic acid chains from fragment libraries created by MD simulations"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how fragment libraries are constructed, how fragments are selected and assembled, or how chain growth is hierarchically organized. Without this information, the method cannot be assessed for correctness, reproducibility, or novelty relative to existing fragment-based approaches.
+  - **Why it matters** The core methodological claim is unverifiable. If the assembly algorithm or fragment library construction has flaws, all downstream results could be compromised. Reproducibility is a fundamental requirement for computational methods.
+  - **Resolution test** Provide a detailed methods section describing fragment library generation, selection criteria, assembly algorithm, and any parameters or heuristics used. Ideally include a benchmark against existing methods on standard test systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "HCG produces structural ensembles that overall are in good agreement with diverse experiments including NMR, SAXS, and single-molecule FRET"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states "good agreement" without providing quantitative measures. No comparison metrics, error bars, or statistical tests are mentioned. The phrase "overall" suggests possible system-dependent performance that is not specified.
+  - **Why it matters** Without quantitative validation, the claim of experimental agreement is anecdotal. Readers cannot judge whether the agreement is comparable to existing methods or sufficient for the intended applications.
+  - **Resolution test** Provide quantitative comparison metrics (e.g., chi-square values, RMSD to experimental profiles, correlation coefficients) for each experimental technique and each RNA system tested. Include uncertainty estimates and comparisons to appropriate controls or alternative methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of claims
+  - **Claim pointer** "HCG can also be used to assemble RNA structures that combine base-paired and unpaired regions, as illustrated for the 5' untranslated region (UTR) of SARS-CoV-2 mRNA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims applicability to structures with both base-paired and unpaired regions but provides no details on how HCG handles base pairing, whether the SARS-CoV-2 UTR example was validated against experimental data, or what the quality of the resulting structure was.
+  - **Why it matters** Extending the method beyond purely single-stranded RNA is a significant claim. If base-paired regions are not handled accurately, the method's utility for real biological RNAs is limited. The single example provided is insufficient to establish general applicability.
+  - **Resolution test** Provide details on how base-paired regions are treated in the assembly process. For the SARS-CoV-2 UTR example, include validation against known structural features or experimental data, and ideally test on additional RNAs with known secondary structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "hierarchical chain growth" without defining what "hierarchical" means in this context. It is unclear whether this refers to multi-scale assembly, sequential fragment addition, or something else.
+  - **Required correction** Define the hierarchical aspect of the method explicitly in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** System description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "homo- and heteropolymeric ssRNAs of different lengths" but does not specify the sequences, lengths, or number of systems tested. This limits the reader's ability to gauge the breadth of validation.
+  - **Required correction** List the specific RNA sequences and lengths studied, or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code availability, input files, or parameter settings. For a computational method paper, this is a significant omission for reproducibility.
+  - **Required correction** State where the HCG code, fragment libraries, and example inputs can be accessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (method description missing), R1-M2 (quantitative validation absent), R1-M3 (base-paired region handling unspecified)
+- **Assessment against Nature-style criteria** Originality: The approach appears novel in its application of fragment-based assembly to ssRNA, but without method details, novelty relative to existing fragment assembly methods cannot be assessed. Scientific importance: The problem addressed is important for RNA biology, and a reliable ensemble generation method would be valuable. Interdisciplinary readership: The work would appeal to computational biologists, biophysicists, and RNA biochemists, but the abstract lacks sufficient detail to engage experimentalists. Technical soundness: Cannot be evaluated from the abstract alone; the absence of methodological detail and quantitative validation is a major gap. Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "hierarchical chain growth", "BioEn") without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful method, but the lack of methodological detail and quantitative validation prevents assessment of the core claims. A full manuscript with detailed methods, comprehensive validation, and code availability would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim of "good agreement" with NMR, SAXS, and FRET experiments is unsupported without quantitative metrics.
+- The claim that HCG can assemble structures with base-paired and unpaired regions is unsupported without details on base-pair handling and validation of the SARS-CoV-2 UTR example.
+- The generalizability of HCG to "different lengths" of ssRNA is unverifiable without specifying the range tested.
+- The improvement from BioEn refinement is mentioned but not quantified or described in any detail.

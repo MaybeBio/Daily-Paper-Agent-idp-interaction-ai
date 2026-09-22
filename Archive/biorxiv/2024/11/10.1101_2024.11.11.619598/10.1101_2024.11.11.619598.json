@@ -1,0 +1,387 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.619598",
+  "title": "Identification of methylation-sensitive human transcription factors using meSMiLE-seq",
+  "doi": "10.1101/2024.11.11.619598",
+  "abstract": "Transcription factors (TFs) are key players in eukaryotic gene regulation, but the DNA binding specificity of many TFs remains unknown. Here, we assayed 284 mostly poorly characterized, putative human TFs using selective microfluidics-based ligand enrichment followed by sequencing (SMiLE-seq), revealing 72 new DNA binding motifs. To investigate whether some of the 158 TFs for which we did not find motifs preferably bind epigenetically modified DNA (i.e. methylated CG dinucleotides), we developed methylation-sensitive SMiLE-seq (meSMiLE-seq). This microfluidic assay simultaneously probes the affinity of a protein to methylated and unmethylated DNA, augmenting the capabilities of the original method to infer methylation-aware binding sites. We assayed 114 TFs with meSMiLE-seq and identified DNA-binding models for 48 proteins, including the known methylation-sensitive binding modes for POU5F1 and RFX5. For 11 TFs, binding to methylated DNA was preferred or resulted in the discovery of alternative, methylation-dependent motifs (e.g. PRDM13), while aversion towards methylated sequences was found for 13 TFs (e.g. USF3). Finally, we uncovered a potential role for ZHX2 as a putative binder of Z-DNA, a left-handed helical DNA structure which is adopted more frequently upon CpG methylation. Altogether, our study significantly expands the human TF codebook by identifying DNA binding motifs for 98 TFs, while providing a versatile platform to quantitatively assay the impact of DNA modifications on TF binding.",
+  "authors": [
+    "Gralak AJ",
+    "Faltejskova K",
+    "Yang AW",
+    "Steiner C",
+    "Russeil J",
+    "Grenningloh N",
+    "Inukai S",
+    "Demir M",
+    "Dainese R",
+    "Owen C",
+    "Pankevich E",
+    "Hughes TR",
+    "Kulakovskiy IV",
+    "Kribelbauer-Swietek JF",
+    "van Mierlo G",
+    "Deplancke B"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619598",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619598.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR938787",
+    "raw_record": {
+      "id": "PPR938787",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR938787"
+        ]
+      },
+      "doi": "10.1101/2024.11.11.619598",
+      "title": "Identification of methylation-sensitive human transcription factors using meSMiLE-seq",
+      "authorString": "Gralak AJ, Faltejskova K, Yang AW, Steiner C, Russeil J, Grenningloh N, Inukai S, Demir M, Dainese R, Owen C, Pankevich E, Codebook/GRECO-BIT Consortium, Hughes TR, Kulakovskiy IV, Kribelbauer-Swietek JF, van Mierlo G, Deplancke B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gralak AJ",
+            "lastName": "Gralak",
+            "firstName": "Antoni",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Faltejskova K",
+            "lastName": "Faltejskova",
+            "firstName": "Katerina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Computer Science Institute, Faculty of Mathematics and Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang AW",
+            "lastName": "Yang",
+            "firstName": "Ally W.H.",
+            "initials": "AW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steiner C",
+            "lastName": "Steiner",
+            "firstName": "Clemence",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Russeil J",
+            "lastName": "Russeil",
+            "firstName": "Julie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grenningloh N",
+            "lastName": "Grenningloh",
+            "firstName": "Nadia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Inukai S",
+            "lastName": "Inukai",
+            "firstName": "Sachi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demir M",
+            "lastName": "Demir",
+            "firstName": "Mustafa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dainese R",
+            "lastName": "Dainese",
+            "firstName": "Riccardo",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Owen C",
+            "lastName": "Owen",
+            "firstName": "Cooper",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pankevich E",
+            "lastName": "Pankevich",
+            "firstName": "Eugenia",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Codebook/GRECO-BIT Consortium"
+          },
+          {
+            "fullName": "Hughes TR",
+            "lastName": "Hughes",
+            "firstName": "Timothy",
+            "initials": "TR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kulakovskiy IV",
+            "lastName": "Kulakovskiy",
+            "firstName": "Ivan",
+            "initials": "IV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kribelbauer-Swietek JF",
+            "lastName": "Kribelbauer-Swietek",
+            "firstName": "Judith",
+            "initials": "JF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Mierlo G",
+            "lastName": "van Mierlo",
+            "firstName": "Guido",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Medical BioSciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deplancke B",
+            "lastName": "Deplancke",
+            "firstName": "Bart",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Transcription factors (TFs) are key players in eukaryotic gene regulation, but the DNA binding specificity of many TFs remains unknown. Here, we assayed 284 mostly poorly characterized, putative human TFs using selective microfluidics-based ligand enrichment followed by sequencing (SMiLE-seq), revealing 72 new DNA binding motifs. To investigate whether some of the 158 TFs for which we did not find motifs preferably bind epigenetically modified DNA (i.e. methylated CG dinucleotides), we developed methylation-sensitive SMiLE-seq (meSMiLE-seq). This microfluidic assay simultaneously probes the affinity of a protein to methylated and unmethylated DNA, augmenting the capabilities of the original method to infer methylation-aware binding sites. We assayed 114 TFs with meSMiLE-seq and identified DNA-binding models for 48 proteins, including the known methylation-sensitive binding modes for POU5F1 and RFX5. For 11 TFs, binding to methylated DNA was preferred or resulted in the discovery of alternative, methylation-dependent motifs (e.g. PRDM13), while aversion towards methylated sequences was found for 13 TFs (e.g. USF3). Finally, we uncovered a potential role for ZHX2 as a putative binder of Z-DNA, a left-handed helical DNA structure which is adopted more frequently upon CpG methylation. Altogether, our study significantly expands the human TF codebook by identifying DNA binding motifs for 98 TFs, while providing a versatile platform to quantitatively assay the impact of DNA modifications on TF binding.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197082",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.11.619598"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR938787"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR938787&type=FILE&fileName=EMS200088-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42557242",
+            "reference": "Nature communications. \n    2026 Aug;17(1):7771",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200088",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-14",
+      "firstPublicationDate": "2024-11-12",
+      "firstIndexDate": "2024-11-14",
+      "fullTextReceivedDate": "2024-11-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

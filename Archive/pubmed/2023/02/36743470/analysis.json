@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36743470",
+  "title": "A \"grappling hook\" interaction connects self-assembly and chaperone activity of Nucleophosmin 1.",
+  "authors": "Saluri, Mihkel; Leppert, Axel; Gese, Genis Valentin; Sahin, Cagla; Lama, Dilraj; Kaldmae, Margit; Chen, Gefei; Elofsson, Arne; Allison, Timothy M; Arsenian-Henriksson, Marie; Johansson, Jan; Lane, David P; Hallberg, B Martin; Landreh, Michael",
+  "journal": "PNAS nexus",
+  "published_date": "2023-02-07",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合机器学习结构预测、冷冻电镜和天然质谱，揭示NPM1无序区域通过‘抓钩’机制介导五聚体交联形成部分无序寡聚体，并调控其伴侣活性与相分离相关自组装，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "How the self-assembly of partially disordered proteins generates functional compartments in the cytoplasm and particularly in the nucleus is poorly understood. Nucleophosmin 1 (NPM1) is an abundant nucleolar protein that forms large oligomers and undergoes liquid-liquid phase separation by binding RNA or ribosomal proteins. It provides the scaffold for ribosome assembly but also prevents protein aggregation as part of the cellular stress response. Here, we use aggregation assays and native mass spectrometry (MS) to examine the relationship between the self-assembly and chaperone activity of NPM1. We find that oligomerization of full-length NPM1 modulates its ability to retard amyloid formation in vitro. Machine learning-based structure prediction and cryo-electron microscopy reveal fuzzy interactions between the acidic disordered region and the C-terminal nucleotide-binding domain, which cross-link NPM1 pentamers into partially disordered oligomers. The addition of basic peptides results in a tighter association within the oligomers, reducing their capacity to prevent amyloid formation. Together, our findings show that NPM1 uses a \"grappling hook\" mechanism to form a network-like structure that traps aggregation-prone proteins. Nucleolar proteins and RNAs simultaneously modulate the association strength and chaperone activity, suggesting a mechanism by which nucleolar composition regulates the chaperone activity of NPM1.",
+  "abstract_zh": "部分无序蛋白如何通过自组装在细胞质尤其是细胞核中生成功能性区室，目前尚不清楚。核磷蛋白1（NPM1）是一种丰富的核仁蛋白，形成大型寡聚体，并通过结合RNA或核糖体蛋白发生液-液相分离。它为核糖体组装提供支架，同时作为细胞应激反应的一部分，防止蛋白质聚集。在此，我们使用聚集实验和天然质谱（MS）来研究NPM1自组装与其伴侣活性之间的关系。我们发现，全长NPM1的寡聚化调节其在体外延缓淀粉样蛋白形成的能力。基于机器学习的结构预测和冷冻电子显微镜揭示了酸性无序区域与C端核苷酸结合域之间的模糊相互作用，这些相互作用将NPM1五聚体交联成部分无序的寡聚体。添加碱性肽导致寡聚体内结合更紧密，降低了其防止淀粉样蛋白形成的能力。综合来看，我们的发现表明NPM1采用一种“抓钩”机制形成网络状结构，以捕获易聚集蛋白。核仁蛋白和RNA同时调节结合强度及伴侣活性，提示了一种核仁组成调控NPM1伴侣活性的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36743470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36743470/",
+  "paper_page_path": "papers/pubmed/36743470/index.html"
+}

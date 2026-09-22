@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.01.616068",
+  "title": "Two-dimensional HRS condensates drive the assembly of flat clathrin lattices on endosomes",
+  "authors": "Hakala M; Moparthi SB; Ganeva I; Gül M; Espadas J; Marcuello C; Bernat-Silvestre C; Colom A; Colom A; Kudryashev M; Kukulski W; Vassilopoulos S; Kaksonen M; Roux A",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-01",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过体外重构和冷冻电镜研究HRS无序蛋白在膜上形成二维凝聚体并驱动扁平网格蛋白晶格组装，涉及相分离介导的蛋白互作机制，但方法以实验为主，缺乏AI或物理模拟建模。",
+  "abstract": "In cells, the curved clathrin structures in vesicle budding are well characterized, while the flat ones remain poorly understood. We reconstituted the flat assembly of ESCRT-0 protein HRS and clathrin onto lipid membranes in vitro . HRS was found to form protein condensates. These condensates spread as a two-dimensional layer on negatively charged membranes and promoted the assembly of clathrin into a flat coat. Correlative cryo-tomography of HRS-labeled endosomes revealed a pure hexagonal lattice, consistent with flat clathrin structures. Cholesterol enhanced HRS recruitment to the membrane both in cells and in supported bilayers. Furthermore, cholesterol promoted the phase separation of HRS onto membranes, which in turn concentrated cholesterol underneath. This positive feedback promoted the formation of HRS-clathrin microdomains that sorted reconstituted ubiquitinated cargoes. Altogether, our results show that the unique architecture of ESCRT-0 is assembled by the two-dimensional phase-separation of HRS which drives the assembly of flat clathrin coats.",
+  "abstract_zh": "在细胞中，囊泡出芽过程中的弯曲网格蛋白结构已被充分表征，而扁平结构则仍了解甚少。我们在体外将ESCRT-0蛋白HRS和网格蛋白重构到脂质膜上，发现HRS形成蛋白质凝聚体。这些凝聚体在带负电的膜上以二维层形式铺展，并促进网格蛋白组装成扁平包被。对HRS标记的内体进行的关联冷冻断层扫描揭示了一个纯六边形晶格，与扁平网格蛋白结构一致。胆固醇在细胞和支持脂质双层中均增强了HRS向膜的招募。此外，胆固醇促进了HRS在膜上的相分离 (phase separation)，进而使胆固醇在膜下富集。这种正反馈促进了HRS-网格蛋白微域的形成，该微域分选重构的泛素化货物。总之，我们的结果表明，ESCRT-0的独特架构由HRS的二维相分离组装而成，这驱动了扁平网格蛋白包被的形成。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.01.616068",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.01.616068",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.01.616068/index.html"
+}

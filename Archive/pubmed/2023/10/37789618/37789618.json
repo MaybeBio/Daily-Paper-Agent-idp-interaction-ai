@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "37789618",
+    "doi": "10.1016/j.bpj.2023.09.018",
+    "title": "A calibration-free model of micropipette aspiration for measuring properties of protein condensates."
+  },
+  "content": {
+    "abstract": "There is growing evidence that biological condensates, which are also referred to as membraneless organelles, and liquid-liquid phase separation play critical roles regulating many important cellular processes. Understanding the roles these condensates play in biology is predicated on understanding the material properties of these complex substances. Recently, micropipette aspiration (MPA) has been proposed as a tool to assay the viscosity and surface tension of condensates. This tool allows the measurement of both material properties in one relatively simple experiment, in contrast to many other techniques that only provide one or a ratio of parameters. While this technique has been commonly used in the literature to determine the material properties of membrane-bound objects dating back decades, the model describing the dynamics of MPA for objects with an external membrane does not correctly capture the hydrodynamics of unbounded fluids, leading to a calibration parameter several orders of magnitude larger than predicted. In this work we derive a new model for MPA of biological condensates that does not require any calibration and is consistent with the hydrodynamics of the MPA geometry. We validate the predictions of this model by conducting MPA experiments on a standard silicone oil of known material properties and are able to predict the viscosity and surface tension using MPA. Finally, we reanalyze with this new model the MPA data presented in previous works for condensates formed from LAF-1 RGG domains.",
+    "keywords": [],
+    "mesh_terms": [
+      "Viscosity",
+      "*Surface Tension",
+      "Calibration",
+      "Proteins/chemistry",
+      "Biomolecular Condensates/chemistry",
+      "Hydrodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roggeveen, James V",
+        "Wang, Huan",
+        "Shi, Zheng",
+        "Stone, Howard A"
+      ],
+      "short_names": [
+        "Roggeveen JV",
+        "Wang H",
+        "Shi Z",
+        "Stone HA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey.",
+        "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey.",
+        "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey. Electronic address: zheng.shi@rutgers.edu.",
+        "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey. Electronic address: hastone@princeton.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roggeveen, James V",
+        "short_name": "Roggeveen JV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Shi, Zheng",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey. Electronic address: zheng.shi@rutgers.edu."
+        ]
+      },
+      {
+        "full_name": "Stone, Howard A",
+        "short_name": "Stone HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, New Jersey. Electronic address: hastone@princeton.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Jun 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/04 06:43",
+    "fetched_at": "2026-09-21 01:52:32"
+  },
+  "links": {
+    "cites": [
+      "42407334",
+      "42363764",
+      "42039566",
+      "42039419",
+      "41888106",
+      "41863073",
+      "41279901",
+      "40894760",
+      "40867025",
+      "40858555",
+      "40830340",
+      "40727669",
+      "40666943",
+      "40434645",
+      "40249817",
+      "40160200",
+      "39464032",
+      "38885177",
+      "38761796"
+    ],
+    "refs": [
+      "37549257",
+      "36526633",
+      "36436394",
+      "36247368",
+      "36227477",
+      "36071192",
+      "35974095",
+      "35245500",
+      "35211183",
+      "34654286",
+      "34645832",
+      "34636323",
+      "34516789",
+      "34427635",
+      "34334791",
+      "34035521",
+      "33661634",
+      "33473217",
+      "33461072",
+      "33453924",
+      "33453268",
+      "33348982",
+      "33303613",
+      "33262278",
+      "33004511",
+      "32767698",
+      "32347734",
+      "32015543",
+      "31995729",
+      "31792412",
+      "31540706",
+      "31067465",
+      "30926670",
+      "30918337",
+      "30890779",
+      "30826216",
+      "30608810",
+      "30443328",
+      "30078712",
+      "29677515",
+      "29677512",
+      "29064502",
+      "28935776",
+      "28864230",
+      "27791212",
+      "27433782",
+      "27212236",
+      "26777405",
+      "26406374",
+      "26155329",
+      "26015579",
+      "25569184",
+      "22398450",
+      "19460965",
+      "10609514",
+      "10325219",
+      "10041575",
+      "9876128"
+    ],
+    "similar": [
+      "37789618",
+      "36247368",
+      "39113361",
+      "40455990",
+      "34916288",
+      "40249817",
+      "37194953",
+      "33864415",
+      "37791635",
+      "37252985",
+      "39827079",
+      "33453924",
+      "34654286",
+      "40102453",
+      "39969154",
+      "38360555",
+      "36436394",
+      "30608810",
+      "39227569",
+      "38773325",
+      "34636323",
+      "37549257",
+      "36227477",
+      "34767801",
+      "34129784",
+      "34648259",
+      "39804953",
+      "34785657",
+      "38649740",
+      "39636939",
+      "40098319",
+      "39987501",
+      "34772786",
+      "40168179",
+      "35325654",
+      "36690068",
+      "36279601",
+      "37464880",
+      "38149872",
+      "39178343",
+      "36071192",
+      "33453268",
+      "38621751",
+      "39166772",
+      "39672748",
+      "38722189",
+      "38885177",
+      "37871222",
+      "37019112",
+      "34090478",
+      "32726575",
+      "39856105",
+      "39168125",
+      "39042834",
+      "36150962",
+      "38363841",
+      "34762868",
+      "40094245",
+      "39670461",
+      "34772789",
+      "23912807",
+      "9876128",
+      "39303698",
+      "34271007",
+      "38429263",
+      "31199001",
+      "40434645",
+      "29258725",
+      "38175843",
+      "38781377",
+      "39947751",
+      "39211102",
+      "38848869",
+      "33409284",
+      "29632271",
+      "34772787",
+      "32800925",
+      "40108179",
+      "39675392",
+      "36028355",
+      "38609349",
+      "38781207",
+      "38588907",
+      "34759902",
+      "39320949",
+      "35954258",
+      "39271032",
+      "39034215",
+      "38251748",
+      "35674796",
+      "37862690",
+      "34716273",
+      "33650968",
+      "37685957",
+      "33087563",
+      "36227474",
+      "37217523",
+      "37131735",
+      "39196681",
+      "36758221"
+    ],
+    "review": [
+      "37789618",
+      "39827079",
+      "38360555",
+      "38773325",
+      "34767801",
+      "34129784",
+      "34772786",
+      "36279601",
+      "37464880",
+      "39178343",
+      "36071192",
+      "38621751",
+      "39672748",
+      "38885177",
+      "32726575",
+      "36150962",
+      "34772789",
+      "39303698",
+      "34271007",
+      "29258725",
+      "38175843",
+      "39947751",
+      "33409284",
+      "29632271",
+      "34772787",
+      "32800925",
+      "39675392",
+      "36028355",
+      "38609349",
+      "38588907",
+      "34759902",
+      "35954258",
+      "39271032"
+    ],
+    "pmc": [
+      "11163300"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00621-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37789618/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2404.08108v3",
+  "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction",
+  "authors": "Krzysztof Kotowski; Irena Roterman; Katarzyna Stapor",
+  "journal": "",
+  "published_date": "2024-04-11",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于蛋白语言模型和Attention U-Net的无序蛋白预测器DisorderUnetLM，虽以无序蛋白为对象且用AI方法，但仅做无序区域预测而非PPI互作机制建模，故得中档分。",
+  "abstract": "The prediction of intrinsic disorder regions has significant implications for understanding protein functions and dynamics. It can help to discover novel protein-protein interactions essential for designing new drugs and enzymes. Recently, a new generation of predictors based on protein language models (pLMs) is emerging. These algorithms reach state-of-the-art accuracy with-out calculating time-consuming multiple sequence alignments (MSAs). The article introduces the new DisorderUnetLM disorder predictor, which builds upon the idea of ProteinUnet. It uses the Attention U-Net convolutional neural network and incorporates features from the ProtTrans pLM. DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs. Moreover, among 43 predictors from the latest CAID-2 benchmark, it ranks 1st for the Disorder-NOX subset (ROC-AUC of 0.844) and 10th for the Disorder-PDB subset (ROC-AUC of 0.924). The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1.",
+  "abstract_zh": "固有无序区域的预测对于理解蛋白质功能和动态具有重要意义。它有助于发现新型蛋白质-蛋白质相互作用，这对于设计新药物和酶至关重要。近年来，基于蛋白质语言模型（pLMs）的新一代预测器正在兴起。这些算法无需计算耗时的多序列比对（MSAs）即可达到最先进的准确性。本文介绍了新的DisorderUnetLM无序预测器，它基于ProteinUnet的思想构建，采用Attention U-Net卷积神经网络，并整合了ProtTrans pLM的特征。在与近期利用MSAs和pLMs的预测器的直接比较中，DisorderUnetLM取得了最佳结果。此外，在最新CAID-2基准测试的43个预测器中，它在Disorder-NOX子集上排名第一（ROC-AUC为0.844），在Disorder-PDB子集上排名第十（ROC-AUC为0.924）。代码和模型公开可用，并可在doi.org/10.24433/CO.7350682.v1上完全复现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2404.08108v3",
+  "source_url": "https://arxiv.org/abs/2404.08108v3",
+  "paper_page_path": "papers/arxiv/2404.08108v3/index.html"
+}

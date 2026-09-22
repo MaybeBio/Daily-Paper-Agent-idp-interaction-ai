@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to study how the balance between short-range (hydrophobic) and long-range (electrostatic) interactions in intrinsically disordered proteins affects the stability, structure, and dynamics of their liquid-liquid phase separation. They report that increasing the fraction of hydrophobic residues initially decreases the critical temperature of phase separation, but very high hydrophobic fractions lead to stabilization and re-entrant phase behavior. They further report that long-range electrostatic interactions enhance liquid-like dynamics in condensates.
+- **Visible evidence base** Abstract, Methods, Results and Discussion, Figure captions referenced in text (Figures 1-9), Supplementary Figure references (S1-S11)
+- **Missing materials affecting confidence** Figures themselves are not provided; Supplementary Information is not provided; exact simulation parameters (timestep, equilibration protocol, number of replicates) are not fully specified; no error bars or statistical analysis details are shown in the text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular phase separation: how the balance between different types of noncovalent interactions governs condensate properties. The systematic approach of mutating charged residues to hydrophobic ones in a controlled series of sequences is well conceived. The main conclusions, that short-range interactions reduce condensate stability and dynamics while long-range electrostatics promote liquid-like behavior, are plausible and consistent with some existing literature. However, the manuscript has several technical weaknesses that need to be addressed before the case is fully established. The lack of error analysis, the limited discussion of the coarse-grained model's limitations, and the somewhat speculative interpretation of re-entrant behavior require attention. The writing is generally clear but could be improved in places for precision.
+- **Who would be interested in the results, and why** Researchers working on biomolecular condensates, intrinsically disordered proteins, and phase separation, both from experimental and computational perspectives. The findings on how sequence composition affects condensate stability and dynamics could inform the design of experiments and the interpretation of data on natural and synthetic phase-separating systems. The study also contributes to the ongoing discussion about the relative roles of electrostatic versus hydrophobic interactions in condensate formation.
+- **Major strengths** 1) The systematic design of the sequence series, varying the hydrophobic fraction in a controlled manner while maintaining net zero charge, is a clear strength. 2) The combination of thermodynamic (phase diagrams, critical temperature) and kinetic (diffusion, contact dynamics) analyses provides a comprehensive view. 3) The study addresses a question of broad relevance to the LLPS field and offers a clear conceptual framework (balance of short- and long-range interactions).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "as the fraction of mutations that participate in short-range interactions increases at the expense of long-range electrostatic interactions, a significant decrease in the critical temperature of phase separation is observed" and that this trend is non-monotonic with a stabilization at high hydrophobic fractions.
+  - **Evidence pointer** Figure 1 and Figure 3, location not provided
+  - **Concern** The manuscript does not report any error bars, standard deviations, or statistical significance tests for the critical temperatures, energies, or diffusion coefficients. The phase diagrams are presented as single curves without indication of run-to-run variability. Given that the non-monotonic behavior of Tc versus ϕ is a central finding, it is essential to demonstrate that the observed differences are statistically robust and not within the noise of the simulations.
+  - **Why it matters** Without error estimates, the reader cannot assess the reliability of the reported trends. The non-monotonic dependence of Tc on ϕ is a key conclusion, and if the differences between, for example, ϕ = 0.4 and ϕ = 0.6 are within statistical uncertainty, the interpretation would change substantially.
+  - **Resolution test** Provide error bars or confidence intervals for all reported quantities (Tc, energies, diffusion coefficients, relaxation times). State the number of independent simulations and the method used to estimate uncertainties. Perform and report statistical tests (e.g., t-tests or bootstrapping) for the key comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the effect of the short-range interaction strength (ε) on the stability and dynamics of the condensate" was investigated, and that "a prominent increase in the stability of the condensate" is observed for higher ϕ as ε increases.
+  - **Evidence pointer** Figure 9, location not provided
+  - **Concern** The manuscript does not provide sufficient detail on how the interaction strength ε was varied and how this relates to physically realistic parameter values. The range of ε values tested (0 to 0.5) is mentioned, but the rationale for this range and the mapping to real amino acid hydrophobicity scales is not discussed. Furthermore, the claim that the effect of ε is "small" for low ϕ but "prominent" for high ϕ is made without quantitative support or error analysis.
+  - **Why it matters** The interpretation of the results depends on whether the range of ε values explored is physically meaningful. If the chosen range does not correspond to realistic variations in hydrophobicity, the conclusions about the role of interaction strength may not be transferable to real protein systems.
+  - **Resolution test** Provide a clear justification for the range of ε values used, ideally by calibrating against experimental data for known hydrophobic residues. Report the quantitative changes in Tc and diffusion coefficients with ε, including uncertainties, and discuss the physical interpretation of the chosen parameter range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "the effect of exchanging long-range electrostatic interactions for short-range interactions can be explained by the kinetics of breaking intermolecular contacts with neighboring polymers and the kinetics of intramolecular fluctuations."
+  - **Evidence pointer** Figure 8, location not provided
+  - **Concern** The correlation between τinterchain and τintrachain is presented, and the authors note that for ϕ > 0.6, τinterchain increases more than τintrachain. However, the mechanistic interpretation of this deviation from linear correlation is not developed. The authors state that this "may explain the nonliquid behavior" but do not provide a concrete physical picture or test of this hypothesis.
+  - **Why it matters** The claim that the balance between inter- and intramolecular dynamics determines liquid-like behavior is potentially important, but as presented it remains speculative. A more detailed analysis, such as examining the distribution of contact lifetimes or the spatial correlation of slow-moving regions, would strengthen the mechanistic interpretation.
+  - **Resolution test** Provide additional analysis to support the mechanistic claim, such as contact lifetime distributions, spatial maps of slow dynamics, or a simple kinetic model that captures the observed relationship between τinterchain, τintrachain, and diffusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section, "Coarse-Grained Model"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the Debye-Hückel potential and the B(κ) term is incomplete. The equation for B(κ) is not fully written out, and the relationship between the salt concentration and the screening length is not explained clearly.
+  - **Required correction** Provide the full equation for B(κ) and briefly explain the physical meaning of the Debye screening length in the context of the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Structural Analysis"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The shape anisotropy parameter is defined in the text but the equation is not shown. The reader is left to infer the exact definition.
+  - **Required correction** Include the equation for the shape anisotropy parameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and Discussion, "Re-Entrant Phase Behavior"
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Issue** The term "sticky patches" is used without a precise definition. It is unclear whether this refers to clusters of hydrophobic residues in the sequence or to spatial regions in the condensate.
+  - **Required correction** Define "sticky patches" clearly, either in the text or by referencing a specific structural metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Studied Systems"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The manuscript states that the charge mixing value is κ = 0.55, but the definition of κ is not provided in the main text. It is referenced to previous work, but for a self-contained manuscript, a brief definition would be helpful.
+  - **Required correction** Provide a brief definition of the charge mixing parameter κ.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "the kinetics of breaking intermolecular contacts with neighboring polymers and the kinetics of intramolecular fluctuations" is somewhat dense and could be clarified.
+  - **Required correction** Rephrase for clarity, for example, "the timescales for breaking contacts between neighboring chains and for internal chain conformational changes."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error analysis) and R1-M2 (insufficient justification of ε range) are the primary technical issues. The mechanistic interpretation in R1-M3 also needs strengthening.
+- **Assessment against Nature-style criteria** Originality: The study is original in its systematic approach to varying the balance of interaction types, though the general idea that different interactions affect condensate properties is not new. Scientific importance: The findings are relevant to a broad community studying phase separation, but the impact is somewhat limited by the model system's simplicity and the lack of direct experimental validation. Interdisciplinary readership: The topic is of interest to biophysicists, computational chemists, and cell biologists, but the presentation is likely to be most accessible to specialists in computational biophysics. Technical soundness: The methodology is appropriate for the questions asked, but the lack of error analysis and limited discussion of model limitations are significant weaknesses. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with coarse-grained simulation techniques and phase separation concepts; some terms and equations are not fully defined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is interesting and the approach is sound, but the lack of error analysis and the incomplete justification of parameter choices prevent the conclusions from being fully established as presented.
+
+## Risk / unsupported claims
+- The claim that the non-monotonic dependence of Tc on ϕ is a robust finding is unsupported without error bars or statistical analysis.
+- The claim that the effect of ε on stability is "prominent" for high ϕ is not quantitatively supported.
+- The mechanistic explanation linking τinterchain and τintrachain to liquid-like behavior is speculative and not directly tested.
+- The statement that the coarse-grained model captures "realistic IDP behavior" is based on a comparison of Rg values (Figure S1), but the details of this validation are not provided in the main text and the limitations of this comparison are not discussed.

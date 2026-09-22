@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.04.12.439549",
+  "title": "Interactions between SARS-CoV-2 N-protein and α-synuclein accelerate amyloid formation",
+  "authors": "Semerdzhiev SA; Fakhree MAA; Segers-Nolten I; Blum C; Claessens MMAE",
+  "journal": "bioRxiv",
+  "published_date": "2021-04-12",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文实验研究SARS-CoV-2 N蛋白与α-synuclein的相互作用加速淀粉样纤维形成，涉及无序蛋白互作但方法为体外实验，缺乏AI/物理模拟建模，机制深度有限。",
+  "abstract": "First cases that point at a correlation between SARS-CoV-2 infections and the development of Parkinson’s disease have been reported. Currently it is unclear if there also is a direct causal link between these diseases. To obtain first insights into a possible molecular relation between viral infections and the aggregation of α-synuclein protein into amyloid fibrils characteristic for Parkinson’s disease, we investigated the effect of the presence of SARS-CoV-2 proteins on α-synuclein aggregation. We show, in test tube experiments, that SARS-CoV-2 S-protein has no effect on α-synuclein aggregation while SARS-CoV-2 N-protein considerably speeds up the aggregation process. We observe the formation of multi-protein complexes, and eventually amyloid fibrils. Microinjection of N-protein in SHSY-5Y cells disturbed the α-synuclein proteostasis and increased cell death. Our results point toward direct interactions between the N-protein of SARS-CoV-2 and α-synuclein as molecular basis for the observed coincidence between SARS-CoV-2 infections and Parkinsonism.",
+  "abstract_zh": "已有首批病例报告指出SARS-CoV-2感染与帕金森病发展之间存在相关性，但目前尚不清楚这些疾病之间是否存在直接因果关系。为初步探究病毒感染与α-突触核蛋白（α-synuclein）聚集成淀粉样纤维（amyloid fibrils）——这一帕金森病特征性过程——之间可能的分子关联，我们研究了SARS-CoV-2蛋白存在对α-synuclein聚集的影响。在试管实验中，我们显示SARS-CoV-2 S蛋白对α-synuclein聚集无影响，而SARS-CoV-2 N蛋白则显著加速聚集过程。我们观察到多蛋白复合物的形成，并最终形成淀粉样纤维。将N蛋白显微注射至SHSY-5Y细胞中，扰乱了α-synuclein的蛋白质稳态并增加了细胞死亡。我们的结果指向SARS-CoV-2 N蛋白与α-synuclein之间的直接相互作用，作为观察到的SARS-CoV-2感染与帕金森综合征并发性的分子基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.04.12.439549",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.04.12.439549",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.04.12.439549/index.html"
+}

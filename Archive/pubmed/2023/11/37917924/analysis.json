@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37917924",
+  "title": "The Energetic Origins of Pi-Pi Contacts in Proteins.",
+  "authors": "Carter-Fenk, Kay; Liu, Meili; Pujal, Leila; Loipersberger, Matthias; Tsanai, Maria; Vernon, Robert M; Forman-Kay, Julie D; Head-Gordon, Martin; Heidar-Zadeh, Farnaz; Head-Gordon, Teresa",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-11-02",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用QM能量分解分析MD模拟中的pi-pi接触，揭示其能量起源并关联生物分子凝聚体形成，虽非直接IDP/PPI建模，但为无序蛋白互作中的非共价相互作用机制提供了可迁移的物理化学洞见。",
+  "abstract": "Accurate potential energy models of proteins must describe the many different types of noncovalent interactions that contribute to a protein's stability and structure. Pi-pi contacts are ubiquitous structural motifs in all proteins, occurring between aromatic and nonaromatic residues and play a nontrivial role in protein folding and in the formation of biomolecular condensates. Guided by a geometric criterion for isolating pi-pi contacts from classical molecular dynamics simulations of proteins, we use quantum mechanical energy decomposition analysis to determine the molecular interactions that stabilize different pi-pi contact motifs. We find that neutral pi-pi interactions in proteins are dominated by Pauli repulsion and London dispersion rather than repulsive quadrupole electrostatics, which is central to the textbook Hunter-Sanders model. This results in a notable lack of variability in the interaction profiles of neutral pi-pi contacts even with extreme changes in the dielectric medium, explaining the prevalence of pi-stacked arrangements in and between proteins. We also find interactions involving pi-containing anions and cations to be extremely malleable, interacting like neutral pi-pi contacts in polar media and like typical ion-pi interactions in nonpolar environments. Like-charged pairs such as arginine-arginine contacts are particularly sensitive to the polarity of their immediate surroundings and exhibit canonical pi-pi stacking behavior only if the interaction is mediated by environmental effects, such as aqueous solvation.",
+  "abstract_zh": "蛋白质的精确势能模型必须描述多种不同类型的非共价相互作用，这些相互作用对蛋白质的稳定性和结构有所贡献。Pi-pi接触是所有蛋白质中普遍存在的结构基序，发生在芳香族和非芳香族残基之间，并在蛋白质折叠及生物分子凝聚体形成中发挥非平凡作用。基于从蛋白质经典分子动力学模拟中分离pi-pi接触的几何准则，我们使用量子力学能量分解分析来确定稳定不同pi-pi接触基序的分子相互作用。我们发现，蛋白质中的中性pi-pi相互作用主要由Pauli排斥和London色散主导，而非教科书Hunter-Sanders模型核心的排斥性四极静电作用。这导致中性pi-pi接触的相互作用谱缺乏显著变异性，即使介电介质发生极端变化也是如此，从而解释了pi-堆叠排列在蛋白质内部及之间的普遍性。我们还发现，涉及含pi阴离子和阳离子的相互作用极具可塑性，在极性介质中表现为类似中性pi-pi接触，而在非极性环境中则表现为典型的离子-pi相互作用。同电荷对如精氨酸-精氨酸接触对其周围环境的极性特别敏感，并且仅当相互作用由环境效应（如水合作用）介导时才表现出典型的pi-pi堆叠行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37917924/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37917924/",
+  "paper_page_path": "papers/pubmed/37917924/index.html"
+}

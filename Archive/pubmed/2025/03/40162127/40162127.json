@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "40162127",
+    "doi": "10.1103/prxlife.2.033001",
+    "title": "Mesoscale molecular assembly is favored by the active, crowded cytoplasm."
+  },
+  "content": {
+    "abstract": "The mesoscale organization of molecules into membraneless biomolecular condensates is emerging as a key mechanism of rapid spatiotemporal control in cells. Principles of biomolecular condensation have been revealed through in vitro reconstitution. However, intracellular environments are much more complex than test-tube environments: they are viscoelastic, highly crowded at the mesoscale, and are far from thermodynamic equilibrium due to the constant action of energy-consuming processes. We developed synDrops, a synthetic phase separation system, to study how the cellular environment affects condensate formation. Three key features enable physical analysis: synDrops are inducible, bioorthogonal, and have well-defined geometry. This design allows kinetic analysis of synDrop assembly and facilitates computational simulation of the process. We compared experiments and simulations to determine that macromolecular crowding promotes condensate nucleation but inhibits droplet growth through coalescence. ATP-dependent cellular activities help overcome the frustration of growth. In particular, stirring of the cytoplasm by actomyosin dynamics is the dominant mechanism that potentiates droplet growth in the mammalian cytoplasm by reducing confinement and elasticity. Our results demonstrate that mesoscale molecular assembly is favored by the combined effects of crowding and active matter in the cytoplasm. These results move toward a better predictive understanding of condensate formation in vivo.",
+    "keywords": [
+      "Actin Dynamics",
+      "Active Matter",
+      "Macromolecular Crowding",
+      "Phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shu, Tong",
+        "Mitra, Gaurav",
+        "Alberts, Jonathan",
+        "Viana, Matheus P",
+        "Levy, Emmanuel D",
+        "Hocky, Glen M",
+        "Holt, Liam J"
+      ],
+      "short_names": [
+        "Shu T",
+        "Mitra G",
+        "Alberts J",
+        "Viana MP",
+        "Levy ED",
+        "Hocky GM",
+        "Holt LJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA.",
+        "Department of Chemistry, New York University, New York, New York 10003, USA.",
+        "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA.",
+        "Department of Chemistry, New York University, New York, New York 10003, USA.",
+        "Allen Institute for Cell Science, Seattle, Washington 98109, USA.",
+        "Department of Molecular and Cellular Biology, University of Geneva, 1211 Geneva 4, Switzerland.",
+        "Simons Center for Computational Physical Chemistry, New York University, New York, New York 10003, USA.",
+        "Allen Institute for Cell Science, Seattle, Washington 98109, USA.",
+        "Department of Molecular and Cellular Biology, University of Geneva, 1211 Geneva 4, Switzerland.",
+        "Department of Chemistry, New York University, New York, New York 10003, USA.",
+        "Simons Center for Computational Physical Chemistry, New York University, New York, New York 10003, USA.",
+        "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shu, Tong",
+        "short_name": "Shu T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Gaurav",
+        "short_name": "Mitra G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, New York 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Alberts, Jonathan",
+        "short_name": "Alberts J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA.",
+          "Department of Chemistry, New York University, New York, New York 10003, USA.",
+          "Allen Institute for Cell Science, Seattle, Washington 98109, USA.",
+          "Department of Molecular and Cellular Biology, University of Geneva, 1211 Geneva 4, Switzerland.",
+          "Simons Center for Computational Physical Chemistry, New York University, New York, New York 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Viana, Matheus P",
+        "short_name": "Viana MP",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Cell Science, Seattle, Washington 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Levy, Emmanuel D",
+        "short_name": "Levy ED",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, 1211 Geneva 4, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hocky, Glen M",
+        "short_name": "Hocky GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, New York 10003, USA.",
+          "Simons Center for Computational Physical Chemistry, New York University, New York, New York 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Holt, Liam J",
+        "short_name": "Holt LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Langone Medical Center, New York, New York 10016, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PRX life"
+    ],
+    "journal_abbrev": [
+      "PRX Life"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:16",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [
+      "42538977",
+      "41722894",
+      "41622676",
+      "41296980",
+      "40962203",
+      "40880801",
+      "40667204"
+    ],
+    "refs": [
+      "37265213",
+      "37255223",
+      "37073403",
+      "36908311",
+      "36739478",
+      "36239136",
+      "36108633",
+      "35196512",
+      "35171683",
+      "34874386",
+      "34241518",
+      "33169001",
+      "32679076",
+      "32661377",
+      "32375020",
+      "32302571",
+      "32302549",
+      "32273899",
+      "32015543",
+      "31095270",
+      "30633909",
+      "30232394",
+      "29987017",
+      "29937223",
+      "29092896",
+      "29091028",
+      "28522535",
+      "28388417",
+      "28344349",
+      "28323250",
+      "28283059",
+      "28041848",
+      "27713081",
+      "27374333",
+      "27003292",
+      "26412307",
+      "26153368",
+      "25126787",
+      "24361104",
+      "24299066",
+      "24019504",
+      "23574726",
+      "23291707",
+      "22743772",
+      "22713559",
+      "22485546",
+      "22446836",
+      "22400791",
+      "22398450",
+      "21880897",
+      "21763600",
+      "19037309",
+      "19001127",
+      "18643030",
+      "18573087",
+      "18139350",
+      "16845421",
+      "15937489",
+      "15562315",
+      "11590012",
+      "11297676",
+      "7681220"
+    ],
+    "similar": [
+      "40162127",
+      "37781612",
+      "23912807",
+      "39660892",
+      "34206440",
+      "36594499",
+      "37398029",
+      "38331392",
+      "32824618",
+      "36829460",
+      "33581219",
+      "37546967",
+      "39059370",
+      "35796197",
+      "39655866",
+      "33168632",
+      "31199001",
+      "37073403",
+      "33057154",
+      "36191226",
+      "36463407",
+      "38607029",
+      "31001538",
+      "34767801",
+      "33020904",
+      "36108633",
+      "34241502",
+      "40034645",
+      "39398199",
+      "37688556",
+      "35881789",
+      "36758221",
+      "32800925",
+      "37931170",
+      "35293386",
+      "33453934",
+      "39042834",
+      "32254643",
+      "37546778",
+      "37461689",
+      "35867936",
+      "35073746",
+      "35096966",
+      "33510441",
+      "33300985",
+      "33890764",
+      "39947751",
+      "34552246",
+      "35477997",
+      "37131735",
+      "36315857",
+      "39005320",
+      "32818469",
+      "37286396",
+      "29632271",
+      "39574691",
+      "27797534",
+      "40172489",
+      "36185357",
+      "34315935",
+      "34507991",
+      "33049213",
+      "40168179",
+      "29937223",
+      "40203038",
+      "34772789",
+      "27801646",
+      "28295725",
+      "34179888",
+      "37779215",
+      "39327453",
+      "39763716",
+      "30817154",
+      "37925283",
+      "34573116",
+      "39227569",
+      "31753533",
+      "24411263",
+      "36227486",
+      "40290937",
+      "37735952",
+      "36979462",
+      "34129687",
+      "35978196",
+      "39591966",
+      "39149291",
+      "36164646",
+      "36854378",
+      "34186016",
+      "37735186",
+      "37020020",
+      "40127264",
+      "38424273",
+      "35325654",
+      "35974095",
+      "33864415",
+      "38116396",
+      "35954258",
+      "20553227",
+      "38621751"
+    ],
+    "review": [
+      "40162127",
+      "39660892",
+      "38331392",
+      "32824618",
+      "35796197",
+      "33168632",
+      "31001538",
+      "34767801",
+      "32800925",
+      "37931170",
+      "35096966",
+      "33510441",
+      "33300985",
+      "39947751",
+      "37286396",
+      "29632271",
+      "40172489",
+      "33049213",
+      "34772789",
+      "34179888",
+      "39327453",
+      "37925283",
+      "34573116",
+      "31753533",
+      "36164646",
+      "35974095",
+      "35954258"
+    ],
+    "pmc": [
+      "11952695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40162127/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40162127",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

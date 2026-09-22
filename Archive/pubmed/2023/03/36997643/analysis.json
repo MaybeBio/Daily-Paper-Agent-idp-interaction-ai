@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36997643",
+  "title": "Mutual induced-fit mechanism drives binding between intrinsically disordered Bim and cryptic binding site of Bcl-xL.",
+  "authors": "Bekker, Gert-Jan; Araki, Mitsugu; Oshima, Kanji; Okuno, Yasushi; Kamiya, Narutoshi",
+  "journal": "Communications biology",
+  "published_date": "2023-03-31",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用动态对接方法揭示无序蛋白Bim与Bcl-xL隐蔽位点的相互诱导契合结合机制，涵盖IDR折叠与构象转变，是IDR介导PPI机制建模的典型范例。",
+  "abstract": "The intrinsically disordered region (IDR) of Bim binds to the flexible cryptic site of Bcl-xL, a pro-survival protein involved in cancer progression that plays an important role in initiating apoptosis. However, their binding mechanism has not yet been elucidated. We have applied our dynamic docking protocol, which correctly reproduced both the IDR properties of Bim and the native bound configuration, as well as suggesting other stable/meta-stable binding configurations and revealed the binding pathway. Although the cryptic site of Bcl-xL is predominantly in a closed conformation, initial binding of Bim in an encounter configuration leads to mutual induced-fit binding, where both molecules adapt to each other; Bcl-xL transitions to an open state as Bim folds from a disordered to an alpha-helical conformation while the two molecules bind each other. Finally, our data provides new avenues to develop novel drugs by targeting newly discovered stable conformations of Bcl-xL.",
+  "abstract_zh": "Bim的固有无序区域（IDR）与Bcl-xL的柔性隐蔽位点结合，Bcl-xL是一种参与癌症进展的促生存蛋白，在启动细胞凋亡中发挥重要作用。然而，它们的结合机制尚未阐明。我们应用了动态对接协议，该协议正确再现了Bim的IDR特性和天然结合构象，同时提出了其他稳定/亚稳定结合构象，并揭示了结合途径。尽管Bcl-xL的隐蔽位点主要处于闭合构象，但Bim以遭遇构象的初始结合导致相互诱导契合结合，其中两个分子相互适应；随着Bim从无序构象折叠为α-螺旋构象，Bcl-xL转变为开放状态，同时两个分子彼此结合。最后，我们的数据为通过靶向新发现的Bcl-xL稳定构象开发新型药物提供了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36997643/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36997643/",
+  "paper_page_path": "papers/pubmed/36997643/index.html"
+}

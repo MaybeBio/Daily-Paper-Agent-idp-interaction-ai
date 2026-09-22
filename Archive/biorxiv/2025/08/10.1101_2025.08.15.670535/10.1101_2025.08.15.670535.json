@@ -1,0 +1,116 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.15.670535",
+  "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions",
+  "doi": "10.1101/2025.08.15.670535",
+  "abstract": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including Drosophila . Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 multimer to examine and predict protein-protein interactions from both physical and functional datasets in Drosophila . We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present the predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies. <h4>Author Summary</h4> Understanding which proteins interact with each other and how they interact is essential for uncovering fundamental biology and for identifying new pathways involved in health and disease. However, identifying protein-protein interactions experimentally is often challenging and error-prone, and many organisms still lack comprehensive interaction maps. In this study, we use AlphaFold2-multimer, a powerful artificial intelligence tool, to generate high-confidence predictions of PPIs in Drosophila melanogaster , a widely used model organism. We highlight the importance of incorporating often neglected functional associations when predicting protein-protein interactions at a genomic scale. The predictions enable us to examine how intrinsically disordered regions can mediate binding across large interaction networks, revealing widespread, structurally plausible interactions in vivo . Overall, our work demonstrates how AlphaFold predictions can greatly expand our understanding of the structural forces that shape protein interaction networks and help reveal hidden layers of cellular complexes and pathways.",
+  "authors": [
+    "Peng J",
+    "Zhao L"
+  ],
+  "published_date": "2025-08-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670535",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670535.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1068006",
+    "raw_record": {
+      "id": "PPR1068006",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.15.670535",
+      "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions",
+      "authorString": "Peng J, Zhao L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Peng J",
+            "lastName": "Peng",
+            "firstName": "Junhui",
+            "initials": "J"
+          },
+          {
+            "fullName": "Zhao L",
+            "lastName": "Zhao",
+            "firstName": "Li",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6776-1996"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6776-1996"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including  Drosophila . Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 multimer to examine and predict protein-protein interactions from both physical and functional datasets in  Drosophila . We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present the predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies.  <h4>Author Summary</h4>  Understanding which proteins interact with each other and how they interact is essential for uncovering fundamental biology and for identifying new pathways involved in health and disease. However, identifying protein-protein interactions experimentally is often challenging and error-prone, and many organisms still lack comprehensive interaction maps. In this study, we use AlphaFold2-multimer, a powerful artificial intelligence tool, to generate high-confidence predictions of PPIs in  Drosophila melanogaster , a widely used model organism. We highlight the importance of incorporating often neglected functional associations when predicting protein-protein interactions at a genomic scale. The predictions enable us to examine how intrinsically disordered regions can mediate binding across large interaction networks, revealing widespread, structurally plausible interactions  in vivo . Overall, our work demonstrates how AlphaFold predictions can greatly expand our understanding of the structural forces that shape protein interaction networks and help reveal hidden layers of cellular complexes and pathways.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.15.670535"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41570036",
+            "reference": "PLoS computational biology. 2026 Jan;22(1):e1013899",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-22",
+      "firstPublicationDate": "2025-08-20",
+      "firstIndexDate": "2025-08-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

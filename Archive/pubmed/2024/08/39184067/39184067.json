@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "39184067",
+    "doi": "10.21203/rs.3.rs-4784242/v1",
+    "title": "Non-specific yet selective interactions contribute to small molecule condensate partitioning behavior."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are essential in various cellular processes, and their misregulation has been demonstrated to be underly disease. Small molecules that modulate condensate stability and material properties offer promising therapeutic approaches, but mechanistic insights into their interactions with condensates remain largely lacking. We employ a multiscale approach to enable long-time, equilibrated all-atom simulations of various condensate-ligand systems. Systematic characterization of the ligand binding poses reveals that condensates can form diverse and heterogeneous chemical environments with one or multiple chains to bind small molecules. Unlike traditional protein-ligand interactions, these chemical environments are dominated by non-specific hydrophobic interactions. Nevertheless, the chemical environments feature unique amino acid compositions and physicochemical properties that favor certain small molecules over others, resulting in varied ligand partitioning coefficients within condensates. Notably, different condensates share similar sets of chemical environments but at different populations. This population shift drives ligand selectivity towards specific condensates. Our approach can enhance the interpretation of experimental screening data and may assist in the rational design of small molecules targeting specific condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Bin",
+        "Wang, Cong",
+        "Kilgore, Henry",
+        "Latham, Andrew"
+      ],
+      "short_names": [
+        "Zhang B",
+        "Wang C",
+        "Kilgore H",
+        "Latham A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3685-7503",
+        "ORCID: 0000-0001-5998-3740",
+        "ORCID: 0000-0003-4851-9656",
+        "ORCID: 0000-0002-9338-7253"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5998-3740"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kilgore, Henry",
+        "short_name": "Kilgore H",
+        "identifiers": [
+          "0000-0003-4851-9656"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Latham, Andrew",
+        "short_name": "Latham A",
+        "identifiers": [
+          "0000-0002-9338-7253"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2024 Aug 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/26 12:38",
+    "fetched_at": "2026-09-22 01:40:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39184067",
+      "39534915",
+      "40093099",
+      "39271915",
+      "37770698",
+      "39071308",
+      "35761089",
+      "36883003",
+      "37546704",
+      "37013374",
+      "39937084",
+      "37904914",
+      "40229261",
+      "33653957",
+      "34179888",
+      "40321778",
+      "40291709",
+      "38987300",
+      "39868336",
+      "36483537",
+      "36993212",
+      "37156794",
+      "35809564",
+      "39232584",
+      "37980572",
+      "40196628",
+      "35881789",
+      "38622120",
+      "36993708",
+      "40136009",
+      "40172489",
+      "40290937",
+      "36227474",
+      "40074825",
+      "39260373",
+      "40327693",
+      "34767801",
+      "39433596",
+      "40286793",
+      "37470705",
+      "39677698",
+      "39303698",
+      "37131735",
+      "38637545",
+      "39620362",
+      "34129687",
+      "37425862",
+      "36240277",
+      "38405951",
+      "34241502",
+      "34090478",
+      "35126984",
+      "39757214",
+      "34772789",
+      "37894933",
+      "40386802",
+      "37695778",
+      "39005320",
+      "39856105",
+      "33934561",
+      "38191942",
+      "40203038",
+      "39763716",
+      "38781207",
+      "39271032",
+      "37194953",
+      "37294104",
+      "36004782",
+      "40249817",
+      "40196562",
+      "31606941",
+      "33672806",
+      "39896463",
+      "39356108",
+      "35727989",
+      "37393916",
+      "39568893",
+      "35001622",
+      "35364105",
+      "39826710",
+      "38360555",
+      "37824531",
+      "36269080",
+      "36227477",
+      "37468629",
+      "36028355",
+      "26042329",
+      "39827079",
+      "33144560",
+      "40375868",
+      "32554597",
+      "30099028",
+      "29632271",
+      "33890764",
+      "35974095",
+      "38429263",
+      "37782826",
+      "33753744",
+      "40168179",
+      "38499848"
+    ],
+    "review": [
+      "39184067",
+      "35761089",
+      "34179888",
+      "36483537",
+      "40172489",
+      "34767801",
+      "39433596",
+      "39303698",
+      "39757214",
+      "34772789",
+      "33934561",
+      "39271032",
+      "31606941",
+      "37393916",
+      "38360555",
+      "36269080",
+      "36028355",
+      "39827079",
+      "30099028",
+      "29632271",
+      "35974095"
+    ],
+    "pmc": [
+      "11343289"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39184067/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-4784242/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

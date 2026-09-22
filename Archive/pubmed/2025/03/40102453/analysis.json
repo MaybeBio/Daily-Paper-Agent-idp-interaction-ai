@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40102453",
+  "title": "RNA guanine content and G-quadruplex structure tune the phase behavior and material properties of biomolecular condensates.",
+  "authors": "Vidal Ceballos, Alfredo; Geissmann, Anna; Favaro, Denize C; Deshpande, Priyasha; Elbaum-Garfinkle, Shana",
+  "journal": "Scientific reports",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文实验研究RNA G含量与G4结构如何调控FMRP-RGG无序区域凝聚体的相行为与材料性质，对象为IDR介导的RNA-蛋白互作，但方法为纯实验（微流变、FRAP），无AI或物理模拟，故评7分。",
+  "abstract": "RNA binding proteins (RBPs) are enriched in phase separated biomolecular assemblies across cell types. These RBPs often harbor arginine-glycine rich RGG motifs, which can drive phase separation, and can preferentially interact with RNA G-quadruplex (G4) structures, particularly in the neuron. Increasing evidence underscores the important role that RNA sequence and structure play in contributing to the form and function of protein condensates, however, less is known about the role of G4 RNAs and their interaction with RGG domains specifically. In this study we focused on the model protein, Fragile X mental retardation protein (FMRP), to investigate how G4-containing RNA sequences impact the phase behavior and material properties of condensates. FMRP is implicated in the development of Fragile X Syndrome, and is enriched in neuronal granules where it is thought to aid in mRNA trafficking and translational control. Here, we examined RNA sequences with increasing G content and G4 propensity in complex with the RGG-containing low complexity region (LCR) of FMRP. We found, that while increasing G content triggers aggregation of poly-arginine, all RNA sequences supported phase separation into liquid droplets with FMRP-LCR. Combining microrheology, and fluorescence recovery after photobleaching, we measured a moderate increase in viscosity and decrease in dynamics for increasing G-content, and detected no measurable increase in elasticity as a function of G4 structure. Additionally, we found that while methylation of FMRP decreased RNA binding affinity, this modification did not impact condensate material properties suggesting that RNA sequence/structure can play a greater role than binding affinity in determining the emergent properties of condensates. Together, this work lends much needed insight into the ways in which G-rich RNA sequences tune the assembly, dynamics and material properties of protein/RNA condensates and/or granules.",
+  "abstract_zh": "RNA结合蛋白（RBPs）在多种细胞类型的相分离生物分子组装体中富集。这些RBPs通常含有富含精氨酸-甘氨酸的RGG基序，该基序可驱动相分离，并能优先与RNA G-四链体（G4）结构相互作用，尤其在神经元中。越来越多的证据强调了RNA序列和结构在蛋白质凝聚体的形态与功能形成中的重要作用，然而，关于G4 RNA及其与RGG结构域特异性相互作用的研究仍相对较少。在本研究中，我们聚焦于模型蛋白——脆性X智力低下蛋白（FMRP），以探究含G4的RNA序列如何影响凝聚体的相行为及材料特性。FMRP与脆性X综合征的发生相关，并在神经元颗粒中富集，被认为参与mRNA运输和翻译调控。在此，我们检测了具有递增G含量和G4倾向性的RNA序列与FMRP含RGG的低复杂度区域（LCR）形成的复合物。我们发现，尽管增加G含量会触发聚精氨酸的聚集，但所有RNA序列均支持与FMRP-LCR形成液滴状相分离。结合微流变学和光漂白后荧光恢复技术，我们测量到随着G含量增加，粘度适度上升而动力学下降，且未检测到弹性随G4结构变化的显著增加。此外，我们发现虽然FMRP的甲基化降低了RNA结合亲和力，但该修饰并未影响凝聚体的材料特性，这表明RNA序列/结构在决定凝聚体的涌现特性方面可能比结合亲和力发挥更大作用。综合而言，本研究为富含G的RNA序列如何调节蛋白质/RNA凝聚体和/或颗粒的组装、动力学及材料特性提供了亟需的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40102453/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40102453/",
+  "paper_page_path": "papers/pubmed/40102453/index.html"
+}

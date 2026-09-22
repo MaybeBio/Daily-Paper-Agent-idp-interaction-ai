@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusion, and methods sections.
+- **Assessment boundary** The review assesses the scientific claims, methodology, and interpretation presented in the manuscript. It does not evaluate the choice of journal or editorial decisions.
+- **Shared manuscript claim summary** The authors systematically assess the distribution of pathogenic and benign missense variants across disordered, intermediate, and structured protein regions in the human proteome. They evaluate 33 variant effect predictors (VEPs) and report reduced sensitivity for pathogenic variants in disordered regions despite high AUROC values, substantial discordance among VEP classifications in these regions, and distinct disease mechanisms for variants in disordered regions. They propose region-specific thresholds as a potential improvement for variant prioritization.
+- **Visible evidence base** The manuscript includes figures (Fig 1, Fig 2, Fig 3, Fig 4, Fig 5), supplementary figures (Fig A, Fig B, Fig C in S1 Text), a supplementary table (S1 Table), and a methods section describing the classification of residues, variant datasets, and VEP performance assessment.
+- **Missing materials affecting confidence** The manuscript does not provide the full set of supplementary figures and tables, which are referenced but not included in the provided text. Specific details on the VEP score distributions, the exact composition of the variant dataset after filtering, and the full list of VEPs and their versions are not fully described. The methods section lacks detailed descriptions of the statistical tests used for comparisons beyond Fisher's exact test.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the performance of variant effect predictors in intrinsically disordered regions. The authors present a systematic analysis using a large dataset and multiple VEPs, revealing a significant limitation in current tools: reduced sensitivity for pathogenic variants in IDRs. The observation that high AUROC values in IDRs are driven by accurate benign classification rather than pathogenic detection is a valuable insight. The exploration of disease mechanisms, particularly the enrichment of LOF variants in disordered regions of autosomal dominant genes, adds depth. However, the manuscript has several technical and interpretational issues that need to be addressed. The reliance on AlphaFold2 pLDDT for disorder classification, while practical, may introduce biases that are not fully discussed. The analysis of VEP agreement using Cohen's kappa is informative but could be strengthened by additional metrics. The proposed region-specific thresholds are interesting but their practical utility and generalizability require further validation. Overall, the study is well-conceived and provides useful data, but the current presentation does not fully establish the case for the proposed strategies.
+- **Who would be interested in the results, and why** Researchers in the fields of computational genomics, clinical genetics, and protein science would be interested. Specifically, those developing or using variant effect predictors, those interpreting genetic variants in clinical settings, and those studying the role of intrinsically disordered proteins in disease would find the results relevant. The findings highlight a critical gap in current tools and suggest directions for improvement, which is of direct interest to tool developers and users.
+- **Major strengths** The study uses a comprehensive dataset of missense variants from ClinVar and gnomAD, and evaluates a large number of VEPs (33), providing a broad assessment. The analysis is well-structured, moving from variant distribution to mechanisms and then to VEP performance. The observation that high AUROC in IDRs is driven by benign classification is an important and non-obvious finding. The discussion of disease mechanisms, particularly the enrichment of LOF variants in disordered regions of AD genes, is insightful and adds biological context. The authors also address a potential confounding factor by excluding collagen proteins, which is a thoughtful methodological consideration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim that their classification of residues into disordered, intermediate, and ordered regions using AlphaFold2 pLDDT is robust and suitable for the analysis.
+  - **Evidence pointer** Methods section, "Structural classification of human residues"; Fig 1A.
+  - **Concern** The use of AlphaFold2 pLDDT as the sole criterion for disorder classification is a significant methodological choice that may not be universally accepted. While pLDDT correlates with disorder, it is not a direct measure of disorder and may misclassify regions that are dynamic or conditionally disordered. The authors acknowledge that their definition is conservative, but they do not validate their classification against established disorder prediction tools or experimental data. This could affect the generalizability of their findings.
+  - **Why it matters** If the classification is inaccurate, the reported distributions of variants and VEP performance metrics across regions could be biased. This would undermine the core conclusions of the study.
+  - **Resolution test** The authors should validate their pLDDT-based classification against at least one established disorder prediction method (e.g., IUPred, ESpritz) on a subset of proteins, and report the level of agreement. Alternatively, they could use a consensus approach. They should also discuss the potential limitations of pLDDT in capturing all types of disorder.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data and Analysis
+  - **Claim pointer** The authors claim that VEPs show reduced sensitivity for pathogenic variants in disordered regions, and that this is a general limitation across predictors.
+  - **Evidence pointer** Fig 4A; Results section "VEPs show low sensitivity for pathogenic variants in disordered regions".
+  - **Concern** The analysis of sensitivity and specificity relies on the use of "optimal thresholds" derived from the Youden J-statistic. The authors note that these are not clinical thresholds, but the choice of threshold significantly affects sensitivity and specificity values. The comparison across VEPs using these thresholds may not be fair if the score distributions differ substantially between regions. Furthermore, the authors do not report confidence intervals for the sensitivity and specificity estimates, which is important given the large number of variants and VEPs.
+  - **Why it matters** Without confidence intervals, it is unclear whether the observed differences in sensitivity between regions are statistically significant. The use of a single threshold per VEP may also obscure the performance at other operating points, which is relevant for practical use.
+  - **Resolution test** The authors should provide confidence intervals for sensitivity and specificity estimates, perhaps using bootstrapping. They should also consider reporting performance across a range of thresholds (e.g., using precision-recall curves) to provide a more complete picture. Additionally, they could test the robustness of their findings to the choice of threshold method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that region-specific thresholds could improve VEP performance in disordered regions.
+  - **Evidence pointer** Results section "VEPs show low sensitivity for pathogenic variants in disordered regions"; Fig 4B; S1 Table.
+  - **Concern** The proposal for region-specific thresholds is interesting, but the analysis is limited. The authors show that using region-specific thresholds increases sensitivity in disordered regions, but they do not assess the impact on the overall prioritization of variants in a realistic setting. For example, they do not evaluate whether the use of region-specific thresholds would lead to a higher rate of false positives in benign variants or how this would affect the ranking of variants in a clinical context.
+  - **Why it matters** The practical utility of region-specific thresholds depends on their ability to improve the overall accuracy of variant prioritization, not just sensitivity at a specific threshold. Without a more comprehensive evaluation, the recommendation may be premature.
+  - **Resolution test** The authors should perform a more realistic evaluation, such as using a held-out set of variants with known clinical significance, and compare the performance of global vs. region-specific thresholds in terms of the number of pathogenic variants ranked in the top N, or using metrics like the normalized discounted cumulative gain. They should also discuss the potential trade-offs in specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Pathogenic variants were notably depleted in IDRs yet were associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects."
+  - **Issue** The phrase "dominant gain- and loss-of-function effects" is ambiguous. It is unclear whether this refers to effects in autosomal dominant disorders or to dominant-negative effects. The results section clarifies this, but the abstract could be more precise.
+  - **Required correction** Rephrase to "particularly gain- and loss-of-function effects in autosomal dominant disorders" or similar for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, "Missense variant dataset"
+  - **Evidence pointer** Methods section, "Missense variant dataset"
+  - **Issue** The authors state that they removed collagen proteins, but they do not specify the exact number of variants removed or the impact of this exclusion on the overall dataset composition. This information would be useful for assessing the robustness of the analysis.
+  - **Required correction** Provide the number of variants excluded and a brief statement on how this affected the distribution of variants across regions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Fig 3
+  - **Evidence pointer** Fig 3
+  - **Issue** The figure shows AUROC values for many VEPs, but it is difficult to discern individual VEP names and their values. The figure may be more informative if it were presented as a table or with clearer labeling.
+  - **Required correction** Consider presenting the data in a supplementary table with VEP names and AUROC values for each region, and use the figure to highlight key trends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "VEPs show discordant predictions in disordered regions"
+  - **Evidence pointer** Fig 5
+  - **Issue** The authors report lower agreement among VEPs in disordered regions, but they do not discuss the potential reasons for this discordance in detail. For example, is it due to differences in training data, features, or algorithmic approaches?
+  - **Required correction** Add a brief discussion of potential sources of discordance, such as the reliance on evolutionary conservation versus functional annotations, to provide more insight.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of validation of the disorder classification method (R1-M1). The analysis of sensitivity and specificity lacks confidence intervals and a more comprehensive evaluation of threshold effects (R1-M2). The proposal for region-specific thresholds is not fully validated in a realistic setting (R1-M3). These issues need to be addressed to strengthen the conclusions.
+
+## Risk / unsupported claims
+- The claim that "pathogenic variants in IDRs predominantly act through distinct molecular mechanisms" is supported by the analysis of inheritance patterns and known examples, but the direct evidence for specific mechanisms is limited. The authors speculate on mechanisms such as disruption of PTMs or short linear motifs, but do not provide direct experimental or functional validation.
+- The claim that "incorporating features reflective of IDR biology... may enhance the accuracy and interpretability of future tools" is a reasonable suggestion, but it is not directly tested in this study. It is presented as a future direction rather than a demonstrated finding.
+- The statement that "relying solely on global thresholds risks overlooking clinically relevant variants" is a logical inference from the data, but the clinical impact is not directly assessed. The authors do not provide examples of specific variants that would be missed by global thresholds but captured by region-specific ones.

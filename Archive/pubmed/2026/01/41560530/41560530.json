@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41560530",
+    "doi": "10.1021/acs.jpcb.5c06647",
+    "title": "Water Accelerates in the Hydration Shell of the N- and C-Terminal Domains of alpha-Synuclein in the Presence of NaCl."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alpha-Syn) is an intrinsically disordered protein (IDP) whose aggregation into fibrils is implicated in Parkinson's disease (PD). While benign alpha-Syn aggregation frequently occurs, off-target aggregates are implicated in disease progression. Although most mechanisms of toxic alpha-Syn aggregate formation are unknown, high concentrations of salt ions have been shown to systematically result in faster aggregation. Previous work suggests that salt slows water in the hydration shell of alpha-Syn, promoting intermolecular interactions. Here, we use polarizable molecular dynamics (MD) to investigate the interactions between alpha-Syn and water in response to an increased NaCl concentration. While we also find that the water in the hydration shell of the nonamyloid-beta component (NAC) domain slows down with increasing salt concentration, the water in the hydration shell of the N- and C-terminal domains accelerates. The segments of the N- and C-terminal domains that show faster water diffusion kinetics corroborate with truncation experiment results. Overall, our work suggests that alpha-Syn aggregation is related to partial salt-induced dehydration of the N- and C-terminal domains.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Sodium Chloride/chemistry",
+      "*Water/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Humans",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koehler, Stephen J",
+        "Vaissier Welborn, Valerie"
+      ],
+      "short_names": [
+        "Koehler SJ",
+        "Vaissier Welborn V"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0834-4441"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Macromolecules Innovation Institute, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Department of Chemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Macromolecules Innovation Institute, Virginia Tech, Blacksburg, Virginia 24061, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koehler, Stephen J",
+        "short_name": "Koehler SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+          "Macromolecules Innovation Institute, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Vaissier Welborn, Valerie",
+        "short_name": "Vaissier Welborn V",
+        "identifiers": [
+          "0000-0003-0834-4441"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+          "Macromolecules Innovation Institute, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jan 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:29",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40268916",
+      "40207671",
+      "39504036",
+      "39412059",
+      "39285698",
+      "36922119",
+      "36316279",
+      "35945337",
+      "35883507",
+      "35145226",
+      "34452994",
+      "33140640",
+      "32632432",
+      "32298113",
+      "32044671",
+      "32015326",
+      "31181290",
+      "31057362",
+      "30605594",
+      "30514082",
+      "30190461",
+      "30030380",
+      "29553735",
+      "29438622",
+      "29382893",
+      "29080468",
+      "28600826",
+      "27801516",
+      "26575776",
+      "26418258",
+      "25871264",
+      "25683601",
+      "25246573",
+      "24479585",
+      "23865559",
+      "22067166",
+      "21746853",
+      "21500218",
+      "21219140",
+      "20923645",
+      "20798282",
+      "20136072",
+      "20055667",
+      "19229944",
+      "18942871",
+      "18493022",
+      "17200685",
+      "16211538",
+      "15615727",
+      "15023080",
+      "11553618",
+      "11201735",
+      "11152691",
+      "11060312",
+      "9917408",
+      "9600990",
+      "9278044",
+      "8901511"
+    ],
+    "similar": [
+      "41560530",
+      "38321955",
+      "29874605",
+      "29286644",
+      "41301496",
+      "33649211",
+      "37060757",
+      "26601760",
+      "39412059",
+      "39046235",
+      "39947752",
+      "39980393",
+      "37741548",
+      "39504036",
+      "33749266",
+      "40268916",
+      "30769283",
+      "28796507",
+      "39651184",
+      "33140640",
+      "30290273",
+      "40882443",
+      "29853639",
+      "29782835",
+      "39232485",
+      "28741930",
+      "33110167",
+      "37189428",
+      "35945337",
+      "40912022",
+      "40207671",
+      "30917654",
+      "41804277",
+      "31699336",
+      "31382050",
+      "39693815",
+      "29704492",
+      "34290084",
+      "16953580",
+      "17785456",
+      "36944862",
+      "22860160",
+      "39082221",
+      "40020199",
+      "20828147",
+      "39567476",
+      "36278939",
+      "26852372",
+      "41368826",
+      "42212534",
+      "34452994",
+      "23607785",
+      "30853581",
+      "22274962",
+      "40994307",
+      "39306670",
+      "38272228",
+      "31092553",
+      "35474118",
+      "27314756",
+      "40819250",
+      "37125909",
+      "41081322",
+      "37768058",
+      "34431665",
+      "29851342",
+      "38586052",
+      "41801138",
+      "38801346",
+      "21689664",
+      "31547734",
+      "26972727",
+      "40305210",
+      "26119103",
+      "17381514",
+      "37198991",
+      "37433401",
+      "24728187",
+      "36373662",
+      "38905183",
+      "40339505",
+      "41575853",
+      "41877387",
+      "38663121",
+      "34172566",
+      "38973194",
+      "33345970",
+      "41345992",
+      "35485974",
+      "40763859",
+      "40847259",
+      "33352154",
+      "26723627",
+      "23339399",
+      "37528959",
+      "32868414",
+      "27587396",
+      "30917651",
+      "40853068",
+      "35944093"
+    ],
+    "review": [
+      "41560530",
+      "37060757",
+      "39947752",
+      "26852372",
+      "42212534",
+      "30853581",
+      "26972727",
+      "37198991",
+      "36373662"
+    ],
+    "pmc": [
+      "12862797"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41560530/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c06647",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

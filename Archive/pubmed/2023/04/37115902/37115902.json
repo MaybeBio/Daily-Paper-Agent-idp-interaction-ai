@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "37115902",
+    "doi": "10.1103/PhysRevLett.130.158401",
+    "title": "Electrostatics-Induced Nucleated Conformational Transition of Protein Aggregation."
+  },
+  "content": {
+    "abstract": "Despite the wide existence of protein aggregation in nature and its intimate connection to many human diseases, the underlying mechanism remains unclear. Here, we develop a molecular theory by systematically incorporating the self-consistent field theory for charged macromolecules into the dilute solution thermodynamics. The kinetic pathway is tracked without any restriction on the morphology of the aggregates. We find that protein aggregation at low salt concentrations is via a two-step nucleated process involving a conformational transition from metastable spherical oligomer to elongated fibril. The scaling analysis elucidates the electrostatic origin of the conformational transition: the fibril enters the screening region much earlier than the spherical aggregate. As salt concentration increases, the classical mode of one-step nucleation corresponding to macroscopic liquid-liquid phase separation is recovered. Our results reveal that the screened electrostatic interaction is essential for the existence of the metastable oligomer and its subsequent conformational transition to fibril. The theoretical predictions of the kinetic pathway and the morphology of the aggregates are in good agreement with the experimental observations of real proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Protein Aggregates",
+      "Static Electricity",
+      "Molecular Conformation",
+      "*Proteins",
+      "Thermodynamics",
+      "Amyloid/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, Chao",
+        "Wang, Rui"
+      ],
+      "short_names": [
+        "Duan C",
+        "Wang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of California Berkeley, California 94720, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of California Berkeley, California 94720, USA.",
+        "Materials Sciences Division, Lawrence Berkeley National Lab, Berkeley, California 94720, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, Chao",
+        "short_name": "Duan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of California Berkeley, California 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of California Berkeley, California 94720, USA.",
+          "Materials Sciences Division, Lawrence Berkeley National Lab, Berkeley, California 94720, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review letters"
+    ],
+    "journal_abbrev": [
+      "Phys Rev Lett"
+    ],
+    "pub_date": "2023 Apr 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 18:42",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [
+      "42370418",
+      "41109983",
+      "38435530",
+      "38052005"
+    ],
+    "refs": [],
+    "similar": [
+      "37115902",
+      "33356290",
+      "25166715",
+      "25453085",
+      "38820318",
+      "32145951",
+      "25628168",
+      "24028418",
+      "22984801",
+      "30067339",
+      "38435530",
+      "17368485",
+      "25469942",
+      "26883720",
+      "27025196",
+      "27171340",
+      "30502402",
+      "25093402",
+      "30114421",
+      "29601786",
+      "31437584",
+      "30077972",
+      "29995412",
+      "24368046",
+      "30674664",
+      "27759128",
+      "37246507",
+      "33982369",
+      "28390382",
+      "31341020",
+      "21820643",
+      "28109328",
+      "28161552",
+      "36373662",
+      "15667222",
+      "26592772",
+      "31345145",
+      "26594824",
+      "24817693",
+      "33279578",
+      "26183565",
+      "34391803",
+      "29311640",
+      "23209591",
+      "31096048",
+      "17292913",
+      "20423056",
+      "25844814",
+      "20557067",
+      "22120172",
+      "27327908",
+      "21674205",
+      "30041455",
+      "33685710",
+      "17660321",
+      "35287460",
+      "36802433",
+      "27576687",
+      "18579777",
+      "17571872",
+      "16603504",
+      "36835140",
+      "25524218",
+      "35482203",
+      "20946608",
+      "32691116",
+      "34533560",
+      "18616951",
+      "17204287",
+      "20453937",
+      "28490248",
+      "30935958",
+      "28915764",
+      "28915747",
+      "16387481",
+      "11297418",
+      "23228929",
+      "34419715",
+      "26460729",
+      "25803421",
+      "16797587",
+      "18646868",
+      "29143447",
+      "15573374",
+      "32155822",
+      "34358545",
+      "29072444",
+      "30520297",
+      "22721952",
+      "28939194",
+      "20923147",
+      "23942905",
+      "31844019",
+      "28489947",
+      "25050788",
+      "37186597",
+      "31084715"
+    ],
+    "review": [
+      "37115902",
+      "31437584",
+      "24368046",
+      "21820643",
+      "28109328",
+      "36373662",
+      "31345145",
+      "26183565",
+      "25844814",
+      "27327908",
+      "34419715",
+      "18646868",
+      "32155822"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.aps.org/abstract/PRL/v130/p158401",
+        "provider": "American Physical Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

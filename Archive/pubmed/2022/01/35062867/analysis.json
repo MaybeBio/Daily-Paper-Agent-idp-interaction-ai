@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35062867",
+  "title": "Intelligent fluorescence image analysis of giant unilamellar vesicles using convolutional neural network.",
+  "authors": "Lee, Il-Hyung; Passaro, Sam; Ozturk, Selin; Urena, Juan; Wang, Weitian",
+  "journal": "BMC bioinformatics",
+  "published_date": "2022-01-23",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN自动分析GUV荧光图像，涉及膜上蛋白结合与相分离状态判定，但对象为脂质体而非IDP/IDR，且无PPI机制建模或AI/物理模拟方法贡献，仅图像分析工具，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Fluorescence image analysis in biochemical science often involves the complex tasks of identifying samples for analysis and calculating the desired information from the intensity traces. Analyzing giant unilamellar vesicles (GUVs) is one of these tasks. Researchers need to identify many vesicles to statistically analyze the degree of molecular interaction or state of molecular organization on the membranes. This analysis is complicated, requiring a careful manual examination by researchers, so automating the analysis can significantly aid in improving its efficiency and reliability. RESULTS: We developed a convolutional neural network (CNN) assisted intelligent analysis routine based on the whole 3D z-stack images. The programs identify the vesicles with desired morphology and analyzes the data automatically. The programs can perform protein binding analysis on the membranes or state decision analysis of domain phase separation. We also show that the method can easily be applied to similar problems, such as intensity analysis of phase-separated protein droplets. CNN-based classification approach enables the identification of vesicles even from relatively complex samples. We demonstrate that the proposed artificial intelligence-assisted classification can further enhance the accuracy of the analysis close to the performance of manual examination in vesicle selection and vesicle state determination analysis. CONCLUSIONS: We developed a MATLAB based software capable of efficiently analyzing confocal fluorescence image data of giant unilamellar vesicles. The program can automatically identify GUVs with desired morphology and perform intensity-based calculation and state decision for each vesicle. We expect our method of CNN implementation can be expanded and applied to many similar problems in image data analysis.",
+  "abstract_zh": "背景：在生物化学科学中，荧光图像分析通常涉及识别待分析样本及从强度轨迹中计算所需信息的复杂任务。分析巨型单层囊泡（GUVs）便是其中之一。研究人员需要识别众多囊泡，以统计分子相互作用程度或膜上分子组织状态。此分析过程复杂，需研究人员仔细手动检查，因此自动化分析能显著提升其效率与可靠性。结果：我们开发了一种基于整个三维z轴堆叠图像的卷积神经网络（CNN）辅助智能分析程序。该程序能识别具有所需形态的囊泡并自动分析数据，可执行膜上蛋白质结合分析或域相分离状态判定分析。我们还展示了该方法可轻松应用于类似问题，如相分离蛋白液滴的强度分析。基于CNN的分类方法能从相对复杂的样本中识别囊泡。我们证明，所提出的人工智能辅助分类能进一步提高分析准确性，接近囊泡选择和囊泡状态判定分析中手动检查的性能。结论：我们开发了一款基于MATLAB的软件，能高效分析巨型单层囊泡的共聚焦荧光图像数据。该程序能自动识别具有所需形态的GUVs，并对每个囊泡进行基于强度的计算和状态判定。我们期望我们的CNN实现方法能扩展并应用于图像数据分析中的许多类似问题。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35062867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35062867/",
+  "paper_page_path": "papers/pubmed/35062867/index.html"
+}

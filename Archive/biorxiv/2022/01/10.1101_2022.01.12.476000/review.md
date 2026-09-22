@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, concluding remarks) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methodology, and evidence presented in the provided text. No assessment of formatting, grammar, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors present a hybrid Monte Carlo/Molecular Dynamics (hcbMC/MD) simulation method with a likelihood-based selection (LS) scheme to predict the disassembly order of heteromeric protein complexes. They report high success rates (0.90–1.0) for four tetrameric complexes, consistent with mass spectrometry (MS) and structural bioinformatics data, and claim the method is a general-purpose, complementary tool for proteomics research.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results and Discussion, Concluding Remarks. Tables 1–7 and Figures 1–9 are referenced but not fully visible. Supporting Information (Figures S1–S10, Tables S1–S4) is referenced but not provided.
+- **Missing materials affecting confidence** Full Methods sections (SI-1 to SI-5), all Tables (1–7) and Figures (1–9) with data, Supporting Information (Figures S1–S10, Tables S1–S4), and details of the likelihood function derivation and parameter choices. These are critical for verifying the methodology and results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biophysics: predicting disassembly pathways of heteromeric protein complexes. The proposed LS scheme is a reasonable extension of prior work on homomeric complexes. However, the evidence provided is insufficient to fully evaluate the claims. Key methodological details, quantitative results, and validation data are missing or only partially described. The success rates are reported but not substantiated with error bars, statistical tests, or comparisons to alternative methods beyond the RS scheme. The claim of general applicability is not fully supported by the limited number of systems tested and the narrow focus on salt-bridge-based selection.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein complex assembly and disassembly. Researchers using MS or docking simulations to infer subcomplex populations may find the method complementary. The approach could interest those developing enhanced sampling or free energy calculation methods for biomolecular systems.
+- **Major strengths** The problem is well-motivated and the extension from homomeric to heteromeric complexes is a logical step. The LS scheme is a novel, physically motivated idea based on salt-bridge counts. The authors demonstrate robustness of the LS scheme across different Δd ranges, which is a practical advantage. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "highly reliable predictions of the disassembly orders with the success rate over 0.9" for tryptophan synthase and similar rates for other complexes.
+  - **Evidence pointer** Results and Discussion, Table 3, Table 6; location not provided for specific data points.
+  - **Concern** The success rates are reported as point estimates (e.g., 0.90, 0.95, 1.0) without confidence intervals, standard deviations, or details on how success is defined (e.g., exact match to MS pathway vs. partial agreement). The Bayesian credible interval is mentioned but not shown. Without these, the statistical significance of the rates cannot be assessed.
+  - **Why it matters** The core claim of the paper is that the LS scheme achieves high success rates. If the rates are not statistically robust or the success criteria are ambiguous, the conclusion is not established.
+  - **Resolution test** Provide the Bayesian credible intervals for all reported success rates, define the success criteria explicitly, and show the distribution of outcomes across the 20 simulations for each system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The LS scheme is described as selecting a subunit pair based on the average number of salt bridges, with a likelihood function (eqn. 7). The authors state it works "without a priori knowledge of MS and structural bioinformatics studies."
+  - **Evidence pointer** Materials and Methods, "Hybrid configuration bias MC/MD simulation scheme"; location not provided for eqn. 7.
+  - **Concern** The likelihood function is not fully defined. The text mentions eqn. 7 but does not provide the explicit formula, the rationale for the coefficient l = 1 kcal/mol, or how the averaging over M snapshots is performed. The claim of "no a priori knowledge" is questionable because the choice of salt-bridge count as the selection criterion is itself informed by prior MS observations (as cited in the Introduction).
+  - **Why it matters** The method's novelty and general applicability depend on the likelihood function's design. Without a clear definition, the method cannot be reproduced or evaluated.
+  - **Resolution test** Provide the full likelihood function, explain the choice of l, and discuss how the selection criterion could be generalized to complexes where salt bridges are not the dominant interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim the hcbMC/MD approach is a "general purpose methodology" and a "third methodology in the proteomics research field."
+  - **Evidence pointer** Concluding Remarks; location not provided.
+  - **Concern** The general applicability is not established. Only four tetrameric complexes are tested, all with similar α2β2 stoichiometry. The method's performance on complexes with different stoichiometries, interaction types, or larger assemblies is unknown. The authors acknowledge this limitation in the final paragraph but still make a strong general claim.
+  - **Why it matters** Overstating the method's scope could mislead readers and limit the impact of the work.
+  - **Resolution test** Either temper the general claim or provide additional tests on diverse complexes (e.g., different stoichiometries, non-salt-bridge-dominated interfaces).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the RS scheme gives a success rate of 0.85 for tryptophan synthase, which is "unexpected" and "opposite to intuition."
+  - **Evidence pointer** Results and Discussion, "Likelihood-based selection stably generates MS-predicted subcomplex population"; location not provided.
+  - **Concern** The explanation for the RS scheme's high success rate is speculative. The authors attribute it to the robustness of ββ contacts, but this is not directly tested. A more rigorous analysis (e.g., comparing contact maps, free energy barriers) would strengthen the argument.
+  - **Why it matters** The comparison between LS and RS is central to demonstrating the LS scheme's advantage. If the RS scheme also performs well, the added value of LS is less clear.
+  - **Resolution test** Provide quantitative analysis of contact robustness (e.g., contact lifetimes, energy barriers) for the ββ vs. αβ interfaces to support the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction; location not provided.
+  - **Issue** The phrase "Subcompelx formations" (typo) and the dense citation style may hinder readability.
+  - **Required correction** Fix the typo and consider expanding the explanation of MS and docking limitations for a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Setup of heteromeic tetramer systems"
+  - **Evidence pointer** Materials and Methods; location not provided.
+  - **Issue** The choice of protonation states (all His as Nε, all Asp/Glu deprotonated) is stated without justification. This could affect salt-bridge counts.
+  - **Required correction** Justify the protonation state choices or discuss their potential impact on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, "The hybrid MC/MD approach can reliably predict disassembly processes"
+  - **Evidence pointer** Results and Discussion; location not provided.
+  - **Issue** The text mentions "representative configuration" in Figure 3 but does not describe what is shown or how it supports the success rate claim.
+  - **Required correction** Add a brief description of the figure content and its relevance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Concluding Remarks
+  - **Evidence pointer** Concluding Remarks; location not provided.
+  - **Issue** The claim that the method provides "a complete set of atomic coordinates for multimeric protein complex systems at any of intermediate states" is not demonstrated. The paper only shows disassembly order, not full structural ensembles.
+  - **Required correction** Clarify that the method provides trajectories, not necessarily complete ensembles, and temper the claim accordingly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness of success rates), R1-M2 (incomplete definition of likelihood function), R1-M3 (overstated general applicability). These are blocking because they directly affect the validity and reproducibility of the core claims.
+- **Assessment against Nature-style criteria** Originality: The LS scheme is a novel contribution, but its novelty is partially undermined by the lack of a clear definition and the reliance on prior MS knowledge. Scientific importance: The problem is important, but the limited scope of validation reduces the potential impact. Interdisciplinary readership: The work is relevant to biophysics, structural biology, and proteomics, but the technical detail may limit broader appeal. Technical soundness: Not fully established due to missing methodological details and statistical analysis. Readability for nonspecialists: The writing is generally clear, but some sections are dense and contain typos.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the manuscript requires substantial revisions to provide complete methodological details, robust statistical analysis, and a more measured claim of general applicability. Currently, the case is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The success rate of 0.90 for tryptophan synthase is reported without confidence intervals or clear success criteria (R1-M1).
+- The likelihood function (eqn. 7) is referenced but not defined, making the method irreproducible (R1-M2).
+- The claim of "general purpose methodology" is unsupported by the limited test set (R1-M3).
+- The mechanism proposed for the RS scheme's high success rate is speculative and not directly tested (R1-M4).
+- The claim of providing "a complete set of atomic coordinates at any intermediate state" is not demonstrated (R1-m4).
+- The protonation state choices are stated without justification, potentially affecting salt-bridge counts (R1-m2).

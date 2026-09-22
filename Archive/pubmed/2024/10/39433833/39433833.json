@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "39433833",
+    "doi": "10.1038/s41598-024-75700-x",
+    "title": "iDLB-Pred: identification of disordered lipid binding residues in protein sequences using convolutional neural network."
+  },
+  "content": {
+    "abstract": "Proteins, nucleic acids, and lipids all interact with intrinsically disordered protein areas. Lipid-binding regions are involved in a variety of biological processes as well as a number of human illnesses. The expanding body of experimental evidence for these interactions and the dearth of techniques to anticipate them from the protein sequence serve as driving forces. Although large-scale laboratory techniques are considered to be essential for equipment for studying binding residues, they are time consuming and costly, making it challenging for researchers to predict lipid binding residues. As a result, computational techniques are being looked at as a different strategy to overcome this difficulty. To predict disordered lipid-binding residues (DLBRs), we proposed iDLB-Pred predictor utilizing benchmark dataset to compute feature through extraction techniques to identify relevant patterns and information. Various classification techniques, including deep learning methods such as Convolutional Neural Networks (CNNs), Deep Neural Networks (DNNs), Multilayer Perceptrons (MLPs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Gated Recurrent Units (GRUs), were employed for model training. The proposed model, iDLB-Pred, was rigorously validated using metrics such as accuracy, sensitivity, specificity, and Matthew's correlation coefficient. The results demonstrate the predictor's exceptional performance, achieving accuracy rates of 81% on an independent dataset and 86% in 10-fold cross-validation.",
+    "keywords": [
+      "Convolutional neural network",
+      "Disordered lipid binding residues",
+      "Feature description",
+      "Intrinsic disordered regions",
+      "Ten-fold cross validation"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Lipids/chemistry",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Humans",
+      "Protein Binding",
+      "Deep Learning",
+      "Binding Sites",
+      "Databases, Protein",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malebary, Sharaf J",
+        "Alromema, Nashwan"
+      ],
+      "short_names": [
+        "Malebary SJ",
+        "Alromema N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Information Technology, Faculty of Computing and Information Technology-Rabigh, King Abdulaziz University, P.O. Box 344, 21911, Rabigh, Saudi Arabia. smalebary@kau.edu.sa.",
+        "Department of Computer Science, Faculty of Computing and Information Technology-Rabigh, King Abdulaziz University, P.O. Box 344, 21911, Rabigh, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malebary, Sharaf J",
+        "short_name": "Malebary SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, Faculty of Computing and Information Technology-Rabigh, King Abdulaziz University, P.O. Box 344, 21911, Rabigh, Saudi Arabia. smalebary@kau.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Alromema, Nashwan",
+        "short_name": "Alromema N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Faculty of Computing and Information Technology-Rabigh, King Abdulaziz University, P.O. Box 344, 21911, Rabigh, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Oct 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/22 00:21",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42313607",
+      "40136817"
+    ],
+    "refs": [
+      "38384719",
+      "37437648",
+      "36320563",
+      "35817838",
+      "35718969",
+      "34571005",
+      "33875885",
+      "33214770",
+      "31870849",
+      "31442707",
+      "31064841",
+      "30822398",
+      "30529532",
+      "30081240",
+      "29860432",
+      "29360926",
+      "28818512",
+      "28601983",
+      "27911791",
+      "27899601",
+      "27174932",
+      "24606139",
+      "24109555",
+      "22689782",
+      "20053844",
+      "19717576",
+      "18055555",
+      "11922668",
+      "9443818"
+    ],
+    "similar": [
+      "39433833",
+      "32535960",
+      "30866736",
+      "30419785",
+      "34487138",
+      "34830151",
+      "32019410",
+      "34905768",
+      "38871095",
+      "32173600",
+      "33291838",
+      "34992646",
+      "38267081",
+      "30135358",
+      "30866734",
+      "30301243",
+      "30395465",
+      "29970003",
+      "30808287",
+      "38781245",
+      "38812466",
+      "33875885",
+      "35693256",
+      "33971164",
+      "24093637",
+      "35469832",
+      "33477866",
+      "38830995",
+      "38866950",
+      "19091029",
+      "32901090",
+      "29042212",
+      "37883249",
+      "34073774",
+      "38381315",
+      "26555596",
+      "20658312",
+      "29404850",
+      "39051530",
+      "31251191",
+      "25391399",
+      "37402073",
+      "35264081",
+      "39223474",
+      "37674132",
+      "28394890",
+      "35605495",
+      "27787828",
+      "26307973",
+      "38258521",
+      "22208280",
+      "30717652",
+      "28934129",
+      "36328750",
+      "34131696",
+      "30071670",
+      "30323214",
+      "32949607",
+      "36458437",
+      "24668165",
+      "33588722",
+      "34996975",
+      "31513916",
+      "33267753",
+      "38943434",
+      "38643894",
+      "36366115",
+      "26297830",
+      "32102254",
+      "38615462",
+      "33417598",
+      "38316843",
+      "27115638",
+      "34601431",
+      "28369666",
+      "29297322",
+      "39168294",
+      "32298689",
+      "34626492",
+      "28011771",
+      "32599863",
+      "20100603",
+      "33919583",
+      "19038986",
+      "36653898",
+      "34880291",
+      "34864847",
+      "38986796",
+      "26275590",
+      "31208331",
+      "35325031",
+      "26198229",
+      "33334313",
+      "35947255",
+      "29601989",
+      "26230689",
+      "35761175",
+      "39066015",
+      "38679191",
+      "31362049"
+    ],
+    "review": [
+      "39433833",
+      "33291838"
+    ],
+    "pmc": [
+      "11494137"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-75700-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39433833/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

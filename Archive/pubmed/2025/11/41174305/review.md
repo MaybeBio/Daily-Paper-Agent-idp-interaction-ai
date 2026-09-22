@@ -1,0 +1,26 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors describe a methodology chapter summarizing a previously reported linear regression-based predictive model, IPApred, for predicting the effects of single-site mutations on the binding energetics of intrinsically disordered proteins (IDPs). The model incorporates residue-level structural information, experimentally derived mutational penalties, and amino acid physicochemical properties. The chapter covers data generation, feature selection, model training, usage protocol, validation, evaluation, limitations, and potential improvement strategies.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or detailed methods are provided
+- **Missing materials affecting confidence** Full chapter text, model equations, training and validation datasets, performance metrics, comparison with alternative methods, and any specific results or case studies
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and potentially useful methodological contribution in the form of a chapter describing IPApred, a predictive model for IDP binding energetics. The topic is relevant and timely given the growing interest in IDP biology and therapeutic targeting. However, the abstract provides limited technical detail and no quantitative evidence of model performance, making it impossible to assess the validity, generalizability, or practical utility of the described approach from the supplied material alone. The claims are plausible but currently not verifiable.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-protein interactions, computational biology, and peptide drug design would be interested. Those working on mutational scanning, protein engineering, and understanding disease-associated mutations in disordered regions would also find the framework relevant. The chapter format suggests a target audience of method-oriented biologists and computational scientists seeking practical protocols.
+- **Major strengths** The abstract addresses a genuine gap in the field, namely the limited availability of prediction methods tailored to IDP binding energetics. The proposed model leverages a combination of structural, experimental, and physicochemical features, which is a sensible integrative approach. The chapter format, with step-by-step protocols and discussion of limitations, is practical and likely to be useful to practitioners. The authors acknowledge current limitations and future challenges, which is commendable.
+- **Major Concerns** None identified from the supplied material, as the abstract does not contain sufficient detail to raise specific technical concerns. However, the absence of performance data and methodological specifics is a significant limitation for evaluation.
+- **Minor Comments** None identified from the supplied material.
+- **Technical failings that need to be addressed before the case is established** The abstract does not report any quantitative validation results, such as correlation coefficients, error metrics, or comparison with existing predictors. Without such evidence, the predictive utility of IPApred cannot be established. Additionally, the abstract does not clarify the scope of applicability, such as which types of IDPs or binding partners the model is expected to handle.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach appears to be an incremental extension of previously published work by the same group, as indicated by the reference to prior methodology. The novelty is not clearly articulated in the abstract.  
+  - Scientific importance: The topic is important, but the abstract does not demonstrate broader biological or translational impact beyond a methodological description.  
+  - Interdisciplinary readership: The work is likely to appeal to a specialized audience in computational biology and protein biophysics, but the abstract does not frame the findings in a way that would attract a broader interdisciplinary readership.  
+  - Technical soundness: Cannot be assessed from the abstract alone; no technical details or validation data are provided.  
+  - Readability for nonspecialists: The abstract is clearly written and accessible, with minimal jargon, which is a positive aspect.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful method, but the lack of quantitative results and technical detail prevents a supportive recommendation. A full assessment would require access to the complete chapter.
+
+## Risk / unsupported claims
+- The claim that IPApred provides a "useful framework" for predicting mutational effects in disordered proteins is unsupported by any performance data in the abstract.
+- The claim that the model improves understanding of related biological processes and disease mechanisms is speculative and not substantiated.
+- The generalizability of the model to IDPs beyond the CcdA system is not demonstrated or discussed in the abstract.

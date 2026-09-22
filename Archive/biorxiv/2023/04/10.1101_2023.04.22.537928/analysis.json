@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.22.537928",
+  "title": "Chaotic aging: Intrinsically disordered proteins in aging-related processes",
+  "authors": "Manyilov VD; Ilyinsky NS; Nesterov SV; Saqr BM; Dayhoff GW; Zinovev EV; Matrenok SS; Fonin AV; Kuznetsova IM; Turoverov KK; Ivanovich V; Uversky VN",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-25",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学分析揭示衰老相关蛋白中IDP/IDR的富集及其在PPI网络和LLPS中的角色，虽涉及无序蛋白与互作网络，但方法以数据库统计和GO分析为主，缺乏AI或物理模拟的机制建模深度。",
+  "abstract": "1. The development of aging is associated with the disruption of key cellular processes manifested as well-established hallmarks of aging. Intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) have no stable tertiary structure that provide them a power to be configurable hubs in signaling cascades and regulate many processes, potentially including those related to aging. There is a need to clarify the roles of IDPs/IDRs in aging. The dataset of 1624 aging-related proteins was collected from established aging databases and experimental studies. There is a noticeable presence of IDPs/IDRs, accounting for about 36% of the aging-related dataset, which is comparable to the disorder content of the whole human proteome (about 40%). A Gene Ontology analysis of the our Aging proteome reveals an abundance of IDPs/IDRs in one-third of aging-associated processes, especially in genome regulation. Signaling pathways associated with aging also contain IDPs/IDRs on different hierarchical levels. Protein-protein interaction network analysis showed that IDPs present in different clusters associated with different aging hallmarks. Protein cluster with IDPs enrichment and high liquid-liquid phase separation (LLPS) probability has “nuclear” localization and DNA-associated functions, related to aging hallmarks: genomic instability, telomere attrition, epigenetic alterations, stem cells exhaustion. Some IDPs related to aging with high LLPS propensity were identified as “dangerous” based on the prediction of their propensity to aggregation. Overall, our analyses indicate that IDPs/IDRs play significant roles in aging-associated processes, particularly in the regulation of DNA functioning. IDP aggregation, which can lead to loss-of-function and toxicity, could be critically harmful to the cell. A structure-based analysis of aging and the identification of proteins that are particularly susceptible to disturbances can enhance our understanding of the molecular mechanisms of aging and open up new avenues for slowing it down.",
+  "abstract_zh": "1. 衰老的发展与关键细胞过程的破坏相关，表现为公认的衰老标志。 intrinsically disordered proteins (IDPs) 和 intrinsically disordered regions (IDRs) 没有稳定的三级结构，这使它们能够成为信号级联中的可配置枢纽，并调控许多过程，可能包括与衰老相关的过程。有必要阐明IDPs/IDRs在衰老中的作用。从已建立的衰老数据库和实验研究中收集了1624个衰老相关蛋白的数据集。IDPs/IDRs的存在显著，约占衰老相关数据集的36%，这与整个人类蛋白质组的无序含量（约40%）相当。对我们衰老蛋白质组的Gene Ontology分析显示，在三分之一的衰老相关过程中，IDPs/IDRs丰富存在，尤其是在基因组调控中。与衰老相关的信号通路在不同层级水平上也包含IDPs/IDRs。蛋白质-蛋白质相互作用网络分析显示，IDPs存在于与不同衰老标志相关的不同簇中。具有IDPs富集和高液-液相分离 (liquid-liquid phase separation, LLPS) 概率的蛋白质簇具有“核”定位和DNA相关功能，与衰老标志相关：基因组不稳定、端粒磨损、表观遗传改变、干细胞耗竭。一些与衰老相关且具有高LLPS倾向的IDPs，根据其聚集倾向的预测，被识别为“危险的”。总体而言，我们的分析表明，IDPs/IDRs在衰老相关过程中发挥重要作用，特别是在DNA功能调控中。IDP聚集可能导致功能丧失和毒性，对细胞可能极为有害。基于结构的衰老分析以及识别特别易受干扰的蛋白质，可以增强我们对衰老分子机制的理解，并为减缓衰老开辟新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.22.537928",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.22.537928",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.22.537928/index.html"
+}

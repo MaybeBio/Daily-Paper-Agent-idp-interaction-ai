@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "39412184",
+    "doi": "10.1002/anie.202414847",
+    "title": "Selective Glycan Presentation in Liquid-Ordered or -Disordered Membrane Phases and its Effect on Lectin Binding."
+  },
+  "content": {
+    "abstract": "Glycan-protein interactions play a key role in various biological processes from fertilization to infections. Many of these interactions take place at the glycocalyx-a heavily glycosylated layer at the cell surface. Despite its significance, studying the glycocalyx remains challenging due to its complex, dynamic, and heterogeneous nature. This study introduces a glycocalyx model allowing for the first time to control spatial organization and heterogeneity of the glycan moieties. Glycan-mimetics with lipid-moieties that partition into either liquid-ordered (Lo, lipid rafts) or liquid-disordered (Ld) phases of giant unilamellar vesicles (GUVs), which serve as simplified cell membrane models mimicking lipid rafts, are developed. This phase-specific allocation allows controlled placement of glycan motifs in distinct membrane environments, creating heteromultivalent systems that replicate the natural glycocalyx's complexity. We show that phase localization of glycan mimetics significantly influences recruitment of protein receptors to the membrane. Glycan-conjugates in the ordered phase demonstrate enhanced lectin binding, supporting the idea that raft-like domains facilitate stronger receptor interactions. This study provides a platform for systematically investigating spatial and dynamic presentation of glycans in biological systems and presents the first experimental evidence that glycan accumulation in lipid rafts enhances receptor binding affinity, offering deeper insights into the glycocalyx's functional mechanisms.",
+    "keywords": [
+      "glycocalyx",
+      "glycoconjugates",
+      "phase separation",
+      "solid-phase synthesis",
+      "vesicles"
+    ],
+    "mesh_terms": [
+      "*Polysaccharides/chemistry/metabolism",
+      "*Lectins/chemistry/metabolism",
+      "Glycocalyx/metabolism/chemistry",
+      "Unilamellar Liposomes/chemistry/metabolism",
+      "Protein Binding",
+      "Cell Membrane/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blawitzki, Luca-Cesare",
+        "Monzel, Cornelia",
+        "Schmidt, Stephan",
+        "Hartmann, Laura"
+      ],
+      "short_names": [
+        "Blawitzki LC",
+        "Monzel C",
+        "Schmidt S",
+        "Hartmann L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0115-6405"
+      ],
+      "affiliations": [
+        "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Strasse 31, 79104, Freiburg i.Br., Germany.",
+        "Department for Organic and Macromolecular Chemistry, Heinrich Heine University Duesseldorf, Universitatsstrasse 1, 40225, Dusseldorf, Germany.",
+        "Department for Experimental Medical Physics, Heinrich Heine University Duesseldorf, Universitatsstrasse 1, 40225, Dusseldorf, Germany.",
+        "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Strasse 31, 79104, Freiburg i.Br., Germany.",
+        "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Strasse 31, 79104, Freiburg i.Br., Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blawitzki, Luca-Cesare",
+        "short_name": "Blawitzki LC",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Straße 31, 79104, Freiburg i.Br., Germany.",
+          "Department for Organic and Macromolecular Chemistry, Heinrich Heine University Duesseldorf, Universitätsstraße 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Monzel, Cornelia",
+        "short_name": "Monzel C",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Experimental Medical Physics, Heinrich Heine University Duesseldorf, Universitätsstraße 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Stephan",
+        "short_name": "Schmidt S",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Straße 31, 79104, Freiburg i.Br., Germany."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Laura",
+        "short_name": "Hartmann L",
+        "identifiers": [
+          "0000-0003-0115-6405"
+        ],
+        "affiliations": [
+          "Department for Macromolecular Chemistry, University of Freiburg, Stefan-Meier-Straße 31, 79104, Freiburg i.Br., Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2025 Jan 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/16 12:24",
+    "fetched_at": "2026-09-22 01:58:52"
+  },
+  "links": {
+    "cites": [
+      "41144842",
+      "40867090"
+    ],
+    "refs": [],
+    "similar": [
+      "39412184",
+      "39122664",
+      "22450237",
+      "29927116",
+      "27576579",
+      "29550290",
+      "34583992",
+      "39454580",
+      "27168414",
+      "25772372",
+      "28513898",
+      "32432336",
+      "20025847",
+      "22026409",
+      "35129984",
+      "32770501",
+      "25720532",
+      "34613816",
+      "38064646",
+      "39588609",
+      "31266083",
+      "26916883",
+      "35753393",
+      "30824941",
+      "29386533",
+      "32916572",
+      "25710589",
+      "25915200",
+      "36461188",
+      "37214724",
+      "38771870",
+      "17764993",
+      "19348752",
+      "34862760",
+      "22899543",
+      "17936718",
+      "21081073",
+      "27043009",
+      "28751750",
+      "38785390",
+      "28274844",
+      "38932459",
+      "22831167",
+      "24896120",
+      "39979385",
+      "39905732",
+      "37184283",
+      "25992730",
+      "38171000",
+      "23711826",
+      "32502354",
+      "22967056",
+      "38963258",
+      "34613971",
+      "25135639",
+      "31814256",
+      "19027712",
+      "39415074",
+      "24695858",
+      "28801104",
+      "25117226",
+      "21322640",
+      "24835016",
+      "30842879",
+      "28947169",
+      "37830569",
+      "19805351",
+      "24352787",
+      "29730795",
+      "18502811",
+      "34972930",
+      "34224704",
+      "23805743",
+      "20816484",
+      "27285399",
+      "26417657",
+      "28906588",
+      "26525664",
+      "39714433",
+      "31087814",
+      "19703410",
+      "38720429",
+      "33619111",
+      "23376656",
+      "26859249",
+      "28988842",
+      "27236198",
+      "28703789",
+      "12851796",
+      "38582526",
+      "15226320",
+      "20643067",
+      "23956151",
+      "32297503",
+      "20347719",
+      "30725466",
+      "23399549",
+      "30529459",
+      "33784430",
+      "25531972"
+    ],
+    "review": [
+      "39412184",
+      "29550290",
+      "32770501",
+      "34613816",
+      "31266083",
+      "26916883",
+      "17764993",
+      "22831167",
+      "39415074",
+      "30842879",
+      "29730795",
+      "20347719",
+      "30725466"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/anie.202414847",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

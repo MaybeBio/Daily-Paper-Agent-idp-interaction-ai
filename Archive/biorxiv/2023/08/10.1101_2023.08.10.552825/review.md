@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors introduce a concept termed Network Shape Intelligence (NSI), implemented via network automata rules that minimize external links in local communities, inspired by brain network science. They claim that NSI, using only local network information and without training, outperforms AlphaFold2-based methods in vanilla protein interaction prediction. They further report that AlphaFold2 mispredictions predominantly involve proteins with higher probability of intrinsically disordered regions, and suggest future AlphaFold developments could integrate NSI principles.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, methods description, datasets, benchmark definitions, statistical analyses, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a provocative and potentially interesting claim that a training-free, topology-based method outperforms AlphaFold2 in a specific protein interaction prediction task. However, the evidence base is limited to the abstract, which lacks quantitative details, methodological specifics, and benchmark definitions. The core comparative claim cannot be evaluated from the supplied material. The conceptual framing of "intelligence" is vague and not operationally defined. The finding regarding intrinsically disordered regions is intriguing but unsupported by data in the abstract. The manuscript may have merit, but the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists, network scientists, and researchers in protein interaction prediction would be interested. The claim that a simple, training-free network method can outperform a state-of-the-art deep learning approach challenges current assumptions and could have practical implications for large-scale interactome studies where computational cost is a concern.
+- **Major strengths** The abstract addresses a timely and important question about the relative value of topological versus structural information in protein interaction prediction. The proposed method, if validated, would offer a computationally efficient alternative to AlphaFold2-based approaches. The observation about intrinsically disordered regions provides a potential biological explanation for AlphaFold2's limitations, which is conceptually interesting.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that NSI outperforms AlphaFold2 intelligence in vanilla protein interaction prediction  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative results, no performance metrics, no dataset descriptions, and no statistical significance tests to support the comparative claim.  
+  - **Why it matters** Without numerical evidence and benchmark details, the central claim is unverifiable and cannot be assessed for validity or generalizability.  
+  - **Resolution test** Provide performance metrics (e.g., precision, recall, AUC) on defined benchmark datasets, with statistical comparisons against AlphaFold2-based methods, in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** NSI is modelled via network automata rules which minimize external links in local communities according to a brain-inspired principle  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the network automata rules, the definition of local communities, the nature of the input network, or how "vanilla" protein interaction prediction is defined.  
+  - **Why it matters** Reproducibility and scientific evaluation require a clear specification of the method and the prediction task.  
+  - **Resolution test** Provide a detailed methods section with formal definitions, algorithmic steps, and a precise description of the prediction task and input data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Conceptual rigor  
+  - **Claim pointer** The introduction of a new concept of intelligence termed Network Shape Intelligence (NSI)  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The term "intelligence" is used without an operational definition, and its relationship to established concepts in network science or machine learning is unclear.  
+  - **Why it matters** The conceptual framing may be misleading or overclaimed, and it does not add scientific clarity to the methodological contribution.  
+  - **Resolution test** Define NSI operationally in terms of specific algorithmic properties and avoid anthropomorphic or ambiguous terminology unless precisely defined.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological interpretation  
+  - **Claim pointer** The set of interactions mispredicted by AlphaFold2 predominantly consists of proteins whose amino acids exhibit higher probability of being associated with intrinsically disordered regions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No data, statistical analysis, or definition of "predominantly" is provided to support this claim.  
+  - **Why it matters** This is a potentially important biological insight, but without evidence it remains speculative.  
+  - **Resolution test** Provide quantitative analysis, including statistical tests, comparing disorder propensity in mispredicted versus correctly predicted interactions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "vanilla protein interaction prediction" is not defined.  
+  - **Required correction** Define what constitutes "vanilla" prediction, including the input features and the prediction target.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract is dense and mixes conceptual claims with technical details without clear transitions.  
+  - **Required correction** Restructure the abstract to separate the conceptual introduction, the method summary, the key results, and the implications.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** References to prior work  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not cite or contextualize prior network-based methods or AlphaFold2-based interaction prediction approaches.  
+  - **Required correction** Add brief contextual statements and citations in the full manuscript to position the work within the existing literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central comparative claim and the method description are not supported by the supplied material. R1-M3 and R1-M4, while not blocking, require substantial clarification and evidence in the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of NSI and the specific claim of outperforming AlphaFold2 are potentially original, but the abstract does not demonstrate novelty beyond existing network-based methods.  
+  - Scientific importance: If validated, the results could be important for the field of protein interaction prediction, but the current evidence is insufficient to establish importance.  
+  - Interdisciplinary readership: The topic bridges network science, machine learning, and structural biology, which could appeal to a broad audience, but the abstract is not accessible to nonspecialists due to undefined terms.  
+  - Technical soundness: Cannot be assessed from the abstract; no methodological or statistical details are provided.  
+  - Readability for nonspecialists: The abstract uses jargon without definition, making it difficult for a general scientific audience to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are interesting and potentially significant, but the abstract alone does not provide sufficient information to evaluate the method or the results. A full manuscript with detailed methods, quantitative benchmarks, and statistical analyses is required before a supportive assessment can be considered.
+
+## Risk / unsupported claims
+- The claim that NSI outperforms AlphaFold2 in vanilla protein interaction prediction is unsupported by any quantitative data in the abstract.
+- The claim that AlphaFold2 mispredictions predominantly involve intrinsically disordered regions is unsupported by any statistical evidence.
+- The conceptual claim of introducing a new "intelligence" is not operationally defined and cannot be evaluated.
+- The generalizability of the method to different interaction types or datasets is not addressed and cannot be assessed.

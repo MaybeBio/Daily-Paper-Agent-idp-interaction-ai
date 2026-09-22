@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.17.738698",
+  "title": "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function",
+  "authors": "Yuchang Luo; Srivarsha Rajshekar; Harish Kumar; James M. Berger; Gary H. Karpen; Michael R. Botchan",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-20",
+  "window": {
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究果蝇中Orc1的IDR与HP1a的多价互作对异染色质和核仁结构功能的调控，对象为IDR介导的PPI且涉及多价结合机制，但方法为实验遗传学，无AI或物理模拟建模，故评7分。",
+  "abstract": "The Origin Recognition Complex (ORC) is known for initiating DNA replication in eukaryotic cells, but increasing evidence suggests that ORC has multiple functions. Here we show that the organization and function of two major nuclear components, heterochromatin and the nucleolus, depend on multivalent interactions between Orc1 and Heterochromatin Protein 1a (HP1a) in Drosophila melanogaster . Specifically, binding requires two short motifs (R1 and R2) in the intrinsically disordered region (IDR) of Orc1, and two motifs (HGM and CTE) located in the N- and C-terminal regions of HP1a. Pairing of these four motifs promotes ORC–HP1 interactions, which also requires HP1 dimerization. Disrupting ORC–HP1a interactions by mutating the R1/R2 motifs causes defects in heterochromatin functions, specifically suppression of Position-Effect Variegation (PEV), ribosomal DNA (rDNA) decondensation, increased rRNA transcription, and nucleolar expansion, without global loss of H3K9me2 epigenetic modifications. Our findings indicate that ORC acts as a structural regulator that organizes heterochromatic regions and promotes proper genome regulation through multivalent interactions with HP1 and chromatin.",
+  "abstract_zh": "起源识别复合体（Origin Recognition Complex, ORC）已知在真核细胞中启动DNA复制，但越来越多的证据表明ORC具有多种功能。在此，我们展示果蝇（Drosophila melanogaster）中两个主要核组分——异染色质和核仁——的组织与功能依赖于Orc1与异染色质蛋白1a（Heterochromatin Protein 1a, HP1a）之间的多价相互作用。具体而言，结合需要Orc1内在无序区（intrinsically disordered region, IDR）中的两个短基序（R1和R2），以及位于HP1a N端和C端区域的两个基序（HGM和CTE）。这四个基序的配对促进ORC–HP1相互作用，该过程还需HP1二聚化。通过突变R1/R2基序破坏ORC–HP1a相互作用，会导致异染色质功能缺陷，具体表现为位置效应花斑（Position-Effect Variegation, PEV）抑制受损、核糖体DNA（ribosomal DNA, rDNA）去浓缩、rRNA转录增加以及核仁扩张，而不会导致H3K9me2表观遗传修饰的全局性丢失。我们的发现表明，ORC作为结构调控因子，通过与HP1和染色质的多价相互作用组织异染色质区域，并促进正确的基因组调控。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738698",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.17.738698",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.17.738698/index.html"
+}

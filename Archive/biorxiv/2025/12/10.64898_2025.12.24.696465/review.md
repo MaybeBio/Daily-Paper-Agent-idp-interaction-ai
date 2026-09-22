@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that coupling enzymatic activity to biomolecular condensates in a cell-free expression system drives emergent self-regulation through droplet formation and dissolution. They report that in-vitro mRNA transcription induces phase separation with a mutant G3BP1 protein, that condensates reduce rate constants and slow mRNA degradation, leading to higher mRNA levels and prolonged mRNA lifetime, and that under sustained or oscillatory resource supply, condensates elevate mean mRNA levels and buffer deviations from the mean relative to a non-condensate scenario. They conclude that condensates act as active regulators of biochemical flux.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results were supplied
+- **Missing materials affecting confidence** Full manuscript, methods description, kinetic model equations and parameter values, experimental protocols, all figures and tables, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that enzymatic activity and phase separation can be mutually coupled to produce feedback regulation. The idea that condensates modulate reaction kinetics and thereby alter mRNA levels is plausible and potentially of broad interest. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental system, the validity of the kinetic model, or the robustness of the reported effects. Several claims are stated without quantitative support, and the relationship between the experimental observations and the model predictions is not made explicit. The work may be of interest to researchers in phase separation, synthetic biology, and systems biology, but the evidence base provided here is too limited to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation, particularly those interested in the functional consequences of compartmentalization on enzymatic reactions. Synthetic biologists working on cell-free expression systems and minimal reconstitution approaches would also find relevance. Additionally, the systems biology community interested in feedback and cross-regulation between physical organization and biochemical networks may be engaged by the proposed mechanism.
+- **Major strengths** The conceptual framing is clear and addresses a timely question in the phase separation field. The combination of experimental and modeling approaches is appropriate for the question posed. The claim that condensates act as active regulators rather than passive organizers is a meaningful conceptual contribution if supported by the data.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that in-vitro mRNA transcription induces phase separation with mutant G3BP1, forming condensates that modulate transcription and degradation kinetics.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that transcription induces phase separation and that condensates modulate kinetics, but no experimental data are shown to support these causal relationships. It is unclear whether the observed effects are directly attributable to condensate formation or could arise from other factors such as altered solution conditions, protein concentration effects, or nonspecific interactions.
+  - **Why it matters** The central thesis of the paper depends on establishing a causal link between condensate formation and kinetic modulation. Without evidence that the effect is specific to phase separation, the conclusion that condensates are active regulators is not supported.
+  - **Resolution test** Provide experimental data showing that condensate formation precedes and correlates with changes in transcription and degradation kinetics, and include control experiments where phase separation is prevented or disrupted to demonstrate loss of the kinetic effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The kinetic model shows that phase separation reduces rate constants, with slower degradation within condensates than in the mRNA-protein-poor phase.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The model is described as showing reduced rate constants and slower degradation within condensates, but no information is provided on how the model was parameterized, whether the rate constants were measured independently or fitted, or how the model was validated against experimental data. The abstract does not state whether the model predictions were quantitatively compared to the experimental observations.
+  - **Why it matters** A kinetic model is only useful if it is constrained by and validated against experimental data. Without this information, the model results could be an artifact of parameter choices rather than a reflection of the underlying biology.
+  - **Resolution test** Describe the model equations, parameter estimation procedure, and goodness-of-fit metrics. Show a quantitative comparison between model predictions and experimental measurements, including uncertainty bounds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that condensates elevate mean mRNA levels and buffer deviations from the mean compared to the non-condensate scenario under sustained and oscillatory resource supply.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative outcomes (elevated mean levels, buffered deviations) without any numerical values, effect sizes, or statistical measures. It is impossible to assess the magnitude or significance of the reported effects.
+  - **Why it matters** The strength of the claim depends on the size of the effect and its consistency across conditions. Without quantitative reporting, the biological relevance of the buffering effect cannot be evaluated.
+  - **Resolution test** Report mean mRNA levels, standard deviations or confidence intervals, and statistical comparisons between condensate and non-condensate conditions for both sustained and oscillatory supply regimes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mRNA-protein-poor phase" is used without definition. It is unclear whether this refers to the dilute phase outside condensates or a specific experimental condition.
+  - **Required correction** Define the term explicitly when first used, and clarify the relationship between the "mRNA-protein-poor phase" and the bulk solution in the experimental system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental system description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "a minimal, cell-free expression system" and "mutant G3BP1" but does not specify the source of the components, the mutation introduced, or the reaction conditions.
+  - **Required correction** Provide sufficient detail in the methods section to allow replication, including the specific G3BP1 mutation, the expression system components, and buffer conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract concludes with a "general mechanism" but the experiments appear to use a single protein and a single enzymatic reaction. The generality of the mechanism is asserted rather than demonstrated.
+  - **Required correction** Either temper the claim of generality or provide evidence that the mechanism operates with multiple proteins or enzymatic systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The causal link between phase separation and kinetic modulation is not established, the model is not shown to be validated, and quantitative support for the central claims is absent.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of coupling enzymatic activity to phase separation as a feedback mechanism is not entirely new, but the specific combination of a cell-free system with kinetic modeling may offer a fresh perspective. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: If the claims are substantiated, the work could contribute to understanding how condensates regulate biochemical networks. The importance is moderate to high, depending on the robustness of the evidence.
+  - Interdisciplinary readership: The topic bridges biophysics, biochemistry, and synthetic biology, and could appeal to a broad readership if presented accessibly.
+  - Technical soundness: Cannot be evaluated from the abstract. The lack of methodological detail and quantitative results prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is written in a reasonably accessible style, though some terms (e.g., "mRNA-protein-poor phase") could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient experimental or modeling detail to support the central claims. A full manuscript with methods, data, and model validation would be required to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim that phase separation reduces rate constants is unsupported without model details or experimental measurements.
+- The claim that condensates buffer deviations from the mean is unsupported without quantitative data.
+- The claim of a "general mechanism" is unsupported given the limited scope of the experimental system described.
+- The causal relationship between transcription-induced phase separation and kinetic modulation is not established from the abstract.
+- The prolonged mRNA lifetime claim is stated without numerical values or comparison to a control condition.

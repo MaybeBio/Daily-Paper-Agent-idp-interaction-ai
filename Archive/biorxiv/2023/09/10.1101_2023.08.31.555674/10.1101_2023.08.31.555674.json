@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.31.555674",
+  "title": "New structural features of the APC/C from high-resolution cryo-EM structures of apo-APC/C and APC/C CDH1:EMI1 complexes",
+  "doi": "10.1101/2023.08.31.555674",
+  "abstract": "The multi-subunit anaphase-promoting complex/cyclosome (APC/C) is a master regulator of cell division. It controls progression through the cell cycle by timely marking mitotic cyclins and other cell cycle regulatory proteins for degradation. The APC/C itself is regulated by the sequential action of its coactivator subunits CDC20 and CDH1, post-translational modifications, and its inhibitory binding partners EMI1 and the mitotic checkpoint complex (MCC). In this study, we took advantage of the latest developments in cryo-electron microscopy (cryo-EM) to determine the structures of human APC/C CDH1:EMI1 and apo-APC/C at 2.9 Å and 3.2 Å resolution, respectively, providing novel insights into the regulation of APC/C activity. The high-resolution maps allowed the unambiguous assignment of a previously unassigned α-helix to the N-terminus of CDH1 (CDH1 α1 ) in the APC/C CDH1:EMI1 ternary complex. We also identified a novel zinc-binding module in APC2 that confers structural stability to APC2, and we confirmed the presence of zinc ions experimentally. Finally, due to the higher resolution and well defined density of these maps, we were able to build, aided by AlphaFold predictions, several intrinsically disordered regions in different APC/C subunits that likely play a role in proper APC/C assembly and regulation of its activity.",
+  "authors": [
+    "Höfler A",
+    "Yu J",
+    "Yang J",
+    "Zhang Z",
+    "Chang L",
+    "McLaughlin SH",
+    "Grime GW",
+    "Garman EF",
+    "Boland A",
+    "Barford D"
+  ],
+  "published_date": "2023-09-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.31.555674",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.31.555674.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR717855",
+    "raw_record": {
+      "id": "PPR717855",
+      "source": "PPR",
+      "doi": "10.1101/2023.08.31.555674",
+      "title": "New structural features of the APC/C from high-resolution cryo-EM structures of apo-APC/C and APC/C  <sup>CDH1:EMI1</sup>  complexes",
+      "authorString": "Höfler A, Yu J, Yang J, Zhang Z, Chang L, McLaughlin SH, Grime GW, Garman EF, Boland A, Barford D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Höfler A",
+            "lastName": "Höfler",
+            "firstName": "Anna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Yu J",
+            "lastName": "Yu",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5642-3991"
+            }
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8984-4503"
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Ziguo",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7268-9631"
+            }
+          },
+          {
+            "fullName": "Chang L",
+            "lastName": "Chang",
+            "firstName": "Leifu",
+            "initials": "L"
+          },
+          {
+            "fullName": "McLaughlin SH",
+            "lastName": "McLaughlin",
+            "firstName": "Stephen",
+            "initials": "SH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9135-6253"
+            }
+          },
+          {
+            "fullName": "Grime GW",
+            "lastName": "Grime",
+            "firstName": "Geoffrey",
+            "initials": "GW"
+          },
+          {
+            "fullName": "Garman EF",
+            "lastName": "Garman",
+            "firstName": "Elspeth",
+            "initials": "EF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8329-5665"
+            }
+          },
+          {
+            "fullName": "Boland A",
+            "lastName": "Boland",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1218-6714"
+            }
+          },
+          {
+            "fullName": "Barford D",
+            "lastName": "Barford",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5642-3991"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8329-5665"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9135-6253"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7126-2935"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7268-9631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8984-4503"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1218-6714"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The multi-subunit anaphase-promoting complex/cyclosome (APC/C) is a master regulator of cell division. It controls progression through the cell cycle by timely marking mitotic cyclins and other cell cycle regulatory proteins for degradation. The APC/C itself is regulated by the sequential action of its coactivator subunits CDC20 and CDH1, post-translational modifications, and its inhibitory binding partners EMI1 and the mitotic checkpoint complex (MCC). In this study, we took advantage of the latest developments in cryo-electron microscopy (cryo-EM) to determine the structures of human APC/C  CDH1:EMI1 and apo-APC/C at 2.9 Å and 3.2 Å resolution, respectively, providing novel insights into the regulation of APC/C activity. The high-resolution maps allowed the unambiguous assignment of a previously unassigned α-helix to the N-terminus of CDH1 (CDH1  α1 ) in the APC/C  CDH1:EMI1 ternary complex. We also identified a novel zinc-binding module in APC2 that confers structural stability to APC2, and we confirmed the presence of zinc ions experimentally. Finally, due to the higher resolution and well defined density of these maps, we were able to build, aided by AlphaFold predictions, several intrinsically disordered regions in different APC/C subunits that likely play a role in proper APC/C assembly and regulation of its activity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/01/2023.08.31.555674.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.31.555674"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39567505",
+            "reference": "Nature communications. 2024 Nov;15(1):10074",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-09-03",
+      "firstPublicationDate": "2023-09-01",
+      "firstIndexDate": "2023-09-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

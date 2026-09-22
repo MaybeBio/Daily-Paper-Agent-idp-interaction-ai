@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42632579",
+  "title": "The investigation of the effects of agitation, buffer composition, temperature, and micelle concentration on the intrinsic dissolution rate (IDR) of acalabrutinib.",
+  "authors": "Hindle, Alexandra; Casalini, Tommaso; Sanderson, Natalie J; Mann, James C",
+  "journal": "International journal of pharmaceutics",
+  "published_date": "2026-08-22",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究探讨药物阿卡拉布替尼在不同搅拌、缓冲液、温度和胶束条件下的固有溶出速率，属于药物制剂与溶出机制领域，与无序蛋白互作及AI/物理模拟方法无关。",
+  "abstract": "Several studies have measured and rationalised how dissolution medium pH alters the drug crystal surface pH and dissolution rates for ionisable compounds, with predictive models proposed. However, mechanistic understanding of buffer species effects remains limited and existing models are often complex. Other extrinsic parameters including temperature, agitation, and micelles, have received comparatively little attention. This study investigated the impact of parameters on the intrinsic dissolution rate (IDR) of acalabrutinib drug substance, using the rotating disk apparatus. Experiments spanned agitation rates (25, 50, and 100 RPM); temperatures (25 and 37  degrees C), buffers (sodium acetate, sodium citrate, potassium hydrogen phthalate, sodium phosphate); and micelle-containing media, including FaSSIF-V2, FeSSIF, and sodium dodecyl sulfate (SDS) in pH 6.8 phosphate buffer at varying concentrations. A simple mathematical model, that combines the estimation of surface solubilities (through the surface pH), and a direct calculation of the IDR has been employed to rationalise the experimental findings and to achieve a better mechanistic understanding of the impact of the buffer media and surfactant effects. The model confirmed the importance of explicitly including surface pH in the estimation of surface solubilities, however, lacked predictive capability and generalisability for a quantitative prediction of the IDR in buffered media. The requirement for the fitting of system-dependent diffusivities suggests that a detailed description of transport phenomena for charged species is needed to capture the impact on the IDR per buffer. The transfer of the mechanistic understanding to inform a physiologically based biopharmaceutics model (PBBM) is also discussed.",
+  "abstract_zh": "多项研究已测量并合理化了溶出介质pH值如何改变药物晶体表面pH值及可电离化合物的溶出速率，并提出了预测模型。然而，对缓冲剂种类效应的机理理解仍有限，且现有模型往往复杂。其他外在参数，包括温度、搅拌和胶束，受到的关注相对较少。本研究利用旋转盘装置，探讨了参数对阿卡拉布替尼原料药固有溶出速率（IDR）的影响。实验涵盖搅拌速率（25、50和100转/分钟）；温度（25和37摄氏度）；缓冲液（醋酸钠、柠檬酸钠、邻苯二甲酸氢钾、磷酸钠）；以及含胶束介质，包括FaSSIF-V2、FeSSIF，以及pH 6.8磷酸盐缓冲液中不同浓度的十二烷基硫酸钠（SDS）。采用一个简单数学模型，结合表面溶解度估算（通过表面pH值）和IDR的直接计算，以合理化实验结果，并更深入地理解缓冲介质和表面活性剂效应的机理。模型确认了在表面溶解度估算中明确包含表面pH值的重要性，然而，在定量预测缓冲介质中IDR方面缺乏预测能力和普适性。对系统依赖性扩散系数的拟合需求表明，需详细描述带电物种的传输现象，以捕捉每种缓冲液对IDR的影响。此外，还讨论了将机理理解转化为生理基础生物药剂学模型（PBBM）的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42632579/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42632579/",
+  "paper_page_path": "papers/pubmed/42632579/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33945530",
+  "title": "How multisite phosphorylation impacts the conformations of intrinsically disordered proteins.",
+  "authors": "Jin, Fan; Grater, Frauke",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-05-05",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子MD模拟系统研究多位点磷酸化对四种无序蛋白构象塌缩倾向的影响，对象为IDP且涉及磷酸化调控机制，但未聚焦PPI或结合机制，方法为物理模拟，整体与无序蛋白构象调控相关，对互作机制建模有间接启发。",
+  "abstract": "Phosphorylation of intrinsically disordered proteins (IDPs) can produce changes in structural and dynamical properties and thereby mediate critical biological functions. How phosphorylation effects intrinsically disordered proteins has been studied for an increasing number of IDPs, but a systematic understanding is still lacking. Here, we compare the collapse propensity of four disordered proteins, Ash1, the C-terminal domain of RNA polymerase (CTD2'), the cytosolic domain of E-Cadherin, and a fragment of the p130Cas, in unphosphorylated and phosphorylated forms using extensive all-atom molecular dynamics (MD) simulations. We find all proteins to show V-shape changes in their collapse propensity upon multi-site phosphorylation according to their initial net charge: phosphorylation expands neutral or overall negatively charged IDPs and shrinks positively charged IDPs. However, force fields including those tailored towards and commonly used for IDPs overestimate these changes. We find quantitative agreement of MD results with SAXS and NMR data for Ash1 and CTD2' only when attenuating protein electrostatic interactions by using a higher salt concentration (e.g. 350 mM), highlighting the overstabilization of salt bridges in current force fields. We show that phosphorylation of IDPs also has a strong impact on the solvation of the protein, a factor that in addition to the actual collapse or expansion of the IDP should be considered when analyzing SAXS data. Compared to the overall mild change in global IDP dimension, the exposure of active sites can change significantly upon phosphorylation, underlining the large susceptibility of IDP ensembles to regulation through post-translational modifications.",
+  "abstract_zh": "固有无序蛋白（IDPs）的磷酸化可导致其结构和动力学性质发生变化，从而介导关键的生物学功能。磷酸化如何影响固有无序蛋白已在越来越多的IDPs中得到研究，但系统性的理解仍缺乏。在此，我们通过广泛的原子级分子动力学（MD）模拟，比较了四种无序蛋白——Ash1、RNA聚合酶C端结构域（CTD2'）、E-钙黏蛋白胞质结构域以及p130Cas片段——在未磷酸化和磷酸化状态下的塌缩倾向。我们发现，所有蛋白在多位点磷酸化后，其塌缩倾向均根据初始净电荷呈现V形变化：磷酸化使中性或整体带负电的IDPs膨胀，而使带正电的IDPs收缩。然而，包括那些针对IDPs定制并常用于IDPs的力场，高估了这些变化。我们发现，仅当通过使用较高盐浓度（例如350 mM）减弱蛋白质静电相互作用时，MD结果才与Ash1和CTD2'的SAXS和NMR数据定量一致，这突显了当前力场中盐桥的过度稳定化。我们表明，IDPs的磷酸化还对蛋白质的溶剂化产生强烈影响，这一因素在分析SAXS数据时，除IDP的实际塌缩或膨胀外，也应予以考虑。与IDP整体尺寸的总体温和变化相比，活性位点的暴露在磷酸化后可发生显著变化，这强调了IDP ensembles对通过翻译后修饰进行调控的高度敏感性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33945530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33945530/",
+  "paper_page_path": "papers/pubmed/33945530/index.html"
+}

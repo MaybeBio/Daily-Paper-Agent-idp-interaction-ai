@@ -1,0 +1,567 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.16.659844",
+  "title": "UFMylation orchestrates chromatin engagement of core NHEJ components to promote DNA double-strand break repair",
+  "doi": "10.1101/2025.06.16.659844",
+  "abstract": "<h4>SUMMARY</h4> DNA double-strand breaks (DSBs) are highly cytotoxic lesions whose misrepair can lead to genomic instability, cancer and developmental disorders. Through systematic screening of understudied ubiquitin-like modifiers (UBLs), we identify UFM1 as a previously unrecognised regulator of non-homologous end-joining (NHEJ). Using a structure-guided chemical biology strategy, we develop a photo-crosslinkable UFM1 probe and, together with high-resolution NMR, uncover non-canonical UFM1-binding regions in core NHEJ components, including XRCC4. Mechanistically, proximity-dependent proteomics reveals Ku70 as a key UFMylation substrate, establishing a functional axis in which XRCC4 engages UFMylated Ku70 to promote the chromatin assembly of NHEJ factors. Perturbation of UFM1 signalling, via UFSP2 depletion or a hypomorphic UBA5 allele in patient-derived fibroblasts, impairs these processes, linking UFMylation defects to altered regulation of DSB repair. Our findings define a complete UFM1 signalling module in genome maintenance and uncover a molecular connection between hereditary UFMylation disorders and dysregulated DSB repair pathways.",
+  "authors": [
+    "Wang Z",
+    "Foster BM",
+    "da Costa IC",
+    "Wu Y",
+    "Behera D",
+    "Conte F",
+    "Trotter EW",
+    "Cabello-Lobato MJ",
+    "Choudhary S",
+    "Wiener R",
+    "Beli P",
+    "Smith DL",
+    "Banks WH",
+    "Bagley S",
+    "McKee S",
+    "Minnis M",
+    "Meyer S",
+    "Chaplin AK",
+    "Dörner W",
+    "Mootz HD",
+    "Hagan IM",
+    "Galanty Y",
+    "Larrosa I",
+    "Cliff MJ",
+    "Schmidt CK"
+  ],
+  "published_date": "2025-06-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659844",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659844.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1038347",
+    "raw_record": {
+      "id": "PPR1038347",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1038347"
+        ]
+      },
+      "doi": "10.1101/2025.06.16.659844",
+      "title": "UFMylation orchestrates chromatin engagement of core NHEJ components to promote DNA double-strand break repair",
+      "authorString": "Wang Z, Foster BM, da Costa IC, Wu Y, Behera D, Conte F, Trotter EW, Cabello-Lobato MJ, Choudhary S, Wiener R, Beli P, Smith DL, Banks WH, Bagley S, McKee S, Minnis M, Meyer S, Chaplin AK, Dörner W, Mootz HD, Hagan IM, Galanty Y, Larrosa I, Cliff MJ, Schmidt CK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Zijuan",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Foster BM",
+            "lastName": "Foster",
+            "firstName": "Benjamin",
+            "initials": "BM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0670-2321"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "da Costa IC",
+            "lastName": "da Costa",
+            "firstName": "Isabelle",
+            "initials": "IC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu Y",
+            "lastName": "Wu",
+            "firstName": "Yue",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-3330-113X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Behera D",
+            "lastName": "Behera",
+            "firstName": "Deepak",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6505-5462"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry, School of Natural Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Conte F",
+            "lastName": "Conte",
+            "firstName": "Francesca",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trotter EW",
+            "lastName": "Trotter",
+            "firstName": "Eleanor",
+            "initials": "EW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Division Group, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cabello-Lobato MJ",
+            "lastName": "Cabello-Lobato",
+            "firstName": "Maria Jose",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choudhary S",
+            "lastName": "Choudhary",
+            "firstName": "Shweta",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7790-4962"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, School of Natural Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wiener R",
+            "lastName": "Wiener",
+            "firstName": "Reuven",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4219-550X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, The Institute for Medical Research, -Hadassah Medical School, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beli P",
+            "lastName": "Beli",
+            "firstName": "Petra",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Institute of Developmental Biology and Neurobiology (IDN), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith DL",
+            "lastName": "Smith",
+            "firstName": "Duncan",
+            "initials": "DL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Mass spectrometry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Banks WH",
+            "lastName": "Banks",
+            "firstName": "William",
+            "initials": "WH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microscopy, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bagley S",
+            "lastName": "Bagley",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9007-7292"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microscopy, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McKee S",
+            "lastName": "McKee",
+            "firstName": "Shane",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetic Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Minnis M",
+            "lastName": "Minnis",
+            "firstName": "Meenakshi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Genetic Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer S",
+            "lastName": "Meyer",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2283-3690"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                },
+                {
+                  "affiliation": "Department of Paediatric Haematology and Oncology, , ,"
+                },
+                {
+                  "affiliation": "Young Oncology Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chaplin AK",
+            "lastName": "Chaplin",
+            "firstName": "Amanda",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leicester Institute for Structural and Chemical Biology, Department of Molecular and Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dörner W",
+            "lastName": "Dörner",
+            "firstName": "Wolfgang",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mootz HD",
+            "lastName": "Mootz",
+            "firstName": "Henning",
+            "initials": "HD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hagan IM",
+            "lastName": "Hagan",
+            "firstName": "Iain",
+            "initials": "IM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Division Group, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galanty Y",
+            "lastName": "Galanty",
+            "firstName": "Yaron",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Department of Biochemistry, , ,"
+                },
+                {
+                  "affiliation": "CRUK Cambridge Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Larrosa I",
+            "lastName": "Larrosa",
+            "firstName": "Igor",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, School of Natural Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cliff MJ",
+            "lastName": "Cliff",
+            "firstName": "Matt",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, School of Natural Sciences, , ,"
+                },
+                {
+                  "affiliation": "Manchester Institute of Biotechnology (MIB), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmidt CK",
+            "lastName": "Schmidt",
+            "firstName": "Christine",
+            "initials": "CK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8363-7933"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7790-4962"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2283-3690"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4219-550X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6505-5462"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8363-7933"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9007-7292"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0670-2321"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-3330-113X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>SUMMARY</h4>  DNA double-strand breaks (DSBs) are highly cytotoxic lesions whose misrepair can lead to genomic instability, cancer and developmental disorders. Through systematic screening of understudied ubiquitin-like modifiers (UBLs), we identify UFM1 as a previously unrecognised regulator of non-homologous end-joining (NHEJ). Using a structure-guided chemical biology strategy, we develop a photo-crosslinkable UFM1 probe and, together with high-resolution NMR, uncover non-canonical UFM1-binding regions in core NHEJ components, including XRCC4. Mechanistically, proximity-dependent proteomics reveals Ku70 as a key UFMylation substrate, establishing a functional axis in which XRCC4 engages UFMylated Ku70 to promote the chromatin assembly of NHEJ factors. Perturbation of UFM1 signalling, via UFSP2 depletion or a hypomorphic UBA5 allele in patient-derived fibroblasts, impairs these processes, linking UFMylation defects to altered regulation of DSB repair. Our findings define a complete UFM1 signalling module in genome maintenance and uncover a molecular connection between hereditary UFMylation disorders and dysregulated DSB repair pathways.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/N019997/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.06.16.659844"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.16.659844"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1038347"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1038347&type=FILE&fileName=EMS206984-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206984",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-06-20",
+      "firstPublicationDate": "2025-06-17",
+      "firstIndexDate": "2025-06-20",
+      "fullTextReceivedDate": "2025-07-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a base editing screen targeting 7,293 SLiM-containing regions with 80,473 mutations in HAP1 cells, identifying 450 known and 264 predicted SLiMs required for normal cell proliferation. They report high reproducibility in RPE1 cells, with differences attributed to cell line-specific gene essentiality. They further claim that most essential predicted SLiMs belong to novel classes, that binding partners were identified for several, and that mechanistic insight into a disease-associated ANKRD17 mutation was obtained. The study is presented as a proteome-wide resource on SLiM essentiality.
+- **Visible evidence base** Abstract text only; no experimental details, statistical methods, validation data, or resource descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, detailed methods for base editing and screening, computational prediction criteria, statistical analysis, validation experiments, and any details on the ANKRD17 mechanistic study
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable large-scale functional screen for short linear motifs, addressing an important gap in understanding SLiM contributions to cellular fitness. The scale of the screen and the integration of known and predicted SLiMs are commendable. However, the abstract alone provides insufficient detail to evaluate the technical rigor, statistical robustness, or biological depth of the findings. The claim of a "dependency map" and the mechanistic insight into ANKRD17 require substantial supporting evidence that is not visible here. The work is likely of interest to the cell signaling and proteomics communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying protein interaction networks, post-translational modification signaling, and functional genomics would be interested. The resource could inform studies on disease-associated mutations in unstructured regions and guide future SLiM-focused investigations. The ANKRD17 finding may attract clinicians and geneticists working on developmental disorders.
+- **Major strengths** The study addresses a significant gap in functional annotation of SLiMs, which are abundant but poorly characterized. The scale of the screen, with over 80,000 mutations across 7,293 regions, is substantial. The inclusion of computationally predicted SLiMs extends beyond known motifs, potentially uncovering novel biology. The cross-cell line validation adds credibility to the core findings.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that 450 known and 264 predicted SLiMs are "required for normal cell proliferation" based on the screen.  
+  - **Evidence pointer** Abstract only; no methods or statistical details provided  
+  - **Concern** The abstract does not describe the criteria for defining a SLiM as "required," including effect size thresholds, statistical significance, or how multiple mutations within a region were aggregated. Without these details, the biological meaning of the 450 and 264 counts cannot be assessed.  
+  - **Why it matters** The central quantitative claims of the paper depend on the rigor of the screen and its analysis. If the thresholds are arbitrary or the statistical model is flawed, the dependency map could be misleading.  
+  - **Resolution test** Provide explicit definitions of essentiality, including mutation effect thresholds, false discovery rate control, and how regional mutation data were combined. Show that the identified SLiMs are not artifacts of off-target effects or gene essentiality confounds.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "most essential predicted SLiMs belong to novel classes" and that binding partners were identified for several.  
+  - **Evidence pointer** Abstract only; no details on the novel classes or binding partner identification  
+  - **Concern** The abstract provides no information on how "novel classes" were defined, how binding partners were identified (e.g., mass spectrometry, affinity purification), or how many SLiMs were characterized. The mechanistic insight into ANKRD17 is mentioned but not described.  
+  - **Why it matters** These claims suggest the study goes beyond a screen to provide functional and mechanistic depth. Without evidence, they remain assertions that could overstate the biological insight.  
+  - **Resolution test** Describe the classification scheme for novel SLiM classes, the experimental approach for binding partner identification, and the specific ANKRD17 findings, including validation and functional relevance.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and generalizability  
+  - **Claim pointer** The abstract claims that mutational consequences were "highly reproducible in RPE1 cells, with differences attributed to cell line-specific gene essentiality."  
+  - **Evidence pointer** Abstract only; no quantitative reproducibility metrics provided  
+  - **Concern** The abstract does not define "highly reproducible" or provide any correlation coefficients, overlap statistics, or other measures. The attribution of differences to cell line-specific essentiality is plausible but unsupported without data.  
+  - **Why it matters** Reproducibility across cell lines is a key strength claim, but the lack of quantitative support weakens confidence in the robustness of the findings.  
+  - **Resolution test** Provide statistical measures of reproducibility (e.g., correlation of effect sizes, overlap of essential SLiMs) and evidence that observed differences correlate with known cell line-specific essential genes.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "most ubiquitous protein interaction modules" is imprecise; "ubiquitous" could be misinterpreted as universal presence rather than widespread occurrence.  
+  - **Required correction** Rephrase to "among the most widespread protein interaction modules" or similar.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim of a "proteome-wide resource" is ambitious, but the abstract does not indicate how the resource will be made accessible (e.g., database, web portal).  
+  - **Required correction** State the intended format for resource dissemination, such as a public database or supplementary tables.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical detail  
+  - **Affected element** Screening approach  
+  - **Evidence pointer** Abstract, methods description  
+  - **Issue** The abstract mentions "base editing" but does not specify the base editor type (e.g., cytosine or adenine) or the mutation types generated, which could affect interpretation.  
+  - **Required correction** Specify the base editor and mutation types in the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core quantitative and mechanistic claims cannot be evaluated from the abstract. R1-M3 is non-blocking but requires quantitative support. The lack of any statistical or methodological detail prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of a proteome-wide SLiM dependency map is novel and addresses an understudied area. The integration of predicted SLiMs is a creative extension.  
+  - **Scientific importance** If the claims hold, the resource would be valuable for understanding SLiM function and disease variants. The potential to uncover new interaction motifs is significant.  
+  - **Interdisciplinary readership** The work would appeal to cell biologists, biochemists, and computational biologists, but the abstract does not clearly bridge these communities.  
+  - **Technical soundness** Not assessable from the abstract; the lack of methods and statistics is a major gap.  
+  - **Readability for nonspecialists** The abstract is concise and accessible, but terms like "SLiM" and "base editing" are used without brief explanation, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising study, but the absence of methodological and statistical details prevents validation of the central claims. I would be supportive if the full manuscript provides rigorous evidence addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The specific counts of 450 known and 264 predicted essential SLiMs are unsupported without statistical criteria.
+- The claim that "most essential predicted SLiMs belong to novel classes" is unsupported without a definition of "novel classes."
+- The identification of binding partners for several essential predicted SLiMs is unsupported without experimental details.
+- The mechanistic insight into the ANKRD17 mutation is unsupported without any description of the finding.
+- The attribution of RPE1 differences to cell line-specific gene essentiality is unsupported without data.
+- The overall "proteome-wide resource" claim is not assessable without details on data completeness and accessibility.

@@ -1,0 +1,26 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The provided abstract text, title, author list, and bibliographic metadata
+- **Shared manuscript claim summary** The chapter reviews intrinsically disordered protein (IDP) characteristics, all-atom force fields developed for IDPs, and molecular dynamics-based simulation methods for ensemble generation and disorder-to-order transition characterization, with emphasis on metadynamics, replica exchange molecular dynamics, and Markov State modeling.
+- **Visible evidence base** Abstract text only; no figures, tables, methods sections, or results are provided
+- **Missing materials affecting confidence** Full chapter text, figures, tables, methodological details, force field parameter tables, simulation protocol descriptions, and example application results
+
+## Reviewer
+- **Overall assessment** The abstract describes a review chapter covering IDP biophysics, force field development, and advanced simulation methodologies. The scope is relevant and timely for the computational biophysics community. However, the abstract provides only a high-level overview without specific technical details, comparative assessments, or critical evaluation of the methods discussed. The scientific contribution cannot be fully assessed from the supplied material, and the abstract does not convey what novel synthesis or critical insight the chapter offers beyond existing reviews on this topic.
+- **Who would be interested in the results, and why** Computational biophysicists, molecular modelers, and experimentalists studying IDPs would find this chapter useful as a reference for selecting simulation methods and force fields. Researchers entering the IDP simulation field would benefit from the overview of available techniques. The chapter may also interest developers of force fields and enhanced sampling methods seeking application contexts.
+- **Major strengths** The topic is well chosen and addresses an active area of methodological development. The abstract identifies key simulation techniques (metadynamics, replica exchange molecular dynamics, Markov State modeling) that are central to current IDP research. The emphasis on force field dependence is appropriate and reflects a known critical issue in IDP simulations.
+- **Major Concerns** None identified from the supplied material, as the abstract does not contain specific claims that can be evaluated for technical correctness or evidentiary support.
+- **Minor Comments** None identified from the supplied material, as the abstract is too brief to contain specific elements requiring correction.
+- **Technical failings that need to be addressed before the case is established** None identifiable from the abstract alone. The full chapter would need to be reviewed to assess technical soundness of the methods descriptions and the accuracy of force field comparisons.
+- **Assessment against Nature-style criteria**  
+  **Originality** Not assessable from the abstract. The chapter appears to be a review, and the abstract does not indicate whether it offers a novel framework, new comparative analysis, or unique synthesis.  
+  **Scientific importance** The topic is important given the rapid growth of IDP research and the known challenges in simulating these systems. The abstract suggests the chapter addresses a real need for guidance on method selection.  
+  **Interdisciplinary readership** The abstract is written for a specialized audience of computational biophysicists and molecular modelers. It does not demonstrate accessibility for a broader interdisciplinary readership, though this may be appropriate for the target venue.  
+  **Technical soundness** Not assessable from the abstract. No technical details, data, or methodological descriptions are provided.  
+  **Readability for nonspecialists** The abstract uses field-specific terminology without explanation, which limits accessibility for nonspecialists. This is acceptable for a specialized review chapter but would not meet a general journal standard.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone is insufficient to evaluate the scientific contribution, technical accuracy, or novelty of the chapter. A full manuscript review would be required to form a recommendation.
+
+## Risk / unsupported claims
+- The abstract claims that the chapter "provides an overview of IDP characteristics" and "reviews all-atom force fields recently developed for IDPs" but no specific force fields, characteristics, or comparative data are provided in the supplied material, making these claims unverifiable.
+- The abstract states that the chapter "provides various examples for the successful application of these simulation methods to IDPs" but no examples are described, so the nature and quality of these examples cannot be assessed.
+- The abstract implies that the discussed methods enable "IDP ensemble generation as well as the characterization of disorder-to-order transitions" but does not specify the limitations, failure modes, or conditions under which these methods are appropriate, leaving the scope of this claim unclear.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37664934",
+  "title": "Structure of the Myelin Sheath Proteolipid Plasmolipin (PLLP) in a Ganglioside-Containing Lipid Raft.",
+  "authors": "Azzaz, Fodil; Mazzarino, Morgane; Chahinian, Henri; Yahi, Nouara; Scala, Coralie Di; Fantini, Jacques",
+  "journal": "Frontiers in bioscience (Landmark edition)",
+  "published_date": "2023-09-04",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过分子动力学模拟和表面张力测量，揭示PLLP膜蛋白与神经节苷脂GM1在脂筏中的互作机制，并涉及GM1对PLLP无序胞外环的结构化调控，虽对象为膜蛋白而非典型IDP，但互作机制建模和构象信号传导思路对IDR介导的PPI机制研究有可迁移启发。",
+  "abstract": "BACKGROUND: Plasmolipin (PLLP) is a membrane protein located in lipid rafts that participates in the formation of myelin. It is also implicated in many pathologies, such as neurological disorders, type 2 diabetes, and cancer metastasis. To better understand how PLLP interacts with raft components (gangliosides and cholesterol), we undertook a global study combining in silico simulations and physicochemical measurements of molecular interactions in various PLLP-ganglioside systems. METHODS: In silico studies consisted of molecular dynamics simulations in reconstructed membrane environments. PLLP-ganglioside interaction measurements were performed by microtensiometry at the water-air interface on ganglioside monolayers. RESULTS: We have elucidated the mode of interaction of PLLP with ganglioside GM1 and characterized this interaction at the molecular level. We showed that GM1 induces the structuring of the extracellular loops of PLLP and that this interaction propagates a conformational signal through the plasma membrane, involving a cholesterol molecule located between transmembrane domains. This conformational wave is finally transmitted to the intracellular domain of the protein, consistent with the role of PLLP in signal transduction. CONCLUSIONS: This study is a typical example of the epigenetic dimension of protein structure, a concept developed by our team to describe the chaperone effect of gangliosides on disordered protein motifs which associate with lipid rafts. From a physiological point of view, these data shed light on the role of gangliosides in myelin formation. From a pathological point of view, this study will help to design innovative therapeutic strategies focused on ganglioside-PLLP interactions in various PLLP-associated diseases.",
+  "abstract_zh": "背景：质膜脂蛋白（PLLP）是一种位于脂筏中的膜蛋白，参与髓鞘的形成。它还涉及多种病理过程，如神经系统疾病、2型糖尿病和癌症转移。为了更好地理解PLLP如何与筏组分（神经节苷脂和胆固醇）相互作用，我们开展了一项综合研究，结合了计算机模拟和多种PLLP-神经节苷脂系统中分子相互作用的物理化学测量。方法：计算机模拟研究包括在重建膜环境中的分子动力学 (molecular dynamics) 模拟。PLLP-神经节苷脂相互作用测量通过微张力测定法在水-空气界面的神经节苷脂单层上进行。结果：我们阐明了PLLP与神经节苷脂GM1的相互作用模式，并在分子水平上表征了这种相互作用。我们表明，GM1诱导PLLP胞外环的结构化，并且这种相互作用通过质膜传播构象信号，涉及位于跨膜结构域之间的胆固醇分子。这种构象波最终传递到蛋白质的胞内结构域，与PLLP在信号转导中的作用一致。结论：本研究是蛋白质结构表观遗传维度的一个典型例子，这是我们团队提出的一个概念，用于描述神经节苷脂对与脂筏相关的无序蛋白基序的伴侣效应。从生理角度看，这些数据揭示了神经节苷脂在髓鞘形成中的作用。从病理角度看，这项研究将有助于设计针对各种PLLP相关疾病中神经节苷脂-PLLP相互作用的创新治疗策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37664934/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37664934/",
+  "paper_page_path": "papers/pubmed/37664934/index.html"
+}

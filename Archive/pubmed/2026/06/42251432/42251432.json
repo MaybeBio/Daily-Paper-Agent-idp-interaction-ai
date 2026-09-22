@@ -1,0 +1,186 @@
+{
+  "identity": {
+    "pmid": "42251432",
+    "doi": "10.1186/s13027-026-00768-1",
+    "title": "Single-cell transcriptomics and machine learning unveil liquid-liquid phase separation-related biomarkers in HPV-positive cervical cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Liquid-liquid phase separation (LLPS) dysregulation is a key driver of oncogenesis, yet its specific role in HPV-positive cervical cancer remains undefined. We hypothesized that HPV-positive tumors exploit distinct LLPS mechanisms to evade nucleolar stress surveillance, offering a novel avenue for biomarker discovery. METHODS: We analyzed 70,519 single-cell transcriptomes across four histological conditions (Normal/Cancer, HPV+/-) to interrogate a curated panel of 120 LLPS-related genes. Our analytical framework integrated multi-tiered differential expression modeling with Random Forest classification to identify transformation-specific signatures. RESULTS: Analysis revealed a significant Cancer-HPV interaction effect characterized by the robust suppression of ribosomal proteins RPL5 and RPL11 (log(2)FC  approximately  - 3.4) specifically in HPV-positive cancer. Machine learning validation confirmed these genes as the top predictors (Variable Importance: RPL5 81.4%, RPL11 76.9%). The integrated model achieved 69.7% classification accuracy, predicting HPV-positive malignancy with a posterior probability of 78.4%. CONCLUSIONS: This study identifies a unique, HPV-specific suppression of the LLPS-regulators RPL5 and RPL11, mechanistically linking viral carcinogenesis to the evasion of ribosomal stress pathways. By integrating single-cell transcriptomics with machine learning, we present a novel, transformation-specific biomarker panel that distinguishes HPV-positive malignancy from both normal infection and non-viral cancer, providing new targets for diagnostic precision and therapeutic intervention.",
+    "keywords": [
+      "Biomarker discovery",
+      "Cervical cancer",
+      "HPV",
+      "LLPS",
+      "Machine learning",
+      "Single-cell RNA-seq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yiru"
+      ],
+      "short_names": [
+        "Chen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Clinical Medicine, Shandong First Medical University, Jinan, Shandong, China. a260968401@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yiru",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Shandong First Medical University, Jinan, Shandong, China. a260968401@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Infectious agents and cancer"
+    ],
+    "journal_abbrev": [
+      "Infect Agent Cancer"
+    ],
+    "pub_date": "2026 Jun 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/07 00:34",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42251432",
+      "40618698",
+      "41684520",
+      "41665627",
+      "41716413",
+      "41035636",
+      "40959076",
+      "41186865",
+      "40025576",
+      "38997894",
+      "41099090",
+      "40947786",
+      "36967539",
+      "41049291",
+      "41611834",
+      "41033661",
+      "41674927",
+      "39628476",
+      "40264196",
+      "39206965",
+      "42098867",
+      "40914702",
+      "41504052",
+      "41461700",
+      "41120586",
+      "41235230",
+      "41345436",
+      "30918060",
+      "41510092",
+      "41939867",
+      "41182523",
+      "39506421",
+      "41390349",
+      "40746721",
+      "42102630",
+      "42195052",
+      "40832598",
+      "42240917",
+      "37953920",
+      "41706425",
+      "42120650",
+      "40319271",
+      "40552285",
+      "40967560",
+      "41320776",
+      "41085960",
+      "40616092",
+      "37638381",
+      "39441216",
+      "41595448",
+      "42140356",
+      "38199212",
+      "40725485",
+      "40330458",
+      "41371106",
+      "41290867",
+      "40817807",
+      "42180906",
+      "36518754",
+      "42236612",
+      "40963600",
+      "42024670",
+      "40534859",
+      "41572692",
+      "41643488",
+      "39791167",
+      "31102403",
+      "41671946",
+      "40826052",
+      "40713654",
+      "41342545",
+      "41074150",
+      "42233387",
+      "39939021",
+      "40423850",
+      "40936892",
+      "40787447",
+      "35093128",
+      "39575251",
+      "41685312",
+      "40534868",
+      "41612311",
+      "41200172",
+      "40317014",
+      "41583431",
+      "41789084",
+      "41037245",
+      "36879192",
+      "39915583",
+      "42220428",
+      "41191175",
+      "41291841",
+      "42123445",
+      "40504346",
+      "41948494",
+      "38872916",
+      "38624210",
+      "42040898",
+      "42062606",
+      "41328587"
+    ],
+    "review": [
+      "42251432",
+      "41665627",
+      "42220428"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://infectagentscancer.biomedcentral.com/articles/10.1186/s13027-026-00768-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "39708500",
+    "doi": "10.1016/j.compbiomed.2024.109586",
+    "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction."
+  },
+  "content": {
+    "abstract": "The prediction of intrinsic disorder regions has significant implications for understanding protein functions and dynamics. It can help to discover novel protein-protein interactions essential for designing new drugs and enzymes. Recently, a new generation of predictors based on protein language models (pLMs) is emerging. These algorithms reach state-of-the-art accuracy without calculating time-consuming multiple sequence alignments (MSAs). This article introduces the new DisorderUnetLM disorder predictor, which builds upon the idea of ProteinUnet. It uses the Attention U-Net convolutional network and incorporates features from the ProtTrans pLM. DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs. Moreover, among 43 predictors on the latest CAID-2 benchmark, it ranks 1st for the NOX subset in terms of the ROC-AUC metric (0.844) and 2nd for the AP metric (0.596). For the CAID-2 PDB subset, it ranks in the top 10 (ROC-AUC of 0.924 and AP of 0.862). The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1.",
+    "keywords": [
+      "Deep learning",
+      "Language models",
+      "Protein disorder prediction",
+      "U-Net"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Databases, Protein",
+      "*Algorithms",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Software",
+      "*Sequence Analysis, Protein/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kotowski, Krzysztof",
+        "Roterman, Irena",
+        "Stapor, Katarzyna"
+      ],
+      "short_names": [
+        "Kotowski K",
+        "Roterman I",
+        "Stapor K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Applied Informatics, Silesian University of Technology, Akademicka 16, 44-100, Gliwice, Poland.",
+        "Department of Bioinformatics and Telemedicine, Jagiellonian University Medical College, Medyczna 7, 30-688, Krakow, Poland.",
+        "Department of Applied Informatics, Silesian University of Technology, Akademicka 16, 44-100, Gliwice, Poland. Electronic address: katarzyna.stapor@polsl.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kotowski, Krzysztof",
+        "short_name": "Kotowski K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Informatics, Silesian University of Technology, Akademicka 16, 44-100, Gliwice, Poland."
+        ]
+      },
+      {
+        "full_name": "Roterman, Irena",
+        "short_name": "Roterman I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Telemedicine, Jagiellonian University Medical College, Medyczna 7, 30-688, Kraków, Poland."
+        ]
+      },
+      {
+        "full_name": "Stapor, Katarzyna",
+        "short_name": "Stapor K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Informatics, Silesian University of Technology, Akademicka 16, 44-100, Gliwice, Poland. Electronic address: katarzyna.stapor@polsl.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/22 00:27",
+    "fetched_at": "2026-09-21 13:47:24"
+  },
+  "links": {
+    "cites": [
+      "42211342",
+      "41689628",
+      "40859602"
+    ],
+    "refs": [],
+    "similar": [
+      "39708500",
+      "39571839",
+      "40054813",
+      "40138319",
+      "40859602",
+      "39576583",
+      "40728619",
+      "39237195",
+      "39237735",
+      "33875885",
+      "39576585",
+      "24573480",
+      "37883249",
+      "39246251",
+      "38079339",
+      "40441416",
+      "26230689",
+      "40577786",
+      "28369666",
+      "40662788",
+      "16618368",
+      "38866950",
+      "40254833",
+      "40133791",
+      "39457474",
+      "40031750",
+      "38701796",
+      "31616935",
+      "39795988",
+      "28056090",
+      "26090958",
+      "31622328",
+      "34290238",
+      "41944583",
+      "24573479",
+      "41104652",
+      "32696351",
+      "40601249",
+      "30099775",
+      "36458437",
+      "39575640",
+      "41419011",
+      "39516218",
+      "28589442",
+      "32535960",
+      "37709009",
+      "38701416",
+      "30657889",
+      "32901090",
+      "18831774",
+      "30395465",
+      "41921197",
+      "34232869",
+      "37621223",
+      "40569190",
+      "31870849",
+      "38166858",
+      "41648466",
+      "34894985",
+      "25431331",
+      "33291838",
+      "39576584",
+      "35469832",
+      "38812466",
+      "39576667",
+      "40628826",
+      "30866736",
+      "31407406",
+      "37748220",
+      "40728621",
+      "25637562",
+      "40509866",
+      "38747347",
+      "30301243",
+      "41159381",
+      "35317722",
+      "40388205",
+      "36448315",
+      "39858443",
+      "39576574",
+      "37740110",
+      "39576587",
+      "39214282",
+      "41534519",
+      "39179250",
+      "16187360",
+      "29047157",
+      "31365149",
+      "33058261",
+      "40742755",
+      "30914747",
+      "27115638",
+      "38824535",
+      "38986796",
+      "30717652",
+      "33961009",
+      "29036616",
+      "19128505",
+      "27787828",
+      "40867524"
+    ],
+    "review": [
+      "39708500",
+      "31616935",
+      "28589442",
+      "30657889",
+      "33291838"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)01671-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)01671-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

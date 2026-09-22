@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "42330696",
+    "doi": "10.1016/j.sbi.2026.103297",
+    "title": "Polymer scaling in protein crowding: From dilute coils to semidilute meshes."
+  },
+  "content": {
+    "abstract": "Water-soluble polymers are widely used as model crowders, yet their effects on proteins are often interpreted using frameworks developed for rigid spherical depletants. Here we review polymer crowding from the perspective of scaling theory, emphasizing how polymer-specific length scales govern protein-polymer interactions across concentration regimes. In dilute solutions, depletion is set by the polymer radius of gyration and scales linearly with concentration. Above the overlap concentration, c *, the relevant length becomes the correlation length, xi(c), which defines the mesh size and controls both the magnitude and range of interactions. Protein association, folding, and intrinsically disordered protein structure follow distinct scaling regimes determined by the ratio of protein size to xi. Deviations from classical predictions arise from polymer connectivity and soft protein-polymer interactions. The polymer-scaling perspective provides a unified framework linking polymer physics to protein thermodynamics in crowded environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Polymers/chemistry/metabolism",
+      "*Proteins/chemistry/metabolism",
+      "Thermodynamics",
+      "Models, Molecular",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Olgenblum, Gil I",
+        "Harries, Daniel"
+      ],
+      "short_names": [
+        "Olgenblum GI",
+        "Harries D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Chemistry, The Fritz Haber Research Center, The Harvey M. Kruger Center for Nanoscience & Nanotechnology, The Hebrew University, Jerusalem 9190401, Israel.",
+        "Institute of Chemistry, The Fritz Haber Research Center, The Harvey M. Kruger Center for Nanoscience & Nanotechnology, The Hebrew University, Jerusalem 9190401, Israel. Electronic address: daniel.harries@mail.huji.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Olgenblum, Gil I",
+        "short_name": "Olgenblum GI",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemistry, The Fritz Haber Research Center, The Harvey M. Kruger Center for Nanoscience & Nanotechnology, The Hebrew University, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Harries, Daniel",
+        "short_name": "Harries D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemistry, The Fritz Haber Research Center, The Harvey M. Kruger Center for Nanoscience & Nanotechnology, The Hebrew University, Jerusalem 9190401, Israel. Electronic address: daniel.harries@mail.huji.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 21:07",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42330696",
+      "23912807",
+      "15945661",
+      "28306301",
+      "31763853",
+      "17189316",
+      "20866447",
+      "28425679",
+      "22616622",
+      "21709352",
+      "24380592",
+      "18783771",
+      "23003194",
+      "10546824",
+      "26772587",
+      "25240374",
+      "36080494",
+      "19245208",
+      "14979710",
+      "11053111",
+      "39285530",
+      "25616385",
+      "23927282",
+      "42475469",
+      "30066087",
+      "35239418",
+      "41003995",
+      "16223327",
+      "27825238",
+      "30358053",
+      "20666451",
+      "32216302",
+      "17444740",
+      "9234997",
+      "30278673",
+      "23197255",
+      "22984159",
+      "20232985",
+      "17513384",
+      "21166404",
+      "42525517",
+      "25353501",
+      "33587794",
+      "24089737",
+      "29539394",
+      "36691735",
+      "25919930",
+      "41003994",
+      "26709336",
+      "27410731",
+      "30974702",
+      "20338853",
+      "32487732",
+      "34293868",
+      "7765065",
+      "32760995",
+      "12513518",
+      "23353683",
+      "37410958",
+      "23474325",
+      "41427734",
+      "27145874",
+      "15994887",
+      "31117734",
+      "9820962",
+      "31488718",
+      "15473760",
+      "27842220",
+      "34813337",
+      "21453060",
+      "18275227",
+      "18856071",
+      "34266250",
+      "19761255",
+      "11749196",
+      "25302571",
+      "34013304",
+      "30635669",
+      "21133453",
+      "31185626",
+      "22568748",
+      "16852912",
+      "18412478",
+      "41427652",
+      "31499877",
+      "24639500",
+      "27471851",
+      "23189168",
+      "29960362",
+      "26547182",
+      "20455539",
+      "39831289",
+      "23789729",
+      "36272806",
+      "23240611",
+      "30865832",
+      "26474212",
+      "25563689",
+      "16533917",
+      "19476342"
+    ],
+    "review": [
+      "42330696",
+      "24380592",
+      "30066087",
+      "35239418",
+      "41003995",
+      "41003994",
+      "23474325",
+      "27145874",
+      "27842220",
+      "21453060",
+      "23240611"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(26)00079-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

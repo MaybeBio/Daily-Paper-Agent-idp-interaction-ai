@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, statistical analysis, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report a bioinformatic comparison of intrinsic protein disorder and liquid-liquid phase separation (LLPS) propensity across six retinal proteomes: a healthy control (Human Protein Atlas, HPA), a hereditary retinal disease set (RetNet), and disease-associated sets for age-related macular degeneration (AMD), glaucoma, and diabetic retinopathy with and without gliosis. They report significant differences in disorder metrics and LLPS propensity among these proteomes, with the HPA and RetNet sets showing the highest LLPS potential and disease sets showing lower disorder and LLPS propensity.
+- **Visible evidence base** Methods and Results sections describing proteome construction, disorder prediction via RIDAO (PONDR VSL2, VL3, VLXT, FIT, IUPred), CH-CDF quadrant analysis, PSPredictor and ParSe V2 LLPS prediction, ANOVA, chi-square, and Tukey HSD tests; Tables 1-2; Figures 1-3 (described in text)
+- **Missing materials affecting confidence** Figures and tables are referenced but not visible in the provided text; supplementary files are not available; exact protein lists and gene identifiers for each proteome are not provided; raw data and statistical outputs are not shown
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question, namely whether retinal disease states are associated with systematic changes in protein intrinsic disorder and LLPS propensity. The authors apply established bioinformatic tools to publicly available proteomic datasets. However, the manuscript has substantial methodological weaknesses that undermine the strength of the conclusions. The comparison between the HPA control and disease proteomes is confounded by differences in data origin, tissue preparation, and protein identification methods. The statistical analyses, while appropriate in principle, are applied to datasets of vastly different sizes and origins without adequate correction or discussion. The biological interpretation, particularly the claim that lower disorder in disease proteomes reflects reduced adaptability, is speculative and not directly supported by the data. The manuscript would benefit from a more cautious framing and additional analyses to address confounding factors.
+- **Who would be interested in the results, and why** Researchers studying protein intrinsic disorder in ocular tissues, those interested in the role of phase separation in retinal biology and disease, and computational biologists applying disorder and LLSP prediction tools to disease proteomes. The findings may also be of interest to clinicians seeking molecular-level insights into retinal disease mechanisms, though the translational relevance is limited at this stage.
+- **Major strengths** The manuscript applies a well-established suite of bioinformatic tools (RIDAO, CH-CDF, PSPredictor, ParSe V2) to a clinically relevant set of retinal proteomes. The use of multiple complementary predictors for disorder and LLPS is a strength. The authors are transparent about limitations, including the lack of experimental validation and the reliance on publicly available datasets. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Comparability of datasets
+  - **Claim pointer** The authors claim that differences in intrinsic disorder and LLPS propensity between the HPA control and disease proteomes reflect disease-specific alterations.
+  - **Evidence pointer** Methods, "Proteome protein identification"; Results, "Analysis of intrinsic disorder within the proteomes"
+  - **Concern** The HPA retinal proteome is derived from transcriptomic data, while the disease proteomes (AMD, glaucoma, DR) are derived from mass spectrometry-based proteomic studies. These are fundamentally different types of data with different biases, sensitivities, and dynamic ranges. The HPA set contains 12,844 proteins, whereas the disease sets contain far fewer (e.g., 158 for AMD, 32 for glaucoma). Comparing disorder and LLPS propensity across datasets of such different sizes and origins is likely to reflect technical artifacts rather than biological differences. For example, mass spectrometry tends to identify more abundant, often more structured proteins, which could explain the lower disorder in disease sets.
+  - **Why it matters** If the observed differences are driven by technical biases rather than disease biology, the central conclusion of the manuscript is not valid. The comparison is not apples-to-apples, and the authors do not adequately address this fundamental confound.
+  - **Resolution test** The authors should either (a) restrict the comparison to proteins that are common across all datasets, (b) use a consistent proteomic methodology for all groups, or (c) explicitly demonstrate that the observed differences persist after controlling for dataset size and detection bias. Without such analysis, the core claim is not supported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report significant differences in disorder and LLPS propensity among the six proteomes based on ANOVA and chi-square tests.
+  - **Evidence pointer** Results, "Analysis of intrinsic disorder within the proteomes"; Results, "CH-CDF plot analysis"; Results, "Likelihood for each proteome to undergo liquid-liquid-phase separation"
+  - **Concern** The statistical analyses are performed on proteome-level aggregate metrics (e.g., mean PPDR, mean ADS, distribution across CH-CDF quadrants). However, the units of analysis are proteins within each proteome, and these proteins are not independent samples. The ANOVA and chi-square tests treat each protein as an independent observation, which is inappropriate because proteins within a proteome are correlated (e.g., shared pathways, detection biases). This pseudoreplication inflates the effective sample size and can lead to false-positive results. Additionally, the authors do not report effect sizes or confidence intervals, making it difficult to assess the magnitude of the reported differences.
+  - **Why it matters** The statistical claims are central to the manuscript's conclusions. If the analyses are statistically invalid, the reported differences may not be real. The authors need to use appropriate statistical methods that account for the hierarchical structure of the data, or at minimum, acknowledge and discuss this limitation.
+  - **Resolution test** The authors should perform analyses at the proteome level (e.g., comparing mean disorder scores across proteomes with appropriate tests that account for the number of proteomes, not proteins), or use mixed-effects models that account for protein-level correlations. They should also report effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors interpret lower disorder and LLPS propensity in disease proteomes as indicating reduced proteomic flexibility and adaptability, potentially contributing to disease progression.
+  - **Evidence pointer** Discussion, paragraphs 2-4
+  - **Concern** The interpretation that lower disorder in disease proteomes causes or contributes to disease is speculative. The data are cross-sectional and correlational. It is equally plausible that the observed differences are consequences of disease, or that they reflect the specific proteins identified in each study rather than a global proteomic shift. The authors do not consider alternative explanations, such as differences in protein expression levels, post-translational modifications, or the specific cell types affected in each disease. The leap from bioinformatic predictions to disease mechanism is not justified by the data.
+  - **Why it matters** Overinterpretation of correlational bioinformatic data can mislead readers and future research directions. The authors should temper their conclusions and clearly state that the findings are hypothesis-generating, not mechanistic.
+  - **Resolution test** The authors should revise the Discussion to clearly distinguish between observed associations and hypothesized mechanisms. They should also discuss alternative explanations and propose specific experimental tests that could validate or refute their interpretations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of reporting
+  - **Claim pointer** The authors reference Tables 1-2 and Figures 1-3 to support their results.
+  - **Evidence pointer** Results sections; Tables 1-2; Figures 1-3
+  - **Concern** The tables and figures are not visible in the provided manuscript text. It is therefore impossible to assess whether the data support the stated results. For example, the authors state that the HPA proteome had the highest PPDR and ADS, but without seeing the data, this cannot be verified. Similarly, the CH-CDF plots and ParSe V2 recall plots are described but not shown.
+  - **Why it matters** The results cannot be evaluated without the actual data. This is a fundamental issue for peer review.
+  - **Resolution test** The authors must provide the tables and figures, or at minimum, the key numerical results, so that the claims can be verified.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods, "Proteome protein identification"
+  - **Evidence pointer** Methods, "Proteome protein identification"
+  - **Issue** The description of how the HPA retinal proteome was defined is vague. The authors state it was derived from the retinal transcriptome, but it is unclear how transcriptomic data were converted to a protein list. Were all transcripts with detectable expression included? Was a threshold applied?
+  - **Required correction** Provide a clear description of the criteria used to define the HPA retinal proteome, including any expression thresholds or filtering steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Analysis of intrinsic disorder within the proteomes"
+  - **Evidence pointer** Results, "Analysis of intrinsic disorder within the proteomes"
+  - **Issue** The authors report F-statistics and p-values for the ANOVA tests but do not report degrees of freedom or effect sizes. This makes it difficult to interpret the practical significance of the findings.
+  - **Required correction** Report degrees of freedom, effect sizes (e.g., eta-squared), and confidence intervals for the main statistical tests.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The term "liquid-liquid-phase separation" is used, but the standard term in the field is "liquid-liquid phase separation" (without the second hyphen). This is a minor terminology issue.
+  - **Required correction** Use the standard term "liquid-liquid phase separation" throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability
+  - **Issue** The data availability statement says data is provided within the manuscript or supplementary files, but the supplementary files are not described in detail. It is unclear what data are available.
+  - **Required correction** Provide a more detailed description of the supplementary data, including the specific files and their contents.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference to previous work
+  - **Affected element** Methods, "Analysis of intrinsic disorder within the proteomes"
+  - **Evidence pointer** Methods, "Analysis of intrinsic disorder within the proteomes"
+  - **Issue** The authors state that thresholds for classifying proteins as highly disordered were "used in our previous studies" but do not provide a specific citation or justification for these thresholds.
+  - **Required correction** Provide a citation for the thresholds or justify them in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (comparability of datasets) and R1-M2 (statistical rigor) are the primary technical failings. Without addressing these, the central claims of the manuscript are not established. R1-M4 (missing tables and figures) is also critical, as the results cannot be verified.
+- **Assessment against Nature-style criteria** Originality: The question of whether retinal disease alters intrinsic disorder and LLPS propensity is relatively novel, but the approach is largely a reapplication of existing tools to existing datasets. Scientific importance: The findings could be of interest to the ocular biology community, but the clinical or mechanistic significance is not yet clear. Interdisciplinary readership: The topic bridges computational biology and ophthalmology, which could attract a broad audience, but the current framing is likely too narrow for a high-impact general journal. Technical soundness: The methodology has significant flaws, particularly regarding dataset comparability and statistical analysis, which undermine the reliability of the conclusions. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the Discussion contains speculative interpretations that may confuse readers unfamiliar with the field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the fundamental issues with dataset comparability and statistical rigor must be resolved before the conclusions can be considered valid. The authors should be encouraged to revise and resubmit after addressing these concerns.
+
+## Risk / unsupported claims
+- The claim that differences in disorder and LLPS propensity between HPA and disease proteomes reflect disease-specific alterations is unsupported due to the confounding of data type and dataset size.
+- The interpretation that lower disorder in AMD and glaucoma proteomes contributes to disease progression is speculative and not directly supported by the data.
+- The claim that the HPA proteome and RetNet protein set have the highest LLPS propensity is not verifiable without the figures and tables.
+- The statement that "the relationship between intrinsic disorder and LLPS propensity is complex and multifaceted" is a general statement that is not specifically supported by the presented analyses.
+- The suggestion that "interventions that stabilize protein structures might be more effective for DR, AMD, and Glaucoma" is not supported by any data presented in the manuscript.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33876938",
+  "title": "A Data-Driven Hydrophobicity Scale for Predicting Liquid-Liquid Phase Separation of Proteins.",
+  "authors": "Dannenhoffer-Lafage, Thomas; Best, Robert B",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-04-21",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过粗粒化分子动力学模拟和力平衡方法开发数据驱动的疏水性标度，用于预测蛋白质液-液相分离，并强调pi-pi相互作用在无序蛋白互作中的驱动作用，直接契合无序蛋白介导的PPI机制建模主题。",
+  "abstract": "An accurate model for macroscale disordered assemblies of biological macromolecules such as those formed in so-called membraneless organelles would greatly assist in studying their structure, function, and dynamics. Recent evidence has suggested that liquid-liquid phase separation (LLPS) underlies the formation of membraneless organelles. While the general mechanism of exchange of macromolecule/water for macromolecule/macromolecule interactions is known to be the driving force for LLPS, the specific interactions involved are not well understood. One way that protein-water and protein-protein interactions have been understood historically is via hydrophobicity scales. However, these scales are typically optimized for describing these relative interactions in certain cases, such as protein folding or insertion of proteins into membranes. To better describe the relative interactions of proteins that undergo LLPS, we have developed a new, data-driven hydrophobicity scale. To determine the new scale, we used coarse-grained molecular dynamics simulations using the hydrophobicity scale coarse-grained model, which relates the interactions between amino acids to their hydrophobicity. Hydrophobicity values were determined via the force-balance method on a library of proteins that includes unfolded, intrinsically disordered, and phase-separating proteins (PSP). The resulting hydrophobicity scale can better predict whether a given protein will undergo LLPS at physiological conditions by using coarse-grained molecular dynamics simulations than existing hydrophobicity scales. This new scale confirms the importance of pi-pi interactions between amino acids as important drivers of LLPS. This new hydrophobicity scale provides a convenient and compact description of protein-protein interactions for proteins that undergo LLPS and could be used to develop new models to describe interactions between PSP and other components, such as nucleic acids.",
+  "abstract_zh": "生物大分子宏观无序组装体的精确模型，例如在所谓的无膜细胞器中形成的那些，将极大地有助于研究其结构、功能与动态。近期证据表明，液-液相分离（LLPS）是无膜细胞器形成的基础。虽然已知大分子/水与大分子/大分子相互作用的交换一般机制是LLPS的驱动力，但所涉及的具体相互作用尚不十分清楚。历史上，蛋白质-水和蛋白质-蛋白质相互作用的一种理解方式是通过疏水性标度。然而，这些标度通常针对特定情况（如蛋白质折叠或蛋白质插入膜中）优化以描述这些相对相互作用。为了更好地描述经历LLPS的蛋白质的相对相互作用，我们开发了一种新的、数据驱动的疏水性标度。为确定新标度，我们使用了基于疏水性标度的粗粒化分子动力学模拟，该模型将氨基酸之间的相互作用与其疏水性相关联。疏水性值通过力平衡方法在包含未折叠、内在无序和相分离蛋白（PSP）的蛋白质库上确定。所得疏水性标度通过粗粒化分子动力学模拟，比现有疏水性标度能更好地预测给定蛋白质在生理条件下是否会发生LLPS。这一新标度确认了氨基酸间π-π相互作用作为LLPS重要驱动因素的重要性。该新疏水性标度为经历LLPS的蛋白质提供了便捷且紧凑的蛋白质-蛋白质相互作用描述，并可用于开发新模型以描述PSP与其他组分（如核酸）之间的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33876938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33876938/",
+  "paper_page_path": "papers/pubmed/33876938/index.html"
+}

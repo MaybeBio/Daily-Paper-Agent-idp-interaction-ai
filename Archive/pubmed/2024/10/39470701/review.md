@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and database utility claims as presented in the provided text
+- **Shared manuscript claim summary** The authors describe updates to the MobiDB database, including a faster prediction pipeline, integration of a compactness predictor for disordered regions, improved PDB processing via mmCIF, standardized annotation provenance with ECO terms, and functional annotation propagation using sequence similarity and protein embeddings.
+- **Visible evidence base** Abstract, Introduction, sections on derived data, MobiDB-lite and prediction, function annotation, database content, website features, server/API, conclusions, data availability, funding, acknowledgements. Figures and tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-3, Table 1, supplementary data, actual database content, performance benchmarks, and validation details for the prediction and propagation methods are not available in the supplied text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a substantial update to a widely used database resource, with clear improvements in speed, data coverage, and functional annotation. The integration of ensemble property prediction and embedding-based annotation transfer is timely and relevant. However, the evidence provided is largely descriptive, and key quantitative validations, figure contents, and methodological details are not accessible in the supplied material, limiting the ability to fully assess technical soundness and the strength of the claims.
+- **Who would be interested in the results, and why** Researchers in intrinsically disordered proteins, structural biology, bioinformatics, and proteomics would benefit from the expanded functional annotations and ensemble property predictions. Database developers and those using IDP annotations for large-scale analyses would also find the improved API and data coverage valuable.
+- **Major strengths** The update addresses clear user needs, including faster processing, better handling of large cryo-EM structures, and standardized provenance. The integration of a compactness predictor and embedding-based functional annotation transfer represents a novel and potentially powerful addition. The commitment to documentation, training, and open-source components is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the compactness predictor labels ID regions as compact or extended based on the apparent Flory scaling exponent, with specific thresholds, is presented as a key new feature.
+  - **Evidence pointer** Section "MobiDB-lite and prediction of ensemble properties", location not provided
+  - **Concern** The manuscript states thresholds for compact (nu <= 0.475) and extended (nu > 0.55) but does not provide any validation of these thresholds against experimental data or benchmarks. The accuracy, sensitivity, and specificity of the predictor on independent datasets are not reported. Without such evidence, the reliability of these new annotations for users is unclear.
+  - **Why it matters** Users will rely on these labels for biological interpretation. If the thresholds or the underlying model are not well validated, the annotations could be misleading, undermining the database's utility.
+  - **Resolution test** Provide validation statistics (e.g., correlation with experimental scaling exponents, confusion matrices, ROC curves) on a held-out test set or against known IDP ensembles. Show that the chosen thresholds are justified by the data distribution and performance metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that functional annotations are propagated via protein embeddings using a k-nearest neighbours approach, achieving F-max scores of 0.72 and 0.83 for Molecular Function and Disorder Function, respectively.
+  - **Evidence pointer** Section "Function annotation", location not provided
+  - **Concern** The F-max scores are reported, but the evaluation methodology is only briefly described. It is unclear how the test set was constructed, whether the scores are robust across different protein families, and how the distance threshold of 0.8 was determined. The manuscript also does not discuss potential biases in the training data or the generalizability of the approach to non-human proteins.
+  - **Why it matters** The propagation method is a major new feature. If the evaluation is not rigorous or the method fails on diverse sequences, the functional annotations could be inaccurate, affecting downstream analyses by users.
+  - **Resolution test** Provide a detailed description of the training and test sets, cross-validation strategy, and a breakdown of performance by protein family or sequence identity. Show that the method outperforms simpler baselines (e.g., sequence similarity alone) and that the distance threshold is not overfitted.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the database now provides functional annotations for 47,356,025 proteins, combining curated, propagated, and predicted terms.
+  - **Evidence pointer** Section "Database content", Table 1, location not provided
+  - **Concern** The number of annotated proteins is stated, but the breakdown by source (curated, propagated, predicted) and the confidence levels are not provided in the text. The manuscript also does not clarify how many proteins have annotations from multiple sources and whether conflicts are resolved. The quality of the propagated annotations, especially for proteins without any curated evidence, is not assessed.
+  - **Why it matters** Users need to understand the reliability of annotations for a given protein. Without a clear breakdown and quality assessment, the large number of annotated proteins may overstate the actual coverage of high-confidence functional information.
+  - **Resolution test** Provide a table or figure showing the number of proteins with annotations from each source, the overlap between sources, and a validation of a random sample of propagated annotations against literature or experimental data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 description
+  - **Evidence pointer** Section "Function annotation", location not provided
+  - **Issue** The description of Figure 1 mentions a TSNE visualisation but does not explain how the visualisation supports the claim that embeddings are separable for certain classes. The text notes exceptions but does not quantify the degree of separation.
+  - **Required correction** Add a quantitative measure of cluster separation (e.g., silhouette score) or describe the visual pattern more precisely to support the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Database content section
+  - **Evidence pointer** Section "Database content", location not provided
+  - **Issue** The text states that the fraction of residues is calculated over annotated proteins but does not specify the total number of proteins in the database or the overall coverage of the proteome.
+  - **Required correction** Include the total number of proteins in MobiDB and the percentage of the reference proteome covered to give context to the reported fractions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** API and server section
+  - **Evidence pointer** Section "Server and API", location not provided
+  - **Issue** The manuscript mentions an OpenAPI Specification page but does not provide a stable URL or version number for the API, which is important for reproducibility.
+  - **Required correction** Provide the exact URL and version of the OpenAPI specification, and note any versioning policy for the API.
+- **Technical failings that need to be addressed before the case is established** The lack of validation data for the compactness predictor and the functional annotation propagation method is a critical gap. The manuscript also does not provide sufficient detail on the evaluation methodology, making it impossible to assess the robustness of the reported F-max scores. The absence of figure contents and Table 1 further limits the ability to verify the claims.
+- **Assessment against Nature-style criteria** Originality: The integration of ensemble property prediction and embedding-based functional annotation transfer is novel and adds value to the field. Scientific importance: The database is a key resource for the IDP community, and the updates address important needs, but the lack of validation reduces the impact. Interdisciplinary readership: The work will appeal to structural biologists, bioinformaticians, and cell biologists, but the technical details may be less accessible to non-specialists. Technical soundness: The pipeline improvements are plausible, but the validation is insufficient to establish reliability. Readability for nonspecialists: The manuscript is generally clear, but the methods sections assume familiarity with machine learning and database terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes valuable updates, but the evidence provided is insufficient to fully establish the reliability of the new features. Validation data and methodological details are required before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that the compactness predictor accurately labels ID regions as compact or extended is unsupported without validation data.
+- The claim that functional annotation propagation achieves F-max scores of 0.72 and 0.83 is not fully supported due to incomplete evaluation details.
+- The claim that the database provides functional annotations for 47,356,025 proteins is not verifiable without a breakdown by source and confidence.
+- The claim that the PDB processing now handles large cryo-EM structures is plausible but not quantified in terms of success rate or coverage.
+- The claim that the prediction module is ten times faster is not supported by benchmark data in the provided text.

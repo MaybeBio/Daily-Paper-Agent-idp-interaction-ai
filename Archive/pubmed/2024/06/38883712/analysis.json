@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38883712",
+  "title": "Conserved molecular recognition by an intrinsically disordered region in the absence of sequence conservation.",
+  "authors": "Alston, Jhullian J; Soranno, Andrea; Holehouse, Alex S",
+  "journal": "Research square",
+  "published_date": "2024-06-17",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究冠状病毒核衣壳蛋白中无序NTD与折叠RBD协同结合RNA的机制，揭示IDR序列变异下构象保守的分子识别，虽对象为RNA而非蛋白互作，但无序区域介导结合机制建模对本课题有直接启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) are critical for cellular function yet often appear to lack sequence conservation when assessed by multiple sequence alignments. This raises the question of if and how function can be encoded and preserved in these regions despite massive sequence variation. To address this question, we have applied coarse-grained molecular dynamics simulations to investigate non-specific RNA binding of coronavirus nucleocapsid proteins. Coronavirus nucleocapsid proteins consist of multiple interspersed disordered and folded domains that bind RNA. Here, we focus on the first two domains of coronavirus nucleocapsid proteins: the disordered N-terminal domain (NTD) and the folded RNA binding domain (RBD). While the NTD is highly variable across evolution, the RBD is structurally conserved. This combination makes the NTD-RBD a convenient model system for exploring the interplay between an IDR adjacent to a folded domain and how changes in IDR sequence can influence molecular recognition of a partner. Our results reveal a surprising degree of sequence-specificity encoded by both the composition and the precise order of the amino acids in the NTD. The presence of an NTD can - depending on the sequence - either suppress or enhance RNA binding. Despite this sensitivity, large-scale variation in NTD sequences is possible while certain sequence features are retained. Consequently, a conformationally-conserved dynamic and disordered RNA:protein complex is found across nucleocapsid protein orthologs despite large-scale changes in both NTD sequence and RBD surface chemistry. Taken together, these insights shed light on the ability of disordered regions to preserve functional characteristics despite their sequence variability.",
+  "abstract_zh": "固有无序区域（IDRs）对细胞功能至关重要，但通过多序列比对评估时，它们往往显得缺乏序列保守性。这引发了一个问题：尽管存在大量序列变异，功能是否以及如何在这些区域中被编码并得以保留。为解答此问题，我们采用粗粒化分子动力学模拟来研究冠状病毒核衣壳蛋白的非特异性RNA结合。冠状病毒核衣壳蛋白由多个散布的无序结构域和折叠结构域组成，这些结构域结合RNA。在此，我们聚焦于冠状病毒核衣壳蛋白的前两个结构域：无序的N端结构域（NTD）和折叠的RNA结合结构域（RBD）。尽管NTD在进化中高度可变，RBD在结构上却是保守的。这种组合使NTD-RBD成为一个便捷的模型系统，用于探索与折叠结构域相邻的IDR之间的相互作用，以及IDR序列变化如何影响对伴侣分子的分子识别。我们的结果揭示了NTD中氨基酸组成和精确顺序所编码的惊人程度的序列特异性。NTD的存在——取决于序列——可以抑制或增强RNA结合。尽管存在这种敏感性，NTD序列的大规模变异是可能的，同时某些序列特征得以保留。因此，尽管NTD序列和RBD表面化学性质发生大规模变化，在核衣壳蛋白直系同源物中仍发现了一个构象保守的动态且无序的RNA:蛋白质复合物。综合来看，这些见解揭示了无序区域尽管序列多变，却能保留功能特性的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38883712/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38883712/",
+  "paper_page_path": "papers/pubmed/38883712/index.html"
+}

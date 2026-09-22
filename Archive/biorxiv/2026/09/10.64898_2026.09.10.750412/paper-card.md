@@ -1,239 +1,268 @@
 ## 01 基本信息
 
-- **标题**：Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model
-- **作者**：Jacob Anter; Jason Mercer; Artur Yakimovich
-- **单位**：未提供（bioRxiv 预印本未在提供材料中列出单位）
+- **标题**：Agentic-AI-ready genome-wide poxvirus–host interaction screen refined by a protein language model
+- **作者**：Jacob Marcel Anter; Jason Mercer; Artur Yakimovich
+- **单位**：未提供（根据致谢推测与 CASUS、Helmholtz 相关）
 - **期刊/平台**：bioRxiv（预印本）
-- **年份**：2026（预印本日期 2026-09-13）
-- **论文类型**：预印本（方法学 + 资源型论文）
-- **领域**：病毒-宿主互作、功能基因组筛选、蛋白质语言模型、正-未标记学习
-- **关键词**：poxvirus、vaccinia virus、RNA interference screen、protein language model、positive-unlabelled learning、host factors、agentic AI
-- **DOI/arXiv**：10.64898/2026.09.10.750412
-- **代码**：未提供
-- **数据**：基因组规模痘病毒宿主因子筛选的原始与精炼 read-out，作为 agentic-AI-ready 社区资源提供
-- **阅读日期**：2026-09-14（按预印本日期推算，实际阅读日期未提供）
-- **该文在「无序蛋白/相分离 × 蛋白互作 × AI 方法」方向中的位置**：本文不直接研究 IDP/IDR 或相分离，但其核心方法——用蛋白质语言模型（pLM）提取的蛋白-蛋白互作（PPI）信息来精炼功能筛选的 hit 优先级——对 IDP/IDR 介导的互作研究具有直接的方法学迁移价值。pLM 嵌入可捕捉由 IDR 介导的弱/瞬时互作信号，而 positive-unlabelled（PU）学习框架可推广到任何以「表型筛选 + PPI 先验」为结构的场景，包括相分离凝聚体的功能筛选。
-
----
+- **年份**：2026
+- **论文类型**：方法学/资源型研究（含湿实验筛选 + 计算模型 + 数据资源）
+- **领域**：病毒-宿主互作、RNAi 筛选、蛋白质语言模型、正-未标记学习
+- **关键词**：痘病毒、牛痘病毒、RNAi 筛选、蛋白质语言模型、PPI 预测、PU learning、Agentic AI
+- **DOI/ID**：10.64898/2026.09.10.750412
+- **代码**：GitHub 仓库 ICARusPox（URL 未提供）
+- **数据**：Zenodo, https://doi.org/10.5281/zenodo.22307677
+- **阅读日期**：2026-09-13
+- **在该方向中的位置**：本文属于「蛋白互作 × AI 方法」方向，具体为将蛋白质语言模型（pLM）预测的 PPI 概率作为先验知识，通过 PU learning 框架对全基因组 RNAi 筛选结果进行重排序和精炼。与 IDP/IDR × 相分离课题的关联在于：其「以序列嵌入预测互作概率作为先验」的框架可迁移至 IDP 介导互作的筛选精炼，但其对象（痘病毒-宿主互作）并非 IDP 特异性研究。
 
 ## 02 一句话总结
 
-本文提出 ICARus——一个将蛋白质语言模型衍生的 PPI 信息整合进 positive-unlabelled 学习框架的 read-out 精炼方法，用于从全基因组 RNAi 筛选中更可靠地识别痘病毒宿主因子（尤其是抗病毒功能基因），并发布 agentic-AI-ready 的筛选数据资源。
-
----
+本文针对全基因组 RNAi 筛选中脱靶效应和 assay 噪声导致假阳性/假阴性的问题，提出 ICARus 框架——利用蛋白质语言模型（xCAPT5）预测痘病毒-人类蛋白互作概率，作为 PU learning 模型的输入特征，对筛选结果进行置信度加权精炼，从而提升已知宿主因子（尤其是抗病毒因子）的富集和功能注释质量。
 
 ## 03 研究问题
 
-- **具体问题**：在全基因组 RNAi 筛选中，脱靶效应（off-target effects）和检测噪声掩盖了真实的基因-表型关系，导致病毒-宿主互作因子的发现受阻。如何从噪声密集的筛选 read-out 中稳健地优先排序真正的宿主因子？
-- **为什么重要**：近期 mpox 疫情凸显了理解痘病毒-人类宿主互作的必要性；系统性地发现参与感染的宿主基因是发现治疗靶点的关键路径。
-- **现有方法为何不足**：传统筛选分析仅依赖 read-out 本身的统计显著性，未利用独立的生物学先验（如 PPI 网络信息）来区分真实信号与噪声/脱靶效应。
-- **精确研究问题**：Can integrating protein language model-derived PPI information into a positive-unlabelled learning framework refine genome-wide RNAi screen read-outs to better identify true poxvirus host factors?
-
----
+- **具体问题**：全基因组 RNAi 筛选（针对牛痘病毒感染）的原始 readout 受脱靶效应（off-target effects, OTEs）和实验噪声干扰，导致基因-表型关系模糊，难以可靠地优先排序候选宿主因子。
+- **为什么重要**：痘病毒（尤其是猴痘病毒）的暴发凸显了理解病毒-宿主互作的需求；可靠的宿主因子列表是开发宿主导向抗病毒策略的基础。
+- **现有方法为何不足**：传统方法依赖化学修饰 RNAi 试剂、多 siRNA 一致性验证或统计去卷积，但无法利用「互作生物学先验」来区分真实互作与脱靶/噪声信号；公共 PPI 数据库覆盖有限，无法泛化到新病原体。
+- **精确研究问题**：Can a protein language model-derived PPI prior, integrated via positive-unlabelled learning, refine genome-wide RNAi screen readouts to improve the prioritisation of true poxvirus host factors?
 
 ## 04 背景与发展脉络
 
-> 注：以下脉络基于本文框架重建，标注「仅本文框架」；外部核验部分单独标注。
+*注：以下脉络基于本文框架，未经外部系统核验，标注为「仅本文框架」。*
 
-1. **阶段一：全基因组 RNAi 筛选（经典方法）**
-   - 代表性方法：单细胞水平 RNAi 筛选，通过敲低每个宿主基因后检测病毒感染表型。
-   - 优点：无偏、基因组规模、可直接发现功能相关基因。
-   - 局限：脱靶效应、assay 噪声、批次效应导致假阳性/假阴性率高。
-   - 来源：本文引言所述背景。
-
-2. **阶段二：统计精炼与多组学整合**
-   - 代表性方法：基于统计阈值的 hit 选择、多重复一致性过滤、与已知互作数据库（如 BioGRID、STRING）交叉验证。
-   - 优点：一定程度降低假阳性。
-   - 局限：依赖人工设定的阈值和外部数据库的覆盖度；未充分利用连续型 PPI 信号。
-   - 来源：本文框架推断。
-
-3. **阶段三：蛋白质语言模型（pLM）时代**
-   - 代表性方法：用 ESM 等 pLM 的嵌入表示蛋白质，通过嵌入相似性或下游模型预测 PPI。
-   - 优点：无需实验 PPI 数据即可生成全基因组规模的互作先验；可捕捉序列-结构-功能关系。
-   - 局限：pLM 预测的 PPI 本身有噪声，直接作为硬过滤条件会丢失真实信号。
-   - 来源：本文方法部分所述。
-
-4. **本文主张的位置**：将 pLM 衍生的 PPI 信息作为 soft prior 整合进 PU 学习框架，而非硬过滤——即在「无偏筛选」与「先验知识」之间取平衡，实现 read-out 的稳健精炼。
-   - 来源：本文摘要与框架。
-
----
+1. **RNAi 筛选时代**：以 Rämö et al. 2014 为代表的图像型全基因组 siRNA 筛选，可系统性发现病毒感染相关宿主基因。局限：OTEs 和 assay 噪声导致假阳性/假阴性，Z'-factor 仅 0.43，线性可分性差。
+2. **OTEs 缓解策略**：化学修饰（如 seed region 优化）、多 siRNA 去卷积、统计算法（如 RSA、B-score）。局限：无法利用生物学先验知识。
+3. **PPI 数据库辅助**：如 HVIDB、BioGRID 等，提供实验验证的病毒-宿主互作。局限：覆盖不全，对新发病毒（如猴痘）尤其不足。
+4. **AI/深度学习方法**：蛋白质语言模型（pLM）如 SENSE-PPI、xCAPT5、MaTPIP 可从序列直接预测 PPI，泛化能力超越实验数据库。本文主张：将 pLM 预测的 PPI 概率作为「软先验」整合进 PU learning，是此前未探索的方向。
+5. **本文位置**：首次将 pLM 驱动的 PPI 预测与 PU learning 结合用于病毒筛选 readout 精炼，并发布 agentic-AI-ready 数据资源。
 
 ## 05 核心痛点
 
 | 痛点 | 表现 | 成因或作者解释 | 文中证据 |
 |------|------|----------------|----------|
-| 脱靶效应 | RNAi 筛选中的假阳性 hit 被误认为真实宿主因子 | RNAi 试剂可非特异性地沉默多个基因，导致表型与目标基因无关 | 摘要：「off-target effects and assay noise obscure true gene-phenotype relationships」 |
-| 检测噪声 | 同一基因在不同重复/条件下 read-out 波动大 | 单细胞 assay 的生物学变异 + 技术噪声 | 摘要：「assay noise」 |
-| 真实信号被掩盖 | 真阳性宿主因子因噪声/脱靶干扰而排名不高 | 传统统计方法未利用独立生物学先验来区分信号与噪声 | 摘要：「hampering the discovery of therapeutically relevant targets」 |
-| 先验知识利用不足 | 已知 PPI 信息未被系统整合进筛选分析 | 现有方法多为硬过滤或事后验证，未在模型层面融合 | 本文方法设计（ICARus 的提出动机） |
-
----
+| RNAi 脱靶效应（OTEs） | siRNA 与非靶标 mRNA 结合，导致假阳性基因表型 | siRNA 种子区与 mRNA 3'UTR 部分互补即可沉默 | Introduction 第 2 段；Z'-factor 0.43（Results 第 1 段） |
+| Assay 噪声 | 同一基因不同 siRNA 表型不一致，筛选可重复性差 | 实验条件波动、细胞异质性、siRNA 转染效率差异 | Z'-factor 0.43 表明线性可分性边际（Results 第 1 段） |
+| 公共 PPI 数据库覆盖不足 | 实验验证的病毒-宿主互作数量有限，尤其对新发病毒 | 实验验证耗时费力，数据库更新滞后 | Introduction 第 3 段；HVIDB 仅 412 条 VACV-WR 互作（Methods） |
+| 传统统计去卷积无法利用生物学先验 | 仅依赖表型相似性，忽略互作生物学信息 | 方法设计上未整合外部知识 | Introduction 第 3 段（作者主张） |
+| 多模态整合未带来增益 | 表型 + PPI 特征融合未优于 PPI-only | 可能因表型特征信息量有限或模态主导/坍缩 | Results：多模态变体未优于 PPI-only（Fig. S7, Tables S3/S5） |
 
 ## 06 核心思想
 
-### 1) 表面方法
-ICARus 是一个 positive-unlabelled（PU）学习框架：将筛选 read-out 中高置信度的 hit 视为 positive，其余视为 unlabelled，用蛋白质语言模型衍生的 PPI 特征作为辅助信息，训练分类器来重新评估每个基因属于真实宿主因子的概率，从而精炼原始 read-out 的排名。
+**1) 表面方法**：
+- 进行全基因组 siRNA 筛选（HeLa 细胞，双荧光报告病毒 VACV-WR EGFP/L mCherry），获得每个基因的早期病毒基因表达、晚期病毒基因表达和细胞数三个表型特征。
+- 用 xCAPT5（pLM 模型）预测每个人类蛋白与 440 个 VACV-WR 蛋白的互作概率，得到 440 维 PPI 特征向量（按基因取跨亚型最大值聚合）。
+- 用 PU learning（nnPU loss，正类先验 π_p = 0.05）训练 MLP，输入为 PPI 特征（或 PPI + 表型），输出为每个基因是宿主因子的概率。
+- 用该概率对原始筛选 readout 进行「软掩蔽」（soft-masking），即原始强度 × 概率，得到精炼后的 readout。
 
-### 2) 核心洞察
-pLM 衍生的 PPI 信息可以作为独立于表型 read-out 的生物学先验，在 PU 框架中充当「校准信号」——即使 pLM 预测本身有噪声，其与真实 PPI 的弱相关性也足以在 aggregate 层面提升 hit 优先排序的精度，而非依赖单条预测的准确性。
+**2) 核心洞察**：
+- 将 pLM 预测的 PPI 概率作为「连续先验」而非「二值过滤」，允许 PU learning 在「已知正例（已确认宿主因子）」和「未标记（其余基因）」之间进行软决策，而非硬性排除。
+- 关键发现：**仅用 PPI 特征即可实现有效精炼，表型特征未提供额外增益**——这暗示在噪声较大的筛选中，生物学先验（互作概率）比表型测量本身更具判别力。
+- 精炼的效果不仅是重排序，而是**改变 top 基因的功能组成**：精炼后 top 基因中「免疫应答与宿主-病原互作」等与病毒感染直接相关的类别占比上升，而泛细胞过程（如细胞周期）占比下降。
 
-### 3) 可能的普适教训 [Analysis]
-- 将「弱但独立的先验」以 soft 方式整合进学习框架，比硬过滤更鲁棒——这一原则可迁移到 IDP/IDR 研究：pLM 对 IDR 介导互作的预测虽不精确，但可作为先验特征融入功能筛选或凝聚体表型的分析。
-- PU 学习天然适配「正例少、未标记多」的生物学场景（如已知互作少、未知互作多），与 IDP/IDR 互作网络的不完整现状高度契合。
-
----
+**3) 可能的普适教训** [Analysis]：
+- 对于 IDP/IDR 介导的互作筛选（如相分离相关表型筛选），若表型测量噪声大，可考虑用 pLM 预测的互作概率作为先验进行精炼——但需注意 IDP 的互作预测可能比 globular 蛋白更具挑战性。
+- 「软先验」优于「硬过滤」：保留连续概率而非二值化，可避免因预测错误导致的不可逆信息丢失。
+- 多模态整合并非总是优于单模态——当某一模态噪声过大时，强行融合可能引入噪声而非信息。
 
 ## 07 方法总览
 
 - **输入**：
-  1. 全基因组 RNAi 筛选的原始 read-out（每个基因的感染表型得分）
-  2. 蛋白质语言模型（pLM）衍生的全基因组 PPI 特征（如嵌入相似度或预测互作概率）
-- **输出**：精炼后的基因排名（每个基因作为真实宿主因子的概率/得分）
+  1. 全基因组 siRNA 筛选 readout（每个基因 3 维表型向量：早期表达、晚期表达、细胞数）
+  2. 人类蛋白序列 + VACV-WR 440 个蛋白序列（用于 xCAPT5 PPI 预测）
+  3. 已确认的 VACV 宿主因子列表（正例集，来源：文献 curated，Table S8）
+- **输出**：每个基因的宿主因子概率（PU 模型输出），以及精炼后的 readout（原始强度 × 概率）
 - **模块**：
-  1. Positive 集合构建：从原始 read-out 中选取高置信度 hit 作为 positive
-  2. 特征工程：将 pLM 衍生的 PPI 信息编码为每个基因的特征向量
-  3. PU 学习分类器：在 positive + unlabelled 上训练，输出每个基因的「真实宿主因子概率」
-  4. Read-out 精炼：将原始 read-out 与 PU 概率融合，生成最终排名
-- **训练**：PU 学习框架（具体算法细节未在摘要中提供）
-- **工具**：蛋白质语言模型（具体模型未在摘要中指定）
-- **反馈回路**：未明确描述（可能通过迭代优化 positive 集合）
-- **假设**：pLM 衍生的 PPI 信息与真实宿主因子身份存在弱但可利用的相关性；PU 学习能有效利用未标记数据中的信息
-- **文字流程**：原始 read-out → 选取 positive → 提取 pLM-PPI 特征 → PU 分类器训练 → 输出精炼概率 → 与原始 read-out 融合 → 最终 hit 排名
+  1. **PPI 预测模块**：xCAPT5（pLM 嵌入 + MLP 分类头），在 VACV 特异性 PPI 数据集上微调（Sled checkpoint，5 个随机初始化）
+  2. **特征聚合模块**：基因 → 蛋白映射，跨亚型取逐维最大值
+  3. **PU learning 模块**：MLP + nnPU loss，正类先验 π_p = 0.05，输入 PPI 特征（440 维）或 PPI + 表型（443 维）
+  4. **Soft-masking 模块**：精炼强度 = 原始强度 × PU 概率
+- **训练**：PPI 分类头用二元交叉熵；PU 模型用 nnPU loss，Adam 优化器，1000 epochs，batch size 32
+- **评测**：Recall@k、Precision@k、Enrichment@k（相对随机选择的富集倍数）；功能富集分析（DAVID/Reactome）
+- **反馈回路**：无显式闭环（模型训练后固定，用于精炼）
+- **假设**：① pLM 预测的 PPI 概率能反映真实互作可能性；② 已知宿主因子（正例集）代表性足够；③ 未标记基因中大部分为非宿主因子（PU 假设）
 
----
+**文字流程**：
+1. 湿实验：siRNA 转染 HeLa 细胞 → VACV-WR 双荧光报告病毒感染 → 高内涵显微镜成像 → 单细胞分割 → 每基因 3 维表型向量
+2. 计算：xCAPT5 预测所有人类蛋白 × 440 VACV 蛋白的互作概率 → 按基因聚合为 440 维 PPI 特征
+3. PU 训练：以已确认宿主因子为正例，其余为未标记，训练 MLP（nnPU loss）
+4. 精炼：原始表型强度 × PU 概率 → 精炼 readout → 重新排序 top 基因 → 功能富集分析
 
 ## 08 核心模块拆解
 
 | 模块 | 功能 | 为何需要 | 输入输出 | 支撑证据 | 移除后的已知或预期影响 |
 |------|------|----------|----------|----------|------------------------|
-| Positive 集合构建 | 从原始 read-out 中识别高置信度 hit 作为正例 | PU 学习需要正例；原始 read-out 中高置信度 hit 相对可靠 | 输入：原始 read-out；输出：positive 基因集合 | 摘要：「positive-unlabelled read-out refinement framework」 | 预期影响：positive 集合质量下降会直接降低 PU 分类器精度 [Analysis] |
-| pLM-PPI 特征提取 | 将 pLM 衍生的 PPI 信息编码为基因特征 | 提供独立于表型的生物学先验 | 输入：蛋白质序列；输出：PPI 特征向量 | 摘要：「integrating protein-protein interaction information derived from a protein language model」 | 预期影响：移除后 ICARus 退化为纯统计方法，失去先验校准能力 [Analysis] |
-| PU 学习分类器 | 在 positive + unlabelled 上学习真实宿主因子概率 | 利用未标记数据中的信息，避免仅依赖 positive | 输入：positive 特征 + unlabelled 特征；输出：每个基因的概率得分 | 摘要：「ICARus - a positive-unlabelled read-out refinement framework」 | 预期影响：移除后无法生成精炼概率，仅剩原始 read-out [Analysis] |
-| Read-out 融合 | 将原始 read-out 与 PU 概率结合生成最终排名 | 保留原始表型信息的同时引入先验校准 | 输入：原始 read-out + PU 概率；输出：精炼排名 | 摘要：「enhances the identification of human genes with potential antiviral function」 | 预期影响：移除融合步骤则 PU 输出与原始 read-out 脱节 [Analysis] |
-
-> 注：以上「预期影响」均为 [Analysis] 推断，原文未提供消融实验数据。
-
----
+| xCAPT5 PPI 预测（Sled + MLP head） | 预测人类蛋白与 VACV 蛋白的互作概率 | 提供生物学先验，弥补实验 PPI 数据库覆盖不足 | 输入：蛋白序列对；输出：互作概率（0-1） | Table 2：微调后 AUROC 0.93, PR AUC 0.94, MCC 0.72 | 预期影响：移除后 PU 模型无输入特征，框架失效（核心依赖） |
+| 基因-蛋白聚合（逐维 max） | 将蛋白级 PPI 概率聚合为基因级特征 | 基因可能编码多个蛋白亚型，需统一到基因水平 | 输入：蛋白级概率向量；输出：基因级 440 维向量 | Methods「Construction of the PU learning data set」 | 预期影响：改用 mean 可能稀释强互作信号；改用 min 可能丢失信息 [Analysis] |
+| PU learning MLP（nnPU loss） | 学习基因是宿主因子的概率 | 处理「未标记≠负例」的问题，避免将未知宿主因子误判为负例 | 输入：PPI 特征（440 维）；输出：概率（0-1） | Table 3：未扰动特征 AUROC 0.77 vs 行置换 0.47 | 实测影响：特征置换后性能降至随机，证明特征含真实信号 |
+| Soft-masking（强度 × 概率） | 对原始 readout 进行置信度加权 | 降低低互作概率基因的权重，抑制 OTE/噪声 | 输入：原始强度 + PU 概率；输出：精炼强度 | Fig. 3a/b：精炼后强度分布向 0 压缩 | 预期影响：移除后回到未精炼 readout，功能富集变稀疏（Fig. 3c 对比） |
+| 多模态门控整合（备选） | 融合表型 + PPI 特征 | 假设表型与互作信息互补 | 输入：3 维表型 + 440 维 PPI；输出：概率 | Fig. S7, Tables S3/S5：未优于 PPI-only | 实测影响：移除表型分支无性能损失，说明表型信息未提供增量 |
+| ICARusPox agentic harness | 提供交互式数据查询 + LLM 接口 | 使数据资源可被 AI agent 自主分析 | 输入：用户查询/LLM API；输出：分析结果/代码执行 | Results 末段；Fig. 4 | 预期影响：移除后数据仍可用但失去 agentic 能力（非核心方法） |
 
 ## 09 关键公式符号
 
-不适用。摘要中未提供具体数学公式或符号定义。
+**1. nnPU loss（非负 PU 损失）**：
+L_nnPU = π_p · E_p[ℓ(f(x), +1)] + max(0, E_u[ℓ(f(x), -1)] - π_p · E_p[ℓ(f(x), -1)])
 
----
+- π_p：正类先验（本文取 0.05）
+- E_p：正例（已知宿主因子）上的期望
+- E_u：未标记数据上的期望
+- ℓ：二分类损失（如交叉熵）
+- f(x)：模型输出
+
+**2. Recall@k**：
+Recall@k = (k 个最高概率预测中已知宿主因子的数量) / (数据集中已知宿主因子总数)
+
+**3. Precision@k**：
+Precision@k = (k 个最高概率预测中已知宿主因子的数量) / k
+
+**4. Enrichment@k**：
+Enrichment@k = Precision@k / (数据集中已知宿主因子总数 / 数据集总基因数)
+
+即 Precision@k 相对随机基线（正类比例）的倍数。
+
+**5. Soft-masking 操作**：
+I_refined = I_raw × P(host factor | gene)
+
+- I_raw：原始筛选强度（早期/晚期表达或细胞数）
+- P(host factor | gene)：PU 模型输出的宿主因子概率
+- I_refined：精炼后强度
 
 ## 10 实验设计与证据链
 
-- **数据集**：全基因组 RNAi 筛选（痘病毒-宿主互作），具体细胞系、文库规模未在摘要中提供
-- **指标**：hit 识别精度/优先排序质量（具体指标未在摘要中提供）
-- **基线**：未在摘要中明确列出（推测为传统统计阈值方法）
-- **评测协议**：未在摘要中提供
-- **oracle 输入**：pLM 衍生的 PPI 信息（具体模型与版本未提供）
+**数据集/群体**：
+- 细胞系：HeLa CCL-2（ATCC）
+- 病毒：重组牛痘病毒 VACV-WR（Western Reserve 株），双荧光报告（EGFP 早期启动子，mCherry 晚期启动子）
+- 筛选规模：全基因组 siRNA 文库（基因数未明确给出，推测覆盖人类基因组）
+- PPI 训练集：HVIDB 来源的 412 条 VACV-WR 实验验证互作（正例）；负例为计算生成的核仁蛋白-病毒蛋白对
+- PU 数据集：1,046 训练 / 104 验证 / 294 测试基因
+- 正例集（已知宿主因子）：文献 curated（Table S8），数量未明确给出
+
+**指标**：AUROC、PR AUC、MCC、Recall@k、Precision@k、Enrichment@k、功能富集（DAVID/Reactome，Benjamini < 0.05）
+
+**基线/对比**：
+- PPI 模型零样本 vs 微调（Table 1, 2）
+- 未扰动 vs 行置换 vs 列置换 PPI 特征（Table 3）
+- 多模态 vs PPI-only（Fig. S7, Tables S3/S5）
+- 精炼前 vs 精炼后功能富集（Fig. 3c, S10）
 
 | 实验 | 检验的 claim | 对比与条件 | 结果 | 支持的结论 | 不支持更强的结论 | 来源 |
-|------|-------------|-----------|------|------------|----------------|------|
-| ICARus 精炼 vs 原始 read-out | pLM-PPI 整合能提升宿主因子识别 | ICARus 精炼排名 vs 原始 read-out 排名 | 摘要：「boosts the discovery of vaccinia virus-host interactions」 | pLM-PPI 整合可提升 hit 优先排序 | 未提供量化指标，无法评估提升幅度 | 摘要 |
-| 抗病毒功能基因识别 | ICARus 能增强抗病毒基因的识别 | 精炼后排名中抗病毒基因的富集 | 摘要：「enhances the identification of human genes with potential antiviral function」 | ICARus 对抗病毒基因有偏好性提升 | 未提供具体基因列表或富集分析 | 摘要 |
-
-> 注：摘要中未提供详细实验数据、消融实验或统计检验，以上仅基于摘要可获取信息。
-
----
+|------|-------------|------------|------|--------------|-------------------|------|
+| PPI 模型基准测试 | xCAPT5 优于 SENSE-PPI 和 MaTPIP | 零样本，VACV 特异性测试集 | xCAPT5 最优（AUROC 0.81, PR AUC 0.76, MCC 0.54） | xCAPT5 适合作为 PPI 先验来源 | 未与其他非 pLM 方法对比 | Table 1 |
+| PPI 模型微调 | Sled checkpoint 微调后性能提升 | Sled vs Pan，5 随机初始化 | Sled 微调后 AUROC 0.93, PR AUC 0.94, MCC 0.72 | Sled 泛化性更好，适合微调 | 未测试其他微调策略 | Table 2, Figs. S2-3 |
+| 特征扰动实验 | PPI 特征含真实预测信号 | 未扰动 vs 行/列置换 | 未扰动 AUROC 0.77 vs 行置换 0.47 / 列置换 0.50 | PPI 特征非随机，含生物学信息 | 未测试部分特征扰动 | Table 3, Figs. S6/S8-9 |
+| 多模态 vs 单模态 | 表型 + PPI 优于 PPI-only | 门控多模态 vs PPI-only | 多模态未优于 PPI-only | 表型特征未提供增量信息 | 未测试更丰富的表型特征 | Fig. S7, Tables S3/S5 |
+| 功能富集分析 | 精炼改变 top 基因功能组成 | 精炼前 vs 精炼后 top 250 基因 | 精炼后「免疫应答与宿主-病原互作」从 14.7% 升至 29.2%（早期高表达）；「膜运输」从 7.6% 升至 27.2%（早期低表达） | 精炼富集了与 VACV 生物学一致的类别 | 未做实验验证新候选基因 | Fig. 3c, S10, Table S10 |
+| 对照质量 | Z'-factor 评估筛选质量 | 阳/阴性对照 | Z'-factor = 0.43 | 筛选质量可接受但边际 | 未与其他筛选平台对比 | Results 第 1 段 |
 
 ## 11 结论正确解读
 
-- **任务范围**：本文聚焦于痘病毒（vaccinia virus）宿主因子的全基因组 RNAi 筛选 read-out 精炼，不涉及其他病毒或表型筛选的验证。
-- **oracle/真值输入**：pLM 衍生的 PPI 信息作为先验输入，其质量直接影响结果；但 pLM 预测的 PPI 本身有噪声，ICARus 的价值在于「弱先验也能提升 aggregate 精度」。
-- **端到端状态**：ICARus 是分析流程而非湿实验流程；其输出是精炼排名，需后续实验验证。
-- **算力成本**：未提供。
-- **历史数据依赖**：依赖全基因组 RNAi 筛选数据的质量；脱靶效应和噪声虽被缓解但未消除。
-- **模型依赖**：依赖 pLM 的嵌入质量；不同 pLM 可能产生不同结果。
-- **最难情形**：对于 pLM 预测 PPI 信号极弱的基因（如 IDR 介导的瞬时互作），ICARus 的增益可能有限 [Analysis]。
-- **群体/领域边界**：结论限于痘病毒-宿主互作筛选；「generalisable strategy」是作者主张，尚未在跨领域验证。
-- **不确定性**：摘要未提供置信区间、效应量或统计检验，无法评估精炼提升的稳健性。
+- **任务范围**：本文仅针对 VACV-WR 感染 HeLa 细胞的 siRNA 筛选 readout 精炼。结论不直接推广到其他病毒、细胞类型或筛选技术（如 CRISPR）。
+- **Oracle/真值输入**：PU 模型的正例集来自文献 curated 的已知宿主因子，其完整性和准确性直接影响模型性能。若正例集有偏（如偏向高表达基因或特定通路），精炼结果也会偏移。
+- **端到端状态**：本文是计算精炼 + 功能富集分析，**未进行二级实验验证**（如独立 siRNA 验证、qPCR、病毒滴度实验）来确认新候选基因的真实功能。精炼后的 top 基因列表是「候选」而非「验证」。
+- **算力成本**：未报告具体训练时间或硬件需求。xCAPT5 微调 + PU 训练的计算成本未量化。
+- **历史数据依赖**：PPI 训练数据来自 HVIDB（实验验证互作），存在出版偏倚（研究充分的蛋白更可能被收录）。
+- **模型依赖**：结果高度依赖 xCAPT5 的 PPI 预测质量。若 pLM 对 IDP/IDR 介导的互作预测不准（IDP 在训练数据中可能代表性不足），则精炼效果会打折扣。
+- **最难情形**：对于与已知宿主因子序列/功能差异大的新基因，PU 模型可能无法正确分类（因正例集代表性有限）。
+- **群体/领域边界**：结论限于痘病毒-人类互作。对 IDP/IDR 相分离系统，pLM 的 PPI 预测能力可能不同，需独立验证。
+- **不确定性**：PR AUC 0.45 表明在严重类别不平衡下，精确率有限；top 250 基因中仍可能包含大量假阳性。
 
-**有边界的复述**：在痘病毒全基因组 RNAi 筛选中，将 pLM 衍生的 PPI 信息以 PU 学习方式整合，可提升宿主因子（尤其抗病毒基因）的识别精度；该策略的跨领域普适性尚待验证。
-
----
+**有边界的复述**：ICARus 利用 pLM 预测的 PPI 概率作为先验，通过 PU learning 对 VACV-WR 全基因组 siRNA 筛选 readout 进行置信度加权，在计算层面改善了已知宿主因子的富集和功能注释一致性，但未提供实验验证，且其效果受限于 PPI 预测质量和正例集完整性。
 
 ## 12 作者自认局限
 
-在提供的材料（摘要）中未发现作者明确承认的局限。
+| 局限 | 具体表现 | 作者提出的未来方向 | 来源 |
+|------|----------|-------------------|------|
+| 依赖正例集质量 | 正例集为文献 curated 的已知宿主因子，可能不完整或有偏 | 周期性更新正例集，纳入新实验证据 | Discussion 第 2 段 |
+| PPI 数据质量与生物学背景 | 实验验证的 VACV-人类 PPI 可能包含体外可检测但体内不发生的互作（如亚细胞定位不兼容） | 更严格地 curation 互作的实验置信度和细胞背景 | Discussion 第 3 段 |
+| 自噬相关基因代表性下降 | 精炼后自噬相关基因的富集减少，可能低估该类宿主因子 | 扩充正例集中自噬相关基因的覆盖 | Discussion 第 2 段（作者提及） |
+| 多模态整合未增益 | 表型 + PPI 特征融合未优于 PPI-only | 探索更信息丰富的表型特征或更复杂的融合策略 | Results（Fig. S7, Tables S3/S5） |
 
 **作者提及的相关约束**（非正式局限）：
-- 摘要中「off-target effects and assay noise obscure true gene-phenotype relationships」暗示筛选数据本身的噪声是 ICARus 试图缓解但无法完全消除的约束。
-- 「generalisable strategy」的表述暗示当前验证范围限于痘病毒系统，跨系统推广尚属展望。
-
----
+- 筛选在 HeLa 细胞中进行，该细胞对 VACV 的干扰素应答较弱，可能影响免疫相关宿主因子的检出（Results 第 4 段）。
+- 评估将未标记基因视为负例，导致性能指标为保守估计（Results 第 3 段）。
 
 ## 13 批判性分析
 
 | [Analysis] 观察 | 潜在问题或替代解释 | 为何重要 | 如何检验 | 依据 |
-|----------------|-------------------|---------|---------|------|
-| pLM-PPI 先验可能引入系统性偏差 | pLM 训练数据偏向研究充分的蛋白家族，IDP/IDR 富集的蛋白可能表征不足，导致先验对这类基因不利 | 若目标基因富集 IDP/IDR，ICARus 可能系统性低估其排名 | 比较 ICARus 精炼前后 IDP/IDR 富集基因的排名变化 | 摘要未提供 pLM 类型与训练数据细节 |
-| PU 学习的 positive 集合构建依赖原始 read-out 阈值 | 阈值选择可能引入主观性，不同阈值下 ICARus 表现可能不稳定 | 影响方法可复现性和跨数据集迁移 | 对阈值进行敏感性分析 | 摘要未提供 positive 选择标准 |
-| 「boosts discovery」缺乏量化支撑 | 摘要未提供效应量、precision/recall 或与基线的统计比较 | 无法评估提升幅度和实际应用价值 | 要求提供与基线方法的量化对比 | 摘要仅定性描述 |
-| 抗病毒基因的「增强识别」可能反映先验偏差而非真实信号 | pLM 可能对已知抗病毒基因（研究充分）有更好的表征，导致先验偏好 | 若如此，ICARus 的增益是「已知知识回响」而非新发现 | 检查精炼后新命中的基因是否在 pLM 训练数据中表征充分 | 摘要未提供新命中基因列表 |
-| Agentic-AI-ready 资源缺乏明确接口定义 | 「agentic-AI-ready」是新兴概念，摘要未说明数据格式、API 或 agent 交互协议 | 影响资源实际可用性和社区采纳 | 要求提供数据 schema 与使用文档 | 摘要仅提及「community resource」 |
-
----
+|-----------------|---------------------|----------|----------|------|
+| 正例集来自文献 curated，存在循环论证风险 | PU 模型可能只是「学会了已知宿主因子的序列特征」，而非「学会了互作生物学」；精炼后的 top 基因可能只是与已知宿主因子相似的基因 | 若如此，新候选基因的发现能力有限 | 用留一法（每次剔除一个已知宿主因子家族）测试模型是否仍能恢复该家族成员；或检查 top 新候选基因与已知宿主因子的序列相似性分布 | Methods「Construction of the PU learning data set」；[Analysis] |
+| 核仁蛋白作为负例的合理性 | 核仁蛋白与 VACV 不互作的前提是否成立？VACV 虽在细胞质复制，但已有报道某些病毒蛋白可进入核仁 | 若负例有误，PPI 模型会学到错误的判别边界 | 检查核仁蛋白中是否有已知的 VACV 互作蛋白；用其他亚细胞定位蛋白（如线粒体）作为替代负例重复实验 | Methods「Construction of the PPI data set」；[Analysis] |
+| 多模态失败可能源于特征质量而非融合策略 | 3 维表型特征（早期/晚期表达、细胞数）信息量有限，可能不足以代表表型；门控机制可能过于简单 | 若表型特征本身信息不足，结论「表型无增益」可能过度推广 | 用更丰富的表型特征（如单细胞形态学特征、多时间点动态特征）重复多模态实验 | Fig. S7, Tables S3/S5；[Analysis] |
+| 未报告 PPI 模型在 IDP/IDR 富集蛋白上的表现 | 痘病毒蛋白和人类蛋白中均含 IDR，但 pLM 对 IDR 介导互作的预测能力可能弱于 globular 结构域介导的互作 | 若 IDR 互作预测不准，精炼会系统性低估 IDR 介导的宿主因子 | 将测试集按互作蛋白是否含 IDR 分层，分别报告 AUROC/PR AUC | Table 1-2；[Analysis] |
+| 「Agentic-AI-ready」缺乏验证 | 文章声称数据资源可供 AI agent 使用，但未展示 agent 实际使用该资源产生新发现的案例 | 若 agentic 架构无法产生可验证的新假设，该宣称可能过度 | 用 LLM agent 在 ICARusPox 上执行一个具体分析任务，评估其输出与专家分析的一致性 | Results 末段；Fig. 4；[Analysis] |
+| 未与简单基线对比 | 未对比「仅用已知互作数据库（如 HVIDB 本身）做硬过滤」或「仅用 PU 模型无 PPI 特征」的基线 | 无法判断 pLM 先验的增量贡献 | 增加消融：仅用 HVIDB 已知互作做二值掩蔽 vs ICARus 软掩蔽 | Table 3；[Analysis] |
 
 ## 14 Agent 提炼的知识候选
 
-> 面向课题方向：IDP/IDR × 蛋白互作 × AI/物理模拟
+**标题：Agent 提炼的知识候选**
 
-1. **pLM-PPI 作为 soft prior 的通用框架**：ICARus 的核心思想——用 pLM 衍生的 PPI 信息作为 PU 学习中的辅助特征——可直接迁移到 IDP/IDR 研究。例如，在 IDR 介导的相分离候选蛋白筛选中，可将 pLM 预测的互作特征与凝聚体表型 read-out 结合，提升 hit 优先排序。
+1. **「软先验」优于「硬过滤」的通用原则**：ICARus 用连续 PPI 概率（而非二值互作/非互作）进行 readout 精炼，保留了不确定性信息。可迁移至 IDP/IDR 课题：对相分离相关筛选（如高通量凝聚体成像筛选），可用 pLM 预测的互作/相分离倾向作为连续先验进行软加权，而非硬性排除低分基因。
 
-2. **PU 学习适配 IDR 互作网络的不完整性**：IDP/IDR 互作网络已知高度不完整（正例少、未标记多），PU 学习天然适配这一场景。可将已知的 IDR 介导互作作为 positive，其余作为 unlabelled，用 pLM 特征训练分类器预测新的 IDR 互作。
+2. **pLM 预测的 PPI 概率可作为「通用互作先验」**：xCAPT5 等 pLM 模型无需实验互作数据即可预测互作概率，对新发病毒（如猴痘）或研究较少的 IDP 体系尤其有价值。可迁移：对 IDP 介导的互作，可用 pLM 预测的互作概率作为先验，弥补实验 PPI 数据库对 IDP 覆盖不足的问题。
 
-3. **弱先验的 aggregate 价值**：pLM 对 IDR 介导的弱/瞬时互作预测可能不精确，但 ICARus 的逻辑表明「弱但独立」的先验在 aggregate 层面仍有校准价值——这为「用 pLM 预测 IDR 互作虽不准但有用」提供了方法论辩护。
+3. **PU learning 是处理「未标记≠负例」的合适框架**：在筛选数据中，未验证的基因不应视为负例。nnPU loss 显式建模正类先验（π_p），避免将未知宿主因子误判为负例。可迁移：在 IDP 功能筛选中，未验证的基因同样应视为未标记而非负例。
 
-4. **read-out 精炼作为通用分析层**：任何「表型筛选 + 互作先验」的结构（如凝聚体突变筛选 + AlphaFold 互作预测）都可套用 ICARus 的 read-out 精炼思路，作为湿实验前的计算预筛层。
+4. **功能富集分析作为精炼效果的验证手段**：ICARus 用 Reactome 通路富集来评估精炼是否「生物学合理」，而非仅看统计指标。可迁移：在 IDP/相分离筛选中，可用相分离相关通路/基因本体（如「膜less 细胞器」、「RNA 结合」）的富集变化来评估精炼效果。
 
-5. **Agentic-AI-ready 数据资源范式**：将筛选数据以 agent 可交互的格式发布，是未来功能基因组数据共享的方向；IDR/相分离领域可借鉴此范式，发布凝聚体筛选的标准化数据资源。
+5. **多模态整合需谨慎**：ICARus 发现表型 + PPI 融合未优于 PPI-only，提示「更多模态 ≠ 更好性能」。可迁移：在 IDP 预测中，整合序列、结构、翻译后修饰等多模态特征时，需逐一验证各模态的增量贡献，避免模态主导/坍缩。
 
----
+6. **数据资源设计为「Agentic-ready」**：ICARusPox 将数据 + 分析函数 + LLM 接口打包，使 AI agent 可自主查询和分析。可迁移：在 IDP/相分离领域，可构建类似资源（如相分离相关筛选数据 + 分析工具 + LLM 接口），加速领域内 AI 驱动的假设生成。
+
+7. **负例构建需谨慎**：ICARus 用「核仁蛋白」作为负例，基于 VACV 细胞质复制的生物学假设。可迁移：在 IDP 互作预测中，负例构建需考虑 IDP 的亚细胞定位和相分离行为，避免将「不互作」误判为「不在同一细胞器」。
 
 ## 15 与已有知识连接
 
-- **pLM 用于 PPI 预测**：ESM 等 pLM 已被广泛用于 PPI 预测（如 ESM-1v、ESM2 嵌入 + 下游分类器）。本文将其用于筛选 read-out 精炼而非直接 PPI 预测，是应用场景的迁移。相关文献：Lin et al., Science 2023 (ESM2)；Chowdhury et al., 2022 (ESM-fold)。
-- **PU 学习在生物医学的应用**：PU 学习已用于药物-靶点预测、基因-疾病关联发现等场景。本文将其引入功能筛选分析，属于方法迁移。相关方向：Yang et al., Briefings in Bioinformatics 2012 (PU learning for gene-disease)。
-- **RNAi 筛选的噪声问题**：RNAi 脱靶效应是已知难题，已有多种计算校正方法（如 seed-based off-target prediction）。ICARus 的贡献在于引入独立先验而非改进脱靶预测本身。
-- **与 IDP/IDR 研究的连接 [Analysis]**：IDR 介导的互作通常为弱亲和力、瞬时互作，实验检测难度高，pLM 对此类互作的预测能力尚不明确。ICARus 的「弱先验可用」逻辑为这一困境提供了潜在出路，但需在 IDR 数据集上验证。
-- **与相分离研究的连接 [Analysis]**：相分离凝聚体的功能筛选（如以凝聚体形成/解离为表型）可类比 RNAi 筛选，ICARus 的 read-out 精炼框架可直接迁移。
+1. **Rämö et al. 2014（本文筛选方法来源）**：本文的湿实验筛选方案完全沿用 Rämö 等的 VACV-WR 双荧光报告系统。该文献是痘病毒宿主因子筛选的经典方法学参考。
 
----
+2. **xCAPT5 / SENSE-PPI / MaTPIP（pLM PPI 预测模型）**：本文基准测试的三个模型代表当前 pLM 用于 PPI 预测的前沿。xCAPT5 的 cross-attention 架构和 SENSE-PPI 的 ESM-2 嵌入是 IDP 互作预测可借鉴的工具。
 
-## 16 Agent 生成的研究候选
+3. **PU learning 在生物筛选中的应用**：nnPU loss 源自 Kiryo et al. (2017) 的非负 PU 学习理论。在药物筛选和功能基因组学中已有应用，但本文是首个将其用于病毒筛选 readout 精炼的工作。
 
-> 标题：Agent 生成的研究候选
+4. **HVIDB（Human-Virus Interaction Database）**：本文 PPI 正例来源。该数据库对 IDP/IDR 相关病毒-宿主互作的覆盖情况值得关注——若 IDP 介导的互作在 HVIDB 中代表性不足，则类似方法在 IDP 体系中的效果需重新评估。
 
-1. **候选名称**：IDR-PU：基于 pLM 与 PU 学习的 IDR 介导互作功能筛选精炼
-   - **来源局限/观察**：ICARus 在痘病毒筛选中有效，但 IDR 介导互作具有弱/瞬时特性，pLM 先验可能更弱，需验证「弱先验」逻辑在 IDR 场景是否成立。
-   - **核心假设**：pLM 衍生的 PPI 特征即使对 IDR 介导互作预测不精确，也能在 PU 框架中提升功能筛选的 hit 优先排序。
-   - **初步方法**：选取一个 IDR 富集的功能筛选数据集（如应激颗粒/相分离相关 RNAi 筛选），用 ESM2 嵌入提取 PPI 特征，套用 ICARus 的 PU 框架，比较精炼前后 hit 精度。
-   - **验证方式**：用已知的 IDR 介导互作数据库（如 ELM、IUPred 注释）作为 ground truth，计算 precision@k 和 AUPRC。
-   - **可能的失败模式**：pLM 对 IDR 介导互作的特征区分度过低，PU 分类器无法学到有效信号；或 IDR 相关表型筛选的噪声结构不同于病毒筛选，PU 假设不成立。
-   - **创新状态**：unverified
+5. **Agentic AI 在生物数据资源中的应用**：ICARusPox 与近期「AI-ready 数据」和「agentic 科学发现」趋势一致。类似资源如 BioAutoMATED、Cradle 等正在兴起，本文提供了一个病毒学领域的实例。
 
-2. **候选名称**：凝聚体筛选的 agentic-AI-ready 数据资源
-   - **来源局限/观察**：ICARus 发布了痘病毒筛选的 agentic-ready 数据，但相分离/凝聚体领域缺乏类似标准化资源。
-   - **核心假设**：将凝聚体相关筛选数据以标准化、agent 可交互格式发布，可加速领域内 AI 方法的开发与验证。
-   - **初步方法**：整合现有凝聚体筛选数据集（如 stress granule、P-body 相关 RNAi/CRISPR 筛选），定义统一 schema，提供 API 接口。
-   - **验证方式**：邀请领域内研究者试用，评估数据可发现性和可交互性。
-   - **可能的失败模式**：数据异质性过高，标准化成本大于收益；社区采纳率低。
-   - **创新状态**：unverified
+6. **[Analysis] 与 IDP/相分离课题的潜在连接**：痘病毒蛋白（如 VACV 的 A49、C6 等）含 IDR，且病毒复制工厂（viral factories）具有类似相分离的凝聚体特征。本文的 PPI 先验精炼框架若与 IDP 特异性预测模型（如 AIUPred、IUPred3）结合，可能用于发现 IDP 介导的病毒-宿主互作。
 
-3. **候选名称**：pLM 先验 vs AlphaFold 先验在筛选精炼中的对比
-   - **来源局限/观察**：ICARus 用 pLM 衍生的 PPI 信息，但 AlphaFold-Multimer 等结构预测工具也提供互作先验，两者在筛选精炼中的相对价值未知。
-   - **核心假设**：AlphaFold 先验对高置信度结构互作更精确，但覆盖度低；pLM 先验覆盖广但噪声高——两者在 PU 框架中可能互补。
-   - **初步方法**：在同一筛选数据集上分别用 pLM 特征和 AlphaFold 特征训练 PU 分类器，比较精炼效果；再尝试特征融合。
-   - **验证方式**：交叉验证 + 独立验证集上的 hit 精度比较。
-   - **可能的失败模式**：AlphaFold 先验覆盖度过低，无法提供有效信号；或两种先验高度相关，融合无增益。
-   - **创新状态**：unverified
+## 16 研究想法
 
-4. **候选名称**：IDR 介导互作的「弱先验」理论边界
-   - **来源局限/观察**：ICARus 的成功依赖「弱先验在 aggregate 层面有用」这一假设，但该假设的适用边界（先验多弱才失效？）未探索。
-   - **核心假设**：存在一个先验-噪声比阈值，低于该阈值时 PU 精炼不再优于纯统计方法。
-   - **初步方法**：在模拟数据上系统变化先验强度（信噪比），绘制 ICARus 性能曲线，确定失效边界；再用真实 IDR 数据验证。
-   - **验证方式**：模拟实验 + 真实数据对照。
-   - **可能的失败模式**：真实数据的先验强度难以精确控制，模拟与真实结果不一致。
-   - **创新状态**：unverified
+**标题：Agent 生成的研究候选**
+
+1. **候选名称**：IDR-aware PPI prior for phase-separation screen refinement
+   - **来源局限/观察**：ICARus 的 PPI 先验来自通用 pLM，未显式考虑 IDP/IDR 介导的互作特征；相分离相关筛选（如凝聚体形成表型）的 readout 噪声可能更大。
+   - **核心假设**：将 IDR 预测分数（如 IUPred3、AIUPred）与 pLM PPI 概率结合作为先验，可更精准地精炼相分离相关筛选的 readout。
+   - **相对本文的增量**：在 ICARus 框架中引入 IDR 特异性特征通道，并评估其对 IDP 介导互作基因的富集提升。
+   - **初步方法**：在 PU 特征向量中拼接 IDR 倾向分数；或在 xCAPT5 嵌入基础上叠加 IDR 预测嵌入。
+   - **验证方式**：用已知相分离蛋白（如 FUS、TDP-43、HNRNPA1）作为正例集，比较 IDR-aware 与通用 PPI 先验的 Recall@k 和功能富集。
+   - **可能的失败模式**：IDR 预测分数与 PPI 概率高度共线，无增量信息；或相分离蛋白在筛选 readout 中本身信号弱，精炼无法恢复。
+
+2. **候选名称**：Cross-species poxvirus host factor prioritisation via transferable PPI priors
+   - **来源局限/观察**：ICARus 仅在 VACV-WR 上验证；猴痘病毒（MPXV）的宿主因子筛选数据稀缺，但其与 VACV 共享部分宿主互作。
+   - **核心假设**：VACV 上训练的 PPI 先验可迁移至 MPXV 的筛选 readout 精炼，因两种病毒蛋白序列相似性高。
+   - **相对本文的增量**：将 ICARus 框架从 VACV 扩展到 MPXV，验证跨病毒株的可迁移性。
+   - **初步方法**：用 VACV 训练的 PU 模型直接应用于 MPXV 筛选数据（若有），或用 MPXV 蛋白序列重新生成 PPI 特征。
+   - **验证方式**：比较 VACV 先验 vs MPXV 特异性先验在 MPXV 筛选数据上的富集效果。
+   - **可能的失败模式**：VACV 与 MPXV 的宿主互作差异大，迁移学习无效；或 MPXV 筛选数据不可得。
+
+3. **候选名称**：Agentic LLM-driven iterative screen refinement with uncertainty-aware tool use
+   - **来源局限/观察**：ICARusPox 提供 agentic 接口但未验证 LLM 能否有效使用；LLM 可能产生幻觉或误用分析函数。
+   - **核心假设**：通过工具调用（function calling）约束 LLM 的分析流程，可减少幻觉并提高假设生成质量。
+   - **相对本文的增量**：系统评估 LLM 在 ICARusPox 上的分析能力，并设计工具调用的约束机制。
+   - **初步方法**：定义标准分析工作流（如「先查 PPI 分数 → 再查表型 → 最后做富集」），强制 LLM 按流程调用工具。
+   - **验证方式**：用已知宿主因子作为「ground truth」，比较自由对话 vs 工具约束模式下 LLM 的发现率。
+   - **可能的失败模式**：工具约束过度限制 LLM 的探索能力；或 LLM 仍无法理解领域特定概念（如 OTE、PU learning）。
+
+4. **候选名称**：Multimodal screen refinement with single-cell morphological features
+   - **来源局限/观察**：ICARus 的表型特征仅 3 维（早期/晚期表达、细胞数），信息量有限；多模态融合未带来增益可能源于特征过于粗糙。
+   - **核心假设**：更丰富的单细胞形态学特征（如细胞面积、核质比、斑点状荧光分布）可提供互补信息，使多模态融合优于 PPI-only。
+   - **相对本文的增量**：用 CellProfiler 提取更多形态学特征，重新评估多模态融合。
+   - **初步方法**：从原始图像中提取 50-100 维形态学特征，与 PPI 特征拼接，用门控注意力融合。
+   - **验证方式**：比较 3 维 vs 高维表型特征下的多模态性能。
+   - **可能的失败模式**：形态学特征与 PPI 特征高度相关；或高维特征导致过拟合。
+
+5. **候选名称**：IDP-centric PPI prior for viral factory-associated host factor discovery
+   - **来源局限/观察**：痘病毒复制工厂具有相分离特征，但 ICARus 的 PPI 先验未针对此生物学过程优化。
+   - **核心假设**：与复制工厂相关的宿主因子富含 IDR，且其互作模式更接近「弱多价互作」而非「强二聚化」。
+   - **相对本文的增量**：将 IDR 介导的弱互作特征（如重复序列、低复杂度区域）纳入 PPI 预测模型。
+   - **初步方法**：在 xCAPT5 嵌入基础上，叠加低复杂度区域（LCD）注释和 IDR 预测分数作为额外特征。
+   - **验证方式**：检查精炼后 top 基因中与复制工厂/凝聚体相关的功能类别富集是否提升。
+   - **可能的失败模式**：现有 pLM 嵌入已隐式编码 IDR 特征，显式叠加无增益；或复制工厂相关宿主因子在筛选 readout 中信号弱。

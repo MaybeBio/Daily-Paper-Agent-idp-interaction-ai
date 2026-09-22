@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40748104",
+  "title": "Unraveling the impact of interaction types on phase separation of intrinsically disordered protein chains.",
+  "authors": "Chen, Yuan-Qiang; Sheng, Yan-Jing; Ma, Yu-Qiang; Ding, Hong-Ming",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-08-01",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用耗散粒子动力学模拟系统比较疏水与特异性相互作用对IDP链相分离行为、网络结构与材料性质的影响，直接聚焦无序蛋白相分离中的互作机制建模，方法为物理模拟，对象与互作轴均强，但未涉及具体蛋白-蛋白结合界面或AI方法，故评8分。",
+  "abstract": "Biomolecular condensates, formed through liquid-liquid phase separation (LLPS) of biomolecules, play essential roles in various cellular processes. Despite significant advances in understanding the driving forces behind LLPS, the specific impact of different types of interactions on phase separation behaviors remains underexplored. In this study, we utilized dissipative particle dynamics simulations to analyze the network structure, material properties, and dynamic behavior of intrinsically disordered protein (IDP) chains under hydrophobic and specific interactions with varying strengths. Our results demonstrate that while both hydrophobic and specific interactions can lead to phase separation, they produce distinct behaviors. Hydrophobic interactions promote the formation of more dynamic clusters, whereas specific interactions result in more stable condensates due to longer bond lifetimes and reduced mobility among IDP chains. Notably, the viscosity and diffusion coefficients of the condensates varied significantly between the two types of interactions, reflecting their differing material properties. Furthermore, in the case of alternating chains, specific interactions were not sufficient to induce phase separation structures. Overall, this study highlights the critical role of interaction types in shaping the phase separation behaviors of IDPs, providing valuable insights for fine-tuning the properties of biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体通过生物分子的液-液相分离（liquid-liquid phase separation, LLPS）形成，在多种细胞过程中发挥重要作用。尽管在理解LLPS驱动力方面取得了显著进展，但不同类型相互作用对相分离行为的具体影响仍未得到充分探索。在本研究中，我们利用耗散粒子动力学（dissipative particle dynamics）模拟，分析了内在无序蛋白（intrinsically disordered protein, IDP）链在疏水性和特异性相互作用及不同强度下的网络结构、材料性质和动态行为。我们的结果表明，虽然疏水性和特异性相互作用都能导致相分离，但它们产生不同的行为。疏水性相互作用促进形成更具动态性的簇，而特异性相互作用则因更长的键寿命和IDP链间迁移率降低，导致形成更稳定的凝聚体。值得注意的是，两种相互作用类型下凝聚体的粘度和扩散系数存在显著差异，反映了它们不同的材料性质。此外，在交替链的情况下，特异性相互作用不足以诱导相分离结构。总体而言，本研究强调了相互作用类型在塑造IDP相分离行为中的关键作用，为精细调控生物分子凝聚体的性质提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40748104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40748104/",
+  "paper_page_path": "papers/pubmed/40748104/index.html"
+}

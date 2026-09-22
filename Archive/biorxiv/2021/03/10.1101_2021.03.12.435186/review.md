@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that the SARS-CoV-2 Nsp8 N-terminal domain (NTD) contains both folded secondary structure and disordered segments, that two long α-helices fold autonomously, that other segments require interaction with replicase components for folding, and that the isolated NTD dimerizes under the conditions used, based on NMR spectroscopy.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, NMR data (e.g., chemical shift assignments, relaxation measurements, dimerization assays), figures, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the structural biology of SARS-CoV-2 Nsp8, addressing a debated aspect of its NTD conformation. The claims are plausible and align with prior observations of conformational variability in this domain. However, the evidence base is limited to a summary, and key experimental details necessary to evaluate the rigor of the NMR analysis, the dimerization assessment, and the interpretation of autonomous folding are not accessible. The conclusions are not yet established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists and virologists studying coronavirus replication complexes would be interested, as the Nsp8 NTD conformation and its dimerization state are relevant to understanding the architecture and assembly of the RNA replicase. Researchers using NMR to study intrinsically disordered or partially folded proteins may also find the methodological approach relevant.
+- **Major strengths** The study addresses a specific, unresolved question about Nsp8 NTD conformation, which is of clear relevance to the field. The use of NMR to directly probe secondary structure and dynamics is appropriate for this system. The claim that the NTD contains both folded and disordered elements is nuanced and consistent with the known context-dependent behavior of this domain.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the Nsp8 NTD "behaves as a dimer under our conditions" based on dynamics measurements.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that dynamics measurements indicate dimerization, but no details are given on the specific NMR experiments used (e.g., diffusion-ordered spectroscopy, relaxation dispersion, or concentration-dependent chemical shift changes), the protein concentration range tested, or how the dimerization affinity or stoichiometry was determined. Without these details, the dimerization claim cannot be evaluated for robustness.  
+  - **Why it matters** Dimerization is a central conclusion of the abstract, and if the evidence is insufficient or misinterpreted, the overall message of the study would be weakened. The concentration dependence of oligomerization is critical, as nonspecific aggregation or transient interactions could be misassigned as a specific dimer.  
+  - **Resolution test** Provide the full methods and data for the dynamics measurements, including experimental conditions, concentration series, and analysis procedures, to demonstrate that the dimerization is specific and well-characterized.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "the α-helix population progressively declines towards the C-termini" of the NTD, and that two long α-helices fold autonomously.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify how the α-helix population was quantified, which residues or regions were analyzed, or how the boundary between autonomously folded and interaction-dependent segments was established. The claim of progressive decline toward the C-termini implies a gradient that requires residue-specific data, but no such data are shown.  
+  - **Why it matters** The interpretation that some segments fold autonomously while others require interaction partners is a key conceptual advance, but it depends on accurate residue-level secondary structure assignments. Without supporting data, the claim is not verifiable.  
+  - **Resolution test** Include residue-specific chemical shift index or secondary structure propensity data, and clearly define the criteria for "autonomous folding" versus "interaction-dependent folding."  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors state that the NTD "features both well folded secondary structure and disordered segments," which is a central finding.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No information is provided on the protein construct used, the expression and purification conditions, the NMR sample conditions (e.g., buffer, pH, temperature, ionic strength), or the assignment completeness. These factors strongly influence the observed conformational behavior, and their absence prevents assessment of reproducibility.  
+  - **Why it matters** NMR-based conclusions about protein folding and dynamics are highly sensitive to sample conditions. Without this information, the findings cannot be reproduced or compared to prior studies.  
+  - **Resolution test** Provide full experimental details for protein production and NMR data acquisition, including assignment statistics and sample conditions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "the folding of other segments would require interaction with other replicase components" is speculative and not directly tested in the abstract.  
+  - **Required correction** Clarify whether this is a hypothesis or a conclusion supported by data, and if supported, specify the evidence.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Background  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions an "open debate" regarding NTD conformation but does not cite or summarize prior conflicting results, which would help position the new findings.  
+  - **Required correction** Add a brief statement of prior observations and how the current results resolve or refine the debate.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "autonomously folded elements" is not defined, and it is unclear whether this refers to stable tertiary structure or just secondary structure propensity.  
+  - **Required correction** Define the term explicitly in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The dimerization claim, the residue-level secondary structure analysis, and the reproducibility of the NMR measurements are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work addresses a specific unresolved question, but the abstract does not demonstrate a conceptual advance beyond prior structural studies of Nsp8. The claim of autonomous folding elements is interesting but not clearly novel.  
+  - **Scientific importance** The Nsp8 NTD is relevant to understanding the SARS-CoV-2 replicase, so the topic is of importance, but the abstract does not show how the findings change the current understanding of the replication complex.  
+  - **Interdisciplinary readership** The findings would appeal primarily to structural biologists and virologists; the abstract is not framed to attract a broader audience.  
+  - **Technical soundness** Not assessable from the abstract; key experimental details are missing.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms like "autonomously folded" and "dynamics measurements" assume specialist knowledge.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible findings, but the lack of experimental detail prevents verification of the central claims. Supportive if technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that the Nsp8 NTD dimerizes is unsupported without details on the dynamics measurements and concentration dependence.
+- The claim that α-helix population declines toward the C-termini is unsupported without residue-specific data.
+- The claim that some segments require interaction with other replicase components for folding is speculative and not directly tested.
+- The overall conclusion that the NTD features both folded and disordered elements is plausible but not verifiable from the abstract alone.

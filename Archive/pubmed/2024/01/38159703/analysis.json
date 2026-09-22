@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38159703",
+  "title": "Severe acute respiratory syndrome Coronavirus-2 GenoAnalyzer and mutagenic anomaly detector using FCMFI and NSCE.",
+  "authors": "Dubey, Shivendra; Verma, Dinesh Kumar; Kumar, Mahesh",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-01-02",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用AI工具分析SARS-CoV-2基因组序列和突变，虽提及结构化/非结构化蛋白受突变影响，但核心是病毒基因组模式挖掘，非无序蛋白介导的PPI机制建模，与本课题关联微弱。",
+  "abstract": "In order to deepen our understanding of the virus and help guide the creation of efficient therapies, this study uses artificial intelligence tools to thoroughly explore the genetic sequences of the SARS-CoV-2 virus. The process starts by using the Fuzzy Closure Miner for Frequent Itemsets (FCMFI) on a large corpus of SARS-CoV-2 genomic sequences to reveal hidden patterns, including nucleotides base sequences, repeating motifs, and corresponding interchanges. Then, using the Nucleotide Sequence Comprehension Engine (NSCE) technique, we were able to precisely define the genomic areas for mutation analysis. Structured and unstructured proteins are both strongly impacted by virus mutations, with spike proteins that are linked to the severity of COVID-19 pneumonia being particularly affected. Notably, the Mutagenic Anomaly Detector shows a 65 % efficiency boost in computing genome mutation rates compared to conventional point mutation analysis, while GenoAnalyzer offers a remarkable 93.33 % improvement over existing approaches in recognizing common genomic sequence patterns. These results highlight the potential of FCMFI to reveal complex genomic patterns and significant insights in COVID-19 genetic sequences when combined with mutation analysis. The Mutagenic Anomaly Detector and GenoAnalyzer show promise for revealing hidden genomic patterns and precisely estimating the SARS-CoV-2 mutation rate.",
+  "abstract_zh": "为了加深我们对病毒的理解并帮助指导高效疗法的创建，本研究利用人工智能工具深入探索SARS-CoV-2病毒的基因序列。该过程首先对大量SARS-CoV-2基因组序列语料库使用频繁项集模糊闭包挖掘器（FCMFI），以揭示隐藏模式，包括核苷酸碱基序列、重复基序及相应的互换。随后，利用核苷酸序列理解引擎（NSCE）技术，我们能够精确定义用于突变分析的基因组区域。结构性和非结构性蛋白质均受到病毒突变的强烈影响，其中与COVID-19肺炎严重程度相关的刺突蛋白尤其受影响。值得注意的是，突变异常检测器在计算基因组突变率方面相比传统点突变分析显示出65%的效率提升，而GenoAnalyzer在识别常见基因组序列模式方面相比现有方法提供了显著的93.33%改进。这些结果凸显了FCMFI在结合突变分析时揭示COVID-19基因序列中复杂基因组模式和重要见解的潜力。突变异常检测器和GenoAnalyzer有望揭示隐藏的基因组模式并精确估计SARS-CoV-2突变率。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38159703/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38159703/",
+  "paper_page_path": "papers/pubmed/38159703/index.html"
+}

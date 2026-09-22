@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34156864",
+  "title": "Pressure and Temperature Phase Diagram for Liquid-Liquid Phase Separation of the RNA-Binding Protein Fused in Sarcoma.",
+  "authors": "Li, Shujie; Yoshizawa, Takuya; Yamazaki, Ryota; Fujiwara, Ayano; Kameda, Tomoshi; Kitahara, Ryo",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-06-23",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过高压实验与分子动力学模拟研究FUS蛋白液-液相分离的压力-温度相图，揭示不同凝聚态下静电、阳离子-π等互作机制变化，属于IDP相分离PPI机制建模，方法含物理模拟，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of proteins and nucleic acids to form membraneless cellular compartments is considered to be involved in various biological functions. The RNA-binding protein fused in sarcoma (FUS) undergoes LLPS in vivo and in vitro. Here, we investigated the effects of pressure and temperature on the LLPS of FUS by high-pressure microscopy and high-pressure UV/vis spectroscopy. The phase-separated condensate of FUS was obliterated with increasing pressure but was observed again at a higher pressure. We generated a pressure-temperature phase diagram that describes the phase separation of FUS and provides a general understanding of the thermodynamic properties of self-assembly and phase separation of proteins. FUS has two types of condensed phases, observed at low pressure (LP-LLPS) and high pressure (HP-LLPS). The HP-LLPS state was more condensed and exhibited lower susceptibility to dissolution by 1,6-hexanediol and karyopherin-beta2 than the LP-LLPS state. Moreover, molecular dynamic simulations revealed that electrostatic interactions were destabilized, whereas cation-pi, pi-pi, and hydrophobic interactions were stabilized in HP-LLPS. When cation-pi, pi-pi, and hydrophobic interactions were transiently stabilized in the cellular environment, the phase transition to HP-LLPS occurred; this might be correlated to the aberrant enrichment of cytoplasmic ribonucleoprotein granules, leading to amyotrophic lateral sclerosis.",
+  "abstract_zh": "蛋白质和核酸的液-液相分离（LLPS）形成无膜细胞区室，被认为参与多种生物功能。RNA结合蛋白肉瘤融合蛋白（FUS）在体内和体外均发生LLPS。在此，我们通过高压显微镜和高压紫外/可见光谱研究了压力和温度对FUS LLPS的影响。随着压力增加，FUS的相分离凝聚体被消除，但在更高压力下再次观察到。我们绘制了一个压力-温度相图，描述了FUS的相分离，并提供了对蛋白质自组装和相分离热力学性质的总体理解。FUS具有两种类型的凝聚相，分别在低压（LP-LLPS）和高压（HP-LLPS）下观察到。HP-LLPS状态更为浓缩，并且对1,6-己二醇和karyopherin-beta2的溶解敏感性低于LP-LLPS状态。此外，分子动力学模拟揭示，在HP-LLPS中，静电相互作用被去稳定化，而阳离子-π、π-π和疏水相互作用被稳定化。当阳离子-π、π-π和疏水相互作用在细胞环境中瞬时稳定时，发生向HP-LLPS的相转变；这可能与细胞质核糖核蛋白颗粒的异常富集相关，从而导致肌萎缩侧索硬化症。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34156864/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34156864/",
+  "paper_page_path": "papers/pubmed/34156864/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34214536",
+  "title": "Introducing intrinsic disorder reduces electrostatic steering in protein-protein interactions.",
+  "authors": "Gao, Meng; Han, Yue; Zeng, Yifan; Su, Zhengding; Huang, Yongqi",
+  "journal": "Biophysical journal",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过分子动力学模拟研究无序化对E3/Im3复合物静电导向作用的影响，揭示无序蛋白通过构象差异而非结合机制改变静电导向，直接聚焦IDP介导的PPI机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Protein-protein interactions underlie many critical biology functions, such as cellular signaling and gene expression, in which electrostatic interactions can play a critical role in mediating the specificity and stability of protein complexes. A substantial portion of proteins are intrinsically disordered, and the influences of structural disorder on binding kinetics and thermodynamics have been widely investigated. However, whether the effect of electrostatic steering depends on structural disorder remains unexplored. In this work, we addressed the consequence of introducing intrinsic disorder in the electrostatic steering of the E3/Im3 complex using molecular dynamics simulation. Our results recapitulated the experimental observations that the responses of stability and kinetics to salt concentration for the ordered E3/Im3 complex were larger than those for the disordered E3/Im3 complex. Mechanistic analysis revealed that the native contact interactions involved in the encounter state and the transition state were essentially identical for both ordered and disordered E3. Therefore, the observed difference in electrostatic steering between ordered E3 and disordered E3 may result from their difference in conformation rather than their difference in binding mechanism. Because charged residues are frequently involved in protein-protein interactions, our results suggest that increasing structural disorder is expected to generally modulate the effect of electrostatic steering.",
+  "abstract_zh": "蛋白质-蛋白质相互作用是许多关键生物学功能的基础，例如细胞信号传导和基因表达，其中静电相互作用在介导蛋白质复合物的特异性和稳定性方面可发挥关键作用。相当一部分蛋白质是 intrinsically disordered（内在无序的），结构无序对结合动力学和热力学的影响已被广泛研究。然而，静电导向（electrostatic steering）的作用是否依赖于结构无序仍未得到探索。在本工作中，我们利用分子动力学 (molecular dynamics) 模拟，研究了在E3/Im3复合物的静电导向中引入内在无序的后果。我们的结果重现了实验观察，即有序E3/Im3复合物对盐浓度的稳定性和动力学响应大于无序E3/Im3复合物。机制分析揭示，参与遭遇态和过渡态的天然接触相互作用在有序和无序E3中基本一致。因此，观察到的有序E3和无序E3之间静电导向的差异可能源于其构象差异，而非结合机制差异。由于带电残基经常参与蛋白质-蛋白质相互作用，我们的结果表明，增加结构无序预计可普遍调节静电导向的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34214536/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34214536/",
+  "paper_page_path": "papers/pubmed/34214536/index.html"
+}

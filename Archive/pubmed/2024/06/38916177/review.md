@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulation and Markov state model (MSM) analysis to study the folding-upon-binding mechanism of the intrinsically disordered p53 transactivation domain (TAD) with MDM2. They report an induced-fit progression from a nascent encounter complex to a well-structured encounter complex and finally to the native complex. They claim that nonnative hydrophobic and hydrogen bond interactions, in combination with native interactions, stabilize the encounter complexes, with Leu25(p53)-Leu54(MDM2) and Leu25(p53)-Phe55(MDM2) being particularly notable. They further claim that strengthening or weakening these interactions adversely affects binding kinetics, and that nonnative interactions are evolutionarily optimized to accelerate binding kinetics.
+- **Visible evidence base** Abstract text only; no simulation details, MSM construction parameters, validation metrics, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, MSM validation (e.g., Chapman-Kolmogorov tests, implied timescales), structural definitions of encounter complexes, interaction energy calculations, mutation or perturbation data supporting the "strengthening or weakening" claim, and any statistical or convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of a biologically important IDP binding system. The central claims regarding the role of nonnative interactions in stabilizing encounter complexes and modulating binding kinetics are scientifically relevant. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the MSM construction, the robustness of the conclusions, or the strength of the evolutionary interpretation. The claim that nonnative interactions are "evolutionarily optimized" is particularly speculative and would require substantial comparative or functional evidence beyond what is described. The study may be of interest to computational biophysicists and researchers studying IDP binding mechanisms, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying protein-protein binding kinetics, researchers focused on intrinsically disordered proteins and their folding-upon-binding mechanisms, and investigators interested in the p53-MDM2 interaction as a therapeutic target. The MSM methodology and the specific findings on nonnative interaction contributions could inform future simulation studies of IDP binding.
+- **Major strengths** The study addresses a mechanistically important and under-explored question, namely the atomic-level role of nonnative interactions in IDP binding kinetics. The choice of the p53-MDM2 system is well justified given its biological and clinical significance. The use of MSM analysis is appropriate for capturing conformational transitions and kinetic pathways in long-timescale simulations. The abstract clearly states a mechanistic model (induced-fit with defined intermediate states) and identifies specific residue-residue interactions of potential importance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the system progresses from a nascent encounter complex to a well-structured encounter complex and finally to the native complex, following an induced-fit mechanism, based on MSM analysis.  
+  - **Evidence pointer** Abstract only; no MSM validation or state definitions provided  
+  - **Concern** The abstract provides no details on how the encounter complexes were defined, how the MSM was constructed, or how it was validated. Without evidence of Markovian behavior, appropriate state decomposition, or statistical convergence, the proposed kinetic mechanism cannot be assessed.  
+  - **Why it matters** The central mechanistic conclusion depends entirely on the reliability of the MSM. If the model is not validated, the proposed pathway and intermediate states may be artifacts of the analysis rather than genuine features of the binding process.  
+  - **Resolution test** Provide MSM validation metrics, including implied timescales, Chapman-Kolmogorov tests, state population uncertainties, and a description of how the encounter complex states were structurally defined and distinguished.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for causal claims  
+  - **Claim pointer** The authors claim that strengthening or weakening the nonnative interactions Leu25(p53)-Leu54(MDM2) and Leu25(p53)-Phe55(MDM2) could both adversely affect binding kinetics.  
+  - **Evidence pointer** Abstract only; no mutation or perturbation data described  
+  - **Concern** The abstract states this as a finding, but no evidence is presented for how this conclusion was reached. It is unclear whether the authors performed alchemical mutations, kinetic perturbation analyses, or comparative simulations. Without such data, the claim is unsupported.  
+  - **Why it matters** This is a non-obvious and potentially important result, but it requires direct evidence that perturbing these interactions changes binding kinetics in a non-monotonic manner. The claim is central to the paper's message about evolutionary optimization.  
+  - **Resolution test** Describe the specific perturbation experiments or simulations performed, including how interaction strength was modulated, and show quantitative effects on binding kinetics or MSM transition rates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive overreach  
+  - **Claim pointer** The authors claim that nonnative interactions are evolutionarily optimized to accelerate the binding kinetics of IDPs in conjunction with native interactions.  
+  - **Evidence pointer** Abstract only; no comparative or evolutionary analysis described  
+  - **Concern** The term "evolutionarily optimized" implies a selective pressure and a comparative framework that is not evident from the abstract. The study appears to be a single-system simulation, which cannot support claims about evolutionary optimization without phylogenetic analysis, sequence comparison, or functional assays across variants.  
+  - **Why it matters** This claim extends beyond the data and could mislead readers into overinterpreting the generality of the findings. It conflates functional advantage in one simulated system with evolutionary selection.  
+  - **Resolution test** Either temper the language to describe the interactions as "kinetically favorable" or provide comparative evidence across p53 homologs or related IDP-partner systems showing conservation of such nonnative contacts.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The authors claim that nonnative hydrophobic and hydrogen bond interactions, combined with native interactions, effectively stabilize the nascent and well-structured encounter complexes.  
+  - **Evidence pointer** Abstract only; no interaction energy values or structural data provided  
+  - **Concern** No quantitative data are presented to support the stabilizing role of nonnative interactions. It is unclear whether this conclusion is based on interaction energies, contact probabilities, or kinetic rates. The relative contribution of nonnative versus native interactions is not quantified.  
+  - **Why it matters** The paper's core contribution is the identification of specific nonnative interactions and their functional role. Without quantitative support, the claim remains qualitative and cannot be evaluated for significance.  
+  - **Resolution test** Provide interaction energy distributions, contact probability maps, or free energy contributions for the identified nonnative contacts in each encounter complex state, with appropriate error estimates.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "nascent" versus "well-structured" encounter complexes  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses these terms without defining their structural or kinetic criteria.  
+  - **Required correction** Provide explicit structural definitions, such as root-mean-square deviation cutoffs, contact order, or fraction of native contacts, for each state.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation and MSM methodology  
+  - **Evidence pointer** Abstract only  
+  - **Issue** No information is given on force field, water model, simulation length, number of replicas, or MSM lag time.  
+  - **Required correction** Include these details in the main text or methods section to enable reproduction.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "Interaction strength is close to the optimum"  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The concept of an "optimum" interaction strength is not defined. It is unclear what metric was used and what the reference optimum is.  
+  - **Required correction** Define the metric (e.g., binding free energy contribution, contact lifetime) and explain how the optimum was determined.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Evolutionary interpretation  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not discuss whether the identified nonnative interactions are conserved across p53 orthologs or related IDP systems.  
+  - **Required correction** Add a brief statement on sequence conservation or acknowledge the limitation of single-system analysis.
+
+## Risk / unsupported claims
+- The claim that strengthening or weakening Leu25(p53)-Leu54(MDM2) and Leu25(p53)-Phe55(MDM2) adversely affects binding kinetics is unsupported in the abstract, as no perturbation data are described.
+- The claim that nonnative interactions are "evolutionarily optimized" is unsupported and not assessable from the supplied material.
+- The proposed three-state kinetic mechanism (nascent encounter complex to well-structured encounter complex to native complex) is not assessable without MSM validation details.
+- The stabilizing role of nonnative interactions is stated qualitatively without quantitative evidence.
+- The relevance of the findings to clinical cancer treatment is mentioned but not developed or supported.

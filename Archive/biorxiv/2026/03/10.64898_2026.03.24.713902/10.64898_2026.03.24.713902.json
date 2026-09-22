@@ -1,0 +1,154 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.24.713902",
+  "title": "Transmembrane domain composition reflects subcellular localization of SNARE proteins",
+  "doi": "10.64898/2026.03.24.713902",
+  "abstract": "Transmembrane domains (TMDs) anchor proteins within membranes of distinct composition and biophysical properties, necessitating adaptation to each membrane's unique environment. SNARE proteins, the core mediators of eukaryotic membrane fusion, provide an ideal system to study such adaptations: they are ubiquitous across Eukaryota, with paralogs localized to different compartments that have evolved independently to match their membrane context. Here, we combine statistical analyses of approximately 14,000 SNARE TMDs with MD simulations of 28 human SNARE TMDs to uncover how TMDs have adapted to distinct membrane environments. We identify a clear compositional dichotomy that separates SNAREs of the early secretory pathway (ER and Golgi apparatus) from those of the late secretory and endosomal pathways: early TMDs are enriched in bulky Phe residues, whereas late TMDs are dominated by smaller Ile residues. The larger Phe side chains likely enhance hydrophobic interactions in loosely packed ER and Golgi membranes, while Ile likely prevents disruption of the tight lipid-lipid packing in the plasma and endosomal membranes, thereby contributing to protein localization. TMD lengths derived from MD simulations differ from those inferred by sequence-based approaches and show limited variations across compartments. Together, these results reveal how variations in membrane composition shaped SNARE TMDs across eukaryotic compartments.",
+  "authors": [
+    "Baumann C",
+    "Pulido-Quetglas C",
+    "Fasshauer D"
+  ],
+  "published_date": "2026-03-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.24.713902",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.24.713902.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1218653",
+    "raw_record": {
+      "id": "PPR1218653",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1218653"
+        ]
+      },
+      "doi": "10.64898/2026.03.24.713902",
+      "title": "Transmembrane domain composition reflects subcellular localization of SNARE proteins",
+      "authorString": "Baumann C, Pulido-Quetglas C, Fasshauer D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Baumann C",
+            "lastName": "Baumann",
+            "firstName": "Christian",
+            "initials": "C"
+          },
+          {
+            "fullName": "Pulido-Quetglas C",
+            "lastName": "Pulido-Quetglas",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6164-3614"
+            }
+          },
+          {
+            "fullName": "Fasshauer D",
+            "lastName": "Fasshauer",
+            "firstName": "Dirk",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1040-4282"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6164-3614"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1040-4282"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Transmembrane domains (TMDs) anchor proteins within membranes of distinct composition and biophysical properties, necessitating adaptation to each membrane's unique environment. SNARE proteins, the core mediators of eukaryotic membrane fusion, provide an ideal system to study such adaptations: they are ubiquitous across Eukaryota, with paralogs localized to different compartments that have evolved independently to match their membrane context. Here, we combine statistical analyses of approximately 14,000 SNARE TMDs with MD simulations of 28 human SNARE TMDs to uncover how TMDs have adapted to distinct membrane environments. We identify a clear compositional dichotomy that separates SNAREs of the early secretory pathway (ER and Golgi apparatus) from those of the late secretory and endosomal pathways: early TMDs are enriched in bulky Phe residues, whereas late TMDs are dominated by smaller Ile residues. The larger Phe side chains likely enhance hydrophobic interactions in loosely packed ER and Golgi membranes, while Ile likely prevents disruption of the tight lipid-lipid packing in the plasma and endosomal membranes, thereby contributing to protein localization. TMD lengths derived from MD simulations differ from those inferred by sequence-based approaches and show limited variations across compartments. Together, these results reveal how variations in membrane composition shaped SNARE TMDs across eukaryotic compartments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "219549",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "182732",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.24.713902"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1218653"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1218653&type=FILE&fileName=EMS215231-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215231",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-25",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

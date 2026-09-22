@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41512952",
+  "title": "A Survey of Predicted Protein-Protein Interactions Involving Disordered Regions in Humans.",
+  "authors": "Pei, Jimin; Zhang, Jing; Cong, Qian",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-01-10",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用AlphaFold2预测人类蛋白质组中涉及无序区域的PPI，系统分析无序-有序互作偏好、界面保守性及疾病突变富集，直接契合无序蛋白互作机制建模主题，但偏预测应用而非深度机制建模。",
+  "abstract": "Intrinsically disordered regions (IDRs) in proteins play a pivotal role in protein-protein interactions (PPIs). Using AlphaFold2 and enriched multiple sequence alignments, we predicted and investigated PPIs across the human proteome, focusing on those involving disordered regions. Our predictions show that disordered regions predominantly interact with ordered domains, whereas predicted disordered-disordered interactions are relatively rare. Although disordered regions typically lack annotated domains, certain regions-such as the keratin type II head domain and the Kruppel-associated box (KRAB)-mediate specific interactions. In contrast, their predicted binding partners frequently feature diverse Pfam domains, including protein kinase, WD40 repeat, and nuclear hormone receptor domains. These domains are enriched in nuclear localization and alpha-helical repeat motifs. Disordered regions involved in predicted PPIs exhibit higher sequence conservation than non-interacting disordered regions, suggesting evolutionary constraints at interaction interfaces. Moreover, certain posttranslational modifications (e.g., phosphorylation and acetylation) in disordered regions are enriched within predicted interaction interfaces, likely modulating binding affinities. Notably, we identified a significant enrichment of disease-associated mutations in predicted PPI interfaces involving disordered regions, underscoring their functional and pathological relevance. Together, these findings highlight the intricate interplay between disordered and ordered regions in mediating PPIs and provide insights into their structural and functional contributions to human health and disease.",
+  "abstract_zh": "蛋白质中的固有无序区域（IDRs）在蛋白质-蛋白质相互作用（PPIs）中发挥关键作用。利用AlphaFold2和富集的多个序列比对，我们预测并研究了人类蛋白质组中的PPIs，重点关注涉及无序区域的相互作用。我们的预测显示，无序区域主要与有序结构域相互作用，而预测的无序-无序相互作用相对罕见。尽管无序区域通常缺乏注释的结构域，但某些区域——如角蛋白II型头部结构域和Krüppel相关盒（KRAB）——介导特定相互作用。相反，它们预测的结合伙伴经常具有多样的Pfam结构域，包括蛋白激酶、WD40重复序列和核激素受体结构域。这些结构域在核定位和α-螺旋重复基序中富集。参与预测PPIs的无序区域比非相互作用无序区域表现出更高的序列保守性，表明相互作用界面存在进化约束。此外，无序区域中的某些翻译后修饰（如磷酸化和乙酰化）在预测的相互作用界面内富集，可能调节结合亲和力。值得注意的是，我们发现在涉及无序区域的预测PPI界面中，疾病相关突变显著富集，突显了其功能和病理学相关性。综合来看，这些发现强调了无序区域和有序区域在介导PPIs中的复杂相互作用，并为其在人类健康和疾病中的结构和功能贡献提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41512952/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41512952/",
+  "paper_page_path": "papers/pubmed/41512952/index.html"
+}

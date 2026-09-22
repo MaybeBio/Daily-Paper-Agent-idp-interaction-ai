@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors propose MoRF_ESM, a deep learning model combining a pretrained ESM-2 protein language model with a TextCNN classifier, to predict molecular recognition features (MoRFs) in disordered proteins. They report state-of-the-art performance on two benchmark datasets, TEST1 and TEST2, with higher AUC than other methods, and suggest the approach is generalizable to other protein sequence classification tasks.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset details, model architecture specifics, hyperparameters, statistical significance tests, baseline method descriptions, and quantitative AUC values (replaced by "[Formula: see text]")
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful application of a protein language model to MoRF prediction, a topic of growing biological and clinical relevance. However, the current evidence base is insufficient to evaluate the technical soundness or the validity of the performance claims. The lack of quantitative results, dataset descriptions, and methodological details prevents a rigorous assessment. The claim of state-of-the-art performance is not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on intrinsically disordered proteins, protein function prediction, and deep learning applications in genomics. Clinicians and researchers studying diseases associated with disordered proteins, such as neurodegenerative disorders, may also find improved MoRF prediction tools valuable for identifying interaction hotspots.
+- **Major strengths** The use of a pretrained protein language model (ESM-2) is a modern and promising approach that leverages evolutionary information. The combination with a lightweight TextCNN for feature extraction is computationally efficient and potentially scalable. The stated generalizability to other protein sequence classification tasks is an attractive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The MoRF_ESM approach demonstrates state-of-the-art performance, achieving [Formula: see text] higher AUC than other methods when tested on TEST1 and achieving [Formula: see text] higher AUC than other methods when tested on TEST2."
+  - **Evidence pointer** Abstract, performance comparison section; location not provided
+  - **Concern** The abstract reports performance improvements as "[Formula: see text]" without providing actual AUC values or confidence intervals. No statistical tests (e.g., DeLong test for AUC comparison) are mentioned. The benchmark datasets TEST1 and TEST2 are not described in terms of size, composition, or source.
+  - **Why it matters** Without quantitative results and statistical validation, the claim of state-of-the-art performance cannot be assessed. The reader cannot determine whether the reported improvements are meaningful or within noise. Dataset characteristics are critical for evaluating generalizability and potential overfitting.
+  - **Resolution test** Provide exact AUC values with standard deviations or confidence intervals for MoRF_ESM and all baseline methods on both TEST1 and TEST2. Include statistical significance tests. Describe the datasets, including number of proteins, MoRF annotations, and sequence redundancy controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "This approach employs a pretrained ESM-2 protein language model to generate embedding representations of residues in the form of attention map matrices. These representations are combined with a self-learned TextCNN model for feature extraction and prediction."
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract lacks critical methodological details: the specific ESM-2 model variant (e.g., ESM-2 650M or 3B), the dimensionality of embeddings, how attention maps are converted to input features for TextCNN, the TextCNN architecture (number of layers, kernel sizes, pooling strategy), training hyperparameters, and the nature of the "averaging step" for output refinement.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without these details, other researchers cannot implement or benchmark the method. The "averaging step" is particularly vague and could be a key component of the model's performance.
+  - **Resolution test** Provide a full methods section with model architecture diagrams, hyperparameter tables, and a clear description of the averaging step. Ideally, release code and pretrained weights.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Given that ESM-2 is a highly versatile protein language model, the methodology proposed in this study can be readily applied to other tasks involving the classification of protein sequences."
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Concern** The generalizability claim is speculative and not supported by any experiments in the abstract. No evidence is provided that the ESM-2 plus TextCNN combination works on other classification tasks.
+  - **Why it matters** While plausible, this claim overreaches beyond the presented scope. It may mislead readers into assuming broad applicability without validation.
+  - **Resolution test** Either remove the claim or add a brief demonstration on at least one additional protein sequence classification task (e.g., secondary structure prediction or subcellular localization).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, background section
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The phrase "regulating the phase transition of membrane-less organelles" is specific but not contextualized. Readers unfamiliar with MoRF biology may not understand why this is relevant.
+  - **Required correction** Add a brief explanation of how MoRFs mediate phase separation, or cite a review for context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, performance comparison
+  - **Evidence pointer** Abstract, "In comparison to other impressive methods"; location not provided
+  - **Issue** The baseline methods are not named. The reader cannot judge the competitiveness of the comparison.
+  - **Required correction** List the names of the baseline methods (e.g., MoRFpred, MoRFchibi, etc.) in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, "self-learned TextCNN"; location not provided
+  - **Issue** The term "self-learned" is ambiguous. It could mean the TextCNN is trained from scratch, or that features are learned automatically. This is unclear.
+  - **Required correction** Replace with a precise term such as "a TextCNN trained from scratch" or "a TextCNN with learned filters."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results and statistical validation) and R1-M2 (insufficient methodological detail for reproducibility) are blocking. The performance claim and the method's utility cannot be evaluated without these.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Applying ESM-2 to MoRF prediction is a reasonable incremental advance, but the combination with TextCNN is not conceptually novel. The field already has multiple deep learning MoRF predictors.
+  - Scientific importance: Moderate. Improved MoRF prediction has practical value, but the abstract does not demonstrate a major biological or clinical insight.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialized computational biology audience and does not frame the work for a broader scientific readership.
+  - Technical soundness: Not assessable from the abstract. Key details and quantitative evidence are missing.
+  - Readability for nonspecialists: Poor. The abstract assumes familiarity with MoRFs, ESM-2, and deep learning terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract shows promise, but the missing quantitative results and methodological details are critical. I would be supportive if the full manuscript addresses the blocking concerns with rigorous evaluation and complete technical descriptions.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is unsupported due to missing AUC values and statistical tests.
+- The claim of generalizability to other protein sequence classification tasks is speculative and not demonstrated.
+- The implicit claim that the "averaging step" improves performance is not substantiated with ablation studies.
+- The biological relevance of MoRFs in phase transition is stated but not connected to the prediction results.

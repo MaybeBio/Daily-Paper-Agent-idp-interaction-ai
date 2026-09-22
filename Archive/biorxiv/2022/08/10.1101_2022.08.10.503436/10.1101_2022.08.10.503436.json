@@ -1,0 +1,495 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.10.503436",
+  "title": "Protein Fold Classification using Graph Neural Network and Protein Topology Graph",
+  "doi": "10.1101/2022.08.10.503436",
+  "abstract": "Protein fold classification reveals key structural information about proteins that is essential for understanding their function. While numerous approaches exist in the literature that classifies protein fold from sequence data using machine learning, there is hardly any approach that classifies protein fold from the secondary or tertiary structure data using deep learning. This work proposes a novel protein fold classification technique based on graph neural network and protein topology graphs. Protein topology graphs are constructed according to definitions in the Protein Topology Graph Library from protein secondary structure level data and their contacts. To the best of our knowledge, this is the first approach that applies graph neural network for protein fold classification. We analyze the SCOPe 2.07 data set, a manually and computationally curated database that classifies known protein structures into their taxonomic hierarchy and provides predefined labels for a certain number of entries from the Protein Data Bank. We also analyze the latest version of the CATH data set. Experimental results show that the classification accuracy is at around 82% − 100% under certain settings. Due to the rapid growth of structural data, automating the structure classification process with high accuracy using structural data is much needed in the field. This work introduces a new paradigm of protein fold classification that meets this need. The implementation of the model for protein fold classification and the datasets are available here https://github.com/SuriDipannitaSayeed/ProteinFoldClassification.git Author summary Classification of protein structures is traditionally done using manual curation, evolutionary relationship, or sequence comparison-based methods. Applying machine learning and deep learning to protein structure classification is a comparatively new trend that holds great promises for automating the structure classification process. Advance deep learning technique like Graph Neural Network is still unexplored in this respect. SCOP and CATH are two traditional databases that provide the hierarchical taxonomic classification of protein structures. This work provides a novel computational approach that classifies protein folds in SCOP and CATH with graph neural network, performing a graph classification task.",
+  "authors": [
+    "Suri Dipannita Sayeed",
+    "Jan Niclas Wolf",
+    "Ina Koch",
+    "Guang Song"
+  ],
+  "published_date": "2022-08-13",
+  "updated_date": "2022-08-13T13:40:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.10.503436",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.10.503436.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:37:57Z",
+        "timestamp": 1768502277866,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 40,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein fold classification reveals key structural information about proteins that is essential for understanding their function. While numerous approaches exist in the literature that classifies protein fold from sequence data using machine learning, there is hardly any approach that classifies protein fold from the secondary or tertiary structure data using deep learning. This work proposes a novel protein fold classification technique based on graph neural network and protein topology graphs. Protein topology graphs are constructed according to definitions in the Protein Topology Graph Library from protein secondary structure level data and their contacts. To the best of our knowledge, this is the first approach that applies graph neural network for protein fold classification. We analyze the SCOPe 2.07 data set, a manually and computationally curated database that classifies known protein structures into their taxonomic hierarchy and provides predefined labels for a certain number of entries from the Protein Data Bank. We also analyze the latest version of the CATH data set. Experimental results show that the classification accuracy is at around 82% − 100% under certain settings. Due to the rapid growth of structural data, automating the structure classification process with high accuracy using structural data is much needed in the field. This work introduces a new paradigm of protein fold classification that meets this need. The implementation of the model for protein fold classification and the datasets are available here\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/SuriDipannitaSayeed/ProteinFoldClassification.git\">https://github.com/SuriDipannitaSayeed/ProteinFoldClassification.git</jats:ext-link>\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Classification of protein structures is traditionally done using manual curation, evolutionary relationship, or sequence comparison-based methods. Applying machine learning and deep learning to protein structure classification is a comparatively new trend that holds great promises for automating the structure classification process. Advance deep learning technique like Graph Neural Network is still unexplored in this respect. SCOP and CATH are two traditional databases that provide the hierarchical taxonomic classification of protein structures. This work provides a novel computational approach that classifies protein folds in SCOP and CATH with graph neural network, performing a graph classification task.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.08.10.503436",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2022-08-13T13:40:11Z",
+        "timestamp": 1660398011000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Protein Fold Classification using Graph Neural Network and Protein Topology Graph"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0469-2628",
+          "authenticated-orcid": false,
+          "given": "Suri Dipannita",
+          "family": "Sayeed",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jan Niclas",
+          "family": "Wolf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3621-003X",
+          "authenticated-orcid": false,
+          "given": "Ina",
+          "family": "Koch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5153-6695",
+          "authenticated-orcid": false,
+          "given": "Guang",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Helen M. Berman , Kim Henrick , and Haruki Nakamura . Announcing the worldwide Protein Data Bank. Nature Structural Biology, October:980–980, 2003.",
+          "DOI": "10.1038/nsb1203-980"
+        },
+        {
+          "issue": "D1",
+          "key": "2022081603200439000_2022.08.10.503436v1.2",
+          "first-page": "D396",
+          "article-title": "EMDataBank unified data resource for 3DEM",
+          "volume": "44",
+          "year": "2015",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/j.jtbi.2015.12.018",
+          "article-title": "Protein fold recognition using HMM–HMM alignment and dynamic programming",
+          "volume": "393",
+          "year": "2016",
+          "journal-title": "Journal of Theoretical Biology"
+        },
+        {
+          "issue": "6",
+          "key": "2022081603200439000_2022.08.10.503436v1.4",
+          "first-page": "863",
+          "article-title": "An ensemble approach to protein fold classification by integration of template-based assignment and support vector machine classifier",
+          "volume": "33",
+          "year": "2016",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2022081603200439000_2022.08.10.503436v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "649",
+          "DOI": "10.1109/TNB.2015.2450233",
+          "article-title": "Enhanced Protein Fold Prediction Method Through a Novel Feature Extraction Technique",
+          "volume": "14",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on NanoBioscience"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1995.0159"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(97)00260-8"
+        },
+        {
+          "issue": "D1",
+          "key": "2022081603200439000_2022.08.10.503436v1.8",
+          "first-page": "D304",
+          "article-title": "SCOPe: Structural Classification of Proteins—extended, integrating SCOP and ASTRAL data and classification of new structures",
+          "volume": "42",
+          "year": "2013",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(89)90084-3"
+        },
+        {
+          "issue": "1",
+          "key": "2022081603200439000_2022.08.10.503436v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "17573",
+          "DOI": "10.1038/srep17573",
+          "article-title": "Improving Protein Fold Recognition by Deep Learning Networks",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "issue": "8",
+          "key": "2022081603200439000_2022.08.10.503436v1.11",
+          "first-page": "1295",
+          "article-title": "DeepSF: deep convolutional neural network for mapping protein sequences to folds",
+          "volume": "34",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "23",
+          "key": "2022081603200439000_2022.08.10.503436v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "3749",
+          "DOI": "10.1093/bioinformatics/btx514",
+          "article-title": "Improving protein fold recognition by extracting fold-specific features from predicted residue–residue contacts",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.13",
+          "unstructured": "Yechan Hong , Yongyu Deng , Haofan Cui , Jan Segert , and Jianlin Cheng . Classifying protein structures into folds by convolutional neural networks, distance maps, and persistent homology. bioRxiv."
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.01.001"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.15",
+          "unstructured": "Zhen Zhang , Jiajun Bu , Martin Ester , Jianfeng Zhang , Chengwei Yao , Zhi Yu , and Can Wang . Hierarchical Graph Pooling with Structure Learning. arXiv CoRR, abs/1911.05954, 2019."
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp980"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "7873",
+          "key": "2022081603200439000_2022.08.10.503436v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth367"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Leyi Wei and Quan Zou . Recent Progress in Machine Learning-Based Methods for Protein Fold Recognition. International Journal of Molecular Sciences, 17(December), 2016.",
+          "DOI": "10.3390/ijms17122118"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp500"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr350"
+        },
+        {
+          "issue": "7",
+          "key": "2022081603200439000_2022.08.10.503436v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "761",
+          "DOI": "10.1109/TNB.2015.2457906",
+          "article-title": "Advancing the Accuracy of Protein Fold Recognition by Utilizing Profiles From Hidden Markov Models",
+          "volume": "14",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on NanoBioscience"
+        },
+        {
+          "issue": "4",
+          "key": "2022081603200439000_2022.08.10.503436v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1002/jcc.24232",
+          "article-title": "Protein folds recognized by an intelligent predictor based-on evolutionary and structural information",
+          "volume": "37",
+          "year": "2016",
+          "journal-title": "Journal of Computational Chemistry"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.25",
+          "first-page": "1",
+          "article-title": "ProFold: Protein Fold Classification with Additional Structural Features and a Novel Ensemble Classifier",
+          "volume": "2016",
+          "year": "2016",
+          "journal-title": "BioMed Research International"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wessam Elhefnawy , Min Li , Jianxin Wang , and Yaohang Li . DeepFrag-k: a fragment-based deep learning approach for protein fold recognition. BMC Bioinformatics, 21(S6), November.",
+          "DOI": "10.1186/s12859-020-3504-z"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.27",
+          "first-page": "206",
+          "article-title": "Multi-class protein fold classification using a New Ensemble Machine Learning Approach. Genome informatics",
+          "volume": "14",
+          "year": "2003",
+          "journal-title": "International Conference on Genome Informatics"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.5.412"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "issue": "10",
+          "key": "2022081603200439000_2022.08.10.503436v1.30",
+          "first-page": "1719",
+          "article-title": "mTM-align: an algorithm for fast and accurate multiple protein structure alignment",
+          "volume": "34",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "24",
+          "key": "2022081603200439000_2022.08.10.503436v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "5326",
+          "DOI": "10.1093/bioinformatics/btz536",
+          "article-title": "Benchmarking fold detection by DaliLite v.5",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-5193(05)80253-X"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "314",
+          "DOI": "10.1002/prot.340120403",
+          "article-title": "Analysis of protein sheet topologies by graph-theoretical methods",
+          "volume": "12",
+          "year": "1992",
+          "journal-title": "Proteins: Structure, Function, and Genetics"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1089/cmb.1996.3.289",
+          "article-title": "An algorithm for finding maximal common subtopologies in a set of proteins",
+          "volume": "3",
+          "year": "1996",
+          "journal-title": "Journal of Computational Biology"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/S0304-3975(00)00286-3",
+          "article-title": "Fundamental study: Enumerating all connected maximal common subgraphs in two graphs",
+          "volume": "250",
+          "year": "2001",
+          "journal-title": "Theoretical Computer Science"
+        },
+        {
+          "issue": "7",
+          "key": "2022081603200439000_2022.08.10.503436v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1032",
+          "DOI": "10.1093/bioinformatics/btaa706",
+          "article-title": "PTGL: extension to graph-based topologies of cryo-EM data for large protein structures",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1028"
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.39",
+          "unstructured": "Joan Bruna , Wojciech Zaremba , Arthur Szlam , and Yann Lecun . Spectral networks and locally connected networks on graphs. December 2013."
+        },
+        {
+          "key": "2022081603200439000_2022.08.10.503436v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-404"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.10.503436",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:28:48Z",
+        "timestamp": 1768447728000
+      },
+      "score": 69.62511,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.10.503436"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            13
+          ]
+        ]
+      },
+      "references-count": 40,
+      "URL": "https://doi.org/10.1101/2022.08.10.503436",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

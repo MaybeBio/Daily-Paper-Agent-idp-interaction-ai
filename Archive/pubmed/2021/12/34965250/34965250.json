@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "34965250",
+    "doi": "10.1371/journal.pcbi.1009748",
+    "title": "Motif-pattern dependence of biomolecular phase separation driven by specific interactions."
+  },
+  "content": {
+    "abstract": "Eukaryotic cells partition a wide variety of important materials and processes into biomolecular condensates-phase-separated droplets that lack a membrane. In addition to nonspecific electrostatic or hydrophobic interactions, phase separation also depends on specific binding motifs that link together constituent molecules. Nevertheless, few rules have been established for how these ubiquitous specific, saturating, motif-motif interactions drive phase separation. By integrating Monte Carlo simulations of lattice-polymers with mean-field theory, we show that the sequence of heterotypic binding motifs strongly affects a polymer's ability to phase separate, influencing both phase boundaries and condensate properties (e.g. viscosity and polymer diffusion). We find that sequences with large blocks of single motifs typically form more inter-polymer bonds, which promotes phase separation. Notably, the sequence of binding motifs influences phase separation primarily by determining the conformational entropy of self-bonding by single polymers. This contrasts with systems where the molecular architecture primarily affects the energy of the dense phase, providing a new entropy-based mechanism for the biological control of phase separation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Biophysical Phenomena/*physiology",
+      "Computational Biology",
+      "Entropy",
+      "Eukaryotic Cells/*physiology",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Intracellular Space/metabolism",
+      "Models, Biological",
+      "*Molecular Conformation",
+      "Monte Carlo Method",
+      "*Polymers/chemistry/metabolism",
+      "Protein Binding/physiology",
+      "Viscosity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weiner, Benjamin G",
+        "Pyo, Andrew G T",
+        "Meir, Yigal",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "Weiner BG",
+        "Pyo AGT",
+        "Meir Y",
+        "Wingreen NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1995-8660",
+        "ORCID: 0000-0001-7384-2821"
+      ],
+      "affiliations": [
+        "Department of Physics, Princeton University, Princeton, New Jersey, United States of America.",
+        "Department of Physics, Princeton University, Princeton, New Jersey, United States of America.",
+        "Department of Physics, Princeton University, Princeton, New Jersey, United States of America.",
+        "Department of Physics, Ben Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Molecular Biology, Princeton University, Princeton, New Jersey, United States of America.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weiner, Benjamin G",
+        "short_name": "Weiner BG",
+        "identifiers": [
+          "0000-0002-1995-8660"
+        ],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, New Jersey, United States of America."
+        ]
+      },
+      {
+        "full_name": "Pyo, Andrew G T",
+        "short_name": "Pyo AGT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, New Jersey, United States of America."
+        ]
+      },
+      {
+        "full_name": "Meir, Yigal",
+        "short_name": "Meir Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, New Jersey, United States of America.",
+          "Department of Physics, Ben Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [
+          "0000-0001-7384-2821"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton University, Princeton, New Jersey, United States of America.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/30 06:00",
+    "fetched_at": "2026-09-20 07:23:48"
+  },
+  "links": {
+    "cites": [
+      "41756850",
+      "41670285",
+      "41288458",
+      "40985078",
+      "40909695",
+      "40524024",
+      "39937084",
+      "39320949",
+      "38316988",
+      "37252985",
+      "36829460",
+      "36658112",
+      "36400992",
+      "34784177"
+    ],
+    "refs": [
+      "34785657",
+      "34645832",
+      "33704061",
+      "33483232",
+      "33395293",
+      "32585849",
+      "32484438",
+      "32393642",
+      "32214099",
+      "32087632",
+      "32007034",
+      "31845799",
+      "30873835",
+      "30682370",
+      "30500535",
+      "30397688",
+      "30217894",
+      "30099028",
+      "29979963",
+      "29961577",
+      "29930091",
+      "29650703",
+      "29602697",
+      "29397728",
+      "29364893",
+      "29097695",
+      "28562589",
+      "28483149",
+      "28340338",
+      "28225081",
+      "27824447",
+      "27392146",
+      "26328871",
+      "25747659",
+      "25288112",
+      "23901099",
+      "22398450",
+      "11088436"
+    ],
+    "similar": [
+      "34965250",
+      "23912807",
+      "34291921",
+      "31634364",
+      "12906554",
+      "30099028",
+      "32613446",
+      "33704061",
+      "32004090",
+      "16126828",
+      "37205474",
+      "39398199",
+      "32426986",
+      "29632271",
+      "32214099",
+      "32405004",
+      "16356071",
+      "37856873",
+      "33864415",
+      "32584357",
+      "37018196",
+      "29509422",
+      "22011331",
+      "24633518",
+      "26896996",
+      "18851061",
+      "21389454",
+      "29397728",
+      "33231755",
+      "16599722",
+      "37094002",
+      "32822449",
+      "31845799",
+      "33765580",
+      "10949473",
+      "34998327",
+      "16229619",
+      "22568748",
+      "19644166",
+      "24527935",
+      "32726575",
+      "12513283",
+      "8589257",
+      "27716039",
+      "12513528",
+      "17880128",
+      "12935168",
+      "35533203",
+      "37325682",
+      "33119461",
+      "17155776",
+      "33087563",
+      "34014638",
+      "33067552",
+      "17496025",
+      "14995478",
+      "24880268",
+      "29091028",
+      "11308880",
+      "21230306",
+      "31606941",
+      "17388466",
+      "24735315",
+      "21807631",
+      "33318217",
+      "34415540",
+      "21753245",
+      "19905345",
+      "33208041",
+      "16021342",
+      "11159392",
+      "32468728",
+      "35054543",
+      "16383641",
+      "17107205",
+      "26925724",
+      "33376791",
+      "21929035",
+      "28692101",
+      "38163950",
+      "34236318",
+      "28833862",
+      "33144560",
+      "17930278",
+      "18447499",
+      "34890409",
+      "19680431",
+      "32168715",
+      "33319830",
+      "37011217",
+      "35119898",
+      "37955602",
+      "37907095",
+      "35939033",
+      "38032334",
+      "36994084",
+      "39377398",
+      "35132182",
+      "39402838"
+    ],
+    "review": [
+      "34965250",
+      "34291921",
+      "30099028",
+      "32004090",
+      "29632271",
+      "29509422",
+      "33765580",
+      "32726575",
+      "34014638",
+      "31606941",
+      "33319830"
+    ],
+    "pmc": [
+      "8751999"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009748",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34965250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34965250",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

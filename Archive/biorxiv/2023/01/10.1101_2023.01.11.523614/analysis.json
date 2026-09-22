@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.11.523614",
+  "title": "Characterization of the REC114-MEI4-IHO1 complex regulating meiotic DNA double-strand break formation",
+  "authors": "Laroussi H; Juarez-Martinez AB; Roy AL; Erba EB; de Massy B; Kadlec J",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-11",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold2建模结合生化实验表征减数分裂中REC114-MEI4-IHO1复合物的组装与互作界面，虽对象非IDP，但复合物互作机制建模思路（竞争性结合界面）对无序蛋白介导的PPI机制研究有可迁移启发。",
+  "abstract": "Meiotic recombination is initiated by the formation of DNA double-strand breaks (DSBs), essential for fertility and genetic diversity. In the mouse, DSBs are formed by the catalytic TOPOVIL complex consisting of SPO11 and TOPOVIBL. To preserve genome integrity, the activity of the TOPOVIL complex is finely controlled by several meiotic factors including REC114, MEI4 and IHO1, but the underlying mechanism is poorly understood. Here, we report that mouse REC114 forms homodimers, that it associates with MEI4 as a 2:1 heterotrimer that further dimerizes, and that IHO1 forms coiled-coil based tetramers. Using AlphaFold2 modelling combined with biochemical characterization we uncovered the molecular details of these assemblies. Finally, we show that IHO1 directly interacts with the PH domain of REC114 by recognizing the same surface as TOPOVIBL and another meiotic factor ANKRD31. These results provide strong evidence for the existence of a ternary IHO1-REC114-MEI4 complex and show that REC114 is a potential regulatory platform mediating mutually exclusive interactions with several partners.",
+  "abstract_zh": "减数分裂重组由DNA双链断裂（DSBs）的形成启动，这对生育能力和遗传多样性至关重要。在小鼠中，DSBs由包含SPO11和TOPOVIBL的催化性TOPOVIL复合物形成。为维护基因组完整性，TOPOVIL复合物的活性受到包括REC114、MEI4和IHO1在内的多种减数分裂因子的精细调控，但其潜在机制尚不清楚。在此，我们报道小鼠REC114形成同源二聚体，与MEI4以2:1异源三聚体形式结合并进一步二聚化，且IHO1形成基于卷曲螺旋的四聚体。通过结合AlphaFold2建模与生化表征，我们揭示了这些组装体的分子细节。最后，我们证明IHO1通过识别与TOPOVIBL及另一减数分裂因子ANKRD31相同的表面，直接与REC114的PH结构域相互作用。这些结果为三元IHO1-REC114-MEI4复合物的存在提供了有力证据，并表明REC114是一个潜在的调控平台，介导与多个伙伴的互斥性相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523614",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523614",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.11.523614/index.html"
+}

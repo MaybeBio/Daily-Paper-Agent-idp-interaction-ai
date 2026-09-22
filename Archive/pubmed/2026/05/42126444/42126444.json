@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "42126444",
+    "doi": "10.1021/acsnano.6c03646",
+    "title": "Programmable DNA Folding Modulates Phase Behavior and Dynamics of DNA/Peptide Condensates."
+  },
+  "content": {
+    "abstract": "Membraneless compartments formed by liquid-liquid phase separation (LLPS) regulate biochemical reactions and play a key role in both physiological and pathological processes, including viral replication. In retroviral systems, the extent of genome folding is critical for the efficient packaging of new viral particles, a process mediated by the nucleocapsid (NC) protein that chaperones RNA folding and assembly. Here, we sought to elucidate how nucleic-acid folding and structural folding influence LLPS and whether an HIV NC-derived peptide (HNP) can modulate this process through chaperone-like activity. To this end, we designed a programmable single-stranded DNA (ssDNA) library spanning varying degrees of folding and palindromic architectures, enabling systematic investigation of how nanoscale structural order governs coacervation. Using circular dichroism, FRET, SAXS, and coarse-grained simulations, we correlate DNA conformations with phase behavior and emergent condensate material properties. We find that interactions with HNP promote DNA folding and that increasing DNA order suppresses LLPS, whereas structural disorder and palindromic linkers that induce DNA dimerization enhance phase separation by facilitating multivalent interactions and in turn increasing condensate viscosity. Together, these findings identify two programmable determinants, local structural order and palindromic dimerization, that govern DNA/peptide condensate behavior, offering mechanistic insight into viral genome organization and guiding principles for tuning the physicochemical and material properties of synthetic condensates.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Coacervates",
+      "DNA",
+      "Liquid-liquid phase separation (LLPS)",
+      "Peptide"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "Nucleic Acid Conformation",
+      "*Peptides/chemistry",
+      "*DNA, Single-Stranded/chemistry",
+      "*Biomolecular Condensates/chemistry",
+      "*DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Katzir, Itai",
+        "Wen, Yanbing",
+        "Razi, Inbal",
+        "Skoi, Vadim",
+        "Beck, Roy",
+        "Dong, Hao",
+        "Lampel, Ayala"
+      ],
+      "short_names": [
+        "Katzir I",
+        "Wen Y",
+        "Razi I",
+        "Skoi V",
+        "Beck R",
+        "Dong H",
+        "Lampel A"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-2224-7594",
+        "ORCID: 0009-0004-9663-512X",
+        "ORCID: 0000-0003-3121-4530",
+        "ORCID: 0000-0001-7280-7506",
+        "ORCID: 0000-0003-2733-9197"
+      ],
+      "affiliations": [
+        "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "State Key Laboratory of Analytical Chemistry for Life Science, Kuang Yaming Honors School, Chemistry and Biomedicine Innovation Center (Chem-BIC), ChemBioMed Interdisciplinary Research Center at Nanjing University, Institute for Brain Sciences, Nanjing University, Nanjing 210023, China.",
+        "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "School of Physics and Astronomy, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "School of Physics and Astronomy, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Center for the Physics and Chemistry of Living Systems, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Center for Nanoscience and Nanotechnology, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Sagol School of Neuroscience, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "State Key Laboratory of Analytical Chemistry for Life Science, Kuang Yaming Honors School, Chemistry and Biomedicine Innovation Center (Chem-BIC), ChemBioMed Interdisciplinary Research Center at Nanjing University, Institute for Brain Sciences, Nanjing University, Nanjing 210023, China.",
+        "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Center for the Physics and Chemistry of Living Systems, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Center for Nanoscience and Nanotechnology, Tel Aviv University, Tel Aviv 6997801, Israel.",
+        "Division Polymer Biomaterials Science, Leibniz Institute of Polymer Research Dresden, 01069 Dresden, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Katzir, Itai",
+        "short_name": "Katzir I",
+        "identifiers": [
+          "0009-0005-2224-7594"
+        ],
+        "affiliations": [
+          "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel."
+        ]
+      },
+      {
+        "full_name": "Wen, Yanbing",
+        "short_name": "Wen Y",
+        "identifiers": [
+          "0009-0004-9663-512X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Analytical Chemistry for Life Science, Kuang Yaming Honors School, Chemistry and Biomedicine Innovation Center (Chem-BIC), ChemBioMed Interdisciplinary Research Center at Nanjing University, Institute for Brain Sciences, Nanjing University, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Razi, Inbal",
+        "short_name": "Razi I",
+        "identifiers": [],
+        "affiliations": [
+          "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel."
+        ]
+      },
+      {
+        "full_name": "Skoi, Vadim",
+        "short_name": "Skoi V",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics and Astronomy, Tel Aviv University, Tel Aviv 6997801, Israel."
+        ]
+      },
+      {
+        "full_name": "Beck, Roy",
+        "short_name": "Beck R",
+        "identifiers": [
+          "0000-0003-3121-4530"
+        ],
+        "affiliations": [
+          "School of Physics and Astronomy, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Center for the Physics and Chemistry of Living Systems, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Center for Nanoscience and Nanotechnology, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Sagol School of Neuroscience, Tel Aviv University, Tel Aviv 6997801, Israel."
+        ]
+      },
+      {
+        "full_name": "Dong, Hao",
+        "short_name": "Dong H",
+        "identifiers": [
+          "0000-0001-7280-7506"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Analytical Chemistry for Life Science, Kuang Yaming Honors School, Chemistry and Biomedicine Innovation Center (Chem-BIC), ChemBioMed Interdisciplinary Research Center at Nanjing University, Institute for Brain Sciences, Nanjing University, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Lampel, Ayala",
+        "short_name": "Lampel A",
+        "identifiers": [
+          "0000-0003-2733-9197"
+        ],
+        "affiliations": [
+          "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Center for the Physics and Chemistry of Living Systems, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Center for Nanoscience and Nanotechnology, Tel Aviv University, Tel Aviv 6997801, Israel.",
+          "Division Polymer Biomaterials Science, Leibniz Institute of Polymer Research Dresden, 01069 Dresden, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/13 12:32",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41469832",
+      "39328748",
+      "38804888",
+      "38750171",
+      "38718835",
+      "38693272",
+      "38424154",
+      "38169470",
+      "37932412",
+      "37871222",
+      "37774136",
+      "37729412",
+      "36689740",
+      "36640305",
+      "36134527",
+      "35773489",
+      "35501484",
+      "35317553",
+      "34785657",
+      "34239064",
+      "34152774",
+      "33833657",
+      "33247108",
+      "33003650",
+      "32687361",
+      "32632317",
+      "32537507",
+      "32320662",
+      "30886412",
+      "30700559",
+      "30109341",
+      "30051798",
+      "30032232",
+      "29941888",
+      "29326078",
+      "29314832",
+      "28225081",
+      "28108168",
+      "26791895",
+      "26621095",
+      "26589065",
+      "26580045",
+      "25352545",
+      "24144434",
+      "24019470",
+      "21368180",
+      "18975864",
+      "18712296",
+      "17569554",
+      "17212484",
+      "11461996",
+      "6667333"
+    ],
+    "similar": [
+      "42126444",
+      "41587927",
+      "41118627",
+      "40098319",
+      "39964249",
+      "38804888",
+      "41860722",
+      "40954121",
+      "40112030",
+      "39575590",
+      "39343003",
+      "41480717",
+      "35252623",
+      "41721403",
+      "34129784",
+      "40616404",
+      "40515902",
+      "41169547",
+      "41535729",
+      "40108179",
+      "40661423",
+      "41703914",
+      "36134527",
+      "40748104",
+      "40069227",
+      "33081049",
+      "41758048",
+      "42383738",
+      "42064063",
+      "35108264",
+      "40203038",
+      "40172489",
+      "38511671",
+      "41064885",
+      "41692248",
+      "39636939",
+      "41909948",
+      "40335475",
+      "40782375",
+      "38042897",
+      "40291420",
+      "41187075",
+      "42446172",
+      "40455990",
+      "38252962",
+      "38645044",
+      "36164646",
+      "41873070",
+      "41524628",
+      "41457474",
+      "42466807",
+      "39987501",
+      "29511089",
+      "39075031",
+      "38588907",
+      "40168179",
+      "39178343",
+      "37925283",
+      "41575805",
+      "34578359",
+      "41477739",
+      "39670461",
+      "39168125",
+      "42283756",
+      "40766493",
+      "42315359",
+      "41670285",
+      "42105592",
+      "35881789",
+      "40791163",
+      "41714601",
+      "37735903",
+      "35351518",
+      "40977604",
+      "41264624",
+      "37020020",
+      "42589422",
+      "38526948",
+      "30342746",
+      "36524527",
+      "41889100",
+      "41979049",
+      "38862770",
+      "42019899",
+      "35867936",
+      "42288302",
+      "37029379",
+      "39947751",
+      "39196681",
+      "39460625",
+      "41596484",
+      "41001641",
+      "39661689",
+      "39804953",
+      "41946638",
+      "42290133",
+      "34785657",
+      "39541973",
+      "39342654",
+      "37252985"
+    ],
+    "review": [
+      "42126444",
+      "41587927",
+      "39964249",
+      "41860722",
+      "41480717",
+      "41721403",
+      "34129784",
+      "40616404",
+      "41758048",
+      "42064063",
+      "40172489",
+      "41692248",
+      "36164646",
+      "41873070",
+      "42466807",
+      "38588907",
+      "39178343",
+      "37925283",
+      "41575805",
+      "37735903",
+      "42589422",
+      "36524527",
+      "41889100",
+      "41979049",
+      "37029379",
+      "39947751",
+      "41596484",
+      "41946638"
+    ],
+    "pmc": [
+      "13218041"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42126444/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.6c03646",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

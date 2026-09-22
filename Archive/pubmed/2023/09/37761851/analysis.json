@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37761851",
+  "title": "One Step Closer to the Understanding of the Relationship IDR-LCR-Structure.",
+  "authors": "Goncalves-Kulik, Mariane; Schmid, Friederike; Andrade-Navarro, Miguel A",
+  "journal": "Genes",
+  "published_date": "2023-09-28",
+  "window": {
+    "start": "2023-09-25",
+    "end": "2023-10-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用AlphaFold预测分析IDR内低复杂度区域(LCR)的螺旋倾向及其与核酸互作功能关联，虽聚焦IDR结构预测但未深入PPI机制建模，方法上仅应用AI预测工具。",
+  "abstract": "Intrinsically disordered regions (IDRs) in protein sequences are emerging as functionally important elements for interaction and regulation. While being generally flexible, we previously showed, by observation of experimentally obtained structures, that they contain regions of reduced sequence complexity that have an increased propensity to form structure. Here we expand the universe of cases taking advantage of structural predictions by AlphaFold. Our studies focus on low complexity regions (LCRs) found within IDRs, where these LCRs have only one or two residue types (polyX and polyXY, respectively). In addition to confirming previous observations that polyE and polyEK have a tendency towards helical structure, we find a similar tendency for other LCRs such as polyQ and polyER, most of them including charged residues. We analyzed the position of polyXY containing IDRs within proteins, which allowed us to show that polyAG and polyAK accumulate at the N-terminal, with the latter showing increased helical propensity at that location. Functional enrichment analysis of polyXY with helical propensity indicated functions requiring interaction with RNA and DNA. Our work adds evidence of the function of LCRs in interaction-dependent structuring of disordered regions, encouraging the development of tools for the prediction of their dynamic structural properties.",
+  "abstract_zh": "蛋白质序列中的固有无序区域（IDRs）正逐渐被视为相互作用和调控中的功能性重要元件。尽管这些区域通常具有灵活性，我们先前通过观察实验获得的结构表明，它们包含序列复杂度降低的区域，这些区域形成结构的倾向性增加。在此，我们利用AlphaFold的结构预测能力扩展了案例范围。我们的研究聚焦于IDRs内发现的低复杂度区域（LCRs），这些LCRs仅包含一种或两种残基类型（分别为polyX和polyXY）。除了确认先前关于polyE和polyEK倾向于螺旋结构的观察外，我们还发现其他LCRs如polyQ和polyER具有类似倾向，其中大多数包含带电残基。我们分析了含polyXY的IDRs在蛋白质中的位置，从而得以展示polyAG和polyAK在N端积累，后者在该位置显示出更高的螺旋倾向性。对具有螺旋倾向性的polyXY进行功能富集分析表明，其功能涉及与RNA和DNA的相互作用。我们的工作为LCRs在无序区域中依赖相互作用的构象结构化中的作用增添了证据，并鼓励开发用于预测其动态结构特性的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37761851/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37761851/",
+  "paper_page_path": "papers/pubmed/37761851/index.html"
+}

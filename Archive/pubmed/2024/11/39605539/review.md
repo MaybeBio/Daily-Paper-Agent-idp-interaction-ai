@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint)
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use all-atom enhanced-sampling MD simulations to characterize covalent adducts of two small molecule drugs (EPI-002 and EPI-7170) with a 56-residue fragment of the androgen receptor transactivation domain (Tau-5R2_R3) at cysteine 404. They report that the covalent adducts remain disordered and heterogeneous, that covalent attachment increases the population of collapsed helical molten-globule-like states relative to non-covalent binding, and that the protein-ligand interaction networks differ substantially between covalent and non-covalent systems. They also apply a t-SNE clustering method to identify shared conformational states across ensembles.
+- **Visible evidence base** Main text, Methods, figure callouts (Figures 1–4), supplementary figure/table callouts (SI Figures 1–30, SI Tables 1–9), supplementary movies, and data availability statement
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; simulation convergence details only partially described; no experimental validation data; force field parameter validation data referenced but not shown ("data not shown")
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and biologically important question: how covalent modification by small molecule drugs affects the conformational ensemble of an intrinsically disordered protein domain. The study is a logical extension of the authors' prior work on non-covalent binding of the same ligands to the same AR-NTD fragment. The central claim that covalent adducts remain disordered is supported by the simulation data presented, and the comparison between covalent and non-covalent systems is a useful contribution. However, the manuscript would be strengthened by more rigorous validation of the novel force field parameters, clearer presentation of convergence criteria, and a more critical discussion of the limitations of using a truncated construct. The t-SNE clustering analysis is interesting but the interpretation of cluster-specific differences should be more carefully tied to statistical significance.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins and their drug targeting, computational chemists developing force field parameters for modified residues, and medicinal chemists interested in covalent drug design for androgen receptor related cancers. The methodological framework for simulating covalent adducts of IDPs could be broadly applicable.
+- **Major strengths** The study addresses an under-explored area (covalent adducts of IDPs) with state-of-the-art simulation methodology. The comparison between covalent and non-covalent binding of the same ligands is well designed. The use of t-SNE clustering to identify shared conformational states across ensembles is a sophisticated analytical approach. The authors are transparent about data availability, providing trajectories and parameters.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the force field parameters for the covalent adducts (CYS:EPI-002 and CYS:EPI-7170) are valid and produce reliable conformational ensembles.
+  - **Evidence pointer** Methods section "Parameterization of covalent cysteine adducts of EPI-002 and EPI-7170"; validation data described as "data not shown"
+  - **Concern** The parameterization strategy for the novel covalent adduct residues is described, but the validation is only mentioned as "data not shown" for both the comparison of sidechain dihedral distributions between GAFF1 and the new parameters, and the comparison of backbone and sidechain dihedrals to standard a99SB-disp CYS. This is insufficient. The authors need to show these validation data, including quantitative comparisons (e.g., RMSD of dihedral distributions, overlap coefficients). Additionally, the manual adjustment of partial charges in the connecting (CH2-S-CH2) region is a potential source of bias and should be justified more rigorously. The authors should demonstrate that the partial charge assignment does not introduce artifacts in the electrostatic interactions with the protein.
+  - **Why it matters** The entire study rests on the reliability of the force field parameters for the covalent adducts. Without proper validation, the conformational ensembles and all derived conclusions (disorder, collapsed states, interaction networks) could be artifacts of the parameterization.
+  - **Resolution test** Provide the validation data as supplementary figures, including quantitative measures of agreement between the new parameters and reference simulations. Show that the partial charge adjustment does not significantly alter the electrostatic potential around the adduct compared to a more rigorous charge derivation method (e.g., RESP fitting at a higher level of theory).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the REST2 simulations are well converged based on blocking analysis and comparison of secondary structure propensities and intramolecular contacts across temperature rungs and demultiplexed replicas.
+  - **Evidence pointer** Results section, first paragraph; SI Figures 1–8
+  - **Concern** The convergence assessment is described only qualitatively. The blocking analysis is mentioned, but no quantitative convergence metrics are provided in the main text. The comparison of secondary structure propensities and intramolecular contacts across temperature rungs and demultiplexed replicas is referenced to SI Figures 1–8, but these figures are not available for review. The authors should provide quantitative measures of convergence, such as the difference in properties between independent demultiplexed replicas, and show that these differences are small relative to the differences between covalent and non-covalent systems. Without this, the reader cannot assess whether the reported differences between systems are statistically meaningful.
+  - **Why it matters** The conclusions about differences between covalent and non-covalent systems depend on the statistical reliability of the ensembles. If the simulations are not converged, the reported differences could be due to sampling noise.
+  - **Resolution test** Provide quantitative convergence metrics in the main text or SI, such as the standard error of the mean for key properties (helical fraction, pGlob) from blocking analysis, and show that the differences between systems exceed these error estimates. Show the SI figures with clear labels and quantitative comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their results "suggest strategies for developing more potent covalent inhibitors of intrinsically disordered proteins."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The manuscript describes the conformational ensembles of covalent adducts but does not directly address how these findings translate into design strategies. The statement in the abstract and discussion is speculative. The authors should either provide more concrete design recommendations based on their data (e.g., which interaction networks to target, which regions to modify) or temper this claim. For example, the observation that EPI-7170 stabilizes collapsed helical states more than EPI-002 could be linked to its higher potency, but this link is not explicitly made or discussed in terms of design principles.
+  - **Why it matters** The stated significance of the work for drug design is a key selling point. If the design implications are not clearly articulated, the impact of the study is diminished.
+  - **Resolution test** Add a paragraph in the Discussion that explicitly translates the simulation findings into testable design hypotheses, such as "modifications that enhance stacking with W433 and F437 may increase potency" or "the collapsed helical state may be a target for stabilization."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use a 56-residue fragment (Tau-5R2_R3) as a model for the full AR-NTD and imply that findings are relevant to the full domain.
+  - **Evidence pointer** Introduction; Results; Discussion
+  - **Concern** The use of a truncated construct is a significant simplification. The full AR-NTD is much larger and contains other functional regions. The authors do not discuss how the absence of flanking regions might affect the conformational ensemble or the binding of the ligands. This is particularly relevant for a disordered protein, where long-range interactions can be important. The authors should acknowledge this limitation more explicitly and discuss whether the Tau-5R2_R3 fragment is representative of the full domain in terms of its conformational properties.
+  - **Why it matters** The biological relevance of the findings depends on the extent to which the fragment recapitulates the behavior of the full domain. Overstating the implications for the full AR-NTD could mislead readers.
+  - **Resolution test** Add a paragraph in the Discussion acknowledging the limitation and citing any experimental or computational evidence that the Tau-5R2_R3 region behaves similarly in the context of the full domain. If no such evidence exists, state this clearly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract begins with a general statement about IDPs in disease, which is fine, but the transition to the specific system is abrupt. The abstract could benefit from a brief statement of why the AR-NTD is a relevant target.
+  - **Required correction** Add one sentence in the abstract providing context on the AR-NTD as a therapeutic target for prostate cancer.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Parameterization" section
+  - **Evidence pointer** Methods section, first paragraph
+  - **Issue** The description of the charge adjustment is vague. The authors state they "manually adjusted the partial charges" but do not specify the criteria used for the adjustment or the magnitude of the changes.
+  - **Required correction** Provide more detail on the charge adjustment procedure, including the range of charge values before and after adjustment, and the rationale for the specific adjustments made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular Dynamics Simulations"
+  - **Evidence pointer** Methods section, second paragraph
+  - **Issue** The salt concentration is described as 20 mM NaCl, but the number of ions (8 Na+ and 5 Cl−) does not correspond to a net neutral system with 20 mM salt for the given box size. The calculation should be checked.
+  - **Required correction** Verify the ion count and salt concentration calculation. If the numbers are correct, explain the discrepancy; if not, correct the values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on induced fit vs conformational selection
+  - **Issue** The discussion of induced fit vs conformational selection is interesting but could be clearer for readers not familiar with these concepts.
+  - **Required correction** Briefly define these two models in one or two sentences before discussing their relevance to the results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement about "positive feedback loop" involving condensates is speculative and not directly supported by the simulation data.
+  - **Required correction** Clearly label this as speculation and consider moving it to a "future directions" paragraph.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (force field validation), R1-M2 (convergence quantification)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its focus on covalent adducts of an IDP, which is an underexplored area. The application of t-SNE clustering to compare ensembles is also novel.
+  - **Scientific importance** The topic is important given the interest in targeting IDPs and the clinical relevance of the androgen receptor. However, the direct implications for drug design are not fully articulated, which limits the immediate impact.
+  - **Interdisciplinary readership** The work will appeal to computational chemists, biophysicists, and cancer biologists. The writing is generally accessible, but some sections (e.g., t-SNE methodology) may be challenging for nonspecialists.
+  - **Technical soundness** The simulation methodology is state-of-the-art, but the lack of quantitative validation for the force field parameters and convergence is a significant weakness that must be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written overall, but the abstract and some discussion points could be made more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially interesting, but the manuscript cannot be fully evaluated without the missing validation data and quantitative convergence metrics. The authors should also strengthen the discussion of design implications and limitations.
+
+## Risk / unsupported claims
+- The claim that covalent attachment "increases the population of collapsed helical molten-globule-like states" is supported by the simulation data, but the statistical significance of this increase is not quantified in the main text.
+- The claim that the results "suggest strategies for developing more potent covalent inhibitors" is not directly supported by the data presented.
+- The statement that "the identity of the ligand therefore both affects the populations of conformational states... and the conformational properties of each conformational state" is an interpretation that is not rigorously tested.
+- The speculation about a "positive feedback loop" involving condensates is not supported by the simulation data.
+- The validation of the force field parameters is described as "data not shown" and cannot be assessed.

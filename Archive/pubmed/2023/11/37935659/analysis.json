@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37935659",
+  "title": "Targeting nucleic acid phase transitions as a mechanism of action for antimicrobial peptides.",
+  "authors": "Sneideris, Tomas; Erkamp, Nadia A; Ausserwoger, Hannes; Saar, Kadi L; Welsh, Timothy J; Qian, Daoyuan; Katsuya-Gaviria, Kai; Johncock, Margaret L L Y; Krainer, Georg; Borodavka, Alexander; Knowles, Tuomas P J",
+  "journal": "Nature communications",
+  "published_date": "2023-11-08",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习预测抗菌肽与核酸的相分离倾向，揭示其通过调控核酸相变发挥抗菌作用的新机制，虽对象为核酸而非蛋白互作，但相分离机制建模思路对无序蛋白介导的PPI研究有迁移启发。",
+  "abstract": "Antimicrobial peptides (AMPs), which combat bacterial infections by disrupting the bacterial cell membrane or interacting with intracellular targets, are naturally produced by a number of different organisms, and are increasingly also explored as therapeutics. However, the mechanisms by which AMPs act on intracellular targets are not well understood. Using machine learning-based sequence analysis, we identified a significant number of AMPs that have a strong tendency to form liquid-like condensates in the presence of nucleic acids through phase separation. We demonstrate that this phase separation propensity is linked to the effectiveness of the AMPs in inhibiting transcription and translation in vitro, as well as their ability to compact nucleic acids and form clusters with bacterial nucleic acids in bacterial cells. These results suggest that the AMP-driven compaction of nucleic acids and modulation of their phase transitions constitute a previously unrecognised mechanism by which AMPs exert their antibacterial effects. The development of antimicrobials that target nucleic acid phase transitions may become an attractive route to finding effective and long-lasting antibiotics.",
+  "abstract_zh": "抗菌肽（AMPs）通过破坏细菌细胞膜或与细胞内靶标相互作用来对抗细菌感染，它们由多种不同生物体自然产生，并日益被探索作为治疗药物。然而，AMPs作用于细胞内靶标的机制尚未被充分理解。利用基于机器学习的序列分析，我们识别出大量AMPs，这些肽在核酸存在下通过相分离（phase separation）具有形成液体样凝聚体的强烈倾向。我们证明，这种相分离倾向与AMPs在体外抑制转录和翻译的有效性相关，也与它们在细菌细胞中压缩核酸并与细菌核酸形成簇的能力相关。这些结果表明，AMPs驱动的核酸压缩及其相变调节构成了一种先前未被识别的机制，通过该机制AMPs发挥其抗菌作用。开发靶向核酸相变的抗菌药物可能成为寻找有效且持久抗生素的有吸引力的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37935659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37935659/",
+  "paper_page_path": "papers/pubmed/37935659/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34576338",
+  "title": "Molecular Dynamics Simulations of Phosphorylated Intrinsically Disordered Proteins: A Force Field Comparison.",
+  "authors": "Rieloff, Ellen; Skepo, Marie",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-09-29",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文比较不同力场对磷酸化无序肽构象系综的MD模拟，聚焦IDP构象与电荷分布效应，虽未直接研究PPI，但为IDP互作机制建模提供了力场选择与构象基础。",
+  "abstract": "Phosphorylation is a common post-translational modification among intrinsically disordered proteins and regions, which helps regulate function by changing the protein conformations, dynamics, and interactions with binding partners. To fully comprehend the effects of phosphorylation, computer simulations are a helpful tool, although they are dependent on the accuracy of the force field used. Here, we compared the conformational ensembles produced by Amber ff99SB-ILDN+TIP4P-D and CHARMM36m, for four phosphorylated disordered peptides ranging in length from 14-43 residues. CHARMM36m consistently produced more compact conformations with a higher content of bends, mainly due to more stable salt bridges. Based on comparisons with experimental size estimates for the shortest and longest peptide, CHARMM36m appeared to overestimate the compactness. The difference between the force fields was largest for the peptide showing the greatest separation between positively charged and phosphorylated residues, in line with the importance of charge distribution. For this peptide, the conformational ensemble did not change significantly upon increasing the ionic strength from 0 mM to 150 mM, despite a reduction of the salt-bridging probability in the CHARMM36m simulations, implying that salt concentration has negligible effects in this study.",
+  "abstract_zh": "磷酸化是固有无序蛋白及区域中常见的翻译后修饰，通过改变蛋白质构象、动力学及与结合伙伴的相互作用来调节功能。为全面理解磷酸化效应，计算机模拟是一种有用工具，尽管其依赖于所用力场的准确性。在此，我们比较了由Amber ff99SB-ILDN+TIP4P-D和CHARMM36m产生的构象系综，针对四个长度从14到43个残基的磷酸化无序肽。CHARMM36m始终产生更紧凑的构象，且含有更多弯曲结构，主要归因于更稳定的盐桥。基于与最短和最长肽的实验尺寸估计比较，CHARMM36m似乎高估了紧凑性。力场间的差异在正电荷残基与磷酸化残基分离最大的肽中最为显著，这与电荷分布的重要性一致。对于该肽，当离子强度从0 mM增加到150 mM时，构象系综未发生显著变化，尽管在CHARMM36m模拟中盐桥形成概率有所降低，这表明在本研究中盐浓度影响可忽略不计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34576338/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34576338/",
+  "paper_page_path": "papers/pubmed/34576338/index.html"
+}

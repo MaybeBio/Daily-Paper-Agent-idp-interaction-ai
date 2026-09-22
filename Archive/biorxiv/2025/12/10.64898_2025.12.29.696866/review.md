@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose BindMecNet, a mechanism-aware multi-scale deep model for molecular-protein binding affinity prediction. The model includes an Interfacial Interaction Prediction Module that explicitly predicts an atom-residue interaction map, which serves as a mechanistic inductive bias to guide a Mechanism-Aware Dual Attention Interaction Module. A two-stage training strategy is used, with pre-training on PDBBind using a multi-task loss followed by fine-tuning on generalization datasets with predicted structures. The authors report superior performance over state-of-the-art baselines on unseen protein families, with ablation studies supporting the contribution of pre-training and the mechanistic bias, and with predicted interaction maps providing interpretable binding hotspot information.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset details, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, method details, hyperparameter settings, dataset splits, baseline implementation details, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting architecture that combines explicit interaction map prediction with attention-based feature fusion for binding affinity prediction. The mechanistic inductive bias idea is timely and potentially valuable for the drug discovery community. However, the abstract provides no quantitative evidence, no comparison details, and no methodological specifics that would allow an assessment of the validity of the claims. The central claims of superior generalizability and interpretability are currently unsupported by the supplied material. The work may be of interest if the full manuscript provides rigorous benchmarking and ablation analyses, but from the abstract alone the case is not established.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, medicinal chemists using AI-based screening tools, and machine learning researchers working on geometric deep learning for biomolecular interactions. The explicit interaction map prediction and the focus on generalizability to unseen protein families would appeal to those seeking more interpretable and transferable models for virtual screening and lead optimization.
+- **Major strengths** The proposed architecture addresses a recognized limitation in the field, namely the lack of mechanistic interpretability in deep learning models for binding affinity prediction. The two-stage training strategy with pre-training on PDBBind and fine-tuning on predicted structures is a sensible approach for improving generalization. The emphasis on evaluating on unseen protein families with predicted binding conformations is a realistic and challenging test setting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim "superior performance, significantly outperforming state-of-the-art deep learning baselines" on unseen protein families.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, no baseline names, no dataset sizes, and no statistical significance tests. The claim of superiority is made without any supporting numbers.
+  - **Why it matters** A central claim of the work is that BindMecNet outperforms existing methods. Without any quantitative comparison, the claim cannot be evaluated or verified. This is the core evidence needed to establish the value of the proposed method.
+  - **Resolution test** Provide a results table with metrics such as RMSE, Pearson correlation, and Spearman correlation on the generalization test sets, with error bars or confidence intervals, and specify the baselines and statistical tests used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors describe an "Interfacial Interaction Prediction Module" that predicts an atom-residue level interaction map, and a "Mechanism-Aware Dual Attention Interaction Module" that uses this map to guide information exchange.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the interaction map is defined, how it is supervised during training, what ground truth labels are used, or how the attention mechanism incorporates the predicted map. Without these details, the mechanistic inductive bias claim is not assessable.
+  - **Why it matters** The novelty of the work rests on the explicit interaction map and its use as an inductive bias. If the map definition or supervision is flawed, the entire mechanistic contribution is undermined. The reader cannot judge whether the approach is sound or reproducible.
+  - **Resolution test** Provide a detailed method section describing the interaction map representation, the loss function for interaction prediction, the training data for interaction labels, and the exact mechanism by which the predicted map modulates attention.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability claim support
+  - **Claim pointer** The authors claim "enhanced generalizability" based on evaluations on "unseen protein families using predicted binding conformations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how "unseen protein families" are defined, how the train-test split is constructed to avoid leakage, or how predicted structures are generated and validated. The claim of generalizability depends entirely on these experimental design choices.
+  - **Why it matters** Generalizability claims are only meaningful if the evaluation protocol prevents information leakage and if the predicted structures are of sufficient quality. Without this information, the reported performance could be inflated by data leakage or by favorable but unrealistic structure prediction settings.
+  - **Resolution test** Describe the dataset split criteria, the sequence identity threshold used to define unseen families, the structure prediction method and its accuracy, and any filtering steps applied to remove low-quality predicted structures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The authors claim that "predicted interaction maps offer valuable, interpretable insights into binding hotspots."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No evidence is provided that the predicted interaction maps correspond to known binding hotspots or that they are validated against experimental data such as mutagenesis studies or co-crystal structures.
+  - **Why it matters** Interpretability claims require external validation. If the predicted maps do not align with known interaction patterns, the interpretability value is questionable. The abstract offers no such validation.
+  - **Resolution test** Provide a comparison of predicted interaction maps against experimental binding hotspot data for a set of test complexes, with quantitative agreement metrics and representative visual examples.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and architecture description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The model name "BindMecNet" is introduced but the abstract uses "BindMec-Net" in one instance, which is inconsistent.
+  - **Required correction** Use a single consistent spelling throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "pre-training on PDBBind" and "fine-tuning on challenging generalization datasets" but does not specify which datasets are used for fine-tuning.
+  - **Required correction** Name the fine-tuning datasets explicitly in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ablation study description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that ablation studies confirm the importance of pre-training and the mechanistic bias, but no details are given on what variants were compared.
+  - **Required correction** Briefly describe the ablation variants in the abstract or refer to a specific figure or table in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statement is made about code or data availability, which is important for reproducibility in the machine learning community.
+  - **Required correction** Add a data and code availability statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details on the interaction map, and evaluation protocol specifications means the core claims of superior performance, mechanistic contribution, and generalizability cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The idea of using an explicit interaction map as a mechanistic inductive bias is a reasonable contribution, though similar concepts have appeared in recent literature on interaction-aware models. Scientific importance: Binding affinity prediction is a high-impact area, and improved generalizability and interpretability would be valuable, but the importance cannot be confirmed without evidence. Interdisciplinary readership: The topic bridges machine learning, structural biology, and drug discovery, which is suitable for a broad audience. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and results prevents any judgment. Readability for nonspecialists: The abstract is reasonably clear in its high-level description, but the lack of concrete results makes it difficult for a nonspecialist to gauge the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially interesting approach, but the absence of quantitative results, methodological specifics, and validation of interpretability means the claims cannot be evaluated. A full manuscript with rigorous benchmarking, ablation studies, and external validation of interaction maps would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "superior performance, significantly outperforming state-of-the-art deep learning baselines" is unsupported because no quantitative results are provided.
+- The claim that the "explicit mechanistic inductive bias" is "critical" for enhanced generalizability is unsupported because no ablation results are shown.
+- The claim that predicted interaction maps offer "valuable, interpretable insights into binding hotspots" is unsupported because no validation against experimental data is described.
+- The generalizability claim is not assessable because the evaluation protocol, dataset splits, and structure prediction details are not described.
+- The overall performance of the model is not assessable because no metrics, baselines, or statistical analyses are provided.

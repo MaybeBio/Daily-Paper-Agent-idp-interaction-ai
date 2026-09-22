@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41379425",
+  "title": "Repetitive proteins that undergo large conformational changes evade structural prediction algorithms.",
+  "authors": "Chang, Marina P; Jin, Tianyi; Gudinas, Alana P; Fernandez, Daniel; Alexander-Katz, Alfredo; Matsui, Tsutomu; Mai, Danielle J",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序RTX蛋白在钙结合下的构象变化，结合AlphaFold预测与MD模拟揭示结构预测局限，虽非直接PPI但聚焦IDP构象机制建模，方法可迁移启发。",
+  "abstract": "Protein structure prediction algorithms, such as AlphaFold, have accelerated protein design and advanced the understanding of the relationship between amino acid sequence and protein structure. However, these algorithms are limited in their ability to predict the structures of conformationally dynamic, intrinsically disordered, and stimuli-responsive proteins. To evaluate sequence-to-structure predictions of such challenging proteins, we explored a class of conformationally dynamic, repeats-in-toxin (RTX) proteins. RTX proteins adopt intrinsically disordered conformations in the absence of calcium and undergo reversible folding into beta-roll structures upon binding to calcium. RTX proteins are characterized by tandem repeats of the sequence GGXGXDXUX, in which X can be any amino acid and U is an aliphatic amino acid. We designed RTX sequence variants with global substitutions of nonconserved amino acids, tandem repeats of consensus sequences GGAGXDTLY, and tandem repeats of scrambled sequences GGAGXDTYL. AlphaFold2 and AlphaFold3 predicted that all of these RTX variants adopt beta-roll structures, characteristic of wild-type RTX bound to calcium. However, modeling the predicted structures with molecular dynamics simulations and characterizing the protein variants with circular dichroism spectroscopy, small-angle x-ray scattering, and x-ray crystallography revealed that variants adopt diverse, sequence-dependent structures in the absence and presence of calcium. To better design proteins for applications in biotechnology and sustainability, it is critical to build predictive tools that consider intrinsically disordered protein states and validate these tools with multi-mode, multi-scale experimental data.",
+  "abstract_zh": "蛋白质结构预测算法，如AlphaFold，加速了蛋白质设计并增进了对氨基酸序列与蛋白质结构之间关系的理解。然而，这些算法在预测构象动态、内在无序及刺激响应性蛋白质的结构方面存在局限性。为评估此类挑战性蛋白质的序列到结构预测，我们探索了一类构象动态的重复毒素（repeats-in-toxin, RTX）蛋白质。RTX蛋白在无钙条件下呈现内在无序构象，并在结合钙离子后可逆折叠为β-卷结构。RTX蛋白的特征在于序列GGXGXDXUX的串联重复，其中X可为任意氨基酸，U为脂肪族氨基酸。我们设计了具有非保守氨基酸全局替换、共有序列GGAGXDTLY串联重复及打乱序列GGAGXDTYL串联重复的RTX序列变体。AlphaFold2和AlphaFold3预测所有这些RTX变体均采用β-卷结构，与野生型RTX结合钙后的特征一致。然而，通过分子动力学模拟对预测结构进行建模，并利用圆二色光谱、小角X射线散射及X射线晶体学表征蛋白质变体，揭示变体在有无钙条件下均呈现多样且序列依赖的结构。为更好地设计用于生物技术和可持续性应用中的蛋白质，构建考虑内在无序蛋白质状态的预测工具，并用多模式、多尺度实验数据验证这些工具至关重要。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41379425/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41379425/",
+  "paper_page_path": "papers/pubmed/41379425/index.html"
+}

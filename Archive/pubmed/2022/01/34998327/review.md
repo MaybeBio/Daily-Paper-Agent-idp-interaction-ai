@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full manuscript, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors formulate a field theory for the hydrophobic/polar (HP) lattice protein model with finite same-site repulsion and nearest-neighbor attraction between HH bead pairs. They compare complex Langevin field-theory simulations against particle-based Monte Carlo simulations and report that the field-theory approach reproduces thermodynamic properties only when same-site repulsion is weak. They further claim that the repulsion strength required to prevent artificially compact droplet shapes exceeds the range where the field-theory simulation is reliable, and they propose loss of ergodicity as a possible mechanism based on a minimal toy model.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, quantitative comparison data, toy model derivation, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important negative result for the field-theory simulation community, namely that complex Langevin sampling of a field theory for a lattice protein model fails under repulsion strengths needed for physically meaningful droplet shapes. The claim is clearly stated and the comparison against Monte Carlo benchmarks is a sound methodological approach. However, the abstract alone provides insufficient quantitative detail to assess the robustness of the conclusion, the generality of the finding, or the validity of the proposed ergodicity explanation. The work may be of interest to researchers using field-theoretic methods for biomolecular phase separation, but the evidence base visible here is too limited to establish the case fully.
+- **Who would be interested in the results, and why** Researchers developing and applying field-theoretic simulation methods, particularly complex Langevin techniques, for biomolecular liquid-liquid phase separation. The results would also interest computational biophysicists studying lattice protein models and those concerned with the reliability of coarse-grained simulation approaches for phase-separating systems. The negative finding has practical implications for method selection in this rapidly growing field.
+- **Major strengths** The study addresses a timely methodological question with direct relevance to an active research area. The use of a well-defined lattice model with a direct particle-based Monte Carlo benchmark provides a clear and rigorous standard for evaluating the field-theory approach. The identification of a specific failure mode, namely the trade-off between repulsion strength and sampling reliability, is a concrete and actionable insight. The proposed ergodicity-based explanation, while preliminary, offers a plausible mechanistic hypothesis that can guide future work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that complex Langevin sampling reproduces the thermodynamic properties of the HP model only if same-site repulsion is not too strong, and that the required repulsion for preventing compact droplets exceeds this range.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states the central negative result without providing any quantitative thresholds, error magnitudes, or system-size dependence. It is unclear how "too strong" is defined, how large the discrepancy between field-theory and Monte Carlo results becomes, and whether the failure is uniform across thermodynamic observables or specific to certain quantities such as critical temperatures or coexistence densities.
+  - **Why it matters** Without quantitative detail, the reader cannot judge whether the failure is a minor quantitative deviation or a qualitative breakdown. The practical recommendation to avoid field-theory simulation for such systems depends critically on the magnitude and nature of the discrepancy. The claim that the repulsion must be weaker than needed for physical droplet shapes is a strong statement that requires numerical support.
+  - **Resolution test** Provide quantitative comparison of key thermodynamic observables, such as phase coexistence curves or order parameters, from field-theory and Monte Carlo simulations across a range of repulsion strengths. State the specific repulsion threshold where deviations become significant and show that this threshold lies below the value needed to prevent compact droplet morphologies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic explanation
+  - **Claim pointer** The claim that sampling problems caused by repulsive interaction may stem from loss of ergodicity, based on analysis of a minimal and analytically solvable toy model.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract mentions a toy model analysis but provides no description of the model, the nature of the ergodicity loss, or how the toy model relates to the full HP lattice system. The connection between the toy model behavior and the observed sampling failure in the full field theory is asserted rather than demonstrated.
+  - **Why it matters** The proposed mechanism is central to understanding why the field-theory approach fails and whether the limitation is fundamental or potentially addressable through improved sampling techniques. If the ergodicity explanation is incorrect or incomplete, the practical implications for method development would differ substantially.
+  - **Resolution test** Describe the toy model and its analytical solution, show explicitly how ergodicity is lost in that model, and provide evidence that the same mechanism operates in the full HP field theory, for example by comparing trajectory behavior or autocorrelation functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generality
+  - **Claim pointer** The implication that the findings extend to other polyampholyte systems previously studied with field-theory simulation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract notes that field-theory simulations have been used for several polyampholyte systems, but the present study uses a lattice HP model with specific interaction forms. The abstract does not clarify whether the HP model is representative of those polyampholyte systems or whether the failure mode is specific to the lattice formulation or the particular interaction scheme.
+  - **Why it matters** The broader relevance of the finding depends on whether the identified limitation applies to the continuous-space models used in prior polyampholyte studies. If the failure is an artifact of the lattice discretization or the specific repulsion form, the implications for existing field-theory applications would be limited.
+  - **Resolution test** Discuss the relationship between the HP lattice model and the polyampholyte models used in prior field-theory studies, and state explicitly whether the identified limitation is expected to transfer to those systems based on the interaction structure.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "finite same-site repulsion" is used without defining the reference point. It is unclear whether "finite" means nonzero, or finite as opposed to infinite, and what the physical significance of this parameter is in the lattice model.
+  - **Required correction** Define the same-site repulsion parameter explicitly and state its range of values used in the simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the lattice size, temperature range, or number of independent runs used in either the field-theory or Monte Carlo simulations. These details are essential for assessing statistical reliability.
+  - **Required correction** Provide key simulation parameters in the abstract or indicate where they are described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Droplet shape claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that weak repulsion allows droplets to assume an "artificially compact shape" is presented without defining what constitutes artificial compactness or how this was assessed.
+  - **Required correction** Define the metric used to characterize droplet shape and explain why the compact shape is considered artificial in the context of the HP model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative evidence for the central negative result and the mechanistic explanation for the failure must be provided before the conclusions can be considered established. R1-M3, while not blocking, requires clarification to assess the broader relevance.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a methodological limitation that has not been systematically characterized in the field-theory simulation literature. The direct comparison against Monte Carlo benchmarks for a lattice protein model is a novel contribution.
+  - Scientific importance: The finding has potential significance for a growing community using field-theoretic methods for biomolecular phase separation. If confirmed, it would impose important constraints on the applicability of these methods.
+  - Interdisciplinary readership: The topic sits at the intersection of statistical physics, computational chemistry, and biophysics. The abstract is written in a way that is accessible to specialists in these areas, though the significance for nonspecialists is not immediately apparent.
+  - Technical soundness: The methodological approach of benchmarking against Monte Carlo is sound in principle, but the abstract provides insufficient detail to verify the technical execution. The toy model analysis is mentioned but not described.
+  - Readability for nonspecialists: The abstract is concise and clearly written, but assumes familiarity with field-theory simulation and lattice protein models. The key message, that repulsion causes sampling failure, is communicated effectively.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim is potentially important and the methodological approach is appropriate, but the abstract alone does not provide sufficient quantitative evidence to establish the case. The blocking concerns regarding quantitative thresholds and the ergodicity mechanism must be addressed in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that complex Langevin sampling fails for repulsion strengths needed to prevent compact droplets is unsupported without quantitative thresholds and comparison data.
+- The claim that sampling problems stem from loss of ergodicity is unsupported without a description of the toy model and evidence connecting it to the full system.
+- The implication that the findings apply to previously studied polyampholyte systems is unsupported without discussion of model transferability.
+- The statement that field-theory simulation "offers an alternative" to conventional sampling is presented as motivation but is not evaluated in the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35762723",
+  "title": "More is simpler: Decomposition of ligand-binding affinity for proteins being disordered.",
+  "authors": "Wang, Xiaohui; Chong, Bin; Sun, Zhaoxi; Ruan, Hao; Yang, Yingguang; Song, Pengbo; Liu, Zhirong",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2022-06-29",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文从统计力学角度揭示无序蛋白(IDP)构象系综平均使结合亲和力可分解为IDP配体能力和配体容量之和，并用于虚拟筛选，虽聚焦蛋白-配体而非PPI，但为IDP结合机制建模提供了可迁移的物理框架。",
+  "abstract": "In statistical mechanics, it is well known that the huge number of degrees of freedom does not complicate the problem as it seems, but actually greatly simplifies the analysis (e.g., to give a Boltzmann distribution). Here, we reveal that the ensemble averaging from the vast conformations of intrinsically disordered proteins (IDPs) greatly simplifies the nature of binding affinity, which can be reliably decomposed into a sum of the ligandability of IDP and the capacity of ligand. Such an unexpected regularity is applied to facilitate the virtual screening upon IDPs. It also provides essential insight in understanding the specificity difference between IDPs and conventional ordered proteins since the specificity is caused by deviation from the baseline behavior of protein-ligand binding.",
+  "abstract_zh": "在统计力学中，众所周知，巨大的自由度数量并未如表面所见般使问题复杂化，反而极大地简化了分析（例如，得出玻尔兹曼分布）。在此，我们揭示，来自固有无序蛋白质（IDPs）的庞大构象的系综平均极大地简化了结合亲和力的本质，其可可靠地分解为IDP的配体能力与配体容量的总和。这一出乎意料的规律性被应用于促进针对IDPs的虚拟筛选。同时，它为理解IDPs与传统有序蛋白质之间的特异性差异提供了关键洞见，因为这种特异性源于蛋白质-配体结合基线行为的偏离。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35762723/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35762723/",
+  "paper_page_path": "papers/pubmed/35762723/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40188396",
+  "title": "Computational prediction of Homo sapiens-Candida albicans protein-protein interactions reveal key virulence factors using dual RNA-Seq data analysis.",
+  "authors": "Kaur, Ekjot; Acharya, Vishal",
+  "journal": "Archives of microbiology",
+  "published_date": "2025-04-07",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用同源/结构域计算预测人类-白色念珠菌PPI并识别毒力因子，虽涉及IDR但方法为传统计算预测，缺乏AI/物理模拟机制建模，属对象相关但方法较弱的中档工作。",
+  "abstract": "A prevalent pathobiont, Candida albicans, accounts for approximately 70% of fungal infections worldwide owing to its virulence traits that culminate in devastating fatalities within healthcare facilities. Protein-protein interactions (PPIs) between Homo sapiens and C. albicans play a pivotal role in infection and disease progression. Additionally, scarcity of information on H. sapiens-C. albicans protein-protein interactions makes it difficult to understand the molecular mechanisms underlying infection and host immune responses. Investigating these PPIs can provide crucial insights into host-pathogen relationships and facilitate the development of novel therapeutic interventions. To address this challenge, we utilized computational techniques based on homology and domain to project 56,515 human-fungal pathogen protein-protein interactions (HF-PPIs) involving 6830 human and 486 C. albicans proteins. We have identified 16 key virulence factors of C. albicans, including SOD1, ERG10, GFA1, and VPS4, as potential therapeutic targets. As evidenced by dual RNA-Seq data acquired at various stages of infection such as 15, 30, 60, 120, and 240 min, these fungal genes interact with down-regulated human immunomodulatory genes specifically, ADRM1, DAXX, RYBP, SGTA, and SRGN. In addition to their intrinsically disordered regions, these human genes are particularly susceptible to fungal manipulation. Through the identification of experimentally validated virulence factors and their interaction partners, this investigation constructs HF-PPI between H. sapiens and C. albicans. Our knowledge of human-fungal pathogen protein-protein interactions will be improved by integrating computational and experimental data in order to facilitate the development of efficient fungal infection prevention and treatment protocols.",
+  "abstract_zh": "一种普遍存在的致病共生菌——白色念珠菌（Candida albicans），因其毒力特性，在全球范围内约占真菌感染的70%，在医疗机构中导致毁灭性的死亡病例。人类（Homo sapiens）与白色念珠菌之间的蛋白质-蛋白质相互作用（PPIs）在感染和疾病进展中发挥关键作用。此外，关于人类-白色念珠菌蛋白质-蛋白质相互作用信息的匮乏，使得理解感染及宿主免疫反应背后的分子机制变得困难。研究这些PPIs可为宿主-病原体关系提供重要见解，并促进新型治疗干预措施的开发。为应对这一挑战，我们利用基于同源性和结构域的计算技术，预测了涉及6830个人类蛋白和486个白色念珠菌蛋白的56,515个人类-真菌病原体蛋白质-蛋白质相互作用（HF-PPIs）。我们已鉴定出白色念珠菌的16个关键毒力因子，包括SOD1、ERG10、GFA1和VPS4，作为潜在的治疗靶点。正如在感染不同阶段（如15、30、60、120和240分钟）获取的双RNA-Seq数据所证明，这些真菌基因与下调的人类免疫调节基因（具体为ADRM1、DAXX、RYBP、SGTA和SRGN）相互作用。除了其内在无序区域外，这些人类基因特别易受真菌操控。通过鉴定经实验验证的毒力因子及其相互作用伙伴，本研究构建了人类与白色念珠菌之间的HF-PPI。通过整合计算和实验数据，我们对人类-真菌病原体蛋白质-蛋白质相互作用的认识将得到提升，从而促进高效真菌感染预防和治疗方案的发展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40188396/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40188396/",
+  "paper_page_path": "papers/pubmed/40188396/index.html"
+}

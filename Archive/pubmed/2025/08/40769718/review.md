@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that the C-terminal intrinsically disordered regions of the C. elegans PUF proteins FBF-1 and FBF-2 differentially regulate RNA-binding affinity. Specifically, the FBF-2 C-terminal tail (CT) autoinhibits RNA binding via a PUF-interacting motif (PIM), whereas the FBF-1 CT does not affect RNA binding despite containing a PIM that binds its own RNA-binding domain (RBD). Chimeric protein experiments show that the FBF-2 CT can autoinhibit FBF-1 RNA binding, and swapping the FBF-1 PIM for the FBF-2 PIM reduces FBF-2 autoinhibition.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, structural coordinates, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, structural data, sequence alignments, and any statistical or biophysical measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially interesting study on paralog-specific regulation of RNA-binding affinity in PUF proteins. The finding that FBF-1 and FBF-2 CTs differ functionally despite high sequence conservation and similar PIM-RBD interactions is conceptually valuable. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key quantitative data, experimental controls, and methodological details are absent, limiting the ability to assess technical soundness and the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, particularly PUF family proteins, and those interested in intrinsically disordered regions, paralog functional divergence, and post-transcriptional gene regulation in germline biology. The work may also appeal to structural biologists investigating protein-RNA interactions and autoinhibitory mechanisms.
+- **Major strengths** The study addresses a clear gap in knowledge regarding the functional roles of FBF CTs. The use of chimeric proteins to dissect paralog-specific contributions is a logical and powerful approach. The finding that a PIM can bind its RBD without affecting RNA binding in FBF-1, in contrast to FBF-2, highlights a nuanced regulatory mechanism.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the FBF-1 CT has no impact on RNA binding, despite containing a PIM that binds its RBD, is presented as a definitive conclusion.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the FBF-1 CT had no impact on RNA binding, but no quantitative data (e.g., binding affinities, kinetic parameters, or statistical comparisons) are provided. Without such data, it is impossible to assess whether the lack of effect is robust or within experimental noise.  
+  - **Why it matters** This claim is central to the paper's conclusion that FBF-1 and FBF-2 CTs differentially regulate RNA-binding affinity. If the FBF-1 CT has a subtle but real effect, the interpretation of paralog divergence would change.  
+  - **Resolution test** Provide quantitative RNA-binding measurements (e.g., Kd values) for FBF-1 with and without the CT, including replicates and statistical analysis, to demonstrate that the absence of effect is significant.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The chimeric protein experiments are used to conclude that the FBF-2 CT can autoinhibit FBF-1 RNA binding and that the FBF-1 PIM substitution diminishes FBF-2 autoinhibition.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe how chimeric proteins were constructed, whether the chimeras were properly folded, or whether the observed effects are due to the CT/PIM alone versus unintended structural perturbations. Without these details, the mechanistic interpretation is not fully supported.  
+  - **Why it matters** Chimeric approaches can introduce artifacts if domain boundaries are not carefully chosen or if protein stability is affected. The conclusions depend on the assumption that the chimeras faithfully represent the functional contributions of the CTs.  
+  - **Resolution test** Include structural or biophysical characterization of the chimeras (e.g., circular dichroism, size-exclusion chromatography, or crystallography) to confirm proper folding, and provide a detailed description of chimera design and controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The crystal structure of FBF-1 demonstrates that a PIM in the FBF-1 CT binds to its RBD, like FBF-2.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No structural details are provided, such as resolution, refinement statistics, or whether the PIM-RBD interaction is observed in multiple crystal forms or solution conditions. The claim of similarity to FBF-2 is made without direct comparison data.  
+  - **Why it matters** Structural claims require rigorous validation. If the FBF-1 PIM-RBD interaction is weak or crystallization artifact, the interpretation that it is functionally analogous to FBF-2 would be misleading.  
+  - **Resolution test** Provide crystallographic statistics, electron density maps for the PIM-RBD interface, and solution-based validation (e.g., NMR or ITC) to confirm the interaction.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "collective term" for FBF is used, but it is unclear whether FBF-1 and FBF-2 are functionally redundant or distinct in all contexts.  
+  - **Required correction** Clarify whether FBF-1 and FBF-2 have known distinct functions beyond the CT effects described.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Context  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions that the FBF-2 CT is essential for its function, but does not explain what that function is or how it relates to the autoinhibitory mechanism.  
+  - **Required correction** Briefly state the functional consequence of FBF-2 CT essentiality and how autoinhibition fits into that context.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The final statement that the results exemplify how RBP paralogs diverge to fine-tune RNA-binding activities is broad and may overreach beyond the specific FBF system.  
+  - **Required correction** Soften the claim or provide additional examples or discussion to support the generalizability.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3  
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses a novel question about paralog-specific regulation of RNA-binding affinity via disordered regions, which is a relatively underexplored area. The finding that a PIM can bind without functional effect is potentially original.  
+  - Scientific importance: The work has relevance to understanding PUF protein function and germline stem cell maintenance, but the broader impact beyond the FBF system is not yet demonstrated.  
+  - Interdisciplinary readership: The topic is likely to appeal to molecular biologists, biochemists, and structural biologists, but the abstract does not frame the findings in a way that would attract a wider audience.  
+  - Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative and structural details is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., PUF, PIM, RBD) without sufficient explanation for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the absence of quantitative data, experimental controls, and structural validation prevents a definitive assessment. The study could become supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that the FBF-1 CT has no impact on RNA binding is unsupported without quantitative data.
+- The claim that the FBF-2 CT can autoinhibit FBF-1 RNA binding is unsupported without details on chimera construction and controls.
+- The claim that the FBF-1 PIM substitution diminishes FBF-2 autoinhibition is unsupported without quantitative comparison.
+- The structural claim of PIM-RBD interaction in FBF-1 is unsupported without crystallographic or solution data.
+- The generalizability statement about RBP paralog divergence is not supported by the abstract alone.

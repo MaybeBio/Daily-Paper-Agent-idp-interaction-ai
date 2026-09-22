@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.31.667942",
+  "title": "Intermolecular β-sheet formation guides the interaction between ubiquitin-like modifier FAT10 and adapter protein NUB1L",
+  "authors": "Weiss C; Overall S; Catone N; Barnes AB; Aichem A; Mathies G",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-02",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MAS NMR研究无序蛋白FAT10与适配蛋白NUB1L互作中分子间β-sheet形成及构象转变，揭示无序状态下PPI的机制，虽方法为实验NMR而非AI/物理模拟，但对象与互作机制高度契合，对无序蛋白互作建模有直接启发。",
+  "abstract": "<h4>ABSTRACT</h4> Under inflammatory conditions, the ubiquitin-like modifier FAT10 targets proteins for rapid and irreversible degradation by the 26S proteasome. FAT10 is degraded along with its substrates and in this process, the loose folding of FAT10 and adapter protein NUB1L have long been suspected to play crucial roles. We report here the investigation of the N-domain of FAT10 and its interaction with NUB1L by magic-angle spinning (MAS) NMR spectroscopy. A stretch of residues that is intrinsically disordered when the N-domain of FAT10 is in its ubiquitin-like β-grasp fold, becomes part of a regularly structured loop and an intermolecular β-sheet upon binding to NUB1L. The rest of the N-domain is now disordered, with exception of a series of anchor residues and the N-terminus. We propose that, in preparation of degradation by the proteasome, NUB1L stabilizes N-FAT10 in an unfolded state, acting as a holdase. The ability of FAT10 to interact in folded as well as unfolded form is essential for its role in inflammation-linked proteostasis.",
+  "abstract_zh": "<h4>摘要</h4> 在炎症条件下，泛素样修饰因子FAT10靶向蛋白质，通过26S蛋白酶体进行快速且不可逆的降解。FAT10与其底物一同被降解，在此过程中，FAT10的松散折叠及适配蛋白NUB1L长期以来被认为发挥关键作用。我们在此报告了通过魔角旋转（MAS）核磁共振波谱法对FAT10的N结构域及其与NUB1L相互作用的研究。当FAT10的N结构域处于泛素样β-抓握折叠时，一段本质上无序的残基序列，在与NUB1L结合后，成为规则结构环和分子间β-折叠的一部分。N结构域的其余部分现在呈无序状态，但一系列锚定残基和N端除外。我们提出，在为蛋白酶体降解做准备时，NUB1L以持留蛋白（holdase）的作用方式稳定N-FAT10于未折叠状态。FAT10以折叠及未折叠形式相互作用的能力，对其在炎症相关蛋白质稳态中的功能至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667942",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667942",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.31.667942/index.html"
+}

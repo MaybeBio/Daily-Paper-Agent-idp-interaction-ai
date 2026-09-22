@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "37749095",
+    "doi": "10.1038/s41467-023-41633-8",
+    "title": "Driving forces behind phase separation of the carboxy-terminal domain of RNA polymerase II."
+  },
+  "content": {
+    "abstract": "Eukaryotic gene regulation and pre-mRNA transcription depend on the carboxy-terminal domain (CTD) of RNA polymerase (Pol) II. Due to its highly repetitive, intrinsically disordered sequence, the CTD enables clustering and phase separation of Pol II. The molecular interactions that drive CTD phase separation and Pol II clustering are unclear. Here, we show that multivalent interactions involving tyrosine impart temperature- and concentration-dependent self-coacervation of the CTD. NMR spectroscopy, molecular ensemble calculations and all-atom molecular dynamics simulations demonstrate the presence of diverse tyrosine-engaging interactions, including tyrosine-proline contacts, in condensed states of human CTD and other low-complexity proteins. We further show that the network of multivalent interactions involving tyrosine is responsible for the co-recruitment of the human Mediator complex and CTD during phase separation. Our work advances the understanding of the driving forces of CTD phase separation and thus provides the basis to better understand CTD-mediated Pol II clustering in eukaryotic gene transcription.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*RNA Polymerase II",
+      "*Transcription, Genetic",
+      "Cell Nucleus",
+      "Cluster Analysis",
+      "Diet, Protein-Restricted",
+      "Eukaryota"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Flores-Solis, David",
+        "Lushpinskaia, Irina P",
+        "Polyansky, Anton A",
+        "Changiarath, Arya",
+        "Boehning, Marc",
+        "Mirkovic, Milana",
+        "Walshe, James",
+        "Pietrek, Lisa M",
+        "Cramer, Patrick",
+        "Stelzl, Lukas S",
+        "Zagrovic, Bojan",
+        "Zweckstetter, Markus"
+      ],
+      "short_names": [
+        "Flores-Solis D",
+        "Lushpinskaia IP",
+        "Polyansky AA",
+        "Changiarath A",
+        "Boehning M",
+        "Mirkovic M",
+        "Walshe J",
+        "Pietrek LM",
+        "Cramer P",
+        "Stelzl LS",
+        "Zagrovic B",
+        "Zweckstetter M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5207-0594",
+        "ORCID: 0000-0002-5348-0277",
+        "ORCID: 0000-0002-1616-6713",
+        "ORCID: 0000-0002-2536-6581"
+      ],
+      "affiliations": [
+        "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Strasse 3A, 35075, Gottingen, Germany.",
+        "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Strasse 3A, 35075, Gottingen, Germany.",
+        "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "Faculty of Biology, Johannes Gutenberg University Mainz (JGU), Gresemundweg 2, 55128, Mainz, Germany.",
+        "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz (JGU), Staudingerweg 9, 55099, Mainz, Germany.",
+        "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Fassberg 11, 37077, Gottingen, Germany.",
+        "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Fassberg 11, 37077, Gottingen, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue Strassse 3, 60438, Frankfurt am Main, Germany.",
+        "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Fassberg 11, 37077, Gottingen, Germany.",
+        "Faculty of Biology, Johannes Gutenberg University Mainz (JGU), Gresemundweg 2, 55128, Mainz, Germany.",
+        "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz (JGU), Staudingerweg 9, 55099, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB), 55128, Mainz, Germany.",
+        "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Strasse 3A, 35075, Gottingen, Germany. Markus.Zweckstetter@dzne.de.",
+        "Department of NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Fassberg 11, 37077, Gottingen, Germany. Markus.Zweckstetter@dzne.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Flores-Solis, David",
+        "short_name": "Flores-Solis D",
+        "identifiers": [
+          "0000-0001-5207-0594"
+        ],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Straße 3A, 35075, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Lushpinskaia, Irina P",
+        "short_name": "Lushpinskaia IP",
+        "identifiers": [],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Straße 3A, 35075, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Polyansky, Anton A",
+        "short_name": "Polyansky AA",
+        "identifiers": [],
+        "affiliations": [
+          "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+          "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Changiarath, Arya",
+        "short_name": "Changiarath A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology, Johannes Gutenberg University Mainz (JGU), Gresemundweg 2, 55128, Mainz, Germany.",
+          "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz (JGU), Staudingerweg 9, 55099, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Boehning, Marc",
+        "short_name": "Boehning M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Mirkovic, Milana",
+        "short_name": "Mirkovic M",
+        "identifiers": [],
+        "affiliations": [
+          "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+          "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Walshe, James",
+        "short_name": "Walshe J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Pietrek, Lisa M",
+        "short_name": "Pietrek LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue Strasße 3, 60438, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Cramer, Patrick",
+        "short_name": "Cramer P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [
+          "0000-0002-5348-0277"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Johannes Gutenberg University Mainz (JGU), Gresemundweg 2, 55128, Mainz, Germany.",
+          "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz (JGU), Staudingerweg 9, 55099, Mainz, Germany.",
+          "Institute of Molecular Biology (IMB), 55128, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Zagrovic, Bojan",
+        "short_name": "Zagrovic B",
+        "identifiers": [
+          "0000-0002-1616-6713"
+        ],
+        "affiliations": [
+          "Max Perutz Labs, Vienna Biocenter Campus (VBC), Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+          "University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Campus Vienna Biocenter 5, 1030, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Zweckstetter, Markus",
+        "short_name": "Zweckstetter M",
+        "identifiers": [
+          "0000-0002-2536-6581"
+        ],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold Straße 3A, 35075, Göttingen, Germany. Markus.Zweckstetter@dzne.de.",
+          "Department of NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany. Markus.Zweckstetter@dzne.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Sep 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/26 00:41",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "42154217",
+      "41902470",
+      "41877588",
+      "41865079",
+      "41758937",
+      "41354346",
+      "41235398",
+      "41001635",
+      "40984006",
+      "40781776",
+      "40779608",
+      "40456606",
+      "40397569",
+      "40286793",
+      "40273986",
+      "40164612",
+      "39927755",
+      "39920231",
+      "39858608",
+      "39819217",
+      "39763942",
+      "39497416",
+      "39448580",
+      "39395159",
+      "39372747",
+      "39266551",
+      "39232584",
+      "38563748",
+      "38405719",
+      "38326345",
+      "38260389",
+      "37090622"
+    ],
+    "refs": [
+      "37470705",
+      "35373198",
+      "34759379",
+      "33958484",
+      "33902108",
+      "33822962",
+      "33707221",
+      "32696370",
+      "32684431",
+      "32544389",
+      "32483291",
+      "32393642",
+      "32312191",
+      "32029630",
+      "32006288",
+      "32004090",
+      "31809054",
+      "31462772",
+      "31391587",
+      "30939006",
+      "30639244",
+      "30449618",
+      "30127355",
+      "29961577",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29849146",
+      "29795785",
+      "29517898",
+      "29490246",
+      "29399725",
+      "29304333",
+      "29195049",
+      "29019976",
+      "28945358",
+      "28924037",
+      "28668116",
+      "28497798",
+      "28497792",
+      "28340338",
+      "28225081",
+      "27605205",
+      "26866899",
+      "26488642",
+      "25764013",
+      "25693131",
+      "25549265",
+      "25505092",
+      "24831340",
+      "24794700",
+      "24267890",
+      "23828889",
+      "23728592",
+      "23148796",
+      "23071300",
+      "23028141",
+      "22911436",
+      "22745433",
+      "22455930",
+      "22423358",
+      "21500218",
+      "20861839",
+      "20628786",
+      "20483348",
+      "20408171",
+      "19548092",
+      "19514729",
+      "18457900",
+      "17468025",
+      "16981200",
+      "16211538",
+      "15964991",
+      "15665873",
+      "15241417",
+      "11451441",
+      "11430757",
+      "9895674",
+      "8642599",
+      "8520220",
+      "8448431",
+      "8324825",
+      "8001136",
+      "7777490",
+      "7108955",
+      "1989983"
+    ],
+    "similar": [
+      "37749095",
+      "30127355",
+      "28248323",
+      "37331973",
+      "34216714",
+      "28945358",
+      "29849146",
+      "39266551",
+      "32544389",
+      "37424514",
+      "34759379",
+      "38260389",
+      "37870995",
+      "33555055",
+      "39395159",
+      "29304333",
+      "31680436",
+      "9057097",
+      "36171202",
+      "10392900",
+      "30971428",
+      "32107786",
+      "7826625",
+      "20231361",
+      "12011776",
+      "28497798",
+      "16157863",
+      "14704341",
+      "14595832",
+      "10490622",
+      "12358429",
+      "9224939",
+      "10781604",
+      "9407024",
+      "30765194",
+      "28465432",
+      "35176629",
+      "16076843",
+      "26876604",
+      "28497792",
+      "22960391",
+      "32439331",
+      "12049628",
+      "26515650",
+      "10655211",
+      "8934526",
+      "20861839",
+      "9442866",
+      "25041272",
+      "22110856",
+      "20418102",
+      "9228069",
+      "37014863",
+      "15241417",
+      "30139934",
+      "18550522",
+      "28575287",
+      "28506463",
+      "24842994",
+      "20106982",
+      "32568517",
+      "26807597",
+      "30684537",
+      "18294453",
+      "24879308",
+      "28002402",
+      "37748526",
+      "35640611",
+      "29910112",
+      "24473209",
+      "19176527",
+      "7536746",
+      "16107713",
+      "20457598",
+      "22622228",
+      "36142573",
+      "36634798",
+      "8668151",
+      "22137580",
+      "9002523",
+      "16410768",
+      "12114499",
+      "7715709",
+      "17603278",
+      "1591782",
+      "11027297",
+      "26799765",
+      "11533226",
+      "27622638",
+      "24530645",
+      "8029001",
+      "37577667",
+      "29930090",
+      "36070379",
+      "38799575",
+      "38782886"
+    ],
+    "review": [
+      "37749095",
+      "28248323",
+      "31680436",
+      "35176629",
+      "26876604",
+      "22960391",
+      "9442866",
+      "20418102",
+      "30684537",
+      "24879308",
+      "24473209",
+      "22622228",
+      "17603278",
+      "27622638"
+    ],
+    "pmc": [
+      "10519987"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-41633-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37749095/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37749095",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

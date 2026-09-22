@@ -1,0 +1,544 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.10.566489",
+  "title": "Intrinsically disordered regions and RNA binding domains contribute to protein enrichment in biomolecular condensates in <i>Xenopus</i> oocytes",
+  "doi": "10.1101/2023.11.10.566489",
+  "abstract": "Proteins containing both intrinsically disordered regions (IDRs) and RNA binding domains (RBDs) can phase separate in vitro , forming bodies similar to cellular biomolecular condensates. However, how IDR and RBD domains contribute to in vivo recruitment of proteins to biomolecular condensates remains poorly understood. Here, we analyzed the roles of IDRs and RBDs in L-bodies, biomolecular condensates present in Xenopus oocytes. We show that a cytoplasmic isoform of hnRNPAB, which contains two RBDs and an IDR, is highly enriched in L-bodies. While both of these domains contribute to hnRNPAB self-association and phase separation in vitro and mediate enrichment into L-bodies in oocytes, neither the RBDs nor the IDR replicate the localization of full-length hnRNPAB. Our results suggest a model where the additive effects of the IDR and RBDs regulate hnRNPAB partitioning into L-bodies. This model likely has widespread applications as proteins containing RBD and IDR domains are common biomolecular condensate residents.",
+  "authors": [
+    "Liam C. O’Connell",
+    "Victoria Johnson",
+    "Anika K. Hutton",
+    "Jessica P. Otis",
+    "Anastasia C. Murthy",
+    "Mark C. Liang",
+    "Szu-Huan Wang",
+    "Nicolas L. Fawzi",
+    "Kimberly L. Mowry"
+  ],
+  "published_date": "2023-11-10",
+  "updated_date": "2023-11-10T16:05:14Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566489",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.10.566489.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:18:27Z",
+        "timestamp": 1768508307919,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Proteins containing both intrinsically disordered regions (IDRs) and RNA binding domains (RBDs) can phase separate\n                  <jats:italic>in vitro</jats:italic>\n                  , forming bodies similar to cellular biomolecular condensates. However, how IDR and RBD domains contribute to\n                  <jats:italic>in vivo</jats:italic>\n                  recruitment of proteins to biomolecular condensates remains poorly understood. Here, we analyzed the roles of IDRs and RBDs in L-bodies, biomolecular condensates present in\n                  <jats:italic>Xenopus</jats:italic>\n                  oocytes. We show that a cytoplasmic isoform of hnRNPAB, which contains two RBDs and an IDR, is highly enriched in L-bodies. While both of these domains contribute to hnRNPAB self-association and phase separation\n                  <jats:italic>in vitro</jats:italic>\n                  and mediate enrichment into L-bodies in oocytes, neither the RBDs nor the IDR replicate the localization of full-length hnRNPAB. Our results suggest a model where the additive effects of the IDR and RBDs regulate hnRNPAB partitioning into L-bodies. This model likely has widespread applications as proteins containing RBD and IDR domains are common biomolecular condensate residents.\n                </jats:p>",
+      "DOI": "10.1101/2023.11.10.566489",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2023-11-10T16:05:14Z",
+        "timestamp": 1699632314000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Intrinsically disordered regions and RNA binding domains contribute to protein enrichment in biomolecular condensates in\n                  <i>Xenopus</i>\n                  oocytes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Liam C.",
+          "family": "O’Connell",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Victoria",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anika K.",
+          "family": "Hutton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jessica P.",
+          "family": "Otis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anastasia C.",
+          "family": "Murthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mark C.",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Szu-Huan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5483-0577",
+          "authenticated-orcid": false,
+          "given": "Nicolas L.",
+          "family": "Fawzi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4126-2889",
+          "authenticated-orcid": false,
+          "given": "Kimberly L.",
+          "family": "Mowry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fare, C. M. , Villani, A. , Drake, L. E. & Shorter, J . Higher-order organization of biomolecular condensates. Open Biology vol. 11 (2021).",
+          "DOI": "10.1098/rsob.210137"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.06.010"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2591",
+          "DOI": "10.1042/BST20200351",
+          "article-title": "Dissecting the complexity of biomolecular condensates",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Biochem Soc Trans"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2016.05.004"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hofmann, S. , Kedersha, N. , Anderson, P. & Ivanov, P . Molecular mechanisms of stress granule assembly and disassembly. Biochimica et Biophysica Acta - Molecular Cell Research vol. 1868 (2021).",
+          "DOI": "10.1016/j.bbamcr.2020.118876"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.09.015"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1308",
+          "DOI": "10.1016/j.cell.2022.02.022",
+          "article-title": "Liquid-to-solid phase transition of oskar ribonucleoprotein granules is essential for their function in Drosophila embryonic development",
+          "volume": "185",
+          "year": "2022",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.06.051"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Neil, C. R. et al. L-bodies are RNA-protein condensates driving RNA transport in Xenopus oocytes. Mol. Biol. Cell ar27 (2021).",
+          "DOI": "10.1101/2020.05.08.084814"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Putnam, A. , Cassani, M. , Smith, J. & Seydoux, G . A gel phase promotes condensation of liquid P granules in Caenorhabditis elegans embryos. Nat Struct Mol Biol 26, (2019).",
+          "DOI": "10.1038/s41594-019-0193-2"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.04.004"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chong, S. & Mir, M . Towards Decoding the Sequence-Based Grammar Governing the Functions of Intrinsically Disordered Protein Regions. Journal of Molecular Biology vol. 433 (2021).",
+          "DOI": "10.1016/j.jmb.2020.11.023"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0250-x"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M117.800466"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.03.046"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.201696394"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1504822112"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aar7366"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "183",
+          "DOI": "10.1038/s41580-020-0264-6",
+          "article-title": "RNA contributions to the form and function of biomolecular condensates",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Nature Reviews Molecular Cell Biology"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.06.053"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1038/s41594-021-00601-w",
+          "article-title": "It’s not just a phase: function and characteristics of RNA-binding proteins in phase separation",
+          "volume": "28",
+          "year": "2021",
+          "journal-title": "Nature Structural and Molecular Biology"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.078626"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1016/bs.ctdb.2020.02.007",
+          "article-title": "Organizing the oocyte: RNA localization meets phase separation",
+          "volume": "140",
+          "year": "2020",
+          "journal-title": "Curr Top Dev Biol"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST20210320"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Neil, C. R. et al. L-bodies are RNA–protein condensates driving RNA localization in Xenopus oocytes. Mol Biol Cell 32, (2021).",
+          "DOI": "10.1091/mbc.E21-03-0146-T"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hofmann, S. , Kedersha, N. , Anderson, P. & Ivanov, P . Molecular mechanisms of stress granule assembly and disassembly. Biochimica et Biophysica Acta - Molecular Cell Research vol. 1868 (2021).",
+          "DOI": "10.1016/j.bbamcr.2020.118876"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.08.005"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Verma, A. , Sumi, S. & Seervi, M . Heat shock proteins-driven stress granule dynamics: yet another avenue for cell survival. Apoptosis (2021).",
+          "DOI": "10.1007/s10495-021-01678-w"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.03.046"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.2820106"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2005.01.012"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mod.2003.09.009"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "5013",
+          "DOI": "10.1242/dev.124.24.5013",
+          "article-title": "Two copies of a subelement from the Vg1 RNA localization sequence are sufficient to direct vegetal localization in Xenopus oocytes",
+          "volume": "124",
+          "year": "1997",
+          "journal-title": "Development"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.05.049"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu310"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.328757"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2018.02.004"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.08.003"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cabral, S. E. , Otis, J. P. & Mowry, K. L. Multivalent interactions with RNA drive recruitment and dynamics in biomolecular condensates in Xenopus oocytes. iScience 104811 (2022).",
+          "DOI": "10.1016/j.isci.2022.104811"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.09.006"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.08.003"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/12.18.7057"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.07.018"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1016/j.ymeth.2015.11.003",
+          "article-title": "Using in vivo imaging to measure RNA mobility in Xenopus laevis oocytes",
+          "volume": "98",
+          "year": "2016",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gagnon, J. A. , Kreiling, J. A. , Powrie, E. A. , Wood, T. R. & Mowry, K. L . Directional transport Is mediated by a dynein-dependent step in an RNA localization pathway. PLoS Biol 11, (2013).",
+          "DOI": "10.1371/journal.pbio.1001551"
+        },
+        {
+          "key": "2023111412400608000_2023.11.10.566489v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/meth.2001.1262"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.10.566489",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:30:18Z",
+        "timestamp": 1768455018000
+      },
+      "score": 83.93644,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.10.566489"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2023.11.10.566489",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

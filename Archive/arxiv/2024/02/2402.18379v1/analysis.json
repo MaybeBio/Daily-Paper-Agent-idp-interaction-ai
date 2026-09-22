@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2402.18379v1",
+  "title": "Embracing Disorder in Quantum Materials Design",
+  "authors": "A. R. Mazza; J. Yan; S. Middey; J. S. Gardner; A. -H. Chen; M. Brahlek; T. Z. Ward",
+  "journal": "",
+  "published_date": "2024-02-28",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 1,
+  "one_liner_zh": "该文讨论高熵氧化物量子材料中的组成无序设计，与无序蛋白/IDR介导的蛋白互作及AI/物理模拟方法无关，无可迁移的互作机制建模启发。",
+  "abstract": "Many of the most exciting materials discoveries in fundamental condensed matter physics are made in systems hosting some degree of intrinsic disorder. While disorder has historically been regarded as something to be avoided in materials design, it is often of central importance to correlated and quantum materials. This is largely driven by the conceptual and theoretical ease to handle, predict, and understand highly uniform systems that exhibit complex interactions, symmetries and band structures. In this perspective, we highlight how flipping this paradigm has enabled exciting possibilities in the emerging field of high entropy oxide (HEO) quantum materials. These materials host high levels of cation or anion compositional disorder while maintaining unexpectedly uniform single crystal lattices. The diversity of atomic scale interactions of spin, charge, orbital, and lattice degrees of freedom are found to emerge into coherent properties on much larger length scales. Thus, altering the variance and magnitudes of the atomic scale properties through elemental selection can open new routes to tune global correlated phases such as magnetism, metal-insulator transitions, ferroelectricity, and even emergent topological responses. The strategy of embracing disorder in this way provides a much broader pallet from which functional states can be designed for next-generation microelectronic and quantum information systems.",
+  "abstract_zh": "凝聚态物理基础研究中许多最令人振奋的材料发现，都出现在具有一定程度内在无序性的体系中。尽管历史上无序被视为材料设计中应避免的因素，但它往往对关联材料和量子材料至关重要。这主要源于高度均匀体系在概念和理论上易于处理、预测和理解，这些体系展现出复杂的相互作用、对称性和能带结构。在本视角中，我们强调翻转这一范式如何在高熵氧化物（HEO）量子材料这一新兴领域开启了令人兴奋的可能性。这些材料承载高水平的阳离子或阴离子组分无序性，同时保持出乎意料的均匀单晶格。自旋、电荷、轨道和晶格自由度的原子尺度相互作用多样性被发现能在更大长度尺度上涌现为相干性质。因此，通过元素选择改变原子尺度性质的方差和幅度，可为调控全局关联相（如磁性、金属-绝缘体转变、铁电性，甚至涌现拓扑响应）开辟新途径。以这种方式拥抱无序的策略提供了一个更广泛的调色板，从中可为下一代微电子和量子信息系统设计功能态。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2402.18379v1",
+  "source_url": "https://arxiv.org/abs/2402.18379v1",
+  "paper_page_path": "papers/arxiv/2402.18379v1/index.html"
+}

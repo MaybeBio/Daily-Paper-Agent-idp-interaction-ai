@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.17.549284",
+  "title": "Structural insights into complex I deficiency and assembly from the disease-related ndufs4 -/- mouse",
+  "authors": "Yin Z; Agip AA; Bridges HR; Hirst J",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-17",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用冷冻电镜解析线粒体呼吸链复合物I缺失突变小鼠的结构，聚焦组装缺陷而非无序蛋白介导的PPI，与本课题无直接关联。",
+  "abstract": "Respiratory complex I (NADH:ubiquinone oxidoreductase) is essential for cellular energy production and NAD + homeostasis. Complex I mutations cause neuromuscular, mitochondrial diseases, such as Leigh Syndrome, but their molecular-level consequences remain poorly understood. Here, we use a popular complex I-linked mitochondrial disease model, the ndufs4 -/- mouse, to define the structural, biochemical and functional consequences of the absence of subunit NDUFS4. Cryo-EM analyses of mouse-heart ndufs4 -/- complex I revealed a loose association of the NADH-dehydrogenase module, and discrete classes containing either assembly factor NDUFAF2 or subunit NDUFS6. Subunit NDUFA12 (that replaces its paralogue NDUFAF2 in mature complex I) is absent from all classes, compounding the deletion of NDUFS4 and preventing maturation of an NDUFS4-free but otherwise complete enzyme. We propose NDUFAF2 as the recruiter of the NADH dehydrogenase module during assembly of the complex. Our results provide new molecular level understanding of the ndufs4 -/- mouse model and complex I-linked mitochondrial disease.",
+  "abstract_zh": "呼吸复合物I（NADH：泛醌氧化还原酶）对细胞能量产生和NAD+稳态至关重要。复合物I突变会导致神经肌肉性线粒体疾病，如Leigh综合征，但其分子层面的后果仍知之甚少。在此，我们使用一种常见的与复合物I相关的线粒体疾病模型——ndufs4-/-小鼠，来定义亚基NDUFS4缺失所带来的结构、生化和功能后果。对小鼠心脏ndufs4-/-复合物I的冷冻电镜分析揭示了NADH脱氢酶模块的松散结合，以及包含组装因子NDUFAF2或亚基NDUFS6的离散类别。亚基NDUFA12（在成熟复合物I中替代其旁系同源物NDUFAF2）在所有类别中均缺失，这加剧了NDUFS4的缺失效应，并阻止了无NDUFS4但其他部分完整的酶成熟。我们提出NDUFAF2在复合物组装过程中充当NADH脱氢酶模块的招募者。我们的结果为ndufs4-/-小鼠模型及复合物I相关线粒体疾病提供了新的分子层面理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.17.549284",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.17.549284",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.17.549284/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39448580",
+  "title": "Sequence and structural determinants of RNAPII CTD phase-separation and phosphorylation by CDK7.",
+  "authors": "Linhartova, Katerina; Falginella, Francesco Luca; Matl, Martin; Sebesta, Marek; Vacha, Robert; Stefl, Richard",
+  "journal": "Nature communications",
+  "published_date": "2024-10-25",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合分子动力学模拟与体外实验，系统解析RNAPII无序CTD的序列语法（酪氨酸芳香性与脯氨酸顺反异构）如何驱动相分离，并揭示CDK7在凝聚体表面加速磷酸化并促进产物释放的互作机制，是IDR相分离与酶-PPI机制建模的典范。",
+  "abstract": "The intrinsically disordered carboxy-terminal domain (CTD) of the largest subunit of RNA Polymerase II (RNAPII) consists of multiple tandem repeats of the consensus heptapeptide Y1-S2-P3-T4-S5-P6-S7. The CTD promotes liquid-liquid phase-separation (LLPS) of RNAPII in vivo. However, understanding the role of the conserved heptad residues in LLPS is hampered by the lack of direct biochemical characterization of the CTD. Here, we generated a systematic array of CTD variants to unravel the sequence-encoded molecular grammar underlying the LLPS of the human CTD. Using in vitro experiments and molecular dynamics simulations, we report that the aromaticity of tyrosine and cis-trans isomerization of prolines govern CTD phase-separation. The cis conformation of prolines and beta-turns in the SPXX motif contribute to a more compact CTD ensemble, enhancing interactions among CTD residues. We further demonstrate that prolines and tyrosine in the CTD consensus sequence are required for phosphorylation by Cyclin-dependent kinase 7 (CDK7). Under phase-separation conditions, CDK7 associates with the surface of the CTD droplets, drastically accelerating phosphorylation and promoting the release of hyperphosphorylated CTD from the droplets. Our results highlight the importance of conformationally restricted local structures within spacer regions, separating uniformly spaced tyrosine stickers of the CTD heptads, which are required for CTD phase-separation.",
+  "abstract_zh": "RNA聚合酶II（RNAPII）最大亚基的固有无序羧基末端结构域（CTD）由共有七肽Y1-S2-P3-T4-S5-P6-S7的多个串联重复序列组成。CTD在体内促进RNAPII的液-液相分离（LLPS）。然而，由于缺乏对CTD的直接生化表征，理解保守七肽残基在LLPS中的作用受到阻碍。在此，我们生成了一系列系统的CTD变体，以揭示编码人类CTD LLPS的序列级分子语法。通过体外实验和分子动力学模拟，我们报道酪氨酸的芳香性和脯氨酸的顺反异构化调控CTD的相分离。SPXX基序中脯氨酸的顺式构象和β-转角有助于形成更紧凑的CTD构象集合，增强CTD残基间的相互作用。我们进一步证明，CTD共有序列中的脯氨酸和酪氨酸是细胞周期蛋白依赖性激酶7（CDK7）磷酸化所必需的。在相分离条件下，CDK7与CTD液滴表面结合，大幅加速磷酸化并促进高磷酸化CTD从液滴中释放。我们的结果强调了间隔区内构象受限的局部结构的重要性，这些结构分隔了CTD七肽中均匀间隔的酪氨酸粘附点，而这些结构是CTD相分离所必需的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39448580/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39448580/",
+  "paper_page_path": "papers/pubmed/39448580/index.html"
+}

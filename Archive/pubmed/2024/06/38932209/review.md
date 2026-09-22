@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** The manuscript's claims, methods, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors analyze 47 host proteins entrapped in rabies virus (RABV) particles, focusing on intrinsic disorder. They identify 11 highly disordered proteins, detail five (Neuromodulin, Chmp4b, DnaJB6, Vps37B, Wasl), and propose that disorder in these host proteins contributes to RABV pathogenicity, immune evasion, and antiviral drug resistance.
+- **Visible evidence base** Bioinformatics predictions from RIDAO, D2P2, FuzDrop, STRING, AlphaFold, and ELM; figures and tables referenced in the text; supplementary materials mentioned
+- **Missing materials affecting confidence** Figures 1-8, Tables 1-5, Supplementary Files S1-S7, and Appendix A are referenced but not provided. Raw proteomics data from the original study [23] are not included. No experimental validation data are presented.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a bioinformatics-focused analysis of intrinsic disorder in host proteins entrapped in RABV particles. The topic is of potential interest to the virology and intrinsically disordered protein communities. However, the work is largely descriptive and relies entirely on computational predictions. The central claims regarding the functional roles of disorder in pathogenicity, immune evasion, and drug resistance are speculative and not supported by direct experimental evidence. The manuscript would benefit from a more rigorous and cautious interpretation of the bioinformatics outputs, and the novelty is limited given the existing literature on disorder in viral proteins and host-pathogen interactions.
+- **Who would be interested in the results, and why** Researchers studying rabies virus biology, host-pathogen interactions, and the role of intrinsically disordered proteins in viral infection. The identification of specific disordered host proteins incorporated into virions may inform hypotheses about viral assembly, immune evasion, and potential therapeutic targets. The methodological approach using multiple disorder predictors could be of interest to those conducting similar computational analyses.
+- **Major strengths** The manuscript addresses a relatively underexplored area, namely the disorder status of host proteins incorporated into viral particles. The use of multiple complementary bioinformatics tools is appropriate for a computational study. The authors provide a detailed analysis of five specific proteins, including functional annotations and interaction networks. The discussion of limitations in the Conclusions section is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that the entrapped disordered host proteins "might play a significant role in facilitating the rabies virus pathogenicity, immune system evasion, and the development of antiviral drug resistance."
+  - **Evidence pointer** Section 3.4, Conclusions
+  - **Concern** This is the central claim of the manuscript, but it is presented as a hypothesis without direct experimental support. The text in Section 3.4 is largely a general discussion of known mechanisms of immune evasion and drug resistance, not a specific analysis linking the identified proteins to these processes in RABV. The connection between the bioinformatics predictions and the proposed functional outcomes is not established.
+  - **Why it matters** The claim is the primary justification for the study's significance. Without evidence linking the disorder of these specific host proteins to measurable effects on viral pathogenicity, immune evasion, or drug resistance, the conclusion is unsupported and overstates the findings.
+  - **Resolution test** The authors should either provide experimental data (e.g., functional assays with mutant viruses or cells lacking these host proteins) or substantially temper the language to clearly state that these are speculative hypotheses requiring further investigation. The current phrasing implies a level of confidence not warranted by the evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The analysis is based on 47 host proteins identified in a previous proteomics study [23], and the authors state they used data from Table 1 of that paper.
+  - **Evidence pointer** Section 2.1, Section 3.1
+  - **Concern** The manuscript relies entirely on data from a previous publication. The authors do not provide the list of 47 proteins in the main text or in the provided supplementary materials. The criteria for selecting the five proteins for detailed analysis are not clearly defined beyond "highest levels of disorder." The specific parameters and settings for the STRING analysis (e.g., confidence levels, interaction sources) are not fully described.
+  - **Why it matters** Reproducibility is a core principle of scientific research. Without access to the full list of proteins and the specific analysis parameters, other researchers cannot replicate or build upon this work. The selection bias for the five detailed proteins could influence the conclusions.
+  - **Resolution test** The authors should include the full list of 47 proteins with their disorder scores in the main text or supplementary materials. They should provide a clear, step-by-step description of the analysis parameters for each tool used, including version numbers and access dates. The criteria for selecting the five proteins for detailed analysis should be explicitly stated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results
+  - **Claim pointer** The authors state that "the number of molecular functions and cellular components showed some negative and positive correlations with the protein disorder level" based on Figure 3.
+  - **Evidence pointer** Section 3.1, Figure 3
+  - **Concern** The description of the correlation analysis is vague. The authors do not report correlation coefficients, statistical significance, or the direction of the correlations. The statement "some negative and positive correlations" is not informative. Furthermore, the biological meaning of these correlations is not discussed.
+  - **Why it matters** The claim of a correlation is a quantitative statement that requires statistical support. Without specific values and significance tests, the reader cannot assess the strength or validity of the relationship. The lack of interpretation leaves the reader to wonder about the relevance of this finding.
+  - **Resolution test** The authors should report the correlation coefficients (e.g., Spearman's rho) and p-values for the relationships shown in Figure 3. They should also provide a brief interpretation of what these correlations might mean in the context of the entrapped proteins' functions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and context
+  - **Claim pointer** The authors imply that analyzing the disorder of entrapped host proteins is a novel contribution, stating "One important aspect was left unexplored by the authors, namely the intrinsic disorder status of the host proteins entrapped in RABV particles."
+  - **Evidence pointer** Introduction, Section 3.1
+  - **Concern** The manuscript does not adequately review the existing literature on intrinsic disorder in host proteins incorporated into other viruses, nor does it discuss whether similar analyses have been performed for other enveloped viruses. The claim of novelty is not well-supported by a comprehensive literature review.
+  - **Why it matters** To establish the significance of the work, the authors must demonstrate that this specific analysis has not been done before and that it fills a meaningful gap in knowledge. Without this context, the contribution may appear incremental.
+  - **Resolution test** The authors should expand the Introduction and Discussion to include a review of studies on host protein incorporation in other viruses, particularly regarding the disorder status of those proteins. They should clearly articulate what is new about their approach and findings compared to prior work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "47 entrapped host proteins" but the Introduction mentions "49 host proteins" from the original study [23]. This discrepancy is confusing.
+  - **Required correction** Clarify the number of proteins. If the analysis used 47 proteins after filtering, state this explicitly and explain the filtering criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text states "PONDR® VSL2 was not listed among the top 10 predictors, being ranked #20 and #18 based on the AUC values... However, this tool was one of the fastest disorder predictors tested in CAID2, being ranked #5 based on its prediction time of 0.4 s for a sequence of 1000 residues in length." This justification for using VSL2 is weak, as speed does not compensate for lower accuracy.
+  - **Required correction** Provide a stronger justification for using VSL2, such as its performance on specific types of proteins or its widespread use in the field. Alternatively, consider using a more accurate predictor for the primary analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.2, Neuromodulin subsection
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text mentions "Gap junction protein N-terminal region" as a domain, but this is not a standard domain name. The description of the IQ motif and its function is somewhat repetitive.
+  - **Required correction** Use standard domain nomenclature and streamline the description of the IQ motif to avoid redundancy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The text mentions "k-means clustering" but does not specify the number of clusters chosen or the method used to determine this number. The statement "the set of 381 proteins can be split into 3 clusters" appears without justification.
+  - **Required correction** Describe the k-means clustering parameters, including the number of clusters and how it was determined (e.g., elbow method, silhouette score).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Various sections
+  - **Issue** The manuscript contains some awkward phrasing and grammatical errors, e.g., "the RABV moves along the nerves through axonal transport to enter the peripheral nervous system" (should be "the CNS" based on context) and "always always encapsidated" in the Introduction.
+  - **Required correction** Thorough proofreading for grammar and clarity is needed.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of experimental validation for the central claims. The manuscript is purely computational, and the leap from disorder predictions to functional roles in pathogenicity and drug resistance is not justified. Additionally, the reliance on a single previous proteomics dataset without independent verification limits the robustness of the findings. The statistical analysis of correlations is incomplete, and the selection criteria for the five detailed proteins are not transparent.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of disorder analysis to entrapped host proteins in RABV is somewhat novel, but the approach is standard in the IDP field and has been applied to other viral systems.
+  - **Scientific importance** Limited. The findings are largely descriptive and do not provide mechanistic insights into RABV pathogenesis. The potential implications for therapeutic targeting are speculative.
+  - **Interdisciplinary readership** Narrow. The work will primarily appeal to researchers in virology and the IDP community. The lack of experimental data limits its broader impact.
+  - **Technical soundness** The computational methods are appropriate, but the interpretation of results is often overreaching. The statistical analysis is incomplete, and the lack of experimental validation is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is generally readable but includes some jargon and repetitive sections. The Introduction provides a good overview, but the Results section could be more concise.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational analysis, but the central claims regarding the functional roles of disordered host proteins in pathogenicity, immune evasion, and drug resistance are not supported by the evidence presented. Major revisions, including experimental validation or a substantial tempering of claims, are required before the case is established.
+
+## Risk / unsupported claims
+- The claim that entrapped disordered host proteins "might play a significant role in facilitating the rabies virus pathogenicity, immune system evasion, and the development of antiviral drug resistance" is unsupported by direct evidence and is purely speculative.
+- The statement that "the number of molecular functions and cellular components showed some negative and positive correlations with the protein disorder level" is unsupported without specific statistical values.
+- The implication that the analysis of disorder in entrapped host proteins is novel is not fully supported by a comprehensive literature review.
+- The functional significance of the identified disordered regions, such as the IQ motif in Neuromodulin, is inferred from general knowledge rather than demonstrated in the context of RABV infection.
+- The relevance of the identified host proteins to RABV pathogenesis is not experimentally verified, and the assumption that their presence in virions implies a functional role is not justified.

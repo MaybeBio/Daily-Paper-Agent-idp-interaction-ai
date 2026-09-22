@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "38978607",
+    "doi": "10.21203/rs.3.rs-4301803/v1",
+    "title": "Sampling Conformational Ensembles of Highly Dynamic Proteins via Generative Deep Learning."
+  },
+  "content": {
+    "abstract": "Proteins are inherently dynamic, and their conformational ensembles are functionally important in biology. Large-scale motions may govern protein structure-function relationship, and numerous transient but stable conformations of intrinsically disordered proteins (IDPs) can play a crucial role in biological function. Investigating conformational ensembles to understand regulations and disease-related aggregations of IDPs is challenging both experimentally and computationally. In this paper first an unsupervised deep learning-based model, termed Internal Coordinate Net (ICoN), is developed that learns the physical principles of conformational changes from molecular dynamics (MD) simulation data. Second, interpolating data points in the learned latent space are selected that rapidly identify novel synthetic conformations with sophisticated and large-scale sidechains and backbone arrangements. Third, with the highly dynamic amyloid-beta(1-42) (Abeta42) monomer, our deep learning model provided a comprehensive sampling of Abeta42's conformational landscape. Analysis of these synthetic conformations revealed conformational clusters that can be used to rationalize experimental findings. Additionally, the method can identify novel conformations with important interactions in atomistic details that are not included in the training data. New synthetic conformations showed distinct sidechain rearrangements that are probed by our EPR and amino acid substitution studies. The proposed approach is highly transferable and can be used for any available data for training. The work also demonstrated the ability for deep learning to utilize learned natural atomistic motions in protein conformation sampling.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruzmetov, Talant",
+        "Hung, Ta I",
+        "Jonnalagedda, Saisri Padmaja",
+        "Chen, Si-Han",
+        "Fasihianifard, Parisa",
+        "Guo, Zhefeng",
+        "Bhanu, Bir",
+        "Chang, Chia-En A"
+      ],
+      "short_names": [
+        "Ruzmetov T",
+        "Hung TI",
+        "Jonnalagedda SP",
+        "Chen SH",
+        "Fasihianifard P",
+        "Guo Z",
+        "Bhanu B",
+        "Chang CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1992-7255",
+        "ORCID: 0000-0001-8971-6416",
+        "ORCID: 0000-0002-6504-8529"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Riverside, CA92521.",
+        "Department of Chemistry, University of California, Riverside, CA92521.",
+        "Department of Bioengineering, University of California, Riverside, CA92521.",
+        "Department of Electrical and Computer Engineering, University of California, Riverside, CA92521.",
+        "Department of Chemistry, University of California, Riverside, CA92521.",
+        "Department of Chemistry, University of California, Riverside, CA92521.",
+        "Department of Neurology, Brain Research Institute, University of California, Los Angeles, CA 90095.",
+        "Department of Bioengineering, University of California, Riverside, CA92521.",
+        "Department of Electrical and Computer Engineering, University of California, Riverside, CA92521.",
+        "Department of Chemistry, University of California, Riverside, CA92521.",
+        "Department of Bioengineering, University of California, Riverside, CA92521."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruzmetov, Talant",
+        "short_name": "Ruzmetov T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA92521.",
+          "Department of Bioengineering, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Jonnalagedda, Saisri Padmaja",
+        "short_name": "Jonnalagedda SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Chen, Si-Han",
+        "short_name": "Chen SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Fasihianifard, Parisa",
+        "short_name": "Fasihianifard P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhefeng",
+        "short_name": "Guo Z",
+        "identifiers": [
+          "0000-0003-1992-7255"
+        ],
+        "affiliations": [
+          "Department of Neurology, Brain Research Institute, University of California, Los Angeles, CA 90095."
+        ]
+      },
+      {
+        "full_name": "Bhanu, Bir",
+        "short_name": "Bhanu B",
+        "identifiers": [
+          "0000-0001-8971-6416"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, Riverside, CA92521.",
+          "Department of Electrical and Computer Engineering, University of California, Riverside, CA92521."
+        ]
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [
+          "0000-0002-6504-8529"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, CA92521.",
+          "Department of Bioengineering, University of California, Riverside, CA92521."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2024 Jun 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 06:41",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38587006",
+      "38382572",
+      "38303931",
+      "38053335",
+      "37714883",
+      "37555670",
+      "37386015",
+      "37241789",
+      "37108059",
+      "37001856",
+      "36774359",
+      "36472885",
+      "36302506",
+      "36030416",
+      "35725761",
+      "35705565",
+      "35568532",
+      "35459300",
+      "35325529",
+      "35200019",
+      "34152264",
+      "34021153",
+      "33961840",
+      "33945269",
+      "33629765",
+      "33591749",
+      "33421906",
+      "33351613",
+      "33338762",
+      "32786508",
+      "32756904",
+      "31488660",
+      "31416918",
+      "31397498",
+      "31381336",
+      "30632745",
+      "30252470",
+      "30236283",
+      "30087945",
+      "29529369",
+      "28418661",
+      "27951672",
+      "27469165",
+      "26583988",
+      "25785262",
+      "24061923",
+      "22300765",
+      "21986527",
+      "21500218",
+      "20383142",
+      "19125574",
+      "17614541",
+      "16444756",
+      "16293696",
+      "15521057",
+      "14531053",
+      "12150948"
+    ],
+    "similar": [
+      "38978607",
+      "38979147",
+      "39984300",
+      "38018910",
+      "38781245",
+      "38370653",
+      "37241789",
+      "37108059",
+      "38816696",
+      "40264953",
+      "39555603",
+      "35725761",
+      "38505224",
+      "31793290",
+      "23912807",
+      "36774359",
+      "40161645",
+      "25897952",
+      "26052838",
+      "36934808",
+      "34680048",
+      "20404210",
+      "27300592",
+      "30840442",
+      "32579908",
+      "35129612",
+      "22506277",
+      "37144719",
+      "22821798",
+      "36084124",
+      "40147456",
+      "29186229",
+      "40029731",
+      "23189168",
+      "32403216",
+      "39651234",
+      "26584388",
+      "29364151",
+      "39163334",
+      "32345021",
+      "39522439",
+      "38928405",
+      "33383937",
+      "28964335",
+      "39983022",
+      "40095314",
+      "23422426",
+      "33030907",
+      "39158517",
+      "34152264",
+      "23988159",
+      "38394363",
+      "26574339",
+      "34680137",
+      "37646172",
+      "40172236",
+      "39807013",
+      "38173388",
+      "37338049",
+      "36674958",
+      "31031199",
+      "39190324",
+      "34869602",
+      "39684679",
+      "32840111",
+      "30979035",
+      "26575568",
+      "21569575",
+      "36380940",
+      "38713459",
+      "18481860",
+      "22253588",
+      "38938816",
+      "39554085",
+      "33629765",
+      "30204435",
+      "29864281",
+      "21639141",
+      "30230839",
+      "30909517",
+      "33581430",
+      "39663763",
+      "30865832",
+      "39553926",
+      "31362509",
+      "36472885",
+      "34252246",
+      "30250773",
+      "30708285",
+      "33871257",
+      "32696367",
+      "39977663",
+      "36791464",
+      "31241933",
+      "33382616",
+      "23901099",
+      "36217309",
+      "36183447",
+      "35705565",
+      "33310020"
+    ],
+    "review": [
+      "38978607",
+      "37241789",
+      "40264953",
+      "39555603",
+      "38505224",
+      "31793290",
+      "34680048",
+      "30840442",
+      "35129612",
+      "32403216",
+      "29364151",
+      "39522439",
+      "23988159",
+      "30979035",
+      "30909517",
+      "36217309"
+    ],
+    "pmc": [
+      "11230488"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38978607/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-4301803/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.15.464579",
+  "title": "MspA Porin as a Local Nanopore Probe for Membrane-bound Proteins",
+  "doi": "10.1101/2021.10.15.464579",
+  "abstract": "Nanopore sensing is based on detection and analysis of nanopore transient conductance changes induced by analyte capture. We have recently shown that α-Synuclein (αSyn), an intrinsically disordered, membrane-active, neuronal protein implicated in Parkinson disease, can be reversibly captured by the VDAC nanopore. The capture process is a highly voltage dependent complexation of the two proteins where transmembrane potential drives the polyanionic C-terminal domain of αSyn into VDAC—exactly the mechanism by which generic nanopore-based interrogation of proteins and polynucleotides proceeds. The complex formation, and the motion of αSyn in the nanopore, thus may be expected to be only indirectly dependent on the pore identity. Here, we confirm this prediction by demonstrating that when VDAC is replaced with a different transmembrane pore, the engineered mycobacterial porin M2MspA, all the qualitative features of the αSyn/nanopore interaction are preserved. The rate of αSyn capture by M2MspA rises exponentially with the applied field, while the residence time displays a crossover behavior, indicating that at voltages >50 mV M2MspA-bound αSyn largely undergoes translocation to the other side of the membrane. The translocation is directly confirmed using the selectivity tag method, in which the polyanionic C-terminal and neutral N-terminal regions of αSyn alter the selectivity of the M2MspA channel differently, allowing direct discrimination of translocation vs retraction for single αSyn molecules. We thus prove that the physical model of the motion of disordered protein chains in the nanopore confinement and the selectivity tag technique are not limited to VDAC but are broadly applicable to nanopore-based protein detection, analysis, and separation technologies.",
+  "authors": [
+    "Hoogerheide DP",
+    "Gurnev PA",
+    "Gundlach J",
+    "Laszlo A",
+    "Rostovtseva TK",
+    "Bezrukov SM"
+  ],
+  "published_date": "2021-10-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464579",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464579.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR408064",
+    "raw_record": {
+      "id": "PPR408064",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.15.464579",
+      "title": "MspA Porin as a Local Nanopore Probe for Membrane-bound Proteins",
+      "authorString": "Hoogerheide DP, Gurnev PA, Gundlach J, Laszlo A, Rostovtseva TK, Bezrukov SM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hoogerheide DP",
+            "lastName": "Hoogerheide",
+            "firstName": "David",
+            "initials": "DP"
+          },
+          {
+            "fullName": "Gurnev PA",
+            "lastName": "Gurnev",
+            "firstName": "Philip",
+            "initials": "PA"
+          },
+          {
+            "fullName": "Gundlach J",
+            "lastName": "Gundlach",
+            "firstName": "Jens",
+            "initials": "J"
+          },
+          {
+            "fullName": "Laszlo A",
+            "lastName": "Laszlo",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7853-0533"
+            }
+          },
+          {
+            "fullName": "Rostovtseva TK",
+            "lastName": "Rostovtseva",
+            "firstName": "Tatiana",
+            "initials": "TK"
+          },
+          {
+            "fullName": "Bezrukov SM",
+            "lastName": "Bezrukov",
+            "firstName": "Sergey",
+            "initials": "SM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7853-0533"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Nanopore sensing is based on detection and analysis of nanopore transient conductance changes induced by analyte capture. We have recently shown that α-Synuclein (αSyn), an intrinsically disordered, membrane-active, neuronal protein implicated in Parkinson disease, can be reversibly captured by the VDAC nanopore. The capture process is a highly voltage dependent complexation of the two proteins where transmembrane potential drives the polyanionic C-terminal domain of αSyn into VDAC—exactly the mechanism by which generic nanopore-based interrogation of proteins and polynucleotides proceeds. The complex formation, and the motion of αSyn in the nanopore, thus may be expected to be only indirectly dependent on the pore identity. Here, we confirm this prediction by demonstrating that when VDAC is replaced with a different transmembrane pore, the engineered mycobacterial porin M2MspA, all the qualitative features of the αSyn/nanopore interaction are preserved. The rate of αSyn capture by M2MspA rises exponentially with the applied field, while the residence time displays a crossover behavior, indicating that at voltages >50 mV M2MspA-bound αSyn largely undergoes translocation to the other side of the membrane. The translocation is directly confirmed using the selectivity tag method, in which the polyanionic C-terminal and neutral N-terminal regions of αSyn alter the selectivity of the M2MspA channel differently, allowing direct discrimination of translocation vs retraction for single αSyn molecules. We thus prove that the physical model of the motion of disordered protein chains in the nanopore confinement and the selectivity tag technique are not limited to VDAC but are broadly applicable to nanopore-based protein detection, analysis, and separation technologies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/15/2021.10.15.464579.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.15.464579"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-17",
+      "firstPublicationDate": "2021-10-15",
+      "firstIndexDate": "2021-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

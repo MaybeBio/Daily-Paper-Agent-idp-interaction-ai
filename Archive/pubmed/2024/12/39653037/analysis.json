@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39653037",
+  "title": "Janus-like behavior of intrinsically disordered regions in reticulophagy.",
+  "authors": "Poveda-Cuevas, Sergio Alejandro; Lohachova, Kateryna; Markusic, Borna; Dikic, Ivan; Hummer, Gerhard; M Bhaskara, Ramachandra",
+  "journal": "Autophagy",
+  "published_date": "2024-12-10",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过MD模拟研究内质网自噬受体RETREG1中IDR的Janus样构象行为及其膜重塑机制，虽未直接聚焦PPI，但IDR介导的膜曲率感知与受体聚集机制对理解IDR在互作中的效应子支架作用具有建模启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) are crucial to homeostatic and organellar remodeling pathways. In reticulophagy/ER-phagy, long cytosolic IDR-containing receptors (e.g. RETREG1/FAM134B) house the LC3-interacting region (LIR) motif to recruit the phagophore. The precise functions of the IDR beyond engaging the autophagic machinery are unclear. Here, we comment on the role of the RETREG1-IDR based on our recent computer modeling and molecular dynamics (MD) simulations. Extensive analysis of the RETREG1-IDR indicates a continuum of conformations between expanded and compact structures, displaying a Janus-like feature. Using an adapted MARTINI model, we find that the IDR ensemble properties vary widely depending on the membrane anchor. IDRs alone are sufficient to promote and sense membrane curvature and can act as entropic tethers. When anchored to the Reticulon homology domain (RHD), they adopt compact collapsed conformations, acting as effector scaffolds that amplify RHD membrane remodeling properties, enhancing receptor-clustering and accelerating spontaneous budding. These findings expand the operational scope of IDRs within reticulophagy, offering fresh insights into a mechanistic understanding of membrane remodeling.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 对于稳态和细胞器重塑途径至关重要。在网状细胞自噬/内质网自噬中，含有长胞质IDR的受体（如RETREG1/FAM134B）携带LC3相互作用区域（LIR）基序以招募吞噬泡。IDR在参与自噬机制之外的具体功能尚不清楚。在此，我们基于最近的计算机建模和分子动力学（molecular dynamics, MD）模拟，评论了RETREG1-IDR的作用。对RETREG1-IDR的广泛分析表明，其构象在扩展和紧凑结构之间呈现连续分布，显示出类似Janus的特征。使用适配的MARTINI模型，我们发现IDR的系综性质因膜锚定方式的不同而广泛变化。单独的IDR足以促进和感知膜曲率，并可充当熵系绳。当锚定到网状同源结构域（RHD）时，它们采用紧凑的塌缩构象，作为效应支架，放大RHD的膜重塑特性，增强受体聚集并加速自发出芽。这些发现扩展了IDR在网状细胞自噬中的操作范围，为膜重塑的机制理解提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39653037/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39653037/",
+  "paper_page_path": "papers/pubmed/39653037/index.html"
+}

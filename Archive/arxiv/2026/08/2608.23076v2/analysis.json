@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2608.23076v2",
+  "title": "From Maxwell Fluid to Kelvin Voigt Solid: A Transient Network Model of Condensate Aging and Morphology Transition in Phase Separation",
+  "authors": "Bhanjan Debnath",
+  "journal": "",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用瞬态网络模型与连续介质框架耦合相分离、分子构象切换和动态交联，预测凝聚体形态与力学（Maxwell流体到Kelvin-Voigt固体转变），虽对象为凝聚体相分离且涉及IDR相关交联机制，但方法为连续介质建模而非AI/分子模拟，互作机制建模有启发但方法轴偏弱。",
+  "abstract": "Biomolecular condensates can undergo striking changes, such as transitioning from a liquid-like to a gel- or a solid-like aggregate due to changes in molecular interactions in response to changes in the biochemical environment. The question of how modified molecular interactions lead to such a transition in the material properties and spatial organization of condensates has not yet been elucidated. To address this question, we represent the biochemical environment as a triphasic mixture comprising a liquid-like protein-rich phase, a network-like protein-rich phase, and solvent. Owing to a change in the biochemical environment, protein molecules can reversibly switch between two conformational states. In a switched conformational state, the cross-linking domains of molecules are exposed which promote transient network formation in phase separated states. We develop a transient-network model and a continuum framework that couples phase separation, molecular switching, and dynamic cross-linking to predict condensate morphology and mechanics. The transient-network model predicts that a non-aging network behaves like a Maxwell fluid. When a network slowly ages via stabilization of cross-links, it shows Maxwell-like behavior and waiting time-dependent relaxation. However, a strongly aged network shows elastic recoil like characteristic of a Kelvin-Voigt solid. Our coupled continuum model demonstrates that the interplay of molecular switching and dynamic cross-linking in network formation shapes the spatial organization of condensate phases. In summary, this work demonstrates a mechanistic route explaining how conformational switching and molecular cross-linking regulate material properties and morphology of condensates.",
+  "abstract_zh": "生物分子凝聚体可以经历显著变化，例如由于生化环境变化引起的分子相互作用改变，从液态状转变为凝胶状或固态状聚集体。关于修饰后的分子相互作用如何导致凝聚体材料性质和空间组织的这种转变的问题尚未阐明。为解决此问题，我们将生化环境表示为包含液态状富蛋白相、网络状富蛋白相和溶剂的三相混合物。由于生化环境的变化，蛋白质分子可以在两种构象状态之间可逆切换。在切换的构象状态下，分子的交联域暴露，促进相分离状态下的瞬态网络形成。我们开发了一个瞬态网络模型和一个连续介质框架，该框架耦合了相分离、分子切换和动态交联，以预测凝聚体的形态和力学性质。瞬态网络模型预测，非老化网络表现为麦克斯韦流体。当网络通过交联稳定化缓慢老化时，它表现出类似麦克斯韦的行为和依赖等待时间的松弛。然而，强老化网络表现出类似开尔文-沃伊特固体的弹性回弹特性。我们的耦合连续介质模型表明，分子切换和动态交联在网络形成中的相互作用塑造了凝聚体相的空间组织。总之，这项工作展示了一条机制路径，解释了构象切换和分子交联如何调节凝聚体的材料性质和形态。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2608.23076v2",
+  "source_url": "https://arxiv.org/abs/2608.23076v2",
+  "paper_page_path": "papers/arxiv/2608.23076v2/index.html"
+}

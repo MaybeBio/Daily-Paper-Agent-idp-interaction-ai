@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or methods
+- **Shared manuscript claim summary** The authors propose design principles linking specific features of SALR-type interparticle interactions to structural and dynamic outcomes in two-dimensional self-assembly, with relevance to soft matter and biological condensates. They report that tuning repulsive barrier height, adding oscillatory components to the attractive well, and changing particle geometry control cluster size distributions, intra-cluster ordering, cluster geometry, and inter-cluster crystallization. They claim decoupling of internal and global dynamics, design of internal phase segregation in binary mixtures, and patch-geometry-dependent control in anisotropic models.
+- **Visible evidence base** Abstract text only; no simulation details, parameter ranges, system sizes, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field parameters, system size and time scales, analysis protocols, and any quantitative metrics supporting the stated outcomes
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious set of claims about design principles in two-dimensional SALR systems. The conceptual framework is potentially interesting, and the link to biomolecular condensates is timely. However, the abstract provides no quantitative evidence, no methodological detail, and no specific results that would allow an independent assessment of the validity or significance of the claims. The scope is very wide, covering multiple interaction modifications, single- and two-component systems, isotropic and anisotropic potentials, and both structural and dynamic outcomes, which raises questions about depth of treatment. The claim of decoupling between internal and global dynamics is the most distinctive and potentially novel element, but it is stated without supporting data. Overall, the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in soft matter physics, self-assembly, and biophysics studying condensate formation and phase behavior would be interested. The proposed design principles could inform engineering of synthetic self-assembled materials and provide physical concepts for interpreting biomolecular condensates. The decoupling of internal and global dynamics, if substantiated, would be of particular interest to those studying viscoelastic properties of condensates.
+- **Major strengths** The conceptual framing is clear and addresses a relevant problem. The systematic approach of varying interaction features as independent control parameters is a sensible strategy. The connection between simple model simulations and biological condensates is well motivated and timely. The abstract identifies a potentially novel finding, the decoupling of internal and global dynamics, which could be a significant contribution if properly supported.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that modifications to SALR potentials dictate cluster size distributions, intra-cluster ordering, cluster geometry, and propensity for inter-cluster crystallization.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts causal relationships between specific interaction modifications and multiple structural outcomes, but no quantitative data, phase diagrams, or statistical measures are presented. The claim that these modifications "dictate" outcomes implies a level of determinism and comprehensiveness that cannot be evaluated without seeing the range of parameters tested and the magnitude of effects.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the proposed design principles are robust across parameter space or merely anecdotal observations from a limited set of simulations. The strength of the claim ("dictate") exceeds what can be supported by the abstract alone.
+  - **Resolution test** Provide representative data showing the range of cluster size distributions, ordering metrics, and crystallization propensities across the tested parameter variations, with statistical significance and system size dependence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The key finding is the decoupling of internal and global dynamics, where oscillatory wells promote solid-like order within clusters while maintaining liquid-like cluster mobility.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is presented as the central result, yet no data on internal ordering dynamics versus cluster translational or diffusive motion are shown. The term "decoupling" implies a quantitative relationship, such as distinct time scales or independent response to control parameters, which is not demonstrated.
+  - **Why it matters** This claim is the most novel and potentially impactful element of the work. If the decoupling is not rigorously established with appropriate dynamic measurements and time scale analysis, the central contribution of the paper is weakened.
+  - **Resolution test** Show time-resolved measurements of intra-cluster order parameters and cluster center-of-mass mean squared displacement, with a demonstration that these quantities respond independently to changes in the oscillatory well parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that asymmetric interactions in a binary SALR mixture can be designed to induce internal phase segregation within condensates.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states this as a demonstrated outcome, but no details on the nature of the asymmetry, the resulting segregation patterns, or the parameter range over which this occurs are provided. The term "designed" implies a predictive capability that requires a systematic mapping of interaction asymmetry to segregation outcomes.
+  - **Why it matters** Internal phase segregation in condensates is a topic of high current interest in biology. If the authors have established a design rule, it would be valuable, but the abstract does not provide enough information to judge whether this is a robust principle or a single observation.
+  - **Resolution test** Provide a phase diagram or systematic parameter sweep showing how the degree of segregation varies with interaction asymmetry, and demonstrate predictive control over segregation patterns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and depth
+  - **Claim pointer** The authors claim that in anisotropic models with attractive patches, stoichiometry and geometric distribution of patches control self-assembly and cluster morphology, while long-range repulsion tunes cluster size and polydispersity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This claim spans a large parameter space, including patch number, patch arrangement, and repulsion strength. The abstract does not indicate how systematically these parameters were varied or whether the conclusions are based on a comprehensive exploration or selected examples.
+  - **Why it matters** The claim of independent control by different parameters is strong and requires demonstration that the effects are separable and predictable. Without this, the design principle is not established.
+  - **Resolution test** Show a systematic variation of patch geometry and repulsion strength with clear metrics for cluster morphology and polydispersity, demonstrating independent and predictable control.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "oscillatory components" in the attractive well is not defined. It is unclear whether this refers to a specific functional form, such as a modulated potential, or a general class of perturbations.
+  - **Required correction** Define the functional form of the oscillatory components and specify the range of oscillation amplitudes and wavelengths tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given on the simulation ensemble, thermostat, system size, or simulation duration. These details are essential for assessing the reliability of dynamic measurements, particularly for cluster mobility.
+  - **Required correction** Include key simulation parameters in the methods or supplementary information, including system size, integration time step, total simulation time, and equilibration protocol.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Relevance to biological condensates
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims relevance to biomolecular condensates but does not specify which biological systems or phenomena the design principles are intended to interpret. The connection is stated at a high level without concrete examples.
+  - **Required correction** Provide specific examples of biological condensates or experimental observations that the design principles help interpret, or state clearly that the relevance is conceptual and requires further mapping.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of causal control over structural outcomes, the decoupling of internal and global dynamics, and the design of phase segregation are not supported by quantitative evidence in the provided material. These must be addressed with data before the case can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of oscillatory well modifications and the specific focus on decoupling internal and global dynamics has potential originality, but the abstract does not clearly distinguish this work from prior studies on SALR systems and patchy colloids. The originality claim is not fully established.
+  - Scientific importance: The topic is important, particularly the link to biomolecular condensates. However, the abstract does not demonstrate that the design principles are general or that they provide new predictive capability beyond existing knowledge. The importance is plausible but not demonstrated.
+  - Interdisciplinary readership: The abstract is written in a way that is accessible to soft matter physicists and biophysicists, but the lack of quantitative results limits its appeal to a broader readership. The biological relevance is stated but not made concrete.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details, error analysis, or validation are provided. The technical soundness is not verifiable from the supplied material.
+  - Readability for nonspecialists: The abstract is reasonably clear in its conceptual framing, but the terminology (SALR, oscillatory wells, patchy sites) assumes familiarity with the field. The abstract is readable for specialists but not for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the topic is relevant, but the abstract alone does not provide sufficient quantitative support for the central claims. A full assessment would require the complete manuscript with figures, methods, and data. If the full manuscript provides the missing evidence, the work could be of interest to the soft matter and biophysics community, but the case is not made from the abstract.
+
+## Risk / unsupported claims
+- The claim that interaction modifications "dictate" multiple structural outcomes is unsupported without quantitative data.
+- The decoupling of internal and global dynamics is stated as a key finding but is not supported by any presented evidence.
+- The claim of designed internal phase segregation in binary mixtures is unsupported without parameter sweeps or phase diagrams.
+- The claim that patch stoichiometry and geometry control self-assembly while repulsion tunes size and polydispersity is unsupported without systematic variation data.
+- The relevance to biomolecular condensates is stated but not substantiated with specific biological examples or experimental connections.
+- All quantitative claims are unverifiable from the abstract alone.

@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "39256186",
+    "doi": "10.1002/cmdc.202400460",
+    "title": "Factors Affecting Liquid-Liquid Phase Separation of RGG Peptides with DNA G-Quadruplex."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS), mediated by G-quadruplexes (G4 s) and intrinsically disordered proteins, particularly those containing RGG domains, plays a critical role in cellular processes and diseases. However, the molecular mechanism and the role of individual amino acid residues of the protein in LLPS with G4 (G4-LLPS) are still unknown. Here, we systematically designed peptides and investigated the roles of arginine residues in G4-LLPS. It was found that the FMRP-derived RGG peptide induced LLPS with G4-forming Myc-DNA, whereas a point-mutated peptide, in which all arginine residues were replaced with lysine, was unable to undergo LLPS, indicating the importance of arginine residues. Moreover, systematically truncated peptides showed that at least five positive net charges of peptide are required to induce G4-LLPS. Furthermore, quantitative investigation demonstrated that the higher binding affinity of peptides with G4 led to a higher LLPS ability, whereas threshold of the binding affinity for undergoing LLPS was identified. These insights elucidate the pivotal role of arginine in G4-LLPS and the specific requirement for multiple arginine residues, contributing to a deeper understanding of the complex interplay between intrinsically disordered proteins and nucleic acids.",
+    "keywords": [
+      "Arginine rich proteins",
+      "G-Quadruplexes nucleic acids",
+      "Liquid-liquid phase separation"
+    ],
+    "mesh_terms": [
+      "*G-Quadruplexes",
+      "*Peptides/chemistry/isolation & purification",
+      "*DNA/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shil, Sumit",
+        "Tsuruta, Mitsuki",
+        "Kawauchi, Keiko",
+        "Miyoshi, Daisuke"
+      ],
+      "short_names": [
+        "Shil S",
+        "Tsuruta M",
+        "Kawauchi K",
+        "Miyoshi D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4308-0499"
+      ],
+      "affiliations": [
+        "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan.",
+        "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan.",
+        "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan.",
+        "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shil, Sumit",
+        "short_name": "Shil S",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsuruta, Mitsuki",
+        "short_name": "Tsuruta M",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawauchi, Keiko",
+        "short_name": "Kawauchi K",
+        "identifiers": [],
+        "affiliations": [
+          "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Miyoshi, Daisuke",
+        "short_name": "Miyoshi D",
+        "identifiers": [
+          "0000-0002-4308-0499"
+        ],
+        "affiliations": [
+          "Frontiers of Innovative Research in Science and Technology, FIRST), Konan University, 7-1-20 Minatojima-minamimachi, Chuo-ku, Hyogo, Kobe, 650-0047, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ChemMedChem"
+    ],
+    "journal_abbrev": [
+      "ChemMedChem"
+    ],
+    "pub_date": "2025 Jan 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/11 00:43",
+    "fetched_at": "2026-09-21 10:12:42"
+  },
+  "links": {
+    "cites": [
+      "41826810",
+      "41614783",
+      "41198593",
+      "40631133",
+      "40484724",
+      "40007865",
+      "39935503"
+    ],
+    "refs": [],
+    "similar": [
+      "39256186",
+      "30517002",
+      "29511089",
+      "36443315",
+      "34152774",
+      "36575582",
+      "34624313",
+      "34179096",
+      "31911439",
+      "40102453",
+      "34738012",
+      "38855848",
+      "21561087",
+      "37689293",
+      "31941785",
+      "35142991",
+      "34029402",
+      "38446061",
+      "38587189",
+      "28306503",
+      "35481633",
+      "38672516",
+      "38698072",
+      "39555660",
+      "38322526",
+      "37764485",
+      "39833115",
+      "34302476",
+      "37972915",
+      "35962177",
+      "35883530",
+      "32615218",
+      "33744316",
+      "36629511",
+      "37897365",
+      "34791437",
+      "38380794",
+      "34522448",
+      "26374839",
+      "38029395",
+      "39979561",
+      "28924037",
+      "39342654",
+      "33106247",
+      "37794023",
+      "33139563",
+      "31784535",
+      "33982369",
+      "38862770",
+      "38709899",
+      "34428231",
+      "36328544",
+      "37047451",
+      "37189373",
+      "38356260",
+      "39947751",
+      "33260713",
+      "38657863",
+      "36350034",
+      "38804888",
+      "38597222",
+      "30247678",
+      "33076213",
+      "38979955",
+      "29526694",
+      "36464283",
+      "31940851",
+      "21244633",
+      "36444977",
+      "32393642",
+      "34232232",
+      "30531905",
+      "36227478",
+      "34984754",
+      "32824618",
+      "34106723",
+      "38553587",
+      "35898304",
+      "39935503",
+      "37796176",
+      "32267689",
+      "38982922",
+      "35682883",
+      "32128583",
+      "39339364",
+      "38246226",
+      "29483575",
+      "37480340",
+      "28069813",
+      "34571015",
+      "38693737",
+      "39505696",
+      "37735903",
+      "27159041",
+      "39847338",
+      "38252962",
+      "39761364",
+      "28575444",
+      "29712961",
+      "33971237"
+    ],
+    "review": [
+      "39256186",
+      "31911439",
+      "38855848",
+      "35142991",
+      "38672516",
+      "34522448",
+      "38029395",
+      "39947751",
+      "33260713",
+      "36350034",
+      "38597222",
+      "38979955",
+      "36464283",
+      "32824618",
+      "35898304",
+      "38982922",
+      "38246226"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cmdc.202400460",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusions, author contributions, data availability statement, acknowledgments)
+- **Assessment boundary** Scientific and technical evaluation of the CAID3 benchmark design, execution, results reporting, and conclusions as presented in the provided text. No external data or supplementary materials were consulted.
+- **Shared manuscript claim summary** The manuscript reports the results of the third round of the Critical Assessment of Protein Intrinsic Disorder (CAID3), evaluating 24 new prediction methods alongside 44 previous methods (68 total, generating 117 flavors) on new benchmark sets derived from DisProt. The authors report significant improvements in top-performing methods compared to CAID2, particularly in linker prediction (over 31% APS improvement) and disorder prediction (15% APS improvement). They introduce a new Binding-IDR sub-challenge and observe that top-performing methods predominantly use protein language model (pLM) embeddings, suggesting a growing impact of pLMs in disorder prediction.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods sections on References, Predictions and Containers, Evaluation, and AlphaFold Disorder and Binding Prediction; Results and Discussion sections on Disorder Prediction, Binding Sites and Linker Regions Prediction, Comparison of CAID3 and CAID2, and Predicting Intrinsic Disorder by Protein Language Models; Conclusions; Author Contributions; Data Availability Statement; Acknowledgments. Tables 1-6 and Figures 1-4 are referenced but not visible in the provided text.
+- **Missing materials affecting confidence** Tables 1-6 (rankings and method details); Figures 1-4 (reference set statistics, DeLong test heatmaps, performance comparisons); full results on the CAID website; method descriptions for the 24 new predictors; specific statistical significance values beyond the DeLong test; details on the "two methods collected from the literature" and their training timelines; computational resource usage data; detailed definitions of evaluation metrics beyond brief descriptions.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and valuable community benchmark update in the field of protein intrinsic disorder prediction. The CAID initiative is well-established, and this third round provides important insights into the current state of the art, particularly regarding the adoption of protein language models. The introduction of the Binding-IDR sub-challenge is a thoughtful methodological contribution that addresses a known limitation of the original Binding benchmark. However, the manuscript as provided has several significant gaps that limit its current impact. The most critical issue is the absence of the actual results tables and figures, which are essential for evaluating the claims made. The statistical analysis, while using an appropriate test (DeLong), is described only superficially. The comparison to CAID2 is presented as percentage improvements without clear context on the variance or significance of these differences. The discussion of pLM impact, while plausible, is somewhat speculative and would benefit from a more systematic analysis of which specific pLM features contribute to performance gains. The manuscript is generally well-written and accessible, but the results section is too brief given the scope of the benchmark. The claims about pLM dominance and the significance of improvements need to be substantiated with the visible data. Overall, this is a potentially important contribution that requires the inclusion of the missing results and a more rigorous statistical and analytical treatment before the case is fully established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using protein structure and function prediction tools, particularly those working on intrinsically disordered proteins. Researchers in the protein language model community will be interested in the benchmark results demonstrating the utility of pLM embeddings for disorder-related tasks. Experimental biologists studying IDPs may use the results to select appropriate prediction tools. The CAID community itself and organizers of similar benchmarking efforts will find the methodological insights valuable.
+- **Major strengths** 1) The CAID initiative provides a standardized, community-driven benchmark that is highly valuable for the field. 2) The introduction of the Binding-IDR sub-challenge is a thoughtful improvement that addresses label imbalance and annotation incompleteness issues. 3) The inclusion of both new and previous methods allows for a longitudinal assessment of progress. 4) The focus on pLM-based methods is timely and relevant. 5) The use of the DeLong test for statistical comparison is appropriate. 6) The containerization requirement for submissions is a positive step for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims specific performance improvements (e.g., "over 31% improvement in predicting linker regions, and 15% in disorder prediction") and presents rankings of methods in Tables 1-5.
+  - **Evidence pointer** Tables 1-5; Figure 4; location not provided in the visible text
+  - **Concern** The core results of the benchmark, including the actual performance scores, rankings, and comparison figures, are not visible in the provided manuscript text. The claims of improvement and the identification of top-performing methods cannot be independently assessed without these data. The text refers to Tables 1-5 and Figures 3-4, but their content is absent from the provided material.
+  - **Why it matters** The primary scientific contribution of this manuscript is the benchmark results themselves. Without access to the tables and figures, the reader cannot verify the claims, compare methods, or understand the magnitude and significance of the reported improvements. This is a fundamental issue that prevents evaluation of the manuscript's central findings.
+  - **Resolution test** The full tables and figures must be provided and examined. The specific APS, Fmax, and AUC values for all methods across all benchmarks should be visible and consistent with the claims in the text. The DeLong test heatmaps should be interpretable and support the stated significance of differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that the DeLong test was used to compare AUCs and assess performance differences, and it reports percentage improvements in APS and AUC between CAID3 and CAID2.
+  - **Evidence pointer** Materials and Methods, Evaluation section; Results and Discussion, Comparison of CAID3 and CAID2 section; location not provided
+  - **Concern** The description of the statistical analysis is minimal. The DeLong test is mentioned, but there is no information on how multiple testing was handled (e.g., Bonferroni correction, FDR), whether the test was applied to all pairwise comparisons or only specific ones, or how the percentage improvements in APS were calculated and whether they are statistically significant. The text reports improvements in APS but the DeLong test is for AUC, leaving the significance of APS improvements unaddressed.
+  - **Why it matters** In a benchmark with 68 methods and 117 flavors, the number of pairwise comparisons is large. Without proper multiple testing correction, the reported significant differences may include false positives. Additionally, the primary metric emphasized in the abstract (APS) is not covered by the described statistical test, leaving the main claims of improvement without formal statistical support.
+  - **Resolution test** The authors should provide details on the multiple testing correction applied, the full set of pairwise comparisons performed, and ideally a statistical test or confidence intervals for APS differences. The DeLong test results should be presented in a way that allows the reader to understand which specific comparisons are significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that "two methods collected from the literature, which were trained before the challenge's timeline" were included among the 24 new predictors.
+  - **Evidence pointer** Results and Discussion, first paragraph; location not provided
+  - **Concern** The criteria for including these two literature methods are not specified. It is unclear how they were selected, whether they were retrained or used as-is, and how their inclusion affects the interpretation of "new" methods. The distinction between "new" submissions and "collected" methods is important for understanding the benchmark's scope and the claim that top methods are "mostly new."
+  - **Why it matters** The claim that pLM-based methods dominate the top rankings is partly based on the composition of the 24 new methods. If two of these are not truly new submissions but rather existing methods collected by the organizers, the interpretation of "new" and the assessment of the field's trajectory could be affected. The selection criteria could introduce bias.
+  - **Resolution test** The authors should clarify the selection criteria for these two methods, their training data and timeline, and how they were integrated into the benchmark. The analysis of pLM impact should distinguish between newly submitted and collected methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The manuscript claims that "pLM-based methods lead the rankings" and that "pLMs effectively capture features associated with binding and intrinsic disorder."
+  - **Evidence pointer** Results and Discussion, Predicting Intrinsic Disorder by Protein Language Models section; Tables 1-5; location not provided
+  - **Concern** The discussion of why pLM-based methods perform well is largely speculative. The text notes that pLMs are single-sequence-based and do not require MSA, which is advantageous for IDPs, but there is no analysis of which specific pLM features (e.g., attention patterns, embedding dimensions, training data) contribute to performance. The claim that pLMs "capture features associated with binding" is not supported by any mechanistic or ablation analysis.
+  - **Why it matters** The manuscript's central narrative is the growing impact of pLMs. To make this claim convincing, the authors should provide some analysis beyond noting that pLM-based methods rank highly. For example, they could compare pLM-based methods to non-pLM methods while controlling for other factors, or analyze the types of errors made by different method classes.
+  - **Resolution test** The authors should provide a more systematic comparison between pLM-based and non-pLM-based methods, potentially including an analysis of performance across different protein types or disorder categories. Any claims about pLMs capturing specific features should be supported by evidence or clearly framed as hypotheses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that pLMs "underscore the growing impact of pLMs in tackling the complexities of disordered proteins and advancing ID prediction." This is somewhat redundant and could be more specific about what the impact is.
+  - **Required correction** Rephrase to be more specific, e.g., "underscore the growing impact of pLMs in improving disorder prediction accuracy and enabling single-sequence-based predictions without the need for multiple sequence alignments."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, Evaluation section
+  - **Evidence pointer** Materials and Methods, Evaluation section; location not provided
+  - **Issue** The description of the evaluation metrics (Fmax, APS, AUC) is very brief. For a reader unfamiliar with these metrics, a slightly more detailed explanation of how they are calculated and what they represent would be helpful.
+  - **Required correction** Add one or two sentences explaining the calculation and interpretation of each metric, or provide a reference to a standard source.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Transparency
+  - **Affected element** Materials and Methods, References section
+  - **Evidence pointer** Materials and Methods, References section; location not provided
+  - **Issue** The description of how the reference sets were generated is clear but lacks detail on the specific filtering criteria applied to DisProt entries (e.g., how conflicts between annotations were resolved, how the "delta" was computed).
+  - **Required correction** Provide a brief description of the filtering and curation steps, or refer to a detailed protocol in a supplementary file or previous publication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and Discussion, Disorder Prediction section
+  - **Evidence pointer** Results and Discussion, Disorder Prediction section; location not provided
+  - **Issue** The paragraph discussing the differences between Disorder-NOX and Disorder-PDB is dense and could be clearer. The explanation of why performance differs between the two datasets is somewhat convoluted.
+  - **Required correction** Consider restructuring this paragraph to first state the key observation, then explain the likely reasons, and finally note the implications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results and Discussion, Binding Sites and Linker Regions Prediction section
+  - **Evidence pointer** Results and Discussion, Binding Sites and Linker Regions Prediction section; location not provided
+  - **Issue** The text mentions that "top predictors in the Binding-IDR challenge maintain a more stable precision compared to the Binding challenge" but does not provide specific numbers or a figure reference for this claim.
+  - **Required correction** Add a reference to the relevant figure or table, or provide the specific precision values to support this statement.
+
+## Risk / unsupported claims
+- The specific performance improvements (31% in linker APS, 15% in disorder APS) cannot be verified without the results tables and figures.
+- The claim that "pLM-based methods lead the rankings" in most benchmarks is not verifiable without the tables.
+- The statement that "pLMs effectively capture features associated with binding and intrinsic disorder" is an interpretation that goes beyond the presented evidence.
+- The claim that the "top-performing methods in CAID3 are mostly new" is not verifiable without the full method list and their provenance.
+- The assertion that the Binding-IDR benchmark is "more balanced by definition" is plausible but the specific label distributions are not shown in the visible text.
+- The statement that "the potential 'incompleteness of the annotations' for a protein has improved drastically" due to changes in DisProt curation is presented without quantitative evidence.

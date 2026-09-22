@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that ATP, at physiological concentrations (1-12 mM), destabilizes both normal liquid-liquid phase separation (LLPS) and high-pressure LLPS (HP-LLPS) of FUS and its ALS-linked variants R495X and P525L, reduces irreversible aggregation propensity of HP-LLPS, and that molecular dynamics simulations reveal a synergistic disruption of intermolecular interactions by the triphosphate and adenosine moieties of ATP. The authors conclude that decreased intracellular ATP levels may exacerbate aberrant phase transitions of FUS, contributing to ALS onset, and suggest ATP as a therapeutic modulator.
+- **Visible evidence base** Abstract text only; no experimental data, simulation parameters, statistical analyses, or methodological details are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation methods and parameters, statistical analyses, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely hypothesis regarding ATP as a modulator of FUS phase separation and aggregation, with relevance to ALS pathogenesis. The combination of experimental biophysical approaches and molecular dynamics simulations is conceptually appealing. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the robustness of the data, or the strength of the conclusions. Several claims, particularly those regarding the mechanism of ATP action and the therapeutic implications, are not adequately supported by the information provided. The work may be of interest to the biophysics and neurodegeneration communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of protein phase separation, RNA-binding protein biology, amyotrophic lateral sclerosis pathogenesis, and biophysical chemistry would find these results relevant. The potential role of ATP as a cellular hydrotrope in modulating protein condensation and aggregation is of broad interest to those studying biomolecular condensates and their links to neurodegeneration. The focus on ALS-linked FUS variants adds translational relevance.
+- **Major strengths** The study addresses a biologically important question, namely how physiological concentrations of ATP modulate FUS phase separation and aggregation. The inclusion of ALS-linked variants (R495X and P525L) strengthens the translational relevance. The combination of experimental pressure-jump studies with molecular dynamics simulations is a potentially powerful approach to dissect mechanism. The focus on physiological ATP concentrations (1-12 mM) is commendable and directly relevant to cellular conditions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ATP destabilized both normal LLPS and HP-LLPS, with a relatively strong inhibitory effect on HP-LLPS, and that ATP reduced the irreversible aggregation propensity of HP-LLPS.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, no experimental conditions, and no statistical analyses to support these claims. It is unclear how LLPS and HP-LLPS were measured, what concentrations of FUS and ATP were used, how the "relatively strong inhibitory effect" was quantified, and what controls were performed. The term "irreversible aggregation propensity" is not defined operationally.
+  - **Why it matters** Without quantitative details and appropriate controls, the reader cannot assess whether the observed effects are specific to ATP, whether they are concentration-dependent in a meaningful way, or whether the conclusions are statistically robust. This is central to the entire premise of the paper.
+  - **Resolution test** Provide quantitative data (e.g., turbidity, fluorescence, or microscopy-based measurements) with appropriate statistical analyses, define the experimental conditions, and include control experiments (e.g., with non-hydrolysable ATP analogs or other nucleotides) to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations revealed that the triphosphate and adenosine moieties of ATP synergistically disrupted intermolecular interactions crucial for phase separation, leveraging its amphipathic properties.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details of the simulation methodology are provided, including force field, simulation time, system size, or how phase separation-relevant interactions were modeled. The claim of "synergistic" disruption is not supported by any visible data or analysis. The term "amphipathic properties" is used without explanation of how this relates to the simulation results.
+  - **Why it matters** The mechanistic conclusion is a key part of the paper's contribution. Without methodological transparency and evidence for the synergistic effect, the claim is not verifiable and may be an overinterpretation of the simulation data.
+  - **Resolution test** Provide full simulation methods, including force field parameters, simulation protocols, and analyses that demonstrate the individual and combined contributions of the triphosphate and adenosine moieties. Show that the synergistic effect is statistically significant and robust to simulation conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that decreased intracellular ATP levels may exacerbate aberrant phase transitions of FUS, contributing to ALS onset, and that ATP has potential as a therapeutic modulator.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any data linking intracellular ATP depletion to FUS aggregation in cells or in vivo. The extrapolation from in vitro and simulation data to disease pathogenesis and therapeutic potential is speculative and not supported by the evidence presented.
+  - **Why it matters** The clinical and translational implications are a major part of the paper's significance. Without cellular or in vivo validation, these claims are premature and may mislead readers about the therapeutic relevance of the findings.
+  - **Resolution test** Provide cellular or in vivo data demonstrating that ATP depletion enhances FUS aggregation and that ATP supplementation or modulation of ATP levels affects FUS pathology. Alternatively, temper the conclusions to reflect the speculative nature of the translational implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses specialized terminology (e.g., "hydrotrope," "HP-LLPS") without sufficient context or definition for readers outside the immediate field.
+  - **Required correction** Briefly define or contextualize these terms to improve accessibility for a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "relatively strong inhibitory effect on HP-LLPS" is vague and does not convey the magnitude or significance of the effect.
+  - **Required correction** Provide a quantitative comparison or a more precise description of the differential effect on HP-LLPS versus normal LLPS.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the concentration range of ATP tested beyond the physiological range, nor whether the effects were dose-dependent.
+  - **Required correction** Include information on the ATP concentration dependence of the observed effects, if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative experimental data, insufficient methodological detail for simulations, and the absence of cellular or in vivo validation are critical gaps that must be addressed.
+- **Assessment against Nature-style criteria** Originality: The concept of ATP as a modulator of FUS phase separation is not entirely novel, given prior reports of ATP effects on other proteins, but the specific focus on FUS and ALS-linked variants may offer a new angle. Scientific importance: Potentially high if the claims are substantiated, given the relevance to ALS and the broader field of protein aggregation. Interdisciplinary readership: The topic bridges biophysics, cell biology, and neurodegeneration, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major concern. Readability for nonspecialists: The abstract is reasonably clear but uses jargon that may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the lack of quantitative data, methodological transparency, and validation in more physiologically relevant systems prevents a supportive recommendation. The authors should be encouraged to provide the full data and address the concerns raised.
+
+## Risk / unsupported claims
+- The claim that ATP destabilizes both normal LLPS and HP-LLPS with a relatively strong inhibitory effect on HP-LLPS is unsupported without quantitative data.
+- The claim that ATP reduces irreversible aggregation propensity of HP-LLPS, particularly in ALS variants, is unsupported without experimental details and statistical analyses.
+- The mechanistic claim that the triphosphate and adenosine moieties of ATP synergistically disrupt intermolecular interactions is unsupported without simulation details and analyses.
+- The claim that decreased intracellular ATP levels may exacerbate aberrant phase transitions of FUS, contributing to ALS onset, is speculative and not supported by the evidence presented.
+- The claim that ATP has potential as a therapeutic modulator is premature without in vivo or cellular validation.

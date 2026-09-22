@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41001641",
+  "title": "Direct Observation of the Conformational Transitions in Tau and Their Correlation with Phase Behavior.",
+  "authors": "Wen, Jitao; Tang, Yiming; Sneideris, Tomas; Ausserwoger, Hannes; Hong, Liu; Knowles, Tuomas P J; Perrett, Sarah; Wei, Guanghong; Wu, Si",
+  "journal": "JACS Au",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合单分子FRET与分子动力学模拟，直接观测Tau蛋白在液-液相分离中的构象转变，揭示单体紧凑构象的分子内互作与驱动LLPS的分子间互作关联，为无序蛋白构象状态调控相分离机制提供了关键建模见解。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is now recognized as one of the key mechanisms underlying the formation of membraneless organelles. Typically, condensates formed through LLPS are dynamic and play a crucial role in the spatiotemporal regulation of essential cellular processes. In some cases, however, condensates can undergo an aberrant liquid-to-solid transition, which is now recognized as being related to the onset of cancers and neurodegeneration. The microtubule-associated protein Tau, the aberrant aggregation of which is implicated in neurodegenerative disorders like Alzheimer's and Parkinson's, has been found to undergo LLPS. The Tau condensates formed through LLPS are considered to be intermediate on-pathway precursors of amyloid aggregates. Unlike other known phase-separating proteins (e.g., FUS or TDP-43) that have low-complexity domains (LCDs), Tau is intrinsically disordered. Thus, Tau exhibits a highly flexible structure that can be modulated by changes in environmental changes. The intricate relationship between different conformations of full-length Tau and its phase behavior remains poorly understood. To bridge this gap, here, by employing a combination of single-molecule FRET and molecular dynamics simulations, we demonstrate that Tau undergoes conformational transitions from compact to extended states during LLPS, irrespective of diverse driving forces. Moreover, we show that intramolecular interactions responsible for stabilizing the compact conformations of monomeric Tau correlate with the intermolecular interactions driving the LLPS of Tau, thereby facilitating the formation of dynamic networks. These findings provide crucial mechanistic insights into how the conformational state of Tau governs its propensity for phase separation, shedding light on sequence-encoded structural processes that ultimately drive biological phase separation.",
+  "abstract_zh": "液-液相分离（LLPS）现被公认为无膜细胞器形成的关键机制之一。通常，通过LLPS形成的凝聚体是动态的，并在基本细胞过程的时空调控中发挥关键作用。然而，在某些情况下，凝聚体可能发生异常的液-固态转变，这现被认为与癌症和神经退行性疾病的发生相关。微管相关蛋白Tau，其异常聚集与阿尔茨海默病和帕金森病等神经退行性疾病有关，已被发现经历LLPS。通过LLPS形成的Tau凝聚体被认为是淀粉样聚集体的中间路径前体。与其他已知的具有低复杂度结构域（LCDs）的相分离蛋白（如FUS或TDP-43）不同，Tau本质上是无序的。因此，Tau表现出高度灵活的结构，该结构可受环境变化调节。全长Tau的不同构象与其相行为之间的复杂关系仍知之甚少。为弥合这一差距，本文通过结合单分子FRET和分子动力学模拟，我们证明Tau在LLPS过程中经历从紧凑态到伸展态的构象转变，无论驱动力如何多样。此外，我们表明，负责稳定单体Tau紧凑构象的分子内相互作用与驱动Tau LLPS的分子间相互作用相关，从而促进动态网络的形成。这些发现为Tau的构象状态如何控制其相分离倾向提供了关键机制见解，揭示了最终驱动生物相分离的序列编码结构过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41001641/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41001641/",
+  "paper_page_path": "papers/pubmed/41001641/index.html"
+}

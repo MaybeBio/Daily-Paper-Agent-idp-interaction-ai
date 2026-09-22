@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.22.695910",
+  "title": "A new class of proteinaceous biomaterial with unprecedented properties in unicellular eukaryotes",
+  "authors": "Ganser MH; Wiederstein M; Regl C; Katz LA; Agatha S",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究原生生物壳中自组装结构蛋白，含柔性无序段连接β-折叠，但对象非IDP介导的PPI，且无AI/物理模拟方法，仅对无序段-折叠架构有间接启发。",
+  "abstract": "Biomaterials fundamentally reshape material use, providing superior properties and sustainable alternatives relevant to medicine, textiles, and high-tech applications. Research mainly focuses on animal-derived proteinaceous biomaterials, which remain challenging to reproduce while retaining their remarkable properties. We discovered that the shells of tintinnid ciliates, a group of planktonic unicellular eukaryotes, are composed of self-assembling structural proteins. The shells form in water, are structurally diverse, and show exceptional resistance against high temperatures and the strongest chemicals. Combining single-cell transcriptomics and mass-spectrometry of the shells, we identified the amino acid sequences of the shell-forming proteins. They are exceptionally rich in aromatic residues and possess a unique architecture with flexible, unfolded segments connecting highly stable beta-sheets. This easily accessible system promises new aspects to advance current biomaterial design.",
+  "abstract_zh": "生物材料从根本上重塑了材料的使用方式，提供了卓越的性能和可持续的替代方案，适用于医学、纺织和高科技应用。研究主要集中于动物来源的蛋白质类生物材料，这些材料在保持其显著特性的同时，仍难以复制。我们发现，钟虫类纤毛虫（tintinnid ciliates）——一类浮游单细胞真核生物——的外壳由自组装结构蛋白组成。这些外壳在水中形成，结构多样，并对高温和最强化学试剂表现出卓越的抵抗力。结合单细胞转录组学（single-cell transcriptomics）和外壳的质谱分析（mass-spectrometry），我们鉴定了外壳形成蛋白的氨基酸序列。这些蛋白质异常富含芳香族残基，并具有独特的架构，其中柔性、未折叠的片段连接着高度稳定的β-折叠（beta-sheets）。这一易于获取的系统为推进当前生物材料设计提供了新前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695910",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695910",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.22.695910/index.html"
+}

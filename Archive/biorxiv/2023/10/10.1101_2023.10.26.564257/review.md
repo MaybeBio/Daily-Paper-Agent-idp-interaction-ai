@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, clarity, and reproducibility of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors present MechPPI, a gradient-boosting tree-based machine learning tool that predicts protein-protein binding affinity changes (ΔΔG) upon single-point mutations using features derived from binding mechanisms (electrostatic complementarity, hydrogen bonding, steric hindrance, hydrophobicity). They report superior performance over seven baseline methods on three SKEMPI v2.0 benchmark datasets, and additional analyses on mutation classification, feature group efficacy, and mutation-type patterns.
+- **Visible evidence base** Abstract, Sections 1-4 (Introduction, Materials and Methods, Results, Conclusion), Tables 1-2 (referenced), Figures 1-4 (referenced but not shown)
+- **Missing materials affecting confidence** Figures 1-4 and Tables 1-2 are referenced but not provided; no code, data, or hyperparameters are described; no statistical significance tests are reported; no external validation or comparison to recent state-of-the-art methods beyond those listed
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational protein engineering, and the idea of incorporating binding mechanism-derived features is conceptually interesting. However, the current presentation has substantial gaps in methodological detail, statistical rigor, and validation that prevent the core claims from being fully assessed. The reported performance improvements are plausible but not convincingly established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and researchers in drug design would be interested in a tool that predicts mutation effects on binding affinity with mechanistic interpretability. The approach could be useful for prioritizing mutations in protein design or understanding disease variants, provided the method is validated and made accessible.
+- **Major strengths** The concept of using binding mechanism features (electrostatic, hydrogen bond, steric, hydrophobic) is a thoughtful departure from purely structural or physicochemical descriptors. The use of multiple benchmark datasets and comparison to several established methods is appropriate. The inclusion of protein-level cross-validation is a positive step toward assessing generalization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim MechPPI "accurately predicts binding affinity change upon a single mutation" and outperforms seven baseline methods.
+  - **Evidence pointer** Section 3.1, Tables 1-2 (not provided), Figures 1-2 (not provided)
+  - **Concern** The reported performance metrics (R_p, RMSE) are presented without confidence intervals, statistical significance tests, or error bars. It is unclear whether the observed improvements over baselines are statistically meaningful. Additionally, the cross-validation procedure is described only briefly; details on hyperparameter tuning, feature selection, and potential data leakage are absent.
+  - **Why it matters** Without statistical rigor, the claim of superior accuracy cannot be distinguished from random variation or overfitting. Reproducibility and fair comparison with baselines are essential for establishing the method's value.
+  - **Resolution test** Provide confidence intervals or significance tests for all metrics, describe hyperparameter optimization, and ensure no information from test folds is used during training. Ideally, include an independent test set or external validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method relies on "binding mechanism-based features" including volumetric intersections from genSurf and hydrogen bond spherical cones.
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Concern** The feature construction is described at a conceptual level, but critical implementation details are missing. For example, how are electrostatic isopotentials computed? What parameters are used for genSurf? How are hydrogen bonds identified and converted to spherical cones? How are these features combined with structural features? No pseudocode, algorithm, or code availability is mentioned.
+  - **Why it matters** Without precise definitions and code, the method cannot be reproduced or adapted by others, which undermines its utility as a scientific contribution.
+  - **Resolution test** Provide a detailed algorithmic description, release code and data, or at minimum specify all parameters and software versions used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "most methods used features only include structural information and some physicochemical information about key residues, which might not be enough" and that mechanism features provide "more valid information."
+  - **Evidence pointer** Section 1, Section 3.3, Figure 3 (not provided)
+  - **Concern** The claim that mechanism features are more informative is only partially tested. Section 3.3 shows that for subsets annotated with a dominant mechanism, the corresponding feature group performs best, but this is a circular test since the subsets are defined by the same annotations. No comparison is made to a model using only structural features to demonstrate added value.
+  - **Why it matters** The novelty of the method hinges on the contribution of mechanism features. Without a clear ablation study, the incremental benefit over existing approaches is not established.
+  - **Resolution test** Perform an ablation study where mechanism features are removed and compare performance to the full model. Also, test on subsets without dominant mechanism annotations to assess generalizability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report protein-level cross-validation results (R_p of 0.50, 0.33, 0.71 for S4169, S1131, S8339) but do not compare these to baseline methods.
+  - **Evidence pointer** Section 3.1, Table 2 (not provided)
+  - **Concern** Protein-level cross-validation is a more realistic test of generalization, but the results are not contextualized. Without baseline comparisons under the same protocol, it is unclear if MechPPI is competitive or superior in this setting.
+  - **Why it matters** The main performance claim is based on mutation-level cross-validation, which may overestimate performance. The protein-level results could be more relevant for practical use, but they are not interpreted.
+  - **Resolution test** Provide baseline comparisons under protein-level cross-validation and discuss the implications of the performance drop.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "Four widely used subsets of SKEMPI v.2.0 were used as benchmark datasets, namely S1131, S4169, and S8338" but only three are listed. This is inconsistent.
+  - **Required correction** Clarify whether a fourth subset was used or correct the text to "three."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "For set S4169, we obtained a high R_p of 0.783 and lowest RMSE of 1.11 kcal mol-1" is ambiguous. "Lowest" relative to what? It should be specified whether this is the lowest among all methods or among a subset.
+  - **Required correction** Rephrase to "the lowest RMSE among all compared methods" or similar.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Location not provided
+  - **Issue** The classification task (stabilizing, destabilizing, neutral) uses thresholds of ±0.5 kcal/mol, but the rationale for these thresholds is not given. Different thresholds could change results.
+  - **Required correction** Justify the threshold choice or cite prior work using similar cutoffs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The text mentions "as shown in Fig." but the figure number is missing. Also, the categories (interior, surface, rim, support, core) are not defined.
+  - **Required correction** Add the correct figure reference and define the region categories.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of hydrogen bond features is dense and includes terms like "ontology" and "supergraph" that are not clearly defined. This may confuse readers.
+  - **Required correction** Simplify the language and define all specialized terms.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (reproducibility), R1-M3 (ablation study), R1-M4 (protein-level validation)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The use of mechanism-derived features is a novel angle, but the overall approach (ML on structural features) is not fundamentally new.
+  - **Scientific importance** Potentially relevant, but the added value over existing methods is not convincingly demonstrated due to missing ablation and statistical tests.
+  - **Interdisciplinary readership** The topic is of interest to structural biology, computational chemistry, and machine learning communities, but the presentation is too technical and lacks context for nonspecialists.
+  - **Technical soundness** Currently insufficient. Key methodological details are missing, and performance claims are not statistically supported.
+  - **Readability for nonspecialists** Poor. The manuscript uses jargon and incomplete descriptions that would hinder understanding by a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims require substantial additional analysis and clarification before the manuscript could be considered for publication.
+
+## Risk / unsupported claims
+- The claim that MechPPI "accurately predicts" ΔΔG is unsupported without statistical significance testing and external validation.
+- The claim that mechanism features provide "more valid information" is not established due to the lack of an ablation study.
+- The protein-level cross-validation results are reported but not compared to baselines, making their interpretation unclear.
+- The manual annotation of 952 entries with mechanism labels (Section 3.3) is described without details on annotation criteria, inter-annotator agreement, or validation, making the results unverifiable.
+- The statement that "hydrogen bond features are more efficient than existing methods" is not quantified or compared in terms of computational cost.

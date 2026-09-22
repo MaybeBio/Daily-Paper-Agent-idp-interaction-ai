@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, main text sections, methods, and extended data figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific validity of claims based on the provided text; experimental design and interpretation; structural and computational evidence as described
+- **Shared manuscript claim summary** The authors propose that the lipid droplet assembly complex (LDAC), composed of seipin and LDAF1, acts as a protein catalyst for oil-phase separation in membranes. They reconstitute LDAC-mediated triglyceride (TG) binding and phase separation in vitro, determine a cryo-EM structure of the LDAC, and use molecular dynamics simulations to propose a mechanism whereby the LDAC forms a toroidal chamber that selectively admits TG while limiting phospholipids, promoting TG concentration and phase separation below the spontaneous threshold.
+- **Visible evidence base** In vitro TG binding assays with purified proteins and radiolabeled TG; GUV-based phase separation assays with fluorescent reporters; cryo-EM structure determination and model building; coarse-grained and all-atom MD simulations; cell-based lipidomics of purified LDAC and seipin; cysteine crosslinking experiments; immunoblotting
+- **Missing materials affecting confidence** Figures and Extended Data figures (only legends referenced); numerical data and statistical details for binding assays and GUV quantifications; cryo-EM validation metrics (FSC curves, model statistics); simulation parameters and convergence criteria; lipidomics quantification details; uncropped blots; construct details and purification quality assessments
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in lipid droplet biology: how the LDAC nucleates oil-phase formation in membranes. The combination of in vitro reconstitution, structural biology, and simulation is ambitious and potentially impactful. The central claim that the LDAC is necessary and sufficient for TG phase separation below the spontaneous threshold is supported by the GUV experiments as described, though the quantitative strength of this claim is difficult to fully assess without the figures. The structural model is plausible but limited by the moderate resolution of the cryo-EM map in the transmembrane regions. The simulation results are suggestive but require careful scrutiny regarding force field limitations and the interpretation of diffusion and interaction metrics. The lipidomics data provide correlative support but are not mechanistically definitive. Overall, the work is potentially important but several technical concerns must be addressed before the mechanistic conclusions are fully established.
+- **Who would be interested in the results, and why** Cell biologists studying lipid metabolism, lipid droplet biogenesis, and organelle membrane biology; biophysicists interested in phase separation in biological membranes; structural biologists studying membrane protein complexes; researchers in the seipin/lipodystrophy field, as seipin mutations cause congenital generalized lipodystrophy. The proposed mechanism of protein-catalyzed phase separation could have broader relevance to other membrane-associated phase separation phenomena.
+- **Major strengths** 1) The in vitro reconstitution system is a significant technical achievement that allows direct testing of LDAC function in a defined membrane environment. 2) The combination of structural, biochemical, and computational approaches provides multiple lines of evidence. 3) The claim that the LDAC is both necessary and sufficient for TG phase separation below the spontaneous threshold is a clear, testable hypothesis with important implications. 4) The identification of a toroidal architecture with distinct inner and outer rings provides a concrete structural framework for understanding LDAC function. 5) The lipidomics data connecting in vitro findings to cellular context strengthen the physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The claim that the LDAC is necessary and sufficient to catalyze oil-phase formation below the threshold of spontaneous phase separation.
+  - **Evidence pointer** Fig. 2d-f, Extended Data Fig. 1e; location not provided
+  - **Concern** The GUV experiments are central to the necessity and sufficiency claim, but the description provided is insufficient to evaluate the robustness of the quantification. The text states that phase separation occurred in 21 of 22 LDAC-containing GUVs versus 2 of 20 with seipin alone, but no details are given on how phase separation was scored, whether the observer was blinded, how TG concentration was verified in individual GUVs, or what the variability was across independent experiments. The threshold of 4 mol% TG for spontaneous phase separation is stated but the supporting data are not shown. Additionally, the use of 2.5 mol% TG for the "below threshold" condition and the claim of necessity would be strengthened by demonstrating that TG phase separation does not occur at this concentration in the absence of protein or with a catalytically inactive LDAC mutant.
+  - **Why it matters** The central conclusion of the paper rests on this reconstitution data. If the quantification is not rigorous or the threshold is not well-defined, the necessity and sufficiency claim is not established.
+  - **Resolution test** Provide full quantification details including scoring criteria, number of independent experiments, statistical analysis, and representative images. Include a titration of TG concentrations to define the spontaneous phase separation threshold more precisely. Include a negative control with a mutant LDAC that disrupts the proposed TG-binding chamber.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The claim that the LDAC forms a toroidal, membrane-spanning structure with an inner ring of LDAF1 and an outer ring of seipin, creating a selective chamber.
+  - **Evidence pointer** Fig. 3a-d, Extended Data Fig. 2, 3; location not provided
+  - **Concern** The cryo-EM map is described as having a resolution of 3.2 Å overall, but the text states that the highest resolution is in the lumenal domain with lower resolution in the transmembrane regions. The model building relies on AlphaFold3 predictions for the transmembrane segments, which is concerning given that the functional claims depend on the architecture of the transmembrane rings and the proposed chamber. No validation metrics are provided for the model, such as map-model FSC, MolProbity scores, or Ramachandran statistics. The stoichiometry of the complex (number of seipin and LDAF1 subunits) is not clearly stated, which is essential for understanding the chamber dimensions and selectivity.
+  - **Why it matters** The proposed mechanism of selective TG access depends critically on the structural model of the transmembrane chamber. If the transmembrane regions are not well-resolved, the architectural claims are not firmly established.
+  - **Resolution test** Provide resolution estimates for the transmembrane regions specifically, model validation statistics, and a clear statement of the complex stoichiometry. If the transmembrane regions are at lower resolution, temper the architectural claims accordingly or provide additional experimental validation (e.g., crosslinking or mutagenesis data that support the proposed arrangement).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational evidence
+  - **Claim pointer** The claim that MD simulations show TG diffusion is 20-fold lower within the LDAC than in bulk membrane, and that TG molecules coalesce between the inner and outer rings to form a stable oil phase.
+  - **Evidence pointer** Fig. 4c-g, Extended Data Fig. 6; location not provided
+  - **Concern** The simulation methodology has several potential issues. The use of Martini2 force field with positional restraints on backbone beads to prevent collapse is a significant intervention that could bias the results. The simulation times and system sizes are not stated. The diffusion coefficient calculations are described but the statistical treatment is unclear, particularly how molecules were assigned to "within the LDAC" versus "bulk" categories. The claim of a 20-fold reduction in diffusion is striking and would benefit from error estimates and multiple independent simulations. The backmapping procedure from CG to AA is mentioned but the equilibration protocol is not described.
+  - **Why it matters** The simulations provide the mechanistic link between the structure and the proposed function. If the simulation methodology is not robust, the mechanistic conclusions are weakened.
+  - **Resolution test** Provide full simulation parameters, system compositions, simulation lengths, number of replicates, and error bars for diffusion measurements. Justify the use of positional restraints and demonstrate that results are not sensitive to this choice. Show convergence of the observed phase separation behavior.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The claim that the LDAC selectively limits phospholipids while allowing TG access, thereby promoting TG-TG interactions and phase separation.
+  - **Evidence pointer** Fig. 4h,i, Extended Data Fig. 7,8; location not provided
+  - **Concern** The lipidomics data show that LDACs preferentially associate with TG over phospholipids compared to seipin alone, but the mechanistic interpretation is not fully supported. The text states that the LDAC "limits phospholipids" but the lipidomics data as described only show relative enrichment, not an active exclusion mechanism. The selectivity could arise from the geometry of the chamber, from specific protein-lipid interactions, or from the physical properties of the lipids themselves. The current data do not distinguish between these possibilities. Additionally, the lipidomics experiments are performed with proteins purified from cells, which may carry endogenous lipids that could confound the interpretation.
+  - **Why it matters** The proposed mechanism of selective lipid access is central to understanding how the LDAC catalyzes phase separation. Without a clear demonstration of the selectivity mechanism, the model remains speculative.
+  - **Resolution test** Provide additional experiments that directly test the selectivity mechanism, such as liposome-based binding assays with defined lipid compositions, or mutagenesis of the proposed selectivity filter residues. Quantify the absolute amounts of TG and phospholipids associated with the complex, not just relative enrichment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, protein expression and purification
+  - **Evidence pointer** Methods section, "Protein expression and purification"; location not provided
+  - **Issue** The text states that cells were lysed with a dounce homogenizer and the lysate was supplemented with 1% detergent, but the specific detergent used for lysis is not stated. Later, the text mentions that proteins were eluted with buffer containing detergent, but the detergent identity is not specified. This is important for reproducibility.
+  - **Required correction** Specify the detergent used for lysis and purification, and its concentration in all buffers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Methods section, "Statistical analysis"; location not provided
+  - **Issue** The text states that three biological replicates were performed for all experiments and that one-way ANOVA followed by Tukey's test was used, but no effect sizes, confidence intervals, or exact p-values are reported in the text. The figure legends may contain this information, but it is not accessible from the provided text.
+  - **Required correction** Ensure that all statistical comparisons report effect sizes and exact p-values, either in the text or in the figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion states that the mechanism "likely reflects a general principle of LDAC-mediated neutral lipid phase separation" based on the involvement of seipin in sterol ester droplet formation. This generalization is speculative and not directly tested in the current work.
+  - **Required correction** Soften this claim or provide additional discussion of how the proposed mechanism might apply to other neutral lipids, noting the lack of direct evidence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, cryo-EM
+  - **Evidence pointer** Methods section, "Cryo-electron microscopy image processing"; location not provided
+  - **Issue** The text states that a 3.2 Å resolution map was obtained using C11 symmetry, but the number of particles used in the final refinement is not stated. Additionally, the local resolution range of 2.6-3.2 Å is mentioned but the distribution of local resolution is not described.
+  - **Required correction** Report the number of particles used in the final refinement and provide a local resolution map or histogram.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, molecular dynamics simulations
+  - **Evidence pointer** Methods section, "Molecular dynamics simulations"; location not provided
+  - **Issue** The text states that simulations were performed "as outlined in Table 2" but Table 2 is not provided in the manuscript text. The simulation system compositions, sizes, and durations are therefore not accessible.
+  - **Required correction** Include Table 2 or provide the simulation details directly in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (GUV quantification rigor), R1-M2 (structural model validation in transmembrane regions), R1-M3 (simulation methodology robustness)
+- **Assessment against Nature-style criteria** Originality: High. The concept of a protein complex acting as a catalyst for phase separation in a biological membrane is novel and conceptually important. Scientific importance: High. Understanding lipid droplet biogenesis is fundamental to cell biology and has implications for metabolic disease. Interdisciplinary readership: Moderate to high. The work bridges structural biology, biophysics, and cell biology, and would appeal to researchers across these fields. Technical soundness: Moderate. The experimental approaches are appropriate and ambitious, but the described validation and quantification are insufficient to fully support the claims. Readability for nonspecialists: Moderate. The manuscript is generally well-written, but the mechanistic details and simulation methodology may be challenging for readers outside the immediate field. The summary provides a clear conceptual framework that helps accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is important and the experimental approach is innovative, but the current evidence as described does not fully establish the mechanistic claims. The GUV quantification, structural validation, and simulation methodology need to be strengthened. If these concerns are adequately addressed, this work would represent a significant advance in understanding lipid droplet biogenesis.
+
+## Risk / unsupported claims
+- The claim that the LDAC is "necessary and sufficient" for oil-phase formation is not fully supported without more rigorous quantification and appropriate negative controls.
+- The claim that the LDAC "limits phospholipids" is not directly demonstrated; the data show relative enrichment of TG but do not establish an active exclusion mechanism.
+- The generalization to other neutral lipids (sterol esters) in the discussion is speculative and not tested.
+- The claim that the observed conformational change in simulations "mimics the initial stage of membrane deformation" is based on simulations without experimental validation.
+- The functional significance of the conserved LDAF1 residues (Phe57, Ser61, Leu105, Ser109) is supported by alanine substitution reducing TG binding, but the magnitude of the effect and its specificity are not fully described.
+- The statement that "expression of either LDAC or seipin did not significantly alter the bulk cellular lipidome" is presented without supporting data or statistical analysis in the provided text.

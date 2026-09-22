@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.16.580771",
+  "title": "Using structure prediction of negative sense RNA virus nucleoproteins to assess evolutionary relationships",
+  "authors": "Sabsay KR; te Velthuis AJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-17",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用AlphaFold预测负链RNA病毒核蛋白结构并做系统发育分析，对象非IDP/相分离，无PPI互作机制建模，仅结构预测用于进化推断，与本课题关联弱。",
+  "abstract": "Negative sense RNA viruses (NSV) include some of the most detrimental human pathogens, including the influenza, Ebola and measles viruses. NSV genomes consist of one or multiple single-stranded RNA molecules that are encapsidated into one or more ribonucleoprotein (RNP) complexes. These RNPs consist of viral RNA, a viral RNA polymerase, and many copies of the viral nucleoprotein (NP). Current evolutionary relationships within the NSV phylum are based on alignment of conserved RNA-directed RNA polymerase (RdRp) domain amino acid sequences. However, the RdRp domain-based phylogeny does not address whether NP, the other core protein in the NSV genome, evolved along the same trajectory or whether several RdRp-NP pairs evolved through convergent evolution in the segmented and non-segmented NSV genomes architectures. Addressing how NP and the RdRp domain evolved may help us better understand NSV diversity. Since NP sequences are too short to infer robust phylogenetic relationships, we here used experimentally-obtained and AlphaFold 2.0-predicted NP structures to probe whether evolutionary relationships can be estimated using NSV NP sequences. Following flexible structure alignments of modeled structures, we find that the structural homology of the NSV NPs reveals phylogenetic clusters that are consistent with RdRp-based clustering. In addition, we were able to assign viruses for which RdRp sequences are currently missing to phylogenetic clusters based on the available NP sequence. Both our RdRp-based and NP-based relationships deviate from the current NSV classification of the segmented Naedrevirales , which cluster with the other segmented NSVs in our analysis. Overall, our results suggest that the NSV RdRp and NP genes largely evolved along similar trajectories and that even short pieces of genetic, protein-coding information can be used to infer evolutionary relationships, potentially making metagenomic analyses more valuable.",
+  "abstract_zh": "负链RNA病毒（NSV）包括一些最具危害性的人类病原体，如流感病毒、埃博拉病毒和麻疹病毒。NSV基因组由一个或多个单链RNA分子组成，这些分子被包裹在一个或多个核糖核蛋白（RNP）复合物中。这些RNP包含病毒RNA、一种病毒RNA聚合酶以及多个拷贝的病毒核蛋白（NP）。目前NSV门内的进化关系基于保守的RNA依赖性RNA聚合酶（RdRp）结构域氨基酸序列的比对。然而，基于RdRp结构域的系统发育并未解决NP（NSV基因组中的另一个核心蛋白）是否沿相同轨迹进化，或者多个RdRp-NP对是否通过分段和非分段NSV基因组结构中的趋同进化而演化。探究NP和RdRp结构域如何进化可能有助于我们更好地理解NSV的多样性。由于NP序列过短，无法推断可靠的系统发育关系，我们在此使用实验获得的和AlphaFold 2.0预测的NP结构，来探究是否可以利用NSV NP序列估计进化关系。在对建模结构进行灵活结构比对后，我们发现NSV NP的结构同源性揭示了与基于RdRp聚类一致的系统发育簇。此外，我们能够根据可用的NP序列，将目前缺少RdRp序列的病毒分配到系统发育簇中。我们基于RdRp和NP的关系均偏离了当前对分段Naedrevirales的NSV分类，而在我们的分析中，这些病毒与其他分段NSV聚集在一起。总体而言，我们的结果表明，NSV的RdRp和NP基因大体上沿相似轨迹进化，甚至短片段遗传信息（蛋白质编码信息）也可用于推断进化关系，这可能使宏基因组分析更具价值。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.16.580771",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.16.580771",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.16.580771/index.html"
+}

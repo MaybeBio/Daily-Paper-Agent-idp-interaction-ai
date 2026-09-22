@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, significance statement, materials and methods summary) without supplementary figures, tables, or appendices
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency as presented in the provided text; no external literature verification performed
+- **Shared manuscript claim summary** The authors reconstitute human mitochondrial transcription in vitro under condensate-forming conditions and report that (1) all core components (TFAM, TFB2M, POLRMT, DNA) individually phase separate in the presence of PEG; (2) multicomponent mixtures form inhomogeneous, dynamically arrested condensates; (3) transcription is dampened in condensates relative to dilute solution; (4) newly synthesized RNA drives vesicle-like morphological reorganization of condensates over time; (5) in vivo depletion of TFAM or MTERF2 alters nucleoid organization; and (6) lattice simulations recapitulate key experimental morphologies and support a nonequilibrium interpretation.
+- **Visible evidence base** Main text figures referenced as Fig. 1A–D, Fig. 2A–H, Fig. 3A–D, Fig. 4B, Fig. 5A–F; SI Appendix figures referenced as Fig. S1–S7; Movies S1 and S2; GitHub repository for images and analysis code
+- **Missing materials affecting confidence** All supplementary figures, tables, and appendices; experimental protocols; quantitative data underlying figures; fluorescence recovery after photobleaching (FRAP) curves; RNA quantification data; simulation parameter values; statistical analysis details; cell line and antibody information; primer sequences; plasmid constructs
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: how transcription, as a biochemical reaction, feeds back on the mesoscale organization of the condensate in which it occurs. The authors combine in vitro reconstitution, live-cell perturbation, and coarse-grained simulation to build a coherent narrative. The central claims are plausible and the experimental system is well chosen. However, the provided text lacks the quantitative detail needed to fully evaluate the strength of the evidence. Several key conclusions, particularly regarding the mechanism of transcription dampening and the nonequilibrium nature of the vesicular structures, rest on indirect or incomplete evidence as presented. The in vivo data are described only briefly and their connection to the in vitro findings is not fully developed in the visible text. The simulation approach is reasonable but the parameterization and validation are not described in sufficient detail. Overall, the manuscript has strong potential but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those interested in the coupling between biochemical activity and condensate structure; mitochondrial biologists interested in nucleoid organization and transcription regulation; biophysicists and computational biologists working on phase separation and coarse-grained modeling; cell biologists studying transcription factories and RNA processing bodies. The work bridges multiple communities and provides a tractable in vitro system for studying active condensates.
+- **Major strengths** (1) The choice of mitochondrial transcription as a minimal, well-defined system is elegant and allows for controlled reconstitution. (2) The combination of experimental reconstitution, in vivo perturbation, and simulation provides complementary perspectives. (3) The observation that transcription is dampened in condensates and that RNA production reshapes condensate morphology is novel and mechanistically interesting. (4) The order-of-addition experiments are well designed to probe the role of RNA in structure formation. (5) The authors are appropriately cautious in distinguishing equilibrium from nonequilibrium structures.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "transcription is dampened in condensates compared with the bulk solution" (Results, "Dampening of Transcription Rates under Condensate-Forming Conditions")
+  - **Evidence pointer** Fig. 2A–C; SI Appendix Fig. S2A–B; location not provided
+  - **Concern** The claim that transcription is reduced in condensates is central to the paper, but the provided text does not describe how transcription rates were quantified, what the magnitude of the effect was, or whether the reduction was statistically significant across replicates. The text states a 1.3-fold to 20-fold reduction, which is a wide range, and it is unclear what conditions correspond to the extremes. No raw data, error bars, or statistical tests are shown in the visible text.
+  - **Why it matters** This is the primary functional readout of the study. Without clear quantitative evidence, the reader cannot assess whether the dampening is robust, specific to condensate formation, or potentially an artifact of the crowder or other experimental conditions.
+  - **Resolution test** Provide quantitative transcription data (e.g., gel quantification or radioactive counts) with replicates, error bars, and statistical comparisons between condensate and non-condensate conditions. Clarify what conditions produce the 1.3-fold versus 20-fold reduction and whether this correlates with condensate properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Newly synthesized RNA transcripts shape condensate structure" and "active mt-transcriptional vesicular condensates represent nonequilibrium structures" (Results, "Newly Synthesized RNA Transcripts Shape Condensate Structure"; Discussion)
+  - **Evidence pointer** Fig. 3A–D; SI Appendix Fig. S4; Movies S1 and S2; location not provided
+  - **Concern** The conclusion that vesicular structures are nonequilibrium and dynamically arrested is based on time-course imaging and FRAP. However, the text does not provide quantitative FRAP recovery curves, mobile fractions, or comparisons to appropriate controls. The time-course data are described qualitatively ("vesicles start to appear"), and it is unclear how many independent experiments were performed, how vesicle formation was quantified, and whether the observed morphologies are reproducible. The claim that RNA production drives vesicle formation is supported by the order-of-addition experiments, but the text does not describe how vesicle formation was scored or whether the effect was dose-dependent.
+  - **Why it matters** The nonequilibrium interpretation is a key conceptual contribution. If the vesicular structures are simply equilibrium morphologies that arise slowly, the interpretation changes substantially. The current evidence, as presented, does not rule out alternative explanations such as slow equilibration or sample heterogeneity.
+  - **Resolution test** Provide quantitative FRAP data with recovery curves, mobile fractions, and statistical comparisons. Quantify vesicle formation over time with clear criteria and replicate numbers. Include control experiments where RNA is added at different concentrations or where transcription is inhibited to demonstrate causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Organization of mitochondrial nucleoids is altered upon depletion of core transcription components in vivo" (Results, "Organization of Mitochondrial Nucleoids Is Altered upon Depletion of Core Transcription Components In Vivo")
+  - **Evidence pointer** Fig. 4B; SI Appendix Fig. S5–S6; location not provided
+  - **Concern** The in vivo experiments are described in only a few sentences. The text states that TFAM depletion leads to enlarged nucleoids and that MTERF2 depletion leads to swollen mitochondria with RNA puncta, but no quantitative data are provided. It is unclear how many cells were analyzed, what the magnitude of the effects was, whether the effects were specific to the depleted factors, and how the in vivo observations relate mechanistically to the in vitro findings.
+  - **Why it matters** The in vivo data are intended to provide physiological relevance. Without quantitative support and clear mechanistic links, the in vivo section reads as preliminary and does not strengthen the central claims.
+  - **Resolution test** Provide quantitative image analysis (e.g., nucleoid size distributions, number of RNA puncta per cell) with statistical comparisons. Include rescue experiments or additional controls to demonstrate specificity. Clarify how the in vivo observations support or refine the in vitro model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Computational simulation of transcription-mediated reorganization" (Results, "Computational Simulation of Transcription-Mediated Reorganization")
+  - **Evidence pointer** Fig. 5A–F; SI Appendix Fig. S7; location not provided
+  - **Concern** The simulation section is described at a high level, but the text does not provide sufficient detail on the model parameterization, the interaction energies used, the mapping between simulation and experimental conditions, or the sensitivity of the results to parameter choices. The claim that the simulations "recapitulate" experimental results is not supported by quantitative comparisons in the visible text. The authors state that the simulations do not model active transcription but instead use fixed RNA amounts, which is a significant simplification that is not fully discussed.
+  - **Why it matters** The simulations are used to support the nonequilibrium interpretation and to explain the in vivo observations. If the model is not well constrained or validated, the conclusions drawn from it are weakened.
+  - **Resolution test** Provide full simulation details, including interaction parameters, system size, equilibration protocols, and sensitivity analyses. Show quantitative comparisons between simulated and experimental radial density profiles or other metrics. Discuss the limitations of the fixed-RNA approach and whether the conclusions are robust to alternative modeling choices.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Individual Components of the Mitochondrial Transcription Machinery Undergo Phase Separation In Vitro"
+  - **Evidence pointer** Fig. 1B; SI Appendix Fig. S1A–C; location not provided
+  - **Issue** The text states that POLRMT forms "highly irregular structures" with aspect ratio greater than one, but it is unclear what aspect ratio values were measured and how "irregular" was defined. The distinction between dynamically arrested phases and other types of aggregates is not clearly operationalized.
+  - **Required correction** Provide quantitative aspect ratio measurements and define the criteria used to classify structures as dynamically arrested versus other morphologies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Multicomponent Systems Form Inhomogeneously Organized and Dynamically Arrested Condensates In Vitro"
+  - **Evidence pointer** Fig. 1C–D; location not provided
+  - **Issue** The text uses correlation coefficients to describe colocalization but does not state how these were calculated, what values were obtained, or what thresholds were used to define "high" or "low" colocalization.
+  - **Required correction** Describe the colocalization analysis method and provide quantitative values with appropriate controls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Dampening of Transcription Rates under Condensate-Forming Conditions"
+  - **Evidence pointer** Fig. 2A–C; location not provided
+  - **Issue** The text mentions "1.3-fold to 20-fold lower" transcription in condensates but does not explain the source of this variability or whether it correlates with specific experimental conditions.
+  - **Required correction** Clarify what conditions produce the range of effects and whether the variability is biological or technical.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Newly Synthesized RNA Transcripts Shape Condensate Structure"
+  - **Evidence pointer** Fig. 3C; location not provided
+  - **Issue** The order-of-addition experiment is described briefly. It is unclear how the timing of ex-RNA addition was chosen and whether the observed differences in structure were quantified or only qualitative.
+  - **Required correction** Provide quantitative structural characterization (e.g., vesicle fraction, layer thickness) for each condition and time point.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** location not provided
+  - **Issue** The discussion of in vivo relevance is speculative in places, particularly regarding the role of RNA-binding proteins in maintaining local equilibrium. The authors acknowledge this, but the connection between the simulation results and the in vivo situation could be more clearly articulated.
+  - **Required correction** Clarify which aspects of the in vivo model are directly supported by data and which are hypotheses requiring further testing.
+- **Technical failings that need to be addressed before the case is established** (1) Quantitative transcription data with statistical analysis are missing from the visible text (R1-M1). (2) Quantitative FRAP data and vesicle formation kinetics are not provided (R1-M2). (3) In vivo image quantification and statistical analysis are absent (R1-M3). (4) Simulation parameterization and validation details are insufficient (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The work is original in its focus on the bidirectional coupling between transcription and condensate structure, and in its use of the mitochondrial system as a minimal model. The finding that RNA production drives vesicle formation is novel. Scientific importance: The results have implications for understanding transcriptional regulation in condensates across systems, and for the general principle that biochemical activity can reshape condensate morphology. The work is likely to be of interest to a broad readership. Interdisciplinary readership: The work bridges cell biology, biophysics, and computational modeling, and should appeal to researchers in all three areas. Technical soundness: The experimental design is generally sound, but the lack of quantitative detail in the visible text prevents full assessment. The simulation approach is reasonable but underdescribed. Readability for nonspecialists: The text is generally clear and well organized, but some sections assume familiarity with phase separation concepts and simulation methods. The significance statement is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are plausible and the system is well chosen, but the evidence as presented in the supplied text is insufficient to fully establish the case. The authors should provide quantitative data for transcription rates, FRAP, in vivo imaging, and simulation validation. If these are available in the supplementary material, the manuscript may be suitable for publication after revision.
+
+## Risk / unsupported claims
+- The claim that transcription is dampened in condensates is not quantitatively supported in the visible text.
+- The claim that vesicular structures are nonequilibrium and dynamically arrested is not fully supported by the presented FRAP and time-course data.
+- The in vivo claim that nucleoid organization is altered upon TFAM or MTERF2 depletion is not quantitatively supported.
+- The simulation results are described as recapitulating experimental observations, but no quantitative comparison is shown.
+- The statement that "not all DNA templates are actively transcribed" under condensate-forming conditions is presented as a rough estimate without supporting calculation or data.
+- The claim that RNA-binding proteins in vivo sequester RNA to maintain local equilibrium is presented as a hypothesis but is not directly tested.

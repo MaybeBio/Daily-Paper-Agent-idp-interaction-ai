@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.26.625383",
+  "title": "Design principles of transcription factors with intrinsically disordered regions",
+  "doi": "10.1101/2024.11.26.625383",
+  "abstract": "Transcription Factors (TFs) are proteins crucial for regulating gene expression. Effective regulation requires the TFs to rapidly bind to their correct target, enabling the cell to respond efficiently to stimuli such as nutrient availability or the presence of toxins. However, the search process is hindered by slow diffusive movement and the presence of 'false' targets --DNA segments that are similar to the true target. In eukaryotic cells, most TFs contain an Intrinsically Disordered Region (IDR), which is a long, flexible polymeric tail composed of hundreds of amino acids. Recent experimental findings indicate that the IDR of certain TFs plays a pivotal role in the search process. However, the principles underlying the IDR's role remain unclear. Here, we reveal key design principles of the IDR related to TF binding affinity and search time. Our results demonstrate that the IDR significantly enhances both of these aspects. Furthermore, our model shows good agreement with experimental results, and we propose further experiments to validate the model's predictions.",
+  "authors": [
+    "Ji W",
+    "Hachmo O",
+    "Barkai N",
+    "Amir A"
+  ],
+  "published_date": "2024-11-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.26.625383",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.26.625383.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR947138",
+    "raw_record": {
+      "id": "PPR947138",
+      "source": "PPR",
+      "doi": "10.1101/2024.11.26.625383",
+      "title": "Design principles of transcription factors with intrinsically disordered regions",
+      "authorString": "Ji W, Hachmo O, Barkai N, Amir A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ji W",
+            "lastName": "Ji",
+            "firstName": "Wencheng",
+            "initials": "W"
+          },
+          {
+            "fullName": "Hachmo O",
+            "lastName": "Hachmo",
+            "firstName": "Ori",
+            "initials": "O"
+          },
+          {
+            "fullName": "Barkai N",
+            "lastName": "Barkai",
+            "firstName": "Naama",
+            "initials": "N"
+          },
+          {
+            "fullName": "Amir A",
+            "lastName": "Amir",
+            "firstName": "Ariel",
+            "initials": "A"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Transcription Factors (TFs) are proteins crucial for regulating gene expression. Effective regulation requires the TFs to rapidly bind to their correct target, enabling the cell to respond efficiently to stimuli such as nutrient availability or the presence of toxins. However, the search process is hindered by slow diffusive movement and the presence of 'false' targets --DNA segments that are similar to the true target. In eukaryotic cells, most TFs contain an Intrinsically Disordered Region (IDR), which is a long, flexible polymeric tail composed of hundreds of amino acids. Recent experimental findings indicate that the IDR of certain TFs plays a pivotal role in the search process. However, the principles underlying the IDR's role remain unclear. Here, we reveal key design principles of the IDR related to TF binding affinity and search time. Our results demonstrate that the IDR significantly enhances both of these aspects. Furthermore, our model shows good agreement with experimental results, and we propose further experiments to validate the model's predictions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/29/2024.11.26.625383.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.26.625383"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41025958",
+            "reference": "eLife. \n    2025 Sep;14:RP104956",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-30",
+      "firstPublicationDate": "2024-11-29",
+      "firstIndexDate": "2024-11-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

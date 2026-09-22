@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "40906019",
+    "doi": "10.1002/cm.70031",
+    "title": "O-GlcNAcylation of CEP44 Promotes Its Droplet Formation and Regulates Its Localization."
+  },
+  "content": {
+    "abstract": "The centrosomal protein of 44 kDa (CEP44) is essential for centriole duplication, centrosome cohesion, and spindle integrity. It localizes to the proximal end of centrioles and associates with spindle microtubules. Liquid-liquid phase separation (LLPS) is a process by which biomolecules undergo demixing into distinct liquid-like phases, facilitating the formation of cellular condensates such as the centrosome. However, whether CEP44 possesses LLPS properties remains unclear. In this study, we identified intrinsically disordered regions (IDRs) within CEP44, and droplet formation assays confirmed its capacity to form liquid droplets in vivo and in vitro. Immunoblotting detected O-GlcNAcylation of CEP44, indicating its interaction with O-GlcNAc transferase (OGT). Subsequent immunostaining demonstrated that O-GlcNAcylation promotes CEP44 droplet fusion. Post-translational modification prediction analysis suggested a potential interplay between O-GlcNAcylation and phosphorylation that may modulate the structural dynamics of CEP44. Overall, our findings reveal the LLPS capability of CEP44 and underscore the critical role of O-GlcNAcylation in regulating CEP44 droplet fusion and potentially influencing its subcellular localization.",
+    "keywords": [
+      "O-GlcNAcylation",
+      "centrosome",
+      "liquid-liquid phase separation",
+      "post-translational modification"
+    ],
+    "mesh_terms": [
+      "*Centrosomal Associated Proteins/metabolism",
+      "Humans",
+      "N-Acetylglucosaminyltransferases/metabolism",
+      "Protein Processing, Post-Translational",
+      "Phase Separation",
+      "*Acetylglucosamine/metabolism",
+      "Centrosome/metabolism",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Mingzheng",
+        "Zhao, Zihe",
+        "Wang, Jinqiong",
+        "Shan, Ying",
+        "Liu, Ruming",
+        "Bu, Weiwen",
+        "Li, Dengwen",
+        "Li, Te"
+      ],
+      "short_names": [
+        "Hu M",
+        "Zhao Z",
+        "Wang J",
+        "Shan Y",
+        "Liu R",
+        "Bu W",
+        "Li D",
+        "Li T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "School of Basic Medicine, Gannan Medical University, Ganzhou, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+        "Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Mingzheng",
+        "short_name": "Hu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zihe",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinqiong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Ying",
+        "short_name": "Shan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ruming",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Weiwen",
+        "short_name": "Bu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Gannan Medical University, Ganzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dengwen",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Te",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Cell Biology, College of Life Sciences, State Key Laboratory of Medicinal Chemical Biology, Tianjin Union Medical Center, the First Affiliated Hospital of Nankai University, Nankai University, Tianjin, China.",
+          "Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cytoskeleton (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Cytoskeleton (Hoboken)"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/04 12:37",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [
+      "42243951"
+    ],
+    "refs": [],
+    "similar": [
+      "40906019",
+      "35637289",
+      "20068230",
+      "37963851",
+      "22928023",
+      "19647786",
+      "33597927",
+      "33391506",
+      "40307207",
+      "36796536",
+      "30587575",
+      "22759405",
+      "27542217",
+      "28488246",
+      "31827688",
+      "31974111",
+      "24563466",
+      "40754593",
+      "39950311",
+      "20417205",
+      "39531497",
+      "42101914",
+      "41133730",
+      "38512671",
+      "38773637",
+      "40045035",
+      "33801653",
+      "30093632",
+      "25568311",
+      "34800629",
+      "37820866",
+      "40023397",
+      "24692660",
+      "41146299",
+      "37986614",
+      "27080259",
+      "18653473",
+      "28742148",
+      "32892442",
+      "40407344",
+      "37279852",
+      "28339907",
+      "33769449",
+      "30523150",
+      "37086786",
+      "38561350",
+      "39199296",
+      "36512248",
+      "31086206",
+      "41821103",
+      "37856504",
+      "40574323",
+      "17507370",
+      "27497832",
+      "21461968",
+      "37907462",
+      "36626902",
+      "19940149",
+      "27402830",
+      "28488703",
+      "29223644",
+      "25190571",
+      "32691273",
+      "32736806",
+      "30106436",
+      "39581161",
+      "39718082",
+      "25937070",
+      "31654859",
+      "22967762",
+      "38678556",
+      "40152124",
+      "40044042",
+      "28408476",
+      "32174982",
+      "34981577",
+      "40571812",
+      "26374642",
+      "39894887",
+      "27751836",
+      "31527085",
+      "26491011",
+      "22496241",
+      "30677218",
+      "36706705",
+      "26075789",
+      "36058931",
+      "39279604",
+      "38336591",
+      "34304571",
+      "35185892",
+      "26807597",
+      "33576380",
+      "28642969",
+      "36232558",
+      "41668200",
+      "28450392",
+      "29808487",
+      "42278197",
+      "26252736"
+    ],
+    "review": [
+      "40906019",
+      "19647786",
+      "33597927",
+      "28488246",
+      "20417205",
+      "38773637",
+      "40045035",
+      "34800629",
+      "37820866",
+      "37986614",
+      "37279852",
+      "33769449",
+      "39199296",
+      "40574323",
+      "27497832",
+      "28488703",
+      "29223644",
+      "25190571",
+      "32736806",
+      "39718082",
+      "31654859",
+      "28408476",
+      "36058931",
+      "39279604",
+      "38336591",
+      "35185892",
+      "36232558",
+      "42278197"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cm.70031",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1261",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

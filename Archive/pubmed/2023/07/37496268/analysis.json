@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37496268",
+  "title": "Postsynaptic protein assembly in three and two dimensions studied by mesoscopic simulations.",
+  "authors": "Yamada, Risa; Takada, Shoji",
+  "journal": "Biophysical journal",
+  "published_date": "2023-07-27",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用介观分子模拟比较PSD蛋白（含AMPAR-TARP与PSD-95）在3D溶液与2D膜下凝聚体/簇形成的相行为差异，对象涉及IDR介导的相分离PPI，方法为物理模拟，虽非直接AI但机制建模深度强，对无序蛋白介导的膜下互作机制有直接启发。",
+  "abstract": "Recently, cellular biomolecular condensates formed via phase separation have received considerable attention. While they can be formed either in cytosol (denoted as 3D) or beneath the membrane (2D), the underlying difference between the two has not been well clarified. To compare the phase behaviors in 3D and 2D, postsynaptic density (PSD) serves as a model system. PSD is a protein condensate located under the postsynaptic membrane that influences the localization of glutamate receptors and thus contributes to synaptic plasticity. Recent in vitro studies have revealed the formation of droplets of various soluble PSD proteins via liquid-liquid phase separation. However, it is unclear how these protein condensates are formed beneath the membrane and how they specifically affect the localization of glutamate receptors in the membrane. In this study, focusing on the mixture of a glutamate receptor complex, AMPAR-TARP, and a ubiquitous scaffolding protein, PSD-95, we constructed a mesoscopic model of protein-domain interactions in PSD and performed comparative molecular simulations. The results showed a sharp contrast in the phase behaviors of protein assemblies in 3D and those under the membrane (2D). A mixture of a soluble variant of the AMPAR-TARP complex and PSD-95 in the 3D system resulted in a phase-separated condensate, which was consistent with the experimental results. However, with identical domain interactions, AMPAR-TARP embedded in the membrane formed clusters with PSD-95, but did not form a stable separated phase. Thus, the cluster formation behaviors of PSD proteins in the 3D and 2D systems were distinct. The current study suggests that, more generally, stable phase separation can be more difficult to achieve in and beneath the membrane than in 3D systems.",
+  "abstract_zh": "近年来，通过相分离（phase separation）形成的细胞生物分子凝聚体受到了广泛关注。尽管它们既可在细胞质（记为3D）中形成，也可在膜下（2D）形成，但两者之间的根本差异尚未得到充分阐明。为比较3D与2D中的相行为，突触后密度（postsynaptic density, PSD）被用作模型系统。PSD是一种位于突触后膜下的蛋白质凝聚体，影响谷氨酸受体的定位，从而促进突触可塑性。近期的体外研究揭示了多种可溶性PSD蛋白通过液-液相分离形成液滴的现象。然而，这些蛋白质凝聚体如何在膜下形成，以及它们如何特异性地影响膜中谷氨酸受体的定位，尚不清楚。在本研究中，我们聚焦于谷氨酸受体复合物AMPAR-TARP与普遍存在的支架蛋白PSD-95的混合物，构建了PSD中蛋白质结构域相互作用的介观模型，并进行了比较性分子模拟（molecular simulations）。结果显示，3D系统中蛋白质组装体的相行为与膜下（2D）系统存在显著差异。在3D系统中，可溶性AMPAR-TARP复合物变体与PSD-95的混合物形成了相分离凝聚体，这与实验结果一致。然而，在相同的结构域相互作用下，嵌入膜中的AMPAR-TARP与PSD-95形成簇，但未形成稳定的分离相。因此，PSD蛋白在3D和2D系统中的簇形成行为存在差异。本研究提示，更普遍地，稳定相分离在膜内及膜下可能比在3D系统中更难实现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37496268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37496268/",
+  "paper_page_path": "papers/pubmed/37496268/index.html"
+}

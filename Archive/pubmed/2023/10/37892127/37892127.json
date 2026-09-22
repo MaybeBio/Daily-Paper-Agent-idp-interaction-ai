@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "37892127",
+    "doi": "10.3390/biom13101445",
+    "title": "A Structural Model for the Core Nup358-BicD2 Interface."
+  },
+  "content": {
+    "abstract": "Dynein motors facilitate the majority of minus-end-directed transport events on microtubules. The dynein adaptor Bicaudal D2 (BicD2) recruits the dynein machinery to several cellular cargo for transport, including Nup358, which facilitates a nuclear positioning pathway that is essential for the differentiation of distinct brain progenitor cells. Previously, we showed that Nup358 forms a \"cargo recognition alpha-helix\" upon binding to BicD2; however, the specifics of the BicD2-Nup358 interface are still not well understood. Here, we used AlphaFold2, complemented by two additional docking programs (HADDOCK and ClusPro) as well as mutagenesis, to show that the Nup358 cargo-recognition alpha-helix binds to BicD2 between residues 747 and 774 in an anti-parallel manner, forming a helical bundle. We identified two intermolecular salt bridges that are important to stabilize the interface. In addition, we uncovered a secondary interface mediated by an intrinsically disordered region of Nup358 that is directly N-terminal to the cargo-recognition alpha-helix and binds to BicD2 between residues 774 and 800. This is the same BicD2 domain that binds to the competing cargo adapter Rab6, which is important for the transport of Golgi-derived and secretory vesicles. Our results establish a structural basis for cargo recognition and selection by the dynein adapter BicD2, which facilitates transport pathways that are important for brain development.",
+    "keywords": [
+      "AlphaFold2",
+      "Bicaudal D2",
+      "Nup358",
+      "dynein",
+      "intracellular transport",
+      "nuclear positioning"
+    ],
+    "mesh_terms": [
+      "*Dyneins/metabolism",
+      "*Microtubule-Associated Proteins/metabolism",
+      "Microtubules/metabolism",
+      "Biological Transport",
+      "Models, Structural"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gibson, James M",
+        "Zhao, Xiaoxin",
+        "Ali, M Yusuf",
+        "Solmaz, Sozanne R",
+        "Wang, Chunyu"
+      ],
+      "short_names": [
+        "Gibson JM",
+        "Zhao X",
+        "Ali MY",
+        "Solmaz SR",
+        "Wang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9378-0135",
+        "ORCID: 0000-0002-5030-3929",
+        "ORCID: 0000-0003-2164-3323",
+        "ORCID: 0000-0002-1703-3701",
+        "ORCID: 0000-0001-5165-7959"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA.",
+        "Department of Chemistry, Binghamton University, P.O. Box 6000, Binghamton, NY 13902, USA.",
+        "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405, USA.",
+        "Department of Chemistry, Binghamton University, P.O. Box 6000, Binghamton, NY 13902, USA.",
+        "Department of Biological Sciences, Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gibson, James M",
+        "short_name": "Gibson JM",
+        "identifiers": [
+          "0000-0002-9378-0135"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoxin",
+        "short_name": "Zhao X",
+        "identifiers": [
+          "0000-0002-5030-3929"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Binghamton University, P.O. Box 6000, Binghamton, NY 13902, USA."
+        ]
+      },
+      {
+        "full_name": "Ali, M Yusuf",
+        "short_name": "Ali MY",
+        "identifiers": [
+          "0000-0003-2164-3323"
+        ],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405, USA."
+        ]
+      },
+      {
+        "full_name": "Solmaz, Sozanne R",
+        "short_name": "Solmaz SR",
+        "identifiers": [
+          "0000-0002-1703-3701"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Binghamton University, P.O. Box 6000, Binghamton, NY 13902, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunyu",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5165-7959"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Sep 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/28 11:46",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "42025007",
+      "41770881",
+      "39718769",
+      "39080077",
+      "38719748"
+    ],
+    "refs": [
+      "37105961",
+      "36930595",
+      "36150379",
+      "36071160",
+      "35679405",
+      "35679404",
+      "35679397",
+      "35637307",
+      "35229716",
+      "34395534",
+      "34265844",
+      "33174839",
+      "32649857",
+      "32619477",
+      "32378283",
+      "32183910",
+      "31756096",
+      "31306018",
+      "30345745",
+      "29944118",
+      "29944116",
+      "29899089",
+      "29420470",
+      "28988861",
+      "28079879",
+      "27936493",
+      "27802573",
+      "26410586",
+      "26051540",
+      "25814576",
+      "25796327",
+      "25176647",
+      "25035494",
+      "24953741",
+      "24336790",
+      "24034252",
+      "23996272",
+      "23723415",
+      "23664120",
+      "23664119",
+      "23664116",
+      "23519214",
+      "22956769",
+      "22930834",
+      "22623723",
+      "21383080",
+      "21335237",
+      "20399099",
+      "20386726",
+      "19935668",
+      "19874786",
+      "19864630",
+      "17681140",
+      "12447383",
+      "11553612",
+      "11483508",
+      "8314882",
+      "7775481",
+      "5076782"
+    ],
+    "similar": [
+      "37892127",
+      "35229716",
+      "38719748",
+      "40475460",
+      "41770881",
+      "41648486",
+      "30345745",
+      "22956769",
+      "30615611",
+      "31756096",
+      "41334889",
+      "32378283",
+      "20386726",
+      "11483508",
+      "14609947",
+      "36150379",
+      "30068656",
+      "40462900",
+      "38829892",
+      "27365401",
+      "31306018",
+      "36125250",
+      "32619477",
+      "30877148",
+      "25176647",
+      "39431827",
+      "29038173",
+      "36930595",
+      "26773477",
+      "36416224",
+      "28196890",
+      "32023147",
+      "28883039",
+      "33314495",
+      "29420470",
+      "12447383",
+      "25962623",
+      "29180435",
+      "39115447",
+      "28209731",
+      "31320392",
+      "29416113",
+      "40532013",
+      "27454819",
+      "37105961",
+      "25796327",
+      "24986880",
+      "41699082",
+      "20137950",
+      "29528393",
+      "17283181",
+      "23723415",
+      "23097494",
+      "33173051",
+      "36602684",
+      "34014309",
+      "16473624",
+      "36602686",
+      "11896193",
+      "35979738",
+      "18579581",
+      "25069614",
+      "31655624",
+      "38264934",
+      "10399916",
+      "31562232",
+      "29185983",
+      "24916158",
+      "28320824",
+      "30237223",
+      "22887640",
+      "29401420",
+      "36524956",
+      "28248450",
+      "32341547",
+      "17548833",
+      "41294850",
+      "31591892",
+      "23142046",
+      "33667600",
+      "25869666",
+      "24614806",
+      "23664119",
+      "30809891",
+      "37985763",
+      "21931160",
+      "32183910",
+      "35679404",
+      "17325206",
+      "34253430",
+      "28406398",
+      "39932518",
+      "38916205",
+      "30143531",
+      "19754453",
+      "39718769",
+      "25035494",
+      "23664120",
+      "39487986",
+      "35703493"
+    ],
+    "review": [
+      "37892127",
+      "30877148",
+      "26773477",
+      "28248450",
+      "41294850",
+      "33667600",
+      "34253430"
+    ],
+    "pmc": [
+      "10604712"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13101445",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37892127/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37892127",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-996",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

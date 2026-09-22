@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35898309",
+  "title": "CARs-DB: A Database of Cryptic Amyloidogenic Regions in Intrinsically Disordered Proteins.",
+  "authors": "Pintado-Grima, Carlos; Barcenas, Oriol; Manglano-Artunedo, Zoe; Vilaca, Rita; Macedo-Ribeiro, Sandra; Pallares, Irantzu; Santos, Jaime; Ventura, Salvador",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-07-29",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建了无序蛋白中隐秘淀粉样区域(CARs)的数据库，预测并验证了IDR内与蛋白互作相关的淀粉样区域，虽涉及IDP和PPI但方法以预测工具和实验验证为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "Proteome-wide analyses suggest that most globular proteins contain at least one amyloidogenic region, whereas these aggregation-prone segments are thought to be underrepresented in intrinsically disordered proteins (IDPs). In recent work, we reported that intrinsically disordered regions (IDRs) indeed sustain a significant amyloid load in the form of cryptic amyloidogenic regions (CARs). CARs are widespread in IDRs, but they are necessarily exposed to solvent, and thus they should be more polar and have a milder aggregation potential than conventional amyloid regions protected inside globular proteins. CARs are connected with IDPs function and, in particular, with the establishment of protein-protein interactions through their IDRs. However, their presence also appears associated with pathologies like cancer or Alzheimer's disease. Given the relevance of CARs for both IDPs function and malfunction, we developed CARs-DB, a database containing precomputed predictions for all CARs present in the IDPs deposited in the DisProt database. This web tool allows for the fast and comprehensive exploration of previously unnoticed amyloidogenic regions embedded within IDRs sequences and might turn helpful in identifying disordered interacting regions. It contains >8,900 unique CARs identified in a total of 1711 IDRs. CARs-DB is freely available for users and can be accessed at http://carsdb.ppmclab.com. To validate CARs-DB, we demonstrate that two previously undescribed CARs selected from the database display full amyloidogenic potential. Overall, CARs-DB allows easy access to a previously unexplored amyloid sequence space.",
+  "abstract_zh": "全蛋白质组范围的分析表明，大多数球状蛋白至少含有一个淀粉样生成区域，而这些易聚集片段被认为在固有无序蛋白（IDPs）中代表性不足。在近期工作中，我们报道了固有无序区域（IDRs）确实以隐蔽淀粉样生成区域（CARs）的形式承载了显著的淀粉样负荷。CARs在IDRs中广泛存在，但它们必然暴露于溶剂中，因此应比球状蛋白内部保护的常规淀粉样区域更具极性，且聚集潜力较弱。CARs与IDPs功能相关，特别是通过其IDRs建立蛋白质-蛋白质相互作用。然而，它们的存在也与癌症或阿尔茨海默病等病理相关。鉴于CARs对IDPs功能及功能障碍的重要性，我们开发了CARs-DB，这是一个包含DisProt数据库中所有IDPs中CARs预计算预测的数据库。该网络工具允许快速全面地探索IDRs序列中先前未注意到的淀粉样生成区域，并可能有助于识别无序相互作用区域。它包含在总共1711个IDRs中鉴定的>8,900个独特CARs。CARs-DB对用户免费开放，可通过http://carsdb.ppmclab.com访问。为验证CARs-DB，我们证明了从数据库中选择的两个先前未描述的CARs显示出完全的淀粉样生成潜力。总体而言，CARs-DB允许轻松访问先前未探索的淀粉样序列空间。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35898309/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35898309/",
+  "paper_page_path": "papers/pubmed/35898309/index.html"
+}

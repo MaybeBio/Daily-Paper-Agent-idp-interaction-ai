@@ -1,0 +1,120 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.30.702805",
+  "title": "Simulating Thermoresponsive Behavior of Disordered Proteins with Temperature-Dependent Coarse-Grained Potentials Derived from Hydration Free Energies",
+  "doi": "10.64898/2026.01.30.702805",
+  "abstract": "Thermoresponsive phase transitions of intrinsically disordered proteins (IDPs), including both upper critical solution temperature (UCST) and lower critical solution temperature (LCST) transitions, are widely observed in natural and synthetic sequences. However, most existing coarse-grained (CG) models employ temperature-independent interactions and fail to capture solvation-driven LCST behavior. To address this, we introduce TEA ( T emperature-dependent E nergetics derived from hydr A tion free energies), a physics-based framework that augments CG models with temperature-dependent interactions derived from hydration thermodynamics. Leveraging extensive all-atom molecular dynamics simulations, we demonstrate that inter-residue interaction strengths quantified by excess free energies correlate linearly with hydration free energies. This correlation, combined with a validated combination rule for heterotypic interactions, allows the derivation of temperature-dependent potentials across continuous temperature space. We map these atomistic energetics to CG potentials via a single global scaling parameter, ensuring minimal overfitting and high transferability. The TEA-augmented CG models robustly distinguish UCST- and LCST-type sequences, successfully identify experimentally reported outliers, and accurately reproduce LCST-type single-chain compaction trends and phase diagrams of multiple disordered proteins. Collectively, our work provides a transferable and physically interpretable framework that bridges atomistic hydration thermodynamics and phase behavior of IDPs, enabling the simulation of thermoresponsive sequences with minimal phenomenological fitting.",
+  "authors": [
+    "Chen F",
+    "Zeng X"
+  ],
+  "published_date": "2026-02-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.30.702805",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.30.702805.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1226759",
+    "raw_record": {
+      "id": "PPR1226759",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.30.702805",
+      "title": "Simulating Thermoresponsive Behavior of Disordered Proteins with Temperature-Dependent Coarse-Grained Potentials Derived from Hydration Free Energies",
+      "authorString": "Chen F, Zeng X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen F",
+            "lastName": "Chen",
+            "firstName": "Fangke",
+            "initials": "F"
+          },
+          {
+            "fullName": "Zeng X",
+            "lastName": "Zeng",
+            "firstName": "Xiangze",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9848-3033"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9848-3033"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Thermoresponsive phase transitions of intrinsically disordered proteins (IDPs), including both upper critical solution temperature (UCST) and lower critical solution temperature (LCST) transitions, are widely observed in natural and synthetic sequences. However, most existing coarse-grained (CG) models employ temperature-independent interactions and fail to capture solvation-driven LCST behavior. To address this, we introduce  TEA (  T emperature-dependent  E nergetics derived from hydr  A tion free energies), a physics-based framework that augments CG models with temperature-dependent interactions derived from hydration thermodynamics. Leveraging extensive all-atom molecular dynamics simulations, we demonstrate that inter-residue interaction strengths quantified by excess free energies correlate linearly with hydration free energies. This correlation, combined with a validated combination rule for heterotypic interactions, allows the derivation of temperature-dependent potentials across continuous temperature space. We map these atomistic energetics to CG potentials via a single global scaling parameter, ensuring minimal overfitting and high transferability. The TEA-augmented CG models robustly distinguish UCST- and LCST-type sequences, successfully identify experimentally reported outliers, and accurately reproduce LCST-type single-chain compaction trends and phase diagrams of multiple disordered proteins. Collectively, our work provides a transferable and physically interpretable framework that bridges atomistic hydration thermodynamics and phase behavior of IDPs, enabling the simulation of thermoresponsive sequences with minimal phenomenological fitting.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.30.702805"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42657059",
+            "reference": "JACS Au. \n    2026 Aug;6(8):4478-4491",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-02",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

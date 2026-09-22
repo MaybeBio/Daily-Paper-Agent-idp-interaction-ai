@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42507016",
+  "title": "Clustering of the T-cell receptor complex may facilitate T-cell activation by stretching of CD3zeta cytoplasmic tails.",
+  "authors": "Siegl, Steven; Furthauer, Sebastian; Schutz, Gerhard J",
+  "journal": "European biophysics journal : EBJ",
+  "published_date": "2026-07-27",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模拟研究TCR聚集诱导CD3zeta胞内无序尾拉伸并促进磷酸化的机制，虽对象非典型IDP-PPI，但聚焦IDR构象变化与互作激活的物理建模，对无序蛋白介导互作机制有方法学启发。",
+  "abstract": "Motivated by experimental observations that T-cells can activate as a consequence of clustering of T-cell receptors, we hypothesize that steric confinement between the intracellular chains of the TCR could play a role. Using coarse-grained simulations, we show that steric interactions between TCRs are sufficient to induce appreciable stretch of the intracellular domains of CD3zeta chains. We propose a model, in which the difference in membrane distances between the phosphatase CD45 and the kinases lck and fyn is able to sense the clustering-induced CD3zeta stretch: we estimate a 1.5- to 2-fold increase in phosphorylation of immunoreceptor tyrosine-based activation motifs (ITAMs) at CD3zeta upon TCR clustering.",
+  "abstract_zh": "受实验观察启发，T细胞可因T细胞受体的聚集而激活，我们假设TCR胞内链之间的空间限制可能发挥作用。通过粗粒化模拟，我们表明TCR之间的空间相互作用足以诱导CD3zeta链胞内结构域的显著拉伸。我们提出一个模型，其中磷酸酶CD45与激酶lck和fyn之间的膜距离差异能够感知聚集诱导的CD3zeta拉伸：我们估计，在TCR聚集时，CD3zeta上免疫受体酪氨酸激活基序（ITAMs）的磷酸化增加1.5至2倍。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42507016/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42507016/",
+  "paper_page_path": "papers/pubmed/42507016/index.html"
+}

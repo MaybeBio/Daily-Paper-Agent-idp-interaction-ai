@@ -1,0 +1,276 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.16.705223",
+  "title": "Aging associated RNA loss impairs the dynamics of RNA and protein condensates",
+  "doi": "10.64898/2026.02.16.705223",
+  "abstract": "<h4>Summary</h4> Altered biomolecular condensate dynamics are increasingly implicated in age-associated neurodegenerative disorders, yet the molecular principles governing these changes remain incompletely understood. Here, we demonstrate that aged cells across diverse cellular and organismal models harbor pre-formed, viscous, and persistent stress granules (SGs), which we term alt-SGs. These persistent condensates confer protection to senescent cells under fluctuating stress conditions. Comparative analyses reveal that alt-SGs exhibit elevated RNA-binding protein (RBP)-to-RNA ratios, underscoring a shift in condensate stoichiometry. By quantifying SG composition and dynamics in live cells and in vitro, we establish that RNA concentration is a key determinant of condensate material properties, molecular composition, and dissolution capacity. Importantly, aging cells display diminished absolute RNA concentrations due to reduced RNA metabolic activity. Reactivation of RNA metabolism restores RNA/RBP ratios within SGs and alleviates aging-associated phenotypes. Together, our findings highlight RNA metabolism as a central regulator of condensate stoichiometry and function, linking metabolic decline to altered phase behavior and cellular aging. <h4>Key findings</h4> Aging and senescence have Alt-SGs with increased protein/RNA Ratio Alt-SGs are persistent after stress removal in aging Aging is associated with reduced total cellular RNA Reactivating RNA metabolism rescues SG phenotypes Alt-SGs are protective for senescent cell",
+  "authors": [
+    "Rajappa A",
+    "Patel T",
+    "Raju SS",
+    "Baliga N",
+    "Parihar R",
+    "Chodankar A",
+    "Singh A",
+    "Dastidar PG",
+    "Iyer KV",
+    "Ganesh S",
+    "Maharana S"
+  ],
+  "published_date": "2026-02-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.16.705223",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.16.705223.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223465",
+    "raw_record": {
+      "id": "PPR1223465",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223465"
+        ]
+      },
+      "doi": "10.64898/2026.02.16.705223",
+      "title": "Aging associated RNA loss impairs the dynamics of RNA and protein condensates",
+      "authorString": "Rajappa A, Patel T, Raju SS, Baliga N, Parihar R, Chodankar A, Singh A, Dastidar PG, Iyer KV, Ganesh S, Maharana S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rajappa A",
+            "lastName": "Rajappa",
+            "firstName": "Anuva",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patel T",
+            "lastName": "Patel",
+            "firstName": "Twinkal",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raju SS",
+            "lastName": "Raju",
+            "firstName": "Sumeru Sugata",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baliga N",
+            "lastName": "Baliga",
+            "firstName": "Nischitha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parihar R",
+            "lastName": "Parihar",
+            "firstName": "Rashmi",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Central Experimental Animal Facility, , - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chodankar A",
+            "lastName": "Chodankar",
+            "firstName": "Ankita",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2842-7394"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, , - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh A",
+            "lastName": "Singh",
+            "firstName": "Akanksha",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dastidar PG",
+            "lastName": "Dastidar",
+            "firstName": "Prarthana Ghosh",
+            "initials": "PG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iyer KV",
+            "lastName": "Iyer",
+            "firstName": "Venkatesan",
+            "initials": "KV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ganesh S",
+            "lastName": "Ganesh",
+            "firstName": "Subramaniam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Central Experimental Animal Facility, , - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maharana S",
+            "lastName": "Maharana",
+            "firstName": "Shovamayee",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Cell Biology, Division of Biological Sciences, Indian Institute of Science, Bangalore - 560012, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2842-7394"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Summary</h4>  Altered biomolecular condensate dynamics are increasingly implicated in age-associated neurodegenerative disorders, yet the molecular principles governing these changes remain incompletely understood. Here, we demonstrate that aged cells across diverse cellular and organismal models harbor pre-formed, viscous, and persistent stress granules (SGs), which we term alt-SGs. These persistent condensates confer protection to senescent cells under fluctuating stress conditions. Comparative analyses reveal that alt-SGs exhibit elevated RNA-binding protein (RBP)-to-RNA ratios, underscoring a shift in condensate stoichiometry. By quantifying SG composition and dynamics in live cells and in vitro, we establish that RNA concentration is a key determinant of condensate material properties, molecular composition, and dissolution capacity. Importantly, aging cells display diminished absolute RNA concentrations due to reduced RNA metabolic activity. Reactivation of RNA metabolism restores RNA/RBP ratios within SGs and alleviates aging-associated phenotypes. Together, our findings highlight RNA metabolism as a central regulator of condensate stoichiometry and function, linking metabolic decline to altered phase behavior and cellular aging. <h4>Key findings</h4>  Aging and senescence have Alt-SGs with increased protein/RNA Ratio Alt-SGs are persistent after stress removal in aging Aging is associated with reduced total cellular RNA Reactivating RNA metabolism rescues SG phenotypes Alt-SGs are protective for senescent cell",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.16.705223"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223465"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223465&type=FILE&fileName=EMS215582-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215582",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "igsr",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-17",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

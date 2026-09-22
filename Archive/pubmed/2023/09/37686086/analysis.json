@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37686086",
+  "title": "Structural Space of the Duffy Antigen/Receptor for Chemokines' Intrinsically Disordered Ectodomain 1 Explored by Temperature Replica-Exchange Molecular Dynamics Simulations.",
+  "authors": "Kranjc, Agata; Narwani, Tarun Jairaj; Abby, Sophie S; de Brevern, Alexandre G",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-09-09",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用温度副本交换分子动力学模拟探索宿主DARC无序胞外域ECD1的构象空间，为后续无序蛋白介导的疟疾配体互作机制建模提供结构基础。",
+  "abstract": "Plasmodium vivax malaria affects 14 million people each year. Its invasion requires interactions between the parasitic Duffy-binding protein (PvDBP) and the N-terminal extracellular domain (ECD1) of the host's Duffy antigen/receptor for chemokines (DARC). ECD1 is highly flexible and intrinsically disordered, therefore it can adopt different conformations. We computationally modeled the challenging ECD1 local structure. With T-REMD simulations, we sampled its dynamic behavior and collected its most representative conformations. Our results suggest that most of the DARC ECD1 domain remains in a disordered state during the simulated time. Globular local conformations are found in the analyzed local free-energy minima. These globular conformations share an alpha-helix spanning residues Ser18 to Ser29 and in many cases they comprise an antiparallel beta-sheet, whose beta-strands are formed around residues Leu10 and Ala49. The formation of a parallel beta-sheet is almost negligible. So far, progress in understanding the mechanisms forming the basis of the P. vivax malaria infection of reticulocytes has been hampered by experimental difficulties, along with a lack of DARC structural information. Our collection of the most probable ECD1 structural conformations will help to advance modeling of the DARC structure and to explore DARC-ECD1 interactions with a range of physiological and pathological ligands.",
+  "abstract_zh": "间日疟原虫疟疾每年影响1400万人。其入侵需要寄生虫的Duffy结合蛋白（PvDBP）与宿主Duffy抗原/趋化因子受体（DARC）的N端胞外结构域（ECD1）之间的相互作用。ECD1高度灵活且本质无序，因此能采用不同构象。我们通过计算建模了具有挑战性的ECD1局部结构。利用T-REMD模拟，我们采样了其动态行为并收集了其最具代表性的构象。我们的结果表明，在模拟时间内，DARC ECD1结构域的大部分保持无序状态。在所分析的局部自由能最小值中发现了球状局部构象。这些球状构象共享一个跨越Ser18至Ser29残基的α-螺旋，并且在许多情况下包含一个反平行β-折叠，其β-链在Leu10和Ala49残基周围形成。平行β-折叠的形成几乎可忽略不计。迄今为止，由于实验困难以及缺乏DARC结构信息，理解P. vivax疟疾感染网织红细胞的机制进展受阻。我们收集的最可能的ECD1结构构象将有助于推进DARC结构的建模，并探索DARC-ECD1与一系列生理和病理配体的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37686086/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37686086/",
+  "paper_page_path": "papers/pubmed/37686086/index.html"
+}

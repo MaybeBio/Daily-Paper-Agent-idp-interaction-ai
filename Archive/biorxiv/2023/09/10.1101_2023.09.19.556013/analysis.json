@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.19.556013",
+  "title": "Exploring Degradation of Intrinsically Disordered Protein YAP induced by PROTACs",
+  "authors": "Chen Zhou; Chunbao Sun; Liya Pi; Chenglong Li",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-22",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究利用PROTAC技术降解无序蛋白YAP，虽以IDP为对象但聚焦降解策略而非PPI机制建模，且无AI/物理模拟方法，与课题核心关联较弱。",
+  "abstract": "Yes-associated protein (YAP), a potent oncogene and a key player in the Hippo tumor suppression pathway, has long been considered challenging to target due to its partially intrinsically disordered nature. However, recent advances in High-throughput Screening (HTS) have led to the discovery of a few YAP binders. Building upon this progress, a novel approach utilizing Proteolysis-Targeting Chimera (PROTAC) technology was employed to design and synthesize a series of YAP degraders. Here, our degraders were created by linking NSC682769, a previously reported YAP binder, with either VHL ligand 2 or pomalidomide using various linkers of different lengths and types. The most promising degrader YZ-6 recruits the E3 ligase VHL, inducing rapid and sustained YAP degradation leading to suppression of YAP/TEAD-led transcription in both YAP-dependent NCI-H226 and Huh7 cancer cell lines. In addition to its degradation capabilities, YZ-6 also exhibited potent antiproliferative activity in both cell lines. Importantly, YZ-6 efficiently suppresses tumor development in the Huh7 xenograft mouse model without adverse effects on the mice. These findings highlight the potential of PROTAC-mediated degradation as a viable strategy for reducing oncogenic YAP levels and attenuating downstream signaling in cancer cells. Moreover, the development of PROTACs based on NSC672869 holds promise for treating YAP-driven malignancies.",
+  "abstract_zh": "Yes-associated protein (YAP) 作为一种强效致癌基因，同时也是Hippo肿瘤抑制通路中的关键因子，因其部分内在无序的特性，长期以来一直被视为难以靶向的靶点。然而，高通量筛选 (High-throughput Screening, HTS) 的最新进展已促成若干YAP结合剂的发现。在此基础上，采用了一种利用蛋白降解靶向嵌合体 (Proteolysis-Targeting Chimera, PROTAC) 技术的新方法，设计并合成了一系列YAP降解剂。在本研究中，我们的降解剂通过将先前报道的YAP结合剂NSC682769与VHL配体2或泊马度胺 (pomalidomide) 连接，并使用不同长度和类型的多种连接子 (linker) 构建而成。最具前景的降解剂YZ-6能够招募E3连接酶VHL，诱导YAP快速且持续的降解，从而在YAP依赖的NCI-H226和Huh7癌细胞系中抑制YAP/TEAD介导的转录。除降解能力外，YZ-6在两种细胞系中还表现出强效的抗增殖活性。重要的是，YZ-6在Huh7异种移植小鼠模型中有效抑制肿瘤发展，且对小鼠无不良影响。这些发现凸显了PROTAC介导的降解作为降低癌细胞中致癌性YAP水平并减弱下游信号传导的可行策略的潜力。此外，基于NSC672869开发的PROTACs为治疗YAP驱动的恶性肿瘤提供了前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.19.556013",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.19.556013",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.19.556013/index.html"
+}

@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text; no external literature or unpublished data consulted
+- **Shared manuscript claim summary** The authors report that SERBP1, an intrinsically disordered protein, binds parallel G-quadruplexes (G4s) with low micromolar affinity through a topology-driven mechanism involving its RGG box and C-terminal serine residues. They propose that phosphorylation of these serines acts as a regulatory switch, and demonstrate that SERBP1 regulates mTOR expression in glioblastoma cells via G4 elements in the mTOR 5' UTR, with SERBP1 depletion synergizing with mTOR inhibition to reduce cell growth.
+- **Visible evidence base** NMR spectroscopy (1H,15N-HSQC titrations, 1D 1H spectra), fluorescence polarization, electrophoretic mobility shift assays, isothermal titration calorimetry, circular dichroism, molecular dynamics simulations, HADDOCK docking, luciferase reporter assays, western blotting, cell proliferation assays with combination index analysis
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced extensively but not provided), raw NMR spectra, MD simulation trajectories and convergence metrics, full ITC fitting parameters, statistical details for cell-based assays, uncropped western blots, and validation of phosphomimetic constructs
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in understanding how intrinsically disordered proteins recognize G-quadruplex structures. The combination of biophysical, computational, and cell-based approaches is ambitious and the central claim of topology-driven recognition by an encircling mechanism is intriguing. However, the evidence as presented has several gaps that prevent full confidence in the conclusions. The NMR data are described qualitatively without quantitative analysis of binding sites or affinities. The MD and docking results are presented without convergence or validation metrics. The cell-based experiments lack key controls and statistical details. The link between the in vitro biophysical characterization and the cellular functional data is correlative rather than mechanistic. The manuscript would benefit from additional experiments or more rigorous quantitative analysis to support the proposed model.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex biology, RNA-binding proteins, intrinsically disordered proteins, translational regulation, and glioblastoma biology would find this work relevant. The proposed encircling mechanism for G4 recognition by a disordered domain is conceptually novel and could inform studies of other IDP-nucleic acid interactions. The connection to mTOR regulation and therapeutic sensitization has translational implications for cancer research.
+- **Major strengths** The study addresses a poorly understood area, namely how intrinsically disordered proteins achieve specific recognition of G4 structures. The use of multiple complementary techniques (NMR, ITC, FP, EMSA, MD, docking) is commendable. The identification of a potential phosphorylation-dependent regulatory switch is biologically interesting. The demonstration of functional relevance in glioblastoma cells connects molecular findings to disease context. The writing is generally clear and the figures are logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding affinity measurements
+  - **Claim pointer** The authors claim low micromolar affinity (Kd ~ 2 μM and 1 μM for Pu20m2 and rPu20m2, respectively) based on ITC measurements.
+  - **Evidence pointer** Results section "SERBP1 binds RNA G4s through C-terminus RGG box and successive residues", Figure 1C
+  - **Concern** The ITC experiments are described with only a single sentence and no details on the fitting model, stoichiometry, or replicate numbers. The enthalpy values reported (ΔH of −45 and −100 kJ·mol−1) are very different between DNA and RNA G4s, yet the Kd values are similar. This is unusual and could indicate different binding modes or artifacts. The manuscript does not report whether the ITC data were fit with a one-site or two-site model, whether stoichiometry was fixed or floating, or how many independent replicates were performed. Additionally, the FP-based Kd values (19 μM for full-length construct) differ from the ITC values by nearly an order of magnitude, and this discrepancy is not discussed.
+  - **Why it matters** The low micromolar affinity claim is central to the paper's thesis that SERBP1 is a bona fide G4-binding protein. If the affinity measurements are not robust, the entire quantitative framework of the study is compromised. The discrepancy between ITC and FP results needs to be reconciled or explained.
+  - **Resolution test** Provide full ITC fitting parameters, stoichiometry values, replicate numbers, and representative raw thermograms. Discuss the discrepancy between ITC and FP-derived Kd values. If the discrepancy reflects different solution conditions or construct lengths, this should be explicitly stated and rationalized.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the encircling mechanism
+  - **Claim pointer** The authors claim that MD and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while C-terminal serines stabilize the complex through hydrogen bonding.
+  - **Evidence pointer** Results section "SERBP1 G4-binding domain wraps around G-quadruplexes", Figure 3
+  - **Concern** The MD and docking results are presented without any validation metrics. No RMSD, RMSF, or convergence analysis is shown. The HADDOCK docking is described as using NMR CSP data as restraints, but the specific restraints used and how they were derived from the CSP data are not described. The claim that the ensemble "progressively favored more compact conformers" is based on radius of gyration analysis, but no statistical significance or replicate simulations are reported. The difference between the wild-type and 4SE mutant simulations is described qualitatively without quantitative comparison.
+  - **Why it matters** The encircling mechanism is the central structural claim of the paper. Without proper validation of the simulations, the mechanism remains speculative. The computational results are used to support the interpretation of the experimental data, so their reliability is critical.
+  - **Resolution test** Provide convergence metrics (RMSD vs. time, cluster populations), replicate simulations, and a quantitative comparison of wild-type vs. 4SE ensembles. Describe the specific NMR restraints used in docking and how they were derived. If possible, validate the model with additional experimental data such as paramagnetic relaxation enhancement or cross-linking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the phosphorylation regulatory switch claim
+  - **Claim pointer** The authors claim that phosphomimetic mutations of key C-terminal serines disrupt binding, identifying phosphorylation as a potential regulatory switch for SERBP1 activity.
+  - **Evidence pointer** Results section "Phosphorylation of key serine residues modulates SERBP1–G4 interactions", Figure 2D-E
+  - **Concern** The phosphomimetic mutations (S-to-E) are used as proxies for phosphorylation, which is standard practice, but the manuscript does not address whether the mutations might affect protein folding or stability beyond mimicking phosphorylation. The MD simulations show that the 4SE mutant remains extended, but this is presented without comparison to a phospho-dead mutant or a neutral control. The claim that phosphorylation is a "regulatory switch" implies biological relevance, but no experiments directly test phosphorylation of endogenous SERBP1 or its functional consequences in cells.
+  - **Why it matters** The phosphorylation switch is presented as a key finding with potential disease relevance. If the phosphomimetic effects are due to non-specific charge effects rather than specific disruption of the binding interface, the biological interpretation would be weakened. The connection between the in vitro phosphomimetic data and actual phosphorylation in cells is not established.
+  - **Resolution test** Include a phospho-dead mutant (S-to-A) as a control. Test whether the reduced binding of the 4SE mutant is due to loss of specific hydrogen bonds or general electrostatic repulsion. If possible, use phospho-specific antibodies or mass spectrometry to demonstrate that endogenous SERBP1 is phosphorylated at these sites and that phosphorylation status correlates with G4 binding in cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the mTOR regulation claim
+  - **Claim pointer** The authors claim that SERBP1 regulates mTOR expression through G4 elements in the mTOR 5' UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth.
+  - **Evidence pointer** Results section "SERBP1 regulates mTOR expression by recognizing G-quadruplexes in the 5'UTR", Figure 5
+  - **Concern** The luciferase reporter assays show that SERBP1 knockdown reduces activity of the wild-type mTOR 5' UTR reporter but not the ΔG4 reporter. However, the magnitude of the effect is not reported numerically, and no statistical analysis is described. The western blot data showing reduced mTOR protein levels upon SERBP1 knockdown are presented without quantification or loading controls described. The combination index analysis is described only briefly, and the method for calculating CI from cell confluence data is not standard. The claim of synergy requires more rigorous analysis, as confluence-based measurements can be confounded by differences in cell proliferation rates.
+  - **Why it matters** The mTOR regulation and synergy with mTOR inhibitors is the most translationally relevant claim. If the experimental support is weak, the clinical implications are overstated. The connection between the biophysical characterization and the cellular phenotype is correlative, and alternative explanations (e.g., indirect effects of SERBP1 knockdown on cell health) are not excluded.
+  - **Resolution test** Provide quantitative luciferase data with statistical analysis. Include quantification of western blots with appropriate loading controls. Use a validated synergy analysis method (e.g., Chou-Talalay) with appropriate controls. Consider rescue experiments with SERBP1 constructs that cannot bind G4s to establish causality.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the topology-driven recognition model
+  - **Claim pointer** The authors claim that SERBP1 recognizes G4 topology rather than nucleotide sequence, establishing it as a broad-specificity G4-binding protein.
+  - **Evidence pointer** Results section "SERBP1 binds RNA G4s through C-terminus RGG box and successive residues", Figure 4
+  - **Concern** The claim of broad specificity is based on binding to a limited set of G4 sequences (Pu20m2, rPu20m2, TPG4, rAGA6, and G4s from mTOR and HDAC3 5' UTRs). All of these are parallel G4s. The authors do not test binding to antiparallel or hybrid G4s, nor do they test non-G4 structured RNAs as negative controls beyond the earlier study. The claim of topology-driven recognition would be strengthened by testing a wider range of G4 topologies and by demonstrating that the binding is independent of loop sequences.
+  - **Why it matters** The broad-specificity claim distinguishes this work from sequence-specific G4 binders. If SERBP1 only binds a subset of parallel G4s, the model would need to be refined. The physiological relevance depends on the range of G4 targets SERBP1 can engage.
+  - **Resolution test** Test binding to antiparallel and hybrid G4s, as well as to G4s with different loop lengths and sequences. Include non-G4 structured RNA controls. If possible, perform an unbiased screen (e.g., SELEX or RNA-compete) to assess the full range of SERBP1 binding specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of construct nomenclature
+  - **Affected element** Materials and Methods, Protein expression and purification
+  - **Evidence pointer** "All mutant constructs were cloned from a plasmid containing the SERBP1189−400 sequence"
+  - **Issue** The manuscript refers to SERBP1189–400, SERBP1ΔRGG, SERBP1ΔC, SERBP1ΔRGG+ΔC, SERBP12SE, SERBP14SE, and SERBP1366–400, but the relationships between these constructs are not always clear. The domain boundaries of the RGG box and the C-terminal region are not explicitly defined in the text.
+  - **Required correction** Provide a schematic figure or table showing the domain structure of SERBP1 and the exact residues included or deleted in each construct. Define the RGG box boundaries explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** NMR data presentation
+  - **Affected element** Results, Figure 1B
+  - **Evidence pointer** "we observed CSPs in C-terminal residues T388, D389, A393, S394, A395, D397, and V398"
+  - **Issue** The CSP values are described qualitatively. The magnitude of the CSPs and the threshold used to define a significant perturbation are not stated. The severe broadening of RGG residues is mentioned but not quantified.
+  - **Required correction** Provide a bar chart or table of CSP values for all assigned residues, with the significance threshold indicated. Quantify the broadening or show representative spectra.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting in cell-based assays
+  - **Affected element** Results, Figure 5
+  - **Evidence pointer** "Both cell lines yielded CI <1, confirming that SERBP1 reduction and mTOR inhibition act synergistically"
+  - **Issue** The number of independent biological replicates, error bars, and statistical tests for the cell proliferation and luciferase assays are not described. The CI calculation from confluence data is not standard and needs justification.
+  - **Required correction** Report the number of replicates, error bars, and statistical tests used. Justify the CI calculation method or use a validated alternative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion
+  - **Evidence pointer** "we propose that the organization of this motif, including the defined length of the RGG box and its close proximity to the C-terminal serine residues has evolved to specifically recognize parallel-folded G4s"
+  - **Issue** The discussion does not adequately consider alternative explanations for the observed data, such as the possibility that SERBP1 binds G4s through a different mechanism or that the cellular effects are indirect.
+  - **Required correction** Add a paragraph discussing alternative models and how the current data distinguish between them, or acknowledge limitations in distinguishing between models.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data Availability
+  - **Evidence pointer** "NMRPipe processing scripts available upon reasonable request"
+  - **Issue** The data availability statement is limited. Raw NMR data, simulation input files, and analysis scripts are not deposited in public repositories, which limits reproducibility.
+  - **Required correction** Deposit raw NMR data in a public repository (e.g., BMRB for assignments, and raw FIDs in a suitable archive), simulation input and output files in a repository such as Zenodo, and analysis scripts on GitHub.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ITC/FP affinity discrepancy and missing fitting details), R1-M2 (MD/docking validation), R1-M3 (phosphomimetic controls), R1-M4 (cell-based assay rigor and causality)
+- **Assessment against Nature-style criteria** Originality: The proposed encircling mechanism for G4 recognition by a fully disordered domain is conceptually novel and distinguishes this work from prior studies of folded G4-binding domains. Scientific importance: The connection between SERBP1, G4 recognition, and mTOR regulation in glioblastoma has potential translational relevance, though the causal chain is not fully established. Interdisciplinary readership: The work bridges structural biology, biophysics, RNA biology, and cancer research, which would appeal to a broad audience if the claims are fully supported. Technical soundness: The multi-technique approach is appropriate, but the lack of quantitative rigor in several key experiments (ITC fitting, MD validation, cell-based statistics) undermines confidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with NMR and MD methodologies. The abstract effectively communicates the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the multi-disciplinary approach is appropriate, but the current evidence has gaps in quantitative rigor and causal linkage that prevent full endorsement. The authors should address the affinity measurement discrepancies, provide validation for the computational models, include appropriate controls for the phosphomimetic experiments, and strengthen the statistical analysis of the cell-based assays.
+
+## Risk / unsupported claims
+- The claim that SERBP1 recognizes G4 topology rather than sequence is not fully supported, as only parallel G4s were tested and no systematic variation of loop sequences was performed.
+- The claim that phosphorylation acts as a "regulatory switch" is inferred from phosphomimetic mutations but is not directly tested with phosphorylated protein or cellular phosphorylation state.
+- The claim that SERBP1 functions as a G4 adaptor protein recruiting helicases is speculative and not directly tested in this manuscript.
+- The claim of synergy between SERBP1 depletion and mTOR inhibition relies on a non-standard CI calculation from confluence data and requires validation with established methods.
+- The MD simulation results are presented without convergence or validation metrics, making the structural conclusions difficult to evaluate.
+- The statement that this is "the first detailed characterization of G4 recognition by a fully disordered domain" is a strong claim that would require a thorough literature search to substantiate.

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, and references to supplementary material.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and presentation quality. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use all-atom explicit-solvent enhanced-sampling MD simulations to characterize covalent adducts of the androgen receptor transactivation domain (Tau-5R2_R3) with small molecule drugs EPI-002 and EPI-7170 at cysteine 404. They report that these adducts remain disordered, that covalent attachment increases the population of collapsed helical molten-globule-like states relative to non-covalent binding, and that specific protein–ligand interaction networks stabilize these states. They validate the EPI-002 adduct ensemble against experimental NMR chemical shifts and deposit a reweighted ensemble in the PED.
+- **Visible evidence base** Full text with methods, figure callouts, table callouts, and references to supplementary figures, tables, and movies. No actual figures, tables, or supplementary files were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information (Figures S1–S31, Tables S1–S9, Movies S1–S2) are referenced but not provided. This limits verification of quantitative claims, clustering quality, convergence analyses, and parameterization details.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how covalent attachment of small molecules alters the conformational ensemble of an intrinsically disordered protein, specifically the androgen receptor transactivation domain. The study is a natural extension of the authors' prior work on non-covalent binding and uses state-of-the-art simulation methods. The central finding, that covalent adducts remain disordered but shift toward collapsed helical states, is plausible and potentially significant for drug discovery efforts targeting IDPs. However, the manuscript as presented has several issues that need to be addressed. The validation against NMR data is a strength, but the comparison is limited to one adduct and one set of chemical shifts. The t-SNE clustering approach is interesting but the choice of parameters and the interpretation of cluster-specific differences require more careful justification. The discussion of biological implications, while thoughtful, is largely speculative. Overall, the work is technically sound in its core simulation methodology, but the presentation and some analytical choices need refinement before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, drug discovery targeting IDPs, computational biophysics, and specifically those working on androgen receptor biology and castration-resistant prostate cancer therapeutics. The methodological template for simulating covalent adducts of IDPs will be of interest to computational chemists and biophysicists. The findings on ensemble modulation by covalent attachment have implications for understanding IDP drug mechanisms and for designing next-generation covalent inhibitors.
+- **Major strengths** 1) The study addresses a clinically relevant and biologically important question with a rigorous simulation approach. 2) The use of a state-of-the-art force field (a99SB-disp) and enhanced sampling (REST2) is appropriate for IDP systems. 3) The validation of the EPI-002 adduct ensemble against experimental NMR chemical shifts is a significant strength and lends credibility to the simulation results. 4) The comparison between covalent and non-covalent binding modes provides mechanistic insight. 5) The deposition of the reweighted ensemble in the PED is commendable for transparency and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Validation
+  - **Claim pointer** The authors claim "excellent agreement" between simulated and experimental NMR chemical shifts for the EPI-002 covalent adduct ensemble.
+  - **Evidence pointer** Table 1 (referenced but not provided), section "Experimental Validation of the Tau-5R2_R3-CYS404:EPI-002 Covalent Adduct Conformational Ensemble"
+  - **Concern** The validation is performed for only one of the two covalent adducts (EPI-002) and uses only backbone chemical shifts (Cα, N, HN, C′). The claim of "excellent agreement" is based on RMSE values that are stated to be "among the lowest values reported in extensive benchmarks," but the actual numbers are not visible. Moreover, the comparison is made against a construct (Tau-5, residues G330-C448) that is longer than the simulated fragment (L391-G446), and the authors argue that the omitted region has minimal chemical shift changes. This argument needs quantitative support. The validation is also limited to one set of experimental conditions; no assessment of whether the force field or the adduct parameterization introduces systematic biases is provided.
+  - **Why it matters** The validity of the entire simulation study rests on the accuracy of the force field and the adduct parameterization. If the agreement with experiment is not as robust as claimed, or if the comparison is confounded by the construct mismatch, the conclusions about ensemble modulation may be unreliable. The lack of visible data prevents the reader from assessing the strength of this validation.
+  - **Resolution test** Provide the actual RMSE values and a comparison with benchmark values. Show the chemical shift differences per residue to demonstrate that the agreement is uniform and not driven by a few well-folded regions. Quantitatively demonstrate that the omitted N-terminal region (G330-L391) does not contribute to the observed chemical shifts upon adduction, e.g., by showing that the experimental shifts in that region are unchanged between apo and adducted states. If possible, validate the EPI-7170 adduct ensemble against any available experimental data, or at least discuss the limitations of not having such data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Analysis methodology
+  - **Claim pointer** The authors use t-SNE clustering to identify conformational substates and claim that "substantial differences" exist in the populations of protein–ligand interactions between covalent adducts and non-covalent binding modes.
+  - **Evidence pointer** Section "Identifying Conformational Substates of Tau-5R2_R3 Ensembles", Figures 3–5, Tables 2–3, Figures S10–S31
+  - **Concern** The t-SNE clustering approach is sensitive to the choice of perplexity and the number of clusters. The authors state they evaluated a range of values and selected optimal parameters based on silhouette scores, but the actual values and the robustness of the resulting clusters are not shown. The silhouette scores are described as "typical values for applications of this method to highly heterogeneous conformational ensembles of IDPs," which is vague. The interpretation of cluster-specific differences in protein–ligand interactions relies on the assumption that the clusters are meaningful and reproducible. The down-sampling to 5000 frames per ensemble may also affect the resolution of rare but functionally important states.
+  - **Why it matters** The identification of distinct conformational substates and the comparison of their populations between different ligand conditions is a central part of the analysis. If the clustering is not robust, the conclusions about which states are stabilized by covalent attachment versus non-covalent binding may be artifacts of the clustering parameters. The biological interpretation of the results depends on the reliability of these clusters.
+  - **Resolution test** Show the silhouette scores for the chosen parameters and for a range of alternative parameters to demonstrate robustness. Provide a stability analysis of the clusters, e.g., by repeating the clustering with different random seeds or using an alternative clustering method. Show the distribution of cluster populations across independent simulations or replica trajectories to assess statistical significance. If possible, validate the clusters using an independent structural metric, such as contact maps or secondary structure propensities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** The authors suggest that their results "suggest strategies for developing more potent covalent inhibitors of intrinsically disordered proteins."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The discussion of drug design implications is largely speculative. While the observation that covalent attachment stabilizes collapsed helical states is interesting, the manuscript does not provide a clear, testable hypothesis for how this information could be used to design better inhibitors. The link between the simulated ensemble properties and the biological activity of the compounds (e.g., inhibition of AR transcriptional activity) is not established. The authors mention that covalent attachment is required for biological activity, but they do not demonstrate a correlation between the degree of helical stabilization and potency.
+  - **Why it matters** The stated significance of the work for drug discovery is a key part of its appeal. Without a more concrete connection between the simulation results and the design of improved inhibitors, the practical impact of the study is unclear. The discussion should either provide more specific design principles or temper the claims about therapeutic relevance.
+  - **Resolution test** Provide a more concrete discussion of how the identified interaction networks could be targeted by chemical modification. For example, if specific residues in the R2/R3 region are identified as key contact points, discuss how these could be exploited in ligand design. Alternatively, compare the simulated ensemble properties of EPI-002 and EPI-7170 with their known biological activities to establish a correlation. If such a correlation cannot be made, state this limitation explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms (e.g., "collapsed helical transactivation domain conformations," "networks of protein–ligand interactions") without sufficient context for a general reader. The significance of the finding that the adducts "remain disordered" is not immediately clear to someone outside the IDP field.
+  - **Required correction** Consider adding a sentence in the abstract that explains why the disordered nature of the adducts is important (e.g., implications for drug design or understanding IDP function). Define "collapsed helical" states in simpler terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Reproducibility
+  - **Affected element** Methods, "Parameterization of Covalent Cysteine Adducts"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the parameterization of the covalent adducts is brief. The authors state they used GAFF1 parameters and adjusted partial charges, but the specific procedure for deriving the partial charges and the validation of the adduct parameters (e.g., comparison with quantum mechanical calculations) is not described in detail.
+  - **Required correction** Provide more details on the charge derivation procedure, including the reference structures used and the level of theory for any QM calculations. If no QM validation was performed, state this and discuss the potential limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / Analysis methodology
+  - **Affected element** Methods, "Statistical Error Estimates"
+  - **Evidence pointer** Methods section
+  - **Issue** The blocking analysis is described, but the number of blocks used and the convergence criteria are not specified. The statement that "the relatively smooth temperature dependence of these conformational properties among temperature replicas and the size of the statistical deviations of the conformational properties of demultiplexed replicas suggest that the simulations are well-converged" is qualitative.
+  - **Required correction** Provide quantitative measures of convergence, such as the effective sample size or the autocorrelation time for key observables. Show the block size selection and the resulting error estimates for the main quantities reported in the paper.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the biological implications, particularly the speculation about condensate formation and nuclear translocation, is interesting but may be too speculative for a computational study. The connection between the simulated ensemble and these complex cellular processes is not well established.
+  - **Required correction** Clearly distinguish between conclusions supported by the simulation data and hypotheses that require further experimental testing. Consider moving some of the more speculative points to a "Future Directions" paragraph.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness / Reproducibility
+  - **Affected element** Methods, "Molecular Dynamics Simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The starting structures for the covalent adduct simulations were built by attaching the ligand to Cys404 of structures from previous simulations. The criteria for selecting the initial structures and the number of independent starting structures used are not described.
+  - **Required correction** Specify how many independent starting structures were used for each adduct simulation and how they were selected. If only one starting structure was used, discuss the potential for bias in the resulting ensemble.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement" with experimental NMR data is not fully verifiable without the actual RMSE values and per-residue comparisons.
+- The claim that covalent attachment "stabilizes collapsed helical transactivation domain conformations" is supported by the simulation data, but the statistical significance of the differences between covalent and non-covalent ensembles is not fully demonstrated without the supplementary figures.
+- The statement that the results "suggest strategies for developing more potent covalent inhibitors" is speculative and not directly supported by the data presented.
+- The comparison between covalent and non-covalent binding modes relies on previously published simulations, and the consistency of the simulation protocols between the two studies is not explicitly discussed.
+- The biological implications regarding condensate formation and nuclear translocation are hypotheses that are not tested in this study.

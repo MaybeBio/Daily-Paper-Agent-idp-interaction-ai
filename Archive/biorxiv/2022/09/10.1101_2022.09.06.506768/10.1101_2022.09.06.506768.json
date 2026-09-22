@@ -1,0 +1,332 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.06.506768",
+  "title": "MultiOMICs landscape of SARS-CoV-2-induced host responses in human lung epithelial cells",
+  "doi": "10.1101/2022.09.06.506768",
+  "abstract": "Despite the availability of vaccines and approved therapeutics, the COVID-19 pandemic continues to rise owing to the emergence of newer variants. Several multi-omics studies have made available extensive evidence on host-pathogen interactions and potential therapeutic targets. Nonetheless, an increased understanding of host signaling networks regulated by post-translational modifications and their ensuing effect on the biochemical and cellular dynamics is critical to expanding the current knowledge on the host response to SARS-CoV-2 infections. Here, employing unbiased global transcriptomics, proteomics, acetylomics, phosphoproteomics, and exometabolome analysis of a lung-derived human cell line, we show that SARS-CoV-2 Norway/Trondheim-S15 strain induces time-dependent alterations in the induction of type I IFN response, activation of DNA damage response, dysregulated Hippo signaling, among others. We provide evidence for the interplay of phosphorylation and acetylation dynamics on host proteins and its effect on the altered release of metabolites, especially organic acids and ketone bodies. Together, our findings serve as a resource of potential targets that can aid in designing novel host-directed therapeutic strategies.",
+  "authors": [
+    "Pinto SM",
+    "Subbannayya Y",
+    "Kim H",
+    "Hagen L",
+    "Górna MW",
+    "Nieminen AI",
+    "Bjørås M",
+    "Espevik T",
+    "Kainov D",
+    "Kandasamy RK"
+  ],
+  "published_date": "2022-09-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506768",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506768.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR541354",
+    "raw_record": {
+      "id": "PPR541354",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR541354"
+        ]
+      },
+      "doi": "10.1101/2022.09.06.506768",
+      "title": "MultiOMICs landscape of SARS-CoV-2-induced host responses in human lung epithelial cells",
+      "authorString": "Pinto SM, Subbannayya Y, Kim H, Hagen L, Górna MW, Nieminen AI, Bjørås M, Espevik T, Kainov D, Kandasamy RK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pinto SM",
+            "lastName": "Pinto",
+            "firstName": "Sneha",
+            "initials": "SM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8541-8761"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Molecular Inflammation Research (CEMIR), and Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology, 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Subbannayya Y",
+            "lastName": "Subbannayya",
+            "firstName": "Yashwanth",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3885-3514"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Molecular Inflammation Research (CEMIR), and Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology, 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim H",
+            "lastName": "Kim",
+            "firstName": "Hera",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Molecular Inflammation Research (CEMIR), and Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology, 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hagen L",
+            "lastName": "Hagen",
+            "firstName": "Lars",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7291-611X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway"
+                },
+                {
+                  "affiliation": "Proteomics and Modomics Experimental Core, PROMEC, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Górna MW",
+            "lastName": "Górna",
+            "firstName": "Maria",
+            "initials": "MW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1769-4542"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Group, Biological and Chemical Research Centre, Department of Chemistry, University of Warsaw, Warsaw, Poland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nieminen AI",
+            "lastName": "Nieminen",
+            "firstName": "Anni",
+            "initials": "AI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8999-6040"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland, University of Helsinki, 00014 Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bjørås M",
+            "lastName": "Bjørås",
+            "firstName": "Magnar",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Espevik T",
+            "lastName": "Espevik",
+            "firstName": "Terje",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Molecular Inflammation Research (CEMIR), and Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology, 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kainov D",
+            "lastName": "Kainov",
+            "firstName": "Denis",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7716-6955"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kandasamy RK",
+            "lastName": "Kandasamy",
+            "firstName": "Richard",
+            "initials": "RK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Molecular Inflammation Research (CEMIR), and Department of Clinical and Molecular Medicine (IKOM), Norwegian University of Science and Technology, 7491 Trondheim, Norway"
+                },
+                {
+                  "affiliation": "College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai 505055, UAE"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7716-6955"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8541-8761"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8759-1170"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8999-6040"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1769-4542"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3885-3514"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7291-611X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Despite the availability of vaccines and approved therapeutics, the COVID-19 pandemic continues to rise owing to the emergence of newer variants. Several multi-omics studies have made available extensive evidence on host-pathogen interactions and potential therapeutic targets. Nonetheless, an increased understanding of host signaling networks regulated by post-translational modifications and their ensuing effect on the biochemical and cellular dynamics is critical to expanding the current knowledge on the host response to SARS-CoV-2 infections. Here, employing unbiased global transcriptomics, proteomics, acetylomics, phosphoproteomics, and exometabolome analysis of a lung-derived human cell line, we show that SARS-CoV-2 Norway/Trondheim-S15 strain induces time-dependent alterations in the induction of type I IFN response, activation of DNA damage response, dysregulated Hippo signaling, among others. We provide evidence for the interplay of phosphorylation and acetylation dynamics on host proteins and its effect on the altered release of metabolites, especially organic acids and ketone bodies. Together, our findings serve as a resource of potential targets that can aid in designing novel host-directed therapeutic strategies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/07/2022.09.06.506768.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.06.506768"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR541354"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR541354&type=FILE&fileName=EMS154027-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36590899",
+            "reference": "iScience. 2023 Jan;26(1):105895",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS154027",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-09-09",
+      "firstPublicationDate": "2022-09-07",
+      "firstIndexDate": "2022-09-09",
+      "fullTextReceivedDate": "2022-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

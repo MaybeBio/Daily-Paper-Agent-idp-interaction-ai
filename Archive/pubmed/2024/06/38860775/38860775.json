@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38860775",
+    "doi": "10.1002/arch.22123",
+    "title": "Salivary gland transcriptomics of the cotton aphid Aphis gossypii and comparative analysis with other sap-sucking insects."
+  },
+  "content": {
+    "abstract": "Aphids are sap-sucking insects responsible for crop losses and a severe threat to crop production. Proteins in the aphid saliva are integral in establishing an interaction between aphids and plants and are responsible for host plant adaptation. The cotton aphid, Aphis gossypii (Hemiptera: Aphididae) is a major pest of Gossypium hirsutum. Despite extensive studies of the salivary proteins of various aphid species, the components of A. gossypii salivary glands are unknown. In this study, we identified 123,008 transcripts from the salivary gland of A. gossypii. Among those, 2933 proteins have signal peptides with no transmembrane domain known to be secreted from the cell upon feeding. The transcriptome includes proteins with more comprehensive functions such as digestion, detoxification, regulating host defenses, regulation of salivary glands, and a large set of uncharacterized proteins. Comparative analysis of salivary proteins of different aphids and other insects with A. gossypii revealed that 183 and 88 orthologous clusters were common in the Aphididae and non-Aphididae groups, respectively. The structure prediction for highly expressed salivary proteins indicated that most possess an intrinsically disordered region. These results provide valuable reference data for exploring novel functions of salivary proteins in A. gossypii with their host interactions. The identified proteins may help develop a sustainable way to manage aphid pests.",
+    "keywords": [
+      "Aphis gossypii",
+      "orthologous analysis",
+      "salivary gland",
+      "transcriptome"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Aphids/genetics/metabolism",
+      "*Salivary Glands/metabolism",
+      "*Transcriptome",
+      "*Insect Proteins/genetics/metabolism/chemistry",
+      "Salivary Proteins and Peptides/genetics/metabolism",
+      "Gossypium/genetics/metabolism",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pavithran, Shanmugasundram",
+        "Murugan, Marimuthu",
+        "Mannu, Jayakanthan",
+        "Sathyaseelan, Chakkarai",
+        "Balasubramani, Venkatasamy",
+        "Harish, Sankarasubramanian",
+        "Natesan, Senthil"
+      ],
+      "short_names": [
+        "Pavithran S",
+        "Murugan M",
+        "Mannu J",
+        "Sathyaseelan C",
+        "Balasubramani V",
+        "Harish S",
+        "Natesan S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9960-1281",
+        "ORCID: 0000-0002-7485-1153",
+        "ORCID: 0000-0001-7444-9343",
+        "ORCID: 0000-0002-5849-9655",
+        "ORCID: 0000-0001-6797-3016",
+        "ORCID: 0000-0001-5703-9887",
+        "ORCID: 0000-0002-2930-0715"
+      ],
+      "affiliations": [
+        "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Livestrong Cancer Institutes, Department of Oncology, Dell Medical School, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Department of Plant Pathology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India.",
+        "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pavithran, Shanmugasundram",
+        "short_name": "Pavithran S",
+        "identifiers": [
+          "0000-0002-9960-1281"
+        ],
+        "affiliations": [
+          "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      },
+      {
+        "full_name": "Murugan, Marimuthu",
+        "short_name": "Murugan M",
+        "identifiers": [
+          "0000-0002-7485-1153"
+        ],
+        "affiliations": [
+          "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      },
+      {
+        "full_name": "Mannu, Jayakanthan",
+        "short_name": "Mannu J",
+        "identifiers": [
+          "0000-0001-7444-9343"
+        ],
+        "affiliations": [
+          "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      },
+      {
+        "full_name": "Sathyaseelan, Chakkarai",
+        "short_name": "Sathyaseelan C",
+        "identifiers": [
+          "0000-0002-5849-9655"
+        ],
+        "affiliations": [
+          "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India.",
+          "Livestrong Cancer Institutes, Department of Oncology, Dell Medical School, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Balasubramani, Venkatasamy",
+        "short_name": "Balasubramani V",
+        "identifiers": [
+          "0000-0001-6797-3016"
+        ],
+        "affiliations": [
+          "Department of Agricultural Entomology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      },
+      {
+        "full_name": "Harish, Sankarasubramanian",
+        "short_name": "Harish S",
+        "identifiers": [
+          "0000-0001-5703-9887"
+        ],
+        "affiliations": [
+          "Department of Plant Pathology, Centre for Plant Protection Studies, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      },
+      {
+        "full_name": "Natesan, Senthil",
+        "short_name": "Natesan S",
+        "identifiers": [
+          "0000-0002-2930-0715"
+        ],
+        "affiliations": [
+          "Department of Plant Molecular Biology and Bioinformatics, Centre for Plant Molecular Biology and Biotechnology, Tamil Nadu Agricultural University, Coimbatore, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of insect biochemistry and physiology"
+    ],
+    "journal_abbrev": [
+      "Arch Insect Biochem Physiol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/11 12:43",
+    "fetched_at": "2026-09-21 07:48:27"
+  },
+  "links": {
+    "cites": [
+      "42193127",
+      "40435060"
+    ],
+    "refs": [],
+    "similar": [
+      "38860775",
+      "23577705",
+      "38123026",
+      "28334183",
+      "21791143",
+      "30785236",
+      "37417370",
+      "31612814",
+      "23292942",
+      "24073197",
+      "24376660",
+      "29577599",
+      "26735973",
+      "26432291",
+      "37171119",
+      "39258562",
+      "33035482",
+      "29788052",
+      "29859837",
+      "28334129",
+      "28456307",
+      "30590189",
+      "24644424",
+      "23850072",
+      "21671083",
+      "37628948",
+      "18621720",
+      "28181503",
+      "26241862",
+      "37907175",
+      "18257956",
+      "28911734",
+      "27005728",
+      "37420143",
+      "29162876",
+      "25722084",
+      "23460852",
+      "37938392",
+      "23194342",
+      "37754728",
+      "21320362",
+      "22782536",
+      "17805479",
+      "31540983",
+      "38525153",
+      "24175433",
+      "37410545",
+      "25140535",
+      "24355481",
+      "28547891",
+      "18801270",
+      "38731798",
+      "18060302",
+      "33399198",
+      "24382153",
+      "18348819",
+      "35799109",
+      "33138242",
+      "35720408",
+      "38072549",
+      "25413997",
+      "22127176",
+      "24971460",
+      "35318374",
+      "22586979",
+      "26615144",
+      "35249654",
+      "22696952",
+      "26829252",
+      "37951101",
+      "31743338",
+      "33664278",
+      "31840750",
+      "36474079",
+      "31378359",
+      "27142481",
+      "25561853",
+      "36354856",
+      "26119751",
+      "36714746",
+      "25678626",
+      "33084142",
+      "23173035",
+      "31400791",
+      "36116013",
+      "39336715",
+      "22045565",
+      "36327354",
+      "29425290",
+      "28076279",
+      "30183736",
+      "22182624",
+      "19635073",
+      "21584409",
+      "38072520",
+      "23956125",
+      "34601821",
+      "26470321",
+      "29424390",
+      "29715487",
+      "36265537",
+      "11233124",
+      "36822295",
+      "38558482",
+      "38830424",
+      "33488643",
+      "39328178",
+      "35468742",
+      "39074169",
+      "39057262",
+      "32005880",
+      "39271144",
+      "39336658",
+      "39336650",
+      "38921101",
+      "39329422",
+      "39038196",
+      "37456079",
+      "39359692",
+      "38899541",
+      "39350312"
+    ],
+    "review": [
+      "38860775",
+      "23850072"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/arch.22123",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

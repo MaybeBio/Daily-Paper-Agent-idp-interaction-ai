@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "38366971",
+    "doi": "10.1021/acs.biomac.3c01032",
+    "title": "Molecular Dynamics Simulations of Polyelectrolyte Complexes."
+  },
+  "content": {
+    "abstract": "Polyelectrolyte complexes (PECs) are currently of great interest due to their applications toward developing new adaptive materials and their relevance in membraneless organelles. These complexes emerge during phase separation when oppositely charged polymers are mixed in aqueous media. Peptide-based PECs are particularly useful toward developing new drug delivery methods due to their inherent biocompatibility. The underlying peptide sequence can be tuned to optimize specific material properties of the complex, such as interfacial tension and viscosity. Given their applicability, it would be advantageous to understand the underlying sequence-dependent phase behavior of oppositely charged peptides. Here, we report microsecond molecular dynamic simulations to characterize the effect of hydrophobicity on the sequence-dependent peptide conformation for model polypeptide sequences that were previously reported by Tabandeh et al. These sequences are designed with alternating chirality of the peptide backbone. We present microsecond simulations of six oppositely charged peptide pairs, characterizing the sequence-dependent effect on peptide size, degree of hydrogen bonding, secondary structure, and conformation. This analysis recapitulates sensible trends in peptide conformation and degree of hydrogen bonding, consistent with experimentally reported results. Ramachandran plots reveal that backbone conformation at the single amino acid level is highly influenced by the neighboring sequence in the chain. These results give insight into how subtle changes in hydrophobic side chain size and chirality influence the strength of hydrogen bonding between the chains and, ultimately, the secondary structure. Furthermore, principal component analysis reveals that the minimum energy structures may be subtly modulated by the underlying sequence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Polyelectrolytes/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Peptides/chemistry",
+      "Amino Acid Sequence",
+      "Protein Structure, Secondary",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rajpersaud, Tania",
+        "Tabandeh, Sara",
+        "Leon, Lorraine",
+        "Loverde, Sharon M"
+      ],
+      "short_names": [
+        "Rajpersaud T",
+        "Tabandeh S",
+        "Leon L",
+        "Loverde SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8957-9148",
+        "ORCID: 0000-0002-7643-6498"
+      ],
+      "affiliations": [
+        "Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, New York 10016, United States.",
+        "Department of Materials Science and Engineering, University of Central Florida, 4000 Central Florida Boulevard, Orlando, FL 32816, United States.",
+        "Department of Materials Science and Engineering, University of Central Florida, 4000 Central Florida Boulevard, Orlando, FL 32816, United States.",
+        "Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, New York 10016, United States.",
+        "Department of Chemistry, College of Staten Island, The City University of New York, 2800 Victory Boulevard, Staten Island, NY 10314, United States.",
+        "Ph.D. Program in Chemistry, The Graduate Center of the City University of New York, New York, NY 10016, United States.",
+        "Ph.D. Program in Physics, The Graduate Center of the City University of New York, New York, NY 10016, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rajpersaud, Tania",
+        "short_name": "Rajpersaud T",
+        "identifiers": [],
+        "affiliations": [
+          "Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, New York 10016, United States."
+        ]
+      },
+      {
+        "full_name": "Tabandeh, Sara",
+        "short_name": "Tabandeh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Central Florida, 4000 Central Florida Boulevard, Orlando, FL 32816, United States."
+        ]
+      },
+      {
+        "full_name": "Leon, Lorraine",
+        "short_name": "Leon L",
+        "identifiers": [
+          "0000-0002-8957-9148"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Central Florida, 4000 Central Florida Boulevard, Orlando, FL 32816, United States."
+        ]
+      },
+      {
+        "full_name": "Loverde, Sharon M",
+        "short_name": "Loverde SM",
+        "identifiers": [
+          "0000-0002-7643-6498"
+        ],
+        "affiliations": [
+          "Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, New York 10016, United States.",
+          "Department of Chemistry, College of Staten Island, The City University of New York, 2800 Victory Boulevard, Staten Island, NY 10314, United States.",
+          "Ph.D. Program in Chemistry, The Graduate Center of the City University of New York, New York, NY 10016, United States.",
+          "Ph.D. Program in Physics, The Graduate Center of the City University of New York, New York, NY 10016, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2024 Mar 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/17 21:42",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "41553283",
+      "40886156",
+      "39339029"
+    ],
+    "refs": [],
+    "similar": [
+      "38366971",
+      "30823653",
+      "34202468",
+      "10686106",
+      "20377253",
+      "25586861",
+      "20166681",
+      "37261758",
+      "36574611",
+      "20571679",
+      "31418555",
+      "28623782",
+      "24156236",
+      "33174752",
+      "29164779",
+      "25296386",
+      "37819874",
+      "14581218",
+      "23922660",
+      "11427046",
+      "24897620",
+      "28905963",
+      "28876055",
+      "39052850",
+      "26339765",
+      "39292171",
+      "29031260",
+      "18582096",
+      "25954893",
+      "38495383",
+      "35912826",
+      "20687533",
+      "21253892",
+      "14984569",
+      "9449318",
+      "16247825",
+      "26757773",
+      "21956759",
+      "19206669",
+      "37486022",
+      "38252962",
+      "10903873",
+      "11076513",
+      "9300492",
+      "7613460",
+      "29376531",
+      "38530607",
+      "26889829",
+      "26013298",
+      "26026460",
+      "33750125",
+      "26865312",
+      "10512702",
+      "37875787",
+      "21534580",
+      "32182068",
+      "25664638",
+      "20959095",
+      "28168743",
+      "22524634",
+      "21999929",
+      "27276251",
+      "27418294",
+      "34877780",
+      "18630933",
+      "16831011",
+      "12712502",
+      "31432060",
+      "35816656",
+      "20232827",
+      "28851213",
+      "20938982",
+      "31990555",
+      "7921171",
+      "12517150",
+      "29210575",
+      "31835497",
+      "32735736",
+      "38652055",
+      "25823390",
+      "30542771",
+      "30790618",
+      "29557267",
+      "16415051",
+      "29565433",
+      "19297190",
+      "24498083",
+      "20441177",
+      "17388513",
+      "32299572",
+      "31889444",
+      "28665323",
+      "27803319",
+      "10966815",
+      "23912807",
+      "17092035",
+      "20423073",
+      "8811736",
+      "16679374",
+      "11123921"
+    ],
+    "review": [
+      "38366971",
+      "37819874",
+      "27418294"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.3c01032",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

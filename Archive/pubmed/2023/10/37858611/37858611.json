@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "37858611",
+    "doi": "10.1016/j.ymeth.2023.10.007",
+    "title": "MATT-DDI: Predicting multi-type drug-drug interactions via heterogeneous attention mechanisms."
+  },
+  "content": {
+    "abstract": "The joint use of multiple drugs can result in adverse drug-drug interactions (DDIs) and side effects that harm the body. Accurate identification of DDIs is crucial for avoiding accidental drug side effects and understanding potential mechanisms underlying DDIs. Several computational methods have been proposed for multi-type DDI prediction, but most rely on the similarity profiles of drugs as the drug feature vectors, which may result in information leakage and overoptimistic performance when predicting interactions between new drugs. To address this issue, we propose a novel method, MATT-DDI, for predicting multi-type DDIs based on the original feature vectors of drugs and multiple attention mechanisms. MATT-DDI consists of three main modules: the top k most similar drug pair selection module, heterogeneous attention mechanism module and multi‑type DDI prediction module. Firstly, based on the feature vector of the input drug pair (IDP), k drug pairs that are most similar to the input drug pair from the training dataset are selected according to cosine similarity between drug pairs. Then, the vectors of k selected drug pairs are averaged to obtain a new drug pair (NDP). Next, IDP and NDP are fed into heterogeneous attention modules, including scaled dot product attention and bilinear attention, to extract latent feature vectors. Finally, these latent feature vectors are taken as input of the classification module to predict DDI types. We evaluated MATT-DDI on three different tasks. The experimental results show that MATT-DDI provides better or comparable performance compared to several state-of-the-art methods, and its feasibility is supported by case studies. MATT-DDI is a robust model for predicting multi-type DDIs with excellent performance and no information leakage.",
+    "keywords": [
+      "Attention mechanism",
+      "Drug-drug interaction",
+      "Information leakage",
+      "Similarity feature"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Drug Interactions",
+      "*Drug-Related Side Effects and Adverse Reactions"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Shenggeng",
+        "Mao, Xueying",
+        "Hong, Liang",
+        "Lin, Shuangjun",
+        "Wei, Dong-Qing",
+        "Xiong, Yi"
+      ],
+      "short_names": [
+        "Lin S",
+        "Mao X",
+        "Hong L",
+        "Lin S",
+        "Wei DQ",
+        "Xiong Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China; School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang 473006, China; Peng Cheng National Laboratory, Shenzhen 518055, China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China. Electronic address: xiongyi@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Shenggeng",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xueying",
+        "short_name": "Mao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Liang",
+        "short_name": "Hong L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China; School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shuangjun",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dong-Qing",
+        "short_name": "Wei DQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang 473006, China; Peng Cheng National Laboratory, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yi",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China. Electronic address: xiongyi@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/20 06:42",
+    "fetched_at": "2026-09-21 02:10:03"
+  },
+  "links": {
+    "cites": [
+      "42137320",
+      "41697921",
+      "40567801",
+      "40143062",
+      "39733005"
+    ],
+    "refs": [],
+    "similar": [
+      "37858611",
+      "36380384",
+      "34671814",
+      "35566354",
+      "32972364",
+      "28595649",
+      "31870276",
+      "39383521",
+      "34418954",
+      "35667078",
+      "25143286",
+      "34965586",
+      "35689200",
+      "35255808",
+      "32310779",
+      "34864856",
+      "30453924",
+      "34185011",
+      "32082699",
+      "37594774",
+      "36423315",
+      "38905082",
+      "38990748",
+      "37603959",
+      "32497603",
+      "36918766",
+      "35368060",
+      "35172712",
+      "37820558",
+      "37291761",
+      "38626249",
+      "36573491",
+      "34893793",
+      "36114278",
+      "29373599",
+      "37930025",
+      "33951725",
+      "37783544",
+      "37941825",
+      "37195815",
+      "38893359",
+      "36449561",
+      "38831885",
+      "35622314",
+      "29671393",
+      "38770418",
+      "37701676",
+      "36037188",
+      "24616171",
+      "28249566",
+      "29017459",
+      "35758803",
+      "31328967",
+      "38276481",
+      "35511112",
+      "26750516",
+      "26196247",
+      "32183790",
+      "36642408",
+      "28465082",
+      "29738537",
+      "38154317",
+      "35227661",
+      "34695842",
+      "37458400",
+      "29559249",
+      "24644270",
+      "36592061",
+      "37903412",
+      "30565313",
+      "36750041",
+      "38880914",
+      "35246258",
+      "37018091",
+      "35974769",
+      "25796456",
+      "20635825",
+      "38754712",
+      "37764319",
+      "34987405",
+      "30963300",
+      "30087377",
+      "28056782",
+      "31541145",
+      "31125330",
+      "33571676",
+      "38434701",
+      "35849817",
+      "36701288",
+      "38857738",
+      "37390789",
+      "37742052",
+      "31996361",
+      "32407508",
+      "35470854",
+      "26459026",
+      "38710671",
+      "31874609",
+      "24278248",
+      "19064242",
+      "33544847",
+      "31815956",
+      "21143503",
+      "18484786",
+      "37022856",
+      "35514190",
+      "29077847",
+      "24875476",
+      "26669717",
+      "37225428",
+      "22647690",
+      "38262923",
+      "35224614",
+      "29666228",
+      "31144641",
+      "37896229",
+      "38548835",
+      "38305788",
+      "38804324",
+      "38635380",
+      "35586666",
+      "38743532",
+      "39049806",
+      "31838211",
+      "38543232",
+      "38454713",
+      "37860114",
+      "38132638",
+      "38405609",
+      "39226203",
+      "25122524",
+      "38758661",
+      "38868194",
+      "36748027",
+      "32477633",
+      "29371651",
+      "38545252",
+      "36070305",
+      "35153767",
+      "34956730",
+      "30874969",
+      "38262685",
+      "38866407"
+    ],
+    "review": [
+      "37858611",
+      "24616171",
+      "37458400",
+      "38132638",
+      "38405609",
+      "36748027"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(23)00171-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      }
+    ],
+    "text_mined": []
+  }
+}

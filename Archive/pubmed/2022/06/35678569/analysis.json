@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35678569",
+  "title": "A combined in silico and in vivo approach to the structure-function annotation of SPD-2 provides mechanistic insight into its functional diversity.",
+  "authors": "Murph, Mikaela; Singh, Shaneen; Schvarzstein, Mara",
+  "journal": "Cell cycle (Georgetown, Tex.)",
+  "published_date": "2022-06-10",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合计算预测与体内实验解析线虫SPD-2的结构-功能关系，预测其含无序区域及互作位点，但未深入建模无序蛋白介导的PPI机制，方法以序列/结构预测为主，缺乏AI或物理模拟的机制建模。",
+  "abstract": "Centrosomes are organelles that function as hubs of microtubule nucleation and organization, with key roles in organelle positioning, asymmetric cell division, ciliogenesis, and signaling. Aberrant centrosome number, structure or function is linked to neurodegenerative diseases, developmental abnormalities, ciliopathies, and tumor development. A major regulator of centrosome biogenesis and function in C. elegans is the conserved Spindle-defective protein 2 (SPD-2), a homolog of the human CEP-192 protein. CeSPD-2 is required for centrosome maturation, centriole duplication, spindle assembly and possibly cell polarity establishment. Despite its importance, the specific molecular mechanism of CeSPD-2 regulation and function is poorly understood. Here, we combined computational analysis with cell biology approaches to uncover possible structure-function relationships of CeSPD-2 that may shed mechanistic light on its function. Domain prediction analysis corroborated and refined previously identified coiled-coils and ASH (Aspm-SPD-2 Hydin) domains and identified new domains: a GEF domain, an Ig-like domain, and a PDZ-like domain. In addition to these predicted structural features, CeSPD-2 is also predicted to be intrinsically disordered. Surface electrostatic maps identified a large basic region unique to the ASH domain of CeSPD-2. This basic region overlaps with most of the residues predicted to be involved in protein-protein interactions. In vivo, ASH::GFP localized to centrosomes and centrosome-associated microtubules. Our analysis groups ASH domains, PapD, Usher chaperone domains, and Major Sperm Protein (MSP) domains into a single superfold within the larger Immunoglobulin superfamily. This study lays the groundwork for designing rational hypothesis-based experiments to uncover the mechanisms of CeSPD-2 function in vivo.Abbreviations: AIR, Aurora kinase; ASH, Aspm-SPD-2 Hydin; ASP, Abnormal Spindle Protein; ASPM, Abnormal Spindle-like Microcephaly-associated Protein; CC, coiled-coil; CDK, Cyclin-dependent Kinase; Ce, Caenorhabditis elegans; CEP, Centrosomal Protein; CPAP, centrosomal P4.1-associated protein; D, Drosophila; GAP, GTPase activating protein; GEF, GTPase guanine nucleotide exchange factor; Hs, Homo sapiens/Human; Ig, Immunoglobulin; MAP, Microtubule associated Protein; MSP, Major Sperm Protein; MDP, Major Sperm Domain-Containing Protein; OCRL-1, Golgi endocytic trafficking protein Inositol polyphosphate 5-phosphatase; PAR, abnormal embryonic PARtitioning of the cytosol; PCM, Pericentriolar material; PCMD, pericentriolar matrix deficient; PDZ, PSD95/Dlg-1/zo-1; PLK, Polo like kinase; RMSD, Root Mean Square Deviation; SAS, Spindle assembly abnormal proteins; SPD, Spindle-defective protein; TRAPP, TRAnsport Protein Particle; Xe, Xenopus; ZYG, zygote defective protein.",
+  "abstract_zh": "中心体是作为微管成核和组织枢纽的细胞器，在细胞器定位、不对称细胞分裂、纤毛发生和信号传导中发挥关键作用。中心体数量、结构或功能的异常与神经退行性疾病、发育异常、纤毛病和肿瘤发展相关。在秀丽隐杆线虫（C. elegans）中，中心体生物发生和功能的主要调控因子是保守的纺锤体缺陷蛋白2（SPD-2），它是人类CEP-192蛋白的同源物。CeSPD-2对于中心体成熟、中心粒复制、纺锤体组装以及可能的细胞极性建立是必需的。尽管其重要性，CeSPD-2调控和功能的具体分子机制仍知之甚少。在此，我们将计算分析与细胞生物学方法相结合，以揭示CeSPD-2可能的结构-功能关系，从而为其功能提供机制性见解。结构域预测分析证实并细化了先前鉴定的卷曲螺旋（coiled-coil）和ASH（Aspm-SPD-2 Hydin）结构域，并识别出新结构域：一个GEF结构域、一个免疫球蛋白样（Ig-like）结构域和一个PDZ样（PDZ-like）结构域。除了这些预测的结构特征外，CeSPD-2还被预测为本质无序蛋白。表面静电图谱识别出CeSPD-2的ASH结构域特有的一个大型碱性区域。该碱性区域与预测参与蛋白质-蛋白质相互作用的大部分残基重叠。在体内，ASH::GFP定位于中心体和中心体相关微管。我们的分析将ASH结构域、PapD、Usher伴侣结构域和主要精子蛋白（MSP）结构域归入免疫球蛋白超家族（Immunoglobulin superfamily）内的一个单一超折叠。本研究为设计基于合理假设的实验以揭示CeSPD-2在体内功能的机制奠定了基础。缩写：AIR，Aurora激酶；ASH，Aspm-SPD-2 Hydin；ASP，异常纺锤体蛋白；ASPM，异常纺锤体样小头畸形相关蛋白；CC，卷曲螺旋；CDK，细胞周期蛋白依赖性激酶；Ce，秀丽隐杆线虫；CEP，中心体蛋白；CPAP，中心体P4.1相关蛋白；D，果蝇；GAP，GTPase激活蛋白；GEF，GTPase鸟嘌呤核苷酸交换因子；Hs，智人/人类；Ig，免疫球蛋白；MAP，微管相关蛋白；MSP，主要精子蛋白；MDP，主要精子结构域含蛋白；OCRL-1，高尔基体内吞运输蛋白肌醇多磷酸5-磷酸酶；PAR，细胞质异常胚胎分配；PCM，中心粒周围物质；PCMD，中心粒周围基质缺陷；PDZ，PSD95/Dlg-1/zo-1；PLK，Polo样激酶；RMSD，均方根偏差；SAS，纺锤体组装异常蛋白；SPD，纺锤体缺陷蛋白；TRAPP，转运蛋白颗粒；Xe，爪蟾；ZYG，合子缺陷蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35678569/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35678569/",
+  "paper_page_path": "papers/pubmed/35678569/index.html"
+}

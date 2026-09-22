@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "39551143",
+    "doi": "10.1016/j.jbc.2024.108001",
+    "title": "The Hsc70 system maintains the synaptic SNARE protein SNAP-25 in an assembly-competent state and delays its aggregation."
+  },
+  "content": {
+    "abstract": "The complex mechanism of synaptic vesicle fusion with the plasma membrane for neurotransmitter release is initiated by the formation of the SNARE complex at the presynaptic terminal of the neuron. The SNARE complex is composed of four helices contributed by three proteins: one from syntaxin (localized at the plasma membrane), one from synaptobrevin (localized at the synaptic vesicle), and two from the intrinsically disordered and aggregation-prone synaptosomal-associated 25 kDa protein (SNAP-25), which is localized to the plasma membrane by virtue of palmitoylation of cysteine residues. The fusion process is tightly regulated and requires the constitutively expressed Hsp70 chaperone (Hsc70) and its J-protein co-chaperone CSPalpha. We hypothesize that Hsc70 and CSPalpha cooperate to chaperone SNAP-25, disfavoring its aggregation and keeping it in a folding state competent for SNARE complex formation. To test this hypothesis, we used a bottom-up approach and studied the interaction between Hsc70 and CSPalpha with SNAP-25 in vitro. We showed that the aggregation of SNAP-25 is delayed in the presence of Hsc70 and CSPalpha. Using a peptide array that spans the sequence of SNAP-25, we identified three potential Hsc70-interacting sequences and designed peptides containing these sequences to test binding in solution. We characterized the interaction of SNAP-25-derived peptides with Hsc70 and CSPalpha using a combination of biochemical and biophysical techniques, including native-PAGE, binding affinity by fluorescence anisotropy, ATPase-activity of Hsc70, and NMR. We have identified an Hsc70 binding site within SNAP-25 that is likely to represent the site used in the cell to facilitate SNARE complex formation.",
+    "keywords": [
+      "CSPalpha",
+      "Hsp70",
+      "SNAP-25",
+      "SNARE complex",
+      "chaperone",
+      "neurotransmission",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Synaptosomal-Associated Protein 25/metabolism/genetics",
+      "*HSC70 Heat-Shock Proteins/metabolism/genetics/chemistry",
+      "*HSP40 Heat-Shock Proteins/metabolism/genetics",
+      "Animals",
+      "Protein Aggregates",
+      "Rats",
+      "Humans",
+      "Protein Binding",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhasne, Karishma",
+        "Bogoian-Mullen, Antonia",
+        "Clerico, Eugenia M",
+        "Gierasch, Lila M"
+      ],
+      "short_names": [
+        "Bhasne K",
+        "Bogoian-Mullen A",
+        "Clerico EM",
+        "Gierasch LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA.",
+        "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA.",
+        "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA. Electronic address: eclerico@umass.edu.",
+        "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA; Department of Chemistry, University of Massachusetts, Amherst Massachusetts, USA. Electronic address: gierasch@biochem.umass.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhasne, Karishma",
+        "short_name": "Bhasne K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Bogoian-Mullen, Antonia",
+        "short_name": "Bogoian-Mullen A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Clerico, Eugenia M",
+        "short_name": "Clerico EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA. Electronic address: eclerico@umass.edu."
+        ]
+      },
+      {
+        "full_name": "Gierasch, Lila M",
+        "short_name": "Gierasch LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Massachusetts, Amherst Massachusetts, USA; Department of Chemistry, University of Massachusetts, Amherst Massachusetts, USA. Electronic address: gierasch@biochem.umass.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 00:31",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "41942094",
+      "41369326",
+      "41148798"
+    ],
+    "refs": [
+      "39032647",
+      "38411501",
+      "38053192",
+      "35995553",
+      "35398094",
+      "35167762",
+      "34650037",
+      "34625496",
+      "33922505",
+      "33753171",
+      "33222163",
+      "32808925",
+      "31888993",
+      "30622273",
+      "30517887",
+      "30397123",
+      "29850799",
+      "28972123",
+      "28708484",
+      "28579939",
+      "27452402",
+      "27287023",
+      "26098518",
+      "25800794",
+      "24533674",
+      "24183019",
+      "23562829",
+      "22500636",
+      "22187053",
+      "21499244",
+      "21429935",
+      "21151134",
+      "19696878",
+      "18579690",
+      "17324296",
+      "16912714",
+      "16888141",
+      "16269331",
+      "15361882",
+      "14755160",
+      "14665625",
+      "12878599",
+      "11786915",
+      "11090270",
+      "10026182",
+      "9731768",
+      "9487128",
+      "9232812",
+      "9130695",
+      "9020186",
+      "8658133",
+      "8221884",
+      "7961655",
+      "4202581",
+      "1396676"
+    ],
+    "similar": [
+      "39551143",
+      "21151134",
+      "22187053",
+      "16875662",
+      "29167402",
+      "17113038",
+      "22500636",
+      "20847230",
+      "14665625",
+      "20711454",
+      "10600650",
+      "23129765",
+      "33760024",
+      "28579939",
+      "9930733",
+      "17034881",
+      "10430018",
+      "26601760",
+      "7836452",
+      "8760387",
+      "28978466",
+      "11463334",
+      "36167183",
+      "33468652",
+      "7588600",
+      "27466336",
+      "12878599",
+      "8663154",
+      "7961655",
+      "22962332",
+      "21832061",
+      "7774590",
+      "11832947",
+      "18684711",
+      "20548785",
+      "29298892",
+      "19161385",
+      "19242542",
+      "19282376",
+      "20142423",
+      "11169469",
+      "39982442",
+      "20826818",
+      "10330192",
+      "10409690",
+      "40159506",
+      "25800794",
+      "10195194",
+      "39012012",
+      "27881774",
+      "30540253",
+      "11751907",
+      "14529716",
+      "16861228",
+      "22026965",
+      "16003907",
+      "10604655",
+      "31420580",
+      "9395474",
+      "16984405",
+      "19098309",
+      "38418371",
+      "8702658",
+      "9528774",
+      "16195346",
+      "11035043",
+      "39374398",
+      "10944231",
+      "12386166",
+      "10051443",
+      "29548989",
+      "29674253",
+      "8953576",
+      "7957071",
+      "25864199",
+      "12782620",
+      "15316007",
+      "16192769",
+      "30916996",
+      "12140265",
+      "29033286",
+      "12114505",
+      "16269331",
+      "18094056",
+      "9880331",
+      "36173100",
+      "15497503",
+      "27261198",
+      "9852083",
+      "14689457",
+      "31888993",
+      "26721188",
+      "23403573",
+      "25698757",
+      "22008253",
+      "18667436",
+      "9030619",
+      "17636261",
+      "29485200",
+      "10707983"
+    ],
+    "review": [
+      "39551143",
+      "28579939",
+      "25800794"
+    ],
+    "pmc": [
+      "11697113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(24)02503-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39551143/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3713",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

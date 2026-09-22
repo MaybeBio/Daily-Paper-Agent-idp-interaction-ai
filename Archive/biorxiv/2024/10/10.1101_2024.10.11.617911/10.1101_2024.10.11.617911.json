@@ -1,0 +1,125 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.11.617911",
+  "title": "Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects",
+  "doi": "10.1101/2024.10.11.617911",
+  "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic interaction and co-movement between residues, and its embeddings encode rich representations of protein dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects. <h4>Significance Statement</h4> The sequence—structure (ensemble)—function relationship is central to biology. Protein dynamics in the structure ensemble play a decisive role in determining function and mutation effects, and are widely used to study thermodynamics, folding pathways, and dynamic interactions of ordered proteins, as well as the conformational variability of intrinsically disordered proteins. However, current state-of-the-art protein deep learning models, such as AlphaFold2,3 and ESM, focus on static structures and sequences, which failed to directly capture protein dynamics. Here, we address this gap by developing protein language models to learn dynamic properties of over 64,000 proteins. We show that the model’s Transformer attentions capture protein dynamic interactions, and our model can be applied to predict conformational properties and mutation effects.",
+  "authors": [
+    "Hou C",
+    "Zhao H",
+    "Shen Y"
+  ],
+  "published_date": "2024-10-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617911",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617911.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR924706",
+    "raw_record": {
+      "id": "PPR924706",
+      "source": "PPR",
+      "doi": "10.1101/2024.10.11.617911",
+      "title": "Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects",
+      "authorString": "Hou C, Zhao H, Shen Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hou C",
+            "lastName": "Hou",
+            "firstName": "Chao",
+            "initials": "C"
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Haiqing",
+            "initials": "H"
+          },
+          {
+            "fullName": "Shen Y",
+            "lastName": "Shen",
+            "firstName": "Yufeng",
+            "initials": "Y"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic interaction and co-movement between residues, and its embeddings encode rich representations of protein dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects. <h4>Significance Statement</h4>  The sequence—structure (ensemble)—function relationship is central to biology. Protein dynamics in the structure ensemble play a decisive role in determining function and mutation effects, and are widely used to study thermodynamics, folding pathways, and dynamic interactions of ordered proteins, as well as the conformational variability of intrinsically disordered proteins. However, current state-of-the-art protein deep learning models, such as AlphaFold2,3 and ESM, focus on static structures and sequences, which failed to directly capture protein dynamics. Here, we address this gap by developing protein language models to learn dynamic properties of over 64,000 proteins. We show that the model’s Transformer attentions capture protein dynamic interactions, and our model can be applied to predict conformational properties and mutation effects.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Simons Foundation",
+            "grantId": "SFARI #1019623",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIH",
+            "grantId": "R35GM149527",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.11.617911"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41576089",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2026 Jan;123(4):e2530466123",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-10-17",
+      "firstPublicationDate": "2024-10-15",
+      "firstIndexDate": "2024-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

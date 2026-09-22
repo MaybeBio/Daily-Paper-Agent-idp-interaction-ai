@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41481439",
+  "title": "Sticky interactions govern sequence-dependent dynamics in biomolecular condensates.",
+  "authors": "Muthukumar, Keerthivasan; Sundaravadivelu Devarajan, Dinesh; Kim, Young C; Mittal, Jeetain",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-01-02",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用分子动力学模拟研究IDP凝聚体中序列依赖的动力学，提出粘性Rouse模型将瞬时链间接触寿命与宏观黏度/扩散率定量关联，直接聚焦无序蛋白互作机制建模，对相分离PPI机制研究有高度启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a central role in shaping the dynamics and material properties of biomolecular condensates. Understanding how sequence features determine these properties is critical for elucidating physiological function and guiding the rational design of synthetic condensates. Here, we use molecular dynamics simulations to investigate condensates formed by model IDPs with systematically varied chain length and charge patterning, two features characteristic of natural IDPs. Our results show that chain relaxation times, governed by sequence-dependent electrostatic interactions, quantitatively predict condensate viscosity and diffusivity. These condensates exhibit dynamics consistent with a crossover regime between Rouse and reptation behavior. While the Rouse model with idealized friction fails to capture sequence effects, a sticky Rouse-like framework, which incorporates transient interchain contact lifetimes, accurately predicts chain reconfiguration times and, consequently, macroscopic material properties. This work establishes a predictive, sequence-resolved framework that links molecular interactions to condensate dynamics across length and time scales.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在塑造生物分子凝聚体的动力学和材料性质中发挥核心作用。理解序列特征如何决定这些性质，对于阐明生理功能和指导合成凝聚体的合理设计至关重要。在此，我们使用分子动力学 (molecular dynamics) 模拟研究由模型 IDPs 形成的凝聚体，这些 IDPs 具有系统变化的链长和电荷分布模式，这两个特征是天然 IDPs 的典型特点。我们的结果表明，由序列依赖性静电相互作用控制的链松弛时间，能定量预测凝聚体的粘度和扩散性。这些凝聚体表现出与 Rouse 和 reptation 行为之间交叉区域一致的动力学特征。虽然具有理想化摩擦的 Rouse 模型无法捕捉序列效应，但一种粘性 Rouse 类框架，其纳入瞬态链间接触寿命，能准确预测链重构时间，并因此预测宏观材料性质。这项工作建立了一个预测性、序列分辨的框架，将分子相互作用与跨长度和时间尺度的凝聚体动力学联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41481439/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41481439/",
+  "paper_page_path": "papers/pubmed/41481439/index.html"
+}

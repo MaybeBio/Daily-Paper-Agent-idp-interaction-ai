@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "41368941",
+    "doi": "10.1039/d5sm01047k",
+    "title": "Genetic control of morphological transitions in a coacervating protein template."
+  },
+  "content": {
+    "abstract": "Nature routinely exploits liquid-liquid phase separation (LLPS) of proteins to control the assembly and mineralization of hybrid materials. Here, we show that fusion of the Car9 silica-binding peptide to an elastin-like polypeptide (ELP) yields temperature- and sequence-programmable soft matter templates for the synthesis of silicified architectures ranging in size from nanometers to micrometers. Specifically, we demonstrate unprecedented control over the diameter of silica nanoparticles (SiNP) in the 30-60 nm range with 4 nm precision, show that a single arginine residue (R4) in the Car9 sequence underpins the transition from micelles to proteinosomes, and find that substitutions in other basic residues modulate electrostatic repulsion and solvation to enable access to kinetically trapped species. These structures, which include interconnected micelles, small ( approximately 200 nm) and large (>5 microm) vesicles, are readily visualized by SEM imaging following silicification. Molecular dynamics (MD) simulations and AlphaFold predictions reveal that mutations in positively charged residues alter interfacial packing, hydration, and conformational freedom of the silica-binding segments. Overall, our results establish sequence and thermal energy as synergistic levers for morphological control across length scales using solid-binding ELPs and establish mineralization as a powerful tool to visualize the structure of dynamic soft matter assemblies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Silicon Dioxide/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Elastin/chemistry/genetics",
+      "*Peptides/chemistry/genetics",
+      "Nanoparticles/chemistry",
+      "Micelles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wixson, William C",
+        "Naser, Nada Y",
+        "Sonpal, Aditya",
+        "Pfaendtner, Jim",
+        "Baneyx, Francois"
+      ],
+      "short_names": [
+        "Wixson WC",
+        "Naser NY",
+        "Sonpal A",
+        "Pfaendtner J",
+        "Baneyx F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8702-0458",
+        "ORCID: 0000-0003-2660-2715",
+        "ORCID: 0000-0003-4317-1654",
+        "ORCID: 0000-0001-6727-2957",
+        "ORCID: 0000-0001-5596-7903"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu.",
+        "Department of Chemical & Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. asonpal@ncsu.edu.",
+        "Department of Chemical & Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. asonpal@ncsu.edu.",
+        "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wixson, William C",
+        "short_name": "Wixson WC",
+        "identifiers": [
+          "0000-0001-8702-0458"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu."
+        ]
+      },
+      {
+        "full_name": "Naser, Nada Y",
+        "short_name": "Naser NY",
+        "identifiers": [
+          "0000-0003-2660-2715"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu."
+        ]
+      },
+      {
+        "full_name": "Sonpal, Aditya",
+        "short_name": "Sonpal A",
+        "identifiers": [
+          "0000-0003-4317-1654"
+        ],
+        "affiliations": [
+          "Department of Chemical & Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. asonpal@ncsu.edu."
+        ]
+      },
+      {
+        "full_name": "Pfaendtner, Jim",
+        "short_name": "Pfaendtner J",
+        "identifiers": [
+          "0000-0001-6727-2957"
+        ],
+        "affiliations": [
+          "Department of Chemical & Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. asonpal@ncsu.edu."
+        ]
+      },
+      {
+        "full_name": "Baneyx, François",
+        "short_name": "Baneyx F",
+        "identifiers": [
+          "0000-0001-5596-7903"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Washington, Seattle, WA, 98195, USA. baneyx@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 13:52",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41368941",
+      "39526900",
+      "26114664",
+      "29195275",
+      "40562353",
+      "41486621",
+      "32142846",
+      "27627061",
+      "36539170",
+      "23565607",
+      "28447683",
+      "21699930",
+      "22435500",
+      "22515311",
+      "25268037",
+      "37531360",
+      "30063889",
+      "30715857",
+      "18085778",
+      "29237367",
+      "29791150",
+      "36526018",
+      "27005861",
+      "22434766",
+      "29454362",
+      "26307138",
+      "33942499",
+      "38047916",
+      "40015400",
+      "32912688",
+      "38147468",
+      "28094978",
+      "18608590",
+      "31128196",
+      "11485434",
+      "18972488",
+      "37357544",
+      "31389705",
+      "37083071",
+      "31580974",
+      "35943848",
+      "23359490",
+      "29868966",
+      "17407348",
+      "33871996",
+      "29284122",
+      "30458105",
+      "21319781",
+      "22208987",
+      "36509953",
+      "38118170",
+      "25142785",
+      "23714121",
+      "11245464",
+      "39609315",
+      "34080796",
+      "30292393",
+      "26595324",
+      "22625178",
+      "23705904",
+      "40416731",
+      "37340996",
+      "28570078",
+      "38166400",
+      "34038105",
+      "30217600",
+      "25454430",
+      "40842372",
+      "28639381",
+      "30747204",
+      "20334355",
+      "28506644",
+      "33455201",
+      "28279921",
+      "34920210",
+      "24607361",
+      "38281625",
+      "40267258",
+      "24611880",
+      "31384872",
+      "38874418",
+      "18842018",
+      "34288691",
+      "36275650",
+      "32208723",
+      "27111242",
+      "29275624",
+      "20925333",
+      "15132671",
+      "36168976",
+      "23912807",
+      "28737182",
+      "39287594",
+      "21218791",
+      "30980843",
+      "26928529",
+      "20527981",
+      "37951928",
+      "35124875",
+      "34914359"
+    ],
+    "review": [
+      "41368941",
+      "29237367",
+      "36526018",
+      "18608590",
+      "34080796",
+      "30217600",
+      "34920210",
+      "38281625",
+      "27111242"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5sm01047k",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

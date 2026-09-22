@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36468418",
+  "title": "Aggregation propensities of proteins with varying degrees of disorder.",
+  "authors": "Dey, Priya; Biswas, Parbati",
+  "journal": "Journal of computational chemistry",
+  "published_date": "2022-12-06",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD+3D-RISM研究不同无序程度蛋白的水化自由能，探讨无序度与聚集倾向的关系，但未涉及蛋白-蛋白互作或结合机制，方法可迁移但对象与互作轴较弱。",
+  "abstract": "The hydration thermodynamics of a globular protein (AcP), three intrinsically disordered protein regions (1CD3, 1MVF, 1F0R) and a fully disordered protein (alpha-synuclein) is studied by an approach that combines an all-atom explicit water molecular dynamics simulations and three-dimensional reference interaction site model (3D-RISM) theory. The variation in hydration free energy with percentage disorder of the selected proteins is investigated through its nonelectrostatic and electrostatic components. A decrease in hydration free energy is observed with an increase in percentage disorder, indicating favorable interactions of the disordered proteins with the solvent. This confirms the role of percentage disorder in determining the aggregation propensity of proteins which is measured in terms of the hydration free energy in addition to their respective mean net charge and mean hydrophobicity. The hydration free energy is decoupled into energetic and entropic terms. A residue-wise decomposition analysis of the hydration free energy for the selected proteins is evaluated. The decomposition shows that the disordered regions contribute more than the ordered ones for the intrinsically disordered protein regions. The dominant role of electrostatic interactions is confirmed from the residue-wise decomposition of the hydration free energy. The results depict that the negatively charged residues contribute more to the total hydration free energy for the proteins with negative mean net charge, while the positively charged residues contribute more for proteins with positive mean net charge.",
+  "abstract_zh": "通过结合全原子显式水分子动力学模拟与三维参考相互作用位点模型（3D-RISM）理论的方法，研究了球状蛋白（AcP）、三个固有无序蛋白区域（1CD3、1MVF、1F0R）以及一个完全无序蛋白（α-突触核蛋白）的水合热力学。通过其非静电和静电组分，探讨了所选蛋白质的水合自由能随无序百分比的变化。观察到随着无序百分比的增加，水合自由能降低，表明无序蛋白与溶剂存在有利相互作用。这证实了无序百分比在决定蛋白质聚集倾向中的作用，该倾向以水合自由能以及各自平均净电荷和平均疏水性来衡量。水合自由能被解耦为能量项和熵项。对所选蛋白质的水合自由能进行了残基级分解分析。分解显示，对于固有无序蛋白区域，无序区域比有序区域贡献更多。从水合自由能的残基级分解中确认了静电相互作用的主导作用。结果表明，对于平均净电荷为负的蛋白质，带负电残基对总水合自由能的贡献更大，而对于平均净电荷为正的蛋白质，带正电残基贡献更大。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36468418/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36468418/",
+  "paper_page_path": "papers/pubmed/36468418/index.html"
+}

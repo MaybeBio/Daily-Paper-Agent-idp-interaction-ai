@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2204.10683v2",
+  "title": "Finite-disorder critical point in the yielding transition of elasto-plastic models",
+  "authors": "Saverio Rossi; Giulio Biroli; Misaki Ozawa; Gilles Tarjus; Francesco Zamponi",
+  "journal": "Phys. Rev. Lett. 129, 228002 (2022)",
+  "published_date": "2022-04-22",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究非晶固体弹塑性模型在屈服转变中的有限无序临界点，属于材料力学范畴，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Upon loading, amorphous solids can exhibit brittle yielding, with the abrupt formation of macroscopic shear bands leading to fracture, or ductile yielding, with a multitude of plastic events leading to homogeneous flow. It has been recently proposed, and subsequently questioned, that the two regimes are separated by a sharp critical point, as a function of some control parameter characterizing the intrinsic disorder strength and the degree of stability of the solid. In order to resolve this issue, we have performed extensive numerical simulations of athermally driven elasto-plastic models with long-range and anisotropic realistic interaction kernels in two and three dimensions. Our results provide clear evidence for a finite-disorder critical point separating brittle and ductile yielding, and we provide an estimate of the critical exponents in 2D and 3D.",
+  "abstract_zh": "加载时，非晶固体可能表现出脆性屈服，即宏观剪切带的突然形成导致断裂，或延性屈服，即大量塑性事件导致均匀流动。最近有人提出，并随后受到质疑，这两种状态由尖锐的临界点分隔，该临界点作为表征固有无序强度和固体稳定程度的某个控制参数的函数。为解决此问题，我们对二维和三维中具有长程及各向异性现实相互作用核的非热驱动弹塑性模型进行了广泛的数值模拟。我们的结果为有限无序临界点分隔脆性和延性屈服提供了清晰证据，并给出了二维和三维中临界指数的估计值。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2204.10683v2",
+  "source_url": "https://arxiv.org/abs/2204.10683v2",
+  "paper_page_path": "papers/arxiv/2204.10683v2/index.html"
+}

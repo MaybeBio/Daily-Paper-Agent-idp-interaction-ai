@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37989551",
+  "title": "Improved Protein Model in SPICA Force Field.",
+  "authors": "Yamada, Teppei; Miyazaki, Yusuke; Harada, Shogo; Kumar, Ashutosh; Vanni, Stefano; Shinoda, Wataru",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文改进SPICA粗粒化力场，通过二级结构依赖的非键参数提升对IDP构象和膜蛋白结合自由能的模拟精度，虽非直接研究PPI机制，但为无序蛋白互作的物理模拟提供了关键方法基础。",
+  "abstract": "The previous version of the SPICA coarse-grained (CG) force field (FF) protein model focused primarily on membrane proteins and successfully reproduced the dimerization free energies of several transmembrane helices and the stable structures of various membrane protein assemblies. However, that model had limited accuracy when applied to other proteins, such as intrinsically disordered proteins (IDPs) and peripheral proteins, because the dimensions of the IDPs in an aqueous solution were too compact, and protein binding on the lipid membrane surface was overstabilized. To improve the accuracy of the SPICA FF model for the simulation of such systems, in this study, we introduce protein secondary structure-dependent nonbonded interaction parameters to the backbone segments and reoptimize almost all nonbonded parameters for amino acids. The improved FF proposed here successfully reproduces the radii of gyration of various IDPs, the binding sensitivity of several peripheral membrane proteins, and the dimerization free energies of several transmembrane helices. The new model also shows improved agreement with experiments on the free energy of peptide association in water. In addition, an extensive library of nonbonded interactions between proteins and lipids, including various glycerophospholipids, sphingolipids, and cholesterol, allows the study of specific interactions between lipids and peripheral and transmembrane proteins. Hence, the new SPICA FF (version 2) proposed herein is applicable with high accuracy for simulating a wide range of protein systems.",
+  "abstract_zh": "先前版本的SPICA粗粒化（CG）力场（FF）蛋白质模型主要聚焦于膜蛋白，并成功再现了多种跨膜螺旋的二聚化自由能及多种膜蛋白组装体的稳定结构。然而，该模型在应用于其他蛋白质（如 intrinsically disordered proteins (IDPs) 和外周蛋白）时精度有限，因为IDPs在水溶液中的尺寸过于紧凑，且蛋白质在脂膜表面的结合被过度稳定化。为提高SPICA FF模型在模拟此类系统时的准确性，本研究中对骨架片段引入了依赖蛋白质二级结构的非键相互作用参数，并重新优化了几乎所有氨基酸的非键参数。本文提出的改进FF成功再现了多种IDPs的回转半径、若干外周膜蛋白的结合敏感性，以及多种跨膜螺旋的二聚化自由能。新模型在水溶液中肽段结合自由能方面也与实验表现出更好的一致性。此外，一个涵盖多种甘油磷脂、鞘脂和胆固醇的蛋白质-脂质非键相互作用广泛库，使得研究脂质与外周蛋白及跨膜蛋白之间的特异性相互作用成为可能。因此，本文提出的新SPICA FF（版本2）适用于高精度模拟广泛的蛋白质系统。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37989551/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37989551/",
+  "paper_page_path": "papers/pubmed/37989551/index.html"
+}

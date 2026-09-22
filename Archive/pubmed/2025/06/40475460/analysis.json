@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40475460",
+  "title": "Cargo recognition of Nesprin-2 by the dynein adapter Bicaudal D2 for a nuclear positioning pathway that is important for neuronal migration.",
+  "authors": "Putta, Sivasankar; Rodriguez Castro, Estrella D; Ali, M Yusuf; Garcia Martin, Jose M; Zhao, Xiaoxin; Sylvain, Samantha; Trybus, Kathleen M; Solmaz, Sozanne R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-06-06",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold预测并实验验证Nesprin-2与BicD2的复合物结构，涉及IDR连接子分隔结合位点，虽非相分离但聚焦PPI机制建模，方法可迁移。",
+  "abstract": "Nesprin-2 is a subunit of LINC complexes, which span the nuclear envelope and have key roles in mechanotransduction and nuclear positioning during brain and muscle development. Nesprin-2 interacts with the plus-end directed motor kinesin-1 and the dynein adapter Bicaudal D2 (BicD2), which in turn recruits the minus-end directed motor cytoplasmic dynein to position the nucleus during neuronal migration of postmitotic neurons, but the molecular details of these interactions are elusive. Here we present a structural model of a minimal Nesprin-2/BicD2 complex. A structure prediction with a PAE score in the high confidence range was obtained from AlphaFold and experimentally validated by mutagenesis, binding assays and biophysical studies. The core of the binding site is formed by spectrin repeats of Nesprin-2, which form an alpha-helical bundle with the cargo-binding domain of BicD2. The minimal Nesprin-2 fragment also interacts robustly with full-length BicD2. The BicD2-binding site is separated by a  approximately 65 residue intrinsically disordered linker from the LEWD sequence motif, that acts as kinesin-1 recruitment site, and we propose that both kinesin-1 and BicD2/dynein interact with Nesprin-2 simultaneously. We propose that structurally distinct interactions between BicD2 and its cargo adapters Nesprin-2, Nup358 and Rab6, as well as distinctions in the adjacent kinesin-1 recruiting sites could finetune overall motility for these transport pathways that have important roles in brain and muscle development. Mutations of Nesprin-2 and BicD2 cause devastating brain and muscle developmental diseases, including Emery-Dreifuss Muscular Dystrophy and spinal muscular atrophy, and results may help devise therapies for these diseases.",
+  "abstract_zh": "Nesprin-2是LINC复合物的亚基，该复合物跨越核膜，在脑和肌肉发育过程中的机械传导和核定位中发挥关键作用。Nesprin-2与正端定向马达蛋白kinesin-1及动力蛋白适配器Bicaudal D2（BicD2）相互作用，后者进而招募负端定向马达蛋白细胞质动力蛋白，以在分裂后神经元的神经元迁移过程中定位细胞核，但这些相互作用的分子细节尚不清楚。在此，我们提出了一个最小Nesprin-2/BicD2复合物的结构模型。通过AlphaFold获得了一个PAE评分处于高置信度范围的结构预测，并通过诱变、结合实验和生物物理研究进行了实验验证。结合位点的核心由Nesprin-2的血影蛋白重复序列形成，这些重复序列与BicD2的货物结合域构成一个α-螺旋束。最小Nesprin-2片段也与全长BicD2稳健地相互作用。BicD2结合位点通过一个约65残基的内在无序连接子与LEWD序列基序分隔，该基序作为kinesin-1招募位点，我们提出kinesin-1和BicD2/动力蛋白同时与Nesprin-2相互作用。我们提出，BicD2与其货物适配器Nesprin-2、Nup358和Rab6之间结构上不同的相互作用，以及相邻kinesin-1招募位点的差异，可能微调这些在脑和肌肉发育中具有重要作用的运输途径的整体运动性。Nesprin-2和BicD2的突变会导致严重的脑和肌肉发育疾病，包括Emery-Dreifuss肌营养不良症和脊髓性肌萎缩症，研究结果可能有助于为这些疾病设计治疗方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40475460/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40475460/",
+  "paper_page_path": "papers/pubmed/40475460/index.html"
+}

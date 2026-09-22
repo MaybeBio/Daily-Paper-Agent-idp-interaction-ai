@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "42538434",
+    "doi": "10.1038/s41594-026-01846-z",
+    "title": "Variant characterization in the intrinsically disordered human proteome."
+  },
+  "content": {
+    "abstract": "Variant effect prediction remains a key challenge in precision medicine. Computational models are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in the 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and stable structures. To advance the characterization of variants in intrinsically disordered protein regions (IDRs), we combined sequence pattern searches with AlphaFold to structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains in partner proteins. These interfaces were selected based on their overlap with uncertain missense variants enabling structural model-based prediction of deleterious effects of 1,187 of these variants in IDRs. Extensive experimental efforts validated the predicted interfaces and deleterious variant effects that were predicted as benign by AlphaMissense, demonstrating that the combination of sequence analysis and structural modeling can readily generate numerous testable hypotheses of variant effects on protein function in IDRs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome/genetics/chemistry",
+      "*Intrinsically Disordered Proteins/genetics/chemistry/metabolism",
+      "Models, Molecular",
+      "Mutation, Missense",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hubrich, Dalmira",
+        "Alvarado Valverde, Jesus",
+        "Lee, Chop Yan",
+        "Djokic, Milena",
+        "Welzel, Mareen",
+        "Hintz, Kristina",
+        "Strom, Joelle Morgan",
+        "Luck, Katja"
+      ],
+      "short_names": [
+        "Hubrich D",
+        "Alvarado Valverde J",
+        "Lee CY",
+        "Djokic M",
+        "Welzel M",
+        "Hintz K",
+        "Strom JM",
+        "Luck K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2996-0852",
+        "ORCID: 0000-0003-2336-9225"
+      ],
+      "affiliations": [
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany. k.luck@imb-mainz.de.",
+        "Institute for Quantitative and Computational Biosciences (IQCB), Johannes Gutenberg University, Mainz, Germany. k.luck@imb-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hubrich, Dalmira",
+        "short_name": "Hubrich D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Alvarado Valverde, Jesus",
+        "short_name": "Alvarado Valverde J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Lee, Chop Yan",
+        "short_name": "Lee CY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Djokic, Milena",
+        "short_name": "Djokic M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Welzel, Mareen",
+        "short_name": "Welzel M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Hintz, Kristina",
+        "short_name": "Hintz K",
+        "identifiers": [
+          "0000-0002-2996-0852"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Strom, Joelle Morgan",
+        "short_name": "Strom JM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Luck, Katja",
+        "short_name": "Luck K",
+        "identifiers": [
+          "0000-0003-2336-9225"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) gGmbH, Mainz, Germany. k.luck@imb-mainz.de.",
+          "Institute for Quantitative and Computational Biosciences (IQCB), Johannes Gutenberg University, Mainz, Germany. k.luck@imb-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/01 00:36",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40828855",
+      "40221640",
+      "39914051",
+      "39864625",
+      "39540428",
+      "39480926",
+      "39448882",
+      "39402041",
+      "39196930",
+      "39009827",
+      "38886530",
+      "38783158",
+      "38711119",
+      "38605029",
+      "38238291",
+      "38225382",
+      "37957331",
+      "37866903",
+      "37774136",
+      "37733863",
+      "36690744",
+      "35562983",
+      "35512704",
+      "35013344",
+      "34791371",
+      "33961781",
+      "33104802",
+      "32722039",
+      "32296183",
+      "32109420",
+      "31907444",
+      "31680160",
+      "31406379",
+      "30445645",
+      "30407550",
+      "30197081",
+      "30073413",
+      "29997244",
+      "29040681",
+      "28335037",
+      "28292960",
+      "27085803",
+      "26440664",
+      "25910212",
+      "25730767",
+      "25352545",
+      "25057855",
+      "25038412",
+      "25036739",
+      "24926813",
+      "24508088",
+      "24278298",
+      "24234437",
+      "24081580",
+      "23996193",
+      "23399932",
+      "22638578",
+      "20868694",
+      "19818708",
+      "19754958",
+      "19151095",
+      "19060903",
+      "18508681",
+      "18077552",
+      "17354266",
+      "16251197",
+      "15459319",
+      "15064722",
+      "14597658",
+      "11882293",
+      "11780064",
+      "10964570",
+      "6667333"
+    ],
+    "similar": [
+      "42538434",
+      "40221640",
+      "40828855",
+      "34418423",
+      "38297118",
+      "42150060",
+      "32722039",
+      "28002650",
+      "42507643",
+      "42057422",
+      "40530859",
+      "39446390",
+      "41512952",
+      "42427316",
+      "39914051",
+      "41534519",
+      "28934129",
+      "31207240",
+      "31441158",
+      "39009827",
+      "41033554",
+      "33248138",
+      "41751600",
+      "41378882",
+      "41454828",
+      "31425549",
+      "37878721",
+      "26790343",
+      "36674574",
+      "34390736",
+      "36291695",
+      "41053545",
+      "23056474",
+      "30366362",
+      "29763584",
+      "30420606",
+      "28387819",
+      "29066345",
+      "31756456",
+      "29753880",
+      "23466039",
+      "35275927",
+      "39333476",
+      "26851286",
+      "33866372",
+      "29080786",
+      "42503799",
+      "42585785",
+      "41232529",
+      "32253236",
+      "38941236",
+      "34825861",
+      "38672516",
+      "26109352",
+      "30135358",
+      "36908253",
+      "33361159",
+      "42295476",
+      "18831774",
+      "26720267",
+      "24115198",
+      "33909605",
+      "40349675",
+      "28952717",
+      "33567297",
+      "24027208",
+      "40403066",
+      "39032884",
+      "41174305",
+      "36575582",
+      "40462930",
+      "36008992",
+      "39093570",
+      "29716994",
+      "41419200",
+      "26402567",
+      "32503351",
+      "41218076",
+      "27062995",
+      "24668165",
+      "25391399",
+      "34347206",
+      "40574713",
+      "31613621",
+      "33806614",
+      "30514761",
+      "25057855",
+      "41053908",
+      "41883999",
+      "25387963",
+      "35767567",
+      "34358545",
+      "28612216",
+      "35196007",
+      "25244701",
+      "23980173",
+      "30995449",
+      "38456420",
+      "32824743",
+      "40645561"
+    ],
+    "review": [
+      "42538434",
+      "34418423",
+      "39914051",
+      "31441158",
+      "33248138",
+      "34390736",
+      "29753880",
+      "23466039",
+      "26851286",
+      "32253236",
+      "38672516",
+      "33361159",
+      "26720267",
+      "40349675",
+      "33567297",
+      "24027208",
+      "39093570",
+      "26402567",
+      "34347206",
+      "34358545",
+      "28612216",
+      "40645561"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-026-01846-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

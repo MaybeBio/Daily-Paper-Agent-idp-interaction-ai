@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "38349628",
+    "doi": "10.1063/5.0192529",
+    "title": "Unveiling the multicomponent phase separation through molecular dynamics simulation and graph theory."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by multicomponent phase separation play crucial roles in diverse cellular processes. Accurate assessment of individual-molecule contributions to condensate formation and precise characterization of their spatial organization within condensates are crucial for understanding the underlying mechanism of phase separation. Using molecular dynamics simulations and graph theoretical analysis, we demonstrated quantitatively the significant roles of cation-pi and pi-pi interactions mediated by aromatic residues and arginine in the formation of condensates in polypeptide systems. Our findings reveal temperature and chain length-dependent alterations in condensate network parameters, such as the number of condensate network layers, and changes in aggregation and connectivity. Notably, we observe a transition between assortativity and disassortativity in the condensate network. Moreover, polypeptides W, Y, F, and R consistently promote condensate formation, while the contributions of other charged and two polar polypeptides (Q and N) to condensate formation depend on temperature and chain length. Furthermore, polyadenosine and polyguanosine can establish stable connections with aromatic and R polypeptides, resulting in the reduced involvement of K, E, D, Q, and N in phase separation. Overall, this study provides a distinctive, precise, and quantitative approach to characterize the multicomponent phase separation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Zeng-Shuai",
+        "Ma, Yu-Qiang",
+        "Ding, Hong-Ming"
+      ],
+      "short_names": [
+        "Yan ZS",
+        "Ma YQ",
+        "Ding HM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6698-7077",
+        "ORCID: 0000-0002-5433-3199",
+        "ORCID: 0000-0002-9224-4779"
+      ],
+      "affiliations": [
+        "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Zeng-Shuai",
+        "short_name": "Yan ZS",
+        "identifiers": [
+          "0000-0002-6698-7077"
+        ],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu-Qiang",
+        "short_name": "Ma YQ",
+        "identifiers": [
+          "0000-0002-5433-3199"
+        ],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Hong-Ming",
+        "short_name": "Ding HM",
+        "identifiers": [
+          "0000-0002-9224-4779"
+        ],
+        "affiliations": [
+          "Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Soochow University, Suzhou 215006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2024 Feb 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/13 12:47",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "42231907",
+      "41470928",
+      "40985078",
+      "40196628",
+      "39664293",
+      "39106367"
+    ],
+    "refs": [],
+    "similar": [
+      "38349628",
+      "36883003",
+      "36993212",
+      "37205474",
+      "37470705",
+      "32426986",
+      "37721444",
+      "38416758",
+      "33558506",
+      "37019112",
+      "37549257",
+      "37468629",
+      "32482873",
+      "39398199",
+      "36227474",
+      "37156794",
+      "35881789",
+      "38809420",
+      "38163950",
+      "38363841",
+      "35293386",
+      "33087563",
+      "33864415",
+      "23912807",
+      "37034777",
+      "31437398",
+      "37252985",
+      "34772789",
+      "36847235",
+      "36015451",
+      "37294104",
+      "35179885",
+      "38562796",
+      "37438363",
+      "37546967",
+      "36524527",
+      "37194953",
+      "33510441",
+      "37215004",
+      "37549295",
+      "32822449",
+      "39386696",
+      "36191226",
+      "30514760",
+      "33982350",
+      "36979462",
+      "34129784",
+      "33300985",
+      "36181270",
+      "38798623",
+      "34865286",
+      "36004748",
+      "37480340",
+      "35080597",
+      "34966005",
+      "37735186",
+      "36175408",
+      "37770446",
+      "34552246",
+      "37586369",
+      "37464880",
+      "37065433",
+      "31017394",
+      "35001622",
+      "37669232",
+      "37791635",
+      "35597639",
+      "36150962",
+      "33578289",
+      "34304571",
+      "35364105",
+      "35126984",
+      "35832192",
+      "33704061",
+      "36642341",
+      "35974095",
+      "37707425",
+      "31199001",
+      "37265348",
+      "34636323",
+      "37770422",
+      "37261897",
+      "34102212",
+      "36227473",
+      "33890764",
+      "38690757",
+      "39149291",
+      "36987392",
+      "38270681",
+      "38405719",
+      "39102550",
+      "39152221",
+      "35675815",
+      "38798333",
+      "38664442",
+      "37934145",
+      "39377398"
+    ],
+    "review": [
+      "38349628",
+      "34772789",
+      "35179885",
+      "36524527",
+      "33510441",
+      "34129784",
+      "33300985",
+      "34865286",
+      "35080597",
+      "34966005",
+      "37464880",
+      "36150962",
+      "33578289",
+      "35832192",
+      "36642341",
+      "35974095",
+      "37265348"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0192529",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

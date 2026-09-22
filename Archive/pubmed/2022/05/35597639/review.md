@@ -1,0 +1,58 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, or simulation details
+- **Shared manuscript claim summary** The authors propose a mean-field theoretical model and molecular dynamics simulations to demonstrate that multiphase organization within multi-component biomolecular condensates constitutes a second phase transition, distinct from the initial condensation transition, driven by disparities in self- versus cross-species interaction strengths, with predicted critical temperatures and binodals verified by simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or simulation protocols provided
+- **Missing materials affecting confidence** Full manuscript, model equations, simulation parameters, quantitative results, and any comparison with experimental data are not available, limiting verification of the claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that multiphase organization in condensates is a distinct second-order phase transition, driven by interaction strength disparity. The theoretical and simulation framework is plausible, but the abstract alone provides insufficient detail to assess the rigor, novelty, or robustness of the findings. The claim of a "second phase transition" is intriguing but requires careful distinction from existing theories of multiphase coexistence, which is not addressed in the provided text.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and cell biology studying phase separation and condensate organization would find this relevant, as it offers a potential framework for understanding how multi-component condensates achieve internal structure, which is important for cellular function and dysfunction.
+- **Major strengths** The abstract clearly articulates a testable hypothesis and links theoretical predictions to simulation verification. The concept of separating two phase transitions based on interaction disparity is elegant and could unify observations of condensate formation and internal demixing.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "multiphase organization of multi-component condensates is a second phase transition" and that "both of the phase transitions can be observed by decreasing the temperature."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide any details on the mean-field model, such as the free energy functional, interaction parameters, or how the "disparity in interaction strengths" is quantified. Without these, the theoretical basis for a second phase transition cannot be evaluated. Additionally, the claim that this is a "second phase transition" implies a distinct thermodynamic order parameter and symmetry breaking, which is not defined or justified.
+  - **Why it matters** The core novelty hinges on establishing that multiphase organization is a genuine phase transition, not merely a kinetic or compositional effect. Without model specifics, the claim is unverifiable and may conflate with existing theories of multi-component phase separation.
+  - **Resolution test** Provide the model equations, define the order parameter for demixing, and show a phase diagram with clear critical points. Include simulation results that demonstrate a discontinuity or divergence in a relevant susceptibility at the demixing transition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the second phase transition is a general phenomenon, but it does not specify the range of interaction parameters or component properties for which this holds.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not discuss how the predicted behavior relates to known experimental systems or existing theoretical work on multiphase condensates (e.g., patchy colloids or polymer theories). The generality of the claim is unclear, and the abstract lacks a comparison to prior models that might already predict similar demixing transitions.
+  - **Why it matters** For the results to be impactful, the authors must demonstrate novelty and relevance beyond a specific model. Without context, the claim may be seen as incremental or redundant.
+  - **Resolution test** Include a discussion of prior theoretical and experimental findings on multiphase condensates, and show how the proposed model advances or differentiates from them. Provide examples of biological or synthetic systems where the predicted second transition is observable.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "second phase transition" is used without defining the first transition clearly in the abstract, which may confuse readers unfamiliar with the context.
+  - **Required correction** Clarify in the abstract that the first transition refers to condensate formation from the bulk, and define "multiphase organization" explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation verification
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "predicted binodals are verified by molecular dynamics simulations," but does not specify the system size, interaction potentials, or how the binodals were extracted, which is critical for reproducibility.
+  - **Required correction** Provide simulation details in the full manuscript and summarize key parameters in the abstract or a methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks the theoretical and contextual evidence needed to validate the central claim of a second phase transition.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of a distinct second phase transition is potentially original, but the abstract does not demonstrate how it differs from existing multiphase coexistence theories, so originality is not established.
+  - Scientific importance: The topic is important for understanding condensate biology, but the abstract does not show broad implications or novel predictions beyond a specific model.
+  - Interdisciplinary readership: The abstract is accessible to biophysicists but may be too technical for a general scientific audience without more context.
+  - Technical soundness: Not assessable from the abstract alone; the lack of model and simulation details prevents evaluation.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without sufficient explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising hypothesis, but the lack of model details, simulation specifics, and contextual comparison means the case for a second phase transition is not yet supported. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that multiphase organization is a "second phase transition" is unsupported without a defined order parameter and thermodynamic analysis.
+- The generality of the predicted behavior across different multi-component systems is unsubstantiated.
+- The verification of binodals by simulations is unverifiable without simulation parameters and error analysis.

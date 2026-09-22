@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35484234",
+  "title": "Single-stranded nucleic acid binding and coacervation by linker histone H1.",
+  "authors": "Leicher, Rachel; Osunsade, Adewola; Chua, Gabriella N L; Faulkner, Sarah C; Latham, Andrew P; Watters, John W; Nguyen, Tuan; Beckwitt, Emily C; Christodoulou-Rubalcava, Sophia; Young, Paul G; Zhang, Bin; David, Yael; Liu, Shixin",
+  "journal": "Nature structural & molecular biology",
+  "published_date": "2022-04-29",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合单分子实验与分子动力学模拟，揭示连接组蛋白H1通过多价瞬时互作与单链核酸驱动凝胶状凝聚体形成，聚焦无序蛋白介导的核酸-蛋白互作及相分离机制，对IDR-PPI机制建模有直接启发。",
+  "abstract": "The H1 linker histone family is the most abundant group of eukaryotic chromatin-binding proteins. However, their contribution to chromosome structure and function remains incompletely understood. Here we use single-molecule fluorescence and force microscopy to directly visualize the behavior of H1 on various nucleic acid and nucleosome substrates. We observe that H1 coalesces around single-stranded DNA generated from tension-induced DNA duplex melting. Using a droplet fusion assay controlled by optical tweezers, we find that single-stranded nucleic acids mediate the formation of gel-like H1 droplets, whereas H1-double-stranded DNA and H1-nucleosome droplets are more liquid-like. Molecular dynamics simulations reveal that multivalent and transient engagement of H1 with unpaired DNA strands drives their enhanced phase separation. Using eGFP-tagged H1, we demonstrate that inducing single-stranded DNA accumulation in cells causes an increase in H1 puncta that are able to fuse. We further show that H1 and Replication Protein A occupy separate nuclear regions, but that H1 colocalizes with the replication factor Proliferating Cell Nuclear Antigen, particularly after DNA damage. Overall, our results provide a refined perspective on the diverse roles of H1 in genome organization and maintenance, and indicate its involvement at stalled replication forks.",
+  "abstract_zh": "H1连接子组蛋白家族是真核生物中含量最丰富的染色质结合蛋白群。然而，它们对染色体结构和功能的贡献仍未完全阐明。在此，我们使用单分子荧光和力显微镜直接可视化H1在各种核酸和核小体底物上的行为。我们观察到，H1在张力诱导的DNA双链解链产生的单链DNA周围聚集。利用光镊控制的液滴融合实验，我们发现单链核酸介导形成凝胶状H1液滴，而H1-双链DNA和H1-核小体液滴则更偏向液态。分子动力学 (molecular dynamics) 模拟揭示，H1与未配对DNA链的多价和瞬时结合驱动了其增强的相分离 (phase separation)。使用eGFP标记的H1，我们证明在细胞中诱导单链DNA积累会导致H1斑点增加，且这些斑点能够融合。我们进一步显示，H1和复制蛋白A占据不同的核区域，但H1与复制因子增殖细胞核抗原共定位，尤其是在DNA损伤后。总体而言，我们的结果为H1在基因组组织和维持中的多样角色提供了精细的视角，并表明其参与停滞的复制叉。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35484234/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35484234/",
+  "paper_page_path": "papers/pubmed/35484234/index.html"
+}

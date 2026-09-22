@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38910419",
+  "title": "Structural Properties of Rat Intestinal Fatty Acid-Binding Protein with its Dynamics: Insights into Intrinsic Disorder.",
+  "authors": "Balli, Oyku Irem; Caglayan, Sule Irem; Uverksy, Vladimir N; Coskuner-Weber, Orkid",
+  "journal": "Protein and peptide letters",
+  "published_date": "2024-06-24",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用副本交换分子动力学模拟和生物信息学工具研究大鼠肠脂肪酸结合蛋白的固有无序区域及其构象动态，虽对象为折叠蛋白但聚焦IDR检测与配体结合灵活性，方法上物理模拟与无序分析可迁移至IDP介导的PPI机制建模。",
+  "abstract": "BACKGROUND: The rat intestinal fatty acid-binding protein (I-FABP) is expressed in the small intestine and is involved in the absorption and transport of dietary fatty acids. It is used as a marker for intestinal injury and is associated with various gastrointestinal disorders. I-FABP has been studied extensively using conventional experimental and computational techniques. However, the detection of intrinsically disordered regions requires the application of special sampling molecular dynamics simulations along with certain bioinformatics because conventional computational and experimental studies face challenges in identifying the features of intrinsic disorder. METHODS: Replica exchange molecular dynamics simulations were conducted along with bioinformatics studies to gain deeper insights into the structural properties of I-FABP. Specifically, the Calpha and Halpha chemical shift values werecalculated, and the findings were compared to the experiments. Furthermore, secondary and tertiary structure properties were also calculated, and the protein was clustered using k-means clustering. The end-to-end distance and radius of gyration values were reported for the protein in an aqueous solution medium. In addition, its disorder tendency was studied using various bioinformatics tools. RESULTS AND CONCLUSION: It was reported that I-FABP is a flexible protein with regions that demonstrate intrinsic disorder characteristics. This flexibility and intrinsic disorder characteristics of IFABP may be related to its nature in ligand binding processes.",
+  "abstract_zh": "背景：大鼠肠脂肪酸结合蛋白（I-FABP）在小肠中表达，参与膳食脂肪酸的吸收与转运。它被用作肠道损伤的标志物，并与多种胃肠道疾病相关。I-FABP已通过常规实验和计算技术得到广泛研究。然而，检测固有无序区域需要应用特殊采样的分子动力学模拟以及相关生物信息学方法，因为常规计算和实验研究在识别固有紊乱特征方面面临挑战。方法：进行了副本交换分子动力学模拟，并结合生物信息学研究，以更深入地了解I-FABP的结构特性。具体而言，计算了Cα和Hα化学位移值，并将结果与实验进行了比较。此外，还计算了二级和三级结构特性，并使用k-means聚类对蛋白质进行了聚类分析。报告了蛋白质在水溶液介质中的端到端距离和回旋半径值。同时，利用多种生物信息学工具研究了其紊乱倾向。结果与结论：据报道，I-FABP是一种柔性蛋白质，具有表现出固有无序特征的区域。I-FABP的这种柔性和固有无序特性可能与其在配体结合过程中的性质相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38910419/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38910419/",
+  "paper_page_path": "papers/pubmed/38910419/index.html"
+}

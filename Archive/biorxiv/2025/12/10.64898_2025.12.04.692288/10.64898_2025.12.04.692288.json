@@ -1,0 +1,200 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.04.692288",
+  "title": "Native Mass Spectrometry Analysis of Cullin RING Ubiquitin E3 Ligase Complexes in the Context of Targeted Protein Degradation",
+  "doi": "10.64898/2025.12.04.692288",
+  "abstract": "The binding of PROTACs to their partner ubiquitin E3 ligase (E3) and a protein of interest (POI) is critical for PROTAC development and validation. Characterisation of PROTAC complexes by cryo-electron microscopy and X-ray crystallography is not always feasible, especially where species may be transient and protein structures may not resolve due to flexible domains or intrinsically disordered regions. More routine biophysical methods with broader applicability to varied samples is desirable to support the rapidly expanding targeted protein degradation field. The majority of PROTACs in development and in the clinic act through a Cullin RING E3 Ligase (CRL) of which the pentameric von Hippel-Lindau (VHL) Cullin 2 RING E3 complex (CRL2 VHL ) is the foundational example. Native mass spectrometry (nMS) can be used to characterise protein complexes but has not previously been used to characterise a full E3 or any E3-E2 interactions. Here, we show that CRL2 VHL is amenable to characterisation by nMS and its interactions with the other protein components integral to the targeted protein degradation mechanism can be observed. Specifically, we characterise binary, ternary and higher order complexes that comprise CRL2 VHL , including the multiprotein systems of POI-PROTAC-CRL2 VHL , CRL2 VHL -E2-Ub, and POI-PROTAC-CRL2 VHL -E2-Ub, all of which are essential in facilitating productive POI ubiquitination and degradation. We benchmarked the nMS with two POI examples (BRD4 BD2 and KRAS) with their respective PROTACs (MZ1 and ACBI3) and were able to observe all relevant complexes across both systems. We anticipate that our findings will open avenues for nMS to integrate as an alternative experimental method enabling scalable characterisation of the intricate high mass multiprotein interactions central to the PROTAC mechanism of action.",
+  "authors": [
+    "Sternicki LM",
+    "Crowe C",
+    "Wieske LHE",
+    "Ciulli A",
+    "Poulsen S"
+  ],
+  "published_date": "2025-12-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.04.692288",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.04.692288.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228841",
+    "raw_record": {
+      "id": "PPR1228841",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228841"
+        ]
+      },
+      "doi": "10.64898/2025.12.04.692288",
+      "title": "Native Mass Spectrometry Analysis of Cullin RING Ubiquitin E3 Ligase Complexes in the Context of Targeted Protein Degradation",
+      "authorString": "Sternicki LM, Crowe C, Wieske LHE, Ciulli A, Poulsen S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sternicki LM",
+            "lastName": "Sternicki",
+            "firstName": "Louise",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Biomedicine and Glycomics, , Gold Coast , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crowe C",
+            "lastName": "Crowe",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wieske LHE",
+            "lastName": "Wieske",
+            "firstName": "Lianne",
+            "initials": "LHE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ciulli A",
+            "lastName": "Ciulli",
+            "firstName": "Alessio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poulsen S",
+            "lastName": "Poulsen",
+            "firstName": "Sally-Ann",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Biomedicine and Glycomics, , Gold Coast , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The binding of PROTACs to their partner ubiquitin E3 ligase (E3) and a protein of interest (POI) is critical for PROTAC development and validation. Characterisation of PROTAC complexes by cryo-electron microscopy and X-ray crystallography is not always feasible, especially where species may be transient and protein structures may not resolve due to flexible domains or intrinsically disordered regions. More routine biophysical methods with broader applicability to varied samples is desirable to support the rapidly expanding targeted protein degradation field. The majority of PROTACs in development and in the clinic act through a Cullin RING E3 Ligase (CRL) of which the pentameric von Hippel-Lindau (VHL) Cullin 2 RING E3 complex (CRL2  VHL ) is the foundational example. Native mass spectrometry (nMS) can be used to characterise protein complexes but has not previously been used to characterise a full E3 or any E3-E2 interactions. Here, we show that CRL2  VHL is amenable to characterisation by nMS and its interactions with the other protein components integral to the targeted protein degradation mechanism can be observed. Specifically, we characterise binary, ternary and higher order complexes that comprise CRL2  VHL , including the multiprotein systems of POI-PROTAC-CRL2  VHL , CRL2  VHL -E2-Ub, and POI-PROTAC-CRL2  VHL -E2-Ub, all of which are essential in facilitating productive POI ubiquitination and degradation. We benchmarked the nMS with two POI examples (BRD4  BD2 and KRAS) with their respective PROTACs (MZ1 and ACBI3) and were able to observe all relevant complexes across both systems. We anticipate that our findings will open avenues for nMS to integrate as an alternative experimental method enabling scalable characterisation of the intricate high mass multiprotein interactions central to the PROTAC mechanism of action.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "311460",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.04.692288"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228841"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228841&type=FILE&fileName=EMS214578-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42378227",
+            "reference": "Analytical chemistry. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214578",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-04",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

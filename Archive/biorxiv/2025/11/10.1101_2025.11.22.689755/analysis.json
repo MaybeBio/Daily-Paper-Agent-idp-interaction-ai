@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.22.689755",
+  "title": "ZAKα is a sensor of mRNA stasis at the ribosomal exit channel",
+  "authors": "Vind AC; Martínez JF; Wu Z; Bugai A; Mordente K; Chen Q; Rasmussen M; He D; Svejstrup JQ; Jensen TH; Blasius M; Bekker-Jensen S",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-23",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究结合AlphaFold3预测与CLIP实验，揭示ZAKα通过直接结合核糖体蛋白和rRNA感知mRNA停滞的机制，虽涉及蛋白-蛋白互作和结构预测，但对象为核糖体相关蛋白而非无序蛋白/IDR，且无相分离或凝聚体背景，方法上AI预测仅作为辅助工具，机制建模深度有限。",
+  "abstract": "Despite a growing interest in the ribotoxic stress response (RSR), it remains unknown how the upstream p38 and JNK-activating MAP3 kinase ZAKα senses translational impairment. Combining Alphafold3 prediction and RNA crosslinking and immunoprecipitation (CLIP), we uncover that ZAKα dynamically monitors the mRNA exit channel of elongating ribosomes for mRNA stasis. This is accomplished by ZAKα via its direct interactions with the ribosomal proteins RACK1 and RPS27 as well as with the 18S rRNA helix-26. In this conformation, four mRNA-binding peptides in ZAKα span across the path of ribosome-exiting mRNA. Progressive elongation effectively threads ZAKα off the ribosome, while mRNA stasis stabilizes the interaction allowing for kinase activation. Prolonged binding of ZAKα to slow-elongating, stalled and collided ribosomes is associated with sequestration of the inhibitory SAM domain on RACK1, allowing for transient ZAKα dimerization, activation loop trans-autophosphorylation and RSR activation. We propose that compromised ribosome processivity constitutes a common ribotoxic stress signal and that ZAKα is a ribosome collision-agnostic sensor of such perturbations.",
+  "abstract_zh": "尽管人们对核糖体毒性应激反应（ribotoxic stress response, RSR）的兴趣日益浓厚，但上游p38和JNK激活的MAP3激酶ZAKα如何感知翻译损伤仍属未知。结合Alphafold3预测与RNA交联和免疫沉淀（crosslinking and immunoprecipitation, CLIP），我们发现ZAKα动态监测延伸中核糖体的mRNA出口通道以检测mRNA停滞。这一过程通过ZAKα与核糖体蛋白RACK1和RPS27以及18S rRNA螺旋26的直接相互作用实现。在此构象中，ZAKα中的四个mRNA结合肽段横跨核糖体出口mRNA的路径。渐进性延伸有效将ZAKα从核糖体上剥离，而mRNA停滞则稳定相互作用，从而允许激酶激活。ZAKα与慢延伸、停滞和碰撞核糖体的长时间结合与抑制性SAM结构域在RACK1上的隔离相关，从而允许ZAKα瞬时二聚化、激活环反式自磷酸化及RSR激活。我们提出，受损的核糖体加工性构成一种常见的核糖体毒性应激信号，而ZAKα是此类扰动的核糖体碰撞不可知传感器。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.22.689755",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.22.689755",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.22.689755/index.html"
+}

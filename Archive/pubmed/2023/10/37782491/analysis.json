@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37782491",
+  "title": "Biologically Representative Lipid-Coated Gold Nanoparticles and Phospholipid Vesicles for the Study of Alpha-Synuclein/Membrane Interactions.",
+  "authors": "McClain, Sophia M; Milchberg, Moses H; Rienstra, Chad M; Murphy, Catherine J",
+  "journal": "ACS nano",
+  "published_date": "2023-10-02",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用脂质包被金纳米颗粒和磷脂囊泡模拟突触囊泡，实验探究α-突触核蛋白（IDP）与膜模拟物的结合亲和力及构象变化，涉及IDP-膜互作但无AI/物理模拟方法，机制深度有限。",
+  "abstract": "Alpha-synuclein is an intrinsically disordered protein whose formation of beta-sheet-rich protein aggregates in the brain is implicated in the development of Parkinson's disease. Due to its believed role in synaptic vesicle trafficking and neurotransmission, many studies have employed simple, synthetic model systems to investigate alpha-synuclein/membrane interactions in an attempt to gain a better understanding of the protein's native and pathogenic functions. Interestingly, these studies seem to suggest that alpha-synuclein interacts differently with rigid vesicle mimics in comparison to malleable vesicle mimics. However, the use of different mimic sizes and surface chemistries across existing studies makes it challenging to directly compare the effects of membrane mechanical properties on protein behavior observed thus far. In this work, we developed a synaptic vesicle mimic library comprising a range of both malleable and rigid synaptic vesicle mimics possessing the same size and biologically representative lipid surface chemistry. Limited proteolysis mass spectrometry experiments revealed distinct fragmentation patterns between rigid and malleable synaptic vesicle mimics. The N-terminal and C-terminal regions of alpha-synuclein were found to become less solvent-accessible upon binding to all synaptic vesicle mimics. Nevertheless, minor variations in digestion pattern were observed in the central region of the protein dependent upon mimic size, rigidity, and lipid composition. Higher binding affinities were observed for alpha-synuclein binding to rigid synaptic vesicle mimics compared to malleable synaptic vesicle mimics. Additionally, the binding affinity of alpha-synuclein toward small lipid vesicles and small lipid-coated gold nanoparticles without cholesterol was found to be lower than that of their respective malleable and rigid counterparts. Interestingly, the binding curves for the rigid synaptic vesicle mimics demonstrated a nontraditional peak and dip shape believed to arise from differences in alpha-synuclein orientation on the particle surface at different protein-to-particle incubation ratios.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）是一种 intrinsically disordered protein（固有无序蛋白），其在大脑中形成富含β-折叠的蛋白质聚集体与帕金森病的发展相关。由于其被认为在突触囊泡运输和神经传递中发挥作用，许多研究采用简单、合成的模型系统来探究α-突触核蛋白/膜相互作用，以期更好地理解该蛋白的天然和致病功能。有趣的是，这些研究似乎表明，α-突触核蛋白与刚性囊泡模拟物的相互作用方式不同于与可塑性囊泡模拟物的相互作用。然而，现有研究中使用的模拟物尺寸和表面化学性质不同，使得直接比较膜力学特性对蛋白质行为的影响变得具有挑战性。在本工作中，我们开发了一个突触囊泡模拟物库，包含一系列具有相同尺寸和生物学代表性脂质表面化学性质的可塑性和刚性突触囊泡模拟物。有限蛋白水解质谱实验揭示了刚性和可塑性突触囊泡模拟物之间不同的片段化模式。发现α-突触核蛋白的N端和C端区域在结合所有突触囊泡模拟物后变得不易被溶剂接触。然而，在蛋白质中央区域观察到消化模式的微小变化，这取决于模拟物尺寸、刚性和脂质组成。与可塑性突触囊泡模拟物相比，α-突触核蛋白与刚性突触囊泡模拟物的结合亲和力更高。此外，发现α-突触核蛋白对不含胆固醇的小脂质囊泡和小脂质包被金纳米颗粒的结合亲和力低于其各自对应的可塑性和刚性对应物。有趣的是，刚性突触囊泡模拟物的结合曲线表现出非传统的峰和谷形状，这被认为源于在不同蛋白质与颗粒孵育比例下，α-突触核蛋白在颗粒表面取向的差异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37782491/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37782491/",
+  "paper_page_path": "papers/pubmed/37782491/index.html"
+}

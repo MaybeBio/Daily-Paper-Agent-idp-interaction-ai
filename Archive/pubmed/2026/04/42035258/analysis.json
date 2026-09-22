@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42035258",
+  "title": "An optimized contact map for GoMartini 3 enabling conformational changes in protein assemblies.",
+  "authors": "Olivos-Ramirez, Gustavo E; Cofas-Vargas, Luis F; Marrink, Siewert J; Poma, Adolfo B",
+  "journal": "Biophysical journal",
+  "published_date": "2026-04-26",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文优化GoMartini 3接触图以增强蛋白组装体构象变化采样，虽非直接研究IDR介导的PPI机制，但涉及无序蛋白且其粗粒化建模方法对IDR互作机制建模有可迁移启发。",
+  "abstract": "Advances in structural biology, particularly cryo-electron microscopy, have enabled high-resolution characterization of complex protein assemblies. These developments underscore the need for computational approaches capable of describing biologically relevant conformational changes over extended timescales. GoMartini 3 is a coarse-grained approach that demonstrates computational efficiency and versatility across several systems, from membrane-binding proteins and soluble proteins to intrinsically disordered proteins, while preserving key physicochemical features. In this work, we introduce an optimized approach that integrates dynamic contact information from all-atom molecular dynamics (AA-MD) simulations to refine the contact map in GoMartini simulations and select the AA-MD structure consistent with the refined map. Specifically, we define high-frequency contacts, which reduce the number of original Go contact set by  approximately 20%-30%, thereby improving the representation of conformational states beyond the original approach in Martini 3. Benchmarking different contact selection criteria revealed that including intra- and interchain high-frequency contacts in protein assemblies captures structural flexibility and domain dynamics. The method was tested on single-chain globular proteins and on the SARS-CoV-2 spike protein. Overall, the optimized contact map improves sampling efficiency and expands the accessible conformational landscape. The full framework is available as an open-source tool for large-scale simulations of protein assemblies.",
+  "abstract_zh": "结构生物学，特别是冷冻电子显微镜技术的进步，使得对复杂蛋白质组装体的高分辨率表征成为可能。这些发展凸显了对能够描述长时间尺度上生物学相关构象变化的计算方法的需求。GoMartini 3 是一种粗粒化方法，在多个系统中展现出计算效率和多功能性，涵盖膜结合蛋白、可溶性蛋白及 intrinsically disordered proteins（固有无序蛋白），同时保留关键理化特征。在本研究中，我们引入了一种优化方法，该方法整合来自全原子分子动力学 (all-atom molecular dynamics, AA-MD) 模拟的动态接触信息，以细化 GoMartini 模拟中的接触图，并选择与细化图一致的 AA-MD 结构。具体而言，我们定义了高频接触，这将原始 Go 接触集的数量减少约 20%-30%，从而在 Martini 3 中超越原始方法，改善了构象状态的表征。对不同接触选择标准的基准测试表明，在蛋白质组装体中包含链内和链间高频接触能够捕捉结构灵活性和结构域动力学。该方法在单链球状蛋白和 SARS-CoV-2 刺突蛋白上进行了测试。总体而言，优化后的接触图提高了采样效率，并扩展了可访问的构象景观。完整框架作为开源工具提供，适用于蛋白质组装体的大规模模拟。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42035258/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42035258/",
+  "paper_page_path": "papers/pubmed/42035258/index.html"
+}

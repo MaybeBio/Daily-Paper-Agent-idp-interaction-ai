@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "34292744",
+    "doi": "10.1021/acs.jpclett.1c01940",
+    "title": "Interplay between Kinetics and Dynamics of Liquid-Liquid Phase Separation in a Protein Solution Revealed by Coherent X-ray Spectroscopy."
+  },
+  "content": {
+    "abstract": "Microscopic dynamics of complex fluids in the early stage of spinodal decomposition (SD) is strongly intertwined with the kinetics of structural evolution, which makes a quantitative characterization challenging. In this work, we use X-ray photon correlation spectroscopy to study the dynamics and kinetics of a protein solution undergoing liquid-liquid phase separation (LLPS). We demonstrate that in the early stage of SD, the kinetics relaxation is up to 40 times slower than the dynamics and thus can be decoupled. The microscopic dynamics can be well described by hyper-diffusive ballistic motions with a relaxation time exponentially growing with time in the early stage followed by a power-law increase with fluctuations. These experimental results are further supported by simulations based on the Cahn-Hilliard equation. The established framework is applicable to other condensed matter and biological systems undergoing phase transitions and may also inspire further theoretical work.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "Kinetics",
+      "Phase Transition",
+      "Serum Albumin, Bovine/*chemistry",
+      "Solutions/chemistry",
+      "Spectrum Analysis/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ragulskaya, Anastasia",
+        "Begam, Nafisa",
+        "Girelli, Anita",
+        "Rahmann, Hendrik",
+        "Reiser, Mario",
+        "Westermeier, Fabian",
+        "Sprung, Michael",
+        "Zhang, Fajun",
+        "Gutt, Christian",
+        "Schreiber, Frank"
+      ],
+      "short_names": [
+        "Ragulskaya A",
+        "Begam N",
+        "Girelli A",
+        "Rahmann H",
+        "Reiser M",
+        "Westermeier F",
+        "Sprung M",
+        "Zhang F",
+        "Gutt C",
+        "Schreiber F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1426-7182",
+        "ORCID: 0000-0002-5391-8080",
+        "ORCID: 0000-0001-7639-8594",
+        "ORCID: 0000-0003-3659-6718"
+      ],
+      "affiliations": [
+        "Institut fur Angewandte Physik, Universitat Tubingen, Auf der Morgenstelle 10, 72076 Tubingen, Germany.",
+        "Institut fur Angewandte Physik, Universitat Tubingen, Auf der Morgenstelle 10, 72076 Tubingen, Germany.",
+        "Institut fur Angewandte Physik, Universitat Tubingen, Auf der Morgenstelle 10, 72076 Tubingen, Germany.",
+        "Department Physik, Universitat Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany.",
+        "Department Physik, Universitat Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany.",
+        "European X-ray Free-Electron Laser GmbH, Holzkoppel 4, 22869 Schenefeld, Germany.",
+        "Deutsches Elektronen-Synchrotron (DESY), Notkestrasse 85, 22607 Hamburg, Germany.",
+        "Deutsches Elektronen-Synchrotron (DESY), Notkestrasse 85, 22607 Hamburg, Germany.",
+        "Institut fur Angewandte Physik, Universitat Tubingen, Auf der Morgenstelle 10, 72076 Tubingen, Germany.",
+        "Department Physik, Universitat Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany.",
+        "Institut fur Angewandte Physik, Universitat Tubingen, Auf der Morgenstelle 10, 72076 Tubingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ragulskaya, Anastasia",
+        "short_name": "Ragulskaya A",
+        "identifiers": [
+          "0000-0002-1426-7182"
+        ],
+        "affiliations": [
+          "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Begam, Nafisa",
+        "short_name": "Begam N",
+        "identifiers": [
+          "0000-0002-5391-8080"
+        ],
+        "affiliations": [
+          "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Girelli, Anita",
+        "short_name": "Girelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rahmann, Hendrik",
+        "short_name": "Rahmann H",
+        "identifiers": [],
+        "affiliations": [
+          "Department Physik, Universität Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany."
+        ]
+      },
+      {
+        "full_name": "Reiser, Mario",
+        "short_name": "Reiser M",
+        "identifiers": [],
+        "affiliations": [
+          "Department Physik, Universität Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany.",
+          "European X-ray Free-Electron Laser GmbH, Holzkoppel 4, 22869 Schenefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Westermeier, Fabian",
+        "short_name": "Westermeier F",
+        "identifiers": [],
+        "affiliations": [
+          "Deutsches Elektronen-Synchrotron (DESY), Notkestrasse 85, 22607 Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sprung, Michael",
+        "short_name": "Sprung M",
+        "identifiers": [],
+        "affiliations": [
+          "Deutsches Elektronen-Synchrotron (DESY), Notkestrasse 85, 22607 Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fajun",
+        "short_name": "Zhang F",
+        "identifiers": [
+          "0000-0001-7639-8594"
+        ],
+        "affiliations": [
+          "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Gutt, Christian",
+        "short_name": "Gutt C",
+        "identifiers": [],
+        "affiliations": [
+          "Department Physik, Universität Siegen, Emmy-Noether-Campus, Walter-Flex-Strasse 3, 57072 Siegen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schreiber, Frank",
+        "short_name": "Schreiber F",
+        "identifiers": [
+          "0000-0003-3659-6718"
+        ],
+        "affiliations": [
+          "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2021 Aug 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/23 06:00",
+    "fetched_at": "2026-09-20 04:25:22"
+  },
+  "links": {
+    "cites": [
+      "39108815",
+      "37422480",
+      "37209106",
+      "36130930",
+      "35974741",
+      "35844477"
+    ],
+    "refs": [],
+    "similar": [
+      "34292744",
+      "33861109",
+      "30702291",
+      "18229962",
+      "27830221",
+      "30351336",
+      "21568529",
+      "35844477",
+      "35974741",
+      "20866623",
+      "17266278",
+      "28191978",
+      "19799444",
+      "20165773",
+      "22495288",
+      "33057154",
+      "21932852",
+      "30461282",
+      "32016274",
+      "36607608",
+      "35365630",
+      "24784282",
+      "19518467",
+      "24679215",
+      "25036860",
+      "23520980",
+      "35594491",
+      "26134248",
+      "32159553",
+      "16422632",
+      "21798376",
+      "30986043",
+      "29563232",
+      "16848611",
+      "36952287",
+      "20925346",
+      "19518187",
+      "25731912",
+      "25587698",
+      "29777928",
+      "20365347",
+      "20095710",
+      "33885306",
+      "32780038",
+      "29130090",
+      "22469064",
+      "30981223",
+      "19227352",
+      "25442776",
+      "21517328",
+      "11046461",
+      "26382361",
+      "25682837",
+      "21568517",
+      "17625327",
+      "33076025",
+      "27414502",
+      "36563221",
+      "35232197",
+      "20153454",
+      "12679863",
+      "24832129",
+      "31210243",
+      "22740596",
+      "22680486",
+      "3239774",
+      "33266660",
+      "7997110",
+      "16671718",
+      "15818586",
+      "3993937",
+      "37631531",
+      "24835564",
+      "24683603",
+      "27017836",
+      "18081088",
+      "10989128",
+      "14515204",
+      "26871173",
+      "17004835",
+      "24338205",
+      "26756795",
+      "22243009",
+      "29392269",
+      "15664895",
+      "20550406",
+      "23517326",
+      "18291660",
+      "9350519",
+      "31317157",
+      "17315914",
+      "20967837",
+      "18433253",
+      "26237070",
+      "32845947",
+      "18767826",
+      "18358034",
+      "29791154",
+      "24037907",
+      "24697457",
+      "16500977",
+      "18851056",
+      "23888123",
+      "35649847",
+      "18415042"
+    ],
+    "review": [
+      "34292744",
+      "22495288",
+      "20153454"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.1c01940",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

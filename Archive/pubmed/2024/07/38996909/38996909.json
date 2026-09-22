@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "38996909",
+    "doi": "10.1016/j.jmb.2024.168702",
+    "title": "The RNA-binding Selectivity of the RGG/RG Motifs of hnRNP U is Abolished by Elements Within the C-terminal Intrinsically Disordered Region."
+  },
+  "content": {
+    "abstract": "The abundant nuclear protein hnRNP U interacts with a broad array of RNAs along with DNA and protein to regulate nuclear chromatin architecture. The RNA-binding activity is achieved via a disordered  approximately 100 residue C-terminal RNA-binding domain (RBD) containing two distinct RGG/RG motifs. Although the RNA-binding capabilities of RGG/RG motifs have been widely reported, less is known about hnRNP U's RNA-binding selectivity. Furthermore, while it is well established that hnRNP U binds numerous nuclear RNAs, it remains unknown whether it selectively recognizes sequence or structural motifs in target RNAs. To address this question, we performed equilibrium binding assays using fluorescence anisotropy (FA) and electrophoretic mobility shift assays (EMSAs) to quantitatively assess the ability of human hnRNP U RBD to interact with segments of cellular RNAs identified from eCLIP data. These RNAs often, but not exclusively, contain poly-uridine or 5'-AGGGAG sequence motifs. Detailed binding analysis of several target RNAs reveal that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif. In contrast, the isolated RGG/RG of hnRNP U motif exhibits a strong preference for G-quadruplexes, similar to that observed for other RGG motif bearing peptides. These data reveal that the hnRNP U RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome. We propose that a critical role of RGG/RG motifs in RNA biology is to alter binding affinity or selectivity of adjacent RNA-binding domains.",
+    "keywords": [
+      "RNA G-quadruplex",
+      "RNA-binding proteins",
+      "RNase probing",
+      "fluorescence anisotropy",
+      "hnRNP U"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Heterogeneous-Nuclear Ribonucleoprotein U/metabolism/genetics",
+      "*Protein Binding",
+      "*RNA/metabolism/chemistry/genetics",
+      "RNA-Binding Motifs",
+      "Binding Sites",
+      "Electrophoretic Mobility Shift Assay",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Fluorescence Polarization",
+      "Amino Acid Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kletzien, Otto A",
+        "Wuttke, Deborah S",
+        "Batey, Robert T"
+      ],
+      "short_names": [
+        "Kletzien OA",
+        "Wuttke DS",
+        "Batey RT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: okletzien@wisc.edu.",
+        "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: Deborah.Wuttke@colorado.edu.",
+        "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: Robert.Batey@colorado.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kletzien, Otto A",
+        "short_name": "Kletzien OA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: okletzien@wisc.edu."
+        ]
+      },
+      {
+        "full_name": "Wuttke, Deborah S",
+        "short_name": "Wuttke DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: Deborah.Wuttke@colorado.edu."
+        ]
+      },
+      {
+        "full_name": "Batey, Robert T",
+        "short_name": "Batey RT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Colorado, Boulder, CO 80309-0596, USA. Electronic address: Robert.Batey@colorado.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Sep 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/13 07:44",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "42082810",
+      "41683903",
+      "41557786",
+      "40460159",
+      "39847338"
+    ],
+    "refs": [
+      "38329035",
+      "38222622",
+      "37540655",
+      "37037339",
+      "37002329",
+      "35921415",
+      "35101980",
+      "34823151",
+      "34738012",
+      "34614161",
+      "34515347",
+      "34320406",
+      "33170672",
+      "32813011",
+      "32762776",
+      "32728249",
+      "32510328",
+      "32234784",
+      "32201808",
+      "30581145",
+      "30256975",
+      "30247678",
+      "29981443",
+      "29913160",
+      "29800261",
+      "29677515",
+      "29677514",
+      "29284540",
+      "29077807",
+      "28622508",
+      "28575444",
+      "28510424",
+      "28093074",
+      "27594427",
+      "27571552",
+      "26883116",
+      "26374839",
+      "26286827",
+      "26150427",
+      "25494299",
+      "25365966",
+      "25199790",
+      "25030905",
+      "24251952",
+      "24213538",
+      "24129315",
+      "24077223",
+      "23746349",
+      "23521792",
+      "22863408",
+      "22344691",
+      "22325991",
+      "21878547",
+      "21642970",
+      "21098142",
+      "20932061",
+      "20833368",
+      "19812790",
+      "19477983",
+      "19458158",
+      "19427322",
+      "18579868",
+      "17569707",
+      "15701734",
+      "11780640",
+      "11719189",
+      "9341174",
+      "3486003",
+      "3129338",
+      "1737751",
+      "1628625",
+      "1324173"
+    ],
+    "similar": [
+      "38996909",
+      "38766111",
+      "38329035",
+      "37786719",
+      "28575444",
+      "1628625",
+      "8083209",
+      "37540655",
+      "32385154",
+      "29913160",
+      "30247678",
+      "7673195",
+      "9421497",
+      "30951406",
+      "15096513",
+      "19808671",
+      "26051023",
+      "39847338",
+      "21327109",
+      "29625167",
+      "24530421",
+      "10620016",
+      "40693919",
+      "41862773",
+      "27979648",
+      "9115444",
+      "25584704",
+      "40209951",
+      "33991007",
+      "40877262",
+      "7518245",
+      "24692659",
+      "22902625",
+      "21212361",
+      "23782695",
+      "41495908",
+      "7512260",
+      "10496225",
+      "8903344",
+      "1380452",
+      "21561087",
+      "19578763",
+      "12574161",
+      "32128583",
+      "19673543",
+      "23747316",
+      "16885237",
+      "41053545",
+      "12419255",
+      "7474099",
+      "35491929",
+      "41888191",
+      "23275549",
+      "39222785",
+      "12123807",
+      "11531333",
+      "12096904",
+      "7518244",
+      "9786934",
+      "40769718",
+      "31035352",
+      "26455390",
+      "9204873",
+      "23811339",
+      "7510636",
+      "11113151",
+      "26156556",
+      "26374839",
+      "15302914",
+      "33684393",
+      "9488731",
+      "8445653",
+      "11886857",
+      "3110598",
+      "34246632",
+      "23247503",
+      "11278705",
+      "34823151",
+      "15208309",
+      "22879910",
+      "11162094",
+      "24251952",
+      "32813011",
+      "38866324",
+      "41297729",
+      "30517002",
+      "40147776",
+      "19783816",
+      "29366917",
+      "9353343",
+      "25216038",
+      "9918842",
+      "28380354",
+      "29050934",
+      "28368279",
+      "26795062",
+      "11162095",
+      "15711563",
+      "26370582",
+      "21244633"
+    ],
+    "review": [
+      "38996909",
+      "29913160",
+      "29625167"
+    ],
+    "pmc": [
+      "11441334"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00311-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38996909/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

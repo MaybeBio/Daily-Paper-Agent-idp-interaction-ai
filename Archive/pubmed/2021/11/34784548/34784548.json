@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "34784548",
+    "doi": "10.1016/j.bpc.2021.106700",
+    "title": "Disorder-to-order transition of the amyloid-beta peptide upon lipid binding."
+  },
+  "content": {
+    "abstract": "There is mounting evidence that Alzheimer's disease progression and severity are linked to neuronal membrane damage caused by aggregates of the amyloid-beta (Abeta) peptide. However, the detailed mechanism behind the membrane damage is not well understood yet. Recently, the lipid-chaperone hypothesis has been put forward, based on which the formation of complexes between Abeta and free lipids enables an easy insertion of Abeta into membranes. In order to test this hypothesis, we performed numerous all-atom molecular dynamics simulations. We studied the complex formation between individual lipids, considering both POPC and DPPC, and Abeta and examined whether the resulting complexes would be able to insert into lipid membranes. Complex formation at a one-to-one ratio was readily observed, yet with minimal effects on Abeta's characteristics. Most importantly, the peptide remains largely disordered in 1:1 complexes, and the complex does not insert into the membrane; instead, it is adsorbed to the membrane surface. The results change considerably once Abeta forms a complex with a POPC cluster composed of three lipid molecules. The hydrophobic interactions between Abeta and the lipid tails cause the peptide to fold into either a helical or a beta-sheet structure. These observations provide atomic insight into the disorder-to-order transition that is needed for membrane insertion or amyloid aggregation to proceed.",
+    "keywords": [
+      "Amyloid-beta",
+      "Amyloid-lipid interactions",
+      "Binding-and-folding process",
+      "IDPs",
+      "MD simulations"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/metabolism",
+      "Amyloid",
+      "*Amyloid beta-Peptides/chemistry",
+      "Humans",
+      "Lipid Bilayers/chemistry",
+      "Molecular Dynamics Simulation",
+      "Peptide Fragments/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fatafta, Hebah",
+        "Kav, Batuhan",
+        "Bundschuh, Bastian F",
+        "Loschwitz, Jennifer",
+        "Strodel, Birgit"
+      ],
+      "short_names": [
+        "Fatafta H",
+        "Kav B",
+        "Bundschuh BF",
+        "Loschwitz J",
+        "Strodel B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, Universitutstrasse 1, 40225 Dusseldorf, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, Universitutstrasse 1, 40225 Dusseldorf, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, Universitutstrasse 1, 40225 Dusseldorf, Germany. Electronic address: b.strodel@fz-juelich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fatafta, Hebah",
+        "short_name": "Fatafta H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Kav, Batuhan",
+        "short_name": "Kav B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Bundschuh, Bastian F",
+        "short_name": "Bundschuh BF",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, Universitütstrasse 1, 40225 Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Loschwitz, Jennifer",
+        "short_name": "Loschwitz J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, Universitütstrasse 1, 40225 Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Strodel, Birgit",
+        "short_name": "Strodel B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, Universitütstrasse 1, 40225 Düsseldorf, Germany. Electronic address: b.strodel@fz-juelich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/17 06:00",
+    "fetched_at": "2026-09-20 06:32:34"
+  },
+  "links": {
+    "cites": [
+      "42168823",
+      "41129692",
+      "40641247",
+      "40426489",
+      "40143654",
+      "38540740",
+      "38449479",
+      "38404748",
+      "37894559",
+      "37555670",
+      "37510997",
+      "37487115",
+      "37241931",
+      "37124297",
+      "37082589",
+      "36857606",
+      "36128384",
+      "36073854",
+      "35628272",
+      "35580354",
+      "35255395",
+      "35213141",
+      "35209177",
+      "35191689",
+      "35129859",
+      "34944492"
+    ],
+    "refs": [],
+    "similar": [
+      "34784548",
+      "25581460",
+      "23493873",
+      "22108168",
+      "27884599",
+      "14698298",
+      "32557766",
+      "37510997",
+      "23951128",
+      "22217000",
+      "22242635",
+      "22874669",
+      "32846182",
+      "15681641",
+      "21192698",
+      "22975281",
+      "23998637",
+      "23515399",
+      "22138241",
+      "30021071",
+      "24597727",
+      "31655893",
+      "15800039",
+      "23688073",
+      "21692120",
+      "28585804",
+      "25406316",
+      "27936589",
+      "23904252",
+      "28367578",
+      "28342211",
+      "38259193",
+      "23855340",
+      "37329644",
+      "19186121",
+      "22413858",
+      "26947182",
+      "34544868",
+      "32541820",
+      "31566950",
+      "21769359",
+      "24702518",
+      "30813725",
+      "38109338",
+      "36174129",
+      "35984710",
+      "29299557",
+      "25029558",
+      "23588697",
+      "18706389",
+      "26097047",
+      "24566672",
+      "34915817",
+      "26934592",
+      "22468636",
+      "29953467",
+      "25397729",
+      "27602722",
+      "28154182",
+      "24244308",
+      "22281438",
+      "36995989",
+      "20603101",
+      "25137638",
+      "21740063",
+      "18186465",
+      "26871000",
+      "31657431",
+      "30605312",
+      "35269945",
+      "29386468",
+      "14709559",
+      "29900443",
+      "29390813",
+      "28162045",
+      "26646730",
+      "37486638",
+      "20483339",
+      "21722314",
+      "17052685",
+      "20428075",
+      "30120270",
+      "21910473",
+      "24567151",
+      "26426973",
+      "20816063",
+      "12915007",
+      "37409844",
+      "31474736",
+      "33375009",
+      "19995075",
+      "35306811",
+      "38928107",
+      "17382345",
+      "12044171",
+      "19807060",
+      "28910085",
+      "11302375",
+      "28564579",
+      "38751113",
+      "36115457",
+      "30763064",
+      "27091578",
+      "26816349",
+      "18053791",
+      "36990217",
+      "27056326",
+      "20602359",
+      "28817283",
+      "31073226",
+      "38636478",
+      "37582191",
+      "35687701",
+      "36082607",
+      "36602150",
+      "36121408",
+      "36974715",
+      "37906715",
+      "26453217",
+      "37216829",
+      "38128808",
+      "35745043",
+      "36848623",
+      "37228244",
+      "35492630",
+      "38079396",
+      "35476922",
+      "37820938",
+      "18925454",
+      "32469202",
+      "25494768",
+      "28979963",
+      "33727072",
+      "21918653",
+      "37035708",
+      "36134289",
+      "36260563",
+      "35424222",
+      "24353373"
+    ],
+    "review": [
+      "34784548",
+      "38109338",
+      "24566672",
+      "21722314",
+      "38928107",
+      "37228244"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(21)00183-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      }
+    ],
+    "text_mined": []
+  }
+}

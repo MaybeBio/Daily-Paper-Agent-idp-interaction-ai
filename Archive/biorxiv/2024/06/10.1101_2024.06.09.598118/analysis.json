@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.09.598118",
+  "title": "Interplay of kinetochores and catalysts drives rapid assembly of the mitotic checkpoint complex",
+  "authors": "Sethi S; Piano V; Ghetti S; Cmentowski V; Stege P; Musacchio A",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-09",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生化重构研究动粒如何催化有丝分裂检查点复合物(MCC)快速组装，涉及蛋白互作机制，但对象为折叠蛋白复合物而非无序蛋白/IDR/相分离，且方法为生化重构而非AI或物理模拟，仅机制思路有部分可迁移启发。",
+  "abstract": "The spindle assembly checkpoint (SAC) makes mitotic exit contingent on completion of sister chromatid biorientation, but how this coordination is achieved in practice remains poorly understood. Kinetochores, megadalton chromosome attachment sites to spindle microtubules, contribute to SAC signaling. However, it is unclear whether kinetochores are mere docking sites for SAC proteins, or further contribute to co-orientation of SAC catalysts, including MAD1:MAD2 and BUB1:BUB3, to facilitate SAC signaling. Here, we combined biochemical reconstitutions of kinetochores and the SAC to address this question in vitro . We engineered recombinant kinetochore particles that recruit most SAC components and activate SAC signaling after induction with Rapamycin, and challenged them with a battery of impairing mutants. At approximately physiological concentrations of SAC catalysts, kinetochores were crucially required for rapid assembly of the mitotic checkpoint complex (MCC), the SAC effector. Our observations depict kinetochores as a cradle that catalyzes rapid MCC assembly by concentrating and co-orienting distinct SAC catalysts.",
+  "abstract_zh": "纺锤体组装检查点（SAC）使有丝分裂退出依赖于姐妹染色单体双极定向的完成，但这一协调在实际中如何实现仍知之甚少。动粒（kinetochores）是染色体与纺锤体微管连接的兆道尔顿级附着位点，参与SAC信号传导。然而，尚不清楚动粒是否仅仅是SAC蛋白的对接位点，还是进一步促进SAC催化剂（包括MAD1:MAD2和BUB1:BUB3）的共定向以促进SAC信号传导。在此，我们结合动粒和SAC的生化重构，在体外解决这一问题。我们设计了重组动粒颗粒，这些颗粒能够招募大多数SAC组分，并在雷帕霉素诱导后激活SAC信号传导，并用一系列功能受损突变体对其进行挑战。在接近生理浓度的SAC催化剂条件下，动粒对于有丝分裂检查点复合物（MCC）——SAC效应器——的快速组装至关重要。我们的观察将动粒描绘为一个摇篮，通过浓缩和共定向不同的SAC催化剂来催化MCC的快速组装。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.09.598118",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.09.598118",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.09.598118/index.html"
+}

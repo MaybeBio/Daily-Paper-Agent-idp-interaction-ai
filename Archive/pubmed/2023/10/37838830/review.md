@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or methods were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare hydration water structure and dynamics on a folded protein (lysozyme) and an intrinsically disordered protein (SH4UD). They report similar radial distributions of first and second hydration shells, reduced tetrahedrality in the first shell for both proteins with a stronger reduction for lysozyme, an increased fraction of water molecules interacting with oxygen in the IDP first shell, independence of water ordering from IDP compactness, and a positive correlation between water residence times and IDP compactness attributed to pocket volume and polarity differences.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, trajectory analysis, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field validation, convergence criteria, statistical error analysis, figures, tables, and any quantitative data supporting the stated comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting comparative study of hydration water on a folded protein versus an IDP. The central claims are qualitatively stated but lack quantitative support in the provided material. The mechanistic interpretation linking water residence times to pocket volume and polarity is speculative without structural or kinetic data. The scientific premise is sound, but the evidence base is insufficient to evaluate technical rigor or the robustness of the conclusions.
+- **Who would be interested in the results, and why** Researchers in biophysics, protein hydration dynamics, intrinsically disordered protein biophysics, and molecular simulation communities. The work could inform understanding of how protein conformational disorder modulates water structure and dynamics, with relevance to IDP function and aggregation.
+- **Major strengths** The comparison between a folded protein and an IDP addresses a gap in hydration studies. The focus on tetrahedrality and oxygen interactions provides a molecular-level perspective. The distinction between structural ordering and dynamic residence times is conceptually useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that water molecules in the first hydration shell of both proteins are perturbed from bulk with a loss of tetrahedrality, more marked for lysozyme, and that this arises from an increased fraction of water molecules interacting with oxygen in the IDP.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative data, statistical uncertainties, or simulation convergence details are provided. The abstract states differences without reporting magnitudes, error bars, or significance tests. The causal link between oxygen-interacting water fraction and reduced tetrahedrality is asserted without a demonstrated correlation or mechanistic analysis.
+  - **Why it matters** Without quantitative evidence and error analysis, the reader cannot assess whether the reported differences are robust or within simulation noise. The causal interpretation requires supporting analysis, such as decomposition of tetrahedral order parameters by interaction type.
+  - **Resolution test** Provide numerical values for tetrahedral order parameters, oxygen-interacting fractions, and their uncertainties for both proteins and bulk water. Include a statistical test or bootstrap analysis demonstrating significance. Show a correlation or direct decomposition linking the oxygen fraction to tetrahedrality changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that water residence times in the first hydration shell increase with IDP compactness, linked to differential pocket volumes and polarities.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The relationship between compactness and residence times is stated as a finding, but no data on compactness measures, residence time distributions, or pocket properties are shown. The mechanistic link to pocket volume and polarity is speculative without structural characterization of the pockets.
+  - **Why it matters** The dynamic claim is central to the paper's novelty. Without quantitative residence time data and a clear definition of compactness, the conclusion cannot be evaluated. The pocket volume and polarity explanation requires direct measurement or correlation analysis.
+  - **Resolution test** Provide residence time autocorrelation functions or mean residence times for IDP conformations of varying compactness, with error estimates. Define the compactness metric (e.g., radius of gyration) and show a quantitative correlation. Characterize first-shell pockets by volume and polarity and demonstrate a statistical relationship with residence times.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall simulation-based comparison of hydration shells between lysozyme and SH4UD.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation details are given, including force field, water model, system size, simulation length, temperature, pressure, equilibration protocol, or number of replicas. Without these, the results cannot be reproduced or assessed for force field artifacts.
+  - **Why it matters** Molecular dynamics results for hydration are sensitive to force field and water model choices. The absence of methods prevents evaluation of whether the findings are system-specific or generalizable.
+  - **Resolution test** Include a methods section with full simulation parameters, force field citations, and validation against experimental data where available. State the number of independent simulations and convergence checks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of hydration shells
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract refers to first and second hydration shells but does not define the distance criteria used to assign water molecules to these shells.
+  - **Required correction** Specify the radial cutoff or integration criterion used to define the first and second hydration shells.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to bulk water
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states perturbation from bulk but does not specify how bulk water was defined or simulated in the same system.
+  - **Required correction** Clarify the bulk water reference state and whether it was taken from the same simulation box far from the protein or from a separate simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Water molecule ordering"
+  - **Evidence pointer** Title and abstract, location not provided
+  - **Issue** The term "ordering" is used without a precise definition, and the abstract focuses on tetrahedrality loss, which is a disordering effect.
+  - **Required correction** Define what is meant by ordering in the context of this study, and reconcile the title with the reported loss of tetrahedral order.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, statistical analysis, and simulation methods prevents verification of the central claims.
+- **Assessment against Nature-style criteria** Originality is moderate, as the comparison of IDP and folded protein hydration is a relatively underexplored area, but the conceptual framework is not novel. Scientific importance is potentially significant for IDP biophysics, but the abstract does not establish broader implications. Interdisciplinary readership is limited to biophysics and simulation specialists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable but relies on jargon such as tetrahedrality without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible findings, but the lack of quantitative and methodological detail precludes a supportive recommendation. A full manuscript with methods, data, and statistical analysis would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim that water ordering is independent of IDP compactness is unsupported, as no compactness variation data are shown.
+- The claim that residence time differences are linked to pocket volume and polarity is speculative without pocket characterization.
+- The claim that the increased oxygen-interacting water fraction explains the tetrahedrality difference is asserted without direct evidence.
+- The generalizability of the findings to other IDPs or experimental conditions is not assessable from the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41755733",
+  "title": "How do AI ensemble pipelines treat disorder? A head-to-head comparison on alpha-synuclein.",
+  "authors": "Coskuner-Weber, Orkid; Akkum, Fatma Irem; Caglayan, Sule Irem; Akbayrak, Ibrahim Yagiz; Uversky, Vladimir N; Eyuboglu, Sinan",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文以无序蛋白alpha-synuclein为对象，系统比较多种AI集成管线（AlphaFlow、AlphaFlow-MD、AFflecto、Ensemblify）对无序构象集合的预测能力，聚焦无序蛋白构象集合的机制建模，对象、互作（构象集合/聚集相关）与方法（AI+MD）三者齐备，且直接面向IDP的AI建模挑战，与课题高度契合。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play central roles in signalling, regulation, and disease, yet they remain a severe challenge for current artificial intelligence models of protein structure. Most methods were trained on ordered, single structure data and optimize objectives that implicitly favour compact, well-folded conformations. IDPs, by contrast, populate broad conformational ensembles and display heterogeneous, condition-dependent structures. We argue that IDPs provide a natural benchmark and development ground for the next generation of AI systems, including future artificial general intelligence (AGI) in biology. We summarize the basic biophysics of IDPs and survey existing AI approaches to protein structure and ensemble prediction. Because alpha-synuclein misfolding and aggregation are central to Parkinson's disease, we focus on alpha-synuclein, an IDP, as our primary system. We evaluate four ensemble generation pipelines, AlphaFlow, AlphaFlow-MD, AFflecto, and Ensemblify, using contact-probability maps, radii of gyration, and secondary-structure statistics. The analysis reveals systematic tendencies of structure prediction-inspired models to over stabilize compact, helical states, while ensemble aware approaches recover expanded, coil-rich conformations characteristic of disorder. We discuss how such case studies can be turned into quantitative benchmarks for AI models, and outline design principles for future systems that reason natively in terms of ensembles, dynamics, and experimental observables. Finally, we highlight open questions and opportunities at the interface of IDP biology, molecular simulation, and intelligent modelling.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在信号传导、调控和疾病中发挥核心作用，然而它们对当前人工智能蛋白质结构模型构成了严峻挑战。大多数方法基于有序、单一结构数据进行训练，并优化隐含偏好紧凑、良好折叠构象的目标函数。相比之下，IDPs 填充广泛的构象集合，并表现出异质性、条件依赖的结构。我们认为 IDPs 为下一代人工智能系统（包括未来生物学领域的人工通用智能 (AGI)）提供了天然的基准测试和发展平台。我们总结了 IDPs 的基本生物物理学特性，并综述了现有的蛋白质结构和集合预测的人工智能方法。由于α-突触核蛋白的错误折叠和聚集是帕金森病的核心机制，我们以α-突触核蛋白（一种 IDP）作为主要研究系统。我们使用接触概率图、回转半径和二级结构统计量，评估了四种构象集合生成流程：AlphaFlow、AlphaFlow-MD、AFflecto 和 Ensemblify。分析揭示了结构预测启发模型倾向于过度稳定紧凑的螺旋状态，而集合感知方法则恢复出无序特征所特有的扩展、富集无规卷曲的构象。我们讨论了如何将这些案例研究转化为人工智能模型的定量基准，并概述了未来系统设计原则，这些系统应原生地基于集合、动力学和实验可观测值进行推理。最后，我们强调了 IDP 生物学、分子模拟和智能建模交叉领域中的开放问题与机遇。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41755733/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41755733/",
+  "paper_page_path": "papers/pubmed/41755733/index.html"
+}

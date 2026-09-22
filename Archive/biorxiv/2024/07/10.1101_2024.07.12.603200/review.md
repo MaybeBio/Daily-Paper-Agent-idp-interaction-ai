@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a conformational fingerprint distinguishing amyloidogenic light chains (AL) from multiple myeloma (MM) light chains, based on small-angle X-ray scattering (SAXS), molecular dynamics (MD) simulations, and hydrogen-deuterium exchange mass spectrometry (HDX-MS). They report that AL light chains show a slightly larger radius of gyration, enhanced conformational dynamics, and a distinct low-populated straight conformation (H state) that increases solvent accessibility at the variable-constant domain interface, validated by HDX-MS.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical analyses, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, SAXS data and fitting details, MD simulation parameters and convergence criteria, HDX-MS experimental protocols and reproducibility metrics, sequence information for the six light chains, and any statistical comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis that conformational dynamics, rather than static structure, may distinguish AL from MM light chains. The integration of SAXS, MD, and HDX-MS is a reasonable multi-technique approach. However, the evidence base is extremely limited. The study includes only six light chains (four AL, two MM), and no quantitative results, error estimates, or statistical tests are reported in the abstract. The claim of a distinct H state is central but its population, structural definition, and validation strength cannot be assessed from the provided material. The abstract is clearly written and the conceptual framing is appealing, but the scientific case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers in protein misfolding and amyloidosis, structural biologists studying immunoglobulin domains, and computational biophysicists interested in conformational ensembles. Clinicians and drug developers targeting AL amyloidosis may also find the proposed structural target relevant, though the translational implications are preliminary.
+- **Major strengths** The study addresses a clinically important and mechanistically unresolved problem, namely why AL light chains aggregate while MM light chains remain soluble. The use of native-condition SAXS combined with MD simulations is a thoughtful approach to capture conformational dynamics. The proposed H state offers a concrete and testable structural hypothesis that could reconcile prior biochemical observations. The multi-technique validation strategy, including HDX-MS, is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical power and generalizability
+  - **Claim pointer** The abstract claims a conformational fingerprint distinguishing AL from MM light chains based on four AL and two MM samples.
+  - **Evidence pointer** Abstract, sample description
+  - **Concern** The sample size is very small, with only six light chains total and an imbalanced design (four AL versus two MM). Given the high sequence variability of light chains, it is unclear whether the observed differences reflect a general AL-specific property or are idiosyncratic to the particular clones selected.
+  - **Why it matters** A fingerprint implies a robust and generalizable distinction. With such limited sampling, the risk of overfitting to specific sequences is high, and the conclusions may not extend to the broader population of AL and MM light chains.
+  - **Resolution test** Provide a clear rationale for sample selection, include additional light chains to demonstrate reproducibility, and report effect sizes with confidence intervals or statistical tests comparing the two groups.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence for the H state
+  - **Claim pointer** The abstract states that AL light chains display a distinct, low-populated, straight conformation (H state) that maximizes solvent accessibility at the interface between constant and variable domains, and that HDX-MS experimentally validated this state.
+  - **Evidence pointer** Abstract, results description
+  - **Concern** No quantitative information is provided about the population of the H state, its structural definition, or the degree of solvent accessibility change. The claim that HDX-MS validated the H state is stated without any data, such as protection factors, exchange rate differences, or comparison to controls.
+  - **Why it matters** The H state is the central novel finding and the proposed drug target. Without quantitative population estimates and direct experimental evidence linking HDX-MS patterns to the specific conformation, the claim remains unsupported.
+  - **Resolution test** Report the population fraction of the H state from MD simulations with error bars, show representative structures, and present HDX-MS data that quantitatively match the predicted solvent accessibility changes, including statistical comparison between AL and MM light chains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological integration and validation
+  - **Claim pointer** The abstract claims that SAXS data integrated with MD simulations revealed a conformational ensemble with multiple states, and that AL light chains show greater deviations from crystallographic or predicted structures.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** The abstract does not describe how SAXS data were used to guide or validate the MD simulations. It is unclear whether the MD ensembles were refined against SAXS profiles, whether the simulations were unbiased, or whether the observed deviations are statistically significant given experimental noise.
+  - **Why it matters** The integration of SAXS and MD is a key methodological strength, but the abstract does not establish the rigor of this integration. Without clarity on the fitting procedure, uncertainty quantification, and cross-validation, the conformational ensemble may be overinterpreted.
+  - **Resolution test** Describe the SAXS-guided MD approach, report goodness-of-fit metrics (e.g., chi-squared values), and show that the ensemble reproduces the experimental SAXS profiles within error for all six light chains.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** H state definition
+  - **Evidence pointer** Abstract, results description
+  - **Issue** The term "H state" is introduced without explanation of the naming convention or a structural definition beyond "straight."
+  - **Required correction** Define the H state explicitly, for example by describing the interdomain angle or the specific structural criteria used to classify conformations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clinical relevance framing
+  - **Affected element** Translational implications
+  - **Evidence pointer** Abstract, concluding statement
+  - **Issue** The abstract claims the H state provides a "precise structural target for future drug design efforts," but no evidence is presented that modulating this state would alter aggregation or toxicity.
+  - **Required correction** Soften the claim to indicate that the H state is a candidate target requiring functional validation, or provide preliminary data linking the H state to aggregation propensity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility of sample description
+  - **Affected element** Light chain characterization
+  - **Evidence pointer** Abstract, sample description
+  - **Issue** The abstract does not specify the source or sequence features of the six light chains, such as germline gene usage or post-translational modifications, which are known to influence light chain behavior.
+  - **Required correction** Include a brief description of the light chain origins and key sequence features, or refer to a table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of a generalizable fingerprint and a validated H state cannot be assessed from the abstract alone. R1-M3 is important but not blocking if the full manuscript provides adequate methodological detail.
+- **Assessment against Nature-style criteria** Originality: The concept of a conformational fingerprint based on dynamics is a fresh angle on a long-standing problem, and the H state is a novel proposal. Scientific importance: The question is clinically relevant, and a robust fingerprint could aid diagnosis or therapy, but the current evidence is too preliminary to establish importance. Interdisciplinary readership: The work bridges structural biology, biophysics, and clinical amyloidosis, which could appeal to a broad audience if the evidence is compelling. Technical soundness: The multi-technique approach is sound in principle, but the abstract provides no quantitative validation, so technical soundness cannot be confirmed. Readability for nonspecialists: The abstract is accessible and clearly written, with jargon kept to a reasonable level.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and the approach is promising, but the abstract alone does not provide sufficient quantitative or statistical support for the central claims. A full review of the manuscript would be needed to assess whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of a "conformational fingerprint" distinguishing AL from MM light chains is unsupported given the small sample size and lack of statistical analysis.
+- The existence and population of the H state are unsupported without quantitative structural and population data.
+- The statement that HDX-MS validated the H state is unsupported without experimental details and data.
+- The claim that the H state is a "precise structural target for drug design" is unsupported and overreaches the presented evidence.
+- The assertion that AL light chains show "greater deviations" from crystallographic or predicted structures is unquantified and cannot be evaluated.

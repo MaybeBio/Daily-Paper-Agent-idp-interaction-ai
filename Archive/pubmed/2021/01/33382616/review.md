@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors test six modern biomolecular force field/water model combinations for simulating the intrinsically disordered transactivation domain of c-Myb, both free and bound to the KIX domain. They report that ff99SB-disp best reproduces experimental CD spectra and secondary chemical shifts for the free form, that several other force fields yield mildly helical ensembles with residue-specific discrepancies, and that all force fields preserve a stable helix in the complex but predict interface distances exceeding some NMR-derived NOE bounds. They conclude that ff99SB-disp, and to a lesser extent CHARMM36m, ff99SB*-ILDNP with TIP4P-D, and FB15, are suitable for future studies of coupled folding and binding.
+- **Visible evidence base** Abstract text only; no quantitative data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, convergence criteria, error estimates, experimental data processing details, and force field parameter specifics
+
+## Reviewer
+- **Overall assessment** The abstract presents a systematic and potentially valuable comparison of six force fields for an IDP system of biological relevance. The study design is appropriate in scope, and the conclusion that ff99SB-disp performs best is plausible. However, the abstract alone provides insufficient quantitative evidence to assess the robustness of the claims. Key limitations include the absence of numerical agreement metrics, uncertainty estimates, and details on how "mildly helical" and "slightly differ" are defined. The claim that certain force fields are "suitable choices" is not fully supported without convergence and statistical validation data.
+- **Who would be interested in the results, and why** Researchers in molecular simulation methodology, particularly those studying intrinsically disordered proteins, coupled folding and binding mechanisms, and force field development. The comparative benchmarking approach is directly relevant to practitioners selecting force fields for IDP simulations, and the specific focus on the KIX/c-Myb system will interest biophysicists studying transcriptional regulation.
+- **Major strengths** The study addresses a timely and practically important question in the simulation community, namely which modern force fields are reliable for IDPs. The systematic comparison across six force field/water model combinations is comprehensive. The use of multiple experimental observables (CD spectra, secondary chemical shifts, NOE-derived distances) provides a multi-faceted validation strategy. The inclusion of both free and bound states is a notable strength, as it tests force field performance in two distinct conformational regimes.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "the ff99SB-disp force field can realistically capture the broad and mildly helical structural ensemble of free c-Myb"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim that ff99SB-disp "realistically captures" the ensemble is stated without any quantitative measure of agreement with experimental CD spectra or secondary chemical shifts. No numerical values, statistical metrics, or error bars are provided. The term "realistically" implies a level of accuracy that cannot be assessed from the abstract alone.
+  - **Why it matters** Without quantitative agreement metrics, the reader cannot judge whether the performance of ff99SB-disp is meaningfully better than the other force fields or whether the differences are within statistical noise. This is central to the paper's main conclusion.
+  - **Resolution test** Provide quantitative agreement metrics (e.g., RMSD of chemical shifts, chi-squared values for CD spectra) with associated uncertainties, and demonstrate that ff99SB-disp outperforms other force fields by a statistically significant margin.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "all force fields predict a KIX/c-Myb complex interface that differs slightly from the structures provided by NMR because several NOE-derived distances between KIX and c-Myb were exceeded in the simulations"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The statement that the interface "differs slightly" is vague and not supported by quantitative data. The number of exceeded NOE distances, the magnitude of violations, and the structural significance of these deviations are not reported. Without this information, it is impossible to determine whether the differences are minor or functionally relevant.
+  - **Why it matters** The accuracy of the bound-state interface is critical for the claim that these force fields are suitable for studying coupled folding and binding. If the interface deviations are substantial, the suitability claim is weakened.
+  - **Resolution test** Report the number and magnitude of NOE violations for each force field, and provide a structural analysis (e.g., RMSD of the interface region) to quantify the deviation from the NMR structures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "REST2-enhanced sampling simulations" and "microsecond-timescale MD simulations"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given on simulation lengths, number of replicas, convergence criteria, or statistical sampling quality. For IDP simulations, inadequate sampling is a common pitfall that can lead to misleading conclusions about force field performance.
+  - **Why it matters** Without evidence of convergence, the observed differences between force fields could be artifacts of insufficient sampling rather than genuine force field effects. This undermines the reliability of all comparative claims.
+  - **Resolution test** Provide convergence metrics (e.g., block averaging, replica exchange acceptance rates, time evolution of observables) and demonstrate that all reported quantities are converged within statistical uncertainty.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Force field list
+  - **Evidence pointer** Abstract text
+  - **Issue** The list of force fields is presented in a dense, run-on manner that is difficult to parse. The relationship between ff99SB-disp and its water model is described parenthetically, which may confuse readers.
+  - **Required correction** Present the force field/water model combinations as a clear enumerated list or table, with each combination explicitly stated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "mildly helical"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "mildly helical" is used repeatedly but not defined. It is unclear what helical fraction or secondary structure content this corresponds to.
+  - **Required correction** Define "mildly helical" quantitatively (e.g., percent helicity range) or replace with a more precise descriptor.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field performance ranking
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that CHARMM36m, ff99SB*-ILDNP with TIP4P-D, and FB15 "can be assigned a specific subset of c-Myb residues for which the simulations could not reproduce the experimental secondary chemical shifts," but does not indicate whether these subsets are large or small, or whether they overlap between force fields.
+  - **Required correction** Provide a brief indication of the size and nature of these residue subsets, or refer to a figure that displays them.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation metrics, NOE violation details, and convergence evidence means the core claims of force field suitability are not yet established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The systematic comparison of six modern force fields on a single IDP system with both free and bound states is a useful contribution, though not unprecedented in the field. The specific focus on the KIX/c-Myb system adds biological relevance.
+  - **Scientific importance** The question of force field reliability for IDPs is of high importance to the simulation community. However, the abstract does not demonstrate that the findings substantially advance current knowledge beyond existing force field benchmarks.
+  - **Interdisciplinary readership** The topic is primarily of interest to computational biophysicists and physical chemists. The abstract is written in a way that is accessible to this audience but may be less engaging for a broader readership.
+  - **Technical soundness** The methodological approach is sound in principle, but the abstract lacks the quantitative detail needed to assess technical rigor. The absence of convergence and error analysis is a significant gap.
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terminology (e.g., REST2, NOE, chemical shifts) without explanation, which limits accessibility for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative support for the main claims. A revised version with detailed validation metrics, convergence analysis, and clearer definitions would be needed to assess suitability for publication.
+
+## Risk / unsupported claims
+- The claim that ff99SB-disp "realistically captures" the free c-Myb ensemble is unsupported without quantitative agreement metrics.
+- The claim that the KIX/c-Myb interface "differs slightly" from NMR structures is unsupported without NOE violation statistics and structural comparison data.
+- The claim that specific force fields are "suitable choices for future simulation studies" is not fully supported without evidence of sampling convergence and statistical robustness.
+- The relative performance ranking of the six force fields cannot be assessed from the abstract alone, as no comparative numerical data are provided.

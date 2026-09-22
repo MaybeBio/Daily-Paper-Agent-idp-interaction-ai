@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that the conserved region (CR, residues 319–341) of the TDP-43 C-terminal domain (CTD) forms dynamic, helix-mediated higher-order oligomers (tetramers) that are functionally important for phase separation and nuclear retention, and that these assemblies are stabilized by a methionine-rich core with contributions from W334 and L330.
+- **Visible evidence base** NMR spectroscopy (chemical shifts, CSPs, relaxation, NOEs, sPRE), sedimentation velocity analytical ultracentrifugation (SV-AUC), alanine-scanning mutagenesis with phase separation assays, AlphaFold2-Multimer predictions, all-atom MD simulations, and cell-based nuclear localization assays
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; detailed experimental parameters for some assays (e.g., microscopy quantification, cell fractionation validation) not fully described; raw data and statistical details for several key comparisons not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the structural basis of TDP-43 CTD multimerization, a process central to both normal function and disease pathology. The integrative approach combining experimental and computational methods is commendable and appropriate for studying a dynamic, partially disordered system. The authors provide compelling evidence that the CR is α-helical under physiological conditions and that specific residues modulate phase separation and nuclear retention. However, the central structural claim—that specific tetrameric models represent the native multimeric state—is not fully established from the data presented. The computational models are low-confidence and the experimental validation is largely indirect. The correlation between simulation contacts and mutagenesis data is moderate and does not uniquely discriminate between the proposed tetramer models or alternative assemblies. The manuscript would be strengthened by more direct experimental evidence for the tetrameric state and by clearer presentation of how the models are validated against all available data.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodegeneration (ALS, FTD, LATE), phase separation and membraneless organelles, intrinsically disordered proteins, and protein self-assembly. The findings have implications for understanding TDP-43 function and dysfunction, and for designing therapeutic strategies targeting TDP-43 aggregation.
+- **Major strengths** 1) The study addresses a critical gap in understanding TDP-43 CTD structure and function. 2) The integrative approach is well-suited for studying dynamic protein assemblies. 3) The NMR evidence for α-helical structure under physiological conditions directly addresses a recent controversy. 4) The alanine-scanning mutagenesis provides a systematic and valuable dataset linking specific residues to phase separation. 5) The connection between CTD assembly and nuclear retention is functionally important and clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validation
+  - **Claim pointer** "we established atomic-level structural models of TDP-43 CR multimeric assemblies observed in SV-AUC experiments" and "AAMD simulations reveal the tetrameric helical assembly of TDP-43 CR"
+  - **Evidence pointer** Results section "AAMD simulations reveal the tetrameric helical assembly of TDP-43 CTD", Figures 5, S8
+  - **Concern** The central claim that specific tetrameric models (Tet-1, Tet-2) represent the native multimeric state is not sufficiently supported. The AF2-Multimer predictions have notably low confidence scores, and the authors acknowledge that the predicted structures contain major clashes. The MD simulations show that Tet-1 and Tet-2 are more stable than Tet-3, but this does not establish that these are the biologically relevant assemblies. The validation against experimental data is indirect: the correlation between per-residue contacts and csat is moderate (r=0.7), and the NOE data are only qualitatively consistent with the models. The authors do not demonstrate that alternative oligomeric arrangements or different tetrameric conformations are inconsistent with the experimental data.
+  - **Why it matters** The structural models are the central deliverable of the paper and are used to rationalize the effects of disease mutations and to propose therapeutic strategies. If the models are not uniquely validated, the mechanistic conclusions drawn from them are not secure.
+  - **Resolution test** The authors should provide a more rigorous validation of the proposed tetramer models. This could include: (1) explicit testing of whether the experimental NOEs and sPRE data can discriminate between Tet-1, Tet-2, and other possible assemblies (e.g., by calculating expected NOEs from each model and comparing to experimental data); (2) demonstrating that the models are consistent with all available experimental data, not just qualitatively but quantitatively where possible; (3) providing evidence that the tetrameric state is populated under the experimental conditions used for structural measurements (e.g., by showing that the NMR and AUC data are consistent with a tetrameric species).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for higher-order oligomers
+  - **Claim pointer** "TDP-43 CTD forms higher-order oligomers" and "SV-AUC data of the solubilized S→E dimers also suggest the formation of high-order oligomers"
+  - **Evidence pointer** Results section "TDP-43 CTD forms higher-order oligomers", Figures 3, S6, S7
+  - **Concern** The SV-AUC data are presented as evidence for higher-order oligomers, but the interpretation is complicated by the use of engineered cross-linked dimers. The WT CTD data show only a monomer-dimer equilibrium, with no clear evidence for higher-order species. The higher-order oligomers are only observed for the S→E S305C cross-linked dimer, which is a non-native construct. The authors argue that this construct preserves the fundamental features of the CR, but this is based on simulation and indirect NMR comparisons. The possibility that the cross-linking or the S→E mutations alter the assembly pathway cannot be excluded. The claim that the observed oligomers are "mediated by the helical region" is supported by the A326P control, but this only shows that the helix is necessary, not that the specific tetrameric models are correct.
+  - **Why it matters** The existence of higher-order oligomers is a key claim of the paper and is used to support the functional significance of the proposed tetrameric assembly. If the evidence for these oligomers is only obtained with engineered constructs, the physiological relevance is uncertain.
+  - **Resolution test** The authors should provide evidence for higher-order oligomers under more native conditions. This could include: (1) SV-AUC or other biophysical measurements on WT CTD at higher concentrations or with other solution conditions that favor assembly; (2) demonstration that the S→E mutations do not fundamentally alter the assembly mechanism (e.g., by showing that the same oligomeric species are observed with a different solubilizing strategy); (3) validation of the oligomeric state in cells or in more complex mixtures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of specific residues
+  - **Claim pointer** "polar residues down regulate these processes" and "W334 and L330 form an extended hydrophobic patch, enhancing the overall stability of the complex"
+  - **Evidence pointer** Results section "Alanine-scanning mutagenesis within TDP-43 CR reveal key residues in phase separation", Figures 2, S1
+  - **Concern** The alanine-scanning data are valuable, but the interpretation that polar residues "down regulate" phase separation is based on csat measurements that may not fully capture the complexity of phase behavior. The authors do not provide a mechanistic explanation for how polar residues down-regulate assembly, and the connection between the mutagenesis data and the specific structural models is not direct. The claim that W334 and L330 form a "hydrophobic patch" is based on the simulation models, which are not fully validated (see R1-M1). The functional significance of these residues is supported by the nuclear localization data, but only for a subset of variants.
+  - **Why it matters** The paper proposes a specific structural mechanism for how the CR mediates assembly and how mutations disrupt it. If the link between the structural models and the functional data is not clear, the mechanistic conclusions are weakened.
+  - **Resolution test** The authors should provide a more direct link between the structural models and the functional data. This could include: (1) testing the predictions of the models by making specific mutations predicted to disrupt or enhance specific contacts and measuring their effects on assembly and phase separation; (2) using the models to explain the effects of disease mutations beyond M337V; (3) providing a more quantitative analysis of how the mutagenesis data relate to the contact maps from the simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results sections
+  - **Issue** The abstract and some results sections are dense and use technical jargon without sufficient context for a general reader. For example, the term "helix-helix contacts" is used without explaining why these are important or how they are detected.
+  - **Required correction** Consider adding a brief explanation of key concepts (e.g., what helix-helix contacts are and why they matter) in the introduction or results. Define abbreviations and terms at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figures
+  - **Evidence pointer** Results sections on phase separation and nuclear localization
+  - **Issue** The manuscript reports csat values and nuclear/cytoplasmic ratios but does not consistently provide error bars, number of replicates, or statistical tests for these measurements.
+  - **Required correction** Add error bars and statistical analysis to all quantitative comparisons. State the number of independent replicates for each measurement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, NMR spectroscopy
+  - **Issue** The NMR methods section is brief and does not provide sufficient detail for reproduction. For example, the specific pulse sequences used for the NOE experiments are not described, and the processing parameters are not fully specified.
+  - **Required correction** Expand the NMR methods to include details on pulse sequences, acquisition parameters, and processing steps. Consider providing a table of NMR experiments and their key parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation results
+  - **Affected element** Results, AAMD simulations
+  - **Evidence pointer** Results section "AAMD simulations reveal the tetrameric helical assembly of TDP-43 CTD"
+  - **Issue** The authors state that the simulations show "increased local helicity and rigidity" upon oligomerization, but the quantitative measures of helicity and rigidity are not clearly defined or presented.
+  - **Required correction** Define how helicity and rigidity are measured in the simulations and provide quantitative values (e.g., percent helicity, RMSF) for the monomer, dimer, and tetramer states.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion/Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The authors do not explicitly discuss the limitations of their approach, particularly the low confidence of the AF2-Multimer predictions and the use of engineered constructs.
+  - **Required correction** Add a paragraph discussing the limitations of the computational models and the potential impact of the engineered mutations on the conclusions.
+
+## Risk / unsupported claims
+- The specific tetrameric structural models (Tet-1, Tet-2) are presented as representative of the native TDP-43 CR multimeric state, but the validation is indirect and the models are not uniquely determined by the data.
+- The claim that the observed higher-order oligomers are "mediated by the helical region" is supported by the A326P control, but the physiological relevance of the engineered cross-linked dimers is not fully established.
+- The statement that "polar residues down regulate" phase separation is based on csat measurements that may not capture the full complexity of phase behavior, and the mechanistic basis for this effect is not provided.
+- The claim that the region spanning G335-Q343 is structured in the tetramer and that this explains its conservation is speculative and not directly tested.
+- The suggestion that stabilizing the helical assembly could be a therapeutic avenue is speculative and not supported by any experimental evidence in this manuscript.

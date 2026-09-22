@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "37200094",
+    "doi": "10.1021/acs.jpcb.3c01619",
+    "title": "The Analytical Flory Random Coil Is a Simple-to-Use Reference Model for Unfolded and Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Denatured, unfolded, and intrinsically disordered proteins (collectively referred to here as unfolded proteins) can be described using analytical polymer models. These models capture various polymeric properties and can be fit to simulation results or experimental data. However, the model parameters commonly require users' decisions, making them useful for data interpretation but less clearly applicable as stand-alone reference models. Here we use all-atom simulations of polypeptides in conjunction with polymer scaling theory to parameterize an analytical model of unfolded polypeptides that behave as ideal chains (nu = 0.50). The model, which we call the analytical Flory random coil (AFRC), requires only the amino acid sequence as input and provides direct access to probability distributions of global and local conformational order parameters. The model defines a specific reference state to which experimental and computational results can be compared and normalized. As a proof-of-concept, we use the AFRC to identify sequence-specific intramolecular interactions in simulations of disordered proteins. We also use the AFRC to contextualize a curated set of 145 different radii of gyration obtained from previously published small-angle X-ray scattering experiments of disordered proteins. The AFRC is implemented as a stand-alone software package and is also available via a Google Colab notebook. In summary, the AFRC provides a simple-to-use reference polymer model that can guide intuition and aid in interpreting experimental or simulation results.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Peptides/chemistry",
+      "Molecular Conformation",
+      "Amino Acid Sequence",
+      "Polymers",
+      "Protein Conformation",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alston, Jhullian J",
+        "Ginell, Garrett M",
+        "Soranno, Andrea",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Alston JJ",
+        "Ginell GM",
+        "Soranno A",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alston, Jhullian J",
+        "short_name": "Alston JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Ginell, Garrett M",
+        "short_name": "Ginell GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Jun 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/18 19:12",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "42089187",
+      "41717132",
+      "41708867",
+      "41565673",
+      "41432303",
+      "41415459",
+      "41254233",
+      "41232529",
+      "40975059",
+      "40856697",
+      "40317235",
+      "40161645",
+      "39589885",
+      "38915483",
+      "38664421",
+      "38639141",
+      "38615193",
+      "38501490",
+      "38358120",
+      "38297184",
+      "37463458",
+      "37348142"
+    ],
+    "refs": [
+      "38177684",
+      "37463458",
+      "37079924",
+      "36518077",
+      "35948766",
+      "35853451",
+      "35795820",
+      "35119946",
+      "34931046",
+      "34759379",
+      "33831596",
+      "33453925",
+      "33139563",
+      "33078839",
+      "32840111",
+      "32786415",
+      "32357776",
+      "32145247",
+      "32029630",
+      "31999450",
+      "31659043",
+      "31167941",
+      "30127362",
+      "30049874",
+      "29735687",
+      "29604882",
+      "29604827",
+      "29509422",
+      "29466338",
+      "29345991",
+      "29078291",
+      "29026044",
+      "28877485",
+      "28821322",
+      "28793210",
+      "28716919",
+      "28483149",
+      "28283059",
+      "28076807",
+      "27807972",
+      "27583687",
+      "27583570",
+      "27566405",
+      "27145874",
+      "27140628",
+      "26808899",
+      "26498157",
+      "26456112",
+      "26404828",
+      "26328871",
+      "25863585",
+      "25664638",
+      "23901099",
+      "23480024",
+      "23298246",
+      "23240611",
+      "22984159",
+      "21947276",
+      "20639465",
+      "20483348",
+      "20428473",
+      "20404210",
+      "20192765",
+      "19783827",
+      "19334885",
+      "18506808",
+      "18391200",
+      "17931593",
+      "17320108",
+      "17075061",
+      "17020841",
+      "16766618",
+      "16300404",
+      "15314214",
+      "15103613",
+      "12621042",
+      "11823864",
+      "11784308",
+      "10600103",
+      "10356333",
+      "1883209",
+      "1867723",
+      "1663784"
+    ],
+    "similar": [
+      "37200094",
+      "36993592",
+      "27545097",
+      "29571687",
+      "35628453",
+      "28192291",
+      "33530506",
+      "32357776",
+      "30840442",
+      "37096579",
+      "30990694",
+      "37459524",
+      "38297184",
+      "27653629",
+      "36227468",
+      "23912807",
+      "30913885",
+      "38165099",
+      "31167941",
+      "28223518",
+      "25964362",
+      "27583687",
+      "24089737",
+      "33725442",
+      "29734867",
+      "27440558",
+      "27936491",
+      "29208936",
+      "32696370",
+      "30204435",
+      "29808548",
+      "24559993",
+      "27558720",
+      "29981536",
+      "29573987",
+      "36827446",
+      "35213160",
+      "30125451",
+      "25848882",
+      "25866611",
+      "17450572",
+      "31869980",
+      "21879108",
+      "26320411",
+      "31521238",
+      "31679343",
+      "38615193",
+      "34845619",
+      "23963781",
+      "22984159",
+      "25244701",
+      "27145874",
+      "16171817",
+      "26727467",
+      "31756456",
+      "27115638",
+      "30554840",
+      "26052838",
+      "29604827",
+      "31552948",
+      "26789758",
+      "34545666",
+      "30865820",
+      "36641212",
+      "34115515",
+      "22643976",
+      "31297688",
+      "32859072",
+      "29548755",
+      "18266409",
+      "29539392",
+      "27844185",
+      "29490247",
+      "30865832",
+      "28207895",
+      "30025858",
+      "28793210",
+      "30384718",
+      "31548393",
+      "30471690",
+      "29972174",
+      "32696367",
+      "17250999",
+      "31805437",
+      "15314214",
+      "27819658",
+      "15314216",
+      "26575776",
+      "19217868",
+      "25062017",
+      "27484738",
+      "34627764",
+      "18644382",
+      "27548131",
+      "24639500",
+      "30193467"
+    ],
+    "review": [
+      "37200094",
+      "35628453",
+      "28192291",
+      "33530506",
+      "30840442",
+      "37096579",
+      "21879108",
+      "26320411",
+      "31521238",
+      "27145874",
+      "34545666",
+      "17250999",
+      "31805437",
+      "25062017"
+    ],
+    "pmc": [
+      "10875986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37200094/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37200094",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c01619",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

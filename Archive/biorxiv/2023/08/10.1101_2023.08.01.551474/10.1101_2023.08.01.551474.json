@@ -1,0 +1,208 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.01.551474",
+  "title": "Hierarchical Assembly of Single-Stranded RNA",
+  "doi": "10.1101/2023.08.01.551474",
+  "abstract": "Single-stranded RNA (ssRNA) plays a major role in the flow of genetic information– most notably in the form of messenger RNA (mRNA)–and in the regulation of biological processes. The highly dynamic nature of chains of unpaired nucleobases challenges structural characterizations of ssRNA by experiments or molecular dynamics (MD) simulations alike. Here we use hierarchical chain growth (HCG) to construct ensembles of ssRNA chains. HCG assembles the structures of protein and nucleic acid chains from fragment libraries created by MD simulations. Applied to homo- and heteropolymeric ssRNAs of different lengths, we find that HCG produces structural ensembles that overall are in good agreement with diverse experiments including nuclear magnetic resonance (NMR), small-angle X-ray scattering (SAXS), and single-molecule Förster resonance energy transfer (FRET). The agreement can be further improved by ensemble refinement using Bayesian inference of ensembles (BioEn). HCG can also be used to assemble RNA structures that combine base-paired and unpaired regions, as illustrated for the 5 1 untranslated region (UTR) of SARS-CoV-2 mRNA.",
+  "authors": [
+    "Pietrek LM",
+    "Stelzl LS",
+    "Hummer G"
+  ],
+  "published_date": "2023-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551474",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551474.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR701992",
+    "raw_record": {
+      "id": "PPR701992",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR701992"
+        ]
+      },
+      "doi": "10.1101/2023.08.01.551474",
+      "title": "Hierarchical Assembly of Single-Stranded RNA",
+      "authorString": "Pietrek LM, Stelzl LS, Hummer G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pietrek LM",
+            "lastName": "Pietrek",
+            "firstName": "Lisa",
+            "initials": "LM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4494-4041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stelzl LS",
+            "lastName": "Stelzl",
+            "firstName": "Lukas",
+            "initials": "LS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5348-0277"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany"
+                },
+                {
+                  "affiliation": "Faculty of Biology, Johannes Gutenberg University Mainz, Gresemundweg 2, 55128 Mainz, Germany"
+                },
+                {
+                  "affiliation": "KOMET 1, Institute of Physics, Johannes Gutenberg University Mainz, 55099 Mainz, Germany; Institute of Molecular Biology (IMB), 55128 Mainz, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hummer G",
+            "lastName": "Hummer",
+            "firstName": "Gerhard",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7768-746X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany"
+                },
+                {
+                  "affiliation": "Institute for Biophysics, Goethe University, Max-von-Laue-Straße 9, 60438 Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7768-746X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4494-4041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5348-0277"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Single-stranded RNA (ssRNA) plays a major role in the flow of genetic information– most notably in the form of messenger RNA (mRNA)–and in the regulation of biological processes. The highly dynamic nature of chains of unpaired nucleobases challenges structural characterizations of ssRNA by experiments or molecular dynamics (MD) simulations alike. Here we use hierarchical chain growth (HCG) to construct ensembles of ssRNA chains. HCG assembles the structures of protein and nucleic acid chains from fragment libraries created by MD simulations. Applied to homo- and heteropolymeric ssRNAs of different lengths, we find that HCG produces structural ensembles that overall are in good agreement with diverse experiments including nuclear magnetic resonance (NMR), small-angle X-ray scattering (SAXS), and single-molecule Förster resonance energy transfer (FRET). The agreement can be further improved by ensemble refinement using Bayesian inference of ensembles (BioEn). HCG can also be used to assemble RNA structures that combine base-paired and unpaired regions, as illustrated for the 5  1 untranslated region (UTR) of SARS-CoV-2 mRNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/02/2023.08.01.551474.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.01.551474"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR701992"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR701992&type=FILE&fileName=EMS188481-pdf.pdf&mimeType=application/pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.01.551474"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38361440",
+            "reference": "Journal of chemical theory and computation. 2024 Mar;20(5):2246-2260",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188481",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-08-05",
+      "firstPublicationDate": "2023-08-02",
+      "firstIndexDate": "2023-08-05",
+      "fullTextReceivedDate": "2023-11-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

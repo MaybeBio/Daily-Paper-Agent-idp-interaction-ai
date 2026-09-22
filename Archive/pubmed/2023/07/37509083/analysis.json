@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37509083",
+  "title": "Prediction of CD44 Structure by Deep Learning-Based Protein Modeling.",
+  "authors": "Camponeschi, Chiara; Righino, Benedetta; Pirolli, Davide; Semeraro, Alessandro; Ria, Francesco; De Rosa, Maria Cristina",
+  "journal": "Biomolecules",
+  "published_date": "2023-07-29",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习工具预测CD44全长结构并辅以MD模拟，虽涉及无序区域但未聚焦PPI互作机制，方法可迁移但对象与互作轴较弱。",
+  "abstract": "CD44 is a cell surface glycoprotein transmembrane receptor that is involved in cell-cell and cell-matrix interactions. It crucially associates with several molecules composing the extracellular matrix, the main one of which is hyaluronic acid. It is ubiquitously expressed in various types of cells and is involved in the regulation of important signaling pathways, thus playing a key role in several physiological and pathological processes. Structural information about CD44 is, therefore, fundamental for understanding the mechanism of action of this receptor and developing effective treatments against its aberrant expression and dysregulation frequently associated with pathological conditions. To date, only the structure of the hyaluronan-binding domain (HABD) of CD44 has been experimentally determined. To elucidate the nature of CD44s, the most frequently expressed isoform, we employed the recently developed deep-learning-based tools D-I-TASSER, AlphaFold2, and RoseTTAFold for an initial structural prediction of the full-length receptor, accompanied by molecular dynamics simulations on the most promising model. All three approaches correctly predicted the HABD, with AlphaFold2 outperforming D-I-TASSER and RoseTTAFold in the structural comparison with the crystallographic HABD structure and confidence in predicting the transmembrane helix. Low confidence regions were also predicted, which largely corresponded to the disordered regions of CD44s. These regions allow the receptor to perform its unconventional activity.",
+  "abstract_zh": "CD44是一种细胞表面糖蛋白跨膜受体，参与细胞间及细胞与基质间的相互作用。它与构成细胞外基质的多种分子密切相关，其中最主要的是透明质酸。CD44在多种细胞类型中普遍表达，并参与重要信号通路的调控，从而在多种生理和病理过程中发挥关键作用。因此，关于CD44的结构信息对于理解该受体的作用机制以及开发针对其异常表达和失调（常与病理状态相关）的有效治疗方法至关重要。迄今为止，仅CD44的透明质酸结合域（HABD）结构已通过实验确定。为了阐明最常表达的亚型CD44s的性质，我们采用了最近开发的基于深度学习工具D-I-TASSER、AlphaFold2和RoseTTAFold对全长受体进行初步结构预测，并对最有前景的模型进行分子动力学模拟。这三种方法均正确预测了HABD，其中AlphaFold2在与晶体学HABD结构的比较中优于D-I-TASSER和RoseTTAFold，且在预测跨膜螺旋方面具有更高置信度。还预测了低置信度区域，这些区域主要对应于CD44s的无序区域。这些区域使受体能够执行其非常规活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37509083/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37509083/",
+  "paper_page_path": "papers/pubmed/37509083/index.html"
+}

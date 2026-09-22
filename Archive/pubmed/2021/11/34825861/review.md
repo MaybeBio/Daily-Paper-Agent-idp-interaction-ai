@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors investigate the effect of disease causing missense mutations (DCMMs) on three intrinsically disordered regions (IDRs) in human proteins, using 100 ns molecular dynamics simulations. They report that mutants adopt fewer conformational states than wild types, that free energy landscapes show fewer minima for mutants, that mutated side chains introduce new hydrogen bonds stabilizing dominant states, and that these changes reduce conformational heterogeneity and may disfavor binding to cognate partners.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, free energy calculation methodology, structural figures, quantitative data, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding the impact of missense mutations on IDR conformational behavior. However, the evidence base available for review is limited to the abstract, which lacks the quantitative detail and methodological transparency required to evaluate the robustness of the claims. The central conclusion that mutants are "locked" into dominant conformational states is supported only by qualitative statements, and the functional implication regarding binding is speculative without experimental or enhanced sampling validation.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, molecular dynamics simulation, and disease mechanism studies would be interested. The work addresses a gap in understanding how mutations affect IDRs, which are increasingly recognized as functionally important. The findings could inform studies on mutation pathogenicity prediction and IDR-mediated interactions.
+- **Major strengths** The study addresses a relevant and under-explored question about the impact of DCMMs on IDRs. The use of three distinct IDR systems with different functional motifs provides some breadth. The combination of conformational state analysis with free energy landscapes is a reasonable approach to characterize changes in conformational heterogeneity.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that mutants adopt fewer conformational states and are locked into one or two dominant states is presented as a general finding.  
+  - **Evidence pointer** Abstract, Results section; location not provided  
+  - **Concern** The abstract provides no quantitative measures of conformational states, such as cluster counts, population percentages, or free energy differences. Without these data, the claim of reduced conformational heterogeneity cannot be evaluated. Additionally, 100 ns simulations may be insufficient to sample the conformational space of IDRs, which are known to require much longer timescales or enhanced sampling methods for reliable characterization.  
+  - **Why it matters** The central conclusion depends entirely on the adequacy of conformational sampling and the robustness of the state assignment. If sampling is insufficient, the observed differences between wild type and mutant may reflect simulation artifacts rather than true biophysical differences.  
+  - **Resolution test** Provide quantitative clustering results with population fractions, free energy differences between minima, and evidence of convergence such as block averaging or replicate simulations. Justify the 100 ns timescale or use enhanced sampling methods appropriate for IDRs.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that mutated side chains introduce new hydrogen bonding interactions that stabilize dominant conformational states.  
+  - **Evidence pointer** Abstract, Results section; location not provided  
+  - **Concern** The abstract states that new hydrogen bonds stabilize dominant states, but no occupancy data, interaction energies, or structural snapshots are provided. It is unclear whether these hydrogen bonds are persistent or transient, and whether they are the cause of stabilization or merely correlated with it.  
+  - **Why it matters** This mechanistic claim is a key part of the proposed explanation for reduced conformational heterogeneity. Without quantitative hydrogen bond analysis, the mechanism remains speculative.  
+  - **Resolution test** Provide hydrogen bond occupancy percentages, distance and angle distributions, and comparison with wild type interactions. Show that the identified hydrogen bonds are stable across the simulation and that their removal or disruption alters the conformational landscape.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The conclusion that the locked conformational states presumably disfavor binding with cognate interacting partners.  
+  - **Evidence pointer** Abstract, Conclusion section; location not provided  
+  - **Concern** This functional implication is presented as a presumption without any binding data, docking studies, or experimental validation. The link between reduced conformational heterogeneity and impaired binding is plausible but not established.  
+  - **Why it matters** The broader significance of the work depends on this functional interpretation. Without evidence connecting conformational changes to binding outcomes, the claim remains speculative and limits the impact of the study.  
+  - **Resolution test** Perform binding simulations or experiments with cognate partners, or at minimum provide a structural rationale based on the dominant states and known binding interfaces. Clearly label this as a hypothesis if direct evidence is not available.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The use of three IDR systems is presented as sufficient to draw general conclusions about DCMM effects on IDRs.  
+  - **Evidence pointer** Abstract, Methods section; location not provided  
+  - **Concern** Three systems with different motifs and lengths may not be representative of the diverse IDR population. The abstract does not describe how these systems were selected or whether they are typical of disease-associated IDRs.  
+  - **Why it matters** Generalizability of the findings is limited by the small and potentially biased sample. Without a broader dataset or clear selection criteria, the conclusions may not extend beyond the specific systems studied.  
+  - **Resolution test** Justify the selection of the three systems, or expand the analysis to a larger set of IDRs with diverse sequence features and disease associations.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract, Introduction  
+  - **Evidence pointer** Abstract, Introduction section; location not provided  
+  - **Issue** The abstract uses terms such as CRIB motif, TRM motif, and p22 protein without defining them or explaining their functional relevance.  
+  - **Required correction** Provide brief definitions or context for these motifs and proteins to make the abstract accessible to a broader readership.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, Methods  
+  - **Evidence pointer** Abstract, Methods section; location not provided  
+  - **Issue** The abstract does not specify the force field, water model, temperature, or pressure conditions used in the MD simulations.  
+  - **Required correction** Include key simulation parameters in the abstract or refer to the methods section for full details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract, Results  
+  - **Evidence pointer** Abstract, Results section; location not provided  
+  - **Issue** The abstract does not state whether the observed effects are specific to the mutated positions or whether similar effects would occur with other mutations in the same regions.  
+  - **Required correction** Clarify whether the findings are mutation-specific or generalizable to other DCMMs in these IDRs.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative conformational analysis, hydrogen bond data, and binding evidence means the core claims are not currently established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of how DCMMs affect IDR conformational behavior is relatively novel, but the approach using standard MD simulations is not methodologically innovative.  
+  - Scientific importance: The topic is relevant to disease mechanisms and IDR biology, but the functional implications are not demonstrated, limiting the significance.  
+  - Interdisciplinary readership: The work may appeal to biophysicists, computational biologists, and molecular geneticists, but the abstract is too specialized and lacks context for broader appeal.  
+  - Technical soundness: The technical basis is not verifiable from the abstract alone. The 100 ns timescale is a concern for IDR sampling, and the lack of quantitative data weakens the claims.  
+  - Readability for nonspecialists: The abstract is concise but uses undefined jargon and lacks sufficient context for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the work has potential, but the abstract alone does not provide the quantitative and methodological detail needed to support the central claims. A revised manuscript with full methods, quantitative results, and validation of the functional implications would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that mutants are "locked" into one or two dominant conformational states is unsupported without quantitative cluster analysis or free energy differences.
+- The claim that new hydrogen bonds stabilize dominant states is unsupported without occupancy or interaction energy data.
+- The claim that the locked states presumably disfavor binding is speculative and not supported by any binding or interaction data.
+- The generalizability of the findings beyond the three specific systems is not supported by the provided evidence.

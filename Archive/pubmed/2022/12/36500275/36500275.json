@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "36500275",
+    "doi": "10.3390/molecules27238182",
+    "title": "Theoretical Studies of Leu-Pro-Arg-Asp-Ala Pentapeptide (LPRDA) Binding to Sortase A of Staphylococcus aureus."
+  },
+  "content": {
+    "abstract": "Sortase A (SrtA) of Staphylococcus aureus is a well-defined molecular target to combat the virulence of these clinically important bacteria. However up to now no efficient drugs or even clinical candidates are known, hence the search for such drugs is still relevant and necessary. SrtA is a complex target, so many straight-forward techniques for modeling using the structure-based drug design (SBDD) fail to produce the results they used to bring for other, simpler, targets. In this work we conduct theoretical studies of the binding/activity of Leu-Pro-Arg-Asp-Ala (LPRDA) polypeptide, which was recently shown to possess antivirulence activity against S. aureus. Our investigation was aimed at establishing a framework for the estimation of the key interactions and subsequent modification of LPRDA, targeted at non-peptide molecules, with better drug-like properties than the original polypeptide. Firstly, the available PDB structures are critically analyzed and the criteria to evaluate the quality of the ligand-SrtA complex geometry are proposed. Secondly, the docking protocol was investigated to establish its applicability to the LPRDA-SrtA complex prediction. Thirdly, the molecular dynamics studies were carried out to refine the geometries and estimate the stability of the complexes, predicted by docking. The main finding is that the previously reported partially chaotic movement of the beta6/beta7 and beta7/beta8 loops of SrtA (being the intrinsically disordered parts related to the SrtA binding site) is exaggerated when SrtA is complexed with LPRDA, which in turn reveals all the signs of the flexible and structurally disordered molecule. As a result, a wealth of plausible LPRDA-SrtA complex conformations are hard to distinguish using simple modeling means, such as docking. The use of more elaborate modeling approaches may help to model the system reliably but at the cost of computational efficiency.",
+    "keywords": [
+      "Staphylococcus aureus",
+      "anti-virulence drugs",
+      "binding mode",
+      "binding mode analysis",
+      "molecular docking",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Staphylococcus aureus/metabolism",
+      "*Aminoacyltransferases/chemistry",
+      "*Staphylococcal Infections",
+      "Bacterial Proteins/metabolism",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Dipeptides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shulga, Dmitry A",
+        "Kudryavtsev, Konstantin V"
+      ],
+      "short_names": [
+        "Shulga DA",
+        "Kudryavtsev KV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6001-1295",
+        "ORCID: 0000-0002-6363-5842"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Lomonosov Moscow State University, Leninskie Gory 1/3, 119991 Moscow, Russia.",
+        "Laboratory of Molecular Pharmacology, Pirogov Russian National Research Medical University, Ostrovityanova Street 1, 117997 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shulga, Dmitry A",
+        "short_name": "Shulga DA",
+        "identifiers": [
+          "0000-0001-6001-1295"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Lomonosov Moscow State University, Leninskie Gory 1/3, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kudryavtsev, Konstantin V",
+        "short_name": "Kudryavtsev KV",
+        "identifiers": [
+          "0000-0002-6363-5842"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Pharmacology, Pirogov Russian National Research Medical University, Ostrovityanova Street 1, 117997 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2022 Nov 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/12 06:00",
+    "fetched_at": "2026-09-20 17:39:36"
+  },
+  "links": {
+    "cites": [
+      "40832451",
+      "40201862",
+      "39457061",
+      "38836914",
+      "37389257",
+      "36551492"
+    ],
+    "refs": [
+      "35165272",
+      "34946760",
+      "34916020",
+      "33946434",
+      "33781954",
+      "33617246",
+      "33562778",
+      "32818371",
+      "31724850",
+      "30321208",
+      "29491861",
+      "28683919",
+      "28259050",
+      "28226222",
+      "27787702",
+      "27326335",
+      "27050677",
+      "26846342",
+      "26620784",
+      "26488662",
+      "26280844",
+      "25457798",
+      "25282649",
+      "24606139",
+      "23407358",
+      "23023444",
+      "21982300",
+      "21349700",
+      "20345171",
+      "20082382",
+      "19592495",
+      "19499576",
+      "19399780",
+      "19269184",
+      "18375951",
+      "18321961",
+      "16269411",
+      "15117963",
+      "15116359",
+      "12395429",
+      "12036371",
+      "11371637",
+      "11259830",
+      "3558506"
+    ],
+    "similar": [
+      "36500275",
+      "35913166",
+      "18375951",
+      "35983964",
+      "17200112",
+      "37184111",
+      "28160417",
+      "35652646",
+      "24693991",
+      "34946760",
+      "26846342",
+      "38170998",
+      "30249042",
+      "14769030",
+      "32639734",
+      "29491861",
+      "29546799",
+      "23023444",
+      "35247333",
+      "27792196",
+      "36694285",
+      "27146210",
+      "16269411",
+      "37733916",
+      "34302812",
+      "31247164",
+      "24586638",
+      "31420255",
+      "10427003",
+      "15117963",
+      "30369109",
+      "34954590",
+      "25871372",
+      "26054573",
+      "36551492",
+      "26129884",
+      "34369293",
+      "29650293",
+      "16101303",
+      "31124096",
+      "30321208",
+      "36224754",
+      "33202690",
+      "12069686",
+      "14769334",
+      "18193895",
+      "33781954",
+      "17518446",
+      "16010573",
+      "27172839",
+      "34656905",
+      "38256891",
+      "37796314",
+      "28319184",
+      "26488662",
+      "34295320",
+      "26528244",
+      "12850203",
+      "14503881",
+      "28859178",
+      "31724850",
+      "28101737",
+      "15280046",
+      "31474099",
+      "30555803",
+      "37113029",
+      "24797540",
+      "26119984",
+      "22930668",
+      "21812416",
+      "24519933",
+      "35319881",
+      "23598248",
+      "36198620",
+      "19838678",
+      "23701677",
+      "27757703",
+      "17658894",
+      "27326335",
+      "27400889",
+      "19445173",
+      "15186858",
+      "21409251",
+      "22970276",
+      "23869520",
+      "21374720",
+      "30350606",
+      "33562778",
+      "28859130",
+      "14762051",
+      "21912586",
+      "21566128",
+      "26324714",
+      "15025450",
+      "25038633",
+      "33679670",
+      "32501594",
+      "24978154",
+      "17890045",
+      "19610623",
+      "39366090",
+      "38179192",
+      "26912950"
+    ],
+    "review": [
+      "36500275",
+      "33781954"
+    ],
+    "pmc": [
+      "9890316"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules27238182",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/staphylococcalinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Staphylococcal Infections"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36500275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36500275",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

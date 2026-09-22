@@ -1,0 +1,146 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.01.551467",
+  "title": "Diversity of Short Linear Interaction Motifs in SARS-CoV-2 Nucleocapsid Protein",
+  "doi": "10.1101/2023.08.01.551467",
+  "abstract": "<h4>SUMMARY</h4> Molecular mimicry of short linear interaction motifs has emerged as a key mechanism for viral proteins binding host domains and hijacking host cell processes. Here, we examine the role of RNA-virus sequence diversity in the dynamics of the virus-host interface, by analyzing the uniquely vast sequence record of viable SARS-CoV-2 species with focus on the multi-functional nucleocapsid protein. We observe the abundant presentation of motifs encoding several essential host protein interactions, alongside a majority of possibly non-functional and randomly occurring motif sequences absent in subsets of viable virus species. A large number of motifs emerge ex nihilo through transient mutations relative to the ancestral consensus sequence. The observed mutational landscape implies an accessible motif space that spans at least 25% of known eukaryotic motifs. This reveals motif mimicry as a highly dynamic process with the capacity to broadly explore host motifs, allowing the virus to rapidly evolve the virus-host interface.",
+  "authors": [
+    "Schuck P",
+    "Zhao H"
+  ],
+  "published_date": "2023-08-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551467",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551467.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR701187",
+    "raw_record": {
+      "id": "PPR701187",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR701187"
+        ]
+      },
+      "doi": "10.1101/2023.08.01.551467",
+      "title": "Diversity of Short Linear Interaction Motifs in SARS-CoV-2 Nucleocapsid Protein",
+      "authorString": "Schuck P, Zhao H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schuck P",
+            "lastName": "Schuck",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8859-6966"
+            }
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Huaying",
+            "initials": "H"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8859-6966"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>SUMMARY</h4>  Molecular mimicry of short linear interaction motifs has emerged as a key mechanism for viral proteins binding host domains and hijacking host cell processes. Here, we examine the role of RNA-virus sequence diversity in the dynamics of the virus-host interface, by analyzing the uniquely vast sequence record of viable SARS-CoV-2 species with focus on the multi-functional nucleocapsid protein. We observe the abundant presentation of motifs encoding several essential host protein interactions, alongside a majority of possibly non-functional and randomly occurring motif sequences absent in subsets of viable virus species. A large number of motifs emerge  ex nihilo through transient mutations relative to the ancestral consensus sequence. The observed mutational landscape implies an accessible motif space that spans at least 25% of known eukaryotic motifs. This reveals motif mimicry as a highly dynamic process with the capacity to broadly explore host motifs, allowing the virus to rapidly evolve the virus-host interface.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.01.551467"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR701187"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR701187&type=FILE&fileName=EMS184648-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38018991",
+            "reference": "mBio. 2023 Dec;14(6):e0238823",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS184648",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2023-08-04",
+      "firstPublicationDate": "2023-08-01",
+      "firstIndexDate": "2023-08-04",
+      "fullTextReceivedDate": "2023-09-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

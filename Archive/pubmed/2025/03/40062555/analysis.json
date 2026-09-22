@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40062555",
+  "title": "Nonbonded Parameter Optimization Improving Simulation of Intrinsically Disordered Phosphoproteins.",
+  "authors": "Zheng, Xinyao; Song, Ge; Li, Zhengxin; Duan, Bowen; Zhu, Bofan; Chen, Hai-Feng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过重加权算法和热力学积分优化非键参数，改进无序磷酸化蛋白的MD模拟，虽未直接研究PPI，但为IDP构象模拟提供了可迁移的力场优化方法。",
+  "abstract": "Phosphorylated proteins play a crucial role in numerous cellular processes, acting as key regulators in signal transduction networks, cell expansion, and various biochemical reactions. Molecular dynamics (MD) simulations are powerful tools for exploring the dynamic conformations of phosphoproteins. However, conventional force fields often underestimate the radii of gyration (Rg) of phosphoproteins. To address this limitation, we reoptimized the parameters of the vDW radius for the oxygen atom and the charge for the phosphorus atom with a reweighting algorithm and thermodynamic integration, named phosRg. Validation on test systems of seven representative phosphoproteins demonstrates that phosRg has better agreement with experiment for Rg and chemical shift than does phosaa10. Furthermore, phosRg generated more extensional conformations with fewer hydrophobic interactions and hydrogen bonds than phosaa10. At the same time, we found that the TIP4P-D solvent model is a suitable choice to be used with phosRg for the simulation of phosphorylated proteins. These results indicate that our dual-objective optimization strategy is powerful and necessary for improving the parameters. In summary, phosRg should also be used for simulations of other phosphorylated proteins.",
+  "abstract_zh": "磷酸化蛋白在众多细胞过程中扮演关键角色，作为信号转导网络、细胞扩张及多种生化反应中的关键调控因子。分子动力学 (molecular dynamics, MD) 模拟是探索磷酸化蛋白动态构象的有力工具。然而，传统力场往往低估磷酸化蛋白的回转半径 (radii of gyration, Rg)。为解决这一局限，我们通过重加权算法和热力学积分，重新优化了氧原子的vDW半径和磷原子的电荷参数，命名为phosRg。在七个代表性磷酸化蛋白的测试系统上的验证表明，与phosaa10相比，phosRg在Rg和化学位移方面与实验值具有更好的一致性。此外，phosRg生成的构象更为伸展，且疏水相互作用和氢键数量少于phosaa10。同时，我们发现TIP4P-D溶剂模型是与phosRg配合用于磷酸化蛋白模拟的合适选择。这些结果表明，我们的双目标优化策略在改进参数方面既有效又必要。总之，phosRg也应适用于其他磷酸化蛋白的模拟。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40062555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40062555/",
+  "paper_page_path": "papers/pubmed/40062555/index.html"
+}

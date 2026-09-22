@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Authors Contributions, Acknowledgements, References)
+- **Assessment boundary** Scientific and technical evaluation of the presented method, experimental design, results, and claims as described in the provided text. No external data or code verification performed.
+- **Shared manuscript claim summary** The authors present GNN-DOVE, a graph neural network-based scoring function for evaluating protein docking models. The method represents the protein-protein interface as a graph, uses a gated attention mechanism, and is claimed to outperform existing scoring methods including the authors' previous CNN-based DOVE on the Dockground benchmark dataset.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Sections 2.1-2.4), Results (Sections 3.1-3.3), Discussion (Section 4), Figures 1-5 (referenced), Table 1 (referenced), Table 2 (referenced)
+- **Missing materials affecting confidence** Actual figure images and table contents are not provided. Numerical results (e.g., exact hit rates beyond top 10, statistical significance tests) are only partially reported in text. Details of the Dockground dataset composition and decoy generation are not fully described. Hyperparameter tuning details and ablation studies are not fully reported.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a reasonable application of graph neural networks to the protein docking decoy scoring problem. The motivation is clear, and the graph representation addresses a known limitation of the previous voxel-based DOVE method. However, the evidence presented is insufficient to fully establish the claimed superiority of GNN-DOVE. Key details about the dataset, training procedure, and evaluation metrics are missing or underreported. The performance comparison, while showing improvement, lacks statistical rigor and generalizability assessment. The work is potentially of interest to the structural biology and computational modeling community, but the current manuscript requires substantial revision and additional analysis to support its claims.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, particularly those working on protein-protein docking, scoring function development, and model quality assessment. The application of graph neural networks to this problem may also interest the broader machine learning for molecular science community. The method could be relevant to developers of docking pipelines and those participating in community-wide experiments like CAPRI.
+- **Major strengths** 1. The problem is well-motivated and practically important. 2. The graph representation is a natural and potentially more flexible alternative to voxel-based methods. 3. The use of a gated attention mechanism is a modern and appropriate choice for this problem. 4. The authors compare against a reasonable set of existing methods, including their own previous work. 5. The code is made publicly available, which is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "GNN-DOVE performed better than existing methods including DOVE" (Abstract) and "Compared to DOVE and other existing methods, GNN-DOVE demonstrated substantial improvement in a benchmark study" (Introduction)
+  - **Evidence pointer** Section 3.1, Figure 2, Figure 3
+  - **Concern** The performance comparison is based on a single dataset (Dockground) with only 58 target complexes. The reported improvement (89.7% vs 81.0% hit rate at top 10) is based on a small number of targets. No statistical significance testing is reported. The manuscript does not describe how the performance difference varies across the four cross-validation folds, nor does it report variance or confidence intervals. The claim of "substantial improvement" is not supported by statistical evidence.
+  - **Why it matters** Without statistical rigor, the observed improvement could be due to chance, particularly given the small dataset size. The claim of superiority over existing methods is a central contribution of the paper and must be robustly supported.
+  - **Resolution test** Provide per-fold results, statistical significance tests (e.g., paired tests across targets), and confidence intervals for the hit rate differences. Report the number of targets where GNN-DOVE outperforms, ties, or underperforms each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "GNN-DOVE was trained and validated on docking models in the Dockground database" (Abstract) and Section 2.1 describes the dataset.
+  - **Evidence pointer** Section 2.1, Table 1
+  - **Concern** The dataset description is incomplete. The manuscript states 58 target complexes with an average of 9.83 correct and 98.5 incorrect decoys, but does not describe how these decoys were generated, the diversity of the complexes, the range of difficulty, or the distribution of decoy qualities. The grouping into 29 clusters using TM-score is described, but the composition of the four cross-validation folds is not detailed. The total number of decoys, the balance across targets, and the potential for training/test leakage through homologous complexes are not fully addressed.
+  - **Why it matters** The validity of the benchmark depends critically on the quality and composition of the dataset. Incomplete description prevents assessment of potential biases and limits reproducibility.
+  - **Resolution test** Provide a detailed description of the dataset, including decoy generation protocols, sequence and structure diversity statistics, and the exact composition of each cross-validation fold. Address potential redundancy between training and test sets beyond the TM-score clustering.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Compared to DOVE and other existing methods, GNN-DOVE demonstrated substantial improvement" (Introduction) and Section 3.1.
+  - **Evidence pointer** Section 3.1, Figure 2, Figure 3
+  - **Concern** The comparison with existing methods is incomplete. For DOVE, the authors state it was "newly retrained using the same four-fold cross-testing as GNN-DOVE," but no details are given about the retraining procedure, hyperparameters, or whether the original DOVE architecture was preserved. For other methods (GOAP, ITScore, ZRANK, ZRANK2, IRAD), it is unclear whether they were run with default parameters, whether they were optimized for this dataset, or whether they were used as originally published. The comparison may be unfair if baselines are not properly tuned.
+  - **Why it matters** Fair benchmarking is essential for demonstrating the advantage of a new method. Inconsistent or suboptimal baseline configurations can inflate the apparent improvement of GNN-DOVE.
+  - **Resolution test** Describe the exact configuration and parameter settings for all baseline methods. If possible, include results from the original publications or from a standardized benchmark. Consider reporting results with baselines both in default and optimized configurations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "To the best of our knowledge, this is the first method that applies GNNs to the protein docking problem" (Introduction)
+  - **Evidence pointer** Introduction, Section 1
+  - **Concern** The claim of novelty is strong and requires careful verification. The authors state this is the first application of GNNs to protein docking, but the literature on graph-based methods for protein-protein interaction prediction and scoring has been growing rapidly. The manuscript does not provide a comprehensive review of related work to support this claim.
+  - **Why it matters** If the novelty claim is inaccurate, the contribution of the paper is diminished. A thorough literature review is necessary to contextualize the work and accurately state its contribution.
+  - **Resolution test** Expand the introduction and discussion to include a more comprehensive review of graph-based and deep learning methods for protein docking scoring. Carefully verify the novelty claim against the current literature.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** Section 3.3 describes two examples where DOVE misclassifies decoys due to the fixed-size cube limitation.
+  - **Evidence pointer** Section 3.3, Figure 5
+  - **Concern** The two case studies are anecdotal and do not systematically demonstrate that the cube-size limitation is a major source of error for DOVE. The manuscript does not quantify how often this limitation affects DOVE's performance across the dataset, nor does it show that GNN-DOVE's improvement is primarily due to overcoming this specific limitation.
+  - **Why it matters** The case studies are used to support a mechanistic explanation for GNN-DOVE's advantage. Without systematic analysis, this explanation remains speculative.
+  - **Resolution test** Provide a quantitative analysis of how often the cube-size limitation affects DOVE's predictions across the dataset. Correlate the performance difference between DOVE and GNN-DOVE with the fraction of interface atoms outside the cube.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Equations (1)-(8)
+  - **Issue** The description of the graph construction and the attention mechanism is dense and may be difficult to follow for readers not familiar with graph neural networks. Some equations are referenced but not fully explained in the text.
+  - **Required correction** Provide a more intuitive explanation of the graph representation and the attention mechanism. Consider adding a step-by-step walkthrough of the algorithm with a simple example.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The training procedure is described briefly. Details such as the number of training epochs, learning rate schedule, early stopping criteria, and the exact balancing strategy are not fully specified.
+  - **Required correction** Provide complete training details to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 3
+  - **Issue** The comparison of iRMSD, lRMSD, and fnat values is presented as scatter plots, but the text does not provide a clear summary of the aggregate statistics. The statement "GNN-DOVE outperforms DOVE for 26 (22 ties), 27 (20 ties), and 27 (17 ties)" is unclear without knowing the total number of targets.
+  - **Required correction** Provide a clear summary table of the median or mean values for each metric for each method, along with the number of targets where each method performs best.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, Figure 4
+  - **Issue** The t-SNE analysis is presented as a qualitative visualization. The interpretation of the plots is subjective, and the text does not provide a quantitative measure of clustering quality.
+  - **Required correction** Consider adding a quantitative clustering metric (e.g., silhouette score) to support the visual interpretation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is concise but does not provide a clear statement of the magnitude of improvement over existing methods. The phrase "performed better" is vague.
+  - **Required correction** Include a specific quantitative result in the abstract (e.g., "achieved a hit rate of 89.7% compared to 81.0% for the next best method").
+- **Technical failings that need to be addressed before the case is established** 1. Lack of statistical significance testing for the performance comparison (R1-M1). 2. Incomplete dataset description and potential for data leakage (R1-M2). 3. Unclear baseline configurations for fair comparison (R1-M3). 4. Anecdotal case studies without systematic analysis (R1-M5).
+- **Assessment against Nature-style criteria** **Originality:** Moderate. The application of GNNs to protein docking scoring is a natural extension of existing work, and the authors claim novelty. However, the novelty claim requires verification against the broader literature. The graph representation and attention mechanism are not fundamentally new, but their specific application to this problem may be novel. **Scientific importance:** Moderate. Improving docking model scoring is an important problem in structural biology. The reported improvement is modest and based on a single dataset. The potential impact on the field would be greater if the method demonstrated consistent improvement across multiple benchmarks and was shown to generalize to new targets. **Interdisciplinary readership:** Limited. The manuscript is primarily of interest to computational structural biologists. The methods section is technical and may not be accessible to a broader biological audience. The potential for broader interest would be enhanced by demonstrating practical utility in a biological application. **Technical soundness:** The core methodology is reasonable, but the evaluation is not sufficiently rigorous. Missing statistical tests, incomplete dataset description, and unclear baseline configurations undermine confidence in the results. **Readability for nonspecialists:** The abstract and introduction are accessible, but the methods section is dense. The results section could be improved with clearer summaries of quantitative findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible method with promising initial results, but the evaluation is not sufficiently rigorous to support the claims of superiority over existing methods. The authors should address the major concerns, particularly the lack of statistical testing and incomplete dataset description, before the case for GNN-DOVE's effectiveness is established.
+
+## Risk / unsupported claims
+- The claim that GNN-DOVE is the "first method that applies GNNs to the protein docking problem" is not supported by a comprehensive literature review in the provided text.
+- The claim of "substantial improvement" over existing methods is not supported by statistical evidence.
+- The generalizability of GNN-DOVE to docking targets outside the Dockground dataset is not demonstrated.
+- The claim that the fixed-size cube limitation of DOVE is a significant source of error is only supported by two anecdotal examples.
+- The performance of GNN-DOVE on multi-chain complexes is mentioned as future work, but no preliminary results are provided to assess feasibility.

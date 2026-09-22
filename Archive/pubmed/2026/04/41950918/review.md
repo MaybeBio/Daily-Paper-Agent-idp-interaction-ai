@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that eukaryotic 28S rRNA expansion segments (ESs) act as architectural elements that drive nucleolar complexity. They report distinct rRNA localization patterns within nucleolar compartments, in vitro reconstitution of layered nucleolar-like structures driven by multivalent RNA-RNA interactions, a correlation between ES length and nucleolar architecture type, and loss- and gain-of-function experiments in human and C. elegans rRNAs.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full text, all figures and tables, supplementary information, detailed methods, statistical analyses, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking rRNA expansion segment evolution to nucleolar architectural complexity. The proposed mechanism, multivalent RNA-RNA interactions driving phase-separated or layered structures, is plausible and timely. However, the abstract alone provides insufficient evidence to evaluate the rigor of the experimental support. Key claims regarding localization patterns, reconstitution experiments, evolutionary correlations, and transfer experiments are stated without quantitative detail or methodological context. The work could be of broad interest if the evidence is as compelling as the abstract suggests, but the current submission cannot be fully assessed.
+- **Who would be interested in the results, and why** Cell biologists studying nucleolar structure and function, RNA biologists interested in noncoding functions of ribosomal RNA, evolutionary biologists examining the role of genomic expansion in cellular complexity, and biophysicists working on phase separation and multivalent interactions. The findings could also appeal to researchers studying the functional significance of rRNA expansion segments, which have been largely considered nonfunctional or merely structural filler.
+- **Major strengths** The hypothesis is novel and addresses a long-standing question about the function of rRNA expansion segments. The proposed mechanism, multivalent RNA-RNA interactions, is mechanistically specific and testable. The comparative approach across organisms with different nucleolar architectures is elegant and provides a natural experimental framework. The loss- and gain-of-function experiments described in the abstract, if properly executed, would provide strong causal evidence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 28S rRNA induces layered nucleolar-like structures via multivalent RNA-RNA interactions, and that this capacity correlates with ES evolutionary expansion.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that in vitro reconstitution and simulations demonstrated layered structure formation, but provides no quantitative details on the nature of these structures, the conditions under which they form, or the metrics used to define "nucleolar-like." Similarly, the correlation between ES length and multivalency is stated without any statistical support or effect sizes.
+  - **Why it matters** Without quantitative evidence, it is impossible to assess whether the observed structures are biologically meaningful or merely non-specific aggregates. The correlation claim requires statistical rigor to establish that the relationship is robust and not driven by outliers or confounding factors.
+  - **Resolution test** Provide quantitative characterization of the reconstituted structures (size, morphology, dynamics), statistical analysis of the ES length-multivalency correlation across a defined species panel, and appropriate controls demonstrating specificity of the RNA-RNA interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The authors claim that deletion of specific ESs abolishes human 28S rRNA's ability to induce nucleolar-like structures, and that transferring these segments to C. elegans 26S rRNA confers this capability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The loss- and gain-of-function experiments are described in a single sentence without any detail on which ESs were deleted or transferred, how many were tested, the magnitude of the effects, or whether the transferred segments functioned equivalently to the native human context. The abstract does not specify whether the C. elegans 26S rRNA with transferred ESs achieved full or partial reconstitution of layered structures.
+  - **Why it matters** These experiments are the core causal evidence for the claim that ESs are architectural elements. Without details on the specificity of the effect (e.g., whether any RNA segment would confer this property, or whether the effect is specific to ESs), the conclusion is not established.
+  - **Resolution test** Provide a detailed description of the deletion and transfer constructs, quantitative comparison of structure-forming capacity across constructs, and appropriate negative controls (e.g., transfer of non-ES RNA segments of similar length).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive leap
+  - **Claim pointer** The authors conclude that rRNA ESs function as architectural elements that promote nucleolar complexity, providing insight into how genomic expansion drives sophisticated cellular organization.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract moves from in vitro reconstitution and simulations to a broad evolutionary conclusion about genomic expansion driving cellular organization. The link between in vitro structure formation and in vivo nucleolar architecture is not established in the abstract. The authors do not describe any experiments showing that ES-mediated structure formation is required or sufficient for tripartite nucleolar organization in living cells.
+  - **Why it matters** The conclusion extends beyond the presented evidence. In vitro systems may not recapitulate the complexity of the cellular environment, and the evolutionary correlation does not demonstrate causation. The claim that ESs "promote nucleolar complexity" in vivo requires direct cellular evidence.
+  - **Resolution test** Provide in vivo evidence, such as manipulation of ESs in cells followed by assessment of nucleolar architecture, or at minimum a clear discussion of the limitations of the in vitro system and the strength of the evolutionary inference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "functions remain elusive" is vague. It would be clearer to specify what functions have been previously proposed or tested for ESs.
+  - **Required correction** Briefly state prior hypotheses or known functions of ESs to contextualize the gap being addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Multivalent RNA-RNA interactions"
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The term "multivalent" is used without definition or explanation of the molecular basis. It is unclear whether this refers to multiple binding sites, repetitive motifs, or something else.
+  - **Required correction** Define what constitutes multivalency in this context and describe the molecular features of ESs that confer this property.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Species comparison
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract mentions "tripartite-nucleolus organisms" and "bipartite-nucleolus species" but does not specify which organisms were compared or how many species were included.
+  - **Required correction** List the species used in the comparative analysis and the number of species per group.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Simulations
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract mentions simulations but does not describe the model type, parameters, or what was simulated.
+  - **Required correction** Briefly describe the simulation approach and what aspects of the system it was used to test.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient quantitative or methodological detail to establish that the reconstituted structures are specific and biologically meaningful, nor that the loss- and gain-of-function experiments are specific to ESs. R1-M3 is non-blocking but requires additional evidence or careful framing to support the evolutionary conclusion.
+- **Assessment against Nature-style criteria** Originality: High. The hypothesis that rRNA ESs function as architectural elements is novel and not widely explored. Scientific importance: Potentially high, as it links a conserved but poorly understood RNA feature to a fundamental cellular structure. Interdisciplinary readership: The topic bridges RNA biology, cell biology, and evolutionary biology, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone. The described experiments are appropriate in principle, but the lack of detail prevents evaluation of execution and controls. Readability for nonspecialists: The abstract is generally clear but uses field-specific terms (e.g., "multivalent," "tripartite," "bipartite") without sufficient explanation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is compelling and the experimental approach is appropriate, but the abstract does not provide enough evidence to establish the claims. A full manuscript with detailed methods, quantitative results, and appropriate controls could make a strong case. Currently not established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that 28S rRNA induces layered nucleolar-like structures via multivalent RNA-RNA interactions is unsupported without quantitative characterization of the structures and demonstration of interaction specificity.
+- The claim that structure-forming capacity correlates with ES evolutionary expansion is unsupported without statistical analysis and a defined species panel.
+- The claim that deletion of specific ESs abolishes structure formation and that transfer to C. elegans 26S rRNA confers this capability is unsupported without details on which ESs were tested, the magnitude of effects, and negative controls.
+- The conclusion that ESs promote nucleolar complexity in vivo is unsupported, as no cellular evidence is described in the abstract.
+- The statement that "genomic expansion drives sophisticated cellular organization" is an interpretive leap beyond the presented data.

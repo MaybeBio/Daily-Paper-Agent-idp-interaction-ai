@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use microsecond-level atomistic molecular dynamics simulations and fractal formalism to study a condensate model of 24 copies of the 73-residue RGG3 domain of FUS. They report that RGG3 in the dense phase retains high dynamics with small configurational entropy loss and minor diffusion slowdown relative to the dilute phase, and that despite transient and heterogeneous interactions, the dense phase exhibits statistically defined interaction motifs and a robust multi-scale topology of self-associated clusters.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation details, force field parameters, system construction and equilibration protocols, convergence criteria, fractal analysis methodology, all quantitative results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a central question in the biology of biomolecular condensates, namely how macroscopic organization emerges from transient and heterogeneous molecular interactions. The central claim, that a well-defined multi-scale organization coexists with highly dynamic and heterogeneous local interactions, is conceptually appealing and would be of interest to a broad readership. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the statistical robustness of the interaction motif analysis, or the validity of the fractal formalism as applied here. The claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and liquid-liquid phase separation, computational biophysicists interested in disordered proteins and atomistic simulations of dense phases, and experimentalists working on FUS and related RNA-binding proteins who seek molecular-level mechanistic hypotheses for condensate organization. The multi-scale topology claim may also interest theorists working on network or cluster analysis of soft materials.
+- **Major strengths** The study addresses a timely and important question about the microscopic organization of disordered protein dense phases. The use of atomistic microsecond-level simulations on a 24-copy system is ambitious and, if technically sound, would represent a valuable resource. The conceptual framing, that dynamic heterogeneity and well-defined organization are not mutually exclusive, is a useful contribution to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RGG3 displays only a small configurational entropy loss and a minor slowdown in diffusion in the dense phase relative to the dilute phase.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports quantitative comparisons of entropy and diffusion between dense and dilute phases but provides no information on how these quantities were computed, what statistical uncertainties are associated with them, or whether the simulation length is sufficient for converged estimates. Microsecond simulations of a 24-copy system may be marginally sufficient for local dynamics but are likely inadequate for reliable entropy estimation or for sampling the full conformational space of a 73-residue IDR in a dense environment.
+  - **Why it matters** The quantitative claims about entropy and diffusion are central to the paper's message that the dense phase is dynamically similar to the dilute phase. If these estimates are not converged or are method-dependent, the central narrative is weakened.
+  - **Resolution test** Provide convergence analysis for entropy and diffusion estimates, specify the methods used (for example, quasi-harmonic or Schlitter entropy, mean squared displacement fitting windows), and show that results are robust to simulation length and analysis parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The claim that RGG3 exhibits statistically defined interaction motifs and a robust multi-scale topology of self-associated protein clusters.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that interaction motifs are "statistically defined" and that the topology is "robust," but no information is provided on the statistical tests used, the number of independent observations, the criteria for defining a motif, or the sensitivity of the cluster topology to analysis parameters. With only 24 copies in a single simulation box, the statistical power for defining interaction motifs may be limited, and the cluster topology may be strongly influenced by finite-size effects.
+  - **Why it matters** The claim of well-defined organization is the central novelty of the paper. If the motif definition and cluster analysis are not rigorously validated, the claim reduces to a qualitative observation of transient contacts, which would not be surprising for a dense IDR system.
+  - **Resolution test** Provide a clear operational definition of interaction motifs, show that the identified motifs are statistically enriched relative to a null model, and demonstrate that the multi-scale cluster topology is insensitive to system size, simulation length, and clustering parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The claim that fractal formalism is used to characterize the multi-scale topology of self-associated protein clusters.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions fractal formalism but does not specify what quantity was subjected to fractal analysis, how the fractal dimension was computed, or what physical interpretation is attached to it. Fractal analysis of finite, dynamic clusters in a simulation box is notoriously sensitive to cutoff choices, box size, and cluster definition.
+  - **Why it matters** The multi-scale topology claim rests on the fractal analysis. Without methodological detail, the reader cannot assess whether the fractal dimension is a meaningful descriptor of the system or an artifact of the analysis procedure.
+  - **Resolution test** Specify the fractal quantity computed, the algorithm used, the range of length scales over which fractal scaling was observed, and show robustness to analysis parameters and system size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation system description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that 24 copies of the RGG3 domain were simulated but does not specify the force field, water model, salt concentration, temperature, or box dimensions.
+  - **Required correction** Provide full simulation details in the manuscript, including force field parameters, water model, ion concentration, temperature, and box size, to enable reproduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Comparison to dilute phase
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract compares dense and dilute phase dynamics but does not specify how the dilute phase was simulated or whether the comparison is apples-to-apples in terms of system size and simulation length.
+  - **Required correction** Clarify the dilute phase simulation setup and ensure that comparisons are made under matched conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Generalization to full-length FUS
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The study uses only the RGG3 domain, but the abstract implies broader relevance to FUS condensates. The relationship between the RGG3-only system and full-length FUS behavior is not discussed.
+  - **Required correction** Add a statement in the discussion addressing the limitations of the RGG3-only model and how the findings may or may not extrapolate to full-length FUS.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to assess convergence, statistical robustness, or the validity of the fractal analysis. These are not minor omissions; they are central to the paper's claims.
+- **Assessment against Nature-style criteria** Originality: the conceptual claim that dynamic heterogeneity coexists with well-defined multi-scale organization is original and potentially significant. Scientific importance: the question of how disordered condensates achieve organization is of high importance to the phase separation field. Interdisciplinary readership: the topic bridges biophysics, computational chemistry, and cell biology, and the abstract is written in a way that nonspecialists can follow the main narrative. Technical soundness: not assessable from the abstract alone; the concerns above must be resolved. Readability for nonspecialists: the abstract is clear and well-structured, though terms such as "fractal formalism" and "multi-scale topology" would benefit from brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and the study could be of interest, but the abstract alone does not provide sufficient evidence to assess the technical validity of the simulations or the statistical robustness of the central claims. A full review of the manuscript would be required to determine whether the concerns can be resolved.
+
+## Risk / unsupported claims
+- The quantitative claims about entropy loss and diffusion slowdown are unsupported because no methods or uncertainty estimates are provided.
+- The claim of "statistically defined interaction motifs" is unsupported because no statistical framework or null model is described.
+- The claim of "robust multi-scale topology" is unsupported because no cluster definition, fractal analysis details, or sensitivity analysis are provided.
+- The relevance of the RGG3-only model to full-length FUS condensates is asserted implicitly but not discussed.
+- All claims regarding simulation quality, convergence, and force field appropriateness are unassessable from the abstract.

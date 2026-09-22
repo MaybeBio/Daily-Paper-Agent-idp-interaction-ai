@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "36261037",
+    "doi": "10.1016/j.bpj.2022.10.007",
+    "title": "Computer simulations of chromatin phase separation."
+  },
+  "content": {
+    "abstract": "Several simulation studies have recently appeared in Biophysical Journal that investigate the formation of biomolecular condensates in the nucleus. These structures explain a large variety of biological phenomena, from epigenetic inheritance, to enhancer-promoter interactions, to the spatial organization of the entire cell nucleus.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin",
+      "Computer Simulation",
+      "*Cell Nucleus"
+    ],
+    "pub_types": [
+      "Editorial",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schiessel, Helmut"
+      ],
+      "short_names": [
+        "Schiessel H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany. Electronic address: helmut.schiessel@tu-dresden.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schiessel, Helmut",
+        "short_name": "Schiessel H",
+        "identifiers": [],
+        "affiliations": [
+          "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany. Electronic address: helmut.schiessel@tu-dresden.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Nov 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Editorial",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/20 06:00",
+    "fetched_at": "2026-09-20 15:58:56"
+  },
+  "links": {
+    "cites": [
+      "39704570",
+      "39605663"
+    ],
+    "refs": [
+      "35643628",
+      "35364104",
+      "34687722",
+      "34653387",
+      "33582138",
+      "32738219",
+      "28636604",
+      "28636597",
+      "22332659"
+    ],
+    "similar": [
+      "36261037",
+      "34271007",
+      "31754043",
+      "33300985",
+      "37530178",
+      "30514760",
+      "35881789",
+      "33765580",
+      "34303933",
+      "36833426",
+      "36253122",
+      "33942717",
+      "34404453",
+      "37276062",
+      "37239436",
+      "34182258",
+      "37000871",
+      "33319830",
+      "35907400",
+      "36412795",
+      "30125668",
+      "31881292",
+      "20632774",
+      "34620850",
+      "22245105",
+      "34585805",
+      "34789250",
+      "16506101",
+      "35841650",
+      "30835504",
+      "31543265",
+      "34830152",
+      "37372457",
+      "35567087",
+      "33113512",
+      "33938164",
+      "37895097",
+      "19359359",
+      "34931241",
+      "17430588",
+      "36821650",
+      "32662769",
+      "31615334",
+      "36348120",
+      "32548680",
+      "37516962",
+      "34653387",
+      "35740532",
+      "37307918",
+      "29087948",
+      "22988072",
+      "33704061",
+      "33812325",
+      "31284181",
+      "36539553",
+      "31623887",
+      "32408103",
+      "31818465",
+      "35390165",
+      "36314049",
+      "35803926",
+      "31606941",
+      "27770354",
+      "35597639",
+      "33203115",
+      "23766291",
+      "32586227",
+      "35096966",
+      "28468672",
+      "37212997"
+    ],
+    "review": [
+      "36261037",
+      "34271007",
+      "31754043",
+      "33300985",
+      "37530178",
+      "33765580",
+      "34303933",
+      "36833426",
+      "36253122",
+      "37276062",
+      "37239436",
+      "34182258",
+      "33319830",
+      "30125668",
+      "31881292",
+      "22245105",
+      "34585805",
+      "16506101",
+      "35841650",
+      "30835504",
+      "34830152",
+      "37372457",
+      "35567087",
+      "33938164",
+      "37895097",
+      "36821650",
+      "31615334",
+      "32548680",
+      "35740532",
+      "33812325",
+      "36539553",
+      "32408103",
+      "35803926",
+      "31606941",
+      "33203115",
+      "23766291",
+      "32586227"
+    ],
+    "pmc": [
+      "9703032"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00827-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36261037/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36261037",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

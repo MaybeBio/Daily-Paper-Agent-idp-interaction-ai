@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "36468418",
+    "doi": "10.1002/jcc.27049",
+    "title": "Aggregation propensities of proteins with varying degrees of disorder."
+  },
+  "content": {
+    "abstract": "The hydration thermodynamics of a globular protein (AcP), three intrinsically disordered protein regions (1CD3, 1MVF, 1F0R) and a fully disordered protein (alpha-synuclein) is studied by an approach that combines an all-atom explicit water molecular dynamics simulations and three-dimensional reference interaction site model (3D-RISM) theory. The variation in hydration free energy with percentage disorder of the selected proteins is investigated through its nonelectrostatic and electrostatic components. A decrease in hydration free energy is observed with an increase in percentage disorder, indicating favorable interactions of the disordered proteins with the solvent. This confirms the role of percentage disorder in determining the aggregation propensity of proteins which is measured in terms of the hydration free energy in addition to their respective mean net charge and mean hydrophobicity. The hydration free energy is decoupled into energetic and entropic terms. A residue-wise decomposition analysis of the hydration free energy for the selected proteins is evaluated. The decomposition shows that the disordered regions contribute more than the ordered ones for the intrinsically disordered protein regions. The dominant role of electrostatic interactions is confirmed from the residue-wise decomposition of the hydration free energy. The results depict that the negatively charged residues contribute more to the total hydration free energy for the proteins with negative mean net charge, while the positively charged residues contribute more for proteins with positive mean net charge.",
+    "keywords": [
+      "3D-RISM",
+      "aggregation propensity",
+      "hydration thermodynamics",
+      "intrinsically disordered proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Solvents/chemistry",
+      "Water/chemistry",
+      "Thermodynamics",
+      "Entropy",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Priya",
+        "Biswas, Parbati"
+      ],
+      "short_names": [
+        "Dey P",
+        "Biswas P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7709-2263"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Delhi, Delhi, India.",
+        "Department of Chemistry, University of Delhi, Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Priya",
+        "short_name": "Dey P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Parbati",
+        "short_name": "Biswas P",
+        "identifiers": [
+          "0000-0001-7709-2263"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computational chemistry"
+    ],
+    "journal_abbrev": [
+      "J Comput Chem"
+    ],
+    "pub_date": "2023 Mar 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/06 06:00",
+    "fetched_at": "2026-09-20 17:30:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36468418",
+      "29553735",
+      "33440932",
+      "25871264",
+      "16848615",
+      "26418258",
+      "35074392",
+      "38516974",
+      "28914483",
+      "30811210",
+      "25844814",
+      "31291328",
+      "32859072",
+      "35968960",
+      "30865832",
+      "30730736",
+      "30981229",
+      "27423742",
+      "24615814",
+      "29548979",
+      "18710198",
+      "30865440",
+      "37838830",
+      "35727975",
+      "33749266",
+      "27936491",
+      "31702919",
+      "24589355",
+      "26498066",
+      "20657662",
+      "18447346",
+      "29734867",
+      "28226222",
+      "29874605",
+      "31259246",
+      "33810353",
+      "27185199",
+      "36820489",
+      "36354351",
+      "35964252",
+      "21280680",
+      "34509724",
+      "22852591",
+      "27111521",
+      "19947642",
+      "29925017",
+      "25774711",
+      "27367817",
+      "18532849",
+      "29331115",
+      "11948578",
+      "17581082",
+      "34064655",
+      "27585474",
+      "26576506",
+      "32311268",
+      "35512095",
+      "27018856",
+      "31822062",
+      "32815201",
+      "28498675",
+      "23607785",
+      "29394062",
+      "28565907",
+      "31297688",
+      "32419254",
+      "17291029",
+      "21090707",
+      "31626641",
+      "24604825",
+      "28890401",
+      "23723000",
+      "31903719",
+      "31699336",
+      "33096105",
+      "29080468",
+      "31408604",
+      "29039666",
+      "31756456",
+      "32503167",
+      "16851946",
+      "20524650",
+      "33566618",
+      "26254645",
+      "26053228",
+      "20338850",
+      "30542771",
+      "25919886",
+      "23990768",
+      "34214536",
+      "31180661",
+      "34358545",
+      "25679039",
+      "22828339",
+      "32623047",
+      "26735936",
+      "20020703",
+      "37959769",
+      "37037120",
+      "37556237",
+      "37458354",
+      "38854569",
+      "34110175",
+      "37796987",
+      "36450134",
+      "23234339"
+    ],
+    "review": [
+      "36468418",
+      "25844814",
+      "18710198",
+      "28226222",
+      "34064655",
+      "29080468",
+      "34358545"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/jcc.27049",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

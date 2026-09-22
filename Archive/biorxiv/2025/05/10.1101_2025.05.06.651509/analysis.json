@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.06.651509",
+  "title": "Thermal proteome profiling identifies glucose binding proteins involved in metabolic disease",
+  "authors": "Meservey LM; Ferguson ID; Tien VB; Ducoli L; Miao W; Lu DM; Srinivasan S; Lopez-Pajares V; Porter DF; Cao Z; Wang Y; Khavari PA",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-07",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用热蛋白质组学筛选葡萄糖结合蛋白，涉及TSC22D4（含IDR）与IGF2BP2的葡萄糖结合及功能，但对象为小分子-蛋白互作而非PPI，方法以实验为主、仅少量对接预测，机制建模深度有限。",
+  "abstract": "Recent work has shown that glucose can directly bind non-enzymatic proteins to modulate their function. We sought to build on this work by adapting thermal proteome profiling screens to uncover novel glucose interactors involved in metabolism. Proteome integral solubility alternation (PISA) profiling nominated 23 proteins with glucose-induced thermal solubility, including two proteins strongly implicated in metabolic disease, TSC22D4 and IGF2BP2. First, we characterized glucose binding of TSC22D4, an intrinsically disordered leucine zipper protein strongly implicated in hepatic steatosis. MST confirmed direct glucose-protein interaction of TSC22D4. UV-crosslinking mass spectrometry identified putative glucose binding at the C-terminal leucine zipper. Mutating isoleucine 322 to tryptophan (I322W) abolishes glucose binding. Crosslinking-MS and chemo-proteomic experiments suggest that glucose increases accessibility of the leucine zipper region, resulting in intra-protein contacts between C-terminal zipper domain and N-terminal intrinsically-disordered domain. TSC22D4 associates with fatty acid metabolism machinery proteins in response to high glucose conditions, suggesting a possible role for TSC22D4 in altering fatty acid metabolism. Next, we characterized glucose-binding in IGF2BP2, an RNA-binding protein essential for beta cell insulin secretion. We first confirmed direct IGF2BP2-glucose interaction and created glucose-binding mutant Y40A based on computational docking predictions. IGF2BP2 Y40A exhibited a dominant negative impact on proliferation and insulin secretion in MIN6-6 beta cells. Glucose increased IGF2BP2 binding to client mRNAs Igf2 and Pdx1, which has previously been demonstrated to mediate its impact on insulin secretion. Thus, our data suggests that IGF2BP2 directly binds glucose to enhance insulin secretion.",
+  "abstract_zh": "近期研究表明，葡萄糖能直接与非酶蛋白结合以调节其功能。我们旨在基于此工作，通过调整热蛋白质组谱筛选来发现参与代谢的新型葡萄糖相互作用因子。蛋白质组积分溶解度变化（PISA）分析提名了23种具有葡萄糖诱导热溶解度的蛋白质，其中包括两种与代谢疾病密切相关的蛋白质，TSC22D4和IGF2BP2。首先，我们表征了TSC22D4的葡萄糖结合特性，这是一种与肝脂肪变性密切相关的内在无序亮氨酸拉链蛋白。MST确认了TSC22D4的直接葡萄糖-蛋白质相互作用。UV交联质谱法在C端亮氨酸拉链区域识别出可能的葡萄糖结合位点。将异亮氨酸322突变为色氨酸（I322W）会消除葡萄糖结合。交联质谱和化学蛋白质组学实验表明，葡萄糖增加了亮氨酸拉链区域的可及性，导致C端拉链结构域与N端内在无序结构域之间的蛋白质内接触。TSC22D4在高葡萄糖条件下与脂肪酸代谢机制蛋白结合，提示TSC22D4可能在改变脂肪酸代谢中发挥作用。接下来，我们表征了IGF2BP2的葡萄糖结合特性，这是一种对β细胞胰岛素分泌至关重要的RNA结合蛋白。我们首先确认了IGF2BP2与葡萄糖的直接相互作用，并基于计算对接预测创建了葡萄糖结合突变体Y40A。IGF2BP2 Y40A在MIN6-6β细胞中对增殖和胰岛素分泌表现出显性负效应。葡萄糖增加了IGF2BP2与客户mRNA Igf2和Pdx1的结合，此前已证明这介导了其对胰岛素分泌的影响。因此，我们的数据表明，IGF2BP2直接结合葡萄糖以增强胰岛素分泌。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.06.651509",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.06.651509",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.06.651509/index.html"
+}

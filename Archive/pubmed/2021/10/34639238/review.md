@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and acknowledgments. No supplementary figures or tables were provided for assessment.
+- **Assessment boundary** The review is limited to the scientific content, methodology, data interpretation, and claims as presented in the supplied manuscript text. No external literature verification or independent replication was performed.
+- **Shared manuscript claim summary** The authors claim that a combined experimental and computational approach, using an in vitro NPC barrier mimic, molecular dynamics simulations, and agent-based modeling, reveals that NTF2 binding to Nsp1FG fragments is negatively cooperative, dependent on FG repeat number, fragment charge, grafting density, and the presence of nonspecific and specific proteins in the mobile phase, and that multiple NTF2 homodimers can bind to a single Nsp1FG molecule.
+- **Visible evidence base** The evidence base includes experimental binding data (apparent Kd and Bmax values) obtained from fluorescence measurements on planar Nsp1FG monolayers, molecular dynamics simulations of Nsp1FG fragment radii of gyration, and agent-based model outputs that are compared to experimental results. Specific data points are referenced in Figures 1-3, Tables 1-2, and Supplementary Figures S1-S2, but these are not available in the provided material.
+- **Missing materials affecting confidence** Supplementary figures (S1, S2), supplementary tables (S1A, S1B, S1C), videos (S1), and all primary data figures (Figures 1-3) and tables (Tables 1-2) are not provided. This limits the ability to independently verify quantitative claims, statistical analyses, and the quality of fits. The full methods for the agent-based model parameterization and sensitivity analysis are described but the underlying code or detailed parameter values are not available.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and well-structured investigation of the binding interactions between the FG nucleoporin Nsp1 and the nuclear transport receptor NTF2, using a combination of in vitro surface chemistry, quantitative microscopy, molecular dynamics, and agent-based modeling. The work addresses an important question in nucleocytoplasmic transport, namely how weak, multivalent interactions give rise to selective and rapid transport. The experimental design is thoughtful, particularly the use of a tunable mobile phase and the comparison of different Nsp1FG fragments with varying FG repeat numbers and charges. The integration of computational modeling with experimental data is a strength and provides mechanistic insight that would be difficult to obtain from experiments alone. However, the manuscript has several technical and interpretive issues that need to be addressed. The claim of negative cooperativity is inferred from ABM fitting rather than directly measured, and the lack of primary data figures and statistical details in the provided material prevents full verification. The discussion of the biological relevance of the findings, particularly the extrapolation from a 2D planar surface to the 3D NPC environment, is somewhat speculative. Overall, the work is potentially valuable but requires clarification and additional evidence to fully support its conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of nucleocytoplasmic transport, nuclear pore complex biology, intrinsically disordered proteins, and biophysics of weak multivalent interactions would find this work relevant. The methodological combination of surface-based binding assays with computational modeling may also appeal to scientists developing in vitro reconstitution systems for studying transport barriers. The findings on the role of charge and grafting density in modulating binding affinity could inform future studies on NPC selectivity and the design of synthetic nanopores or filtration devices.
+- **Major strengths** The study combines multiple complementary techniques to address a complex biological question. The use of a well-defined in vitro system with controlled surface density and mobile phase composition is a clear strength. The inclusion of molecular dynamics simulations to estimate radii of gyration and the use of ABM to test binding stoichiometry and cooperativity provide a multi-scale perspective. The finding that the apparent Kd values shift from nM to μM range in the presence of nonspecific proteins is an important observation that reconciles in vitro measurements with in vivo transport kinetics. The systematic variation of FG repeat number and charge across three Nsp1 fragments is a good experimental design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and verification
+  - **Claim pointer** The manuscript reports specific apparent Kd and Bmax values for NTF2 binding to Nsp1FG fragments under various conditions, and claims these are significantly different between conditions and between WT and mutant NTF2.
+  - **Evidence pointer** Figures 2 and 3, Tables 1-2, Supplementary Tables S1B and S1C, location not provided
+  - **Concern** The primary data figures and tables are not included in the provided material. Without access to the actual binding curves, fitted values, error bars, and statistical test results, it is impossible to verify the quantitative claims made in the text. The text states that certain differences are "significant" but no statistical methods or p-values are described in the methods section.
+  - **Why it matters** The core conclusions of the paper, including the effects of FG repeat number, charge, grafting density, and mobile phase composition on binding, rest entirely on these quantitative measurements. If the data are not robust or the statistical analysis is inadequate, the conclusions would be unsupported.
+  - **Resolution test** Provide the full figures and tables with error bars and statistical annotations. Describe the statistical tests used for comparisons and report exact p-values or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of cooperativity
+  - **Claim pointer** The authors claim that ABM results support a model where multiple NTF2 homodimers bind to a single Nsp1FG, and that binding is negatively cooperative.
+  - **Evidence pointer** Section 2.4, Table 2, location not provided
+  - **Concern** The claim of negative cooperativity is inferred from fitting ABM outputs to experimental data, but the manuscript does not provide a direct experimental measurement of cooperativity, such as a Hill coefficient or a comparison of binding at different occupancies. The ABM is parameterized with experimentally derived Kd values, but the fitting process to determine the number of binding events and their individual strengths is described as a "systematic trial and error process," which is not a rigorous or reproducible method. The text also acknowledges that other binding scenarios (e.g., one NTF2 binding to multiple Nsp1FGs) were not directly tested.
+  - **Why it matters** The conclusion of negative cooperativity is a central finding of the paper. If the ABM fitting is not robust or if alternative models are not adequately ruled out, the claim is not well supported.
+  - **Resolution test** Provide a more rigorous method for model selection, such as comparing the fit of different binding models (e.g., independent, positively cooperative, negatively cooperative) using a quantitative criterion like AIC or BIC. Alternatively, design an experiment that directly measures cooperativity, such as a binding assay at varying NTF2 concentrations that can be analyzed with a Hill equation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Extrapolation to native NPC
+  - **Claim pointer** The authors suggest that the densely grafted Nsp1FG surfaces (30 μM incubation) approach the grafting density of the native NPC and that the findings are relevant to understanding transport in vivo.
+  - **Evidence pointer** Section 2.1, Section 3, Figure 1B, Figure S1D, location not provided
+  - **Concern** The grafting density of the native NPC is estimated from literature, but the manuscript does not provide a direct comparison of the physical properties (e.g., mesh size, local concentration of FG motifs) between the in vitro surface and the NPC. The 2D planar geometry of the in vitro system is fundamentally different from the 3D cylindrical geometry of the NPC, and this could affect the nature of the interactions. The authors acknowledge this in the discussion but do not provide a detailed analysis of how their findings might translate.
+  - **Why it matters** The relevance of the findings to the native NPC is a key motivation for the study. If the in vitro system is not a faithful mimic, the conclusions may not be generalizable.
+  - **Resolution test** Provide a more quantitative comparison of the in vitro system to the NPC, such as calculating the effective FG motif concentration in both systems and discussing how the geometry might affect binding. Alternatively, perform experiments with a 3D scaffold or nanopore to better mimic the NPC environment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Agent-based model parameterization
+  - **Evidence pointer** Section 4, Agent-based modeling simulations, location not provided
+  - **Issue** The description of the ABM parameterization is vague. The text states that "the number of possible binding events and binding strength was varied in a systematic trial and error process," which is not a clear or reproducible methodology.
+  - **Required correction** Provide a detailed description of the parameter space explored, the criteria for accepting a set of parameters, and the sensitivity of the results to these parameters. Consider using a more formal optimization or fitting procedure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding data analysis
+  - **Evidence pointer** Section 2.3, Figure 3, location not provided
+  - **Issue** The text reports significant differences in Kd and Bmax values but does not describe the statistical methods used or the number of replicates.
+  - **Required correction** Add a subsection in the methods describing the statistical tests used (e.g., t-test, ANOVA) and report the number of independent experiments and the error bars in the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "apparent" parameters
+  - **Evidence pointer** Section 2.3, Section 3, location not provided
+  - **Issue** The manuscript uses the term "apparent Kd" and "apparent Bmax" but does not clearly define what "apparent" means in this context, particularly in relation to the two-site Langmuir isotherm that was tested and rejected.
+  - **Required correction** Define "apparent" in the methods, explaining that these values are derived from a single-site Langmuir fit and may reflect a composite of multiple interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1-3
+  - **Evidence pointer** Figures 1-3, location not provided
+  - **Issue** The figures are not provided in the manuscript text, making it difficult to follow the results.
+  - **Required correction** Ensure that all figures are included in the final submission and that they are clearly labeled and referenced in the text.
+- **Technical failings that need to be addressed before the case is established** The lack of primary data figures and tables is a major technical failing that prevents verification of the results. The ABM fitting procedure is not described rigorously enough to be reproducible. The statistical analysis of the binding data is not described. These issues must be addressed before the conclusions can be fully evaluated.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of a planar in vitro binding assay with ABM to study NTF2-Nsp1FG interactions is somewhat novel, but similar approaches have been used in the field. The finding of negative cooperativity is interesting but not entirely unexpected given the multivalent nature of the interactions.
+  - **Scientific importance** The work addresses a fundamental question in nucleocytoplasmic transport, which is of broad importance. However, the direct relevance to the native NPC is not fully established, limiting the immediate impact.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, cell biologists, and computational biologists. The methods are described in sufficient detail for specialists, but the broader significance could be better highlighted for a general audience.
+  - **Technical soundness** The experimental design is sound, but the lack of primary data and statistical details undermines confidence. The ABM fitting procedure is not rigorous enough.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the results section is dense and would benefit from clearer explanations of the key findings and their implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially valuable approach and interesting findings, but the lack of primary data, unclear statistical analysis, and non-rigorous ABM fitting prevent the conclusions from being fully established. If the authors can provide the missing data, improve the description of the ABM methodology, and strengthen the statistical analysis, the paper would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim of negative cooperativity is not directly supported by experimental data and relies on a non-rigorous ABM fitting procedure.
+- The claim that the densely grafted surfaces approach the native NPC density is based on literature estimates and not directly validated in this study.
+- The statement that "NTRs present in YL are likely able to outcompete NTF2W7AI64A" is speculative and not directly tested.
+- The extrapolation of findings from a 2D planar surface to the 3D NPC environment is not fully justified.

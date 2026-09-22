@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "34246632",
+    "doi": "10.1016/j.jbc.2021.100945",
+    "title": "Intrinsically disordered electronegative clusters improve stability and binding specificity of RNA-binding proteins."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins play crucial roles in various cellular functions and contain abundant disordered protein regions. The disordered regions in RNA-binding proteins are rich in repetitive sequences, such as poly-K/R, poly-N/Q, poly-A, and poly-G residues. Our bioinformatic analysis identified a largely neglected repetitive sequence family we define as electronegative clusters (ENCs) that contain acidic residues and/or phosphorylation sites. The abundance and length of ENCs exceed other known repetitive sequences. Despite their abundance, the functions of ENCs in RNA-binding proteins are still elusive. To investigate the impacts of ENCs on protein stability, RNA-binding affinity, and specificity, we selected one RNA-binding protein, the ribosomal biogenesis factor 15 (Nop15), as a model. We found that the Nop15 ENC increases protein stability and inhibits nonspecific RNA binding, but minimally interferes with specific RNA binding. To investigate the effect of ENCs on sequence specificity of RNA binding, we grafted an ENC to another RNA-binding protein, Ser/Arg-rich splicing factor 3. Using RNA Bind-n-Seq, we found that the engineered ENC inhibits disparate RNA motifs differently, instead of weakening all RNA motifs to the same extent. The motif site directly involved in electrostatic interaction is more susceptible to the ENC inhibition. These results suggest that one of functions of ENCs is to regulate RNA binding via electrostatic interaction. This is consistent with our finding that ENCs are also overrepresented in DNA-binding proteins, whereas underrepresented in halophiles, in which nonspecific nucleic acid binding is inhibited by high concentrations of salts.",
+    "keywords": [
+      "RNA-binding proteins",
+      "acidic patch",
+      "electronegative clusters",
+      "intrinsically disordered proteins",
+      "low-complexity regions",
+      "poly-D/E"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "*Protein Binding",
+      "Protein Stability",
+      "RNA/metabolism/chemistry",
+      "Nuclear Proteins/metabolism/chemistry/genetics",
+      "RNA Splicing Factors/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zaharias, Steve",
+        "Zhang, Zihan",
+        "Davis, Kenneth",
+        "Fargason, Talia",
+        "Cashman, Derek",
+        "Yu, Tao",
+        "Zhang, Jun"
+      ],
+      "short_names": [
+        "Zaharias S",
+        "Zhang Z",
+        "Davis K",
+        "Fargason T",
+        "Cashman D",
+        "Yu T",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, Tennessee Technological University, Cookeville, Tennessee, USA.",
+        "Department of Chemistry, University of North Dakota, Grand Forks, North Dakota, USA.",
+        "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA. Electronic address: zhanguab@uab.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zaharias, Steve",
+        "short_name": "Zaharias S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zihan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Kenneth",
+        "short_name": "Davis K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Fargason, Talia",
+        "short_name": "Fargason T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Cashman, Derek",
+        "short_name": "Cashman D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Tennessee Technological University, Cookeville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Tao",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of North Dakota, Grand Forks, North Dakota, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA. Electronic address: zhanguab@uab.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/12 06:00",
+    "fetched_at": "2026-09-20 04:18:51"
+  },
+  "links": {
+    "cites": [
+      "41510641",
+      "40631955",
+      "40530264",
+      "40285687",
+      "39885181",
+      "39788545",
+      "38567732",
+      "38554115",
+      "38409704",
+      "38365983",
+      "37961538",
+      "37953271",
+      "37870427",
+      "37573815",
+      "37474258",
+      "37131796",
+      "37060324",
+      "36774964",
+      "36460666"
+    ],
+    "refs": [],
+    "similar": [
+      "34246632",
+      "37060324",
+      "27048167",
+      "24106084",
+      "31547849",
+      "33352065",
+      "38996909",
+      "24003031",
+      "38705823",
+      "26455390",
+      "29425497",
+      "23942625",
+      "39089542",
+      "28924037",
+      "30400675",
+      "34905768",
+      "22369183",
+      "34487791",
+      "35173350",
+      "27720642",
+      "35098694",
+      "26297830",
+      "33991007",
+      "29511089",
+      "38969281",
+      "28934129",
+      "38917322",
+      "23972852",
+      "27082063",
+      "32553192",
+      "32933064",
+      "34591015",
+      "36454680",
+      "35491929",
+      "27377881",
+      "25286318",
+      "11433018",
+      "25533957",
+      "29483575",
+      "27787828",
+      "24030713",
+      "29843482",
+      "31889261",
+      "29320165",
+      "17630287",
+      "28002650",
+      "26742101",
+      "28554301",
+      "24591642",
+      "29066345",
+      "25207671",
+      "26101256",
+      "32020911",
+      "25447530",
+      "34871434",
+      "10102992",
+      "28381244",
+      "24957607",
+      "29666277",
+      "23706950",
+      "8676391",
+      "26088262",
+      "20480043",
+      "28857320",
+      "31136713",
+      "27911701",
+      "31391250",
+      "24795046",
+      "32703884",
+      "29716768",
+      "38252962",
+      "34303077",
+      "16428607",
+      "31425549",
+      "31397874",
+      "33761311",
+      "28003515",
+      "28786199",
+      "36858171",
+      "10848602",
+      "16492733",
+      "27229125",
+      "8665950",
+      "30471686",
+      "24532081",
+      "26944332",
+      "28425697",
+      "33454008",
+      "31329947",
+      "33361159",
+      "34439840",
+      "33627133",
+      "18276647",
+      "25584704",
+      "33291838",
+      "27037624",
+      "22154808",
+      "38456420",
+      "28575444",
+      "24727949",
+      "33028677"
+    ],
+    "review": [
+      "34246632",
+      "27048167",
+      "38705823",
+      "35098694",
+      "32020911",
+      "23706950",
+      "20480043",
+      "27911701",
+      "29716768",
+      "34303077",
+      "31397874",
+      "27229125",
+      "24532081",
+      "26944332",
+      "33361159"
+    ],
+    "pmc": [
+      "8348266"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(21)00745-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34246632/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34246632",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34246632",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

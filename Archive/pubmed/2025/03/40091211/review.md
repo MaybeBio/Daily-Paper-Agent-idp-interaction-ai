@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use coarse-grained Langevin dynamics simulations to study how the spacing between dipolar side chains (d) and polymer chain length (N) affect the conformational properties of polyzwitterions in salt solutions. They report that added salt induces nonmonotonic changes in the radius of gyration, with both antipolyelectrolyte and polyelectrolyte effects observed depending on salt concentration, attributed to charge regulation and screening of dipole-dipole interactions.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, salt concentration ranges, quantitative results (e.g., radius of gyration values), comparison with experimental data, and any validation or convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study of a phenomenon that is relevant to both polymer physics and biomolecular research. The central claim of nonmonotonic conformational response to salt is plausible and could be of value to the community. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the observed effects, or the generality of the conclusions. The attribution of the observed behavior to charge regulation and screening is stated without supporting evidence in the abstract. The work may be of interest to researchers in polyelectrolyte physics, intrinsically disordered proteins, and materials science, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying polyzwitterions and polyelectrolytes in solution, particularly those interested in salt-responsive polymer conformations. The connection to intrinsically disordered proteins as model synthetic analogues may attract biophysicists. Materials scientists working on antifouling coatings, drug delivery, and polymer electrolytes could also find the salt-dependent conformational control relevant to their applications.
+- **Major strengths** The topic addresses a well-known but mechanistically debated phenomenon, the antipolyelectrolyte effect, using a computational approach that can isolate structural parameters. The systematic variation of side-chain spacing and chain length is a sensible design. The observation of nonmonotonic behavior, rather than a simple monotonic response, suggests the simulations may capture competing physical effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained Langevin dynamics simulations reveal nonmonotonic changes in the polymer's radius of gyration with added salt, exhibiting both antipolyelectrolyte and polyelectrolyte effects.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information about the simulation methodology, including the coarse-grained model details, force field parameters, salt representation (explicit ions vs. implicit screening), salt concentration range, simulation length, equilibration protocol, or system size. Without these details, the reliability of the simulation results cannot be assessed. The nonmonotonic behavior could be an artifact of insufficient sampling, finite-size effects, or the specific coarse-graining scheme chosen.
+  - **Why it matters** The central conclusion depends entirely on the fidelity of the simulations. If the model or sampling is inadequate, the reported nonmonotonic behavior may not reflect the physical reality of polyzwitterions in salt solutions. The claim of both antipolyelectrolyte and polyelectrolyte effects in the same system is a strong statement that requires robust evidence.
+  - **Resolution test** Provide full simulation details in the manuscript, including model parameters, salt concentration range, simulation time, convergence checks (e.g., radius of gyration as a function of time), and validation against known experimental or theoretical results for polyzwitterions. Show that the nonmonotonic behavior is reproducible across independent simulations and robust to parameter variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors attribute the nonmonotonic conformational behavior to charge regulation and screening of dipole-dipole interactions by ions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this mechanistic explanation without presenting any supporting evidence. No data on ion distribution, charge fluctuations, dipole-dipole interaction energies, or correlation functions are mentioned. The mechanism is plausible but could be one of several explanations for the observed behavior, including excluded volume effects, changes in solvent quality, or specific ion effects.
+  - **Why it matters** The mechanistic interpretation is a key part of the paper's contribution. If the mechanism is not directly tested or supported by simulation analysis, the conclusion remains speculative. The claim of charge regulation, in particular, requires evidence of charge state changes in the zwitterionic groups as a function of salt concentration.
+  - **Resolution test** Include analyses that directly probe the proposed mechanism, such as radial distribution functions between ions and charged groups, time-averaged charge distributions on the polymer, dipole-dipole interaction energy decomposition, or comparison with control simulations where charge regulation is artificially suppressed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors imply that the observed effects of side-chain spacing (d) and chain length (N) on conformational properties are general for polyzwitterions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report the range of d and N values studied, nor whether the nonmonotonic behavior persists across all parameter combinations. It is unclear if the effect is universal or specific to certain ranges of these structural parameters. The abstract also does not state how the results depend on d and N, despite these being the primary variables of the study.
+  - **Why it matters** The stated aim is to investigate how d and N affect conformational properties. If the abstract does not summarize these dependencies, the reader cannot judge the scope of the conclusions. The generality of the findings is central to the paper's significance.
+  - **Resolution test** In the full manuscript, clearly present the dependence of radius of gyration on salt concentration for multiple values of d and N, and state whether the nonmonotonic behavior is observed across the entire parameter space or only in specific regimes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "horizontal line" in place of what appears to be a dash or hyphen, which is likely a formatting artifact. This should be corrected to standard punctuation.
+  - **Required correction** Replace "horizontal line" with an appropriate dash or rephrase the sentence for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention how these simulation results compare with previous computational or experimental studies of polyzwitterions. Without this context, the novelty of the findings is difficult to gauge.
+  - **Required correction** Add a sentence in the abstract or introduction that situates the results relative to prior work on antipolyelectrolyte behavior in polyzwitterions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Results summary
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that salt leads to nonmonotonic changes in radius of gyration but provides no quantitative information, such as the magnitude of the effect or the salt concentration at which the transition occurs.
+  - **Required correction** Include representative values or a qualitative description of the salt concentration range where the antipolyelectrolyte and polyelectrolyte regimes are observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The simulation methodology must be fully disclosed and validated, and the proposed mechanism must be directly supported by simulation analyses. Without these, the central claims of nonmonotonic behavior and its mechanistic origin are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The topic is not new, as the antipolyelectrolyte effect is well documented, but the systematic computational study of side-chain spacing and chain length effects may offer a fresh perspective. Scientific importance: Moderate, as the results could inform understanding of salt-responsive polymers and intrinsically disordered proteins, but the significance depends on the robustness and generality of the findings. Interdisciplinary readership: Potentially broad, spanning polymer physics, biophysics, and materials science, but the abstract does not currently make the case for why nonspecialists should care. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses jargon without sufficient context, and the mechanistic explanation is stated without support.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the absence of methodological detail and direct mechanistic evidence prevents a supportive recommendation. If the full manuscript addresses the blocking concerns, the work could become publishable, but the case is not made at this stage.
+
+## Risk / unsupported claims
+- The claim of nonmonotonic changes in radius of gyration with salt concentration is unsupported in the abstract, as no quantitative data or simulation details are provided.
+- The attribution of the observed behavior to charge regulation and screening of dipole-dipole interactions is unsupported, as no mechanistic analyses are described.
+- The implication that the effects of d and N are general across polyzwitterions is unsubstantiated, as the parameter ranges and their specific effects are not reported.
+- The relevance to applications in antimicrobial materials, antifouling coatings, drug delivery, membranes, and polymer electrolytes is stated without any connection to the simulation results or demonstration of practical implications.

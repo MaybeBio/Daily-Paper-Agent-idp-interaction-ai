@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2602.02177v1",
+  "title": "Interaction-induced moiré lattices: from mosaic mobility edges to many-body localization",
+  "doi": "",
+  "abstract": "We study localization driven solely by interparticle interactions in moiré lattice systems without intrinsic disorder or externally imposed quasiperiodic potentials. We consider a one-dimensional bilayer with incommensurate lattice constants, described by a spin-dependent Fermi-Hubbard-type model with short-range interlayer interactions, where quasiperiodicity emerges only through interactions. Exact diagonalization shows that quenching hopping in one layer generates an interaction-induced mosaic potential with multiple mobility edges. When both layers are dynamical, increasing interlayer interactions drives transitions among ergodic, critical, and many-body localized regimes, with energy-dependent coexistence in certain parameter ranges. An exact mapping to a noninteracting single-particle model on a higher-dimensional structured graph provides a unified interpretation of these results and suggests an experimentally accessible route to interaction-induced moiré physics and localization.",
+  "authors": [
+    "Yan-Hao Yang",
+    "Zhihao Xu",
+    "Lei Ying",
+    "Qizhong Zhu"
+  ],
+  "published_date": "2026-02-02T14:48:33Z",
+  "updated_date": "2026-02-02T14:48:33Z",
+  "journal": "",
+  "category": "cond-mat.dis-nn",
+  "landing_url": "https://arxiv.org/abs/2602.02177v1",
+  "pdf_url": "https://arxiv.org/pdf/2602.02177v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.dis-nn"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2602.02177v1",
+    "raw_categories": [
+      "cond-mat.dis-nn"
+    ],
+    "journal_ref": ""
+  }
+}

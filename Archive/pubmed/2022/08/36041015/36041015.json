@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "36041015",
+    "doi": "10.1080/15548627.2022.2119350",
+    "title": "When acidic residues do not mimic phosphorylation: high-affinity binding of the reticulophagy receptor TEX264 to LC3/GABARAP."
+  },
+  "content": {
+    "abstract": "Substrates that are selected for degradation by autophagy interact in more complex eukaryotes with Atg8-family proteins via the LC3-interacting region (LIR) that is often preceded by either acidic residues or phosphorylated serine or threonine. These upstream amino acid residues increase the binding affinity of the LIR motif to its binding site on the surface of LC3/GABARAP. It is not fully understood whether or how phosphorylation functionally replaces acidic residues in the LIR-Atg8-family protein interactions. A recent study by Chino et al. discussed in this article analyzed the phosphorylation of two serine residues upstream of the LIR motif in TEX264, a reticulophagy receptor that exhibits a high binding affinity to LC3/GABARAP proteins. The authors found a structural basis for the high-affinity interaction yielded by phosphorylation but not by an acidic residue in place of phosphoserine. Furthermore, finding that phosphorylation of TEX264 generates its high binding affinity to Atg8-family proteins uncovers a mechanistic alternative to that utilized by other reticulophagy receptors when they interact with LC3/GABARAP.Abbreviations: CSNK2: casein kinase 2; ER: endoplasmic reticulum; IDPR: intrinsically disordered protein region; LIR: LC3-interacting region; p-S: phosphorylated serine.",
+    "keywords": [
+      "Casein kinase 2",
+      "LC3-Interacting region",
+      "crystallography",
+      "intrinsically disordered protein region",
+      "isothermal titration calorimetry"
+    ],
+    "mesh_terms": [
+      "*Autophagy",
+      "Phosphorylation",
+      "*Microtubule-Associated Proteins/metabolism",
+      "Autophagy-Related Protein 8 Family/metabolism",
+      "Carrier Proteins/metabolism",
+      "Serine",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Editorial",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Popelka, Hana",
+        "Klionsky, Daniel J"
+      ],
+      "short_names": [
+        "Popelka H",
+        "Klionsky DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7828-8118"
+      ],
+      "affiliations": [
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, USA.",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Popelka, Hana",
+        "short_name": "Popelka H",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, USA."
+        ]
+      },
+      {
+        "full_name": "Klionsky, Daniel J",
+        "short_name": "Klionsky DJ",
+        "identifiers": [
+          "0000-0002-7828-8118"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autophagy"
+    ],
+    "journal_abbrev": [
+      "Autophagy"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Editorial",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/31 06:00",
+    "fetched_at": "2026-09-20 12:57:36"
+  },
+  "links": {
+    "cites": [
+      "42519310",
+      "39928048",
+      "38766171",
+      "37902287",
+      "36898370"
+    ],
+    "refs": [
+      "35417087",
+      "32620754",
+      "31147549",
+      "31006538",
+      "31006537",
+      "29867141",
+      "28442745",
+      "26565669",
+      "24926813",
+      "24462201",
+      "23805866",
+      "23209295",
+      "21617041",
+      "20083108"
+    ],
+    "similar": [
+      "36041015",
+      "35417087",
+      "33845085",
+      "30990354",
+      "31362979",
+      "34854256",
+      "26565669",
+      "28253953",
+      "38726830",
+      "30231788",
+      "31006538",
+      "31362563",
+      "31310766",
+      "30982432",
+      "30282803",
+      "28442745",
+      "37530436",
+      "34657568",
+      "31857374",
+      "37733395",
+      "30955882",
+      "27246247",
+      "36753519",
+      "28287329",
+      "31996076",
+      "33111629",
+      "29749795",
+      "31053714",
+      "23043107",
+      "28320742",
+      "21620860",
+      "39115670",
+      "35820026",
+      "28806134",
+      "36251508",
+      "35000542",
+      "30661429",
+      "32272685",
+      "29313416",
+      "24668264",
+      "31006537",
+      "33726628",
+      "30610694",
+      "39115669",
+      "36446976",
+      "22421968",
+      "34152791",
+      "27540684",
+      "28655748",
+      "26468287",
+      "35127371",
+      "34670023",
+      "36250672",
+      "28712572",
+      "32817423",
+      "35072587",
+      "30679426",
+      "33487099",
+      "35220892",
+      "28121222",
+      "16303767",
+      "27402840",
+      "33783314",
+      "15187094",
+      "27888204",
+      "22948227",
+      "33121335",
+      "37848407",
+      "28668392",
+      "23908376",
+      "33164651",
+      "35649355",
+      "34836490",
+      "28330855",
+      "27601442",
+      "31709703",
+      "38437556",
+      "31578424",
+      "34985287",
+      "38054642",
+      "32882854",
+      "27653272",
+      "29367244",
+      "28165849",
+      "23209295",
+      "33949974",
+      "27418283",
+      "35538106",
+      "28497334",
+      "32732290",
+      "27484196",
+      "32048886",
+      "26083323",
+      "24290141",
+      "39236246",
+      "32296703",
+      "39160442",
+      "37191320",
+      "27864321",
+      "30961647",
+      "24589857",
+      "11146101",
+      "24345374",
+      "37651691",
+      "38214012",
+      "35134996",
+      "36847414",
+      "39115668",
+      "36898370",
+      "34597140",
+      "35133947",
+      "36044577",
+      "39344512",
+      "38456639",
+      "38766171",
+      "39185234",
+      "36780422",
+      "39059492",
+      "38963012"
+    ],
+    "review": [
+      "36041015",
+      "31310766",
+      "35000542",
+      "33726628",
+      "34152791",
+      "35127371",
+      "34670023",
+      "35072587",
+      "28121222",
+      "23908376",
+      "27601442",
+      "32882854",
+      "27418283",
+      "28497334",
+      "32048886"
+    ],
+    "pmc": [
+      "9629098"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15548627.2022.2119350?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36041015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36041015",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

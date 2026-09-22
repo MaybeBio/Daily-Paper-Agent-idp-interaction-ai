@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "40131954",
+    "doi": "10.1073/pnas.2417920122",
+    "title": "Prediction of phase-separation propensities of disordered proteins from sequence."
+  },
+  "content": {
+    "abstract": "Phase separation is one possible mechanism governing the selective cellular enrichment of biomolecular constituents for processes such as transcriptional activation, mRNA regulation, and immune signaling. Phase separation is mediated by multivalent interactions of macromolecules including intrinsically disordered proteins and regions (IDRs). Despite considerable advances in experiments, theory, and simulations, the prediction of the thermodynamics of IDR phase behavior remains challenging. We combined coarse-grained molecular dynamics simulations and active learning to develop a fast and accurate machine learning model to predict the free energy and saturation concentration for phase separation directly from sequence. We validate the model using computational and previously measured experimental data, as well as new experimental data for six proteins. We apply our model to all 27,663 IDRs of chain length up to 800 residues in the human proteome and find that 1,420 of these (5%) are predicted to undergo homotypic phase separation with transfer free energies < -2 k(B)T. We use our model to understand the relationship between single-chain compaction and phase separation and find that changes from charge- to hydrophobicity-mediated interactions can break the symmetry between intra- and intermolecular interactions. We also provide proof of principle for how the model can be used in force field refinement. Our work refines and quantifies the established rules governing the connection between sequence features and phase-separation propensities, and our prediction models will be useful for interpreting and designing cellular experiments on the role of phase separation, and for the design of IDRs with specific phase-separation propensities.",
+    "keywords": [
+      "biophysical",
+      "disordered proteins",
+      "phase separation",
+      "proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Humans",
+      "Thermodynamics",
+      "Molecular Dynamics Simulation",
+      "Machine Learning",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "von Bulow, Soren",
+        "Tesei, Giulio",
+        "Zaidi, Fatima Kamal",
+        "Mittag, Tanja",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "von Bulow S",
+        "Tesei G",
+        "Zaidi FK",
+        "Mittag T",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7125-5973",
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0002-1827-3811",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Department of Biology, Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark.",
+        "Department of Biology, Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105.",
+        "Department of Biology, Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "von Bülow, Sören",
+        "short_name": "von Bülow S",
+        "identifiers": [
+          "0000-0001-7125-5973"
+        ],
+        "affiliations": [
+          "Department of Biology, Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Department of Biology, Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Fatima Kamal",
+        "short_name": "Zaidi FK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [
+          "0000-0002-1827-3811"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Department of Biology, Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, University of Copenhagen, Copenhagen 2200, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/25 18:28",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42427316",
+      "42426897",
+      "42425985",
+      "42418518",
+      "42407334",
+      "42204980",
+      "42190015",
+      "42184109",
+      "42161313",
+      "42147780",
+      "42063620",
+      "42055532",
+      "41991555",
+      "41944598",
+      "41902470",
+      "41868013",
+      "41836299",
+      "41756960",
+      "41653921",
+      "41650254",
+      "41337585",
+      "41266615",
+      "41169547",
+      "41114728",
+      "41082321",
+      "41001635",
+      "40962203",
+      "40830340",
+      "40781776",
+      "40777465",
+      "40727229",
+      "40671581",
+      "40629388",
+      "40590540",
+      "40524024",
+      "40441157",
+      "40403066",
+      "40371733",
+      "40216775",
+      "40093361",
+      "39554085",
+      "39504303",
+      "38895487",
+      "38464104"
+    ],
+    "refs": [
+      "39937084",
+      "39908323",
+      "39673466",
+      "39464253",
+      "39412378",
+      "39356108",
+      "39196930",
+      "39105804",
+      "39078082",
+      "38553587",
+      "38503281",
+      "38297184",
+      "38297118",
+      "38181073",
+      "37980572",
+      "37957331",
+      "37816028",
+      "37770423",
+      "37684240",
+      "37645312",
+      "37431920",
+      "36881934",
+      "36607820",
+      "36528065",
+      "36513655",
+      "35795820",
+      "35675815",
+      "34931046",
+      "34863777",
+      "34716273",
+      "34402301",
+      "33934416",
+      "33876938",
+      "33827920",
+      "33826337",
+      "33597515",
+      "33535034",
+      "33318217",
+      "32619404",
+      "32393642",
+      "32227994",
+      "32029630",
+      "31036655",
+      "30682370",
+      "30217894",
+      "29961577",
+      "29424691",
+      "29364893",
+      "29073067",
+      "28935776",
+      "28746339",
+      "28666087",
+      "28483149",
+      "28283059",
+      "28225081",
+      "27824447",
+      "27392146",
+      "26390327",
+      "26328871",
+      "25747659",
+      "25288112",
+      "24493033",
+      "23901099",
+      "23061835",
+      "18576630",
+      "16967959",
+      "10766243",
+      "7688609"
+    ],
+    "similar": [
+      "40131954",
+      "33248138",
+      "34716273",
+      "33076213",
+      "36009025",
+      "32393642",
+      "33069007",
+      "33139563",
+      "38275091",
+      "39589885",
+      "39093570",
+      "34428231",
+      "33684117",
+      "40574713",
+      "40403066",
+      "39225535",
+      "36227468",
+      "36908253",
+      "33357399",
+      "40671581",
+      "39947751",
+      "34571015",
+      "33934416",
+      "41033554",
+      "28924037",
+      "40009520",
+      "40867524",
+      "39333476",
+      "33078839",
+      "35481633",
+      "39907269",
+      "38941236",
+      "41337585",
+      "40286477",
+      "32087632",
+      "31756104",
+      "27936491",
+      "37498545",
+      "38316988",
+      "38112495",
+      "33876938",
+      "39446390",
+      "36272675",
+      "32824743",
+      "33616531",
+      "38297118",
+      "36528065",
+      "35767567",
+      "36291695",
+      "38181073",
+      "39248370",
+      "39319382",
+      "36657879",
+      "33453922",
+      "40068541",
+      "33555894",
+      "40970906",
+      "35094056",
+      "38915483",
+      "40911789",
+      "38459060",
+      "36468418",
+      "33567297",
+      "37815389",
+      "30217894",
+      "40748104",
+      "34390736",
+      "28355271",
+      "29424691",
+      "33610793",
+      "37645312",
+      "41114728",
+      "32535960",
+      "30471685",
+      "34576338",
+      "40360271",
+      "40530859",
+      "39232584",
+      "39908323",
+      "39412378",
+      "35802394",
+      "39539017",
+      "34598580",
+      "40042172",
+      "40133781",
+      "36005688",
+      "39475380",
+      "26727467",
+      "29763584",
+      "41276815",
+      "27392146",
+      "41086136",
+      "38348795",
+      "28914483",
+      "40944421",
+      "40650026",
+      "36648282",
+      "23912807",
+      "41378882",
+      "38546977"
+    ],
+    "review": [
+      "40131954",
+      "33248138",
+      "33069007",
+      "39093570",
+      "33357399",
+      "39947751",
+      "33078839",
+      "40068541",
+      "33567297",
+      "34390736",
+      "33610793",
+      "35802394",
+      "38348795",
+      "40650026"
+    ],
+    "pmc": [
+      "12002312"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2417920122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40131954/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

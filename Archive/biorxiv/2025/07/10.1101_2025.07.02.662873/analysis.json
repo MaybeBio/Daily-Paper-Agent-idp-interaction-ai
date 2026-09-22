@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.02.662873",
+  "title": "mRNA 3′UTRs chaperone intrinsically disordered regions to control protein activity",
+  "authors": "Yang Luo; Yaofeng Zhong; Sudipto Basu; Ming-Chung Wu; Christine Mayr",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文揭示mRNA 3'UTR作为伴侣调控含IDR蛋白（如JMJD3）的折叠与活性，涉及IDR-IDR互作及凝聚体环境，虽无AI/物理模拟方法，但聚焦IDR互作机制建模，对本课题有重要启发。",
+  "abstract": "Nearly 3,000 human mRNA 3′UTRs have hundreds of highly conserved nucleotides, but their biological roles are unclear. These mRNAs mostly encode proteins with long intrinsically disordered regions (IDRs), including MYC, UTX, and JMJD3. We show that these proteins are only fully active when translated from mRNA templates that include their 3′UTRs, raising the possibility of functional interactions between 3′UTRs and IDRs. Rather than affecting protein abundance or localization, we find that the KDM6B 3′UTR in the mRNA template changes the folding of the encoded IDR-containing JMJD3 protein. It promotes IDR-IDR interactions and suppresses folding between domains, suggesting that RNA acts as IDR chaperone that prevents interference of hydrophobic clusters in the IDR with folding of the structured domain. mRNA-based IDR chaperones are enriched in meshlike cytoplasmic condensates, suggesting localized chaperone activity. As hydrophobic clusters in IDRs are widespread, our data suggest that 3′UTR-dependent protein folding could be a widely used mechanism for activity regulation of transcriptional regulators.",
+  "abstract_zh": "近3000个人类mRNA 3′UTR含有数百个高度保守的核苷酸，但其生物学作用尚不清楚。这些mRNA大多编码具有长内在无序区域（IDRs）的蛋白质，包括MYC、UTX和JMJD3。我们表明，这些蛋白质仅当从包含其3′UTR的mRNA模板翻译时才能完全活跃，这提出了3′UTR与IDRs之间功能性相互作用的可能性。我们发现，KDM6B 3′UTR在mRNA模板中并不影响蛋白质丰度或定位，而是改变所编码的含IDR的JMJD3蛋白质的折叠。它促进IDR-IDR相互作用，并抑制结构域间的折叠，表明RNA作为IDR伴侣，防止IDR中疏水簇干扰结构域的折叠。基于mRNA的IDR伴侣富集于网状细胞质凝聚体中，提示局部伴侣活性。由于IDRs中的疏水簇广泛存在，我们的数据表明，3′UTR依赖性蛋白质折叠可能是转录调控因子活性调控的广泛使用机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.02.662873",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.02.662873",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.02.662873/index.html"
+}

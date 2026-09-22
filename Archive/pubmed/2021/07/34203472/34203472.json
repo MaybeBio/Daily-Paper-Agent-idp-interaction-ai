@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "34203472",
+    "doi": "10.3390/toxins13070449",
+    "title": "Computational Approaches to Explore Bacterial Toxin Entry into the Host Cell."
+  },
+  "content": {
+    "abstract": "Many bacteria secrete toxic protein complexes that modify and disrupt essential processes in the infected cell that can lead to cell death. To conduct their action, these toxins often need to cross the cell membrane and reach a specific substrate inside the cell. The investigation of these protein complexes is essential not only for understanding their biological functions but also for the rational design of targeted drug delivery vehicles that must navigate across the cell membrane to deliver their therapeutic payload. Despite the immense advances in experimental techniques, the investigations of the toxin entry mechanism have remained challenging. Computer simulations are robust complementary tools that allow for the exploration of biological processes in exceptional detail. In this review, we first highlight the strength of computational methods, with a special focus on all-atom molecular dynamics, coarse-grained, and mesoscopic models, for exploring different stages of the toxin protein entry mechanism. We then summarize recent developments that are significantly advancing our understanding, notably of the glycolipid-lectin (GL-Lect) endocytosis of bacterial Shiga and cholera toxins. The methods discussed here are also applicable to the design of membrane-penetrating nanoparticles and the study of the phenomenon of protein phase separation at the surface of the membrane. Finally, we discuss other likely routes for future development.",
+    "keywords": [
+      "bacterial toxin",
+      "coarse-grained simulations",
+      "computational methods",
+      "membrane remodeling",
+      "molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "Bacterial Toxins/*metabolism",
+      "Cell Membrane/metabolism",
+      "Computer Simulation",
+      "*Models, Biological"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pezeshkian, Weria",
+        "Shillcock, Julian C",
+        "Ipsen, John H"
+      ],
+      "short_names": [
+        "Pezeshkian W",
+        "Shillcock JC",
+        "Ipsen JH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5509-0996",
+        "ORCID: 0000-0002-7885-735X"
+      ],
+      "affiliations": [
+        "Groningen Biomolecular Sciences and Biotechnology Institute and Zernike Institute for Advanced Materials, University of Groningen, 9712 Groningen, The Netherlands.",
+        "Blue Brain Project, Laboratory of Molecular and Chemical Biology of Neurodegeneration, Ecole Polytechnique Federale de Lausanne, 1015 Lausanne, Switzerland.",
+        "MEMPHYS/PhyLife, Department of Physics, Chemistry and Pharmacy (FKF), University of Southern Denmark, Campusvej 55, 5230 Odense, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pezeshkian, Weria",
+        "short_name": "Pezeshkian W",
+        "identifiers": [
+          "0000-0001-5509-0996"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute and Zernike Institute for Advanced Materials, University of Groningen, 9712 Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Shillcock, Julian C",
+        "short_name": "Shillcock JC",
+        "identifiers": [
+          "0000-0002-7885-735X"
+        ],
+        "affiliations": [
+          "Blue Brain Project, Laboratory of Molecular and Chemical Biology of Neurodegeneration, Ecole Polytechnique Fédérale de Lausanne, 1015 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ipsen, John H",
+        "short_name": "Ipsen JH",
+        "identifiers": [],
+        "affiliations": [
+          "MEMPHYS/PhyLife, Department of Physics, Chemistry and Pharmacy (FKF), University of Southern Denmark, Campusvej 55, 5230 Odense, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxins"
+    ],
+    "journal_abbrev": [
+      "Toxins (Basel)"
+    ],
+    "pub_date": "2021 Jun 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "41145507",
+      "36342474",
+      "36136581",
+      "35448851"
+    ],
+    "refs": [
+      "34135326",
+      "33794087",
+      "33782607",
+      "33721706",
+      "33564097",
+      "33460596",
+      "32945311",
+      "32756654",
+      "32752662",
+      "32709852",
+      "32641504",
+      "32610955",
+      "32554490",
+      "32385270",
+      "32193381",
+      "31957755",
+      "31754667",
+      "31542224",
+      "31396522",
+      "31028251",
+      "30859819",
+      "29717004",
+      "29502867",
+      "29158488",
+      "29123973",
+      "29068384",
+      "28910109",
+      "28536532",
+      "28304019",
+      "28143757",
+      "27984039",
+      "27943675",
+      "27819658",
+      "27474868",
+      "27333362",
+      "27070906",
+      "26730484",
+      "26305016",
+      "25875295",
+      "25857812",
+      "25650178",
+      "25575293",
+      "25425333",
+      "25309628",
+      "24837829",
+      "23925141",
+      "23451897",
+      "21460830",
+      "20023649",
+      "18046403",
+      "17569554",
+      "17522680",
+      "16089969",
+      "15851688",
+      "15298908",
+      "15116359",
+      "11433367",
+      "11113142",
+      "9753553",
+      "163229"
+    ],
+    "similar": [
+      "34203472",
+      "8206166",
+      "11207543",
+      "31140906",
+      "8206167",
+      "27197646",
+      "1484483",
+      "3281562",
+      "27084982",
+      "27327264",
+      "26805886",
+      "23665994",
+      "9192018",
+      "10395933",
+      "28545305",
+      "17118486",
+      "29667836",
+      "27070906",
+      "22919666",
+      "30135402",
+      "30508766",
+      "6752418",
+      "28589102",
+      "22441768",
+      "9485303",
+      "23912807",
+      "31538793",
+      "12224524",
+      "33418946",
+      "32385270",
+      "30706705",
+      "26305955",
+      "35398203",
+      "29401455",
+      "9695830",
+      "27106023",
+      "10699316",
+      "3847336",
+      "17669543",
+      "16153723",
+      "29172443",
+      "31375023",
+      "21576253",
+      "24737893",
+      "481427",
+      "10793151",
+      "9253764",
+      "2564398",
+      "22044757",
+      "1901867",
+      "11433367",
+      "15189853",
+      "29241687",
+      "24713323",
+      "28674946",
+      "15702923",
+      "22919642",
+      "18497859",
+      "32353188",
+      "11557760",
+      "31957755",
+      "2663611",
+      "23515159",
+      "37508840",
+      "33704754",
+      "17983750",
+      "33291882",
+      "8874490",
+      "17042742",
+      "6469348",
+      "24085852",
+      "12787937",
+      "33712196",
+      "26523409",
+      "31348925",
+      "30699302",
+      "9182593",
+      "21723603",
+      "20479891",
+      "28408344",
+      "11080141",
+      "9456314",
+      "33572271",
+      "34073185",
+      "17042741",
+      "21445328",
+      "30609803",
+      "21443527",
+      "37627769"
+    ],
+    "review": [
+      "34203472",
+      "8206166",
+      "11207543",
+      "31140906",
+      "8206167",
+      "27197646",
+      "1484483",
+      "3281562",
+      "27084982",
+      "27327264",
+      "26805886",
+      "23665994",
+      "9192018",
+      "10395933",
+      "28545305",
+      "17118486",
+      "22919666",
+      "30135402",
+      "30508766",
+      "6752418",
+      "28589102",
+      "22441768",
+      "12224524",
+      "33418946",
+      "35398203",
+      "9695830",
+      "10699316",
+      "17669543",
+      "16153723",
+      "31375023",
+      "21576253",
+      "9253764",
+      "11433367",
+      "29241687",
+      "28674946",
+      "22919642",
+      "32353188",
+      "37508840",
+      "8874490",
+      "17042742",
+      "26523409",
+      "28408344",
+      "11080141",
+      "33572271",
+      "34073185",
+      "17042741",
+      "30609803",
+      "21443527"
+    ],
+    "pmc": [
+      "8309782"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=toxins13070449",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34203472/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34203472",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

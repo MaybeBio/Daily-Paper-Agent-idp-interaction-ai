@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41950918",
+  "title": "Multivalent 28S rRNA expansion segments enable reconstitution of multilayered nucleolar architecture.",
+  "authors": "Wei, Jieli; Zhang, Yize; Wu, Jiaxin; Ye, Bingcheng; Fan, Xueyuan; Hu, Yucen; Hou, Zhonghuai; Xiang, ShengQi; Ma, Weirui",
+  "journal": "Molecular cell",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过体外重构和模拟揭示28S rRNA扩展片段通过多价RNA-RNA相互作用驱动核仁分层结构，虽对象为RNA而非无序蛋白，但其多价互作驱动凝聚体形成的机制建模思路对IDR介导的PPI相分离研究具有可迁移启发。",
+  "abstract": "Eukaryotic 28S rRNA contains expansion segments (ESs) that increase dramatically in length during evolution, yet their functions remain elusive. The nucleolus, where rRNA is transcribed, exhibits divergent architectures: three-layered (tripartite) in amniotes but two-layered (bipartite) in other eukaryotes. Here, we identified distinct rRNA localization patterns within nucleolar compartments. Through in vitro reconstitution and simulations, we demonstrated that 28S rRNA induces layered nucleolar-like structures via multivalent RNA-RNA interactions. This structure-forming capacity correlates with the evolutionary expansion of ESs. 28S rRNAs from tripartite-nucleolus organisms possess longer ESs and exhibit enhanced multivalency compared with those from bipartite-nucleolus species. Deletion of specific ESs abolishes human 28S rRNA's ability to induce nucleolar-like structures, whereas transferring these segments to C. elegans 26S rRNA confers this capability in vitro. We conclude that rRNA ESs function as architectural elements that promote nucleolar complexity, providing mechanistic insight into how genomic expansion drives sophisticated cellular organization through enhanced intermolecular interactions.",
+  "abstract_zh": "真核生物28S rRNA含有在进化过程中长度显著增加的扩展片段（ESs），但其功能仍不明确。核仁是rRNA转录的场所，其结构具有多样性：羊膜动物中为三层（三部分）结构，而其他真核生物中为两层（两部分）结构。在此，我们鉴定了核仁区室中不同的rRNA定位模式。通过体外重建和模拟，我们证明28S rRNA通过多价RNA-RNA相互作用诱导层状核仁样结构的形成。这种结构形成能力与ESs的进化扩展相关。来自三部分核仁生物的28S rRNA具有更长的ESs，并且与两部分核仁物种相比表现出增强的多价性。删除特定ESs会消除人类28S rRNA诱导核仁样结构的能力，而将这些片段转移到秀丽隐杆线虫26S rRNA上则能在体外赋予这种能力。我们得出结论，rRNA ESs作为促进核仁复杂性的结构元件，为基因组扩展如何通过增强分子间相互作用驱动复杂细胞组织提供了机制性见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41950918/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41950918/",
+  "paper_page_path": "papers/pubmed/41950918/index.html"
+}

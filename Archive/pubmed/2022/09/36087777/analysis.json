@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36087777",
+  "title": "Membrane Tethering of SepF, a Membrane Anchor for the Mycobacterium tuberculosis Z-ring.",
+  "authors": "Dey, Souvik; Zhou, Huan-Xiang",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-09-11",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用分子动力学模拟研究结核分枝杆菌SepF蛋白通过无序linker锚定膜并影响Z-ring与膜蛋白互作的机制，对象涉及IDR介导的膜锚定而非典型PPI，方法为物理模拟，对无序区域介导互作的机制建模有参考价值。",
+  "abstract": "Bacterial cell division begins with the formation of the Z-ring via polymerization of FtsZ and the localization of Z-ring beneath the inner membrane through membrane anchors. In Mycobacterium tuberculosis (Mtb), SepF is one such membrane anchor, but our understanding of the underlying mechanism is very limited. Here we used molecular dynamics simulations to characterize how SepF itself, a water-soluble protein, tethers to acidic membranes that mimic the Mtb inner membrane. In addition to an amphipathic helix (residues 1-12) at the N-terminus, membrane binding also occurs through two stretches of positively charged residues (Arg27-Arg37 and Arg95-Arg107) in the long linker preceding the FtsZ-binding core domain (residues 128-218). The additional interactions via the disordered linker stabilize the membrane tethering of SepF, and keep the core domain of SepF and hence the attached Z-ring close to the membrane. The resulting membrane proximity of the Z-ring in turn enables its interactions with and thus recruitment of two membrane proteins, FtsW and CrgA, at the late stage of cell division.",
+  "abstract_zh": "细菌细胞分裂始于FtsZ聚合形成Z环，并通过膜锚定蛋白将Z环定位在内膜下方。在结核分枝杆菌（Mycobacterium tuberculosis, Mtb）中，SepF是此类膜锚定蛋白之一，但我们对潜在机制的理解非常有限。本研究采用分子动力学（molecular dynamics）模拟，表征水溶性蛋白SepF如何锚定至模拟Mtb内膜的酸性膜上。除N端的两亲性螺旋（残基1-12）外，膜结合还通过FtsZ结合核心结构域（残基128-218）之前长连接区中的两段带正电荷残基（Arg27-Arg37和Arg95-Arg107）发生。通过无序连接区的额外相互作用稳定了SepF的膜锚定，并使SepF的核心结构域及附着的Z环保持靠近膜。由此产生的Z环膜邻近性进而促进其在细胞分裂后期与两种膜蛋白FtsW和CrgA的相互作用，从而招募这些蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36087777/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36087777/",
+  "paper_page_path": "papers/pubmed/36087777/index.html"
+}

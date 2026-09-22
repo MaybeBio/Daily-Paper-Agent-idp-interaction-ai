@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34391457",
+  "title": "Prediction of MoRFs based on sequence properties and convolutional neural networks.",
+  "authors": "He, Hao; Zhou, Yatong; Chi, Yue; He, Jingfei",
+  "journal": "BioData mining",
+  "published_date": "2021-08-16",
+  "window": {
+    "start": "2021-08-16",
+    "end": "2021-08-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用卷积神经网络基于序列属性预测无序蛋白中的分子识别特征(MoRFs)，MoRFs是IDR中介导PPI的关键区域，方法上属AI预测，但未深入互作机制建模，故评7分。",
+  "abstract": "BACKGROUND: Intrinsically disordered proteins possess flexible 3-D structures, which makes them play an important role in a variety of biological functions. Molecular recognition features (MoRFs) act as an important type of functional regions, which are located within longer intrinsically disordered regions and undergo disorder-to-order transitions upon binding their interaction partners. RESULTS: We develop a method, MoRF(CNN), to predict MoRFs based on sequence properties and convolutional neural networks (CNNs). The sequence properties contain structural and physicochemical properties which are used to describe the differences between MoRFs and non-MoRFs. Especially, to highlight the correlation between the target residue and adjacent residues, three windows are selected to preprocess the selected properties. After that, these calculated properties are combined into the feature matrix to predict MoRFs through the constructed CNN. Comparing with other existing methods, MoRF(CNN) obtains better performance. CONCLUSIONS: MoRF(CNN) is a new individual MoRFs prediction method which just uses protein sequence properties without evolutionary information. The simulation results show that MoRF(CNN) is effective and competitive.",
+  "abstract_zh": "背景：固有无序蛋白具有灵活的三维结构，这使得它们在多种生物功能中扮演重要角色。分子识别特征（MoRFs）作为一类重要的功能区域，位于较长的固有无序区域内，并在与其相互作用伙伴结合时经历从无序到有序的转变。结果：我们开发了一种方法，MoRF(CNN)，基于序列属性和卷积神经网络（CNNs）来预测MoRFs。序列属性包含结构和物理化学特性，用于描述MoRFs与非MoRFs之间的差异。特别地，为了突出目标残基与相邻残基之间的相关性，选择了三个窗口来预处理所选属性。之后，这些计算得到的属性被组合成特征矩阵，通过构建的CNN来预测MoRFs。与现有其他方法相比，MoRF(CNN)获得了更好的性能。结论：MoRF(CNN)是一种新的个体MoRFs预测方法，仅使用蛋白质序列属性，无需进化信息。模拟结果表明，MoRF(CNN)有效且具有竞争力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34391457/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34391457/",
+  "paper_page_path": "papers/pubmed/34391457/index.html"
+}

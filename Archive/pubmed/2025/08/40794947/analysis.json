@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40794947",
+  "title": "Prediction of liquid-phase separation proteins using Siamese network with feature fusion.",
+  "authors": "Yang, Ye-Hong; Liu, Qun; Liu, Jiang-Feng; Yang, Jun-Tao",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-08-12",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用孪生网络融合蛋白序列特征与PPI网络嵌入特征预测液相分离蛋白，虽未深入机制建模，但以无序蛋白相分离为对象、结合PPI与AI方法，对本课题有直接参考价值。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is a common and important phenomenon where biomolecules form dynamic, membrane-less condensates through multivalent interactions, spontaneously separating into distinct concentration-dense and dilute phases. Research has shown that LLPS is associated with a wide range of cellular functional regulation. In this work, we establish a feature fusion framework based on a Siamese network for the prediction of LLPS proteins, which can integrate automatically extracted features from the protein itself and the protein-protein interaction (PPI) networks, and achieve good accuracy even in small sample sets. We used two representative graph embedding methods, Node2vec and DeepNF, to extract the embedding features of PPI networks and compared the impact of the two methods on model performance at different feature lengths. Our work provides a way for integrating multivalent interactions between proteins that drive LLPS, as well as a flexible framework for the fusion of different types of protein features, not only for LLPS prediction but also for other downstream prediction tasks. All relevant materials can be found at https://github.com/ispotato/SiameseNetwork_LLPS.",
+  "abstract_zh": "液-液相分离（LLPS）是一种常见且重要的现象，其中生物分子通过多价相互作用形成动态、无膜凝聚体，自发分离为浓度密集和稀释两相。研究表明，LLPS与广泛的细胞功能调控相关。在本工作中，我们建立了一个基于孪生网络的特征融合框架，用于预测LLPS蛋白，该框架能够整合从蛋白质自身及蛋白质-蛋白质相互作用（PPI）网络中自动提取的特征，并在小样本集上实现良好准确性。我们使用了两种代表性的图嵌入方法，Node2vec和DeepNF，来提取PPI网络的嵌入特征，并比较了这两种方法在不同特征长度下对模型性能的影响。我们的工作为整合驱动LLPS的蛋白质间多价相互作用提供了一种途径，也为不同类型蛋白质特征的融合提供了一个灵活框架，不仅适用于LLPS预测，也适用于其他下游预测任务。所有相关材料可在https://github.com/ispotato/SiameseNetwork_LLPS找到。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40794947/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40794947/",
+  "paper_page_path": "papers/pubmed/40794947/index.html"
+}

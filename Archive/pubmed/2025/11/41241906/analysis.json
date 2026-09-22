@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41241906",
+  "title": "Bioinformatic Tools for Non-bioinformaticians: A Roadmap to Study Unknown Microprotein Sequences.",
+  "authors": "Gimeno Le Paih, Patricia; Aramburu, Iker Valle",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该文为无生信背景的研究者提供分析未知微蛋白序列的在线工具指南，并开发了MicrOracle整合工具，但对象非无序蛋白/IDR，未涉及PPI或互作机制建模，方法仅为工具整合而非AI/物理模拟，与本课题关联度低。",
+  "abstract": "The identification of unknown microprotein sequences is often presented as a FASTA file with hundreds or thousands of unknown RNA or protein sequences. Then, the researcher needs to gain an overall view of all the sequences and identify which ones may be relevant to address their biological question of interest. In the absence of a bioinformatician or certain computational knowledge, this task becomes increasingly challenging proportionally to the number of sequences identified. In this chapter, we provide a guideline of different publicly available online resources that can be used without any computational background to analyze your sequences' structural and physicochemical properties and identify functional domains and motifs. Moreover, we have developed MicrOracle, a publicly available Shiny app that will integrate the different output files from the online prediction tools and generate interactive plots that can contribute to easily visualizing, understanding, and segmenting your data based on structural and functional criteria.",
+  "abstract_zh": "未知微蛋白序列的鉴定通常以FASTA文件形式呈现，包含数百或数千条未知RNA或蛋白质序列。随后，研究者需要全面了解所有序列，并识别哪些序列可能与其关注的生物学问题相关。在缺乏生物信息学家或特定计算知识的情况下，这一任务随着鉴定序列数量的增加而变得愈发具有挑战性。在本章中，我们提供了一份指南，介绍多种可公开获取的在线资源，这些资源无需任何计算背景即可用于分析序列的结构和理化性质，并识别功能域和基序。此外，我们开发了MicrOracle，一个可公开获取的Shiny应用程序，它整合来自在线预测工具的不同输出文件，并生成交互式图表，有助于基于结构和功能标准轻松可视化、理解及分段您的数据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41241906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41241906/",
+  "paper_page_path": "papers/pubmed/41241906/index.html"
+}

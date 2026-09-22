@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42290153",
+  "title": "Impact of Stabilizing Osmolytes on the Conformational Dynamics of Human and Rat Islet Amyloid Polypeptides.",
+  "authors": "Kidman, Kiara A; Pedrick, Claudio; Kreck, Cara A; Mancera, Ricardo L",
+  "journal": "Proteins",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用偏置交换元动力学模拟研究渗透剂对无序蛋白hIAPP/rIAPP构象系综的影响，揭示其通过疏水排斥而非直接结合调节淀粉样聚集倾向的机制，属于IDP构象动态与聚集机制的物理模拟研究，与本课题的IDP互作机制建模高度相关。",
+  "abstract": "The aggregation of human islet amyloid polypeptide (hIAPP) into cytotoxic oligomers and amyloid fibrils is a hallmark of type 2 diabetes mellitus (T2DM), leading to pancreatic beta-cell dysfunction. In contrast, rat IAPP (rIAPP) is largely non-amyloidogenic. Osmolytes such as glucose, glycerol, and sorbitol are known to stabilize globular protein structures; however, in the case of intrinsically disordered proteins (IDPs), they modulate amyloidogenic aggregation in a concentration-dependent manner. Understanding the molecular mechanism of action of these osmolytes on IDPs remains limited. Well-tempered bias exchange metadynamics (WT-BEMD) simulations were used to study the conformational energy landscape of hIAPP and rIAPP in solution across varying osmolyte concentrations (125, 250, and 500 mM). The addition of osmolytes resulted in subtle changes in secondary structure propensity and content in both hIAPP and rIAPP. In the case of hIAPP, a general reduction in the likelihood of alpha-helical conformations was observed, particularly in the amyloidogenic core, suggesting a molecular mechanism for reduced aggregation in the presence of osmolytes. There was a notable lack of significant direct H-bonding and hydrophobic protein-osmolyte interactions, confirming the presence of a strong osmophobic effect. These findings suggest that these stabilizing osmolytes influence the conformational ensemble of hIAPP and rIAPP through exclusion from the protein surface, rather than by directly stabilizing specific conformations. The potential osmolyte-mediated reduction in aggregation-prone conformations in IDPs such as hIAPP may disrupt early aggregation and offer a potential strategy to mitigate hIAPP cytotoxicity.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP）聚集成细胞毒性寡聚体和淀粉样纤维是2型糖尿病（T2DM）的标志性特征，导致胰腺β细胞功能障碍。相比之下，大鼠IAPP（rIAPP）在很大程度上不具有淀粉样生成性。已知葡萄糖、甘油和山梨醇等渗透剂能稳定球状蛋白质结构；然而，对于 intrinsically disordered proteins (IDPs)，它们以浓度依赖方式调节淀粉样生成性聚集。对这些渗透剂作用于IDPs的分子机制的理解仍然有限。采用 well-tempered bias exchange metadynamics (WT-BEMD) 模拟研究了在不同渗透剂浓度（125、250和500 mM）下hIAPP和rIAPP在溶液中的构象能量景观。渗透剂的添加导致hIAPP和rIAPP中二级结构倾向性和含量的细微变化。对于hIAPP，观察到α-螺旋构象可能性普遍降低，特别是在淀粉样生成核心区域，提示了渗透剂存在下聚集减少的分子机制。值得注意的是，缺乏显著的直接氢键和疏水性蛋白质-渗透剂相互作用，证实了强渗透疏水效应的存在。这些发现表明，这些稳定渗透剂通过从蛋白质表面排除而非直接稳定特定构象来影响hIAPP和rIAPP的构象集合。渗透剂介导的IDPs（如hIAPP）中聚集倾向构象的潜在减少可能干扰早期聚集，并提供一种减轻hIAPP细胞毒性的潜在策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42290153/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42290153/",
+  "paper_page_path": "papers/pubmed/42290153/index.html"
+}

@@ -1,0 +1,898 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.22.554321",
+  "title": "Employing Machine Learning Techniques to Detect Protein-Protein Interaction: A Survey, Experimental, and Comparative Evaluations",
+  "doi": "10.1101/2023.08.22.554321",
+  "abstract": "This survey paper provides an in-depth analysis of various machine learning techniques and algorithms that are utilized in the detection of PPI (Protein-Protein Interactions). For every technique examined, the paper evaluates its efficiency, shortcomings, possibilities for enhancement, and outlook for the future. A major challenge in current survey papers focusing on machine learning algorithms for PPI identification is the successful categorization of these algorithms. To overcome this challenge, the paper introduces a novel hierarchical taxonomy that organizes algorithms into more intricate categories and distinct techniques. The proposed taxonomy is constructed on a four-tier structure, beginning with the broad methodology category, and ending with specific sub-techniques. This structure facilitates a more systematic and exhaustive categorization of algorithms, aiding researchers in grasping the connections between different algorithms and techniques. Included in the paper are both empirical and experimental assessments to classify the various techniques. The empirical assessment judges the techniques according to four standards. The experimental evaluations carry out the following rankings: (1) the algorithms that employ the same specific sub-technique, (2) the different sub-techniques that employ the same technique, (3) the different techniques that employ the same methodology sub-category, and (4) the different methodology sub-categories within the same methodology category. By merging the new methodological taxonomy, empirical analyses, and experimental evaluations, the paper provides a multifaceted and thorough comprehension of the machine learning methods and algorithms for PPI detection. This synthesis helps researchers make well-informed decisions. In its conclusion, the paper furnishes crucial insights into the future possibilities of machine learning techniques for PPI identification, underscoring potential advancements and areas ripe for continued exploration and development.",
+  "authors": [
+    "Kamal Taha"
+  ],
+  "published_date": "2023-08-23",
+  "updated_date": "2023-08-23T18:55:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.22.554321",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.22.554321.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T22:47:28Z",
+        "timestamp": 1769640448761,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 104,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>This survey paper provides an in-depth analysis of various machine learning techniques and algorithms that are utilized in the detection of PPI (Protein-Protein Interactions). For every technique examined, the paper evaluates its efficiency, shortcomings, possibilities for enhancement, and outlook for the future. A major challenge in current survey papers focusing on machine learning algorithms for PPI identification is the successful categorization of these algorithms. To overcome this challenge, the paper introduces a novel hierarchical taxonomy that organizes algorithms into more intricate categories and distinct techniques. The proposed taxonomy is constructed on a four-tier structure, beginning with the broad methodology category, and ending with specific sub-techniques. This structure facilitates a more systematic and exhaustive categorization of algorithms, aiding researchers in grasping the connections between different algorithms and techniques. Included in the paper are both empirical and experimental assessments to classify the various techniques. The empirical assessment judges the techniques according to four standards. The experimental evaluations carry out the following rankings: (1) the algorithms that employ the same specific sub-technique, (2) the different sub-techniques that employ the same technique, (3) the different techniques that employ the same methodology sub-category, and (4) the different methodology sub-categories within the same methodology category. By merging the new methodological taxonomy, empirical analyses, and experimental evaluations, the paper provides a multifaceted and thorough comprehension of the machine learning methods and algorithms for PPI detection. This synthesis helps researchers make well-informed decisions. In its conclusion, the paper furnishes crucial insights into the future possibilities of machine learning techniques for PPI identification, underscoring potential advancements and areas ripe for continued exploration and development.</jats:p>",
+      "DOI": "10.1101/2023.08.22.554321",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2023-08-23T18:55:15Z",
+        "timestamp": 1692816915000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Employing Machine Learning Techniques to Detect Protein-Protein Interaction: A Survey, Experimental, and Comparative Evaluations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Kamal",
+          "family": "Taha",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1016/j.sbi.2017.02.005",
+          "article-title": "Network analysis and in silico prediction of protein–protein interactions with applications in drug discovery",
+          "volume": "44",
+          "year": "2017",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, V. Srinivasa , “Protein-protein interaction detection: methods and analysis.” International journal of proteomics 2014.",
+          "DOI": "10.1155/2014/147648"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.286.5439.509"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1272"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/82360"
+        },
+        {
+          "issue": "4",
+          "key": "2023082808250681000_2023.08.22.554321v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "928",
+          "DOI": "10.1002/pmic.200300636",
+          "article-title": "Functional and topological characterization of protein interaction networks",
+          "volume": "4",
+          "year": "2004",
+          "journal-title": "Proteomies"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Satuluri V. , Parthasarathy S , Ucar D. Markov clustering of protein interaction networks with improved balance and scalability[c].Proceedings of the 1st ACM International Conference on Bioinformatics and Computational Biology. New York, USA 2010:247–256.",
+          "DOI": "10.1145/1854776.1854812"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1064987"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1073374"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0237338100"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0308661100"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1090289"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04209"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.8.4285"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.6.2896"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/14.9.609"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20933"
+        },
+        {
+          "issue": "5",
+          "key": "2023082808250681000_2023.08.22.554321v1.18",
+          "first-page": "604",
+          "volume": "20",
+          "year": "2004",
+          "journal-title": "Extracting human protein interactions from MEDLINE using a full-sentence parser[J].Bioinformatics"
+        },
+        {
+          "issue": "14",
+          "key": "2023082808250681000_2023.08.22.554321v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "e220",
+          "DOI": "10.1093/bioinformatics/btl203",
+          "article-title": "Finding the evidence for protein-protein interactions from PubMed abstracts[J]",
+          "volume": "22",
+          "year": "2006",
+          "journal-title": "Bieinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg056"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh086"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.22",
+          "unstructured": "The MIntAct project--IntAct as a common curation platform for 11 molecular interaction databases. 1035670."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj141"
+        },
+        {
+          "issue": "03",
+          "key": "2023082808250681000_2023.08.22.554321v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2122",
+          "DOI": "10.1109/TCBB.2022.3233473",
+          "article-title": "“Identification of Essential Protein Using Chemical Reaction Optimization and Machine Learning Technique”",
+          "volume": "20",
+          "year": "2023",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Cecchini , T. -P. Nguyen , T. Pfau , S. D. Landtsheer and T. Sauter , “An Efficient Machine Learning Method to Solve Imbalanced Data in Metabolic Disease Prediction,” 2019 11th International Conference on Knowledge and Systems Engineering (KSE), Da Nang, Vietnam, 2019, pp. 1-5.",
+          "DOI": "10.1109/KSE.2019.8919337"
+        },
+        {
+          "issue": "01",
+          "key": "2023082808250681000_2023.08.22.554321v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1109/TCBB.2016.2621042",
+          "article-title": "“Application of Genetic Programming (GP) Formalism for Building Disease Predictive Models from Protein-Protein Interactions (PPI) Data”",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Bakar , A. Zomaya and J. Taheri , “FIS-PNN: A hybrid computational method for protein-protein interaction prediction,” in 2013 ACS International Conference on Computer Systems and Applications (AICCSA), Sharm El-Sheikh, Egypt, 2011 pp. 196–203",
+          "DOI": "10.1109/AICCSA.2011.6126594"
+        },
+        {
+          "issue": "5",
+          "key": "2023082808250681000_2023.08.22.554321v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1082",
+          "DOI": "10.1109/TCBB.2016.2520931",
+          "article-title": "Predicting nsSNPs that Disrupt Protein-Protein Interactions Using Docking",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.29",
+          "unstructured": "Z. Li and Y. Yu , “Protein secondary structure prediction using cascaded convolutional and recurrent neural networks,’’ in Proc. 25th Int. Joint Conf. Artif. Intell., 2016, pp. 2560–2567."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, X. , et al. SDNN-PPI: self-attention with deep neural network effect on protein-protein interaction prediction. BMC Genomics 23, 474 (2022),",
+          "DOI": "10.1186/s12864-022-08687-2"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jihong Wang , Xiaodan Wang , and Weitao Chen . 2023. Prediction of protein interactions based on CT-DNN. In Proceedings of the 2022 9th International Conference on Biomedical and Bioinformatics Engineering (ICBBE’ 22), 81–87",
+          "DOI": "10.1145/3574198.3574211"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H.-N. Tran , P.-X.-Q. Nguyen , X. Peng and J. Wang , “An integration of deep learning with feature fusion for protein-protein interaction prediction,” 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Las Vegas, NV, USA, 2022, pp. 77-80.",
+          "DOI": "10.1109/BIBM55620.2022.9995570"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "258",
+          "DOI": "10.1016/j.neucom.2012.12.062",
+          "article-title": "Fast prediction of protein-protein interaction sites based on Extreme Learning achines [j]",
+          "volume": "128",
+          "year": "2014",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z.-H. You , Z. Ming , H. Huang and X. Peng , “A novel method to predict protein-protein interactions based on the information of protein sequence,” 2012 IEEE International Conference on Control System, Computing and Engineering, Penang, Malaysia, 2012, pp. 210-215.",
+          "DOI": "10.1109/ICCSCE.2012.6487143"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "160616",
+          "DOI": "10.1109/ACCESS.2020.3020592",
+          "article-title": "“Analysis for Disease Gene Association Using Machine Learning,”",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "in IEEE Access"
+        },
+        {
+          "issue": "3",
+          "key": "2023082808250681000_2023.08.22.554321v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "731",
+          "DOI": "10.1109/TCYB.2016.2524994",
+          "article-title": "Highly Efficient Framework for Predicting Interactions Between Proteins",
+          "volume": "47",
+          "year": "2017",
+          "journal-title": "IEEE Trans Cybern"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Qiu , L. Wang , P. Ping and T. Pei , “Method for predicting hot spot residues at protein-protein interface based on the extreme learning machine,” 2017 3rd IEEE International Conference on Computer and Communications (ICCC), Chengdu, China, 2017, pp. 2689-2698.",
+          "DOI": "10.1109/CompComm.2017.8323022"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z.-H. You , L. Li , Z. Ji , M. Li and S. Guo , “Prediction of protein-protein interactions from amino acid sequences using extreme learning machine combined with auto covariance descriptor,” 2013 IEEE Workshop on Memetic Computing (MC), Singapore, 2013, pp. 80-85.",
+          "DOI": "10.1109/MC.2013.6608211"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Q.-Y. Huang , Z.-H. You , S. Li and Z. Zhu , “Using Chou’s amphiphilic Pseudo-Amino Acid Composition and Extreme Learning Machine for prediction of Protein-protein interactions,” 2014 International Joint Conference on Neural Networks (IJCNN), Beijing, China, 2014, pp. 2952-2956.",
+          "DOI": "10.1109/IJCNN.2014.6889476"
+        },
+        {
+          "issue": "5",
+          "key": "2023082808250681000_2023.08.22.554321v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1546",
+          "DOI": "10.1109/TCBB.2020.2965919",
+          "article-title": "Using Weighted Extreme Learning Machine Combined With Scale-Invariant Feature Transform to Predict Protein-Protein Interactions From Protein Evolutionary Information",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Cai and Y. Zhu , “A Method for Identifying Essential Proteins Based on Deep Convolutional Neural Network Architecture with Particle Swarm Optimization,” 2022 Asia Conference on Advanced Robotics, Automation, and Control Engineering (ARACE), Qingdao, China, 2022, pp. 7-12.",
+          "DOI": "10.1109/ARACE56528.2022.00010"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "89354",
+          "DOI": "10.1109/ACCESS.2019.2927253",
+          "article-title": "“Deep Residual Convolutional Neural Network for Protein-Protein Interaction Extraction,”",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Yuan , H. Deng and J. Hu , “Deep Transfer Learning Based PPI Prediction for Protein Complex Detection,” 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Melbourne, Australia, 2021, pp. 321-326.",
+          "DOI": "10.1109/SMC52423.2021.9658656"
+        },
+        {
+          "issue": "6",
+          "key": "2023082808250681000_2023.08.22.554321v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "2005",
+          "DOI": "10.1109/TCBB.2019.2918523",
+          "article-title": "Ensembling of Gene Clusters Utilizing Deep Learning and Protein-Protein Interaction Information",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2023082808250681000_2023.08.22.554321v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "6923",
+          "DOI": "10.1109/TPAMI.2021.3074057",
+          "article-title": "DeepGCNs: Making GCNs Go as Deep as CNNs",
+          "volume": "45",
+          "year": "2023",
+          "journal-title": "in IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Voytetskiy , A. Herbert and M. Poptsova , “Graph Neural Networks for Z-DNA prediction in Genomes,” 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Las Vegas, NV, USA, 2022, pp. 3173-3178.",
+          "DOI": "10.1109/BIBM55620.2022.9995451"
+        },
+        {
+          "issue": "2",
+          "key": "2023082808250681000_2023.08.22.554321v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "797",
+          "DOI": "10.1109/TCBB.2019.2944809",
+          "article-title": "Protein Complexes Detection Based on Semi-Supervised Network Embedding Model",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023082808250681000_2023.08.22.554321v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "8360",
+          "DOI": "10.1038/s41598-022-12201-9",
+          "article-title": "Prediction of protein-protein interaction using graph neural networks",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.49",
+          "unstructured": "Atashin A.A. , Bagherzadeh P. , Ghiasishirazi K. A two-stage learning method for protein-protein interaction prediction. arXiv. 20161606.04561."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sharma, A. ; Singh, B . AE-LGBM: Sequence-based novel approach to detect interacting protein pairs via ensemble of autoencoder and LightGBM. Comput. Biol. Med. 2020, 125, 103964.",
+          "DOI": "10.1016/j.compbiomed.2020.103964"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.51",
+          "first-page": "2023",
+          "article-title": "“An Approach for Predicting Protein-Protein Interactions using Supervised Autoencoders”, Procedia Computer Science",
+          "volume": "207",
+          "year": "2022",
+          "journal-title": "Volume"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guansong Cao , Yuan Zhu , and Ming Yi .: Variational Autoencoder Based Network Embedding Algorithm For Protein Function Prediction” . In 2022 14th International Conference on Machine Learning and Computing (ICMLC) (ICMLC 2022). NY, USA, 191–196.",
+          "DOI": "10.1145/3529836.3529922"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Xiao , H. Yuan , W. Li , N. Jiang and Y. Xia , “Highly-Confident Protein Interactome Prediction via Variational Autoencoder,” 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Melbourne, Australia, 2021, pp. 958-963.",
+          "DOI": "10.1109/SMC52423.2021.9659005"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2023.3273567"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Jha , S. Saha , M. Tanveer , “Prediction of protein-protein interactions using stacked auto-encoder”, Transactions on Emerging Telecommunications Technologies (2021), p. e4256.",
+          "DOI": "10.1002/ett.4256"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun, T. , et al. Sequence-based prediction of protein protein interaction using a deep-learning algorithm. BMC Bioinformatics 18, 277 (2017).",
+          "DOI": "10.1186/s12859-017-1700-2"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, XF. , Dai, DQ. , Ou-Yang, L. et al. Detecting overlapping protein complexes based on a generative model with functional and topological properties. BMC Bioinformatics 15, 186 (2014)",
+          "DOI": "10.1186/1471-2105-15-186"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1038/s42256-021-00428-6",
+          "article-title": "Interpreting neural networks for biological sequences by learning stochastic masks",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Nat Mach Intell"
+        },
+        {
+          "issue": "13",
+          "key": "2023082808250681000_2023.08.22.554321v1.59",
+          "first-page": "i142",
+          "article-title": "Generative probabilistic models for protein–protein interaction networks—the biclique perspective, Bioinformatics",
+          "volume": "27",
+          "year": "2011",
+          "journal-title": "Volume"
+        },
+        {
+          "issue": "4",
+          "key": "2023082808250681000_2023.08.22.554321v1.60",
+          "first-page": "bbac285",
+          "article-title": "De novo molecular design with deep molecular generative models for PPI inhibitors, Briefings in Bioinformatics",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Volume"
+        },
+        {
+          "issue": "2",
+          "key": "2023082808250681000_2023.08.22.554321v1.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "1606",
+          "DOI": "10.1109/TCBB.2022.3196336",
+          "article-title": "PPISB: A Novel Network-Based Algorithm of Predicting Protein-Protein Interactions With Mixed Membership Stochastic Blockmodel",
+          "volume": "20",
+          "year": "2023",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.62",
+          "unstructured": "Zhou, J. and Troyanskaya, O.G. , 2014, March. Deep Supervised and Convolutional Generative Stochastic Network for Protein Secondary Structure Prediction. In ICML (pp. 745-753)."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.63",
+          "unstructured": "Shengyu Lu , Beizhan Wang , Hongji Wang , “Deep learning for Protein-Protein Interactions Predication “ Proceedings of 2020 the 10th International Workshop on Computer Science and Engineering (WCSE 2020) , pp. 13-18, Shanghai, China, 19-21 June, 2020."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.64",
+          "unstructured": "Yadav, Shweta , Ankith Jain Rakesh Kumar , Asif Ekbal , Sriparna Saha and Pushpak Bhattacharyya . “Feature Assisted bi-directional LSTM Model for Protein-Protein Interaction Identification from Biomedical Texts.” ArXiv abs/1807.02162 (2018)."
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tcbb.2019.2897679"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sho Tsukiyama et al., LSTM-PHV: prediction of human-virus protein–protein interactions by LSTM with word2vec, Briefings in Bioinformatics , Volume 22, Issue 6, November 2021.",
+          "DOI": "10.1093/bib/bbab228"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. B. Alakus and I. Turkoglu , “Prediction of Protein-Protein Interactions with LSTM Deep Learning Model,” 2019 3rd International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT), Ankara, Turkey, 2019, pp. 1-5.",
+          "DOI": "10.1109/ISMSIT.2019.8932876"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Chen , L. Wang , C.-H. Chi and J. Shen , “Leveraging SMOTE in a Two-Layer Model for Prediction of Protein-Protein Interactions,” 2019 Seventh International Conference on Advanced Cloud and Big Data (CBD), Suzhou, China, 2019, pp. 133-138.",
+          "DOI": "10.1109/CBD.2019.00033"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2020.0543"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. C. Beltran , P. Valdez and P. Naval , “Predicting Protein-Protein Interactions based on Biological Information using Extreme Gradient Boosting,” 2019 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB), Siena, Italy, 2019, pp. 1-6.",
+          "DOI": "10.1109/CIBCB.2019.8791241"
+        },
+        {
+          "issue": "1",
+          "key": "2023082808250681000_2023.08.22.554321v1.71",
+          "first-page": "155",
+          "article-title": "Deep Neural Network and Extreme Gradient Boosting Based Hybrid Classifier for Improved Prediction of Protein-Protein Interaction",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2023082808250681000_2023.08.22.554321v1.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "243",
+          "DOI": "10.1109/TNB.2018.2842219",
+          "article-title": "XGBFEMF: An XGBoost-Based Framework for Essential Protein Prediction",
+          "volume": "17",
+          "year": "2018",
+          "journal-title": "in IEEE Transactions on NanoBioscience"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xue Wang , Yaqun Zhang , Bin Yu , Adil Salhi , Ruixin Chen , Lin Wang , Zengfeng Liu , “Prediction of protein-protein interaction sites through eXtreme gradient boosting with kernel principal component analysis”, Computers in Biology and Medicine, Volume 134, 2021.",
+          "DOI": "10.1016/j.compbiomed.2021.104516"
+        },
+        {
+          "issue": "05",
+          "key": "2023082808250681000_2023.08.22.554321v1.74",
+          "first-page": "1525",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "“Efficient Classification of Hot Spots and Hub Protein Interfaces by Recursive Feature Elimination and Gradient Boosting” in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Zeng , N. Wang , Y. Wu , Y. Li , F.-X. Wu and M. Li , “Improving human essential protein prediction using only protein sequences via ensemble learning,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Houston, TX, USA, 2021, pp. 98-103.",
+          "DOI": "10.1109/BIBM52615.2021.9669606"
+        },
+        {
+          "issue": "1",
+          "key": "2023082808250681000_2023.08.22.554321v1.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "155",
+          "DOI": "10.1109/TCBB.2021.3061300",
+          "article-title": "Deep Neural Network and Extreme Gradient Boosting Based Hybrid Classifier for Improved Prediction of Protein-Protein Interaction",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "IEEE/ACM Trans Comput Biol Bioinform"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.77",
+          "first-page": "54",
+          "article-title": "“LightGBM-PPI: Predicting protein-protein interactions through LightGBM with multi-information fusion”, Chemometrics and Intelligent Laboratory Systems",
+          "volume": "191",
+          "year": "2019",
+          "journal-title": "Volume"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhan ZH , You ZH , Li LP , Zhou Y , Yi HC . Accurate Prediction of ncRNA-Protein Interactions From the Integration of Sequence and Evolutionary Information. Front Genet. 2018 Oct 8;9:458.",
+          "DOI": "10.3389/fgene.2018.00458"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Wang et al., “Predicting Hepatoma-Related Genes Based on Representation Learning of PPI network and Gene Ontology Annotations,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Houston, TX, USA, 2021, pp. 1892-1898.",
+          "DOI": "10.1109/BIBM52615.2021.9669479"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Q. K. Le and Q . H. Kha , “Prediction of Protein-Protein Interactions through Deep Learning Based on Sequence Feature Extraction and Interaction Network,” 2022 IEEE Biomedical Circuits and Systems Conference (BioCAS), Taipei, Taiwan, 2022, pp. 539-543",
+          "DOI": "10.1109/BioCAS54905.2022.9948611"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "155002",
+          "DOI": "10.1109/ACCESS.2019.2949415",
+          "article-title": "S. Wang and Aorigele, “Recognizing Novel Tumor Suppressor Genes Using a Network Machine Learning Strategy,”",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "in IEEE Access"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. S. Khatun , M. M. Hasan , M. N. H. Mollah and H. Kurata , “SIPMA: A Systematic Identification of Protein-Protein Interactions in Zea mays Using Autocorrelation Features in a Machine-Learning Framework,” 2018 IEEE 18th International Conference on Bioinformatics and Bioengineering (BIBE), Taichung, Taiwan, 2018, pp. 122-125",
+          "DOI": "10.1109/BIBE.2018.00030"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.83",
+          "first-page": "5041",
+          "article-title": "Improving the Detection of Protein Complexes by Predicting Novel Missing Interactome Links in the Protein-Protein Interaction Network",
+          "volume": "2018",
+          "year": "2018",
+          "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Yang et al., “CETSA Feature Based Clustering for Protein Outlier Discovery by Protein-to-Protein Interaction Prediction,” 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), Glasgow, Scotland, United Kingdom, 2022, pp. 1659-1662",
+          "DOI": "10.1109/EMBC48229.2022.9871558"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.85",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bo Xu , Hongfei Lin , Zhihao Yang , Kavishwar B. Wagholikar , Hongfang Liu: “Classifying protein complexes from candidate subgraphs using fuzzy machine learning model”. BIBM Workshops 2012: 640–647.",
+          "DOI": "10.1109/BIBMW.2012.6470213"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Metipatil , P. Bhuvaneshwari , S. M. Basha and S. S. Patil , “An Efficient Framework for classifying Cancer diseases using Ensemble machine learning over Cancer Gene Expression and Sequence Based Protein Interactions.,” 2023 2nd International Conference for Innovation in Technology (INOCON), Bangalore, India, 2023, pp. 1-8.",
+          "DOI": "10.1109/INOCON57975.2023.10101354"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.87",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Hu , Z. Li , X. Zhang and N. Chen , “Prediction of hot spots in protein-protein interaction by Nine-Pipeline & Ensemble Learning strategy,” 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Houston, TX, USA, 2021, pp. 2223-2230.",
+          "DOI": "10.1109/BIBM52615.2021.9669377"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Dey and A. Mukhopadhyay , “A Classification-based Approach to Prediction of Dengue Virus and Human Protein-Protein Interactions using Amino Acid Composition and Conjoint Triad Features,” IEEE Region 10 Symposium (TENSYMP), Kolkata, India, 2019, pp. 373-378.",
+          "DOI": "10.1109/TENSYMP46218.2019.8971382"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1131"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.90",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Shiguihara-Juárez , N. Murrugarra-Llerena and A. d. Andrade Lopes , “POS-tags features for Protein-Protein Interaction Extraction from Biomedical Articles,” 2018 IEEE XXV International Conference on Electronics, Electrical Engineering and Computing (INTERCON), Lima, Peru, 2018, pp. 1-3.",
+          "DOI": "10.1109/INTERCON.2018.8526370"
+        },
+        {
+          "issue": "01",
+          "key": "2023082808250681000_2023.08.22.554321v1.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1109/TCBB.2011.32",
+          "article-title": "“k-Information Gain Scaled Nearest Neighbors: A Novel Approach to Classifying Protein-Protein Interaction-Related Documents”",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2023082808250681000_2023.08.22.554321v1.92",
+          "doi-asserted-by": "crossref",
+          "first-page": "428",
+          "DOI": "10.1109/TCBB.2010.47",
+          "article-title": "BioLMiner System: Interaction Normalization Task and Interaction Pair Task in the BioCreative II.5 Challenge",
+          "volume": "7",
+          "year": "2010",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2023082808250681000_2023.08.22.554321v1.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "442",
+          "DOI": "10.1109/TCBB.2010.46",
+          "article-title": "“Extracting Protein Interactions from Text with the Unified AkaneRE Event Extraction System,”",
+          "volume": "7",
+          "year": "2010",
+          "journal-title": "in IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.94",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Lin and X. Zhang , “Prediction and analysis of hot region in protein-protein interactions,” 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Shenzhen, China, 2016, pp. 1598–1603",
+          "DOI": "10.1109/BIBM.2016.7822758"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.95",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Chen et al., “Hyperparameter Estimation in SVM with GPU Acceleration for Prediction of Protein-Protein Interactions,” 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 2197-2204.",
+          "DOI": "10.1109/BigData47090.2019.9006024"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.96",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. D. Arango-Rodriguez , A. Escobar , J. A. Garzon , J. C. Arroyave-Ospina , “Machine learning based protein-protein interaction prediction using physical-chemical representations,” XXI Symposium on Signal Processing, Images and Artificial Vision (STSIVA), Bucaramanga, Colombia, 2016, pp. 1–5.",
+          "DOI": "10.1109/STSIVA.2016.7743304"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.97",
+          "doi-asserted-by": "crossref",
+          "first-page": "124345",
+          "DOI": "10.1109/ACCESS.2022.3223994",
+          "article-title": "“Predicting Primary Sequence-Based Protein-Protein Interactions Using a Mercer Series Representation of Nonlinear Support Vector Machine,”",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "in IEEE Access"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.98",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Karan , S. Mahapatra and S. S. Sahu , “Prediction of Protein Interactions in Rice and Blast Fungus Using Machine Learning,” 2019 International Conference on Information Technology (ICIT), Bhubaneswar, India, 2019, pp. 33-36.",
+          "DOI": "10.1109/ICIT48102.2019.00012"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.99",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. I. Sunggawa , A. Bustamam , D. Sarwinda , P. P. Tampubolon and W. Mangunwardoyo , “Prediction of Protein-Protein Interactions between HIV-1 and Human using Support Vector Machine Combined with Multivariate Mutual Information,” 2020 3rd International Conference on Biomedical Engineering (IBIOMED), Yogyakarta, Indonesia, 2020, pp. 77-81",
+          "DOI": "10.1109/IBIOMED50285.2020.9487598"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.100",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Li , D. Huang and M. Wang , “Protein-Protein Interaction extraction based on ensemble kernel model and active learning strategy,” 2011 7th International Conference on Natural Language Processing and Knowledge Engineering, Tokushima, Japan, 2011, pp. 9-14.",
+          "DOI": "10.1109/NLPKE.2011.6138105"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.101",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yan-Shuo Chu , Ya-Qiu Liu and Qu Wu , “SVM-based prediction of protein-protein interactions of Glucosinolate biosynthesis,” 2012 International Conference on Machine Learning and Cybernetics, Xi’an, China, 2012, pp. 471-476.",
+          "DOI": "10.1109/ICMLC.2012.6358969"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.102",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tienan Feng , Dingli Jin and Yifei Wang , “The construction of protein-protein interaction network based on machine learning method,” The 2nd International Conference on Information Science and Engineering, Hangzhou, China, 2010, pp. 1-5.",
+          "DOI": "10.1109/ICISE.2010.5690300"
+        },
+        {
+          "key": "2023082808250681000_2023.08.22.554321v1.103",
+          "doi-asserted-by": "crossref",
+          "first-page": "80716",
+          "DOI": "10.1109/ACCESS.2020.2988796",
+          "article-title": "“Unsupervised K-Means Clustering Algorithm,”",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "in IEEE Access"
+        },
+        {
+          "issue": "3",
+          "key": "2023082808250681000_2023.08.22.554321v1.104",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1007/s10611-006-9034-4",
+          "article-title": "“Legitimate strengths in criminal networks,” Crime",
+          "volume": "45",
+          "year": "2006",
+          "journal-title": "Law Social Change"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.22.554321",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:07:10Z",
+        "timestamp": 1768453630000
+      },
+      "score": 67.28049,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.22.554321"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "references-count": 104,
+      "URL": "https://doi.org/10.1101/2023.08.22.554321",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.compbiomed.2024.109449",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

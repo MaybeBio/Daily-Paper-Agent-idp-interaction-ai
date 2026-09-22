@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38370681",
+  "title": "Defining the mechanisms and properties of post-transcriptional regulatory disordered regions by high-throughput functional profiling.",
+  "authors": "Lobel, Joseph H; Ingolia, Nicholas T",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-02-19",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过高通量功能筛选和机器学习，系统解析RNA结合蛋白中无序区域调控mRNA代谢的分子机制，并揭示芳香族残基介导的蛋白-蛋白互作，虽未直接建模互作结构，但为IDR介导PPI的机制研究提供了可迁移的高通量与ML结合思路。",
+  "abstract": "Disordered regions within RNA binding proteins are required to control mRNA decay and protein synthesis. To understand how these disordered regions modulate gene expression, we surveyed regulatory activity across the entire disordered proteome using a high-throughput functional assay. We identified hundreds of regulatory sequences within intrinsically disordered regions and demonstrate how these elements cooperate with core mRNA decay machinery to promote transcript turnover. Coupling high-throughput functional profiling with mutational scanning revealed diverse molecular features, ranging from defined motifs to overall sequence composition, underlying the regulatory effects of disordered peptides. Machine learning analysis implicated aromatic residues in particular contexts as critical determinants of repressor activity, consistent with their roles in forming protein-protein interactions with downstream effectors. Our results define the molecular principles and biochemical mechanisms that govern post-transcriptional gene regulation by disordered regions and exemplify the encoding of diverse yet specific functions in the absence of well-defined structure.",
+  "abstract_zh": "RNA结合蛋白内的无序区域对于控制mRNA降解和蛋白质合成是必需的。为了理解这些无序区域如何调节基因表达，我们通过一种高通量功能测定法，对整个无序蛋白质组中的调控活性进行了调查。我们在内在无序区域内识别出数百个调控序列，并展示了这些元件如何与核心mRNA降解机制协同作用以促进转录本周转。将高通量功能谱分析与突变扫描相结合，揭示了从明确基序到整体序列组成等多种分子特征，这些特征构成了无序肽调控效应的基础。机器学习分析表明，特定上下文中的芳香族残基是抑制活性的关键决定因素，这与它们与下游效应子形成蛋白质-蛋白质相互作用的作用一致。我们的结果定义了无序区域调控转录后基因表达的分子原理和生化机制，并例证了在缺乏明确结构的情况下如何编码多样而特异的功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38370681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38370681/",
+  "paper_page_path": "papers/pubmed/38370681/index.html"
+}

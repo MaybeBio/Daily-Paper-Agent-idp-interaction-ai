@@ -1,0 +1,338 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.14.613007",
+  "title": "A redox switch in p21–CDK feedback during G2 phase controls the proliferation-cell cycle exit decision",
+  "doi": "10.1101/2024.09.14.613007",
+  "abstract": "<h4>SUMMARY</h4> Reactive oxygen species (ROS) influence cell proliferation and fate decisions by oxidizing cysteine residues (S-sulfenylation) of proteins, but specific targets and underlying regulatory mechanisms remain poorly defined. Here, we employ redox proteomics to identify cell cycle-coordinated S-sulfenylation events and investigate their functional role in proliferation control. Although ROS levels rise during cell cycle progression, overall oxidation of the proteome remains constant with dynamic S-sulfenylation restricted to a subset of cysteines. Among these, we identify a critical redox-sensitive cysteine residue (C41) in the cyclin-dependent kinase (CDK) inhibitor p21. C41 oxidation regulates the interaction of p21 with CDK2 and CDK4, controlling a double-negative feedback loop that determines p21 stability. When C41 remains reduced, p21’s half-life increases in G2 phase resulting in more p21 inheritance to daughter cells suppressing proliferation and promoting senescence after irradiation. Notably, we identify dynamic S-sulfenylation on further cell cycle regulators implying coordination of cell cycle and redox control.",
+  "authors": [
+    "Vorhauser J",
+    "Roumeliotis TI",
+    "Coupe D",
+    "Leung JK",
+    "Yu L",
+    "Böhlig K",
+    "Zerjatke T",
+    "Glauche I",
+    "Nadler A",
+    "Choudhary JS",
+    "Mansfeld J"
+  ],
+  "published_date": "2024-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.14.613007",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.14.613007.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR911428",
+    "raw_record": {
+      "id": "PPR911428",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR911428"
+        ]
+      },
+      "doi": "10.1101/2024.09.14.613007",
+      "title": "A redox switch in p21–CDK feedback during G2 phase controls the proliferation-cell cycle exit decision",
+      "authorString": "Vorhauser J, Roumeliotis TI, Coupe D, Leung JK, Yu L, Böhlig K, Zerjatke T, Glauche I, Nadler A, Choudhary JS, Mansfeld J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vorhauser J",
+            "lastName": "Vorhauser",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4738-0808"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Chester Beatty Laboratories, , ,"
+                },
+                {
+                  "affiliation": "Cell Cycle, Biotechnology Center (BIOTEC), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roumeliotis TI",
+            "lastName": "Roumeliotis",
+            "firstName": "Theodoros",
+            "initials": "TI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3354-5643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Functional Proteomics Group, Chester Beatty Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coupe D",
+            "lastName": "Coupe",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-3573-3516"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Chester Beatty Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leung JK",
+            "lastName": "Leung",
+            "firstName": "Jacky",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7530-9382"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Chester Beatty Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu L",
+            "lastName": "Yu",
+            "firstName": "Lu",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Functional Proteomics Group, Chester Beatty Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Böhlig K",
+            "lastName": "Böhlig",
+            "firstName": "Kristin",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8286-1992"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zerjatke T",
+            "lastName": "Zerjatke",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2125-9084"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glauche I",
+            "lastName": "Glauche",
+            "firstName": "Ingmar",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0881-5477"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Functional Proteomics Group, Chester Beatty Laboratories, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nadler A",
+            "lastName": "Nadler",
+            "firstName": "André",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0562-8206"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Chester Beatty Laboratories, , ,"
+                },
+                {
+                  "affiliation": "Cell Cycle, Biotechnology Center (BIOTEC), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choudhary JS",
+            "lastName": "Choudhary",
+            "firstName": "Jyoti",
+            "initials": "JS"
+          },
+          {
+            "fullName": "Mansfeld J",
+            "lastName": "Mansfeld",
+            "firstName": "Jörg",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0562-8206"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2125-9084"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3354-5643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7530-9382"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8286-1992"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0881-5477"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4738-0808"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-3573-3516"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>SUMMARY</h4>  Reactive oxygen species (ROS) influence cell proliferation and fate decisions by oxidizing cysteine residues (S-sulfenylation) of proteins, but specific targets and underlying regulatory mechanisms remain poorly defined. Here, we employ redox proteomics to identify cell cycle-coordinated S-sulfenylation events and investigate their functional role in proliferation control. Although ROS levels rise during cell cycle progression, overall oxidation of the proteome remains constant with dynamic S-sulfenylation restricted to a subset of cysteines. Among these, we identify a critical redox-sensitive cysteine residue (C41) in the cyclin-dependent kinase (CDK) inhibitor p21. C41 oxidation regulates the interaction of p21 with CDK2 and CDK4, controlling a double-negative feedback loop that determines p21 stability. When C41 remains reduced, p21’s half-life increases in G2 phase resulting in more p21 inheritance to daughter cells suppressing proliferation and promoting senescence after irradiation. Notably, we identify dynamic S-sulfenylation on further cell cycle regulators implying coordination of cell cycle and redox control.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.14.613007"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR911428"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR911428&type=FILE&fileName=EMS198960-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40858111",
+            "reference": "Molecular cell. 2025 Sep;85(17):3241-3255.e11",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198960",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "cellosaurus",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-09-20",
+      "firstPublicationDate": "2024-09-16",
+      "firstIndexDate": "2024-09-20",
+      "fullTextReceivedDate": "2024-10-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

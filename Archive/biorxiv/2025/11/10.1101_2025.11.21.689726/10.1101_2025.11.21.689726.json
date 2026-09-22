@@ -1,0 +1,201 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.21.689726",
+  "title": "Accurate interdomain contacts in mixed folded proteins from NMR-guided coarse-grained simulations",
+  "doi": "10.1101/2025.11.21.689726",
+  "abstract": "Intrinsically disordered, low-complexity regions frequently cooperate with folded domains to mediate protein–protein interactions, yet accurately describing these mixed folded–disordered systems remains challenging. To visualize these mixed folded proteins, experimentally guided coarse-grained (CG) molecular dynamics simulations are often employed to extend the timescales required to capture the complex dynamics in play. However, the minimalistic nature of these approaches often compromises structural accuracy and can lead to inaccurate inter-domain interactions. Here we introduce backbone dihedral terms directly derived from NMR chemical shift data in CG-simulations to characterize the open state of a mixed-folded construct of the anti-aggregation chaperone DNAJB6 that contains a folded J-domain and a disordered GF linker. By tuning residue-specific backbone dihedral parameters to match NMR-derived secondary-structure propensities of the linker in CG-simulations, we generate conformational ensembles that yield accurate interdomain contact maps. In agreement with analysis of NMR relaxation data, the resulting ensembles show that even in the nominally open state the linker experiences motions that resemble those of the closed state driven by hydrophobic residues in GF. More generally we show that by expanding CG-simulations to allow them to capture both local and global structural properties, physically relevant interdomain contacts can be retrieved.",
+  "authors": [
+    "Hobbs B",
+    "Limmer N",
+    "Clenshaw GL",
+    "Ossa F",
+    "Karamanos TK"
+  ],
+  "published_date": "2025-11-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689726",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689726.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1124176",
+    "raw_record": {
+      "id": "PPR1124176",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1124176"
+        ]
+      },
+      "doi": "10.1101/2025.11.21.689726",
+      "title": "Accurate interdomain contacts in mixed folded proteins from NMR-guided coarse-grained simulations",
+      "authorString": "Hobbs B, Limmer N, Clenshaw GL, Ossa F, Karamanos TK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hobbs B",
+            "lastName": "Hobbs",
+            "firstName": "Billy",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Limmer N",
+            "lastName": "Limmer",
+            "firstName": "Noor",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clenshaw GL",
+            "lastName": "Clenshaw",
+            "firstName": "Gwendolyn",
+            "initials": "GL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ossa F",
+            "lastName": "Ossa",
+            "firstName": "Felipe",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karamanos TK",
+            "lastName": "Karamanos",
+            "firstName": "Theodoros",
+            "initials": "TK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2297-540X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Faculty of Natural Sciences, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2297-540X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Intrinsically disordered, low-complexity regions frequently cooperate with folded domains to mediate protein–protein interactions, yet accurately describing these mixed folded–disordered systems remains challenging. To visualize these mixed folded proteins, experimentally guided coarse-grained (CG) molecular dynamics simulations are often employed to extend the timescales required to capture the complex dynamics in play. However, the minimalistic nature of these approaches often compromises structural accuracy and can lead to inaccurate inter-domain interactions. Here we introduce backbone dihedral terms directly derived from NMR chemical shift data in CG-simulations to characterize the open state of a mixed-folded construct of the anti-aggregation chaperone DNAJB6 that contains a folded J-domain and a disordered GF linker. By tuning residue-specific backbone dihedral parameters to match NMR-derived secondary-structure propensities of the linker in CG-simulations, we generate conformational ensembles that yield accurate interdomain contact maps. In agreement with analysis of NMR relaxation data, the resulting ensembles show that even in the nominally open state the linker experiences motions that resemble those of the closed state driven by hydrophobic residues in GF. More generally we show that by expanding CG-simulations to allow them to capture both local and global structural properties, physically relevant interdomain contacts can be retrieved.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "223268/Z/21/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.21.689726"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1124176"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1124176&type=FILE&fileName=EMS211085-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211085",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-23",
+      "firstPublicationDate": "2025-11-21",
+      "firstIndexDate": "2025-11-23",
+      "fullTextReceivedDate": "2026-02-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

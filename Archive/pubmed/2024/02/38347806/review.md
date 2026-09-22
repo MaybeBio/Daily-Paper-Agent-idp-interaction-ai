@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use all-atom and coarse-grained molecular dynamics simulations of four hexapeptides (FUS(37-42), FUS(54-59), Abeta(16-21), Tau(306-311)) to propose that alternating aromatic stickers (Tyr) and polar spacers (Ser, Gly) drive reversible, coil-rich oligomer formation, whereas consecutive hydrophobic residues form patches that drive irreversible beta-sheet-rich oligomer formation. They further claim that FUS(37-42) and FUS(54-59), despite identical amino acid composition, show differential self-assembly propensities due to site-specific spacer patterning.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, system sizes, timescales, convergence criteria, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field parameters, system setup, statistical analyses, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially interesting hypothesis linking peptide sequence patterning to reversible versus irreversible self-assembly. However, the evidence base available for review is limited to the abstract, which contains no quantitative data, no methodological detail, and no validation of the simulation approach. The central claims are qualitatively stated and cannot be assessed for technical soundness or statistical support from the supplied material. The finding of differential behavior between the two FUS peptides with identical composition is intriguing but requires careful verification of sampling convergence and force field sensitivity.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, amyloid aggregation, and protein phase separation would find these results relevant. The work addresses a fundamental question about sequence determinants of reversible versus irreversible self-assembly, which is central to understanding both physiological liquid-liquid phase separation and pathological amyloid formation. Computational biophysicists studying peptide self-assembly and coarse-grained model development would also be interested.
+- **Major strengths** The abstract addresses a timely and important question with clear biomedical relevance. The choice of four well-characterized peptide systems from disease-associated proteins (FUS, Abeta, Tau) provides a meaningful comparative framework. The hypothesis that spacer patterning, not just composition, tunes self-assembly behavior is conceptually novel and testable. The use of both all-atom and coarse-grained simulations suggests an attempt at multi-scale validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their simulations "dissected" reversible and irreversible self-assembly dynamics and "predicted" phase separation behaviors for the four peptides.
+  - **Evidence pointer** Abstract only; no simulation details provided
+  - **Concern** The abstract provides no information on simulation methodology, including force field parameters, water models, system sizes, simulation timescales, number of replicas, or convergence criteria. Without these details, the reliability of the simulated self-assembly dynamics and phase separation predictions cannot be evaluated. Coarse-grained models, in particular, are highly sensitive to parameter choices, and the mapping between CG and all-atom results requires explicit validation.
+  - **Why it matters** The central conclusions rest entirely on the fidelity of the simulations. If the simulations are underconverged, use inappropriate force fields, or lack sufficient sampling, the proposed mechanistic distinctions between reversible and irreversible assembly could be artifacts. The claim of differential behavior between FUS(37-42) and FUS(54-59) is especially sensitive to sampling quality, as these peptides differ only in the order of Ser and Gly residues.
+  - **Resolution test** Provide full methodological details, including force field versions, simulation lengths, system compositions, replica numbers, and convergence metrics. Show that the observed oligomer size distributions, secondary structure propensities, and free energy profiles are converged. Demonstrate that the differential behavior between the two FUS peptides is robust across multiple independent simulations and force field choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that FUS(37-42) and FUS(54-59) form "highly dynamic coil-rich oligomers" leading to reversible self-assembly, while Abeta(16-21) and Tau(306-311) form "stable beta-sheet-rich oligomers" driving irreversible self-assembly.
+  - **Evidence pointer** Abstract only; no quantitative data provided
+  - **Concern** The abstract presents no quantitative measures of oligomer dynamics, secondary structure content, or stability. Terms such as "highly dynamic," "stable," "coil-rich," and "beta-sheet-rich" are qualitative and require numerical support. No free energy barriers, residence times, or equilibrium constants are reported. The distinction between reversible and irreversible assembly is a central claim but is not backed by any quantitative metric in the abstract.
+  - **Why it matters** The qualitative language could mask weak or ambiguous simulation results. Without quantitative measures, the reader cannot assess whether the differences between the peptide classes are statistically significant or biologically meaningful. The claim of "irreversible" assembly for Abeta and Tau peptides is particularly strong and requires demonstration of kinetic trapping or high free energy barriers to dissociation.
+  - **Resolution test** Provide quantitative data such as oligomer size distributions, beta-sheet content over time, hydrogen bond lifetimes, dissociation rate constants, and free energy profiles for oligomerization. Show statistical significance of differences between peptide classes. Demonstrate that the "irreversible" assemblies do not dissociate on accessible simulation timescales and that this is not a finite-size or finite-time artifact.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "site-specific patterning of spacer residues (Ser and Gly)" fine-tunes the self-assembly behaviors of FUS peptides.
+  - **Evidence pointer** Abstract only; no structural or energetic analysis provided
+  - **Concern** The claim that spacer patterning, rather than composition, controls self-assembly is the most novel aspect of the work. However, the abstract provides no mechanistic explanation for why the Ser/Gly order matters. No analysis of specific interactions, hydrogen bonding patterns, or conformational preferences is presented. The reader is left without a physical rationale for the observed differential behavior.
+  - **Why it matters** Without a mechanistic explanation, the finding remains descriptive rather than explanatory. The claim would be substantially strengthened by showing, for example, that the position of Ser relative to Tyr alters hydrogen bonding networks, backbone conformations, or solvation properties in a way that changes oligomer stability. This mechanistic insight is what would elevate the work from a case study to a general principle.
+  - **Resolution test** Provide structural analyses such as per-residue contact maps, hydrogen bond occupancy, solvent accessible surface area, and conformational free energy landscapes for the two FUS peptides. Show which specific interactions differ between FUS(37-42) and FUS(54-59) and how these differences arise from the Ser/Gly order.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "kinked peptides," "steric zipper," and "stickers and spacers" without defining them. While these terms are standard in the field, the abstract may be read by a broader audience interested in phase separation and amyloid biology.
+  - **Required correction** Briefly define or contextualize these terms in the abstract, or ensure the full text provides clear definitions early on.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that "extensive" simulations were conducted but provides no indication of the scale, such as total simulation time, number of systems, or computational cost.
+  - **Required correction** Add a brief statement in the abstract or full text indicating the total simulation time and system sizes to support the "extensive" claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract focuses on four specific hexapeptides. The claim that the findings provide "significant mechanistic insights into reversible and irreversible peptide self-assembly" implies generalizability beyond these systems, but no evidence for broader applicability is presented.
+  - **Required correction** Either temper the generalizability claim or add a brief statement in the full text discussing how the proposed principles might apply to other LC domains or amyloidogenic peptides.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology and convergence), R1-M2 (quantitative evidence for reversible versus irreversible assembly)
+- **Assessment against Nature-style criteria** 
+  - Originality: The hypothesis that spacer patterning, not just composition, controls self-assembly reversibility is conceptually original and goes beyond prior work that focused primarily on aromatic residue content. However, the abstract does not clearly situate this claim against existing literature on FUS LC domain self-assembly.
+  - Scientific importance: The question of what determines reversible versus irreversible peptide self-assembly is of high importance for understanding both physiological condensates and pathological amyloids. If the mechanistic claims are well supported, the work would be of interest to a broad community.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and neuroscience, and the findings would likely appeal to researchers across these fields. However, the abstract's heavy reliance on simulation jargon without quantitative context may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of methodological detail and quantitative results is a major limitation for evaluation.
+  - Readability for nonspecialists: The abstract is reasonably clear in its narrative arc but uses field-specific terms without definition. The qualitative language is accessible but at the cost of precision.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the comparative approach is sensible, but the abstract alone provides insufficient evidence to assess the technical soundness of the simulations or the robustness of the central claims. A full review would require the complete manuscript with methodological details, quantitative results, and convergence analyses. If those materials address the concerns raised, the work could be supportive.
+
+## Risk / unsupported claims
+- The claim that FUS(37-42) and FUS(54-59) exhibit "differential self-assembly propensities" is unsupported in the abstract, as no quantitative comparison is provided.
+- The claim that the simulations "predicted" phase separation behaviors is unsupported, as no phase diagram or coexistence data are presented.
+- The claim that the findings provide "significant mechanistic insights" into reversible and irreversible self-assembly is not evaluable without quantitative evidence.
+- The generalizability of the proposed mechanism beyond the four studied peptides is asserted but not supported.
+- The distinction between "reversible" and "irreversible" assembly is stated qualitatively without kinetic or thermodynamic evidence.

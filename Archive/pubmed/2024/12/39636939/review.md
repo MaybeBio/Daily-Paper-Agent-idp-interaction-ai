@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results and Discussion, Discussion, Supplementary Material notice)
+- **Assessment boundary** Scientific content and technical soundness of the reported computational study, as presented in the provided text. No external data or supplementary files were available for verification.
+- **Shared manuscript claim summary** The authors use coarse-grained simulations of model peptide and RNA-peptide condensates to argue that flow activation energy, derived from Arrhenius fits of temperature-dependent viscosity, is governed by the lifetime of sticker-sticker contacts, modulated by sequence hydrophobicity, charge content, and stoichiometry, but not by charge patterning or external pressure.
+- **Visible evidence base** Figures 1–5 (described in text), Tables I (mentioned), Supplementary sections SI-A to SI-D (referenced but not provided), equations (1)–(8), simulation protocols in Methods.
+- **Missing materials affecting confidence** Supplementary Information (SI-A to SI-D), actual figure data, simulation trajectories, force field parameter tables, error bars, statistical analysis details, and comparison data from experiments beyond those cited.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensates: the molecular determinants of flow activation energy, a key parameter linking sequence to material properties. The computational approach is appropriate and the systematic variation of sequence, composition, and external conditions is commendable. However, the manuscript currently lacks sufficient quantitative detail and statistical rigor to fully support several central claims, particularly regarding the relationship between contact lifetimes and activation energy, and the insensitivity of activation energy to pressure and stoichiometry. The work is potentially significant but requires substantial revision and additional analysis to establish its conclusions convincingly.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, soft matter physics, and computational biophysics. The findings could inform the design of condensates with tunable material properties and provide a framework for interpreting microrheology experiments. The work may also interest experimentalists studying sequence-encoded material properties of membraneless organelles.
+- **Major strengths** 1. The study addresses a fundamental and under-explored question: the microscopic origin of flow activation energy in condensates. 2. The use of sequence-resolved coarse-grained simulations allows systematic dissection of molecular determinants. 3. The comparison of single-component and two-component systems provides a broad perspective. 4. The identification of contact lifetime as a key correlate of activation energy is a potentially valuable insight. 5. The study connects simulation results to experimental observations, enhancing relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that flow activation energy is closely linked to the lifetime of sticker-sticker pairs, with EA′ approximately 65–90% of EA.
+  - **Evidence pointer** Results and Discussion, Section "Single-component condensates", Figure 1, equations (7)–(8)
+  - **Concern** The relationship between contact lifetime (τ) and activation energy (EA′) is presented as a central finding, but the analysis is incomplete. The authors define τ via a correlation function (Eq. 7) and fit it to an Arrhenius form (Eq. 8), but no quantitative comparison between EA and EA′ is shown for the single-component systems. The statement that EA′ is 65–90% of EA is not supported by any visible data or statistical analysis. Furthermore, the choice of contact distance d=1 nm is arbitrary and its influence on the extracted EA′ is not discussed or tested.
+  - **Why it matters** The central claim of the paper rests on the correlation between EA and EA′. Without a rigorous quantitative comparison, including error estimates and sensitivity analysis, the claim is not established. The reader cannot assess whether the observed correlation is robust or an artifact of the chosen parameters.
+  - **Resolution test** Provide a direct comparison of EA and EA′ for all variants, including error bars from multiple independent simulations. Perform a sensitivity analysis on the contact distance d (e.g., 0.8, 1.0, 1.2 nm) and show that the qualitative conclusions are unchanged. Report the goodness of fit for the Arrhenius forms and the statistical significance of differences between variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that external pressure and stoichiometry affect only the prefactor η0, leaving activation energy EA unchanged.
+  - **Evidence pointer** Results and Discussion, Sections "The effects of pressure" and "The effect of stoichiometry", Figures 3 and 5
+  - **Concern** The claim that EA is invariant to pressure and stoichiometry is based on visual inspection of Arrhenius plots, but no quantitative values for EA under different conditions are provided. The text states "average EA=5.5 kJ/mol" for pressure variations, but no error bars or statistical comparison are given. Similarly, for stoichiometry, the text states EA remains constant, but no data are shown. Without quantitative reporting, the claim of invariance is not verifiable.
+  - **Why it matters** This is a key conclusion with implications for understanding how environmental factors modulate condensate viscosity. If the claim is not rigorously supported, the interpretation of the results is weakened.
+  - **Resolution test** Report EA and EA′ values with uncertainties for each pressure and stoichiometry condition. Perform a statistical test (e.g., ANOVA or t-test) to demonstrate that differences are not significant. Provide the Arrhenius fits and residuals for each condition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that simulation results reproduce experimental trends, specifically the correlation between hydrophobicity and EA.
+  - **Evidence pointer** Results and Discussion, Section "Single-component condensates", Figure 1(h)
+  - **Concern** The comparison to experimental results is qualitative and lacks detail. The authors state that higher λ corresponds to larger EA, "which matches recent experimental results", but no quantitative comparison (e.g., experimental EA values for the same sequences) is provided. The experimental system may differ in sequence, concentration, or temperature range, and these differences are not discussed.
+  - **Why it matters** The claim of experimental validation is important for the credibility of the computational model. Without a detailed comparison, the reader cannot judge the predictive power of the simulations.
+  - **Resolution test** Provide a quantitative comparison of simulated and experimental EA values for the same or closely related sequences, including a discussion of differences in system composition, temperature range, and methodology. If direct comparison is not possible, state this explicitly and discuss the limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the hierarchy of contact lifetimes (τpp vs τrp) can be estimated from pair potentials at average distance.
+  - **Evidence pointer** Results and Discussion, Section "Contact statistics for RNA-peptide system", Figure 2(f)
+  - **Concern** The claim that pair potentials at average distance can predict the hierarchy of contact lifetimes is presented as a finding, but the analysis is superficial. The authors show a qualitative correspondence but do not provide a quantitative test. The average distance (ρ-1/3) may not be representative of the full distribution of distances, and the role of many-body effects is not considered.
+  - **Why it matters** This claim suggests a simple predictive rule for contact lifetimes, which could be useful for designing condensates. However, without a rigorous test, the rule may be misleading.
+  - **Resolution test** Provide a quantitative comparison of predicted and simulated contact lifetimes for multiple sequences and conditions. Test whether the pair potential at average distance is a reliable predictor across a range of densities and compositions. Discuss limitations and potential many-body effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "dictate their form and function" is vague. It is unclear what "form" refers to in this context.
+  - **Required correction** Rephrase to be more specific, e.g., "influence their morphology and biochemical activity".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Description of models
+  - **Evidence pointer** Methods, equation (1)
+  - **Issue** The Ashbaugh-Hatch potential is described, but the parameters for λ and σ are not fully specified in the main text. The authors refer to CALVADOS 2 parameters, but the exact values used are not provided.
+  - **Required correction** Provide a table of all λ and σ values used, or refer explicitly to the supplementary material where these are listed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, Section "Single-component condensates"
+  - **Evidence pointer** Figure 1
+  - **Issue** The text refers to "Fig. 1(h)" for the correlation between λ and EA, but the figure panels are not described in the text. The reader cannot easily follow which panel corresponds to which result.
+  - **Required correction** Add a brief description of each panel in the figure legend and refer to them explicitly in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Molecular simulations
+  - **Evidence pointer** Methods, "Molecular simulations"
+  - **Issue** The equilibration and production run lengths are not specified. The number of independent simulations for error estimation is also not stated.
+  - **Required correction** Provide simulation lengths, number of replicates, and how errors were estimated.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, Section "The effects of pressure"
+  - **Evidence pointer** Figure 3
+  - **Issue** The text states "average EA=5.5 kJ/mol" but does not specify the range of pressures over which this average is taken or the variation between conditions.
+  - **Required correction** Report EA for each pressure condition individually, with uncertainties.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Section "The effect of stoichiometry"
+  - **Evidence pointer** Figure 5
+  - **Issue** The text states that EA remains constant across mc values, but the range of mc tested is narrow (8 to 6). It is unclear if this range is sufficient to draw general conclusions.
+  - **Required correction** Discuss the rationale for the chosen mc range and whether broader variations were tested or are feasible.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative comparison between EA and EA′ with error estimates (R1-M1). 2. Lack of quantitative evidence for pressure and stoichiometry insensitivity of EA (R1-M2). 3. Incomplete specification of simulation parameters and statistical methods (R1-m2, R1-m4). 4. Superficial analysis of the pair-potential-based prediction of contact lifetimes (R1-M4).
+- **Assessment against Nature-style criteria** **Originality**: The question of microscopic origins of flow activation energy is relatively underexplored, and the systematic computational approach is novel. However, the conceptual framework (Arrhenius behavior, contact lifetimes) is not entirely new. **Scientific importance**: The findings could have significant implications for understanding and designing condensate material properties, which is a high-impact area. **Interdisciplinary readership**: The topic bridges biophysics, soft matter, and computational chemistry, and should appeal to a broad audience. **Technical soundness**: The simulation methodology is appropriate, but the analysis and reporting are currently insufficient to fully support the claims. **Readability for nonspecialists**: The manuscript is generally well-written but includes some jargon and lacks clear explanations of key concepts (e.g., flow activation energy, contact lifetime) for a general audience. Overall, the manuscript has potential but does not yet meet the standard of a Nature-level publication due to technical and analytical gaps.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a significant question and uses appropriate methods, but the central claims require stronger quantitative support and more rigorous analysis. I recommend major revision before reconsideration.
+
+## Risk / unsupported claims
+- The claim that EA′ is 65–90% of EA is unsupported by visible data.
+- The claim that EA is invariant to pressure and stoichiometry is unsupported by quantitative evidence.
+- The claim that pair potentials at average distance can predict contact lifetime hierarchy is weakly supported.
+- The claim that simulation results match experimental trends is not quantitatively substantiated.
+- The relationship between contact lifetime and activation energy is asserted but not rigorously established.

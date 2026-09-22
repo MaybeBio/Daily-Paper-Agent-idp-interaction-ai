@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39285683",
+  "title": "Nuclear bodies: concentrating at an aqueous site.",
+  "authors": "Chen, Ling-Ling; Larschan, Erica; Matera, A Gregory; Strom, Amy; Pederson, Thoru",
+  "journal": "Nucleus (Austin, Tex.)",
+  "published_date": "2024-09-17",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文是核体会议综述，涉及核内蛋白/RNA复合物、相分离与分子动力学，但无具体PPI机制建模或AI/物理方法，对象相关但互作与方法较弱。",
+  "abstract": "The second FASEB conference on Nuclear Bodies: Hubs of Genome Activity was held June 2-7, 2024, at Niagara Falls, NY. The central theme was how these protein and RNA-protein complexes that are situated in the nucleus outside the genome support and regulate gene expression. Topics included their relevance to disease, especially cancer, their molecular dynamics, and their phase separation transition properties. The meeting included numerous trainees as speakers and session chairs, hosted a memorable Keynote talk on diversity, and a vibrant career development session.",
+  "abstract_zh": "第二届FASEB核体会议：基因组活动枢纽于2024年6月2日至7日在纽约尼亚加拉瀑布举行。会议核心主题是这些位于细胞核内、基因组之外的蛋白质及RNA-蛋白质复合物如何支持并调控基因表达。议题涵盖其与疾病（尤其是癌症）的相关性、分子动力学 (molecular dynamics) 特性，以及相分离 (phase separation) 转变性质。会议中，众多学员担任演讲者和分会主席，举办了一场令人难忘的关于多样性的主题演讲，并开展了充满活力的职业发展环节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39285683/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39285683/",
+  "paper_page_path": "papers/pubmed/39285683/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.11.536350",
+  "title": "Dimerisation of European robin cryptochrome 4a",
+  "authors": "Hanić M; Antill LM; Gehrckens AS; Schmidt J; Görtemaker K; Bartölke R; El-Baba TJ; Xu J; Koch KW; Mouritsen H; Benesch JLP; Hore PJ; Solov’yov IA",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-11",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合实验与MD模拟研究欧洲知更鸟Cry4a蛋白的二聚化机制，虽涉及蛋白互作与物理模拟，但对象非无序蛋白/IDR，且未涉及相分离或无序介导的PPI，仅部分可迁移至互作机制建模。",
+  "abstract": "Homo-dimer formation is important for the function of many proteins. Although dimeric forms of cryptochromes (Cry) have been found by crystallography and were recently observed in vitro for European robin Cry4a, little is known about the dimerisation of avian cryptochromes and the role it could play in the mechanism of magnetic sensing in migratory birds. Here we present a combined experimental and computational investigation of the dimerisation of robin Cry4a resulting from covalent and non-covalent interactions. Experimental studies using native mass spectrometry, mass spectrometric analysis of disulphide bonds, chemical cross-linking and photometric measurements show that disulphide-linked dimers are routinely formed, the most likely cysteines being C317 and C412. Computational modelling and molecular dynamics simulations were used to generate and assess a number of possible dimer structures. The relevance of these findings to the proposed role of Cry4a in avian magnetoreception is discussed.",
+  "abstract_zh": "同源二聚体的形成对许多蛋白质的功能至关重要。尽管通过晶体学已发现隐花色素（Cry）的二聚体形式，并且最近在欧洲知更鸟Cry4a的体外实验中观察到了这种二聚体，但关于鸟类隐花色素的二聚化及其在候鸟磁感应机制中可能扮演的角色，目前知之甚少。本研究结合实验与计算手段，探讨了知更鸟Cry4a通过共价和非共价相互作用形成的二聚化过程。利用天然质谱、二硫键质谱分析、化学交联及光度测量等实验方法，我们发现二硫键连接的二聚体经常形成，最可能的半胱氨酸残基为C317和C412。通过计算建模和分子动力学模拟，我们生成并评估了多种可能的二聚体结构。本文还讨论了这些发现对Cry4a在鸟类磁感受中拟议作用的潜在意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.11.536350",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.11.536350",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.11.536350/index.html"
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "40646517",
+    "doi": "10.1186/s13046-025-03456-x",
+    "title": "WDR3 undergoes phase separation to mediate the therapeutic mechanism of Nilotinib against osteosarcoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma is highly invasive with a poor prognosis. The phenomenon of liquid-liquid phase separation (LLPS) can promote the formation of biomolecules and participate in the tumor regulation mechanism. Therefore, mining prognostic markers related to LLPS could allow patients to benefit from targeted therapies. METHOD: Microarray analysis was performed to identify LLPS-related biomarkers, followed by the validation of binding interactions between genes and drugs via molecular docking analysis. Functions of key genes were investigated in U2-OS cells and xenograft mice. LLPS of WDR3 were observed by the droplet formation assay and fluorescence recovery after photobleaching. The intrinsically disordered region (IDR) of WDR3 was mutated to disrupt LLPS, which was then rescued by the fusion of hnRNAP1 IDR. Therapeutic mechanism of Nilotinib mediated by LLPS was explored in vitro and in vivo. RESULTS: Five LLPS-related biomarkers were screened by bioinformatics analyses to predict the osteosarcoma prognosis. These prognostic genes were significantly associated with the immune cell infiltration, tumor immune escape and drug sensitivity. Among them, WDR3 was a prognostic risk factor for osteosarcoma and stably bound to Nilotinib in the molecular docking model. In transfected U2-OS cells and xenograft mice, the downregulation of WDR3 significantly inhibited the malignant progression of osteosarcoma. More importantly, WDR3 could form droplets in U2-OS cells and restore the fluorescence intensity of WDR3 condensates with liquid-like behavior after photobleaching. The mutation in IDR impaired the phase separation ability of WDR3, whereas the fusion with hnRNAP1 IDR rescued the phase separation abnormality caused by WDR3 mutation. Moreover, the treatment with Nilotinib improved the progression of osteosarcoma in vivo and in vitro, while inhibiting the production of WDR3 phase-separated condensates. CONCLUSION: WDR3 phase separation involves in the therapeutic mechanism of Nilotinib against osteosarcoma, and thus may serve as a potent biomarker to ameliorate adverse events following osteosarcoma treatment.",
+    "keywords": [
+      "IDR mutation",
+      "Liquid-liquid phase separation",
+      "Nilotinib",
+      "Osteosarcoma",
+      "Prognostic biomarker",
+      "WDR3"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteosarcoma/drug therapy/pathology/genetics/metabolism",
+      "Animals",
+      "Mice",
+      "*Pyrimidines/pharmacology/therapeutic use",
+      "Cell Line, Tumor",
+      "*Bone Neoplasms/drug therapy/pathology/genetics/metabolism",
+      "Xenograft Model Antitumor Assays",
+      "Molecular Docking Simulation",
+      "Prognosis",
+      "*Intracellular Signaling Peptides and Proteins/metabolism/genetics",
+      "Cell Proliferation",
+      "Biomarkers, Tumor/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Minglei",
+        "Li, Nan",
+        "Fan, Yuying",
+        "Zhang, Zhan",
+        "Zhou, Long",
+        "Yu, Yifan",
+        "Ni, Man",
+        "Tan, Mingzi",
+        "Huang, WanJie",
+        "Zhu, Tong"
+      ],
+      "short_names": [
+        "Li M",
+        "Li N",
+        "Fan Y",
+        "Zhang Z",
+        "Zhou L",
+        "Yu Y",
+        "Ni M",
+        "Tan M",
+        "Huang W",
+        "Zhu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatric Orthopaedics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China.",
+        "Department of Pediatrics, The Fourth Afflicted Hospital of China Medical University, Shenyang, Liaoning, 110032, China.",
+        "Department of Pediatrics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China.",
+        "Department of Orthopedics, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of Orthopedics, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, 110004, Liaoning, China.",
+        "College of Veterinary Medicine, Jiangsu Co-innovation Center for Prevention and Control of Important Animal Infectious Diseases and Zoonoses, Yangzhou University, Yangzhou, 225009, Jiangsu, China.",
+        "Department of Gynecology, Liaoning Cancer Hospital & Istitute, No.44 Xiaoheyan Road, Dadong District, Shenyang, Liaoning, 110042, China. kitefly1102@126.com.",
+        "Department of Pediatrics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China. wjhuang@cmu.edu.cn.",
+        "Department of Pediatric Orthopaedics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China. zhutong19860413@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Minglei",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Orthopaedics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Nan",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Fourth Afflicted Hospital of China Medical University, Shenyang, Liaoning, 110032, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yuying",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Long",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yifan",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, 110004, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Man",
+        "short_name": "Ni M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary Medicine, Jiangsu Co-innovation Center for Prevention and Control of Important Animal Infectious Diseases and Zoonoses, Yangzhou University, Yangzhou, 225009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Mingzi",
+        "short_name": "Tan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Liaoning Cancer Hospital & Istitute, No.44 Xiaoheyan Road, Dadong District, Shenyang, Liaoning, 110042, China. kitefly1102@126.com."
+        ]
+      },
+      {
+        "full_name": "Huang, WanJie",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China. wjhuang@cmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tong",
+        "short_name": "Zhu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Orthopaedics, Shengjing Hospital of China Medical University, No. 36 Sanhao Street of Heping District, Shenyang, Liaoning, 110004, China. zhutong19860413@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Jul 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/12 16:44",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "41815172",
+      "41395298",
+      "40969122"
+    ],
+    "refs": [
+      "40038783",
+      "39999920",
+      "39964249",
+      "39884379",
+      "39844613",
+      "39721999",
+      "39427726",
+      "39353387",
+      "39337671",
+      "39245737",
+      "39168299",
+      "39143573",
+      "39103093",
+      "39095374",
+      "39093014",
+      "39082021",
+      "39033393",
+      "38835052",
+      "38835012",
+      "38771618",
+      "38677541",
+      "38641310",
+      "38636892",
+      "38515706",
+      "38481812",
+      "38458592",
+      "38372422",
+      "38336287",
+      "37365634",
+      "36905106",
+      "35514065",
+      "34432948",
+      "34387695",
+      "34263649",
+      "34038708",
+      "33648545",
+      "33618586",
+      "33495025",
+      "32493433",
+      "31199001",
+      "30205960",
+      "29644114",
+      "29309433",
+      "28225081",
+      "27880743",
+      "27482375",
+      "26750098",
+      "26406374",
+      "23049746",
+      "22329898",
+      "20392698",
+      "18559567",
+      "10395803"
+    ],
+    "similar": [
+      "40646517",
+      "34432948",
+      "40753849",
+      "41380825",
+      "40616392",
+      "41363845",
+      "32349184",
+      "41319208",
+      "39014082",
+      "32129151",
+      "40895569",
+      "29384226",
+      "41057878",
+      "30489194",
+      "39115605",
+      "39090568",
+      "34532813",
+      "39803606",
+      "39305132",
+      "34185412",
+      "33664867",
+      "38446061",
+      "30485482",
+      "29475441",
+      "28790389",
+      "40022689",
+      "40959076",
+      "39506421",
+      "39884379",
+      "39739023",
+      "39674349",
+      "32456526",
+      "40176057",
+      "38758844",
+      "39466176",
+      "40461549",
+      "31138318",
+      "38622340",
+      "41177429",
+      "41198558",
+      "30704503",
+      "32234710",
+      "33000186",
+      "39713879",
+      "38818892",
+      "39633066",
+      "40797330",
+      "29964327",
+      "32508321",
+      "29656060",
+      "40846326",
+      "28492139",
+      "40292920",
+      "41235230",
+      "39269596",
+      "31941785",
+      "30691497",
+      "30652346",
+      "34326690",
+      "38199212",
+      "41120586",
+      "29524631",
+      "39673552",
+      "31006663",
+      "41206435",
+      "37272097",
+      "39217322",
+      "41174632",
+      "38816365",
+      "41264624",
+      "28740094",
+      "30565392",
+      "23911960",
+      "33017573",
+      "40911996",
+      "40594358",
+      "30825232",
+      "27455247",
+      "31746422",
+      "30793158",
+      "38784391",
+      "32563982",
+      "39970856",
+      "39985078",
+      "32483387",
+      "40122665",
+      "39037571",
+      "34681897",
+      "32870579",
+      "23912183",
+      "29225166",
+      "33813077",
+      "39885503",
+      "26662962",
+      "40321814",
+      "40628510",
+      "32302291",
+      "39349111",
+      "40374042",
+      "40016386"
+    ],
+    "review": [
+      "40646517",
+      "41319208"
+    ],
+    "pmc": [
+      "12247437"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03456-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40646517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

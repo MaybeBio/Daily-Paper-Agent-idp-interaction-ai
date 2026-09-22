@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36749320",
+  "title": "Multiple polarity kinases inhibit phase separation of F-BAR protein Cdc15 and antagonize cytokinetic ring assembly in fission yeast.",
+  "authors": "Bhattacharjee, Rahul; Hall, Aaron R; Mangione, MariaSanta C; Igarashi, Maya G; Roberts-Galbraith, Rachel H; Chen, Jun-Song; Vavylonis, Dimitrios; Gould, Kathleen L",
+  "journal": "eLife",
+  "published_date": "2023-02-08",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究裂殖酵母F-BAR蛋白Cdc15的IDR磷酸化如何抑制其相分离与胞质分裂环组装，结合粗粒化模拟揭示IDR磷酸化调控寡聚、膜结合及LLPS的机制，属于IDR介导互作与相分离的机制建模研究。",
+  "abstract": "The F-BAR protein Cdc15 is essential for cytokinesis in Schizosaccharomyces pombe and plays a key role in attaching the cytokinetic ring (CR) to the plasma membrane (PM). Cdc15's abilities to bind to the membrane and oligomerize via its F-BAR domain are inhibited by phosphorylation of its intrinsically disordered region (IDR). Multiple cell polarity kinases regulate Cdc15 IDR phosphostate, and of these the DYRK kinase Pom1 phosphorylation sites on Cdc15 have been shown in vivo to prevent CR formation at cell tips. Here, we compared the ability of Pom1 to control Cdc15 phosphostate and cortical localization to that of other Cdc15 kinases: Kin1, Pck1, and Shk1. We identified distinct but overlapping cohorts of Cdc15 phosphorylation sites targeted by each kinase, and the number of sites correlated with each kinases' abilities to influence Cdc15 PM localization. Coarse-grained simulations predicted that cumulative IDR phosphorylation moves the IDRs of a dimer apart and toward the F-BAR tips. Further, simulations indicated that the overall negative charge of phosphorylation masks positively charged amino acids necessary for F-BAR oligomerization and membrane interaction. Finally, simulations suggested that dephosphorylated Cdc15 undergoes phase separation driven by IDR interactions. Indeed, dephosphorylated but not phosphorylated Cdc15 undergoes liquid-liquid phase separation to form droplets in vitro that recruit Cdc15 binding partners. In cells, Cdc15 phosphomutants also formed PM-bound condensates that recruit other CR components. Together, we propose that a threshold of Cdc15 phosphorylation by assorted kinases prevents Cdc15 condensation on the PM and antagonizes CR assembly.",
+  "abstract_zh": "F-BAR蛋白Cdc15对于裂殖酵母（Schizosaccharomyces pombe）的胞质分裂至关重要，并在将胞质分裂环（CR）附着到质膜（PM）上发挥关键作用。Cdc15通过其F-BAR结构域结合膜并寡聚化的能力受到其 intrinsically disordered region (IDR) 磷酸化的抑制。多种细胞极性激酶调控Cdc15 IDR的磷酸化状态，其中DYRK激酶Pom1在Cdc15上的磷酸化位点已被体内实验证明可阻止细胞尖端CR的形成。在此，我们比较了Pom1控制Cdc15磷酸化状态和皮层定位的能力与其他Cdc15激酶（Kin1、Pck1和Shk1）的差异。我们鉴定了每种激酶靶向的Cdc15磷酸化位点，这些位点组成不同但有重叠的群体，且位点数量与各激酶影响Cdc15 PM定位的能力相关。粗粒化模拟预测，累积的IDR磷酸化使二聚体的IDR相互分离并朝向F-BAR尖端移动。此外，模拟表明，磷酸化的整体负电荷掩盖了F-BAR寡聚化和膜相互作用所必需的正电荷氨基酸。最后，模拟提示去磷酸化的Cdc15经历由IDR相互作用驱动的相分离（phase separation）。确实，去磷酸化而非磷酸化的Cdc15在体外经历液-液相分离形成液滴，这些液滴招募Cdc15结合伙伴。在细胞中，Cdc15磷酸化突变体也形成结合PM的凝聚体，招募其他CR组分。综合来看，我们提出多种激酶对Cdc15磷酸化的阈值可阻止Cdc15在PM上的凝聚，并拮抗CR组装。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36749320/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36749320/",
+  "paper_page_path": "papers/pubmed/36749320/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or full text provided
+- **Shared manuscript claim summary** The authors report that full-length human tau, an intrinsically disordered polyampholyte, interacts with anionic liposomes (DOPS/DOPC and DOPG/DOPC) at low salt concentrations to form distinct AL-tau complexes that coexist with tau liquid-liquid phase separated coacervates. These complexes persist at near-physiological ionic strength while tau self-coacervates dissolve, suggesting that distinct cationic domains of tau may interact with anionic lipid domains of the axon plasma membrane.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, quantification details, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding tau interactions with anionic liposomes and the coexistence of distinct complex morphologies with tau phase separation. However, the current evidence base is insufficient to evaluate the technical soundness of the claims, the robustness of the observations, or the strength of the mechanistic interpretation. The central claims regarding complex stability at physiological ionic strength and the proposed biological relevance require substantial additional evidence.
+- **Who would be interested in the results, and why** Researchers studying tau biology, neurodegeneration, protein-lipid interactions, and biomolecular phase separation would find these results relevant. The potential link between tau-lipid interactions and membrane-associated tau pathology could interest those investigating Alzheimer's disease mechanisms and the physical chemistry of intrinsically disordered proteins.
+- **Major strengths** The study addresses a relevant and under-explored area of tau interactions with anionic lipid membranes. The use of full-length human tau and physiologically relevant lipid compositions is appropriate. The observation that AL-tau complexes persist while tau coacervates dissolve at higher ionic strength suggests a potentially distinct interaction mechanism worth investigating.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that at low salt concentrations, reaction mixtures of tau and ALs result in distinct states of AL-tau complexes coexisting with tau self-coacervates, and that these complexes remain stable at near-physiological ionic strength while coacervates dissolve.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The abstract provides no quantitative data, no imaging examples, no controls, and no methodological details to support the identification and distinction of AL-tau complexes versus tau self-coacervates. The criteria for classifying these morphologies are not described.  
+  - **Why it matters** Without clear evidence that the observed structures are correctly identified and distinguished, the central claims of coexistence and differential stability cannot be evaluated. Misidentification of aggregates or artifacts could undermine the conclusions.  
+  - **Resolution test** Provide representative microscopy images with scale bars, quantification of complex sizes and numbers, control experiments (e.g., tau alone, liposomes alone, and non-binding protein controls), and clear criteria for classifying each structure type.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that AL-tau complexes remain stable while tau self-coacervate droplets dissolve as ionic strength increases to approximately 150 mM.  
+  - **Evidence pointer** Abstract text; no titration data or time-course data provided  
+  - **Concern** The claim of differential stability is presented without any quantitative data on complex or coacervate persistence as a function of salt concentration. No threshold concentrations, error bars, or replicate information are given.  
+  - **Why it matters** The differential response to ionic strength is a key finding that supports the proposed distinct interaction mechanisms. Without rigorous titration data, this claim is unsupported.  
+  - **Resolution test** Provide systematic salt titration experiments with quantitative measurements of complex and coacervate abundance or size, including replicates and statistical analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract concludes that the findings suggest distinct cationic domains of tau may interact with anionic lipid domains of the axon plasma membrane, implying transient yet robust interactions at physiological ionic strength.  
+  - **Evidence pointer** Abstract text; no direct evidence of domain-specific interactions or membrane relevance  
+  - **Concern** The leap from in vitro liposome observations to a specific hypothesis about axon plasma membrane interactions is not supported by the data described. No experiments address tau domain specificity, membrane asymmetry, or physiological relevance.  
+  - **Why it matters** The proposed biological significance is a major motivation for the study. Without evidence linking the observed phenomena to tau domains or membrane biology, the conclusion is speculative.  
+  - **Resolution test** Provide experiments with tau truncation or point mutants to test domain involvement, and discuss or test the relevance of the lumen-facing monolayer of the axon plasma membrane.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract describes distinct types of AL-tau complex morphologies, including large 20-30 micron tau-decorated giant vesicles with attached smaller liposomes and tau-mediated finite-size assemblies of small liposomes.  
+  - **Evidence pointer** Abstract text; no images or size distribution data provided  
+  - **Concern** The morphological descriptions are qualitative and lack supporting images or quantitative size distributions. The distinction between "tau-decorated" and "tau-mediated" is not operationally defined.  
+  - **Why it matters** The morphological diversity is a central observation. Without clear imaging evidence and quantitative characterization, the reproducibility and significance of these structures cannot be assessed.  
+  - **Resolution test** Provide representative DIC and fluorescence images for each morphology, size distribution histograms, and definitions of the classification criteria.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses specialized terminology (e.g., "polyampholyte," "coacervates," "finite-size assemblies") without brief definitions or context for a broad readership.  
+  - **Required correction** Add brief explanatory phrases or a sentence to define key terms for nonspecialist readers.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states "low salt concentrations (0 to 10 mM KCl or NaCl)" but does not specify the buffer composition, pH, or temperature used in the experiments.  
+  - **Required correction** Include buffer, pH, and temperature details in the abstract or methods summary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Lipid composition rationale  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The choice of DOPS and DOPG as anionic lipids is stated to mimic axon plasma membranes, but the physiological relevance of these specific lipids and their proportions is not justified.  
+  - **Required correction** Provide a brief rationale for the lipid compositions used and their relevance to axonal membranes.
+
+## Risk / unsupported claims
+- The claim that AL-tau complexes coexist with tau self-coacervates at low salt concentrations is unsupported without imaging evidence and control experiments.
+- The claim that AL-tau complexes remain stable while coacervates dissolve at approximately 150 mM ionic strength is unsupported without quantitative titration data.
+- The hypothesis that distinct cationic domains of tau interact with anionic lipid domains of the axon plasma membrane is speculative and not directly tested.
+- The morphological classification of AL-tau complexes is qualitative and lacks quantitative support.
+- The biological relevance of the observed phenomena to tau function or pathology is not established from the abstract alone.

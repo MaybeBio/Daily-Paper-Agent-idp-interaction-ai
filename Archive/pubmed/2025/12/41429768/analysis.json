@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41429768",
+  "title": "Targeting intrinsically disordered nuclear protein 1 (NUPR1) with single-domain antibodies alleviates triple-negative breast cancer (TNBC) progression in vivo.",
+  "authors": "Wang, Tianzhuo; Wang, Min; Chen, Xuanru; Yin, Yueyuan; Xu, Jintao; Sun, Yanan; Wu, Ailing; Liu, Zhe; Ma, Zhenyi",
+  "journal": "Cell death & disease",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究开发单域抗体靶向无序蛋白NUPR1并验证其抗三阴性乳腺癌疗效，涉及IDP对象和结合互作，但方法以实验筛选为主，缺乏AI/物理模拟的机制建模，故评分为5。",
+  "abstract": "Triple-negative breast cancer (TNBC) is a highly aggressive subtype that currently lacks effective targeted therapies. Transcriptional co-regulator nuclear protein 1 (NUPR1) has been identified as a key stress-adaptive disordered protein that promotes tumor progression and therapy-induced resistance. In this study, we developed a robust high-throughput platform integrating in situ proximity ligation assay followed by DNA sequencing (isPLA-seq), NanoBiT assays, and C-degron degradation validation to screen for functional single-domain antibodies (sdAbs) targeting NUPR1. Consequently, sdAb#07.81 emerged as a lead candidate, demonstrating strong binding affinity and the ability to degrade endogenous NUPR1 in TNBC cells. Functional assays confirmed that sdAb#07.81 suppressed TNBC cell growth, induced premature senescence, and derepressed ferroptosis. In vivo validation using a 4T1 cell-derived fully immunocompetent murine model further established its therapeutic efficacy, with significant reductions in tumor size, NUPR1 expression, and cell proliferation. These findings highlight sdAb#07.81 as a promising therapeutic agent and validate the platform's effectiveness for addressing intracellular disordered targets like NUPR1. This work underscores the potential of sdAbs as a cancer therapeutic and provides a foundation for advancing sdAb#07.81 into preclinical and clinical development to address the critical unmet needs of TNBC treatment.",
+  "abstract_zh": "三阴性乳腺癌（TNBC）是一种高度侵袭性的亚型，目前缺乏有效的靶向治疗手段。转录共调节因子核蛋白1（NUPR1）已被鉴定为一种关键的应激适应性无序蛋白，可促进肿瘤进展及治疗诱导的耐药性。在本研究中，我们开发了一个稳健的高通量平台，整合了原位邻近连接检测后接DNA测序（isPLA-seq）、NanoBiT检测及C-degron降解验证，以筛选靶向NUPR1的功能性单域抗体（sdAbs）。由此，sdAb#07.81脱颖而出，成为领先候选分子，展现出强结合亲和力，并能降解TNBC细胞中的内源性NUPR1。功能实验证实，sdAb#07.81抑制TNBC细胞生长，诱导早衰，并解除铁死亡（ferroptosis）的抑制。使用4T1细胞来源的完全免疫活性小鼠模型进行的体内验证进一步确立了其治疗功效，显著减小了肿瘤体积、降低了NUPR1表达及细胞增殖。这些发现凸显了sdAb#07.81作为一种有前景的治疗剂，并验证了该平台在应对如NUPR1等细胞内无序靶点方面的有效性。本研究强调了sdAbs作为癌症治疗手段的潜力，并为推进sdAb#07.81进入临床前及临床开发奠定了基础，以应对TNBC治疗中未满足的关键需求。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41429768/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41429768/",
+  "paper_page_path": "papers/pubmed/41429768/index.html"
+}

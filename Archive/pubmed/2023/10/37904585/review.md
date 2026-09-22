@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, data presentation, and claims as stated in the provided manuscript
+- **Shared manuscript claim summary** The authors describe updates to the DisProt database, including increased protein and annotation counts, adoption of MIADE principles, new ECO terms, expanded GO-based function annotations, new thematic datasets, and a correlation analysis between DisProt disorder content and AlphaFold2 pLDDT scores.
+- **Visible evidence base** Abstract, Introduction, Progress and new features (including Database growth, Annotation quality, Disorder content, Disorder function, Implementation, Training material), Conclusions, Data availability, Funding, Acknowledgements. Tables 1-3 and Figures 1-2 are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-3 and Figures 1-2 are not included in the supplied material. Specific numerical values for database statistics (e.g., exact counts per category) are partially reported in text but not fully verifiable. No supplementary data or method details for the correlation analysis are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript reports incremental but meaningful updates to DisProt, a well-established community resource. The database growth statistics and the adoption of MIADE and ECO terms represent useful progress. However, the central analytical claim, the correlation between DisProt annotations and AlphaFold2 pLDDT, is presented with limited methodological detail and the key figures are not available for inspection. The functional annotation expansion is described qualitatively, and the absence of tables and figures weakens the ability to assess the robustness of the reported results. The manuscript is likely of interest to the IDP and biocuration communities, but the evidence as provided is insufficient to fully establish the strength of the correlation claim or the broader impact of the annotation improvements.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, bioinformaticians developing disorder or function prediction tools, biocurators, and members of the Gene Ontology and ELIXIR communities. The database updates and the comparison with AlphaFold2 predictions are directly relevant to those using structural predictions to interpret disorder and function.
+- **Major strengths** The manuscript documents a clear increase in database content and annotation coverage. The systematic adoption of MIADE and new ECO terms is a commendable step toward standardization. The integration of GO terms and propagation to UniProtKB enhances interoperability. The comparison with AlphaFold2 pLDDT is a timely and potentially valuable analysis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DisProt and AlphaFold2 correlate well when the pLDDT threshold is between 70 and 90 with a maximum correlation at pLDDT = 80 (Pearson's correlation 0.42, P-value 6.26e−101)."
+  - **Evidence pointer** Figure 1A, location not provided
+  - **Concern** The correlation analysis is described in a single sentence. The methods for computing disorder content from AlphaFold2, the selection of the protein set, the handling of overlapping regions, and the statistical testing procedure are not described. The figure is not available for inspection.
+  - **Why it matters** The correlation claim is a key novel result of the manuscript. Without methodological detail and visual evidence, the reader cannot assess whether the analysis is appropriate, whether the correlation is driven by specific subsets, or whether the P-value is meaningful given potential non-independence of residues.
+  - **Resolution test** Provide a detailed methods subsection describing the AlphaFold2 data source, the thresholding procedure, the calculation of disorder content, and the statistical test. Include Figure 1A with clear axis labels and a description of the scatter or density plot.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Below the diagonal of Figure 1B, there are cases for which AphaFold predicts most of the structure with a low pLDDT but the corresponding region in the protein sequence is not annotated as disordered in DisProt. Assuming a low pLDDT is a good proxy for disorder prediction, those proteins are potential cases of under annotation in DisProt."
+  - **Evidence pointer** Figure 1B, location not provided
+  - **Concern** The interpretation of discrepancies as "under annotation" relies on the assumption that low pLDDT is a reliable proxy for disorder. This assumption is stated but not critically examined. Alternative explanations, such as misannotation in DisProt or limitations of AlphaFold2 for certain protein classes, are mentioned only briefly.
+  - **Why it matters** The claim that specific proteins are under-annotated has practical implications for database curation priorities. If the assumption is not validated, the recommendation to inspect these proteins may be premature.
+  - **Resolution test** Discuss the limitations of pLDDT as a disorder proxy, cite relevant benchmarking studies, and provide examples of the flagged proteins with their experimental evidence status.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The rapid expansion of functional annotations has resulted in a twofold increase over the past four years."
+  - **Evidence pointer** Table 3, location not provided
+  - **Concern** The functional annotation expansion is described as a major advancement, but the table that would substantiate this claim is not provided. The text does not specify the time frame for the "twofold increase" or the baseline.
+  - **Why it matters** The growth in functional annotations is a central selling point of the update. Without the table, the reader cannot verify the magnitude or the distribution across GO aspects.
+  - **Resolution test** Include Table 3 with counts of terms, proteins, and regions for each ontology branch, and specify the comparison time points.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "the large-scale structural landscape provided by AlphaFold2 confirms that structural disorder may be more prevalent in proteomes than previously thought" is vague. It is unclear what specific evidence from AlphaFold2 supports this claim.
+  - **Required correction** Provide a citation or a brief explanation of how AlphaFold2 output indicates disorder prevalence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Disorder content section, example proteins
+  - **Evidence pointer** Location not provided
+  - **Issue** The examples of proteins with increased disorder content (DP02376, DP02291) are given with specific percentages, but the source of these numbers is not traceable without the database entries.
+  - **Required correction** Clarify that these values are from the current release and can be verified on the DisProt website.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Disorder function section
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement "it is difficult to draw any conclusions from the cellular component aspect due to the limited number of annotated proteins" is appropriate, but the text does not provide the actual numbers.
+  - **Required correction** Report the number of proteins annotated with cellular component terms to support the claim of limited coverage.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Implementation section
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the interactive annotation form is brief and does not explain how submissions are validated or integrated.
+  - **Required correction** Add a sentence on the review process for external submissions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the correlation analysis and the under-annotation claim are not adequately supported by the provided evidence. R1-M3 is not blocking but requires the missing table for full verification.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The database update is incremental, and the AlphaFold2 comparison is novel but not deeply developed.
+  - Scientific importance: Moderate to high for the IDP community, but the broader impact is limited by the descriptive nature of the update.
+  - Interdisciplinary readership: Limited. The manuscript is primarily relevant to structural biology, bioinformatics, and biocuration.
+  - Technical soundness: Not fully established. The correlation analysis lacks methodological detail, and the missing figures and tables prevent verification.
+  - Readability for nonspecialists: Acceptable. The text is generally clear, but some sections assume familiarity with ontologies and database standards.
+- **Recommendation posture** Supportive if technical concerns are resolved. The database updates are valuable, but the key analytical claims require additional methodological detail and the missing figures and tables must be provided for a complete assessment.
+
+## Risk / unsupported claims
+- The correlation between DisProt disorder content and AlphaFold2 pLDDT (R1-M1) is not fully supported without methods and Figure 1A.
+- The claim of under-annotation in specific proteins (R1-M2) is not supported without a critical evaluation of the pLDDT proxy assumption.
+- The "twofold increase" in functional annotations (R1-M3) is not verifiable without Table 3.
+- The statement that DisProt annotations "strongly correlate" with AlphaFold2 predictions is overstated given the modest Pearson correlation of 0.42.
+- The claim that new ECO terms "increased the disorder content at the database level" is plausible but not quantified in the text.

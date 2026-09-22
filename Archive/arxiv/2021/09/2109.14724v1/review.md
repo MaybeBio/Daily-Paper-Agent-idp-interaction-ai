@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2109.14724v1)
+- **Assessment boundary** Scientific and technical soundness of the described methods, results, and claims as presented in the provided material
+- **Shared manuscript claim summary** The authors apply the constrained geometric simulation method FRODAN to probe conformational dynamics of IgG2a monoclonal antibodies, including domain-domain motions and CDR loop flexibility, and propose an extension combining FRODAN with Monte Carlo Tree Search (MCTS) for enhanced conformational sampling.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 2-8 (figures not provided); references to PDB structures 1IGT, 4G6K, 5W6C; equation (1) for UCB score (formula not fully rendered)
+- **Missing materials affecting confidence** Figures 2-8 are referenced but not included; equation (1) is incomplete; no quantitative data tables; no supplementary information; no validation metrics beyond qualitative statements
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of a computationally efficient geometric simulation method to antibody dynamics, a topic of broad interest. However, the current form is more descriptive than analytical, with key results presented only qualitatively and without supporting quantitative data. The methodological novelty is limited, as FRODAN and MCTS are both previously described, and the proposed combination is presented without systematic benchmarking or comparison to alternative approaches. The claims of agreement with experimental studies are not substantiated with direct comparisons or statistical measures. The manuscript would benefit from a more rigorous presentation of results, including quantitative validation and clearer articulation of what is new relative to prior work.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, particularly those studying antibody engineering, conformational ensembles, and protein flexibility. The work may also interest method developers in geometric simulation and rigidity theory, as well as experimentalists seeking computationally cheap approaches to generate hypotheses about antibody dynamics. The MCTS extension could appeal to those applying reinforcement learning to biomolecular conformation sampling.
+- **Major strengths** The manuscript addresses a relevant problem, namely the computational cost of MD simulations for large and flexible proteins such as antibodies. The use of FRODAN, a low-complexity geometric simulation method, is appropriate for this purpose and is clearly described. The application to IgG2a, including whole antibody and isolated Fab domains with different H3 loop lengths, is a sensible test case. The proposed MCTS extension is an interesting idea that could improve sampling efficiency, and the authors are transparent about limitations and parameter choices.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for core claims
+  - **Claim pointer** The manuscript claims that FRODAN simulations show that antibodies can explore a large range of conformational space and that sampled distributions for Fab-Fab and Fab-Fc distances overlap reasonably well with experimental distributions reported in references [22, 23].
+  - **Evidence pointer** Section 3, Figures 3 and 4 (figures not provided)
+  - **Concern** The central quantitative claim of agreement with experimental distance distributions is stated without any numerical data, statistical measures, or direct comparison. The figures that would support this claim are not available in the provided material. Without quantitative metrics such as overlap coefficients, RMSD values, or confidence intervals, the claim of reasonable overlap is not verifiable.
+  - **Why it matters** This claim is the primary evidence that FRODAN captures biologically relevant conformational states. If not substantiated, the core utility of the method for antibody dynamics is not established.
+  - **Resolution test** Provide quantitative comparison of sampled distance distributions with experimental data, including statistical measures of similarity and error bars. Include the relevant figures with clear axis labels and legends.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript states that FRODAN runs approximately 10^4 times faster than conventional MD simulations and that results are consistent with MD results [24].
+  - **Evidence pointer** Section 1, Section 4 (reference [24] cited without details)
+  - **Concern** The speed advantage is quoted from prior work, but no benchmarking is presented for the specific systems studied here. The consistency with MD is only cited, not demonstrated. For a methods-oriented chapter, the lack of direct comparison with MD or other simulation methods for the IgG2a systems weakens the case for FRODAN's utility.
+  - **Why it matters** The claimed advantages of FRODAN over MD are central to its justification. Without system-specific validation, readers cannot assess whether the method performs as claimed for antibody dynamics.
+  - **Resolution test** Include a benchmark comparing FRODAN runtime and sampled conformations with MD simulations for at least one of the studied systems, with quantitative agreement metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance of MCTS extension
+  - **Claim pointer** The manuscript proposes combining FRODAN with MCTS to enhance conformational sampling and reports results from five independent runs with an average final RMSD of 11.1 +/- 2.8 Å.
+  - **Evidence pointer** Section 2.2, Section 3, Figure 7 (figure not provided)
+  - **Concern** The MCTS extension is presented as a brief addition without systematic analysis. Only one example is shown, and the improvement over non-targeted FRODAN alone is not quantified. The choice of parameters (alpha, C) is acknowledged as non-trivial, but no sensitivity analysis is provided. The claim of better convergence with longer runs is speculative.
+  - **Why it matters** If the MCTS extension is a key contribution, its benefits must be demonstrated rigorously. As presented, it is unclear whether the extension offers significant advantages over existing sampling methods.
+  - **Resolution test** Provide a systematic comparison of MCTS-guided FRODAN versus non-targeted FRODAN in terms of sampling efficiency, diversity, and convergence, with multiple replicates and parameter sensitivity analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The manuscript describes simulation procedures and parameters, including energy cutoffs, number of steps, and thresholds.
+  - **Evidence pointer** Section 2.3
+  - **Concern** Key details are missing or vague. The preprocessing steps are described only generally. The number of simulation runs, random seed handling, and criteria for selecting representative snapshots are not specified. The MCTS implementation is referenced to prior work, but the specific adaptations for FRODAN are not detailed.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without complete methodological details, other researchers cannot replicate or build upon the work.
+  - **Resolution test** Provide a detailed protocol including all parameters, software versions, and analysis scripts, possibly as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Section 2.2, equation (1)
+  - **Evidence pointer** Equation (1) is incomplete in the provided text
+  - **Issue** The UCB formula is not fully rendered, making it impossible to evaluate the method.
+  - **Required correction** Provide the complete equation with all terms defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology and consistency
+  - **Affected element** Section 2.3, Section 3
+  - **Evidence pointer** Text mentions "treshold" and "threshhold" (spelling inconsistencies) and "non-targted" (typo)
+  - **Issue** Spelling errors and inconsistent terminology detract from readability.
+  - **Required correction** Proofread the manuscript for typographical errors and ensure consistent use of terms such as "threshold" and "non-targeted".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 2-8
+  - **Evidence pointer** Figures not provided in the manuscript text
+  - **Issue** The figures are essential for understanding the results, but they are not included in the provided material. Their absence limits assessment.
+  - **Required correction** Ensure all figures are included with high resolution, clear labels, and descriptive captions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, references [22, 23]
+  - **Evidence pointer** References cited for experimental agreement
+  - **Issue** The experimental studies are cited but not described in sufficient detail for readers to understand what was measured and how the comparison was made.
+  - **Required correction** Briefly describe the experimental methods and how the comparison was performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative validation of core claim), R1-M2 (no system-specific benchmarking), R1-M4 (incomplete methodological details)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of FRODAN to antibodies is not entirely new, and the MCTS extension is incremental. Scientific importance: Moderate. The work addresses a practical need but does not provide a major conceptual advance. Interdisciplinary readership: Limited. The manuscript is likely to appeal mainly to computational structural biologists. Technical soundness: Weak as presented. The lack of quantitative validation and incomplete methods undermine confidence. Readability for nonspecialists: Adequate. The text is generally clear, but the incomplete equation and missing figures hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revision to substantiate its claims with quantitative data, complete methodological details, and system-specific validation.
+
+## Risk / unsupported claims
+- Claim of reasonable overlap between FRODAN-sampled distance distributions and experimental distributions (Section 3) is unsupported without quantitative data.
+- Claim of 10^4 speed advantage over MD is cited from prior work, not demonstrated for the studied systems.
+- Claim of consistency with MD results (reference [24]) is cited without direct comparison.
+- Claim that MCTS-guided FRODAN achieves better convergence with longer runs is speculative.
+- Qualitative statements about domain motions and CDR loop flexibility (Section 3) are not backed by quantitative metrics or statistical analysis.

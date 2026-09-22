@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2303.11723v1",
+  "title": "Robust microphase separation through chemical reaction networks",
+  "authors": "Franco Blanchini; Elisa Franco; Giulia Giordano; Dino Osmanovic",
+  "journal": "IEEE Control Systems Letters, vol. 7, pp. 2281-2286, 2023",
+  "published_date": "2023-03-21",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用连续介质模型耦合化学反应网络研究相分离凝聚体的微相分离稳定性，虽对象为相分离但非IDP/PPI，且方法为理论分析而非AI/物理模拟，机制建模思路对凝聚体尺寸调控有启发。",
+  "abstract": "The interaction of phase-separating systems with chemical reactions is of great interest in various contexts, from biology to material science. In biology, phase separation is thought to be the driving force behind the formation of biomolecular condensates, i.e. organelles without a membrane that are associated with cellular metabolism, stress response, and development. RNA, proteins, and small molecules participating in the formation of condensates are also involved in a variety of biochemical reactions: how do the chemical reaction dynamics influence the process of phase separation? Here we are interested in finding chemical reactions that can arrest the growth of condensates, generating stable spatial patterns of finite size (microphase separation), in contrast with the otherwise spontaneous (unstable) growth of condensates. We consider a classical continuum model for phase separation coupled to a chemical reaction network (CRN), and we seek conditions for the emergence of stable oscillations of the solution in space. Given reaction dynamics with uncertain rate constants, but known structure, we derive easily computable conditions to assess whether microphase separation is impossible, possible for some parameter values, or robustly guaranteed for all parameter values within given bounds. Our results establish a framework to evaluate which classes of CRNs favor the emergence of condensates with finite size, a question that is broadly relevant to understanding and engineering life.",
+  "abstract_zh": "相分离系统与化学反应的相互作用在从生物学到材料科学的多个领域中备受关注。在生物学中，相分离被认为是生物分子凝聚体（即无膜细胞器，与细胞代谢、应激反应和发育相关）形成的驱动力。参与凝聚体形成的RNA、蛋白质和小分子也涉及多种生化反应：化学反应动力学如何影响相分离过程？在此，我们关注于寻找能够阻止凝聚体生长、产生有限尺寸稳定空间模式（微相分离）的化学反应，这与凝聚体自发的（不稳定的）生长形成对比。我们考虑一个经典的相分离连续介质模型，与化学反应网络（CRN）耦合，并寻求溶液中空间稳定振荡出现的条件。鉴于反应动力学具有不确定的速率常数但结构已知，我们推导出易于计算的条件，以评估微相分离是否不可能、在某些参数值下可能，或在给定边界内的所有参数值下稳健地保证。我们的结果建立了一个框架，用于评估哪类CRN有利于有限尺寸凝聚体的出现，这一问题对理解和工程化生命具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2303.11723v1",
+  "source_url": "https://arxiv.org/abs/2303.11723v1",
+  "paper_page_path": "papers/arxiv/2303.11723v1/index.html"
+}

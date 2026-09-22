@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36077201",
+  "title": "Thermodynamics of pi-pi Interactions of Benzene and Phenol in Water.",
+  "authors": "Paik, Dooam; Lee, Hankyul; Kim, Hyungjun; Choi, Jeong-Mo",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用DFT与显式溶剂模型计算苯/苯酚二聚体在水中的π-π相互作用自由能，为无序蛋白相分离中π-π驱动的互作机制提供热力学建模参考，但对象为小分子而非IDP/PPI，方法为量子化学而非AI/MD。",
+  "abstract": "The pi-pi interaction is a major driving force that stabilizes protein assemblies during protein folding. Recent studies have additionally demonstrated its involvement in the liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs). As the participating residues in IDPs are exposed to water, pi-pi interactions for LLPS must be modeled in water, as opposed to the interactions that are often established at the hydrophobic domains of folded proteins. Thus, we investigated the association of free energies of benzene and phenol dimers in water by integrating van der Waals (vdW)-corrected density functional theory (DFT) and DFT in classical explicit solvents (DFT-CES). By comparing the vdW-corrected DFT and DFT-CES results with high-level wavefunction calculations and experimental solvation free energies, respectively, we established the quantitative credibility of these approaches, enabling a reliable prediction of the benzene and phenol dimer association free energies in water. We discovered that solvation influences dimer association free energies, but not significantly when no direct hydrogen-bond-type interaction exists between two monomeric units, which can be explained by the enthalpy-entropy compensation. Our comprehensive computational study of the solvation effect on pi-pi interactions in water could help us understand the molecular-level driving mechanism underlying the IDP phase behaviors.",
+  "abstract_zh": "π-π相互作用是在蛋白质折叠过程中稳定蛋白质组装的主要驱动力。近期研究进一步表明，其参与 intrinsically disordered proteins (IDPs) 的液-液相分离 (liquid-liquid phase separation, LLPS)。由于IDPs中参与残基暴露于水环境，LLPS中的π-π相互作用必须在水中建模，这与折叠蛋白疏水域中常建立的相互作用不同。因此，我们通过整合范德华 (van der Waals, vdW) 校正的密度泛函理论 (density functional theory, DFT) 和经典显式溶剂中的DFT (DFT-CES)，研究了苯和苯酚二聚体在水中的缔合自由能。通过将vdW校正的DFT和DFT-CES结果分别与高精度波函数计算和实验溶剂化自由能进行比较，我们确立了这些方法的定量可信度，从而能够可靠预测苯和苯酚二聚体在水中的缔合自由能。我们发现，溶剂化影响二聚体缔合自由能，但当两个单体单元之间不存在直接氢键型相互作用时，其影响不显著，这可通过焓-熵补偿来解释。我们关于水中π-π相互作用溶剂化效应的综合计算研究，有助于理解IDP相行为背后的分子层面驱动机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36077201/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36077201/",
+  "paper_page_path": "papers/pubmed/36077201/index.html"
+}

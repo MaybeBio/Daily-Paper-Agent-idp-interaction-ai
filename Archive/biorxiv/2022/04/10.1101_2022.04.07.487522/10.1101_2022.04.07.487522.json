@@ -1,0 +1,224 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.07.487522",
+  "title": "The impact of AlphaFold on experimental structure solution",
+  "doi": "10.1101/2022.04.07.487522",
+  "abstract": "AlphaFold2 is a machine-learning based program that predicts a protein structure based on the amino acid sequence. In this article, we report on the current usages of this new tool and give examples from our work in the Coronavirus Structural Task Force. With its unprecedented accuracy, it can be utilized for the design of expression constructs, de novo protein design and the interpretation of Cryo-EM data with an atomic model. However, these methods are limited by their training data and are of limited use to predict conformational variability and fold flexibility; they also lack co-factors, posttranslational modifications and multimeric complexes with oligonucleotides. They also are not always perfect in terms of chemical geometry. Nevertheless, machine learning based fold prediction are a game changer for structural bioinformatics and experimentalists alike, with exciting developments ahead.",
+  "authors": [
+    "Edich M",
+    "Briggs DC",
+    "Kippes O",
+    "Gao Y",
+    "Thorn A"
+  ],
+  "published_date": "2022-04-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.07.487522",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.07.487522.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR479099",
+    "raw_record": {
+      "id": "PPR479099",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR479099"
+        ]
+      },
+      "doi": "10.1101/2022.04.07.487522",
+      "title": "The impact of AlphaFold on experimental structure solution",
+      "authorString": "Edich M, Briggs DC, Kippes O, Gao Y, Thorn A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Edich M",
+            "lastName": "Edich",
+            "firstName": "Maximilian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Nanostructure and Solid State physics, Universität Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Briggs DC",
+            "lastName": "Briggs",
+            "firstName": "David",
+            "initials": "DC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9793-7339"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Francis Crick Institute, 1 Midland Road, London, UK NW1 1AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kippes O",
+            "lastName": "Kippes",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6231-8175"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Nanostructure and Solid State physics, Universität Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gao Y",
+            "lastName": "Gao",
+            "firstName": "Yunyun",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7220-2638"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Nanostructure and Solid State physics, Universität Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thorn A",
+            "lastName": "Thorn",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4503-4258"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Nanostructure and Solid State physics, Universität Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7220-2638"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6231-8175"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9793-7339"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4503-4258"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "AlphaFold2 is a machine-learning based program that predicts a protein structure based on the amino acid sequence. In this article, we report on the current usages of this new tool and give examples from our work in the Coronavirus Structural Task Force. With its unprecedented accuracy, it can be utilized for the design of expression constructs, de novo protein design and the interpretation of Cryo-EM data with an atomic model. However, these methods are limited by their training data and are of limited use to predict conformational variability and fold flexibility; they also lack co-factors, posttranslational modifications and multimeric complexes with oligonucleotides. They also are not always perfect in terms of chemical geometry. Nevertheless, machine learning based fold prediction are a game changer for structural bioinformatics and experimentalists alike, with exciting developments ahead.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/08/2022.04.07.487522.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.07.487522"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR479099"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR479099&type=FILE&fileName=EMS162977-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS162977",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-04-10",
+      "firstPublicationDate": "2022-04-08",
+      "firstIndexDate": "2022-04-11",
+      "fullTextReceivedDate": "2023-03-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

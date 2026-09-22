@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "41000932",
+    "doi": "10.1101/2025.09.19.677370",
+    "title": "Transcriptome-wide analysis reveals sequence selection to avoid mRNA aggregation in E. coli."
+  },
+  "content": {
+    "abstract": "The stability of RNA base pairing and its limited four-letter code create an intrinsic potential for promiscuous RNA-RNA interactions. In vitro, such interactions drive RNA to self-assemble into aggregates. This raises a fundamental unanswered question: within a confined cellular volume at physiological mRNA abundances, how much aggregation would arise from sequence-encoded chemistry alone? Here, we establish this baseline with large-scale kinetic simulations of the E. coli transcriptome. Our simulations reveal that sequence-encoded base-pairing energetics is sufficient to generate a dynamic network of large aggregates, organized by long, multivalent mRNA hubs. Strikingly, evolutionary analysis shows that native E. coli sequences exhibit clear signatures of selection to counteract this propensity: they fold more stably, minimize unstructured regions, and form weaker intermolecular contacts than dinucleotide-preserving controls. These findings demonstrate that maintaining transcriptome solubility has been a significant, previously unrecognized constraint shaping genome evolution, and provide a new lens to interpret cellular RNA management.",
+    "keywords": [
+      "Biological Sciences (Biophysics and Computational Biology)",
+      "Biomolecular condensates",
+      "Molecular Evolution",
+      "Physical Sciences (Biophysics and Computational Biology)",
+      "RNA Aggregation",
+      "RNA-RNA interactions",
+      "Transcriptome Dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Todisco, Marco",
+        "Jain, Ankur"
+      ],
+      "short_names": [
+        "Todisco M",
+        "Jain A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6627-5283",
+        "ORCID: 0000-0002-8026-0819"
+      ],
+      "affiliations": [
+        "Whitehead Institute for Biomedical Research, Cambridge, MA, 02142, USA.",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA, 02142, USA.",
+        "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Todisco, Marco",
+        "short_name": "Todisco M",
+        "identifiers": [
+          "0000-0001-6627-5283"
+        ],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA, 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Jain, Ankur",
+        "short_name": "Jain A",
+        "identifiers": [
+          "0000-0002-8026-0819"
+        ],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA, 02142, USA.",
+          "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 06:31",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39637853",
+      "38904115",
+      "38238480",
+      "37855684",
+      "36920168",
+      "36658112",
+      "36192461",
+      "36099434",
+      "36001640",
+      "35501484",
+      "35355287",
+      "34752075",
+      "33650968",
+      "33524037",
+      "33270901",
+      "32857953",
+      "32522884",
+      "30698818",
+      "29628307",
+      "29483269",
+      "29339797",
+      "28562589",
+      "27798597",
+      "27642845",
+      "27184079",
+      "25013173",
+      "24850865",
+      "24336214",
+      "24270811",
+      "23356429",
+      "22115189",
+      "20645303",
+      "19854939",
+      "17612493",
+      "16146351",
+      "16043502",
+      "15840812",
+      "11848852",
+      "11222752",
+      "10572183",
+      "10075987",
+      "9778347",
+      "5637197",
+      "5138338",
+      "1748995"
+    ],
+    "similar": [
+      "41000932",
+      "42735306",
+      "23912807",
+      "42475469",
+      "16682450",
+      "36321557",
+      "40470224",
+      "33650968",
+      "35982794",
+      "36452875",
+      "34904892",
+      "39763812",
+      "12935336",
+      "33119236",
+      "42478686",
+      "24472658",
+      "27153986",
+      "40335475",
+      "34785657",
+      "41747370",
+      "29179763",
+      "33982350",
+      "33825681",
+      "22163312",
+      "15842167",
+      "12952875",
+      "39642206",
+      "42290133",
+      "23217191",
+      "23293005",
+      "34706977",
+      "24039596",
+      "38079380",
+      "39319382",
+      "24144333",
+      "32910644",
+      "25928324",
+      "27184079",
+      "15746013",
+      "25799993",
+      "8284218",
+      "41337585",
+      "42262767",
+      "37720552",
+      "18042713",
+      "41429243",
+      "27184080",
+      "42296023",
+      "33558506",
+      "38361426",
+      "42126123",
+      "30832272",
+      "39896463",
+      "40009520",
+      "26497311",
+      "25887031",
+      "25362560",
+      "25375137",
+      "23748952",
+      "39605385",
+      "36378781",
+      "28595592",
+      "26838501",
+      "20345651",
+      "39559912",
+      "33127861",
+      "26495981",
+      "29377894",
+      "41888287",
+      "22192482",
+      "22767260",
+      "15115544",
+      "41538979",
+      "36409063",
+      "27198188",
+      "38853845",
+      "41480717",
+      "40502181",
+      "15983872",
+      "31540875",
+      "32356726",
+      "23405074",
+      "28108657",
+      "40794831",
+      "33191911",
+      "22981864",
+      "41979049",
+      "39505326",
+      "22712001",
+      "41605646",
+      "20941385",
+      "26413153",
+      "24705295",
+      "21507242",
+      "24086278",
+      "42241317",
+      "28335026",
+      "27256381",
+      "24417896",
+      "11071822"
+    ],
+    "review": [
+      "41000932",
+      "36321557",
+      "41747370",
+      "23293005",
+      "34706977",
+      "37720552",
+      "41480717"
+    ],
+    "pmc": [
+      "12458354"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41000932/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.19.677370",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

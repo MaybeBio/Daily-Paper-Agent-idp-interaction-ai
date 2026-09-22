@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.01.592062",
+  "title": "Sliding Window INteraction Grammar (SWING): a generalized interaction language model for peptide and protein interactions",
+  "authors": "Alisa A. Omelchenko; Jane C. Siwek; Prabal Chhibbar; Sanya Arshad; Iliyan Nazarali; Kiran Nazarali; AnnaElaine Rosengart; Javad Rahimikollu; Jeremy Tilstra; Mark J. Shlomchik; David R. Koes; Alok V. Joglekar; Jishnu Das",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-04",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 7,
+  "one_liner_zh": "提出一种基于滑动窗口交互语法的蛋白质语言模型SWING，以序列信息零样本预测肽-蛋白/蛋白-蛋白互作及错义突变对特定互作的破坏，方法新颖且可迁移至无序蛋白互作机制建模，但未直接涉及IDP/相分离对象。",
+  "abstract": "The explosion of sequence data has allowed the rapid growth of protein language models (pLMs). pLMs have now been employed in many frameworks including variant-effect and peptide-specificity prediction. Traditionally, for protein-protein or peptide-protein interactions (PPIs), corresponding sequences are either co-embedded followed by post-hoc integration or the sequences are concatenated prior to embedding. Interestingly, no method utilizes a language representation of the interaction itself. We developed an interaction LM (iLM), which uses a novel language to represent interactions between protein/peptide sequences. S liding W indow In teraction G rammar (SWING) leverages differences in amino acid properties to generate an interaction vocabulary. This vocabulary is the input into a LM followed by a supervised prediction step where the LM’s representations are used as features. SWING was first applied to predicting peptide:MHC (pMHC) interactions. SWING was not only successful at generating Class I and Class II models that have comparable prediction to state-of-the-art approaches, but the unique Mixed Class model was also successful at jointly predicting both classes. Further, the SWING model trained only on Class I alleles was predictive for Class II, a complex prediction task not attempted by any existing approach. For de novo data, using only Class I or Class II data, SWING also accurately predicted Class II pMHC interactions in murine models of SLE (MRL/lpr model) and T1D (NOD model), that were validated experimentally. To further evaluate SWING’s generalizability, we tested its ability to predict the disruption of specific protein-protein interactions by missense mutations. Although modern methods like AlphaMissense and ESM1b can predict interfaces and variant effects/pathogenicity per mutation, they are unable to predict interaction-specific disruptions. SWING was successful at accurately predicting the impact of both Mendelian mutations and population variants on PPIs. This is the first generalizable approach that can accurately predict interaction-specific disruptions by missense mutations with only sequence information. Overall, SWING is a first-in-class generalizable zero-shot iLM that learns the language of PPIs.",
+  "abstract_zh": "序列数据的激增推动了蛋白质语言模型（pLM）的快速发展。pLM现已被广泛应用于多种框架中，包括变异效应预测和肽特异性预测。传统上，对于蛋白质-蛋白质或肽-蛋白质相互作用（PPI），相应序列要么被共同嵌入后进行事后整合，要么在嵌入前将序列串联。有趣的是，没有方法利用相互作用本身的语言表示。我们开发了一种相互作用语言模型（iLM），该模型使用一种新颖的语言来表示蛋白质/肽序列之间的相互作用。滑动窗口相互作用语法（SWING）利用氨基酸性质的差异来生成相互作用词汇表。该词汇表作为语言模型的输入，随后进行监督预测步骤，其中语言模型的表示被用作特征。SWING首先应用于预测肽：MHC（pMHC）相互作用。SWING不仅成功生成了与最先进方法预测性能相当的I类和II类模型，而且独特的混合类模型也成功实现了对两类的联合预测。此外，仅使用I类等位基因训练的SWING模型对II类具有预测能力，这是现有方法未尝试过的复杂预测任务。对于从头数据，仅使用I类或II类数据，SWING也能准确预测小鼠SLE模型（MRL/lpr模型）和T1D模型（NOD模型）中的II类pMHC相互作用，并经过实验验证。为进一步评估SWING的泛化能力，我们测试了其预测错义突变对特定蛋白质-蛋白质相互作用破坏的能力。尽管现代方法如AlphaMissense和ESM1b能预测界面和每个突变的变异效应/致病性，但它们无法预测相互作用特异性的破坏。SWING成功准确预测了孟德尔突变和群体变异对PPI的影响。这是首个仅凭序列信息就能准确预测错义突变引起的相互作用特异性破坏的通用方法。总体而言，SWING是一种首创的通用零样本iLM，能够学习PPI的语言。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.01.592062",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.01.592062",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.01.592062/index.html"
+}

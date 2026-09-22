@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35074392",
+  "title": "The origin and impact of bound water around intrinsically disordered proteins.",
+  "authors": "Reid, Korey M; Singh, Abhishek K; Bikash, Chowdhury R; Wei, Jessica; Tal-Gan, Yftah; Vinh, Nguyen Q; Leitner, David M",
+  "journal": "Biophysical journal",
+  "published_date": "2022-01-26",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过介电谱和分子动力学模拟研究无序蛋白周围结合水的动态与热力学，虽以IDP为对象并含物理模拟，但聚焦水分子而非PPI互作机制，对无序蛋白互作建模仅有间接启发。",
+  "abstract": "Proteins and water couple dynamically over a wide range of time scales. Motivated by their central role in protein function, protein-water dynamics and thermodynamics have been extensively studied for structured proteins, where correspondence to structural features has been made. However, properties controlling intrinsically disordered protein (IDP)-water dynamics are not yet known. We report results of megahertz-to-terahertz dielectric spectroscopy and molecular dynamics simulations of a group of IDPs with varying charge content along with structured proteins of similar size. Hydration water around IDPs is found to exhibit more heterogeneous rotational and translational dynamics compared with water around structured proteins of similar size, yielding on average more restricted dynamics around individual residues of IDPs, charged or neutral, compared with structured proteins. The on-average slower water dynamics is found to arise from excess tightly bound water in the first hydration layer, which is related to greater exposure to charged groups. The more tightly bound water to IDPs correlates with the smaller hydration shell found experimentally, and affects entropy associated with protein-water interactions, the contribution of which we estimate based on the dielectric measurements and simulations. Water-IDP dynamic coupling at terahertz frequencies is characterized by the dielectric measurements and simulations.",
+  "abstract_zh": "蛋白质和水在广泛的时间尺度上动态耦合。鉴于它们在蛋白质功能中的核心作用，蛋白质-水动力学和热力学已被广泛研究，特别是对于结构蛋白质，其中已建立了与结构特征的对应关系。然而，控制 intrinsically disordered protein (IDP)-水动力学的性质尚不清楚。我们报告了对一组电荷含量不同的IDPs以及大小相似的结构蛋白质进行的兆赫兹至太赫兹介电谱和分子动力学模拟结果。发现IDPs周围的水合水与大小相似的结构蛋白质周围的水相比，表现出更异质的旋转和平移动力学，平均而言，IDPs单个残基（无论带电或中性）周围的水动力学比结构蛋白质更受限制。平均较慢的水动力学被发现源于第一水合层中过量紧密结合的水，这与带电基团的更大暴露相关。IDPs更紧密结合的水与实验观察到的较小水合壳层相关，并影响与蛋白质-水相互作用相关的熵，我们基于介电测量和模拟估计了其贡献。太赫兹频率下的水-IDP动态耦合通过介电测量和模拟表征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35074392/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35074392/",
+  "paper_page_path": "papers/pubmed/35074392/index.html"
+}

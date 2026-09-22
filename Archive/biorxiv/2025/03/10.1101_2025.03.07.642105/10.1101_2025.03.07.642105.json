@@ -1,0 +1,657 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.07.642105",
+  "title": "SEHI-PPI: An End-to-End Sampling-Enhanced Human-Influenza Protein-Protein Interaction Prediction Framework with Double-View Learning",
+  "doi": "10.1101/2025.03.07.642105",
+  "abstract": "Influenza continues to pose significant global health threats, hijacking host cellular machinery through protein-protein interactions (PPIs), which are fundamental to viral entry, replication, immune evasion, and transmission. Yet, our understanding of these host-virus PPIs remains incomplete due to the vast diversity of viral proteins, their rapid mutation rates, and the limited availability of experimentally validated interaction data. Additionally, existing computational methods often struggle due to the limited availability of high-quality samples and their inability to effectively model the complex nature of host-virus interactions. To address these challenges, we present SEHI-PPI, an end-to-end framework for human-influenza PPI prediction. SEHI-PPI integrates a double-view deep learning architecture that captures both global and local sequence features, coupled with a novel adaptive negative sampling strategy to generate reliable and high-quality negative samples. Our method outperforms multiple benchmarks, including state-of-the-art large language models, achieving a superior performance in sensitivity (0.986) and AUROC (0.987). Notably, in a stringent test involving entirely unseen human and influenza protein families, SEHI-PPI maintains strong performance with an AUROC of 0.837. The model also demonstrates high generalizability across other human-virus PPI datasets, with an average sensitivity of 0.929 and AUROC of 0.928. Furthermore, AlphaFold3-guided case studies reveal that viral proteins predicted to target the same human protein cluster together structurally and functionally, underscoring the biological relevance of our predictions. These discoveries demonstrate the reliability of our SEHI-PPI framework in uncovering biologically meaningful host-virus interactions and potential therapeutic targets.",
+  "authors": [
+    "Qiang Yang",
+    "Xiao Fan",
+    "Haiqing Zhao",
+    "Zhe Ma",
+    "Megan Stanifer",
+    "Jiang Bian",
+    "Marco Salemi",
+    "Rui Yin"
+  ],
+  "published_date": "2025-03-12",
+  "updated_date": "2025-03-13T12:55:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642105",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642105.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T09:46:45Z",
+        "timestamp": 1775987205889,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 72,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T00:00:00Z",
+            "timestamp": 1741737600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Influenza continues to pose significant global health threats, hijacking host cellular machinery through protein-protein interactions (PPIs), which are fundamental to viral entry, replication, immune evasion, and transmission. Yet, our understanding of these host-virus PPIs remains incomplete due to the vast diversity of viral proteins, their rapid mutation rates, and the limited availability of experimentally validated interaction data. Additionally, existing computational methods often struggle due to the limited availability of high-quality samples and their inability to effectively model the complex nature of host-virus interactions. To address these challenges, we present SEHI-PPI, an end-to-end framework for human-influenza PPI prediction. SEHI-PPI integrates a double-view deep learning architecture that captures both global and local sequence features, coupled with a novel adaptive negative sampling strategy to generate reliable and high-quality negative samples. Our method outperforms multiple benchmarks, including state-of-the-art large language models, achieving a superior performance in sensitivity (0.986) and AUROC (0.987). Notably, in a stringent test involving entirely unseen human and influenza protein families, SEHI-PPI maintains strong performance with an AUROC of 0.837. The model also demonstrates high generalizability across other human-virus PPI datasets, with an average sensitivity of 0.929 and AUROC of 0.928. Furthermore, AlphaFold3-guided case studies reveal that viral proteins predicted to target the same human protein cluster together structurally and functionally, underscoring the biological relevance of our predictions. These discoveries demonstrate the reliability of our SEHI-PPI framework in uncovering biologically meaningful host-virus interactions and potential therapeutic targets.</jats:p>",
+      "DOI": "10.1101/2025.03.07.642105",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            13
+          ]
+        ],
+        "date-time": "2025-03-13T12:55:10Z",
+        "timestamp": 1741870510000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SEHI-PPI: An End-to-End Sampling-Enhanced Human-Influenza Protein-Protein Interaction Prediction Framework with Double-View Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Qiang",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Health Outcomes & Biomedical Informatics, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiao",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Engineering, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haiqing",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry & Molecular Biology, University of Texas Medical Branch, Galveston, TX, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhe",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Genetics and Microbiology, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Megan",
+          "family": "Stanifer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Genetics and Microbiology, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2238-5429",
+          "authenticated-orcid": false,
+          "given": "Jiang",
+          "family": "Bian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Medicine, Indiana University, Indianapolis, IN, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marco",
+          "family": "Salemi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Immunology and Laboratory Medicine, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Health Outcomes & Biomedical Informatics, University of Florida, Gainesville, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/21505594.2023.2223057"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.2",
+          "unstructured": "CDC. About estimated. Flu Burden https://www.cdc.gov/flu-burden/php/about/index.html (2024)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08054-z"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v14102141"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coviro.2021.03.001"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4614-7651-1_4"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/vir.0.2008/004606-0"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms18122649"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2019.00039"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx390"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08166-6"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.12",
+          "unstructured": "Department for Environment & Affairs, R. Influenza of avian origin confirmed in a sheep in Yorkshire. Gov.uk https://www.gov.uk/government/news/influenza-of-avian-origin-confirmed-in-a-sheep-in-yorkshire (2025)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2286-9"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/415180a"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.11.028"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-3445-5_18"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/meth.2001.1183"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.02.16.431420"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12033-007-0069-2"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu, L. , Wang, X. , Huang, Y.-A. , Hu, P. & You, Z.-H. A survey on computational models for predicting protein-protein interactions. Brief. Bioinform. 22, (2021).",
+          "DOI": "10.1093/bib/bbab036"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2020.103899"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-022-04910-9"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Réau, M. , Renaud, N. , Xue, L. C. & Bonvin, A. M. J. J. DeepRank-GNN: a graph neural network framework to learn patterns in protein-protein interfaces. Bioinformatics 39, (2023).",
+          "DOI": "10.1093/bioinformatics/btac759"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab737"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04111-w"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04369-0"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2020.3003941"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.28",
+          "first-page": "55",
+          "article-title": "SENSDeep: An ensemble deep learning method for protein-protein interaction sites prediction",
+          "volume": "15",
+          "year": "2023",
+          "journal-title": "Interdiscip. Sci"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa750"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2022.106471"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2023.01.028"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2022.0132"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, X. et al. Multi-modal features-based human-herpesvirus protein-protein interaction prediction by using LightGBM. Brief. Bioinform. 25, (2024).",
+          "DOI": "10.1093/bib/bbae005"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab643"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab147"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.36",
+          "unstructured": "Bahdanau, D. , Cho, K. & Bengio, Y. Neural machine translation by jointly learning to align and translate. arXiv [cs.CL] (2014)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.37",
+          "unstructured": "Hamilton, W. L. , Ying, R. & Leskovec, J. Inductive representation learning on large graphs. arXiv [cs.SI] (2017)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.38",
+          "unstructured": "Kipf, T. N. & Welling, M. Semi-supervised classification with graph convolutional networks. arXiv [cs.LG] (2016)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.39",
+          "unstructured": "Veličković, P. et al. Graph Attention Networks. arXiv [stat.ML] (2017)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.40",
+          "unstructured": "Corso, G. , Cavalleri, L. , Beaini, D. , Liò, P. & Veličković, P. Principal Neighbourhood Aggregation for graph nets. arXiv [cs.LG] (2020)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pasa, L. , Navarin, N. , Erb, W. & Sperduti, A. Simple Graph Convolutional Networks. arXiv [cs.LG] (2021).",
+          "DOI": "10.14428/esann/2021.ES2021-143"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21203/rs.3.rs-506156/v1"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules27186135"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2024.108669"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36736-1"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.46",
+          "unstructured": "Brown, T. B. et al. Language Models are Few-Shot Learners. arXiv [cs.CL] (2020)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.47",
+          "unstructured": "OpenAI et al. GPT-4 Technical Report. arXiv [cs.CL] (2023)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.48",
+          "first-page": "Open foundation and fine",
+          "article-title": "Llama",
+          "volume": "2",
+          "year": "2023",
+          "journal-title": "arXiv [cs.CL]"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.49",
+          "unstructured": "Dubey, A. et al. The Llama 3 herd of models. arXiv [cs.AI] (2024)."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. et al. ProtTrans: Towards cracking the language of life’s code through self-supervised deep learning and high performance computing. arXiv [cs.LG] (2020).",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Perozzi, B. , Al-Rfou, R. & Skiena, S. DeepWalk: Online learning of social representations. arXiv [cs.SI] (2014).",
+          "DOI": "10.1145/2623330.2623732"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmi.2016.07.007"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00705-018-04139-z"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07745"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08699"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.56",
+          "unstructured": "EMBL-EBI. QuickGO. https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q67020."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2022.827742"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3978"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.59",
+          "unstructured": "PSICQUIC. PSICQUIC view. http://www.ebi.ac.uk/Tools/webservices/psicquic/view/home.xhtml."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.meegid.2011.09.001"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-S6-S16"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbaa425"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.63",
+          "unstructured": "The MIntAct Project: IntAct as a Common Curation Platform for 11 Molecular Interaction Databases."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn739"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt137"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v10100519"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1121"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.68",
+          "unstructured": "virus mentha: viral interactomes browser. https://virusmentha.uniroma2.it/."
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0112034"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsukiyama, S. , Hasan, M. M. , Fujii, S. & Kurata, H. LSTM-PHV: prediction of human-virus protein-protein interactions by LSTM with word2vec. Brief. Bioinform. 22, (2021).",
+          "DOI": "10.1093/bib/bbab228"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2014.0160"
+        },
+        {
+          "key": "2026041202264054000_2025.03.07.642105v2.72",
+          "unstructured": "Xu, K. , Hu, W. , Leskovec, J. & Jegelka, S. How Powerful are Graph Neural Networks? arXiv [cs.LG] (2018)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.07.642105",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T09:26:52Z",
+        "timestamp": 1775986012000
+      },
+      "score": 55.717457,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.07.642105"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 72,
+      "URL": "https://doi.org/10.1101/2025.03.07.642105",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.04.425297",
+  "title": "SARS-CoV-2 Fusion Peptide has a Greater Membrane Perturbating Effect than SARS-CoV with Highly Specific Dependence on Ca 2+",
+  "authors": "Lai AL; Freed JH",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-04",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究SARS-CoV-2融合肽对膜扰动的钙离子依赖性，对象为病毒融合肽而非无序蛋白/IDR，且无PPI或AI/物理模拟方法，仅实验表征，与本课题关联微弱。",
+  "abstract": "Coronaviruses are a major infectious disease threat, and include the zoonotic-origin human pathogens SARS-CoV-2, SARS-CoV, and MERS-CoV (SARS-2, SARS-1, and MERS). Entry of coronaviruses into host cells is mediated by the spike (S) protein. In our previous ESR studies, the local membrane ordering effect of the fusion peptide (FP) of various viral glycoproteins including the S of SARS-1 and MERS has been consistently observed. We previously determined that the sequence immediately downstream from the S2’ cleavage site is the bona fide SARS-1 FP. In this study, we used sequence alignment to identify the SARS-2 FP, and studied its membrane ordering effect. Although there are only three residue difference, SARS-2 FP induces even greater membrane ordering than SARS-1 FP, possibly due to its greater hydrophobicity. This may be a reason that SARS-2 is better able to infect host cells. In addition, the membrane binding enthalpy for SARS-2 is greater. Both the membrane ordering of SARS-2 and SARS-1 FPs are dependent on Ca 2+ , but that of SARS-2 shows a greater response to the presence of Ca 2+ . Both FPs bind two Ca 2+ ions as does SARS-1 FP, but the two Ca 2+ binding sites of SARS-2 exhibit greater cooperativity. This Ca 2+ dependence by the SARS-2 FP is very ion-specific. These results show that Ca 2+ is an important regulator that interacts with the SARS-2 FP and thus plays a significant role in SARS-2 viral entry. This could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca 2+ channel.",
+  "abstract_zh": "冠状病毒是主要的传染病威胁，包括人畜共患病源的人类病原体SARS-CoV-2、SARS-CoV和MERS-CoV（SARS-2、SARS-1和MERS）。冠状病毒进入宿主细胞由刺突（S）蛋白介导。在我们之前的ESR研究中，一致观察到包括SARS-1和MERS的S蛋白在内的多种病毒糖蛋白的融合肽（FP）的局部膜有序化效应。我们先前确定，S2'切割位点下游的序列是真正的SARS-1 FP。在本研究中，我们使用序列比对来识别SARS-2 FP，并研究其膜有序化效应。尽管仅有三个残基差异，SARS-2 FP诱导的膜有序化程度甚至高于SARS-1 FP，这可能归因于其更高的疏水性。这可能是SARS-2更有效感染宿主细胞的一个原因。此外，SARS-2的膜结合焓更大。SARS-2和SARS-1 FP的膜有序化均依赖于Ca 2+ ，但SARS-2对Ca 2+ 存在的响应更大。两种FP均结合两个Ca 2+ 离子，与SARS-1 FP相同，但SARS-2的两个Ca 2+ 结合位点表现出更高的协同性。SARS-2 FP对Ca 2+ 的依赖性具有高度离子特异性。这些结果表明，Ca 2+ 是重要的调节因子，与SARS-2 FP相互作用，从而在SARS-2病毒进入中发挥重要作用。这可能为靶向FP-钙相互作用或阻断Ca 2+ 通道的治疗方案提供思路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.04.425297",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.04.425297",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.04.425297/index.html"
+}

@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "34883116",
+    "doi": "10.1016/j.jmb.2021.167387",
+    "title": "Phosphorylation tunes elongation propensity and cohesiveness of INCENP's intrinsically disordered region."
+  },
+  "content": {
+    "abstract": "The inner centromere protein, INCENP, is crucial for correct chromosome segregation during mitosis. It connects the kinase Aurora B to the inner centromere allowing this kinase to dynamically access its kinetochore targets. However, the function of its central, 440-residue long intrinsically disordered region (IDR) and its multiple phosphorylation sites is unclear. Here, we determined the conformational ensemble of INCENP's IDR, systematically varying the level of phosphorylation, using all-atom and coarse-grain molecular dynamics simulations. Our simulations show that phosphorylation expands INCENP's IDR, both locally and globally, mainly by increasing its overall net charge. The disordered region undergoes critical globule-to-coil conformational transitions and the transition temperature non-monotonically depends on the degree of phosphorylation, with a mildly phosphorylated case of neutral net charge featuring the highest collapse propensity. The IDR transitions from a multitude of globular states, accompanied by several specific internal contacts that reduce INCENP length by loop formation, to weakly interacting and highly extended coiled conformations. Phosphorylation critically shifts the population between these two regimes. It thereby influences cohesiveness and phase behavior of INCENP IDR assemblies, a feature presumably relevant for INCENP's function in the chromosomal passenger complex. Overall, we propose the disordered region of INCENP to act as a phosphorylation-regulated and length-variable component, within the previously defined \"dog-leash\" model, that thereby regulates how Aurora B reaches its targets for proper chromosome segregation.",
+    "keywords": [
+      "aurora B",
+      "chromosome segregation",
+      "inner centromere protein",
+      "molecular dynamics",
+      "multi-site phosphorylation"
+    ],
+    "mesh_terms": [
+      "Aurora Kinase B/metabolism",
+      "Chromosomal Proteins, Non-Histone/*chemistry/*metabolism",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Phase Transition",
+      "Phosphorylation",
+      "Protein Conformation, alpha-Helical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martin, Isabel M",
+        "Aponte-Santamaria, Camilo",
+        "Schmidt, Lisa",
+        "Hedtfeld, Marius",
+        "Iusupov, Adel",
+        "Musacchio, Andrea",
+        "Grater, Frauke"
+      ],
+      "short_names": [
+        "Martin IM",
+        "Aponte-Santamaria C",
+        "Schmidt L",
+        "Hedtfeld M",
+        "Iusupov A",
+        "Musacchio A",
+        "Grater F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany. Electronic address: https://twitter.com/@IsabelMMartin.",
+        "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany; Max Planck Tandem Group in Computational Biophysics, University of Los Andes, Cra. 1 #18a-12, 111711 Bogota, Colombia. Electronic address: https://twitter.com/@camiloapontelab.",
+        "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Strasse 11, 44227 Dortmund, Germany; International Max Planck Research School for Living Matter, Otto-Hahn-Strasse 11, 44227 Dortmund, Germany; Centre for Medical Biotechnology, Faculty of Biology, University Duisburg-Essen, Essen, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Strasse 11, 44227 Dortmund, Germany; University of Gottingen, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany; Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Strasse 11, 44227 Dortmund, Germany; Centre for Medical Biotechnology, Faculty of Biology, University Duisburg-Essen, Essen, Germany. Electronic address: https://twitter.com/@AndreaMusacchi1.",
+        "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany; Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, INF 205, 69120 Heidelberg, Germany. Electronic address: frauke.graeter@h-its.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martin, Isabel M",
+        "short_name": "Martin IM",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany. Electronic address: https://twitter.com/@IsabelMMartin."
+        ]
+      },
+      {
+        "full_name": "Aponte-Santamaría, Camilo",
+        "short_name": "Aponte-Santamaría C",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany; Max Planck Tandem Group in Computational Biophysics, University of Los Andes, Cra. 1 #18a-12, 111711 Bogotá, Colombia. Electronic address: https://twitter.com/@camiloapontelab."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Lisa",
+        "short_name": "Schmidt L",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hedtfeld, Marius",
+        "short_name": "Hedtfeld M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany; International Max Planck Research School for Living Matter, Otto-Hahn-Straße 11, 44227 Dortmund, Germany; Centre for Medical Biotechnology, Faculty of Biology, University Duisburg-Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Iusupov, Adel",
+        "short_name": "Iusupov A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany; University of Göttingen, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany; Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Musacchio, Andrea",
+        "short_name": "Musacchio A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany; Centre for Medical Biotechnology, Faculty of Biology, University Duisburg-Essen, Essen, Germany. Electronic address: https://twitter.com/@AndreaMusacchi1."
+        ]
+      },
+      {
+        "full_name": "Gräter, Frauke",
+        "short_name": "Gräter F",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany; Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, INF 205, 69120 Heidelberg, Germany. Electronic address: frauke.graeter@h-its.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Jan 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/10 06:00",
+    "fetched_at": "2026-09-20 06:57:16"
+  },
+  "links": {
+    "cites": [
+      "42546066",
+      "42325196",
+      "40791366",
+      "39523439",
+      "39462994",
+      "38815979",
+      "38481812",
+      "37957331",
+      "36350035"
+    ],
+    "refs": [],
+    "similar": [
+      "34883116",
+      "26175154",
+      "26166576",
+      "31306061",
+      "28314740",
+      "27332895",
+      "14610074",
+      "29187526",
+      "12048181",
+      "15316025",
+      "12584241",
+      "12925766",
+      "30523151",
+      "12221116",
+      "11942622",
+      "31122175",
+      "31724233",
+      "32001712",
+      "26223676",
+      "32028528",
+      "34681718",
+      "20372054",
+      "38781028",
+      "34571015",
+      "11756469",
+      "10996078",
+      "31868888",
+      "23848594",
+      "21727193",
+      "29414700",
+      "29550429",
+      "33945530",
+      "23604256",
+      "11050385",
+      "31527147",
+      "31320618",
+      "32027339",
+      "25081981",
+      "15916946",
+      "23636741",
+      "11516652",
+      "27697923",
+      "18767990",
+      "29180432",
+      "31819079",
+      "11166196",
+      "27807972",
+      "19951914",
+      "21633108",
+      "21148584",
+      "16239925",
+      "14667408",
+      "16378098",
+      "29309620",
+      "34576338",
+      "35914331",
+      "24750444",
+      "22024163",
+      "33030249",
+      "18239465",
+      "21844210",
+      "30823702",
+      "23637466",
+      "24917673",
+      "16824953",
+      "15866179",
+      "15817153",
+      "30498087",
+      "26954544",
+      "24603334",
+      "19150808",
+      "15917996",
+      "11734997",
+      "20929775",
+      "28950102",
+      "14972678",
+      "32973131",
+      "14605209",
+      "32561718",
+      "31527146",
+      "34243065",
+      "11453556",
+      "21684862",
+      "21493633",
+      "19357306",
+      "18752348",
+      "16571674",
+      "26735936",
+      "27155569",
+      "18640974",
+      "28355271",
+      "37269287",
+      "35658951",
+      "37905972",
+      "37227118",
+      "33909430",
+      "38915510",
+      "38230670",
+      "38943706",
+      "39384813",
+      "24769851",
+      "37155239",
+      "38048321",
+      "37125110",
+      "36232586",
+      "35167072",
+      "32619404",
+      "35575372",
+      "33976270",
+      "37998041",
+      "36711874",
+      "39089255"
+    ],
+    "review": [
+      "34883116",
+      "11942622",
+      "11166196",
+      "21684862",
+      "38943706"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00624-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

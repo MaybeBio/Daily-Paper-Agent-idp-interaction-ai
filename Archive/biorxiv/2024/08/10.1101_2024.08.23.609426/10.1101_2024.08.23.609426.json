@@ -1,0 +1,144 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.23.609426",
+  "title": "Identification of an intrinsically disordered region (IDR) in arginyltransferase 1 (ATE1)",
+  "doi": "10.1101/2024.08.23.609426",
+  "abstract": "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important post-translational modification (PTM) in eukaryotes that plays a critical role in cellular homeostasis. The disruption of ATE1 function is implicated in mammalian neurodegenerative disorders and cardiovascular maldevelopment, while post-translational arginylation has also been linked to the activities of several important human viruses such as SARS-CoV-2 and HIV. Despite the known significance of ATE1 in mammalian cellular function, past biophysical studies of this enzyme have mainly focused on yeast ATE1, leaving the mechanism of arginylation in mammalian cells unclear. In this study, we sought to structurally and biophysically characterize mouse ( Mus musculus ) ATE1. Using size-exclusion chromatography (SEC), small angle X-ray scattering (SAXS), and hydrogen deuterium exchange mass spectrometry (HDX-MS), assisted by AlphaFold modeling, we found that mouse ATE1 is structurally more complex than yeast ATE1. Importantly, our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants. However, comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses. Furthermore, bioinformatics approaches reveal that mammalian ATE1 sequences, as well as in a large majority of other eukaryotes, contain an IDR-like sequence positioned in proximity to the ATE1 GNAT active-site fold. Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNA Arg , adding a new complexity to ATE1 structure and providing new insights for future studies of ATE1 functions. <h4>For Table of Contents Use Only</h4>",
+  "authors": [
+    "Cartwright M",
+    "Parakra R",
+    "Oduwole A",
+    "Zhang F",
+    "Deredge DJ",
+    "Smith AT"
+  ],
+  "published_date": "2024-08-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.23.609426",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.23.609426.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR900184",
+    "raw_record": {
+      "id": "PPR900184",
+      "source": "PPR",
+      "doi": "10.1101/2024.08.23.609426",
+      "title": "Identification of an intrinsically disordered region (IDR) in arginyltransferase 1 (ATE1)",
+      "authorString": "Cartwright M, Parakra R, Oduwole A, Zhang F, Deredge DJ, Smith AT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cartwright M",
+            "lastName": "Cartwright",
+            "firstName": "Misti",
+            "initials": "M"
+          },
+          {
+            "fullName": "Parakra R",
+            "lastName": "Parakra",
+            "firstName": "Rinky",
+            "initials": "R"
+          },
+          {
+            "fullName": "Oduwole A",
+            "lastName": "Oduwole",
+            "firstName": "Ayomide",
+            "initials": "A"
+          },
+          {
+            "fullName": "Zhang F",
+            "lastName": "Zhang",
+            "firstName": "Fangliang",
+            "initials": "F"
+          },
+          {
+            "fullName": "Deredge DJ",
+            "lastName": "Deredge",
+            "firstName": "Daniel",
+            "initials": "DJ"
+          },
+          {
+            "fullName": "Smith AT",
+            "lastName": "Smith",
+            "firstName": "Aaron",
+            "initials": "AT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9332-8683"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9332-8683"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important post-translational modification (PTM) in eukaryotes that plays a critical role in cellular homeostasis. The disruption of ATE1 function is implicated in mammalian neurodegenerative disorders and cardiovascular maldevelopment, while post-translational arginylation has also been linked to the activities of several important human viruses such as SARS-CoV-2 and HIV. Despite the known significance of ATE1 in mammalian cellular function, past biophysical studies of this enzyme have mainly focused on yeast ATE1, leaving the mechanism of arginylation in mammalian cells unclear. In this study, we sought to structurally and biophysically characterize mouse (  Mus musculus ) ATE1. Using size-exclusion chromatography (SEC), small angle X-ray scattering (SAXS), and hydrogen deuterium exchange mass spectrometry (HDX-MS), assisted by AlphaFold modeling, we found that mouse ATE1 is structurally more complex than yeast ATE1. Importantly, our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants. However, comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses. Furthermore, bioinformatics approaches reveal that mammalian ATE1 sequences, as well as in a large majority of other eukaryotes, contain an IDR-like sequence positioned in proximity to the ATE1 GNAT active-site fold. Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNA  Arg , adding a new complexity to ATE1 structure and providing new insights for future studies of ATE1 functions.  <h4>For Table of Contents Use Only</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.23.609426"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39642180",
+            "reference": "Biochemistry. 2024 Dec;63(24):3236-3249",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-08-26",
+      "firstPublicationDate": "2024-08-24",
+      "firstIndexDate": "2024-08-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

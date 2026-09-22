@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40068541",
+  "title": "Atomistic molecular dynamics simulations of intrinsically disordered proteins.",
+  "authors": "Muhammedkutty, Fidha Nazreen Kunnath; MacAinsh, Matthew; Zhou, Huan-Xiang",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-03-12",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统阐述原子级MD模拟在无序蛋白研究中的进展，涵盖其与蛋白结合机制及相分离表征，并提及AI/ML扩展模拟能力，与本课题在对象、互作机制和方法上高度契合。",
+  "abstract": "Recent years have seen remarkable gains in the accuracy of atomistic molecular dynamics (MD) simulations of intrinsically disordered proteins (IDPs) and expansion in the types of calculated properties that can be directly compared with experimental measurements. These advances occurred due to the use of IDP-tested force fields and the porting of MD simulations to GPUs and other computational technologies. All-atom MD simulations are now explaining the sequence-dependent dynamics of IDPs; elucidating the mechanisms of their binding to other proteins, nucleic acids, and membranes; revealing the modes of drug action on them; and characterizing their phase separation. Artificial intelligence (AI) and machine learning (ML) are further expanding the reach of atomistic MD simulations.",
+  "abstract_zh": "近年来，原子级分子动力学（molecular dynamics, MD）模拟在 intrinsically disordered proteins (IDPs) 准确性方面取得了显著进展，并且可直接与实验测量比较的计算属性类型也在扩大。这些进展得益于使用经IDP测试的力场以及将MD模拟移植到GPU和其他计算技术。全原子MD模拟现在正解释IDPs的序列依赖性动力学；阐明它们与其他蛋白质、核酸和膜结合的机制；揭示药物对其作用的方式；并表征其相分离 (phase separation)。人工智能（AI）和机器学习（ML）正进一步扩展原子级MD模拟的应用范围。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40068541/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40068541/",
+  "paper_page_path": "papers/pubmed/40068541/index.html"
+}

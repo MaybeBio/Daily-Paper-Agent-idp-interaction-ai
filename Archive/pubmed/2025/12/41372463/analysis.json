@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41372463",
+  "title": "Insights into de-mixing and morphology modulation in coacervate-membrane interactions from integrating experiments and simulations.",
+  "authors": "Mondal, Sayantan; Mangiarotti, Agustin; Dimova, Rumiana; Cui, Qiang",
+  "journal": "Communications chemistry",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合实验与粗粒化模拟，研究IDP凝聚体（K10/D10共acervate）与膜界面的去混合及形态调控机制，聚焦无序蛋白凝聚体介导的界面互作机制建模，与本课题高度相关。",
+  "abstract": "Intrinsically disordered proteins can undergo liquid-liquid phase separation to form condensates or coacervates, which play numerous regulatory roles in the cell. Recently, it was recognized that membrane-adsorbed condensates are crucial for biomolecular localization, and in some cases, induce significant changes in membrane morphology. A detailed understanding of the underlying mechanisms remains incomplete. Here, we combine experiments and simulations to unravel structural and dynamic features of the coacervate/membrane interface across scales. We study poly-Lysine/poly-Aspartate (K(10)/D(10)) coacervates with different unilamellar liposomes. By combining confocal microscopy, hyperspectral imaging, fluorescence recovery after photobleaching, and two complementary coarse-grained approaches, we show that the membrane affinity of the K(10)/D(10) coacervate can be tuned by the anionic lipid content and quantified through the intrinsic contact angle, both in vitro and in silico. We find that the membrane in contact with the condensate displays a nearly two-fold reduced fluidity compared to the bare membrane. This is attributed to the crowding of lipids at the contact region, resulting in decreased area per lipid. Moreover, we observed local lipid de-mixing upon coacervate adsorption. This study provides an effective framework for integrating experiment and computation to characterize the properties of coacervate-membrane interfaces that are critical to the functional impacts of these interactions.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白）可经历液-液相分离形成凝聚体或共acervates（凝聚物），这些结构在细胞中发挥众多调控作用。近期研究发现，膜吸附的凝聚体对生物分子定位至关重要，并在某些情况下诱导膜形态发生显著变化。然而，对其潜在机制的详细理解仍不完整。本研究结合实验与模拟，跨尺度揭示共acervate/膜界面的结构与动态特征。我们研究了不同单层脂质体上的poly-Lysine/poly-Aspartate（K(10)/D(10)）共acervates。通过结合共聚焦显微镜、高光谱成像、荧光恢复后光漂白技术以及两种互补的粗粒化方法，我们证明K(10)/D(10)共acervate的膜亲和力可通过阴离子脂质含量进行调节，并在体外和计算机模拟中通过固有接触角进行量化。我们发现，与裸膜相比，与凝聚体接触的膜流动性几乎降低了两倍。这归因于接触区域脂质的拥挤，导致每个脂质的面积减少。此外，我们观察到共acervate吸附后局部脂质去混合现象。本研究提供了一个有效的框架，将实验与计算相结合，以表征对共acervate-膜界面功能影响至关重要的特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41372463/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41372463/",
+  "paper_page_path": "papers/pubmed/41372463/index.html"
+}

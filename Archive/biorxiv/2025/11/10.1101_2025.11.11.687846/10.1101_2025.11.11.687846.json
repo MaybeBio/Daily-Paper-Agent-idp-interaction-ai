@@ -1,0 +1,530 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.11.687846",
+  "title": "Harnessing protein-folding algorithms to drug intrinsically disordered epitopes",
+  "doi": "10.1101/2025.11.11.687846",
+  "abstract": "Due to their lack of a specific structure and dynamical nature, targeting of epitopes that are part of an intrinsically disordered region of a protein is a notoriously difficult task. Here, we describe a computational approach to overcome this problem, based on the use of a protein-folding algorithm and its confidence metrics within a Monte Carlo optimization pipeline to generate peptide-based binders. For different protein targets, we show by accurate free energy calculations that our approach is able to design peptides with binding free energies on the order of tens of k B T , i.e., with strengths comparable to covalent interactions. Direct observation of the bound complex through molecular simulations shows that the targeted epitope folds into structured domains with lowered thermal fluctuations upon binding, while remaining unstructured and dynamic in the unbound state, suggesting that the protein-folding algorithm must have learned the principles of induced (co-)folding. Given the ubiquitous presence of unstructured regions in proteins, our results suggest a potential pathway to design drugs targeting a large variety of previously untargetable epitopes, and open new possibilities for therapeutic intervention in diseases where disordered proteins play a key role. I SIGNIFICANCE Small-molecule drugs that bind to a protein via a lock-and-key mechanism require the targeted epitope to form a well-structured, stable binding pocket, thereby preventing binding to unstructured regions. To overcome this limit, we present a general approach, based on a protein-folding algorithm, to find peptide sequences that induce the formation of such a binding interface when no pocket is normally present. In other words, we show how a protein-folding algorithm can be used to program epitope recognition by induced folding instead of rigid lock-and-key matching. In this way, we show that we can extend druggable epitopes to intrinsically disordered, dynamical regions of proteins.",
+  "authors": [
+    "Jakub Lála",
+    "Stefano Angioletti-Uberti"
+  ],
+  "published_date": "2025-11-13",
+  "updated_date": "2025-11-13T17:35:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687846",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687846.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:23:03Z",
+        "timestamp": 1785435783900,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                13
+              ]
+            ],
+            "date-time": "2025-11-13T00:00:00Z",
+            "timestamp": 1762992000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "President’s PhD Scholarship"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "President’s PhD Scholarship"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/041kmwe10",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "EPSRC",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EP/T022213/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/T022213/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "EPSRC",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EP/W032260/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/W032260/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "EPSRC",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EP/P020194/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/P020194/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100007065",
+          "name": "NVIDIA",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "Academic Grant for Simulation and Modeling"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Academic Grant for Simulation and Modeling"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100007065",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  Due to their lack of a specific structure and dynamical nature, targeting of epitopes that are part of an intrinsically disordered region of a protein is a notoriously difficult task. Here, we describe a computational approach to overcome this problem, based on the use of a protein-folding algorithm and its confidence metrics within a Monte Carlo optimization pipeline to generate peptide-based binders. For different protein targets, we show by accurate free energy calculations that our approach is able to design peptides with binding free energies on the order of tens of\n                  <jats:italic>k</jats:italic>\n                  <jats:sub>\n                    <jats:italic>B</jats:italic>\n                  </jats:sub>\n                  <jats:italic>T</jats:italic>\n                  , i.e., with strengths comparable to covalent interactions. Direct observation of the bound complex through molecular simulations shows that the targeted epitope folds into structured domains with lowered thermal fluctuations upon binding, while remaining unstructured and dynamic in the unbound state, suggesting that the protein-folding algorithm must have learned the principles of induced (co-)folding. Given the ubiquitous presence of unstructured regions in proteins, our results suggest a potential pathway to design drugs targeting a large variety of previously untargetable epitopes, and open new possibilities for therapeutic intervention in diseases where disordered proteins play a key role.\n                </jats:p>\n                <jats:sec>\n                  <jats:label>I</jats:label>\n                  <jats:title>SIGNIFICANCE</jats:title>\n                  <jats:p>\n                    Small-molecule drugs that bind to a protein via a lock-and-key mechanism require the targeted epitope to form a well-structured, stable binding pocket, thereby preventing binding to unstructured regions. To overcome this limit, we present a general approach, based on a protein-folding algorithm, to find peptide sequences that induce the formation of such a binding interface when no pocket is normally present. In other words, we show how a protein-folding algorithm can be used to program epitope recognition by\n                    <jats:italic>induced folding</jats:italic>\n                    instead of rigid lock-and-key matching. In this way, we show that we can extend druggable epitopes to intrinsically disordered, dynamical regions of proteins.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.11.11.687846",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ],
+        "date-time": "2025-11-13T17:35:21Z",
+        "timestamp": 1763055321000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Harnessing protein-folding algorithms to drug intrinsically disordered epitopes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5424-5260",
+          "authenticated-orcid": false,
+          "given": "Jakub",
+          "family": "Lála",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2917-2415",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Angioletti-Uberti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.03.011"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00673-0"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2016.05.004"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1504822112"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-030222-120000"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12915-025-02214-x"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.12.009"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/bph.17308"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.274.5289.948"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.273.16.9443"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-14382-9"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms23094591"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33252-6"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1389450120666191114102830"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-023-00658-3"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers13174402"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.8b00092"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20264"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom10030428"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21989"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adr8063"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.07.05.663138"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1209/0295-5075/19/6/002"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1143/Jpsj.65.1604"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00255"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct3010485"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005659"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2013.09.018"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90121-8"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4748100"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.540130812"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.596622"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.15808839"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-023-05345-6"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1266577"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25080/majora-629e541a-00e"
+        },
+        {
+          "key": "2025111504550688000_2025.11.11.687846v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/physrevlett.100.020603"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.11.687846",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:01:05Z",
+        "timestamp": 1768471265000
+      },
+      "score": 108.30201,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.11.687846"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2025.11.11.687846",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors present a computational model of liquid-liquid phase separation (LLPS) involving CaMKII and its interacting partners, and claim that the model reproduces multiphasic condensate architectures including phase-in-phase (PIP) organization. They further claim that PIP formation requires competitive binding, high CaMKII valency, and short linker length, and that these features confer low surface tension, modular structure, and slow diffusion, enabling prolonged residence in small biochemical domains relevant to synaptic plasticity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, model equations and parameters, simulation details, experimental validation (if any), and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant computational study linking molecular features of CaMKII to multiphasic LLPS architecture and synaptic function. However, the evidence base is limited to the abstract, and the core claims regarding mechanistic determinants of PIP formation and the functional implications for synaptic plasticity cannot be evaluated without access to the model details, simulation results, and any experimental corroboration. The conceptual framework is appealing and the topic is timely, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation and membraneless organelles, computational biophysics, synaptic biology, and molecular neuroscience would be interested. The study addresses a fundamental question about the determinants of multiphasic LLPS topology and connects molecular-level features to cellular function, which is of broad relevance to those studying biological condensates and synaptic plasticity mechanisms.
+- **Major strengths** The study addresses an important and under-explored question regarding the determinants of multiphasic LLPS topology. The focus on CaMKII, a protein with well-established roles in synaptic plasticity, provides a biologically meaningful context. The proposed link between molecular features (valency, linker length) and emergent condensate properties (surface tension, diffusion) is conceptually compelling and potentially generative for future experimental work.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the computational model reproduces forms of LLPS including phase-in-phase (PIP) organization  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the model reproduces PIP organization, but no details are provided regarding the model framework, simulation methodology, parameter ranges, or quantitative comparison with experimental observations. Without this information, it is impossible to assess whether the claimed reproduction is robust or an artifact of specific model choices.  
+  - **Why it matters** The central contribution of the study is the claim that the model captures multiphasic condensate architecture. If this claim is not supported by rigorous evidence, the entire premise of the study is undermined.  
+  - **Resolution test** Provide full model description, simulation protocols, and quantitative metrics demonstrating that PIP organization emerges reproducibly across parameter space and is not a singular or fragile outcome. If experimental data exist, show direct comparison between model predictions and observations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic inference  
+  - **Claim pointer** The claim that PIP formation requires competitive binding between the proteins and occurs only when CaMKII has high valency and a short linker length  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts specific mechanistic requirements for PIP formation, but no evidence is presented to support these assertions. It is unclear whether these conclusions derive from systematic parameter sweeps, perturbation analyses, or theoretical arguments. The absence of any supporting data makes these claims unverifiable.  
+  - **Why it matters** These mechanistic claims are the core scientific contribution of the study. If they are not backed by rigorous analysis, the study does not advance understanding of multiphasic LLPS determinants.  
+  - **Resolution test** Present systematic parameter sweeps showing that PIP formation is abolished when competitive binding is removed, when valency is reduced, or when linker length is increased. Provide statistical measures of robustness and, if applicable, analytical or theoretical justification.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional extrapolation  
+  - **Claim pointer** The claim that low surface tension, modular structure, and slow diffusion enable CaMKII to stay in small biochemical domains for a long time, which is necessary for synaptic plasticity  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract extrapolates from simulated condensate properties to a functional role in synaptic plasticity, but no evidence is presented linking the model predictions to synaptic physiology. The statement that these features are "necessary for synaptic plasticity" is a strong claim that requires experimental or at least quantitative physiological evidence.  
+  - **Why it matters** The functional significance of the findings is a major part of the study's appeal. If the link to synaptic plasticity is speculative, the broader impact of the work is substantially reduced.  
+  - **Resolution test** Provide evidence connecting model predictions to experimental measurements of CaMKII dynamics, condensate properties, or synaptic plasticity. If such data are not available, temper the claim to reflect a hypothesis rather than an established necessity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "phase-in-phase (PIP) organization" is introduced without definition or context. Readers unfamiliar with this specific terminology may struggle to understand the phenomenon being described.  
+  - **Required correction** Define PIP organization explicitly, ideally with a brief description of the architecture and how it differs from other multiphasic condensate forms.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Model scope  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "synaptic proteins consisting of Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) and its interacting partners" but does not specify which interacting partners are included in the model or how they are represented.  
+  - **Required correction** List the specific proteins included in the model and briefly describe how their interactions are represented (e.g., binding sites, affinities, stoichiometries).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Quantitative claims  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that CaMKII with high valency and short linker length "exhibits low surface tension, a modular structure, and slow diffusion" but provides no quantitative values or comparisons to alternative parameter regimes.  
+  - **Required correction** Provide quantitative measures (e.g., surface tension values, diffusion coefficients) and, where possible, comparisons across parameter regimes to substantiate these qualitative descriptions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking concerns. The absence of model details, supporting data, and functional evidence means that the core claims of the study cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study addresses a question that is timely and relatively underexplored, namely the determinants of multiphasic LLPS topology. The focus on CaMKII and the proposed link between molecular features and emergent condensate properties is a novel angle. However, the originality cannot be fully assessed without seeing how the work builds on and differentiates from existing computational and experimental studies of multiphasic condensates.  
+  - **Scientific importance** The topic is of high importance given the growing recognition of the role of phase separation in cellular organization and function. The potential connection to synaptic plasticity adds to the significance. However, the importance of the specific findings depends on the robustness of the evidence, which is currently unavailable.  
+  - **Interdisciplinary readership** The study has the potential to appeal to researchers in biophysics, computational biology, cell biology, and neuroscience. The abstract is written in a way that is accessible to a broad audience, though some terminology (e.g., PIP) would benefit from clarification.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of model details, simulation protocols, and validation data precludes any judgment on technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally readable, but the introduction of specialized terms without definition and the absence of context for the computational approach may limit accessibility for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses an interesting and potentially important question, and the conceptual framework is appealing. However, the abstract alone does not provide sufficient evidence to support the core claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved and whether the case can be established.
+
+## Risk / unsupported claims
+- The claim that the model reproduces PIP organization is unsupported without model details and simulation results.
+- The claim that PIP formation requires competitive binding, high valency, and short linker length is unsupported without systematic parameter analyses.
+- The claim that low surface tension, modular structure, and slow diffusion enable prolonged residence in small biochemical domains is unsupported without quantitative data.
+- The claim that these features are "necessary for synaptic plasticity" is unsupported and appears to be a speculative extrapolation from the computational model.
+- The generalizability of the findings to other multiphasic LLPS systems is not addressed and cannot be assessed from the abstract.

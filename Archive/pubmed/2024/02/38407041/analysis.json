@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38407041",
+  "title": "Sequence Sensitivity in Membrane Remodeling by Polyampholyte Condensates.",
+  "authors": "Mondal, Sayantan; Cui, Qiang",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-02-26",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究多性聚电解质凝聚体（无序肽LLPS产物）与阴离子膜的相互作用，揭示序列模式（blocky vs scrambled）对膜重塑和脂质去混合的机制差异，虽对象为膜而非PPI，但凝聚体-膜互作的序列敏感性机制建模对IDR介导互作与相分离研究有直接启发。",
+  "abstract": "Intrinsically disordered peptides (IDPs) have been found to undergo liquid-liquid phase separation (LLPS) and produce complex coacervates that play numerous regulatory roles in the cell. Recent experimental studies have discovered that LLPS at or near the membrane surface helps in the biomolecular organization during signaling events and can significantly alter the membrane morphology. However, the molecular mechanism and microscopic details of such processes still remain unclear. Here we study the effect of polyampholyte and polyelectrolyte condensation on two different anionic membranes, as they represent a majority of naturally occurring IDPs. The polyampholytes are fifty-residue polymers, made of glutamate(E) and lysine(K) with different charge patterns. The polyelectrolytes are separate chains of E(25) and K(25). We first calibrate the MARTINI v3.0 force field and then perform long-time-scale coarse-grained molecular dynamics simulations. We find that condensates formed by all the polyampholytes get adsorbed on the membrane. However, the strong polyampholytes (i.e., blocky sequences) can remodel the membranes more prominently than the weaker ones (i.e., scrambled sequences). Condensates formed by the blocky sequences induce a significant negative curvature ( approximately 0.1 nm(-1)) and local demixing of lipids, whereas those by the scrambled sequences tend to wet the membrane to a greater extent without generating significant curvature or demixing. We perform several microscopic analyses to characterize the nature of the interaction between membranes and these condensates. Our analyses of interaction energetics reveal that membrane remodeling and/or wetting are favored by enhanced interactions between polyampholytes with lipids and the counterions.",
+  "abstract_zh": "研究发现， intrinsically disordered peptides (IDPs) 能发生液-液相分离 (liquid-liquid phase separation, LLPS)，并产生在细胞中发挥多种调控作用的复杂凝聚体 (complex coacervates)。近期实验研究表明，膜表面或其附近的LLPS有助于信号事件中的生物分子组织，并能显著改变膜形态。然而，此类过程的分子机制和微观细节仍不清楚。在此，我们研究了多性聚电解质 (polyampholyte) 和聚电解质 (polyelectrolyte) 凝聚对两种不同阴离子膜的影响，因为它们代表了大多数天然存在的IDPs。多性聚电解质为五十残基聚合物，由谷氨酸 (E) 和赖氨酸 (K) 组成，具有不同电荷模式。聚电解质为E(25)和K(25)的独立链。我们首先校准MARTINI v3.0力场，然后进行长时间尺度的粗粒化分子动力学模拟。我们发现，所有多性聚电解质形成的凝聚体均吸附在膜上。然而，强多性聚电解质（即嵌段序列）能比弱多性聚电解质（即乱序序列）更显著地重塑膜。嵌段序列形成的凝聚体诱导显著的负曲率（约0.1 nm(-1)）和脂质局部去混合，而乱序序列形成的凝聚体则倾向于更大程度地润湿膜，而不产生显著曲率或去混合。我们进行了多种微观分析，以表征膜与这些凝聚体之间相互作用的性质。我们的相互作用能量学分析揭示，多性聚电解质与脂质及反离子之间增强的相互作用有利于膜重塑和/或润湿。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38407041/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38407041/",
+  "paper_page_path": "papers/pubmed/38407041/index.html"
+}

@@ -1,0 +1,555 @@
+{
+  "identity": {
+    "pmid": "37443299",
+    "doi": "10.1038/s41467-023-39808-4",
+    "title": "Crosstalk between regulatory elements in disordered TRPV4 N-terminus modulates lipid-dependent channel activity."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are essential for membrane receptor regulation but often remain unresolved in structural studies. TRPV4, a member of the TRP vanilloid channel family involved in thermo- and osmosensation, has a large N-terminal IDR of approximately 150 amino acids. With an integrated structural biology approach, we analyze the structural ensemble of the TRPV4 IDR and the network of antagonistic regulatory elements it encodes. These modulate channel activity in a hierarchical lipid-dependent manner through transient long-range interactions. A highly conserved autoinhibitory patch acts as a master regulator by competing with PIP(2) binding to attenuate channel activity. Molecular dynamics simulations show that loss of the interaction between the PIP(2)-binding site and the membrane reduces the force exerted by the IDR on the structured core of TRPV4. This work demonstrates that IDR structural dynamics are coupled to TRPV4 activity and highlights the importance of IDRs for TRP channel function and regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*TRPV Cation Channels/metabolism",
+      "Protein Domains",
+      "*Cell Physiological Phenomena",
+      "Regulatory Sequences, Nucleic Acid",
+      "Lipids"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goretzki, Benedikt",
+        "Wiedemann, Christoph",
+        "McCray, Brett A",
+        "Schafer, Stefan L",
+        "Jansen, Jasmin",
+        "Tebbe, Frederike",
+        "Mitrovic, Sarah-Ana",
+        "Noth, Julia",
+        "Cabezudo, Ainara Claveras",
+        "Donohue, Jack K",
+        "Jeffries, Cy M",
+        "Steinchen, Wieland",
+        "Stengel, Florian",
+        "Sumner, Charlotte J",
+        "Hummer, Gerhard",
+        "Hellmich, Ute A"
+      ],
+      "short_names": [
+        "Goretzki B",
+        "Wiedemann C",
+        "McCray BA",
+        "Schafer SL",
+        "Jansen J",
+        "Tebbe F",
+        "Mitrovic SA",
+        "Noth J",
+        "Cabezudo AC",
+        "Donohue JK",
+        "Jeffries CM",
+        "Steinchen W",
+        "Stengel F",
+        "Sumner CJ",
+        "Hummer G",
+        "Hellmich UA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4351-8857",
+        "ORCID: 0000-0001-6581-9728",
+        "ORCID: 0000-0001-7942-8701",
+        "ORCID: 0000-0003-1400-4929",
+        "ORCID: 0000-0002-8718-7343",
+        "ORCID: 0000-0003-1447-4509",
+        "ORCID: 0000-0001-5088-6012",
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0001-7162-285X"
+      ],
+      "affiliations": [
+        "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany.",
+        "Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe University, Frankfurt am Main, Germany.",
+        "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany.",
+        "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Department of Biology, University of Konstanz, Konstanz, Germany.",
+        "Konstanz Research School Chemical Biology, University of Konstanz, Konstanz, Germany.",
+        "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany.",
+        "Department of Chemistry, Section Biochemistry, Johannes Gutenberg-University Mainz, Mainz, Germany.",
+        "Department of Chemistry, Section Biochemistry, Johannes Gutenberg-University Mainz, Mainz, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "IMPRS on Cellular Biophysics, Frankfurt am Main, Germany.",
+        "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "European Molecular Biology Laboratory, EMBL Hamburg Unit, Deutsches Elektronen-Synchrotron, Hamburg, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) & Department of Chemistry, Philipps-University Marburg, Marburg, Germany.",
+        "Department of Biology, University of Konstanz, Konstanz, Germany.",
+        "Konstanz Research School Chemical Biology, University of Konstanz, Konstanz, Germany.",
+        "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany. ute.hellmich@uni-jena.de.",
+        "Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe University, Frankfurt am Main, Germany. ute.hellmich@uni-jena.de.",
+        "Cluster of Excellence Balance of the Microverse, Friedrich Schiller University Jena, Jena, Germany. ute.hellmich@uni-jena.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Goretzki, Benedikt",
+        "short_name": "Goretzki B",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany.",
+          "Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe University, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Wiedemann, Christoph",
+        "short_name": "Wiedemann C",
+        "identifiers": [
+          "0000-0003-4351-8857"
+        ],
+        "affiliations": [
+          "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "McCray, Brett A",
+        "short_name": "McCray BA",
+        "identifiers": [
+          "0000-0001-6581-9728"
+        ],
+        "affiliations": [
+          "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schäfer, Stefan L",
+        "short_name": "Schäfer SL",
+        "identifiers": [
+          "0000-0001-7942-8701"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Jansen, Jasmin",
+        "short_name": "Jansen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Konstanz, Konstanz, Germany.",
+          "Konstanz Research School Chemical Biology, University of Konstanz, Konstanz, Germany."
+        ]
+      },
+      {
+        "full_name": "Tebbe, Frederike",
+        "short_name": "Tebbe F",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "Mitrovic, Sarah-Ana",
+        "short_name": "Mitrovic SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Section Biochemistry, Johannes Gutenberg-University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Nöth, Julia",
+        "short_name": "Nöth J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Section Biochemistry, Johannes Gutenberg-University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Cabezudo, Ainara Claveras",
+        "short_name": "Cabezudo AC",
+        "identifiers": [
+          "0000-0003-1400-4929"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+          "IMPRS on Cellular Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Donohue, Jack K",
+        "short_name": "Donohue JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Jeffries, Cy M",
+        "short_name": "Jeffries CM",
+        "identifiers": [
+          "0000-0002-8718-7343"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, EMBL Hamburg Unit, Deutsches Elektronen-Synchrotron, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Steinchen, Wieland",
+        "short_name": "Steinchen W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) & Department of Chemistry, Philipps-University Marburg, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stengel, Florian",
+        "short_name": "Stengel F",
+        "identifiers": [
+          "0000-0003-1447-4509"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Konstanz, Konstanz, Germany.",
+          "Konstanz Research School Chemical Biology, University of Konstanz, Konstanz, Germany."
+        ]
+      },
+      {
+        "full_name": "Sumner, Charlotte J",
+        "short_name": "Sumner CJ",
+        "identifiers": [
+          "0000-0001-5088-6012"
+        ],
+        "affiliations": [
+          "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+          "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+          "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Hellmich, Ute A",
+        "short_name": "Hellmich UA",
+        "identifiers": [
+          "0000-0001-7162-285X"
+        ],
+        "affiliations": [
+          "Friedrich Schiller University Jena, Faculty of Chemistry and Earth Sciences, Institute of Organic Chemistry and Macromolecular Chemistry, Jena, Germany. ute.hellmich@uni-jena.de.",
+          "Centre for Biomolecular Magnetic Resonance (BMRZ), Goethe University, Frankfurt am Main, Germany. ute.hellmich@uni-jena.de.",
+          "Cluster of Excellence Balance of the Microverse, Friedrich Schiller University Jena, Jena, Germany. ute.hellmich@uni-jena.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Jul 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/14 13:06",
+    "fetched_at": "2026-09-20 23:30:45"
+  },
+  "links": {
+    "cites": [
+      "42248457",
+      "41959284",
+      "41730913",
+      "41708867",
+      "41555550",
+      "41338459",
+      "41186573",
+      "41070778",
+      "41024271",
+      "40776445",
+      "40348193",
+      "40335548",
+      "40305098",
+      "40197031",
+      "40128232",
+      "39976355",
+      "39952269",
+      "39909371",
+      "39793883",
+      "39762662",
+      "39726808",
+      "39363236",
+      "39103332",
+      "39021275",
+      "38984987",
+      "38354101",
+      "38332367",
+      "38192346",
+      "37871498",
+      "37805510",
+      "37232489"
+    ],
+    "refs": [
+      "37353484",
+      "37353478",
+      "36367756",
+      "36323783",
+      "36070688",
+      "35666427",
+      "35484159",
+      "35451798",
+      "35300980",
+      "35292651",
+      "35170874",
+      "34726952",
+      "34723319",
+      "34541230",
+      "34398598",
+      "34265844",
+      "34239124",
+      "33833657",
+      "33741410",
+      "33664271",
+      "33467654",
+      "33307683",
+      "32464691",
+      "31636415",
+      "31619514",
+      "31249422",
+      "31150619",
+      "30613903",
+      "30244966",
+      "30084828",
+      "29899501",
+      "29874600",
+      "29739979",
+      "29735687",
+      "29714204",
+      "29483651",
+      "29300836",
+      "29057902",
+      "27819658",
+      "27166375",
+      "26589065",
+      "25866658",
+      "25849637",
+      "25844078",
+      "25256292",
+      "25241941",
+      "24639379",
+      "24356771",
+      "23690576",
+      "22930834",
+      "22702953",
+      "22286754",
+      "22044150",
+      "21539801",
+      "20037588",
+      "20037587",
+      "20037586",
+      "19864432",
+      "19448607",
+      "19363495",
+      "19294629",
+      "19294628",
+      "18672890",
+      "18587396",
+      "18499743",
+      "18351591",
+      "18174177",
+      "17666528",
+      "17569554",
+      "17411046",
+      "17212484",
+      "16627472",
+      "16293632",
+      "16027053",
+      "14581619",
+      "8744570",
+      "7787086"
+    ],
+    "similar": [
+      "37443299",
+      "35451798",
+      "30244966",
+      "35300980",
+      "23690576",
+      "35666427",
+      "27698146",
+      "18174177",
+      "37736816",
+      "31619514",
+      "22735813",
+      "28295351",
+      "33467654",
+      "33449852",
+      "32493776",
+      "35361697",
+      "35007845",
+      "36625071",
+      "27425399",
+      "17341586",
+      "32186440",
+      "29301784",
+      "26146187",
+      "29462784",
+      "35883510",
+      "22702953",
+      "20485495",
+      "23457335",
+      "19033444",
+      "30084828",
+      "21204492",
+      "17719182",
+      "16627472",
+      "12538589",
+      "32443528",
+      "33741410",
+      "32959389",
+      "21996372",
+      "36210148",
+      "34856355",
+      "20043876",
+      "33917551",
+      "31760763",
+      "22101010",
+      "32524421",
+      "25737550",
+      "38354101",
+      "31387748",
+      "22049911",
+      "28028935",
+      "38433447",
+      "19835908",
+      "23977387",
+      "23999312",
+      "31783610",
+      "25878251",
+      "17110928",
+      "18307101",
+      "38226418",
+      "26702092",
+      "23107877",
+      "19027987",
+      "29424275",
+      "20657843",
+      "23143559",
+      "32008372",
+      "21726418",
+      "32892440",
+      "34616399",
+      "21562271",
+      "25256292",
+      "35562940",
+      "34445178",
+      "30764505",
+      "28602913",
+      "18826956",
+      "22689561",
+      "30980509",
+      "28978477",
+      "16368742",
+      "30207167",
+      "28528666",
+      "35126384",
+      "20650893",
+      "20392266",
+      "16293632",
+      "38942776",
+      "19661060",
+      "31313950",
+      "25157108",
+      "24778429",
+      "25511389",
+      "31801932",
+      "28274924",
+      "33085914",
+      "32402646",
+      "24642224",
+      "25434996",
+      "29100528",
+      "38976129"
+    ],
+    "review": [
+      "37443299",
+      "22735813",
+      "33467654",
+      "27425399",
+      "33741410",
+      "34856355",
+      "33917551",
+      "32524421",
+      "38354101",
+      "28028935",
+      "19835908",
+      "31783610",
+      "23107877",
+      "29424275",
+      "23143559",
+      "34616399",
+      "35562940",
+      "28528666",
+      "35126384",
+      "20392266"
+    ],
+    "pmc": [
+      "10344929"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-39808-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37443299/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37443299",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37443299",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd038153",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

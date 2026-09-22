@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific soundness, technical rigor, claims versus evidence, and alignment with Nature Communications scope
+- **Shared manuscript claim summary** The authors propose that bacterial microcompartment encapsulation peptides (EPs) can drive biomolecular condensation of fused cargo proteins through a mechanism involving hydrophobic packing and a specific salt bridge, that this condensation is programmable and modular, and that it can be leveraged as a biotechnology tool.
+- **Visible evidence base** In vitro turbidity assays, confocal microscopy, FRAP, mutagenesis, MD simulations (Martini 2.2, Martini 3, CHARMM36m), in vivo overexpression in E. coli, sequence alignments
+- **Missing materials affecting confidence** Supplementary figures referenced but not provided; no raw data files; no detailed statistical analysis for FRAP curves; no negative control data for CcmN in vivo; no quantification of droplet size distributions; no data on reversibility of condensation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting and useful characterization of EP-driven condensation, with a clear practical motivation. The combination of in vitro experiments, MD simulations, and in vivo validation is commendable. However, several technical concerns and gaps in evidence weaken the central claims. The distinction between EP-specific self-assembly and generic hydrophobic aggregation is not fully established. The in vitro to in vivo discrepancy in material state is noted but not mechanistically resolved. The claim of a "blueprint" is somewhat overstated given the limited number of EPs tested and the lack of quantitative phase diagrams. The manuscript would benefit from additional controls, quantitative analyses, and a more cautious interpretation of the simulation results.
+- **Who would be interested in the results, and why** Researchers in bacterial microcompartment biology, synthetic biology, and biomolecular condensation. The work offers a potential peptide tag for driving condensation of cargo proteins, which could be useful for metabolic engineering, cell-free systems, and protein scaffolding. The identification of specific residues (I10, E7, R11) may guide future engineering efforts.
+- **Major strengths** 1) The study addresses a relevant and timely question connecting BMC biology to the broader field of biomolecular condensation. 2) The combination of experimental and computational approaches is appropriate and generally well-executed. 3) The identification of a salt bridge network in addition to hydrophobic interactions adds mechanistic detail. 4) The demonstration of modularity and co-assembly of multiple fluorescent reporters in vivo is a strong practical result. 5) The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that EP-driven condensation is "EP-specific" and that the identified salt bridge (E7-R11) is a key determinant of this specificity.
+  - **Evidence pointer** Figure 3C, 3D; Figure 4B; Methods section "Turbidity assays"
+  - **Concern** The evidence for EP-specificity is incomplete. The authors test a limited set of EP mutants and a few EPs from different BMCs, but they do not include a negative control EP with a scrambled sequence or a known non-condensing amphipathic helix. The CcmN EP is used as a negative control, but it is from a different BMC type and may have other differences beyond the absence of the salt bridge. The claim that the salt bridge is a key determinant of specificity is based on mutagenesis, but the authors do not show that restoring the salt bridge in a non-condensing EP (e.g., CcmN) is sufficient to induce condensation. Without such controls, the specificity claim is not fully supported.
+  - **Why it matters** The central claim of the paper is that EPs are a specific, modular condensation tag. If the observed condensation is a generic property of hydrophobic amphipathic helices, the practical utility and mechanistic novelty are significantly reduced.
+  - **Resolution test** Provide a scrambled-sequence EP control and a CcmN EP variant with the salt bridge residues introduced. Show that the scrambled control does not condense and that the CcmN variant does (or does not) condense, and discuss the implications accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations demonstrate the importance of hydrophobic packing and electrostatic interactions in stabilizing trimeric EP bundles, and that trimers are the preferred assembly state.
+  - **Evidence pointer** Figure 3A, 3B; Figure 5C, 5D; Methods section "Computational simulations"
+  - **Concern** The MD simulation methodology has several potential issues. First, the use of Martini 2.2 for the initial self-assembly simulations is questionable, as this force field is known to over-stabilize protein-protein interactions. The authors acknowledge this and use Martini 3 for the trimer assembly simulations, but the initial dimerization and trimerization results are based on Martini 2.2. Second, the backmapping procedure and the subsequent all-atom simulations are not described in sufficient detail to assess their reliability. Third, the simulations are performed with only 80% water and 20% PEG, which is a non-physiological condition, and the effect of this high PEG concentration on the simulation results is not discussed. Fourth, the claim that trimers are the preferred state is based on a limited number of simulations and the analysis shown in Figure 5C is not fully convincing. The two basins for 4- and 5-helix systems could be an artifact of the simulation setup.
+  - **Why it matters** The simulation results are used to support the mechanistic model of trimer-mediated condensation. If the simulations are not reliable, the mechanistic model is weakened.
+  - **Resolution test** Provide more details on the simulation protocols, including the backmapping procedure. Repeat key simulations with Martini 3 for the dimer and trimer systems. Show convergence of the simulations and provide error bars for the quantities in Figure 5C. Discuss the effect of 20% PEG on the simulation outcomes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that topological rearrangements of EP domains can exert control over liquid- or gel-like partitioning in vitro and in vivo.
+  - **Evidence pointer** Figure 6B, 6C, 6D; Supplemental Figure 4
+  - **Concern** The in vivo FRAP data show a clear difference between EP2 and EP3 (liquid-like) and EP1-Crimson (gel-like), but the interpretation is complicated by the different oligomeric states of the cargo (monomeric mNeonGreen vs. tetrameric Crimson). The authors attribute the difference to "emergent valency," but it could also be due to the larger size of the Crimson tetramer, which would slow diffusion regardless of the EP. The in vitro data (Figure 1E) show no recovery for EP-mNG, which is described as gel-like, but this is inconsistent with the in vivo data for the same construct. The authors note this discrepancy but do not provide a mechanistic explanation.
+  - **Why it matters** The claim of programmable material state is a key practical outcome. If the material state is primarily determined by cargo oligomeric state rather than EP topology, the design rules are different.
+  - **Resolution test** Perform FRAP on a monomeric cargo with a single EP that is forced to dimerize (e.g., via a coiled-coil domain) to separate the effects of valency and size. Provide a more detailed discussion of the in vitro vs. in vivo discrepancy, possibly with additional experiments (e.g., rheology) to characterize the material state.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the system can co-assemble at least three fluorescent reporters into liquid-like foci in live bacteria.
+  - **Evidence pointer** Figure 7D, 7E, 7F
+  - **Concern** The co-assembly experiment is performed with three fluorescent proteins, but the analysis is limited to calculating partition ratios. The authors do not show that the three proteins are actually co-localized in the same foci. The "zebra-striped" pattern in Figure 7D is intriguing but not quantified. It is possible that the three proteins form separate foci that happen to overlap in the images. The authors also do not test whether the co-assembled foci have the same material properties as the single-component foci.
+  - **Why it matters** The claim of multi-component co-assembly is important for the proposed biotechnology applications. If the proteins are not truly co-localized, the utility is limited.
+  - **Resolution test** Perform co-localization analysis (e.g., Pearson's coefficient) on the three-channel images. Use fluorescence correlation spectroscopy or a similar technique to confirm that the three proteins are in the same condensate. Test whether the co-assembled foci have similar FRAP recovery as single-component foci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B, 1C
+  - **Evidence pointer** Figure 1B, 1C
+  - **Issue** The turbidity data are presented as "inflection points" but the method for determining these is not described. It is unclear if these are derived from a fit to a specific model.
+  - **Required correction** Describe the method for determining inflection points, including the fitting procedure and error estimation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Fluorescence resonance energy transfer"
+  - **Evidence pointer** Methods section "Fluorescence resonance energy transfer"
+  - **Issue** The FRET calculation is described as "subtracting the emission of mNeonGreen by itself at the peak acceptor emission wavelength." This is not a standard FRET calculation. Typically, FRET efficiency is calculated as a ratio of acceptor emission to donor emission, or using acceptor photobleaching.
+  - **Required correction** Clarify the FRET calculation. If a sensitized emission method is used, describe the controls for bleed-through and the calculation of FRET efficiency.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 6C
+  - **Evidence pointer** Figure 6C
+  - **Issue** The statistical test used for the partition ratio comparisons is not stated. The figure legend mentions "unpaired t-test" but it is unclear if this was used for all comparisons or if multiple testing corrections were applied.
+  - **Required correction** State the statistical test used and whether multiple testing corrections were applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion, "Comparison to other condensing peptides"
+  - **Evidence pointer** Discussion section
+  - **Issue** The comparison to other condensing peptides is brief and lacks quantitative comparison. For example, the authors could compare the saturation concentrations or droplet sizes with those of other systems.
+  - **Required correction** Add a more quantitative comparison to other systems, if data are available, or temper the claims of superiority.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 5C
+  - **Evidence pointer** Figure 5C
+  - **Issue** The figure shows "exposed hydrophobic surface area" and "RMSD" but the units are not clear. It is also unclear what the different colors represent.
+  - **Required correction** Clarify the units and the color scheme in the figure legend.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specificity controls), R1-M2 (simulation methodology and reporting)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of EP domains to drive condensation is novel, but the underlying principles (hydrophobic interactions, salt bridges) are well-established in the condensation field. Scientific importance: Moderate to high. If the claims are fully supported, this could be a useful tool for synthetic biology. Interdisciplinary readership: The topic bridges microbiology, biophysics, and synthetic biology, which is appropriate for Nature Communications. Technical soundness: Mixed. The experimental work is generally sound, but the simulation methodology has potential issues, and some controls are missing. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some parts of the Results and Methods may be dense for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially useful, but the current evidence does not fully support the claims of specificity and programmability. The authors should address the concerns regarding controls, simulation methodology, and quantitative analysis before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that EP-driven condensation is "EP-specific" is not fully supported due to the lack of appropriate negative controls (scrambled sequence, CcmN with restored salt bridge).
+- The claim that MD simulations "demonstrate" the importance of the salt bridge is weakened by the use of Martini 2.2 for key simulations and the lack of detail on the backmapping procedure.
+- The claim that topological rearrangements can "exert control" over material state is confounded by the different oligomeric states of the cargo proteins used.
+- The claim of co-assembly of three fluorescent reporters is not supported by co-localization analysis.
+- The in vitro observation of gel-like droplets for EP-mNG is inconsistent with the in vivo observation of liquid-like foci for the same construct; this discrepancy is not mechanistically explained.

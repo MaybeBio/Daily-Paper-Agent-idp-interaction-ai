@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35470621",
+  "title": "[Intrinsically disordered proteins (IDPs) and the impact on cell stress resistance].",
+  "authors": "Yan, Ning; Li, Hongxing; Wu, Longhao; Yang, Shuo; Hao, Lujiang; Bao, Xiaoming",
+  "journal": "Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+  "published_date": "2022-04-27",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 4,
+  "one_liner_zh": "综述无序蛋白特性及其在细胞应激抵抗中的分子机制，但未涉及PPI互作机制建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are proteins or protein regions that fail to get folded into definite three-dimensional structures but participate in various biological processes and perform specific functions. Defying the traditional protein \"sequence-structure-function\" paradigm, they enrich the protein \"structure-function\" diversity. Ubiquitous in organisms, they show extreme hydrophilicity, charged amino acids, and highly repetitive amino acid sequences, with simple arrangement. As a result, they feature highly variable binding affinities and high coordination, which facilitate their functions. IDPs play an important role in cell stress response, which can improve the tolerance to a variety of stresses, such as freezing, high salt, heat shock, and desiccation. In this study, we briefed the characteristics, classifications, and identification of IDPs, summarized the molecular mechanism in improving cell stress resistance, and described the potential applications.",
+  "abstract_zh": "固有无序蛋白（IDPs）是指未能折叠成确定三维结构但参与多种生物过程并执行特定功能的蛋白质或蛋白质区域。它们挑战了传统的蛋白质“序列-结构-功能”范式，丰富了蛋白质的“结构-功能”多样性。这些蛋白在生物体中普遍存在，表现出极高的亲水性、带电氨基酸以及高度重复且排列简单的氨基酸序列。因此，它们具有高度可变的结合亲和力和高协调性，这有助于其功能的发挥。IDPs在细胞应激反应中扮演重要角色，能够提高对多种胁迫（如冷冻、高盐、热休克和干燥）的耐受性。在本研究中，我们简要介绍了IDPs的特征、分类和鉴定方法，总结了其在提高细胞抗逆性方面的分子机制，并描述了其潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35470621/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35470621/",
+  "paper_page_path": "papers/pubmed/35470621/index.html"
+}

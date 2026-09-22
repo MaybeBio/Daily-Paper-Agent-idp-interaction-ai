@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35147406",
+  "title": "Structure-Activity Relationships of Novel Tau Ligands: Passive Fibril Binders and Active Aggregation Inhibitors.",
+  "authors": "Baggett, David W; Nath, Abhinav",
+  "journal": "ACS chemical biology",
+  "published_date": "2022-02-12",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了针对无序蛋白tau的小分子配体筛选流程，研究配体与tau聚集/纤维的结合及活性关系，虽涉及IDP和结合机制，但对象为小分子而非PPI，且方法为实验筛选而非AI/物理模拟，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are core components of many biological processes and are central players in several pathologies. Despite being important drug targets, attempts to design small-molecule ligands that would help understand and attenuate their behavior are frustrated by the structural diversity exhibited by these flexible proteins. To accommodate the dynamic nature of IDPs, we developed a procedure that efficiently identifies active small-molecule ligands for disordered proteins. By exploring the chemical space around these ligands, we refined their effect on aggregation and identified molecular features critical for activity and affinity. Notably, the discovery of this new family of disordered protein ligands was achieved more quickly and with less expense than conventional high-throughput screening (HTS) or docking alone would have allowed. The resulting ligands include tau aggregation inhibitors as well as at least one compound that binds fibrils potently but does not appear to perturb the extent of kinetics of aggregation.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 是许多生物过程的核心组成部分，也是多种病理中的关键角色。尽管它们是重要的药物靶点，但设计能够帮助理解和调节其行为的小分子配体的尝试，却因这些柔性蛋白质所展现的结构多样性而受阻。为适应IDPs的动态特性，我们开发了一种能高效识别无序蛋白质活性小分子配体的方法。通过探索这些配体周围的化学空间，我们优化了它们对聚集的影响，并识别出对活性和亲和力至关重要的分子特征。值得注意的是，这一新型无序蛋白质配体家族的发现，比传统的高通量筛选 (HTS) 或单独对接方法更快且成本更低。所得配体包括tau蛋白聚集抑制剂，以及至少一种能强效结合纤维但似乎不改变聚集程度或动力学的化合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35147406/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35147406/",
+  "paper_page_path": "papers/pubmed/35147406/index.html"
+}

@@ -1,0 +1,348 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.18.706620",
+  "title": "A specialized ARGONAUTE enables trans-species RNA interference in plant immunity",
+  "doi": "10.64898/2026.02.18.706620",
+  "abstract": "Trans-species RNA interference (tsRNAi), in which plants produce small RNAs (sRNAs) to silence target genes in pathogens, has emerged as a promising strategy for disease control. However, whether tsRNAi constitutes an endogenous, regulated immune response remains unclear. Here, we show that ARGONAUTE10 (AGO10) plays a critical role in pathogen-induced tsRNAi. Loss of AGO10 in Arabidopsis abolished pathogen gene silencing during infection, leading to hypersusceptibility to oomycete and fungal pathogens. Importantly, AGO10 rapidly responds to pathogen infection through increased protein accumulation and re-location into discrete cytoplasmic condensates, thus promoting the production of trans-species sRNAs at the pathogen infection sites. This immune responsiveness relies on the N terminal intrinsically disordered region (IDR) of AGO10, which is responsible for sensing and responding to immune activation. Specific features in the IDR partitions AGO10 into two deeply diverged subgroups, AGO10a and AGO10b, with the immune responsiveness and defense function evolutionarily conserved in AGO10a but not AGO10b. Together, these findings establish tsRNAi as a bona fide, evolutionarily conserved immune response and position AGO10 as a signal-responsive hub linking pathogen perception to tsRNAi-based defense.",
+  "authors": [
+    "Wang M",
+    "Yang C",
+    "Him Yuen EL",
+    "Fang X",
+    "Qi F",
+    "Yang S",
+    "Koch BL",
+    "Li K",
+    "Hou Y",
+    "Oh T",
+    "Tang B",
+    "Feng L",
+    "Zhang X",
+    "Bozkurt TO",
+    "Feng X",
+    "Ma W"
+  ],
+  "published_date": "2026-02-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706620",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706620.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223111",
+    "raw_record": {
+      "id": "PPR1223111",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223111"
+        ]
+      },
+      "doi": "10.64898/2026.02.18.706620",
+      "title": "A specialized ARGONAUTE enables trans-species RNA interference in plant immunity",
+      "authorString": "Wang M, Yang C, Him Yuen EL, Fang X, Qi F, Yang S, Koch BL, Li K, Hou Y, Oh T, Tang B, Feng L, Zhang X, Bozkurt TO, Feng X, Ma W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Min",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang C",
+            "lastName": "Yang",
+            "firstName": "Chao",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Him Yuen EL",
+            "lastName": "Him Yuen",
+            "firstName": "Enoch Lok",
+            "initials": "EL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of life Sciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fang X",
+            "lastName": "Fang",
+            "firstName": "Xiaodong",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qi F",
+            "lastName": "Qi",
+            "firstName": "Fan",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang S",
+            "lastName": "Yang",
+            "firstName": "Shuang",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koch BL",
+            "lastName": "Koch",
+            "firstName": "Benjamin",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li K",
+            "lastName": "Li",
+            "firstName": "Kun",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou Y",
+            "lastName": "Hou",
+            "firstName": "Yingnan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Agriculture & Biology, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oh T",
+            "lastName": "Oh",
+            "firstName": "Taerin",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Biophysics, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tang B",
+            "lastName": "Tang",
+            "firstName": "Bozeng",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feng L",
+            "lastName": "Feng",
+            "firstName": "Li",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xiuren",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Synthetic Biology and Institute of Emerging Agricultural Technology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bozkurt TO",
+            "lastName": "Bozkurt",
+            "firstName": "Tolga Osman",
+            "initials": "TO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of life Sciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feng X",
+            "lastName": "Feng",
+            "firstName": "Xiaoqi",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ma W",
+            "lastName": "Ma",
+            "firstName": "Wenbo",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Trans-species RNA interference (tsRNAi), in which plants produce small RNAs (sRNAs) to silence target genes in pathogens, has emerged as a promising strategy for disease control. However, whether tsRNAi constitutes an endogenous, regulated immune response remains unclear. Here, we show that ARGONAUTE10 (AGO10) plays a critical role in pathogen-induced tsRNAi. Loss of AGO10 in Arabidopsis abolished pathogen gene silencing during infection, leading to hypersusceptibility to oomycete and fungal pathogens. Importantly, AGO10 rapidly responds to pathogen infection through increased protein accumulation and re-location into discrete cytoplasmic condensates, thus promoting the production of trans-species sRNAs at the pathogen infection sites. This immune responsiveness relies on the N terminal intrinsically disordered region (IDR) of AGO10, which is responsible for sensing and responding to immune activation. Specific features in the IDR partitions AGO10 into two deeply diverged subgroups, AGO10a and AGO10b, with the immune responsiveness and defense function evolutionarily conserved in AGO10a but not AGO10b. Together, these findings establish tsRNAi as a bona fide, evolutionarily conserved immune response and position AGO10 as a signal-responsive hub linking pathogen perception to tsRNAi-based defense.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/X016382/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T006102/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.18.706620"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223111"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223111&type=FILE&fileName=EMS215562-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215562",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-19",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

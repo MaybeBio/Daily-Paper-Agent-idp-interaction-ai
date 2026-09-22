@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "33508318",
+    "doi": "10.1016/j.jbc.2021.100339",
+    "title": "Kinase inhibitors allosterically disrupt a regulatory interaction to enhance PKCalpha membrane translocation."
+  },
+  "content": {
+    "abstract": "The eukaryotic kinase domain has multiple intrinsically disordered regions whose conformation dictates kinase activity. Small molecule kinase inhibitors (SMKIs) rely on disrupting the active conformations of these disordered regions to inactivate the kinase. While SMKIs are selected for their ability to cause this disruption, the allosteric effects of conformational changes in disordered regions is limited by a lack of dynamic information provided by traditional structural techniques. In this study, we integrated multiscale molecular dynamics simulations with FRET sensors to characterize a novel allosteric mechanism that is selectively triggered by SMKI binding to the protein kinase Calpha domain. The indole maleimide inhibitors BimI and sotrastaurin were found to displace the Gly-rich loop (G-loop) that normally shields the ATP-binding site. Displacement of the G-loop interferes with a newly identified, structurally conserved binding pocket for the C1a domain on the N lobe of the kinase domain. This binding pocket, in conjunction with the N-terminal regulatory sequence, masks a diacylglycerol (DAG) binding site on the C1a domain. SMKI-mediated displacement of the G-loop released C1a and exposed the DAG binding site, enhancing protein kinase Calpha translocation both to synthetic lipid bilayers and to live cell membranes in the presence of DAG. Inhibitor chemotype determined the extent of the observed allosteric effects on the kinase domain and correlated with the extent of membrane recruitment. Our findings demonstrate the allosteric effects of SMKIs beyond the confines of kinase catalytic conformation and provide an integrated computational-experimental paradigm to investigate parallel mechanisms in other kinases.",
+    "keywords": [
+      "PKC",
+      "PKCalpha",
+      "allosteric regulation",
+      "inhibitor",
+      "kinases",
+      "protein translocation"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation/drug effects",
+      "Animals",
+      "Cell Line",
+      "Cell Membrane/metabolism",
+      "Diglycerides/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Protein Domains/drug effects",
+      "Protein Kinase C-alpha/chemistry/*metabolism",
+      "Protein Kinase Inhibitors/*pharmacology",
+      "Protein Transport/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lippert, Lisa G",
+        "Ma, Ning",
+        "Ritt, Michael",
+        "Jain, Abhinandan",
+        "Vaidehi, Nagarajan",
+        "Sivaramakrishnan, Sivaraj"
+      ],
+      "short_names": [
+        "Lippert LG",
+        "Ma N",
+        "Ritt M",
+        "Jain A",
+        "Vaidehi N",
+        "Sivaramakrishnan S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, California, USA.",
+        "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA.",
+        "The Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, California, USA. Electronic address: Nvaidehi@coh.org.",
+        "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA. Electronic address: Sivaraj@umn.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lippert, Lisa G",
+        "short_name": "Lippert LG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Ning",
+        "short_name": "Ma N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ritt, Michael",
+        "short_name": "Ritt M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Jain, Abhinandan",
+        "short_name": "Jain A",
+        "identifiers": [],
+        "affiliations": [
+          "The Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA."
+        ]
+      },
+      {
+        "full_name": "Vaidehi, Nagarajan",
+        "short_name": "Vaidehi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, California, USA. Electronic address: Nvaidehi@coh.org."
+        ]
+      },
+      {
+        "full_name": "Sivaramakrishnan, Sivaraj",
+        "short_name": "Sivaramakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, Minnesota, USA. Electronic address: Sivaraj@umn.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2021 Jan-Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/29 06:00",
+    "fetched_at": "2026-09-20 01:05:51"
+  },
+  "links": {
+    "cites": [
+      "40280422",
+      "38118119"
+    ],
+    "refs": [
+      "30976793",
+      "30339352",
+      "28821615",
+      "28718923",
+      "28430426",
+      "28049730",
+      "27808106",
+      "27706148",
+      "27555323",
+      "27554858",
+      "26582574",
+      "26279568",
+      "25549667",
+      "25517406",
+      "24850022",
+      "24790081",
+      "24762202",
+      "24397429",
+      "24336328",
+      "23345138",
+      "23197040",
+      "22930834",
+      "22579248",
+      "22123984",
+      "21533652",
+      "21215369",
+      "20971646",
+      "20937286",
+      "20729810",
+      "20027184",
+      "19233632",
+      "19176518",
+      "18923184",
+      "18410248",
+      "17585335",
+      "17034125",
+      "15027866",
+      "15027865",
+      "14962382",
+      "11749373",
+      "9020116",
+      "7499357",
+      "2478466"
+    ],
+    "similar": [
+      "33508318",
+      "16079140",
+      "30339352",
+      "12954613",
+      "24559055",
+      "15105418",
+      "27776404",
+      "33026061",
+      "28821615",
+      "28049730",
+      "16893971",
+      "15277524",
+      "16236797",
+      "27997184",
+      "17373912",
+      "17673466",
+      "25075641",
+      "27760353",
+      "23106081",
+      "15476589",
+      "39002682",
+      "21419781",
+      "17284021",
+      "27693059",
+      "26582574",
+      "29636415",
+      "9722545",
+      "18076381",
+      "16895917",
+      "17367165",
+      "27226533",
+      "15769752",
+      "29997256",
+      "30251087",
+      "12629049",
+      "27139631",
+      "27706148",
+      "15923197",
+      "32479050",
+      "32054382",
+      "27797456",
+      "33876094",
+      "16476439",
+      "18304574",
+      "31935979",
+      "21933153",
+      "27481329",
+      "22842589",
+      "24836908",
+      "31707707",
+      "31498851",
+      "26769967",
+      "28730474",
+      "12460119",
+      "16861033",
+      "21144818",
+      "17504762",
+      "20659476",
+      "23762412",
+      "27010561",
+      "29844158",
+      "26207888",
+      "27490031",
+      "14607281",
+      "29642029",
+      "36586979",
+      "29697977",
+      "31451955",
+      "38791406",
+      "21982802",
+      "32079098",
+      "27411893",
+      "12710889",
+      "17128984",
+      "28671468",
+      "27719654",
+      "17071619",
+      "11997388",
+      "17296604",
+      "25427151",
+      "22453235",
+      "10090770",
+      "17363267",
+      "30518564",
+      "31707708",
+      "17548359",
+      "25518860",
+      "24787133",
+      "12391024",
+      "16293612",
+      "27353341",
+      "28426203",
+      "24790081",
+      "21215369",
+      "28392275",
+      "18698758",
+      "38139336",
+      "21998754",
+      "35709874",
+      "19629159",
+      "38743619",
+      "38778760",
+      "38617226",
+      "38537148",
+      "21615172",
+      "37745518",
+      "35589447",
+      "38139428",
+      "39366918",
+      "37632170",
+      "35395233",
+      "38099197",
+      "37503033",
+      "37034755",
+      "36993163",
+      "35896580"
+    ],
+    "review": [
+      "33508318",
+      "31707707",
+      "16861033",
+      "26207888",
+      "32079098",
+      "27719654",
+      "31707708",
+      "38139336",
+      "38778760",
+      "35589447",
+      "38139428",
+      "38099197"
+    ],
+    "pmc": [
+      "7949123"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(21)00110-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33508318/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33508318",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1615",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33508318",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

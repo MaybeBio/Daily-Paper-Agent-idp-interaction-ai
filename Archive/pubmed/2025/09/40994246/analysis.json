@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40994246",
+  "title": "Cloning, expression, purification, and structural modeling of the Chandipura virus matrix protein.",
+  "authors": "Grieben, Mariana",
+  "journal": "FEBS open bio",
+  "published_date": "2025-09-25",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文报道Chandipura病毒基质蛋白的克隆表达纯化及AlphaFold结构建模，虽涉及IDR和结构预测，但无PPI机制研究，方法仅为常规建模，与本课题关联较弱。",
+  "abstract": "The Chandipura virus matrix protein plays a crucial role in virus assembly, budding, and the cytopathic effects observed in infected cells by interacting with several host proteins. The protocol presented here outlines the expression and purification of full-length Chandipura virus matrix protein and two N-terminally truncated constructs produced in Escherichia coli. This protocol results in high yields of monomeric matrix protein, which is suitable for structural studies. Additionally, GFP-fused Chandipura virus matrix protein constructs can be expressed in mammalian cells for examination of intracellular localization. The Chandipura virus matrix protein model, generated using AlphaFold, features an intrinsically disordered N terminus and a structured C-terminal core, similar to other Vesiculovirus matrix proteins.",
+  "abstract_zh": "Chandipura病毒基质蛋白通过与多种宿主蛋白相互作用，在病毒组装、出芽以及感染细胞中观察到的细胞病变效应中发挥关键作用。本文所述方案概述了在大肠杆菌（Escherichia coli）中表达和纯化全长Chandipura病毒基质蛋白及两种N端截短构建体的流程。该方案可获得高产量的单体基质蛋白，适用于结构研究。此外，GFP融合的Chandipura病毒基质蛋白构建体可在哺乳动物细胞中表达，用于检查细胞内定位。使用AlphaFold生成的Chandipura病毒基质蛋白模型，具有 intrinsically disordered N terminus（内在无序N端）和 structured C-terminal core（结构化C端核心），与其他水疱性病毒（Vesiculovirus）基质蛋白相似。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40994246/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40994246/",
+  "paper_page_path": "papers/pubmed/40994246/index.html"
+}

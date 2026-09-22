@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "38376900",
+    "doi": "10.7554/eLife.87174",
+    "title": "Diameter dependence of transport through nuclear pore complex mimics studied using optical nanopores."
+  },
+  "content": {
+    "abstract": "The nuclear pore complex (NPC) regulates the selective transport of large biomolecules through the nuclear envelope. As a model system for nuclear transport, we construct NPC mimics by functionalizing the pore walls of freestanding palladium zero-mode waveguides with the FG-nucleoporin Nsp1. This approach enables the measurement of single-molecule translocations through individual pores using optical detection. We probe the selectivity of Nsp1-coated pores by quantitatively comparing the translocation rates of the nuclear transport receptor Kap95 to the inert probe BSA over a wide range of pore sizes from 35 nm to 160 nm. Pores below 55 +/- 5 nm show significant selectivity that gradually decreases for larger pores. This finding is corroborated by coarse-grained molecular dynamics simulations of the Nsp1 mesh within the pore, which suggest that leakage of BSA occurs by diffusion through transient openings within the dynamic mesh. Furthermore, we experimentally observe a modulation of the BSA permeation when varying the concentration of Kap95. The results demonstrate the potential of single-molecule fluorescence measurements on biomimetic NPCs to elucidate the principles of nuclear transport.",
+    "keywords": [
+      "biomimetics",
+      "intrinsically disordered proteins",
+      "none",
+      "nuclear pore complex",
+      "nucleocytoplasmic transport",
+      "physics of living systems",
+      "single-molecule fluorescence",
+      "solid-state nanopores"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nuclear Pore",
+      "*Nanopores",
+      "Nuclear Envelope",
+      "Biomimetics",
+      "Diffusion",
+      "Translocation, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Klughammer, Nils",
+        "Barth, Anders",
+        "Dekker, Maurice",
+        "Fragasso, Alessio",
+        "Onck, Patrick R",
+        "Dekker, Cees"
+      ],
+      "short_names": [
+        "Klughammer N",
+        "Barth A",
+        "Dekker M",
+        "Fragasso A",
+        "Onck PR",
+        "Dekker C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8792-2459",
+        "ORCID: 0000-0003-3671-3072",
+        "ORCID: 0000-0001-7096-8576",
+        "ORCID: 0000-0001-5632-9727",
+        "ORCID: 0000-0001-6273-071X"
+      ],
+      "affiliations": [
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Klughammer, Nils",
+        "short_name": "Klughammer N",
+        "identifiers": [
+          "0000-0002-8792-2459"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Barth, Anders",
+        "short_name": "Barth A",
+        "identifiers": [
+          "0000-0003-3671-3072"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dekker, Maurice",
+        "short_name": "Dekker M",
+        "identifiers": [
+          "0000-0001-7096-8576"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Fragasso, Alessio",
+        "short_name": "Fragasso A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dekker, Cees",
+        "short_name": "Dekker C",
+        "identifiers": [
+          "0000-0001-6273-071X"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Feb 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/20 12:51",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "42579423",
+      "42371839",
+      "42173496",
+      "41432375",
+      "41174229",
+      "41101500",
+      "41019633",
+      "40973737",
+      "40504117",
+      "40464641",
+      "40425985",
+      "40193850",
+      "39536094",
+      "39459201",
+      "39345637",
+      "39142062",
+      "38766144",
+      "37791900",
+      "37307457"
+    ],
+    "refs": [
+      "37791900",
+      "37307457",
+      "36807645",
+      "36765044",
+      "36577119",
+      "36494425",
+      "36050301",
+      "35132976",
+      "35089308",
+      "35013558",
+      "34982960",
+      "34769195",
+      "34762489",
+      "34324340",
+      "34193851",
+      "33790297",
+      "33412532",
+      "32730793",
+      "32144241",
+      "32094914",
+      "32094182",
+      "31723007",
+      "30171252",
+      "29642023",
+      "29539637",
+      "29500415",
+      "29442997",
+      "28864541",
+      "28700925",
+      "28669824",
+      "28026129",
+      "27999437",
+      "27697925",
+      "26745406",
+      "26705895",
+      "26589045",
+      "26530420",
+      "26338152",
+      "26263254",
+      "25692596",
+      "25631821",
+      "25562883",
+      "25229147",
+      "25062242",
+      "24929341",
+      "24857739",
+      "24739174",
+      "23989673",
+      "23343345",
+      "23103750",
+      "21685911",
+      "20548778",
+      "20368288",
+      "19680228",
+      "19550702",
+      "19098896",
+      "17693259",
+      "17630825",
+      "17082456",
+      "16851054",
+      "16211538",
+      "16197045",
+      "15613638",
+      "15481961",
+      "15039779",
+      "14624840",
+      "12603148",
+      "12560545",
+      "10611974",
+      "10388751",
+      "2324201"
+    ],
+    "similar": [
+      "38376900",
+      "29442997",
+      "33790297",
+      "24626154",
+      "29500415",
+      "30605322",
+      "19098896",
+      "38018404",
+      "21673865",
+      "21685911",
+      "36757893",
+      "39356635",
+      "29350911",
+      "24857739",
+      "22020388",
+      "30704069",
+      "36050301",
+      "23034638",
+      "26894898",
+      "27147062",
+      "28887410",
+      "26338152",
+      "33909044",
+      "35679397",
+      "15657394",
+      "15557115",
+      "34473567",
+      "24637838",
+      "24084236",
+      "35679405",
+      "26658558",
+      "38640928",
+      "24144701",
+      "15501570",
+      "31262825",
+      "37528778",
+      "38766144",
+      "19278659",
+      "38904303",
+      "20409487",
+      "25317664",
+      "21526788",
+      "27673359",
+      "23061869",
+      "24857723",
+      "38260360",
+      "24460147",
+      "22577827",
+      "18824568",
+      "19680228",
+      "21528351",
+      "16204829",
+      "29374059",
+      "25562883",
+      "21414590",
+      "28506890",
+      "19274657",
+      "28579449",
+      "33722020",
+      "25631821",
+      "17182855",
+      "29033133",
+      "22129038",
+      "31532624",
+      "23320434",
+      "24558427",
+      "27397507",
+      "22665783",
+      "10388751",
+      "35892075",
+      "24213245",
+      "21499242",
+      "32794558",
+      "23639636",
+      "15813752",
+      "21402022",
+      "20368455",
+      "35679401",
+      "29429880",
+      "34596387",
+      "19591452",
+      "30619840",
+      "35013558",
+      "21987633",
+      "30943044",
+      "26944195",
+      "32096308",
+      "27198189",
+      "24359750",
+      "17875746",
+      "18544502",
+      "28858378",
+      "11250898",
+      "28669824",
+      "38656161",
+      "25418307",
+      "38260487",
+      "39036650",
+      "23343345",
+      "31770897",
+      "38973865",
+      "20548778",
+      "38977704",
+      "38977694",
+      "39223187"
+    ],
+    "review": [
+      "38376900",
+      "22020388",
+      "26338152",
+      "24637838",
+      "24084236",
+      "27673359",
+      "24857723",
+      "22577827",
+      "21528351",
+      "21414590",
+      "28506890",
+      "28579449",
+      "32794558",
+      "23639636",
+      "15813752",
+      "30943044",
+      "26944195",
+      "18544502",
+      "28858378"
+    ],
+    "pmc": [
+      "10942607"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38376900/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38376900",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.87174",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

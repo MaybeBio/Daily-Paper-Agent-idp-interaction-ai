@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and conclusions. Supplementary figure and table titles are referenced but not provided in full.
+- **Assessment boundary** Scientific soundness, technical rigor, and validity of conclusions based solely on the provided manuscript text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered SSB C-terminus (SSB-Ct) engages two distinct hot spots on the DNA metabolizing enzymes ExoI and RecO, and that simultaneous chemical modification of both the proximal (DFDD) and distal (DIPF) segments of SSB-Ct can yield high-affinity peptide inhibitors. This claim is supported by molecular dynamics simulations, non-canonical amino acid scanning, isothermal titration calorimetry, NMR spectroscopy, and pull-down assays.
+- **Visible evidence base** Molecular dynamics (REST) simulations of SSB-Ct complexes with ExoI and RecO; fluorescence anisotropy competition and direct binding assays; isothermal titration calorimetry (ITC) data; 19F-NMR experiments; pull-down assays with bacterial lysates; sequence conservation analysis (referenced as Figure S1).
+- **Missing materials affecting confidence** Full supplementary data (Figures S1–S10, Tables S1–S2), including raw ITC thermograms, NMR spectra, peptide characterization data, and detailed simulation parameters. Exact peptide sequences for all variants are not fully listed in the main text. Statistical details for replicate measurements are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in antimicrobial drug design: how to target the protein–protein interactions of an intrinsically disordered bacterial hub protein. The authors combine computational and experimental approaches to propose a two-hot-spot binding model for SSB-Ct on ExoI and RecO, and they demonstrate that simultaneous modification of both peptide segments can improve binding affinity. The work is conceptually interesting and the data are largely consistent with the proposed model. However, several technical concerns, particularly regarding the interpretation of ITC data, the statistical treatment of simulation results, and the limited validation of the pull-down assay, prevent full confidence in the conclusions as currently presented. The manuscript would benefit from additional controls and more rigorous quantitative analysis.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, specifically those targeting protein–protein interactions involving intrinsically disordered proteins. The work also has relevance for the broader community studying SSB biology, bacterial DNA replication and repair, and the use of non-canonical amino acids in peptide optimization. The methodological combination of MD simulations with experimental binding assays may interest computational chemists and biophysicists.
+- **Major strengths** The study addresses a clinically relevant target with a rational, structure-based approach. The combination of computational predictions with experimental validation is commendable. The use of non-canonical amino acids to probe both segments of the peptide is a thoughtful strategy. The ITC data provide thermodynamic insight that goes beyond simple affinity measurements. The pull-down assay in complex lysates is a useful step toward physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of ITC analysis
+  - **Claim pointer** The authors state that E1-sSSB-Ct and R2-sSSB-Ct display low nanomolar dissociation constants (KD = 19 nM and 35 nM, respectively) based on ITC measurements.
+  - **Evidence pointer** Section 3.5, Table 3, Figure 7
+  - **Concern** The ITC experiments were performed with peptide concentrations and protein concentrations that are not clearly specified in the main text. For a KD in the nanomolar range, the c-value (ratio of macromolecule concentration to KD) must be sufficiently high for reliable fitting. If the protein concentration was in the low micromolar range, as suggested by the fluorescence anisotropy experiments, the ITC data may not be reliably fitted to obtain nanomolar KD values. The authors do not report the c-values or the confidence intervals for the fitted parameters.
+  - **Why it matters** The central claim of high-affinity binding rests on these KD values. If the ITC data are not reliable in this affinity range, the conclusion that the combined modifications yield low nanomolar inhibitors is not supported.
+  - **Resolution test** Provide the full ITC fitting details, including protein and peptide concentrations, c-values, and 95% confidence intervals for KD, ΔH, and ΔS. Alternatively, confirm the KD values using a more sensitive technique such as fluorescence polarization with a directly labeled high-affinity tracer, or surface plasmon resonance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of MD simulations
+  - **Claim pointer** The authors conclude that "the proximal DFDD and the distal DIPF segments contribute to the binding affinity" based on MD simulations showing transient contacts with two hot spots.
+  - **Evidence pointer** Section 3.1, Figures 3 and 4
+  - **Concern** The MD simulations were performed with a cumulative time of 1.2 μs per system (six parallel runs of 200 ns). The authors report RMSF values and cluster analyses but do not provide error estimates or replicate analyses. The claim that a particular binding pose dominates the conformational space (e.g., 70% for the Asp1–Arg338 interaction) is presented without statistical uncertainty. It is unclear whether the simulations have converged, particularly for the flexible N-terminal segment.
+  - **Why it matters** The two-hot-spot model is the foundation for the entire inhibitor design strategy. If the simulation results are not converged or are not reproducible, the model may be an artifact of insufficient sampling.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD vs. time, block averaging of key observables) and repeat the simulations with at least three independent seeds. Report the standard error of the mean for the occupancy of key contacts. If possible, validate the predicted contacts with mutagenesis experiments (e.g., alanine scanning of the proposed hot spot residues).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative interpretation of pull-down assay
+  - **Claim pointer** The authors state that the pull-down assay shows "two-fold enrichment of ExoI on E1-sSSB and ten-fold enrichment of RecO on R1-sSSB as compared to wtSSB-Ct."
+  - **Evidence pointer** Section 3.5, Figure S10
+  - **Concern** The pull-down assay is presented as a single experiment without replicates or statistical analysis. The enrichment factors are reported without error bars. It is unclear whether the two-fold enrichment for ExoI is statistically significant. Furthermore, the assay uses immobilized peptides, which may not reflect the solution binding affinities measured by ITC.
+  - **Why it matters** The pull-down assay is the only experiment that tests the modified peptides in a complex biological environment. If the enrichment is not reproducible or not significant, the claim that the modified peptides are effective in a cellular context is weakened.
+  - **Resolution test** Provide at least three independent pull-down experiments with quantitative mass spectrometry or Western blot analysis, including error bars and statistical tests (e.g., t-test or ANOVA). Include a negative control peptide (e.g., a scrambled sequence) to demonstrate specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of peptide characterization
+  - **Claim pointer** The authors state that all peptides were purified to >95% purity and characterized by HPLC and mass spectrometry.
+  - **Evidence pointer** Section 2.2, Supplementary Material
+  - **Concern** The main text does not provide the full list of peptide sequences, their molecular weights, or the mass spectrometry data. The supplementary material is referenced but not provided for review. Without this information, it is impossible to verify the identity and purity of the peptides used in the binding assays.
+  - **Why it matters** Incorrect peptide identity or purity could compromise all binding data. The authors must provide this information for the manuscript to be fully evaluated.
+  - **Resolution test** Include a supplementary table listing all peptide sequences, calculated and observed molecular weights, and HPLC purity. Provide representative mass spectra for the key peptides (wtSSB-Ct, E1-sSSB-Ct, R2-sSSB-Ct).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Section 3.1, Figure 3
+  - **Issue** The representative structures in Figure 3 are described in the text but the figure itself is not provided in the manuscript. The authors should ensure that the figure clearly labels the two hot spots (site A and site B) and shows the key interacting residues.
+  - **Required correction** Add clear labels to Figure 3 indicating site A, site B, and the key residues (e.g., Arg338 for ExoI, Arg203/Arg207 for RecO). Consider showing a zoomed-in view of the contact interfaces.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting in fluorescence anisotropy
+  - **Affected element** Section 3.2, Figures S4–S6
+  - **Evidence pointer** Section 3.2
+  - **Issue** The IC50 values are reported as mean ± SD, but the number of replicates is not stated in the main text. The authors should specify the number of independent experiments for each measurement.
+  - **Required correction** State the number of replicates (n) for each IC50 determination in the figure legends or methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract and Section 3.5
+  - **Evidence pointer** Abstract, Section 3.5
+  - **Issue** The abstract states "low nanomolar dissociation constants" while the text reports KD = 19 nM and 40 nM for E1-sSSB-Ct and E2-sSSB-Ct, respectively. The term "low nanomolar" is appropriate, but the authors should be consistent in reporting whether these are KD or IC50 values throughout the text.
+  - **Required correction** Ensure that KD and IC50 are clearly distinguished in all figure legends and text. In the abstract, specify that the low nanomolar values refer to dissociation constants.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of enthalpy–entropy compensation
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of enthalpy–entropy compensation is qualitative. The authors could strengthen this section by quantifying the compensation (e.g., plotting ΔH vs. −TΔS for the series of peptides) and discussing whether the compensation is linear.
+  - **Required correction** Add a plot of ΔH vs. −TΔS for the peptide series, if data are available, and comment on the linearity and slope of the compensation plot.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ITC reliability at nanomolar KD), R1-M2 (MD simulation convergence and statistical robustness), R1-M3 (pull-down assay replicates and statistics), R1-M4 (peptide characterization data).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of targeting two hot spots on SSB-interacting proteins with a modified peptide is a novel approach. The use of non-canonical amino acids to probe both segments of the disordered peptide is creative. However, the overall strategy of peptide-based inhibition of SSB–SIP interactions has been previously explored, and the novelty lies primarily in the two-hot-spot model and the specific modifications.
+  - **Scientific importance** The work addresses a clinically relevant problem (antibiotic resistance) and provides a potential new avenue for drug design. The findings could inform future efforts to target other intrinsically disordered protein–protein interactions. The importance is moderate to high, depending on whether the two-hot-spot model is generalizable to other SSB–SIP pairs.
+  - **Interdisciplinary readership** The work bridges computational chemistry, structural biology, biophysics, and medicinal chemistry. It would appeal to researchers in these fields, as well as those interested in antimicrobial drug discovery. The interdisciplinary nature is a strength.
+  - **Technical soundness** The experimental design is generally sound, but the technical concerns outlined above (ITC reliability, MD convergence, pull-down statistics) need to be addressed. The lack of full peptide characterization data is a significant gap.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction and discussion provide sufficient context for readers outside the immediate field. However, some sections (e.g., the MD methods) may be challenging for nonspecialists. The figures, once provided, should help clarify the key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the data are largely consistent with the proposed model. However, the reliability of the key quantitative claims (nanomolar KD, MD-predicted contacts) must be established with additional controls and statistical rigor. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that E1-sSSB-Ct and R2-sSSB-Ct bind with KD values of 19 nM and 35 nM, respectively, is not fully supported without detailed ITC fitting parameters and confirmation of the c-value.
+- The claim that the MD simulations reveal "transient interactions" and "adaptive molecular recognition" is based on a single simulation protocol without convergence analysis or replicate runs.
+- The claim that the pull-down assay demonstrates "two-fold enrichment of ExoI on E1-sSSB and ten-fold enrichment of RecO on R1-sSSB" is unsupported without replicates and statistical analysis.
+- The statement that "the additional modifications in E1-sSSB-Ct could further improve the binding affinity" is based on a comparison of two peptides (E1 vs. E2) and may not be generalizable.
+- The claim that "the interaction of the ligand's N-terminal with site B had a detectable positive influence on the binding affinity" is inferred from computational alanine scanning, which has not been experimentally validated.

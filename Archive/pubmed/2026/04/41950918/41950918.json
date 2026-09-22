@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41950918",
+    "doi": "10.1016/j.molcel.2026.03.023",
+    "title": "Multivalent 28S rRNA expansion segments enable reconstitution of multilayered nucleolar architecture."
+  },
+  "content": {
+    "abstract": "Eukaryotic 28S rRNA contains expansion segments (ESs) that increase dramatically in length during evolution, yet their functions remain elusive. The nucleolus, where rRNA is transcribed, exhibits divergent architectures: three-layered (tripartite) in amniotes but two-layered (bipartite) in other eukaryotes. Here, we identified distinct rRNA localization patterns within nucleolar compartments. Through in vitro reconstitution and simulations, we demonstrated that 28S rRNA induces layered nucleolar-like structures via multivalent RNA-RNA interactions. This structure-forming capacity correlates with the evolutionary expansion of ESs. 28S rRNAs from tripartite-nucleolus organisms possess longer ESs and exhibit enhanced multivalency compared with those from bipartite-nucleolus species. Deletion of specific ESs abolishes human 28S rRNA's ability to induce nucleolar-like structures, whereas transferring these segments to C. elegans 26S rRNA confers this capability in vitro. We conclude that rRNA ESs function as architectural elements that promote nucleolar complexity, providing mechanistic insight into how genomic expansion drives sophisticated cellular organization through enhanced intermolecular interactions.",
+    "keywords": [
+      "RNA multivalency",
+      "biomolecular condensates",
+      "dense fibrillar component",
+      "in vitro reconstitution",
+      "multivalent RNA-RNA interactions",
+      "nucleolar architecture",
+      "nucleolus",
+      "phase separation",
+      "rRNA expansion segments",
+      "ribosomal RNA"
+    ],
+    "mesh_terms": [
+      "*Cell Nucleolus/genetics/metabolism/ultrastructure",
+      "Animals",
+      "*RNA, Ribosomal, 28S/genetics/metabolism/chemistry",
+      "Humans",
+      "Nucleic Acid Conformation",
+      "Caenorhabditis elegans/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Jieli",
+        "Zhang, Yize",
+        "Wu, Jiaxin",
+        "Ye, Bingcheng",
+        "Fan, Xueyuan",
+        "Hu, Yucen",
+        "Hou, Zhonghuai",
+        "Xiang, ShengQi",
+        "Ma, Weirui"
+      ],
+      "short_names": [
+        "Wei J",
+        "Zhang Y",
+        "Wu J",
+        "Ye B",
+        "Fan X",
+        "Hu Y",
+        "Hou Z",
+        "Xiang S",
+        "Ma W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Key Laboratory of Geriatrics and Geriatrics Institute of Zhejiang Province, Zhejiang Hospital, Hangzhou, China.",
+        "MOE Key Lab for Cellular Dynamics, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China.",
+        "Department of Chemical Physics & Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China.",
+        "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China.",
+        "Department of Chemical Physics & Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China. Electronic address: hzhlj@ustc.edu.cn.",
+        "MOE Key Lab for Cellular Dynamics, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China. Electronic address: cqxiang@ustc.edu.cn.",
+        "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China. Electronic address: maweirui@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Jieli",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Geriatrics and Geriatrics Institute of Zhejiang Province, Zhejiang Hospital, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yize",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Lab for Cellular Dynamics, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiaxin",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Physics & Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Bingcheng",
+        "short_name": "Ye B",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xueyuan",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yucen",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Zhonghuai",
+        "short_name": "Hou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Physics & Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China. Electronic address: hzhlj@ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiang, ShengQi",
+        "short_name": "Xiang S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Lab for Cellular Dynamics, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China. Electronic address: cqxiang@ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Weirui",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Molecular Cancer Biology, Life Sciences Institute, Zhejiang University, Hangzhou, China. Electronic address: maweirui@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2026 Apr 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/09 00:34",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [
+      "42156948",
+      "42156929"
+    ],
+    "refs": [],
+    "similar": [
+      "41950918",
+      "42312489",
+      "3405077",
+      "36890225",
+      "31071985",
+      "21956940",
+      "40675030",
+      "9199304",
+      "40701178",
+      "1893795",
+      "7651828",
+      "17519961",
+      "29595121",
+      "10891491",
+      "25826659",
+      "40604277",
+      "31540874",
+      "39657346",
+      "8464736",
+      "6329794",
+      "40192507",
+      "22363708",
+      "40223701",
+      "37537842",
+      "28500251",
+      "26836305",
+      "30063880",
+      "3136295",
+      "29563925",
+      "9211976",
+      "8722000",
+      "8190627",
+      "8903340",
+      "3126831",
+      "20460460",
+      "26226217",
+      "41298079",
+      "42399278",
+      "39179648",
+      "7937132",
+      "16430885",
+      "40726293",
+      "10736225",
+      "39386460",
+      "36329008",
+      "8129175",
+      "15748891",
+      "9211967",
+      "9211977",
+      "9671052",
+      "1904940",
+      "25481757",
+      "10761698",
+      "29190286",
+      "27614293",
+      "14576301",
+      "22809161",
+      "19390581",
+      "6147812",
+      "23782956",
+      "31585176",
+      "845133",
+      "3882724",
+      "3136294",
+      "37683610",
+      "6193411",
+      "8896463",
+      "8875861",
+      "11258939",
+      "12851405",
+      "993274",
+      "12839096",
+      "18259216",
+      "9642046",
+      "41662441",
+      "9451004",
+      "2038356",
+      "37639467",
+      "9725903",
+      "32785674",
+      "8721999",
+      "25916123",
+      "26464461",
+      "32785681",
+      "38240312",
+      "2397099",
+      "1761539",
+      "31184714",
+      "7528811",
+      "10564278",
+      "6193412",
+      "10848637",
+      "9056769",
+      "21335089",
+      "11381093",
+      "39111063",
+      "28032386",
+      "9880328",
+      "9211978",
+      "6164989"
+    ],
+    "review": [
+      "41950918",
+      "31071985",
+      "21956940",
+      "40675030",
+      "17519961",
+      "8722000",
+      "40726293",
+      "8129175",
+      "9211967",
+      "3882724",
+      "12839096"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(26)00199-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41950918",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

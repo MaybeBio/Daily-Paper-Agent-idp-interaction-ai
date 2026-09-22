@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure legends) as provided in the submission.
+- **Assessment boundary** Scientific content, experimental logic, structural claims, and consistency of the presented evidence. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that the PP1 phosphatase complex, comprising PNUTS and WDR82, couples transcription elongation to pre-mRNA 3' end processing and termination. They report that PNUTS stimulates PP1 activity toward Spt5, WDR82 bridges PP1 to the CPF machinery via Symplekin, and disruption of these interactions causes transcription defects. They present a crystal structure of a PNUTS-WDR82-Symplekin-Ssu72 complex.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative form), Methods, Supplementary figure legends (S1-S6), and data availability statements. No primary figures or tables were provided in the submission.
+- **Missing materials affecting confidence** Primary figures and tables (Figures 1-6), Supplementary Tables 1-3, and the actual structural coordinates and validation data. The Results section is presented as narrative text without embedded figures, making it impossible to independently assess the quality of the structural, biochemical, or transcriptomic data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question in transcription biology: how the PP1 phosphatase complex coordinates pre-mRNA 3' end processing with transcription termination. The proposed model, in which WDR82 acts as a scaffold linking PP1-PNUTS to the CPF machinery via Symplekin, is mechanistically appealing and builds logically on prior work. However, the submission as provided is incomplete for full evaluation. The Results section is written as a narrative without the corresponding figures, making it impossible to verify the quality of the structural determination, the specificity of the biochemical interactions, or the robustness of the transcriptomic analyses. The claims are plausible and potentially important, but the evidence base as presented is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcription termination, RNA polymerase II dynamics, pre-mRNA processing, and phosphatase signaling. The structural data on the PNUTS-WDR82-Symplekin complex would be of interest to structural biologists studying protein-protein interactions in transcription. The proposed "combinatorial WDR82-binding code" concept could attract interest from those studying WD40-repeat proteins and their roles in coordinating multi-protein complexes.
+- **Major strengths** 1) The study addresses a fundamental and unresolved question: how phosphorylation-dependent regulation couples transcription to RNA processing. 2) The combination of structural, biochemical, and transcriptomic approaches is ambitious and potentially powerful. 3) The identification of distinct binding interfaces on WDR82 for PNUTS and Symplekin, using conserved short linear motifs, provides a concrete molecular framework. 4) The use of fission yeast as a model system is appropriate for mechanistic dissection. 5) The proposed model, in which PP1 acts at the level of the CPF machinery rather than solely downstream of cleavage, offers a conceptual advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims to present "the first structure of a PNUTS–WDR82–Symplekin–Ssu72 complex" and uses this structure to support the model of distinct binding interfaces.
+  - **Evidence pointer** Results section "Structural insight into PPW assembly with the 3'end processing machinery"; PDB IDs 9SCE and 9SYQ; Figure 4
+  - **Concern** The structural claims are central to the paper, but the actual figures, electron density maps, crystallographic statistics (Supplementary Table 2), and validation metrics are not provided in the submission. The narrative describes a 1.6 Å structure of PNUTS-WDR82 and a 3.8 Å tetrameric complex, but without the figures and tables, the quality of the density, the confidence in the model building, and the interpretation of the interfaces cannot be assessed.
+  - **Why it matters** The structural data underpin the central mechanistic claims about how PNUTS and Symplekin bind WDR82. If the structural interpretation is flawed or the resolution is insufficient to support the detailed interface claims, the entire model is weakened. The 3.8 Å resolution for the tetramer is relatively modest, and the authors note poor density for Ssu72, which raises questions about the reliability of the interface details.
+  - **Resolution test** Provide the actual structural figures with clear annotation of the interfaces, the electron density maps for the key interface residues, the crystallographic table (Supplementary Table 2), and validation metrics (Ramachandran plot, clash score, etc.). The authors should also clarify how the Ssu72 density was interpreted given the partial model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that "loss of PP1 activity, disruption of its interaction with PNUTS or perturbation of PP1 tethering to Symplekin leads to altered PAS choice, defective 3' end cleavage, transcriptional readthrough and impaired elongation" based on TT-seq analyses.
+  - **Evidence pointer** Results sections "Loss of PP1 activity or regulatory subunits leads to altered pre-mRNA 3'end processing, and defective transcription termination" and "Loss of physical link between CPA and PP1 phosphatase complex leads to altered 3'end processing and transcription termination defect"; Figures 2 and 5; Supplementary Figure S2 and S5
+  - **Concern** The transcriptomic data are presented only as narrative summaries. The actual genome-wide plots, metagene analyses, heatmaps, and statistical comparisons are not shown. The authors report "elevated reads downstream of annotated polyadenylation sites" and "impaired elongation" but without the figures, it is impossible to assess the magnitude, reproducibility, or statistical significance of these effects. The overlap analyses between different mutants (Figure S5C) are described but not shown.
+  - **Why it matters** The in vivo functional data are essential to demonstrate that the biochemical and structural findings have physiological relevance. If the transcriptomic phenotypes are weak, inconsistent across mutants, or confounded by indirect effects, the central claim that the PP1 complex couples transcription to 3' end processing would not be supported.
+  - **Resolution test** Provide the actual TT-seq figures with clear genome-wide averages, heatmaps, and statistical testing. Show the overlap analyses (Venn diagrams, pairwise percentages) and the specific loci with readthrough. Clarify the number of biological replicates and the statistical methods used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** The manuscript claims that "PNUTS enhances PP1 activity" and that this stimulation is critical for PP1 function in transcription, based on in vitro phosphatase assays.
+  - **Evidence pointer** Results section "PNUTS stimulates PP1 activity against Spt5-CTR"; Figure 1D-F; Supplementary Figure S1E-F
+  - **Concern** The in vitro phosphatase assay data are described narratively. The authors report a 1.5-fold stimulation of PP1 activity by PNUTS, but the actual kinetic traces, dose-response curves, and statistical analyses are not shown. The physiological relevance of a 1.5-fold stimulation is unclear, and the authors do not address whether this modest effect is sufficient to explain the dramatic in vivo phenotypes.
+  - **Why it matters** The claim that PNUTS is an activator of PP1 is a key part of the model. If the stimulation is modest or variable, the physiological significance is questionable. The authors should also address whether WDR82 has any effect on PP1 activity, as they report it does not stimulate activity but do not show these data.
+  - **Resolution test** Provide the actual assay data with time courses, substrate concentrations, and statistical comparisons. Discuss the magnitude of the effect in the context of known PP1 regulatory mechanisms and address whether the 1.5-fold stimulation is likely to be biologically meaningful.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary conservation
+  - **Claim pointer** The manuscript claims that the DPR motif in Symplekin is "present only in fission yeast Symplekin" and that this represents an evolutionarily divergent mechanism for connecting PP1 to the CPF machinery.
+  - **Evidence pointer** Results section "Structural insight into PPW assembly with the 3'end processing machinery"; Discussion; Supplementary Figure S6
+  - **Concern** The authors report that the DPR motif is unique to S. pombe and that budding yeast likely uses an alternative protein (Pti1) for this connection. This is an interesting evolutionary observation, but the functional implications are not fully explored. If the DPR-mediated interaction is unique to fission yeast, the relevance of the proposed model to mammalian systems, where the manuscript claims the interaction is conserved, needs clarification.
+  - **Why it matters** The manuscript proposes a "combinatorial WDR82-binding code" that operates broadly across eukaryotes. If the specific interaction described here is unique to fission yeast, the generalizability of the model is weakened. The authors should clarify which aspects of the model are conserved and which are species-specific.
+  - **Resolution test** Provide a clear comparative analysis of the relevant motifs across species, with functional validation in at least one additional organism, or explicitly state the limitations of the evolutionary conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses both "PP1" and "PP1/Dis2" and "PNUTS/Ppn1" and "WDR82/Swd2.2" without consistently defining the relationship between the S. pombe and metazoan nomenclature. This could confuse readers unfamiliar with fission yeast genetics.
+  - **Required correction** Provide a clear statement early in the manuscript defining the nomenclature and explaining that S. pombe orthologs are referred to by metazoan names for simplicity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Transcriptomic analyses
+  - **Evidence pointer** Results sections on TT-seq; Methods
+  - **Issue** The manuscript does not describe the number of biological replicates for the TT-seq experiments or the statistical methods used to identify significant changes in readthrough or polyadenylation site usage.
+  - **Required correction** Add explicit statements about replicates, statistical tests, and significance thresholds in the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Structural validation
+  - **Evidence pointer** Methods section on crystallography; Supplementary Table 2
+  - **Issue** The manuscript mentions that the Ssu72 density is poor and only partially modeled, but does not discuss the implications for the interpretation of the Ssu72-Symplekin interface or the overall complex architecture.
+  - **Required correction** Add a paragraph in the Results or Discussion addressing the limitations of the Ssu72 model and how the partial model affects the conclusions drawn from the structure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Model
+  - **Evidence pointer** Discussion; Figure 6A
+  - **Issue** The proposed model in Figure 6A is described narratively but the figure itself is not provided. The model appears to integrate multiple findings, but the specific steps and the evidence for each step are not clearly delineated.
+  - **Required correction** Provide the model figure and a step-by-step explanation of the proposed mechanism, with clear references to the supporting evidence for each step.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the absence of the actual figures and tables in the submission, which prevents verification of the structural, biochemical, and transcriptomic data. Specifically, the crystallographic statistics and electron density maps, the phosphatase assay kinetics, and the genome-wide TT-seq analyses must be provided. Additionally, the partial modeling of Ssu72 in the tetramer structure needs to be addressed with appropriate validation and discussion of limitations.
+- **Assessment against Nature-style criteria** Originality: The work is original in its attempt to integrate structural, biochemical, and transcriptomic approaches to understand PP1 function in transcription. The concept of a "combinatorial WDR82-binding code" is novel. Scientific importance: The question of how phosphorylation coordinates transcription with RNA processing is of fundamental importance. The proposed model, if fully supported, would advance the field. Interdisciplinary readership: The work bridges transcription, RNA processing, and structural biology, and would appeal to a broad readership. Technical soundness: Cannot be fully assessed from the provided material. The approaches are appropriate, but the data quality and statistical rigor cannot be verified without the figures. Readability for nonspecialists: The narrative is generally clear, but the nomenclature issues and the dense presentation of structural details may challenge nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The scientific question is important, and the proposed model is plausible and mechanistically appealing. However, the current submission is incomplete, and the central claims cannot be verified without the primary data. The authors should be encouraged to resubmit with the full set of figures and tables, along with the requested clarifications on statistical methods and structural validation.

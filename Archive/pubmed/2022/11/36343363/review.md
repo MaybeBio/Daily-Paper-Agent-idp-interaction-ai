@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a theoretical framework extending random phase approximation (RPA) and field-theoretic simulation (FTS) to model sequence-specific liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs), incorporating both short-range hydrophobic-like interactions (via Yukawa potentials with multiple nonelectrostatic charges from eigenvalue decomposition of contact energies) and long-range Coulomb electrostatics, with chain excluded volume treated by incompressibility constraints. A mean-field approximation yields an effective Flory-Huggins chi parameter that, combined with RPA, captures composition effects of short-range interactions and sequence-pattern effects of long-range electrostatics, while FTS provides full sequence dependence for both interaction types. The approach is illustrated on variants of a natural IDP under multiple amino-acid interaction schemes and on model hydrophobic-polar sequences with identical composition, with validation by coarse-grained explicit-chain molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed derivations, simulation protocols, parameter values, quantitative comparison metrics between theory and molecular dynamics results, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable theoretical advance in modeling sequence-dependent LLPS of IDPs by unifying short-range and long-range interaction effects within a single RPA/FTS framework. The conceptual approach of using eigenvalue-decomposed contact energies to generate Yukawa-type short-range interactions is novel and could address a recognized gap in existing theories that predominantly focus on electrostatics. However, the abstract alone provides insufficient detail to assess the technical correctness, the quantitative accuracy of the approximations, or the robustness of the validation claims. The central assertion that the methodology is "verified" by molecular dynamics simulations cannot be evaluated without seeing the comparison data, error metrics, and simulation conditions. The work is likely of interest to the biomolecular condensate and polymer theory communities, but the evidence base presented here is too thin to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation of IDPs, particularly those developing or applying sequence-based predictive theories; computational biophysicists interested in field-theoretic methods for heteropolymers; and experimentalists seeking theoretical frameworks to interpret sequence-encoded phase behavior. The work bridges polymer physics and molecular biology, making it relevant to both theory-focused and application-oriented groups.
+- **Major strengths** The conceptual integration of short-range hydrophobic-like interactions with long-range electrostatics within a unified RPA/FTS framework addresses a clear gap in existing IDP LLPS theories. The use of eigenvalue decomposition of contact energies to generate multiple Yukawa charges is an elegant and potentially generalizable strategy. The inclusion of both composition and sequence-pattern effects within a single formalism is ambitious and, if successful, would represent a meaningful advance. The validation against explicit-chain molecular dynamics simulations, if properly executed, would provide a strong test of the theory.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the methodology is "verified" by coarse-grained explicit-chain molecular dynamics simulations.
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Concern** The abstract states that effectiveness is verified by molecular dynamics simulations but provides no quantitative details, no comparison metrics, no simulation parameters, and no indication of the range of conditions tested. Without access to the actual comparison data, it is impossible to determine whether the agreement is qualitative or quantitative, whether it holds across all tested sequences and interaction schemes, or whether the molecular dynamics model itself is an appropriate reference standard.
+  - **Why it matters** The verification claim is the primary evidence that the theoretical framework is physically accurate. If the agreement with simulations is poor or limited to specific cases, the central utility of the method is undermined. The abstract's assertion of verification without supporting data is insufficient for a reader to judge the reliability of the approach.
+  - **Resolution test** Provide in the full manuscript a systematic comparison between theory and molecular dynamics predictions for phase boundaries, critical temperatures, or coexistence densities across all tested sequences and interaction schemes, including quantitative error metrics and a discussion of discrepancies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that a mean-field approximation leads to an effective Flory-Huggins chi parameter that accounts for contact-interaction effects of amino acid composition and sequence-pattern effects of long-range electrostatics.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The derivation of the effective chi parameter and its separation into composition-dependent and sequence-pattern-dependent contributions is described only at a high level. The abstract does not specify the nature of the mean-field approximation, the assumptions required for the chi parameter to be additive, or the conditions under which this decomposition is valid. The eigenvalue decomposition of contact energies and its mapping to Yukawa interactions also lacks detail on how many eigenvalues are retained and how truncation affects accuracy.
+  - **Why it matters** The validity of the effective chi parameter is central to the theoretical framework. If the mean-field approximation introduces uncontrolled errors or if the decomposition into composition and sequence-pattern effects is not generally valid, the predictive power of the theory is compromised. Readers cannot assess whether the approximations are justified without more detail.
+  - **Resolution test** Provide a detailed derivation in the full manuscript, including the specific mean-field assumptions, the criteria for truncating the eigenvalue decomposition, and a discussion of the regime of validity for the effective chi parameter. Include tests showing how the approximation performs as a function of interaction strength and sequence length.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims the approach is illustrated by applications to variants of a natural IDP under several amino-acid interaction schemes and to model hydrophobic-polar sequences sharing the same composition.
+  - **Evidence pointer** Abstract, applications description; location not provided
+  - **Concern** The abstract does not specify which natural IDP is used, how many variants are tested, which amino-acid interaction schemes are employed, or how the hydrophobic-polar sequences are constructed. The choice of interaction schemes is particularly important because the results may depend strongly on the specific parameterization of residue-residue contact energies.
+  - **Why it matters** Without knowing the specific systems and interaction schemes, the generality of the conclusions cannot be assessed. The choice of interaction scheme could bias the results, and the reader cannot determine whether the framework is robust across different parameterizations or only works for the particular schemes selected.
+  - **Resolution Test** Specify in the full manuscript the natural IDP and its variants, the complete list of interaction schemes with their sources, and the construction rules for the hydrophobic-polar sequences. Discuss how the choice of interaction scheme affects the predicted phase behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The phrase "multiple nonelectrostatic charges derived from an eigenvalue decomposition" is potentially confusing because "charges" typically implies electrostatic quantities, yet the context indicates these are effective interaction parameters for short-range hydrophobic-like forces.
+  - **Required correction** Clarify the terminology, for example by using "effective interaction sites" or "Yukawa interaction parameters" instead of "charges," or explicitly state that these are mathematical charges in a Yukawa potential, not physical electrostatic charges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation scope
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The abstract mentions validation by coarse-grained explicit-chain molecular dynamics simulations but does not state how many systems were compared, over what range of conditions, or whether the simulations used the same interaction schemes as the theory.
+  - **Required Correction** Add a sentence in the abstract or full manuscript specifying the number of systems compared, the range of temperatures or concentrations tested, and whether the simulation model is consistent with the theoretical interaction schemes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature positioning
+  - **Evidence pointer** Abstract, overall; location not provided
+  - **Issue** The abstract does not explicitly state how this work differs from or advances beyond prior RPA-based theories of IDP LLPS, particularly those that have addressed short-range interactions in other ways.
+  - **Required Correction** Add a brief statement in the introduction or discussion of the full manuscript positioning this work relative to existing theories, highlighting the specific advance provided by the eigenvalue decomposition approach.
+
+## Risk / unsupported claims
+- The claim that the methodology is "verified" by molecular dynamics simulations is unsupported in the abstract because no quantitative comparison data are provided.
+- The claim that the effective Flory-Huggins chi parameter "accounts for" both composition and sequence-pattern effects is not substantiated with any demonstration of accuracy or limits of validity.
+- The generality of the approach across "several different amino-acid interaction schemes" cannot be assessed because the specific schemes are not named.
+- The assertion that the framework provides "full sequence dependence" for both short- and long-range interactions is not demonstrated with any example showing sequence discrimination beyond the described applications.
+- The relationship between the eigenvalue decomposition truncation and the accuracy of the short-range interaction representation is not addressed and is therefore unevaluable.

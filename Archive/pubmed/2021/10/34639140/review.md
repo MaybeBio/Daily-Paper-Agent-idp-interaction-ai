@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text (review article, ~5,000 words) provided in the submission.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review as presented. No external literature verification performed.
+- **Shared manuscript claim summary** The manuscript reviews computational and experimental studies on Aβ peptide aggregation, membrane disruption, metal ion interactions, and small-molecule inhibitors for Alzheimer's disease, concluding that M30 and gabapentin are promising candidates and that computer simulations are essential for future drug discovery.
+- **Visible evidence base** Abstract, Introduction, Sections 2–5, Conclusion, Figures 1–7 (referenced but not provided), Tables 1 (referenced but not provided), and 168 references (not individually assessed).
+- **Missing materials affecting confidence** Figures and tables are referenced but not included in the provided text. Full reference list not available for verification. Experimental protocols and raw data from cited studies not accessible.
+
+## Reviewer
+- **Overall assessment** This is a broad, narrative review covering computational and experimental aspects of Aβ aggregation and inhibition. The topic is timely and relevant, but the manuscript suffers from significant organizational issues, unsupported claims, and a lack of critical synthesis. The authors present their own prior work prominently, but the review does not adequately contextualize or critically evaluate the literature. The conclusion that M30 and gabapentin are "novel candidates" is not sufficiently supported by the evidence presented, which is largely descriptive rather than analytical. The manuscript reads more as a summary of selected studies than a critical review, and several statements are either vague or overreaching. Major revisions are needed to improve focus, rigor, and clarity.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics simulations of amyloid proteins, particularly those studying Aβ structure, aggregation, and membrane interactions. Also, medicinal chemists and drug discovery scientists interested in small-molecule inhibitors for Alzheimer's disease, though they may find the lack of quantitative comparisons and critical evaluation limiting. The review could serve as a broad introduction for graduate students or newcomers to the field, but it does not provide sufficient depth for experts.
+- **Major strengths**
+  - The manuscript covers a wide range of topics relevant to Aβ toxicity, including membrane disruption, metal ion interactions, and inhibitor design, providing a useful overview of the field.
+  - The emphasis on the complementarity of computational and experimental approaches is appropriate and well-articulated in the introduction and conclusion.
+  - The authors highlight important open questions, such as the mechanical stability of oligomers and the role of water in toxicity, which could inspire future research.
+  - The inclusion of specific examples, such as the M30 and gabapentin studies, gives the review a practical angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific soundness / support for claims
+  - **Claim pointer** The abstract and conclusion state that M30 and gabapentin are "novel candidates" and "recommend these molecules as novel candidates to assist anti-AD drug discovery in the near future."
+  - **Evidence pointer** Section 5.4, Conclusion; location not provided
+  - **Concern** The claim that M30 and gabapentin are promising drug candidates is based on the authors' own prior studies, but the manuscript does not provide sufficient detail on the experimental or computational evidence for their efficacy. The review does not critically compare these molecules with other inhibitors discussed, nor does it address potential limitations, such as bioavailability, toxicity, or in vivo efficacy beyond the cited mouse study for M30. The recommendation for clinical trials of gabapentin at 400 mg/day is made without discussing existing clinical data on gabapentin for other indications or potential risks.
+  - **Why it matters** A review article should provide a balanced and evidence-based assessment. Overstating the potential of specific candidates without critical evaluation could mislead readers and undermine the credibility of the review.
+  - **Resolution test** The authors should provide a more detailed and critical analysis of the evidence for M30 and gabapentin, including quantitative data (e.g., IC50 values, binding affinities) and a comparison with other inhibitors. They should also discuss limitations and alternative interpretations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** Section 2 states that "AMBER99SB-ILDN and CHARMM36m are highly optimized FFs and better choices for the characterization of IDPs such as Aβ peptide," and later recommends CHARMM36mW for full-length Aβ studies.
+  - **Evidence pointer** Section 2, Table 1; location not provided
+  - **Concern** The review makes specific recommendations about force fields but does not provide a systematic comparison of their performance across different studies. The discussion is largely qualitative, and the criteria for "better choices" are not clearly defined. The authors cite individual studies but do not synthesize findings to support their recommendations. Additionally, the statement that "improving the force field significantly impacted the simulation aggregation pathway than modifying the protein sequence" is a strong claim that requires more rigorous support.
+  - **Why it matters** Force field selection is a critical technical decision in MD simulations. A review that makes recommendations without a thorough, quantitative comparison could mislead practitioners and reduce the reproducibility of future studies.
+  - **Resolution test** The authors should provide a more systematic comparison of force fields, including quantitative metrics (e.g., RMSD to experimental data, secondary structure propensities) and a discussion of limitations. They should also temper claims that are not fully supported by the cited literature.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability / organization
+  - **Claim pointer** The manuscript is structured as a series of questions (e.g., "Why Do Molecular Dynamics Simulations Cannot Accurately Quantify the Aβ Structural Ensemble?"), but the content does not always directly answer these questions.
+  - **Evidence pointer** Sections 2–5; location not provided
+  - **Concern** The organization is confusing. For example, Section 2 discusses force field limitations but does not clearly answer the question posed in the title. Section 3 covers membrane disruption but includes subsections on metal ions and inhibitors that are also discussed in later sections. The flow is disjointed, and some topics are repeated across sections. The abstract mentions "several therapeutic strategies" but the review does not clearly categorize or compare them.
+  - **Why it matters** A clear structure is essential for a review to be useful to readers. The current organization makes it difficult to follow the main arguments and identify the key takeaways.
+  - **Resolution test** The authors should restructure the manuscript to have a clearer logical flow, with each section directly addressing a specific question or theme. They should also consider adding a summary table comparing different inhibitors and their mechanisms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific soundness / accuracy
+  - **Claim pointer** Section 5.1 states that "six γ-secretase inhibitors (DAPT, PF-3084014, LY-450139, BMS-708163, MPC-7869 and Begacestat) have reached the clinical trial" and describes their outcomes.
+  - **Evidence pointer** Section 5.1, Figure 5; location not provided
+  - **Concern** The description of clinical trial outcomes is incomplete and potentially misleading. For example, the manuscript states that semagacestat "failed in a phase 2 and phase3 of clinical trials" but does not specify the reasons beyond "severe side effects." The discussion of tarenflurbil is also brief and does not mention the specific reasons for trial termination. The review would benefit from a more detailed and accurate account of these trials, including the specific endpoints and outcomes.
+  - **Why it matters** Accurate reporting of clinical trial results is crucial for a review, as readers may rely on this information for decision-making. Incomplete or vague descriptions could lead to misunderstandings.
+  - **Resolution test** The authors should provide more specific details on each clinical trial, including the phase, patient population, primary outcomes, and reasons for failure. They should also cite primary sources for these trials.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership / accessibility
+  - **Claim pointer** The abstract and introduction state that "computer simulation is a tool that allows tracing the molecular motion of molecules" and that it can "assist in mapping the complete pathways of aggregation and toxicity of Aβ peptides."
+  - **Evidence pointer** Abstract, Introduction; location not provided
+  - **Concern** The manuscript assumes a high level of familiarity with MD simulation techniques and terminology (e.g., force fields, replica exchange, coarse-grained models) without providing sufficient background for non-specialist readers. Terms like "Gō-like model" and "Gaussian accelerated MD" are introduced without explanation. This limits the accessibility of the review to a broader interdisciplinary audience.
+  - **Why it matters** The stated goal of the review is to discuss computational and experimental approaches, but it should be accessible to readers from both fields. A lack of background information may alienate experimentalists who could benefit from the computational insights.
+  - **Resolution test** The authors should add a brief introduction to MD simulation methods and key terms, or provide a glossary. They should also explain the significance of technical concepts in plain language.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract is dense and includes multiple topics without a clear focus. The sentence "Soluble Aβ oligomers deposited approximately 3–4 kDa in the AD brain could affect the calcium ion channel activity in synapsis through disrupting nerve signal transmission and damage mitochondrial causes to increase free radial lead to cell death" is grammatically incorrect and unclear.
+  - **Required correction** Revise the abstract for clarity and grammatical correctness. Break down complex sentences and ensure each claim is clearly stated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 2
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The statement "The potential energy can be described by Etotal = Ebonded + Enonbonded" is overly simplistic and does not account for other energy terms (e.g., cross-terms in some force fields). This could be misleading.
+  - **Required correction** Clarify that this is a simplified representation and note that some force fields include additional terms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4; location not provided
+  - **Issue** The section on Aβ oligomer-membrane interactions is brief and does not discuss the structural details of the β-barrel pore formation in depth. The authors mention the βPFOSAβ42 but do not explain its significance or how it was characterized.
+  - **Required correction** Expand this section to provide more detail on the structural model and its implications for toxicity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 5.4
+  - **Evidence pointer** Section 5.4; location not provided
+  - **Issue** The text states "In this account, In this account, Pham et al." with a duplicated phrase.
+  - **Required correction** Remove the duplicated phrase.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3; location not provided
+  - **Issue** The discussion of Al3+ coordination is confusing, with conflicting statements about coordination numbers from different methods. The authors note a discrepancy but do not resolve it.
+  - **Required correction** Clarify the discrepancy and discuss possible reasons, such as method limitations or differences in simulation conditions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.2
+  - **Evidence pointer** Section 5.2; location not provided
+  - **Issue** The section on immunotherapies lists several antibodies but does not provide a clear comparison of their mechanisms, efficacy, or why they failed or succeeded.
+  - **Required correction** Add a comparative analysis of the antibodies, including their targets, binding sites, and clinical outcomes.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The recommendation of M30 and gabapentin as drug candidates is not supported by a critical evaluation of the evidence.
+  - R1-M2: Force field recommendations are not backed by a systematic, quantitative comparison.
+  - R1-M4: Clinical trial descriptions are incomplete and potentially misleading.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review does not present new data or a novel framework. It summarizes existing literature, and the emphasis on the authors' own work (M30, gabapentin) is not balanced by a broader synthesis. The originality is limited.
+  - **Scientific importance** The topic is important, given the urgent need for Alzheimer's disease therapies. However, the review does not provide new insights or a critical evaluation that would advance the field. The importance is not fully realized.
+  - **Interdisciplinary readership** The review aims to bridge computational and experimental approaches, but the technical jargon and lack of background limit its accessibility to a broad audience. The interdisciplinary appeal is moderate.
+  - **Technical soundness** The manuscript contains several technical inaccuracies and oversimplifications (e.g., energy equation, force field recommendations). The soundness is questionable.
+  - **Readability for nonspecialists** The manuscript is not easily readable for nonspecialists due to dense prose, unclear organization, and unexplained technical terms. Readability is poor.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to address the concerns above, particularly the unsupported claims about M30 and gabapentin, the lack of critical synthesis, and the organizational issues. If these are addressed, the review could be a useful contribution, but in its current form, it does not meet the standards for a high-impact review.
+
+## Risk / unsupported claims
+- The claim that M30 and gabapentin are "novel candidates" for anti-AD drug discovery is not supported by a critical evaluation of the evidence presented.
+- The recommendation to evaluate gabapentin in clinical trials at 400 mg/day is made without discussing existing clinical data or potential risks.
+- The statement that "improving the force field significantly impacted the simulation aggregation pathway than modifying the protein sequence" is a strong claim that is not adequately supported by the cited studies.
+- The assertion that "no good drug candidate could have been identified for clinical use" is overly broad and not substantiated with a comprehensive review of all failed and successful candidates.
+- The claim that "computer simulation is a tool that allows tracing the molecular motion of molecules" is trivially true but does not convey the limitations and challenges of such simulations, which are discussed later in the text.

@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "36069948",
+    "doi": "10.1093/molbev/msac187",
+    "title": "The High Mutational Sensitivity of ccdA Antitoxin Is Linked to Codon Optimality."
+  },
+  "content": {
+    "abstract": "Deep mutational scanning studies suggest that synonymous mutations are typically silent and that most exposed, nonactive-site residues are tolerant to mutations. Here, we show that the ccdA antitoxin component of the Escherichia coli ccdAB toxin-antitoxin system is unusually sensitive to mutations when studied in the operonic context. A large fraction ( approximately 80%) of single-codon mutations, including many synonymous mutations in the ccdA gene shows inactive phenotype, but they retain native-like binding affinity towards cognate toxin, CcdB. Therefore, the observed phenotypic effects are largely not due to alterations in protein structure/stability, consistent with a large region of CcdA being intrinsically disordered. E. coli codon preference and strength of ribosome-binding associated with translation of downstream ccdB gene are found to be major contributors of the observed ccdA mutant phenotypes. In select cases, proteomics studies reveal altered ratios of CcdA:CcdB protein levels in vivo, suggesting that the ccdA mutations likely alter relative translation efficiencies of the two genes in the operon. We extend these results by studying single-site synonymous mutations that lead to loss of function phenotypes in the relBE operon upon introduction of rarer codons. Thus, in their operonic context, genes are likely to be more sensitive to both synonymous and nonsynonymous point mutations than inferred previously.",
+    "keywords": [
+      "codon preference",
+      "protein and RNA levels",
+      "ribosome pausing",
+      "saturation mutagenesis",
+      "translational efficiency"
+    ],
+    "mesh_terms": [
+      "Bacterial Proteins",
+      "*Bacterial Toxins/genetics",
+      "Codon/genetics",
+      "*Escherichia coli/genetics",
+      "*Escherichia coli Proteins/genetics",
+      "Mutation",
+      "*Toxin-Antitoxin Systems"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chandra, Soumyanetra",
+        "Gupta, Kritika",
+        "Khare, Shruti",
+        "Kohli, Pehu",
+        "Asok, Aparna",
+        "Mohan, Sonali Vishwa",
+        "Gowda, Harsha",
+        "Varadarajan, Raghavan"
+      ],
+      "short_names": [
+        "Chandra S",
+        "Gupta K",
+        "Khare S",
+        "Kohli P",
+        "Asok A",
+        "Mohan SV",
+        "Gowda H",
+        "Varadarajan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0823-7577"
+      ],
+      "affiliations": [
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India.",
+        "Institute of Bioinformatics, Bangalore 560100, India.",
+        "Institute of Bioinformatics, Bangalore 560100, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chandra, Soumyanetra",
+        "short_name": "Chandra S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Kritika",
+        "short_name": "Gupta K",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Khare, Shruti",
+        "short_name": "Khare S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Kohli, Pehu",
+        "short_name": "Kohli P",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Asok, Aparna",
+        "short_name": "Asok A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Mohan, Sonali Vishwa",
+        "short_name": "Mohan SV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Bangalore 560100, India."
+        ]
+      },
+      {
+        "full_name": "Gowda, Harsha",
+        "short_name": "Gowda H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Bangalore 560100, India."
+        ]
+      },
+      {
+        "full_name": "Varadarajan, Raghavan",
+        "short_name": "Varadarajan R",
+        "identifiers": [
+          "0000-0002-0823-7577"
+        ],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Evol"
+    ],
+    "pub_date": "2022 Oct 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/08 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "41900952",
+      "38134335",
+      "38049728",
+      "37963462",
+      "36714997",
+      "35762712"
+    ],
+    "refs": [
+      "36714997",
+      "34795695",
+      "34132772",
+      "33526697",
+      "32973167",
+      "32479508",
+      "32129763",
+      "31731663",
+      "31322500",
+      "30724162",
+      "30502958",
+      "30148850",
+      "30127529",
+      "29967397",
+      "29894169",
+      "29735666",
+      "29505936",
+      "29018283",
+      "28677629",
+      "28446609",
+      "28334797",
+      "27198711",
+      "26912810",
+      "26908584",
+      "26849192",
+      "26776510",
+      "26760206",
+      "26259514",
+      "26186290",
+      "25768907",
+      "25765653",
+      "24912567",
+      "24901308",
+      "24820965",
+      "24434905",
+      "24392935",
+      "24333246",
+      "24064791",
+      "23825969",
+      "23781105",
+      "23376099",
+      "23223712",
+      "22821568",
+      "22761587",
+      "22495927",
+      "22456704",
+      "22235300",
+      "21878961",
+      "21771719",
+      "21464309",
+      "21051637",
+      "20403964",
+      "20382832",
+      "19956760",
+      "19647513",
+      "18424795",
+      "17924660",
+      "17898073",
+      "17406305",
+      "17185560",
+      "17007877",
+      "16789824",
+      "16600874",
+      "16332768",
+      "15908506",
+      "15159545",
+      "14512356",
+      "14475415",
+      "14192650",
+      "14149392",
+      "13882203",
+      "12824337",
+      "12169563",
+      "11890555",
+      "11454201",
+      "10827456",
+      "10622731",
+      "10592250",
+      "10196173",
+      "9781873",
+      "8910366",
+      "8709146",
+      "8604132",
+      "7007895",
+      "6327993",
+      "4915822",
+      "3916708",
+      "3547335",
+      "3526280",
+      "3250842",
+      "3118331",
+      "2990907",
+      "2762118",
+      "2685759",
+      "2651399",
+      "2474074",
+      "1960727"
+    ],
+    "similar": [
+      "36069948",
+      "38049728",
+      "35762712",
+      "19647513",
+      "8078480",
+      "11454201",
+      "11741897",
+      "39276296",
+      "36382921",
+      "23029540",
+      "2034222",
+      "8910366",
+      "28124913",
+      "22802647",
+      "34544284",
+      "10196173",
+      "17007877",
+      "7623659",
+      "30936373",
+      "34570627",
+      "26727272",
+      "32294467",
+      "8022284",
+      "33231643",
+      "16541156",
+      "28674066",
+      "22247505",
+      "19019162",
+      "15854646",
+      "18532983",
+      "25917909",
+      "2651399",
+      "9917385",
+      "31429177",
+      "24369425",
+      "9767574",
+      "31213559",
+      "17305597",
+      "38321949",
+      "28430938",
+      "17259320",
+      "36271796",
+      "10049385",
+      "30132188",
+      "38856235",
+      "26055367",
+      "12526800",
+      "31375497",
+      "17924660",
+      "23543711",
+      "27563054",
+      "32015130",
+      "28301469",
+      "31501867",
+      "27672196",
+      "33574407",
+      "14580341",
+      "37878567",
+      "30293519",
+      "25943309",
+      "27026704",
+      "36604348",
+      "20233923",
+      "21324908",
+      "17101719",
+      "36714997",
+      "24009490",
+      "31541457",
+      "29895634",
+      "23419648",
+      "23223712",
+      "32622987",
+      "19747491",
+      "27376329",
+      "28677629",
+      "9197418",
+      "23289863",
+      "27696818",
+      "34429367",
+      "33095389",
+      "35018473",
+      "19959472",
+      "1324324",
+      "34061596",
+      "30148850",
+      "23790548",
+      "16511204",
+      "17875472",
+      "23454553",
+      "28864459",
+      "8019884",
+      "36722160",
+      "27357537",
+      "30738968",
+      "28970172",
+      "22495927",
+      "29642286",
+      "28164393",
+      "2615761",
+      "29109187",
+      "24797297"
+    ],
+    "review": [
+      "36069948",
+      "17305597",
+      "30132188",
+      "17875472"
+    ],
+    "pmc": [
+      "9555053"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36069948/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36069948",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36069948",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msac187",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

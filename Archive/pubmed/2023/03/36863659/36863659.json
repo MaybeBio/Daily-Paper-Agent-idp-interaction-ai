@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "36863659",
+    "doi": "10.1016/j.jmb.2023.168035",
+    "title": "Why Does Synergistic Activation of WASP, but Not N-WASP, by Cdc42 and PIP(2) Require Cdc42 Prenylation?"
+  },
+  "content": {
+    "abstract": "Human WASP and N-WASP are homologous proteins that require the binding of multiple regulators, including the acidic lipid PIP(2) and the small GTPase Cdc42, to relieve autoinhibition before they can stimulate the initiation of actin polymerization. Autoinhibition involves intramolecular binding of the C-terminal acidic and central motifs to an upstream basic region and GTPase binding domain. Little is known about how a single intrinsically disordered protein, WASP or N-WASP, binds multiple regulators to achieve full activation. Here we used molecular dynamics simulations to characterize the binding of WASP and N-WASP with PIP(2) and Cdc42. In the absence of Cdc42, both WASP and N-WASP strongly associate with PIP(2)-containing membranes, through their basic region and also possibly through a tail portion of the N-terminal WH1 domain. The basic region also participates in Cdc42 binding, especially for WASP; consequently Cdc42 binding significantly compromises the ability of the basic region in WASP, but not N-WASP, to bind PIP(2). PIP(2) binding to the WASP basic region is restored only when Cdc42 is prenylated at the C-terminus and tethered to the membrane. This distinction in the activation of WASP and N-WASP may contribute to their different functional roles.",
+    "keywords": [
+      "PIP(2)",
+      "WASP",
+      "autoinhibition",
+      "intrinsically disordered proteins",
+      "prenylation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Actins/chemistry/metabolism",
+      "*cdc42 GTP-Binding Protein/chemistry/metabolism",
+      "Protein Binding",
+      "Wiskott-Aldrich Syndrome Protein, Neuronal/chemistry/metabolism",
+      "*Wiskott-Aldrich Syndrome Protein/chemistry/metabolism",
+      "*Protein Prenylation",
+      "Polymerization",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Souvik",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Dey S",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA. Electronic address: https://twitter.com/SouvikDeyUIC.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Physics, University of Illinois at Chicago, Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Souvik",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA. Electronic address: https://twitter.com/SouvikDeyUIC."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA; Department of Physics, University of Illinois at Chicago, Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Apr 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/03 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "41712669",
+      "39952269",
+      "39838022",
+      "39638788",
+      "38560754",
+      "36889962"
+    ],
+    "refs": [
+      "36959324",
+      "36889962",
+      "36710643",
+      "36087777",
+      "36084347",
+      "36005688",
+      "34464112",
+      "33554215",
+      "32585849",
+      "30992509",
+      "28805312",
+      "26879470",
+      "26592383",
+      "26583988",
+      "26574453",
+      "26488642",
+      "26463123",
+      "25764013",
+      "24451625",
+      "22215673",
+      "21779026",
+      "20732727",
+      "20573979",
+      "20533885",
+      "18351591",
+      "17477841",
+      "17412762",
+      "17302440",
+      "17183359",
+      "16458552",
+      "16253996",
+      "16246732",
+      "16222654",
+      "15728724",
+      "15664188",
+      "15116359",
+      "11746699",
+      "11340081",
+      "11146629",
+      "11058146",
+      "11052943",
+      "10995437",
+      "10995436",
+      "10724160",
+      "10360578",
+      "10219243",
+      "9889097",
+      "9473482",
+      "9422512",
+      "9405671",
+      "8895577",
+      "8625410",
+      "8069912"
+    ],
+    "similar": [
+      "36863659",
+      "16293614",
+      "11432863",
+      "30104412",
+      "10995437",
+      "36889962",
+      "18923421",
+      "17302440",
+      "11157975",
+      "11714264",
+      "27685868",
+      "15834156",
+      "10995436",
+      "19741094",
+      "10480940",
+      "12600272",
+      "22250195",
+      "16246732",
+      "27129201",
+      "27715449",
+      "27881679",
+      "18448434",
+      "10878810",
+      "18650809",
+      "19846719",
+      "11052943",
+      "9422512",
+      "15821030",
+      "15260990",
+      "10724160",
+      "17461795",
+      "10839806",
+      "27143109",
+      "15102814",
+      "12874226",
+      "29746010",
+      "20730103",
+      "18728185",
+      "34520816",
+      "15260983",
+      "8895577",
+      "10491394",
+      "10973991",
+      "28805312",
+      "11184204",
+      "11331876",
+      "16472665",
+      "24284073",
+      "25281640",
+      "26879470",
+      "22893699",
+      "10713100",
+      "11133739",
+      "16006560",
+      "11563861",
+      "16355531",
+      "18701694",
+      "17682062",
+      "15664188",
+      "37126564",
+      "31514372",
+      "10514434",
+      "26463123",
+      "26554011",
+      "21357479",
+      "15479449",
+      "19213734",
+      "10781580",
+      "17085436",
+      "17635999",
+      "9660763",
+      "12456725",
+      "21618538",
+      "16155590",
+      "28129089",
+      "20940394",
+      "16885158",
+      "11952639",
+      "10219243",
+      "18650806",
+      "16922863",
+      "15147909",
+      "13678593",
+      "12235133",
+      "22454526",
+      "11340081",
+      "8805223",
+      "22989773",
+      "10209117",
+      "15456777",
+      "12147689",
+      "10360578",
+      "11282031",
+      "14561714",
+      "27182927",
+      "19561083",
+      "23384564",
+      "11747816",
+      "24449844",
+      "11584276",
+      "23867458",
+      "33475933"
+    ],
+    "review": [
+      "36863659",
+      "27715449",
+      "15260983"
+    ],
+    "pmc": [
+      "10079582"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00091-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36863659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36863659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1601",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

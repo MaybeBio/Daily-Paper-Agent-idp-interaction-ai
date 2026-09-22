@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.02.547440",
+  "title": "RNA structure and multiple weak interactions balance the interplay between RNA binding and phase separation of SARS-CoV-2 nucleocapsid",
+  "authors": "Estelle AB; Forsythe HM; Yu Z; Hughes K; Lasher B; Allen P; Reardon P; Hendrix DA; Barbar EJ",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-03",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR和荧光各向异性研究SARS-CoV-2核衣壳蛋白NTD/CTD与不同RNA结构的结合，揭示强特异互作与多价弱互作在相分离中的平衡，虽对象为RNA-蛋白而非PPI，但多价弱互作驱动相分离的机制建模思路对IDR介导的PPI相分离研究有直接启发。",
+  "abstract": "The nucleocapsid (N) protein of SARS-CoV-2 binds viral RNA, condensing it inside the virion, and phase separating with RNA to form liquid-liquid condensates. There is little consensus on what differentiates sequence-independent N-RNA interactions in the virion or in liquid droplets from those with specific genomic RNA motifs necessary for viral function inside infected cells. To identify the RNA structures and the N domains responsible for specific interactions and phase separation, we use the first 1000nt of viral RNA and short RNA segments designed as models for single-stranded and paired RNA. Binding affinities estimated from fluorescence anisotropy of these RNAs to the two folded domains of N (the NTD and CTD) and comparison to full-length N demonstrate that the NTD binds preferentially to single-stranded RNA, and while it is the primary RNA binding site, it is not essential to phase separation. Nuclear magnetic resonance spectroscopy identifies two RNA binding sites on the NTD: a previously characterized site and an additional although weaker RNA-binding face that becomes prominent when binding to the primary site is weak, such as with dsRNA or a binding-impaired mutant. Phase separation assays of nucleocapsid domains with different RNA structures support a model where multiple weak interactions, such as with the CTD or the NTD’s secondary face promote phase separation, while strong, specific interactions do not. These studies indicate that both strong and multivalent weak N-RNA interactions underlie the multifunctional abilities of N. <h4>Significance</h4> The nucleocapsid protein of the SARS-CoV-2 coronavirus binds to viral RNA, both to protect and condense it inside the viral particle and to facilitate viral transcription inside infected host cells. Evidence suggests that variations in RNA structure impact how and where it binds to the nucleocapsid, but these differences are not well understood at a structural level. Using nuclear magnetic resonance spectroscopy, we examine the interactions between each folded domain of the nucleocapsid and different RNA structures. Binding affinities and NMR chemical shift profiles demonstrate that binding between the N-terminal domain and single stranded RNA is driven by strong interactions at a specific site, while multiple weak nonspecific interactions at newly discovered sites lead to phase separation and RNA condensation.",
+  "abstract_zh": "SARS-CoV-2的核衣壳（N）蛋白结合病毒RNA，将其在病毒粒子内凝聚，并与RNA发生相分离（phase separation）形成液-液相分离凝聚体。关于序列非依赖性的N-RNA相互作用（在病毒粒子或液滴中）与感染细胞内病毒功能所需的特定基因组RNA基序之间的差异，目前尚无共识。为识别负责特异性相互作用和相分离的RNA结构及N结构域，我们使用病毒RNA的前1000个核苷酸以及设计为单链和配对RNA模型的短RNA片段。通过荧光各向异性估算这些RNA与N的两个折叠结构域（NTD和CTD）的结合亲和力，并与全长N进行比较，表明NTD优先结合单链RNA，且尽管它是主要的RNA结合位点，但对相分离并非必需。核磁共振波谱（nuclear magnetic resonance spectroscopy）识别出NTD上的两个RNA结合位点：一个先前已表征的位点，以及另一个较弱的RNA结合面，当与主要位点的结合较弱时（如与双链RNA或结合受损突变体结合时），该结合面变得显著。不同RNA结构下核衣壳结构域的相分离实验支持一个模型，其中多种弱相互作用（如与CTD或NTD次级面的相互作用）促进相分离，而强特异性相互作用则不促进。这些研究表明，强相互作用和多价弱N-RNA相互作用共同支撑N的多功能特性。<h4>意义</h4> SARS-CoV-2冠状病毒的核衣壳蛋白结合病毒RNA，既保护并凝聚病毒粒子内的RNA，也促进感染宿主细胞内的病毒转录。证据表明，RNA结构的变异影响其与核衣壳结合的方式和位置，但这些差异在结构层面尚未被充分理解。利用核磁共振波谱，我们研究了核衣壳每个折叠结构域与不同RNA结构之间的相互作用。结合亲和力和NMR化学位移图谱表明，N端结构域与单链RNA之间的结合由特定位点的强相互作用驱动，而新发现位点的多种弱非特异性相互作用则导致相分离和RNA凝聚。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.02.547440",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.02.547440",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.02.547440/index.html"
+}

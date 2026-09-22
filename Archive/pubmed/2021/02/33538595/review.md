@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that alpha-synuclein adsorption to DLPS vesicles, but not DOPS vesicles, induces vesicle disruption and membrane remodeling into discoids, tubules, and ribbons, as observed by nanoparticle tracking and electron microscopy. Coarse-grained molecular dynamics simulations suggest that adsorption to DLPS vesicles drives vesicle elongation and redistribution of protein to higher-curvature regions, potentially promoting protein aggregation. Consistent with this, DLPS but not DOPS stimulates alpha-synuclein aggregation. The authors conclude that bilayer stability critically contributes to the membrane response and aggregation stimulation.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation protocols, quantitative aggregation data, control experiments, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially interesting link between membrane remodeling and alpha-synuclein aggregation, with a clear differential effect between two lipid systems. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The key mechanistic inference, that protein redistribution to higher-curvature regions drives aggregation, is presented as a hypothesis supported by simulation but the causal chain from simulation to experimental aggregation is not fully established from the supplied material. The work may be of interest to the biophysics and neurodegeneration communities, but the strength of the conclusions cannot be adequately assessed without the full data.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation mechanisms, membrane-protein interactions, lipid bilayer biophysics, and the molecular basis of Parkinson's disease. The differential response between DLPS and DOPS provides a useful model system for understanding how bilayer properties modulate protein behavior, which is relevant to both physiological vesicle trafficking and pathological aggregation.
+- **Major strengths** The study addresses an important and under-explored question regarding the relationship between membrane curvature sensing/generation and aggregation. The use of complementary experimental techniques (nanoparticle tracking, electron microscopy) and computational simulations is a strong approach. The clear differential effect between DLPS and DOPS provides a controlled comparison that strengthens the interpretation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that alpha-synuclein induces extensive vesicle disruption and membrane remodeling into discoids, tubules, and ribbons with DLPS but not DOPS vesicles.  
+  - **Evidence pointer** Abstract, methods not provided  
+  - **Concern** The abstract states that nanoparticle tracking and electron microscopy demonstrate these morphological changes, but no quantitative data, representative images, or statistical comparisons are provided. It is unclear how "extensive" disruption was quantified, whether the observed structures were reproducibly identified, and whether the absence of remodeling with DOPS was rigorously confirmed under matched conditions.  
+  - **Why it matters** The differential remodeling is the foundational observation on which the entire mechanistic argument rests. Without verifiable evidence of the extent and specificity of remodeling, the subsequent simulation and aggregation claims lack a solid experimental basis.  
+  - **Resolution test** Provide representative electron microscopy images and nanoparticle tracking size distributions for both DLPS and DOPS conditions, with quantitative metrics (e.g., particle counts, size distributions, structure classification) and appropriate statistical analysis demonstrating a significant difference between lipid systems.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** The authors state that coarse-grained molecular dynamics simulations revealed that adsorption to DLPS but not DOPS induced vesicle elongation and redistribution of protein to regions of higher curvature, a process that could drive protein aggregation.  
+  - **Evidence pointer** Abstract, simulation details not provided  
+  - **Concern** The abstract presents the simulation results as supporting a mechanism, but the connection between simulated protein redistribution and experimentally observed aggregation is speculative. The phrase "could drive" indicates a hypothesis, yet the abstract later states that DLPS "strongly stimulated" aggregation, implying a causal link that is not directly demonstrated. No simulation parameters, system sizes, timescales, or validation against experimental conditions are given.  
+  - **Why it matters** The central mechanistic claim, that curvature-driven protein redistribution promotes aggregation, is the novel contribution of the work. If this link is not rigorously established, the study reduces to a descriptive observation of lipid-specific effects without a validated mechanism.  
+  - **Resolution test** Provide simulation details including force field, system composition, simulation length, and convergence criteria. Demonstrate that the simulated vesicle elongation and protein redistribution are statistically robust and that the proposed aggregation-driving mechanism is supported by additional evidence, such as aggregation kinetics data correlated with curvature metrics or control simulations with curvature-insensitive mutants.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The authors claim that DLPS but not DOPS strongly stimulated alpha-synuclein aggregation.  
+  - **Evidence pointer** Abstract, aggregation data not provided  
+  - **Concern** The abstract reports a qualitative difference in aggregation stimulation but provides no quantitative measures such as aggregation kinetics, lag times, fibril yields, or Thioflavin T fluorescence data. It is unclear how aggregation was monitored, whether the effect was concentration-dependent, and whether the difference between DLPS and DOPS was statistically significant.  
+  - **Why it matters** The aggregation result is the key experimental outcome that ties the membrane remodeling observations to a pathological consequence. Without quantitative data, the strength and reproducibility of the effect cannot be evaluated, and the claim of "strong stimulation" is unsupported.  
+  - **Resolution test** Provide aggregation time courses with appropriate controls (e.g., protein alone, DOPS vesicles), quantitative metrics such as half-time of aggregation or final fibril mass, and statistical analysis demonstrating a significant enhancement with DLPS relative to DOPS.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, title  
+  - **Issue** The title uses "Phosphotidylserine" which is a misspelling of "Phosphatidylserine."  
+  - **Required correction** Correct the spelling in the title to "Phosphatidylserine."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract, methods not provided  
+  - **Issue** The abstract does not specify the protein-to-lipid ratios, buffer conditions, temperature, or incubation times used in the experiments, which are critical for reproducibility and for interpreting the differential effects between DLPS and DOPS.  
+  - **Required correction** Include key experimental conditions in the abstract or ensure they are clearly stated in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Mechanistic claim  
+  - **Evidence pointer** Abstract, last sentence  
+  - **Issue** The conclusion that "bilayer stability" is the critical factor is introduced without prior definition or direct measurement of bilayer stability in the abstract. The link between the observed remodeling and bilayer stability is inferred but not explicitly demonstrated.  
+  - **Required correction** Define what is meant by bilayer stability in this context and provide evidence (e.g., bending rigidity measurements, simulation-based stability metrics) that directly supports this interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to verify the central claims of differential membrane remodeling, the simulation-based mechanistic link, or the aggregation stimulation. These are the core findings of the study and must be supported by full experimental and computational data.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of linking alpha-synuclein's membrane curvature sensing to aggregation via lipid-specific remodeling is not entirely new, but the specific comparison between DLPS and DOPS and the proposed mechanism of curvature-driven protein redistribution may offer a fresh perspective. The originality is moderate and cannot be fully assessed from the abstract alone.  
+  - **Scientific importance** The work addresses a significant question in Parkinson's disease research, namely how membrane interactions modulate alpha-synuclein aggregation. If the mechanism is validated, it could have implications for understanding disease initiation and for designing lipid-based therapeutic strategies. The importance is potentially high but depends on the robustness of the evidence.  
+  - **Interdisciplinary readership** The topic bridges biophysics, lipid chemistry, and neurobiology, and would likely appeal to researchers across these fields. The abstract is written in a way that is accessible to a broad scientific audience.  
+  - **Technical soundness** The combination of experimental and computational methods is appropriate, but the technical soundness cannot be evaluated from the abstract. The lack of quantitative data and methodological details is a significant limitation for this assessment.  
+  - **Readability for nonspecialists** The abstract is clearly written and understandable to a general scientific reader, with key terms defined and the logic of the study presented in a straightforward manner.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the central claims require full experimental and computational data to be verified. The recommendation is supportive in principle if the technical concerns regarding quantitative evidence, simulation validation, and causal inference are resolved in the full manuscript.

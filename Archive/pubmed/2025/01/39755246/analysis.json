@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39755246",
+  "title": "The RNA-Binding Properties of Annexins.",
+  "authors": "Tartaglia, Gian Gaetano; Hollas, Hanne; Havik, Bjarte; Vedeler, Anni; Pastore, Annalisa",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-01-05",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合catRAPID算法预测Annexins的RNA结合特性并探讨其相分离倾向，虽涉及无序蛋白相关相分离和计算预测，但核心是RNA互作而非蛋白-蛋白互作，机制建模深度有限。",
+  "abstract": "Annexins are a family of calcium-dependent phospholipid-binding proteins involved in crucial cellular processes such as cell division, calcium signaling, vesicle trafficking, membrane repair, and apoptosis. In addition to these properties, Annexins have also been shown to bind RNA, although this function is not universally recognized. In the attempt to clarify this important issue, we employed an integrated combination of experimental and computational approaches. Using the catRAPID algorithm, we accurately predicted known RNA-binding partners of Annexins, supported by experimental validation. We then constructed a virtual library of potential mRNA partners for Annexin A2, identifying regions within its structure directly involved in RNA binding. Beyond RNA interaction, some Annexins, notably AnxA7 and AnxA11, exhibit strong phase separation tendencies driven by their N-termini. These biophysical properties likely play roles in RNA trafficking and localization particularly in neurons, where they may influence processes such as synaptic plasticity, learning, and memory. Our predictions contribute to a deeper understanding of the Annexin function, emphasizing their potential impact on RNA regulation and cellular compartmentalization through phase separation and propose a powerful computational tool for the prediction of RNA-binding properties.",
+  "abstract_zh": "膜联蛋白（Annexins）是一类钙依赖性磷脂结合蛋白，参与细胞分裂、钙信号传导、囊泡运输、膜修复和细胞凋亡等关键细胞过程。除这些特性外，膜联蛋白也被证明能结合RNA，尽管这一功能尚未被普遍认可。为澄清这一重要问题，我们采用了实验与计算方法的综合组合。利用catRAPID算法，我们准确预测了膜联蛋白已知的RNA结合伙伴，并通过实验验证予以支持。随后，我们构建了膜联蛋白A2潜在mRNA伙伴的虚拟文库，识别出其结构中直接参与RNA结合的区域。除RNA相互作用外，某些膜联蛋白，尤其是AnxA7和AnxA11，表现出由其N端驱动的强烈相分离倾向。这些生物物理特性可能在RNA运输和定位中发挥作用，尤其在神经元中，它们可能影响突触可塑性、学习和记忆等过程。我们的预测有助于更深入理解膜联蛋白功能，强调其通过相分离对RNA调控和细胞区室化的潜在影响，并提出了一种用于预测RNA结合特性的强大计算工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39755246/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39755246/",
+  "paper_page_path": "papers/pubmed/39755246/index.html"
+}

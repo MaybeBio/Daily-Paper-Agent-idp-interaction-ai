@@ -1,0 +1,429 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.19.581072",
+  "title": "TUnA: An uncertainty aware transformer model for sequence-based protein-protein interaction prediction",
+  "doi": "10.1101/2024.02.19.581072",
+  "abstract": "Protein-protein interactions (PPIs) are important for many biological processes, but predicting them from sequence data remains challenging. Existing deep learning models often cannot generalize to proteins not present in the training set, and do not provide uncertainty estimates for their predictions. To address these limitations, we present TUnA, a Transformer-based uncertainty aware model for PPI prediction. TUnA uses ESM-2 embeddings with Transformer encoders and incorporates a Spectral-normalized Neural Gaussian Process. TUnA achieves state-of-the-art performance and, importantly, evaluates uncertainty for unseen sequences. We demonstrate that TUnA’s uncertainty estimates can effectively identify the most reliable predictions, significantly reducing false positives. This capability is crucial in bridging the gap between computational predictions and experimental validation.",
+  "authors": [
+    "Young Su Ko",
+    "Jonathan Parkinson",
+    "Cong Liu",
+    "Wei Wang"
+  ],
+  "published_date": "2024-02-21",
+  "updated_date": "2024-02-27T13:11:06Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.581072",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.581072.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:52:42Z",
+        "timestamp": 1768510362461,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 35,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-protein interactions (PPIs) are important for many biological processes, but predicting them from sequence data remains challenging. Existing deep learning models often cannot generalize to proteins not present in the training set, and do not provide uncertainty estimates for their predictions. To address these limitations, we present TUnA, a Transformer-based uncertainty aware model for PPI prediction. TUnA uses ESM-2 embeddings with Transformer encoders and incorporates a Spectral-normalized Neural Gaussian Process. TUnA achieves state-of-the-art performance and, importantly, evaluates uncertainty for unseen sequences. We demonstrate that TUnA’s uncertainty estimates can effectively identify the most reliable predictions, significantly reducing false positives. This capability is crucial in bridging the gap between computational predictions and experimental validation.</jats:p>",
+      "DOI": "10.1101/2024.02.19.581072",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2024-02-27T13:11:06Z",
+        "timestamp": 1709039466000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "TUnA: An uncertainty aware transformer model for sequence-based protein-protein interaction prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-6004-6350",
+          "authenticated-orcid": false,
+          "given": "Young Su",
+          "family": "Ko",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7000-2082",
+          "authenticated-orcid": false,
+          "given": "Jonathan",
+          "family": "Parkinson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4958-7856",
+          "authenticated-orcid": false,
+          "given": "Cong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4377-5060",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201100563"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/340245a0"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/415141a"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad076",
+          "DOI": "10.1093/bib/bbad076",
+          "article-title": "Machine learning on protein–protein interaction prediction: models, challenges and trends",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz328"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty573"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "969",
+          "DOI": "10.1016/j.cels.2021.08.010",
+          "article-title": "D-SCRIPT translates genome to phenome with sequence-based, structure-aware, genome-scale predictions of protein-protein interactions",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac258"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "i464",
+          "DOI": "10.1093/bioinformatics/btaa459",
+          "article-title": "GLIDE: combining local methods and diffusion state embeddings to predict missing interactions in biological networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.18.524543"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.11",
+          "unstructured": "Gawlikowski, J. et al. A Survey of Uncertainty in Deep Neural Networks. Preprint at http://arxiv.org/abs/2107.03342 (2022)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "4589",
+          "DOI": "10.1021/acs.jcim.3c00601",
+          "article-title": "Linear-Scaling Kernels for Protein Sequences and Small Molecules Outperform Deep Learning While Providing Uncertainty Quantitation and Improved Interpretability",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.13",
+          "first-page": "7498",
+          "article-title": "Simple and principled uncertainty estimation with deterministic deep learning via distance awareness",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3220",
+          "DOI": "10.3390/ijms15023220",
+          "article-title": "Prediction of Protein–Protein Interaction with Pairwise Kernel Support Vector Machine",
+          "volume": "15",
+          "year": "2014",
+          "journal-title": "IJMS"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2373",
+          "DOI": "10.3390/ijms18112373",
+          "article-title": "Protein-Protein Interactions Prediction Using a Novel Local Conjoint Triad Descriptor of Amino Acid Sequences",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "IJMS"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1706.03762"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2269",
+          "DOI": "10.1093/bioinformatics/btac104",
+          "article-title": "TransformerGO: predicting protein–protein interactions by modelling the attention between sets of gene ontology terms",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.20",
+          "unstructured": "Lakshminarayanan, B. , Pritzel, A. & Blundell, C. Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles. in Advances in Neural Information Processing Systems (eds. Guyon, I. et al. ) vol. 30 (Curran Associates, Inc., 2017)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.21",
+          "unstructured": "Gal, Y. & Ghahramani, Z. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. Preprint at http://arxiv.org/abs/1506.02142 (2016)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1074"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.cels.2021.05.017",
+          "article-title": "Learning the protein language: Evolution, structure, and function",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw985"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.26",
+          "article-title": "KaHIP v3. 00--Karlsruhe High Quality Partitioning--User Guide",
+          "year": "2013",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.11.09.566187"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, A. , Yosinski, J. & Clune, J. Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images. Preprint at http://arxiv.org/abs/1412.1897 (2015).",
+          "DOI": "10.1109/CVPR.2015.7298640"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.29",
+          "unstructured": "Guo, C. , Pleiss, G. , Sun, Y. & Weinberger, K. Q. On Calibration of Modern Neural Networks. Preprint at http://arxiv.org/abs/1706.04599 (2017)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "454",
+          "DOI": "10.1038/s41467-023-36028-8",
+          "article-title": "The RESP AI model accelerates the identification of tight-binding antibodies",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.31",
+          "unstructured": "Ramachandran, P. , Zoph, B. & Le, Q. V. Searching for Activation Functions. Preprint at http://arxiv.org/abs/1710.05941 (2017)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.32",
+          "unstructured": "Rahimi, A. & Recht, B. Random Features for Large-Scale Kernel Machines. in Advances in Neural Information Processing Systems (eds. Platt, J. , Koller, D. , Singer, Y. & Roweis, S. ) vol. 20 (Curran Associates, Inc., 2007)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7551/mitpress/3206.001.0001"
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.34",
+          "unstructured": "Kingma, D. P. & Ba, J. Adam: A Method for Stochastic Optimization. Preprint at http://arxiv.org/abs/1412.6980 (2017)."
+        },
+        {
+          "key": "2024022710090196000_2024.02.19.581072v1.35",
+          "unstructured": "Zhang, M. R. , Lucas, J. , Hinton, G. & Ba, J. Lookahead Optimizer: k steps forward, 1 step back. Preprint at http://arxiv.org/abs/1907.08610 (2019)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.02.19.581072",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:58:50Z",
+        "timestamp": 1768456730000
+      },
+      "score": 71.9478,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.02.19.581072"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "references-count": 35,
+      "URL": "https://doi.org/10.1101/2024.02.19.581072",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbae359",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

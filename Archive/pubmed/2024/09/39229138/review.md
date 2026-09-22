@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2024.08.23.609426)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided text. No supplementary figures or data files were available for inspection.
+- **Shared manuscript claim summary** The authors report the identification and biophysical characterization of an intrinsically disordered region (IDR) in mouse arginyltransferase 1 (ATE1), present in all four splice variants, absent in yeast ATE1, and potentially involved in tRNA binding and regulatory functions.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Methods sections as provided. Figures and tables are referenced but not shown. Supplementary material is mentioned but not provided.
+- **Missing materials affecting confidence** All figures (Figs. 1–7), tables (Table 1), and supplementary figures (Figs. S1–S14) are referenced but not available. Raw SAXS data, HDX-MS peptide-level data, AlphaFold confidence metrics, and phylogenetic analysis outputs are not accessible. This significantly limits the ability to independently verify quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in the structural biology of mammalian ATE1, proposing a novel IDR that is absent in yeast orthologs. The combination of AlphaFold prediction, SAXS, and HDX-MS is appropriate and potentially powerful. However, the current evidence base, as presented in text only, does not fully establish the central claims. Key quantitative data (e.g., SAXS parameters, HDX uptake values, statistical analyses) are not visible, and the functional significance of the IDR remains speculative. The manuscript is of interest to the arginylation and protein disorder communities, but requires substantial revision and data presentation before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers studying post-translational arginylation, ATE1 structure-function relationships, intrinsically disordered proteins, and tRNA-dependent enzymes. The findings may also interest those working on N-degron pathways and therapeutic targeting of ATE1 in neurodegeneration and cardiovascular disease.
+- **Major strengths** 1) Addresses a clear gap: mammalian ATE1 structure is understudied compared to yeast. 2) Integrates multiple orthogonal techniques (AlphaFold, SAXS, HDX-MS, phylogenetics). 3) Provides a testable hypothesis regarding IDR function in tRNA binding. 4) Honest reporting of crystallization failure, which is consistent with IDR presence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "HDX-MS identifies the presence of an intrinsically-disordered region in MmATE1" and "the region of residues ca. 104–252 in the MmATE1–1 model indeed comprises an IDR."
+  - **Evidence pointer** Results section "HDX-MS identifies the presence of an intrinsically-disordered region in MmATE1"; Figures 5a–c, S7–S9 (not provided)
+  - **Concern** The central claim that residues 104–252 constitute an IDR rests on HDX-MS data that are not shown. The text reports "rapid and high relative fractional uptake" and "100% relative deuterium uptake" for specific peptides, but no numerical values, error bars, or statistical comparisons are provided. Without the actual HDX data (e.g., uptake curves, protection factors, or comparison to structured regions), the conclusion that this region is disordered cannot be independently evaluated. Furthermore, the claim that yeast ATE1 lacks an IDR is based on HDX-MS of ScATE1, but only 81.9% sequence coverage is reported, leaving ~18% of the protein unexamined.
+  - **Why it matters** The identification of the IDR is the foundational claim of the manuscript. If the HDX-MS evidence is insufficient or ambiguous, the entire premise of the study is weakened. The comparison to yeast ATE1 is critical for the evolutionary narrative, and incomplete coverage could miss disordered regions in yeast.
+  - **Resolution test** Provide the full HDX-MS dataset, including uptake plots for all peptides, differential uptake maps, and statistical analysis (e.g., confidence intervals or significance testing). Show that the IDR region exhibits significantly higher uptake than structured regions, and that the yeast coverage includes all regions homologous to the mouse IDR.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SAXS supports the predicted MmATE1–1 AlphaFold model and suggests the large, unstructured linker region is highly dynamic."
+  - **Evidence pointer** Results section "SAXS supports the predicted MmATE1–1 AlphaFold model"; Figure 4a–f, Table 1 (not provided)
+  - **Concern** The SAXS analysis is presented as supporting the AlphaFold model and indicating a flexible IDR, but the key quantitative results are not visible. The text mentions Rg values (29.5 Å and 28.3 Å), Dmax values (115 Å and 98 Å), and a chi-squared value of ca. 0.9 for the BilboMD ensemble fit, but no SAXS profiles, Guinier plots, Kratky plots, P(r) functions, or error estimates are shown. The claim that the Kratky analysis suggests "an additional domain with flexibility" is qualitative and not supported by the displayed data. The comparison to ScATE1 (Rg 27.9 Å, Dmax 82 Å) is interesting but lacks statistical context.
+  - **Why it matters** The SAXS data are used to argue that the IDR is dynamic in solution, which is a key piece of evidence for the IDR claim. Without the actual scattering data and fits, the reader cannot assess whether the model is well-constrained or whether alternative interpretations (e.g., dimerization, aggregation) are excluded.
+  - **Resolution test** Include the full SAXS dataset: scattering curves, Guinier fits with residuals, Kratky plots, P(r) functions, and the fit of the BilboMD ensemble to the experimental data. Provide error bars on Rg and Dmax, and show that the ensemble fit is significantly better than a rigid-body model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional interpretation
+  - **Claim pointer** "Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNAArg."
+  - **Evidence pointer** Results section "The IDR may be involved in ATE1-tRNA interactions and have a regulatory function"; Figure 7a–c (not provided)
+  - **Concern** The functional claim that the IDR facilitates tRNA binding is based on AlphaFold modeling of the ATE1-tRNAArg complex. However, the text acknowledges that only a portion of the IDR could be modeled in the human cryo-EM structure, and the mouse model is purely computational. No experimental validation (e.g., mutagenesis, binding assays) is presented. The claim that the IDR "prevents the IDR from sampling binding within the GNAT fold cleft" is speculative and not directly tested.
+  - **Why it matters** The functional significance of the IDR is a major selling point of the manuscript. If the computational model is not validated experimentally, the claim remains a hypothesis, not a finding. Overstating the functional role could mislead readers.
+  - **Resolution test** Either temper the language to clearly state this is a hypothesis, or provide experimental evidence (e.g., IDR deletion mutants, binding affinity measurements) to support the functional role. If the human cryo-EM structure is available, show the IDR-tRNA contacts in that structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary generalization
+  - **Claim pointer** "An IDR is likely present in the majority of ATE1 enzymes but not in yeast ATE1."
+  - **Evidence pointer** Results section "An IDR is likely present in the majority of ATE1 enzymes but not in yeast ATE1"; Figures S10, S11 (not provided)
+  - **Concern** The phylogenetic analysis is described qualitatively ("appears to be present in all isoforms of higher-order eukaryotes"), but the actual sequence alignment and phylogenetic tree are not shown. The claim that the IDR is present in "the majority of ATE1 enzymes" is not quantified, and the criteria for defining an "IDR-like sequence" are not stated. The exception of yeast is noted, but the evolutionary boundary (e.g., which taxa have it and which do not) is not clearly defined.
+  - **Why it matters** The evolutionary claim broadens the significance of the finding. If the bioinformatics analysis is not rigorous or the criteria are arbitrary, the claim could be overstated.
+  - **Resolution test** Provide the full multiple sequence alignment, the phylogenetic tree with bootstrap values, and a clear definition of how IDR-like sequences were identified (e.g., using IUPred or similar predictors). Quantify the proportion of ATE1 sequences with the IDR and specify which taxa lack it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "However, While yeast ATE1 and most mammalian ATE1s..." (location not provided)
+  - **Issue** Typographical error: "However, While" should be "However, while".
+  - **Required correction** Fix the capitalization and punctuation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, HDX-MS section
+  - **Evidence pointer** "HDX-Mass Spectrometry (HDX-MS) measurements and data anlysis" (location not provided)
+  - **Issue** Typographical error: "anlysis" should be "analysis". Also, the Methods section lacks details on the HDX-MS data processing, such as the software parameters for peptide identification, the threshold for signal-to-noise, and how the percent deuterium uptake was normalized across replicates.
+  - **Required correction** Correct the typo and add more detail on data processing and quality control.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, HDX-MS section
+  - **Evidence pointer** "the region from ca. 128–139 in ScATE1 (capping the GNAC fold in the X-ray crystal structure and making contact with tRNA in the cryo-EM structure)" (location not provided)
+  - **Issue** "GNAC" should be "GNAT" (GCN5-related N-acetyltransferase).
+  - **Required correction** Correct the acronym.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, SAXS section
+  - **Evidence pointer** "At the SIBLYS beamline (ALS beamline 12.3.1)" (location not provided)
+  - **Issue** The beamline name "SIBLYS" appears to be a typo; the correct name is likely "SIBYLS" (Synchrotron Infrared Beamline at the Advanced Light Source). Also, the Methods section does not specify the data collection temperature, the number of frames collected, or the buffer subtraction procedure.
+  - **Required correction** Correct the beamline name and add more experimental details.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, SAXS section
+  - **Evidence pointer** "a modest shoulder suggesting the presence of a minor amount of dimeric protein was seen at higher concentrations (estimated at <20 % of the total protein)" (location not provided)
+  - **Issue** The estimate of dimeric protein (<20%) is not supported by a quantitative analysis (e.g., MALS-derived molecular weight distribution). The text should specify how this estimate was obtained.
+  - **Required correction** Provide the MALS data or a more detailed analysis of the oligomeric state.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (HDX-MS evidence not shown), R1-M2 (SAXS data not shown), R1-M3 (functional claim not experimentally validated), R1-M4 (phylogenetic analysis not shown).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The identification of an IDR in mammalian ATE1 is novel, but the concept of IDRs in tRNA-binding enzymes is not new. The study extends existing knowledge rather than breaking new conceptual ground.
+  - **Scientific importance** Moderate to high. Understanding mammalian ATE1 structure is important for therapeutic development, and the IDR may have functional significance. However, the importance is contingent on the functional claims being validated.
+  - **Interdisciplinary readership** Moderate. The study bridges structural biology, biochemistry, and bioinformatics, but the narrow focus on ATE1 may limit broader appeal.
+  - **Technical soundness** Currently not fully assessable. The experimental design is sound, but the lack of visible data prevents verification of the technical execution and analysis.
+  - **Readability for nonspecialists** Good. The text is generally clear and well-structured, with appropriate context for the importance of ATE1 and IDRs. However, some sections (e.g., HDX-MS methods) assume specialist knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims cannot be verified without the full dataset. I would be supportive if the authors provide the missing data and address the concerns raised, particularly the HDX-MS and SAXS evidence, and temper the functional claims appropriately.
+
+## Risk / unsupported claims
+- The claim that residues 104–252 in MmATE1-1 constitute an IDR is unsupported without the HDX-MS data.
+- The claim that the IDR is dynamic in solution is unsupported without the SAXS data and ensemble fits.
+- The claim that the IDR facilitates ATE1-tRNAArg complex formation is speculative and not experimentally validated.
+- The claim that an IDR is present in "the majority of ATE1 enzymes" is not quantified or supported by the shown alignment.
+- The claim that yeast ATE1 lacks an IDR is based on incomplete HDX-MS coverage (81.9%).
+- The estimate of dimeric protein (<20%) in SAXS is not quantitatively supported.

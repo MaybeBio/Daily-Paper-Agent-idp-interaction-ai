@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40375582",
+  "title": "Phosphorylation Changes SARS-CoV-2 Nucleocapsid Protein's Structural Dynamics and Its Interaction With RNA.",
+  "authors": "Loonen, Stefan; van Steenis, Lina; Bauer, Marianne; Sostaric, Nikolina",
+  "journal": "Proteins",
+  "published_date": "2025-05-16",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究SARS-CoV-2核衣壳蛋白磷酸化对其结构动态及与RNA结合的影响，虽对象为折叠蛋白且互作对象是RNA而非蛋白，但磷酸化调控无序区域动态与结合亲和力的机制建模思路对IDR介导互作研究有可迁移启发。",
+  "abstract": "The SARS-CoV-2 nucleocapsid protein, or N-protein, is a structural protein that plays an important role in the SARS-CoV-2 life cycle. The N-protein takes part in the regulation of viral RNA replication and drives highly specific packaging of full-length genomic RNA prior to virion formation. One regulatory mechanism that is proposed to drive the switch between these two operating modes is the phosphorylation state of the N-protein. Here, we assess the dynamic behavior of non-phosphorylated and phosphorylated versions of the N-protein homodimer through atomistic molecular dynamics simulations. We show that the introduction of phosphorylation yields a more dynamic protein structure and decreases the binding affinity between the N-protein and RNA. Furthermore, we find that secondary structure is essential for the preferential binding of particular RNA elements from the 5' UTR of the viral genome to the N-terminal domain of the N-protein. Altogether, we provide detailed molecular insights into N-protein dynamics, N-protein:RNA interactions, and phosphorylation. Our results corroborate the hypothesis that phosphorylation of the N-protein serves as a regulatory mechanism that determines N-protein function.",
+  "abstract_zh": "SARS-CoV-2核衣壳蛋白，即N蛋白，是一种结构蛋白，在SARS-CoV-2生命周期中发挥重要作用。N蛋白参与病毒RNA复制的调控，并在病毒粒子形成前驱动全长基因组RNA的高度特异性包装。一种被提出驱动这两种操作模式之间转换的调控机制是N蛋白的磷酸化状态。在此，我们通过原子级分子动力学 (molecular dynamics) 模拟评估非磷酸化和磷酸化版本的N蛋白同源二聚体的动态行为。我们表明，引入磷酸化导致蛋白质结构更具动态性，并降低N蛋白与RNA之间的结合亲和力。此外，我们发现二级结构对于病毒基因组5' UTR中特定RNA元件优先结合至N蛋白N端结构域至关重要。总体而言，我们提供了关于N蛋白动态、N蛋白:RNA相互作用及磷酸化的详细分子见解。我们的结果支持了N蛋白磷酸化作为决定N蛋白功能的调控机制的假说。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40375582/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40375582/",
+  "paper_page_path": "papers/pubmed/40375582/index.html"
+}

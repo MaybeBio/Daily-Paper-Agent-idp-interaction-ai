@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report the identification and characterization of an inherent α-helix spanning residues Pro180 to Ile187, centered on Tyr183, within the intrinsically disordered C-terminal tail of the multi-site docking protein Gab1. This helix is described as robust to changes in pH, peptide length, and phosphorylation status, and is proposed to distinguish the structural environment of Tyr183 from that of Tyr162, with potential implications for molecular recognition and binding specificity.
+- **Visible evidence base** Computational predictions (IUPred3, AlphaFold, AlphaMissense), far-UV CD spectroscopy (including TFE titrations), NMR chemical shift analysis (Cα, Cβ, Hα), SSP analysis, 15N relaxation data, and NMR structure calculation (ARIA) with NOE and TALOS-derived dihedral restraints
+- **Missing materials affecting confidence** Full NMR structure statistics table (referenced as Table S1), supporting figures (Figures S1–S6), detailed NOE assignment tables, relaxation data fitting details, and complete CD spectra deconvolution results; these are referenced but not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused biophysical characterization of a previously unstudied region of Gab1, identifying a local α-helical element around Tyr183 within an intrinsically disordered context. The experimental approach is appropriate and the data are largely consistent with the main claim. However, several technical details and quantitative analyses are missing or underreported, and the functional significance of the helix remains speculative. The work is of interest to the IDP and signaling communities but requires additional validation and clarity before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their transient secondary structures, particularly those investigating prestructured motifs and their role in protein-protein interactions. The work also bears relevance to those studying Gab1 and Grb2-associated signaling pathways, SH2 domain recognition, and the structural basis of tyrosine phosphorylation sites in disordered regions.
+- **Major strengths** The study addresses a genuinely undercharacterized region of a biologically important protein. The combination of computational prediction, CD, and high-resolution NMR is appropriate and complementary. The identification of a specific, robust α-helix centered on a conserved tyrosine is a clear and testable finding. The authors are appropriately cautious in interpreting the dynamic population of the helix and acknowledge limitations of their analysis methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The NMR structure shows an α-helix for residues Pro180 to Ile187, with Tyr183 positioned centrally, supported by 20 residue (i) to residue (i-3) NOEs in this region.
+  - **Evidence pointer** Results section "NMR Structure Determination"; Table S1 (referenced, not provided)
+  - **Concern** The structural claim rests on the NMR structure calculation, but the manuscript does not provide the structure statistics table, NOE assignment details, or validation metrics (e.g., RMSD values, Ramachandran plot statistics, restraint violations). Without these, the quality and convergence of the calculated structures cannot be independently assessed. The statement that "all 10 lowest energy models" show the helix is insufficient without quantitative convergence data.
+  - **Why it matters** The central conclusion of the paper is the existence of a defined α-helix. If the structure calculation is underdetermined or the NOE data are sparse, the helix could be an artifact of the calculation protocol rather than a genuine conformational preference. The authors themselves note that NMR structure calculations are biased toward ordered conformations, which makes validation metrics essential.
+  - **Resolution test** Provide the full structure statistics table (Table S1) including number of NOE restraints per residue, dihedral angle restraints, restraint violations, RMSD values for the helical region and the full peptide, and Ramachandran plot statistics. Additionally, show the NOE assignment completeness and the number of long-range vs. sequential NOEs supporting the helix.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The helix is maintained upon changes in pH, variation of peptide lengths and phosphorylation status, as assessed by 13Cα chemical shift analysis.
+  - **Evidence pointer** Results section "Assessment of the Helix Under Different Conditions"; Figure 6
+  - **Concern** The claim of robustness across conditions is based solely on 13Cα chemical shifts for eight residues. The manuscript states that "the strong overlap of the observed values shows that the helical structure is maintained," but no quantitative comparison (e.g., chemical shift differences, statistical analysis) is provided. Additionally, residue 184 could not be analyzed due to spectral overlap, leaving a gap in the coverage of the helical region. The sensitivity of 13Cα shifts to detect partial population changes is not discussed.
+  - **Why it matters** The robustness of the helix is a key claim that distinguishes this element from condition-dependent structures. If the chemical shift changes are within noise or if the method cannot detect moderate population changes, the claim of "maintained" is overstated. The missing residue 184 is centrally located in the helix and its absence weakens the analysis.
+  - **Resolution test** Provide quantitative chemical shift values for all residues in the helical region across all conditions, including error estimates. Include a statistical comparison (e.g., confidence intervals or significance testing) to support the claim of no significant change. Discuss the sensitivity of 13Cα shifts to helix population changes and justify the threshold used to define "maintained."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation / claim support
+  - **Claim pointer** The helix population is estimated at ~40% based on CD-derived overall α-helical content of ~5% for the 62-residue fragment.
+  - **Evidence pointer** Results section "NMR Structure Determination"; CD data in Figure 4A
+  - **Concern** The estimation of ~40% helix population from CD data involves several assumptions that are not fully justified. The CD analysis methods (BeStSel, K2D2, K2D3) are noted as being optimized for folded proteins and gave disparate results (2%, 8%, 6%). The calculation assumes that all helical content is confined to the eight-residue segment, which may not be valid given the weak positive signals around Tyr162. The error in this estimate is not provided.
+  - **Why it matters** The ~40% population estimate is used to frame the helix as "present in a substantial fraction of molecules." If the true population is significantly lower or if the helical content is distributed across other regions, the interpretation of a "prestructured motif" is weakened.
+  - **Resolution test** Provide a more rigorous estimate of helix population using methods appropriate for IDPs (e.g., CD deconvolution with IDP-optimized reference sets, or NMR-based population estimates from chemical shift deviations calibrated for partially folded states). Include error propagation and discuss the sensitivity of the estimate to assumptions about the location of helical content.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / functional relevance
+  - **Claim pointer** The helix "provides a structural framework for future studies on interaction partners and potential functional roles of this structural motif."
+  - **Evidence pointer** Conclusion section; Discussion section "Comparison With Other Structural Motifs in Gab1"
+  - **Concern** The functional significance of the helix is entirely speculative. No binding experiments, mutagenesis studies, or cellular assays are presented to link the helix to any biological function. The comparison with other SH2 domain complexes is descriptive and does not establish whether the helix around Tyr183 would enhance, inhibit, or alter binding relative to a disordered conformation.
+  - **Why it matters** The broader relevance of the finding depends on whether the helix has functional consequences. Without any functional data, the manuscript reads as a structural characterization with limited biological insight, which may not meet the threshold for broad interest.
+  - **Resolution test** Add at least one functional experiment, such as binding assays with a known or candidate SH2 domain partner comparing wild-type and helix-disrupting mutants, or cellular phosphorylation assays. Alternatively, clearly reframe the manuscript as a purely structural study and temper claims of functional relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section "NMR Spectroscopy"
+  - **Evidence pointer** Methods section, NMR Spectroscopy paragraph
+  - **Issue** The NMR experiments are described for a 1 mM 15N13C sample, but the relaxation experiments were conducted on a different spectrometer (600 MHz) than the main assignment experiments (800 MHz). The buffer conditions for the relaxation experiments are not specified.
+  - **Required correction** Specify the buffer conditions for all NMR experiments, including the relaxation measurements. Clarify whether the relaxation data were collected on the same sample and under the same conditions as the structure determination.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section "Circular Dichroism (CD) Spectroscopy"
+  - **Evidence pointer** Methods section, CD Spectroscopy paragraph
+  - **Issue** The CD measurements were performed at 1 mg/mL, which is a high concentration for CD and may lead to aggregation or non-linear effects. The manuscript does not discuss this choice or provide evidence that the sample is monomeric under these conditions.
+  - **Required correction** Justify the protein concentration used for CD or provide evidence (e.g., concentration-dependent CD spectra, dynamic light scattering) that aggregation does not affect the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Computational Preanalysis"
+  - **Evidence pointer** Figure 3A and 3B
+  - **Issue** The IUPred3 prediction shows "some secondary structure potential" around Tyr162 and Tyr183, but the text does not quantify this or compare it to other regions of the protein. The AlphaMissense predictions are described qualitatively.
+  - **Required correction** Provide numerical scores for the relevant regions and, if possible, a statistical comparison to the rest of the disordered tail to support the claim that these regions are unusual.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Comparison With Other Structural Motifs in Gab1"
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The sentence "a significant moiety in the ensemble of conformations of these eight residues is disordered" is vague. The term "moiety" is unusual in this context and the fraction is not quantified.
+  - **Required correction** Replace "moiety" with "fraction" and provide a quantitative estimate of the disordered fraction, consistent with the population analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Synthetic Phosphopeptides"
+  - **Evidence pointer** Methods section, Synthetic Phosphopeptides paragraph
+  - **Issue** The synthetic peptides are described, but their sequences are not provided in the main text. The double-phosphorylated peptide (Thr157-Lys192) is mentioned, but the exact phosphorylation sites and sequence context are unclear.
+  - **Required correction** Provide the full sequences of all synthetic peptides used, including phosphorylation sites, either in the main text or as a supplementary table.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing structure validation), R1-M2 (insufficient quantitative analysis of condition-dependent stability)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The identification of a specific α-helix around Tyr183 in Gab1 is novel, but the general phenomenon of prestructured motifs in IDPs is well established. The work does not introduce new concepts or methods.
+  - **Scientific importance** Moderate. The finding may be relevant to Gab1 signaling and SH2 domain recognition, but the functional implications are not demonstrated. The work is unlikely to change paradigms in the field.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to biophysicists and structural biologists working on IDPs. The signaling context is mentioned but not developed sufficiently to attract a broader cell biology audience.
+  - **Technical soundness** The core NMR and CD experiments appear technically sound, but the missing validation data and quantitative analyses (R1-M1, R1-M2) prevent full assessment. The population estimate is based on assumptions that need justification.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible, with clear explanations of the methods and results. However, some sections (e.g., the comparison with other SH2 complexes) assume familiarity with the signaling context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The main claim of an inherent α-helix around Tyr183 is plausible and supported by preliminary data, but the missing structure statistics and quantitative condition-dependent analyses must be provided. The functional significance should be either demonstrated or clearly framed as speculative.
+
+## Risk / unsupported claims
+- The claim that the helix is "maintained" across pH, peptide length, and phosphorylation status is not quantitatively supported (R1-M2).
+- The ~40% helix population estimate is based on assumptions that are not fully justified (R1-M3).
+- The statement that the helix "provides a structural framework for future studies on interaction partners and potential functional roles" is speculative and not supported by any functional data (R1-M4).
+- The claim that the region around Tyr162 shows "some loss of flexibility" is based on qualitative relaxation data; no quantitative comparison to other regions is provided.
+- The assertion that the helix "distinguishes the local structural environment of Tyr162 and Tyr183" is supported by the data, but the functional consequence of this distinction is not established.

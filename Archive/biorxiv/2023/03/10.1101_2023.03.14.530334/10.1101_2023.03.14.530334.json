@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.14.530334",
+  "title": "Identifying interaction interface between Pseudomonas major biofilm forming functional amyloid FapC and disordered chaperone FapA during fibrillation deceleration",
+  "doi": "10.1101/2023.03.14.530334",
+  "abstract": "Functional bacterial amyloids (FuBA) play a crucial role in the formation of biofilms, which are mediating chronic infections and contribute to antimicrobial resistance. This study focuses on the FapC protein from Pseudomonas , a major contributor to biofilm formation. We investigate the initial steps of FapC amyloid formation and the impact of the chaperone-like protein FapA on this process. Using solution NMR spectroscopy, we show that both FapC and FapA, which are part of the same biofilm-forming protein operon, are intrinsically disordered proteins (IDPs) in their soluble monomeric state. These SSPs were determined and compared to the Alphafold models. We further demonstrate that the IDP chaperone FapA interacts with FapC and significantly slows down the formation of FapC fibrils, while maintaining the fibril morphology unchanged. Our NMR titration experiments reveal that ∼18% of the resonances show FapA induced chemical shift perturbations (CPSs) which has not been previously observed, the largest being for A82, N201, C237, C240, A241 and G245 residues. These sites may suggest a specific interaction site and/or hotspots of fibrillation inhibition/control interface at the R1/L2 and L2/R3 transition areas and at the C-terminus of FapC. Remarkably, ∼90% of FapA NMR signals exhibit substantial CSPs upon titration with FapC. A temperature dependent effect of FapA was observed on FapC by ThT and NMR experiments. This study provides a detailed understanding of the interaction between the chaperone/chaperone-like FapA and the functional amyloid protein FapC, shedding light on the regulation and slowing down of amyloid formation. Our findings have important implications for the development of therapeutic strategies targeting biofilms and associated infections, leveraging these structural and mechanistic insights.",
+  "authors": [
+    "Byeon C",
+    "Saricayir H",
+    "Hansen KH",
+    "Jeffrey J",
+    "Andreasen M",
+    "Akbey Ü"
+  ],
+  "published_date": "2023-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.530334",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.530334.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR630606",
+    "raw_record": {
+      "id": "PPR630606",
+      "source": "PPR",
+      "doi": "10.1101/2023.03.14.530334",
+      "title": "Identifying interaction interface between  <i>Pseudomonas</i>  major biofilm forming functional amyloid FapC and disordered chaperone FapA during fibrillation deceleration",
+      "authorString": "Byeon C, Saricayir H, Hansen KH, Jeffrey J, Andreasen M, Akbey Ü.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Byeon C",
+            "lastName": "Byeon",
+            "firstName": "Chang-Hyeock",
+            "initials": "C"
+          },
+          {
+            "fullName": "Saricayir H",
+            "lastName": "Saricayir",
+            "firstName": "Hakan",
+            "initials": "H"
+          },
+          {
+            "fullName": "Hansen KH",
+            "lastName": "Hansen",
+            "firstName": "Kasper Holst",
+            "initials": "KH"
+          },
+          {
+            "fullName": "Jeffrey J",
+            "lastName": "Jeffrey",
+            "firstName": "Jasper",
+            "initials": "J"
+          },
+          {
+            "fullName": "Andreasen M",
+            "lastName": "Andreasen",
+            "firstName": "Maria",
+            "initials": "M"
+          },
+          {
+            "fullName": "Akbey Ü",
+            "lastName": "Akbey",
+            "firstName": "Ümit",
+            "initials": "Ü",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3161-2969"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3161-2969"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Functional bacterial amyloids (FuBA) play a crucial role in the formation of biofilms, which are mediating chronic infections and contribute to antimicrobial resistance. This study focuses on the FapC protein from  Pseudomonas , a major contributor to biofilm formation. We investigate the initial steps of FapC amyloid formation and the impact of the chaperone-like protein FapA on this process. Using solution NMR spectroscopy, we show that both FapC and FapA, which are part of the same biofilm-forming protein operon, are intrinsically disordered proteins (IDPs) in their soluble monomeric state. These SSPs were determined and compared to the Alphafold models. We further demonstrate that the IDP chaperone FapA interacts with FapC and significantly slows down the formation of FapC fibrils, while maintaining the fibril morphology unchanged. Our NMR titration experiments reveal that ∼18% of the resonances show FapA induced chemical shift perturbations (CPSs) which has not been previously observed, the largest being for A82, N201, C237, C240, A241 and G245 residues. These sites may suggest a specific interaction site and/or hotspots of fibrillation inhibition/control interface at the R1/L2 and L2/R3 transition areas and at the C-terminus of FapC. Remarkably, ∼90% of FapA NMR signals exhibit substantial CSPs upon titration with FapC. A temperature dependent effect of FapA was observed on FapC by ThT and NMR experiments. This study provides a detailed understanding of the interaction between the chaperone/chaperone-like FapA and the functional amyloid protein FapC, shedding light on the regulation and slowing down of amyloid formation. Our findings have important implications for the development of therapeutic strategies targeting biofilms and associated infections, leveraging these structural and mechanistic insights.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/15/2023.03.14.530334.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.14.530334"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-17",
+      "firstPublicationDate": "2023-03-15",
+      "firstIndexDate": "2023-03-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a graph neural network (GNN) approach to predict transcriptional activation domain (AD) function, using residue-level and atom-level graph representations of intrinsically disordered AD sequences. They report a residue-level GNN with a specific feature combination achieving accuracy of 97.9%, F1 score of 71%, and AUROC of 97.1%, outperforming existing methods on their dataset. They also report logistic regression feature importance analyses identifying amino acid frequency as the dominant feature, with functional sequences enriched in acidic and aromatic residues and depleted in basic residues.
+- **Visible evidence base** Abstract text only; no methodological details, dataset description, baseline comparisons, or statistical validation are provided
+- **Missing materials affecting confidence** Full manuscript, dataset composition and size, train/test split procedures, hyperparameter settings, baseline method implementations, cross-validation strategy, feature definitions, structural data sources, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph neural networks to a challenging biological prediction problem. However, the evidence provided is insufficient to evaluate the validity, generalizability, or novelty of the claims. Several internal inconsistencies and unquantified statements reduce confidence in the reported results. The work may be of interest to computational biologists and researchers studying transcriptional regulation, but the current abstract does not establish the case for the method's superiority or practical utility.
+- **Who would be interested in the results, and why** Computational biologists developing machine learning methods for protein function prediction, researchers studying transcriptional activation mechanisms, and bioinformaticians interested in applying graph neural networks to intrinsically disordered proteins. The potential to move beyond sequence-only features toward structural representations could appeal to those seeking improved predictive models for regulatory elements.
+- **Major strengths** The application of graph neural networks to activation domain prediction is a reasonable and potentially underexplored direction. The authors consider multiple graph formulations and feature combinations, which suggests a systematic exploration. The inclusion of structural features such as secondary structure and amphipathic helix properties is conceptually motivated by the biology of activation domains.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The residue-level GNN model achieved accuracy of 97.9%, F1 score of 71%, and AUROC of 97.1%, outperforming other existing methods in the literature when applied on the dataset we used.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The reported performance metrics are internally inconsistent. An accuracy of 97.9% with an F1 score of 71% implies a highly imbalanced dataset or a large number of false positives or false negatives. The abstract does not report the class distribution, the number of positive and negative examples, or the threshold used for classification. Without this information, the F1 score and accuracy cannot be reconciled, and the practical utility of the model is unclear.
+  - **Why it matters** If the dataset is highly imbalanced, accuracy is a misleading metric, and the F1 score of 71% suggests the model may not be as effective as the accuracy implies. The claim of outperforming existing methods cannot be assessed without knowing the baseline implementations, the evaluation protocol, and whether the same dataset and splits were used.
+  - **Resolution test** Provide the confusion matrix, class distribution, and the exact evaluation protocol. Report performance of all baseline methods under identical conditions, including confidence intervals or statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Almost all existing methods that have aimed to predict activation domains have involved traditional machine learning approaches, such as logistic regression, that are unable to capture complex patterns in data or plain convolutional neural networks and have been limited in exploration of structural features.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract makes a broad claim about the limitations of existing methods without citing specific prior work or providing a systematic comparison. The statement that logistic regression is "unable to capture complex patterns" is an oversimplification, as logistic regression with appropriate feature engineering can perform well on many tasks. The claim that convolutional neural networks have been "limited in exploration of structural features" is vague and not substantiated.
+  - **Why it matters** The novelty of the proposed approach depends on a clear demonstration that existing methods are inadequate. Without a rigorous comparison to state-of-the-art methods, including those using structural features, the contribution of the GNN approach is not established.
+  - **Resolution test** Provide a literature review with specific citations and a benchmark comparison against multiple existing methods, including those using structural features, on the same dataset with identical evaluation criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Our results consistent have shown that functional sequences have more acidic and aromatic residues whereas basic residues are seen more in non-functional sequences.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The sentence contains a grammatical error ("Our results consistent have shown") and the claim is presented without statistical support. The abstract does not report effect sizes, p-values, or confidence intervals for the differences in amino acid composition between functional and non-functional sequences. The logistic regression feature importance analysis is mentioned but no quantitative results are provided.
+  - **Why it matters** The biological interpretation of the model depends on the reliability of the feature importance analysis. Without statistical validation, the claim that acidic and aromatic residues are enriched in functional sequences and basic residues in non-functional sequences cannot be evaluated.
+  - **Resolution test** Report the logistic regression coefficients, feature importance scores, and statistical tests for the differences in amino acid composition. Provide confidence intervals or effect sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The residue-level GNN model with amino acid type, residue position, acidic/basic/aromatic property and secondary structure feature combination gave the best performing model.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how the graph neural network is constructed for intrinsically disordered proteins, which lack stable tertiary structure. The authors mention "structural data" and "structural properties" but do not clarify what structural information is used for disordered regions. The atom-level graph formulation is mentioned but not described in any detail.
+  - **Why it matters** For a nonspecialist reader, the key innovation of using graph neural networks for disordered proteins is unclear. If the structural data are derived from predictions or simulations, the reliability of those inputs must be discussed. The lack of methodological detail prevents assessment of the approach's validity and limits its accessibility to a broader audience.
+  - **Resolution test** Provide a clear description of the graph construction, the source of structural information for disordered proteins, and the rationale for the atom-level formulation. Include a schematic or example.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence "Our results consistent have shown" contains a grammatical error that disrupts readability.
+  - **Required correction** Revise to "Our results consistently show" or "Our results are consistent with the finding that".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports accuracy, F1 score, and AUROC but does not specify whether these are from a held-out test set, cross-validation, or the training set.
+  - **Required correction** Specify the evaluation protocol and report metrics on a held-out test set with standard deviations or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of outperforming "other existing methods in the literature" is made without naming the methods or providing a comparison table.
+  - **Required correction** List the baseline methods and provide a table with performance metrics for all methods on the same dataset.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Feature description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The feature "acidic/basic/aromatic property" is not defined. It is unclear whether this is a binary indicator, a continuous score, or a categorical variable.
+  - **Required correction** Define all features used in the model and explain how they are computed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inconsistent metrics and missing evaluation details), R1-M2 (unsupported claims about existing methods), R1-M3 (lack of statistical support for biological claims), R1-M4 (insufficient methodological detail for graph construction on disordered proteins)
+- **Assessment against Nature-style criteria** Originality: The application of graph neural networks to activation domain prediction is a reasonable direction, but the abstract does not demonstrate sufficient novelty over existing sequence-based or structure-aware methods. Scientific importance: The problem of predicting activation domain function is biologically relevant, but the abstract does not establish the broader impact or generalizability of the approach. Interdisciplinary readership: The abstract is written for a specialized computational audience and lacks sufficient context for biologists or general readers. Technical soundness: The reported metrics are internally inconsistent and the evaluation protocol is not described, so the technical validity cannot be assessed. Readability for nonspecialists: The abstract is dense and contains undefined terms and a grammatical error, which reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the methodological detail, statistical rigor, and baseline comparisons needed to support the claims. The authors should address the major concerns, particularly the metric inconsistency and the lack of evaluation details, before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the residue-level GNN outperforms existing methods is unsupported without baseline implementations and identical evaluation conditions.
+- The claim that acidic and aromatic residues are enriched in functional sequences and basic residues in non-functional sequences is unsupported without statistical tests.
+- The claim that existing methods are "unable to capture complex patterns" or "limited in exploration of structural features" is unsupported without a systematic literature comparison.
+- The performance metrics (accuracy 97.9%, F1 71%, AUROC 97.1%) cannot be reconciled without class distribution and threshold information.
+- The methodological description of graph construction for intrinsically disordered proteins is insufficient to evaluate the approach.

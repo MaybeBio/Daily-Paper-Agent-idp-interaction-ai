@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors claim that temperature-dependent CW-EPR with site-directed spin labeling resolves domain-specific dissociation pathways of the MAX:MAX homodimer and MAX:MAX–DNA complex. They report sequential unfolding (NTD → HLH → LZ) in the DNA-free state, cooperative all-or-none dissociation in the DNA-bound state, and that a BRCA1 fragment (residues 219–504) facilitates dissociation by competitively destabilizing DNA contacts without perturbing the LZ dimer.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Conclusions, Materials and Methods. Figures 1–4 are referenced but not provided. Supporting Information (Figs. S1–S4, S5–S13, Script S1) is referenced but not provided.
+- **Missing materials affecting confidence** All figures and tables (Figs. 1–4, Table 1), all Supporting Information, raw EPR spectra, NMR control data, fitting scripts, and quantitative fitting parameters. The sigmoidal fit equation is missing from the Methods. No error analysis or replicate information is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a mechanistically important question in transcription factor dynamics and proposes CW-EPR as a domain-resolved tool. The conceptual framework is interesting and the hypothesis is clearly stated. However, the central claims rest on quantitative analyses (Tc values, two-component fits, cooperative transitions) for which the actual data, fitting procedures, and statistical validation are not visible in the provided material. The evidence base is therefore insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in transcription factor biology, protein–DNA interaction dynamics, and biophysical methodology. Those studying facilitated dissociation, intrinsically disordered proteins, or the MYC/MAX axis would find the mechanistic claims relevant. Methodologists in EPR spectroscopy may be interested in the application of CW-EPR to protein–DNA complexes, though the novelty of the approach itself is not fully established from the provided text.
+- **Major strengths** The question is well-motivated and timely. The use of site-directed spin labeling at three distinct domains is a sensible strategy for domain-resolved monitoring. The comparison across three conditions (DNA-free, DNA-bound, DNA-bound with BRCA1) is a logical design. The authors acknowledge complexity in interpreting EPR population shifts and include NMR control experiments, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Tc values for R5C, G35C, and R55C in the DNA-free state are approximately 305 K, 310 K, and 322 K, respectively, and that these correspond to domain-specific stabilities.
+  - **Evidence pointer** Figure 4, Table 1, location not provided
+  - **Concern** The Tc values are central to the sequential unfolding claim, but the figures and table are not provided. No error estimates, replicate numbers, or statistical comparisons are reported. The sigmoidal fitting equation is missing from the Methods, and the fitting procedure is described only qualitatively.
+  - **Why it matters** Without the actual data and fitting details, the reader cannot assess whether the reported Tc differences are robust or within noise. The sequential unfolding model depends entirely on these values being meaningfully distinct.
+  - **Resolution test** Provide Figure 4 and Table 1 with error bars, replicate counts, and statistical tests. Provide the full fitting equation and goodness-of-fit metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DNA binding shifts the dissociation profile to a cooperative all-or-none transition, with all labels crossing over at approximately 322 K.
+  - **Evidence pointer** Figure 3B, Supporting Information Figs. S2–S4, location not provided
+  - **Concern** The cooperativity claim is based on the convergence of Tc values across three labels, but the supporting figures are not provided. The sharpness of the transition is described qualitatively. No quantitative measure of cooperativity (e.g., Hill coefficient) is reported.
+  - **Why it matters** Cooperativity is a strong mechanistic claim. Without quantitative evidence of a sharp, concerted transition, the interpretation remains speculative.
+  - **Resolution test** Provide the DNA-bound EPR data and fits, with quantitative measures of transition sharpness and a statistical comparison of Tc values across labels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that BRCA1 219–504 selectively destabilizes DNA contacts in the NTD and HLH regions without perturbing the LZ, resulting in facilitated dissociation.
+  - **Evidence pointer** Figure 3C, Figure 4, location not provided
+  - **Concern** The BRCA1 effect is reported as shifts in Tc for R5C and G35C, but the data are not shown. The claim that BRCA1 does not affect the LZ is based on R55C being unaffected, but no quantitative comparison is provided. The mechanism of competition is inferred rather than directly demonstrated.
+  - **Why it matters** The facilitated dissociation claim is the most novel aspect of the manuscript. It requires direct evidence that BRCA1 competes for DNA binding and that the observed Tc shifts are due to this competition rather than other effects.
+  - **Resolution test** Provide the BRCA1-containing EPR data, quantitative Tc comparisons, and ideally a direct binding assay showing BRCA1–DNA interaction under the same conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the spin-labeling mutations (R5C, G35C, R55C) do not perturb dimerization or ligand binding, citing references 15 and 28.
+  - **Evidence pointer** Results, location not provided
+  - **Concern** The claim of non-perturbation is essential for the validity of all EPR measurements, but it is only supported by citations to prior work. No data from the current study are shown to confirm that the labeled variants behave like the wild-type protein under the specific conditions used here.
+  - **Why it matters** If the mutations alter protein stability or DNA affinity, the Tc values and dissociation pathways may not reflect the behavior of the native protein.
+  - **Resolution test** Provide experimental validation (e.g., binding affinity measurements, oligomerization state assessment) for the labeled variants under the conditions used in this study.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors interpret Tc values as domain-specific unfolding temperatures and equate the order of Tc values with a sequential dissociation pathway.
+  - **Evidence pointer** Results, Discussion, location not provided
+  - **Concern** The relationship between spin-label mobility changes and actual domain unfolding is not established. The authors acknowledge that the EPR-detected population shifts are ensemble-averaged reporters of composite motions, but the interpretation in the Discussion treats Tc as a direct measure of domain stability. The stepwise model may be an oversimplification.
+  - **Why it matters** Overinterpretation of Tc as a direct unfolding temperature could mislead readers about the mechanistic certainty of the proposed pathway.
+  - **Resolution test** Provide additional validation that the observed EPR changes correspond to unfolding events (e.g., circular dichroism or NMR under identical conditions), or temper the language to reflect the indirect nature of the inference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Simulations and Data Fitting
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The sigmoidal fitting equation is missing from the Methods. The text reads "of equation: ." with no equation provided.
+  - **Required correction** Provide the full equation and define all parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Sequential unfolding of MAX
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The phrase "the unfolded NTD with the most significant conformational plasticity transitions first" is awkward and potentially ambiguous. It is unclear whether "transitions" refers to unfolding or to the EPR-detected population shift.
+  - **Required correction** Rephrase for clarity, e.g., "The NTD, which has the highest conformational plasticity, undergoes the transition at the lowest temperature."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, DNA Binding Shifts the Dissociation Profile
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The claim that "only above 320 K did the fast component dominate the spectra" is presented without quantitative support. The threshold of 320 K appears arbitrary.
+  - **Required correction** Provide the actual population fractions or a quantitative criterion for "dominate."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Abstract vs. Results
+  - **Evidence pointer** Abstract, Results, location not provided
+  - **Issue** The abstract states "stepwise dissociation process" while the Results describe "sequential unfolding." These terms are related but not identical; the abstract implies a dissociation pathway while the Results focus on unfolding. Clarify the relationship.
+  - **Required correction** Use consistent terminology throughout, or explicitly define how unfolding relates to dissociation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods, EPR
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The modulation amplitude is given (0.25 G), but other acquisition parameters (microwave power, sweep width, time constant, number of scans) are not reported.
+  - **Required correction** Provide full acquisition parameters for reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (Tc values without data or statistics), R1-M2 (cooperativity claim without quantitative support), R1-M3 (BRCA1 mechanism without direct evidence), R1-M4 (spin-label variant validation not shown), R1-M5 (overinterpretation of Tc as unfolding temperature).
+- **Assessment against Nature-style criteria** Originality: The application of CW-EPR to domain-resolved dissociation monitoring is potentially original, but the novelty relative to existing EPR studies on protein–DNA systems is not clearly established. Scientific importance: The question of facilitated dissociation in transcription factors is important, and the MYC/MAX axis is biomedically relevant. However, the importance of the specific findings cannot be fully assessed without the data. Interdisciplinary readership: The topic bridges biophysics, molecular biology, and spectroscopy, and the writing is generally accessible. Technical soundness: The experimental design is reasonable, but the lack of visible data, fitting details, and statistical validation prevents assessment of technical soundness. Readability for nonspecialists: The manuscript is clearly written and the conceptual narrative is easy to follow, though some EPR-specific terminology may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework and experimental design are promising, but the central quantitative claims cannot be evaluated without the figures, tables, and Supporting Information. The manuscript would need to be re-reviewed with the full data set before a supportive recommendation could be considered.
+
+## Risk / unsupported claims
+- Tc values of approximately 305 K, 310 K, and 322 K for R5C, G35C, and R55C in the DNA-free state (Figure 4 and Table 1 not provided)
+- Cooperative all-or-none transition in the DNA-bound state with convergence at approximately 322 K (Figure 3B and Figs. S2–S4 not provided)
+- BRCA1-induced reduction of Tc for R5C and G35C by approximately 4 K relative to DNA-bound state (Figure 3C and Figure 4 not provided)
+- Claim that R55C is unaffected by BRCA1 (Figure 4 not provided)
+- Claim that spin-labeling mutations do not perturb dimerization or ligand binding (only cited to prior work, not demonstrated here)
+- Claim that NMR control experiments rule out label-induced artifacts (Fig. S1 not provided)
+- Claim that the sigmoidal fits are robust and minimal (fitting equation and goodness-of-fit metrics not provided)

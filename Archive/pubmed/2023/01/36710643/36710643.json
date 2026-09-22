@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "36710643",
+    "doi": "10.1002/pro.4581",
+    "title": "Partial mimicry of the microtubule binding of tau by its membrane binding."
+  },
+  "content": {
+    "abstract": "Tau, as typical of intrinsically disordered proteins (IDPs), binds to multiple targets including microtubules and acidic membranes. The latter two surfaces are both highly negatively charged, raising the prospect of mimicry in their binding by tau. The tau-microtubule complex was recently determined by cryo-electron microscopy. Here, we used molecular dynamics simulations to characterize the dynamic binding of tau K19 to an acidic membrane. This IDP can be divided into three repeats, each containing an amphipathic helix. The three amphipathic helices, along with flanking residues, tether the protein to the membrane interface. The separation between and membrane positioning of the amphipathic helices in the simulations are validated by published EPR data. The membrane contact probabilities of individual residues in tau show both similarities to and distinctions from native contacts with microtubules. In particular, a Lys that is conserved among the repeats forms similar interactions with membranes and with microtubules, as does a conserved Val. This partial mimicry facilitates both the membrane anchoring of microtubules by tau and the transfer of tau from membranes to microtubules.",
+    "keywords": [
+      "binding mimicry",
+      "intrinsically disordered proteins",
+      "membrane binding",
+      "microtubule-associated proteins",
+      "tau"
+    ],
+    "mesh_terms": [
+      "Cryoelectron Microscopy",
+      "*tau Proteins/chemistry",
+      "Protein Binding",
+      "*Microtubules/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "MacAinsh, Matthew",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "MacAinsh M",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois, USA.",
+        "Department of Physics, University of Illinois at Chicago, Chicago, Illinois, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "MacAinsh, Matthew",
+        "short_name": "MacAinsh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois, USA.",
+          "Department of Physics, University of Illinois at Chicago, Chicago, Illinois, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/31 06:00",
+    "fetched_at": "2026-09-20 18:57:53"
+  },
+  "links": {
+    "cites": [
+      "40864900",
+      "39952269",
+      "39579121",
+      "38560754",
+      "37894559",
+      "36889962",
+      "36863659"
+    ],
+    "refs": [
+      "36959324",
+      "36087777",
+      "36004506",
+      "35996000",
+      "35759677",
+      "34963892",
+      "34621743",
+      "33990334",
+      "33554215",
+      "33543942",
+      "33481784",
+      "32770092",
+      "31175300",
+      "29636414",
+      "29472250",
+      "28819146",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25764013",
+      "25229151",
+      "22521809",
+      "21388709",
+      "20658995",
+      "20513417",
+      "18596978",
+      "18351591",
+      "18202255",
+      "11746699",
+      "11517324",
+      "9763511",
+      "8985176",
+      "8522593",
+      "3098742",
+      "2484340",
+      "146092"
+    ],
+    "similar": [
+      "36710643",
+      "15147841",
+      "29748322",
+      "25229151",
+      "30992364",
+      "26094605",
+      "38512660",
+      "29314492",
+      "7566345",
+      "8590813",
+      "17307736",
+      "37702417",
+      "30884818",
+      "17329123",
+      "32696377",
+      "35857846",
+      "31995742",
+      "31358628",
+      "29167379",
+      "28819146",
+      "26034266",
+      "12082079",
+      "9099953",
+      "23019339",
+      "8068626",
+      "25944224",
+      "27911791",
+      "22521809",
+      "30909607",
+      "39092904",
+      "36372288",
+      "33017094",
+      "38489841",
+      "23027743",
+      "26351734",
+      "38512661",
+      "30259679",
+      "35135879",
+      "23740819",
+      "29215007",
+      "25162583",
+      "31879899",
+      "31539262",
+      "21757739",
+      "31462746",
+      "8624133",
+      "36373666",
+      "25165145",
+      "28636913",
+      "25691742",
+      "7669769",
+      "15855160",
+      "22891813",
+      "16818492",
+      "23659998",
+      "20308058",
+      "28882299",
+      "25196605",
+      "24733915",
+      "28882300",
+      "17029411",
+      "34032430",
+      "15020716",
+      "35381286",
+      "15671021",
+      "12051695",
+      "26953146",
+      "17964939",
+      "27785513",
+      "18940799",
+      "26684364",
+      "18691553",
+      "31927402",
+      "19769346",
+      "1599956",
+      "2494169",
+      "28882301",
+      "36416224",
+      "11438517",
+      "30587819",
+      "34730359",
+      "12505985",
+      "30088680",
+      "29039655",
+      "10527895",
+      "16960886",
+      "24251416",
+      "30315096",
+      "37258650",
+      "16272135",
+      "15096589",
+      "9281584",
+      "31004638",
+      "17008320",
+      "8120098",
+      "32696379",
+      "10491150",
+      "12650922",
+      "9190213",
+      "34572521"
+    ],
+    "review": [
+      "36710643",
+      "7566345",
+      "30884818",
+      "31539262",
+      "8624133",
+      "26684364",
+      "30315096"
+    ],
+    "pmc": [
+      "9926470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36710643.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36710643/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36710643",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4581",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

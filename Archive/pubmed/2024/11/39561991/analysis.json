@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39561991",
+  "title": "Accelerated Amyloid Aggregation Dynamics of Intrinsically Disordered Proteins in Heavy Water.",
+  "authors": "Son, Myung Kook; Im, Dongjoon; Hyun, Da Gyeong; Kim, Soohyeong; Chun, So Yeon; Choi, Jeong-Mo; Choi, Tae Su; Cho, Minhaeng; Kwak, Kyungwon; Kim, Hugh I",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2024-11-20",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合分子动力学模拟与伞形采样，探讨重水加速α-突触核蛋白等无序蛋白淀粉样纤维化动力学，虽聚焦IDP聚集而非直接PPI，但通过物理模拟揭示溶剂环境对β-折叠纤维稳定化的机制，对无序蛋白互作机制建模有方法学启发。",
+  "abstract": "We explored the influence of D(2)O on the fibrillation kinetics and structural dynamics of amyloid intrinsically disordered proteins (IDPs), including alpha-synuclein, amyloid-beta 1-42, and K18. Our findings revealed that fibrillation of IDPs was accelerated in D(2)O compared to that in H(2)O, exhibiting faster kinetics in contrast to the structured protein, insulin. Structural investigations using electrospray ionization ion mobility mass spectrometry and small-angle X-ray scattering combined with molecular dynamics simulations demonstrated that IDPs did not show significant structural changes that could influence accelerated fibrillation in D(2)O. Umbrella sampling of protein protofibrils verified that an increased level of hydrogen bonding of D(2)O and enhanced hydrophobic interactions stabilized beta-sheet structured fibrils in D(2)O. These findings indicate that stabilizing beta-sheet fibrils and a more hydrophobic microenvironment in D(2)O result in enhanced and faster fibrillation of IDPs. The study highlights the importance of considering D(2)O's differential impact on protein interactions when conducting structural and kinetic analyses, particularly for native peptides and proteins.",
+  "abstract_zh": "我们探讨了D(2)O对淀粉样 intrinsically disordered proteins (IDPs)（包括α-突触核蛋白、淀粉样β 1-42和K18）纤维化动力学和结构动力学的影响。我们的发现表明，与H(2)O相比，IDPs在D(2)O中的纤维化加速，表现出比结构化蛋白胰岛素更快的动力学。使用电喷雾电离离子迁移质谱和小角X射线散射结合分子动力学模拟的结构研究表明，IDPs在D(2)O中未显示出可能影响加速纤维化的显著结构变化。蛋白质原纤维的伞形采样验证了D(2)O中氢键水平增加和增强的疏水相互作用稳定了β-折叠结构的纤维。这些发现表明，在D(2)O中稳定β-折叠纤维和更疏水的微环境导致IDPs纤维化增强和加速。该研究强调了在进行结构和动力学分析时考虑D(2)O对蛋白质相互作用的差异影响的重要性，特别是对于天然肽和蛋白质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39561991/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39561991/",
+  "paper_page_path": "papers/pubmed/39561991/index.html"
+}

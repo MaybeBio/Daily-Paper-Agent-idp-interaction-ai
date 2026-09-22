@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.31.596839",
+  "title": "Molecular insight into the <i>Drosophila</i> piRNA pathway network through a combination of systematic protein interaction screening and structural prediction",
+  "authors": "Harpreet Kaur Salgania; Jutta Metz; Eric Lingren; Christian Bleischwitz; David Hauser; Katalin Oliveras Máté; Daniel Bollack; Felix Lahr; Asen Garbelyanski; Mandy Jeske",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-01",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过ReLo筛选和AlphaFold-Multimer结构预测系统解析果蝇piRNA通路中22个因子的蛋白互作网络，虽非无序蛋白/相分离对象，但PPI筛选与结构预测结合的方法对互作机制建模有可迁移启发。",
+  "abstract": "piRNA-bound PIWI proteins mediate the silencing of transposons at both the transcriptional and post-transcriptional levels, processes that are critical for genome integrity and fertility in animals. While numerous additional proteins are known to be essential for piRNA biogenesis and function in Drosophila and other animals, their molecular and mechanistic functions have remained largely unknown. To improve our molecular understanding of the Drosophila piRNA pathway, we used a cell culture-based protein-protein interaction assay called ReLo to perform a systematic pairwise interaction screen involving 22 factors operating in the cytoplasm, including PIWI proteins, Tudor domain-containing proteins (TDRDs), RNA helicases, and mitochondrial surface proteins. Through additional ReLo interaction testing and structural modeling using AlphaFold-Multimer, we have characterized six protein complexes at the molecular and structural levels. We believe that the results of this screen and our methodological approach are likely to guide future research into the molecular mechanisms underlying piRNA biogenesis and function.",
+  "abstract_zh": "结合piRNA的PIWI蛋白在转录和转录后水平介导转座子沉默，这些过程对动物的基因组完整性和生育能力至关重要。尽管已知在果蝇及其他动物中，许多额外蛋白质对piRNA的生物发生和功能至关重要，但其分子和机制功能在很大程度上仍属未知。为了提升我们对果蝇piRNA通路的分子理解，我们利用一种基于细胞培养的蛋白质-蛋白质相互作用检测方法ReLo，对细胞质中运作的22个因子进行了系统性成对相互作用筛选，这些因子包括PIWI蛋白、含Tudor结构域的蛋白质（TDRDs）、RNA解旋酶及线粒体表面蛋白。通过进一步的ReLo相互作用测试及使用AlphaFold-Multimer进行结构建模，我们在分子和结构水平上表征了六个蛋白质复合物。我们相信，本筛选的结果及我们的方法论方法有望为未来研究piRNA生物发生和功能的分子机制提供指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596839",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596839",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.31.596839/index.html"
+}

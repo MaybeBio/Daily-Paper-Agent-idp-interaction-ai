@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41385824",
+  "title": "Next-generation predictors of protein phase behavior.",
+  "authors": "Pinette, Nicholas C; Terrado, Mailyn; Bui, Jennifer M; Lallous, Nada; Gsponer, Jorg",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了预测蛋白质相分离倾向和凝聚体定位的计算工具，聚焦无序蛋白相行为，但缺乏对PPI机制建模的深入探讨，方法以ML应用为主。",
+  "abstract": "Biomolecular condensates formed through protein phase separation are critical for cellular organization and regulation. Recent years have seen rapid growth in computational methods predicting proteins' phase separation propensity and condensate localization, fueled by expanding datasets and advances in machine learning. Here, we review recent progress and limitations of state-of-the-art tools. Despite improvements, current models often fail to capture the complexity of phase separation, which depends on molecular interactions and contextual factors such as temperature, ionic strength, and macromolecular crowding. Encouragingly, new approaches are beginning to incorporate these biological variables, moving toward more physiologically relevant predictions. To accelerate progress, we advocate for stricter metadata standards and a coordinated, community-wide benchmarking of predictive tools to ensure robust and reproducible models for inference of protein phase behavior.",
+  "abstract_zh": "通过蛋白质相分离（phase separation）形成的生物分子凝聚体（biomolecular condensates）对细胞组织和调控至关重要。近年来，随着数据集的扩展和机器学习（machine learning）的进步，预测蛋白质相分离倾向性和凝聚体定位的计算方法迅速增长。在此，我们回顾了最新工具的进展及其局限性。尽管有所改进，当前模型往往无法捕捉相分离的复杂性，这取决于分子相互作用以及温度、离子强度和大分子拥挤等情境因素。令人鼓舞的是，新方法开始纳入这些生物学变量，朝着更具生理相关性的预测方向发展。为加速进展，我们倡导更严格的元数据标准，并协调社区范围内的预测工具基准测试，以确保用于推断蛋白质相行为模型的稳健性和可重复性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41385824/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41385824/",
+  "paper_page_path": "papers/pubmed/41385824/index.html"
+}

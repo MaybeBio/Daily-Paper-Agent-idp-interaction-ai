@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36851914",
+  "title": "Computational prediction of disordered binding regions.",
+  "authors": "Basu, Sushmita; Kihara, Daisuke; Kurgan, Lukasz",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2023-03-01",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了38种预测无序蛋白结合区域（IDR结合区）的计算工具，涵盖AI/深度学习方法，并强调未来需建模复合物结构，与无序蛋白PPI机制建模高度相关但缺乏具体机制建模。",
+  "abstract": "One of the key features of intrinsically disordered regions (IDRs) is their ability to interact with a broad range of partner molecules. Multiple types of interacting IDRs were identified including molecular recognition fragments (MoRFs), short linear sequence motifs (SLiMs), and protein-, nucleic acids- and lipid-binding regions. Prediction of binding IDRs in protein sequences is gaining momentum in recent years. We survey 38 predictors of binding IDRs that target interactions with a diverse set of partners, such as peptides, proteins, RNA, DNA and lipids. We offer a historical perspective and highlight key events that fueled efforts to develop these methods. These tools rely on a diverse range of predictive architectures that include scoring functions, regular expressions, traditional and deep machine learning and meta-models. Recent efforts focus on the development of deep neural network-based architectures and extending coverage to RNA, DNA and lipid-binding IDRs. We analyze availability of these methods and show that providing implementations and webservers results in much higher rates of citations/use. We also make several recommendations to take advantage of modern deep network architectures, develop tools that bundle predictions of multiple and different types of binding IDRs, and work on algorithms that model structures of the resulting complexes.",
+  "abstract_zh": "固有无序区域（IDRs）的关键特征之一是其与广泛伙伴分子相互作用的能力。已识别出多种类型的相互作用IDRs，包括分子识别片段（MoRFs）、短线性序列基序（SLiMs）以及蛋白质、核酸和脂质结合区域。近年来，预测蛋白质序列中的结合IDRs日益受到关注。我们调查了38种针对不同伙伴（如肽、蛋白质、RNA、DNA和脂质）相互作用的结合IDRs预测器。我们提供了历史视角，并强调了推动这些方法发展的关键事件。这些工具依赖于多种预测架构，包括评分函数、正则表达式、传统和深度机器学习以及元模型。近期工作重点在于开发基于深度神经网络的架构，并将覆盖范围扩展至RNA、DNA和脂质结合的IDRs。我们分析了这些方法的可用性，并表明提供实现和网络服务器可显著提高引用/使用率。我们还提出若干建议，以利用现代深度网络架构，开发整合多种不同类型结合IDRs预测的工具，并致力于建模所得复合物结构的算法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36851914/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36851914/",
+  "paper_page_path": "papers/pubmed/36851914/index.html"
+}

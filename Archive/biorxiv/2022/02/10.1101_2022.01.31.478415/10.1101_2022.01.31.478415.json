@@ -1,0 +1,225 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.01.31.478415",
+  "title": "Toward Atomistic Models of Intact SARS-CoV-2 via Martini Coarse-Grained Molecular Dynamics Simulations",
+  "doi": "10.1101/2022.01.31.478415",
+  "abstract": "The causative pathogen of Coronavirus disease 2019 (COVID-19), severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is an enveloped virus assembled by a lipid envelope and multiple structural proteins. In this study, by integrating experimental data, structural modeling, and coarse-grained molecular dynamics simulations, we constructed multiscale models of SARS-CoV-2. Our 500-ns coarse-grained simulation of the intact virion allowed us to investigate the dynamic behavior of the membrane-embedded proteins and the surrounding lipid molecules in situ . Our results indicated that the membrane-embedded proteins are highly dynamic, and certain types of lipids exhibit various binding preferences to specific sites of the membrane-embedded proteins. The equilibrated virion model was transformed into atomic resolution, which provided a 3D structure for scientific demonstration and can serve as a framework for future exascale all-atom MD simulations.",
+  "authors": [
+    "Wang D",
+    "Li J",
+    "Wang L",
+    "Cao Y",
+    "Li S",
+    "Song C"
+  ],
+  "published_date": "2022-02-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.01.31.478415",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.01.31.478415.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR449638",
+    "raw_record": {
+      "id": "PPR449638",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR449638"
+        ]
+      },
+      "doi": "10.1101/2022.01.31.478415",
+      "title": "Toward Atomistic Models of Intact SARS-CoV-2 via Martini Coarse-Grained Molecular Dynamics Simulations",
+      "authorString": "Wang D, Li J, Wang L, Cao Y, Li S, Song C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang D",
+            "lastName": "Wang",
+            "firstName": "Dali",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China"
+                },
+                {
+                  "affiliation": "Peking-Tsinghua Center for Life Sciences, Beijing, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li J",
+            "lastName": "Li",
+            "firstName": "Jiaxuan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cao Y",
+            "lastName": "Cao",
+            "firstName": "Yipeng",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin 300060, China"
+                },
+                {
+                  "affiliation": "National Supercomputer Center in Tianjin, Tianjin 300457, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li S",
+            "lastName": "Li",
+            "firstName": "Sai",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Peking-Tsinghua Center for Life Sciences, Beijing, China"
+                },
+                {
+                  "affiliation": "School of Life Sciences, Tsinghua University, Beijing 100084, China"
+                },
+                {
+                  "affiliation": "Beijing Advanced Innovation Center for Structural Biology & Frontier Research Center for Biological Structure, Beijing 100084, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Song C",
+            "lastName": "Song",
+            "firstName": "Chen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China"
+                },
+                {
+                  "affiliation": "Peking-Tsinghua Center for Life Sciences, Beijing, China"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9353-0355"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The causative pathogen of Coronavirus disease 2019 (COVID-19), severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is an enveloped virus assembled by a lipid envelope and multiple structural proteins. In this study, by integrating experimental data, structural modeling, and coarse-grained molecular dynamics simulations, we constructed multiscale models of SARS-CoV-2. Our 500-ns coarse-grained simulation of the intact virion allowed us to investigate the dynamic behavior of the membrane-embedded proteins and the surrounding lipid molecules  in situ . Our results indicated that the membrane-embedded proteins are highly dynamic, and certain types of lipids exhibit various binding preferences to specific sites of the membrane-embedded proteins. The equilibrated virion model was transformed into atomic resolution, which provided a 3D structure for scientific demonstration and can serve as a framework for future exascale all-atom MD simulations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/02/2022.01.31.478415.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.01.31.478415"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR449638"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR449638&type=FILE&fileName=EMS143233-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS143233",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-02-04",
+      "firstPublicationDate": "2022-02-02",
+      "firstIndexDate": "2022-02-04",
+      "fullTextReceivedDate": "2022-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

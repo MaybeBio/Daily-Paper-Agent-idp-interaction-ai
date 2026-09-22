@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "41580070",
+    "doi": "10.1016/j.jmb.2026.169657",
+    "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects."
+  },
+  "content": {
+    "abstract": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of the underlying data. Here we present ProteoCast, a user-friendly web server that predicts variant effects through evolutionary constraint analysis and structural context integration. ProteoCast provides a three-tier variant classification (impactful, mild, neutral) to help prioritise mutations for clinical interpretation and experimental validation. It incorporates multiple sequence alignment quality controls to ensure prediction reliability and flag positions with insufficient evolutionary information. Beyond single-variant classification, ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions. Interactive visualisations guide users through results interpretation, from variant-level predictions to protein-wide functional landscapes. Evaluation on 63,000 ClinVar variants demonstrates 77 % sensitivity and 87 % specificity for pathogenicity prediction, with performance maintained across species (85 % accuracy on Drosophila lethal mutations). ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods. Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability. With its transparent, unsupervised methodology and computational efficiency (minutes per protein), ProteoCast democratises access to variant effect prediction and functional site discovery for the broader research community. The web server is freely available at: https://proteocast.ijm.fr/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Internet",
+      "*Software",
+      "Humans",
+      "*Mutation, Missense/genetics",
+      "Animals",
+      "*Computational Biology/methods",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abakarova, Marina",
+        "Freiberger, Maria Ines",
+        "Liehrmann, Arnaud",
+        "Rera, Michael",
+        "Laine, Elodie"
+      ],
+      "short_names": [
+        "Abakarova M",
+        "Freiberger MI",
+        "Liehrmann A",
+        "Rera M",
+        "Laine E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France; Universite Paris Cite, INSERM UMR U1284, 75004 Paris, France.",
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France.",
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France.",
+        "Universite Paris Cite, INSERM UMR U1284, 75004 Paris, France. Electronic address: michael.rera@cnrs.fr.",
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France; Institut Universitaire de France (IUF), France. Electronic address: elodie.laine@sorbonne-universite.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abakarova, Marina",
+        "short_name": "Abakarova M",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France; Université Paris Cité, INSERM UMR U1284, 75004 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Freiberger, Maria Inés",
+        "short_name": "Freiberger MI",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Liehrmann, Arnaud",
+        "short_name": "Liehrmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Rera, Michael",
+        "short_name": "Rera M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, INSERM UMR U1284, 75004 Paris, France. Electronic address: michael.rera@cnrs.fr."
+        ]
+      },
+      {
+        "full_name": "Laine, Elodie",
+        "short_name": "Laine E",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), 75005 Paris, France; Institut Universitaire de France (IUF), France. Electronic address: elodie.laine@sorbonne-universite.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/25 00:37",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41580070",
+      "42045226",
+      "29069390",
+      "40133791",
+      "42475469",
+      "40366734",
+      "29361894",
+      "32402084",
+      "40728619",
+      "25643705",
+      "31674704",
+      "42186440",
+      "40127826",
+      "37563329",
+      "40728617",
+      "33909605",
+      "12606942",
+      "38877417",
+      "15890082",
+      "33106425",
+      "42304195",
+      "28270093",
+      "27147545",
+      "23315928",
+      "40133775",
+      "38087376",
+      "33450251",
+      "33287903",
+      "31116477",
+      "32183714",
+      "29580235",
+      "17452345",
+      "41795206",
+      "39256852",
+      "35098354",
+      "24829462",
+      "40828855",
+      "42507643",
+      "28387819",
+      "42129640",
+      "42252518",
+      "19717576",
+      "28716001",
+      "23912807",
+      "16522644",
+      "34048569",
+      "36321557",
+      "23819521",
+      "39657681",
+      "25542617",
+      "41508098",
+      "38211594",
+      "31114901",
+      "29788456",
+      "40329382",
+      "31871067",
+      "19751513",
+      "41968112",
+      "42023515",
+      "16792820",
+      "27224906",
+      "37356909",
+      "39440667",
+      "31979111",
+      "21569468",
+      "34432150",
+      "25521334",
+      "22641855",
+      "29775997",
+      "40838783",
+      "32696352",
+      "27842494",
+      "41621096",
+      "20642364",
+      "28397319",
+      "31821684",
+      "40221640",
+      "41809564",
+      "15776446",
+      "22689646",
+      "42275441",
+      "24453961",
+      "39676521",
+      "42199731",
+      "19538753",
+      "40887659",
+      "20542913",
+      "31127704",
+      "42078497",
+      "40728621",
+      "40113603",
+      "41955512",
+      "42411323",
+      "42538434",
+      "42635213",
+      "41568756",
+      "31412768",
+      "25706643",
+      "40264194",
+      "33502607"
+    ],
+    "review": [
+      "41580070",
+      "36321557"
+    ],
+    "pmc": [
+      "7619088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00030-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41580070",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hal.science/hal-05350695",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41580070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

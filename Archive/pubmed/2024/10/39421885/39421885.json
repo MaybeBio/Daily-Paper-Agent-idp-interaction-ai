@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39421885",
+    "doi": "10.1002/smll.202406429",
+    "title": "Pathogenic Mutation DeltaK280 Promotes Hydrophobic Interactions Involving Microtubule-Binding Domain and Enhances Liquid-Liquid Phase Separation of Tau."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of tau protein can initiate its aggregation which is associated with Alzheimer's disease. The pathogenic mutation DeltaK280 can enhance the aggregation of K18, a truncated tau variant comprising the microtubule-binding domain. However, the impact of DeltaK280 on K18 LLPS and underlying mechanisms are largely unexplored. Herein, the conformational ensemble and LLPS of DeltaK280 K18 through multiscale molecular simulations and microscopy experiments are investigated. All-atom molecular dynamic simulations reveal that DeltaK280 significantly enhances the collapse degree and beta-sheet content of the K18 monomer, indicating that DeltaK280 mutation may promote K18 LLPS, validated by coarse-grained phase-coexistence simulations and microscopy experiments. Importantly, DeltaK280 mutation promotes beta-sheet formation of six motifs (especially PHF6), increases the hydrophobic solvent exposure of PHF6* and PHF6, and enhances hydrophobic, hydrogen bonding, and cation-pi interactions involving most of the motifs, thus facilitating the phase separation of K18. Notably, DeltaK280 alters the interaction network among the six motifs, inducing the formation of K18 conformations with high beta-sheet contents and collapse degree. Coarse-grained simulations on full-length tau reveal that DeltaK280 promotes tau LLPS by enhancing the hydrophobic interactions involving the microtubule-binding domain. These findings offer detailed mechanistic insights into DeltaK280-induced tau pathogenesis, providing potential targets for therapeutic intervention.",
+    "keywords": [
+      "aggregation",
+      "molecular dynamics",
+      "phase transitions",
+      "protein folding"
+    ],
+    "mesh_terms": [
+      "*tau Proteins/genetics/chemistry/metabolism",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Microtubules/metabolism",
+      "*Mutation/genetics",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Domains",
+      "Protein Binding",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yujie",
+        "Sun, Xun",
+        "Tang, Yiming",
+        "Tan, Yuan",
+        "Guo, Cong",
+        "Pan, Tong",
+        "Zhang, Xuefeng",
+        "Luo, Jinghui",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Sun X",
+        "Tang Y",
+        "Tan Y",
+        "Guo C",
+        "Pan T",
+        "Zhang X",
+        "Luo J",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7970-8893",
+        "ORCID: 0009-0001-7900-7146",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Villigen, 5232, Switzerland.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China.",
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, 200444, P. R. China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Villigen, 5232, Switzerland.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yujie",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0001-7970-8893"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xun",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yuan",
+        "short_name": "Tan Y",
+        "identifiers": [
+          "0009-0001-7900-7146"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Guo, Cong",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, 200444, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pan, Tong",
+        "short_name": "Pan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuefeng",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jinghui",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, 200438, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/18 06:23",
+    "fetched_at": "2026-09-22 01:58:52"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "41807382",
+      "41342958",
+      "40916915",
+      "40849651",
+      "40724961"
+    ],
+    "refs": [],
+    "similar": [
+      "39421885",
+      "33686854",
+      "18725924",
+      "31661961",
+      "25775228",
+      "35405154",
+      "23740819",
+      "34331342",
+      "33279579",
+      "36841957",
+      "38960272",
+      "17176091",
+      "23515417",
+      "37585669",
+      "40149872",
+      "36594671",
+      "31097543",
+      "17297915",
+      "37924907",
+      "29734651",
+      "39148776",
+      "32997736",
+      "24448233",
+      "34494046",
+      "35980344",
+      "35381286",
+      "11606569",
+      "35181198",
+      "18199773",
+      "33899866",
+      "34966788",
+      "10995239",
+      "39959999",
+      "36688583",
+      "33017094",
+      "38489841",
+      "23517246",
+      "40305655",
+      "30950394",
+      "26854860",
+      "34374536",
+      "37830541",
+      "39579121",
+      "33262278",
+      "40074668",
+      "37075845",
+      "34032430",
+      "39342654",
+      "31971365",
+      "27776213",
+      "39908090",
+      "18500754",
+      "35759245",
+      "37230179",
+      "40053114",
+      "34560101",
+      "35269542",
+      "31863676",
+      "39302099",
+      "33076213",
+      "38847095",
+      "29248553",
+      "30992364",
+      "27890528",
+      "37983502",
+      "22291015",
+      "34575888",
+      "32096048",
+      "32229582",
+      "22393063",
+      "31400913",
+      "34426645",
+      "36621842",
+      "39043267",
+      "25229151",
+      "29215007",
+      "36310207",
+      "38814052",
+      "28819146",
+      "32341125",
+      "32096031",
+      "26034266",
+      "15615635",
+      "38862770",
+      "36471564",
+      "29472250",
+      "32251304",
+      "38512667",
+      "25926130",
+      "33452693",
+      "17204933",
+      "32392276",
+      "38501645",
+      "31439664",
+      "33955104",
+      "31270472",
+      "34116358",
+      "38088006",
+      "36153969",
+      "32486218"
+    ],
+    "review": [
+      "39421885",
+      "35980344",
+      "35181198",
+      "23517246",
+      "37230179",
+      "32096048",
+      "39043267",
+      "32096031"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/smll.202406429",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

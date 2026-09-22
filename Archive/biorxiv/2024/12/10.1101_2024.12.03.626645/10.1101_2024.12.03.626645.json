@@ -1,0 +1,454 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.03.626645",
+  "title": "Frustration in the Protein-Protein interface Plays a Central Role in the Cooperativity of PROTAC Ternary Complexes",
+  "doi": "10.1101/2024.12.03.626645",
+  "abstract": "Targeted protein degradation of a protein of interest (POI) by Proteolysis Targeting Chimeras (PROTACs) is an attractive approach for dealing with formerly undruggable protein targets. PROTACs are heterobifunctional molecules that connect a POI-binding and an E3-ligase (E3) binding motif with a linker. The simultaneous binding and formation of a ternary POI::PROTAC::E3 complex (TC) induces proximity between the POI and the E3, allowing for POI-ubiquitination and subsequent induction of proteasomal degradation. Despite the availability of many three-dimensional structures of TCs, unveiling the structure-function relationships for the design of PROTACs remains a challenge. This is because the TCs can be dynamic with a complex conformational landscape that individual crystal structures may not capture. In this work, we used SMARCA2 as the POI and VHL as the E3-ligase and solved the X-ray crystal structures of the respective ternary complexes with four different PROTACs. Molecular dynamics (MD) simulations were used to show that the SMARCA2-VHL interface is flexible with multiple energy minima. The protein-protein (POI-E3) interactions are largely formed by residues located in structurally disordered loops in both VHL and SMARCA2. The residue pairs in the SMARCA2-VHL interface are 'frustrated', i.e., adopt a suboptimal energetic state. The number of frustrated residue pairs averaged over the MD ensemble shows a positive correlation with the experimentally determined cooperativity of the PROTACs. This indicates that protein-protein interface frustration can play an important role in PROTAC function. The TC ensembles of VHL, SMARCA2 and 11 different PROTACs were modeled by comparative modeling followed by MD. The frustration was subsequently calculated from the MD trajectories and correlated with the cooperativity. We found that identification of the dynamic protein-protein contacts and frustrated residue pairs in the interface can provide a rational framework for the structure-based design of PROTACs.",
+  "authors": [
+    "Ma N",
+    "Bhattacharya S",
+    "Muk S",
+    "Jandova Z",
+    "Schmalhorst PS",
+    "Ghosh S",
+    "Le KM",
+    "Diers E",
+    "Trainor N",
+    "Farnaby W",
+    "Roy MJ",
+    "Kofink C",
+    "Greb P",
+    "Weinstabl H",
+    "Ciulli A",
+    "Bader G",
+    "Sanker K",
+    "Bergner A",
+    "Vaidehi N"
+  ],
+  "published_date": "2024-12-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.03.626645",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.03.626645.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR950545",
+    "raw_record": {
+      "id": "PPR950545",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR950545"
+        ]
+      },
+      "doi": "10.1101/2024.12.03.626645",
+      "title": "Frustration in the Protein-Protein interface Plays a Central Role in the Cooperativity of PROTAC Ternary Complexes",
+      "authorString": "Ma N, Bhattacharya S, Muk S, Jandova Z, Schmalhorst PS, Ghosh S, Le KM, Diers E, Trainor N, Farnaby W, Roy MJ, Kofink C, Greb P, Weinstabl H, Ciulli A, Bader G, Sanker K, Bergner A, Vaidehi N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ma N",
+            "lastName": "Ma",
+            "firstName": "Ning",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4653-7797"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhattacharya S",
+            "lastName": "Bhattacharya",
+            "firstName": "Supriyo",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0483-2149"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muk S",
+            "lastName": "Muk",
+            "firstName": "Sanychen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jandova Z",
+            "lastName": "Jandova",
+            "firstName": "Zuzana",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmalhorst PS",
+            "lastName": "Schmalhorst",
+            "firstName": "Philipp",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghosh S",
+            "lastName": "Ghosh",
+            "firstName": "Soumadwip",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Le KM",
+            "lastName": "Le",
+            "firstName": "Keith",
+            "initials": "KM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diers E",
+            "lastName": "Diers",
+            "firstName": "Emelyne",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, , Dow Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trainor N",
+            "lastName": "Trainor",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3758-9969"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, , Dow Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farnaby W",
+            "lastName": "Farnaby",
+            "firstName": "William",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, , Dow Street , , ,"
+                },
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roy MJ",
+            "lastName": "Roy",
+            "firstName": "Michael",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0198-9108"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, , Dow Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kofink C",
+            "lastName": "Kofink",
+            "firstName": "Christiane",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greb P",
+            "lastName": "Greb",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weinstabl H",
+            "lastName": "Weinstabl",
+            "firstName": "Harald",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ciulli A",
+            "lastName": "Ciulli",
+            "firstName": "Alessio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry and Drug Discovery, School of Life Sciences, , Dow Street , , ,"
+                },
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bader G",
+            "lastName": "Bader",
+            "firstName": "Gerd",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanker K",
+            "lastName": "Sanker",
+            "firstName": "Kyra",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bergner A",
+            "lastName": "Bergner",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RCV GmbH & Co KG, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vaidehi N",
+            "lastName": "Vaidehi",
+            "firstName": "Nagarajan",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational and Quantitative Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Irell and Manella Graduate School of Biological Sciences, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3758-9969"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0198-9108"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0483-2149"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4653-7797"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Targeted protein degradation of a protein of interest (POI) by Proteolysis Targeting Chimeras (PROTACs) is an attractive approach for dealing with formerly undruggable protein targets. PROTACs are heterobifunctional molecules that connect a POI-binding and an E3-ligase (E3) binding motif with a linker. The simultaneous binding and formation of a ternary POI::PROTAC::E3 complex (TC) induces proximity between the POI and the E3, allowing for POI-ubiquitination and subsequent induction of proteasomal degradation. Despite the availability of many three-dimensional structures of TCs, unveiling the structure-function relationships for the design of PROTACs remains a challenge. This is because the TCs can be dynamic with a complex conformational landscape that individual crystal structures may not capture. In this work, we used SMARCA2 as the POI and VHL as the E3-ligase and solved the X-ray crystal structures of the respective ternary complexes with four different PROTACs. Molecular dynamics (MD) simulations were used to show that the SMARCA2-VHL interface is flexible with multiple energy minima. The protein-protein (POI-E3) interactions are largely formed by residues located in structurally disordered loops in both VHL and SMARCA2. The residue pairs in the SMARCA2-VHL interface are 'frustrated', i.e., adopt a suboptimal energetic state. The number of frustrated residue pairs averaged over the MD ensemble shows a positive correlation with the experimentally determined cooperativity of the PROTACs. This indicates that protein-protein interface frustration can play an important role in PROTAC function. The TC ensembles of VHL, SMARCA2 and 11 different PROTACs were modeled by comparative modeling followed by MD. The frustration was subsequently calculated from the MD trajectories and correlated with the cooperativity. We found that identification of the dynamic protein-protein contacts and frustrated residue pairs in the interface can provide a rational framework for the structure-based design of PROTACs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "094090/Z/10/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "100476/Z/12/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.03.626645"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.03.626645"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR950545"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR950545&type=FILE&fileName=EMS201749-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41022846",
+            "reference": "Nature communications. 2025 Sep;16(1):8595",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201749",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-12-07",
+      "firstPublicationDate": "2024-12-05",
+      "firstIndexDate": "2024-12-07",
+      "fullTextReceivedDate": "2024-12-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

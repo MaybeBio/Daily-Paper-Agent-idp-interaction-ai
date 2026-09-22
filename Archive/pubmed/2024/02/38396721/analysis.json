@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38396721",
+  "title": "Synergy of Mutation-Induced Effects in Human Vitamin K Epoxide Reductase: Perspectives and Challenges for Allo-Network Modulator Design.",
+  "authors": "Botnari, Marina; Tchertanov, Luba",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-02-24",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用计算模拟研究VKORC1中无序L-loop突变对蛋白动态、隐式口袋及与氧化还原蛋白互作识别的影响，涉及IDR介导的PPI机制建模，但对象非典型IDP且方法为经典模拟，启发有限。",
+  "abstract": "The human Vitamin K Epoxide Reductase Complex (hVKORC1), a key enzyme transforming vitamin K into the form necessary for blood clotting, requires for its activation the reducing equivalents delivered by its redox partner through thiol-disulfide exchange reactions. The luminal loop (L-loop) is the principal mediator of hVKORC1 activation, and it is a region frequently harbouring numerous missense mutations. Four L-loop hVKORC1 mutants, suggested in vitro as either resistant (A41S, H68Y) or completely inactive (S52W, W59R), were studied in the oxidised state by numerical approaches (in silico). The DYNASOME and POCKETOME of each mutant were characterised and compared to the native protein, recently described as a modular protein composed of the structurally stable transmembrane domain (TMD) and the intrinsically disordered L-loop, exhibiting quasi-independent dynamics. The DYNASOME of mutants revealed that L-loop missense point mutations impact not only its folding and dynamics, but also those of the TMD, highlighting a strong mutation-specific interdependence between these domains. Another consequence of the mutation-induced effects manifests in the global changes (geometric, topological, and probabilistic) of the newly detected cryptic pockets and the alternation of the recognition properties of the L-loop with its redox protein. Based on our results, we postulate that (i) intra-protein allosteric regulation and (ii) the inherent allosteric regulation and cryptic pockets of each mutant depend on its DYNASOME; and (iii) the recognition of the redox protein by hVKORC1 (INTERACTOME) depend on their DYNASOME. This multifaceted description of proteins produces \"omics\" data sets, crucial for understanding the physiological processes of proteins and the pathologies caused by alteration of the protein properties at various \"omics\" levels. Additionally, such characterisation opens novel perspectives for the development of \"allo-network drugs\" essential for the treatment of blood disorders.",
+  "abstract_zh": "人维生素K环氧化物还原酶复合物（hVKORC1）是将维生素K转化为凝血所需形式的关键酶，其激活需要由其氧化还原伴侣通过硫醇-二硫键交换反应提供的还原当量。腔内环（L-loop）是hVKORC1激活的主要介导者，且该区域频繁携带大量错义突变。本研究通过数值方法（in silico）对四种L-loop hVKORC1突变体（在体外被建议为耐药型A41S、H68Y或完全失活型S52W、W59R）在氧化状态下进行了研究。对每种突变体的DYNASOME和POCKETOME进行了表征，并与天然蛋白进行了比较；天然蛋白最近被描述为由结构稳定的跨膜结构域（TMD）和本质无序的L-loop组成的模块化蛋白，表现出准独立的动力学特性。突变体的DYNASOME揭示，L-loop错义点突变不仅影响其自身折叠和动力学，还影响TMD的折叠和动力学，突显了这些结构域之间强烈的突变特异性相互依赖性。突变诱导效应的另一后果体现在新检测到的隐蔽口袋的全局变化（几何、拓扑和概率性）以及L-loop与其氧化还原蛋白识别特性的交替上。基于我们的结果，我们假设：（i）蛋白内变构调控和（ii）每种突变体的固有变构调控及隐蔽口袋取决于其DYNASOME；（iii）hVKORC1对其氧化还原蛋白的识别（INTERACTOME）取决于其DYNASOME。这种对蛋白的多方面描述产生了“组学”数据集，对于理解蛋白的生理过程以及由蛋白性质在多个“组学”水平上改变引起的病理至关重要。此外，这种表征为开发治疗血液疾病所必需的“变构网络药物”开辟了新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38396721/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38396721/",
+  "paper_page_path": "papers/pubmed/38396721/index.html"
+}

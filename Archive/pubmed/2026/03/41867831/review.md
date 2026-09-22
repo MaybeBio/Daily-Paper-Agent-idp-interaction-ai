@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) from bioRxiv preprint
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no supplementary figures or tables were available for inspection
+- **Shared manuscript claim summary** The authors propose a "molecular grammar" based on residue-level coarse-grained simulations that governs the formation of multiphase protein–RNA condensates, including vesicular, layered, and biphasic morphologies. They claim vesicle formation occurs spontaneously from well-mixed initial conditions without flux-driven oversaturation or extreme charge imbalance, and that morphology is controlled by interaction asymmetries, stoichiometry, chain length, and density.
+- **Visible evidence base** Main text figures referenced (Figs. 1–8), methods section, and discussion; supplementary materials (Tables S1–S2, Figs. S1–S4) mentioned but not provided
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4, T1–T2), simulation parameter details, force field validation data, and any quantitative error analysis; no access to raw simulation trajectories or reproducibility scripts
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of multiphase protein–RNA condensate formation using a coarse-grained model. The work addresses an important question in the field of biomolecular condensates, namely how sequence-encoded interaction patterns and stoichiometry determine internal architecture. The authors identify three interaction regimes and demonstrate a range of morphologies, including a vesicular state that forms spontaneously. The study is potentially valuable for guiding experimental design, but several technical concerns regarding model validation, parameter sensitivity, and the robustness of the vesicle formation mechanism need to be addressed before the claims are fully established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and membraneless organelles would find this work relevant. The proposed design principles could inform experimental studies on synthetic condensates and RNA–protein systems. The vesicle-like structures described may also interest researchers in synthetic biology and biomaterials engineering, particularly those working on membrane-free compartments for encapsulation or delivery applications.
+- **Major strengths** The study addresses a timely and important question with a systematic computational approach. The parameter space explored is broad, and the identification of three distinct interaction regimes provides a useful organizing framework. The observation that vesicular condensates can form spontaneously without extreme charge imbalance or flux-driven conditions is a notable finding that distinguishes this mechanism from previously proposed routes. The authors also connect their results to experimental observables and provide testable predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the coarse-grained model captures "essential sequence features" and that the identified grammar is "general" across protein–RNA systems.
+  - **Evidence pointer** Methods section, "Residue-Resolution Coarse-Grained Model"; Results section, "Protein Sequence Grammar Dictates Multiphase Condensate Architecture"
+  - **Concern** The manuscript relies on a single coarse-grained model (CALVADOS-2) without presenting any validation against experimental data or alternative models. The claim of generality is therefore difficult to assess. The authors do not demonstrate that the observed morphologies are robust to model parameter choices, such as the hydrophobicity scale, interaction cutoff, or the specific mapping of amino acid properties to interaction strengths. Without such validation, it is unclear whether the "molecular grammar" reflects physical reality or is an artifact of the chosen model.
+  - **Why it matters** The central claim of the paper is that the identified rules are general and can guide experimental design. If the results are highly model-dependent, this claim is not supported. The field of coarse-grained simulations of phase separation has shown that results can vary significantly with force field choice, and the authors should address this explicitly.
+  - **Resolution test** Provide validation of the model against experimental data on protein–RNA condensates, or perform a systematic comparison with at least one alternative coarse-grained model or parameter set. Show that the qualitative phase diagram (vesicular, layered, biphasic) is preserved under reasonable parameter variation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that vesicular condensates "form spontaneously from well-mixed initial conditions, without requiring flux-driven oversaturation or extreme charge imbalance."
+  - **Evidence pointer** Results section, "Protein Sequence Grammar Dictates Multiphase Condensate Architecture"; Fig. 2
+  - **Concern** The evidence for spontaneous vesicle formation is based on simulations starting from uniformly distributed molecules. However, the manuscript does not provide sufficient detail on the simulation length, the criteria used to determine that a vesicle has formed, or the statistical reproducibility of the observed morphologies. It is unclear whether the vesicular state is thermodynamically stable or a kinetically trapped intermediate. The authors also do not report free energy calculations or other quantitative measures that would distinguish between these possibilities.
+  - **Why it matters** The claim of spontaneous formation is central to the novelty of the work. If the vesicular state is only a metastable intermediate that would eventually convert to a different morphology on longer timescales, the conclusions would be substantially weakened. The distinction between thermodynamic stability and kinetic trapping is critical for the proposed design principles.
+  - **Resolution test** Provide quantitative evidence for the stability of the vesicular state, such as long-time simulations showing no morphological change, free energy calculations, or systematic analysis of vesicle lifetime as a function of simulation time. Report the number of independent simulations and the reproducibility of the final morphology.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their results "establish minimal and general design principles for programming internal condensate architecture solely through sequence and composition."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The study is purely computational and uses a highly simplified model with only two protein domains (H and L) and a single RNA type. While this minimal design is appropriate for identifying basic principles, the claim of generality is not fully supported. The authors do not test whether the identified grammar holds for more complex sequences, multiple RNA species, or realistic protein sequences with more than two distinct domains. The connection to real biological systems is asserted but not demonstrated.
+  - **Why it matters** The stated goal of providing design principles for engineering condensates requires that the rules be transferable to experimentally relevant systems. Without testing the model on more realistic sequences or showing that the principles hold beyond the minimal two-domain design, the generality claim remains speculative.
+  - **Resolution test** Extend the simulations to at least one additional protein design with more complex domain architecture, or show that the identified principles can predict the behavior of a previously published experimental system. Alternatively, clearly state the limitations of the minimal model and temper the generality claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "increasing RNA chain length strongly promotes condensation" and that this effect is due to reduced conformational entropy penalty and enhanced multivalent interactions.
+  - **Evidence pointer** Results section, "Influence of density and chain length on multiphase vesicle formation"; Fig. 8C
+  - **Concern** The analysis of chain length effects is limited to a single system (R135N3G213) and three RNA lengths (U135, U300, U400). The authors do not provide a quantitative decomposition of the entropic and enthalpic contributions to the observed acceleration of condensation. The claim that longer chains "reduce the conformational entropy penalty" is plausible but not directly demonstrated. Additionally, the total number of RNA residues is kept constant, which means that the number of RNA molecules changes with chain length; this confound is not discussed.
+  - **Why it matters** The mechanistic interpretation of the chain length effect is important for the proposed design principles. If the effect is primarily due to changes in the number of molecules rather than chain length per se, the interpretation would need to be revised.
+  - **Resolution test** Perform additional simulations that decouple chain length from the number of molecules, or provide a quantitative analysis of the entropic and enthalpic contributions to the free energy of condensation as a function of chain length.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with the condensate field and does not provide a brief explanation of why multiphase organization is functionally important for a general reader.
+  - **Required correction** Add one or two sentences explaining the biological relevance of multiphase condensates, with a concrete example, to orient nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Residue-Resolution Coarse-Grained Model"
+  - **Evidence pointer** Methods section, equation (2)
+  - **Issue** The Ashbaugh–Hatch potential is presented without a clear explanation of the physical meaning of the parameter λ and how it relates to hydrophobicity. The relationship between λ and the CALVADOS-2 hydrophobicity scale is not explicitly stated.
+  - **Required correction** Briefly explain the role of λ in modulating the depth of the attractive well and clarify how the CALVADOS-2 hydrophobicity parameters are mapped to λ values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Protein Sequence Grammar Dictates Multiphase Condensate Architecture"
+  - **Evidence pointer** Results section, Fig. 2F
+  - **Issue** The system size scaling is only shown for one representative composition (R150N3G210). It is unclear whether the observed scaling behavior is general across other compositions and interaction regimes.
+  - **Required correction** State explicitly whether system size effects were examined for other compositions, or acknowledge this limitation in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion section, paragraph 2
+  - **Issue** The discussion of "classical behavior in multicomponent polymer–amphiphilic systems" is brief and may not be accessible to readers unfamiliar with polymer physics.
+  - **Required correction** Provide a brief explanation of the relevant classical behavior, or add a reference that nonspecialists can consult.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Analysis"
+  - **Evidence pointer** Methods section, equation (6)
+  - **Issue** The probability-weighted mean of the PMF is defined, but the rationale for this particular averaging scheme is not explained. It is unclear why this measure is preferred over other possible scalar summaries of the PMF.
+  - **Required correction** Briefly justify the choice of the probability-weighted mean and discuss its sensitivity to the radial range used in the integration.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (evidence for spontaneous vesicle formation and stability)
+- **Assessment against Nature-style criteria** Originality: The work addresses a question of current interest and proposes a novel organizing framework for multiphase condensate morphology. The identification of a "molecular grammar" is a useful conceptual contribution, although similar ideas have been explored in related contexts. Scientific importance: The potential to guide experimental design for synthetic condensates is significant, but the purely computational nature of the study and the lack of experimental validation limit the immediate impact. Interdisciplinary readership: The topic bridges biophysics, cell biology, and materials science, and the findings could appeal to a broad audience if the presentation is made more accessible. Technical soundness: The simulation methodology is standard, but the lack of model validation and the limited analysis of vesicle stability are significant gaps. Readability for nonspecialists: The manuscript is generally well written, but the introduction and discussion assume some familiarity with the condensate field and polymer physics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially valuable framework, but the claims of generality and spontaneous vesicle formation require additional evidence. Model validation against experimental data or alternative models, and a more rigorous analysis of vesicle stability, are necessary before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the identified "molecular grammar" is "general" is not supported by the evidence, as only a minimal two-domain protein model was tested.
+- The claim that vesicular condensates form "spontaneously" is not fully supported, as the manuscript does not provide evidence that the vesicular state is thermodynamically stable rather than kinetically trapped.
+- The mechanistic interpretation of chain length effects (reduced conformational entropy penalty) is plausible but not directly demonstrated.
+- The statement that the observed morphologies are "robust to changes in density and chain length" is based on limited data and may not hold across the full parameter space.
+- The connection between the simulation results and experimental observables is asserted but not validated against any experimental data.

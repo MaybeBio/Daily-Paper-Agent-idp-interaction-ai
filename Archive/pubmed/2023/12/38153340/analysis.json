@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38153340",
+  "title": "Multi-eGO: Model Improvements toward the Study of Complex Self-Assembly Processes.",
+  "authors": "Bacic Toplek, Fran; Scalone, Emanuele; Stegani, Bruno; Paissoni, Cristina; Capelli, Riccardo; Camilloni, Carlo",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-12-28",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文改进多态结构基模型multi-eGO，用于模拟无序肽（如Aβ42）的构象集合及淀粉样肽的浓度依赖性自组装/聚集过程，属于IDP对象、互作（聚集）机制建模，方法为物理模拟（结构基模型），高度契合本课题。",
+  "abstract": "Structure-based models have been instrumental in simulating protein folding and suggesting hypotheses about the mechanisms involved. Nowadays, at least for fast-folding proteins, folding can be simulated in explicit solvent using classical molecular dynamics. However, other self-assembly processes, such as protein aggregation, are still far from being accessible. Recently, we proposed that a hybrid multistate structure-based model, multi-eGO, could help to bridge the gap toward the simulation of out-of-equilibrium, concentration-dependent self-assembly processes. Here, we further improve the model and show how multi-eGO can effectively and accurately learn the conformational ensemble of the amyloid beta42 intrinsically disordered peptide, reproduce the well-established folding mechanism of the B1 immunoglobulin-binding domain of streptococcal protein G, and reproduce the aggregation as a function of the concentration of the transthyretin 105-115 amyloidogenic peptide. We envision that by learning from the dynamics of a few minima, multi-eGO can become a platform for simulating processes inaccessible to other simulation techniques.",
+  "abstract_zh": "基于结构的模型在模拟蛋白质折叠及提出相关机制假说方面发挥了重要作用。如今，至少对于快速折叠蛋白质，可以使用经典分子动力学在显式溶剂中模拟折叠过程。然而，其他自组装过程，如蛋白质聚集，仍远未达到可模拟的程度。近期，我们提出了一种混合多态结构基模型——multi-eGO，有望弥合向非平衡、浓度依赖性自组装过程模拟的差距。在此，我们进一步改进该模型，并展示multi-eGO如何有效且准确地学习淀粉样β42 intrinsically disordered肽的构象系综，重现链球菌蛋白G的B1免疫球蛋白结合域已确立的折叠机制，并根据转甲状腺素蛋白105-115淀粉样生成肽的浓度重现其聚集行为。我们设想，通过学习少数极小值的动力学，multi-eGO可成为一个平台，用于模拟其他模拟技术无法触及的过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38153340/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38153340/",
+  "paper_page_path": "papers/pubmed/38153340/index.html"
+}

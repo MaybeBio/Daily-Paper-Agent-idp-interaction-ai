@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41889780",
+  "title": "Deciphering How Clustered O‑Glycosylation Shapes Substrate-Binding Preferences in an Intrinsically Disordered Protein Region.",
+  "authors": "Wang, Ruihan; Liu, Wenqiang; Li, Xin; Zhang, Yajing; Tian, Jiekang; Zhu, Huanjie; Song, Zerun; Jin, Chunyu; Li, Yaohao; Xu, Dingguo; Shang, Shiying; Tan, Zhongping",
+  "journal": "JACS Au",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合化学合成、实验与MD模拟，研究簇状O-糖基化如何调控无序蛋白区域与木质素/纤维素的结合偏好，虽对象为IDR-配体而非典型PPI，但机制建模思路（MD预测糖型效应）对IDR互作机制研究有可迁移启发。",
+  "abstract": "Post-translational modifications such as clustered O-glycosylation are frequently enriched in intrinsically disordered regions (IDRs), yet their roles in shaping molecular behavior and functional specificity remain poorly understood. Here, we addressed this challenge through an integrative, stepwise strategy that combines chemical synthesis, experimental characterization, and molecular dynamics (MD) simulations, employing the extensively O-mannosylated linker of Trichoderma reesei Family 7 cellobiohydrolase as a model IDR. Using synthetically accessible linker glycoforms bearing monomannose residues, we showed that unglycosylated and partially glycosylated linkers strongly prefer lignin over cellulose, driven by electrostatic interactions with the negatively charged lignin surface. Increasing glycan density or glycan size, such as through the introduction of dimannose, weakens lignin binding and partially shifts binding preference toward cellulose. Importantly, MD simulations informed and validated by these experimental data enabled prediction of currently synthetically inaccessible glycoforms, revealing that negatively charged glycans, such as phosphorylated mannose, effectively abolish lignin affinity while largely preserving cellulose binding. This work provides a generalizable and predictive framework for elucidating how complex glycosylation patterns regulate IDR-ligand interactions and identifies charge-mediated modulation as a key mechanism through which clustered O-glycosylation tunes IDR function.",
+  "abstract_zh": "翻译后修饰（如聚集性O-糖基化）常富集于 intrinsically disordered regions (IDRs) 中，但其在塑造分子行为和功能特异性中的作用仍知之甚少。在此，我们通过一种整合性、逐步式策略应对这一挑战，该策略结合化学合成、实验表征和分子动力学 (molecular dynamics, MD) 模拟，并以 Trichoderma reesei Family 7 纤维二糖水解酶的广泛O-甘露糖基化连接区作为模型IDR。利用可合成获取的携带单甘露糖残基的连接区糖型，我们表明未糖基化和部分糖基化的连接区强烈偏好木质素而非纤维素，这一偏好由与带负电木质素表面的静电相互作用驱动。增加聚糖密度或聚糖大小（如通过引入二甘露糖）会削弱木质素结合，并部分将结合偏好转向纤维素。重要的是，由这些实验数据提供信息并验证的MD模拟能够预测当前合成上不可及的糖型，揭示带负电聚糖（如磷酸化甘露糖）能有效消除木质素亲和力，同时基本保留纤维素结合。这项工作为阐明复杂糖基化模式如何调控IDR-配体相互作用提供了一个可推广且具预测性的框架，并识别出电荷介导的调节是聚集性O-糖基化调节IDR功能的关键机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41889780/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41889780/",
+  "paper_page_path": "papers/pubmed/41889780/index.html"
+}

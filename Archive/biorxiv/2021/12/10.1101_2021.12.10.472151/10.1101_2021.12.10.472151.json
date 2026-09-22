@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.10.472151",
+  "title": "Quantification of nuclear transport inhibition by SARS-CoV-2 ORF6 using a broadly applicable live-cell dose-response pipeline",
+  "doi": "10.1101/2021.12.10.472151",
+  "abstract": "<h4>Summary</h4> SARS coronavirus ORF6 inhibits the classical nuclear import pathway to antagonize host antiviral responses. Several models were proposed to explain its inhibitory function, but quantitative measurement is needed for model evaluation and refinement. We report a broadly applicable live-cell method for calibrated dose-response characterization of the nuclear transport alteration by a protein of interest. Using this method, we found that SARS-CoV-2 ORF6 is ~15 times more potent than SARS-CoV-1 ORF6 in inhibiting bidirectional nuclear transport, due to differences in the NUP98-binding C-terminal region that is required for the inhibition. The N-terminal region promotes membrane binding and was required for activity, but could be replaced by constructs which forced oligomerization in solution. Based on these data, we propose that the hydrophobic N-terminal region drives oligomerization of ORF6 to multivalently cross-link the FG domains of NUP98 at the nuclear pore complex, and this multivalent binding inhibits bidirectional transport.",
+  "authors": [
+    "Yoo TY",
+    "Mitchison T"
+  ],
+  "published_date": "2021-12-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.10.472151",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.10.472151.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR431254",
+    "raw_record": {
+      "id": "PPR431254",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR431254"
+        ]
+      },
+      "doi": "10.1101/2021.12.10.472151",
+      "title": "Quantification of nuclear transport inhibition by SARS-CoV-2 ORF6 using a broadly applicable live-cell dose-response pipeline",
+      "authorString": "Yoo TY, Mitchison T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yoo TY",
+            "lastName": "Yoo",
+            "firstName": "Tae Yeon",
+            "initials": "TY"
+          },
+          {
+            "fullName": "Mitchison T",
+            "lastName": "Mitchison",
+            "firstName": "Timothy",
+            "initials": "T"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Summary</h4>  SARS coronavirus ORF6 inhibits the classical nuclear import pathway to antagonize host antiviral responses. Several models were proposed to explain its inhibitory function, but quantitative measurement is needed for model evaluation and refinement. We report a broadly applicable live-cell method for calibrated dose-response characterization of the nuclear transport alteration by a protein of interest. Using this method, we found that SARS-CoV-2 ORF6 is ~15 times more potent than SARS-CoV-1 ORF6 in inhibiting bidirectional nuclear transport, due to differences in the NUP98-binding C-terminal region that is required for the inhibition. The N-terminal region promotes membrane binding and was required for activity, but could be replaced by constructs which forced oligomerization in solution. Based on these data, we propose that the hydrophobic N-terminal region drives oligomerization of ORF6 to multivalently cross-link the FG domains of NUP98 at the nuclear pore complex, and this multivalent binding inhibits bidirectional transport.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/12/13/2021.12.10.472151.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.10.472151"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR431254"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.10.472151"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161013",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-12-14",
+      "firstPublicationDate": "2021-12-13",
+      "firstIndexDate": "2021-12-14",
+      "fullTextReceivedDate": "2023-01-28",
+      "hasEvaluations": "Y"
+    }
+  }
+}

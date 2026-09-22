@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.02.640994",
+  "title": "Programming cellular condensates for living materials using an intrinsically disordered protein display platform (iDP <sup>2</sup> )",
+  "authors": "Rong Chang; Hann Tu; Neel S. Joshi",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-03",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究利用CsgF锚定蛋白在E. coli表面高密度展示无序蛋白，通过多价弱相互作用编程细胞间互作与自分离，构建可编程活体材料；虽对象为细胞表面IDR展示而非直接PPI机制建模，但无序蛋白介导的互作调控思路对IDR-PPI机制建模有启发。",
+  "abstract": "Self-organization of multicellular systems is vital for building structure in living system but remains underexplored in engineered living materials. We developed iDP 2 , a platform enabling high-density display of intrinsically disordered proteins on the surface of E. coli using CsgF as a surface-bound anchor protein to which other protein domains can be fused. Display depends on a lack of intrinsic structure and enable multivalent weak interactions that drive environmental responsiveness and sequence-programmable self-segregation. iDP 2 allow the programming of material properties like viscoelasticity, stability, offering a method to rationally control cell-cell interactions. This approach could be applied to engineer self-organizing tissues or materials with customized properties.",
+  "abstract_zh": "多细胞系统的自组织对于生命系统中结构的构建至关重要，但在工程化活体材料中仍未得到充分探索。我们开发了iDP 2，这是一个利用CsgF作为表面锚定蛋白（其他蛋白结构域可与其融合）的平台，能够在大肠杆菌表面实现高密度展示 intrinsically disordered proteins（内在无序蛋白）。展示依赖于缺乏内在结构，并促成多价弱相互作用，从而驱动环境响应性和序列可编程的自分离。iDP 2允许编程材料特性，如粘弹性、稳定性，提供了一种合理控制细胞间相互作用的方法。该方法可应用于工程化具有定制特性的自组织组织或材料。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.02.640994",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.02.640994",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.02.640994/index.html"
+}

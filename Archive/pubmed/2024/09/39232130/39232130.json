@@ -1,0 +1,497 @@
+{
+  "identity": {
+    "pmid": "39232130",
+    "doi": "10.1038/s44318-024-00207-0",
+    "title": "Disordered regions in the IRE1alpha ER lumenal domain mediate its stress-induced clustering."
+  },
+  "content": {
+    "abstract": "Conserved signaling cascades monitor protein-folding homeostasis to ensure proper cellular function. One of the evolutionary conserved key players is IRE1, which maintains endoplasmic reticulum (ER) homeostasis through the unfolded protein response (UPR). Upon accumulation of misfolded proteins in the ER, IRE1 forms clusters on the ER membrane to initiate UPR signaling. What regulates IRE1 cluster formation is not fully understood. Here, we show that the ER lumenal domain (LD) of human IRE1alpha forms biomolecular condensates in vitro. IRE1alpha LD condensates were stabilized both by binding to unfolded polypeptides as well as by tethering to model membranes, suggesting their role in assembling IRE1alpha into signaling-competent stable clusters. Molecular dynamics simulations indicated that weak multivalent interactions drive IRE1alpha LD clustering. Mutagenesis experiments identified disordered regions in IRE1alpha LD to control its clustering in vitro and in cells. Importantly, dysregulated clustering of IRE1alpha mutants led to defects in IRE1alpha signaling. Our results revealed that disordered regions in IRE1alpha LD control its clustering and suggest their role as a common strategy in regulating protein assembly on membranes.",
+    "keywords": [
+      "Biomolecular Condensates",
+      "IRE1",
+      "Supported Lipid Bilayers",
+      "Unfolded Protein Response"
+    ],
+    "mesh_terms": [
+      "*Protein Serine-Threonine Kinases/metabolism/genetics",
+      "Humans",
+      "*Endoribonucleases/metabolism/genetics/chemistry",
+      "*Endoplasmic Reticulum/metabolism",
+      "*Unfolded Protein Response",
+      "Endoplasmic Reticulum Stress",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kettel, Paulina",
+        "Marosits, Laura",
+        "Spinetti, Elena",
+        "Rechberger, Michael",
+        "Giannini, Caterina",
+        "Radler, Philipp",
+        "Niedermoser, Isabell",
+        "Fischer, Irmgard",
+        "Versteeg, Gijs A",
+        "Loose, Martin",
+        "Covino, Roberto",
+        "Karagoz, G Elif"
+      ],
+      "short_names": [
+        "Kettel P",
+        "Marosits L",
+        "Spinetti E",
+        "Rechberger M",
+        "Giannini C",
+        "Radler P",
+        "Niedermoser I",
+        "Fischer I",
+        "Versteeg GA",
+        "Loose M",
+        "Covino R",
+        "Karagoz GE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7165-1367",
+        "ORCID: 0000-0002-3817-8977",
+        "ORCID: 0009-0009-1831-7480",
+        "ORCID: 0009-0003-9040-6855",
+        "ORCID: 0009-0004-4807-3812",
+        "ORCID: 0000-0002-5301-3361",
+        "ORCID: 0000-0002-6150-2165",
+        "ORCID: 0000-0002-3392-2250"
+      ],
+      "affiliations": [
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, Vienna, Austria.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Medical University of Vienna, Vienna, Austria.",
+        "Frankfurt Institute for Advanced Studies, Frankfurt, Germany.",
+        "Institute of Biophysics, Goethe University, Frankfurt, Germany.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Institute of Science and Technology Austria, Klosterneuburg, Austria.",
+        "Institute of Science and Technology Austria, Klosterneuburg, Austria.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Medical University of Vienna, Vienna, Austria.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+        "Department of Microbiology, Immunobiology and Genetics, University of Vienna, Vienna, Austria.",
+        "Institute of Science and Technology Austria, Klosterneuburg, Austria.",
+        "Frankfurt Institute for Advanced Studies, Frankfurt, Germany.",
+        "IMPRS on Cellular Biophysics, Frankfurt, Germany.",
+        "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria. guelsuen.karagoez@meduniwien.ac.at.",
+        "Medical University of Vienna, Vienna, Austria. guelsuen.karagoez@meduniwien.ac.at."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kettel, Paulina",
+        "short_name": "Kettel P",
+        "identifiers": [
+          "0000-0002-7165-1367"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+          "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Marosits, Laura",
+        "short_name": "Marosits L",
+        "identifiers": [
+          "0000-0002-3817-8977"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+          "Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Spinetti, Elena",
+        "short_name": "Spinetti E",
+        "identifiers": [
+          "0009-0009-1831-7480"
+        ],
+        "affiliations": [
+          "Frankfurt Institute for Advanced Studies, Frankfurt, Germany.",
+          "Institute of Biophysics, Goethe University, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Rechberger, Michael",
+        "short_name": "Rechberger M",
+        "identifiers": [
+          "0009-0003-9040-6855"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Giannini, Caterina",
+        "short_name": "Giannini C",
+        "identifiers": [
+          "0009-0004-4807-3812"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology Austria, Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Radler, Philipp",
+        "short_name": "Radler P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science and Technology Austria, Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Niedermoser, Isabell",
+        "short_name": "Niedermoser I",
+        "identifiers": [
+          "0000-0002-5301-3361"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+          "Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Fischer, Irmgard",
+        "short_name": "Fischer I",
+        "identifiers": [],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Versteeg, Gijs A",
+        "short_name": "Versteeg GA",
+        "identifiers": [
+          "0000-0002-6150-2165"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria.",
+          "Department of Microbiology, Immunobiology and Genetics, University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Loose, Martin",
+        "short_name": "Loose M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science and Technology Austria, Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Covino, Roberto",
+        "short_name": "Covino R",
+        "identifiers": [],
+        "affiliations": [
+          "Frankfurt Institute for Advanced Studies, Frankfurt, Germany.",
+          "IMPRS on Cellular Biophysics, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Karagöz, G Elif",
+        "short_name": "Karagöz GE",
+        "identifiers": [
+          "0000-0002-3392-2250"
+        ],
+        "affiliations": [
+          "Max Perutz Laboratories Vienna, Vienna BioCenter, Vienna, Austria. guelsuen.karagoez@meduniwien.ac.at.",
+          "Medical University of Vienna, Vienna, Austria. guelsuen.karagoez@meduniwien.ac.at."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/05 00:50",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [
+      "42490307",
+      "42288136",
+      "41683537",
+      "41337592",
+      "41326174",
+      "40547943",
+      "39925135"
+    ],
+    "refs": [
+      "35730415",
+      "35730412",
+      "35253804",
+      "35020601",
+      "34716273",
+      "34608319",
+      "34591618",
+      "33782607",
+      "33510441",
+      "33484951",
+      "32286308",
+      "32265225",
+      "32237272",
+      "32179693",
+      "32004090",
+      "31873072",
+      "31871156",
+      "31833055",
+      "31430179",
+      "31371506",
+      "31268421",
+      "31199681",
+      "31028913",
+      "30894532",
+      "30846599",
+      "30670466",
+      "30305738",
+      "30075144",
+      "29958103",
+      "29851562",
+      "29198525",
+      "28971800",
+      "28924037",
+      "28689662",
+      "28615323",
+      "28225081",
+      "28187289",
+      "27391701",
+      "27056844",
+      "27042944",
+      "26574417",
+      "26551274",
+      "26317470",
+      "25993558",
+      "25549299",
+      "25514413",
+      "25321392",
+      "24809345",
+      "23803178",
+      "23791177",
+      "23487760",
+      "21852455",
+      "21763600",
+      "20798350",
+      "19651891",
+      "19538957",
+      "19079237",
+      "19079236",
+      "17923530",
+      "17898179",
+      "17765680",
+      "17612490",
+      "17452628",
+      "17212484",
+      "16973740",
+      "16825573",
+      "16617114",
+      "16434019",
+      "16365312",
+      "15705595",
+      "15662003",
+      "15264254",
+      "15033933",
+      "14973201",
+      "14731868",
+      "14559994",
+      "11779464",
+      "10854322",
+      "10592235",
+      "9837962",
+      "9307975",
+      "8951376",
+      "8898194",
+      "8898193",
+      "8513503",
+      "6824758",
+      "1691208",
+      "786399"
+    ],
+    "similar": [
+      "39232130",
+      "31871156",
+      "31873072",
+      "38714852",
+      "29198525",
+      "31666338",
+      "35730415",
+      "38407190",
+      "33378667",
+      "21407177",
+      "27059255",
+      "31199681",
+      "24240056",
+      "31925927",
+      "21266252",
+      "34591618",
+      "23487760",
+      "20798350",
+      "28550308",
+      "28847931",
+      "42062868",
+      "32788208",
+      "29351844",
+      "23103912",
+      "28615323",
+      "33775971",
+      "23816533",
+      "24303962",
+      "25142592",
+      "28070992",
+      "16973740",
+      "31428093",
+      "34998932",
+      "19538957",
+      "26899404",
+      "39103227",
+      "38578285",
+      "28832521",
+      "35730412",
+      "40818176",
+      "31875595",
+      "23880584",
+      "29928282",
+      "21266249",
+      "38838857",
+      "16645094",
+      "30287689",
+      "30582518",
+      "40049366",
+      "23803178",
+      "24917591",
+      "28128204",
+      "38081494",
+      "28689662",
+      "31940218",
+      "20625543",
+      "26446798",
+      "30056836",
+      "41493348",
+      "31985747",
+      "25549299",
+      "25009220",
+      "37391039",
+      "31368599",
+      "21680894",
+      "25692299",
+      "27252058",
+      "34748367",
+      "22199355",
+      "42490307",
+      "21317875",
+      "23236464",
+      "38886017",
+      "26642955",
+      "25956028",
+      "34664059",
+      "31041814",
+      "38768891",
+      "21266256",
+      "40286277",
+      "41547451",
+      "19748352",
+      "25633195",
+      "39138189",
+      "25249581",
+      "25170079",
+      "34338497",
+      "38494075",
+      "29453283",
+      "25986851",
+      "37097227",
+      "28504640",
+      "33325615",
+      "32854418",
+      "38142805",
+      "34911951",
+      "31437638",
+      "27743894",
+      "40752259",
+      "36233127"
+    ],
+    "review": [
+      "39232130",
+      "31666338",
+      "32788208",
+      "33775971",
+      "28070992",
+      "26899404",
+      "23880584",
+      "29928282",
+      "30056836",
+      "37391039",
+      "27252058",
+      "25956028",
+      "34664059",
+      "31041814",
+      "38768891",
+      "19748352",
+      "38494075",
+      "25986851",
+      "33325615"
+    ],
+    "pmc": [
+      "11480506"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/39232130/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s44318-024-00207-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39232130/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

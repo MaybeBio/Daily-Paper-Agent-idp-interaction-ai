@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "40819250",
+    "doi": "10.1111/febs.70222",
+    "title": "Hydrophobic residues in the alpha-synuclein NAC domain drive seed-competent fibril formation and are targeted by peptide inhibitors."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein (alphaSyn) is a 14-kDa intrinsically disordered protein that aggregates into insoluble fibrils in synucleinopathies, including Lewy bodies, multiple system atrophy, and Parkinson's disease, contributing to neurotoxicity and disease progression. The ability of these fibrils to seed further aggregation of native protein is central to alphaSyn pathology. Here, we examined the broader non-amyloid component (NAC) domain, focusing on how residues flanking the hydrophobic 68-71 (GAVV) motif of alphaSyn (residues 8-11 in NAC35) modulate nucleation, stability, and pathological seeding. Using full-length NAC peptide and truncated variants, we show that the 68-71 (GAVV) stretch is critical for nucleation and aggregation into prion-like fibrils. Peptide inhibitors targeting this hydrophobic region block the formation of seed-competent fibrils. Molecular dynamics simulations showed that these inhibitors alter peptide-peptide interactions and contact key hydrophobic residues within the NAC domain. Further analysis indicates that residues beyond the 68-71 (GAVV) motif, such as 79-95, are critical for stabilizing fibrils and promoting seeding competency. Peptide B interactions with key hydrophobic motifs within the NAC domain were visualized in silico, offering mechanistic insights into how it disrupts aggregation.",
+    "keywords": [
+      "Parkinson's disease",
+      "alpha-synuclein",
+      "amyloid fibril",
+      "hydrophobic region",
+      "non-amyloid component",
+      "peptide inhibitor",
+      "synuclein seeding"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/genetics/metabolism/antagonists & inhibitors",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "*Amyloid/chemistry/metabolism/genetics",
+      "*Peptides/chemistry",
+      "Amino Acid Motifs",
+      "Amino Acid Sequence",
+      "Protein Aggregates/drug effects",
+      "Protein Aggregation, Pathological/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Viswanath",
+        "Modarres Mousavi, Sayed Mostafa",
+        "Annadurai, Narendran",
+        "Sukur, Suncica",
+        "Mehrnejad, Faramarz",
+        "Moradi, Sajad",
+        "Malina, Lukas",
+        "Kolarikova, Marketa",
+        "Ranc, Vaclav",
+        "Frydrych, Ivo",
+        "Kouril, Roman",
+        "Hosseinkhani, Saman",
+        "Hajduch, Marian",
+        "Nikkhah, Maryam"
+      ],
+      "short_names": [
+        "Das V",
+        "Modarres Mousavi SM",
+        "Annadurai N",
+        "Sukur S",
+        "Mehrnejad F",
+        "Moradi S",
+        "Malina L",
+        "Kolarikova M",
+        "Ranc V",
+        "Frydrych I",
+        "Kouril R",
+        "Hosseinkhani S",
+        "Hajduch M",
+        "Nikkhah M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5973-5990",
+        "ORCID: 0000-0001-8211-3348",
+        "ORCID: 0000-0003-0744-2699"
+      ],
+      "affiliations": [
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Institute of Molecular and Translational Medicine, Czech Advanced Technologies and Research Institute, Palacky University Olomouc, Czech Republic.",
+        "Department of Nanobiotechnology, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Department of Nanobiotechnology and Biomimetics, School of Life Science Engineering, University of Tehran, Iran.",
+        "Nano Drug Delivery Research Centre, Health Technology Institute, Kermanshah University of Medical Sciences, Iran.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Department of Medical Biophysics, Faculty of Medicine and Dentistry, Palacky University Olomouc, Czech Republic.",
+        "Department of Medical Biophysics, Faculty of Medicine and Dentistry, Palacky University Olomouc, Czech Republic.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Department of Biophysics, Faculty of Science, Palacky University Olomouc, Czech Republic.",
+        "Department of Biochemistry, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacky University and University Hospital Olomouc, Czech Republic.",
+        "Institute of Molecular and Translational Medicine, Czech Advanced Technologies and Research Institute, Palacky University Olomouc, Czech Republic.",
+        "Department of Nanobiotechnology, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Viswanath",
+        "short_name": "Das V",
+        "identifiers": [
+          "0000-0001-5973-5990"
+        ],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic.",
+          "Institute of Molecular and Translational Medicine, Czech Advanced Technologies and Research Institute, Palacký University Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Modarres Mousavi, Sayed Mostafa",
+        "short_name": "Modarres Mousavi SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nanobiotechnology, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Annadurai, Narendran",
+        "short_name": "Annadurai N",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Sukur, Sunčica",
+        "short_name": "Sukur S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Mehrnejad, Faramarz",
+        "short_name": "Mehrnejad F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nanobiotechnology and Biomimetics, School of Life Science Engineering, University of Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Moradi, Sajad",
+        "short_name": "Moradi S",
+        "identifiers": [],
+        "affiliations": [
+          "Nano Drug Delivery Research Centre, Health Technology Institute, Kermanshah University of Medical Sciences, Iran."
+        ]
+      },
+      {
+        "full_name": "Malina, Lukáš",
+        "short_name": "Malina L",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic.",
+          "Department of Medical Biophysics, Faculty of Medicine and Dentistry, Palacký University Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kolaříková, Markéta",
+        "short_name": "Kolaříková M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biophysics, Faculty of Medicine and Dentistry, Palacký University Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Ranc, Vaclav",
+        "short_name": "Ranc V",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Frydrych, Ivo",
+        "short_name": "Frydrych I",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kouřil, Roman",
+        "short_name": "Kouřil R",
+        "identifiers": [
+          "0000-0001-8211-3348"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Faculty of Science, Palacký University Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Hosseinkhani, Saman",
+        "short_name": "Hosseinkhani S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Hajdúch, Marián",
+        "short_name": "Hajdúch M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palacký University and University Hospital Olomouc, Czech Republic.",
+          "Institute of Molecular and Translational Medicine, Czech Advanced Technologies and Research Institute, Palacký University Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Nikkhah, Maryam",
+        "short_name": "Nikkhah M",
+        "identifiers": [
+          "0000-0003-0744-2699"
+        ],
+        "affiliations": [
+          "Department of Nanobiotechnology, Faculty of Biological Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/17 12:41",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [
+      "42555392",
+      "41683750",
+      "41008538"
+    ],
+    "refs": [
+      "38718835",
+      "37487948",
+      "37125909",
+      "36849796",
+      "36757890",
+      "36514832",
+      "36008493",
+      "35912724",
+      "35720732",
+      "35623497",
+      "35486726",
+      "35390347",
+      "33625841",
+      "33346940",
+      "31755512",
+      "31633065",
+      "31612856",
+      "31584793",
+      "31265132",
+      "30690184",
+      "30190461",
+      "29191831",
+      "28965745",
+      "27573854",
+      "27382062",
+      "27018801",
+      "26799377",
+      "26352473",
+      "26061766",
+      "25387690",
+      "25261551",
+      "24740651",
+      "20026050",
+      "17212484",
+      "16211538",
+      "15803330",
+      "12217698",
+      "11461974",
+      "11060312",
+      "8744570",
+      "7108955"
+    ],
+    "similar": [
+      "40819250",
+      "41820812",
+      "30769283",
+      "29372732",
+      "29286644",
+      "30327435",
+      "19722699",
+      "31685848",
+      "26479553",
+      "28460628",
+      "32120928",
+      "40015369",
+      "41301496",
+      "32424039",
+      "38663121",
+      "31424918",
+      "39133842",
+      "25869255",
+      "40329850",
+      "33444530",
+      "33771571",
+      "40845355",
+      "40022877",
+      "33903234",
+      "39232485",
+      "28075555",
+      "37431676",
+      "40371781",
+      "40715768",
+      "28007442",
+      "24058647",
+      "41067404",
+      "39462681",
+      "33862084",
+      "38458997",
+      "41134940",
+      "28710275",
+      "26873872",
+      "36278939",
+      "39822034",
+      "41053261",
+      "38003322",
+      "35488930",
+      "33333378",
+      "40560620",
+      "33539920",
+      "40305210",
+      "34636232",
+      "42057656",
+      "9383418",
+      "39584804",
+      "40345607",
+      "29364151",
+      "33970620",
+      "29715424",
+      "32790707",
+      "32394304",
+      "39693815",
+      "29575453",
+      "31575115",
+      "31096048",
+      "26161848",
+      "41576203",
+      "39980393",
+      "41882374",
+      "40522183",
+      "32157247",
+      "41507378",
+      "22274962",
+      "42014377",
+      "38335809",
+      "31912891",
+      "35969734",
+      "27809690",
+      "40954133",
+      "30790619",
+      "29969391",
+      "31111370",
+      "39947752",
+      "40268916",
+      "31181290",
+      "37569510",
+      "31776941",
+      "39596523",
+      "18510319",
+      "30030380",
+      "32356963",
+      "26799377",
+      "28820063",
+      "32013170",
+      "33413679",
+      "26119103",
+      "32143619",
+      "18692132",
+      "38683963",
+      "31695184",
+      "38801346",
+      "29417650",
+      "39756747",
+      "37190853"
+    ],
+    "review": [
+      "40819250",
+      "32424039",
+      "41067404",
+      "42057656",
+      "29364151",
+      "39947752"
+    ],
+    "pmc": [
+      "12797002"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40819250.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40819250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/febs.70222",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LGALS1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

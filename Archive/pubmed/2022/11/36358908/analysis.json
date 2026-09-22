@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36358908",
+  "title": "Sequence Properties of An Intramolecular Interaction That Inhibits p53 DNA Binding.",
+  "authors": "Gregory, Emily; Daughdrill, Gary W",
+  "journal": "Biomolecules",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过突变和荧光各向异性研究p53无序TAD2与DBD的分子内自抑制互作及其对DNA结合的影响，对象为IDR介导的互作机制，但方法为实验而非AI/物理模拟，故中档评分。",
+  "abstract": "An intramolecular interaction between the p53 transactivation and DNA binding domains inhibits DNA binding. To study this autoinhibition, we used a fragment of p53, referred to as ND WT, containing the N-terminal transactivation domains (TAD1 and TAD2), a proline rich region (PRR), and the DNA binding domain (DBD). We mutated acidic, nonpolar, and aromatic amino acids in TAD2 to disrupt the interaction with DBD and measured the effects on DNA binding affinity at different ionic strengths using fluorescence anisotropy. We observed a large increase in DNA binding affinity for the mutants consistent with reduced autoinhibition. The DeltaDeltaG between DBD and ND WT for binding a consensus DNA sequence is -3.0 kcal/mol at physiological ionic strength. DeltaDeltaG increased to -1.03 kcal/mol when acidic residues in TAD2 were changed to alanine (ND DE) and to -1.13 kcal/mol when all the nonpolar residues, including W53/F54, were changed to alanine (ND NP). These results indicate there is some cooperation between acidic, nonpolar, and aromatic residues from TAD2 to inhibit DNA binding. The dependence of DNA binding affinity on ionic strength was used to predict excess counterion release for binding both consensus and scrambled DNA sequences, which was smaller for ND WT and ND NP with consensus DNA and smaller for scrambled DNA overall. Using size exclusion chromatography, we show that the ND mutants have similar Stokes radii to ND WT suggesting the mutants disrupt autoinhibition without changing the global structure.",
+  "abstract_zh": "p53反式激活结构域与DNA结合结构域之间的分子内相互作用抑制DNA结合。为研究这种自抑制，我们使用了p53的一个片段，称为ND WT，包含N端反式激活结构域（TAD1和TAD2）、一个富含脯氨酸区域（PRR）以及DNA结合结构域（DBD）。我们突变了TAD2中的酸性、非极性和芳香族氨基酸，以破坏与DBD的相互作用，并通过荧光各向异性在不同离子强度下测量了对DNA结合亲和力的影响。我们观察到突变体的DNA结合亲和力大幅增加，这与自抑制减弱一致。在生理离子强度下，DBD与ND WT结合共有DNA序列的ΔΔG为-3.0 kcal/mol。当TAD2中的酸性残基突变为丙氨酸（ND DE）时，ΔΔG增加至-1.03 kcal/mol；当所有非极性残基（包括W53/F54）突变为丙氨酸（ND NP）时，ΔΔG增加至-1.13 kcal/mol。这些结果表明，TAD2中的酸性、非极性和芳香族残基之间存在一定协同作用以抑制DNA结合。DNA结合亲和力对离子强度的依赖性被用于预测结合共有和随机DNA序列时的过量反离子释放，对于ND WT和ND NP与共有DNA结合时较小，而对于随机DNA整体上较小。通过尺寸排阻色谱，我们显示ND突变体与ND WT具有相似的斯托克斯半径，表明这些突变体在不改变整体结构的情况下破坏了自抑制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36358908/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36358908/",
+  "paper_page_path": "papers/pubmed/36358908/index.html"
+}

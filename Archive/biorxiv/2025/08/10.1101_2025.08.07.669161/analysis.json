@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.07.669161",
+  "title": "Phase separation of protein kinase A regulatory subunits is driven by similar inter- and intra-molecular interactions involving the inhibitory segment",
+  "authors": "Giri M; Brasnett CS; Eroglu KF; Kaasen JM; Andre AA; Marrink S; Mulder FA; Kjaergaard M",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-11",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过NMR与多尺度MD模拟揭示PKA RIα无序区域介导的相分离由分子内/分子间相似互作驱动，直接聚焦IDR-PPI机制建模，与课题高度契合。",
+  "abstract": "Phase separation of biological macromolecules has emerged as a widespread mechanism for cellular organization, governing the spatiotemporal regulation of biochemical processes including signaling pathways. The regulatory subunit of the cAMP-dependent protein kinase A (PKA) RIα phase separates following cAMP-induced kinase activation, thereby restricting and enhancing PKA activity in space and time. The N-terminal dimerization/docking (D/D) domain and the linker region of RIα have been identified as necessary and sufficient for phase separation, but their interactions at atomic resolution have remained elusive. We report here a structural investigation of the minimal phase-separating region of RIα by nuclear magnetic resonance spectroscopy (NMR) and molecular dynamics (MD) simulations. The intrinsically disordered regions of RIα cause broadening of NMR signals throughout the protein indicative of widespread dynamic interactions. Mutation of arginine residues in the RIα inhibitory sequence leads to a reduction in signal broadening accompanied by loss of phase separation. Independently, binding of RIα to an A-kinase anchoring protein (AKAP) leads to spectral changes that are indicative of a loss of interactions between the D/D domain and the linker region, suggestive of a competition between intramolecular interactions and partner binding. Corroborating the experimental observations, multiscale MD simulations detect pervasive interactions of the folded D/D domain of RIα with the intrinsically disordered linker, and the intermolecular interactions in the condensate mirror those found internally in RIα dimers. Our results support the view that for PKA RIα, homotypic phase separation is underpinned by intermolecular interactions that are similar to intramolecular interactions.",
+  "abstract_zh": "生物大分子的相分离（phase separation）已成为细胞组织的一种普遍机制，调控包括信号通路在内的生化过程的时空组织。cAMP依赖性蛋白激酶A（PKA）的调节亚基RIα在cAMP诱导激酶激活后发生相分离，从而在空间和时间上限制并增强PKA活性。RIα的N端二聚化/对接（D/D）结构域和连接区已被确定为相分离所必需且充分的区域，但它们在原子分辨率下的相互作用仍不明确。我们在此报告了通过核磁共振波谱（NMR）和分子动力学（molecular dynamics）模拟对RIα最小相分离区域的结构研究。RIα的内在无序区域导致整个蛋白的NMR信号展宽，表明存在广泛的动态相互作用。RIα抑制序列中精氨酸残基的突变导致信号展宽减少，并伴随相分离的丧失。独立地，RIα与A激酶锚定蛋白（AKAP）的结合引起光谱变化，表明D/D结构域与连接区之间的相互作用丧失，提示分子内相互作用与伙伴结合之间存在竞争。与实验观察一致，多尺度分子动力学模拟检测到RIα折叠的D/D结构域与内在无序连接区之间的普遍相互作用，且凝聚体中的分子间相互作用反映了RIα二聚体内部发现的相互作用。我们的结果支持以下观点：对于PKA RIα，同型相分离由与分子内相互作用相似的分子间相互作用所支撑。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669161",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669161",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.07.669161/index.html"
+}

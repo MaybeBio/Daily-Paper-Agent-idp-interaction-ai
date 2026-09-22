@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40945576",
+  "title": "Exploring the Role of Structural and Dynamic Complexity in SARS-CoV-2 Nucleocapsid Protein-Heparin Interactions by NMR.",
+  "authors": "Bolognesi, Tessa; Schiavina, Marco; Ciabini, Cristina; Parafioriti, Michela; Gardini, Cristina; Elli, Stefano; Guerrini, Marco; Pierattelli, Roberta; Felli, Isabella C",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-09-14",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用NMR和分子动力学模拟研究SARS-CoV-2核衣壳蛋白中无序区域与肝素配体的多价互作，揭示无序区增强结合亲和力，虽对象为蛋白-多糖而非PPI，但无序蛋白互作机制建模思路对本课题有迁移启发。",
+  "abstract": "Among the structural proteins of SARS-CoV-2, the nucleocapsid (N) protein stands out for its pronounced structural heterogeneity and multifunctionality throughout the viral life cycle. Recent studies have demonstrated that the N protein localizes to the surface of infected and neighboring non-infected cells, by interacting with heparan sulfate in the extracellular matrix. The N protein (419 residues) comprises two folded domains ((44)NTD(180) and (249)CTD(361)) interspersed with three intrinsically disordered regions ((1)IDR1(43), (181)IDR2(248), (362)IDR3(419)). The coexistence of ordered and disordered elements raises a key question: how does this structural heterogeneity influence N's interactions with biological partners? Here we employ high-resolution NMR spectroscopy as the primary technique to characterize the interaction of three N protein constructs ((44)NTD(180), (1)NTR(248), and (1)N(419)) with heparin-based ligands of increasing complexity. NMR provides atomic level information on the structured NTD domain and on the otherwise difficult to investigate flexible regions. Molecular dynamics simulations further probe the interaction between NTD and short heparin oligosaccharides. Our data reveal a clear correlation between ligand size and binding affinity: longer saccharide chains promote stronger binding. Additionally, the inclusion of intrinsically disordered regions in the NTR construct significantly enhances the interaction compared to NTD, highlighting the functional relevance of structural disorder. Finally, the full-length protein exhibits distinct spectral behavior with the investigated heparin-based ligand, potentially reflecting additional binding contributions and altered dynamics arising from its complex structure. These findings underscore the utility of NMR spectroscopy in elucidating the dynamic, multivalent nature of protein-polyanion interactions, particularly in highly flexible proteins with a modular domain organization.",
+  "abstract_zh": "在SARS-CoV-2的结构蛋白中，核衣壳（N）蛋白因其在整个病毒生命周期中显著的结构异质性和多功能性而突出。近期研究表明，N蛋白通过与细胞外基质中的硫酸乙酰肝素相互作用，定位于感染细胞及邻近未感染细胞的表面。N蛋白（419个残基）包含两个折叠结构域（(44)NTD(180)和(249)CTD(361)），其间穿插三个 intrinsically disordered regions（(1)IDR1(43)、(181)IDR2(248)、(362)IDR3(419)）。有序与无序元件的共存引发了一个关键问题：这种结构异质性如何影响N蛋白与生物伙伴的相互作用？在此，我们采用高分辨率核磁共振（NMR）波谱作为主要技术，表征三种N蛋白构建体（(44)NTD(180)、(1)NTR(248)和(1)N(419)）与基于肝素的配体（复杂度递增）之间的相互作用。NMR提供了关于结构化NTD结构域以及难以研究的柔性区域的原子级信息。分子动力学 (molecular dynamics) 模拟进一步探究了NTD与短肝素寡糖之间的相互作用。我们的数据揭示了配体大小与结合亲和力之间的明确相关性：更长的糖链促进更强的结合。此外，与NTD相比，NTR构建体中包含 intrinsically disordered regions 显著增强了相互作用，突显了结构无序的功能相关性。最后，全长蛋白在所研究的基于肝素的配体作用下表现出独特的波谱行为，这可能反映了其复杂结构带来的额外结合贡献和动态变化。这些发现强调了NMR波谱在阐明蛋白质-聚阴离子相互作用的动态、多价性质方面的实用性，尤其是在具有模块化结构域组织的高度柔性蛋白质中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40945576/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40945576/",
+  "paper_page_path": "papers/pubmed/40945576/index.html"
+}

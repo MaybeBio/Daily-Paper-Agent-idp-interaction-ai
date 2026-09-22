@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41556450",
+    "doi": "10.1002/pro.70437",
+    "title": "Conformational state of myosin's disordered loop 2 structure mediates actomyosin association during crossbridge formation."
+  },
+  "content": {
+    "abstract": "The binding of myosin to actin to form crossbridges is a critical step for force generation by sarcomeres. A recent cryo-electron microscopy structure has resolved the weakly-bound actomyosin complex (AM.ADP.Pi). However, the structural and dynamic factors that influence actin-myosin association are unclear. The disordered loop 2 of myosin is thought to mediate actomyosin interactions in a complex, chemomechanical state-dependent fashion. Loop 2 is usually unresolved in structural studies due to its intrinsic disorder. Here, we utilize a combination of molecular dynamics simulations and electrostatic calculations to investigate the dynamics of these actin binding regions of myosin. Our results show that loop 2 experiences disordered dynamics and that specific conformations sampled modulate the strength of the associative electrostatic force between actin and myosin. Variation in the actin-myosin associative force was associated with the presentation and orientation of positively charged residues in loop 2. We provide an in-depth analysis of the conformational state space occupied by loop 2 during molecular dynamics simulations of pre-powerstroke human beta-myosin S1, with three 500 ns replicates each of wildtype and two different mutant (E525K and V606M) myosin structures. This data set allowed for exploration of how loop 2 conformational sampling is altered by these two mutations which have experimentally been shown to alter actin binding affinity and clinically associated with cardiomyopathy. The E525K and V606M mutations altered the conformational ensemble sampled by loop 2 and were associated with associative actin binding strength. These results highlight the importance of the positive charges on loop 2 for actomyosin interactions and demonstrate how disease-causing mutations outside of loop 2 can still affect it.",
+    "keywords": [
+      "cardiomyopathy",
+      "crossbridge formation",
+      "intrinsically disordered proteins",
+      "loop 2",
+      "molecular dynamics",
+      "myosin"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Actomyosin/chemistry/metabolism",
+      "Humans",
+      "Actins/chemistry/metabolism",
+      "Protein Conformation",
+      "Protein Binding",
+      "*Myosins/chemistry",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Robeson, Kalen Z",
+        "Childers, Matthew Carter",
+        "Fruebis, Kieran J",
+        "Soriano, Rachelle",
+        "Davis, Jennifer",
+        "Regnier, Michael"
+      ],
+      "short_names": [
+        "Robeson KZ",
+        "Childers MC",
+        "Fruebis KJ",
+        "Soriano R",
+        "Davis J",
+        "Regnier M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1577-8280",
+        "ORCID: 0000-0003-2440-9612"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+        "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+        "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+        "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+        "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+        "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+        "Department of Biology, University of Washington, Seattle, Washington, USA.",
+        "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+        "Department of Chemistry and Biochemistry, California State University, Los Angeles, California, USA.",
+        "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+        "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+        "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+        "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+        "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+        "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Robeson, Kalen Z",
+        "short_name": "Robeson KZ",
+        "identifiers": [
+          "0000-0003-1577-8280"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+          "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+          "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Childers, Matthew Carter",
+        "short_name": "Childers MC",
+        "identifiers": [
+          "0000-0003-2440-9612"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+          "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Fruebis, Kieran J",
+        "short_name": "Fruebis KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+          "Department of Biology, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Soriano, Rachelle",
+        "short_name": "Soriano R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA.",
+          "Department of Chemistry and Biochemistry, California State University, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Jennifer",
+        "short_name": "Davis J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+          "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+          "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA."
+        ]
+      },
+      {
+        "full_name": "Regnier, Michael",
+        "short_name": "Regnier M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, Washington, USA.",
+          "Center for Translational Muscle Research, University of Washington, Seattle, Washington, USA.",
+          "Institute For Stem Cell and Regenerative Medicine, University of Washington, Seattle, Washington, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 14:04",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "42395535"
+    ],
+    "refs": [],
+    "similar": [
+      "41556450",
+      "19790263",
+      "11892285",
+      "27324845",
+      "40205053",
+      "40842200",
+      "19408946",
+      "29087038",
+      "25416786",
+      "18067324",
+      "38998944",
+      "8987990",
+      "24513657",
+      "36802417",
+      "16406406",
+      "32929610",
+      "35163146",
+      "16645962",
+      "29358376",
+      "24500136",
+      "7918993",
+      "20837775",
+      "27956608",
+      "29866882",
+      "34825297",
+      "33065066",
+      "36151385",
+      "24224850",
+      "16905611",
+      "15020589",
+      "23250750",
+      "24094403",
+      "10677229",
+      "42103214",
+      "21986200",
+      "38607351",
+      "27276267",
+      "32451855",
+      "10995227",
+      "10827085",
+      "10545173",
+      "28067235",
+      "15924264",
+      "30189615",
+      "30654937",
+      "12952068",
+      "42647613",
+      "28700929",
+      "8552606",
+      "24762409",
+      "14992598",
+      "7787056",
+      "22559201",
+      "10102995",
+      "17081565",
+      "21315083",
+      "8316858",
+      "11101898",
+      "11705383",
+      "41439707",
+      "9930999",
+      "20616041",
+      "31090107",
+      "10679363",
+      "7612841",
+      "31110001",
+      "10563790",
+      "15952789",
+      "25825773",
+      "16713410",
+      "7787067",
+      "29338614",
+      "41557229",
+      "16338935",
+      "34812732",
+      "36459134",
+      "19962990",
+      "18552179",
+      "33049993",
+      "18805936",
+      "32873710",
+      "9572846",
+      "22343723",
+      "15311925",
+      "20399183",
+      "17298083",
+      "8501115",
+      "8619986",
+      "11297926",
+      "21757693",
+      "9428702",
+      "27717739",
+      "27864330",
+      "26976594",
+      "40627400",
+      "15769593",
+      "26056276",
+      "12952067",
+      "20740418",
+      "10090768"
+    ],
+    "review": [
+      "41556450",
+      "11892285",
+      "32451855",
+      "15924264",
+      "30189615",
+      "12952068",
+      "8552606",
+      "10679363",
+      "7787067",
+      "41557229",
+      "11297926"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/pro.70437",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

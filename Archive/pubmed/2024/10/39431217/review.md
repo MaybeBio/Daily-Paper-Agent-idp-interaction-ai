@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, study limitations, and supplementary data references.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to the evidence presented, and clarity of the manuscript. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose a statistical thermodynamics approach based on Gibbs ensemble theory to analyze the conformational landscape of the intrinsically disordered protein IQSEC2, simulated via accelerated molecular dynamics (aMD). They identify multiple folded and unfolded conformers, predict that only unfolded conformers can form encounter complexes with ARF6, and propose that folding and dimerization compete to regulate IQSEC2 GEF activity.
+- **Visible evidence base** Methods section describing aMD simulation parameters, histogram analysis, Gaussian peak deconvolution, and thermodynamic calculations. Results section with PMF graph (Fig. 2), Table 1 (conformational macrostates), Table 2 (encounter complex interactions), Figs. 3-5 (structural models), and supplementary tables S1-S5 and files (Thermodynamics.xlsx, interaction files).
+- **Missing materials affecting confidence** Supplementary data files (Tables S1-S5, Thermodynamics.xlsx, FS3-FS3 interactions.xlsx, US4-US4 interactions.xlsx) were not provided. Raw simulation trajectories, convergence analysis details beyond RMSD, and validation against experimental data are not fully described. No experimental validation data are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting computational approach to studying the conformational landscape of an intrinsically disordered protein, IQSEC2, which is of biomedical relevance. The application of statistical thermodynamics to aMD simulation data is conceptually appealing. However, the manuscript has significant methodological weaknesses that undermine confidence in the central claims. The treatment of the reaction coordinate, the use of aMD without reweighting, the handling of the Gibbs ensemble formalism, and the interpretation of docking results require substantial clarification and additional analysis. The claim that unfolded conformers are the active species and that folding-dimerization competition regulates GEF activity is plausible but not rigorously established from the evidence provided.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, computational biophysicists interested in enhanced sampling methods and free energy calculations, and investigators working on IQSEC2-related neurodevelopmental disorders. The potential regulatory model of IQSEC2 activity could inform therapeutic development efforts, particularly gene therapy approaches.
+- **Major strengths** The study addresses a biologically important and challenging problem, namely the structure-function relationship of a large IDP. The use of aMD to sample conformational space of a 1094-residue protein is ambitious. The application of Gibbs ensemble statistics to interpret simulation data is a creative idea. The integration of protein-protein docking to assess functional implications of predicted conformers is a useful step. The discussion of physiological relevance, particularly the role of calcium and calmodulin, connects the computational work to known biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The authors claim that the number of MD snapshots sampled on the production trajectory constitutes the ensemble of microstates, and that probabilities derived from histogram counts can be used to calculate free energies via the Gibbs ensemble method.
+  - **Evidence pointer** Methods section, "The ensemble method of Gibbs" and "Conformational free energies from first principles"; Results section, Table 1.
+  - **Concern** The central methodological premise is that the raw count of aMD snapshots in each bin along the reaction coordinate directly reflects the equilibrium probability of that conformational state. This is not valid for aMD simulations, where a boost potential is applied to accelerate sampling. The boost potential distorts the Boltzmann distribution, and the resulting biased probabilities must be reweighted to recover the canonical ensemble. The authors explicitly state they do not use a reweighting procedure, which is a fundamental error. The free energies and PMF derived from these biased probabilities are therefore not thermodynamically meaningful.
+  - **Why it matters** The entire quantitative framework of the paper, including the PMF, the relative stability of conformers, and the identification of the transition state, rests on this flawed assumption. If the probabilities are biased, all derived thermodynamic quantities are incorrect, and the ranking of conformer stability cannot be trusted.
+  - **Resolution test** The authors must either (a) perform a proper reweighting of the aMD data to recover the canonical ensemble distribution, or (b) justify why the raw aMD distribution is a valid approximation of the equilibrium distribution, with supporting evidence. The revised free energy landscape must be recalculated and presented.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The authors define the reaction coordinate as the maximum distance between Cα atoms of Gly167 and Pro410, identified as the largest Cα-Cα distance between the initial extended and final folded states.
+  - **Evidence pointer** Methods section, "Reaction coordinate definition"; Results section, Fig. 3.
+  - **Concern** The choice of a single pairwise Cα distance as the reaction coordinate for the folding of a 1094-residue protein is a severe oversimplification. Protein folding is a high-dimensional process, and a single distance is unlikely to capture the essential conformational changes. The authors do not provide a justification for why this specific distance is a good collective variable, nor do they demonstrate that it adequately distinguishes between the folded and unfolded ensembles. The identification of the "final folded state" is also not clearly defined.
+  - **Why it matters** If the reaction coordinate is poorly chosen, the resulting free energy profile and the identification of conformational states and transition states are not physically meaningful. The conclusions about which conformers are populated and their relative stabilities depend critically on this choice.
+  - **Resolution test** The authors should justify the choice of reaction coordinate, possibly by comparing with other collective variables or by demonstrating that the chosen coordinate captures the major conformational transitions. Alternatively, they could use a more sophisticated dimensionality reduction approach to define the reaction coordinate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that only unfolded conformers (US2, US4) can form encounter complexes with ARF6, while folded conformers FS2, FS3, FS5, FS6 cannot due to conformational clashes.
+  - **Evidence pointer** Results section, "Determination of which IQSEC2 conformers can form an encounter complex with ARF6"; Fig. 4; Table 2.
+  - **Concern** The assessment of whether a conformer can bind ARF6 is based on visual inspection of clashes in a single docked pose generated by rigid-body docking. This is a qualitative and potentially unreliable criterion. The docking was performed using ClusPro, which generates a set of possible poses, and the authors do not describe how they selected the specific pose for analysis or how they assessed the severity of clashes. The conclusion that 80% of folded conformers are inactive is based on this binary classification, which is not robustly established.
+  - **Why it matters** The central biological claim of the paper, that folding inactivates IQSEC2 and unfolding activates it, depends on the reliability of this classification. If the clash analysis is subjective or incomplete, the conclusion may be incorrect.
+  - **Resolution test** The authors should provide a more quantitative and systematic analysis of the docking results, such as scoring all generated poses, analyzing the interface complementarity, and possibly performing short MD simulations of the complexes to assess their stability. The criteria for classifying a conformer as "able to bind" should be clearly defined and applied consistently.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** The authors state that their computational results are "consistent with experimentally determined results" regarding the regulation of IQSEC2 GEF activity by calcium and calmodulin.
+  - **Evidence pointer** Discussion section; Study limitations section.
+  - **Concern** The manuscript does not provide any direct experimental validation of the predicted conformers, their relative populations, or the proposed regulatory mechanism. The connection to experimental data is made only in general terms in the Discussion. The claim of consistency is not supported by a detailed comparison with specific experimental findings.
+  - **Why it matters** For a computational study making strong claims about a biological mechanism, some form of validation, even indirect, is important to establish credibility. Without it, the conclusions remain speculative.
+  - **Resolution test** The authors should either provide experimental data supporting their predictions, or clearly state that the predictions are hypotheses that require experimental testing. A more detailed discussion of how their predictions align with or differ from existing experimental observations would strengthen the manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Reaction coordinate definition"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text contains a typographical error with a double period: "analysis (Miao et al., 2015). . The intrinsically disordered regions". This should be corrected.
+  - **Required correction** Remove the extra period.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Folding of IQSEC2 by aMD simulations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the aMD parameters is incomplete. The values of the boost parameters (alphaP, alphaD, Ep, Ed) are not provided, nor is the temperature coupling scheme or the barostat details. The convergence criteria for the production run are not described beyond a reference to Fig. S1.
+  - **Required correction** Provide the full set of simulation parameters, including the boost parameters, and a more detailed description of the convergence analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The total number of snapshots in Table 1 sums to 366,027, but the text states that 400,000 snapshots were collected. The discrepancy is not explained. It is unclear whether the remaining snapshots were excluded and why.
+  - **Required correction** Clarify the relationship between the total number of snapshots and the sum of counts in Table 1. If snapshots were excluded, explain the criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section, "Use of potential of mean force analysis to describe the folding of IQSEC2"
+  - **Evidence pointer** Fig. 2
+  - **Issue** The PMF graph is described as having 7 minima in the folded state and 2 in the unfolded state, but the text also refers to 11 Gaussian peaks and 12 interval states. The relationship between these classifications is not clearly explained.
+  - **Required correction** Clarify how the Gaussian peaks and interval states map onto the folded and unfolded states, and how the minima and transition states are identified.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "Computational prediction of the structure of IQSEC2 dimers and their ability to interact with ARF6"
+  - **Evidence pointer** Fig. 5
+  - **Issue** The figure shows the dimer structures, but the specific interactions mediating the dimer interface are only described in supplementary files that were not provided. A summary of the key interactions in the main text would improve readability.
+  - **Required correction** Provide a brief summary of the key interactions in the main text.
+
+## Risk / unsupported claims
+- The claim that the PMF and free energy values are thermodynamically valid is unsupported due to the lack of reweighting of aMD data.
+- The claim that 80% of folded conformers are inactive and all unfolded conformers are active is not robustly supported due to the qualitative nature of the clash analysis.
+- The claim that folding and dimerization compete to regulate IQSEC2 activity is a hypothesis that is not directly tested or validated.
+- The claim of consistency with experimental data is not substantiated with specific comparisons.
+- The predicted kinetic constants (kf, ku) and timescales are derived from the flawed free energy landscape and are therefore not reliable.
+- The general applicability of the proposed statistical thermodynamics method is not demonstrated beyond this single case study.

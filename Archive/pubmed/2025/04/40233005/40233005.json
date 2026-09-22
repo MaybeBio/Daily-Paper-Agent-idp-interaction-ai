@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "40233005",
+    "doi": "10.1021/acs.langmuir.5c00763",
+    "title": "Surface-Induced Conformational Changes of alpha-Synuclein on Silica Nanoparticles of Varying Sizes Corresponding to Protein Structural Domains: Insights from Enhanced Sampling MD Simulations."
+  },
+  "content": {
+    "abstract": "Protein-nanoparticle interactions are crucial in a diverse array of biotechnology and biomedical applications. Variations in nanoparticle sizes can adjust surface interactions with proteins and biomolecules, thereby influencing their conformation and functionality. To achieve precise control over the nanoparticle sizes corresponding to the dimensions of protein structural domains ( approximately nm) and establish the relationship between nanoparticle curvature and protein conformational changes, we conduct well-tempered metadynamics simulations to explore the secondary structure changes and thermodynamic characteristics of alpha-synuclein (alphaS), an intrinsically disordered protein (IDP), adsorbed onto silicon dioxide (SiO(2)) nanoparticles of varying sizes (diameter, d = 0.5-2.5 nm). The analysis of alphaS's conformational landscapes and structural probabilities reveals that intermediate-sized SiO(2) nanoparticles (d = 1.2-1.4 nm) effectively stabilize the native intrinsically disordered conformations of alphaS (with domain sizes of 1-2 nm). In contrast, excessively large or small SiO(2) nanoparticles significantly enhance the likelihood of forming intramolecular beta-sheet domains within alphaS chains, a process that is critical for subsequent aggregation of alphaS. This study is of significance to the development of nanoparticles that stabilize desired protein conformations, which may pave the way for in vivo penetration and distribution of nanoparticles as well as biomedicine therapeutic interventions aimed at targeting alphaS aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Silicon Dioxide/chemistry",
+      "*alpha-Synuclein/chemistry",
+      "*Nanoparticles/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Particle Size",
+      "Surface Properties",
+      "Protein Domains",
+      "Protein Conformation",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Shuai",
+        "Ma, Yu",
+        "Liu, Hongyi",
+        "Shen, Lei"
+      ],
+      "short_names": [
+        "Gong S",
+        "Ma Y",
+        "Liu H",
+        "Shen L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0450-1895"
+      ],
+      "affiliations": [
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Shuai",
+        "short_name": "Gong S",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongyi",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Lei",
+        "short_name": "Shen L",
+        "identifiers": [
+          "0000-0002-0450-1895"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2025 Apr 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 18:24",
+    "fetched_at": "2026-09-21 18:01:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40233005",
+      "39437152",
+      "23607785",
+      "23374074",
+      "40853068",
+      "32179119",
+      "29621630",
+      "35912724",
+      "33170662",
+      "33260436",
+      "23583776",
+      "23978162",
+      "31147655",
+      "39087984",
+      "32709107",
+      "42093278",
+      "41891948",
+      "39504036",
+      "40994307",
+      "40461412",
+      "33719460",
+      "28667699",
+      "29364151",
+      "23609437",
+      "35427577",
+      "41301496",
+      "40300285",
+      "37114769",
+      "30184304",
+      "30917651",
+      "42041052",
+      "38018910",
+      "40289912",
+      "33581430",
+      "27809690",
+      "23912807",
+      "34439733",
+      "17944505",
+      "23906189",
+      "39693390",
+      "40882443",
+      "40433828",
+      "39864068",
+      "28480714",
+      "31903719",
+      "20947801",
+      "28248091",
+      "29715424",
+      "39377660",
+      "18366223",
+      "30933517",
+      "32821101",
+      "40960922",
+      "42334185",
+      "40332135",
+      "23374072",
+      "31799519",
+      "34861541",
+      "29372732",
+      "30917118",
+      "23845138",
+      "22552968",
+      "22435500",
+      "19189325",
+      "27588692",
+      "25243748",
+      "29474083",
+      "35950933",
+      "34451287",
+      "29723704",
+      "22523970",
+      "41129692",
+      "33352154",
+      "28796507",
+      "35014532",
+      "39046235",
+      "38857533",
+      "22655980",
+      "30840442",
+      "40605637",
+      "42183579",
+      "26371804",
+      "38996889",
+      "27273030",
+      "41518331",
+      "30030380",
+      "30318002",
+      "33383937",
+      "40878020",
+      "37094111",
+      "30865832",
+      "36379279",
+      "22947936",
+      "22211521",
+      "30629425",
+      "27613482",
+      "24475981",
+      "27092002",
+      "27427593",
+      "26931727"
+    ],
+    "review": [
+      "40233005",
+      "33260436",
+      "29364151",
+      "28480714",
+      "32821101"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.5c00763",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

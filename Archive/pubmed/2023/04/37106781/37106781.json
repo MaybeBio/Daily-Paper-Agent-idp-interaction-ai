@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37106781",
+    "doi": "10.3390/biology12040581",
+    "title": "SPEADI: Accelerated Analysis of IDP-Ion Interactions from MD-Trajectories."
+  },
+  "content": {
+    "abstract": "The disordered nature of Intrinsically Disordered Proteins (IDPs) makes their structural ensembles particularly susceptible to changes in chemical environmental conditions, often leading to an alteration of their normal functions. A Radial Distribution Function (RDF) is considered a standard method for characterizing the chemical environment surrounding particles during atomistic simulations, commonly averaged over an entire or part of a trajectory. Given their high structural variability, such averaged information might not be reliable for IDPs. We introduce the Time-Resolved Radial Distribution Function (TRRDF), implemented in our open-source Python package SPEADI, which is able to characterize dynamic environments around IDPs. We use SPEADI to characterize the dynamic distribution of ions around the IDPs Alpha-Synuclein (AS) and Humanin (HN) from Molecular Dynamics (MD) simulations, and some of their selected mutants, showing that local ion-residue interactions play an important role in the structures and behaviors of IDPs.",
+    "keywords": [
+      "Alpha-Synuclein",
+      "MD simulation",
+      "humanin",
+      "intrinsically disordered proteins",
+      "ion distribution",
+      "ion dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Bruyn, Emile",
+        "Dorn, Anton Emil",
+        "Zimmermann, Olav",
+        "Rossetti, Giulia"
+      ],
+      "short_names": [
+        "de Bruyn E",
+        "Dorn AE",
+        "Zimmermann O",
+        "Rossetti G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8748-2553",
+        "ORCID: 0000-0002-8422-0590",
+        "ORCID: 0000-0002-2032-4630"
+      ],
+      "affiliations": [
+        "Julich Supercomputing Centre, Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen University, 52062 Aachen, Germany.",
+        "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen University, 52062 Aachen, Germany.",
+        "Julich Supercomputing Centre, Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Julich Supercomputing Centre, Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Computational Biomedicine, Institute for Advanced Simulation IAS-5 and Institute of Neuroscience and Medicine INM-9, Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Department of Neurology, RWTH Aachen University, 52062 Aachen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Bruyn, Emile",
+        "short_name": "de Bruyn E",
+        "identifiers": [
+          "0000-0002-8748-2553"
+        ],
+        "affiliations": [
+          "Jülich Supercomputing Centre, Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen University, 52062 Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Dorn, Anton Emil",
+        "short_name": "Dorn AE",
+        "identifiers": [
+          "0000-0002-8422-0590"
+        ],
+        "affiliations": [
+          "Faculty of Mathematics, Computer Science and Natural Sciences, RWTH Aachen University, 52062 Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zimmermann, Olav",
+        "short_name": "Zimmermann O",
+        "identifiers": [],
+        "affiliations": [
+          "Jülich Supercomputing Centre, Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Rossetti, Giulia",
+        "short_name": "Rossetti G",
+        "identifiers": [
+          "0000-0002-2032-4630"
+        ],
+        "affiliations": [
+          "Jülich Supercomputing Centre, Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Computational Biomedicine, Institute for Advanced Simulation IAS-5 and Institute of Neuroscience and Medicine INM-9, Forschungszentrum Jülich, 52425 Jülich, Germany.",
+          "Department of Neurology, RWTH Aachen University, 52062 Aachen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2023 Apr 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 06:41",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [
+      "39462994",
+      "39046235"
+    ],
+    "refs": [
+      "37338049",
+      "36232847",
+      "35836937",
+      "35725761",
+      "35694853",
+      "35621322",
+      "35196007",
+      "34259536",
+      "34241175",
+      "33427465",
+      "33191750",
+      "33187433",
+      "33140640",
+      "32939066",
+      "32157247",
+      "31693369",
+      "31639989",
+      "31181290",
+      "30909517",
+      "30865440",
+      "30357364",
+      "30250773",
+      "29780979",
+      "29735687",
+      "28847960",
+      "28803412",
+      "28112214",
+      "27904575",
+      "27815075",
+      "27455358",
+      "27410742",
+      "26950519",
+      "26723627",
+      "26553504",
+      "26488642",
+      "26352473",
+      "25784874",
+      "24905915",
+      "24739139",
+      "24639500",
+      "24278298",
+      "23985350",
+      "23765500",
+      "23638911",
+      "23407358",
+      "23402768",
+      "23277413",
+      "23239898",
+      "22718772",
+      "22522311",
+      "21735222",
+      "21714551",
+      "21688775",
+      "21547007",
+      "21530236",
+      "21500218",
+      "21280130",
+      "21171689",
+      "21086986",
+      "20639465",
+      "19722699",
+      "18693700",
+      "18691903",
+      "18688361",
+      "18573080",
+      "17715357",
+      "17378564",
+      "17142228",
+      "17075053",
+      "16939197",
+      "16866548",
+      "16796993",
+      "15894639",
+      "15759134",
+      "15721287",
+      "15465909",
+      "14561895",
+      "12971891",
+      "12787071",
+      "12770872",
+      "12381310",
+      "12368089",
+      "12217698",
+      "11850416",
+      "11821392",
+      "11511392",
+      "11381529",
+      "11371646",
+      "9963851",
+      "9895674",
+      "9649375",
+      "8566551",
+      "6667333",
+      "1905840",
+      "923582"
+    ],
+    "similar": [
+      "37106781",
+      "30840442",
+      "23912807",
+      "39163306",
+      "31809054",
+      "36674958",
+      "33355572",
+      "33581430",
+      "34656328",
+      "23189168",
+      "33623120",
+      "37108059",
+      "36641212",
+      "35934194",
+      "36084124",
+      "32403216",
+      "33302617",
+      "29364151",
+      "33945530",
+      "32227937",
+      "32859072",
+      "34845619",
+      "30250773",
+      "30913885",
+      "34150843",
+      "28448138",
+      "30066087",
+      "37407505",
+      "38018910",
+      "36387274",
+      "34680048",
+      "22947936",
+      "38739602",
+      "37133846",
+      "30204435",
+      "33444020",
+      "32816485",
+      "38118365",
+      "30865832",
+      "30933517",
+      "25897952",
+      "32579908",
+      "35725761",
+      "35944496",
+      "21943426",
+      "37906368",
+      "36934808",
+      "15959866",
+      "38116756",
+      "31021441",
+      "30184304",
+      "36055623",
+      "30979035",
+      "27844185",
+      "25496281",
+      "31548393",
+      "35543707",
+      "35074392",
+      "36346711",
+      "27300592",
+      "27736076",
+      "32623047",
+      "38987470",
+      "26387110",
+      "28493424",
+      "30909517",
+      "36084347",
+      "35298814",
+      "34546059",
+      "38275091",
+      "32525675",
+      "26387104",
+      "30875980",
+      "34123251",
+      "28259050",
+      "26735936",
+      "35130691",
+      "36083825",
+      "35762718",
+      "35436286",
+      "33591749",
+      "32357776",
+      "26387101",
+      "20404210",
+      "25919886",
+      "31241933",
+      "34201262",
+      "35950933",
+      "31441158",
+      "30813315",
+      "36551304",
+      "36373847",
+      "24312701",
+      "37452752",
+      "22399317",
+      "35912724",
+      "35310482",
+      "20580965",
+      "37607621"
+    ],
+    "review": [
+      "37106781",
+      "30840442",
+      "33355572",
+      "32403216",
+      "29364151",
+      "30066087",
+      "34680048",
+      "38118365",
+      "31021441",
+      "30979035",
+      "26387110",
+      "30909517",
+      "26387104",
+      "30875980",
+      "28259050",
+      "33591749",
+      "26387101",
+      "31441158",
+      "36551304",
+      "22399317"
+    ],
+    "pmc": [
+      "10135740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology12040581",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37106781/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37106781",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

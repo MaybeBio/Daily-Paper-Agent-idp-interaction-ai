@@ -1,0 +1,134 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, and reported results; no assessment of code availability, reproducibility scripts, or supplementary materials not provided
+- **Shared manuscript claim summary** The authors propose HyWinNet, a deep learning framework combining Lorentzian hyperbolic graph neural networks with multi-scale graph wavelet transforms, for protein-protein interaction (PPI) prediction. They claim superior performance over five state-of-the-art baselines on two benchmark datasets, with additional claims regarding interpretability, robustness, and generalization.
+- **Visible evidence base** Abstract; Sections 1, 2, 3, 4; Tables 1 and 2 referenced; Figures 1 through 13 referenced; dataset descriptions in Data sources
+- **Missing materials affecting confidence** Actual figures and tables (only referenced, not shown); exact numerical results for baseline comparisons; implementation details (e.g., hyperparameter values, training procedures); code or model checkpoints; details of the Lorentzian distance computation in the prediction layer; full mathematical derivations for several equations (some equations appear truncated or incomplete in the provided text)
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting combination of hyperbolic geometry and spectral graph methods for PPI prediction, an area where such geometric priors are biologically motivated. However, the current version has substantial technical gaps that prevent a full evaluation of the claims. Several equations are incomplete or malformed, the experimental section lacks critical details (e.g., exact baseline numbers, statistical significance testing methodology), and the ablation studies are described inconsistently. The core idea has merit, but the evidence as presented is insufficient to establish the claimed advantages.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on PPI prediction, geometric deep learning researchers interested in hyperbolic embeddings for biological networks, and method developers in drug discovery who require interpretable prediction tools. The multi-scale wavelet approach may also interest researchers studying hierarchical organization in biological networks.
+- **Major strengths** The motivation for combining hyperbolic geometry with multi-scale spectral analysis is biologically well-grounded, given the hierarchical and scale-free nature of PPI networks. The use of Lorentzian geometry (rather than the Poincaré ball) for numerical stability is a sensible choice. The inclusion of permutation tests for statistical validation is commendable. The authors address an important problem with a novel methodological combination.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that HyWinNet outperforms five state-of-the-art baselines (Table 1), with AUC of 0.922 and AP of 0.938.
+  - **Evidence pointer** Section 3.1, Table 1 (not shown in provided material)
+  - **Concern** The actual table with baseline comparisons is not provided in the manuscript text. The authors state "As shown in Table 1, the proposed model achieved an AUC of 0.922 and an AP of 0.938, outperforming all competing state-of-the-art methods," but the table itself is absent from the provided material. Without the full comparison table, including baseline names, their exact scores, and the variance across runs, the claimed superiority cannot be verified.
+  - **Why it matters** The central claim of the paper is that HyWinNet outperforms existing methods. Without the actual comparison data, this claim is unverifiable. Additionally, the reported improvements (1.3-5.6% in AUC) may or may not be statistically significant, and no significance testing is reported for the main results.
+  - **Resolution test** Provide the full Table 1 with all baseline methods, their scores, standard deviations (or confidence intervals), and the number of independent runs. Report statistical significance tests (e.g., paired bootstrap or Wilcoxon) comparing HyWinNet to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes the Lorentz hyperbolic graph neural network encoder with equations (Eq. 3-6) and the multi-scale wavelet transform (Eq. 7-12).
+  - **Evidence pointer** Section 2.2, equations 3-12
+  - **Concern** Several equations in Section 2.2 are incomplete or malformed in the provided text. For example, the definition of Lorentz space is cut off ("The Lorentz space cn is defined by the manifold: where the Lorentzian inner product is given by:"), and the exponential mapping equation is incomplete. The wavelet transform equations (Eq. 10-12) reference components (e.g., "H(s) = Ps X") but the full formulation is not clearly presented. The GRU component for cross-scale interaction modeling is mentioned but not formally defined.
+  - **Why it matters** The methodological contribution is the core of the paper. If the equations are incomplete or ambiguous, the method cannot be reproduced or fully understood. This is a fundamental issue for a methods-focused paper.
+  - **Resolution test** Provide complete, correctly formatted equations for all components of the model, including the Lorentz space definition, exponential/logarithmic maps, hyperbolic graph convolution, wavelet transform, and GRU-based cross-scale integration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the multi-scale wavelet transform operates at "four biologically meaningful scales" and that this captures "local residue contacts and global pathway dynamics."
+  - **Evidence pointer** Section 2.2.2, Section 3.2, Table 2
+  - **Concern** The choice of four scales (k=1,2,3,4) is stated but not justified biologically or empirically. The ablation study for the GWT module (Table 2) is described in a confusing and partially duplicated paragraph. The text states "Except for the LorentzShallow encoder, the evaluation metrics of the GWT module are higher than those without the GWT module in the Zeng dataset" but then claims "In the Luo dataset and the same encoder, the evaluation metrics of the GWT module are also higher than those without the GWT module," which appears contradictory. The explanation for why GWT hurts performance with LorentzShallow on Zeng is speculative ("captures the local and global information of the graph too deeply").
+  - **Why it matters** The multi-scale wavelet component is a key claimed innovation. If its contribution is inconsistent across settings and the reasons are not well understood, the value of this component is unclear. The contradictory ablation description undermines confidence in the results.
+  - **Resolution test** Clarify the ablation results for the GWT module across both datasets and all encoders. Provide a clear table with all combinations. Explain the mechanism by which GWT could hurt performance in specific configurations, ideally with supporting analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that HyWinNet predicts "previously unannotated functional sites validated through independent structural and biochemical studies."
+  - **Evidence pointer** Abstract; Section 3 (no specific subsection identified)
+  - **Concern** This is a strong claim of biological validation, but no specific experimental validation is described in the provided text. No structural studies, biochemical assays, or independent datasets are mentioned beyond the two benchmark datasets. The claim appears in the abstract but is not substantiated in the main text.
+  - **Why it matters** If the model can predict novel functional sites with experimental validation, this would be a significant contribution. However, as presented, this claim is unsupported and may overstate the findings.
+  - **Resolution test** Provide a dedicated section describing the novel predictions, the experimental validation methods, and the results. If this claim is not substantiated, remove it from the abstract.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the contrastive learning module with 20% feature dropout "enhances the discrimination between interacting and non-interacting protein pairs."
+  - **Evidence pointer** Section 2.2.3, Section 3.2, Figures 6 and 7
+  - **Concern** The ablation study for the contrastive learning module is described with "maximum and minimum performance differences of [insert values]" - the actual values are missing. This is a placeholder text that was not filled in. Without these values, the contribution of the contrastive learning module cannot be assessed.
+  - **Why it matters** The contrastive learning component is one of the three claimed innovations. If its contribution is not quantified, the relative importance of each component cannot be determined.
+  - **Resolution test** Provide the actual performance differences for the contrastive learning ablation, along with the corresponding figures.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the model demonstrates "robustness" and "generalization" based on the design of hyperbolic geometry and multi-scale wavelets.
+  - **Evidence pointer** Section 4.2, Section 4.3
+  - **Concern** Sections 4.2 and 4.3 are largely qualitative. The robustness analysis describes why the design should be robust but does not present experiments demonstrating robustness (e.g., to noise, to perturbations, to different dataset splits). Similarly, the generalization analysis is conceptual, with no cross-dataset evaluation or external validation.
+  - **Why it matters** Claims of robustness and generalization require empirical evidence. Without such evidence, these sections read as speculation rather than analysis.
+  - **Resolution test** Add experiments that directly test robustness (e.g., adding noise to features or structure, varying dataset splits) and generalization (e.g., training on one dataset and testing on another, or evaluating on a third independent dataset).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2, overall architecture description
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the overall architecture is partially duplicated. The paragraph beginning "Multi-view contrastive learning module:" and "Multi-scale graph wavelet transform:" appears to repeat content already described in the bullet points above.
+  - **Required correction** Remove the duplicated paragraph and keep a single, concise description of the three modules.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2, ablation study text
+  - **Evidence pointer** Section 3.2
+  - **Issue** The ablation study section contains duplicated paragraphs. The paragraph "This section will conduct ablation experiments on the GWT module under different datasets and encoders, as shown in Table 2..." appears twice verbatim.
+  - **Required correction** Remove the duplicate paragraph.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2, contrastive learning ablation
+  - **Evidence pointer** Section 3.2, Figures 6 and 7
+  - **Issue** The text states "with observed maximum and minimum performance differences of [insert values]" - placeholder text that was not completed.
+  - **Required correction** Fill in the actual values or remove the bracketed placeholder.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3, hyperparameter sensitivity
+  - **Evidence pointer** Section 3.3
+  - **Issue** The sentence "We have performed a sensitivity analysis of hyperparameters of We conducted a sensitivity analysis of hyper-parameters in HyWinNet" contains a grammatical error and redundancy.
+  - **Required correction** Rewrite as a single, clean sentence, e.g., "We conducted a sensitivity analysis of hyperparameters in HyWinNet to identify optimal configurations."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.1, data set analysis
+  - **Evidence pointer** Section 4.1
+  - **Issue** The sentence "This strategy preserves the topological structure of protein functional modules, and the augmented edges are more likely to mirror authentic biological relationships Fig.13 compares evaluation metrics and losses under diverse data augmentation methods." is missing a period or transition between the two statements.
+  - **Required correction** Add appropriate punctuation or a transition sentence.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, dataset description
+  - **Evidence pointer** Section 2.1
+  - **Issue** The dataset description is brief. The authors state they use datasets from Luo et al. and Zeng et al., but do not describe the number of proteins, interactions, positive/negative ratio, or any preprocessing steps beyond removing duplicates and isolated nodes.
+  - **Required correction** Provide a more detailed description of the datasets, including sizes, class balance, and any filtering criteria.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.4, limitations
+  - **Evidence pointer** Section 4.4
+  - **Issue** The limitations section mentions "the biological meaning of specific wavelet coefficients (28) at different scales requires further experimental validation." The reference to "(28)" is unclear - it may refer to a citation or a specific coefficient index, but this is not explained.
+  - **Required correction** Clarify what "(28)" refers to, or remove it.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2.1, Lorentz space definition
+  - **Evidence pointer** Section 2.2.1
+  - **Issue** The definition of Lorentz space is incomplete. The text reads "The Lorentz space cn is defined by the manifold: where the Lorentzian inner product is given by:" but the actual mathematical expressions are missing.
+  - **Required correction** Provide the complete mathematical definition of the Lorentz space and its inner product.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing baseline comparison table), R1-M2 (incomplete equations), R1-M3 (contradictory ablation results), R1-M5 (missing ablation values), R1-M6 (unsupported robustness and generalization claims)
+- **Assessment against Nature-style criteria** Originality: The combination of hyperbolic geometry with multi-scale wavelet transforms for PPI prediction is novel and potentially interesting. However, the originality is somewhat diminished by the lack of clear comparison to prior work in the introduction, which does not adequately situate this contribution within the broader literature on geometric deep learning for PPI prediction. Scientific importance: PPI prediction is an important problem, and improved methods with interpretability would be valuable. However, the claimed biological validation is not substantiated, and the practical impact is unclear without more thorough evaluation. Interdisciplinary readership: The work sits at the intersection of machine learning and structural biology, which could appeal to both communities. However, the incomplete equations and lack of biological context in the results make it difficult for either audience to fully engage. Technical soundness: The technical presentation is currently insufficient. Incomplete equations, missing ablation values, and contradictory descriptions prevent a full assessment of the method's validity. Readability for nonspecialists: The abstract is accessible, but the methods section assumes significant expertise in both hyperbolic geometry and graph signal processing without adequate introduction. The manuscript would benefit from clearer motivation and more accessible explanations of the technical components.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, but the manuscript has substantial technical gaps that must be addressed. The authors should provide complete equations, full experimental results with statistical significance testing, clarified ablation studies, and substantiated claims of biological validation before the case for HyWinNet's superiority can be made.
+
+## Risk / unsupported claims
+- The claim of predicting "previously unannotated functional sites validated through independent structural and biochemical studies" (abstract) is unsupported by any evidence in the provided text.
+- The claim that the model "establishes a new paradigm for analyzing multi-scale biological networks" (abstract) is overstated given the lack of comprehensive comparison to existing multi-scale methods.
+- The claim that the multi-scale wavelet transform operates at "biologically meaningful scales" is not justified with biological reasoning or empirical evidence.
+- The claim that the model demonstrates "robustness" and "generalization" (Sections 4.2, 4.3) is not supported by experimental evidence.
+- The reported performance improvements over baselines (Section 3.1) cannot be verified without the actual Table 1 and associated statistical tests.
+- The ablation study results for the GWT module (Section 3.2) are described inconsistently, making the claimed benefits of this component unverifiable.

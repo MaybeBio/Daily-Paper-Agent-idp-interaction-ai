@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality based solely on the supplied material
+- **Shared manuscript claim summary** The authors present all-atom, explicitly solvated molecular dynamics simulations of MUC5B mucin domains, both as short "mini" constructs and a larger "mega" construct, to characterize the structural and dynamical effects of O-glycosylation on intrinsically disordered mucin backbones. They report that O-glycosylation increases backbone rigidity and linearity, reduces conformational compression, and that their simulations qualitatively recapitulate experimental scanning tunneling microscopy images of MUC1.
+- **Visible evidence base** Abstract, introduction, methods (including simulation protocols for mini and mega systems), results and discussion (clustering, persistence length, RMSF, solvation analyses), conclusions, acknowledgments. Figures referenced but not visible: Figures 1, 2, 3, 4, 5, 6, 7; Tables 1 and 2; Supporting Information Figures S1–S38 and Tables S1–S6.
+- **Missing materials affecting confidence** All figures, tables, and supporting information are referenced but not provided. This includes the actual simulation trajectories, clustering results, persistence length calculations, solvation data, and the STM images used for comparison. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial computational effort to model mucin glycoproteins at atomic resolution, a challenging and under-explored area. The workflow for constructing glycosylated mucin models from mass spectrometry and glycomics data is potentially valuable. However, the provided text alone does not contain sufficient quantitative data or visual evidence to fully evaluate the strength of the claims. The qualitative comparison to STM images is intriguing but the reported quantitative discrepancy in height-per-residue is large and not fully reconciled. The manuscript would benefit from clearer presentation of key metrics and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in glycobiology, biophysics of intrinsically disordered proteins, and computational chemistry. The work provides a methodological template for simulating densely glycosylated systems and offers molecular-level hypotheses for the bottlebrush morphology of mucins, which is relevant to understanding mucosal barrier function and mucin-related diseases.
+- **Major strengths** The study addresses a significant knowledge gap in mucin structural biology. The use of experimentally derived glycomics data to build realistic models is a strength. The comparison between mini and mega constructs for internal consistency is a thoughtful approach. The attempt to bridge simulation with experimental STM data is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that O-glycosylation imbues bottlebrush-like structures and increases backbone rigidity and linearity, supported by persistence length and clustering analyses.
+  - **Evidence pointer** Results and Discussion sections "Mucin Models Adopt Distinct Conformational States..." and "Detailing the Physical Characteristics of a Large-Scale Bottlebrush"; Figures 4 and 5; Supporting Information Figures S2, S5, S12.
+  - **Concern** The central quantitative claims regarding persistence length, clustering populations, and differences between glycosylated and unglycosylated systems are presented without specific numerical values in the text. The reader is directed to figures and supporting information that are not provided in this submission. For example, the persistence length values (21.3 ± 6.0 Å vs 7.4 ± 0.7 Å) are given, but the methodology for their calculation and the statistical significance of the difference are not detailed in the visible text.
+  - **Why it matters** Without access to the actual data distributions, error bars, and statistical tests, it is impossible to assess whether the observed differences are robust or within sampling noise. The claim that glycosylation "dramatically alters" conformational ensembles requires quantitative support.
+  - **Resolution test** Provide the actual figures and tables with clear axis labels, error bars, and statistical comparisons. Include a detailed description of the persistence length calculation method and the uncertainty quantification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim versus evidence
+  - **Claim pointer** The authors state that their mega mucin model provides a "striking qualitative comparison" to experimental STM images of MUC1, and they attempt a quantitative comparison via height-per-residue.
+  - **Evidence pointer** Results and Discussion section "Mega Mucin Model Captures Flexibility..."; Figure 7; Supporting Information Figures S37 and S38.
+  - **Concern** The quantitative comparison yields a height-per-residue of 1.2 ± 0.3 Å for simulation and 4.0 ± 0.7 Å for experiment, a factor of over three difference. The authors attribute this to differences between MUC1 and MUC5B and to sample preparation. However, this large discrepancy undermines the claim of quantitative or even strong qualitative agreement. The text does not provide a rigorous analysis of whether the shapes and features of the simulated and experimental structures are actually comparable beyond a general visual similarity.
+  - **Why it matters** The comparison to experiment is a key part of the paper's validation strategy. If the quantitative metrics do not match, the qualitative claim needs to be supported by a more objective shape or feature analysis, or the limitations of the comparison need to be more explicitly acknowledged.
+  - **Resolution test** Provide a more detailed side-by-side comparison, possibly with image analysis metrics (e.g., contour length, curvature distributions). Discuss the potential impact of the different mucin types and the STM deposition process on the observed dimensions. Acknowledge the limitation more prominently.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors describe a workflow for constructing mucin models, including the selection of O-glycan structures from databases and their placement on the peptide backbone.
+  - **Evidence pointer** Methods section, Figure 2, Supporting Information Section 1.0.
+  - **Concern** The description of the model construction is summarized, but key details are relegated to the Supporting Information. The criteria for "pseudo-randomizing" glycan positions are not fully explained in the main text. The rationale for choosing specific glycan structures from the database, and how representative they are of the true heterogeneity, is not discussed in detail.
+  - **Why it matters** The validity of the simulation results depends entirely on the quality and representativeness of the constructed models. A lack of transparency in the construction process makes it difficult for others to reproduce the work or assess potential biases.
+  - **Resolution test** Move a more detailed description of the construction workflow, including the selection criteria and the final glycan distributions, into the main text or provide a more comprehensive summary in the main text with full details in the SI.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction is dense and could benefit from a clearer statement of the specific questions the simulations aim to answer.
+  - **Required correction** Add a sentence at the end of the introduction explicitly stating the three main goals of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, simulation protocols
+  - **Evidence pointer** Methods, "Mega Glycosylated Simulations" and "Mega Unglycosylated Simulations"
+  - **Issue** The text mentions that different simulation workflows were used for glycosylated and unglycosylated mega systems due to computational cost, but the specific differences in the protocols (beyond the GAMD forking) are not clearly stated.
+  - **Required correction** Briefly state the key differences in the simulation protocols for the two mega systems in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, solvation analysis
+  - **Evidence pointer** Results and Discussion, "Solvation Promotes Extended Mucin Conformations"
+  - **Issue** The interpretation of the water dynamics data (residence time, MSD) is somewhat speculative. The link between faster water diffusion and the maximization of hydrogen bonding partners is plausible but not directly tested.
+  - **Required correction** Soften the language of the hypothesis or suggest a specific analysis (e.g., hydrogen bond lifetime calculations) that could support it.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible quantitative data (figures and tables) to support the main claims. The large discrepancy in the quantitative comparison to experiment also needs to be addressed more rigorously.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of all-atom MD to a densely glycosylated mucin domain is a novel and timely contribution. The workflow is an advance over previous approaches.  
+  - **Scientific importance** Understanding mucin structure is of high importance for human health. The findings have the potential to inform on barrier function and disease mechanisms.  
+  - **Interdisciplinary readership** The topic is of interest to glycobiologists, biophysicists, and computational chemists. The writing is generally accessible but assumes familiarity with MD and glycosylation concepts.  
+  - **Technical soundness** The simulation protocols appear standard and well-executed based on the text, but the lack of visible data prevents a full assessment. The comparison to experiment is a weakness.  
+  - **Readability for nonspecialists** The abstract is clear, but the results section is dense and would be challenging for a nonspecialist to follow without the figures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and workflow are promising, but the manuscript in its current form does not provide sufficient evidence to fully establish the claims. The authors must provide the missing data and address the quantitative discrepancy with experiment.
+
+## Risk / unsupported claims
+- The claim that O-glycosylation "dramatically alters" the conformational landscape is unsupported without the actual clustering and distribution data.
+- The claim of a "striking qualitative comparison" to STM images is weakened by the large quantitative discrepancy in height-per-residue and the lack of a more objective comparison.
+- The hypothesis that extended conformations maximize hydrogen bonding potential is speculative and not directly tested.
+- The generalizability of the findings from MUC5B to other mucins is stated as a hope but not demonstrated.

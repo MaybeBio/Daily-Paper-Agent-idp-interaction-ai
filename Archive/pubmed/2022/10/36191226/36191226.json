@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "36191226",
+    "doi": "10.1073/pnas.2207303119",
+    "title": "Mesoscale structure-function relationships in mitochondrial transcriptional condensates."
+  },
+  "content": {
+    "abstract": "In live cells, phase separation is thought to organize macromolecules into membraneless structures known as biomolecular condensates. Here, we reconstituted transcription in condensates from purified mitochondrial components using optimized in vitro reaction conditions to probe the structure-function relationships of biomolecular condensates. We find that the core components of the mt-transcription machinery form multiphasic, viscoelastic condensates in vitro. Strikingly, the rates of condensate-mediated transcription are substantially lower than in solution. The condensate-mediated decrease in transcriptional rates is associated with the formation of vesicle-like structures that are driven by the production and accumulation of RNA during transcription. The generation of RNA alters the global phase behavior and organization of transcription components within condensates. Coarse-grained simulations of mesoscale structures at equilibrium show that the components stably assemble into multiphasic condensates and that the vesicles formed in vitro are the result of dynamical arrest. Overall, our findings illustrate the complex phase behavior of transcribing, multicomponent condensates, and they highlight the intimate, bidirectional interplay of structure and function in transcriptional condensates.",
+    "keywords": [
+      "biomolecular condensates",
+      "mitochondrial genome",
+      "phase separation",
+      "transcription",
+      "vesicles"
+    ],
+    "mesh_terms": [
+      "Mitochondria/genetics",
+      "*Nuclear Bodies",
+      "*Organelles/metabolism",
+      "RNA/chemistry",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feric, Marina",
+        "Sarfallah, Azadeh",
+        "Dar, Furqan",
+        "Temiakov, Dmitry",
+        "Pappu, Rohit V",
+        "Misteli, Tom"
+      ],
+      "short_names": [
+        "Feric M",
+        "Sarfallah A",
+        "Dar F",
+        "Temiakov D",
+        "Pappu RV",
+        "Misteli T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7531-9305",
+        "ORCID: 0000-0001-5497-3068",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "National Cancer Institute, NIH, Bethesda, MD 20892.",
+        "National Institute of General Medical Sciences, NIH, Bethesda, MD 20892.",
+        "Department of Biochemistry and Molecular Biology, Thomas Jefferson University, Philadelphia, PA 19107.",
+        "Department of Physics, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biomedical Engineering, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biochemistry and Molecular Biology, Thomas Jefferson University, Philadelphia, PA 19107.",
+        "Department of Biomedical Engineering, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63130.",
+        "National Cancer Institute, NIH, Bethesda, MD 20892."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feric, Marina",
+        "short_name": "Feric M",
+        "identifiers": [
+          "0000-0001-7531-9305"
+        ],
+        "affiliations": [
+          "National Cancer Institute, NIH, Bethesda, MD 20892.",
+          "National Institute of General Medical Sciences, NIH, Bethesda, MD 20892."
+        ]
+      },
+      {
+        "full_name": "Sarfallah, Azadeh",
+        "short_name": "Sarfallah A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Thomas Jefferson University, Philadelphia, PA 19107."
+        ]
+      },
+      {
+        "full_name": "Dar, Furqan",
+        "short_name": "Dar F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Washington University in St. Louis, St. Louis, MO 63130.",
+          "Department of Biomedical Engineering, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Temiakov, Dmitry",
+        "short_name": "Temiakov D",
+        "identifiers": [
+          "0000-0001-5497-3068"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Thomas Jefferson University, Philadelphia, PA 19107."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Misteli, Tom",
+        "short_name": "Misteli T",
+        "identifiers": [],
+        "affiliations": [
+          "National Cancer Institute, NIH, Bethesda, MD 20892."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Oct 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/04 06:00",
+    "fetched_at": "2026-09-20 15:36:01"
+  },
+  "links": {
+    "cites": [
+      "42610615",
+      "42261829",
+      "42026137",
+      "41917059",
+      "41665987",
+      "41622676",
+      "41613751",
+      "41364143",
+      "41203642",
+      "40943143",
+      "40830340",
+      "40386802",
+      "40344006",
+      "40249810",
+      "40216775",
+      "40188296",
+      "39171763",
+      "39149346",
+      "39026887",
+      "38885177",
+      "38649740",
+      "38503281",
+      "38443761",
+      "37996438",
+      "37848445",
+      "37586706",
+      "37439264",
+      "37328453",
+      "37065433",
+      "36881934",
+      "36804705",
+      "36747818",
+      "36580588",
+      "35243657"
+    ],
+    "refs": [
+      "35537448",
+      "35364105",
+      "35333653",
+      "34931046",
+      "34818548",
+      "34569155",
+      "34507991",
+      "34502411",
+      "34186016",
+      "34035521",
+      "33795867",
+      "33771451",
+      "33692345",
+      "33649325",
+      "33619770",
+      "33558716",
+      "33335017",
+      "33333019",
+      "33326747",
+      "33230763",
+      "33169001",
+      "32989247",
+      "32873929",
+      "32684431",
+      "32675239",
+      "32571937",
+      "32302570",
+      "32048997",
+      "31634364",
+      "31543265",
+      "31391587",
+      "31168090",
+      "30926670",
+      "30846599",
+      "30449618",
+      "30342746",
+      "30190598",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29922250",
+      "29628210",
+      "29602697",
+      "29149603",
+      "28935776",
+      "28636604",
+      "28636597",
+      "28556382",
+      "28340338",
+      "28225081",
+      "27212236",
+      "27136098",
+      "26953349",
+      "25683708",
+      "25642965",
+      "25043061",
+      "24435062",
+      "24003126",
+      "22037172",
+      "21947009",
+      "21808029",
+      "21125481",
+      "20410300",
+      "19945377",
+      "19460965",
+      "19366608",
+      "17557812",
+      "16304597",
+      "15157274",
+      "12686611",
+      "12446911",
+      "9960548",
+      "8799830"
+    ],
+    "similar": [
+      "36191226",
+      "35243657",
+      "40848932",
+      "30926670",
+      "36993212",
+      "39005320",
+      "34772787",
+      "39578406",
+      "37218279",
+      "34772789",
+      "36028355",
+      "38773325",
+      "36150962",
+      "32405004",
+      "38489385",
+      "33049213",
+      "37252985",
+      "29258725",
+      "36883003",
+      "41279444",
+      "36327976",
+      "40954121",
+      "33672806",
+      "36227474",
+      "31790873",
+      "34772786",
+      "37464880",
+      "40108179",
+      "37408305",
+      "39042834",
+      "40661423",
+      "31484749",
+      "34648259",
+      "40172489",
+      "38383656",
+      "39168125",
+      "38621751",
+      "36227470",
+      "33661634",
+      "39675392",
+      "41191214",
+      "32726575",
+      "40782375",
+      "40661408",
+      "40196628",
+      "37162152",
+      "34916288",
+      "33650968",
+      "32929202",
+      "35618207",
+      "39356108",
+      "31199001",
+      "37549257",
+      "38365945",
+      "37131735",
+      "32482873",
+      "33878678",
+      "38656803",
+      "32800925",
+      "35595170",
+      "36106018",
+      "34785657",
+      "39827079",
+      "36288994",
+      "35727989",
+      "39636939",
+      "38424273",
+      "39868336",
+      "36595668",
+      "37925283",
+      "38063842",
+      "39303698",
+      "35832192",
+      "38607029",
+      "33376791",
+      "37202374",
+      "38722189",
+      "39080489",
+      "33771451",
+      "33300985",
+      "35881789",
+      "36798397",
+      "36711465",
+      "40972943",
+      "37205474",
+      "40327693",
+      "32194074",
+      "39037698",
+      "33049212",
+      "34129784",
+      "39366355",
+      "37239436",
+      "37461689",
+      "39987501",
+      "37019112",
+      "37546778",
+      "36361529",
+      "37047525",
+      "39498261",
+      "34241502"
+    ],
+    "review": [
+      "36191226",
+      "34772787",
+      "37218279",
+      "34772789",
+      "36028355",
+      "38773325",
+      "36150962",
+      "33049213",
+      "29258725",
+      "31790873",
+      "34772786",
+      "37464880",
+      "40172489",
+      "38621751",
+      "39675392",
+      "41191214",
+      "32726575",
+      "38365945",
+      "33878678",
+      "32800925",
+      "35595170",
+      "36106018",
+      "39827079",
+      "37925283",
+      "39303698",
+      "35832192",
+      "37202374",
+      "33771451",
+      "33300985",
+      "32194074",
+      "39037698",
+      "33049212",
+      "34129784",
+      "39366355"
+    ],
+    "pmc": [
+      "9565167"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2207303119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36191226/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36191226",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

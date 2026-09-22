@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or quantitative results were provided for verification
+- **Shared manuscript claim summary** The author reports meshless membrane simulations of curvature-inducing proteins modeled as chiral crescent rods with two excluded-volume chains, and claims that increasing chain length reduces protein cluster size, induces spindle-shaped vesicles, transitions between arc-shaped and circular assemblies, promotes tubulation on flat membranes, stabilizes spherical buds for zero rod curvature, and produces rugged membranes or tubules with periodic concave-ring structures for negative rod curvature.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or simulation parameters were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, parameter values, system sizes, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a systematic computational study of how disordered chains modulate protein-membrane interactions, with a broad parameter sweep across chain length and rod curvature. The findings are potentially interesting for the membrane biophysics community, but the abstract alone does not provide sufficient quantitative detail to assess the robustness of the claims. Several conclusions are stated without supporting numbers or error estimates, and the relationship between the model simplifications and biological relevance is not addressed in the provided material.
+- **Who would be interested in the results, and why** Researchers in membrane biophysics, computational biology, and cellular trafficking would be interested. The work addresses how intrinsically disordered domains in curvature-sensing proteins alter membrane morphology, which is relevant to understanding endocytosis, vesicle formation, and organelle shaping. The simulation approach may also interest computational scientists developing coarse-grained models of protein-membrane systems.
+- **Major strengths** The study addresses a biologically important question about the role of disordered domains in curvature sensing and generation. The parameter sweep across chain length and rod curvature is systematic and covers a wide morphological phase space. The use of meshless membrane simulations is appropriate for studying large-scale membrane deformations.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that increasing chain length reduces protein cluster size and induces specific membrane morphologies including spindle-shaped vesicles, tubules, spherical buds, and rugged membranes.
+  - **Evidence pointer** Abstract only; no figures or quantitative data provided
+  - **Concern** The abstract reports qualitative morphological outcomes but provides no quantitative measures such as cluster size distributions, membrane curvature distributions, or free energy calculations. Without these, it is impossible to verify that the observed transitions are statistically robust rather than single-trajectory artifacts.
+  - **Why it matters** The central claims depend on distinguishing genuine phase transitions in protein assembly and membrane morphology from stochastic fluctuations. The absence of quantitative evidence prevents assessment of whether the reported chain-length-dependent behaviors are reproducible and significant.
+  - **Resolution test** Provide quantitative data such as cluster size as a function of chain length with error bars, order parameters distinguishing arc versus circular assemblies, and multiple independent simulation runs to demonstrate reproducibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that protein rods with zero rod curvature and sufficiently long chains stabilize spherical buds, and that negative rod curvature with intermediate chain length induces rugged membranes with branched protein assemblies.
+  - **Evidence pointer** Abstract only; no simulation parameters or system details provided
+  - **Concern** The model combines a chiral crescent rod with two excluded-volume chains, but the abstract does not specify how the rod curvature, chain length, and protein concentration are varied, nor how the membrane size and boundary conditions affect the outcomes. The claim that "sufficiently long chains" stabilize buds is vague without a defined threshold or range.
+  - **Why it matters** The conclusions are parameter-dependent, and without knowing the parameter ranges and system sizes, the reader cannot judge whether the observed morphologies are general or specific to narrow conditions. This limits the predictive value of the study.
+  - **Resolution test** Specify the full parameter space explored, including chain length values, rod curvature values, protein density, membrane size, and simulation time. Show that the reported morphologies are stable across a reasonable range of these parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that disordered chains enhance curvature sensing and generation, citing recent experiments.
+  - **Evidence pointer** Abstract only; no comparison to experimental data provided
+  - **Concern** The abstract does not connect the simulation results to specific experimental observations or quantitative predictions that could be tested. The claim that the model reproduces or explains experimental findings is not substantiated with any comparison.
+  - **Why it matters** For the work to have broad impact, it should either make testable predictions or reconcile conflicting experimental observations. Without such connection, the biological relevance remains speculative.
+  - **Resolution test** Add a comparison section in the full manuscript that maps simulation outcomes to specific experimental systems, including quantitative predictions such as tubule diameters, bud sizes, or protein clustering thresholds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** Terms such as "chiral crescent protein rod," "excluded-volume chains," and "concave-ring structures" are used without definition or context, which may confuse readers outside the simulation community.
+  - **Required correction** Define these terms briefly in the abstract or introduce them with a short explanatory phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "the protein and bound membrane are modeled together as a chiral crescent protein rod with two excluded-volume chains," but it is unclear whether the membrane is explicitly simulated or implicitly represented through the rod.
+  - **Required correction** Clarify in the abstract whether the membrane is a separate explicit component or whether the rod effectively replaces the membrane patch.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention which specific proteins or experimental systems the model is intended to represent, limiting the ability of experimentalists to assess relevance.
+  - **Required correction** Name one or two example proteins with BAR domains and disordered regions that the model aims to capture.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks quantitative evidence and parameter specification, making the core claims unverifiable from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of chiral crescent geometry with disordered chains in a simulation model is a novel approach, but the abstract does not demonstrate how this differs from prior modeling of BAR domain proteins.
+  - Scientific importance: The question of how disordered domains modulate curvature sensing is timely and relevant, but the abstract does not establish the broader significance beyond the specific simulation outcomes.
+  - Interdisciplinary readership: The work would appeal to biophysicists and computational biologists, but the abstract is too technical for a general scientific audience and does not frame the problem in accessible terms.
+  - Technical soundness: Not assessable from the abstract alone; the lack of quantitative data and parameter details is a major limitation.
+  - Readability for nonspecialists: The abstract uses specialized jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting qualitative findings, but the absence of quantitative data, parameter specifications, and experimental connections prevents a supportive recommendation. The work may become publishable if the full manuscript addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that disordered chains "enhance curvature sensing and generation" is presented as motivation but is not directly tested or quantified in the abstract.
+- The claim that "intermediate chain length induces many tubules" and "longer chains promote perpendicular elongation" is stated without quantitative measures of tubule density or orientation.
+- The claim that "longer chains induce the formation of tubules with periodic concave-ring structures" is not supported by any quantitative characterization of periodicity or structure.
+- The biological relevance of the model to specific proteins is not established, making the generalizability of the conclusions unassessable.

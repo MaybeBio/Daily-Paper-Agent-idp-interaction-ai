@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a combined spectroscopic study (NMR, IR, vibrational, and UV circular dichroism) of two short linear motif (SLiM) segments, GRRDSG and GRRTSG, which are representatives of RxxS motifs phosphorylatable by protein kinase A. They derive Ramachandran plots for these peptides and conclude that nearest and non-nearest residue interactions redistribute populations between polyproline II and beta-strand basins, stabilize extended conformations relative to turn-forming and helical structures, and shift basin positions. They further report that increasing temperature increases beta-strand populations at the expense of polyproline II, and that molecular dynamics simulations with Amber ff14SB and CHARMM 36m force fields do not reproduce the observed structural changes.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, Ramachandran plots, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, data analysis procedures, simulation setup and validation, error estimates, and any comparison with prior literature
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of multiple spectroscopic techniques to characterize conformational ensembles of short linear motif peptides. The topic is relevant to the biophysics and biochemistry communities, particularly for understanding how short disordered segments encode functional recognition. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the quality of the spectral analysis, the validity of the Ramachandran plot determinations, or the robustness of the conclusions regarding force field performance. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and short linear motifs, biophysicists interested in conformational ensembles of peptides, computational chemists developing or benchmarking molecular dynamics force fields, and biochemists studying kinase substrate recognition. The combination of multiple spectroscopies to derive residue-level conformational propensities would be of methodological interest.
+- **Major strengths** The use of multiple complementary spectroscopic techniques (NMR, IR, vibrational, and UV circular dichroism) to probe conformational distributions is a rigorous approach that can provide cross-validated information. The focus on SLiM segments, which are biologically important yet understudied conformationally, addresses a relevant gap. The inclusion of a direct comparison between experimental results and molecular dynamics simulations with two commonly used force fields is valuable for the computational community.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim to have determined the Ramachandran plots of the two SLiM motifs from combined spectroscopic data.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how the Ramachandran plots were derived from the spectroscopic data, what assumptions were made, how the different techniques were integrated, or what uncertainties are associated with the derived distributions. Without this information, the reliability of the reported conformational distributions cannot be assessed.  
+  - **Why it matters** The central conclusion of the paper rests on the accuracy of the derived Ramachandran plots. If the methodology for combining the spectroscopic data is not transparent or validated, the entire interpretive framework is compromised.  
+  - **Resolution test** Provide a detailed description of the data analysis procedure, including how each technique constrains the conformational distribution, how conflicts between techniques were resolved, and quantitative error estimates for the derived populations and basin positions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that molecular dynamics simulations with Amber ff14SB and CHARMM 36m force fields do not account for the observed structural changes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no details on the simulation protocol, including system setup, equilibration, sampling length, number of replicas, temperature control, or how the simulated ensembles were compared with the experimental data. Without this information, the claim that the force fields fail to reproduce the observations is not substantiated.  
+  - **Why it matters** This claim has significant implications for force field benchmarking. If the comparison is not conducted rigorously, the conclusion could be misleading and could unfairly discredit the tested force fields.  
+  - **Resolution test** Provide full simulation details, including force field parameters, water model, simulation length, convergence criteria, and a quantitative comparison metric between simulated and experimental Ramachandran distributions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that nearest and non-nearest interactions between residues cause redistributions between polyproline II and beta-strand basins and stabilize extended conformations.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which residues are involved in the interactions, how the interactions were identified, or how the effects were separated from intrinsic residue propensities. The biological or functional significance of the observed conformational preferences is also not articulated.  
+  - **Why it matters** Without a clear link between the observed conformational behavior and the biological function of these SLiM segments (e.g., kinase recognition), the broader significance of the findings remains unclear.  
+  - **Resolution test** Identify the specific interactions responsible for the observed effects, compare the conformational distributions with those of control peptides lacking the interacting residues, and discuss how the conformational preferences relate to phosphorylation efficiency or binding affinity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses technical terms such as "polyproline II" and "beta-strand basins" without brief definitions or context, which may limit accessibility for readers outside the biophysics community.  
+  - **Required correction** Add a brief explanatory phrase when these terms are first introduced, or provide a short background sentence on conformational basins.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not state the peptide length, the exact sequences beyond the motif core, or the experimental conditions (e.g., pH, ionic strength, peptide concentration).  
+  - **Required correction** Include these basic experimental parameters in the abstract or indicate that they are provided in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The phrase "they do not account for the observed structural changes" is ambiguous regarding whether the simulations fail qualitatively or quantitatively.  
+  - **Required correction** Specify the nature of the discrepancy, for example, whether the simulations predict different relative populations, different basin positions, or different temperature responses.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims regarding experimentally derived Ramachandran plots and force field inadequacy cannot be evaluated from the abstract alone. The absence of methodological detail prevents verification of the results.
+
+## Risk / unsupported claims
+- The claim that Ramachandran plots were determined for GRRDSG and GRRTSG is unsupported in the abstract due to lack of methodological detail.
+- The claim that molecular dynamics simulations with Amber ff14SB and CHARMM 36m do not reproduce the observed structural changes is unsupported without simulation and comparison details.
+- The claim that nearest and non-nearest interactions cause specific redistributions between conformational basins is not substantiated without identification of the interactions and control experiments.
+- The temperature dependence of beta-strand versus polyproline II populations is reported without quantitative data or statistical significance.
+- The biological relevance of the findings to protein kinase A phosphorylation is asserted but not developed.

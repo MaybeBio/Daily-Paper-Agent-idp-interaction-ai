@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors present an off-lattice coarse-grained stickers-and-spacers polymer model for continuous molecular dynamics simulations, implemented in the GPU-accelerated OpenABC package. The model uses directional sticker–sticker interactions to encode limited valency. Simulations of one-component systems show that sticker affinity and multivalency promote porous network-like condensates, while nonspecific spacer interactions drive phase separation but produce compact spacer-dominated dense phases. When both interaction types are present, strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts sticker-mediated networks. In two-component systems, specific sticker interactions buffer client recruitment into host condensates, while nonspecific spacer interactions produce reservoir-dependent uptake. The authors conclude a tradeoff between condensation and organization.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation data, or comparison with experimental observations
+- **Missing materials affecting confidence** Full manuscript, figures, simulation methodology details, parameter values, validation against experimental or theoretical benchmarks, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in biomolecular condensate physics. The conceptual framework, distinguishing specific sticker interactions from nonspecific spacer interactions and proposing a tradeoff between condensation and organization, is timely and could appeal to a broad readership. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the model, the robustness of the conclusions, or the novelty relative to existing stickers-and-spacers theories. The claims are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, and coarse-grained polymer simulations would be interested. The work addresses a central question about how different interaction types shape condensate properties, which is relevant for understanding phase behavior of IDPs in cell biology and for designing synthetic condensates.
+- **Major strengths** The conceptual framing is clear and addresses a timely question. The proposed model, using directional interactions to encode limited valency without explicit bond assignment, is an interesting methodological idea. The distinction between sticker-mediated organization and spacer-driven condensation, and the proposed tradeoff, provides a coherent physical narrative.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model uses directional sticker–sticker interaction to encode limited valency through interaction geometry, producing effectively one-to-one sticker binding without explicit bond assignment.  
+  - **Evidence pointer** Abstract, model description; location not provided  
+  - **Concern** The abstract claims that directional interactions produce effectively one-to-one binding, but no details are given on how the interaction geometry is parameterized, how the valency is controlled, or how the model avoids artifacts such as unintended multi-body interactions or kinetic trapping. Without these details, the technical validity of the approach cannot be assessed.  
+  - **Why it matters** The central methodological innovation is the valency-limited interaction scheme. If the scheme is not robust or not properly validated, all subsequent conclusions about network formation and organization are compromised.  
+  - **Resolution test** Provide a detailed description of the interaction potential, including functional form, parameter ranges, and tests demonstrating that the valency is effectively limited to one-to-one binding across relevant conditions. Show that results are insensitive to reasonable parameter variations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** Simulations of one-component systems show that sticker affinity and multivalency promote porous, network-like condensates, while nonspecific spacer interactions can also drive phase separation but produce more compact, spacer-dominated dense phases.  
+  - **Evidence pointer** Abstract, results summary; location not provided  
+  - **Concern** The abstract reports qualitative outcomes such as porous versus compact condensates, reduced sticker conversion, and suppressed sticker mobility, but no quantitative measures are provided. There are no data on phase diagrams, order parameters, cluster size distributions, or dynamic quantities. Without quantitative evidence, the claims cannot be evaluated or compared with existing theory.  
+  - **Why it matters** The conclusions rest on distinctions between condensate morphologies and molecular organization. These distinctions require quantitative characterization to be meaningful and reproducible.  
+  - **Resolution test** Provide quantitative results, such as phase boundaries, radial distribution functions, cluster size distributions, sticker conversion fractions, and diffusion coefficients, with appropriate statistical uncertainties.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Originality and context  
+  - **Claim pointer** Recent theory predicts that heterogeneous nonspecific spacer interactions can promote condensation but may also disrupt sticker-mediated organization.  
+  - **Evidence pointer** Abstract, introduction; location not provided  
+  - **Concern** The abstract references recent theory but does not specify what that theory predicts in detail or how the present simulation results extend or challenge it. The novelty of the computational findings relative to existing theoretical predictions is unclear.  
+  - **Why it matters** For a Nature-style audience, the work must clearly articulate what new physical insight is provided beyond existing theory. Without explicit comparison, the contribution may be seen as confirmatory rather than novel.  
+  - **Resolution test** Clearly state the specific predictions of prior theory, and show where simulation results agree, disagree, or provide new mechanistic detail. Highlight any unexpected findings.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability and relevance  
+  - **Claim pointer** These results support a tradeoff in which spacer heterogeneity promotes condensation at the cost of condensate organization and compositional robustness, providing a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions.  
+  - **Evidence pointer** Abstract, conclusion; location not provided  
+  - **Concern** The abstract extrapolates from a coarse-grained model to biological IDP behavior, but no connection to experimental data or specific IDP sequences is provided. The relevance of the model parameters to real systems is not established.  
+  - **Why it matters** The biological interpretation is a key part of the claimed significance. Without validation against experimental observations or realistic sequence-based parameters, the extrapolation remains speculative.  
+  - **Resolution test** Discuss how model parameters map to real IDP sequences, and compare simulation predictions with available experimental data on condensate properties or organization where possible.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, two-component systems description  
+  - **Evidence pointer** Abstract, results; location not provided  
+  - **Issue** The phrase "reservoir-dependent uptake" is vague. It is unclear what reservoir refers to and how uptake depends on it.  
+  - **Required correction** Define reservoir in this context and specify the nature of the dependence, such as concentration thresholds or stoichiometric effects.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Model implementation  
+  - **Evidence pointer** Abstract, model description; location not provided  
+  - **Issue** The abstract states the model is implemented in OpenABC but gives no indication of whether the code is publicly available, versioned, or accompanied by example inputs.  
+  - **Required correction** State code availability and provide a reference or repository link in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "sticker conversion"  
+  - **Evidence pointer** Abstract, results; location not provided  
+  - **Issue** The term "sticker conversion" is not defined. It is unclear whether it refers to the fraction of stickers in bound states, the rate of binding, or something else.  
+  - **Required correction** Define the term explicitly when first used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The model validation, quantitative evidence, and explicit positioning against prior theory are essential to establish the claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The conceptual tradeoff is interesting, but the abstract does not demonstrate sufficient novelty beyond existing stickers-and-spacers theory. The methodological approach of using directional interactions for valency control is potentially original but not yet validated.  
+  - Scientific importance: The question of how interaction heterogeneity shapes condensate properties is important for the condensate field. However, the abstract does not show how the findings change current understanding.  
+  - Interdisciplinary readership: The topic bridges polymer physics, biophysics, and cell biology, which is suitable for a broad audience. The abstract is written accessibly.  
+  - Technical soundness: Not assessable from the abstract alone. The model details and validation are missing.  
+  - Readability for nonspecialists: The abstract is clear and well structured, though some terms such as "sticker conversion" and "reservoir-dependent uptake" need definition.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient technical detail or quantitative support to assess the validity of the claims. I would be supportive if the full manuscript addresses the major concerns, particularly model validation, quantitative results, and explicit comparison with prior theory.
+
+## Risk / unsupported claims
+- The claim that directional interactions produce effectively one-to-one binding is unsupported without model details and validation.
+- The qualitative distinctions between porous and compact condensates, and the effects of spacer heterogeneity on sticker conversion and mobility, are unsupported without quantitative data.
+- The extrapolation to biological IDP behavior and the rationale for suppression of promiscuous spacer interactions is unsupported without connection to experimental data or realistic sequence parameters.
+- The claim that specific sticker interactions buffer client recruitment is unsupported without quantitative two-component results.

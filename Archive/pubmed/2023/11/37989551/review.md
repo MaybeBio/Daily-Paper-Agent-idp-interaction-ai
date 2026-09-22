@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an improved version of the SPICA coarse-grained force field for proteins, introducing secondary structure dependent nonbonded parameters and reoptimizing amino acid nonbonded parameters. They claim improved reproduction of radii of gyration for intrinsically disordered proteins, binding sensitivity of peripheral membrane proteins, dimerization free energies of transmembrane helices, and peptide association free energies in water, plus an expanded protein lipid interaction library.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological details, or validation results are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, parameterization details, comparison datasets, error analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable extension of an established coarse-grained force field, addressing known limitations in modeling intrinsically disordered proteins and peripheral membrane proteins. The scope of reparameterization and the breadth of validation targets are commendable. However, the abstract alone provides no quantitative evidence, no methodological detail, and no statistical assessment. The strength of the claims cannot be evaluated from the supplied material. The work may be of interest to the molecular simulation community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in coarse-grained molecular simulation, membrane biophysics, and protein folding and aggregation would be interested. The improved description of IDPs and peripheral membrane proteins addresses a recognized gap in CG force fields, and the expanded lipid interaction library enables studies of protein lipid specificity that were previously difficult with this model.
+- **Major strengths** The work targets a clear and important limitation of the previous SPICA protein model. The reparameterization strategy, including secondary structure dependent backbone parameters, is a logical approach to improve transferability. The validation set spans multiple protein classes, which supports claims of broad applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the improved force field "successfully reproduces" radii of gyration of various IDPs, binding sensitivity of peripheral membrane proteins, dimerization free energies of transmembrane helices, and peptide association free energies in water.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results, comparison metrics, or statistical measures are presented in the abstract. The term "successfully reproduces" is used without any numerical support, such as error values, correlation coefficients, or comparisons to experimental uncertainties.
+  - **Why it matters** The central claim of the work is that the new force field improves accuracy. Without quantitative evidence, the reader cannot assess the magnitude of improvement, the quality of agreement with experiment, or whether the improvements are statistically meaningful.
+  - **Resolution test** Provide in the full manuscript quantitative comparisons for each validation target, including numerical values, uncertainties, and comparisons to the previous SPICA version and to experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "protein secondary structure dependent nonbonded interaction parameters" were introduced and that "almost all nonbonded parameters for amino acids" were reoptimized.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no detail on how secondary structure dependence was implemented, how the reoptimization was performed, what objective function was used, or what training data were employed. Without this information, the parameterization strategy cannot be evaluated for robustness or transferability.
+  - **Why it matters** Force field parameterization is a delicate process. The choice of training set, optimization algorithm, and treatment of secondary structure dependence directly affect the reliability and generalizability of the resulting model. The abstract does not allow any assessment of these choices.
+  - **Resolution test** In the full manuscript, describe the parameterization protocol in sufficient detail, including the training set composition, optimization procedure, and any cross validation or transferability tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** The abstract claims the new force field is "applicable with high accuracy for simulating a wide range of protein systems."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The validation targets listed in the abstract cover IDPs, peripheral membrane proteins, transmembrane helices, and peptide association. However, the claim of "wide range" and "high accuracy" is broader than the listed validation set. No information is provided on how many systems were tested, how representative they are, or whether any failure cases were encountered.
+  - **Why it matters** Overgeneralization from a limited validation set is a common risk in force field development. The claim of broad applicability requires evidence that the model performs well across diverse protein types, sequences, and environments, not just the specific cases mentioned.
+  - **Resolution test** In the full manuscript, clearly state the number and diversity of test systems, include any cases where the model performed poorly, and temper the applicability claim to match the evidence presented.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on "binding sensitivity"
+  - **Issue** The term "binding sensitivity" is vague. It is unclear whether this refers to binding free energies, binding affinities, or qualitative binding versus nonbinding behavior.
+  - **Required correction** Define the term explicitly in the abstract or use a more precise phrase such as "binding free energies" or "binding propensity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, statement on lipid library
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The abstract mentions an "extensive library of nonbonded interactions between proteins and lipids" but does not specify how many lipid types are included or whether the library covers all major membrane lipid classes.
+  - **Required correction** Provide a brief quantitative summary of the lipid library coverage in the abstract, such as the number of lipid types and classes included.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparability
+  - **Affected element** Abstract, claim of improved agreement
+  - **Evidence pointer** Abstract, statement on peptide association free energy
+  - **Issue** The abstract states "improved agreement with experiments" but does not specify the baseline for comparison, that is, whether the comparison is against the previous SPICA version or against other CG force fields.
+  - **Required correction** Clarify the comparator in the abstract, for example, "improved agreement with experiments compared to the previous SPICA version."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking concerns. The abstract provides no quantitative evidence, no methodological detail, and no demonstration of broad applicability. These must be resolved in the full manuscript before the claims can be assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is an incremental improvement to an existing force field rather than a conceptually new approach. The introduction of secondary structure dependent parameters is a reasonable extension but is not a paradigm shift. Originality is moderate.
+  - Scientific importance: Improving CG force fields for IDPs and peripheral membrane proteins is scientifically important for the simulation community. The potential impact on membrane biology and protein aggregation studies is significant. Importance is high within the field.
+  - Interdisciplinary readership: The work is primarily of interest to computational biophysicists and physical chemists. It is unlikely to attract broad interdisciplinary readership beyond the molecular simulation community.
+  - Technical soundness: Cannot be assessed from the abstract. The parameterization strategy and validation approach require full manuscript scrutiny.
+  - Readability for nonspecialists: The abstract is written in a technical style that assumes familiarity with CG force fields and protein simulation. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially valuable improvement to a widely used force field, but the absence of quantitative results and methodological detail prevents any assessment of the validity of the claims. A decision would require full manuscript review.
+
+## Risk / unsupported claims
+- The claim that the new force field "successfully reproduces" multiple experimental observables is unsupported by any quantitative data in the abstract.
+- The claim of "high accuracy" for "a wide range of protein systems" is unsupported and overgeneralized relative to the listed validation targets.
+- The claim of an "extensive library" of protein lipid interactions is unquantified and cannot be evaluated.
+- The statement that the previous model "had limited accuracy" for IDPs and peripheral proteins is plausible but not substantiated with specific examples or data in the abstract.
+- The overall applicability claim for SPICA version 2 is not assessable from the abstract alone.

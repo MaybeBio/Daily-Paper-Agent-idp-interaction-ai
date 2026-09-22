@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38712134",
+  "title": "A complete map of specificity encoding for a partially fuzzy protein interaction.",
+  "authors": "Zarin, Taraneh; Lehner, Ben",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-05-07",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过大规模能量图谱解析PDZ结构域与无序配体（含动态尾部）互作的特异性编码机制，虽对象为折叠结构域但聚焦IDR配体的模糊动态残基对亲和力与特异性的贡献，互作机制建模深入，方法以实验为主、AI/物理模拟较弱。",
+  "abstract": "Thousands of human proteins function by binding short linear motifs embedded in intrinsically disordered regions. How affinity and specificity are encoded in these binding domains and the motifs themselves is not well understood. The evolvability of binding specificity - how rapidly and extensively it can change upon mutation - is also largely unexplored, as is the contribution of 'fuzzy' dynamic residues to affinity and specificity in protein-protein interactions. Here we report the first complete map of specificity encoding for a globular protein domain. Quantifying >200,000 energetic interactions between a PDZ domain and its ligand identifies 20 major energetically coupled pairs of sites that control specificity. These are organized into six modules, with most mutations in each module reprogramming specificity for a single position in the ligand. Nine of the major energetic couplings controlling specificity are between structural contacts and 11 have an allosteric mechanism of action. The dynamic tail of the ligand is more robust to mutation than the structured residues but contributes additively to binding affinity and communicates with structured residues to enable changes in specificity. Our results quantify the binding specificities of >1,800 globular proteins to reveal how specificity is encoded and provide a direct comparison of the encoding of affinity and specificity in structured and dynamic molecular recognition.",
+  "abstract_zh": "数千种人类蛋白质通过结合嵌入在固有无序区域中的短线性基序来发挥功能。亲和力和特异性如何在这些结合结构域及基序本身中被编码，目前尚不十分清楚。结合特异性的可进化性——即突变后其变化的速度和程度——也 largely 未被探索，同样未明的是“模糊”动态残基在蛋白质-蛋白质相互作用中对亲和力和特异性的贡献。在此，我们报告了首个球状蛋白结构域特异性编码的完整图谱。通过量化一个PDZ结构域与其配体之间的超过200,000种能量相互作用，识别出20对控制特异性的主要能量耦合位点。这些位点组织成六个模块，每个模块中的大多数突变重新编程了配体中单一位置的特异性。控制特异性的九个主要能量耦合涉及结构接触，而11个则通过变构机制发挥作用。配体的动态尾部对突变更具鲁棒性，但能加和性地贡献于结合亲和力，并与结构化残基通信以实现特异性变化。我们的结果量化了超过1,800种球状蛋白的结合特异性，揭示了特异性如何被编码，并提供了结构化与动态分子识别中亲和力和特异性编码的直接比较。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38712134/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38712134/",
+  "paper_page_path": "papers/pubmed/38712134/index.html"
+}

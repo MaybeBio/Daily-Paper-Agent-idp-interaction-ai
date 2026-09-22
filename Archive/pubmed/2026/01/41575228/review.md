@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that three clinically approved tricyclic antidepressants (imipramine, amitriptyline, doxepin) bind directly to monomeric alpha-synuclein and inhibit its fibrillation. They propose a nonspecific, multiligand binding mechanism predominantly targeting the C-terminal domain, supported by NMR spectroscopy (WaterLOGSY, chemical shift perturbation) and molecular dynamics simulations. They report a correlation between experimental CSP magnitudes and inhibitory potency, with imipramine being the most potent. They further describe a dynamic combination of electrostatic, pi-stacking, and hydrophobic interactions, including simultaneous salt-bridge and pi-stacking engagement by a single ligand molecule. They position these compounds as promising scaffolds and advocate for the efficiency of molecular dynamics approaches for IDP-ligand interactions.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, spectra, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, NMR spectra and assignments, CSP values, fibrillation assay conditions and kinetic data, simulation force fields and convergence criteria, compound purity and concentration details, positive and negative controls, statistical treatment, and any structural models or trajectory analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that approved tricyclic antidepressants bind to monomeric alpha-synuclein and inhibit fibrillation, with a proposed mechanism involving the C-terminal domain. However, the evidence as summarized is insufficient to establish the mechanistic claims or the translational relevance. The correlation between CSP and inhibitory potency is stated but not quantified. The simulation findings are described qualitatively without validation against experimental data beyond a general agreement. The claim of a "nonspecific, multiligand binding mechanism" is plausible but not rigorously supported from the abstract alone. The study may be of interest to the neurodegeneration and drug repurposing communities, but the current evidence base does not allow a definitive assessment of technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in Parkinson's disease and other synucleinopathies, particularly those focused on protein aggregation and drug repurposing. The use of clinically approved drugs as potential modulators of alpha-synuclein aggregation could attract translational interest. Computational chemists and biophysicists studying IDP-ligand interactions may also find the methodological angle relevant.
+- **Major strengths** The study addresses a clinically relevant problem using approved drugs, which enhances translational potential. The combination of experimental NMR and molecular dynamics is appropriate for studying weak, dynamic interactions with an IDP. The focus on a specific domain (C-terminal) and the identification of simultaneous salt-bridge and pi-stacking interactions provide a mechanistic hypothesis that is testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that tricyclic antidepressants bind directly to monomeric alpha-synuclein and inhibit its fibrillation, with a mechanism predominantly targeting the C-terminal domain.
+  - **Evidence pointer** Abstract; specific figures and tables not provided
+  - **Concern** The abstract does not provide quantitative data on binding affinity, stoichiometry, or fibrillation inhibition (e.g., IC50 values, lag time changes, or extent of inhibition). The CSP magnitudes are mentioned but not reported, and the correlation with inhibitory potency is stated without numerical support. Without these data, the core claims of binding and inhibition cannot be evaluated.
+  - **Why it matters** The central premise of the paper rests on demonstrating that these drugs bind and inhibit fibrillation. Qualitative statements without numbers or statistical context are insufficient to establish the effect size or significance, which is critical for any translational claim.
+  - **Resolution test** Provide quantitative binding data (e.g., dissociation constants from NMR titrations) and fibrillation kinetics (e.g., ThT fluorescence curves with replicates, statistical comparisons against controls) in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors propose a nonspecific, multiligand binding mechanism predominantly targeting the C-terminal domain, driven by electrostatic, pi-stacking, and hydrophobic interactions, with simultaneous salt-bridge and pi-stacking engagement.
+  - **Evidence pointer** Abstract; simulation details and NMR data not provided
+  - **Concern** The mechanism is inferred from CSP and simulations, but the abstract does not specify how the "predominant" C-terminal targeting was determined, how multiligand binding was distinguished from other models, or how the simulation contact probabilities were validated against experimental data. The claim of simultaneous salt-bridge and pi-stacking is presented as a novel feature but lacks comparative context or error analysis.
+  - **Why it matters** Mechanistic claims for IDP-ligand interactions are notoriously difficult to establish. Without clear evidence that the proposed interactions are specific and reproducible across methods, the mechanism remains speculative, which weakens the paper's contribution.
+  - **Resolution test** Show residue-level CSP mapping with assignment completeness, provide simulation convergence metrics, and demonstrate that the proposed interactions are statistically enriched relative to a control or alternative binding modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Translational relevance
+  - **Claim pointer** The authors position tricyclic antidepressants as "promising scaffolds" for targeting alpha-synuclein.
+  - **Evidence pointer** Abstract; no in vivo or cellular data provided
+  - **Concern** The abstract does not address whether the binding and inhibition occur at physiologically relevant concentrations, whether the drugs cross the blood-brain barrier at sufficient levels, or whether any cellular or in vivo effects are observed. The term "promising scaffolds" implies therapeutic potential that is not supported by the presented data.
+  - **Why it matters** For a clinical translation claim, the relevance of in vitro binding and aggregation data to disease contexts must be contextualized. Without addressing bioavailability, toxicity, or efficacy in models, the claim overreaches.
+  - **Resolution test** Add a discussion of drug concentrations used versus therapeutic plasma or brain levels, or include preliminary cellular or in vivo data if available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "nonspecific, multiligand binding"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "nonspecific" is ambiguous; it could mean low affinity, multiple sites, or lack of a defined pocket. The abstract does not clarify how this is operationalized.
+  - **Required correction** Define "nonspecific" in the context of the binding model and specify how multiligand binding was modeled or detected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention the force field, simulation length, or number of replicates, which are essential for assessing the reliability of the molecular dynamics results.
+  - **Required correction** Include key simulation parameters in the methods summary or abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparative analysis
+  - **Affected element** Comparison to "previously studied alpha-synuclein binders"
+  - **Evidence pointer** Abstract
+  - **Issue** The claim that simultaneous salt-bridge and pi-stacking interactions are unlike previously studied binders is not substantiated with references or comparative data.
+  - **Required correction** Provide a brief comparison with cited examples or temper the claim to avoid overstatement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of binding, inhibition, and mechanism are not quantitatively supported from the abstract. The lack of numerical data and methodological detail prevents verification of the conclusions.
+- **Assessment against Nature-style criteria** Originality: The use of approved tricyclic antidepressants as alpha-synuclein aggregation inhibitors is a novel angle, though the general concept of repurposing drugs for synucleinopathies is not new. Scientific importance: Potentially high if the effects are robust and translationally relevant, but the current evidence does not establish this. Interdisciplinary readership: The topic bridges chemistry, biophysics, and neuroscience, which could attract a broad audience, but the abstract is too technical for nonspecialists without context. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and methodological detail is a significant limitation. Readability for nonspecialists: The abstract uses jargon (e.g., WaterLOGSY, CSP, IDP) without sufficient explanation, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract does not provide sufficient quantitative or methodological support for the core claims. A revised manuscript with full data would be needed to assess whether the conclusions hold.
+
+## Risk / unsupported claims
+- The claim that tricyclic antidepressants "inhibit" alpha-synuclein fibrillation is unsupported without kinetic or endpoint data.
+- The claim of a "nonspecific, multiligand binding mechanism" is unsupported without binding stoichiometry or site mapping.
+- The claim that CSP magnitudes "correlate" with inhibitory potency is unsupported without numerical values or statistical analysis.
+- The claim that simultaneous salt-bridge and pi-stacking interactions are "unlike" previously studied binders is unsupported without comparative references.
+- The translational claim of "promising scaffolds" is unsupported without concentration relevance or biological context.

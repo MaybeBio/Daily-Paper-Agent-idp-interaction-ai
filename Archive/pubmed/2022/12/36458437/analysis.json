@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36458437",
+  "title": "CLIP: accurate prediction of disordered linear interacting peptides from protein sequences using co-evolutionary information.",
+  "authors": "Peng, Zhenling; Li, Zixia; Meng, Qiaozhen; Zhao, Bi; Kurgan, Lukasz",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-12-03",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出CLIP方法，利用共进化信息、理化特征和无序预测的组合模型，从序列预测无序线性互作肽段(LIPs)，属于IDR介导PPI的序列预测工具，但未深入互作机制建模，方法为传统机器学习而非AI/物理模拟。",
+  "abstract": "One of key features of intrinsically disordered regions (IDRs) is facilitation of protein-protein and protein-nucleic acids interactions. These disordered binding regions include molecular recognition features (MoRFs), short linear motifs (SLiMs) and longer binding domains. Vast majority of current predictors of disordered binding regions target MoRFs, with a handful of methods that predict SLiMs and disordered protein-binding domains. A new and broader class of disordered binding regions, linear interacting peptides (LIPs), was introduced recently and applied in the MobiDB resource. LIPs are segments in protein sequences that undergo disorder-to-order transition upon binding to a protein or a nucleic acid, and they cover MoRFs, SLiMs and disordered protein-binding domains. Although current predictors of MoRFs and disordered protein-binding regions could be used to identify some LIPs, there are no dedicated sequence-based predictors of LIPs. To this end, we introduce CLIP, a new predictor of LIPs that utilizes robust logistic regression model to combine three complementary types of inputs: co-evolutionary information derived from multiple sequence alignments, physicochemical profiles and disorder predictions. Ablation analysis suggests that the co-evolutionary information is particularly useful for this prediction and that combining the three inputs provides substantial improvements when compared to using these inputs individually. Comparative empirical assessments using low-similarity test datasets reveal that CLIP secures area under receiver operating characteristic curve (AUC) of 0.8 and substantially improves over the results produced by the closest current tools that predict MoRFs and disordered protein-binding regions. The webserver of CLIP is freely available at http://biomine.cs.vcu.edu/servers/CLIP/ and the standalone code can be downloaded from http://yanglab.qd.sdu.edu.cn/download/CLIP/.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 的关键特征之一是促进蛋白质-蛋白质和蛋白质-核酸相互作用。这些无序结合区域包括分子识别特征 (molecular recognition features, MoRFs)、短线性基序 (short linear motifs, SLiMs) 和较长的结合结构域。目前绝大多数无序结合区域预测器针对 MoRFs，仅有少数方法预测 SLiMs 和无序蛋白结合结构域。最近，一类更广泛的无序结合区域——线性相互作用肽 (linear interacting peptides, LIPs) 被引入，并应用于 MobiDB 资源中。LIPs 是蛋白质序列中在与蛋白质或核酸结合时经历无序到有序转变的片段，它们涵盖 MoRFs、SLiMs 和无序蛋白结合结构域。尽管现有的 MoRFs 和无序蛋白结合区域预测器可用于识别部分 LIPs，但目前尚无专门基于序列的 LIPs 预测器。为此，我们引入 CLIP，一种新的 LIPs 预测器，它利用稳健的逻辑回归模型，结合三种互补类型的输入：从多序列比对中衍生的共进化信息、理化特征谱和无序预测。消融分析表明，共进化信息对此预测尤为有用，且将三种输入结合相较于单独使用这些输入能带来显著改进。使用低相似性测试数据集的比较性经验评估显示，CLIP 实现了接收者操作特征曲线下面积 (area under receiver operating characteristic curve, AUC) 为 0.8，并显著优于当前最接近的预测 MoRFs 和无序蛋白结合区域的工具所产生的结果。CLIP 的网页服务器可在 http://biomine.cs.vcu.edu/servers/CLIP/ 免费获取，独立代码可从 http://yanglab.qd.sdu.edu.cn/download/CLIP/ 下载。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36458437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36458437/",
+  "paper_page_path": "papers/pubmed/36458437/index.html"
+}

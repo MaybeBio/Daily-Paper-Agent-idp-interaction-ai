@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors present OriginFlow, a protein generative model combining stochastic differential equation (SDE) and flow-matching approaches. They claim state-of-the-art performance in designability, diversity, and novelty of generated structures, as well as outstanding functional design capabilities for motifs, binders, and symmetric motif scaffolding. They further report wet-lab validation on PD-L1, RBD, and VEGF targets achieving 90% expression, solubility, and affinity, and state these results are significantly superior to all current AI binder design algorithms.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, computational benchmarks, experimental protocols, statistical analyses, and raw data. The abstract references AF3 complex predictions and MD experiments but provides no quantitative results.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially significant advance in generative protein design, combining established frameworks in a way that may offer practical benefits. However, the evidence base available for this review is limited to the abstract, which contains no quantitative data, no methodological detail, and no comparative statistics. The central claims of state-of-the-art performance and superiority over all existing AI binder design algorithms are therefore not assessable from the supplied material. The wet-lab success rate of 90% is striking but presented without experimental context, replication information, or definitions of the metrics used. The work is likely to interest the protein design community, but the case as presented is not established.
+- **Who would be interested in the results, and why** Computational protein designers and structural biologists would be interested in a generative model that reportedly combines designability with functional success. Researchers working on binder design and therapeutic protein engineering would also be interested given the claimed wet-lab validation on clinically relevant targets such as PD-L1, RBD, and VEGF. The broader machine learning for biology community may follow the methodological combination of SDE and flow-matching approaches.
+- **Major strengths** The abstract identifies a clear gap in the field, namely balancing designability and diversity while addressing constrained and functional design tasks. The combination of SDE and flow-matching frameworks is a plausible methodological direction. The reported wet-lab validation on multiple targets is a strength if the underlying data are robust, as experimental validation is often absent in generative model papers.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model achieves state-of-the-art levels of designability, diversity, and novelty, and demonstrates outstanding performance in functional design.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative metrics, benchmark comparisons, or statistical analyses are provided. The terms "state-of-the-art" and "outstanding" are used without supporting numbers or reference to specific benchmarks.
+  - **Why it matters** Without quantitative comparison to existing methods, the claim of superiority cannot be evaluated. The protein design field has established benchmarks, and claims of SOTA performance require direct comparison on those benchmarks.
+  - **Resolution test** Provide benchmark tables with metrics such as designability成功率, diversity measures, novelty scores, and comparison to at least RFdiffusion, Chroma, and FrameFlow on identical evaluation protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** Wet-lab validation on PD-L1, RBD, and VEGF targets achieved 90% expression, solubility, and affinity, and these results are significantly superior to all current AI binder design algorithms.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The 90% figure is presented without defining what constitutes expression, solubility, and affinity success. No experimental details are given, including assay types, replicates, controls, or statistical comparisons. The claim of superiority over all current AI binder design algorithms is extraordinary and requires direct head-to-head comparison.
+  - **Why it matters** Binder design is a high-stakes application where false positives are common. Without rigorous experimental protocols and statistical analysis, the 90% success rate cannot be interpreted. The claim of superiority over all existing algorithms is a strong universal claim that requires comprehensive comparative evidence.
+  - **Resolution test** Provide full experimental methods, define success thresholds for each metric, include negative controls, report replicates and statistical tests, and perform direct experimental comparison with at least one established binder design method on the same targets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** OriginFlow combines SDE models and flow models based on flow matching.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no architectural details, training data, model size, or inference procedure. The novelty of the combination relative to existing flow-matching protein models is unclear.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and training details, the method cannot be evaluated for novelty or replicated by others.
+  - **Resolution test** Provide a full methods section with model architecture, training data and procedure, hyperparameters, and code availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "90% expression, solubility, and affinity" is ambiguous. It is unclear whether this means 90% of designed binders achieved all three criteria simultaneously or whether each criterion was met in 90% of cases.
+  - **Required correction** Clarify whether the 90% figure refers to the fraction of designs passing all three criteria jointly or each criterion independently.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Symmetric motif scaffolding"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** This term is not defined in the abstract and may be unclear to readers outside the immediate protein design subfield.
+  - **Required correction** Provide a brief definition or example of symmetric motif scaffolding in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark references
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not name any specific benchmark datasets or comparison methods, making the SOTA claim unverifiable from the abstract alone.
+  - **Required correction** Name the specific benchmarks and comparison methods used in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative benchmarks, experimental rigor, and methodological detail means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The combination of SDE and flow-matching is plausible but its novelty relative to existing flow-matching protein models cannot be assessed without methodological detail. Scientific importance: Binder design with wet-lab validation is potentially important, but the evidence is insufficient to establish significance. Interdisciplinary readership: The work would appeal to computational biologists, protein engineers, and machine learning researchers, but the abstract lacks sufficient detail for nonspecialists to evaluate the claims. Technical soundness: Not assessable from the abstract. Readability for nonspecialists: The abstract is generally readable but uses field-specific terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes potentially significant work, but the absence of quantitative data, experimental protocols, and methodological detail prevents evaluation of the central claims. A full manuscript with benchmarks, experimental methods, and statistical analyses would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim of state-of-the-art designability, diversity, and novelty is unsupported by any quantitative data in the supplied material.
+- The claim of outstanding performance in motifs, binders, and symmetric motif scaffolding is unsupported by specific results.
+- The claim of 90% expression, solubility, and affinity is unverifiable without experimental protocols and definitions.
+- The claim that results are significantly superior to all current AI binder design algorithms is unsupported and not assessable from the abstract.
+- The statement that all binder design results showed excellent affinity in AF3 predictions and MD experiments is unverifiable without quantitative data.

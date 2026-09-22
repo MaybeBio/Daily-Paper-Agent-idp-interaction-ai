@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "42172058",
+    "doi": "10.1021/acs.jpclett.6c01067",
+    "title": "Chain Length as a Molecular Determinant of Hydrogen-Bond Dynamics in Biocondensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates create distinct chemical environments that modulate molecular interactions and solvent organization, yet how the peptide length shapes the local hydrogen-bonding landscape remains unclear. Here, poly-l-arginine (poly-R) with adenosine monophosphate (AMP) is used to isolate chain-length effects on local hydrogen-bond environments. Four poly-R lengths (10-, 30-, 50-, and 100-mer) were characterized using FTIR and ultrafast two-dimensional IR (2D IR) spectroscopy. Line shapes indicate invariant backbone conformations, whereas picosecond dynamics exhibit strong length dependence. In dilute solution, correlation lifetimes increase with peptide length, consistent with hindered solvent rearrangement around compact polyelectrolyte chains. In the condensed phase, dynamics become nonlinear, with longer chains exhibiting pronounced slowing consistent with enhanced multivalency, increased network connectivity, and partial dynamic arrest. Simulations provide an atomistic picture of this slowdown. Together, these results show that the chain length lowers the entropic cost of association and promotes network formation, determining local chemical environments in biocondensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheehan, Dana E",
+        "Starkey, Chloe B",
+        "Baiz, Carlos R"
+      ],
+      "short_names": [
+        "Sheehan DE",
+        "Starkey CB",
+        "Baiz CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0699-8468"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheehan, Dana E",
+        "short_name": "Sheehan DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Starkey, Chloe B",
+        "short_name": "Starkey CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Baiz, Carlos R",
+        "short_name": "Baiz CR",
+        "identifiers": [
+          "0000-0003-0699-8468"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, 105 E 24th St. A5300, Austin, Texas 78712, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2026 Jun 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 12:34",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42172058",
+      "38061016",
+      "40880224",
+      "39591652",
+      "19378969",
+      "19585982",
+      "33238611",
+      "26558297",
+      "40910446",
+      "32866390",
+      "23912807",
+      "34491037",
+      "20232827",
+      "19425543",
+      "11427046",
+      "18288813",
+      "19754112",
+      "38605209",
+      "41921702",
+      "20141150",
+      "28641416",
+      "41885524",
+      "38056002",
+      "21823714",
+      "33982350",
+      "38949285",
+      "17129137",
+      "40203038",
+      "41566033",
+      "19469530",
+      "24908036",
+      "38693674",
+      "22296566",
+      "39387354",
+      "38416758",
+      "36695540",
+      "31794222",
+      "26967551",
+      "30727725",
+      "41043057",
+      "32503199",
+      "11670058",
+      "37468629",
+      "20170232",
+      "21417263",
+      "40452827",
+      "40017032",
+      "33054215",
+      "28583830",
+      "21417373",
+      "8664268",
+      "35170620",
+      "19435307",
+      "17407347",
+      "31112203",
+      "33464100",
+      "38111464",
+      "18489146",
+      "27534934",
+      "38127983",
+      "39206833",
+      "17373792",
+      "22435395",
+      "24660958",
+      "28863528",
+      "40654645",
+      "31082232",
+      "28623782",
+      "28715007",
+      "33326222",
+      "41632892",
+      "19681584",
+      "32423219",
+      "34624983",
+      "29087711",
+      "2386812",
+      "1920431",
+      "31209594",
+      "28485640",
+      "26803232",
+      "24628208",
+      "40455990",
+      "8448122",
+      "18370431",
+      "38364823",
+      "10903873",
+      "32364385",
+      "28533982",
+      "10226504",
+      "19449855",
+      "22181201",
+      "26535781",
+      "29796552",
+      "17226947",
+      "41939372",
+      "26049435",
+      "40163593",
+      "28593765",
+      "25965904",
+      "40574501"
+    ],
+    "review": [
+      "42172058",
+      "19425543",
+      "18288813"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.6c01067",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

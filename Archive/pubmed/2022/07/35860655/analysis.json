@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35860655",
+  "title": "Counting Degrons: Lessons From Multivalent Substrates for Targeted Protein Degradation.",
+  "authors": "Okoye, Cynthia N; Rowling, Pamela J E; Itzhaki, Laura S; Lindon, Catherine",
+  "journal": "Frontiers in physiology",
+  "published_date": "2022-07-22",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 6,
+  "one_liner_zh": "综述E3泛素连接酶底物中多个降解子（degrons）在IDR中的多价/异价相互作用机制，并探讨其对靶向蛋白降解工具设计的启示，虽聚焦无序蛋白与PPI机制，但以综述为主且无AI/物理模拟方法。",
+  "abstract": "E3s comprise a structurally diverse group of at least 800 members, most of which target multiple substrates through specific and regulated protein-protein interactions. These interactions typically rely on short linear motifs (SLiMs), called \"degrons\", in an intrinsically disordered region (IDR) of the substrate, with variable rules of engagement governing different E3-docking events. These rules of engagement are of importance to the field of targeted protein degradation (TPD), where substrate ubiquitination and destruction require tools to effectively harness ubiquitin ligases (E3s). Substrates are often found to contain multiple degrons, or multiple copies of a degron, contributing to the affinity and selectivity of the substrate for its E3. One important paradigm for E3-substrate docking is presented by the Anaphase-Promoting Complex/Cyclosome (APC/C), a multi-subunit E3 ligase that targets hundreds of proteins for destruction during mitotic exit. APC/C substrate targeting takes place in an ordered manner thought to depend on tightly regulated interactions of substrates, with docking sites provided by the substoichiometric APC/C substrate adaptors and coactivators, Cdc20 or Cdh1/FZR1. Both structural and functional studies of individual APC/C substrates indicate that productive ubiquitination usually requires more than one degron, and that degrons are of different types docking to distinct sites on the coactivators. However, the dynamic nature of APC/C substrate recruitment, and the influence of multiple degrons, remains poorly understood. Here we review the significance of multiple degrons in a number of E3-substrate interactions that have been studied in detail, illustrating distinct kinetic effects of multivalency and allovalency, before addressing the role of multiple degrons in APC/C substrates, key to understanding ordered substrate destruction by APC/C. Lastly, we consider how lessons learnt from these studies can be applied in the design of TPD tools.",
+  "abstract_zh": "E3s包含至少800个成员，构成结构多样的群体，其中大多数通过特异且受调控的蛋白质-蛋白质相互作用靶向多个底物。这些相互作用通常依赖于底物内在无序区域（IDR）中的短线性基序（SLiMs），称为“降解子”（degrons），且不同的E3对接事件受不同的结合规则支配。这些结合规则对靶向蛋白质降解（TPD）领域至关重要，在该领域中，底物的泛素化和降解需要工具来有效利用泛素连接酶（E3s）。底物常被发现包含多个降解子，或一个降解子的多个拷贝，这有助于底物与其E3的亲和力和选择性。E3-底物对接的一个重要范例是后期促进复合物/环体（APC/C），这是一种多亚基E3连接酶，在分裂期退出时靶向数百种蛋白质进行降解。APC/C底物靶向以有序方式进行，被认为依赖于底物与亚化学计量APC/C底物适配器和共激活因子Cdc20或Cdh1/FZR1提供的对接位点之间的紧密调控相互作用。对单个APC/C底物的结构和功能研究表明，有效的泛素化通常需要不止一个降解子，且降解子类型不同，对接至共激活因子上的不同位点。然而，APC/C底物招募的动态性质以及多个降解子的影响仍知之甚少。在此，我们回顾了多个降解子在若干已详细研究的E3-底物相互作用中的重要性，展示了多价性和异价性的不同动力学效应，然后探讨多个降解子在APC/C底物中的作用，这是理解APC/C有序底物降解的关键。最后，我们考虑如何将这些研究中的经验应用于TPD工具的设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35860655/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35860655/",
+  "paper_page_path": "papers/pubmed/35860655/index.html"
+}

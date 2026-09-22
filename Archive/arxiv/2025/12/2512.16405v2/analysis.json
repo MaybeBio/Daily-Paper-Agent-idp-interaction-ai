@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2512.16405v2",
+  "title": "A single-chain nanoparticle-based mean-field theory for associative polymers",
+  "authors": "Marco Cappa; Stefano Chiani; Francesco Sciortino; Lorenzo Rovigatti",
+  "journal": "",
+  "published_date": "2025-12-18",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用平均场理论建模含可逆结合贴纸的缔合聚合物（单链纳米颗粒）的相分离热力学，虽对象为合成聚合物而非IDP，但其贴纸-贴纸互作与相分离机制建模思路对无序蛋白介导的凝聚体PPI研究有可迁移启发。",
+  "abstract": "Associative polymers are a class of polymers containing attractive stickers that can reversibly bind to each other. Their fully-bonded state gives rise, in dilute conditions, to a fluid phase of so-called single-chain nanoparticles (SCNPs). These constructs have been used in a wide range of applications, from the design of new materials (e.g. biomolecular condensates) to drug-delivery vectors. The thermodynamic properties of SCNPs sensitively depend on the number of different sticker types, since numerical simulations show that a continuous transition to a network of chains upon increase of polymer concentration in the single sticker-type case can be replaced by an abrupt network formation (via a first-order phase transition) in the multiple sticker-type case. We present here a theory that, using the SCNP fluid as the reference system, quantifies the free energy change associated with transferring an intra-molecular bond to an inter-molecular bond, elucidating the impact on the phase separation process of the sticker topology. Despite its simplicity, the theory highlights which microscopic assumptions (loop statistics, chain-level excluded volume) are most relevant for accurately capturing the thermodynamics of these systems. Our results match available numerical predictions obtained via coarse grained simulations of these systems, highlighting in particular the sensitivity of the phase behaviour on the sequence of the stickers along the chain.",
+  "abstract_zh": "缔合聚合物是一类含有可逆结合的吸引性粘附基团的聚合物。在其完全键合状态下，稀溶液中会形成所谓的单链纳米颗粒（single-chain nanoparticles, SCNPs）流体相。这些结构已被广泛应用于从新材料设计（如生物分子凝聚体）到药物递送载体等多个领域。SCNPs的热力学性质敏感地依赖于不同粘附基团类型的数量，因为数值模拟表明，在单一粘附基团类型情况下，随着聚合物浓度增加而出现的连续网络转变，在多种粘附基团类型情况下可能被通过一级相变实现的突然网络形成所取代。我们在此提出一种理论，以SCNP流体为参考系统，量化将分子内键转移为分子间键所伴随的自由能变化，从而阐明粘附基团拓扑结构对相分离过程的影响。尽管该理论简单，但它突出了哪些微观假设（环统计、链级排除体积）对于准确捕捉这些系统的热力学性质最为关键。我们的结果与通过粗粒化模拟获得的现有数值预测相符，特别强调了相行为对链上粘附基团序列的敏感性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2512.16405v2",
+  "source_url": "https://arxiv.org/abs/2512.16405v2",
+  "paper_page_path": "papers/arxiv/2512.16405v2/index.html"
+}

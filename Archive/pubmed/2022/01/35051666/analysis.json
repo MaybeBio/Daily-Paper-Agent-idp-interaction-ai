@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35051666",
+  "title": "Molecular simulations of proteins: From simplified physical interactions to complex biological phenomena.",
+  "authors": "Rizzuti, Bruno",
+  "journal": "Biochimica et biophysica acta. Proteins and proteomics",
+  "published_date": "2022-01-21",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 7,
+  "one_liner_zh": "综述分子动力学模拟在蛋白质研究中的应用，涵盖无序蛋白的结构、动力学与结合性质，虽非聚焦PPI机制建模，但为IDP模拟方法提供可迁移的物理模拟框架。",
+  "abstract": "Molecular dynamics simulation is the most popular computational technique for investigating the structural and dynamical behaviour of proteins, in search of the molecular basis of their function. Far from being a completely settled field of research, simulations are still evolving to best capture the essential features of the atomic interactions that govern a protein's inner motions. Modern force fields are becoming increasingly accurate in providing a physical description adequate to this purpose, and allow us to model complex biological systems under fairly realistic conditions. Furthermore, the use of accelerated sampling techniques is improving our access to the observation of progressively larger molecular structures, longer time scales, and more hidden functional events. In this review, the basic principles of molecular dynamics simulations and a number of key applications in the area of protein science are summarized, and some of the most important results are discussed. Examples include the study of the structure, dynamics and binding properties of 'difficult' targets, such as intrinsically disordered proteins and membrane receptors, and the investigation of challenging phenomena like hydration-driven processes and protein aggregation. The findings described provide an overall picture of the current state of this research field, and indicate new perspectives on the road ahead to the upcoming future of molecular simulations.",
+  "abstract_zh": "分子动力学模拟是研究蛋白质结构与动态行为、探寻其功能分子基础的最流行计算技术。这一研究领域远未完全定型，模拟方法仍在不断演进，以最佳方式捕捉控制蛋白质内部运动的原子相互作用的关键特征。现代力场在提供足以实现此目的的物理描述方面日益精确，使我们能够在相当真实的条件下模拟复杂的生物系统。此外，加速采样技术的应用正提升我们观察更大分子结构、更长时标及更多隐藏功能事件的能力。本综述总结了分子动力学模拟的基本原理及其在蛋白质科学领域的若干关键应用，并讨论了一些最重要的成果。示例包括对“困难”靶标（如 intrinsically disordered proteins 和膜受体）的结构、动态及结合特性的研究，以及对诸如水合驱动过程和蛋白质聚集等挑战性现象的探索。所述发现为这一研究领域的当前状态提供了整体概览，并指出了通往分子模拟未来之路的新视角。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35051666/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35051666/",
+  "paper_page_path": "papers/pubmed/35051666/index.html"
+}

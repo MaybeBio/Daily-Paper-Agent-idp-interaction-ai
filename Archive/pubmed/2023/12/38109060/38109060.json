@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "38109060",
+    "doi": "10.1080/07391102.2023.2292795",
+    "title": "Uncovering the structural stability of Magnaporthe oryzae effectors: a secretome-wide in silico analysis."
+  },
+  "content": {
+    "abstract": "Rice blast, caused by the ascomycete fungus Magnaporthe oryzae, is a deadly disease and a major threat to global food security. The pathogen secretes small proteinaceous effectors, virulence factors, inside the host to manipulate and perturb the host immune system, allowing the pathogen to colonize and establish a successful infection. While the molecular functions of several effectors are characterized, very little is known about the structural stability of these effectors. We analyzed a total of 554 small secretory proteins (SSPs) from the M. oryzae secretome to decipher key features of intrinsic disorder (ID) and the structural dynamics of the selected putative effectors through thorough and systematic in silico studies. Our results suggest that out of the total SSPs, 66% were predicted as effector proteins, released either into the apoplast or cytoplasm of the host cell. Of these, 68% were found to be intrinsically disordered effector proteins (IDEPs). Among the six distinct classes of disordered effectors, we observed peculiar relationships between the localization of several effectors in the apoplast or cytoplasm and the degree of disorder. We determined the degree of structural disorder and its impact on protein foldability across all the putative small secretory effector proteins from the blast pathogen, further validated by molecular dynamics simulation studies. This study provides definite clues toward unraveling the mystery behind the importance of structural distortions in effectors and their impact on plant-pathogen interactions. The study of these dynamical segments may help identify new effectors as well.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Intrinsic disorder",
+      "effector",
+      "molecular dynamics simulation",
+      "pathogen-informatics",
+      "rice-blast pathogen interaction",
+      "small secretory proteins"
+    ],
+    "mesh_terms": [
+      "*Fungal Proteins/chemistry/metabolism",
+      "Computer Simulation",
+      "*Ascomycota/metabolism/pathogenicity",
+      "Protein Stability",
+      "*Virulence Factors/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Magnaporthe/metabolism",
+      "Plant Diseases/microbiology",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Oryza/microbiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Anwesha",
+        "Hussain, Afzal",
+        "Sabnam, Nazmiara"
+      ],
+      "short_names": [
+        "Chakraborty A",
+        "Hussain A",
+        "Sabnam N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6110-3770",
+        "ORCID: 0000-0003-1081-5003",
+        "ORCID: 0000-0003-2430-9582"
+      ],
+      "affiliations": [
+        "Department of Life Sciences, Presidency University, Kolkata, India.",
+        "Department of Bioinformatics, Maulana Azad National Institute of Technology, Bhopal, India.",
+        "Department of Life Sciences, Presidency University, Kolkata, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Anwesha",
+        "short_name": "Chakraborty A",
+        "identifiers": [
+          "0000-0002-6110-3770"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Presidency University, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Hussain, Afzal",
+        "short_name": "Hussain A",
+        "identifiers": [
+          "0000-0003-1081-5003"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, Maulana Azad National Institute of Technology, Bhopal, India."
+        ]
+      },
+      {
+        "full_name": "Sabnam, Nazmiara",
+        "short_name": "Sabnam N",
+        "identifiers": [
+          "0000-0003-2430-9582"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Presidency University, Kolkata, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/18 12:42",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38109060",
+      "38073141",
+      "39952523",
+      "30355769",
+      "38885263",
+      "41055214",
+      "36976907",
+      "36345772",
+      "39528565",
+      "34415195",
+      "37357445",
+      "23159799",
+      "33563831",
+      "37000361",
+      "40381821",
+      "33203871",
+      "39854296",
+      "31296569",
+      "35657473",
+      "32209696",
+      "38709846",
+      "30182232",
+      "38722963",
+      "36834598",
+      "37306516",
+      "42166451",
+      "35269662",
+      "28008850",
+      "25837042",
+      "29989241",
+      "27126515",
+      "27528510",
+      "38409290",
+      "41013505",
+      "27816794",
+      "20627803",
+      "41837577",
+      "36808541",
+      "38968126",
+      "19357089",
+      "31689303",
+      "40341381",
+      "27301772",
+      "34761375",
+      "39945477",
+      "36036638",
+      "36252011",
+      "23204406",
+      "34284133",
+      "23279638",
+      "36913579",
+      "26883226",
+      "23774898",
+      "29395728",
+      "32460610",
+      "38002332",
+      "36977203",
+      "41534378",
+      "40302198",
+      "22539438",
+      "34702740",
+      "27610388",
+      "33882359",
+      "23340743",
+      "24038649",
+      "39445147",
+      "31154490",
+      "35430769",
+      "37177781",
+      "20435900",
+      "35799449",
+      "30548752",
+      "37245238",
+      "38534157",
+      "39797625",
+      "34758051",
+      "39046202",
+      "31615964",
+      "27000073",
+      "22306879",
+      "38580607",
+      "39965394",
+      "25659573",
+      "23451734",
+      "26703899",
+      "19252083",
+      "39807944",
+      "38578751",
+      "30154258",
+      "34236688",
+      "39277621",
+      "21563842",
+      "39681474",
+      "27711180",
+      "41677274",
+      "41546175",
+      "40986505",
+      "36300785",
+      "27641772",
+      "34824307"
+    ],
+    "review": [
+      "38109060",
+      "38073141",
+      "42166451",
+      "27816794",
+      "20627803",
+      "29395728",
+      "38002332",
+      "41534378",
+      "27610388",
+      "33882359",
+      "23340743",
+      "39445147",
+      "39797625",
+      "38580607",
+      "26703899"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2292795?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2292795",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

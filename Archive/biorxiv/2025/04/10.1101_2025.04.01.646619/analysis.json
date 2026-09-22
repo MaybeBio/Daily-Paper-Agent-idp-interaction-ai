@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.01.646619",
+  "title": "Assessing variant effect predictors and disease mechanisms in intrinsically disordered proteins",
+  "authors": "Fawzy M; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-01",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究系统评估了无序蛋白区域中致病变异分布及33种变异效应预测工具的性能，虽以无序蛋白为对象并涉及疾病机制，但聚焦变异预测而非PPI互作机制建模，方法上无AI/物理模拟贡献，故综合评分为5。",
+  "abstract": "Intrinsically disordered protein regions (IDPRs) are central to diverse cellular processes but present unique challenges for interpreting genetic variants implicated in human disease. Unlike structured protein domains, IDPRs lack stable three-dimensional conformations and are often involved in regulation through transient interactions and post-translational modifications. These features can affect both the distribution of pathogenic variants and the performance of computational tools used to predict their effects. Here, we systematically assessed the distribution of pathogenic vs benign missense variants across disordered, intermediate, and structured protein regions in the human proteome. Pathogenic variants were notably depleted in IDPRs yet were associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects. We evaluated 33 variant effect predictors (VEPs), revealing widespread reductions in sensitivity for pathogenic variants in IDPRs—despite high AUROC scores largely driven by accurate benign variant predictions. We also observed substantial discordance among VEP classifications in disordered regions, underscoring the need for region-aware thresholds and disorder-informed prediction strategies. Incorporating features reflective of IDPR biology, such as transient interaction motifs and modification sites, may enhance the accuracy and interpretability of future tools.",
+  "abstract_zh": "intrinsically disordered protein regions (IDPRs) 在多种细胞过程中至关重要，但在解读与人类疾病相关的遗传变异时提出了独特挑战。与结构化蛋白结构域不同，IDPRs 缺乏稳定的三维构象，通常通过瞬时相互作用和翻译后修饰参与调控。这些特征可能影响致病性变异的分布以及用于预测其效应的计算工具的性能。在此，我们系统评估了人类蛋白质组中无序、中间和结构化蛋白区域内致病性与良性错义变异的分布。致病性变异在 IDPRs 中显著减少，但与不同的分子机制相关，特别是显性功能获得和功能丧失效应。我们评估了33种变异效应预测器 (VEPs)，发现IDPRs中致病性变异的敏感性普遍降低——尽管高AUROC分数主要由准确的良性变异预测驱动。我们还观察到无序区域中VEP分类之间存在显著不一致性，强调了对区域感知阈值和无序信息预测策略的需求。整合反映IDPR生物学特征的特性，如瞬时相互作用基序和修饰位点，可能增强未来工具的准确性和可解释性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646619",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646619",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.01.646619/index.html"
+}

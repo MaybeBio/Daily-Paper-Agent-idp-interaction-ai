@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered protein RYBP interacts with the citrullinating enzyme PADI4 in cancer cells, based on immunofluorescence and proximity ligation assays in cell lines, and in vitro binding measured by isothermal titration calorimetry and fluorescence with low micromolar affinity. AlphaFold2-multimer predictions suggest that PADI4's catalytic domain engages Arg53 of RYBP. The authors further report that combining a PARP inhibitor with a PADI4 enzymatic inhibitor alters cell proliferation and disrupts the RYBP-PADI4 interaction. The study is framed as the first possible evidence of citrullination of an intrinsically disordered protein, with potential implications for cancer biology.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, statistical analyses, or supplementary information were provided
+- **Missing materials affecting confidence** Full methods, experimental replicates and controls, quantitative binding data, microscopy images, cell line details, inhibitor concentrations and specificity data, AlphaFold2 confidence metrics, and any validation of the proposed interaction interface
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting protein-protein interaction between an IDP and an enzyme with cancer relevance. However, the evidence as summarized is insufficient to establish the central claims. The interaction is supported by multiple orthogonal methods, which is a strength, but the lack of methodological detail, quantitative rigor, and functional validation prevents a robust assessment. The AlphaFold2-based structural claim and the proposed citrullination of RYBP are speculative and not supported by direct experimental evidence in the abstract. The therapeutic combination experiment is intriguing but underdescribed.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein citrullination and PADI enzymes, epigenetic regulation, and cancer signaling pathways. The potential link between RYBP and PADI4 could interest those working on PARP inhibitor sensitivity and combination therapies in oncology.
+- **Major strengths** The use of multiple orthogonal methods to demonstrate interaction in cells and in vitro is commendable. The low micromolar affinity reported is a concrete quantitative measure. The study addresses a novel interaction between an IDP and a citrullinating enzyme, which could open a new area of investigation. The combination treatment approach adds a translational dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that RYBP and PADI4 associate in the nucleus and cytosol of several cancer cell lines based on immunofluorescence and proximity ligation assays.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which cell lines were used, how many were tested, what controls were included, or whether the proximity ligation assay signals were quantified and statistically validated. Without these details, the cellular colocalization claim cannot be evaluated for specificity or reproducibility.
+  - **Why it matters** Colocalization and proximity signals can arise from fixation artifacts, antibody cross-reactivity, or overexpression effects. The claim of interaction in cells is foundational to the study's relevance, and weak evidence here undermines the entire narrative.
+  - **Resolution test** Provide a full description of cell lines, antibody validation, negative controls (e.g., single-antibody PLA controls, siRNA knockdown), and quantitative analysis with statistical significance across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative binding
+  - **Claim pointer** The authors report in vitro binding with low micromolar affinity (~1 µM) measured by ITC and fluorescence.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single affinity value without indicating which method yielded it, whether both methods agreed, the stoichiometry, the thermodynamic parameters, or the buffer conditions. For an IDP, binding models can be complicated by conformational changes, and the reported affinity may not reflect a simple 1:1 interaction.
+  - **Why it matters** The affinity value is a key quantitative claim. If the two methods gave different results, or if the binding model is ambiguous, the interaction strength and mode could be misrepresented.
+  - **Resolution test** Provide full ITC thermograms, fluorescence titration curves, fitting models, stoichiometry, and a comparison of results from both methods under defined conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural prediction
+  - **Claim pointer** The authors state that AlphaFold2-multimer results indicate that PADI4's catalytic domain interacts with Arg53 of RYBP docking into its active site.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** AlphaFold2 predictions are computational and require experimental validation. The abstract provides no confidence scores, no discussion of model limitations, and no mutagenesis or biochemical validation of the Arg53 interaction. The claim that Arg53 docks into the active site is presented as a finding rather than a hypothesis.
+  - **Why it matters** The proposed interface is central to the mechanistic interpretation, including the possibility of citrullination. Without experimental support, this claim is speculative and could mislead readers.
+  - **Resolution test** Provide AlphaFold2 confidence metrics (pLDDT, PAE), and validate the interface through site-directed mutagenesis of Arg53 and binding assays, or enzymatic assays showing citrullination of RYBP at that residue.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that combining a PARP inhibitor with a PADI4 enzymatic inhibitor changes cell proliferation and hampers the interaction of both proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which inhibitors were used, at what concentrations, in which cell lines, or whether the effects were synergistic, additive, or simply additive. The mechanism by which PADI4 inhibition disrupts the RYBP-PADI4 interaction is not explained. The effect on proliferation is reported without quantitative data or statistical analysis.
+  - **Why it matters** This experiment is the only functional and translational component of the study. Without proper controls and dose-response data, the claim of therapeutic relevance is not supported.
+  - **Resolution test** Provide dose-response curves, combination index analysis, appropriate controls (e.g., single-agent treatments, vehicle controls), and mechanistic evidence for how PADI4 inhibition disrupts the interaction.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The study unveils for the first time the possible citrullination of an IDP and suggests implications in cancer development and progression.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No direct evidence of citrullination of RYBP is presented in the abstract. The claim is framed as "possible" but is still presented as a novel finding. The link to cancer development and progression is speculative and not supported by any functional data in the abstract.
+  - **Why it matters** The novelty and significance of the study hinge on this claim. If citrullination is not demonstrated, the study's contribution is reduced to reporting a new interaction, which is less impactful.
+  - **Resolution test** Provide direct biochemical evidence of RYBP citrullination (e.g., mass spectrometry, anti-citrulline antibodies, in vitro citrullination assays) and functional assays linking the interaction to cancer-relevant phenotypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "whether it involves or not citrullination of RYBP" is grammatically awkward and could be rephrased for clarity.
+  - **Required correction** Revise to "whether or not it involves citrullination of RYBP."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cell line description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "several cancer cell lines" without naming them. This lack of specificity limits the reader's ability to assess the breadth of the claim.
+  - **Required correction** Name the specific cell lines used in the abstract or indicate that they are listed in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Protein description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract describes RYBP as "folds upon binding to DNA," which is a specific biophysical claim that may require a citation or further context.
+  - **Required correction** Add a citation or clarify that this is a known property of RYBP from prior studies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Proliferation assay
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The change in cell proliferation is reported without any indication of effect size, variability, or statistical significance.
+  - **Required correction** Include quantitative data and statistical measures in the abstract or refer to figures in the full text.
+
+## Risk / unsupported claims
+- The claim of RYBP citrullination is unsupported by direct evidence in the abstract.
+- The AlphaFold2-derived interaction interface is presented without experimental validation.
+- The therapeutic implication of combining PARP and PADI4 inhibitors is not supported by sufficient experimental detail.
+- The cancer relevance of the interaction is speculative and not backed by functional data in the abstract.
+- The cellular colocalization claim is not assessable without cell line details, controls, and quantification.
+- The in vitro affinity value is not fully interpretable without method-specific details and binding models.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40264953",
+  "title": "Use of AI-methods over MD simulations in the sampling of conformational ensembles in IDPs.",
+  "authors": "Sil, Souradeep; Datta, Ishita; Basu, Sankar",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2025-04-23",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述了AI方法（深度学习）替代MD模拟来采样IDP构象系综的进展，聚焦IDP构象采样而非PPI互作机制，方法轴强、对象轴强，但互作轴缺失，故评7分。",
+  "abstract": "Intrinsically Disordered Proteins (IDPs) challenge traditional structure-function paradigms by existing as dynamic ensembles rather than stable tertiary structures. Capturing these ensembles is critical to understanding their biological roles, yet Molecular Dynamics (MD) simulations, though accurate and widely used, are computationally expensive and struggle to sample rare, transient states. Artificial intelligence (AI) offers a transformative alternative, with deep learning (DL) enabling efficient and scalable conformational sampling. They leverage large-scale datasets to learn complex, non-linear, sequence-to-structure relationships, allowing for the modeling of conformational ensembles in IDPs without the constraints of traditional physics-based approaches. Such DL approaches have been shown to outperform MD in generating diverse ensembles with comparable accuracy. Most models rely primarily on simulated data for training and experimental data serves a critical role in validation, aligning the generated conformational ensembles with observable physical and biochemical properties. However, challenges remain, including dependence on data quality, limited interpretability, and scalability for larger proteins. Hybrid approaches combining AI and MD can bridge the gaps by integrating statistical learning with thermodynamic feasibility. Future directions include incorporating physics-based constraints and learning experimental observables into DL frameworks to refine predictions and enhance applicability. AI-driven methods hold significant promise in IDP research, offering novel insights into protein dynamics and therapeutic targeting while overcoming the limitations of traditional MD simulations.",
+  "abstract_zh": "固有无序蛋白质（IDPs）通过以动态集合体而非稳定三级结构的形式存在，挑战了传统的结构-功能范式。捕捉这些集合体对于理解其生物学作用至关重要，然而分子动力学（molecular dynamics, MD）模拟虽准确且广泛使用，但计算成本高昂，且难以采样稀有、瞬态状态。人工智能（AI）提供了一种变革性的替代方案，其中深度学习（deep learning, DL）能够实现高效且可扩展的构象采样。它们利用大规模数据集学习复杂的、非线性的序列到结构关系，从而无需传统基于物理方法的约束即可建模IDPs中的构象集合体。此类DL方法已被证明在生成具有相当准确性的多样化集合体方面优于MD。大多数模型主要依赖模拟数据进行训练，而实验数据在验证中发挥关键作用，使生成的构象集合体与可观察的物理和生化特性保持一致。然而，挑战依然存在，包括对数据质量的依赖、可解释性有限，以及对于较大蛋白质的可扩展性问题。结合AI和MD的混合方法可通过整合统计学习与热力学可行性来弥合这些差距。未来方向包括将基于物理的约束和学习实验可观测值纳入DL框架，以优化预测并增强适用性。AI驱动的方法在IDP研究中具有巨大潜力，为蛋白质动力学和治疗靶向提供新见解，同时克服传统MD模拟的局限性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40264953/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40264953/",
+  "paper_page_path": "papers/pubmed/40264953/index.html"
+}
