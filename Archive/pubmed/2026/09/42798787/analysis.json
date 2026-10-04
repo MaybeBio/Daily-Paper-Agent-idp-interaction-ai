@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42798787",
+  "title": "Beyond structures: solution NMR as the quantitative engine of integrated structural biology.",
+  "authors": "Purslow, Jeffrey A; Venditti, Vincenzo",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2026-09-27",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 6,
+  "one_liner_zh": "综述溶液NMR在整合结构生物学中定量解析构象异质性、弱互作、无序和相分离等机制问题的作用，虽非AI/物理模拟方法且无具体PPI建模，但为无序蛋白互作机制建模提供了关键实验约束思路。",
+  "abstract": "Structural biology is moving beyond the determination of static molecular structures toward quantitative descriptions of biomolecular mechanisms. Modern questions increasingly focus on conformational heterogeneity, exchange kinetics, weak and transient interactions, allostery, disorder, assembly, and phase behavior. These properties are often difficult to infer from crystallography, cryo-electron microscopy, scattering, imaging, mass spectrometry, molecular simulations, or structural prediction alone. Solution NMR spectroscopy occupies a distinctive position in this integrated landscape because it provides residue- and atom-specific observables that report on structure, dynamics, populations, kinetics, and interactions directly in solution. Here, we review the role of solution NMR in integrated structural biology from a question-centered perspective. Rather than organizing the discussion around individual NMR experiments, we ask how NMR can be used with complementary approaches to address recurring mechanistic problems: What is the structure of a biomolecule in solution? What conformational states are populated, and how rapidly do they interconvert? How do ligands, nucleic acids, membranes, surfaces, or partner proteins bind? How are allosteric signals transmitted? How do disorder, large assemblies, and biomolecular condensates regulate function? How can NMR observables be integrated with simulations and other structural restraints to build testable models? The future of solution NMR lies not primarily in isolated structure determination, but in its ability to transform structural models into dynamic, quantitative, and experimentally constrained descriptions of biomolecular mechanism.",
+  "abstract_zh": "结构生物学正超越静态分子结构的测定，迈向对生物分子机制的定量描述。现代问题日益聚焦于构象异质性、交换动力学、弱且瞬时的相互作用、别构效应、无序性、组装及相行为。这些性质往往难以仅通过晶体学、冷冻电镜、散射、成像、质谱、分子模拟或结构预测来推断。溶液核磁共振波谱（solution NMR spectroscopy）在这一整合景观中占据独特地位，因为它提供残基和原子特异性的可观测信号，直接在溶液中报告结构、动力学、群体、动力学及相互作用。在此，我们从问题导向的视角综述溶液NMR在整合结构生物学中的作用。我们并非围绕单个NMR实验组织讨论，而是探讨NMR如何与互补方法结合，以解决反复出现的机制性问题：生物分子在溶液中的结构是什么？哪些构象状态被占据，它们之间转换的速度有多快？配体、核酸、膜、表面或伴侣蛋白如何结合？别构信号如何传递？无序性、大型组装体和生物分子凝聚体如何调节功能？NMR可观测信号如何与模拟及其他结构约束整合，以构建可测试的模型？溶液NMR的未来主要不在于孤立的结构测定，而在于其将结构模型转化为动态、定量且受实验约束的生物分子机制描述的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42798787/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42798787/",
+  "paper_page_path": "papers/pubmed/42798787/index.html"
+}

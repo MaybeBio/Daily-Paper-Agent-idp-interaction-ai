@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42819940",
+  "title": "Screening of Xeroprotectants for Efficient Mammalian Cell Structural Preservation in Dry Conditions.",
+  "authors": "Diez-Cabanes, Valentin; Kikawada, Takahiro; Loi, Pasqualino; Aparicio, Santiago",
+  "journal": "ACS omega",
+  "published_date": "2026-10-02",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用QM/MD多尺度模拟研究干燥保护剂（含无序蛋白肽）与膜互作机制，对象涉及IDP但非PPI，方法为物理模拟，机制建模可部分迁移，但核心是膜保护而非蛋白互作。",
+  "abstract": "Anhydrobiosis, the ability of organisms to survive extreme conditions such as desiccation, may represent a sustainable alternative to liquid-nitrogen (liquid nitrogen)-based cryopreservation once it can be induced in mammalian cells and germplasm. While natural xeroprotectants (e.g., signature peptides of Late Embryogenesis Abundant proteins and tardigrade disordered proteins, and vitamin E) can stabilize cells under drying, their use is limited to the laboratory level due to the high cost of extraction and the incomplete understanding of the molecular mechanisms. Here we employed a multiscale modeling framework spanning quantum mechanics (QM) and molecular dynamics to investigate how these representative xeroprotectants interact with mammalian model membranes (POPC/DMPC) under desiccation and thermal cycling. We found that peptide-based xeroprotectants remain near headgroups and form dehydration-enhanced hydrogen bonds, whereas vitamin E partitions into the acyl chain region. This is consistent with suppressed pore formation in oxidized membranes. Across dry states, xeroprotectants generally increase acyl chain order and membrane rigidity, attenuate area shrinkage, and preserve bilayer thickness homogeneity. Notably, at higher peptide concentrations, chain overordering is mitigated, suggesting a tunable window for formulation. These results provide physicochemical guidelines for designing cost-effective, eco-friendly, and energy-efficient formulations of xeroprotectants and support the rational development of room-temperature preservation strategies with improved translational potential.",
+  "abstract_zh": "脱水休眠（anhydrobiosis）是生物体在极端条件（如干燥）下生存的能力，一旦能在哺乳动物细胞和种质中诱导，可能成为基于液氮（liquid nitrogen）的冷冻保存的可持续替代方案。尽管天然干燥保护剂（如晚期胚胎发生丰富蛋白的特征肽和缓步动物无序蛋白，以及维生素E）能在干燥条件下稳定细胞，但由于提取成本高且分子机制理解不完整，其使用仅限于实验室水平。在此，我们采用跨越量子力学（QM）和分子动力学（molecular dynamics）的多尺度建模框架，研究这些代表性干燥保护剂如何在干燥和热循环条件下与哺乳动物模型膜（POPC/DMPC）相互作用。我们发现，基于肽的干燥保护剂停留在头部基团附近，并形成脱水增强的氢键，而维生素E则分配进入酰基链区域。这与氧化膜中孔形成被抑制的现象一致。在干燥状态下，干燥保护剂通常增加酰基链有序性和膜刚性，减弱面积收缩，并保持双层厚度均匀性。值得注意的是，在较高肽浓度下，链过度有序化得到缓解，表明存在可调节的配方窗口。这些结果为设计经济高效、环保且节能的干燥保护剂配方提供了物理化学指南，并支持具有改善转化潜力的室温保存策略的合理开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42819940/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42819940/",
+  "paper_page_path": "papers/pubmed/42819940/index.html"
+}

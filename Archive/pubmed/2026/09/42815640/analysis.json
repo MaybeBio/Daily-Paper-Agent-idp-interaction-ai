@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42815640",
+  "title": "Intrinsically disordered regions of Src and Abl kinases contribute to membrane binding.",
+  "authors": "Buhr, Svenja de; Steringer, Julia P; Demir, Irem; Boushehri, Saber; Ray, Ankita; Goss, Christina; Adler, Andrea M; Muller, Hans-Michael; Goetz, Rabea; Aponte-Santamaria, Camilo; Brugger, Britta; Alsteens, David; Nickel, Walter; Grater, Frauke",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2026-09-30",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级MD模拟结合实验研究Src/Abl激酶无序区与PIP2膜的结合机制，虽非典型PPI但聚焦IDR介导的膜互作机制建模，方法扎实且可迁移至IDR-PPI研究。",
+  "abstract": "Membrane targeting regulates protein localization and function. Abl and Src kinase feature an N-terminal myristoylation site followed by an intrinsically disordered region (IDR) of positive net charge, suggesting these regions contribute to membrane targeting. We investigated the interplay of myristoylation and IDR binding to phosphatidylinositol-4,5-bisphosphate (PIP(2))-containing membranes using atomistic equilibrium and non-equilibrium molecular dynamics (MD) simulations. After having established Charmm36m-TIP4P-fb as a force field combination of choice for the challenging IDR-membrane systems of interest, we assessed the binding propensities of Abl and Src's IDRs to lipid bilayers, and observed strong binding only when PIP(2) was present, as also quantified by significant increases in detachment forces and unbinding free energies when including 10 mol% PIP(2). Interactions were mediated by saltbridges between the IDR's basic residues and PIP(2) headgroups, and largely unaffected by cholesterol. On this basis, we designed Src and Abl mutants with deficient PIP(2) binding, and confirmed impaired membrane binding using liposomal-binding assays and atomic force microscopy experiments. Simulations and experiments of further variants corroborated that both a myristoylation site and the charged IDR are required for firm PIP(2)-membrane interactions. Our results establish myristoylated IDRs in kinases - and potentially beyond - as important regulators of PIP(2)-specific membrane targeting. STATEMENT OF SIGNIFICANCE: Abl and Src kinase are key cell signalling proteins that feature myristoylated long disordered regions, but their mechanism of membrane-anchoring remains unclear. Both feature a long disordered region with many basic residues, akin to PIP(2)-recognizing basic patches in PH or FERM domains, such as in Focal Adhesion Kinase, which is activated when pulled away from a PIP(2) membrane. Using a combined simulation and experimental approach, we here show for Src and Abl kinase that membrane targeting and high-stability binding to PIP(2)-containing membranes can be achieved, providing that myristoylation and basic residues along the basic disordered region can synergistically stabilize the protein-membrane interaction. Myristoylated disordered regions might play similar roles in other proteins.",
+  "abstract_zh": "膜靶向调控蛋白质的定位与功能。Abl和Src激酶具有N端十四烷基化位点，其后紧接一个净正电荷的内在无序区（IDR），提示这些区域参与膜靶向。我们利用原子级平衡及非平衡分子动力学（MD）模拟，研究了十四烷基化与IDR结合含磷脂酰肌醇-4,5-二磷酸（PIP(2)）膜之间的相互作用。在确立Charmm36m-TIP4P-fb作为所关注挑战性IDR-膜系统的优选力场组合后，我们评估了Abl和Src的IDR对脂质双层的结合倾向，并观察到仅在存在PIP(2)时出现强结合，这通过包含10 mol% PIP(2)时脱离力和解绑自由能的显著增加也得到了量化。相互作用由IDR碱性残基与PIP(2)头部基团之间的盐桥介导，且基本不受胆固醇影响。在此基础上，我们设计了PIP(2)结合缺陷的Src和Abl突变体，并通过脂质体结合实验和原子力显微镜实验确认了膜结合受损。对更多变体的模拟和实验进一步证实，十四烷基化位点和带电IDR均为稳固PIP(2)-膜相互作用所必需。我们的结果确立了激酶中——可能更广泛地——十四烷基化IDR作为PIP(2)特异性膜靶向的重要调控因子。意义声明：Abl和Src激酶是关键的细胞信号传导蛋白，具有十四烷基化的长无序区，但其膜锚定机制尚不清楚。两者均具有含多个碱性残基的长无序区，类似于PH或FERM结构域中识别PIP(2)的碱性补丁，例如粘着斑激酶中的情况，后者在从PIP(2)膜上被拉离时被激活。通过结合模拟与实验方法，我们在此展示Src和Abl激酶能够实现膜靶向及对含PIP(2)膜的高稳定性结合，前提是十四烷基化和碱性无序区上的碱性残基能够协同稳定蛋白质-膜相互作用。十四烷基化无序区可能在其他蛋白质中发挥类似作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42815640/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42815640/",
+  "paper_page_path": "papers/pubmed/42815640/index.html"
+}

@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered regions (IDRs) of Src and Abl kinases, in synergy with N-terminal myristoylation, mediate specific and stable binding to phosphatidylinositol-4,5-bisphosphate (PIP2)-containing membranes. This is supported by atomistic molecular dynamics simulations, liposomal-binding assays, and atomic force microscopy experiments, including mutant designs that impair PIP2 binding.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or experimental results are provided beyond qualitative statements
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters and convergence criteria, experimental protocols, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially significant hypothesis that myristoylated IDRs in Src and Abl kinases contribute to PIP2-specific membrane targeting. The combination of computational and experimental approaches is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the robustness of the results, or the strength of the conclusions. Several claims are made without quantitative support, and the generalizability statement extends beyond the direct evidence presented.
+- **Who would be interested in the results, and why** Researchers in cell signaling, membrane biology, and biophysics would find these results relevant. Specifically, those studying kinase regulation, lipid-protein interactions, and the role of intrinsically disordered regions in membrane targeting would benefit. The potential extension to other myristoylated IDR-containing proteins broadens the appeal to a wider audience interested in protein-membrane interactions.
+- **Major strengths** The study addresses a timely and important question about the molecular mechanisms of kinase membrane targeting. The integration of atomistic simulations with experimental validation (liposomal binding and AFM) is a strong approach. The identification of a synergistic role for myristoylation and basic IDR residues in PIP2-specific binding is a novel and mechanistically insightful proposal.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we assessed the binding propensities of Abl and Src's IDRs to lipid bilayers, and observed strong binding only when PIP(2) was present, as also quantified by significant increases in detachment forces and unbinding free energies when including 10 mol% PIP(2)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims "significant increases" in detachment forces and unbinding free energies, but no numerical values, error estimates, or statistical tests are reported. Without these, the magnitude and reliability of the effect cannot be assessed.
+  - **Why it matters** Quantitative rigor is essential for establishing the strength of the binding preference for PIP2-containing membranes. The claim of "strong binding only when PIP2 was present" is central to the paper's thesis, and the current evidence is insufficiently detailed to support it.
+  - **Resolution test** Provide specific values for detachment forces and unbinding free energies for both PIP2-containing and control membranes, including standard deviations and statistical significance levels (e.g., p-values or confidence intervals).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we designed Src and Abl mutants with deficient PIP(2) binding, and confirmed impaired membrane binding using liposomal-binding assays and atomic force microscopy experiments"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that mutants were designed and tested, but provides no details on the specific mutations, how "deficient" binding was defined, or the quantitative outcomes of the assays. The confirmation of "impaired membrane binding" is qualitative and lacks comparative data against wild-type controls.
+  - **Why it matters** The mutant experiments are critical for establishing causality between the IDR basic residues and PIP2 binding. Without detailed results, the reader cannot verify that the observed impairment is specific to PIP2 interactions rather than a general loss of membrane affinity.
+  - **Resolution test** Describe the specific mutations (e.g., which basic residues were replaced), and report quantitative binding data (e.g., fraction bound, AFM force measurements) for wild-type and mutant proteins under identical conditions, with appropriate statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** "Our results establish myristoylated IDRs in kinases - and potentially beyond - as important regulators of PIP(2)-specific membrane targeting"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract generalizes the findings to "kinases - and potentially beyond" based on studies of only two proteins (Src and Abl). While the hypothesis is intriguing, the evidence presented does not support such a broad claim without additional examples or a mechanistic framework that would predict generality.
+  - **Why it matters** Overgeneralization can mislead readers and overstate the significance of the work. The claim of "important regulators" implies a broad biological role that is not established from two case studies.
+  - **Resolution test** Either temper the claim to be specific to Src and Abl, or provide additional evidence (e.g., bioinformatic analysis of other myristoylated IDRs, or experimental data on a third kinase) to support the broader relevance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms (e.g., "Charmm36m-TIP4P-fb", "detachment forces", "unbinding free energies") without brief explanations, which may hinder comprehension for readers outside the simulation or biophysics community.
+  - **Required correction** Add brief contextual phrases, such as "using a state-of-the-art molecular dynamics force field" or "measured by atomic force microscopy", to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "Charmm36m-TIP4P-fb" was established as the force field of choice, but does not explain why this combination was selected or how it was validated for the IDR-membrane systems.
+  - **Required correction** Briefly mention the validation criteria (e.g., comparison to experimental data or convergence tests) in the abstract or refer to a methods section where this is detailed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Statement of significance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement of significance mentions "PH or FERM domains" and "Focal Adhesion Kinase" as analogies, but does not explain the relevance of these comparisons to the reader, which may be unclear to those not familiar with these specific domains.
+  - **Required correction** Provide a brief explanation of why these domains are relevant (e.g., "which are known to bind PIP2 and regulate kinase activity") to enhance clarity for a broader audience.
+
+## Risk / unsupported claims
+- The claim that "strong binding only when PIP2 was present" is unsupported without quantitative data and statistical analysis.
+- The claim that "myristoylated IDRs in kinases - and potentially beyond - as important regulators" is unsupported by the evidence from only two proteins.
+- The claim that "largely unaffected by cholesterol" is unquantified and cannot be evaluated from the abstract.
+- The claim that "both a myristoylation site and the charged IDR are required for firm PIP2-membrane interactions" is stated without specific experimental or simulation data to confirm the necessity of each component.
+- The general statement that "myristoylated disordered regions might play similar roles in other proteins" is speculative and not directly supported by the presented evidence.

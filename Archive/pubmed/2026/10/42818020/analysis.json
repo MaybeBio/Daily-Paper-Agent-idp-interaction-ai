@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42818020",
+  "title": "A unified intermediate-resolution framework for modeling biomolecular condensates at near-cellular complexity.",
+  "authors": "Li, Shanlong; Ng, Jessica Fong; Chen, Jianhan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-01",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出统一中间分辨率物理模拟框架，整合HyRes/iConNA模型及机器学习代谢物库，定量模拟无序蛋白与核酸的相分离凝聚体，虽非直接聚焦PPI结合机制，但为IDR介导互作与相分离机制建模提供了高迁移价值的物理方法。",
+  "abstract": "Biomolecular condensates, formed through phase separation of multivalent biomolecules, are central to cellular organization and function. Here, we present a unified, physics-based intermediate-resolution framework for efficient and quantitative simulation of biomolecular phase separation at near-cellular complexity. The framework integrates the HyRes protein and iConNA nucleic acid models to explicitly describe major driving forces and capture transient local and global structural features underlying phase transitions. With well-balanced hydrogen bonding, electrostatic, cation-pi, and hydrophobic interactions, as well as nucleic acid base stacking, base pairing, and ion-mediated effects, the framework accurately predicts saturation concentrations of over 60 disordered proteins (within tenfold) and phase diagrams of homotypic RNA and heterotypic protein-nucleic acid condensates. We further introduce iConMetabolome, a machine learning-enabled library of cellular metabolites that captures metabolite-driven phase separation and reproduces experimental partitioning trends across condensates. This unified platform enables the dissection of the mechanisms and regulation of condensation in biology and disease.",
+  "abstract_zh": "生物分子凝聚体，通过多价生物分子的相分离（phase separation）形成，是细胞组织和功能的核心。在此，我们提出一个统一的、基于物理学的中间分辨率框架，用于在接近细胞复杂度的水平上高效且定量地模拟生物分子相分离。该框架整合了HyRes蛋白质模型和iConNA核酸模型，以明确描述主要驱动力，并捕捉相变背后的瞬时局部和全局结构特征。通过平衡氢键、静电、阳离子-π（cation-pi）和疏水相互作用，以及核酸碱基堆叠、碱基配对和离子介导效应，该框架准确预测了超过60种无序蛋白质的饱和浓度（误差在十倍以内），以及同型RNA和异型蛋白质-核酸凝聚体的相图。我们进一步引入了iConMetabolome，一个基于机器学习的细胞代谢物库，能够捕捉代谢物驱动的相分离，并重现实验中跨凝聚体的分配趋势。这一统一平台有助于解析生物学和疾病中凝聚作用的机制与调控。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42818020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42818020/",
+  "paper_page_path": "papers/pubmed/42818020/index.html"
+}
