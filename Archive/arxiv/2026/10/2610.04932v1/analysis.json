@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2610.04932v1",
+  "title": "Effect of Temperature and Added Salt on a Model Polyzwitterion Polymer in Dilute Solution",
+  "authors": "Soumik Ghosh; Vivek M. Prabhu; Jack F. Douglas",
+  "journal": "",
+  "published_date": "2026-10-04",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟研究聚两性电解质模型链的构象与盐/温度效应，以无序蛋白为类比对象，虽非真实IDP/PPI，但单链构象与溶剂耦合的物理建模思路对IDP互作机制研究有可迁移启发。",
+  "abstract": "The competitive interactions arising from the proximity of positive and negatively charged groups in the monomers in polyzwitterions (PZ) makes these polymers have properties similar in some ways to intrinsically disordered proteins. To gain qualitative insights into this important class of water-soluble polymers, we performed molecular dynamics (MD) simulations of a model PZ chain with an explicit solvent to understand the conformational state in the absence and presence of added salt. We find that isolated PZ chains under salt-free conditions adopt a self-associated state having a weak dependence on temperature. The addition of an appreciable amount of NaCl leads to a weakening of the intrachain associations, resulting in chain expansion, a transition reminiscent of the denaturation of globular proteins. In particular, the hydrodynamic penetration function, the ratio of hydrodynamic radius to the radius of gyration, of the PZ chains under salt free conditions, is found to be more consistent with a randomly branched polymer or single chain nanoparticle than a random coil polymer where the physical cross-links within the chain arise from the dipoles within the chain. The chain conformation not only tends to become larger with the addition of salt but also acquires a more appreciable temperature dependence of its average size with temperature. This swelling trend of PZ molecules with added salt, sometimes referred to as the anti-polyelectrolyte effect, is distinct from the normal trend polyelectrolytes, which typically become more contracted with the addition of salt. We also examined the spatial extent of the dynamic hydration layer the PZ chain, both with and without added salt, and the effect of temperature and salt concentration on the water mobility within this layer, and PZ side-chain mobility, whose dynamics is apparently strongly coupled to the surrounding water molecules.",
+  "abstract_zh": "聚两性离子（PZ）中单体正负电荷基团邻近产生的竞争性相互作用，使这些聚合物具有与固有无序蛋白在某些方面相似的性质。为了对这一重要的水溶性聚合物类别获得定性认识，我们采用显式溶剂对模型PZ链进行了分子动力学（molecular dynamics, MD）模拟，以理解在无盐和加盐条件下的构象状态。我们发现，在无盐条件下，孤立的PZ链呈现自缔合状态，且对温度的依赖性较弱。加入可观量的NaCl会削弱链内缔合，导致链膨胀，这一转变类似于球状蛋白的变性过程。特别地，在无盐条件下，PZ链的流体动力学穿透函数（即流体动力学半径与回转半径之比）被发现更符合随机支化聚合物或单链纳米颗粒的特征，而非随机线圈聚合物，其中链内物理交联源于链内偶极。链构象不仅随盐的加入趋于增大，而且其平均尺寸对温度的依赖性也变得更加显著。PZ分子随盐加入而膨胀的趋势，有时被称为抗聚电解质效应，这与聚电解质的常规趋势不同，后者通常随盐的加入而收缩。我们还考察了PZ链在有无盐条件下的动态水化层空间范围，以及温度和盐浓度对该层内水分子迁移率及PZ侧链迁移率的影响，其动力学显然与周围水分子强耦合。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2610.04932v1",
+  "source_url": "https://arxiv.org/abs/2610.04932v1",
+  "paper_page_path": "papers/arxiv/2610.04932v1/index.html"
+}

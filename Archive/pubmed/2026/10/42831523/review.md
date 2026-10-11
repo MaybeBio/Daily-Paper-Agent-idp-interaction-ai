@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that monomer accessibility, quantified by a residue-accessibility parameter (RAP), governs the sequence dependence of critical temperatures for phase separation in two-letter polymer solutions. They derive an analytical perturbative theory that corrects mean-field interaction strengths by accounting for a correlation hole that prevents overlap of polymer centers of mass. They report that RAP rationalizes variations in critical temperatures from extensive Monte Carlo simulations across thousands of sequences and lengths.
+- **Visible evidence base** Abstract text only; no numerical data, simulation details, or derivations are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, derivation steps, definition of RAP, comparison with existing theories, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing idea that monomer accessibility, rather than simple sequence composition, may be the key determinant of sequence-dependent phase behavior in biopolymers. The proposed RAP framework could offer a useful simplification for predicting critical temperatures across sequence space. However, the abstract alone provides insufficient detail to evaluate the rigor of the derivation, the validity of the approximations, the robustness of the simulation comparisons, or the generalizability of the claims. The central assertion that RAP "rationalizes" simulation data is plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and computational polymer science would be interested. Specifically, those studying intrinsically disordered proteins, phase separation, and sequence-encoded biomolecular condensates would value a predictive parameter that reduces the complexity of sequence space. The work may also appeal to theorists developing coarse-grained models for polymer phase behavior.
+- **Major strengths** The idea of a residue-accessibility parameter is physically intuitive and potentially transformative for simplifying sequence-dependent predictions. The analytical perturbative approach, grounded in a correlation-hole argument, provides a mechanistic basis rather than a purely empirical fit. The claim of validation against thousands of Monte Carlo simulations suggests a substantial computational effort that, if properly executed, would lend credibility to the framework.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the analytical perturbative approach "yields the correction to the strength of mean-field interactions in terms of a residue-accessibility parameter (RAP)."  
+  - **Evidence pointer** Abstract, derivation not provided  
+  - **Concern** The derivation of RAP and the perturbative correction is not shown. It is unclear what approximations are made, whether the theory is systematically improvable, and under what conditions the correlation-hole argument is valid. Without the derivation, the theoretical foundation cannot be assessed.  
+  - **Why it matters** The central novelty of the work rests on this analytical result. If the derivation contains hidden assumptions or is only valid for a narrow parameter regime, the claimed generalizability would be undermined.  
+  - **Resolution test** Provide the full derivation in the manuscript, including explicit definitions of RAP, the perturbative expansion, and a discussion of the regime of validity. A reviewer should be able to reproduce the key steps.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** The abstract states that RAP "rationalizes the variations in critical temperatures found in extensive Monte Carlo simulations for thousands of two-letter polymer solutions of varying lengths and sequences."  
+  - **Evidence pointer** Abstract, simulation data not provided  
+  - **Concern** No quantitative metrics are given for how well RAP rationalizes the data. There is no correlation coefficient, error estimate, or comparison against alternative predictors. The phrase "rationalizes" is vague and could range from a qualitative trend to a near-quantitative collapse.  
+  - **Why it matters** Without quantitative measures, the reader cannot judge whether RAP offers a meaningful improvement over existing sequence-based predictors or whether the agreement is coincidental.  
+  - **Resolution test** Include figures showing predicted versus simulated critical temperatures, with statistical measures such as R-squared or mean absolute error, and compare against at least one alternative model.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract claims RAP "may thus be effective for deciphering the polymer-sequence dependence of phase diagrams given any polymer length, set of monomer types, and polymer mixtures."  
+  - **Evidence pointer** Abstract, no supporting data  
+  - **Concern** The simulations are limited to two-letter polymers. The claim of generalizability to arbitrary monomer types and mixtures is an extrapolation that is not supported by the presented evidence.  
+  - **Why it matters** The stated scope of applicability is much broader than the tested system. Overclaiming generalizability without evidence could mislead readers and overstate the practical utility of RAP.  
+  - **Resolution test** Either temper the claim to reflect the tested systems or provide additional simulations or arguments demonstrating that RAP extends beyond two-letter sequences and single-polymer solutions.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of RAP  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "residue-accessibility parameter" is introduced but not defined in the abstract. A reader cannot understand what physical quantity it represents beyond the qualitative description.  
+  - **Required correction** Provide a concise definition or formula for RAP in the abstract or clearly reference where it is defined in the main text.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Comparison with prior work  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract mentions "significant computational and theoretical efforts" on sequence dependence but does not specify how RAP differs from or improves upon existing approaches.  
+  - **Required correction** Add a sentence in the abstract or introduction that explicitly contrasts RAP with prior sequence-dependent predictors.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not specify the simulation model (e.g., lattice versus off-lattice, interaction potential, temperature range).  
+  - **Required correction** Include key simulation parameters in the abstract or ensure they are prominently stated in the main text.
+
+## Risk / unsupported claims
+- The claim that RAP "rationalizes" simulation data is unsupported without quantitative metrics.
+- The claim of generalizability to "any polymer length, set of monomer types, and polymer mixtures" is unsupported by the two-letter polymer simulations described.
+- The analytical derivation of the RAP correction is not assessable from the abstract alone.
+- The physical interpretation of RAP as capturing "limited availability of inner monomers" is plausible but not quantitatively defined in the supplied material.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42853069",
+  "title": "Role of desolvation on biomolecular liquid-liquid phase separation.",
+  "authors": "Zhang, Kai; Peng, Zhiyu; Li, Wenfei; Wang, Wei",
+  "journal": "eLife",
+  "published_date": "2026-10-09",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了含去溶剂化项的隐式溶剂粗粒化模型，用于研究无序蛋白液-液相分离的热力学与动力学机制，直接命中IDP、相分离与物理模拟方法轴，且深入探讨互作机制建模。",
+  "abstract": "Biomolecular condensates play essential roles in cellular organization and are implicated in diverse pathological processes. Their formation is driven by liquid-liquid phase separation (LLPS), a process that requires coordinated multistep desolvation of biomolecular chains and multivalent inter-chain interactions. Although coarse-grained (CG) models with implicit solvent are widely used to probe LLPS thermodynamics and kinetics, they typically neglect water-mediated desolvation effects, limiting their accuracy and mechanistic interpretability. Here, guided by all-atom simulations and experimental measurements, we develop a desolvation-aware implicit-solvent CG model by incorporating residue-level desolvation terms directly into the pairwise energy function, and apply it to investigate LLPS of intrinsically disordered proteins. Incorporating these desolvation interactions reshapes the phase diagram, alleviating dense-phase overcompaction. Notably, we observe an approximately linear correlation between the temperature gap (simulation temperature relative to the critical point) and the extent of conformational expansion accompanying the dilute-to-dense phase transition, a result further supported by theoretical analysis. We also find that desolvation barriers slow early density-fluctuation growth and shorten transient kinetic arrest, whereas solvent-separated contact interactions exert the opposite effects. Both terms further modulate chain mobility within mature condensates through competing packing and energy-landscape effects. Together, this framework enables an efficient representation of desolvation in CG simulations and reveals how desolvation energetics shape both the thermodynamic landscape and kinetic properties of biomolecular LLPS.",
+  "abstract_zh": "生物分子凝聚体在细胞组织中发挥关键作用，并涉及多种病理过程。其形成由液-液相分离（liquid-liquid phase separation, LLPS）驱动，这一过程需要生物分子链的协调多步去溶剂化以及多价链间相互作用。尽管具有隐式溶剂的粗粒化（coarse-grained, CG）模型广泛用于探究LLPS的热力学和动力学，但它们通常忽略水介导的去溶剂化效应，从而限制了其准确性和机制可解释性。在此，以全原子模拟和实验测量为指导，我们通过将残基级去溶剂化项直接纳入成对能量函数，开发了一种去溶剂化感知的隐式溶剂CG模型，并将其应用于研究 intrinsically disordered proteins（内在无序蛋白质）的LLPS。纳入这些去溶剂化相互作用重塑了相图，缓解了稠密相的过度压缩。值得注意的是，我们观察到温度间隙（模拟温度相对于临界点）与伴随稀相到稠相转变的构象扩展程度之间存在近似线性相关性，这一结果进一步得到理论分析的支持。我们还发现，去溶剂化势垒减缓了早期密度涨落的增长并缩短了瞬态动力学停滞，而溶剂分离的接触相互作用则产生相反效果。这两项通过竞争性的堆积和能量景观效应进一步调节成熟凝聚体内链的流动性。总体而言，该框架实现了CG模拟中去溶剂化的高效表征，并揭示了去溶剂化能量学如何塑造生物分子LLPS的热力学景观和动力学性质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42853069/",
+  "paper_page_path": "papers/pubmed/42853069/index.html"
+}

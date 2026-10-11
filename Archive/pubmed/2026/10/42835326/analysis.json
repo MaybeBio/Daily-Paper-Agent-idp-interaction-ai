@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42835326",
+  "title": "Phosphorylation in the dynein light intermediate chain 2 isoform enables Pin1 binding and modulates cargo-adaptor interactions.",
+  "authors": "Warchol, Michael; Kroft, Charles W; Krall, Jeffrey B; Bevers, Shaun; Welty, Robb; Henen, Morkos A; Vogeli, Beat",
+  "journal": "Journal of structural biology: X",
+  "published_date": "2026-10-06",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究无序LIC2-C的磷酸化如何通过Pin1结合调控动力蛋白-货物适配器PPI，结合NMR与体外实验揭示构象集合变化机制，虽无AI/物理模拟但机制建模深度高，对IDR介导互作调控有直接启发。",
+  "abstract": "The cytoplasmic dynein motor relies on cargo-specific adaptors that bind the C-terminal domain of dynein Light Intermediate Chain (LIC-C), yet how LIC-C phosphorylation regulates adaptor engagement remains unclear. LIC-C of both LIC1 and LIC2 isoforms are largely intrinsically disordered, containing only two regions of alpha-helical propensity (Helix-1 and Helix-2) near their C-termini. Here, using in vitro phosphorylation and NMR-based analyses, we show that CDK1/Cyclin B extensively phosphorylates LIC-C of LIC2 (LIC2-C) without altering its overall secondary structural propensity. Phosphorylation modulates long-range intramolecular contacts, especially in the segment spanning the Helices including the interhelical region. Consequently, the engagement of cargo adaptors BICD2 but not SPDL1 or HOOK3 is altered. Phosphorylation of LIC2-C selectively enhances BICD2 contacts with Helix-2 but does not significantly change adaptor affinity. In contrast, phosphorylation enables high-affinity binding of the peptidyl-prolyl isomerase Pin1, reducing BICD2's binding affinity while leaving SPDL1 and HOOK3 largely unaffected. These findings reveal a phosphorylation-dependent, Pin1-mediated mechanism that alters the conformational ensembles sampled by LIC2, selectively tuning dynein-adaptor interactions and facilitating the cell's dynamic spatiotemporal transport requirements.",
+  "abstract_zh": "细胞质动力蛋白马达依赖于与动力蛋白轻中间链C端结构域（LIC-C）结合的货物特异性适配器，然而LIC-C磷酸化如何调控适配器结合仍不清楚。LIC1和LIC2两种亚型的LIC-C大部分为内在无序状态，仅在其C端附近包含两个α-螺旋倾向区域（Helix-1和Helix-2）。在此，我们利用体外磷酸化和基于核磁共振（NMR）的分析，表明CDK1/Cyclin B广泛磷酸化LIC2的LIC-C（LIC2-C），而不改变其整体二级结构倾向。磷酸化调节长程分子内接触，尤其是在跨越螺旋及螺旋间区域的片段中。因此，货物适配器BICD2的结合发生改变，而SPDL1或HOOK3则不受影响。LIC2-C的磷酸化选择性增强BICD2与Helix-2的接触，但未显著改变适配器亲和力。相反，磷酸化使肽基脯氨酰异构酶Pin1能够高亲和力结合，从而降低BICD2的结合亲和力，同时使SPDL1和HOOK3基本不受影响。这些发现揭示了一种依赖磷酸化、由Pin1介导的机制，该机制改变LIC2所采样的构象集合，选择性调节动力蛋白-适配器相互作用，并促进细胞动态时空运输需求。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42835326/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42835326/",
+  "paper_page_path": "papers/pubmed/42835326/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42855095",
+  "title": "Multispectroscopic and molecular simulation insights into the interaction between casein and key aroma compounds in yogurt.",
+  "authors": "Tang, Can; Yang, Chang; Li, Hui; Chen, Chen; Yu, Haiyan; Lou, Xinman; Pan, Xin; Tian, Huaixiang; Yuan, Haibin; Li, Hongliang",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-10-09",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合多光谱与分子模拟，揭示酪蛋白（含IDR）与酸奶香气分子的结合机制，虽对象为蛋白-小分子而非PPI，但无序区域介导的疏水塌缩封装机制对IDR互作建模有可迁移启发。",
+  "abstract": "The molecular mechanisms governing interactions between casein (CS) and key yogurt aromas remain insufficiently elucidated. This study systematically investigated the interactions of CS with acetoin, diacetyl, and acetaldehyde through multispectroscopic techniques and integrated molecular simulations. Fluorescence quenching analysis confirmed the formation of stable ground-state complexes via static quenching (K(q)  approximately  10(11) L.mol(-1).s(-1)), with binding affinities following the order: acetoin > diacetyl > acetaldehyde (K(a) ranging from 1.12 x 10(3) to 2.82 x 10(3) L.mol(-1) at 298-310 K). Thermodynamic evaluation (DeltaG < 0, DeltaH > 0, DeltaS > 0) revealed a spontaneous, endothermic binding process driven predominantly by hydrophobic interactions. Notably, spectroscopic and morphological characterizations demonstrated divergent, ligand-dependent structural remodeling within the intrinsically disordered CS matrix. Ketone ligands (acetoin and diacetyl) triggered significant structural uncoiling and granular aggregation, whereas acetaldehyde promoted compact intermolecular cross-linking. Furthermore, molecular docking and 100-ns molecular dynamics simulations identified beta-CS as the primary binding subunit, which utilizes its highly flexible N-terminal domain to dynamically encapsulate aroma molecules via a hydrophobic collapse mechanism. These findings offer atomic-level insights into dairy protein-flavor interactions, providing a robust theoretical foundation for targeted flavor regulation and retention in fermented dairy matrices.",
+  "abstract_zh": "调控酪蛋白（CS）与关键酸奶香气之间相互作用的分子机制仍未得到充分阐明。本研究通过多光谱技术和集成分子模拟，系统探讨了CS与乙偶姻、双乙酰及乙醛的相互作用。荧光猝灭分析证实，通过静态猝灭（K(q) 约 10(11) L·mol(-1)·s(-1)）形成了稳定的基态复合物，结合亲和力顺序为：乙偶姻 > 双乙酰 > 乙醛（K(a) 在 298-310 K 下范围为 1.12 x 10(3) 至 2.82 x 10(3) L·mol(-1)）。热力学评估（DeltaG < 0, DeltaH > 0, DeltaS > 0）揭示了一个自发的、吸热的结合过程，主要由疏水相互作用驱动。值得注意的是，光谱和形态学表征显示，在 intrinsically disordered CS 基质中，存在依赖于配体的分歧性结构重塑。酮类配体（乙偶姻和双乙酰）触发了显著的结构解折叠和颗粒聚集，而乙醛则促进了紧凑的分子间交联。此外，分子对接和 100 ns 分子动力学模拟鉴定出 beta-CS 为主要结合亚基，其利用高度柔性的 N 端结构域通过疏水塌缩机制动态包裹香气分子。这些发现为乳蛋白-风味相互作用提供了原子级见解，为发酵乳基质中靶向风味调控和保留奠定了坚实的理论基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42855095/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42855095/",
+  "paper_page_path": "papers/pubmed/42855095/index.html"
+}

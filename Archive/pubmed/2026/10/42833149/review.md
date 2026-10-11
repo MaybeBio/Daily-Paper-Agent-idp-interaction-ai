@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that A-1331852, a clinical-stage Bcl-xL BH3 mimetic, is a potent and selective PTP1B inhibitor (IC50 = 4.0 µM vs >200 µM for TCPTP), acts via an uncompetitive mechanism, and engages a multisite binding mode involving the catalytic domain and the intrinsically disordered C-terminus, supported by docking and 500 ns molecular dynamics simulations. They further propose a PTP1B-Bcl-xL complex with a disorder-to-order interface and suggest the compound exploits transient substrate-induced binding states.
+- **Visible evidence base** Abstract text only; no experimental protocols, kinetic data, simulation parameters, or structural coordinates are available
+- **Missing materials affecting confidence** Full methods, kinetic assay details, selectivity data, MD simulation setup and convergence metrics, docking scores, structural figures, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting repurposing hypothesis with a clear selectivity claim and a mechanistically distinctive proposal. However, the evidence base is insufficient to evaluate the validity of the kinetic mechanism, the selectivity margin, or the computational models. The uncompetitive mechanism and the proposed C-terminal engagement are plausible but not established from the supplied material. The manuscript may have merit, but the current abstract alone does not support the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in drug repurposing, phosphatase biology, and metabolic disease therapeutics would be interested. The selectivity over TCPTP and the proposed substrate-induced binding site could inform design of PTP1B-specific inhibitors, a long-standing challenge. The computational prediction of a PTP1B-Bcl-xL interface may also attract structural biologists studying protein-protein interactions.
+- **Major strengths** The selectivity claim (at least 50-fold) is a clear and testable assertion. The uncompetitive mechanism is a distinctive hypothesis that differentiates this work from typical competitive PTP1B inhibitors. The use of full-length PTP1B in MD simulations, including the intrinsically disordered C-terminus, is a notable methodological choice that may capture biologically relevant dynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Kinetic analysis reveals uncompetitive inhibition consistent with recognition of a substrate-induced binding site."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states uncompetitive inhibition but provides no kinetic parameters (e.g., Km, Vmax, Ki) or assay conditions. Uncompetitive inhibition requires a specific pattern in Lineweaver-Burk or equivalent plots, and the claim of a "substrate-induced binding site" is an interpretation that cannot be verified without data.
+  - **Why it matters** The mechanistic claim is central to the paper's novelty. If the inhibition is actually mixed or noncompetitive, the proposed model of substrate-induced site recognition would be invalid, undermining the core hypothesis.
+  - **Resolution test** Provide full kinetic data (e.g., initial velocity vs substrate concentration at multiple inhibitor concentrations) and a statistical fit demonstrating the uncompetitive model is superior to competitive or mixed models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Docking and 500 ns molecular dynamics simulations (MD) of full-length PTP1B support a putative multisite model that primarily engages the catalytic domain, with secondary stabilizing contacts at the intrinsically disordered C-terminus (DeltaG(bind) = -42.95 kcal/mol)."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The binding free energy value (-42.95 kcal/mol) is presented without specifying the method (e.g., MM-PBSA, MM-GBSA, FEP) or the associated error. For a disordered C-terminus, such calculations are notoriously unreliable due to conformational heterogeneity. The abstract does not report whether the simulations reached equilibrium or how convergence was assessed.
+  - **Why it matters** The computational evidence is a primary pillar of the proposed binding model. Without methodological details and error estimates, the DeltaG value is not interpretable, and the claim of "support" is overstated.
+  - **Resolution test** Specify the free energy method, report standard deviations or confidence intervals, and provide RMSD or other convergence metrics for the 500 ns trajectories. If possible, include experimental validation (e.g., mutagenesis or SPR) of the C-terminal contact.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "In silico modeling of a predicted PTP1B-Bcl-xL complex suggests a coupled disorder-to-order interface bridging the PTP1B C-terminus and the Bcl-xL BH3-binding groove."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a "predicted" complex and a "coupled disorder-to-order interface" but provides no details on the modeling method (e.g., docking, co-evolution, or MD-based assembly) or any validation. The biological relevance of this complex is unclear, and the claim that dual inhibition is driven by "target-specific recognition" is not supported by any comparative binding data beyond a single MD run.
+  - **Why it matters** This claim extends the paper's scope beyond PTP1B inhibition to a broader biological interaction. If the complex model is speculative, it may distract from the more concrete inhibitor findings and could be seen as overreach.
+  - **Resolution test** Provide the modeling protocol, any scoring or validation of the complex, and ideally experimental evidence (e.g., co-immunoprecipitation or NMR) for the PTP1B-Bcl-xL interaction. If the complex is purely speculative, reframe it as a hypothesis rather than a finding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The IC50 notation is written as "IC(5)(0)" which appears to be a formatting error for IC50.
+  - **Required correction** Correct the notation to IC50 throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Selectivity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The selectivity margin is stated as "at least 50-fold" based on IC50 values of 4.0 µM vs >200 µM. The upper limit for TCPTP is not defined, so the actual selectivity could be much higher, but the "at least" phrasing is imprecise.
+  - **Required correction** Specify the maximum tested concentration for TCPTP or report the selectivity as ">50-fold" with the exact TCPTP IC50 if determinable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Repurposing rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states A-1331852 is a "clinical-stage Bcl-xL BH3 mimetic" but does not explain why this compound was chosen for screening against PTP1B. The rationale for repurposing is not clear.
+  - **Required correction** Add a sentence on the screening rationale or prior evidence linking Bcl-xL inhibitors to PTP1B activity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (kinetic mechanism unsubstantiated), R1-M2 (binding free energy method and error missing), R1-M3 (predicted complex lacks validation)
+- **Assessment against Nature-style criteria** Originality: The uncompetitive mechanism and C-terminal engagement are novel ideas, but they are not yet supported. Scientific importance: PTP1B selectivity is a significant problem, and a selective inhibitor would be valuable, but the current evidence is preliminary. Interdisciplinary readership: The work bridges medicinal chemistry and computational biology, which could appeal to a broad audience, but the abstract lacks sufficient detail for nonspecialists to assess the claims. Technical soundness: Not assessable from the abstract; the missing kinetic and simulation details are critical. Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "uncompetitive," "DeltaG(bind)") without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting, but the abstract alone does not provide the kinetic, computational, or experimental data needed to support the claims. I would be supportive if the full manuscript includes rigorous kinetic analysis, detailed MD methods with convergence and error reporting, and either experimental validation or a clearly framed speculative model for the PTP1B-Bcl-xL complex.
+
+## Risk / unsupported claims
+- The uncompetitive inhibition mechanism is unsupported without kinetic data.
+- The binding free energy value (-42.95 kcal/mol) is uninterpretable without method and error details.
+- The "coupled disorder-to-order interface" in the PTP1B-Bcl-xL complex is speculative and not validated.
+- The claim that dual inhibition is driven by "target-specific recognition" is not supported by comparative data beyond a single MD run.
+- The selectivity margin of "at least 50-fold" is imprecise due to the undefined upper limit for TCPTP.

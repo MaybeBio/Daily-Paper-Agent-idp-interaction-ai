@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that the proline-rich, intrinsically disordered carboxy-terminal region of FLA4, together with AGP-type O-glycosylation, controls protein fate. They report that Pro-to-Ala substitutions destabilize FLA4 in planta, that diverse glycomodules rescue stability with AGP motifs being most effective, that genetic interference with O-glycosylation does not affect FLA4 stability, and that disorder-maintaining mutations preserve stability independently of glycosylation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, statistical analyses, all figures and tables, construct details, mutant sequences, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking intrinsic disorder and O-glycosylation to protein fate determination in FLA4. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic distinctions, such as the relative contributions of disorder versus glycosylation, and the specificity of the observed effects, are not adequately supported by the information provided. The work may be of interest to plant cell biology and glycobiology communities, but the current abstract does not provide enough detail to assess technical rigor or generalizability.
+- **Who would be interested in the results, and why** Researchers studying arabinogalactan proteins, plant cell wall biology, protein trafficking and stability, and the functional roles of intrinsically disordered regions and O-glycosylation. The findings could inform broader understanding of how proline-rich domains and glycan modifications coordinate protein fate, which is relevant to plant development and stress responses.
+- **Major strengths** The hypothesis is clearly framed and addresses a gap in understanding the functional significance of AGP glycosylation. The use of multiple glycomodule types and site-directed mutants suggests a systematic approach. The distinction between glycosylation-dependent and -independent stability mechanisms is a potentially valuable conceptual contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Pro-to-Ala substitutions in the carboxy-terminal region caused in planta protein destabilization in an ECHIDNA-dependent trans-Golgi compartment and plasma membrane shedding in an aspartate protease-dependent manner."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that Pro-to-Ala substitutions cause destabilization and membrane shedding, but no quantitative data, representative images, or statistical comparisons are provided. It is unclear how destabilization was measured, what controls were used, and whether the effects are specific to the carboxy-terminal region or general to any Pro mutation.
+  - **Why it matters** Without quantitative evidence and appropriate controls, the reader cannot assess whether the observed destabilization is a specific consequence of disrupting the proline-rich region or a nonspecific effect of protein misfolding. This is foundational to the entire hypothesis.
+  - **Resolution test** Provide quantitative stability assays (e.g., immunoblot time courses, cycloheximide chase) with statistical analysis, and include controls with mutations in other regions or with conservative substitutions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic attribution
+  - **Claim pointer** "The resistance of FLA4 stability and localization to genetic interference with O-glycosylation suggested that additional protein properties, such as intrinsic disorder and secondary structure were crucial for FLA4 stability."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims that resistance to O-glycosylation interference implies a role for intrinsic disorder, but this is an inference, not a direct test. No data are shown demonstrating that the mutants used to interfere with O-glycosylation actually reduced glycosylation, nor that intrinsic disorder was measured or manipulated independently.
+  - **Why it matters** The conclusion that disorder, rather than glycosylation, is crucial depends on demonstrating that glycosylation was effectively abolished while stability was maintained. Without this, the claim is speculative and could be confounded by incomplete glycosylation interference or compensatory mechanisms.
+  - **Resolution test** Show that the genetic interference reduces or eliminates AGP-type glycosylation (e.g., by glycan detection or mass spectrometry), and directly assess disorder (e.g., by circular dichroism or predictive algorithms) in the mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of glycomodule effects
+  - **Claim pointer** "The introduction of diverse glycomodules to the FLA4 carboxy-terminus counteracted the stability loss, with AGP type glycosylation motifs more efficient than N-glycosylation signals and extensin structures."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The comparative efficiency of different glycomodules is stated without any quantitative measure. It is unclear how "efficiency" was defined, whether the constructs were expressed at comparable levels, and whether the differences are statistically significant.
+  - **Why it matters** The claim that AGP motifs are more efficient than other glycomodules is central to the proposed synergy between disorder and AGP-type glycosylation. Without quantitative comparison, this conclusion is not supported.
+  - **Resolution test** Provide quantitative stability measurements for each glycomodule construct, with statistical comparisons and normalization for expression levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "protein fate" is used but not defined. It is unclear whether this refers to stability, localization, degradation, or a combination.
+  - **Required correction** Define "protein fate" explicitly in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mechanistic model
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions ECHIDNA-dependent trans-Golgi compartment and aspartate protease-dependent shedding, but does not explain how these relate to the proposed disorder-glycosylation synergy.
+  - **Required correction** Briefly clarify the proposed pathway linking these components to the overall model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on FLA4 but does not discuss whether the findings are expected to generalize to other AGPs or fasciclin-like proteins.
+  - **Required correction** Add a sentence on potential broader relevance or limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data, direct measurements of glycosylation and disorder, and statistical comparisons, all of which are necessary to support the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The hypothesis that intrinsic disorder and AGP-type glycosylation synergistically control protein fate is somewhat novel, but the abstract does not provide enough evidence to distinguish it from prior work on proline-rich domains.  
+  - Scientific importance: If fully supported, the findings could advance understanding of AGP function and protein fate regulation, but the current evidence is insufficient to assess significance.  
+  - Interdisciplinary readership: The topic may appeal to plant biologists, glycobiologists, and cell biologists, but the abstract is too specialized and lacks context for a broad audience.  
+  - Technical soundness: Not assessable from the abstract; no methods or data are provided.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with AGP biology, ECHIDNA, and glycomodule types, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting, but the abstract does not provide sufficient quantitative or mechanistic support. I would be supportive if the full manuscript addresses the major concerns with rigorous data.
+
+## Risk / unsupported claims
+- The claim that intrinsic disorder is crucial for FLA4 stability is unsupported because no direct measurement of disorder is provided.
+- The comparative efficiency of AGP motifs versus N-glycosylation and extensin structures is unsupported without quantitative data.
+- The mechanistic link between ECHIDNA-dependent destabilization and aspartate protease-dependent shedding is not explained or evidenced.
+- The generalizability of the findings to other AGPs is not addressed and cannot be inferred from the abstract.

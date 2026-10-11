@@ -1,0 +1,76 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that the performance gap of deep learning models in predicting ligand binding poses at allosteric versus orthosteric sites is explained by the magnitude of frustration quenching upon ligand binding and by network topological features of the energy landscape, rather than by algorithmic limitations. They further claim that generative diffusion models outperform single-shot regression because multi-pose sampling is required to cross energy barriers, and that frustration quenching magnitude and network centrality can serve as physical descriptors of AI performance limits.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark descriptions, dataset details, or methodological information are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark definitions, dataset curation protocols, model architecture details, statistical analyses, and any quantitative comparisons between orthosteric and allosteric sites
+
+## Reviewer
+
+- **Overall assessment** The abstract presents an intriguing and potentially field-shaping hypothesis that connects protein energy landscape physics to deep learning performance in binding pose prediction. The conceptual framing is attractive and the proposed descriptors, frustration quenching and network centrality, are physically meaningful and could offer a principled explanation for the well-documented allosteric "blind spot" in AI-based docking. However, the abstract provides no quantitative evidence, no methodological detail, and no direct demonstration that the proposed descriptors actually track prediction success across models and datasets. The claims are stated as established findings rather than as hypotheses supported by data. The distinction between orthosteric and allosteric pockets in terms of frustration and network topology is plausible but is not substantiated with any numbers, statistical tests, or comparisons. The comparison between generative diffusion and single-shot regression is asserted without reporting performance metrics or controlled conditions. As presented, the abstract reads as a research proposal or a perspective rather than a report of completed, validated research. The scientific idea has merit and could be of broad interest, but the evidence base provided is insufficient to assess whether the claims are supported.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein energy landscapes and frustration would find the connection to machine learning performance novel and useful. Researchers developing deep learning docking and co-folding methods would be interested in understanding the physical limits of their models and in design principles for improving allosteric site prediction. Drug discovery scientists targeting allosteric sites would benefit from a physics-based framework for anticipating when AI-based pose prediction is likely to succeed or fail. The work could also appeal to the broader machine learning for science community interested in interpretability and physics-grounded performance descriptors.
+- **Major strengths** The conceptual framing is original and timely, connecting two previously separate fields, protein frustration analysis and deep learning docking, in a way that could provide a unifying explanation for a known and practically important limitation. The proposed descriptors, frustration quenching and network centrality, are physically interpretable and potentially actionable for model improvement. The claim that multi-pose sampling is required for barrier crossing is mechanistically sensible and aligns with known limitations of single-shot regression methods. The reframing of AI accuracy as a reporter of landscape architecture is intellectually appealing and could have broad implications beyond docking.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that AI prediction success "strongly tracks" frustration quenching and that orthosteric pockets act as high-betweenness hubs while allosteric sites are low-betweenness peripheral regions with fragmented frustration profiles.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The central quantitative claim of the paper, that prediction success tracks frustration quenching and network centrality, is stated without any supporting numbers. No correlation coefficients, effect sizes, confidence intervals, or statistical tests are reported. The characterization of orthosteric versus allosteric pockets in terms of betweenness and frustration fragmentation is presented as a finding, but no data are shown to support this distinction.
+  - **Why it matters** The entire thesis of the paper rests on this correlation. Without quantitative evidence demonstrating the strength and significance of the relationship between the proposed physical descriptors and model performance, the claim is unfalsifiable from the provided material. The abstract asserts a causal or at least predictive relationship, but no data are available to evaluate whether the relationship is robust, weak, or confounded by other variables such as pocket size, flexibility, or dataset composition.
+  - **Resolution test** Provide quantitative results showing the correlation between frustration quenching magnitude and prediction success across multiple models and datasets, with appropriate statistical measures. Report the distribution of betweenness centrality and frustration metrics for orthosteric versus allosteric sites with significance testing. Show that the relationship holds after controlling for potential confounders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim to have evaluated "leading co-folding and docking paradigms across curated benchmarks and large-scale uncurated datasets" and to have compared "generative diffusion with single-shot regression."
+  - **Evidence pointer** Abstract only; no methods section, model list, or dataset descriptions provided
+  - **Concern** No information is provided about which models were evaluated, how benchmarks were curated, what constituted the large-scale uncurated datasets, how frustration quenching was computed, how network centrality was derived, or how the diffusion versus regression comparison was controlled. Without this information, the claims cannot be reproduced or even meaningfully evaluated.
+  - **Why it matters** The validity of the conclusions depends entirely on the quality and appropriateness of the methods. Different models, datasets, and metrics could yield different results. The comparison between generative and single-shot approaches must be controlled for architecture, training data, and evaluation protocol to be meaningful. The frustration and network calculations require specific methodological choices that could substantially affect the outcomes.
+  - **Resolution test** Provide a complete methods description including model names and versions, dataset construction protocols, frustration calculation methods, network construction and centrality computation details, evaluation metrics, and statistical analysis procedures. Describe how the diffusion versus regression comparison was controlled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that frustration quenching and network topology are "primary determinants" of prediction performance and that multi-pose sampling capacity "is required" to cross energy barriers.
+  - **Evidence pointer** Abstract only; no experimental manipulations or controlled comparisons provided
+  - **Concern** The language implies causal or at least mechanistic relationships, but the abstract provides no evidence of causal inference. The correlation between frustration quenching and prediction success could be confounded by other landscape features, by dataset biases, or by model-specific factors. The claim that multi-pose sampling is "required" for barrier crossing is a strong mechanistic statement that would require ablation studies or controlled experiments varying sampling capacity while holding other factors constant.
+  - **Why it matters** The paper's contribution, if validated, would be a mechanistic understanding of why models fail at allosteric sites. Correlation alone does not establish mechanism. The claim that sampling capacity is required for barrier crossing is testable but requires specific experimental designs that are not described. Overstating causal relationships without appropriate evidence could mislead the field about the actual determinants of model performance.
+  - **Resolution test** Provide ablation studies or controlled experiments that manipulate sampling capacity, frustration properties, or network features while holding other variables constant. Demonstrate that the proposed descriptors predict performance out-of-sample. Show that the relationship between frustration quenching and performance is not explained by alternative landscape metrics.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Definition of "frustration quenching"
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "frustration quenching" is introduced as "the degree to which ligand binding relieves local energetic strain to form a steep energy funnel," but the operational definition is vague. It is unclear whether this is a single scalar quantity, a distribution, or a composite metric, and how it would be computed from structures or energy landscapes.
+  - **Required correction** Provide a precise operational definition of frustration quenching, including the energy terms involved, the reference state, and the exact formula or algorithm used to compute it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "blind spot"
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The term "blind spot" is used to describe the allosteric performance gap, but it is not defined quantitatively. It is unclear what threshold or criterion defines a "blind spot" and whether this is a binary or continuous phenomenon.
+  - **Required correction** Define the performance gap quantitatively, for example in terms of accuracy metrics, and specify what constitutes a "blind spot" in operational terms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of claims
+  - **Evidence pointer** Abstract, first and final paragraphs
+  - **Issue** The claims are stated in general terms, but it is unclear whether they apply to all protein-ligand systems, all model architectures, or a specific subset. The abstract does not specify the range of systems, pocket types, or ligand chemotypes covered by the evaluation.
+  - **Required correction** Specify the scope of the evaluation, including the diversity of protein targets, ligand types, and model architectures, and discuss any limitations on generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 must be resolved. The central correlation claim requires quantitative evidence. The methodological transparency issue must be addressed to allow evaluation of the validity of the comparisons. The causal or mechanistic claims require appropriate experimental designs. Without these, the case is not established from the provided material.
+- **Assessment against Nature-style criteria** Originality: The conceptual connection between protein frustration, network topology, and deep learning performance is genuinely novel and could represent a significant intellectual contribution if supported by data. Scientific importance: The question of why AI models fail at allosteric sites is practically important for drug discovery and theoretically important for understanding the physical basis of model performance. The proposed framework could have broad impact if validated. Interdisciplinary readership: The work bridges biophysics, network science, and machine learning, and would appeal to readers across these communities. The abstract is written in a way that is largely accessible to nonspecialists, though terms like "frustration quenching" and "betweenness" would benefit from more explicit definition. Technical soundness: Cannot be assessed from the abstract alone. The absence of any quantitative results, methodological detail, or statistical analysis prevents evaluation of technical rigor. Readability for nonspecialists: The abstract is well written and conceptually clear, but the lack of concrete examples or numbers makes it read more like a perspective than a research report. Overall, the idea is promising and potentially impactful, but the evidence base provided is insufficient to establish the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is attractive and the hypothesis is worth testing, but the abstract provides no quantitative support for the central claims. A full manuscript with complete methods, results, and statistical analyses would be required to evaluate whether the proposed descriptors genuinely track prediction performance and whether the mechanistic claims are supported. If the full paper provides the missing evidence, the work could be a significant contribution. As presented, the abstract does not demonstrate that the claims are supported.
+
+## Risk / unsupported claims
+
+- The claim that AI prediction success "strongly tracks" frustration quenching is unsupported by any quantitative data in the provided material.
+- The characterization of orthosteric pockets as high-betweenness hubs and allosteric sites as low-betweenness peripheral regions with fragmented frustration profiles is unsupported by any data.
+- The claim that multi-pose sampling capacity is "required" to cross energy barriers is a strong mechanistic statement with no supporting experimental evidence.
+- The claim that frustration quenching magnitude and network centrality "define the intrinsic limits of AI performance" is an overreach from the evidence provided.
+- The claim that the study "reframes the allosteric blind spot as a quantitative property" is not supported by any quantitative results in the abstract.
+- The comparison between generative diffusion and single-shot regression is asserted without any performance metrics or controlled conditions.
+- The generalizability of the findings across protein systems, ligand types, and model architectures cannot be assessed from the abstract.

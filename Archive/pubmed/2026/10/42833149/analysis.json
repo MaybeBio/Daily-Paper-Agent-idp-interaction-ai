@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42833149",
+  "title": "Selective PTP1B inhibition by A-1331852: Uncompetitive kinetics and computational evidence for C-terminal engagement.",
+  "authors": "Vasquez-Martinez, Nathaly; Sosa-Peinado, Alejandro; Cortes-Benitez, Francisco; Gonzalez-Andrade, Martin",
+  "journal": "Bioorganic & medicinal chemistry",
+  "published_date": "2026-10-05",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过对接和500ns分子动力学模拟，揭示A-1331852对PTP1B的选择性抑制涉及无序C端参与的多位点结合机制，并预测了PTP1B-Bcl-xL复合物中无序到有序的偶联界面，虽对象非典型IDP但聚焦无序区域介导的蛋白互作机制建模，方法扎实。",
+  "abstract": "Selective inhibition of protein tyrosine phosphatase 1B (PTP1B), a well-established target in metabolic and oncological signaling pathways, is limited by its 74% active-site identity with the closely related phosphatase TCPTP. Repurposing the clinical-stage Bcl-xL BH3 mimetic A-1331852, we identify it as a potent PTP1B inhibitor demonstrating a selectivity margin of at least 50-fold over TCPTP (IC(5)(0) = 4.0 muM vs >200 muM). Kinetic analysis reveals uncompetitive inhibition consistent with recognition of a substrate-induced binding site. Docking and 500 ns molecular dynamics simulations (MD) of full-length PTP1B support a putative multisite model that primarily engages the catalytic domain, with secondary stabilizing contacts at the intrinsically disordered C-terminus (DeltaG(bind) = -42.95 kcal/mol). Comparative MD of Bcl-xL reveals a structurally distinct binding footprint, indicating that dual inhibition is driven by target-specific recognition rather than the engagement of a shared structural motif. In silico modeling of a predicted PTP1B-Bcl-xL complex suggests a coupled disorder-to-order interface bridging the PTP1B C-terminus and the Bcl-xL BH3-binding groove. Together, these results highlight A-1331852 as a promising starting point for developing PTP1B inhibitors designed to exploit transient, substrate-induced binding states.",
+  "abstract_zh": "选择性抑制蛋白酪氨酸磷酸酶1B（PTP1B）——这一在代谢和肿瘤信号通路中公认的靶点——因其与密切相关的磷酸酶TCPTP在活性位点上有74%的同一性而受到限制。通过重新利用临床阶段的Bcl-xL BH3模拟物A-1331852，我们将其鉴定为一种强效的PTP1B抑制剂，显示出相对于TCPTP至少50倍的选择性窗口（IC(5)(0) = 4.0 μM vs >200 μM）。动力学分析揭示其非竞争性抑制模式，与识别底物诱导的结合位点一致。对全长PTP1B的对接和500 ns分子动力学模拟（molecular dynamics, MD）支持一个假定的多位点模型，该模型主要涉及催化结构域，并在 intrinsically disordered 的C末端提供次级稳定接触（ΔG(bind) = -42.95 kcal/mol）。对Bcl-xL的比较MD模拟显示出一个结构上不同的结合足迹，表明双重抑制是由靶点特异性识别驱动的，而非共享结构基序的参与。对预测的PTP1B-Bcl-xL复合物的计算机模拟建模提示，存在一个耦合的无序到有序界面，桥接PTP1B C末端和Bcl-xL BH3结合沟槽。综合来看，这些结果突显了A-1331852作为开发旨在利用瞬时、底物诱导结合状态的PTP1B抑制剂的有前景起点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42833149/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42833149/",
+  "paper_page_path": "papers/pubmed/42833149/index.html"
+}

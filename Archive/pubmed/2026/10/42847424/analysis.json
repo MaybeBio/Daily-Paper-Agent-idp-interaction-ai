@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42847424",
+  "title": "Protein-Ratio Rheostats: Integrating Stoichiometry, Abundance, and Binding Affinity in Cellular Function.",
+  "authors": "Subramanian, Subbaya; Kartha, Reena V",
+  "journal": "BioEssays : news and reviews in molecular, cellular and developmental biology",
+  "published_date": "2026-10-08",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 6,
+  "one_liner_zh": "提出蛋白比例变阻器框架，整合化学计量、丰度与结合亲和力解释细胞功能，并应用于竞争性蛋白互作与生物分子凝聚体，但缺乏具体AI或物理模拟方法，机制建模偏概念性。",
+  "abstract": "Cellular function is frequently interpreted in terms of gene presence, protein abundance, and dose-response relationships. Yet interacting proteins operate within binding and assembly regimes in which relative abundance can alter which molecular complexes predominate. We propose a protein-ratio rheostat framework in which functional output depends jointly on component ratios, absolute concentrations relative to binding affinities, interaction stoichiometry, and in multivalent systems, valency and cooperativity. The same protein ratio can therefore generate different molecular and functional states under different concentration or affinity regimes. We develop testable predictions of this framework, illustrate its application to competitive protein interactions and biomolecular condensates, and outline experimental strategies for identifying composition-sensitive behavior within defined abundance and affinity regimes.",
+  "abstract_zh": "细胞功能常通过基因存在、蛋白质丰度及剂量-反应关系来解读。然而，相互作用的蛋白质在结合与组装体系中运作，其中相对丰度可改变哪些分子复合物占主导地位。我们提出一个蛋白质比例变阻器框架，其中功能输出共同取决于组分比例、相对于结合亲和力的绝对浓度、相互作用化学计量，以及在多价系统中的价态和协同性。因此，相同的蛋白质比例在不同浓度或亲和力条件下可产生不同的分子和功能状态。我们发展了这一框架的可检验预测，阐明其在竞争性蛋白质相互作用和生物分子凝聚体中的应用，并概述了在明确丰度和亲和力体系中识别组成敏感行为的实验策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42847424/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42847424/",
+  "paper_page_path": "papers/pubmed/42847424/index.html"
+}

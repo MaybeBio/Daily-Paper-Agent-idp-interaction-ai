@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.06.756988",
+  "title": "An intrinsically disordered proline-rich domain acts in synergy with AGP-type glycosylation to control the protein fate of FLA4",
+  "authors": "Chaitra Hiremath; Hui Xue; Tuba Acet; Georg J Seifert",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-07",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究拟南芥FLA4蛋白中富含脯氨酸的无序区域与AGP型糖基化协同决定蛋白命运，涉及IDR功能但未聚焦PPI互作机制，且方法为实验突变而非AI/物理模拟，故综合评分为5。",
+  "abstract": "The functional roles of glycans attached to the proline (Pro) rich region of arabinogalactan proteins are largely elusive. We have tested the possibility of type II arabinogalactans acting as protein fate determinants for the FASCICLIN LIKE ARABINOGALACTAN PROTEIN 4 (FLA4). Pro-to-Ala substitutions in the carboxy-terminal region caused in planta protein destabilization in an ECHIDNA-dependent trans-Golgi compartment and plasma membrane shedding in an aspartate protease-dependent manner. The introduction of diverse glycomodules to the FLA4 carboxy-terminus counteracted the stability loss, with AGP type glycosylation motifs more efficient than N-glycosylation signals and extensin structures. The resistance of FLA4 stability and localization to genetic interference with O-glycosylation suggested that additional protein properties, such as intrinsic disorder and secondary structure were crucial for FLA4 stability. Consistently, disorder-maintaining site directed mutants maintained FLA4 stability in a glycosylation-independent manner. Our data support a role for proline-rich regions in determining protein fate by generating intrinsically disordered domains in the peptide chain and providing acceptor sites for O-glycosylation.",
+  "abstract_zh": "阿拉伯半乳聚糖蛋白（arabinogalactan proteins）富含脯氨酸（Pro）区域所附着的聚糖的功能作用在很大程度上仍不明确。我们测试了II型阿拉伯半乳聚糖作为FASCICLIN样阿拉伯半乳聚糖蛋白4（FLA4）蛋白命运决定因子的可能性。羧基末端区域的Pro-to-Ala替换导致植物体内蛋白质在依赖ECHIDNA的反式高尔基体区室中不稳定，并以依赖天冬氨酸蛋白酶的方式发生质膜脱落。将多种糖模块引入FLA4羧基末端抵消了稳定性丧失，其中AGP型糖基化基序比N-糖基化信号和延伸蛋白结构更有效。FLA4稳定性和定位对O-糖基化遗传干扰的抵抗性表明，其他蛋白质特性，如内在无序性和二级结构，对FLA4稳定性至关重要。一致地，维持无序性的定点突变体以不依赖糖基化的方式保持了FLA4稳定性。我们的数据支持富含脯氨酸区域通过生成肽链中的内在无序结构域并提供O-糖基化受体位点来决定蛋白质命运的作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756988",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756988",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.06.756988/index.html"
+}
