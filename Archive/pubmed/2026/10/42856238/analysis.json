@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42856238",
+  "title": "MgATP/MgADP-dependent conformational dynamics and intrinsically disordered regions of vascular K (ATP) channels revealed by cryoEM.",
+  "authors": "Driggers, Camden M; Kuo, Yi-Ying; Yang, Zhongying; Lee, Sun-Joo; Nichols, Colin G; Walczewska-Szewc, Katarzyna; Shyng, Show-Ling",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-11",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过cryoEM和MD模拟揭示血管K(ATP)通道中IDR在Mg核苷酸依赖的构象转换中介导亚基间互作的机制，对象为IDR且涉及PPI与物理模拟，但非典型相分离/凝聚体背景，机制深度中等。",
+  "abstract": "Vascular smooth muscle K (ATP) channels, composed of the pore-forming Kir6.1 and regulatory SUR2B subunits, control vascular tone, dysfunction of which causes systemic disease. Vascular K (ATP) is regulated by Mg-nucleotides, but the underlying structural mechanism has remained elusive. Here, we determined cryoEM structures of these channels in the presence of MgATP and MgADP. Two key structures captured, one showing the SUR2B-nucleotide binding domains (NBDs) separated and one showing the SUR2B-NBDs dimerized, reveal conformation-specific organization of intrinsically disordered regions (IDRs) found in both Kir6.1 and SUR2B. In the NBD-separated conformation, the Kir6.1-N terminal IDR (KNt) sits within the central cleft of SUR2B's ABC-core. In the NBD-dimerized conformation, KNt is excluded from the central cleft and instead forms contacts with an ED domain comprising 15 consecutive glutamate and aspartate residues within a SUR2B IDR, the N1-T2 linker connecting NBD1 (N1) to transmembrane domain 2 (T2). Moreover, within the N1-T2 linker a regulatory helix seen between the two NBDs in the NBD-separated conformation moves to outside the dimerized NBDs, interacting with the C-terminal residues unique to SUR2B, in the NBD-dimerized conformation. MD simulations further reveal that transient but frequent interactions mediated by the IDRs may facilitate Mg-nucleotide dependent conformational switch in vascular K (ATP) channels.",
+  "abstract_zh": "血管平滑肌K(ATP)通道由成孔的Kir6.1和调节性SUR2B亚基组成，控制血管张力，其功能障碍会导致全身性疾病。血管K(ATP)受Mg-核苷酸调节，但其潜在的结构机制一直难以捉摸。在此，我们确定了这些通道在MgATP和MgADP存在下的冷冻电镜结构。捕获的两个关键结构，一个显示SUR2B-核苷酸结合结构域（NBDs）分离，另一个显示SUR2B-NBDs二聚化，揭示了在Kir6.1和SUR2B中均发现的内在无序区域（IDRs）的构象特异性组织。在NBD分离构象中，Kir6.1-N末端IDR（KNt）位于SUR2B的ABC核心中央裂隙内。在NBD二聚化构象中，KNt被排除在中央裂隙之外，转而与一个ED结构域形成接触，该结构域包含SUR2B IDR内15个连续谷氨酸和天冬氨酸残基，即连接NBD1（N1）至跨膜结构域2（T2）的N1-T2连接子。此外，在N1-T2连接子中，NBD分离构象中见于两个NBD之间的一个调节螺旋，在NBD二聚化构象中移至二聚化NBD外部，与SUR2B特有的C末端残基相互作用。分子动力学（MD）模拟进一步揭示，由IDRs介导的瞬时但频繁的相互作用可能促进血管K(ATP)通道中Mg-核苷酸依赖的构象转换。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42856238/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42856238/",
+  "paper_page_path": "papers/pubmed/42856238/index.html"
+}

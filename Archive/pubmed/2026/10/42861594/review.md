@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the first systematic evaluation of AlphaFold3 (AF3) on intrinsically disordered proteins (IDPs), finding that AF3 monomer pLDDT scores reliably predict disorder (MCC 0.693), comparable to AlphaFold2 and dedicated predictors; for multimers, AF3 and AF2 show similar aggregate DockQ scores but differ mechanistically, with conventional interface features explaining less variance for AF3; both models perform equally on disorder-to-order transitions; seed variance analysis shows AF3 rarely converges reliably across runs; the authors conclude AF3 is reliable for monomer disorder prediction but unpredictable for multimers, and argue that progress requires disorder-enriched datasets and ensemble sampling.
+- **Visible evidence base** Abstract text only; no methods, datasets, benchmark details, statistical analyses, or figures were accessible
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark definitions (MFIB), statistical methodology, seed variance analysis details, comparison protocols, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable and timely evaluation of AF3 on IDPs, a topic of considerable interest given the biological importance of disordered proteins and the rapid adoption of AF3. The claimed dichotomy between monomer reliability and multimer unpredictability is conceptually interesting. However, the abstract alone provides insufficient methodological detail to assess the robustness of the findings. Key metrics are reported without confidence intervals or statistical tests, the mechanistic claims about variance explained are not contextualized, and the seed variance analysis is described only qualitatively. The conclusion that architectural innovation cannot overcome training data bias is a strong interpretive claim that requires substantially more evidence than is presented here.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers working on IDPs would find these results relevant, as they address practical questions about when AF3 can be trusted for disordered systems. The work also speaks to the broader machine learning for protein structure community interested in model generalization and failure modes. Clinicians and biochemists studying disorder-to-order transitions in disease contexts may also benefit from guidance on model reliability.
+- **Major strengths** The topic is timely and addresses a genuine gap in the literature. The comparative design (AF3 vs. AF2 vs. dedicated predictors) is appropriate. The use of multiple benchmarks (disorder prediction, multimer docking, MFIB transitions, seed variance) suggests a comprehensive evaluation strategy. The reported dichotomy between monomer and multimer performance is a clear and potentially actionable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim AF3 monomer pLDDT reliably predicts disorder with MCC 0.693, matching AF2 and rivaling dedicated predictors.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The MCC value is reported as a single point estimate without confidence intervals, error bars, or statistical comparison against AF2 and dedicated predictors. It is unclear whether the difference between AF3 and AF2 is statistically significant, whether the MCC is stable across different disorder datasets, and what thresholding was applied to pLDDT for disorder classification.
+  - **Why it matters** The central claim of monomer reliability rests on this single metric. Without uncertainty quantification and statistical testing, readers cannot determine whether the reported equivalence to AF2 is meaningful or an artifact of dataset choice or threshold selection.
+  - **Resolution test** Provide confidence intervals for MCC, perform statistical significance testing against AF2 and dedicated predictors across multiple disorder benchmarks, and report the pLDDT threshold used with sensitivity analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim conventional structural features explain 58% of AF2 variance but only 42% of AF3 variance, indicating fundamentally different mechanisms.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The variance explained figures are presented without describing which features were included, how variance was computed, what model was used for the regression, or whether the difference is statistically significant. The interpretation that this reflects "fundamentally different mechanisms" is a strong claim that requires demonstration that the feature sets are comprehensive and that the difference is not due to noise or model misspecification.
+  - **Why it matters** This is the primary evidence for the claim that AF3 and AF2 achieve similar performance through different mechanisms. If the feature set is incomplete or the analysis is underpowered, the mechanistic conclusion is unsupported.
+  - **Resolution test** Describe the feature set and regression methodology, report significance testing for the difference in explained variance, and validate with cross-validation or permutation tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and convergence
+  - **Claim pointer** The authors claim seed variance analysis reveals AF3 rarely converges reliably, with substantial variance across independent runs and occasional high-scoring outliers.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The seed variance analysis is described only qualitatively. No quantitative metrics are provided, such as the distribution of DockQ scores across seeds, the proportion of cases exceeding a variance threshold, or the frequency of outlier seeds. The claim that AF3 "rarely converges reliably" is not supported by any reported numbers.
+  - **Why it matters** This is the key evidence for the "unpredictable" conclusion regarding multimers. Without quantitative characterization, the claim is anecdotal and cannot be evaluated or reproduced.
+  - **Resolution test** Report the full distribution of seed-to-seed variance, define a quantitative criterion for "reliable convergence," and provide the proportion of cases meeting that criterion for both AF3 and AF2.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark adequacy
+  - **Claim pointer** The authors claim both models perform equally well on disorder-to-order transitions using the MFIB benchmark.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The MFIB benchmark is mentioned without describing its size, composition, or how "successfully predicting final folded states" was measured. It is unclear whether the benchmark is sufficiently powered to detect differences between models and whether the metric used is appropriate for the transition prediction task.
+  - **Why it matters** The claim of equal performance on transitions is used to argue that AF3 is not uniformly worse on disordered systems. If the benchmark is small or the metric is insensitive, the conclusion may be premature.
+  - **Resolution test** Describe MFIB benchmark statistics, report the evaluation metric with confidence intervals, and discuss power considerations for detecting model differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "unpredictable multimer performance" is used in the title and abstract, but the abstract also reports comparable aggregate DockQ scores. The term "unpredictable" could be misinterpreted as "poor" rather than "not predictable from interface features."
+  - **Required correction** Clarify in the abstract that "unpredictable" refers to the inability to anticipate success or failure from conventional structural features, not to uniformly poor performance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims this is the "first systematic evaluation" of AF3 on disordered systems, but no prior evaluations are cited or discussed to establish the novelty claim.
+  - **Required correction** Briefly reference prior AF3 evaluations on IDPs or explain why none exist, to substantiate the "first" claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Dedicated predictors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states AF3 "rivals dedicated predictors" but does not name which predictors were used for comparison.
+  - **Required correction** Specify the dedicated predictors used in the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor for the central monomer claim), R1-M2 (mechanistic interpretation without methodological detail), R1-M3 (qualitative seed variance claim without quantitative support). These three concerns must be resolved before the core conclusions can be considered established.
+- **Assessment against Nature-style criteria** Originality: The topic is timely and the specific focus on AF3 for IDPs appears to address a gap, though the "first" claim requires verification. Scientific importance: The question of AF3 reliability for IDPs is important given the prevalence of disordered proteins and the widespread use of AF3. Interdisciplinary readership: The findings would interest structural biology, computational biology, and machine learning communities. Technical soundness: Cannot be fully assessed from the abstract; the reported metrics lack statistical context and methodological detail. Readability for nonspecialists: The abstract is generally clear, though terms like "DockQ" and "MCC" are used without definition, which may limit accessibility for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the lack of methodological detail, statistical rigor, and quantitative support for key claims prevents a supportive recommendation. The manuscript may become publishable if the major concerns are addressed with full methodological transparency and robust statistical analysis.
+
+## Risk / unsupported claims
+- The claim that AF3 "rarely converges reliably" is unsupported by any quantitative data in the abstract.
+- The claim that AF3 and AF2 achieve results through "fundamentally different mechanisms" is not supported by the variance explained figures alone, as the methodology is not described.
+- The claim that "architectural innovation alone cannot overcome training data bias" is an interpretive conclusion that extends beyond the presented evidence.
+- The "first systematic evaluation" claim cannot be verified without citation of prior work.
+- The equivalence of AF3 to "dedicated predictors" is unverifiable without naming the predictors and reporting statistical comparisons.

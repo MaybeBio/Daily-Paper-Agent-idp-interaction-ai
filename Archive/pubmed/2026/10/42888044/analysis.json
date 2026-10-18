@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42888044",
+  "title": "RNA-Protein Reciprocity and the Limits of RBP Buffering.",
+  "authors": "Doxakis, Epaminondas",
+  "journal": "Wiley interdisciplinary reviews. RNA",
+  "published_date": "2026-10-16",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出RNA-蛋白互惠框架，探讨RNA结合蛋白(RBP)缓冲与RNA结合位点平衡对调控稳定性的影响，涉及RNA-蛋白互作机制，但对象非IDP/相分离，且无AI或物理模拟方法，属机制性综述，对本课题的互作平衡思路有启发。",
+  "abstract": "RNA-binding proteins (RBPs) regulate RNA processing, localization, translation, and decay, yet similar perturbations can have different consequences across cells and tissues. RNA-protein reciprocity relates this variation to the balance between the binding sites presented by RNA and the protein available to regulate them. Regulation can remain stable while sufficient RBP is available, but become sensitive to small changes as that reserve narrows. The biological consequence depends on which transcripts lose regulation and how strongly the cell depends on their products. Examples from endogenous regulatory RNAs, repeat-expansion diseases, viral infection, and cancer show that RNA-dependent RBP redistribution can preserve cellular function or contribute to its failure. Binding affinity, partner proteins, autoregulation, and RNA-dependent assembly shape these responses. This Perspective develops the framework and proposes experiments to connect changes in local RNA demand and RBP supply with target binding and biological output. The aim is to identify when a modest molecular perturbation has a disproportionate functional effect, and when restoring the RNA-protein balance can recover regulation.",
+  "abstract_zh": "RNA结合蛋白（RBPs）调控RNA加工、定位、翻译和降解，然而相似的扰动在不同细胞和组织中可能产生不同的后果。RNA-蛋白质互惠性将这种变异与RNA呈现的结合位点及可用于调控这些位点的蛋白质之间的平衡联系起来。当有足够的RBP可用时，调控可保持稳定，但随着储备减少，调控会变得对微小变化敏感。生物学后果取决于哪些转录本失去调控，以及细胞对其产物的依赖程度。来自内源性调控RNA、重复扩增疾病、病毒感染和癌症的实例表明，RNA依赖性RBP重分布可维持细胞功能或促使其失效。结合亲和力、伴侣蛋白、自调控和RNA依赖性组装塑造了这些响应。本视角发展了该框架，并提出实验方案，以将局部RNA需求与RBP供应的变化与靶标结合及生物学输出联系起来。其目的是识别何时适度的分子扰动会产生不成比例的功能效应，以及何时恢复RNA-蛋白质平衡可恢复调控。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42888044/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42888044/",
+  "paper_page_path": "papers/pubmed/42888044/index.html"
+}

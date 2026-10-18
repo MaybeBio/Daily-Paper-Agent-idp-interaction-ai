@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42856184",
+  "title": "Synapsin-1 and actin form ordered nanoscale assemblies.",
+  "authors": "Mansour, Daniel; Chowdhury, Rajdeep; Chandrasekaran, Aravind; Mimoso, Tiago; Krah, Donatus; Korobeinikov, Aleksandr; Chhabra, Akshita; Milovanovic, Dragomir; Koster, Sarah; Shaib, Ali H; Rizzoli, Silvio O; Rangamani, Padmini",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-11",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合计算模拟与纳米成像，揭示突触蛋白synapsin-1凝聚体与肌动蛋白形成有序纳米组装的结构记忆机制，属于IDR/相分离介导的蛋白互作机制建模，方法上含模拟与实验结合，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation is a vital and ubiquitous principle of subcellular organization. Several actin-binding proteins have recently been shown to undergo liquid-liquid phase separation, forming micron-sized droplets that assemble actin into distinct network shapes. However, our knowledge of how these phase-separated proteins organize actin filaments at the nanoscale is rather limited. Here, we seek to address this knowledge gap by investigating synapsin-1 condensates through a combination of computational simulations and nanoscale imaging experiments. Our results show that while synapsin-1 condensates by themselves lack any special structural organization, the addition of actin filaments results in the generation of a regularly organized actin scaffold within the condensates. The organized scaffold forms both when actin and synapsin-1 are added simultaneously and when actin is added after the formation of synapsin condensates. Dissolving the condensates, by synapsin-1 removal, leaves the actin scaffold largely unaffected in both simulations and experiments, implying that this scaffold should guide droplet reformation when synapsin-1 is added back. Taken together, our findings suggest that the actin-rich component of the condensate retains a structural memory that promotes and guides the reassembly of synapsin-actin condensates. This structural memory may be important in the long-term maintenance of synaptic function in vivo .",
+  "abstract_zh": "液-液相分离 (liquid-liquid phase separation) 是亚细胞组织的一个至关重要且普遍存在的原理。最近，几种肌动蛋白结合蛋白被证明会发生液-液相分离，形成微米大小的液滴，将肌动蛋白组装成不同的网络形状。然而，我们对这些相分离蛋白如何在纳米尺度上组织肌动蛋白丝的了解相当有限。在此，我们旨在通过结合计算模拟和纳米级成像实验来研究突触蛋白-1 (synapsin-1) 凝聚体，以填补这一知识空白。我们的结果表明，虽然突触蛋白-1凝聚体本身缺乏任何特殊的结构组织，但肌动蛋白丝的添加会导致凝聚体内产生规则组织的肌动蛋白支架。这种有组织的支架在肌动蛋白和突触蛋白-1同时添加时，以及在突触蛋白凝聚体形成后添加肌动蛋白时均能形成。通过去除突触蛋白-1来溶解凝聚体，在模拟和实验中均使肌动蛋白支架基本不受影响，这表明该支架应在突触蛋白-1重新添加时引导液滴重新形成。综合来看，我们的发现表明，凝聚体的富含肌动蛋白组分保留了一种结构记忆，这种记忆促进并引导突触蛋白-肌动蛋白凝聚体的重新组装。这种结构记忆可能对体内突触功能的长期维持具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42856184/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42856184/",
+  "paper_page_path": "papers/pubmed/42856184/index.html"
+}

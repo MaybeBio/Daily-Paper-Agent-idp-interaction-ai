@@ -1,0 +1,119 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) without supplementary figures, tables, or source data
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretative validity based solely on the provided text
+- **Shared manuscript claim summary** The authors combine all-atom molecular dynamics simulations of tri-nucleosomes with varying linker lengths and cryo-ET maps of native human chromatin to develop a fitting approach that enables near-atomistic interpretation of cryo-ET density maps. They report that histone tails promote chromatin compaction through three major interaction patterns, and that simulated structural parameters agree with experimental measurements.
+- **Visible evidence base** Main text figures referenced (Figs. 1-5), supplementary figures referenced (Figs. S1-S25), supplementary tables referenced (Tables 1-3), methods section
+- **Missing materials affecting confidence** Supplementary figures and tables, source data, raw cryo-ET maps, MD simulation parameter files, statistical analysis details, and code availability
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable integrative approach that combines all-atom MD simulations with cryo-ET map fitting to interpret chromatin structure at near-atomistic resolution. The concept of using tri-nucleosome conformations as fitting templates is novel and addresses real limitations of mono-nucleosome fitting approaches. However, the manuscript as provided has several critical gaps that prevent full evaluation of the claims. The absence of quantitative validation metrics, unclear statistical treatment, and lack of access to supplementary materials significantly limit the ability to assess the robustness of the conclusions. The mechanistic claims regarding histone tail interactions are interesting but require stronger evidence to distinguish them from previously known roles of histone tails in chromatin compaction.
+- **Who would be interested in the results, and why** Researchers in chromatin biophysics, computational structural biology, and cryo-electron tomography methodology would find this work relevant. The fitting approach could be of interest to the cryo-ET community as a template-based interpretation strategy. Chromatin biologists studying histone tail modifications and their role in higher-order chromatin organization would also be interested in the proposed interaction mechanisms.
+- **Major strengths** The manuscript addresses a significant gap in cryo-ET map interpretation by incorporating physically realistic conformational sampling from MD simulations. The use of tri-nucleosomes as minimal units capturing inter-nucleosomal interactions is well justified. The comparison between simulations with and without histone tails provides a clear control for assessing tail contributions. The authors acknowledge limitations of their approach, including conformational under-sampling and force-field accuracy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that tri-nucleosome fitting provides "near-atomistic interpretation of cryo-ET density maps" and that the approach "offers distinct advantages" over mono-nucleosome fitting.
+  - **Evidence pointer** Results section "Tri-nucleosome fitting into experimental cryo-ET maps", Figs. 1, S5-S9
+  - **Concern** The quantitative comparison between tri-nucleosome and mono-nucleosome fitting is incomplete. The authors report correlation coefficients and inside-contour values but do not provide the actual numerical values in the text. They state that tri-nucleosome fitting was "statistically significantly higher" for open arrays but do not report the test statistics, p-values, or effect sizes. The claim that tri-nucleosome fitting is superior cannot be evaluated without these data. Furthermore, the authors note that inside-contour values "could not be directly compared" between tri-nucleosome and mono-nucleosome systems, which undermines one of the key comparative metrics.
+  - **Why it matters** The central methodological claim of the paper is that tri-nucleosome fitting improves cryo-ET map interpretation. Without quantitative evidence supporting this claim, the primary contribution of the work is not established.
+  - **Resolution test** Provide the numerical values for correlation coefficients and inside-contour metrics for both fitting approaches across all maps, with appropriate statistical tests comparing them. Report confidence intervals and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "histone tails were shown to promote chromatin compaction via three major patterns: through histone-DNA interactions, histone H2A-H4 and H3-H4 tail-tail interactions."
+  - **Evidence pointer** Results section "Molecular mechanisms of tail-tail mediated nucleosome compaction" and "Molecular mechanisms of tail-DNA mediated nucleosome compaction", Figs. 4-5, S16-S23
+  - **Concern** The mechanistic claims are based on contact analysis and representative conformations, but the manuscript does not provide quantitative evidence that these specific interaction patterns are statistically enriched or functionally significant. The authors report average numbers of contacts but do not provide distributions, variability across replicates, or comparison to appropriate null models. The claim that these are "three major patterns" implies a classification or ranking that is not supported by the presented analysis. Additionally, the functional significance of these interactions for compaction is inferred but not directly tested.
+  - **Why it matters** The mechanistic insights into histone tail-mediated compaction are a key claimed contribution. Without quantitative support, these remain descriptive observations rather than established mechanisms.
+  - **Resolution test** Provide statistical analysis of contact frequencies across replicates, comparison to randomized or control systems, and demonstrate that the identified interaction patterns correlate with compaction measures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the distributions of MD-generated structural parameters of tri-nucleosomes were found to be in strong agreement with those of experimental condensed chromatin arrays."
+  - **Evidence pointer** Results section "Structural and dynamic determinants of the structural models' predictive power", Fig. 2
+  - **Concern** The claim of "strong agreement" is not supported by quantitative comparison. The manuscript does not report any statistical measure of agreement between simulated and experimental distributions (e.g., Kolmogorov-Smirnov tests, overlap coefficients, or Bayesian comparison). Visual inspection of distributions is insufficient, particularly given the authors acknowledge that simulated distributions are "narrower than experimental ones." The criteria for "strong agreement" are not defined.
+  - **Why it matters** The validation of the MD simulations against experimental data is essential for establishing that the simulations produce realistic conformations. Without quantitative validation, the reliability of all downstream mechanistic claims is uncertain.
+  - **Resolution test** Report quantitative measures of distribution similarity with appropriate statistical tests, and define a priori criteria for what constitutes "strong agreement."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe a fitting protocol using ChimeraX fitmap with specific parameters and a selection of 200 MD frames per run.
+  - **Evidence pointer** Methods section "Fitting of MD simulation conformations to experimental cryo-ET maps"
+  - **Concern** The manuscript does not describe how the 200 frames were selected beyond "uniformly spaced at 20 ns intervals." It is unclear whether this selection was made from the full 4 µs trajectory or from a post-equilibration portion. The criteria for selecting the "MD conformation with the highest goodness of fit correlation coefficient value" are not fully specified, including whether this was done per map or globally. The manuscript also does not state whether the fitting results were sensitive to the choice of frames or initial placements.
+  - **Why it matters** Reproducibility of the fitting protocol is essential for others to apply the method. Ambiguity in the selection procedure could affect the results and conclusions.
+  - **Resolution test** Provide a detailed step-by-step description of the frame selection and fitting procedure, including any filtering or clustering steps, and demonstrate robustness of the results to parameter choices.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim to reveal "previously uncharacterized modes of histone tail interaction that may provide mechanistic insights into higher-order chromatin structure."
+  - **Evidence pointer** Discussion section
+  - **Concern** The novelty of the proposed interaction modes is not clearly established relative to the extensive existing literature on histone tail interactions in chromatin compaction. The authors reference prior work on tail-mediated condensation but do not systematically compare their findings with previously proposed interaction mechanisms. Without this comparison, it is difficult to assess what is genuinely new.
+  - **Why it matters** The claim of novelty is important for the scientific contribution of the work. If the identified interactions are consistent with known mechanisms, the incremental advance is reduced.
+  - **Resolution test** Provide a systematic comparison with previously proposed histone tail interaction mechanisms and clearly articulate what is novel about the identified patterns.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the approach "elucidates realistic inter-nucleosomal interactions and tri-nucleosome orientations derived from physics-based MD simulations" but does not specify what makes the interactions "realistic" or how this was assessed.
+  - **Required correction** Clarify the validation criteria used to establish realism of the simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Tri-nucleosome fitting into experimental cryo-ET maps"
+  - **Evidence pointer** Fig. 1
+  - **Issue** The text describing Fig. 1 is incomplete. The sentence beginning "one major drawback is the arbitrary selection of the nucleosome connection path, which often leads to ambiguous or inconsistent definitions of consecutive nucleosome arrangement" appears to continue into a figure citation that is not fully integrated into the text.
+  - **Required correction** Complete the sentence and integrate the figure citation properly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Tri-nucleosome fitting into experimental cryo-ET maps"
+  - **Evidence pointer** Figs. S5-S8
+  - **Issue** The manuscript states that fitting quality was "statistically significantly higher" but does not report the statistical test used, the test statistic, or the p-value.
+  - **Required correction** Report the specific statistical test and results, or remove the claim of statistical significance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Molecular mechanisms of tail-tail mediated nucleosome compaction"
+  - **Evidence pointer** Fig. 4
+  - **Issue** The description of salt bridge formation between H3 K9 and H4 D24 is presented as a key finding, but the text does not specify the occupancy or persistence of this interaction across the simulation.
+  - **Required correction** Report the occupancy or fraction of simulation time during which this interaction is present.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Molecular dynamics simulation protocol"
+  - **Evidence pointer** Methods
+  - **Issue** The methods state that three independent simulation runs were performed for each system, but the total simulation time per run (4 µs) is only mentioned in the results. The equilibration protocol is described as "gradually heated to 300 K over 800 ps" followed by "1 ns of equilibration," but the criteria for determining equilibration are not specified.
+  - **Required correction** Specify the equilibration criteria and provide the total simulation time per run in the methods.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Analysis of MD simulations"
+  - **Evidence pointer** Methods
+  - **Issue** The MM/GBSA calculations are described, but the specific software, version, and parameters beyond those mentioned are not provided.
+  - **Required correction** Provide the software and version used for MM/GBSA calculations, and any additional parameters.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states that "the accuracy of the resulting models is constrained by the quality and completeness of the cryo-ET density maps" but does not discuss how the fitting approach handles missing density or partial occupancy.
+  - **Required correction** Add a brief discussion of how the method addresses or is affected by missing density regions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative fitting comparison), R1-M2 (quantitative support for mechanistic claims), R1-M3 (quantitative validation of simulation-experiment agreement), R1-M4 (reproducibility of fitting protocol)
+- **Assessment against Nature-style criteria** Originality: The use of MD-derived tri-nucleosome conformations as fitting templates for cryo-ET maps is a novel methodological contribution. However, the conceptual framework of using simulations to interpret cryo-ET data is not entirely new, and the authors should more clearly differentiate their approach from existing methods. Scientific importance: The work addresses an important problem in chromatin structural biology, namely the interpretation of cryo-ET maps at near-atomistic resolution. The potential to reveal mechanisms of histone tail-mediated compaction is significant. However, the importance is currently diminished by the lack of quantitative validation. Interdisciplinary readership: The work bridges computational biophysics, structural biology, and chromatin biology, and would appeal to researchers across these fields. The writing is generally accessible, though some sections assume familiarity with MD simulation conventions. Technical soundness: The MD simulation protocol is described in reasonable detail, but the fitting and validation procedures lack sufficient quantitative detail. The statistical treatment is incomplete. Readability for nonspecialists: The manuscript is largely readable, but the results section would benefit from clearer explanations of the fitting metrics and their significance. The abstract is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising approach and interesting observations, but the central claims require quantitative support that is not present in the provided text. Major revisions are needed to provide the missing statistical analyses, quantitative comparisons, and methodological details. I would be supportive if these technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that tri-nucleosome fitting is superior to mono-nucleosome fitting is unsupported without quantitative comparison data.
+- The claim of "strong agreement" between simulated and experimental structural parameters is unsupported without statistical measures of distribution similarity.
+- The identification of "three major patterns" of histone tail-mediated compaction is not quantitatively justified.
+- The claim of "previously uncharacterized modes of histone tail interaction" is not supported without systematic comparison to prior literature.
+- The assertion that the approach "reduces manual intervention during the model construction" is not quantitatively demonstrated.
+- The statement that "all results have been confirmed in different independent runs" is not supported by the data presented in the text.
+- The claim that H3K9 modification could affect compaction is speculative and not directly tested in this work.

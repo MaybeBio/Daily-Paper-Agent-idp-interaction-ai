@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no figures, methods, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors report cryoEM structures of vascular smooth muscle K ATP channels (Kir6.1/SUR2B) in the presence of MgATP and MgADP. Two conformational states are described, distinguished by the separation or dimerization of the SUR2B nucleotide-binding domains (NBDs). The abstract claims conformation-specific organization of intrinsically disordered regions (IDRs), including a Kir6.1 N-terminal IDR (KNt) that occupies the SUR2B ABC-core cleft in the NBD-separated state but is excluded and contacts a glutamate/aspartate-rich ED domain within the SUR2B N1-T2 linker in the NBD-dimerized state. A regulatory helix within the N1-T2 linker is reported to relocate from between the NBDs to an exterior position interacting with SUR2B C-terminal residues upon NBD dimerization. Molecular dynamics (MD) simulations are stated to support transient IDR-mediated interactions facilitating the Mg-nucleotide-dependent conformational switch.
+- **Visible evidence base** Abstract text only; no structural figures, density maps, MD simulation details, or experimental validation data were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, cryoEM data processing and validation statistics, MD simulation parameters and trajectories, functional assays, and any comparison with prior structural studies of K ATP channels
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant structural study addressing a long-standing question in vascular K ATP channel regulation. The proposed conformational switching mechanism involving IDRs is novel and mechanistically interesting. However, the abstract alone provides insufficient evidence to evaluate the technical quality of the cryoEM reconstructions, the robustness of the conformational assignments, or the validity of the MD simulation conclusions. The claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying ABC transporter superfamily proteins and ion channels, cardiovascular physiologists investigating vascular tone regulation, pharmacologists interested in K ATP channel modulators, and computational biologists studying intrinsically disordered protein regions and their roles in allosteric regulation. The work could inform therapeutic strategies targeting vascular K ATP channels in diseases such as hypertension and vasospastic disorders.
+- **Major strengths** The study addresses a clinically relevant and mechanistically unresolved question. The identification of two distinct conformational states captured under different Mg-nucleotide conditions is a valuable structural contribution. The focus on IDRs, which are often overlooked in cryoEM studies due to their flexibility, represents a thoughtful and potentially impactful analytical approach. The integration of MD simulations to support dynamic interpretations is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that cryoEM structures were determined in the presence of MgATP and MgADP, with two key structures showing NBD-separated and NBD-dimerized conformations.
+  - **Evidence pointer** Abstract only; no figures or methods provided
+  - **Concern** The abstract does not provide any information about the resolution of the cryoEM reconstructions, the number of particles, the classification strategy used to separate conformational states, or the validation metrics (e.g., Fourier shell correlation, model-to-map fit). Without these details, the reliability of the structural models, particularly for the IDRs which are inherently flexible and prone to model bias, cannot be assessed.
+  - **Why it matters** CryoEM structures of flexible regions such as IDRs are notoriously difficult to interpret. If the resolution is insufficient or the classification is not robust, the reported conformational differences between the two states could be artifacts of data processing rather than genuine biological states. The central claims of the paper depend entirely on the validity of these structural assignments.
+  - **Resolution test** Provide cryoEM data processing statistics, including nominal resolutions, local resolution estimates for the IDR regions, particle counts per class, and validation metrics. Show representative density maps with models overlaid for the KNt, ED domain, and regulatory helix in both conformations to demonstrate that the observed differences are supported by interpretable density.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that MD simulations reveal transient but frequent interactions mediated by the IDRs that may facilitate the Mg-nucleotide-dependent conformational switch.
+  - **Evidence pointer** Abstract only; no MD simulation details provided
+  - **Concern** No information is given about the MD simulation methodology, including force field parameters, simulation length, number of replicas, system setup, or how the IDRs were modeled given their inherent flexibility. The claim that IDR-mediated interactions "may facilitate" the conformational switch is speculative, and without convergence analysis or free energy calculations, the functional relevance of the observed transient interactions is unclear.
+  - **Why it matters** MD simulations of IDRs are highly sensitive to force field choices and sampling methodology. If the simulations are too short or under-sampled, the reported interactions could be non-representative. The mechanistic conclusion that IDRs facilitate the conformational switch requires stronger evidence than transient contact analysis, such as free energy profiles or mutational validation.
+  - **Resolution test** Provide full MD simulation parameters, convergence metrics, and replicate information. Include free energy calculations or enhanced sampling results that demonstrate the IDR interactions are thermodynamically relevant. Ideally, validate the MD predictions with mutagenesis experiments that perturb the IDR interactions and show functional effects on channel gating.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the two captured conformations represent distinct functional states along the Mg-nucleotide-dependent regulatory pathway.
+  - **Evidence pointer** Abstract only; no functional data provided
+  - **Concern** The abstract does not present any functional correlation between the observed structural states and channel activity. While the structures are described in the presence of MgATP and MgADP, it is not stated whether these conditions correspond to channel activation or inhibition, nor whether the NBD-separated and NBD-dimerized states correlate with specific functional outcomes.
+  - **Why it matters** For the structural findings to have physiological relevance, they must be linked to channel function. Without functional data, the claim that these conformations represent regulatory states is inferential. The significance of the work for understanding vascular tone control depends on establishing this structure-function relationship.
+  - **Resolution test** Include electrophysiological or biochemical data correlating the nucleotide conditions used for structure determination with channel activity. If possible, show that mutations stabilizing one or the other conformation alter channel gating in a predictable manner.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses several abbreviations without definition (e.g., KNt, ED, N1, T2, NBDs) and assumes familiarity with K ATP channel nomenclature. This limits accessibility for readers outside the ion channel field.
+  - **Required correction** Define all abbreviations at first use and consider adding a brief contextual sentence explaining the domain architecture of K ATP channels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Conformational state description
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "two key structures captured" is vague regarding whether these are the only two states observed or the most representative among multiple classes. The relationship between the MgATP and MgADP conditions and the two states is not explicitly stated.
+  - **Required correction** Clarify how many total conformational states were observed, which nucleotide condition corresponds to which state, and whether the two described states are the predominant classes or selected for their mechanistic relevance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** IDR modeling
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that IDRs are "found" in both Kir6.1 and SUR2B, but does not indicate how these regions were assigned or whether they were fully resolved in the density maps or modeled based on prediction.
+  - **Required correction** Specify whether the IDRs were directly observed in the cryoEM density or modeled using prediction tools, and describe the confidence level of these assignments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural evidence for the conformational differences and the MD simulation support for the proposed mechanism must be rigorously documented before the central claims can be accepted. R1-M3, while not blocking, is important for establishing biological relevance.
+
+## Risk / unsupported claims
+- The claim that the two conformations represent a "conformational switch" is not supported by the abstract alone, as no temporal or equilibrium information is provided.
+- The functional significance of the IDR interactions is speculative without mutagenesis or functional correlation data.
+- The statement that IDR interactions "may facilitate" the conformational switch is appropriately hedged but remains unvalidated.
+- The relationship between the specific nucleotide conditions (MgATP vs. MgADP) and the observed conformational states is not explicitly stated and cannot be evaluated.
+- Any quantitative claims about the frequency or duration of IDR-mediated interactions from MD simulations are not assessable without simulation details.
+- The novelty of the findings relative to prior K ATP channel structures cannot be evaluated without comparison to existing literature, which is not provided in the abstract.

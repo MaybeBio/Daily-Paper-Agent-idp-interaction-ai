@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42883847",
+  "title": "Systematic Profiling Reveals Propensity of Human Ion Channels for Liquid-Liquid Phase Separation.",
+  "authors": "Li, Jiamin; Yao, Yijing; Yu, Ran; Cui, Siyu; Dong, Yun; Lu, Yaqing; Chen, Ximing; Yang, Longkai; Liu, Xin; Wang, Ning",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-10-16",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 6,
+  "one_liner_zh": "系统评估人类离子通道蛋白的相分离倾向并实验验证胞内区域形成凝聚体，对象涉及IDR/LLPS但非PPI机制建模，方法以预测打分和实验为主，AI/物理模拟较弱。",
+  "abstract": "Liquid-liquid phase separation (LLPS), a fundamental biophysical process driven by multivalent weak interactions, regulates diverse cellular physiological functions. Ion channels are critical transmembrane protein complexes governing electrophysiological signaling, yet their phase separation characteristics remain largely uncharacterized. Here, we systematically assessed the phase-separation propensity of 140 human ion-channel proteins from the PhaSePred database, and 69 human ion channel proteins were predicted to have a high propensity for LLPS (prediction score >/= 0.5). Based on the self-assembling phase-separating (PS-Self) and partner-dependent phase-separating (PS-Part) scores of the proteins, we classified ion channel proteins with a ratio (PS-Self/PS-Part) > 1 into the PS-Self group and those with a ratio < 1 into the PS-Part group. Ultimately, 37 proteins were predicted to tend toward PS-Self, and 32 to tend toward PS-Part. Moreover, PS-Self candidates exhibited higher hydropathy and pi-pi contact scores, whereas predicted PS-Part candidates showed higher IDR, LCR, and phosphorylation-associated scores. Experimental analyses identified intracellular regions of Ca(V)1.2, Ca(V)1.3, Na(V)1.5, and K(Ca)2.2 that formed dynamic condensate-like assemblies when expressed in HeLa cells. Our findings elucidate the phase separation classification and core structural domains mediating LLPS in key ion channels and providing a molecular basis for understanding the pathophysiological roles of ion channel phase separation in cardiac and neurological disorders and may inform the development of phase-separation-targeted diagnostic and therapeutic strategies.",
+  "abstract_zh": "液-液相分离（liquid-liquid phase separation, LLPS）是一种由多价弱相互作用驱动的基本生物物理过程，调控多种细胞生理功能。离子通道是调控电生理信号的关键跨膜蛋白复合物，然而其相分离特性在很大程度上尚未被表征。在此，我们系统评估了来自PhaSePred数据库的140种人类离子通道蛋白的相分离倾向，其中69种人类离子通道蛋白被预测具有高LLPS倾向（预测分数 ≥ 0.5）。基于这些蛋白的自组装相分离（PS-Self）和伴侣依赖性相分离（PS-Part）分数，我们将比值（PS-Self/PS-Part）> 1的离子通道蛋白归类为PS-Self组，将比值 < 1的归类为PS-Part组。最终，37种蛋白被预测倾向于PS-Self，32种倾向于PS-Part。此外，PS-Self候选蛋白表现出更高的疏水性和π-π接触分数，而预测的PS-Part候选蛋白则显示出更高的IDR、LCR和磷酸化相关分数。实验分析确定了Ca(V)1.2、Ca(V)1.3、Na(V)1.5和K(Ca)2.2的胞内区域，在HeLa细胞中表达时形成动态凝聚体样组装。我们的发现阐明了关键离子通道中相分离的分类及介导LLPS的核心结构域，为理解离子通道相分离在心脏和神经疾病中的病理生理作用提供了分子基础，并可能为开发靶向相分离的诊断和治疗策略提供参考。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42883847/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42883847/",
+  "paper_page_path": "papers/pubmed/42883847/index.html"
+}

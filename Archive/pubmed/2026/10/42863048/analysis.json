@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42863048",
+  "title": "A water-pinning hot spot drives templated tau aggregation.",
+  "authors": "Han, Chung-Ta; Tsay, Karen; Lobo, Samuel; Najafi, Saeed; Monahan, Kieran; Hong, Erica; Shell, M Scott; Shea, Joan-Emma; Han, Songi",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-10-12",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合NMR与分子动力学模拟，揭示tau无序蛋白通过水钉扎热点介导模板化聚集的dock-and-lock机制，聚焦IDP互作机制建模，对无序蛋白PPI机制研究有直接启发。",
+  "abstract": "Tau assembles into fibrillar aggregates that are pathological hallmarks of a group of neurodegenerative diseases collectively called tauopathies. Templated aggregation of naive tau to seeding-competent fibrils that proceed from cell to cell is a key driver of prion-like progression of tauopathies. This study tests the hypothesis that tau, an intrinsically disordered protein, achieves in-register stacking to form seed-competent fibrils by a pinning action of tau to each other and/or the seed surface via a single dominant hotspot to avoid mismatch in tau stacking to fibrils. Structured solvation water has been proposed to be a signature of such hot spots at both the tau fibril-end surface and soluble tau monomers. Although jR2R3-P301L tau exhibits a heterogeneous hydration landscape in its intrinsically disordered state, with enhanced water structuring near the P301L mutation site, it is unclear whether a localized hotspot exists at the fibril end surface and surface water facilitates the initial contacts in templated aggregation. Using rapid (1)H-(15)N SOFAST-HMQC NMR to track seed-induced aggregation of jR2R3-P301L in real time, complemented by molecular dynamics simulation of fibril surface hydration, we identify a residue-specific pinning hotspot that is prone to dewetting followed by sequential folding and incorporation of the remaining segment in a two-step dock-and-lock process. Site-specific spin labeling further demonstrates that blocking this pinning hotspot disrupts templated aggregation, leading to shorter fibrils. The identification of a dominant pinning site will facilitate the rational design of binders to effectively disrupt fibril extension or serve as diagnostic or therapeutic strategies.",
+  "abstract_zh": "Tau组装成纤维状聚集体，这些聚集体是一组统称为tau蛋白病的神经退行性疾病的病理标志。天然tau蛋白被模板化聚集成具有种子能力的纤维，并在细胞间传播，是tau蛋白病朊病毒样进展的关键驱动因素。本研究检验以下假设：tau蛋白作为一种 intrinsically disordered protein（固有无序蛋白），通过tau蛋白之间及/或种子表面上的单一主导热点进行钉扎作用，实现同相堆叠以形成具有种子能力的纤维，从而避免tau蛋白堆叠成纤维时的错配。结构化溶剂水已被提出是tau纤维末端表面和可溶性tau单体上此类热点的特征。尽管jR2R3-P301L tau在其固有无序状态下表现出异质性水合景观，在P301L突变位点附近水结构增强，但尚不清楚纤维末端表面是否存在局部热点，以及表面水是否促进模板化聚集中的初始接触。利用快速(1)H-(15)N SOFAST-HMQC NMR实时追踪种子诱导的jR2R3-P301L聚集，辅以纤维表面水合的分子动力学模拟，我们识别出一个残基特异性的钉扎热点，该热点易于去湿，随后通过两步对接-锁定过程进行顺序折叠和剩余片段的整合。位点特异性自旋标记进一步证明，阻断此钉扎热点会破坏模板化聚集，导致纤维变短。主导钉扎位点的识别将有助于合理设计结合剂，以有效阻断纤维延伸，或作为诊断或治疗策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42863048/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42863048/",
+  "paper_page_path": "papers/pubmed/42863048/index.html"
+}

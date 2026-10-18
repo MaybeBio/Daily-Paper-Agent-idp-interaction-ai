@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a systematic bioinformatic prediction of liquid-liquid phase separation (LLPS) propensity for 140 human ion channel proteins using the PhaSePred database, identifying 69 high-propensity candidates. They further classify these into PS-Self and PS-Part groups based on score ratios, describe differential sequence features between groups, and present experimental validation showing condensate-like assemblies for intracellular regions of Ca(V)1.2, Ca(V)1.3, Na(V)1.5, and K(Ca)2.2 in HeLa cells.
+- **Visible evidence base** Abstract text only; no numerical data, statistical analyses, experimental protocols, or figure legends were accessible
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods section, statistical details, PhaSePred score distributions, experimental imaging data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting systematic screen of ion channel LLPS propensity with a modest experimental follow-up. The bioinformatic component is straightforward and appears internally consistent, but the abstract lacks sufficient quantitative detail to evaluate the robustness of the classification scheme or the strength of the experimental evidence. The experimental section is described too briefly to assess whether the observed assemblies genuinely represent LLPS condensates rather than aggregates or overexpression artifacts. The clinical relevance claims in the final sentence are speculative and not supported by data presented in the abstract.
+- **Who would be interested in the results, and why** Researchers studying phase separation in membrane proteins, ion channel biophysics, and cardiac or neurological channelopathies would find this work relevant. The systematic classification of ion channels by LLPS propensity could serve as a resource for the field, and the identification of specific intracellular regions in cardiac and neuronal channels may guide follow-up functional studies.
+- **Major strengths** The systematic approach covering 140 human ion channels provides a broad resource. The two-group classification based on PS-Self and PS-Part scores is a clear conceptual framework. The inclusion of experimental validation, albeit limited, strengthens the bioinformatic predictions beyond a purely computational study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Experimental analyses identified intracellular regions of Ca(V)1.2, Ca(V)1.3, Na(V)1.5, and K(Ca)2.2 that formed dynamic condensate-like assemblies when expressed in HeLa cells."
+  - **Evidence pointer** Abstract, experimental section; location not provided
+  - **Concern** The abstract states that condensate-like assemblies were observed but provides no details on the experimental methods used, the nature of the "dynamic" behavior, or the criteria by which these assemblies were distinguished from non-specific aggregates. No information is given on fusion and fission assays, fluorescence recovery after photobleaching (FRAP), drug sensitivity, or concentration dependence, which are standard criteria for establishing LLPS.
+  - **Why it matters** Without evidence that the observed assemblies meet established LLPS criteria, the experimental claim is not distinguishable from protein aggregation or overexpression artifacts. This is the central experimental pillar of the manuscript, and its validity is essential to the overall conclusion.
+  - **Resolution test** Provide full experimental methods and representative images showing that the assemblies are spherical, dynamic, and sensitive to disruption by known LLPS modulators such as 1,6-hexanediol. Include FRAP data demonstrating recovery kinetics consistent with liquid-like behavior.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "69 human ion channel proteins were predicted to have a high propensity for LLPS (prediction score >/= 0.5)"
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract does not report the distribution of prediction scores, the sensitivity or specificity of the PhaSePred threshold of 0.5, or any benchmarking against experimentally validated LLPS proteins. The choice of threshold is stated but not justified.
+  - **Why it matters** The core conclusion that 69 of 140 ion channels have high LLPS propensity depends entirely on the validity of the prediction score threshold. If the threshold is arbitrary or poorly calibrated, the classification and all downstream analyses are compromised.
+  - **Resolution test** Provide the score distribution for all 140 proteins, justify the 0.5 threshold with reference to PhaSePred validation data, and report precision and recall metrics for the prediction tool on a relevant benchmark set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "providing a molecular basis for understanding the pathophysiological roles of ion channel phase separation in cardiac and neurological disorders and may inform the development of phase-separation-targeted diagnostic and therapeutic strategies"
+  - **Evidence pointer** Abstract, concluding sentence; location not provided
+  - **Concern** The abstract claims pathophysiological relevance and therapeutic potential without presenting any disease-associated data, functional assays, or patient-derived evidence. The link between the predicted LLPS propensity and specific cardiac or neurological disorders is not demonstrated.
+  - **Why it matters** This claim overstates the translational significance of the findings. While the resource may be useful for future studies, the current data do not establish any disease connection.
+  - **Resolution test** Either remove or substantially soften the disease-related claims, or add experimental evidence linking specific ion channel LLPS to a functional or disease phenotype.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, classification description
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The terms PS-Self and PS-Part are introduced without a brief explanation of what these scores represent biologically. Nonspecialist readers may not understand the distinction.
+  - **Required correction** Add one sentence defining PS-Self as self-driven phase separation propensity and PS-Part as partner-dependent propensity, with a brief mechanistic rationale.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, feature comparison
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The statement that PS-Self candidates exhibited higher hydropathy and pi-pi contact scores, while PS-Part candidates showed higher IDR, LCR, and phosphorylation-associated scores, lacks any statistical context. No p-values, effect sizes, or confidence intervals are reported.
+  - **Required correction** Report the statistical significance of these comparisons and the magnitude of the differences, or state that these are descriptive observations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, experimental section
+  - **Evidence pointer** Abstract, experimental section; location not provided
+  - **Issue** The abstract does not specify which intracellular regions of the four channels were tested, how these regions were selected, or whether the constructs included known interaction domains.
+  - **Required correction** Specify the amino acid boundaries of the tested regions and the rationale for their selection based on the prediction results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Originality
+  - **Affected element** Abstract, overall framing
+  - **Evidence pointer** Abstract, introduction; location not provided
+  - **Issue** The abstract does not acknowledge prior studies on ion channel LLPS or explain how this systematic screen differs from or extends existing knowledge.
+  - **Required correction** Add a brief statement situating this work relative to prior ion channel phase separation studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The experimental evidence for LLPS must meet established biophysical criteria, and the prediction threshold must be justified with benchmark data. Without these, the central claims of the manuscript are not established.
+- **Assessment against Nature-style criteria** Originality: moderate. The systematic screen of ion channels for LLPS propensity is a useful contribution, but the concept of applying LLPS prediction tools to protein families is not novel. Scientific importance: moderate. The resource may be valuable to the ion channel and phase separation communities, but the disease relevance claims are not supported. Interdisciplinary readership: limited. The work bridges bioinformatics and cell biology but is unlikely to attract broad readership beyond these fields. Technical soundness: not established from the abstract. The prediction threshold is unjustified and the experimental validation lacks critical controls. Readability for nonspecialists: acceptable but could be improved with clearer definitions of the classification terms.
+- **Recommendation posture** Currently not established from the provided evidence. The bioinformatic screen is plausible but requires threshold justification and full score distributions. The experimental claims require substantial additional evidence to demonstrate genuine LLPS. The disease relevance claims should be removed or supported with data. A revised manuscript addressing these concerns could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that 69 of 140 ion channels have high LLPS propensity is unsupported without threshold justification and score distribution data.
+- The classification into PS-Self and PS-Part groups is not validated against any experimental benchmark.
+- The experimental observation of "condensate-like assemblies" is not established as LLPS without standard biophysical characterization.
+- The claim of pathophysiological relevance to cardiac and neurological disorders is unsupported by any data in the abstract.
+- The therapeutic potential claim is speculative and not grounded in the presented findings.

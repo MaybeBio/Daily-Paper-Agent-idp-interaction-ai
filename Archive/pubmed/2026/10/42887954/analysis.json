@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42887954",
+  "title": "Mechanisms and applications of condensed RNA-based molecular crowding on enhancing RNA aptamer performance.",
+  "authors": "Wang, Siqi; Jiao, Yuru; Zhang, Hongyan",
+  "journal": "Analytica chimica acta",
+  "published_date": "2026-10-16",
+  "window": {
+    "start": "2026-10-11",
+    "end": "2026-10-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究基于RNA凝聚体的分子拥挤增强RNA适配体性能，涉及相分离和结合机制，但对象为RNA而非无序蛋白，且无AI或物理模拟方法，仅实验表征，与课题关联有限。",
+  "abstract": "BACKGROUND: RNA aptamers represent promising recognition bioreceptors for biosensing, yet practical applications are severely hampered by limited binding affinity, poor thermal stability and high susceptibility to nuclease-mediated degradation. Intracellular molecular crowding environments driven by liquid-liquid phase separation can remodel RNA conformation and improve biomolecular function, inspiring the construction of artificial condensed RNA systems to address the performance bottlenecks of RNA aptamers for foodborne pathogen detection. In this work, we engineered a CUG-trinucleotide-repeat-based condensed RNA platform coordinated with cationic Poly-l-lysine (Poly-L-Lys) to enhance the detection performance of an RNA aptamer targeting Staphylococcus aureus (S. aureus), a critical food-contaminating pathogen. RESULTS: Non-hollow RNA condensates with heterogeneous spatial architecture were successfully formed in vitro. Compared with non-condensed aptamers, the condensed RNA achieved 22.04% higher binding affinity, an 11.63% elevated melting temperature, and improved nuclease resistance. Mechanistic investigations revealed that molecular crowding rearranged aptamer secondary-structure, switched binding thermodynamics from entropy-driven to enthalpy-driven, and accelerated target-binding kinetics. After integration into a pH-sensitive colorimetric assay, key analytical performance metrics including sensitivity, linear dynamic range, limit of detection, and reproducibility were comprehensively characterized. The sensor exhibited a sensitivity of 0.06 absorbance per log(10)(CFU.mL(-1)), a linear dynamic range spanning 10(2)-10(8) CFU mL(-1), with a limit of detection of 236 +/- 43 CFU mL(-1). Satisfactory assay selectivity, good reproducibility, and acceptable recoveries ranging from 80% to 120% were achieved across multiple complex food matrices including pork, oilseed rape, milk and apple juice. SIGNIFICANCE: This work establishes a feasible molecular crowding engineering strategy for boosting RNA aptamer performance. The condensed RNA sensing platform provides a reliable analytical tool for food-safety monitoring and opens new avenues for designing next-generation nucleic-acid-based biosensors.",
+  "abstract_zh": "背景：RNA适体作为生物传感中极具前景的识别生物受体，但其实际应用受到结合亲和力有限、热稳定性差以及对核酸酶介导降解高度敏感性的严重制约。由液-液相分离驱动的细胞内分子拥挤环境能够重塑RNA构象并改善生物分子功能，这启发了人工凝聚态RNA系统的构建，以解决RNA适体在食源性病原体检测中的性能瓶颈。在本工作中，我们设计了一种基于CUG三核苷酸重复序列的凝聚态RNA平台，并与阳离子聚-L-赖氨酸（Poly-L-Lys）协同作用，以增强靶向金黄色葡萄球菌（S. aureus）——一种关键食品污染病原体——的RNA适体的检测性能。结果：成功在体外形成了具有异质空间结构的非空心RNA凝聚体。与非凝聚态适体相比，凝聚态RNA实现了22.04%更高的结合亲和力、11.63%升高的熔解温度，并改善了核酸酶抗性。机制研究表明，分子拥挤重排了适体二级结构，将结合热力学从熵驱动转变为焓驱动，并加速了靶标结合动力学。在整合到pH敏感比色测定中后，关键分析性能指标包括灵敏度、线性动态范围、检测限和重现性得到了全面表征。该传感器表现出0.06吸光度每log(10)(CFU·mL⁻¹)的灵敏度，线性动态范围覆盖10²至10⁸ CFU·mL⁻¹，检测限为236 ± 43 CFU·mL⁻¹。在多种复杂食品基质（包括猪肉、油菜、牛奶和苹果汁）中，实现了令人满意的测定选择性、良好的重现性以及80%至120%的可接受回收率。意义：本工作建立了一种可行的分子拥挤工程策略，以提升RNA适体性能。凝聚态RNA传感平台为食品安全监测提供了可靠的分析工具，并为设计下一代基于核酸的生物传感器开辟了新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42887954/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42887954/",
+  "paper_page_path": "papers/pubmed/42887954/index.html"
+}

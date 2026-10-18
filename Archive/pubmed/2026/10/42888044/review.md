@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Conceptual claims and proposed framework as presented in the abstract; no methods, data, or full text were available for evaluation
+- **Shared manuscript claim summary** The abstract proposes that RNA-protein reciprocity, defined as the balance between RNA-presented binding sites and available RBP supply, explains cell- and tissue-specific variability in the consequences of RBP perturbation. It claims that regulation remains stable under sufficient RBP availability but becomes sensitive to small changes as reserve narrows, and that RNA-dependent RBP redistribution can either preserve or impair cellular function across diverse biological contexts. The Perspective aims to connect local RNA demand and RBP supply to target binding and biological output, and to identify conditions under which modest perturbations produce disproportionate effects.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or cited literature were provided
+- **Missing materials affecting confidence** Full text, figures, tables, references, and any experimental or computational support; the abstract provides no quantitative data, model formalism, or case-study details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting framework that could help unify disparate observations in RBP biology. The idea that RNA-protein stoichiometry acts as a buffering system with threshold-like behavior is plausible and potentially useful. However, the abstract is largely programmatic and lacks the specificity needed to evaluate the framework's novelty, predictive power, or empirical grounding. The examples cited are named but not described, and no evidence is presented to distinguish this framework from existing concepts such as RNA sponges, competitive binding, or stoichiometric titration. The proposed experiments are mentioned only in general terms. As a Perspective, the piece may have value, but the abstract alone does not establish a clear intellectual contribution beyond restating known principles in new terminology.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding protein function, post-transcriptional regulation, and gene expression control would find this framework relevant. Clinically oriented investigators working on repeat-expansion diseases, viral infection, and cancer may also be interested if the framework yields testable predictions about disease mechanisms or therapeutic interventions. The proposed link between RBP stoichiometry and disease vulnerability could appeal to translational researchers seeking biomarkers or treatment targets.
+- **Major strengths** The framework addresses a real and underappreciated problem, namely why RBP perturbations have context-dependent consequences. The concept of a buffering reserve that, once exhausted, produces nonlinear responses is intuitive and mechanistically plausible. The abstract correctly identifies multiple biological contexts where RNA-dependent RBP redistribution could matter, suggesting broad applicability. The emphasis on identifying conditions for disproportionate effects is a useful framing that could guide experimental design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Novelty and conceptual advance  
+  - **Claim pointer** The abstract implies that RNA-protein reciprocity is a new or distinct framework for understanding context-dependent RBP effects.  
+  - **Evidence pointer** Abstract, general description; location not provided  
+  - **Concern** The abstract does not articulate how this framework differs from established concepts of RNA-mediated sequestration, competitive binding, or stoichiometric titration of RBPs. Without a clear delineation of what is conceptually new, the framework risks being a relabeling of known phenomena.  
+  - **Why it matters** For a Perspective to be valuable, it must offer a conceptual advance that changes how the field thinks or experiments. If the framework merely restates existing ideas, its contribution is limited.  
+  - **Resolution test** The full text should explicitly compare the proposed framework with prior models, identify specific predictions that are unique to this framework, and explain what experimental outcomes would distinguish it from alternatives.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Empirical grounding and testability  
+  - **Claim pointer** The abstract claims that RNA-dependent RBP redistribution can preserve or impair cellular function across endogenous regulatory RNAs, repeat-expansion diseases, viral infection, and cancer.  
+  - **Evidence pointer** Abstract, examples listed without detail; location not provided  
+  - **Concern** The abstract names four biological contexts but provides no specific examples, data, or citations. It is impossible to assess whether the framework is supported by existing evidence or whether the examples are selected to fit the framework. The proposed experiments are described only as "experiments to connect changes in local RNA demand and RBP supply with target binding and biological output," which is too vague to evaluate feasibility or design.  
+  - **Why it matters** A framework that cannot be operationalized or tested has limited scientific value. The abstract must convey at least the nature of the proposed experiments and the kind of data that would support or refute the framework.  
+  - **Resolution test** The full text should provide at least one worked example with quantitative or semi-quantitative data showing how RNA demand and RBP supply are measured, how the buffering threshold is identified, and how predictions are validated.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative specificity  
+  - **Claim pointer** The abstract states that regulation becomes sensitive to small changes as RBP reserve narrows, implying a threshold or nonlinear response.  
+  - **Evidence pointer** Abstract, conceptual statement; location not provided  
+  - **Concern** The abstract does not specify what "small changes" means in quantitative terms, how the reserve is defined or measured, or whether the proposed threshold behavior is a general property or context-specific. Without a formal or semi-formal model, the claim remains qualitative and difficult to test.  
+  - **Why it matters** The central claim of the framework is that responses become disproportionately large near the buffering limit. This is a testable prediction, but only if the framework specifies the relevant parameters and their measurable proxies.  
+  - **Resolution test** The full text should present a minimal quantitative model, even if schematic, that defines the relationship between RNA binding-site concentration, RBP concentration, and regulatory output, and that generates specific predictions about when sensitivity increases.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** The term "RNA-protein reciprocity"  
+  - **Evidence pointer** Abstract, title and first sentence; location not provided  
+  - **Issue** The term is not defined precisely. It could be interpreted as mutual regulation, stoichiometric balance, or a feedback relationship. The abstract uses it to mean a balance between RNA binding sites and available protein, but this is not stated explicitly.  
+  - **Required correction** Define the term explicitly at first use, and distinguish it from related concepts such as stoichiometric titration or competitive binding.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope of examples  
+  - **Affected element** The four biological contexts listed  
+  - **Evidence pointer** Abstract, sentence listing examples; location not provided  
+  - **Issue** The examples are presented as a list without any indication of how representative they are or whether they were chosen to illustrate different aspects of the framework.  
+  - **Required correction** Briefly indicate what each example illustrates, such as a case where buffering preserves function versus a case where it fails.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Proposed experiments  
+  - **Affected element** The sentence proposing experiments  
+  - **Evidence pointer** Abstract, final sentences; location not provided  
+  - **Issue** The description of proposed experiments is too general to convey what would actually be done.  
+  - **Required correction** Provide at least one concrete example of an experimental design, such as a titration experiment with inducible RNA overexpression and measurement of RBP occupancy or target regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not establish a distinct conceptual contribution or provide sufficient empirical grounding to evaluate the framework's validity. R1-M3 is important but not strictly blocking if the full text provides the quantitative detail.
+
+## Risk / unsupported claims
+- The claim that RNA-dependent RBP redistribution can preserve or impair cellular function across the four named contexts is unsupported in the abstract, as no specific examples or data are provided.
+- The claim that regulation becomes sensitive to small changes as RBP reserve narrows is unsupported without a quantitative definition of "reserve" or "small changes."
+- The claim that restoring RNA-protein balance can recover regulation is presented as a goal but is not supported by any evidence in the abstract.
+- The overall framework's novelty relative to existing concepts of RNA sponges, competitive binding, and stoichiometric titration is not assessable from the abstract.

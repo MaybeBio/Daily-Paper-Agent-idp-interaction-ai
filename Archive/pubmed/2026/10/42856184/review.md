@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or full-text data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that synapsin-1 condensates, which lack intrinsic structural order, acquire a regularly organized actin scaffold when actin filaments are added, that this scaffold persists after condensate dissolution, and that it serves as a structural memory guiding reassembly of synapsin-actin condensates, with potential relevance to synaptic maintenance in vivo
+- **Visible evidence base** Abstract text only; no experimental or computational details, no quantitative results, no figure legends, no statistical analyses
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, simulation parameters, experimental protocols, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis regarding structural memory in biomolecular condensates, with potential relevance to synaptic biology. However, the evidence base provided is insufficient to evaluate the technical soundness of the claims. The central assertions regarding the formation, persistence, and functional role of the actin scaffold are stated without quantitative support or methodological detail. The work may be of interest to the condensate and cytoskeleton communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation in cellular organization, particularly those focused on actin-binding proteins and cytoskeletal network assembly within condensates. The concept of structural memory in condensates could also interest investigators working on synaptic vesicle clustering and long-term synaptic maintenance, as well as computational biologists modeling phase-separated systems.
+- **Major strengths** The hypothesis that condensates can retain a structural scaffold after dissolution, providing a memory mechanism for reassembly, is novel and conceptually appealing. The combination of computational simulations and nanoscale imaging is appropriate for addressing nanoscale organizational questions. The claim that the scaffold forms under two different addition orders suggests robustness of the observed phenomenon.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that actin filaments generate a regularly organized actin scaffold within synapsin-1 condensates, both when added simultaneously and when added after condensate formation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative or qualitative evidence for the regularity of the actin scaffold. Terms such as "regularly organized" and "ordered nanoscale assemblies" imply a specific structural characterization, but no metrics, imaging modalities, or analysis methods are described. Without details on how order was defined and measured, the central claim cannot be assessed.
+  - **Why it matters** The existence of an ordered scaffold is the foundational claim of the manuscript. If the definition of order is not rigorous or the measurement is not validated, all subsequent claims about scaffold persistence and memory function are undermined.
+  - **Resolution test** Provide quantitative measures of scaffold order, such as inter-filament spacing distributions, orientational order parameters, or correlation lengths, with appropriate controls and statistical comparisons across conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that dissolving the condensates by synapsin-1 removal leaves the actin scaffold largely unaffected in both simulations and experiments
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the scaffold persists after synapsin-1 removal, but no experimental or simulation details are given. The method of synapsin-1 removal, the timescale of observation, the criteria for "largely unaffected," and the comparison between simulations and experiments are all unspecified. The claim of persistence is central to the memory hypothesis and requires direct evidence.
+  - **Why it matters** The persistence of the scaffold after condensate dissolution is the key evidence for structural memory. If this persistence is not robustly demonstrated, the memory concept is not supported.
+  - **Resolution test** Show time-resolved imaging or simulation data tracking scaffold integrity after synapsin-1 removal, with quantitative measures of scaffold stability and statistical comparison to appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the scaffold guides droplet reformation when synapsin-1 is added back, implying a functional role for the structural memory
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the scaffold "should guide" droplet reformation, but no data are presented to demonstrate that reformation is actually guided by the scaffold. The use of "should" indicates a prediction rather than a demonstrated result. No experiments or simulations showing reassembly in the presence of the scaffold are described.
+  - **Why it matters** The functional claim of guidance during reassembly is the ultimate conclusion of the manuscript. Without direct evidence, this remains speculative and cannot support the proposed in vivo relevance.
+  - **Resolution test** Provide experimental or simulation data showing that synapsin-1 reformation occurs at or around the pre-existing scaffold, with appropriate controls demonstrating that the scaffold is necessary or sufficient for the observed reassembly pattern.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "liquid-liquid phase separation" is used without a brief explanatory context, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Add a brief parenthetical explanation, such as "a process by which proteins and other molecules condense into liquid-like droplets," to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** In vivo relevance statement
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that structural memory "may be important in the long-term maintenance of synaptic function in vivo" is presented without any direct evidence or logical link to synaptic physiology.
+  - **Required correction** Either provide a brief rationale connecting the observed in vitro phenomena to potential in vivo relevance, or soften the statement to clearly indicate it as speculation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for scaffold order, persistence, and functional guidance during reassembly. Without these data, the central claims are not supported.
+- **Assessment against Nature-style criteria** Originality: The concept of structural memory in condensates is novel and potentially significant. Scientific importance: If substantiated, the findings could impact understanding of synaptic maintenance and condensate biology, but the current evidence is insufficient to establish importance. Interdisciplinary readership: The topic bridges cell biology, biophysics, and computational modeling, which could attract broad interest. Technical soundness: Not assessable from the abstract; no methodological or quantitative details are provided. Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and warrants full evaluation, but the abstract alone does not provide sufficient support for the central claims. A full manuscript with quantitative data and methodological detail would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that synapsin-1 condensates "lack any special structural organization" is stated without supporting evidence.
+- The claim that actin filaments form a "regularly organized" scaffold is unsupported without quantitative structural analysis.
+- The claim that the scaffold persists "largely unaffected" after synapsin-1 removal is unsupported without time-resolved data.
+- The claim that the scaffold "should guide" droplet reformation is presented as a prediction, not a demonstrated result.
+- The statement that structural memory "may be important in the long-term maintenance of synaptic function in vivo" is speculative and not linked to any direct evidence.

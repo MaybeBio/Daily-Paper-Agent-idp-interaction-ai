@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that templated tau aggregation proceeds via a single dominant "pinning hotspot" at the fibril end surface, where structured solvation water and dewetting facilitate initial contacts, followed by a two-step dock-and-lock incorporation of the remaining segment. They support this with rapid NMR tracking of seed-induced aggregation, molecular dynamics simulations of fibril surface hydration, and site-specific spin labeling showing that blocking the hotspot disrupts aggregation and yields shorter fibrils.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, NMR spectra and assignments, simulation parameters and trajectories, spin-labeling constructs and controls, quantitative aggregation kinetics, fibril length measurements, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially impactful hypothesis, namely that a single residue-specific pinning hotspot governs templated tau aggregation through a dewetting-driven dock-and-lock mechanism. The combination of solution NMR, molecular dynamics, and site-specific spin labeling is well suited to address the question. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the central claims. Key issues include the lack of residue-specific NMR data, the absence of simulation validation, and the unquantified effect of hotspot blocking on fibril morphology. The case is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in neurodegeneration, particularly those studying tauopathies and prion-like protein propagation, would find the proposed pinning mechanism relevant to understanding fibril elongation and designing aggregation inhibitors. Biophysicists and computational chemists interested in protein hydration, dewetting phenomena, and intrinsically disordered protein aggregation would also be engaged. Additionally, drug discovery groups targeting tau aggregation could use the identified hotspot as a rational design basis.
+- **Major strengths** The study addresses a fundamental mechanistic question in tau aggregation with a clear hypothesis. The use of real-time NMR to track residue-specific events during seeded aggregation is technically demanding and appropriate. The integration of simulation and experiment to probe surface hydration is a strong complementary approach. The functional validation via spin labeling and the observed reduction in fibril length provide a direct test of the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims identification of a "residue-specific pinning hotspot" and a "two-step dock-and-lock process" based on NMR and simulation.
+  - **Evidence pointer** Abstract text; no specific residues, spectra, or simulation data provided
+  - **Concern** The abstract does not specify which residue or residues constitute the pinning hotspot, nor does it present any quantitative NMR parameters such as chemical shift perturbations, intensity changes, or relaxation rates that would support residue-specific assignment. The two-step dock-and-lock process is described but not supported by kinetic data or intermediate state characterization.
+  - **Why it matters** Without residue-level identification and kinetic evidence, the central claim of a single dominant hotspot cannot be distinguished from a more distributed or multi-site mechanism. The mechanistic model rests entirely on this specificity.
+  - **Resolution test** Provide a table or figure showing residue-specific NMR chemical shift or intensity changes during aggregation, with the proposed hotspot residue clearly identified. Include kinetic traces or relaxation dispersion data that resolve at least two distinct steps in the incorporation process.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The abstract claims that molecular dynamics simulation of fibril surface hydration supports the dewetting-prone pinning hotspot.
+  - **Evidence pointer** Abstract text; no simulation details or validation provided
+  - **Concern** No information is given on the force field, simulation length, system setup, or convergence criteria. The claim that the hotspot is "prone to dewetting" requires demonstration that the observed dewetting is robust across simulation conditions and not an artifact of the chosen model or initial configuration.
+  - **Why it matters** Dewetting phenomena are highly sensitive to simulation parameters and water models. Without validation, the simulation result cannot be considered reliable evidence for the proposed mechanism.
+  - **Resolution test** Describe simulation methods in sufficient detail and show that dewetting at the proposed hotspot is reproducible across multiple independent simulations, force fields, or water models. Provide a comparison of hydration dynamics at the hotspot versus other surface regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The abstract claims that blocking the pinning hotspot disrupts templated aggregation and leads to shorter fibrils.
+  - **Evidence pointer** Abstract text; no quantitative fibril length data or control experiments described
+  - **Concern** The effect of spin labeling on aggregation is described qualitatively. No data are shown for fibril length distributions, aggregation kinetics, or the specificity of the blocking effect. It is unclear whether the observed shortening is due to hotspot disruption or to nonspecific steric or electrostatic effects of the spin label.
+  - **Why it matters** The functional validation is the key translational claim. Without quantitative and controlled evidence, the conclusion that the hotspot is a viable therapeutic target is not supported.
+  - **Resolution test** Provide fibril length distributions from electron microscopy or atomic force microscopy for labeled versus unlabeled tau, with statistical analysis. Include a control spin label at a non-hotspot position to demonstrate specificity. Show that aggregation kinetics are altered in a manner consistent with reduced elongation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "pinning hotspot" is introduced without a precise operational definition. It is unclear whether this refers to a specific residue, a structural motif, or a thermodynamic property.
+  - **Required correction** Define the term explicitly in the abstract or introduction, for example as a residue or region where dehydration and initial contact formation occur preferentially.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state the concentration of tau, seed, or the buffer conditions used in the NMR experiments. These parameters are critical for interpreting aggregation kinetics.
+  - **Required correction** Include key experimental conditions in the methods summary or abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Tau isoform and mutation
+  - **Evidence pointer** Abstract text
+  - **Issue** The study uses jR2R3-P301L tau, a specific construct with a disease-associated mutation. The abstract does not discuss whether the proposed hotspot is likely to be conserved in wild-type tau or other tau isoforms.
+  - **Required correction** Add a sentence addressing the potential generality of the hotspot across tau variants, or explicitly limit the claim to the studied construct.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (residue-specific identification and kinetic evidence), R1-M2 (simulation validation), R1-M3 (quantitative and controlled functional validation)
+- **Assessment against Nature-style criteria** Originality is high, as the proposed single-hotspot dewetting mechanism is a novel conceptual framework for tau templated aggregation. Scientific importance is substantial given the central role of tau aggregation in neurodegeneration and the potential for therapeutic targeting. Interdisciplinary readership is plausible, spanning biophysics, neurobiology, and computational chemistry. Technical soundness cannot be fully assessed from the abstract alone, but the described methods are appropriate in principle. Readability for nonspecialists is adequate, though the abstract assumes familiarity with NMR and simulation terminology. The main gap is the lack of quantitative evidence to support the central mechanistic claims.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is compelling and the experimental approach is well matched, but the abstract does not provide sufficient evidence to establish the case. Full manuscript review would be required to assess the data quality and controls.
+
+## Risk / unsupported claims
+- The claim of a "residue-specific pinning hotspot" is unsupported without residue-level NMR data.
+- The "two-step dock-and-lock process" is asserted without kinetic or intermediate-state evidence.
+- The simulation-based claim of "dewetting" at the hotspot is unverifiable without methodological details.
+- The functional claim that blocking the hotspot "disrupts templated aggregation" is unsupported without quantitative fibril length or kinetic data.
+- The statement that the hotspot "will facilitate the rational design of binders" is speculative and not directly evidenced.
