@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2610.30627v1",
+  "title": "Emergent Entropic Forces Drive Inverse and Reentrant Phase Transitions in Condensates of Intrinsically Disordered Proteins",
+  "authors": "David A. Herrera-Martí; Marc Jamin",
+  "journal": "",
+  "published_date": "2026-10-22",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于矩阵Flory-Huggins自由能的平均场模型，通过整合快速分子物种产生有效熵力，预测无序蛋白凝聚体的逆相变和重入相行为，并以狂犬病病毒磷蛋白实验验证，属于IDP凝聚体相分离机制建模，但未直接涉及PPI结合界面细节。",
+  "abstract": "We present a phenomenological, mean-field model for condensates of intrinsically disordered proteins that describes inverse phase transitions and qualitatively predicts reentrant phase behavior as a function of salt concentration. The model is based on a matrix-based formulation of the Flory-Huggins free energy, in which the enthalpic interaction parameter and the protein valence, defined here as the number of effective \"sticky patches\", are treated as free parameters. Its central insight is that integrating out dynamics of fast-moving molecular species generates an effective entropic force that increases the free-energy barrier to mixing, even within a mean-field description. We account for this by linking Gaussian integration of co-solutes to the Schur complement of the matrix-based Flory-Huggins free energy. This provides a general thermodynamic framework illustrating how enthalpic interactions that increase the number of available microstates necessarily induce effective entropic forces. We demonstrate the expressiveness and predictive power of the model by qualitatively reproducing recent experimental observations on the rabies virus phosphoprotein.",
+  "abstract_zh": "我们提出一个用于 intrinsically disordered proteins（固有无序蛋白）凝聚体的现象学平均场模型，该模型描述了逆相变，并定性预测了随盐浓度变化的 reentrant phase behavior（重入相行为）。该模型基于 Flory-Huggins 自由能的矩阵形式化表述，其中焓相互作用参数和蛋白质价态（此处定义为有效“粘性补丁”的数量）被视为自由参数。其核心见解是，整合快速运动分子物种的动力学会产生一种有效的熵力，即使在平均场描述中，也会增加混合的自由能垒。我们通过将共溶质的 Gaussian 积分与矩阵形式化 Flory-Huggins 自由能的 Schur 补联系起来，来解释这一效应。这提供了一个通用的热力学框架，说明增加可用微观状态数的焓相互作用必然诱导有效的熵力。我们通过定性重现最近关于狂犬病病毒磷蛋白的实验观察，展示了该模型的表现力和预测能力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2610.30627v1",
+  "source_url": "https://arxiv.org/abs/2610.30627v1",
+  "paper_page_path": "papers/arxiv/2610.30627v1/index.html"
+}

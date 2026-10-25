@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that the open DNA conformation of CENP-A nucleosomes arises from the combined, cooperative contributions of multiple N-terminal histone regions (tail, latch, alphaN-helix), rather than from any single region, and that progressive replacement of CENP-A regions with H3 counterparts incrementally closes the nucleosomal DNA.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods for MNase digestion assays and coarse-grained molecular dynamics simulations; quantitative data (e.g., accessibility measurements, simulation error bars); statistical analyses; structural validation; details of construct design and controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a systematic and mechanistically plausible investigation into the determinants of centromeric nucleosome conformation. The central claim, that multiple N-terminal regions act cooperatively to stabilize wrapped DNA, is well framed and builds logically on prior work implicating the alphaN-helix. However, the abstract alone does not provide sufficient quantitative or methodological detail to fully evaluate the robustness of the conclusions. The study is likely of interest to the chromatin and centromere biology communities, and the combination of experimental and simulation approaches is a strength. The main limitations are the lack of quantitative evidence in the abstract and the absence of any discussion of potential caveats or alternative interpretations.
+- **Who would be interested in the results, and why** Researchers studying centromere biology, chromatin structure, histone variants, and nucleosome dynamics. The findings could also interest those working on kinetochore assembly and epigenetic inheritance, as the conformational flexibility of CENP-A nucleosomes is directly relevant to centromere function. The multi-region cooperativity concept may inform studies on post-translational modifications and protein binding to centromeric chromatin.
+- **Major strengths** The study combines experimental (MNase digestion) and computational (coarse-grained MD) approaches to systematically dissect the contributions of individual N-terminal regions. The design of targeted swaps between H3 and CENP-A is logical and allows for direct comparison. The finding that single CENP-A regions are sufficient to open DNA, but single H3 regions are insufficient to close it, is a clear and interesting result that supports a cooperative model.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "progressive incorporation of multiple H3-derived regions produced increasingly closed DNA conformations" is presented as a key result.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as the magnitude of changes in DNA accessibility or the statistical significance of the progressive closure. Without these details, it is not possible to assess whether the observed trend is robust or within experimental noise.
+  - **Why it matters** The central conclusion of cooperativity rests on the demonstration of a graded, additive effect. If the progressive closure is not statistically significant or is driven by a single dominant region, the cooperative model would be weakened.
+  - **Resolution test** Provide quantitative measures of DNA accessibility (e.g., MNase digestion profiles or simulation-derived DNA unwrapping free energies) with error bars and statistical tests for each construct, and demonstrate that the trend across multiple H3 substitutions is significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The study uses coarse-grained molecular dynamics simulations to support the experimental findings.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the simulation parameters, force field, system setup, or how the simulations were validated against experimental data. Coarse-grained models can introduce artifacts, and without validation, the simulation results may not reliably support the conclusions.
+  - **Why it matters** The combination of experiment and simulation is a strength only if the simulations are appropriately calibrated and shown to reproduce known nucleosome behavior. Unvalidated simulations could lead to misleading conclusions about conformational dynamics.
+  - **Resolution test** Describe the simulation methodology, including force field, equilibration, and sampling times, and show that the simulations reproduce known structural features of canonical and CENP-A nucleosomes (e.g., DNA wrapping angles, histone-DNA contacts).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The final sentence suggests that "multi-region redundancy in the conformational flexibility of the centromeric nucleosome could emphasize the importance of retaining flexibility... even upon post-translational modification and binding to structural proteins."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This speculation extends beyond the data presented, as the abstract does not include any experiments or simulations involving post-translational modifications or protein binding.
+  - **Why it matters** While speculative statements can be useful, they should be clearly flagged as such. As written, this claim may be misinterpreted as a tested finding rather than a hypothesis.
+  - **Resolution test** Either remove the speculation or explicitly label it as a hypothesis for future work, and ensure it is not presented as a conclusion of the current study.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "open DNA conformation" is used without a precise definition. It is unclear whether this refers to increased DNA unwrapping at the entry/exit sites, reduced histone-DNA contacts, or altered nucleosome positioning.
+  - **Required correction** Define "open DNA conformation" operationally, for example, by specifying the measured parameter (e.g., MNase accessibility, DNA end fraying) and the structural interpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Construct design
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract mentions "targeted swaps" but does not specify how many constructs were made or whether all combinations were tested.
+  - **Required correction** Briefly state the number of constructs and whether all possible combinations of tail, latch, and alphaN-helix swaps were generated, or if a subset was used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not indicate the number of independent simulation replicates or the total simulation time.
+  - **Required correction** Provide these details in the full manuscript and, if space permits, mention them in the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of cooperativity and the simulation-based support cannot be evaluated without quantitative data and methodological validation. R1-M3 is not blocking but should be addressed to avoid overinterpretation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its systematic dissection of multiple N-terminal regions and the proposal of cooperativity, which extends prior work focused on the alphaN-helix alone.
+  - **Scientific importance** The findings are important for understanding centromere function and the structural basis of CENP-A nucleosome dynamics, with potential implications for kinetochore assembly and epigenetic inheritance.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, structural biologists, and cell biologists, but the abstract may be too specialized for a broad interdisciplinary audience without additional context.
+  - **Technical soundness** The combination of MNase and MD simulations is appropriate, but the abstract does not provide enough detail to assess technical rigor. Validation of the simulations is essential.
+  - **Readability for nonspecialists** The abstract is generally clear but uses jargon (e.g., "alphaN-helix," "latch regions") without explanation, which may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question with a logical experimental design, but the abstract alone does not provide sufficient evidence to fully establish the cooperative model. Provision of quantitative data, simulation validation, and clearer definitions would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that "progressive incorporation of multiple H3-derived regions produced increasingly closed DNA conformations" is unsupported without quantitative data.
+- The speculation regarding post-translational modifications and binding to structural proteins is unsupported by the presented evidence.
+- The general statement that "any single CENP-A N-terminal region was sufficient to open the canonical nucleosomal DNA conformation" is not quantitatively supported in the abstract.
+- The simulation results are not assessable without methodological details and validation.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42912615",
+  "title": "Exploring the Mutual Effects of Excipients and Proteins in Complex Coacervation.",
+  "authors": "Zeng, Xianci; Sathyavageeswaran, Arvind; Zajac, Jonathan W P; Heldt, Caryn L; Sarupria, Sapna; Perry, Sarah L",
+  "journal": "Biomacromolecules",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过实验与模拟结合，研究蛋白质和小分子辅料在复合凝聚体（一种LLPS）中的分配机制，涉及无序蛋白相关相分离背景下的多组分互作，但对象非IDP且互作机制建模深度有限。",
+  "abstract": "Complex coacervation is a type of associative liquid-liquid phase separation driven by the electrostatic complexation of oppositely-charged macromolecules. Coacervate materials have shown significant potential for the formulation of proteins and viruses with improved thermal stability. We leveraged a combination of experiments and simulations to investigate how the presence of both proteins and small-molecule excipients common in stabilizing formulations would affect the partitioning of both protein and excipient in the coacervate phase. Although electrostatic interactions tend to dominate the incorporation of proteins into coacervates, our study highlights the balance of protein-water-excipient interactions as a critical parameter for understanding partitioning trends in these multi-component formulations. This work provides insight into the design of multi-component formulations that take advantage of complex coacervation and could serve as a basis for product design in the future.",
+  "abstract_zh": "复合凝聚是一种由带相反电荷的大分子之间的静电络合驱动的缔合型液-液相分离。凝聚层材料在蛋白质和病毒的制剂化方面显示出显著潜力，可提高其热稳定性。我们结合实验与模拟，研究了稳定制剂中常见的蛋白质和小分子赋形剂的存在如何影响蛋白质和赋形剂在凝聚相中的分配。尽管静电相互作用通常主导蛋白质进入凝聚层的过程，但我们的研究强调了蛋白质-水-赋形剂相互作用的平衡是理解这些多组分制剂中分配趋势的关键参数。这项工作为利用复合凝聚设计多组分制剂提供了见解，并可能为未来的产品设计奠定基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42912615/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42912615/",
+  "paper_page_path": "papers/pubmed/42912615/index.html"
+}

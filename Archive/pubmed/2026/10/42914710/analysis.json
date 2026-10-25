@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42914710",
+  "title": "Revealing protein structural transitions in the era of generative artificial intelligence.",
+  "authors": "Hung, Ta I; Venkatesan, Raghu; Chang, Chia-En A",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述探讨生成式AI与物理模拟结合建模蛋白质构象转变，涵盖无序蛋白动态系统，虽非直接聚焦PPI机制，但为IDR构象动态建模提供可迁移方法思路。",
+  "abstract": "Recent advances in artificial intelligence and deep generative models have greatly accelerated the generation of protein conformational ensembles. Moving beyond isolated structural states to reconstruct continuous, physically realistic transition pathways further provides mechanistic understanding to guide molecular design but remains a significant challenge. This review examines emerging computational approaches for modeling protein conformational transitions, from classical molecular dynamics simulations to deep learning-based latent space interpolation. Recent developments in capturing natural molecular motions are discussed, particularly via internal coordinate representations and physics-informed models. We also examine the complexity of modeling highly dynamic systems, such as intrinsically disordered proteins, and the role of the cellular environment. Integrating experimental data with simulated structural ensembles represents a promising direction for future methodologies. Nonetheless, key challenges remain, including maintaining physical realism throughout transition trajectories, capturing environment-dependent energy landscapes, and predicting dynamically consistent pathways with accurate transition kinetics.",
+  "abstract_zh": "人工智能和深度生成模型的最新进展极大地加速了蛋白质构象集合的生成。超越孤立的静态结构状态，重建连续且物理上真实的转变路径，进一步提供了机制性理解以指导分子设计，但这仍是一个重大挑战。本综述考察了用于建模蛋白质构象转变的新兴计算方法，从经典分子动力学模拟到基于深度学习的潜空间插值。讨论了捕捉自然分子运动的最新进展，特别是通过内部坐标表示和物理信息模型。我们还审视了建模高度动态系统（如固有无序蛋白质）的复杂性，以及细胞环境的作用。将实验数据与模拟结构集合相结合代表了未来方法论的一个有前景的方向。尽管如此，关键挑战依然存在，包括在转变轨迹中保持物理真实性、捕捉环境依赖性能量景观，以及预测具有准确转变动力学的动态一致路径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42914710/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42914710/",
+  "paper_page_path": "papers/pubmed/42914710/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42913553",
+  "title": "Binding without Docking: Small-Molecule Binding Paths on Disordered Proteins.",
+  "authors": "Louet, Adelie; Hummer, Gerhard; Vendruscolo, Michele",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用马尔可夫状态模型描述小分子在无序蛋白上的动态结合路径，虽对象为小分子而非PPI，但聚焦IDP结合机制建模，方法可迁移至无序蛋白介导的互作研究。",
+  "abstract": "Disordered proteins are challenging targets for drug design because they lack well-defined binding pockets. Small molecules can bind them, but when the bound state remains conformationally heterogeneous, these interactions are not readily characterized in terms of conventional binding pockets. Here, we use the concept of binding paths to describe how small molecules interact with disordered proteins. A binding path is a stochastic sequence of transient residue clusters that a ligand engages as it diffuses across a disordered protein, with each cluster forming and breaking up on time scales comparable to the overall residence time. We formalize this approach using a Markov state model (MSM), in which each state corresponds to a set of residues simultaneously contacting the ligand and the transition probabilities capture how the ligand moves between these sets. We apply this framework to the interactions of 10074-G5 with Abeta42 and of fasudil with alpha-synuclein, two disordered proteins associated with Alzheimer's disease and Parkinson's disease, respectively. The MSM enables both a dynamic mapping of transient binding sites and a calculation of dissociation constants consistent with experimental measurements. By generalizing the concept of static binding pockets to dynamic binding paths, this approach provides a quantitative framework for characterizing small-molecule binding by disordered proteins and for identifying druggable regions on these challenging targets.",
+  "abstract_zh": "无序蛋白由于缺乏明确的结合口袋，成为药物设计中的挑战性靶标。小分子能够与它们结合，但当结合态在构象上保持异质性时，这些相互作用难以用传统结合口袋的概念来表征。在此，我们利用结合路径的概念来描述小分子如何与无序蛋白相互作用。结合路径是配体在无序蛋白上扩散时所接触的一系列瞬态残基簇的随机序列，每个簇的形成和破裂时间尺度与整体停留时间相当。我们通过马尔可夫状态模型（Markov state model, MSM）形式化这一方法，其中每个状态对应于同时接触配体的一组残基，转移概率捕捉配体在这些组之间的移动。我们将此框架应用于10074-G5与Abeta42以及法舒地尔（fasudil）与α-突触核蛋白（alpha-synuclein）的相互作用，这两种无序蛋白分别与阿尔茨海默病和帕金森病相关。MSM能够实现瞬态结合位点的动态映射，并计算与实验测量一致的解离常数。通过将静态结合口袋的概念推广至动态结合路径，该方法为表征无序蛋白的小分子结合以及识别这些挑战性靶标上的可成药区域提供了定量框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42913553/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42913553/",
+  "paper_page_path": "papers/pubmed/42913553/index.html"
+}

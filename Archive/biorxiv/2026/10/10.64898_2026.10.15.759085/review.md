@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered adaptor protein GAB1 actively dissolves EGFR condensates and re-nucleates smaller, compositionally distinct assemblies on supported lipid bilayers and in simulations. They further claim that unphosphorylated tyrosines in the GAB1 disordered region are required for dissolution, that tyrosine phosphorylation acts as a regulatory switch, that PH domain-driven oligomerization is required for nucleation and is inhibited by phosphoinositide lipids, and that these mechanisms are generalizable based on sequence features and an AlphaFold screen.
+- **Visible evidence base** Abstract text only; no experimental data, figure legends, methods, or statistical details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, simulation details, AlphaFold screen parameters, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism for regulating receptor condensate size and composition, with broad implications for signaling biology. However, the claims are extensive and the evidence base is entirely inaccessible from the abstract alone. Several assertions, particularly the generality of tyrosine-based sequence features and the AlphaFold screen, require substantial validation that cannot be assessed here. The core mechanistic claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying phase separation in cell signaling, membrane receptor organization, and intrinsically disordered proteins would find these results relevant. The proposed regulatory roles for unphosphorylated tyrosines and PH domains could interest a broader community working on signal transduction and protein oligomerization, as well as those developing therapeutic strategies targeting receptor clustering.
+- **Major strengths** The abstract identifies a clear biological question, namely how condensate size is regulated in cells versus in vitro, and proposes a specific molecular mechanism involving GAB1. The combination of reconstitution experiments and simulations is a strong approach. The potential generality of the findings, if supported, would elevate the significance beyond a single protein system.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** GAB1 actively dissolves EGFR condensates and re-nucleates smaller, compositionally distinct assemblies
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central claim of active dissolution and re-nucleation is stated without any quantitative or qualitative data. No metrics for condensate size, composition, or dynamics are provided. The term "actively dissolves" implies a mechanistic process that requires kinetic or thermodynamic evidence, none of which is visible.
+  - **Why it matters** This is the foundational claim of the manuscript. Without evidence for the dissolution and re-nucleation process, the entire mechanistic narrative lacks support.
+  - **Resolution test** Provide time-resolved microscopy data showing condensate size distributions before and after GAB1 addition, with appropriate controls, and demonstrate compositional changes via fluorescence or mass spectrometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** Dissolution requires unphosphorylated tyrosines within the GAB1 intrinsically disordered region, and tyrosine phosphorylation acts as a regulatory switch
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The requirement for unphosphorylated tyrosines and the phosphorylation switch are stated as definitive findings, but no mutagenesis data, phosphorylation state controls, or quantitative comparisons are shown. The abstract does not indicate how phosphorylation was achieved or reversed, nor how the effect was measured.
+  - **Why it matters** This is a key regulatory claim with potential broad implications. If the evidence is weak or indirect, the claim is not established.
+  - **Resolution test** Show experiments with tyrosine-to-phenylalanine mutants, phosphomimetic mutants, or in vitro kinase and phosphatase treatments, with quantitative readouts of condensate behavior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** GAB1-nucleated assemblies require PH domain-driven oligomerization, which is inhibited by phosphoinositide lipids
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The role of PH domain oligomerization and its inhibition by phosphoinositides is presented without any structural, biophysical, or mutational evidence. The abstract does not specify which lipids were tested, at what concentrations, or how oligomerization was assessed.
+  - **Why it matters** This claim links membrane composition to nucleation and is central to the proposed mechanism. Without evidence, the link is speculative.
+  - **Resolution test** Provide oligomerization assays (e.g., sedimentation, FRET, or crosslinking) with PH domain mutants and lipid titration experiments showing dose-dependent inhibition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** Similar tyrosine-based sequence features are found across hundreds of proteins, and an AlphaFold screen reveals dozens of additional PH domains predicted to self-associate
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generality claims are based on bioinformatic and computational screens that are not described. No criteria for "similar sequence features" or "predicted to self-associate" are given, and no validation of any predicted candidates is mentioned.
+  - **Why it matters** These claims substantially elevate the significance of the work. If the screens are not rigorous or the predictions are not validated, the broad conclusions are unsupported.
+  - **Resolution test** Describe the sequence motif definition and AlphaFold pipeline, provide a list of candidates, and validate at least a subset experimentally for self-association and functional relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "re-nucleates" is used without definition. It is unclear whether this means de novo nucleation or reformation of condensates from dissolved material.
+  - **Required correction** Define the term explicitly or use more standard terminology such as "nucleates new condensates."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions simulations but gives no indication of the simulation method, scale, or whether they are coarse-grained or atomistic.
+  - **Required correction** Specify the simulation approach in the abstract or ensure it is clearly described in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Lipid specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "phosphoinositide lipids" without specifying which species were tested.
+  - **Required correction** Name the specific lipids used and their concentrations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core mechanistic claims and the generality claims are all unsupported from the abstract alone. Without access to the underlying data, the case is not established.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the proposed regulatory mechanism for condensate size via an adaptor protein is not standard. Scientific importance could be substantial if the generality claims hold, but this is unverified. Interdisciplinary readership is plausible given the combination of biophysics, cell signaling, and computational biology. Technical soundness cannot be assessed from the abstract. Readability for nonspecialists is adequate, though some terms are undefined. Overall, the work has potential but the evidence is not visible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling narrative, but the absence of any data prevents verification of the central claims. A full manuscript with rigorous experimental and computational support would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that GAB1 actively dissolves EGFR condensates is unsupported without kinetic or thermodynamic data.
+- The requirement for unphosphorylated tyrosines and the phosphorylation switch is unsupported without mutagenesis or phosphorylation state experiments.
+- The role of PH domain oligomerization and lipid inhibition is unsupported without biophysical or mutational evidence.
+- The generality claims based on sequence features and AlphaFold predictions are unsupported without description of the screens and experimental validation.
+- The statement that these mechanisms are "modular tools for reprogramming signaling" is speculative and not supported by the abstract.

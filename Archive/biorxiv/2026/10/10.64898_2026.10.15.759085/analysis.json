@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.10.15.759085",
+  "title": "An intrinsically disordered adaptor protein controls the size and composition of EGFR condensates on membranes",
+  "authors": "Maria F. Ullo; Dustin E. Tillman; Hamza Coban; Katherine G. Stratton; Devin D. Baynes; Alfredo Alexander-Katz; Lindsay B. Case",
+  "journal": "bioRxiv",
+  "published_date": "2026-10-19",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合实验与模拟，揭示无序接头蛋白GAB1通过其IDR中未磷酸化酪氨酸调控EGFR凝聚体尺寸与组成，并利用AlphaFold筛选发现PH结构域寡聚化机制，直接聚焦IDR介导的膜上PPI与相分离调控，方法含物理模拟与AI预测，高度契合本课题。",
+  "abstract": "Receptor phase separation is common in signaling pathways, yet mechanisms that limit condensate size and drive their dissolution remain poorly understood. For example, phosphorylated EGFR forms large micron-scale condensates in vitro , but assembles into smaller nanoscale clusters in cells, suggesting cellular regulation of condensate size. Here, we show that the intrinsically disordered adaptor protein GAB1 actively dissolves EGFR condensates and re-nucleates smaller, compositionally distinct assemblies in reconstituted supported lipid bilayers and simulations. Dissolution requires unphosphorylated tyrosines within the GAB1 intrinsically disordered region, and tyrosine phosphorylation acts as a regulatory switch that abolishes this activity. GAB1-nucleated assemblies require PH domain-driven oligomerization, which is inhibited by phosphoinositide lipids, linking membrane composition to nucleation. These results uncover two unexpected regulatory features in signaling pathways. First, unphosphorylated tyrosines may function broadly to regulate condensate size or stability, since similar tyrosine-based sequence features are found across hundreds of proteins, including many that function in signal transduction. Additionally, PH domains may play a broader role in protein oligomerization and receptor organization, as an AlphaFold screen reveals dozens of additional PH domains predicted to self-associate. Together, these results establish general mechanisms that function as modular tools for reprogramming signaling through receptor reorganization and may enable new approaches to target such pathways in disease.",
+  "abstract_zh": "受体相分离在信号通路中普遍存在，但限制凝聚体大小并驱动其解离的机制仍知之甚少。例如，磷酸化的EGFR在体外形成微米级的大规模凝聚体，但在细胞中却组装成更小的纳米级簇，这表明细胞对凝聚体大小存在调控。在此，我们展示了 intrinsically disordered 适配蛋白 GAB1 在重构的支持脂质双层和模拟中主动溶解 EGFR 凝聚体，并重新成核更小、组成上不同的组装体。溶解过程需要 GAB1 内在无序区域内的未磷酸化酪氨酸，而酪氨酸磷酸化作为调控开关，可消除此活性。GAB1 成核的组装体需要 PH 结构域驱动的寡聚化，该过程受磷酸肌醇脂质抑制，从而将膜组成与成核联系起来。这些结果揭示了信号通路中两个意外的调控特征。首先，未磷酸化酪氨酸可能广泛地调节凝聚体大小或稳定性，因为类似的基于酪氨酸的序列特征在数百种蛋白质中均有发现，包括许多参与信号转导的蛋白质。此外，PH 结构域可能在蛋白质寡聚化和受体组织中发挥更广泛的作用，因为 AlphaFold 筛选揭示了数十种预测可自关联的额外 PH 结构域。总之，这些结果确立了作为模块化工具的一般机制，通过受体重组重编程信号传导，并可能为靶向此类疾病通路提供新方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759085",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759085",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.10.15.759085/index.html"
+}

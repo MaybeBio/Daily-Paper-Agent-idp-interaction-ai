@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42912788",
+  "title": "Capillary physics links HIV capsid geometry to nuclear pore translocation.",
+  "authors": "Brown, Alexander W; Al-Izzi, Sami C; Parker, Jack L; Hertel, Sophie; Jacques, David A; Kusumaatmaja, Halim; Morris, Richard G",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用毛细/润湿物理理论建模HIV衣壳与无序FG-Nups核孔屏障的互作，揭示几何与界面张力驱动的穿核机制，虽非AI/分子动力学，但以物理模拟方法深入无序蛋白介导的PPI机制，对IDR互作机制建模有直接启发。",
+  "abstract": "The protective capsid encasing the genetic material of HIV can traverse the nuclear pore complex (NPC) intact, despite being far larger than conventional passive cargo. This is attributed to the properties of the capsid surface, which promote partitioning into cohesive assemblies of the disordered proteins that form the NPC's permeability barrier: phenylalanine-glycine nucleoporins (FG-Nups). The implication, at the mesoscale, is that capsid-NPC interactions are characterized by the interfacial physics of wetting and capillarity. To capture this, we develop a minimal theory that reduces to an interplay between capsid geometry, effective cytoplasmic and nucleoplasmic contact angles, and a ratio of interfacial tensions. By combining analytical calculations, sharp- and diffuse-interface numerics, we make several predictions: A geometry-dependent trade-off between penetration depth and the wetting transition; asymmetric capillary forces that generate torques and lead to metastable \"stalled\" states that are tilted; a topological classification of the possible mechanisms underlying the largest energetic barrier; and spontaneous symmetry breaking of displaced FG-Nups. These behaviors connect capsid shape and orientation to the topology and symmetry of FG-Nup displacement, and to the molecular compositions on each side of the pore. They are consistent with published cryoelectron tomography orientations, which provide an initial estimate of the cytoplasmic contact angle. Crucially, our results identify a capillary advantage for the HIV capsid's characteristic broken-symmetry geometry.",
+  "abstract_zh": "保护HIV遗传物质的保护性衣壳能够完整穿越核孔复合体（NPC），尽管其尺寸远大于传统被动运输的货物。这归因于衣壳表面的特性，该表面促进其分配到形成NPC通透性屏障的无序蛋白质的凝聚性组装中：苯丙氨酸-甘氨酸核孔蛋白（FG-Nups）。在介观尺度上，这意味着衣壳-NPC相互作用以润湿和毛细作用的界面物理为特征。为捕捉这一现象，我们发展了一个最小理论，将其简化为衣壳几何形状、有效胞质和核质接触角以及界面张力比之间的相互作用。通过结合解析计算、尖锐界面和扩散界面数值方法，我们做出多项预测：穿透深度与润湿转变之间依赖于几何形状的权衡；产生力矩并导致倾斜的亚稳态“停滞”状态的不对称毛细力；对最大能量势垒可能机制进行拓扑分类；以及位移FG-Nups的自发对称性破缺。这些行为将衣壳形状和方向与FG-Nup位移的拓扑和对称性，以及孔两侧的分子组成联系起来。它们与已发表的冷冻电子断层扫描方向一致，后者提供了胞质接触角的初步估计。关键的是，我们的结果揭示了HIV衣壳特征性破缺对称几何形状的毛细优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42912788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42912788/",
+  "paper_page_path": "papers/pubmed/42912788/index.html"
+}

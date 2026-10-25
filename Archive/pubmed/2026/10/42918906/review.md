@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that GAPR-1 membrane binding requires a specific orientation, governed by N-myristoylation and lysine residues Lys7 and Lys33, and that this orientation is necessary for GAPR-1 oligomerization into biomolecular condensates and for its interaction with beclin 1, with functional consequences for autophagy.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary information, statistical details, and any primary data supporting the MD simulations, mutagenesis experiments, yeast assays, and human cell autophagy measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic model linking membrane orientation, myristoylation, and GAPR-1 function. However, the evidence base is limited to a summary, and several key claims cannot be evaluated without access to the underlying data. The novelty of the proposed "new function of protein myristoylation" is plausible but requires careful comparison with existing literature. The work may appeal to researchers in membrane biology, autophagy, and protein lipid modification, but the current abstract does not provide sufficient detail to assess technical rigor or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying peripheral membrane protein interactions, protein myristoylation, biomolecular condensates, and autophagy regulation. The proposed role of myristoylation in constraining protein orientation at membranes could be of broad interest to the lipid modification and membrane biophysics communities.
+- **Major strengths** The study combines computational and experimental approaches, which is a strength. The use of MD simulations to predict membrane orientation and then testing predictions with mutagenesis in yeast and human cells provides a logical workflow. The finding that myristoylation constrains protein orientation, rather than merely anchoring, is a potentially novel conceptual contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "MD simulations revealed a specific orientation of GAPR-1 upon docking to a negatively charged lipid bilayer involving lysines at position 7 and 33 (Lys7 and Lys33)."  
+  - **Evidence pointer** Abstract only; no simulation details, force fields, system setup, or convergence criteria provided  
+  - **Concern** The abstract does not describe the simulation methodology, including the lipid composition, force field parameters, simulation length, or how "preferred orientation" was quantified. Without these details, the reliability of the MD predictions cannot be assessed.  
+  - **Why it matters** The entire mechanistic model depends on the validity of the simulated membrane orientation. If the simulations are not robust or the orientation is not clearly defined, the subsequent experimental interpretations are weakened.  
+  - **Resolution test** Provide full MD methods, including system composition, simulation time, analysis of orientation distributions, and validation against experimental data (e.g., mutagenesis effects on binding).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Substitution of these lysines with glutamine changed the preferred membrane orientation of GAPR-1."  
+  - **Evidence pointer** Abstract only; no experimental data on orientation or binding affinity for the mutants  
+  - **Concern** The abstract states that K7Q and K33Q mutations change membrane orientation, but no data are shown to support this. It is unclear whether the change in orientation was measured experimentally or only inferred from simulations.  
+  - **Why it matters** The claim that specific lysines determine orientation is central to the model. If this is only a simulation prediction without experimental validation, the conclusion is premature.  
+  - **Resolution test** Show experimental evidence (e.g., binding assays, fluorescence, or NMR) demonstrating altered orientation or membrane interaction for the mutants.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Upon deletion of the myristoyl-group, GAPR-1 remained docked to the lipid bilayer, but lost its preferred orientation, suggesting that myristoylation constrained the dynamics of the protein at the membrane surface."  
+  - **Evidence pointer** Abstract only; no data on the non-myristoylated mutant's membrane binding or orientation  
+  - **Concern** The claim that myristoylation constrains orientation is based on a single observation (loss of preferred orientation without loss of docking). The abstract does not provide quantitative data on orientation distributions or dynamics for the non-myristoylated form.  
+  - **Why it matters** This is the proposed novel function of myristoylation. Without robust evidence, the claim is not established.  
+  - **Resolution test** Provide quantitative orientation analysis (e.g., angle distributions from simulations or experimental probes) comparing myristoylated and non-myristoylated GAPR-1.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "[K7Q]GAPR-1 was prevented from myristoylation and condensate formation was severely impaired."  
+  - **Evidence pointer** Abstract only; no data on myristoylation status or condensate formation  
+  - **Concern** The abstract states that K7Q mutation prevents myristoylation, which is surprising given that myristoylation typically occurs at Gly2. The mechanism by which K7Q affects myristoylation is not explained, and no data are shown.  
+  - **Why it matters** This is a key experimental finding linking the mutation to loss of function. If the myristoylation defect is not directly demonstrated, the interpretation is unclear.  
+  - **Resolution test** Show mass spectrometry or metabolic labeling data confirming myristoylation status for WT, K7Q, and G2A mutants, and provide microscopy or biochemical data for condensate formation.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "[K7Q]GAPR-1 could not interact with beclin 1 anymore upon co-expression in yeast cells, and failed to interfere with beclin 1-dependent autophagy in human cells."  
+  - **Evidence pointer** Abstract only; no data on interaction or autophagy assays  
+  - **Concern** The functional claims (loss of beclin 1 interaction and autophagy modulation) are presented without any experimental details. It is unclear how interaction was measured (e.g., co-IP, FRET) and how autophagy was assessed.  
+  - **Why it matters** These are the key functional outcomes that link the molecular model to biological relevance. Without data, the conclusions are unsupported.  
+  - **Resolution test** Provide representative data for interaction assays and autophagy measurements, including statistical analysis and appropriate controls.  
+  - **Concern ID** R1-M6  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** "We revealed a novel function of protein myristoylation in which it determines the motional freedom of specific protein orientations, which may have relevance for the entire myristoylated proteome."  
+  - **Evidence pointer** Abstract only; no comparison with existing literature  
+  - **Concern** The claim of novelty is strong, but the abstract does not discuss prior work on myristoylation and protein orientation or dynamics. It is unclear whether this function has been previously described for other myristoylated proteins.  
+  - **Why it matters** Overclaiming novelty can mislead readers. A clear statement of what is new relative to existing knowledge is needed.  
+  - **Resolution test** Add a brief discussion of prior studies on myristoylation and protein dynamics, and explicitly state the novel contribution.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses terms like "biomolecular condensates" and "motional freedom" without brief definitions or context, which may be unclear to readers outside the membrane biology field.  
+  - **Required correction** Provide brief explanatory phrases or examples to make these concepts accessible.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The relationship between "condensate formation" and "oligomerization" is not explicitly defined. It is unclear whether these are the same process or distinct.  
+  - **Required correction** Clarify whether oligomerization into condensates is a specific form of oligomerization or a separate phenomenon.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract states that GAPR-1 is anchored via "N-myristoyl-group and ionic interactions," but the relative contribution of each is not discussed.  
+  - **Required correction** Briefly state whether the ionic interactions are with specific lipids or general electrostatic interactions.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The relevance of the findings to the "entire myristoylated proteome" is stated but not elaborated.  
+  - **Required correction** Provide one or two examples of other myristoylated proteins that might be affected, to illustrate the broader significance.
+
+## Risk / unsupported claims
+- The claim that myristoylation determines "motional freedom of specific protein orientations" is not supported by the abstract alone and requires direct experimental or simulation evidence.
+- The claim that K7Q mutation prevents myristoylation is mechanistically unexplained and unsupported without data.
+- The functional claims regarding beclin 1 interaction and autophagy modulation are unsupported without experimental details.
+- The generalizability of the findings to the "entire myristoylated proteome" is speculative and not substantiated.
+- The specific orientation of GAPR-1 at the membrane, as determined by MD simulations, is not verifiable without simulation details.

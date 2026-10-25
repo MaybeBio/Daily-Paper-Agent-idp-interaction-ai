@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, results, figures, or supporting data were available for evaluation
+- **Shared manuscript claim summary** The authors state that complex coacervation, driven by electrostatic interactions between oppositely charged macromolecules, can improve thermal stability of formulated proteins and viruses. They report a combined experimental and simulation study of how proteins and small-molecule excipients partition into the coacervate phase, and conclude that protein-water-excipient interactions are a critical parameter alongside electrostatics for understanding partitioning trends, with implications for multi-component formulation design.
+- **Visible evidence base** Abstract text only; no experimental details, simulation methods, quantitative results, figures, tables, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, experimental conditions, quantitative partitioning data, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding the role of protein-water-excipient interactions in complex coacervation. However, the current evidence base is limited to a high-level summary with no quantitative results, methodological detail, or data presentation. The central claim that protein-water-excipient interactions are "critical" cannot be assessed from the supplied material. The work may be of interest to formulation scientists, but the scientific case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biopharmaceutical formulation, protein stabilization, and soft matter physics would be interested. The potential to rationally design multi-component coacervate formulations for protein and virus stabilization has direct relevance to vaccine and therapeutic protein development. The combined experimental and simulation approach may also appeal to computational soft matter scientists.
+- **Major strengths** The topic addresses a practical gap in understanding multi-component coacervate systems, which are more complex than the binary systems typically studied. The explicit consideration of excipient partitioning alongside protein partitioning is a useful framing. The combination of experiments and simulations is a methodological strength if executed rigorously.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "protein-water-excipient interactions" are a "critical parameter" for understanding partitioning trends, and that the study "highlights the balance" of these interactions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central mechanistic claim is presented without any quantitative data, comparative analysis, or methodological context. No partitioning coefficients, interaction energies, or simulation results are reported. The relative importance of electrostatics versus protein-water-excipient interactions is asserted but not demonstrated.
+  - **Why it matters** The claim that a specific interaction balance is "critical" is a strong mechanistic statement. Without quantitative evidence showing that this balance is necessary and sufficient to explain observed partitioning, the conclusion is unsupported. The abstract does not allow a reader to judge whether the data actually distinguish between competing explanations.
+  - **Resolution test** Provide quantitative partitioning data for protein and excipient across multiple conditions, with corresponding simulation results showing the relative magnitudes of electrostatic and protein-water-excipient interaction contributions. Demonstrate that the observed trends cannot be explained by electrostatics alone.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological transparency
+  - **Claim pointer** The abstract states that "a combination of experiments and simulations" was used to investigate partitioning.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental system is described. The identities of the proteins, excipients, and coacervate-forming polyelectrolytes are not given. The simulation method, force field, system size, and timescales are not stated. Without this information, the work cannot be reproduced or evaluated for technical soundness.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The absence of any system details means that the results cannot be contextualized, compared to prior work, or independently verified. The reader cannot assess whether the chosen model systems are representative or whether the simulation approach is appropriate.
+  - **Resolution test** Specify the molecular components, experimental conditions, and simulation methodology in the full manuscript. Provide sufficient detail for an independent group to replicate the experiments and simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The abstract concludes that the work "provides insight into the design of multi-component formulations" and "could serve as a basis for product design."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not indicate how many protein-excipient combinations were studied, whether the findings are consistent across different chemical classes, or whether any exceptions to the proposed trend were observed. The generalizability of the conclusion is therefore unclear.
+  - **Why it matters** Formulation design requires predictive rules that hold across diverse molecular systems. If the study examined only a narrow set of conditions, the stated design implications would be premature. The abstract does not provide the breadth of evidence needed to support a general design principle.
+  - **Resolution test** Show that the proposed interaction balance predicts partitioning across multiple protein and excipient types with varied chemical properties. Report any cases where the trend does not hold and explain the deviations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "protein-water-excipient interactions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** This term is not defined. It is unclear whether it refers to preferential hydration, competitive hydrogen bonding, hydrophobic effects, or a combination of these. The physical meaning of the "balance" is ambiguous.
+  - **Required correction** Define the term explicitly and describe the physical mechanisms included in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** "improved thermal stability"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions improved thermal stability as a motivation but does not report any stability data. It is unclear whether stability was measured in this study or only cited as prior context.
+  - **Required correction** Clarify whether thermal stability was measured in this work and, if so, report the relevant data. If not, state that stability is a motivating context rather than a result.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of conclusions
+  - **Affected element** "partitioning of both protein and excipient"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the partitioning of protein and excipient are coupled or independent. The phrase "mutual effects" in the title suggests coupling, but the abstract does not address this directly.
+  - **Required correction** State explicitly whether the partitioning of protein and excipient are coupled and, if so, describe the nature of the coupling.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic claim is unsupported by quantitative evidence, and the lack of methodological detail prevents reproducibility assessment. R1-M3 is non-blocking but requires additional evidence to support the stated design implications.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on excipient partitioning in coacervate systems is a relatively underexplored angle, which is a point of potential originality. However, the abstract does not clearly differentiate this work from prior coacervation studies beyond the added excipient component.
+  - Scientific importance: The potential relevance to biopharmaceutical formulation is significant, but the importance is not demonstrated from the abstract alone. The claim of design insight requires evidence of predictive power.
+  - Interdisciplinary readership: The topic bridges soft matter physics, biophysical chemistry, and pharmaceutical formulation, which could attract a broad readership. The abstract is written in accessible language for nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract. No methods, data, or validation are presented.
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, which is a strength. The key terms are introduced appropriately.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a reasonable motivation, but the absence of quantitative results and methodological detail means that the scientific case cannot be evaluated. A full manuscript with detailed methods, data, and analysis would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that protein-water-excipient interactions are a "critical parameter" is unsupported by any quantitative evidence in the abstract.
+- The claim that the work "provides insight into the design of multi-component formulations" is unsupported without evidence of predictive or generalizable trends.
+- The statement that coacervate materials "have shown significant potential" for improving thermal stability is presented as context, but no stability data are reported in the abstract.
+- The "mutual effects" implied by the title are not substantiated in the abstract, as the coupling between protein and excipient partitioning is not described.

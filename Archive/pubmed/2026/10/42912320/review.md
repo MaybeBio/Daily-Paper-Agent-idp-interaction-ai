@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the AML-associated A338V mutation in the intrinsically disordered C-terminal tail of GPR183 preserves agonist potency and Gi activation, impairs GRK2 and beta-arrestin2 recruitment, alters the conformational ensemble and lipid interactions of the tail, and increases migration of differentiated HL-60 cells
+- **Visible evidence base** Bioluminescence/FRET, bioluminescence- and fluorescence-based assays, migration experiments, molecular dynamics simulations, allosteric communication networks (methods named in abstract only)
+- **Missing materials affecting confidence** Full methods, all quantitative data, statistical analyses, simulation parameters, experimental replicates, control experiments, figure panels, supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially significant finding that a single disease-associated mutation in a GPCR intrinsically disordered region can selectively rewire transducer coupling. The combination of experimental and computational approaches is appropriate and ambitious. However, the abstract alone does not provide sufficient quantitative detail to assess the robustness of the key claims, particularly regarding the selectivity of the functional effects, the statistical significance of the migration phenotype, and the causal link between the proposed conformational mechanism and the observed functional outcomes. The case is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in GPCR biology, particularly those studying biased agonism and transducer selectivity; investigators interested in intrinsically disordered regions in signaling proteins; cancer biologists studying AML and chemokine/oxysterol receptor signaling; computational biophysicists working on conformational ensembles and allosteric networks in membrane proteins
+- **Major strengths** The study addresses an underappreciated aspect of GPCR signaling, namely the role of intrinsically disordered C-terminal tails in selective transducer coupling. The use of a naturally occurring disease-associated mutation provides clinical relevance. The integration of multiple experimental readouts with atomistic simulations and allosteric network analysis is methodologically comprehensive. The finding that the mutation enhances migration while impairing GRK2/beta-arrestin recruitment suggests a potentially important functional dissociation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The A338V variant preserved agonist potency and largely maintained or even enhanced agonist-induced Gi protein activation
+  - **Evidence pointer** Abstract, methods named but no quantitative data provided
+  - **Concern** The abstract states that Gi activation was "largely maintained or even enhanced" but provides no effect sizes, concentration-response parameters, or statistical comparisons. The phrase "largely maintained or even enhanced" is ambiguous and could mask variability across experimental configurations.
+  - **Why it matters** The claim of preserved or enhanced Gi signaling is central to the proposed selectivity mechanism. If the enhancement is not statistically robust or is configuration-dependent, the interpretation of selective rewiring would be weakened.
+  - **Resolution test** Provide full dose-response curves with Emax and EC50 values for wild-type and A338V, with replicate numbers and statistical tests for each experimental configuration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The mutation redistributes lipid interactions of phosphorylation-prone serine and threonine residues within the tail, suggesting disrupted spatial presentation of regulatory motifs required for productive GRK2 and beta-arrestin coupling
+  - **Evidence pointer** Abstract, molecular dynamics simulations described but no simulation details or quantitative metrics provided
+  - **Concern** The abstract proposes a mechanistic link between altered lipid interactions of specific residues and impaired GRK2/beta-arrestin recruitment, but no direct experimental evidence is presented to connect these observations. The phrase "suggesting" indicates this is an inference, yet it is presented as a key conclusion.
+  - **Why it matters** The causal chain from conformational ensemble redistribution to lipid interaction changes to functional impairment is the central mechanistic claim. Without experimental validation, such as mutagenesis of the implicated serine/threonine residues or direct measurement of phosphorylation, the mechanism remains speculative.
+  - **Resolution test** Provide experimental data testing the proposed mechanism, such as phospho-null or phospho-mimetic mutations at the implicated residues, or direct assessment of receptor phosphorylation in cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** Overexpression of GPR183 A338V in differentiated HL-60 cells led to a significant increase in migration of these cells toward the chemoattractant
+  - **Evidence pointer** Abstract, migration experiments described but no quantitative data provided
+  - **Concern** The abstract reports a "significant increase" in migration but provides no magnitude, time course, concentration dependence, or statistical details. It is also unclear whether the effect is specific to the A338V mutation or could reflect overexpression artifacts.
+  - **Why it matters** The migration phenotype is the only cellular-level functional outcome reported and is critical for establishing disease relevance. If the effect is modest or not dose-dependent, the biological significance would be questionable.
+  - **Resolution test** Provide migration index values with replicates, statistical tests, dose-response to the chemoattractant, and appropriate controls such as wild-type overexpression and untransfected cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "coordinate G protein activation and recruitment of regulatory transducers" is somewhat redundant and could be streamlined.
+  - **Required correction** Consider simplifying to "coordinate G protein activation and transducer recruitment."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, methods named but no parameters provided
+  - **Issue** The abstract mentions "molecular dynamics simulations and allosteric communication networks" but provides no information on simulation length, force field, or system setup.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Rewires" in title
+  - **Evidence pointer** Title
+  - **Issue** The term "rewires" is evocative but may overstate the degree of change, given that Gi signaling is largely preserved.
+  - **Required correction** Consider a more precise term such as "modulates" or "redistributes" to align with the reported findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for Gi signaling), R1-M2 (causal link between conformational changes and functional impairment), R1-M3 (quantitative and controlled migration data)
+- **Assessment against Nature-style criteria** Originality is high, as the study addresses a relatively unexplored role of intrinsically disordered regions in GPCR transducer selectivity using a disease-associated mutation. Scientific importance is potentially substantial for both GPCR biology and AML research, though the clinical relevance would be strengthened by demonstrating the mutation in patient samples or primary cells. Interdisciplinary readership is likely, given the combination of pharmacology, cell biology, and computational biophysics. Technical soundness cannot be fully assessed from the abstract alone, but the methodological breadth is commendable. Readability for nonspecialists is adequate, though some terms such as "allosteric communication networks" may require clarification for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the approach is appropriate, but the abstract does not provide sufficient quantitative evidence to establish the selectivity of the functional effects, the causal mechanism, or the robustness of the migration phenotype. Full evaluation requires access to the complete manuscript.
+
+## Risk / unsupported claims
+- The claim that A338V "preserved agonist potency" is unsupported without dose-response data
+- The claim that Gi activation was "largely maintained or even enhanced" is unquantified and potentially ambiguous
+- The claim that the mutation "redistributes lipid interactions of phosphorylation-prone serine and threonine residues" is based solely on simulations and lacks experimental validation
+- The claim that disrupted spatial presentation of regulatory motifs "required for productive GRK2 and beta-arrestin coupling" is inferred, not directly demonstrated
+- The claim of a "significant increase" in migration is unquantified and lacks statistical detail
+- The overall conclusion that the C-terminal tail is "a determinant of selective transducer coupling" is plausible but not fully established from the abstract alone

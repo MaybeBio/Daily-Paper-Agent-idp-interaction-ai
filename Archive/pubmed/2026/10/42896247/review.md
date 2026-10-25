@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GeoSeq-EGNN, a dual-modality equivariant graph neural network that fuses geometric and sequence information to predict short linear motifs (SLiMs) within intrinsically disordered regions (IDRs). The architecture includes Global-Local Hybrid Equivariant Message Passing Layers (GLH-EMPL), Multi-Scale Geometry-Sequence Fusion Network Layers (MSGS-FNL) with Bidirectional LSTMs, an adaptive coordinate update mechanism, dynamic gate feature fusion, and a confidence-aware focal loss. On an unspecified SLiMs dataset, the model reportedly achieves 92.94% accuracy and 82.17% AUPRC under a "final F6 feature configuration," outperforming baseline models in a controlled one-hot comparison with higher Precision and Matthews Correlation Coefficient (MCC).
+- **Visible evidence base** Abstract text only; no dataset description, baseline details, ablation studies, statistical significance tests, or architectural diagrams provided
+- **Missing materials affecting confidence** Full manuscript, dataset composition and source, baseline model specifications, hyperparameter settings, training/validation/test splits, error analysis, comparison with existing SLiM prediction tools, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious architecture that addresses a relevant problem in SLiM prediction. However, the evidence provided is insufficient to evaluate the validity of the core claims. Key details on dataset construction, baseline fairness, statistical robustness, and the specific contribution of each architectural component are absent. The reported performance metrics, while seemingly strong, cannot be assessed for generalizability or compared meaningfully without additional context. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those focused on intrinsically disordered regions and motif discovery. Researchers developing graph neural networks for biomolecular applications may also find the architectural innovations of interest. The potential to improve SLiM identification could benefit experimentalists studying protein-protein interactions mediated by disordered regions.
+- **Major strengths** The problem is well-motivated, addressing a genuine gap in handling both sequence degeneracy and conformational heterogeneity of IDRs. The proposed architecture integrates multiple advanced techniques, including equivariant message passing, multi-scale fusion, and adaptive coordinate updates, which are conceptually appropriate for the task. The explicit attention to class imbalance through confidence-aware focal loss is a thoughtful design choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and evaluation validity
+  - **Claim pointer** "On the evaluated SLiMs dataset, GeoSeq-EGNN achieved an accuracy of 92.94% and an AUPRC of 82.17% under the final F6 feature configuration and outperformed the evaluated baseline models in the controlled one-hot comparison"
+  - **Evidence pointer** Abstract; dataset description not provided
+  - **Concern** The abstract does not specify the dataset source, size, composition, or how positive and negative samples were defined. The term "final F6 feature configuration" is undefined, and the nature of the "controlled one-hot comparison" is unclear. Without knowing whether the dataset is publicly available, how it was split, and whether baselines were tuned comparably, the reported metrics cannot be interpreted.
+  - **Why it matters** Performance claims are only meaningful in the context of a well-defined benchmark. If the dataset is biased, small, or constructed in a way that favors the proposed method, the reported accuracy and AUPRC may not reflect real-world utility. The lack of dataset transparency prevents independent replication and fair comparison with existing SLiM prediction tools.
+  - **Resolution test** Provide a detailed description of the dataset, including source, number of proteins and SLiMs, positive-to-negative ratio, and train/validation/test splits. Define the F6 feature configuration and describe the baseline models, their hyperparameter tuning, and the exact protocol for the one-hot comparison. Ideally, evaluate on a publicly available benchmark and compare with established SLiM predictors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical significance and robustness
+  - **Claim pointer** "GeoSeq-EGNN achieved an accuracy of 92.94% and an AUPRC of 82.17%... and outperformed the evaluated baseline models... with higher Precision and Matthews Correlation Coefficient (MCC)"
+  - **Evidence pointer** Abstract; statistical analysis not provided
+  - **Concern** No confidence intervals, standard deviations, or statistical significance tests are reported. It is unclear whether the performance advantage over baselines is consistent across multiple runs or random seeds. The abstract does not indicate whether the reported numbers are from a single run or an average.
+  - **Why it matters** Deep learning models are sensitive to initialization and data sampling. Without measures of variance, the reported improvements could be within the range of random fluctuation. The claim of outperformance is not credible without evidence of statistical robustness.
+  - **Resolution test** Report mean and standard deviation across multiple independent runs with different seeds. Perform statistical significance testing (e.g., paired bootstrap or Wilcoxon signed-rank test) against each baseline. Show that the performance advantage is consistent and not driven by a single favorable split.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Ablation and component contribution
+  - **Claim pointer** "This architecture effectively integrates Global-Local Hybrid Equivariant Message Passing Layers (GLH-EMPL)... alongside Multi-Scale Geometry-Sequence Fusion Network Layers (MSGS-FNL)... We also incorporate an adaptive coordinate update mechanism... and dynamic gate feature fusion... To address class imbalance, we use a confidence-aware focal loss"
+  - **Evidence pointer** Abstract; ablation studies not provided
+  - **Concern** The abstract claims that each architectural component contributes to performance, but no ablation studies are described. It is impossible to determine whether the reported accuracy and AUPRC are attributable to the equivariant layers, the fusion mechanism, the coordinate updates, the gating, or the loss function. Some components may be redundant or even detrimental.
+  - **Why it matters** A central claim of the manuscript is that the fusion of geometry and sequence information is beneficial. Without ablations, the reader cannot assess whether the complexity of the architecture is justified or whether a simpler model would perform equally well. This is critical for the scientific contribution and for practical adoption.
+  - **Resolution test** Provide systematic ablation experiments removing or disabling each major component (GLH-EMPL, MSGS-FNL, adaptive coordinate updates, dynamic gate fusion, confidence-aware focal loss) and report the resulting performance metrics. Show that each component contributes positively and that the full model outperforms all reduced variants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** "outperformed the evaluated baseline models in the controlled one-hot comparison"
+  - **Evidence pointer** Abstract; baseline details not provided
+  - **Concern** The abstract does not name the baseline models or describe their nature. It is unclear whether these are established SLiM prediction tools, generic sequence-based classifiers, or simplified versions of the proposed model. The phrase "controlled one-hot comparison" suggests a specific experimental setup, but its details are absent.
+  - **Why it matters** For the results to be meaningful to the community, the comparison must include state-of-the-art SLiM predictors and standard machine learning baselines. If the baselines are weak or improperly configured, the claimed outperformance is not informative. The field needs to know how GeoSeq-EGNN compares with existing tools like SLiMPrED, ELM, or IUPred-based approaches.
+  - **Resolution test** Compare against at least two established SLiM prediction methods and several standard baselines (e.g., logistic regression, random forest, a simple CNN or LSTM). Describe the training protocol for each baseline, including hyperparameter optimization. Report performance on the same test set with identical evaluation metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "final F6 feature configuration"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "F6 feature configuration" is introduced without definition. It is unclear what features are included, how they are derived, and why this particular configuration is considered "final."
+  - **Required correction** Define the F6 feature set explicitly, including the types of features (e.g., sequence embeddings, structural descriptors, physicochemical properties) and the rationale for selecting this configuration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model implementation and data availability
+  - **Evidence pointer** Abstract
+  - **Issue** No mention is made of code availability, model weights, or access to the dataset. This limits the reproducibility of the results.
+  - **Required correction** State in the abstract or manuscript that code and data will be made publicly available upon publication, and provide a repository link or accession number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Metric selection
+  - **Affected element** "accuracy of 92.94%"
+  - **Evidence pointer** Abstract
+  - **Issue** Accuracy is a poor metric for imbalanced classification problems, which the authors themselves acknowledge. Reporting accuracy as a headline metric may be misleading even if AUPRC is also provided.
+  - **Required correction** Emphasize AUPRC and MCC as primary metrics, and consider reporting precision-recall curves or F1 scores. If accuracy is reported, provide the class distribution to contextualize it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** "On the evaluated SLiMs dataset"
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not discuss whether the model was tested on independent or external datasets, which would be important for assessing generalizability beyond the training distribution.
+  - **Required correction** Add a statement about external validation or cross-dataset evaluation, or explicitly acknowledge the lack thereof as a limitation.
+
+## Risk / unsupported claims
+- The claim that GeoSeq-EGNN "effectively integrates" geometry and sequence information is unsupported without ablation or visualization of learned representations.
+- The reported performance metrics (92.94% accuracy, 82.17% AUPRC) are unverifiable without dataset details and statistical analysis.
+- The claim of outperforming baselines is unsupported without naming the baselines and describing the comparison protocol.
+- The assertion that the architecture "addresses" the challenges of SLiM prediction is premature given the absence of evidence on false positive rates in realistic settings.
+- The generalizability of the model to diverse SLiM families and IDR contexts is not assessable from the abstract.

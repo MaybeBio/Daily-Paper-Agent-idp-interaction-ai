@@ -1,0 +1,97 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations, analytical theory, and experiments to show that electrostatic correlations within complex coacervates govern guest polymer encapsulation. They report that neutral polymers are excluded from coacervates due to disruption of these correlations, that encapsulation efficiency decays exponentially with guest chain length, that intrinsically disordered proteins with blocky charge sequences are retained while those with disordered sequences are rejected, and that effective guest interactions invert between dilute and dense phases. The proposed mechanism combines energetic and entropic penalties from disruption of host polycation-polyanion correlations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation details, theory derivations, experimental protocols, quantitative results, and statistical analyses
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant mechanistic framework for guest selectivity in complex coacervates. The central idea that electrostatic correlations in the dense phase, rather than chemical incompatibility alone, drive guest partitioning is compelling and would be of broad interest. However, the abstract alone provides no quantitative evidence, no methodological detail, and no direct comparison between simulation, theory, and experiment. The strength of the claims cannot be assessed from the supplied material. The reversal of interaction sign between dilute and dense phases is a striking claim that requires robust support. The exponential decay of encapsulation efficiency with chain length is stated without any fitted parameters or error estimates. The distinction between disordered and blocky IDP sequences is presented as a binary outcome, which may oversimplify a continuous sequence-property landscape. Overall, the scientific premise is strong and the conclusions are plausible, but the evidence base is entirely absent from the supplied scope.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, liquid-liquid phase separation, polymer physics, drug delivery, and synthetic biology would find these results relevant. The mechanistic insight into how electrostatic correlations control guest partitioning could inform design rules for encapsulation in coacervate-based carriers and improve understanding of client selectivity in biological condensates. The reversal of interaction sign between dilute and dense phases is a fundamental finding that could interest theorists working on charged polymer systems.
+- **Major strengths** The conceptual framework is novel and mechanistically appealing. The combination of simulation, theory, and experiment is appropriate for establishing a multi-scale understanding. The claim that neutral polymers are excluded even without chemical incompatibility is a non-obvious prediction that challenges intuitive expectations. The proposed dual penalty mechanism, energetic and entropic, provides a physically grounded explanation. The potential implications for IDP behavior in condensates are broad and timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MD simulations, analytical theory, and experiments collectively demonstrate that electrostatic correlations within the coacervate matrix modify guest interactions, leading to the observed dependence on chain length, charge density, and charge sequence.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts a three-pronged approach but provides no quantitative results, no comparison between methods, and no indication of agreement or disagreement among simulation, theory, and experiment. No parameters, error bars, or statistical measures are reported. The claim that the three approaches "demonstrate" the mechanism cannot be evaluated without seeing the actual data and the consistency across methods.
+  - **Why it matters** A central claim of the paper is that the mechanism is established by convergent evidence from multiple approaches. Without visible quantitative support, the reader cannot judge whether the agreement is genuine or whether discrepancies are glossed over. The strength of the conclusion depends entirely on the quality and consistency of the underlying data.
+  - **Resolution test** Provide quantitative comparisons between simulation, theory, and experiment for at least one representative system, including numerical values, error estimates, and a statement of agreement criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that encapsulation efficiency of neutral polymers exponentially decays with increasing guest chain length.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** An exponential decay is a specific functional form. The abstract provides no data points, no fitted decay constant, no range of chain lengths tested, and no indication of whether the exponential form was derived theoretically, observed in simulation, or measured experimentally. The claim is stated as a fact without any visible support.
+  - **Why it matters** The exponential decay is a quantitative prediction that could be a key design rule for encapsulation. If the functional form is not robustly established, the practical implications are weakened. The claim also implies a characteristic length scale that is not reported.
+  - **Resolution test** Show the decay curve with data points from at least one method, provide the fitted exponent and its uncertainty, and state whether the exponential form is consistent across all three approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that for all guest species tested, the sign of the effective two-body interaction reverses when going from the dilute phase to the dense coacervate phase.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is the most striking and potentially impactful claim in the abstract. A universal sign reversal across all tested species is a strong statement. The abstract provides no data, no definition of the effective two-body interaction, no method for extracting it, and no indication of how many species were tested or over what range of conditions. The claim is presented as a general principle but the evidence is invisible.
+  - **Why it matters** If true, this reversal would have major implications for understanding guest partitioning and for designing encapsulation strategies. If it is an artifact of a limited parameter range or a specific model, the claim would be misleading. The universality implied by "for all the guest species tested" requires a clear demonstration of the range of validity.
+  - **Resolution test** Provide a figure showing the effective interaction sign in dilute and dense phases for each guest species, with a clear definition of the interaction metric and the conditions under which the reversal occurs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that the mechanism is the disruption of polycation-polyanion electrostatic correlations by the guest, combining an energetic penalty from dilution of charge density and an entropic penalty from loss of host chain conformational freedom.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The proposed mechanism is plausible but the abstract provides no direct evidence that these two penalties are the operative factors. No decomposition of the free energy into energetic and entropic contributions is shown. No control experiments or simulations isolating each penalty are described. The mechanism is asserted rather than demonstrated.
+  - **Why it matters** The mechanistic claim is the core intellectual contribution. If the mechanism is not directly tested, the paper provides a hypothesis rather than an established explanation. The distinction between energetic and entropic penalties is important because it predicts different scaling behaviors and different responses to temperature and salt concentration.
+  - **Resolution test** Show a free energy decomposition for at least one guest species, with separate energetic and entropic contributions, and demonstrate that the predicted scaling with chain length or charge density matches the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "horizontal line" appears in the abstract text, likely a formatting artifact. The intended term is presumably "are" or a dash.
+  - **Required correction** Replace "horizontal line" with the intended punctuation or wording.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Guest species definition
+  - **Evidence pointer** Abstract, guest species description
+  - **Issue** The abstract refers to "all the guest species tested" but does not specify how many species were tested, what types of polymers were included, or the range of charge densities and chain lengths covered.
+  - **Required correction** Add a brief statement of the number and types of guest species studied, or refer to a table or figure that lists them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Exponential decay claim
+  - **Evidence pointer** Abstract, neutral polymer encapsulation claim
+  - **Issue** The exponential decay is stated without any indication of the decay length scale or the range of chain lengths over which it was observed.
+  - **Required correction** Include the fitted decay constant or refer to a figure where it is reported.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Strict rejection" and "dispersed"
+  - **Evidence pointer** Abstract, IDP behavior description
+  - **Issue** The terms "strict rejection" and "dispersed" are qualitative and could be interpreted differently. It is unclear whether "strict rejection" means zero partitioning or merely very low partitioning, and whether "dispersed" means uniformly distributed or simply not aggregated.
+  - **Required correction** Define these terms operationally, for example by specifying partition coefficients or concentration ratios.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Implications statement
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the findings have "significant implications for understanding guest behavior in coacervate and biocondensate systems" is broad and not qualified by the range of conditions tested.
+  - **Required correction** Qualify the implications statement by noting the range of salt concentrations, pH values, or polymer compositions over which the mechanism was validated.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract provides no quantitative data, no methodological detail, and no direct evidence for the proposed mechanism. The case is not established from the supplied material.
+- **Assessment against Nature-style criteria** Originality is high. The idea that electrostatic correlations in the dense phase, rather than chemical incompatibility, drive guest selectivity is a fresh perspective that could shift thinking in the field. Scientific importance is potentially high, as the mechanism could inform design rules for encapsulation and explain client selectivity in biological condensates. Interdisciplinary readership is plausible, spanning polymer physics, soft matter, biochemistry, and drug delivery. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though the abstract uses field-specific terms such as "electrostatic correlations" and "polyampholyte" without definition, which may limit accessibility for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the conclusions are plausible, but the abstract alone does not provide the quantitative support needed to evaluate the claims. A full manuscript with detailed methods, data, and analysis would be required to assess whether the mechanism is convincingly demonstrated.
+
+## Risk / unsupported claims
+
+- The claim that encapsulation efficiency of neutral polymers exponentially decays with chain length is unsupported by any visible data or fitted parameters.
+- The claim that the sign of the effective two-body interaction reverses for all tested guest species is unsupported and potentially overgeneralized.
+- The proposed mechanism of energetic and entropic penalties from disruption of electrostatic correlations is asserted but not directly demonstrated.
+- The claim that IDPs with more-disordered sequences experience "strict rejection" while those with more blocky charges are "dispersed" is qualitative and not supported by quantitative partitioning data.
+- The general implication for "coacervate and biocondensate systems" is stated without qualification regarding the range of conditions tested.

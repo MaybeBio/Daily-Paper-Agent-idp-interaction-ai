@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42917467",
+  "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling.",
+  "authors": "B E, Nagesh; Mondal, Jagannath",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文比较扩散模型与整流流在分子构象采样中的收敛机制，并以无序蛋白的高维二面角表征为对象，虽未直接研究PPI，但为IDP构象系综的生成建模提供了可迁移的AI方法学基础。",
+  "abstract": "Characterizing equilibrium conformational ensembles with deep generative models requires understanding whether a model reproduces a target distribution and how it reaches that distribution. Here, we compare two generative routes to molecular conformational sampling, stochastic relaxation and deterministic transport, using denoising diffusion probabilistic models and rectified-flow models across systems of increasing complexity: a multimodal two-dimensional potential, the folded miniprotein Trp-cage, and a high-dimensional dihedral representation of an intrinsically disordered protein. We show that these paradigms differ in end point fidelity and in how distributional error is resolved during sampling. Diffusion models converge through pronounced late-stage stochastic relaxation and robustly recover the configurational breadth across neural architectures. Rectified flow approaches the target distribution through deterministic transport and therefore depends more strongly on architectural expressivity, particularly in heterogeneous, high-dimensional landscapes. Entropy and moment-evolution analyses further show that diffusion more reliably restores the ensemble location and fluctuation structure, whereas rectified flow requires Transformer-level feature mixing to represent transport geometry accurately. These results establish the convergence mechanism as a practical design principle for molecular generative sampling, clarifying when stochastic diffusion provides robustness and when deterministic transport requires higher representational capacity.",
+  "abstract_zh": "利用深度生成模型表征平衡构象系综，需要理解模型是否再现了目标分布以及它如何达到该分布。在此，我们比较了两种生成式分子构象采样路径——随机弛豫和确定性输运，采用去噪扩散概率模型和整流流模型，跨越复杂度递增的系统：一个多模态二维势能面、折叠微型蛋白Trp-cage，以及一个 intrinsically disordered protein 的高维二面角表示。我们表明，这些范式在终点保真度以及采样过程中分布误差的解决方式上存在差异。扩散模型通过显著的后期随机弛豫收敛，并稳健地恢复跨神经架构的构象广度。整流流通过确定性输运逼近目标分布，因此更强烈地依赖于架构表达力，尤其是在异质性高维景观中。熵和矩演化分析进一步表明，扩散更可靠地恢复系综位置和涨落结构，而整流流需要Transformer级别的特征混合以准确表示输运几何。这些结果确立了收敛机制作为分子生成采样的实用设计原则，阐明了何时随机扩散提供稳健性，以及何时确定性输运需要更高的表示能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42917467/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42917467/",
+  "paper_page_path": "papers/pubmed/42917467/index.html"
+}

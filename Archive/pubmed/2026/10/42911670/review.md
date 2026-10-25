@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full-text data, figures, tables, or methods
+- **Shared manuscript claim summary** The authors report that Golgin-45 (G45), a coiled-coil protein previously known for Golgi tethering functions, also acts as a basic leucine zipper (bZIP) transcription factor in the nucleus. They propose that nuclear G45 can both activate and repress transcription, enabled by phase separation into nuclear bodies, and that in lung cancer models, Golgi localization promotes while nuclear localization suppresses pro-tumorigenic activity. They further claim that epigenetic events degrade nuclear G45 and sequester it in the Golgi, thereby unleashing malignant secretion and driving lung cancer progression.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, genomic mapping data, RNA-sequencing data, functional validation experiments, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel dual-function model for Golgin-45, linking subcellular localization to transcriptional control and secretory output in lung cancer. However, the claims are broad and mechanistically ambitious, and the abstract alone provides insufficient detail to evaluate the rigor of the evidence. The central assertions regarding G45 as a bZIP transcription factor, its phase separation behavior, and the epigenetic regulation model require substantial experimental support that is not visible here. The work could be of interest to cancer biologists and cell biologists, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Cancer biologists studying secretory pathways and tumor progression, cell biologists interested in organelle-to-nucleus signaling and transcription factor regulation, and researchers working on phase separation in transcriptional control. The proposed link between Golgi-nuclear trafficking and malignant secretion could offer a new angle on lung cancer biology.
+- **Major strengths** The conceptual framework is novel, proposing a bifunctional role for a Golgi-associated protein as a nuclear transcription factor. The integration of organelle dynamics, phase separation, and transcriptional regulation into a cancer-relevant phenotype is intellectually appealing. The abstract suggests a multi-omics approach (genomic mapping, RNA-sequencing) combined with functional validation, which is appropriate for the scope of the claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that G45 functions as a basic leucine zipper transcription factor in the nucleus.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that G45 is a bZIP transcription factor, but no direct evidence is shown for sequence features, DNA-binding specificity, or transcriptional activity. The term "bZIP" implies a specific structural motif, and it is unclear whether G45 contains a canonical bZIP domain or whether this designation is based on functional rather than structural criteria.
+  - **Why it matters** The entire nuclear role of G45 rests on this classification. If G45 is not a bona fide bZIP factor, the mechanistic model collapses. The abstract does not clarify whether the bZIP designation is supported by structural data, homology, or functional assays.
+  - **Resolution test** Provide sequence alignment or structural data demonstrating a bZIP domain, and show direct DNA-binding assays with identified consensus motifs. Demonstrate that transcriptional activity depends on this domain.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that nuclear G45 can act as both a transcriptional activator and repressor, enabled by phase separation into nuclear bodies.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The dual activator-repressor function and the role of phase separation are stated without quantitative or mechanistic detail. It is unclear how phase separation is demonstrated, whether it is required for both activation and repression, and how specificity is achieved. The abstract does not specify which co-regulators are enriched or how they modulate G45 activity.
+  - **Why it matters** Phase separation is a widely invoked but often under-validated mechanism. Without clear evidence that G45 nuclear bodies are functional and not merely aggregates, and without showing that disruption of phase separation abolishes transcriptional activity, this claim remains speculative.
+  - **Resolution test** Show microscopy and biochemical fractionation data for nuclear bodies, demonstrate that these bodies are dynamic and enriched in specific co-regulators, and use mutations that disrupt phase separation to show loss of transcriptional function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Golgi-docking reinforces while nuclear translocation opposes pro-tumorigenic activity of G45 in lung cancer models.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the lung cancer models used, the experimental manipulations to alter G45 localization, or the phenotypic readouts. It is unclear whether these are cell lines, organoids, or in vivo models, and whether the effects on tumorigenicity are direct or indirect.
+  - **Why it matters** The directionality of G45 function is central to the model. Without details on how localization is controlled and how phenotypes are measured, the claim cannot be evaluated for causality or relevance.
+  - **Resolution test** Provide details on model systems, localization mutants, and quantitative tumor phenotypes. Show that altering G45 localization changes tumor growth or metastatic potential in a consistent manner.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that epigenetic events degrade nuclear G45 and sequester G45 in the Golgi, unleashing malignant secretion.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract mentions "epigenetic events" but does not specify which events, how they are identified, or how they lead to both degradation and sequestration. The link between these events and the secretory phenotype is asserted but not demonstrated.
+  - **Why it matters** This is the proposed driver of lung cancer progression. Without identification of the specific epigenetic modifications, the affected enzymes, and the mechanistic chain from epigenetic change to G45 mislocalization to secretion, the claim is not testable.
+  - **Resolution test** Identify the specific epigenetic marks and enzymes, show that their manipulation alters G45 protein levels and localization, and demonstrate that this is sufficient to change the secretory profile and tumor phenotype.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "Golgi-docking" is used without definition. It is unclear whether this refers to membrane tethering, protein-protein interactions, or a specific post-translational modification.
+  - **Required correction** Define "Golgi-docking" in the context of G45, specifying the molecular interactions involved.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Secretory program
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to a "pro-tumorigenic secretory program" and "malignant secretion" but does not define which secreted factors are involved or how they promote tumorigenesis.
+  - **Required correction** Provide examples of the secreted cargo and evidence that they functionally contribute to lung cancer progression.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Model specificity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on lung cancer but does not indicate whether the findings are specific to certain subtypes or mutations.
+  - **Required correction** Clarify the lung cancer subtypes or genetic contexts in which the G45 axis is operative.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish G45 as a bZIP transcription factor, to validate the phase separation mechanism, to demonstrate the localization-dependent phenotypes, or to identify the epigenetic events. All four major concerns are blocking because the core model depends on them.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed bifunctional role of G45 across organelles is not previously described. Scientific importance is potentially high for lung cancer biology, but the clinical or translational relevance is not yet clear from the abstract. Interdisciplinary readership could be broad, spanning cell biology, cancer biology, and transcription regulation. Technical soundness cannot be assessed from the abstract alone; the claims require rigorous multi-method validation. Readability for nonspecialists is moderate, as the abstract uses specialized terms without sufficient context, though the overall narrative is understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual model is intriguing, but the abstract alone does not provide the depth of evidence required to support the claims. I would be supportive if the full manuscript provides robust structural, biochemical, and functional data addressing the major concerns.
+
+## Risk / unsupported claims
+- The designation of G45 as a bZIP transcription factor is unsupported without structural or sequence evidence.
+- The dual activator-repressor function and its dependence on phase separation are unsupported without functional and imaging data.
+- The claim that Golgi-docking reinforces and nuclear translocation opposes pro-tumorigenic activity is unsupported without model details and phenotypic data.
+- The claim that epigenetic events degrade nuclear G45 and sequester it in the Golgi is unsupported without identification of the specific events and mechanistic links.
+- The overall conclusion that inter-organelle transitions govern a G45-dependent secretory axis driving lung cancer progression is not evaluable from the abstract.

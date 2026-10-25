@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42900526",
+  "title": "Complex post-traumatic stress disorder in refugees, asylum seekers, and internally displaced people: a systematic review and meta-analysis.",
+  "authors": "Melkam, Mamaru; Xu, Cheng; Maccallum, Fiona; Oestreich, Lena",
+  "journal": "European journal of psychotraumatology",
+  "published_date": "2026-10-20",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文是难民中复杂性创伤后应激障碍患病率的系统综述与荟萃分析，属于临床精神病学范畴，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题完全无关。",
+  "abstract": "Background: Forcibly displaced populations, including refugees, asylum seekers, and internally displaced persons, are frequently exposed to severe, prolonged and repeated trauma from which escape is difficult or impossible. Such exposures increase the risk for complex post-traumatic stress disorder (CPTSD), defined by core PTSD symptoms alongside disturbances in self-organisation (DSO), including affective dysregulation, negative self-concept, and relational difficulties. However, the prevalence of CPTSD in forcibly displaced populations has not yet been quantitatively synthesised, and the added value of the CPTSD construct over PTSD in this population has not been examined.Methods: This systematic review and meta-analysis searched five databases from inception to January 2026. A random-effects meta-analysis was conducted to estimate pooled CPTSD prevalence, with pre-specified subgroup analyses, meta-regression, and sensitivity analyses.Results: Twenty studies met inclusion criteria, representing 17 independent samples (n = 12,504). Reported CPTSD prevalence varied from 3.0% to 74.6%. The random-effects pooled prevalence, retained as a descriptive summary of the included studies, was 20.9% (95% CI [12.6%, 32.6%]), the 95% prediction interval was [1.7%, 80.3%]. Between-study heterogeneity was very high (I(2) = 98.3%). Recruitment context was strongly associated with prevalence: estimates averaged 10.6% in community-based samples and 55.2% in treatment-seeking samples. Asylum seekers exhibited markedly higher prevalence than refugees. Across four studies, post-migration living difficulties, including legal insecurity, poverty, and marginalisation, were more strongly associated with DSO symptoms than with core PTSD symptoms, suggesting that ongoing structural adversity actively perpetuates complex trauma psychopathology beyond pre-migration trauma alone.Conclusion: Available evidence indicates marked variation in CPTSD prevalence across forcibly displaced populations rather than a single generalisable prevalence rate. Recruitment context accounts for part of this variation, but the limited and geographically uneven evidence base prevents global population-level inference. Future studies should use representative sampling and consistently report displacement, trauma, and post-migration characteristics to permit more informative explanations of between-population variation.",
+  "abstract_zh": "背景：被迫流离失所人群，包括难民、寻求庇护者和境内流离失所者，经常遭受严重、长期且反复的创伤，且难以或无法逃脱。此类暴露增加了患复杂性创伤后应激障碍（CPTSD）的风险，该障碍以核心PTSD症状及自我组织紊乱（DSO）为特征，包括情感调节障碍、消极自我概念和人际关系困难。然而，CPTSD在被迫流离失所人群中的患病率尚未被定量综合评估，且CPTSD构念在该人群中相对于PTSD的附加价值也未得到检验。方法：本系统综述和荟萃分析检索了五个数据库，时间从建库至2026年1月。采用随机效应荟萃分析估计合并CPTSD患病率，并进行了预设的亚组分析、元回归和敏感性分析。结果：二十项研究符合纳入标准，代表17个独立样本（n = 12,504）。报告的CPTSD患病率从3.0%到74.6%不等。随机效应合并患病率作为纳入研究的描述性总结，为20.9%（95% CI [12.6%, 32.6%]），95%预测区间为[1.7%, 80.3%]。研究间异质性非常高（I(2) = 98.3%）。招募背景与患病率密切相关：社区样本中的估计平均值为10.6%，而寻求治疗样本中为55.2%。寻求庇护者的患病率显著高于难民。在四项研究中，迁移后生活困难，包括法律不安全、贫困和边缘化，与DSO症状的关联强于与核心PTSD症状的关联，这表明持续的结构性逆境在迁移前创伤之外，积极维持着复杂创伤精神病理。结论：现有证据表明，CPTSD患病率在被迫流离失所人群中存在显著差异，而非单一可推广的患病率。招募背景解释了部分差异，但有限且地理分布不均的证据基础阻碍了全球人口层面的推断。未来研究应采用代表性抽样，并一致报告流离失所、创伤和迁移后特征，以便对人群间差异进行更有信息量的解释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42900526/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42900526/",
+  "paper_page_path": "papers/pubmed/42900526/index.html"
+}

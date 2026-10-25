@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42917213",
+  "title": "Origin of the Anomalous Guest Polymer Selectivity in Complex Coacervates.",
+  "authors": "Wu, Zongpei; Sabadini, Julia Bonesso; Walker, Pierre J; Loh, Watson; Wang, Zhen-Gang; Perry, Sarah L; Chen, Shensheng",
+  "journal": "ACS nano",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过MD模拟、解析理论和实验，揭示复杂凝聚体中客体IDP/聚合物的封装选择性源于对宿主静电相关性的扰动，直接建模了无序蛋白在凝聚相中的互作机制，与课题高度契合。",
+  "abstract": "Complex coacervates horizontal line liquid condensates resulting from liquid-liquid phase separation of oppositely charged polymers horizontal line have attracted broad interest in artificial cells, drug delivery vehicles, and smart nanoreactors. The functionality of these applications is significantly influenced by the coacervate's ability to encapsulate guest macromolecules, where the guest interactions determine their loading efficiency and activity. Using MD simulations, analytical theory, and experiments, we demonstrate that the intrinsic electrostatic correlations within the coacervate matrix significantly modify the effective interactions of guest polymers in the dense phase, resulting in the strong dependence of encapsulation on guest chain length, charge density, and charge sequence observed experimentally. Even in the absence of chemical incompatibility, neutral polymers are strongly excluded from the coacervate phase as a result of disrupting electrostatic correlations within coacervates. Consequently, the encapsulation efficiency of neutral polymers exponentially decays with increasing guest chain length. For polyampholyte-like intrinsically disordered proteins (IDPs), their effective interaction within coacervates is largely determined by charge sequence: IDPs with more-disordered sequences experience strict rejection from the dense phase, whereas those with more blocky charges are dispersed within coacervates. Interestingly, for all the guest species tested, their effective interactions are opposite to those observed in dilute solutions, where the sign of the effective two-body interaction reverses when going from the dilute phase to the dense coacervate phase. We elucidate that the non-trivial guest selectivity in complex coacervates originates from the disruption of polycation-polyanion electrostatic correlations by the guest, which combines an energetic penalty (dilution of charge density) with an entropic penalty (loss of chain conformational freedom of the host). These findings have significant implications for understanding guest behavior in coacervate and biocondensate systems.",
+  "abstract_zh": "复合凝聚层（complex coacervates）是由带相反电荷的聚合物通过液-液相分离形成的液滴状液态凝聚体，在人工细胞、药物递送载体和智能纳米反应器等领域引起了广泛关注。这些应用的功能性显著受凝聚层封装客体大分子能力的影响，其中客体相互作用决定了其负载效率和活性。通过分子动力学（MD）模拟、解析理论和实验，我们证明凝聚层基质内的固有静电相关性显著改变了致密相中客体聚合物的有效相互作用，导致实验中观察到的封装效率对客体链长、电荷密度和电荷序列的强烈依赖性。即使在无化学不相容性的情况下，中性聚合物也会因破坏凝聚层内的静电相关性而被强烈排斥出凝聚相。因此，中性聚合物的封装效率随客体链长增加呈指数衰减。对于类多亲水两性电解质的内在无序蛋白质（IDPs），其在凝聚层内的有效相互作用主要由电荷序列决定：具有更无序序列的IDPs会严格被致密相排斥，而具有更多块状电荷分布的IDPs则分散在凝聚层内。有趣的是，对于所有测试的客体种类，其有效相互作用与稀溶液中的观察结果相反，即当从稀相过渡到致密凝聚相时，有效两体相互作用的符号发生反转。我们阐明，复合凝聚层中非平凡的客体选择性源于客体对聚阳离子-聚阴离子静电相关性的破坏，这结合了能量惩罚（电荷密度稀释）和熵惩罚（宿主链构象自由度损失）。这些发现对理解凝聚层和生物凝聚体系统中客体行为具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42917213/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42917213/",
+  "paper_page_path": "papers/pubmed/42917213/index.html"
+}

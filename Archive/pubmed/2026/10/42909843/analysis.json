@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42909843",
+  "title": "Nodule Cysteine-Rich (NCR) Peptides as Next-Generation Antimicrobials: A Computational Perspective on Structure, Mechanism, and Drug Design.",
+  "authors": "Pawar, Yash; Bidvi, Sneha; Choure, Rajendra",
+  "journal": "Probiotics and antimicrobial proteins",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 6,
+  "one_liner_zh": "综述植物NCR抗菌肽的结构、多机制活性及计算设计策略，涉及IDR结构域和MD/对接/AI方法，但对象非典型IDP-PPI且机制建模深度有限。",
+  "abstract": "The rapid escalation of antimicrobial resistance (AMR) has rendered conventional antibiotics increasingly ineffective, necessitating the exploration of alternative therapeutic strategies. Nodule-specific cysteine-rich (NCR) peptides, a diverse class of plant-derived antimicrobial peptides produced by legumes, have emerged as promising candidates due to their potent and multifaceted biological activity. Unlike traditional antibiotics that target a single cellular pathway, NCR peptides exhibit pleiotropic mechanisms, including membrane disruption, transporter-mediated internalization, intracellular targeting of essential regulatory proteins, and metabolic interference. Recent advances have revealed that their activity is governed not only by primary sequence but also by complex structural determinants such as disulfide bond topology and intrinsically disordered functional domains. Furthermore, their broad-spectrum efficacy, including activity against biofilms and cross-kingdom pathogens, highlights their therapeutic potential in combating multidrug-resistant infections. Computational approaches - molecular dynamics simulations, flexible docking algorithms, and artificial intelligence-based design frameworks - are increasingly proposed as a route to optimizing peptide structure, stability, and target specificity. These individual tools have each been validated in other peptide contexts and, in a small number of cases, directly on NCR peptides; their assembly into a single, discovery-to-validation pipeline for NCR engineering, however, is a synthesis proposed by this review rather than a workflow that has itself been experimentally validated end-to-end. This review provides a comprehensive synthesis of the structural features, multimodal mechanisms, and computational strategies associated with NCR peptides, explicitly distinguishing experimentally established findings from the proposed in silico pipeline and its current, largely untested assumptions. It also examines current challenges, including instability, unpredictable toxicity, assay-dependent variability, and the still-preliminary evidence for reduced resistance development, and outlines a moderated set of future directions for AI-driven peptide engineering. On present, largely preclinical evidence, NCR peptides represent a promising - but not yet clinically validated - platform warranting further mechanistic and computational investigation as part of the broader antimicrobial pipeline.",
+  "abstract_zh": "抗菌药物耐药性（antimicrobial resistance, AMR）的迅速升级已使传统抗生素日益失效，亟需探索替代性治疗策略。结瘤特异性富含半胱氨酸（nodule-specific cysteine-rich, NCR）肽，作为豆科植物产生的一类多样化植物源抗菌肽，因其强效且多方面的生物活性而成为有前景的候选分子。与传统抗生素靶向单一细胞通路不同，NCR肽表现出多效性机制，包括膜破坏、转运体介导的内化、对关键调控蛋白的胞内靶向以及代谢干扰。近期进展揭示，其活性不仅受一级序列调控，还受复杂结构决定因素（如二硫键拓扑结构和 intrinsically disordered 功能域）的影响。此外，其广谱效力，包括对生物膜和跨界病原体的活性，凸显了其在对抗多重耐药感染中的治疗潜力。计算方法——分子动力学（molecular dynamics）模拟、柔性对接算法和基于人工智能的设计框架——正日益被提出作为优化肽结构、稳定性和靶标特异性的途径。这些单独工具已在其他肽情境中得到验证，并在少数情况下直接应用于NCR肽；然而，将它们整合为一条从发现到验证的NCR工程流水线，是本综述提出的综合构想，而非已经过端到端实验验证的工作流程。本综述对NCR肽相关的结构特征、多模式机制和计算策略进行了全面综合，明确区分了实验确立的发现与所提出的计算机模拟流水线及其当前基本未经检验的假设。它还审视了当前挑战，包括不稳定性、不可预测的毒性、检测依赖性变异，以及关于耐药性发展减少的仍属初步的证据，并概述了一套适度的未来方向，用于AI驱动的肽工程。基于当前主要处于临床前阶段的证据，NCR肽代表了一个有前景但尚未经临床验证的平台，值得在更广泛的抗菌管线中进行进一步的机制和计算研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42909843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42909843/",
+  "paper_page_path": "papers/pubmed/42909843/index.html"
+}

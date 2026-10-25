@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42896247",
+  "title": "GeoSeq-EGNN: A geometry-sequence fused equivariant graph neural network for predicting short linear motifs within intrinsically disordered regions.",
+  "authors": "Zhang, Jun; Zhang, Jinming; Zheng, Liting; Ruan, Huiqiong; Li, Yuxiang; Li, Yi; Luo, Guilan",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2026-10-19",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 9,
+  "one_liner_zh": "提出融合序列与几何信息的等变图神经网络GeoSeq-EGNN，用于预测无序区域内的短线性基序(SLiMs)，直接针对IDR介导的动态蛋白互作关键元件，兼具AI方法与互作机制建模价值。",
+  "abstract": "Short linear motifs (SLiMs) located within intrinsically disordered regions (IDRs) are essential for mediating dynamic protein-protein interactions. However, their short length, sequence degeneracy, and the conformational heterogeneity of IDRs pose significant challenges for accurate computational identification. Traditional methods that rely exclusively on one-dimensional sequences or static three-dimensional structures may not adequately capture the intricate interplay between structure and sequence, while severe class imbalance often results in unacceptably high false-positive rates. To address these challenges, we introduce GeoSeq-EGNN, a Geometry-Sequence Fused Equivariant Graph Neural Network designed for dual-modality SLiMs prediction. This architecture effectively integrates Global-Local Hybrid Equivariant Message Passing Layers (GLH-EMPL) to model the three-dimensional spatial folding dynamics of IDRs, alongside Multi-Scale Geometry-Sequence Fusion Network Layers (MSGS-FNL) that utilize Bidirectional LSTMs to extract critical one-dimensional primary sequence topologies. We also incorporate an adaptive coordinate update mechanism to improve geometric stability in deeper layers and dynamic gate feature fusion to reduce representation over-smoothing. To address class imbalance, we use a confidence-aware focal loss that penalizes overconfident erroneous predictions. On the evaluated SLiMs dataset, GeoSeq-EGNN achieved an accuracy of 92.94% and an AUPRC of 82.17% under the final F6 feature configuration and outperformed the evaluated baseline models in the controlled one-hot comparison, with higher Precision and Matthews Correlation Coefficient (MCC). These results support GeoSeq-EGNN as a computational framework for SLiM prediction and provide a basis for future studies of SLiM-mediated regulatory networks.",
+  "abstract_zh": "位于固有无序区域（IDRs）内的短线性基序（SLiMs）对于介导动态蛋白质-蛋白质相互作用至关重要。然而，其短长度、序列简并性以及IDRs的构象异质性给准确的计算识别带来了重大挑战。传统方法仅依赖一维序列或静态三维结构，可能无法充分捕捉结构与序列之间的复杂相互作用，而严重的类别不平衡往往导致不可接受的高假阳性率。为应对这些挑战，我们引入了GeoSeq-EGNN，一种面向双模态SLiMs预测的几何-序列融合等变图神经网络。该架构有效整合了全局-局部混合等变消息传递层（GLH-EMPL）以建模IDRs的三维空间折叠动态，以及多尺度几何-序列融合网络层（MSGS-FNL），后者利用双向LSTM提取关键的一维初级序列拓扑。我们还加入了自适应坐标更新机制以改善深层中的几何稳定性，并采用动态门控特征融合以减少表示过度平滑。为解决类别不平衡问题，我们使用了一种置信度感知的焦点损失，该损失对过度自信的错误预测进行惩罚。在评估的SLiMs数据集上，GeoSeq-EGNN在最终F6特征配置下达到了92.94%的准确率和82.17%的AUPRC，并在受控独热编码比较中优于评估的基线模型，具有更高的精确率和马修斯相关系数（MCC）。这些结果支持GeoSeq-EGNN作为SLiM预测的计算框架，并为未来研究SLiM介导的调控网络提供了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42896247/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42896247/",
+  "paper_page_path": "papers/pubmed/42896247/index.html"
+}

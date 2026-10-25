@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42917872",
+  "title": "Quantitative Model of Transcriptional Noise Regulation by mRNA Condensates.",
+  "authors": "Lanitis, Andreas; Kolomeisky, Anatoly B",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建了mRNA凝聚体调控转录噪声的定量随机模型，涉及生物分子凝聚体但聚焦转录过程而非无序蛋白介导的PPI机制，方法为理论建模与模拟，对相分离调控机制建模有参考价值。",
+  "abstract": "A fundamental biological process of transcription occurs in the cell nucleus, which is a complex medium that also contains multiple heterogeneous structures known as biomolecular condensates. Interestingly, some of these condensates contain mRNA molecules in addition to proteins, suggesting an important cellular role in transcription that is not yet well understood. In this work, we develop a minimal theoretical framework for quantitative investigation of the role of reversible mRNA condensation in transcription. Our discrete-state stochastic approach accounts for the most relevant processes, allowing us to explicitly evaluate the properties of the system and clarify the effects of condensation. Analytical calculations supported by computer simulations suggest that reversible mRNA condensation influences the transcription processes by maintaining a constant level of free mRNA in the nucleoplasm while lowering the degree of stochastic noise and increasing the robustness against external perturbations. Physicochemical arguments are presented to explain these observations. The proposed theoretical framework elucidates important microscopic aspects of transcription, providing a convenient quantitative tool for investigating complex biological phenomena.",
+  "abstract_zh": "转录这一基本生物学过程发生在细胞核中，细胞核是一种复杂介质，同时包含多种异质结构，称为生物分子凝聚体 (biomolecular condensates)。有趣的是，其中一些凝聚体除蛋白质外还含有mRNA分子，这表明其在转录中可能扮演着尚未被充分理解的重要细胞角色。在本工作中，我们开发了一个最小理论框架，用于定量研究可逆mRNA凝聚在转录中的作用。我们的离散态随机方法涵盖了最相关的过程，使我们能够明确评估系统性质并阐明凝聚效应。由计算机模拟支持的解析计算表明，可逆mRNA凝聚通过维持核质中游离mRNA的恒定水平，同时降低随机噪声程度并增强对外部扰动的鲁棒性，从而影响转录过程。我们提出了物理化学论据来解释这些观察结果。所提出的理论框架阐明了转录的重要微观方面，为研究复杂生物现象提供了便捷的定量工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42917872/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42917872/",
+  "paper_page_path": "papers/pubmed/42917872/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a strategy in which an intrinsically disordered region (IDR) from UTX, fused to target enzymes, drives liquid-liquid phase separation to form enzyme-rich condensates that anchor onto thylakoid membranes. This spatial organization is claimed to enhance light-driven NADPH-coupled biocatalysis, with up to 3.1-fold and 2.9-fold improvements in product yield and conversion for two model enzymes. Coarse-grained molecular dynamics simulations are used to propose a multivalent interfacial anchoring mechanism.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond fold-improvements, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation protocols, characterization data for condensate formation and membrane anchoring, control experiments, and raw kinetic data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing approach that combines phase-separation biology with photosynthetic membrane biocatalysis. The reported fold-improvements are notable, and the proposed mechanism is mechanistically plausible. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key experimental validations, such as direct evidence of condensate formation on thylakoid membranes, quantitative comparisons against appropriate controls, and the biological relevance of the simulation model, are not accessible. The work is potentially interesting to the biocatalysis and synthetic biology communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in biocatalysis, photosynthesis-inspired chemistry, and enzyme immobilization would find this work relevant. The concept of using phase-separated condensates to couple cofactor regeneration with enzymatic conversion addresses a long-standing bottleneck in light-driven biocatalysis. Those working on artificial photosynthesis and cell-free synthetic biology may also be interested in the generalizability of the anchoring strategy.
+- **Major strengths** The conceptual framing is clear and addresses a recognized limitation in thylakoid-based biocatalysis. The use of IDR-mediated phase separation as a spatial organization tool is innovative in this context. The inclusion of coarse-grained simulations to propose a mechanistic basis for membrane anchoring adds a theoretical dimension that strengthens the narrative. The reported improvements are substantial and suggest practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that TK-anchored enzyme condensates exhibit "prominently improved catalytic performance" relative to freely dispersed enzymes
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports fold-improvements for two enzymes but provides no information on experimental replicates, error bars, statistical significance, or the range of conditions tested. It is unclear whether the improvements are consistent across independent experiments or whether they are specific to particular substrate or light conditions.
+  - **Why it matters** Without statistical validation and condition-dependence data, the reported improvements cannot be distinguished from experimental variability or condition-specific effects. This is central to the core claim of enhanced performance.
+  - **Resolution test** Provide replicate data with error estimates and statistical tests for the reported fold-improvements, and show performance across a range of NADPH regeneration-limited conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The claim that IDR-mediated phase separation forms enzyme-rich condensates that "stably anchor" on TK membranes
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that condensates anchor on membranes but does not describe any experimental evidence for this, such as microscopy, fluorescence recovery after photobleaching, or membrane-binding assays. The simulation is mentioned but its connection to the experimental system is not detailed.
+  - **Why it matters** The entire strategy depends on the physical association between condensates and thylakoid membranes. Without direct experimental evidence of stable anchoring, the proposed mechanism remains speculative.
+  - **Resolution test** Provide imaging or biochemical data demonstrating condensate-membrane association, and quantify binding stability under catalytic conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-experiment alignment
+  - **Claim pointer** The claim that coarse-grained molecular dynamics simulations "validate" a dynamic multivalent interfacial anchoring mode
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that simulations validate the anchoring mode, but no details are given on the simulation system, force field, system size, timescales, or how the model relates to the actual UTX-IDR and thylakoid membrane composition. The term "validate" implies a level of agreement with experiments that is not demonstrated in the abstract.
+  - **Why it matters** Simulation results are only meaningful if the model is representative of the experimental system and if the conclusions are supported by the simulation data. Without these details, the mechanistic claim is not assessable.
+  - **Resolution test** Describe the simulation setup and show quantitative agreement between simulated and experimental observables, such as binding affinity or residue-level contact frequencies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Enzyme nomenclature
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The enzymes SmCR(V4) and SsER(A314S) are introduced without context on their native functions or why they were chosen as model systems.
+  - **Required correction** Provide a brief rationale for enzyme selection and their relevance to biocatalysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of "general approach"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract claims a "general approach" but only demonstrates two enzymes. It is unclear whether the strategy would work with enzymes that have different surface properties or catalytic requirements.
+  - **Required correction** Either temper the generalizability claim or provide evidence with additional enzyme systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Lennard-Jones forces"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "Lennard-Jones forces" is used to describe residue-lipid interactions, but in coarse-grained simulations these are typically represented by Lennard-Jones potentials, not forces. The phrasing is imprecise.
+  - **Required correction** Rephrase to "Lennard-Jones interactions" or "Lennard-Jones-type potentials" for accuracy.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of enhanced performance, stable membrane anchoring, and simulation-based mechanistic validation are not supported by the abstract-level evidence. Experimental replication data, direct anchoring evidence, and simulation details are all required.
+- **Assessment against Nature-style criteria** Originality is high, as the combination of phase-separated condensates with thylakoid membranes for biocatalysis is not a standard approach. Scientific importance is potentially significant for the biocatalysis field, but the current evidence does not yet demonstrate a robust advance. Interdisciplinary readership is plausible, given the intersection of biochemistry, materials science, and computational biology. Technical soundness cannot be assessed from the abstract alone, as no methods or data are visible. Readability for nonspecialists is adequate, though the abstract assumes familiarity with phase separation and thylakoid systems.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the reported improvements are encouraging, but the abstract does not provide sufficient experimental or computational detail to support the central claims. A full manuscript with rigorous data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "prominently improved catalytic performance" is unsupported without replicate data and statistical analysis.
+- The claim of "stable anchoring" of condensates on thylakoid membranes is unsupported without direct experimental evidence.
+- The claim that simulations "validate" the anchoring mode is unsupported without simulation details and experimental correlation.
+- The claim of a "general approach" is unsupported with only two enzyme examples.
+- The mechanistic description involving "Lennard-Jones forces" and "auxiliary electrostatic contributions" is not assessable without simulation parameters.

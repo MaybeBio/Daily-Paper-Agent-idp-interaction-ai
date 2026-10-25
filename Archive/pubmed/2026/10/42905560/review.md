@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a generalized framework that uses an artificial neural network to predict backbone chemical shifts from C(alpha)-only protein conformations, enabling one-bead-per-aminoacid coarse-grained force fields to sample transient secondary structure in intrinsically disordered proteins without relying on dihedral parameterization. They report that the approach recapitulates local and global arrangements across a large set of IDPs in isolation and in condensates, yielding experimentally informed ensembles.
+- **Visible evidence base** Abstract text only; no quantitative results, validation metrics, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods description, training and validation details of the neural network, force field parameters, benchmark datasets, comparison to existing methods, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing idea with potential utility for the IDP simulation community. However, the current evidence base is insufficient to evaluate the technical soundness, the validity of the claims, or the generalizability of the approach. The central claim that the framework "correctly recapitulates both local and global arrangements" is not supported by any quantitative data in the provided material. The abstract reads as a programmatic statement of intent rather than a report of validated findings.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on intrinsically disordered proteins, developers of coarse-grained force fields, and researchers studying phase separation and condensate formation. The potential to incorporate experimental chemical shift data into CG simulations without dihedral parameterization would be of broad interest if the claims are substantiated.
+- **Major strengths** The problem addressed is timely and important. The proposed solution, using a neural network to predict chemical shifts from C(alpha)-only coordinates, is a creative approach that could circumvent a known limitation of one-bead-per-aminoacid CG models. The stated scope, including application to condensates and sequence-specific motifs, suggests potentially wide applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework "correctly recapitulates both local and global arrangements" and yields "experimentally informed ensembles"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative validation data are presented. The abstract does not report any accuracy metrics for the neural network predictions, any comparison between simulated and experimental chemical shifts, or any assessment of ensemble quality against independent experimental observables.
+  - **Why it matters** Without quantitative evidence, the central claim of correct recapitulation cannot be assessed. The utility of the framework hinges on whether the predicted chemical shifts are sufficiently accurate to bias CG simulations toward experimentally consistent ensembles.
+  - **Resolution test** Provide validation metrics for the neural network (e.g., correlation coefficients, RMSD between predicted and experimental chemical shifts on held-out IDP datasets), and demonstrate that the resulting ensembles reproduce experimental observables not used in the restraint scheme.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "A generalized framework" that can equip "one bead-per-aminoacid CG force fields" with secondary structure sampling ability
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided regarding the neural network architecture, training data, feature representation, or how the predicted chemical shifts are integrated into the CG simulation as restraints. The claim of generality across force fields cannot be evaluated without specifying the coupling protocol.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot implement or test the approach, and the claim of a "generalized framework" remains unsubstantiated.
+  - **Resolution test** Provide a complete description of the neural network architecture, training and test datasets, the restraint implementation, and demonstrate application to at least two different CG force fields with comparable performance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** "When applied on a large set of IDPs in isolation or condensates, our approach correctly recapitulates both local and global arrangements"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the size of the "large set," the diversity of the IDPs studied, the nature of the condensate systems, or the metrics used to define "correct recapitulation." No comparison to existing methods or to experimental reference data is described.
+  - **Why it matters** The claim of broad applicability and correctness requires a defined benchmark with clear success criteria. Without this, the reader cannot judge whether the approach performs adequately or merely reproduces trivial features.
+  - **Resolution test** Define the benchmark set, report per-system performance metrics, compare against at least one established CG method with experimental chemical shift restraints, and show that the approach improves or matches existing performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "functional elements of secondary structure" is vague and could be interpreted in multiple ways.
+  - **Required correction** Define what constitutes a "functional element" in this context, for example specific helix or strand propensities above a threshold, or provide examples.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Scope statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "condensates" but does not clarify whether these are simulated condensates, experimental condensates, or both.
+  - **Required correction** Specify the nature of the condensate systems studied and how the CG framework is applied to them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate the approach relative to existing methods that incorporate chemical shift restraints into CG simulations, such as those using dihedral parameterization or alternative neural network approaches.
+  - **Required correction** Add a brief comparison to existing methods and state the specific advantage of the proposed approach beyond avoiding dihedral parameterization.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, methodological detail, and defined benchmarks means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The concept of using a neural network to predict chemical shifts from C(alpha)-only coordinates for CG restraint is novel and potentially original. Scientific importance: If validated, the approach could address a significant limitation in IDP simulation and would be of interest to a specialized but substantial community. Interdisciplinary readership: The work sits at the interface of machine learning, biophysics, and structural biology, but the abstract does not currently make the case accessible to nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; no validation data are presented. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising and the direction is worthwhile, but the abstract alone does not provide sufficient support for the central claims. A full manuscript with quantitative validation and methodological detail would be required to assess whether the approach works as described.
+
+## Risk / unsupported claims
+- The claim that the framework "correctly recapitulates both local and global arrangements" is unsupported by any quantitative data in the provided material.
+- The claim that the approach "can inform structure-mediated function and resolve force field limitations" is speculative and not backed by demonstrated examples.
+- The claim of applicability to "a large set of IDPs" is unverifiable without specifying the dataset and performance metrics.
+- The claim that the framework is "generalized" across CG force fields is unsupported without evidence of application to multiple force fields.
+- The potential applications listed in the final sentence (nucleation in condensates, conformationally selected binding motifs, conformational preferences of short-linear motifs) are presented as possibilities, not demonstrated results, and should be framed as such.

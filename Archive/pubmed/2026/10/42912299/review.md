@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a high-throughput synthesis and screening workflow with machine-learning-assisted optimization to identify random hybrid polypeptides (RHPs) that modulate immune signaling. A lead candidate, IDP-IMP, suppresses CpG-TLR9 signaling through moderate, promiscuous interactions rather than strong nucleic acid scavenging or receptor antagonism. Efficacy is demonstrated in a collagen-induced arthritis rat model with no detectable systemic toxicity.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental procedures, characterization data, machine-learning model details, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to immunomodulation using statistical polymers with IDP-like interaction properties. The central claim that weak, multivalent, dynamic interactions rather than strong binding drive functional activity is thought-provoking and potentially significant. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the workflow, the robustness of the machine-learning optimization, the mechanistic interpretation, or the validity of the in vivo results. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in immunomodulatory biomaterials, polymer chemistry, drug delivery, and TLR signaling biology would find the approach relevant. The concept of using IDP-inspired weak multivalent interactions for therapeutic modulation could interest those working on nucleic acid sensing pathways and autoimmune disease models. The high-throughput screening and machine-learning methodology may appeal to the broader materials discovery community.
+- **Major strengths** The conceptual framing of IDP-like weak and dynamic interactions as a design principle for immunomodulation is original and potentially impactful. The integration of high-throughput synthesis, screening, and machine-learning optimization represents a modern and scalable approach to polymer discovery. The demonstration of in vivo efficacy in a relevant disease model adds translational significance. The observation that stronger CpG binding does not correlate with inhibitory activity challenges conventional assumptions in nucleic acid scavenger design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The high-throughput synthesis and screening workflow combined with machine-learning-assisted optimization identified IDP-IMP as a lead immunomodulatory RHP.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no details on library size, synthesis methodology, screening assay design, reproducibility, or the machine-learning model architecture, training data, validation strategy, or selection criteria. Without these details, the robustness and generalizability of the discovery workflow cannot be assessed.  
+  - **Why it matters** The central methodological contribution is the integrated discovery pipeline. If the screening or machine-learning components are flawed, the identification of IDP-IMP may be an artifact rather than a generalizable outcome.  
+  - **Resolution test** Provide full experimental details on library construction, screening throughput and controls, machine-learning feature selection, model validation, and independent replication of lead identification.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic interpretation  
+  - **Claim pointer** IDP-IMP suppresses CpG-TLR9 signaling through moderate binding with both CpG and TLR9 via different side chain compositions, leading to reduced intracellular CpG-TLR9 colocalization, rather than acting as a strong nucleic acid scavenger or TLR9 antagonist.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The mechanistic claim rests on binding and colocalization data that are not presented. No quantitative binding affinities, stoichiometries, kinetic parameters, or imaging data are shown. The assertion that different side chain compositions mediate distinct interactions is unsupported without compositional and mutagenic analysis. The causal link between reduced colocalization and signaling suppression is not established.  
+  - **Why it matters** The mechanistic interpretation is the conceptual core of the paper. If the interaction model is not rigorously supported, the broader claim about IDP-like weak multivalent interactions as a design principle collapses.  
+  - **Resolution test** Provide binding data (e.g., ITC, SPR, or NMR), colocalization imaging with appropriate controls, and structure-activity studies varying side chain composition to demonstrate distinct interaction modes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** In vivo efficacy and safety  
+  - **Claim pointer** In a collagen-induced arthritis rat model, IDP-IMP attenuated inflammation and joint pathology without detectable systemic toxicity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative outcome measures, statistical analyses, dosing regimens, or toxicity assessment details are provided. The claim of no detectable systemic toxicity is particularly strong and requires comprehensive toxicological evaluation.  
+  - **Why it matters** The translational significance of the work depends on the validity and robustness of the in vivo data. Inadequate statistical power or incomplete toxicity panels would undermine the safety claim.  
+  - **Resolution test** Provide full in vivo datasets including disease scores, histological images, cytokine profiles, body weight, organ histopathology, and clinical chemistry, with appropriate statistical analysis.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Data availability and reproducibility  
+  - **Claim pointer** Across the polymer library, stronger CpG binding did not necessarily correspond to greater inhibitory activity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This is a key negative result that challenges conventional assumptions, but no data are shown. The correlation analysis, sample size, and statistical significance are not described.  
+  - **Why it matters** This observation is central to the argument that binding strength alone is not predictive. Without supporting data, the claim is anecdotal.  
+  - **Resolution test** Provide the full correlation dataset, statistical analysis, and discussion of outliers or confounding variables.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "random hybrid polypeptides" is used without definition of the degree or nature of randomness, which is critical for reproducibility.  
+  - **Required correction** Define the statistical nature of the sequence distribution and provide characterization data confirming the random architecture.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Machine-learning details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The machine-learning-assisted optimization is mentioned but not described in terms of input features, training set size, or performance metrics.  
+  - **Required correction** Include a brief description of the model and its validation in the abstract or refer to a methods section.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Comparison to existing approaches  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not compare IDP-IMP to existing TLR9 antagonists or nucleic acid scavengers in terms of efficacy or safety.  
+  - **Required correction** Add a comparative statement to contextualize the performance of IDP-IMP.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of experimental details, quantitative data, and statistical analyses in the abstract prevents verification of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of using IDP-like weak multivalent interactions for immunomodulation is original and distinguishes this work from conventional strong-binding approaches.  
+  - Scientific importance: If fully substantiated, the findings could shift design principles in immunomodulatory polymers and nucleic acid sensing modulation.  
+  - Interdisciplinary readership: The work bridges polymer chemistry, immunology, and machine learning, which could attract broad interest.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and quantitative data is a major limitation.  
+  - Readability for nonspecialists: The abstract is concise and conceptually clear, but the mechanistic and methodological claims require more context for nonspecialist comprehension.
+
+## Risk / unsupported claims
+- The claim that IDP-IMP suppresses CpG-TLR9 signaling through moderate binding with both CpG and TLR9 is unsupported without binding and imaging data.
+- The claim that stronger CpG binding does not correlate with inhibitory activity is unsupported without the full correlation dataset.
+- The claim of no detectable systemic toxicity in the rat model is unsupported without comprehensive toxicological data.
+- The generalizability of the high-throughput and machine-learning workflow is not assessable from the abstract.
+- The mechanistic distinction from conventional nucleic acid scavengers or TLR9 antagonists is not established without comparative functional data.

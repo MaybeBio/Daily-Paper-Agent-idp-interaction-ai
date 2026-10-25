@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report identification of a previously uncharacterized protein, C16orf87 (renamed MHAP1), as a binding partner of HDAC2 and MIER1. Using an integrative approach combining cross-linking mass spectrometry (XL-MS) with integrative structural modeling, they propose a structural model in which the C-terminal IDR of HDAC2 serves as a central interaction hub engaging the ELM2 domain of MIER1 and N- and C-terminal regions of MHAP1. They further claim this provides the first structural framework for HDAC2:MIER1:MHAP1 assembly and demonstrates the utility of XL-MS for integrative modeling of protein complexes.
+- **Visible evidence base** Abstract text only; data availability statement referencing ProteomeXchange PXD082280 and MassIVE MSV000102752
+- **Missing materials affecting confidence** Full methods, all figures and tables, validation statistics for the integrative model, cross-link identification criteria, experimental replicates, negative controls, and any orthogonal validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of integrative structural biology to a chromatin-associated complex containing intrinsically disordered regions. The identification of a new HDAC2 and MIER1 binding partner is a plausible advance. However, the abstract alone provides insufficient evidence to evaluate the central structural claims. The key assertion that the C-terminal IDR of HDAC2 acts as a "key interaction hub" rests entirely on modeling results whose quality, validation, and ambiguity cannot be assessed from the supplied material. The claim of a "first structural framework" is strong and would require clear demonstration that the model is well constrained by the experimental data. The work may be of interest to the chromatin and structural biology communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeling complexes, histone deacetylase function, and the role of intrinsically disordered regions in protein complex assembly. Methodologists interested in integrative structural biology and XL-MS workflows may also find the demonstration of the approach relevant. The identification of a new HDAC2 and MIER1 interacting protein could be of interest to those studying transcriptional regulation and epigenetic mechanisms.
+- **Major strengths** The study addresses a genuinely difficult problem, namely the structural organization of IDRs within a chromatin-associated complex, which is not tractable by conventional structural methods. The use of an integrative approach combining XL-MS with computational modeling is appropriate for the system described. The identification of a previously uncharacterized binding partner adds a novel element. The data availability statement is a positive feature for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the C-terminal IDR of HDAC2 acts as a key interaction hub engaging the ELM2 domain of MIER1 and N- and C-terminal regions of MHAP1
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central structural conclusion is presented without any indication of the quality or validation of the integrative model. No information is given on the number of cross-links supporting each interface, the spatial precision of the model, the sampling and scoring approach, or whether alternative models were considered and excluded. Without such details, the claim that the HDAC2 C-terminal IDR is a "key interaction hub" cannot be evaluated.
+  - **Why it matters** Integrative structural models are only as reliable as the experimental restraints and the rigor of the modeling protocol. If the cross-link data are sparse or ambiguous, the model may be underdetermined, and the specific assignment of interaction interfaces could be incorrect. The central novelty of the paper rests on this model, so its reliability is critical.
+  - **Resolution test** Provide the number and distribution of cross-links, the precision and accuracy estimates for the model, a description of the sampling and scoring protocol, and evidence that the proposed interfaces are uniquely supported by the data rather than being one of several equally plausible solutions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that MHAP1 is a binding partner of HDAC2 and MIER1
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The identification of MHAP1 as a binding partner is stated without any indication of the experimental evidence. It is unclear whether this is based on co-immunoprecipitation, affinity purification followed by mass spectrometry, or another method. No information is provided on the stoichiometry, affinity, or specificity of the interaction, nor on whether the interaction was validated by an orthogonal approach.
+  - **Why it matters** The entire study depends on the validity of the MHAP1 interaction. If the interaction is weak, non-specific, or an artifact of the purification strategy, the structural model would be built on an unstable foundation. The claim of a new binding partner requires clear experimental support.
+  - **Resolution test** Describe the method by which MHAP1 was identified, provide evidence of specificity (for example, appropriate negative controls), and include orthogonal validation such as reciprocal pulldown or co-immunoprecipitation from cell lysates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the integrative structural approach combining XL-MS with integrative structural modeling defines the architecture of the complex
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the XL-MS workflow, including the cross-linking chemistry, protease digestion strategy, mass spectrometry acquisition, or the criteria used for identifying and filtering cross-linked peptides. False-positive cross-link identifications are a known risk, and the confidence of the dataset is essential for the reliability of the model.
+  - **Why it matters** XL-MS data quality directly determines the validity of the distance restraints used in modeling. If the false-discovery rate is not controlled or if the data are not sufficiently redundant, the resulting model may incorporate incorrect restraints and produce misleading conclusions.
+  - **Resolution test** Provide the XL-MS data processing pipeline, the false-discovery rate threshold, the number of unique cross-links identified, and the distribution of cross-links across the three proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses the term "integrative structural modeling" without a brief explanation of what this entails. Readers unfamiliar with the field may not understand the distinction from conventional structural methods.
+  - **Required correction** Add a brief parenthetical explanation, for example, "integrative structural modeling, in which diverse experimental data are combined to generate a model" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that the C-terminal IDR of HDAC2 engages "the N- and C-terminal regions of MHAP1" but does not indicate whether these are two separate interfaces or a single contiguous binding surface.
+  - **Required correction** Clarify whether the N- and C-terminal regions of MHAP1 form a single binding site or two distinct interaction surfaces with the HDAC2 IDR.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance framing
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The final sentence on the utility of XL-MS for integrative modeling is somewhat generic and does not specify what was learned about the method that was not already known.
+  - **Required correction** Either remove this sentence or specify a particular methodological insight, such as a challenge overcome or a limitation identified.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central structural claim, the identification of the new binding partner, and the reliability of the XL-MS dataset are all unverifiable from the abstract alone. These are not minor gaps but fundamental to the paper's conclusions.
+- **Assessment against Nature-style criteria** Originality: The application of integrative modeling to IDRs in a chromatin remodeling complex is a reasonable extension of existing approaches, and the identification of a new binding partner adds novelty. However, the abstract does not demonstrate that the approach or the findings are conceptually new beyond this specific system. Scientific importance: The HDAC2 complex is biologically relevant, and understanding IDR-mediated assembly could have broader implications. The importance is plausible but not established from the abstract. Interdisciplinary readership: The work could appeal to structural biologists, chromatin researchers, and proteomics specialists. The abstract is written in a way that is largely accessible, though some terms may need clarification. Technical soundness: Cannot be assessed from the abstract. The absence of any validation or quality metrics for the model is a serious gap. Readability for nonspecialists: The abstract is generally clear but could benefit from a brief explanation of integrative modeling.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible workflow, but the central claims cannot be evaluated without the full methods, figures, and validation data. A supportive recommendation would require that the concerns above be addressed in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the C-terminal IDR of HDAC2 is a "key interaction hub" is unsupported from the abstract alone, as no model quality or validation data are provided.
+- The claim that MHAP1 is a binding partner of HDAC2 and MIER1 is unsupported, as the experimental evidence for this interaction is not described.
+- The claim that this is the "first structural framework" for HDAC2:MIER1:MHAP1 interactions is unverifiable without a literature search and a clear description of what constitutes the framework.
+- The claim that the study demonstrates the ability of XL-MS to facilitate integrative structural modeling is not substantiated with any methodological detail or comparison to prior work.

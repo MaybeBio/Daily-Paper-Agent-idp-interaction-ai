@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results sections, discussion, supplementary figure legends, contributions, data availability, disclosures, and materials and methods.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors report the computational design of de novo protein binders targeting transcriptional coactivators, identified through a pooled mammalian functional screen. They report over 300 binders, demonstrate tunable affinities, reveal an ultrasensitive relationship between coactivator-binding affinity and transcriptional output, and show that these binders can function as compact CRISPRa activators with reduced cellular burden compared to VPR.
+- **Visible evidence base** Main text figures (Figures 1–4), supplementary figures (S1–S7), supplementary tables (S1–S3), and methods sections for AF3 prediction, binder design, molecular cloning, cell culture, screening, sequencing analysis, flow cytometry, RT-qPCR, lentivirus production and titration, RNA-seq, and SPR.
+- **Missing materials affecting confidence** Raw sequencing data (deposited but not accessible in this review), full supplementary figures and tables (only legends provided), detailed gating strategies for flow cytometry, complete list of designed binder sequences, and validation data for all 34 individually tested binders.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially important advance in synthetic gene regulation. The central idea, replacing intrinsically disordered activation domains with designed structured binders of defined coactivator specificity, is conceptually strong and well motivated. The development of a pooled functional screen in mammalian cells is a notable technical achievement. The key quantitative finding, an ultrasensitive relationship between coactivator-binding affinity and transcriptional output with a threshold near 500 nM, is interesting and potentially generalizable. However, several technical concerns must be addressed before the case is fully established. The evidence for target specificity relies heavily on computational predictions for most targets, the mechanistic interpretation of the ultrasensitive response is underdeveloped, and the comparison to VPR, while favorable, is limited in scope. The manuscript is well written and will be of interest to a broad readership in protein design, gene regulation, and synthetic biology.
+- **Who would be interested in the results, and why** Researchers in protein design and computational biology will be interested in the demonstration of a general pipeline for designing functional binders against challenging, partially disordered targets. The synthetic biology and gene therapy communities will be interested in the compact CRISPRa activators with potentially lower toxicity. The gene regulation field will be interested in the quantitative relationship between coactivator affinity and transcriptional output, and the evidence for cooperative recruitment. The work could also be of interest to those studying transcriptional mechanisms, as the designed binders offer a new tool for dissecting coactivator function.
+- **Major strengths** 1) The conceptual advance of replacing disordered activation domains with structured, defined binders is significant and opens new avenues for mechanistic dissection and engineering. 2) The development of a pooled mammalian functional screen is a powerful technical contribution. 3) The systematic affinity tuning and the resulting ultrasensitive affinity-activity relationship is a compelling and novel quantitative finding. 4) The demonstration of functional synergy between p300 and Mediator recruitment is mechanistically informative. 5) The compact size and reduced apparent cellular burden of the designed activators are practically advantageous.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The authors claim that designed binders show preferential recognition of cognate targets within the tested panel, and demonstrate target specificity for MED25 via knockout.
+  - **Evidence pointer** Figure 2d, 2e, S4b
+  - **Concern** Target specificity is rigorously demonstrated for only one target (MED25) via knockout. For all other targets, specificity is inferred from AF3-predicted contact probabilities across a limited panel of coactivators. This is insufficient. AF3 predictions are not a substitute for experimental validation of binding specificity, especially in the complex cellular environment. The claim of "coactivator-specific" binders is therefore not established for the majority of the reported binders.
+  - **Why it matters** The central premise of the work is that these binders provide defined, specific recruitment of individual coactivators. If the binders cross-react with other coactivators or proteins, the mechanistic interpretations (e.g., synergy between p300 and Mediator) and the utility as specific tools are compromised.
+  - **Resolution test** Provide experimental binding specificity data for a representative set of binders against a panel of related coactivator domains (e.g., by SPR, pull-down, or a cellular competition assay). For binders used in the CRISPRa and synergy experiments, demonstrate that the observed effects are dependent on the intended target, for example by showing loss of function in knockout or knockdown backgrounds for at least one additional target.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation of ultrasensitivity
+  - **Claim pointer** The authors claim that the ultrasensitive relationship between coactivator-binding affinity and transcriptional output, with a Hill coefficient of 5, suggests that "additional cooperative or nonlinear steps after p300 recruitment may further shape transcriptional output."
+  - **Evidence pointer** Figure 3c, 3b
+  - **Concern** The mechanistic basis for the observed ultrasensitivity is not adequately explored. The authors present a simple two-site cooperative binding model that does not fit the data, but they do not provide an alternative model or experimental evidence to explain the sharp threshold. The claim that "additional cooperative or nonlinear steps" are involved is speculative and not directly supported by the data presented. The authors do not discuss or test alternative mechanisms, such as positive feedback, multivalent interactions with chromatin, or cooperative recruitment of multiple coactivator complexes.
+  - **Why it matters** The ultrasensitive relationship is a central quantitative finding of the paper. Without a mechanistic explanation, its significance and generalizability are unclear. It is presented as a key insight, but the lack of mechanistic depth weakens the claim.
+  - **Resolution test** Provide a more detailed biophysical or cellular model that can recapitulate the observed Hill coefficient and threshold. This could involve testing the effect of varying the number of binding sites, measuring coactivator occupancy directly at the locus, or testing whether the response curve shifts with different promoter contexts. Alternatively, the authors should temper the mechanistic claims and present the ultrasensitivity as an empirical observation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and comparison to existing activators
+  - **Claim pointer** The authors claim that the designed binders "drove stronger activation than VPR across multiple genomic loci" and that they impose "minimal detectable cytotoxicity."
+  - **Evidence pointer** Figure 4b, 4c, S6, S7d
+  - **Concern** The comparison to VPR is limited. The authors test a small number of loci and do not compare to other potent activators like dCas9-VP192 or dCas9-SunTag. The claim of "minimal detectable cytotoxicity" is based on a single assay (lentiviral production). A more comprehensive assessment of cellular fitness is needed. Furthermore, the generality of the approach is not demonstrated beyond the specific coactivator domains and promoters tested.
+  - **Why it matters** The practical utility of the designed binders as CRISPRa tools depends on their performance relative to the state of the art. The current comparison is too narrow to support the claim of superiority. The cytotoxicity claim is important for therapeutic applications but is not sufficiently supported.
+  - **Resolution test** Expand the comparison to include other commonly used activators (e.g., VP192, SunTag) at multiple loci. Assess cellular fitness using additional assays, such as cell proliferation, apoptosis, or RNA-seq of stress-response genes. Demonstrate the generality of the approach by testing binders at additional loci and in a second cell type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2b, 2c, 4b, 4c
+  - **Evidence pointer** Figure 2b, 2c, 4b, 4c
+  - **Issue** The number of biological replicates and the statistical tests used for the enrichment analysis and the CRISPRa experiments are not clearly stated in the main text or figure legends.
+  - **Required correction** Clearly state the number of replicates and the statistical tests used for each experiment in the figure legends or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement mentions GEO accession numbers and a GitHub repository, but the specific scripts and notebooks are not described in detail.
+  - **Required correction** Provide a more detailed description of the contents of the GitHub repository and ensure that all custom scripts are properly documented and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section on AF3 prediction
+  - **Evidence pointer** Methods section on AF3 prediction
+  - **Issue** The description of the AF3 prediction protocol is somewhat brief. The authors state that "TAD windows were provided to AlphaFold 3 (AF3) as single sequences without MSAs or structural templates," but then describe generating MSAs for the coactivator domains. It is unclear if the TAD windows were modeled as single sequences or with MSAs.
+  - **Required correction** Clarify the exact input format for both the TAD windows and the coactivator domains in the AF3 predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure is dense and the labels for the different binder variants and their mutations are difficult to follow.
+  - **Required correction** Consider simplifying the figure or providing a more detailed legend that clearly explains the relationship between the different variants and the mutations they carry.
+
+## Risk / unsupported claims
+- The claim that the designed binders are "coactivator-specific" is not supported for the majority of targets, as specificity is only experimentally validated for MED25.
+- The claim that the ultrasensitive response arises from "additional cooperative or nonlinear steps after p300 recruitment" is speculative and not directly supported by the data.
+- The claim that the designed activators impose "minimal detectable cytotoxicity" is based on a single, indirect assay and is not fully supported.
+- The claim that the designed binders "drove stronger activation than VPR" is based on a limited comparison and may not be generalizable.
+- The claim that the workflow "yielded approximately 3,000–5,000 filtered in silico designs per target" is not verifiable from the provided text, as the filtering criteria are described but the numbers are not tied to a specific figure or table.

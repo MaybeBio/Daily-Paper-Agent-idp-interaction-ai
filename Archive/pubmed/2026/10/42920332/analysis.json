@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42920332",
+  "title": "Liquid-Liquid Phase Separation Modulated Thylakoid-Enzyme Interfacial Coupling for Enhanced Light-Powered Biocatalysis.",
+  "authors": "Zhang, Jiayi; Ding, Chengtao; Zhang, Xiaoyan; Fan, Daidi; Liu, Jiaxu; Bai, Yunpeng",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2026-10-24",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用IDR介导的液-液相分离将酶锚定在类囊体膜上，通过粗粒化分子动力学模拟揭示IDR-膜界面多价锚定机制，虽对象为膜-酶界面而非典型PPI，但IDR介导的界面耦合机制建模对本课题有可迁移启发。",
+  "abstract": "Thylakoid (TK) membranes serve as promising photosynthesis platforms for light-driven biocatalysis, yet their catalytic efficiency is largely restricted by poor coupling between photo-dependent NADPH regeneration and enzymatic conversion. Herein, we report a facile TK-anchored enzyme condensate strategy to overcome this bottleneck. Specifically, the UTX-derived intrinsically disordered region (IDR) fused with target enzymes mediates liquid-liquid phase separation to form enzyme-rich condensates, which then stably anchor on TK membranes and spatially confine catalysis at the NADPH-generating membrane interface. Taking carbonyl reductase SmCR(V4) and ene-reductase SsER(A314S) as model enzymes, the TK-enzyme hybrid condensates exhibit prominently improved catalytic performance, especially under NADPH regeneration-limited conditions, relative to freely dispersed enzyme systems. The TK-UTX-SmCR(V4) hybrid improves the total product yield up to 3.1-fold, and the TK-UTX-SsER(A314S) hybrid reaches a 2.9-fold higher conversion within 20 min. Coarse-grained molecular dynamics simulations validate a dynamic multivalent interfacial anchoring mode: the IDR domain mediates stable membrane binding via high-frequency residue-lipid interactions dominated by short-range Lennard-Jones forces (with auxiliary electrostatic contributions), while the enzyme domain remains solvent-exposed. This work establishes a feasible strategy that physically links light-driven NADPH recycling with enzymatic catalysis, offering a general approach for constructing high-efficiency artificial photosynthesis systems.",
+  "abstract_zh": "类囊体（Thylakoid, TK）膜作为光驱动生物催化的有前景的光合作用平台，但其催化效率在很大程度上受限于光依赖的NADPH再生与酶转化之间的弱耦合。本文报道了一种简便的TK膜锚定酶凝聚体策略，以克服这一瓶颈。具体而言，将UTX来源的内在无序区（intrinsically disordered region, IDR）与目标酶融合，介导液-液相分离（liquid-liquid phase separation）形成富含酶的凝聚体，随后稳定锚定于TK膜上，并在NADPH生成膜界面空间上限制催化反应。以羰基还原酶SmCR(V4)和烯还原酶SsER(A314S)为模型酶，TK-酶杂合凝聚体相较于自由分散酶系统表现出显著提升的催化性能，尤其是在NADPH再生受限条件下。TK-UTX-SmCR(V4)杂合体将总产物产率提高至3.1倍，而TK-UTX-SsER(A314S)杂合体在20分钟内实现2.9倍更高的转化率。粗粒化分子动力学（coarse-grained molecular dynamics）模拟验证了一种动态多价界面锚定模式：IDR结构域通过以短程Lennard-Jones力（辅以静电贡献）主导的高频残基-脂质相互作用介导稳定的膜结合，而酶结构域保持溶剂暴露。本研究建立了一种将光驱动NADPH循环与酶催化物理连接的可行的策略，为构建高效人工光合作用系统提供了一种通用方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42920332/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42920332/",
+  "paper_page_path": "papers/pubmed/42920332/index.html"
+}

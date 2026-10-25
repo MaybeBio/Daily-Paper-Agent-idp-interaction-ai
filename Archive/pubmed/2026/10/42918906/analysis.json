@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42918906",
+  "title": "Membrane orientation regulates GAPR-1 oligomerization that is suitable for interaction with beclin 1.",
+  "authors": "Shen, Ziying; Corey, Robin A; van Doorne, Hidde; Verhoek, Iris; Koopman, Renee; Huitema, Daniel S; Sardana, Samiksha; Baggelaar, Marc P; Stansfeld, Phillip J; Kaloyanova, Dora V; Helms, J Bernd",
+  "journal": "Cellular and molecular life sciences : CMLS",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用MD模拟研究GAPR-1膜取向调控其寡聚化及与beclin 1互作，涉及凝聚体形成，对象为膜蛋白而非IDP，但互作机制建模思路可迁移。",
+  "abstract": "Golgi-associated plant pathogenesis-related protein 1 (GAPR-1) is a beclin 1-interacting peripheral membrane protein that is anchored to the Golgi complex via an N-myristoyl-group and ionic interactions. Here we investigated the determinants of GAPR-1 membrane binding using molecular dynamics (MD) simulations and applied the results to investigate the subsequent oligomerization into biomolecular condensates and interaction with beclin 1. MD simulations revealed a specific orientation of GAPR-1 upon docking to a negatively charged lipid bilayer involving lysines at position 7 and 33 (Lys7 and Lys33). Substitution of these lysines with glutamine changed the preferred membrane orientation of GAPR-1. Upon deletion of the myristoyl-group, GAPR-1 remained docked to the lipid bilayer, but lost its preferred orientation, suggesting that myristoylation constrained the dynamics of the protein at the membrane surface. Upon mutation of Lys7 to glutamine and expression in Saccharomyces cerevisiae, [K7Q]GAPR-1 was prevented from myristoylation and condensate formation was severely impaired. Similar results were obtained when N-terminal myristoylation of GAPR-1 was prevented by mutating amino acid Gly2. However, in contrast to [G2A]GAPR-1, [K7Q]GAPR-1 could not interact with beclin 1 anymore upon co-expression in yeast cells, and failed to interfere with beclin 1-dependent autophagy in human cells. Our combined data show that GAPR-1 requires a defined orientation at the membrane to control protein homo-and hetero-oligomerization and to execute its function. We revealed a novel function of protein myristoylation in which it determines the motional freedom of specific protein orientations, which may have relevance for the entire myristoylated proteome.",
+  "abstract_zh": "高尔基体相关的植物发病相关蛋白1（GAPR-1）是一种与beclin 1相互作用的周边膜蛋白，通过N-肉豆蔻酰基团和离子相互作用锚定于高尔基体复合物。本研究利用分子动力学（molecular dynamics, MD）模拟探讨了GAPR-1膜结合的决定因素，并将结果应用于研究其后续寡聚化为生物分子凝聚体及与beclin 1的相互作用。MD模拟揭示，GAPR-1对接至带负电荷的脂质双层时呈现特定取向，涉及第7位和第33位的赖氨酸（Lys7和Lys33）。将这些赖氨酸替换为谷氨酰胺改变了GAPR-1的偏好膜取向。当删除肉豆蔻酰基团后，GAPR-1仍能对接至脂质双层，但失去了其偏好取向，表明肉豆蔻酰化限制了蛋白质在膜表面的动态行为。将Lys7突变为谷氨酰胺并在酿酒酵母（Saccharomyces cerevisiae）中表达时，[K7Q]GAPR-1的肉豆蔻酰化被阻止，凝聚体形成严重受损。通过突变N端第2位甘氨酸（Gly2）以阻止GAPR-1的N端肉豆蔻酰化时，也获得了类似结果。然而，与[G2A]GAPR-1相比，[K7Q]GAPR-1在酵母细胞中共表达后无法再与beclin 1相互作用，并且在人类细胞中未能干扰beclin 1依赖性自噬。我们的综合数据表明，GAPR-1需要膜上的特定取向来控制蛋白质的同源和异源寡聚化并执行其功能。我们揭示了蛋白质肉豆蔻酰化的新功能，即其决定特定蛋白质取向的运动自由度，这可能对整个肉豆蔻酰化蛋白质组具有相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42918906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42918906/",
+  "paper_page_path": "papers/pubmed/42918906/index.html"
+}

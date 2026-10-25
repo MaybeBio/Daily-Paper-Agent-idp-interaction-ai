@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42915611",
+  "title": "Structure-Guided Terminal Modifications Enhance the Efficiency of PET Degradation.",
+  "authors": "Zhang, Lin; Chen, Keyan; Xi, Zhiwen; Tian, Zhuo; Wei, Xuyang; Aqma, Wan Syaidatul; Guo, Zhiguo; Wang, Qi; Niu, Qiuhong",
+  "journal": "ACS synthetic biology",
+  "published_date": "2026-10-23",
+  "window": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过结构引导截短PET水解酶的无序末端提升降解效率，并用MD模拟解释刚性化机制，虽涉及IDR和MD，但对象为酶-底物降解而非蛋白-蛋白互作，缺乏PPI机制建模，仅边缘相关。",
+  "abstract": "Poly(ethylene terephthalate) (PET) is a widely used plastic whose persistence and improper disposal pose serious environmental and health risks. In this study, three novel PET hydrolases TbPETase, AbPETase, and AfPETase were identified from Thermoanaerobacterales, Acidimicrobiales, and Actinokineospora fastidiosa, respectively. Among these, TbPETase exhibited the highest enzymatic activity and thermostability. Based on structural analysis, we performed semirational truncations targeting the intrinsically disordered N- and C-terminal regions of TbPETase, generating two improved variants DeltaN36 and DeltaC4. The double mutant, TbPETaseDeltaN36/DeltaC4, demonstrated a 2.3-fold increase in overall enzymatic activity and a 2.6-fold improvement in catalytic efficiency (kcat/Km) compared to the wild-type enzyme, along with significantly enhanced thermal stability. Molecular dynamics simulations revealed that the removal of flexible terminal regions increased the overall structural rigidity of TbPETaseDeltaN36/DeltaC4. This structural stabilization was associated with the formation of a hydrogen bond at T215 and a pi-pi stacking interaction at W193. In a 100 mL one-pot reaction system, the combination of TbPETaseDeltaN36/DeltaC4 with an engineered BMHETase variant, BMHETase6M, achieved 81.2% degradation of semicrystalline PET powder at 60  degrees C over 60 h, yielding terephthalic acid as the major product. These findings demonstrate the potential of TbPETaseDeltaN36/DeltaC4 as a highly efficient and industrially applicable biocatalyst for PET degradation.",
+  "abstract_zh": "聚对苯二甲酸乙二醇酯（PET）是一种广泛使用的塑料，其持久性和不当处置对环境和健康构成严重风险。在本研究中，从热厌氧杆菌目（Thermoanaerobacterales）、酸微菌目（Acidimicrobiales）和挑剔放线动孢菌（Actinokinefospora fastidiosa）中分别鉴定出三种新型PET水解酶TbPETase、AbPETase和AfPETase。其中，TbPETase表现出最高的酶活性和热稳定性。基于结构分析，我们对TbPETase的固有无序N端和C端区域进行了半理性截短，生成了两个改进变体DeltaN36和DeltaC4。双突变体TbPETaseDeltaN36/DeltaC4与野生型酶相比，总酶活性提高了2.3倍，催化效率（kcat/Km）提高了2.6倍，同时热稳定性显著增强。分子动力学模拟揭示，去除柔性末端区域增加了TbPETaseDeltaN36/DeltaC4的整体结构刚性。这种结构稳定化与T215处氢键和W193处π-π堆积相互作用的形成相关。在100 mL一锅反应体系中，TbPETaseDeltaN36/DeltaC4与工程化BMHETase变体BMHETase6M的组合，在60摄氏度下60小时内实现了对半结晶PET粉末81.2%的降解，主要产物为对苯二甲酸。这些发现证明了TbPETaseDeltaN36/DeltaC4作为高效且工业适用的PET降解生物催化剂的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42915611/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42915611/",
+  "paper_page_path": "papers/pubmed/42915611/index.html"
+}

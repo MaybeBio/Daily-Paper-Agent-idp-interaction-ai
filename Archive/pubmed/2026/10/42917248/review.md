@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that long-range electrostatic interactions between the highly acidic AbpSH3 domain and the intrinsically disordered partner ArkA facilitate binding through a disordered encounter complex intermediate. Salt destabilizes the bound complex enthalpically, has little effect on the bound-state structure, destabilizes the encounter complex, and primarily reduces the association rate. Salt stabilizes the apo SH3 domain by substituting for transient electrostatic interactions with ArkA. The authors generalize this mechanism to other highly charged domains binding IDPs.
+- **Visible evidence base** Abstract text only; methods cited include isothermal titration calorimetry, molecular dynamics simulations, and NMR experiments. No quantitative data, figures, or statistical details are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, NMR assignments, salt concentration ranges, replicate numbers, error estimates, and any control experiments. Without these, quantitative claims and mechanistic conclusions cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting study of electrostatic effects in IDP binding, with a clear hypothesis and a multi-technique approach. However, the evidence as summarized is insufficient to establish the central claims. Key quantitative results are absent, the causal link between encounter complex destabilization and association rate changes is asserted rather than demonstrated, and the generalization to other systems is speculative. The work has potential but requires substantial additional evidence and clarification before the case is convincing.
+- **Who would be interested in the results, and why** Researchers studying protein-protein interactions, particularly those involving intrinsically disordered proteins, electrostatics in biomolecular recognition, and kinetic mechanisms of binding. The work may also interest biophysicists using combined experimental and computational approaches to dissect binding pathways. The proposed general mechanism could inform studies of other highly charged domains, but this broader relevance depends on the strength of the evidence.
+- **Major strengths** The study addresses a timely and important question about the role of long-range electrostatics in IDP binding. The combination of ITC, NMR, and MD simulations is appropriate and potentially powerful. The focus on the encounter complex as a distinct kinetic intermediate is conceptually valuable. The observation that salt affects the association rate more than the bound-state structure is a potentially significant finding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Salt enthalpically destabilizes the bound complex" and "salt has little effect on the bound state structure"
+  - **Evidence pointer** Abstract; methods cited as ITC and NMR, but no quantitative data provided
+  - **Concern** The abstract states that salt destabilizes the bound complex enthalpically and has little effect on structure, but no thermodynamic parameters, structural metrics, or statistical comparisons are given. The magnitude of the enthalpy change, the salt concentration range, and the resolution of the structural measurements are all absent.
+  - **Why it matters** Without quantitative values and error estimates, the reader cannot assess whether the observed effects are significant or within experimental noise. The claim that salt has "little effect" on structure requires a defined threshold and a comparison to the expected structural variation.
+  - **Resolution test** Provide ITC-derived enthalpy and entropy changes at multiple salt concentrations with uncertainties, and NMR chemical shift perturbations or structural ensembles showing the bound-state structure is unchanged within a defined tolerance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Simulations show that salt destabilizes the encounter complex intermediate, which primarily affects the association rate as measured by NMR"
+  - **Evidence pointer** Abstract; MD simulations and NMR cited, but no simulation details or kinetic data provided
+  - **Concern** The abstract asserts a causal link between encounter complex destabilization and reduced association rate, but no evidence is presented that directly connects these two observations. The simulations may show destabilization, and NMR may show a rate change, but the abstract does not demonstrate that the former causes the latter. Alternative explanations, such as changes in diffusion or desolvation, are not addressed.
+  - **Why it matters** The central mechanistic claim of the paper depends on this causal link. If the association rate change is due to other factors, the proposed role of the encounter complex is weakened.
+  - **Resolution test** Show a quantitative correlation between encounter complex stability (from simulations) and association rate (from NMR) across salt concentrations, or provide a kinetic model that explicitly links the two with fitted parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "A mechanism that is likely common among other highly charged domains that bind IDPs"
+  - **Evidence pointer** Abstract; no comparative data provided
+  - **Concern** The generalization to other highly charged domains is presented without any supporting evidence from additional systems. The abstract does not mention any comparative analysis or literature-based argument that would justify this extrapolation.
+  - **Why it matters** The broader significance of the work, and its appeal to a wide readership, depends on the validity of this generalization. Without evidence, it remains speculation.
+  - **Resolution test** Provide a discussion of at least one other system with similar charge properties, or present preliminary data on a second domain, or clearly frame the generalization as a hypothesis with testable predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** "Salt has the largest stabilizing effect on the apo SH3 domain, as cations substitute for the transient and long-range electrostatic interactions"
+  - **Evidence pointer** Abstract; no specific data on apo-state stability provided
+  - **Concern** The claim about apo-state stabilization is presented without quantitative measures of stability, such as melting temperatures or free energies, and the proposed mechanism of cation substitution is not directly tested.
+  - **Why it matters** This claim is part of the mechanistic model but is not supported by visible evidence. The reader cannot evaluate whether the apo-state effect is real or whether the cation substitution explanation is justified.
+  - **Resolution test** Provide stability measurements (e.g., thermal or chemical denaturation) of the apo SH3 domain at multiple salt concentrations, and ideally show direct evidence of cation binding or its effect on the electrostatic surface.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "highly acidic SH3 domain" in the title is not reflected in the abstract, which describes the domain as "highly charged." The net charge of the domain is not stated.
+  - **Required correction** Clarify the net charge of AbpSH3 and ArkA, and ensure the title and abstract use consistent terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Salt concentration range
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the salt concentration range used in the experiments, which is essential for interpreting the observed effects.
+  - **Required correction** State the salt concentrations used in ITC, NMR, and simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** "Fuzzy" interactions
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "fuzzy" is used without definition or context, which may confuse nonspecialist readers.
+  - **Required correction** Define "fuzzy" interactions in the context of the encounter complex and the bound state.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Kinetic vs. thermodynamic effects
+  - **Evidence pointer** Abstract, results description
+  - **Issue** The abstract states that salt affects the association rate but does not clarify whether the dissociation rate or the overall affinity is also affected. The ITC data suggest thermodynamic destabilization, but the relationship to kinetics is not fully explained.
+  - **Required correction** Clarify whether salt affects only the association rate or also the dissociation rate, and how the kinetic and thermodynamic observations are reconciled.
+
+## Risk / unsupported claims
+- The claim that salt destabilizes the encounter complex and that this primarily affects the association rate is not supported by directly linked evidence in the abstract.
+- The generalization to other highly charged domains is unsupported by any comparative data.
+- The claim that cations substitute for transient electrostatic interactions in the apo state is not directly tested.
+- The quantitative magnitude of all reported effects (enthalpic destabilization, structural invariance, rate changes) is unverifiable from the abstract alone.
+- The mechanistic model of encounter complex formation and its role in binding is plausible but not established from the provided evidence.
