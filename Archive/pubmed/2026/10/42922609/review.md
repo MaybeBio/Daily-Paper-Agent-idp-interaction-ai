@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supplementary description)
+- **Assessment boundary** Scientific content, methodological soundness, claim-evidence alignment, and presentation quality as presented in the provided text
+- **Shared manuscript claim summary** The authors investigate whether residue-level coarse-grained (CG) simulations using the HPS model can reproduce not only equilibrium properties but also dynamical timescales of complex coacervates formed by prothymosin α with four cationic partners. They report that equilibrium observables (dense-phase concentrations, ionic-strength-dependent phase behavior, chain dimensions) are reproduced, but that time rescaling factors required to match experimental reconfiguration times are system-, environment-, and possibly observable-dependent. They further report a correlation between the required time rescaling and the mean total non-bonded interaction energy per chain, interpreted within a Kramers-like framework.
+- **Visible evidence base** Figures 1–5 (described in text), Supplementary Figures S1–S2, Supplementary Table S1, equations 1–11, experimental comparisons cited from references 3, 4, 14, 44, 64
+- **Missing materials affecting confidence** Actual figure panels and numerical values are not visible in the provided text; experimental data points and uncertainties are referenced but not shown; simulation parameters for the four systems are only partially specified; statistical details of the correlation in Fig. 5(f) are not provided; the supplementary figures and table are not available for inspection
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensate simulation: whether CG models validated against equilibrium properties can also provide quantitatively reliable dynamics. The study is well-motivated and the experimental system choice is appropriate, leveraging a recently characterized set of coacervates with distinct dynamics. The central finding, that time rescaling is not transferable across environments or compositions, is potentially significant for the community. However, the manuscript as presented has several weaknesses that prevent full confidence in the conclusions. The correlation between time rescaling and interaction energy, while intriguing, is based on a small number of systems and lacks statistical rigor. The claim of observable-dependent time rescaling is explicitly acknowledged by the authors as not unequivocally established. The methods section omits several details that would be needed for reproduction. The presentation is generally clear but the discussion of the Kramers-like interpretation, while appropriately cautious, could be more carefully framed. Overall, the work is promising and the conclusions are likely to be of interest, but the evidence as presented does not fully establish all claims.
+- **Who would be interested in the results, and why** Researchers developing and applying coarse-grained models for biomolecular condensates and intrinsically disordered proteins; experimentalists using single-molecule FRET to probe dynamics in condensates; theorists interested in coarse-graining, friction, and memory effects in soft matter; computational biophysicists concerned with the transferability of simulation timescales. The work is directly relevant to the ongoing effort to establish best practices for kinetic interpretation of CG simulations.
+- **Major strengths** The study addresses a question of clear importance to the field, namely the validity of dynamical interpretations of CG simulations that are calibrated only against equilibrium data. The experimental system is well-chosen, with four coacervate compositions that allow systematic comparison of lysine versus arginine chemistry. The authors are appropriately cautious in their interpretation, explicitly acknowledging limitations in the diffusion measurements and the phenomenological nature of the energy correlation. The finding that time rescaling is not transferable is clearly demonstrated and has practical implications. The connection to polymer theory and internal friction concepts is thoughtful and provides a useful framework for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of the central correlation
+  - **Claim pointer** The authors claim that "the required time rescaling strongly correlates with the interaction energy of the protein chains" (abstract) and present this as a key finding supporting the interpretation that missing frictional effects arise from protein-protein interactions.
+  - **Evidence pointer** Figure 5(f), described in text; location not provided for numerical values
+  - **Concern** The correlation in Fig. 5(f) is based on only four data points (one per coacervate system). With n=4, a strong correlation can arise by chance, and no statistical measure (e.g., R², p-value, confidence interval) is reported. The authors state the relationship is "approximately linear" on a log scale, but this is not quantified. Furthermore, the interaction energy Eint is a mean equilibrium quantity, and the causal link between this equilibrium property and the dynamical rescaling factor is asserted rather than demonstrated. The Kramers-like interpretation is plausible but is one of several possible explanations for the observed trend.
+  - **Why it matters** The correlation is presented as a central result that provides mechanistic insight into the origin of the non-transferable time rescaling. If this correlation is not statistically robust, the mechanistic interpretation is weakened, and the practical utility of using Eint as a predictor of time rescaling is not established. The claim in the abstract that the rescaling "strongly correlates" with interaction energy is a strong statement that requires stronger evidence.
+  - **Resolution test** Provide the correlation coefficient, p-value, and confidence interval for the relationship in Fig. 5(f). Ideally, include additional data points (e.g., different ionic strengths, mutants, or other IDP sequences) to increase the sample size. Alternatively, temper the claim to reflect the preliminary nature of the observation. If possible, perform a leave-one-out analysis to assess the influence of each system on the correlation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim of observable-dependent time rescaling
+  - **Claim pointer** The authors state that time rescaling "can depend on the chosen observable" (abstract) and discuss in the results that time-rescaling factors inferred from diffusion are 1.5- to 5-fold smaller than those from reconfiguration times.
+  - **Evidence pointer** Figure S2, described in text; location not provided
+  - **Concern** The authors themselves acknowledge that "the present data do not allow us to unequivocally attribute the discrepancy to the intrinsic observable dependence of the coarse-grained time mapping" due to large statistical and systematic uncertainties in the diffusion estimates. Despite this, the abstract presents observable dependence as a finding. This is an overstatement of the evidence. The diffusion measurements are acknowledged to be affected by finite-size effects, slab geometry, and heterogeneous local environments, all of which could contribute to the discrepancy without implying intrinsic observable dependence of the time mapping.
+  - **Why it matters** The claim of observable-dependent time rescaling, if true, would have significant implications for how CG simulation dynamics are interpreted, as it would imply that no single rescaling factor can be used for all dynamical properties. However, if the discrepancy is due to measurement artifacts, the conclusion is not supported. Presenting this as a finding in the abstract without the caveat that it is not unequivocally established is misleading.
+  - **Resolution test** Either provide more precise diffusion measurements that reduce the uncertainties to a level where the discrepancy is significant, or revise the abstract and conclusions to clearly state that observable dependence is suggested but not established. If possible, use longer simulations or improved estimators to reduce statistical uncertainty in the diffusion coefficients.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the findings
+  - **Claim pointer** The authors state in the conclusions that "the scope of this manuscript extends beyond charged biomolecular condensates" and draw connections to folded proteins and soft-matter liquids.
+  - **Evidence pointer** Conclusions section
+  - **Concern** The generalizability claims are based on a single IDP (ProTα) and four cationic partners, all of which form complex coacervates. The extension to folded proteins and soft-matter liquids is speculative and not directly supported by the data presented. While the conceptual connections are reasonable, the manuscript does not provide evidence that the observed non-transferability of time rescaling is a general phenomenon. The authors themselves note that the Mpipi-Recharged model, with different interaction potentials, shows similar equilibrium behavior, but no dynamical comparison is made with that model.
+  - **Why it matters** The broader significance of the work depends in part on whether the findings are specific to the HPS model and the systems studied, or whether they reflect a general property of CG simulations. If the conclusions are overstated, the impact of the work is diminished and future researchers may be misled about the generality of the effect.
+  - **Resolution test** Either provide additional evidence from other CG models or other IDP systems to support the generalizability claims, or temper the conclusions to clearly state that the findings are specific to the systems and model studied, with the broader implications presented as hypotheses for future work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility of methods
+  - **Affected element** Methods section, simulation parameters
+  - **Evidence pointer** Models and Methods section
+  - **Issue** Several simulation parameters are not specified: the number of protein chains in each system beyond the H1-ProTα case, the exact box dimensions for each system, the temperature coupling scheme, the integration time step rationale, and the specific implementation of the Langevin dynamics (e.g., stochastic integration algorithm). The friction coefficient range explored in Fig. 5 is mentioned but the specific values are not listed.
+  - **Required correction** Provide a table or list of all simulation parameters for each system, including box dimensions, number of chains, ionic strength values, friction coefficients, and simulation lengths. This is essential for reproduction and for assessing the robustness of the conclusions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical treatment of uncertainties
+  - **Affected element** Results, dense-phase concentrations and FRET efficiencies
+  - **Evidence pointer** Figures 1–3, described in text
+  - **Issue** The uncertainties reported for dense-phase concentrations and FRET efficiencies are described as standard deviations across chains or blocks, but the number of independent samples is not stated. For the dense-phase concentration, the uncertainty is compared to experimental uncertainty, but the method for estimating the experimental uncertainty is not described.
+  - **Required correction** State the number of independent samples or chains used for each average and the method for estimating uncertainties. Clarify how the experimental uncertainties were obtained (e.g., from the cited references).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of the Kramers-like interpretation
+  - **Affected element** Results and Discussion, Fig. 5(f) discussion
+  - **Evidence pointer** Results and Discussion section
+  - **Issue** The Kramers-like interpretation is introduced somewhat abruptly. The connection between the equilibrium interaction energy Eint and the activation barrier ΔG‡ is not clearly defined. The parameter Λ is introduced but its physical meaning is not discussed. The authors do note that Eint is not an activation free energy, but the logical chain from Eint to the rescaling factor could be made more explicit.
+  - **Required correction** Provide a more explicit derivation or justification for why Eint should scale with the effective barrier. Discuss what Λ represents physically and whether it is expected to be universal or system-specific. Consider whether alternative explanations (e.g., differences in local viscosity or contact topology) are equally consistent with the data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison with previous work
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites previous work on time rescaling in CG simulations (references 30–35) but does not provide a detailed comparison of the present findings with those earlier studies. It would be useful to know whether the non-transferability observed here is consistent with or contradicts previous observations in other systems.
+  - **Required correction** Add a paragraph in the Discussion that explicitly compares the present findings with previous studies on time rescaling in CG simulations, highlighting similarities and differences in the systems studied and the conclusions drawn.
+
+## Risk / unsupported claims
+- The claim that time rescaling "strongly correlates" with interaction energy is not statistically supported with only four data points and no reported correlation coefficient or significance test.
+- The claim that time rescaling "can depend on the chosen observable" is presented in the abstract but is acknowledged in the text as not unequivocally established due to large uncertainties in diffusion measurements.
+- The generalizability of the findings to folded proteins and soft-matter liquids is speculative and not directly supported by the data.
+- The statement that "the remaining discrepancies between simulated and experimental dense-phase concentrations may indicate that arginine-mediated interactions are slightly too strong" is presented as a hypothesis without direct evidence, though it is appropriately hedged.
+- The claim that the HPS model reproduces "key equilibrium observables" is supported by the text, but the quantitative agreement (e.g., how close the simulated values are to experimental ones) is not fully documented in the provided text.
+- The assertion that the correlation in Fig. 5(f) is "consistent with an exponential relationship" is based on a visual inspection of a log-linear plot with four points and is not quantitatively tested.

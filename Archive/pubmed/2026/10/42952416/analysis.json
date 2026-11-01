@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42952416",
+  "title": "Proteases and proteolysis in biomolecular condensates.",
+  "authors": "Moschou, Panagiotis N; Bozhkov, Peter V",
+  "journal": "Journal of experimental botany",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述蛋白酶在生物分子凝聚体中的行为受物理状态调控，涉及相分离与蛋白水解互作，但无AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "Proteases have long been conceptualised as enzymes operating in dilute aqueous environments. Yet many localise to biomolecular condensates, which arise through phase separation. We argue that protease behaviour is governed by the condensate's physical regime: a dynamic liquid-like state, a surface-associated wetting layer, a slowed gel-like state, or a kinetically arrested solid. Each regime constrains protease kinetics, for example by slowing diffusion of protease and substrate. Activity can also be dictated by condensate composition rather than protease concentration alone: the local environment can alter substrate affinities, reshape enzyme conformational equilibria beyond bulk mass-action predictions, and buffer pH. Proteolysis need not occur in the dense phase; the interface can be an additional reaction compartment. Recent evidence suggests that condensates can hydrolyse substrates even without an enzyme, so cleavage attributed to a resident protease needs a catalytically inactive control to separate enzyme-catalysed proteolysis from condensate-mediated hydrolysis. Examining plant proteases through these lenses, we argue that the regimes themselves can be a consequence of proteolysis. Direct evidence linking proteases to condensate regulation, and vice versa, remains limited. Closing this gap will require regime-aware kinetics, phase-resolved measurements of dense-phase concentration, mobility and turnover, and falsifiable models integrating proteolysis with condensate physics.",
+  "abstract_zh": "蛋白酶长期以来被视为在稀薄水相环境中发挥作用的酶。然而，许多蛋白酶定位于通过相分离 (phase separation) 形成的生物分子凝聚体 (biomolecular condensates) 中。我们认为，蛋白酶行为受凝聚体的物理状态支配：动态液态状、表面相关的润湿层、减缓的凝胶状状态，或动力学停滞的固态。每种状态都限制蛋白酶动力学，例如通过减缓蛋白酶和底物的扩散。活性也可能由凝聚体组成决定，而非仅由蛋白酶浓度决定：局部环境可改变底物亲和力，重塑酶构象平衡，超越本体质量作用预测，并缓冲pH值。蛋白水解未必发生在致密相中；界面可作为额外的反应区室。近期证据表明，凝聚体即使无酶也能水解底物，因此，归因于驻留蛋白酶的切割需要催化失活对照，以区分酶催化的蛋白水解与凝聚体介导的水解。通过这些视角审视植物蛋白酶，我们认为这些状态本身可能是蛋白水解的结果。直接证据将蛋白酶与凝聚体调控联系起来，反之亦然，仍有限。弥合这一差距需要状态感知的动力学、致密相浓度、迁移率和周转的相分辨测量，以及将蛋白水解与凝聚体物理学整合的可证伪模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42952416/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42952416/",
+  "paper_page_path": "papers/pubmed/42952416/index.html"
+}

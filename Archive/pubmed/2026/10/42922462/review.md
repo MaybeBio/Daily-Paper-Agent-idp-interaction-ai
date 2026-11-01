@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Abstract only, plus bibliographic metadata for a bioRxiv preprint. No full text, figures, tables, or supplementary materials were supplied.
+- **Assessment boundary** Evaluation is restricted to the claims stated in the abstract and to what can be inferred from the abstract alone. No assessment of experimental design details, statistics, controls, or data quality is possible beyond what the abstract asserts.
+- **Shared manuscript claim summary** The authors claim that scaffold binding affinity (Kd), with scaffold valency held constant, quantitatively determines condensate phase behavior, internal dynamics, and biochemical output; that affinity governs the phase boundary, resistance to chemical perturbation, and molecular mobility in vitro and in human cells; that in multicomponent mixtures the highest-affinity scaffold dominates dense-phase composition and dynamics, yielding a hierarchical organizational rule; and that affinity-dependent changes in condensate dynamics translate into tunable enzyme activity, making binding energetics an engineerable parameter.
+- **Visible evidence base** Abstract text only. The abstract reports a modular SUMO-SIM system with constant valency and systematically varied affinity, in vitro and human cell measurements, multicomponent mixtures, and enzyme activity readouts. No quantitative results, effect sizes, sample sizes, statistics, or figure references are provided in the supplied material.
+- **Missing materials affecting confidence** Full text, all main and supplementary figures, methods, statistical analysis, replicate information, construct and mutant characterization, valency verification data, and the enzyme activity assay details. These omissions prevent verification of essentially every quantitative claim.
+
+## Reviewer
+- **Overall assessment** The central idea, that scaffold binding affinity is a tunable and quantitative determinant of condensate behavior and function, is conceptually clear and of potential interest. However, the supplied material is an abstract only, and it contains no quantitative data, no statistics, no controls, and no methodological detail. As presented, the claims are plausible but not established. The abstract asserts a broad causal chain from affinity to phase boundary to dynamics to enzymatic output, and each link is currently unverifiable from the provided evidence. The work cannot be evaluated for technical soundness at this stage.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensate biology, soft matter and biophysics, synthetic biology, and protein engineering would be interested, because the claim that binding energetics is an engineerable parameter for programming condensate biochemistry, if substantiated, would connect thermodynamic parameters to functional output in a design-relevant way. Cell biologists studying compartmentalization and enzymology in crowded or phase-separated environments would also be a natural audience.
+- **Major strengths** The conceptual framing is attractive. Holding scaffold valency constant while systematically varying affinity is a sensible strategy to isolate the contribution of binding energetics from avidity effects, which are frequently confounded in condensate studies. Extending the analysis from in vitro to human cells and from phase behavior to enzymatic output addresses multiple levels of the problem. The multicomponent mixture experiment, if properly controlled, could support a hierarchical organizational rule that would be of broad interest. The stated goal of identifying an engineerable parameter is well aligned with the needs of the condensate engineering community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Causal inference and confound control
+    - **Claim pointer** Scaffold binding affinity, with valency held constant, quantitatively determines condensate phase behavior, internal dynamics, and biochemical output.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract asserts that valency was held constant while affinity was systematically varied, but no data are supplied to demonstrate that valency, oligomerization state, scaffold concentration, or interaction geometry were in fact unchanged across the affinity series. Affinity changes are typically introduced by mutating interface residues, which can alter folding, self-association, or nonspecific interactions independently of Kd.
+    - **Why it matters** If valency or scaffold self-association varies across the series, the observed changes in phase boundary, dynamics, and activity cannot be attributed to affinity. This is the load-bearing assumption of the entire study.
+    - **Resolution test** Provide direct measurements of scaffold valency and oligomerization state for each affinity variant, together with orthogonal binding measurements (for example isothermal titration calorimetry or surface plasmon resonance) confirming the intended Kd range, and show that these are uncorrelated with the functional readouts.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Quantitative support for the affinity-phase boundary relationship
+    - **Claim pointer** Affinity governs the phase boundary and resistance to chemical perturbation.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** No phase diagrams, saturation concentrations, transition temperatures, or perturbation dose-response data are reported in the supplied material. The claim of a quantitative relationship between Kd and the phase boundary is asserted without any reported functional form, correlation coefficient, or uncertainty.
+    - **Why it matters** A quantitative determinant claim requires a quantitative relationship. Without phase boundary data and a stated model linking Kd to saturation concentration, the claim is not evaluable.
+    - **Resolution test** Report phase diagrams or saturation concentrations as a function of Kd across the variant series, with replicates, uncertainties, and a fitted or predicted relationship, and demonstrate that the relationship is monotonic or otherwise well defined.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Functional linkage between dynamics and enzyme activity
+    - **Claim pointer** Affinity-dependent changes in condensate dynamics translate into tunable enzyme activity.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract asserts a causal translation from condensate dynamics to enzymatic output, but no mechanism, kinetic model, or control experiment is described. It is not stated whether the enzyme itself is a client, whether substrate partitioning changes with affinity, or whether the observed activity differences arise from altered local concentration rather than dynamics.
+    - **Why it matters** The claim that binding energetics is an engineerable parameter for programming condensate biochemistry depends on this link. If activity changes are explained by substrate partitioning or enzyme recruitment rather than dynamics, the stated conclusion is not supported.
+    - **Resolution test** Provide enzyme kinetics as a function of affinity variant, together with measurements of enzyme and substrate partitioning into the dense phase, and show that activity scales with a dynamics metric after accounting for local concentration effects. Include a variant that alters dynamics without altering partitioning, or vice versa, to dissociate the two.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Multicomponent hierarchy claim
+    - **Claim pointer** In multicomponent mixtures, the highest-affinity scaffold dominated dense-phase composition and dynamics, revealing a hierarchical rule for condensate organization.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The claim of a general hierarchical rule is based on an unspecified number of scaffolds and compositions. The abstract does not state how many components were tested, whether the rule holds across concentration ratios, or whether it is specific to the SUMO-SIM system.
+    - **Why it matters** A hierarchical rule presented as general requires demonstration across a range of compositions and, ideally, an orthogonal scaffold system. Otherwise the observation may be a system-specific effect.
+    - **Resolution test** Report dense-phase composition as a function of affinity and relative concentration for multiple mixture compositions, and test the rule in at least one independent scaffold system.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** In vitro to cell generalization
+    - **Claim pointer** Affinity governs phase boundary, resistance to chemical perturbation, and molecular mobility in vitro and in human cells.
+    - **Evidence pointer** Abstract only; location not provided.
+    - **Concern** The abstract claims parallel behavior in vitro and in human cells but provides no information on expression levels, endogenous interaction partners, or whether the cellular condensates are compositionally equivalent to the in vitro system.
+    - **Why it matters** Cellular condensates are subject to competition, chaperones, and active processes absent in vitro. Claiming the same affinity rule operates in both settings requires evidence that the cellular structures are the intended scaffolds and not altered by the cellular environment.
+    - **Resolution test** Show colocalization and composition of the cellular condensates, quantify expression levels across variants, and demonstrate that the affinity-dependent trends in cells are not explained by expression differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology precision
+    - **Affected element** Use of "scaffold affinity" and "binding energetics"
+    - **Evidence pointer** Abstract; location not provided.
+    - **Issue** The abstract uses scaffold binding affinity, binding energetics, and Kd interchangeably without specifying whether Kd refers to scaffold-scaffold, scaffold-client, or scaffold-RNA interactions.
+    - **Required correction** Define the specific interaction whose Kd is varied and state the units and measurement method.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Quantitative reporting
+    - **Affected element** Abstract claims of "systematically varied" affinity
+    - **Evidence pointer** Abstract; location not provided.
+    - **Issue** The range and spacing of Kd values are not stated, so the reader cannot judge whether the variation is sufficient to test the claim.
+    - **Required correction** Report the Kd range and the number of variants in the abstract or in a summary table.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Reproducibility and statistics
+    - **Affected element** All quantitative claims
+    - **Evidence pointer** Abstract; location not provided.
+    - **Issue** No replicate numbers, uncertainties, or statistical tests are reported in the supplied material.
+    - **Required correction** Provide replicate counts, error estimates, and the statistical tests used for each comparison.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract phrasing
+    - **Evidence pointer** Abstract; location not provided.
+    - **Issue** Terms such as "phase boundary," "resistance to chemical perturbation," and "hierarchical rule" are used without brief operational definitions, which limits accessibility for the broad readership implied by the framing.
+    - **Required correction** Add short operational definitions or examples for these terms in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concern the central causal chain and are blocking. R1-M4 and R1-M5 are important but not blocking on their own.
+- **Assessment against Nature-style criteria** Originality is moderate to high in concept, since linking a single thermodynamic parameter to condensate function across scales is a recognized open question, though the abstract does not establish novelty relative to prior work. Scientific importance is potentially high if the causal chain is substantiated, but is currently asserted rather than demonstrated. Interdisciplinary readership is plausible, spanning biophysics, cell biology, and synthetic biology, but the abstract does not yet make the work accessible or compelling to nonspecialists. Technical soundness cannot be assessed from the supplied material, and the absence of any quantitative data, controls, or statistics is a serious limitation at this stage. Readability for nonspecialists is adequate in tone but relies on undefined jargon.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, but the supplied material is an abstract only and does not permit verification of any of the central claims. A full evaluation requires the complete manuscript, figures, methods, and data.
+
+## Risk / unsupported claims
+- The claim that valency was held constant while affinity was varied is unsupported by any presented measurement.
+- The claim that affinity quantitatively determines the phase boundary is unsupported, as no phase boundary data or functional relationship are provided.
+- The claim that affinity governs resistance to chemical perturbation is unsupported, as no perturbation data are provided.
+- The claim that affinity-dependent changes in dynamics translate into tunable enzyme activity is unsupported, as no kinetics, partitioning, or mechanism data are provided.
+- The claim of a hierarchical rule in multicomponent mixtures is unsupported, as the number of components, compositions, and generality tests are not reported.
+- The claim that the same affinity rule operates in vitro and in human cells is unsupported, as no cellular characterization data are provided.
+- The claim that binding energetics is an engineerable parameter for programming condensate biochemistry is a forward-looking conclusion that cannot be evaluated without the underlying data.

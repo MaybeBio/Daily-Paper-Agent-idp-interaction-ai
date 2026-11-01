@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supporting data were available for evaluation
+- **Shared manuscript claim summary** The authors present an off-lattice coarse-grained stickers-and-spacers polymer model implemented in the GPU-accelerated OpenABC package, using directional sticker-sticker interactions to encode limited valency. Simulations of one-component systems show that sticker affinity and multivalency promote porous network-like condensates, while nonspecific spacer interactions drive phase separation but yield compact spacer-dominated dense phases. When both interaction types coexist, strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts sticker-mediated networks. In two-component systems, specific sticker interactions buffer client recruitment into host condensates, while nonspecific spacer interactions produce reservoir-dependent uptake. The authors conclude that spacer heterogeneity promotes condensation at the cost of condensate organization and compositional robustness, providing a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods sections, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, simulation parameters, model validation details, system size and equilibration protocols, statistical analyses, and comparison with experimental or prior computational benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially impactful computational study addressing a central question in the biology of biomolecular condensates, namely the trade-off between condensation propensity and internal organization in stickers-and-spacers polymers. The proposed model, with its geometric encoding of valency, is a plausible and potentially useful methodological contribution. However, the abstract alone provides insufficient detail to assess the technical soundness of the simulations, the robustness of the conclusions, or the quantitative support for the central trade-off claim. Several statements are qualitative and would require specific data to be convincing. The work is likely to interest the biomolecular condensate community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation of intrinsically disordered proteins, coarse-grained polymer simulations, and the physical chemistry of multivalent interactions. The methodological advance in encoding valency through interaction geometry could also interest computational biophysicists developing efficient simulation tools for IDP systems.
+- **Major strengths** The conceptual framing of a trade-off between condensation and organization is timely and addresses a gap in current understanding. The use of directional interactions to encode limited valency without explicit bond assignment is an elegant and potentially efficient approach. The distinction between sticker-driven and spacer-driven phase separation, and the exploration of their interplay, is a valuable conceptual contribution. The two-component results on client recruitment add a layer of functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model uses a directional sticker-sticker interaction to encode limited valency through interaction geometry, producing effectively one-to-one sticker binding without explicit bond assignment.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract provides no details on how the directional interaction is parameterized, how the geometry enforces one-to-one binding, whether the interaction is reversible under thermal fluctuations, or how the model avoids artifacts such as kinetic trapping or unphysical binding geometries. No validation against known stickers-and-spacers behavior or experimental benchmarks is described.
+  - **Why it matters** The central methodological claim is that valency is encoded geometrically. If this encoding is not robust across the parameter ranges explored, all subsequent conclusions about network formation and organization could be artifacts of the interaction design rather than physical properties of the system.
+  - **Resolution test** Provide a detailed description of the interaction potential, a demonstration that one-to-one binding is maintained across the range of sticker affinities and temperatures used, and a validation against a reference model or experimental data for a known stickers-and-spacers system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** Strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts the sticker-mediated network.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states this as a definitive result, but no quantitative measures are reported. It is unclear how sticker conversion, sticker mobility, and network disruption are defined and measured. No error bars, statistical significance, or parameter sweeps are mentioned.
+  - **Why it matters** This is the central mechanistic claim of the paper. Without quantitative definitions and statistical support, the claim cannot be evaluated, and the trade-off conclusion rests on this result.
+  - **Resolution test** Report the specific order parameters used to quantify conversion, mobility, and network integrity, with statistical analysis across independent simulation replicates and a parameter sweep showing the dependence on spacer heterogeneity strength.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** In two-component systems, specific sticker interactions buffer client recruitment into host condensates, while nonspecific spacer interactions produce reservoir-dependent uptake.
+  - **Evidence pointer** Location not provided
+  - **Concern** The two-component results are presented without any quantitative context. It is unclear what is meant by buffering, how reservoir-dependent uptake is measured, and whether these effects are robust across different client concentrations, host compositions, and interaction strengths.
+  - **Why it matters** The two-component behavior is presented as a key functional consequence of the trade-off. Without quantitative support, the claim that spacer heterogeneity compromises compositional robustness is not established.
+  - **Resolution test** Provide partition coefficient measurements for clients under varying host and client concentrations, with and without spacer heterogeneity, and demonstrate that the buffering and reservoir-dependent effects are statistically robust.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** These results support a trade-off in which spacer heterogeneity promotes condensation at the cost of condensate organization and compositional robustness, providing a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not state the range of parameters explored, the number of systems simulated, or whether the trade-off holds across different polymer lengths, sticker spacings, and interaction strengths. The generalization to low-complexity IDP regions is speculative without a direct connection to sequence features of real IDPs.
+  - **Why it matters** The broader biological relevance of the work depends on the generality of the trade-off. If it only holds in a narrow parameter regime, the physical rationale for suppressing spacer interactions in real IDPs would be weakened.
+  - **Resolution test** Show that the trade-off is robust across a systematic parameter sweep, and discuss how the model parameters map onto sequence features of real low-complexity IDP regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term sticker conversion is used without definition.
+  - **Required correction** Define sticker conversion explicitly, for example as the fraction of stickers engaged in bound pairs at steady state.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model implementation
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract states the model is implemented in OpenABC, but no version, parameter file, or availability statement is mentioned.
+  - **Required correction** Provide the software version, simulation input files, and a statement on code and data availability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with prior work
+  - **Affected element** Context
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract does not state how the results compare with prior stickers-and-spacers models, particularly those using explicit bond assignment or different valency encoding schemes.
+  - **Required correction** Add a brief comparison with prior models, highlighting what the geometric valency approach adds or changes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Phase diagrams
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract mentions phase separation but does not report any phase boundaries or critical parameters.
+  - **Required correction** Include a phase diagram or at least report the critical sticker affinity and spacer interaction strength for phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The model validation, quantitative definitions of key observables, and statistical support for the two-component claims are all missing from the supplied material.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the geometric valency encoding and the explicit trade-off framing are not standard in the field. Scientific importance is potentially high for the condensate community, but the current evidence does not establish the claims. Interdisciplinary readership is plausible, as the work bridges polymer physics, computational biology, and cell biology. Technical soundness cannot be assessed from the abstract alone, and this is the primary weakness. Readability for nonspecialists is acceptable, though the abstract uses field-specific terms without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing and methodological idea are promising, and I would be supportive if the technical concerns regarding model validation, quantitative support, and statistical robustness are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the model produces effectively one-to-one sticker binding without explicit bond assignment is unsupported, as no validation or parameterization details are provided.
+- The claim that strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts the sticker-mediated network is unsupported, as no quantitative measures or statistical analyses are reported.
+- The claim that specific sticker interactions buffer client recruitment while nonspecific spacer interactions produce reservoir-dependent uptake is unsupported, as no partition data or concentration dependence is shown.
+- The general conclusion that spacer heterogeneity promotes condensation at the cost of organization and compositional robustness is not established from the abstract alone, as the parameter range and robustness of the trade-off are not documented.
+- The connection to low-complexity IDP regions is speculative, as no mapping between model parameters and real IDP sequence features is provided.

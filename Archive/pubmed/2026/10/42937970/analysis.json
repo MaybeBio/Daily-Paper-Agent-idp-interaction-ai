@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42937970",
+  "title": "Negative Interfacial Tension Driven by Intrinsic Molecular Disorder.",
+  "authors": "Tang, Chuan; Huang, Yifan; Ren, Chun-Lai; Tang, Qiyun; Ma, Yu-Qiang",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 8,
+  "one_liner_zh": "用耦合场论揭示内在无序分子系统中序列随机性通过负界面张力稳定幂律团簇分布，为无序蛋白相分离/凝聚体的物理机制建模提供统一理论框架。",
+  "abstract": "Intrinsically disordered molecular systems, such as random copolymers and intrinsically disordered proteins, exhibit scale-invariant, power-law cluster distributions that cannot be explained by conventional mean-field theories. A fundamental challenge is to understand how sequence randomness, which cannot be averaged into effective parameters, drives the formation of such polydisperse assemblies. Using a minimal coupled field theory that explicitly links a conserved density field to a nonconserved \"junction\" field representing stochastic binding site density, we show that the attraction between two fields chi, together with the fluctuations in the junction field Tϵ, renormalizes the effective interfacial tension to negative values: Deltagamma  approximately  -Tϵchi2. This negative interfacial tension suppresses coalescence and stabilizes a scale-invariant ensemble of clusters with a power-law size distribution, as confirmed by both numerical calculations and coarse-grained simulations of sequence-disordered biomolecules, and are consistent with diverse experimental observations. Our work reveals a general physicochemical mechanism by which intrinsic molecular disorder and fluctuations jointly govern phase separation in systems with built-in randomness, providing a unifying, chemistry-oriented framework for understanding and engineering heterogeneous soft matter systems.",
+  "abstract_zh": "intrinsically无序的分子系统，如随机共聚物和 intrinsically无序蛋白质，表现出尺度不变、幂律分布的团簇分布，这无法用传统的平均场理论解释。一个根本性挑战是理解序列随机性（无法平均化为有效参数）如何驱动这种多分散组装体的形成。通过使用一个最小耦合场理论，该理论明确地将一个守恒密度场与一个表示随机结合位点密度的非守恒“连接”场联系起来，我们表明两个场之间的吸引力 chi 与连接场 Tϵ 的涨落共同将有效界面张力重整化为负值：Deltagamma 约等于 -Tϵchi2。这种负界面张力抑制了聚并，并稳定了一个具有幂律尺寸分布的尺度不变团簇系综，这一点通过数值计算和序列无序生物分子的粗粒化模拟得到证实，并与多种实验观察一致。我们的工作揭示了一种普遍的物理化学机制，通过该机制，内在分子无序性和涨落共同控制具有内置随机性系统中的相分离，为理解和工程化异质软物质系统提供了一个统一的、以化学为导向的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42937970/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42937970/",
+  "paper_page_path": "papers/pubmed/42937970/index.html"
+}

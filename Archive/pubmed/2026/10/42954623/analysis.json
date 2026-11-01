@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42954623",
+  "title": "Valency-Limited Molecular Dynamics Simulations of Stickers-and-Spacers Polymers Reveal a Trade-Off between Condensation and Organization.",
+  "authors": "Zhang, Yumeng; Sood, Amogh; Athreya, Advait; Zhang, Bin",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 8,
+  "one_liner_zh": "用GPU加速的粗粒化分子动力学模拟stickers-and-spacers模型，揭示IDP凝聚体中非特异spacer相互作用在促进相分离与破坏sticker网络组织之间的权衡，直接关联无序蛋白相分离/凝聚体的互作机制建模。",
+  "abstract": "Biomolecular condensates formed by intrinsically disordered proteins (IDPs) are often described using stickers-and-spacers models, in which specific sticker motifs form reversible cross-links and spacer regions modulate phase behavior. Recent theory predicts that heterogeneous nonspecific spacer interactions can promote condensation but may also disrupt sticker-mediated organization. Here, we develop an off-lattice coarse-grained stickers-and-spacers polymer model for continuous molecular dynamics simulations and implement it in the GPU-accelerated OpenABC package. The model uses a directional sticker-sticker interaction to encode limited valency through interaction geometry, producing effectively one-to-one sticker binding without explicit bond assignment. Simulations of one-component systems show that sticker affinity and multivalency promote porous, network-like condensates, while nonspecific spacer interactions can also drive phase separation but produce more compact, spacer-dominated dense phases. When both interaction types are present, strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts the sticker-mediated network. In two-component systems, specific sticker interactions buffer client recruitment into host condensates, while nonspecific spacer interactions produce reservoir-dependent uptake. These results support a trade-off in which spacer heterogeneity promotes condensation at the cost of condensate organization and compositional robustness, providing a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions.",
+  "abstract_zh": "由内在无序蛋白（intrinsically disordered proteins, IDPs）形成的生物分子凝聚体（biomolecular condensates）通常用粘性单元-间隔单元（stickers-and-spacers）模型来描述，其中特定的粘性基序（sticker motifs）形成可逆交联，间隔区域（spacer regions）调节相行为。近期理论预测，异质性非特异性间隔单元相互作用可以促进凝聚，但也可能破坏粘性单元介导的组织。在此，我们开发了一种用于连续分子动力学（molecular dynamics）模拟的非格点粗粒化粘性单元-间隔单元聚合物模型，并将其实现在GPU加速的OpenABC软件包中。该模型利用方向性粘性单元-粘性单元相互作用，通过相互作用几何来编码有限价态，在无需显式键分配的情况下产生有效的一对一粘性单元结合。单组分体系的模拟表明，粘性单元亲和力和多价性促进多孔、网络状凝聚体的形成，而非特异性间隔单元相互作用也能驱动相分离，但产生更致密、以间隔单元为主的密集相。当两种相互作用类型同时存在时，强间隔单元异质性降低粘性单元转化率、抑制粘性单元迁移率，并破坏粘性单元介导的网络。在双组分体系中，特异性粘性单元相互作用缓冲了客户分子（client）被招募进入宿主凝聚体的过程，而非特异性间隔单元相互作用则产生依赖于储库（reservoir）的摄取。这些结果支持一种权衡关系，即间隔单元异质性以凝聚体组织和组成稳健性为代价促进凝聚，为低复杂度IDP区域中混杂间隔单元相互作用的抑制提供了物理依据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42954623/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42954623/",
+  "paper_page_path": "papers/pubmed/42954623/index.html"
+}

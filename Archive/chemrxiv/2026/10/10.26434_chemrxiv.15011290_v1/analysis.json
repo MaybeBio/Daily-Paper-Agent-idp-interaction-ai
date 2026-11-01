@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15011290/v1",
+  "title": "Comparative Analysis of Basic Machine Learning and Rigorous Free-Energy Calculation on Benchmarking Datasets of Protein-Ligand Binding Affinity",
+  "authors": "Stefan J. P. Chrin; Gregory A. Landrum; Sereina Riniker",
+  "journal": "ChemRxiv",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该文比较基础机器学习与自由能微扰(FEP)在蛋白-配体结合亲和力基准数据集上的表现，对象为小分子配体而非无序蛋白/PPI，方法虽涉及MD与ML但聚焦亲和力预测而非互作机制建模，与本课题关联弱。",
+  "abstract": "Rigorous free-energy methods based on molecular dynamics simulations like free-energy perturbation (FEP) are nowadays widely applied in lead optimization in pharmaceutical companies. Due to sampling restrictions and potential force-field deficiencies, it is common practice to first validate the applicability of FEP to a target/chemical series using a small number of known compounds, before applying it prospectively. As rigorous methods require significant computational resources, we want to explore how basic machine learning (ML) methods perform under the same conditions, i.e., training on a small number of known compounds and estimating the affinity of novel variants in the same chemical series. We apply classical ML models using 2D and 3D molecular descriptors, alongside two implementations of 3D quantitative structure–activity relationship modeling, and integrate the predictions through meta-learning. For many of the standard benchmarking datasets, we find that one of the ML models matches or exceeds the performance of FEP. Interestingly, ML-based predictions generally exhibit flatter slopes in parity plots, but without substantial effect on the relative rank ordering of compounds. Given their lower computational cost and ease of deployment, basic ML methods, particularly the meta-learner, emerge as a powerful complement to rigorous free-energy methods for estimating binding affinities within chemical series.",
+  "abstract_zh": "基于分子动力学 (molecular dynamics) 模拟的严格自由能方法，如自由能扰动 (free-energy perturbation, FEP)，如今在制药公司的先导化合物优化中得到了广泛应用。由于采样限制和潜在的力场缺陷，通常的做法是首先使用少量已知化合物验证 FEP 对某个靶点/化学系列的适用性，然后再将其用于前瞻性应用。由于严格方法需要大量计算资源，我们希望探索基本机器学习 (machine learning, ML) 方法在相同条件下的表现，即在少量已知化合物上训练，并估计同一化学系列中新变体的亲和力。我们应用了使用 2D 和 3D 分子描述符的经典 ML 模型，以及两种 3D 定量构效关系 (quantitative structure–activity relationship) 建模实现，并通过元学习 (meta-learning) 整合预测结果。对于许多标准基准数据集，我们发现其中一个 ML 模型达到或超过了 FEP 的性能。有趣的是，基于 ML 的预测在 parity plot 中通常表现出更平坦的斜率，但对化合物的相对排序没有实质性影响。鉴于其较低的计算成本和易于部署，基本 ML 方法，特别是元学习器 (meta-learner)，成为在化学系列内估计结合亲和力时对严格自由能方法的有力补充。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15011290/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15011290/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15011290_v1/index.html"
+}

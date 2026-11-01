@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42940334",
+  "title": "Unraveling Pectin-Protein Interactions in Milk-Based Cocoa Beverages: Molecular Docking and Microstructure.",
+  "authors": "Akyil Ozturk, Saniye; Habibzadeh Khiabani, Arezou; Kamer, Deniz Damla Altan; Karaca, Ali Can; Konar, Nevzat; Simsek, Senay; Toker, Omer Said",
+  "journal": "Foods (Basel, Switzerland)",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用分子对接评估果胶与牛奶蛋白的结合亲和力以优化可可饮料稳定性，虽涉及蛋白-多糖互作和对接方法，但对象为折叠蛋白与多糖而非无序蛋白/IDR，且互作机制深度有限，仅部分可迁移启发。",
+  "abstract": "This study investigated the synergistic effects of pectin concentration (0.038-0.462%) and homogenization pressure (5.85-34.1 MPa) on the physical and microstructural stability of milk-based cocoa beverages. A Central Composite Rotatable Design (CCRD) was employed to optimize these parameters by evaluating critical quality attributes, including water-holding capacity (WHC), sedimentation, creaming index, apparent viscosity, and colloidal stability. To elucidate the underlying stabilization mechanisms, molecular docking simulations were integrated to assess the thermodynamic binding affinities between pectin (D-galacturonic acid) and major milk proteins. Numerical optimization identified 0.40% pectin and a homogenization pressure of 10 MPa as the optimal formulation and processing conditions. Under these conditions, the beverage achieved a maximum WHC of 86.04%, complete elimination of macroscopic phase separation (n.d. sedimentation and creaming), and an apparent viscosity of 67.39 mPa.s. Mechanistically, molecular docking revealed strong, multifaceted hydrogen-bonding and electrostatic interactions between pectin and milk proteins, with beta-lactoglobulin exhibiting the strongest predicted thermodynamic binding affinity (-6.3 kcal/mol). This macromolecular complexation promoted pronounced steric and electrostatic stabilization, as supported by the highly negative zeta potential (-30.8 mV) and enhanced microstructural uniformity observed through scanning electron microscopy-energy-dispersive X-ray spectroscopy (SEM-EDS) analysis. A rigorous 9-month storage study further demonstrated prolonged kinetic stability. Structural integrity was largely maintained, and macroscopic phase separation was substantially delayed despite time-dependent rheological rearrangements during storage. Furthermore, sensory profiling demonstrated high consumer acceptability, particularly for smoothness and homogeneity, with the optimized formulation outperforming the evaluated commercial counterparts. Collectively, these findings demonstrate the effectiveness of pectin in such beverage system and provide practical formulation and processing strategies for improving the physicochemical stability and shelf life of complex dairy-based dispersions.",
+  "abstract_zh": "本研究考察了果胶浓度（0.038–0.462%）与均质压力（5.85–34.1 MPa）对乳基可可饮料物理及微观结构稳定性的协同效应。采用中心复合旋转设计（Central Composite Rotatable Design, CCRD）优化这些参数，通过评价关键质量属性，包括持水力（water-holding capacity, WHC）、沉降、乳析指数、表观黏度和胶体稳定性。为阐明潜在的稳定机制，整合了分子对接（molecular docking）模拟，以评估果胶（D-半乳糖醛酸）与主要乳蛋白之间的热力学结合亲和力。数值优化确定0.40%果胶和10 MPa均质压力为最优配方与加工条件。在此条件下，饮料达到最大WHC 86.04%，完全消除宏观相分离（未检出沉降和乳析），表观黏度为67.39 mPa.s。在机制上，分子对接揭示果胶与乳蛋白之间存在强效、多方面的氢键和静电相互作用，其中β-乳球蛋白表现出最强的预测热力学结合亲和力（-6.3 kcal/mol）。这种大分子复合作用促进了显著的空间位阻和静电稳定，这由高度负的zeta电位（-30.8 mV）以及通过扫描电子显微镜-能量色散X射线光谱（SEM-EDS）分析观察到的增强微观结构均匀性所支持。严格的9个月贮藏研究进一步证明了延长的动力学稳定性。尽管贮藏期间发生时间依赖性流变重排，结构完整性基本得以维持，宏观相分离被显著延迟。此外，感官评价表明消费者接受度高，尤其在顺滑度和均匀性方面，优化配方优于所评估的商业对照产品。总体而言，这些发现证明了果胶在此类饮料体系中的有效性，并为改善复杂乳基分散体系的理化稳定性和货架期提供了实用的配方与加工策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42940334/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42940334/",
+  "paper_page_path": "papers/pubmed/42940334/index.html"
+}

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Abstract only, as provided in the submission record
+- **Assessment boundary** Evaluation is restricted to the abstract text and associated metadata. No full text, figures, tables, methods, or supplementary materials were supplied, so mechanistic, statistical, and methodological claims cannot be independently verified.
+- **Shared manuscript claim summary** Using all-atom molecular dynamics with a confinement setup, the authors report that a 12-residue p53 C-terminal domain (CTD) intrinsically disordered region (IDR) fragment adopts stable bound-like helical segments at 10 A from the S100B binding cleft in 150 mM NaCl but not in pure water; the effect is distance-dependent (absent at 20 A), specific to the native binding surface, and occurs without direct protein-IDR contacts. The proposed interpretation is that the negatively charged S100B surface organizes solvated ions into a structured long-range electrostatic microenvironment that thermodynamically stabilizes bound-like helical conformations before contact, making ions active participants in recognition.
+- **Visible evidence base** Abstract-level description of all-atom MD simulations, a confinement setup, two solvent conditions (pure water versus 150 mM NaCl), two distances (10 A and 20 A), a 12-residue p53 CTD fragment, and the S100B binding cleft. No numerical data, force-field details, sampling statistics, convergence metrics, or controls are visible.
+- **Missing materials affecting confidence** Full text; methods (force fields, water model, ion parameters, thermostat/barostat, confinement geometry and implementation); system sizes and replicate counts; simulation lengths and convergence analysis; definitions of "bound-like helical segments" and "stable"; free-energy or thermodynamic estimators supporting "thermodynamically stabilizes"; structural comparisons to the bound-state helix; controls for non-native surfaces, sequence composition, and ionic strength dependence; statistical treatment and uncertainty quantification; figures and tables.
+
+## Reviewer
+- **Overall assessment** The abstract describes a conceptually interesting simulation study that links ionic environment, surface electrostatics, and pre-organization of a disordered region prior to binding. The central claim, that a native binding surface can template a long-range ionic microenvironment that biases an IDR toward bound-like helical structure without direct contact, is potentially significant for the physical chemistry of molecular recognition. However, at the level of the supplied material, the claim is not established. The abstract reports a qualitative contrast between two solvent conditions and two distances, but provides no quantitative descriptors, no sampling or convergence evidence, no thermodynamic support for the word "thermodynamically," and no controls that would exclude trivial explanations such as altered ionic screening, changed peptide self-interactions, or confinement artifacts. The work is therefore promising but currently unverifiable from the visible evidence.
+- **Who would be interested in the results, and why** Researchers in protein biophysics and physical chemistry working on intrinsically disordered proteins, coupled folding and binding, and electrostatic steering; computational chemists interested in ion organization near charged protein surfaces and in confinement-based simulation strategies; and structural biologists studying p53 regulation and S100B interactions. If substantiated, the result would also interest those modeling encounter-complex formation and the role of solution ions in recognition.
+- **Major strengths** The question is well posed and addresses a genuine gap, namely how the ionic environment at longer range influences disorder-to-order transitions before contact. The proposed design, comparing solvent conditions and distances while excluding direct protein-IDR contacts, is a reasonable strategy to isolate a long-range effect. The claim of surface specificity, if properly controlled, would strengthen the mechanistic interpretation. The framing of ions as active participants in recognition is a clear and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidential support for the central claim
+    - **Claim pointer** The peptide spontaneously forms stable, bound-like helical segments at 10 A from the native binding surface exclusively in 150 mM NaCl, and this effect vanishes at 20 A.
+    - **Evidence pointer** Abstract only; no figures, tables, or methods provided. Location not provided.
+    - **Concern** The core result is presented as a binary contrast between two salt conditions and two distances, with no quantitative measure of helicity, no definition of "stable," no estimate of statistical uncertainty, and no information on replicate simulations or trajectory lengths. It is not possible to judge whether the observed difference exceeds sampling noise or reflects a reproducible shift in the conformational ensemble.
+    - **Why it matters** The entire mechanistic narrative depends on this contrast being robust. Without quantitative and statistical support, the claim of salt-induced pre-organization remains an assertion rather than a demonstrated result.
+    - **Resolution test** Report per-residue helicity distributions, the fraction of bound-like helical segments, and their residence times for each condition and distance, with replicate counts, simulation lengths, convergence diagnostics, and uncertainty estimates. Show that the salt versus water difference at 10 A is significant and reproducible across independent runs and, ideally, across force fields or water models.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic attribution and controls
+    - **Claim pointer** The negatively charged S100B surface organizes solvated ions into a structured, long-range electrostatic microenvironment that stabilizes bound-like helical conformations, and the effect is specific to the native binding surface.
+    - **Evidence pointer** Abstract only; no ion-density maps, electrostatic profiles, or surface controls provided. Location not provided.
+    - **Concern** The abstract asserts ion organization and surface specificity but does not describe any direct characterization of ion structuring, nor any comparison with a non-native or charge-scrambled surface, a different charged surface, or a sequence variant. Alternative explanations, including generic ionic screening, altered peptide-solvent interactions, or confinement-induced crowding, are not excluded.
+    - **Why it matters** Without direct evidence of ion structuring and without specificity controls, the proposed causal chain from surface topology to ion organization to peptide pre-organization is not distinguishable from nonspecific salt effects.
+    - **Resolution test** Provide ion density and residence-time profiles as a function of distance from the binding cleft, compare native versus non-native or charge-modified surfaces, and show that the helical pre-organization tracks the surface-specific ion organization rather than bulk ionic strength alone. Include ionic strength series to separate specific from screening effects.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Thermodynamic interpretation
+    - **Claim pointer** The long-range electrostatic microenvironment thermodynamically stabilizes bound-like helical conformations prior to direct contact.
+    - **Evidence pointer** Abstract only; no free-energy calculations or thermodynamic estimators reported. Location not provided.
+    - **Concern** The term "thermodynamically stabilizes" implies a free-energy statement, but the abstract reports only conformational observations from MD trajectories. No free-energy surfaces, potentials of mean force, or population-based thermodynamic estimates are described.
+    - **Why it matters** A thermodynamic claim requires thermodynamic evidence. If only structural sampling is available, the conclusion should be framed as a conformational bias or population shift, not as thermodynamic stabilization.
+    - **Resolution test** Provide free-energy estimates for helical versus non-helical states as a function of distance and salt condition, or explicitly reframe the claim as a conformational population shift. Demonstrate convergence of the relevant order parameters.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Methodological validity of the confinement setup
+    - **Claim pointer** A novel confinement setup was used to investigate the conformational landscape of the peptide at varying distances from the S100B binding cleft.
+    - **Evidence pointer** Abstract only; the confinement setup is not described. Location not provided.
+    - **Concern** The confinement strategy is central to the design but is not specified. It is unclear how the peptide is held at 10 A or 20 A, whether it is restrained, whether the restraint perturbs its internal dynamics, and whether the setup introduces artifacts such as altered solvent structure or excluded volume effects near the surface.
+    - **Why it matters** If the confinement perturbs the peptide or the local solvent and ion structure, the observed distance dependence could be a methodological artifact rather than a physical effect.
+    - **Resolution test** Describe the confinement implementation in full, quantify its influence on peptide dynamics and local solvent/ion structure, and show that results are insensitive to the restraint strength or geometry, or reproduce the key finding with an unrestrained or alternative sampling scheme.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Relevance of the model system to the biological claim
+    - **Claim pointer** The findings demonstrate how the ionic environment biases the p53 CTD IDR ensemble to facilitate binding to S100B.
+    - **Evidence pointer** Abstract only; a 12-residue fragment is used. Location not provided.
+    - **Concern** The study uses a 12-residue fragment, whereas the p53 CTD IDR is longer and its binding to S100B may involve additional residues and interactions. It is not established that the fragment captures the relevant bound-like helical propensity or that conclusions extend to the full-length IDR or to the binding process.
+    - **Why it matters** Overgeneralization from a short fragment to the biological recognition mechanism could overstate the scope of the conclusion.
+    - **Resolution test** Compare fragment behavior with the full-length or longer CTD construct, or explicitly bound the claim to the fragment. If available, relate the simulated bound-like helix to the experimentally determined bound conformation.
+
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology precision
+    - **Affected element** Use of "bound-like helical segments"
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** The criterion for "bound-like" is not defined, and it is unclear how similarity to the bound-state helix was assessed.
+    - **Required correction** Define the structural metric used to classify a segment as bound-like and report the degree of similarity to the bound conformation.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Quantitative reporting
+    - **Affected element** Distance and salt conditions
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** Only two distances and two salt conditions are mentioned, with no ionic strength series and no justification for the chosen values.
+    - **Required correction** Justify the choice of 10 A, 20 A, and 150 mM, and report whether intermediate distances or ionic strengths were tested.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Simulation protocol
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** No force field, water model, ion parameters, thermostat, or simulation length is reported at the abstract level.
+    - **Required correction** Report the full simulation protocol and software versions in the methods.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Claim scope
+    - **Affected element** Statement that ions are "active participants in molecular recognition"
+    - **Evidence pointer** Abstract. Location not provided.
+    - **Issue** This is a broad interpretive claim that goes beyond the simulation evidence described.
+    - **Required correction** Either provide direct evidence linking ion organization to binding kinetics or thermodynamics, or soften the claim to a hypothesis consistent with the simulations.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concern the absence of quantitative and statistical support for the central contrast, the absence of direct ion-structuring evidence and surface-specificity controls, and the unsupported thermodynamic framing. R1-M4 and R1-M5 further affect confidence and scope but are not by themselves blocking if the core evidence is strengthened.
+
+- **Assessment against Nature-style criteria** Originality is moderate to high in concept, since long-range ion-mediated pre-organization of an IDR by a native binding surface is a distinctive hypothesis, though the abstract does not establish novelty relative to prior work on electrostatic steering and ion effects near charged surfaces. Scientific importance would be considerable if substantiated, because it would reframe ions as organizers of the pre-binding ensemble rather than mere screeners. Interdisciplinary readership is plausible, spanning biophysics, physical chemistry, and structural biology, but the abstract is written for a specialized audience and does not articulate broad implications. Technical soundness cannot be judged from the supplied material and currently appears weak at the level of evidence reporting, given the absence of quantitative, statistical, and thermodynamic support. Readability for nonspecialists is limited, as terms such as confinement setup, bound-like helical segments, and long-range electrostatic microenvironment are used without definition.
+
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially publishable, but the central claims require quantitative, statistical, and mechanistic support, direct evidence of ion organization, surface-specificity controls, and either thermodynamic calculations or a reframing of the thermodynamic language before the case can be considered made.
+
+## Risk / unsupported claims
+- The claim that stable bound-like helical segments form exclusively in salt at 10 A is unsupported at the abstract level, with no quantitative helicity data, replicate information, or convergence analysis.
+- The claim that the effect is specific to the native binding surface is unsupported, as no non-native or control surface comparisons are described.
+- The claim that the S100B surface organizes solvated ions into a structured long-range electrostatic microenvironment is unsupported, as no ion density, residence, or electrostatic characterization is reported.
+- The claim of thermodynamic stabilization is unsupported, as no free-energy or thermodynamic estimator is described.
+- The claim that ions are active participants in molecular recognition is an interpretation that exceeds the simulation evidence presented.
+- The generalization from a 12-residue fragment to the p53 CTD IDR and to the binding mechanism is not supported by the supplied material.

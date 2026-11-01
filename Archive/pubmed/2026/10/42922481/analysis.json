@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42922481",
+  "title": "Hydrophobic Patch Spacing Produces Nonmonotonic Compaction in Intrinsically Disordered Proteins.",
+  "authors": "Silvernail, Henry; Yang, Wangfei; Zheng, Wenwei",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 4,
+  "one_liner_zh": "用粗粒化模拟研究疏水斑块间距如何非单调地影响IDP构象压缩，属单链构象物理，未涉及PPI或结合机制建模。",
+  "abstract": "The conformational ensembles of intrinsically disordered proteins (IDPs) are encoded by the distribution of physicochemical interactions along their sequences. Although hydropathy-based descriptors capture average chain dimensions across diverse IDPs, the consequences of spacing localized hydrophobic patches remain poorly understood. Coarse-grained simulations of fixed-composition FUS-derived sequence variants reveal maximal compaction at an intermediate patch spacing. Analysis of simplified model peptides identifies this nonmonotonic behavior as one of three spacing responses: monotonic expansion, nonmonotonic compaction, and monotonic compaction. Their occurrence depends on interaction strength, effective interaction length scale, and patch architecture, with nonmonotonicity emerging only when hydrophobic attractions are sufficiently strong. A conformational-class decomposition resolves these responses into weighted patch-contact and patch-noncontact contributions to the ensemble-averaged chain dimensions. In attractive regimes, the contact contribution decreases with spacing while the noncontact contribution increases, and the changing balance between these opposing effects produces maximal compaction at an intermediate spacing. In the steric-dominated regime, separating the patches instead compacts the dominant noncontact conformations by relieving steric frustration. These steric-and attraction-dominated limits show that similar spacing responses can arise from distinct microscopic mechanisms. These findings establish a unified framework for understanding how interaction regime and hydrophobic patch spacing jointly shape IDP conformational ensembles.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的构象集合由其序列上物理化学相互作用的分布所编码。尽管基于疏水性的描述符能捕捉多种 IDP 的平均链尺寸，但局部疏水斑块间距的后果仍知之甚少。对固定组成的 FUS 衍生序列变体的粗粒化模拟显示，在中等斑块间距下出现最大压缩。简化模型肽的分析将这种非单调行为识别为三种间距响应之一：单调扩张、非单调压缩和单调压缩。其出现取决于相互作用强度、有效相互作用长度尺度和斑块架构，且仅当疏水吸引力足够强时，非单调性才会显现。构象类别分解将这些响应解析为对系综平均链尺寸的加权斑块接触和非接触贡献。在吸引主导区，接触贡献随间距增加而减少，而非接触贡献增加，这两种相反效应之间平衡的变化在中等间距下产生最大压缩。在空间位阻主导区，分离斑块反而通过缓解位阻挫折来压缩占主导的非接触构象。这些位阻和吸引主导的极限表明，相似的间距响应可能源于不同的微观机制。这些发现建立了一个统一框架，用于理解相互作用区和疏水斑块间距如何共同塑造 IDP 构象集合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42922481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42922481/",
+  "paper_page_path": "papers/pubmed/42922481/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42927196",
+  "title": "beta motifs and molecular flux promote fibril growth at condensate interfaces.",
+  "authors": "Biswas, Subhadip; Potoyan, Davit A",
+  "journal": "iScience",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 7,
+  "one_liner_zh": "用粗粒化通量驱动分子动力学模拟揭示刚性β倾向基序与分子沉积速率如何决定凝聚体界面上的纤维生长路径，为凝聚体界面处无序/有序转变的机制建模提供可迁移的物理模拟框架。",
+  "abstract": "Biomolecular condensates can age into gel-like or solid-like states, and their interfaces can promote amyloid fibril formation. Yet the physical principles selecting distinct interfacial aging pathways remain unclear. Here, we develop flux-driven molecular dynamics (FD-MD), a coarse-grained framework to disentangle the roles of rigid beta-prone motifs, hydrophobic sequence patterning and molecular deposition rate. We show that rigid motifs can sustain orientational order that converts interfacial adsorption into directional fibrillar growth, whereas flexible chains form spreading surface aggregates. Furthermore for fixed molecular architecture, changing the rate and manner of molecular delivery redirects assembly between lateral spreading, outward fibrillar growth, and bridging between opposing interfaces. Counterinutively, stronger initial drift toward the interface accelerates surface coverage but slows axial fibril elongation, consistent with competition between interfacial accumulation, orientational ordering and outward growth. Molecular architecture thus provides the capacity for directional assembly, while molecular supply selects it morphological outcome. Our findings provide a minimal physical framework for distinct condensate-aging pathwasy and suggest routes to redirect aging through molecular delivery and tuning of interfacial properties of condensates.",
+  "abstract_zh": "生物分子凝聚体可老化成凝胶状或固体状状态，其界面可促进淀粉样原纤维形成。然而，选择不同界面老化路径的物理原理仍不清楚。在此，我们开发了通量驱动分子动力学 (flux-driven molecular dynamics, FD-MD)，一个粗粒化框架，以厘清刚性易形成β结构的基序、疏水序列模式以及分子沉积速率的作用。我们表明，刚性基序能够维持取向有序，从而将界面吸附转化为定向原纤维生长，而柔性链则形成铺展的表面聚集体。此外，对于固定的分子结构，改变分子递送的速率和方式可在横向铺展、向外原纤维生长以及相对界面之间的桥接之间重定向组装。反直觉的是，更强的初始向界面漂移会加速表面覆盖，但减缓轴向原纤维伸长，这与界面积累、取向有序和向外生长之间的竞争一致。因此，分子结构提供了定向组装的能力，而分子供给则选择其形态学结果。我们的发现为不同的凝聚体老化路径提供了一个最小物理框架，并提出了通过分子递送和调节凝聚体界面性质来重定向老化的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42927196/",
+  "paper_page_path": "papers/pubmed/42927196/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42924723",
+  "title": "Targeting m6A Reader Phase Separation in Synaptic Plasticity: A Hypothesis-Generating Framework for Epitranscriptomic Drug Discovery.",
+  "authors": "Rastmanesh, Reza",
+  "journal": "Epigenomes",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出YTHDF2低复杂度域经m6A结合驱动相分离的阈值模型，以解释突触可塑性中mRNA命运决定，并据此提出表观转录组药物发现框架；虽聚焦IDR介导的相分离与互作机制，但为假设生成性观点文章，缺乏AI/物理模拟方法贡献。",
+  "abstract": "Epitranscriptomic drug discovery has mostly targeted the catalytic \"writers\" (METTL3/METTL14) and \"erasers\" (FTO, ALKBH5) that deposit and remove N6-methyladenosine (m6A). That strategy just hit clinical validation: STC-15, a METTL3 inhibitor, has measurable anti-tumor activity from a first-in-human oncology trial, but the same structural features that made these enzymes attractive also limit them. Inhibition shifts m6A stoichiometry globally, while an m6A mark's functional impact depends almost entirely on cellular context. YTHDF family reader proteins offer another angle. Their low-complexity domains drive liquid-liquid phase separation (LLPS). m6A binding stimulates this condensation across YTHDF paralogs-a property that matters for therapeutic selectivity. We propose a Phase Transition Threshold model in which YTHDF2's condensation concentration decides whether synaptic mRNAs are degraded or maintained in translation-competent, FMRP-associated states. Recent evidence has established YTHDF2 synaptic localization, FMRP condensate formation in neurons, and functional antagonism between the two proteins. The central unresolved question is whether condensation in living cells is nucleation-driven rather than bulk-concentration-driven. If so, concentration-centered pharmacology misses the point. We present falsifiable predictions and a staged experimental program. A more fundamental risk is that YTHDF2-mediated decay may not require condensate formation at all. If that is the case, the therapeutic premise of this Perspective collapses.",
+  "abstract_zh": "表观转录组药物开发主要靶向催化性“写入器”（METTL3/METTL14）和“擦除器”（FTO、ALKBH5），它们负责沉积和移除N6-甲基腺苷（m6A）。这一策略刚刚进入临床验证阶段：STC-15，一种METTL3抑制剂，在首次人体肿瘤试验中显示出可测量的抗肿瘤活性，但使这些酶具有吸引力的结构特征也限制了它们。抑制会全局性地改变m6A的化学计量，而m6A标记的功能影响几乎完全取决于细胞环境。YTHDF家族阅读器蛋白提供了另一个视角。它们的低复杂度结构域驱动液-液相分离（LLPS）。m6A结合刺激了YTHDF旁系同源物中的这种凝聚——这一特性对治疗选择性至关重要。我们提出一个相变阈值模型，其中YTHDF2的凝聚浓度决定突触mRNA是被降解还是维持在具有翻译能力、与FMRP相关的状态。近期证据已确立YTHDF2的突触定位、神经元中FMRP凝聚体的形成，以及这两种蛋白之间的功能拮抗作用。核心未解问题是，活细胞中的凝聚是否由成核驱动而非整体浓度驱动。如果是这样，以浓度为中心的药理学就错失了重点。我们提出可证伪的预测和分阶段的实验计划。一个更根本的风险是，YTHDF2介导的降解可能根本不需要凝聚体形成。如果情况如此，本视角的治疗前提将崩溃。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42924723/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42924723/",
+  "paper_page_path": "papers/pubmed/42924723/index.html"
+}

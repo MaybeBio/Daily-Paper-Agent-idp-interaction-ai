@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42965002",
+  "title": "RNA Synthesis and Degradation Regulate Biomolecular Condensates through Nonequilibrium Feedback.",
+  "authors": "Sanchez-Burgos, Ignacio; Tejedor, Andres R; Ocana, Alberto; Espinosa, Jorge R; Collepardo-Guevara, Rosana",
+  "journal": "ACS central science",
+  "published_date": "2026-10-31",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发REACT-RNA粗粒化分子动力学框架，将RNA聚合/降解与FUS、MED1凝聚体的蛋白-RNA相行为耦合，揭示非平衡反馈如何调控转录凝聚体的组成与稳定性，直接涉及无序蛋白凝聚体中的PPI机制建模。",
+  "abstract": "Transcriptional condensates operate far from equilibrium, where continuous RNA synthesis and degradation dynamically reshape condensate composition. To investigate how RNA synthesis regulates condensate properties at submolecular resolution, we introduce REACT-RNA, a chemically specific coarse-grained molecular dynamics framework that explicitly couples RNA polymerization, degradation, and nucleotide fluxes to sequence-dependent protein-RNA phase behavior and apply it to FUS and MED1 condensates. We find that RNA polymerization occurs preferentially at condensate interfaces because interfaces promote a highly reactive microenvironment that combines nucleotide influx, enrichment of reactive RNA chain ends, and enhanced molecular dynamics. Interfacial RNA polymerization generates a spatially organized RNA population, with newly synthesized short RNAs enriched near the interface and longer RNAs partitioning toward the condensate core, which decreases the interfacial free energy and promotes multivalent RNA-protein interactions. As RNA concentration and chain length evolve over time, condensate composition, density, and stability change dynamically in response. Sustained RNA polymerization drives re-entrant condensate dissolution, even of aged gel-like condensates, whereas RNA degradation stabilizes long-lived nonequilibrium condensates containing elevated RNA content. Our results suggest that RNA synthesis, degradation, and nucleotide fluxes drive transcriptional condensates out of thermodynamic equilibrium, while condensates in turn promote reactive molecular configurations that favor RNA production, enabling transient accumulation of RNA-rich compositional imbalance during bursts of transcription.",
+  "abstract_zh": "转录凝聚体在远离平衡态的条件下运作，其中持续的RNA合成与降解动态重塑凝聚体组成。为在亚分子分辨率下探究RNA合成如何调控凝聚体性质，我们引入REACT-RNA，一种化学特异性粗粒化分子动力学框架，该框架将RNA聚合、降解及核苷酸通量明确耦合至序列依赖的蛋白质-RNA相行为，并将其应用于FUS和MED1凝聚体。我们发现RNA聚合优先发生于凝聚体界面，因为界面促进形成高反应性微环境，该环境结合了核苷酸流入、反应性RNA链末端的富集以及增强的分子动力学。界面RNA聚合生成空间组织的RNA群体，新合成的短RNA富集于界面附近，而较长RNA则分配至凝聚体核心，这降低了界面自由能并促进多价RNA-蛋白质相互作用。随着RNA浓度和链长随时间演变，凝聚体组成、密度及稳定性随之动态变化。持续RNA聚合驱动回滞性凝聚体溶解，即使对老化凝胶状凝聚体亦然，而RNA降解则稳定含有升高RNA含量的长寿命非平衡凝聚体。我们的结果表明，RNA合成、降解及核苷酸通量驱动转录凝聚体偏离热力学平衡，而凝聚体反过来促进有利于RNA产生的反应性分子构型，从而在转录爆发期间实现富含RNA的组成失衡的瞬时积累。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42965002/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42965002/",
+  "paper_page_path": "papers/pubmed/42965002/index.html"
+}

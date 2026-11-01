@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42937157",
+  "title": "Calculation of salt solubility in aqueous electrolyte solutions based on a thermodynamic ion-aggregation model.",
+  "authors": "Tun, Lykoung; Ryu, Jonghyuk; Choi, Kanghyeon; Kim, Chanhui; Hwang, Seungeui; Choi, Jun-Ho",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 1,
+  "one_liner_zh": "该文用热力学离子聚集模型结合MD模拟预测盐在水溶液中的溶解度，研究对象为无机盐离子而非无序蛋白或PPI，与IDP/IDR互作机制建模基本无关。",
+  "abstract": "Based on a thermodynamic self-association model in salt solutions, new attempts have been made to predict salt solubility in NaCl solutions and other electrolyte solutions by incorporating potential of mean force (PMF) analysis from molecular dynamics (MD) simulations. It was demonstrated that salt solubility is closely associated with critical ion aggregation concentration (CIAC) in the thermodynamic ion aggregation process. The CIAC is determined by estimating effective binding energy between a cation and an anion or a mean equilibrium constant in ion association process. The calculated salt solubilities in various alkali halide solutions are consistent with the experimentally measured values. Combined MD simulations and graph-theoretical analysis revealed that, in NaCl solutions, most ions remain isolated at lower salt concentrations, whereas various-sized ion aggregates emerge as the salt concentration increases. As the salt concentration rises beyond the CIAC, large aggregates are formed, eventually leading to liquid-solid phase separation in NaCl-water mixtures. It is anticipated that this salt solubility prediction approach, based on the thermodynamic ion self-association model, may also contribute to estimating the solubility limit of various solute molecules in aqueous solutions, such as alcohols, osmolytes, and peptides.",
+  "abstract_zh": "基于盐溶液中热力学自缔合模型，通过结合分子动力学（MD）模拟中的平均力势（PMF）分析，对NaCl溶液及其他电解质溶液中的盐溶解度预测进行了新的尝试。研究表明，盐溶解度与热力学离子聚集过程中的临界离子聚集浓度（CIAC）密切相关。CIAC通过估算阳离子与阴离子之间的有效结合能或离子缔合过程中的平均平衡常数来确定。计算得到的各种碱金属卤化物溶液中的盐溶解度与实验测量值一致。结合MD模拟和图论分析揭示，在NaCl溶液中，低盐浓度下大多数离子保持孤立状态，而随着盐浓度增加，出现不同大小的离子聚集体。当盐浓度超过CIAC时，形成大聚集体，最终导致NaCl-水混合物中的液-固相分离。预期这种基于热力学离子自缔合模型的盐溶解度预测方法，也可能有助于估算水溶液中各种溶质分子（如醇类、渗透调节剂和肽类）的溶解度极限。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42937157/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42937157/",
+  "paper_page_path": "papers/pubmed/42937157/index.html"
+}

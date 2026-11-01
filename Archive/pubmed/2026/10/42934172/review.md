@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to the full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors describe the 2027 release of the Protein Ensemble Database (PED), which expands its scope to integrate experimentally derived and computationally predicted conformational ensembles of intrinsically disordered proteins and regions. The release includes a multi-method collection for 3319 DisProt proteins and 2452 manually curated disordered regions, AlphaFlex ensembles for 10 022 human proteins, a scalable deposition workflow, a standardized controlled vocabulary, precomputed analyses, a redesigned interface, an extended REST API, and interoperability with external databases.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, database schema and implementation details, validation statistics, curation protocols, API documentation, interoperability specifications, and any quantitative evaluation of the new features
+
+## Reviewer
+- **Overall assessment** The abstract describes a substantial and timely update to a community resource for intrinsically disordered protein ensembles. The integration of experimental and predicted ensembles, the scale of the collections, and the emphasis on provenance and interoperability are commendable. However, the abstract provides limited quantitative evidence for the claims made, and several statements cannot be evaluated without access to the full manuscript. The resource is likely to be of significant value to the IDP community, but the strength of the case presented in the abstract alone is moderate.
+- **Who would be interested in the results, and why** Structural biologists, computational biophysicists, and bioinformaticians studying intrinsically disordered proteins and regions. Researchers developing or benchmarking ensemble-generation methods will benefit from the multi-method collections and provenance tracking. Curators and developers of biological databases will be interested in the deposition workflow and controlled vocabulary. Experimentalists using NMR, SAXS, FRET, or other techniques to characterize disordered proteins will find value in the integration with experimental-data repositories.
+- **Major strengths** The abstract clearly articulates a significant expansion in scope, moving from a primary deposition resource to an integrated platform combining experimental and predicted ensembles. The scale of the collections (3319 DisProt proteins, 2452 curated regions, 10 022 AlphaFlex ensembles) is impressive and suggests broad coverage. The emphasis on method-specific provenance and retention of alternative predictions as independent records is a strong design choice that supports method comparison. The inclusion of precomputed analyses and a redesigned API indicates attention to usability and programmatic access.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that PED 2027 "integrates ensembles determined or refined using experimental data with clearly identified collections of computational predictions" and that the release "introduces a multi-method collection targeting 3319 DisProt proteins and 2452 manually curated disordered regions, together with AlphaFlex ensembles for 10 022 human proteins."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any quantitative or qualitative evidence for the accuracy, completeness, or quality of the integrated ensembles. No validation statistics, benchmark comparisons, or quality-control metrics are mentioned. The claim that the collections are "manually curated" is stated but not substantiated with details on curation criteria or inter-curator agreement.
+  - **Why it matters** For a database resource, the reliability of the deposited data is paramount. Without evidence of quality control, validation, or benchmarking, users cannot assess whether the ensembles are fit for purpose. The distinction between experimental and predicted ensembles is only useful if the provenance and reliability of each are clearly documented and verified.
+  - **Resolution test** Provide in the full manuscript or supplementary materials: (1) a description of the validation pipeline for experimental ensembles, (2) benchmark results comparing AlphaFlex predictions against experimental data or established methods, (3) details on the curation workflow including inclusion and exclusion criteria, and (4) any error or uncertainty estimates associated with the ensembles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that PED 2027 "provides an interoperable, analysis-ready platform for studying IDP/IDR conformational behaviour."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of being "analysis-ready" is not supported by any demonstration of the analytical capabilities. The abstract mentions precomputed IDPEnsembleTools and CIDER analyses, but does not describe what these analyses produce, how they are validated, or how they compare to existing tools. The interoperability with UniProt, DisProt, MobiDB, and experimental-data repositories is stated but not demonstrated with examples or use cases.
+  - **Why it matters** The value of a database is determined by its usability and the insights it enables. Without concrete examples of how the platform supports analysis or discovery, the claim of being "analysis-ready" is aspirational rather than evidenced. The scientific impact of the resource depends on users being able to extract meaningful biological insights from the data.
+  - **Resolution test** Include in the full manuscript: (1) a case study or example analysis demonstrating the use of the precomputed descriptors, (2) a description of the API endpoints with example queries and responses, and (3) a demonstration of interoperability with at least one external database showing how data flows between resources.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract states that PED 2027 "substantially expands its scope by integrating ensembles determined or refined using experimental data with clearly identified collections of computational predictions."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not clearly articulate what is novel about this integration relative to existing resources. Other databases, such as MobiDB or the Protein Data Bank, also contain experimental and predicted structural data. The specific innovations in PED 2027, such as the multi-method collection or the AlphaFlex integration, are mentioned but not placed in the context of prior work.
+  - **Why it matters** For a resource paper, the novelty must be explicit to justify the publication and to inform readers of what distinguishes this work from existing tools. Without a clear statement of novelty, the contribution may be perceived as incremental.
+  - **Resolution test** In the full manuscript, provide a comparison with existing resources (e.g., MobiDB, PDB, AlphaFold DB) and explicitly state what PED 2027 offers that these do not, such as the multi-method ensemble collection or the specific integration workflow.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses several technical terms without definition, such as "AlphaFlex ensembles," "IDPEnsembleTools," and "CIDER analyses." Nonspecialist readers may not understand what these are or why they are significant.
+  - **Required correction** Provide brief explanations or context for these terms in the abstract, or ensure the full manuscript introduces them clearly before use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Deposition workflow claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the deposition workflow "accommodates individual experimental studies and proteome-scale collections while preserving quality control and curator oversight." The mechanism by which quality control is preserved at proteome scale is not described.
+  - **Required correction** In the full manuscript, describe the automated and manual quality-control steps, including any thresholds or filters applied, and how curator oversight is maintained for large-scale submissions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Interoperability claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists interoperability with UniProt, DisProt, MobiDB, and experimental-data repositories but does not specify the nature of the interoperability (e.g., cross-references, data exchange, or shared identifiers).
+  - **Required correction** Clarify in the full manuscript the type of interoperability implemented, such as bidirectional cross-referencing, API-based data retrieval, or standardized identifiers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of validation evidence and demonstrated analytical utility means the core claims of data quality and platform readiness are not established from the abstract alone. R1-M3 is non-blocking but should be addressed to strengthen the novelty case.
+- **Assessment against Nature-style criteria** Originality: The integration of experimental and predicted ensembles at this scale is potentially original, but the abstract does not clearly differentiate it from existing resources. Scientific importance: The resource addresses a significant need in the IDP community, but the importance is inferred rather than demonstrated with examples or use cases. Interdisciplinary readership: The abstract is likely to appeal to structural biologists, bioinformaticians, and database developers, but the technical language may limit accessibility. Technical soundness: The claims of scale and curation are not supported by quantitative evidence in the abstract. Readability for nonspecialists: The abstract is concise but uses jargon that may obscure the key contributions for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The described resource is timely and potentially valuable, but the abstract alone does not provide sufficient evidence to establish the quality and utility of the integrated ensembles. The full manuscript must include validation data, curation details, and demonstrated use cases to support the claims.
+
+## Risk / unsupported claims
+- The claim that PED 2027 "integrates ensembles determined or refined using experimental data" is unsupported without details on the integration methodology and validation.
+- The claim that the multi-method collection "targets" 3319 DisProt proteins and 2452 curated regions is unverifiable without a breakdown of the methods used and the criteria for inclusion.
+- The claim that AlphaFlex ensembles for 10 022 human proteins are included is unverifiable without information on the prediction method, its accuracy, and any limitations.
+- The claim that the deposition workflow "preserves quality control and curator oversight" is unsupported without a description of the quality-control process.
+- The claim that the platform is "analysis-ready" is unsupported without examples of analyses or demonstrations of the precomputed tools.
+- The claim of interoperability with external databases is unverifiable without technical details on the implementation.

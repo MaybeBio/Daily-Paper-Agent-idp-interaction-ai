@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15011236/v1",
+  "title": "Foldability Is an Intrinsic Property of Protein Sequences: A Lattice Model Study with Information-Theoretic Approach and Unsupervised Machine Learning",
+  "authors": "Shubin Liu",
+  "journal": "ChemRxiv",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用格点模型、信息论与无监督VAE研究蛋白质序列可折叠性的内在机制，不涉及无序蛋白、PPI或相分离，方法思路可迁移但对象与互作轴均不相关。",
+  "abstract": "Protein structure prediction has been largely solved, but why a given sequence is foldable has not. We address this question for 27-, 48- and 64-residue lattice heteropolymers with statistical thermodynamics, the informationtheoretic approach (ITA) and a variational autoencoder (VAE). Native populations, folding probabilities and freeenergy surfaces are reproducible and independent of the initial denatured ensemble, so foldability is an intrinsic property of the sequence at a given temperature and solvent. We then ask where the observed regularities come from. Stability is governed by an information balance: the information content (self-information) of the native energy relative to the maximum-entropy description of compact alternatives, ℐtail, must exceed their Shannon entropy, 𝑆c = ln𝛺c. This is the random-energy-model condition for a folding transition, and ℐtail/𝑆c fixes the ratio of folding to glass temperatures, recasting minimal frustration in information units. Foldable sequences have smooth funnels, minimal Shannon entropy and minimal Fisher information in the native state, and a single sharp maximum of Fisher information at melting (cooperativity). Mutual and conditional information show that stability is an approximately sufficient statistic for kinetic accessibility of compact 27-mers. No hierarchical folding order is found. Variational autoencoders trained without labels distinguish sequences by their folding ensembles, supply a six-variable reaction coordinate that retains 91% of the kinetic information in the full native-contact map, and rediscover the native energy gap from the density of compact states.",
+  "abstract_zh": "蛋白质结构预测问题已基本解决，但为何给定序列可折叠的问题尚未解决。我们针对27、48和64残基的晶格杂聚物，采用统计热力学、信息论方法（ITA）和变分自编码器（VAE）来探讨此问题。天然态布居数、折叠概率和自由能面具有可重复性，且与初始变性系综无关，因此可折叠性是序列在给定温度和溶剂条件下的固有属性。随后，我们探究这些观察到的规律性源于何处。稳定性受信息平衡支配：天然态能量相对于紧凑替代态最大熵描述的信息含量（自信息）ℐtail，必须超过其香农熵 𝑆c = ln𝛺c。这是折叠转变的随机能量模型条件，且ℐtail/𝑆c决定了折叠温度与玻璃化温度的比值，从而以信息单位重新表述最小挫折。可折叠序列具有平滑漏斗、天然态中最小香农熵和最小费舍尔信息，以及在熔解时费舍尔信息的单一尖锐最大值（协同性）。互信息和条件信息表明，对于紧凑27聚体，稳定性是动力学可达性的近似充分统计量。未发现层级折叠顺序。未经标签训练的变分自编码器通过折叠系综区分序列，提供包含六个变量的反应坐标，保留了完整天然接触图中91%的动力学信息，并从紧凑态密度中重新发现天然态能量间隙。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15011236/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15011236/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15011236_v1/index.html"
+}

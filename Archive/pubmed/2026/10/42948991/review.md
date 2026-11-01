@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supporting data were provided for evaluation
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to study liquid-liquid phase separation (LLPS) in charged micelle-polymer mixtures. They map zeta potential to a reduced Yukawa charge, calibrate the model against a peptide amphiphile-dasiglucagon system, and report a finite charge window for LLPS bounded by lower and upper critical charges. They further claim that this predicted window overlaps experimental zeta values and that the zeta of glucose-associated PA-PBA lies within the predicted island-like pocket.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, simulation details, force field parameters, calibration procedure, experimental data sets, phase diagram figures, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in soft matter physics, namely how micellar charge modulates LLPS in micelle-polymer mixtures. The central concept of a finite charge window for condensation is physically plausible and could be of value to the community. However, the abstract alone provides insufficient detail to assess the robustness of the simulation methodology, the validity of the zeta-to-Yukawa mapping, or the strength of the claimed agreement with experiment. The core conclusions are stated without quantitative support, and several claims are not evaluable from the supplied material.
+- **Who would be interested in the results, and why** Researchers working on liquid-liquid phase separation in biological and synthetic systems, particularly those interested in electrostatic control of condensation, peptide amphiphile assemblies, and coarse-grained simulation approaches to soft matter phase behavior. The potential connection to therapeutic peptide formulations involving dasiglucagon may also interest pharmaceutical scientists.
+- **Major strengths** The question addressed is timely and relevant to ongoing discussions about the role of electrostatics in LLPS. The idea of a finite charge window with dual regulatory roles is conceptually appealing and could provide a useful framework for interpreting experimental observations. The attempt to connect simulation parameters to experimentally measurable zeta potentials is commendable and, if properly executed, would enhance the practical utility of the model.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a mapping from zeta potential to reduced Yukawa charge calibrated to experiments within a model oligomer-micelle mixture patterned on peptide amphiphile assemblies in the presence of dasiglucagon.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that a mapping from zeta potential to reduced Yukawa charge was calibrated to experiments, but no details are given regarding the calibration procedure, the experimental data used, the range of validity of the mapping, or the uncertainties involved. The relationship between a continuum electrokinetic quantity such as zeta potential and a reduced Yukawa charge in a coarse-grained model is nontrivial and requires careful justification.
+  - **Why it matters** The entire predictive framework rests on this mapping. If the calibration is not robust or is only valid under narrow conditions, the subsequent predictions of the charge window and its overlap with experimental values would be compromised. Without details, the reader cannot assess whether the mapping is physically justified or merely a fitting exercise.
+  - **Resolution test** Provide a detailed description of the calibration procedure, including the experimental system, the range of zeta values used, the functional form of the mapping, and a quantitative comparison between simulated and experimental observables. Show that the mapping is transferable across the range of charges explored in the study.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that systematic variation of micellar charge reveals a finite charge window bounded by lower and upper critical charges, and that increasing charge initially enhances attraction and densifies the complex, while high charge destabilizes the dense phase.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a qualitative trend but provides no quantitative data, such as phase boundaries, critical charge values, coexistence densities, or free energy calculations. No figure or table is referenced. The claim of a "window" implies a phase diagram, but none is shown or described.
+  - **Why it matters** The central conclusion of the paper is the existence of a finite charge window for LLPS. Without quantitative phase boundaries or at least representative simulation data, the claim cannot be evaluated. The physical mechanism proposed, namely competition between micelle-polymer attraction and micelle-micelle repulsion, is plausible but requires demonstration that the observed behavior is not an artifact of the specific model parameters or simulation protocol.
+  - **Resolution test** Present a phase diagram in the charge-polymer concentration plane, with clear identification of the lower and upper critical charges. Provide representative density profiles, cluster size distributions, or free energy curves that support the proposed mechanism. Report error bars or replicate information.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the predicted charge window overlaps experimentally measured zeta values, and that the zeta of glucose-associated PA-PBA lies within the island-like pocket.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states an overlap between simulation predictions and experimental measurements but provides no experimental zeta values, no quantitative comparison, and no statistical measure of agreement. The term "island-like pocket" is introduced without definition or visual representation. The connection between the simulation model and the specific experimental system, PA-PBA, is not established in the abstract.
+  - **Why it matters** The claim of agreement with experiment is a key selling point of the work. If the overlap is not quantitatively demonstrated, the claim is unsupported. Moreover, the relevance of the PA-PBA system to the model system must be clarified, as the model was patterned on peptide amphiphile assemblies with dasiglucagon, and the relationship to glucose-associated PA-PBA is not explained.
+  - **Resolution test** Provide a quantitative comparison between predicted and measured zeta values, including error bars and the criteria used to define overlap. Define the "island-like pocket" in terms of the phase diagram. Clarify the relationship between the model system and the PA-PBA experimental system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "island-like pocket" is used without definition or context. It is unclear whether this refers to a region in the phase diagram, a feature in the zeta-charge plane, or something else.
+  - **Required correction** Define the term clearly upon first use, or replace it with a more standard description of the phase diagram topology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions coarse-grained molecular dynamics but provides no information about the model resolution, force field, system size, or simulation length. These details are essential for reproducibility.
+  - **Required correction** Include a brief description of the model and simulation parameters in the abstract, or ensure they are prominently presented in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Notation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The notation q(DG) approximately -6e is introduced without explanation of the symbol e or the basis for this specific value. The relationship between q(DG) and the effective charge of dasiglucagon is not clarified.
+  - **Required correction** Define all symbols and explain how the value of -6e was determined.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The calibration procedure, the quantitative phase behavior, and the experimental comparison are all essential to the central claims and cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a finite charge window for LLPS in micelle-polymer mixtures is not entirely novel, as related ideas exist in the context of protein LLPS and polyelectrolyte complexation, but the specific application to charged micelles with a zeta-to-Yukawa mapping may offer a fresh perspective. The originality cannot be fully assessed without the full manuscript.
+  - Scientific importance: The work addresses a question of relevance to both fundamental soft matter physics and applied areas such as peptide formulation. The potential to connect simulation parameters to experimentally measurable quantities is valuable. However, the importance of the specific findings depends on the robustness of the predictions, which cannot be evaluated from the abstract.
+  - Interdisciplinary readership: The topic bridges soft matter physics, biophysics, and pharmaceutical science. The abstract is written in a way that is accessible to a broad audience, though some terminology may require familiarity with the field.
+  - Technical soundness: Not assessable from the abstract. The simulation methodology, the calibration procedure, and the analysis methods are not described in sufficient detail.
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as "reduced Yukawa charge" and "island-like pocket" may be opaque to nonspecialists. The logical flow from model to prediction to experimental comparison is clear at a high level.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the central claims regarding the charge window, the calibration, and the experimental overlap cannot be evaluated without the full manuscript. If the full paper provides rigorous simulation data, a well-justified calibration, and a quantitative experimental comparison, the work could be of interest to the soft matter community. However, based on the abstract alone, the case is not made.
+
+## Risk / unsupported claims
+- The claim of a finite charge window for LLPS is unsupported without quantitative phase boundaries or representative simulation data.
+- The claim of overlap between predicted and experimental zeta values is unsupported without specific experimental values and a defined comparison criterion.
+- The claim that the zeta of glucose-associated PA-PBA lies within the predicted pocket is unsupported without a definition of the pocket and a quantitative comparison.
+- The mapping from zeta potential to reduced Yukawa charge is not assessable without details of the calibration procedure.
+- The effective charge q(DG) approximately -6e is stated without justification or context.

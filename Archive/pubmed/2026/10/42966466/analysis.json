@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42966466",
+  "title": "Identifying phase separation modulators mediated by the SARS-CoV-2 nucleocapsid protein using a structure-based drug discovery approach.",
+  "authors": "Du, Shaoqing; Jang, Yejin; Hu, Xueping; Li, Ping; Wang, Bo; Ra, Hyun Su; Kang, Dongwei; Wang, Xiaolong; Wang, Nonghan; Liu, Xinyong; Kim, Meehyein; Zhan, Peng",
+  "journal": "Journal of advanced research",
+  "published_date": "2026-10-31",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究以SARS-CoV-2核衣壳蛋白的液-液相分离为靶点，通过结构虚拟筛选和实验验证发现小分子化合物II8可抑制N-RNA凝聚体形成，虽对象为病毒蛋白而非典型IDP，但聚焦相分离介导的蛋白-核酸互作机制，且采用结构基药物发现方法，对本课题的LLPS调控建模有启发。",
+  "abstract": "INTRODUCTION: As severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) continues to evolve through mutations and acquire resistance to existing antiviral agents, the persistence of post-pandemic infections remains a significant global health concern. To address these challenges, it is crucial to develop novel therapeutic agents that target previously unexplored viral or host mechanisms. OBJECTIVES: The nucleocapsid (N) protein of SARS-CoV-2 plays a critical role in viral RNA replication and genome packaging through its ability to undergo liquid-liquid phase separation (LLPS). Targeting the condensation of N-RNA complex could potentially serve as an effective therapeutic strategy against coronavirus infections. The present study provides a successful exemplification of antiviral agent discovery by targeting the viral N protein on the basis of its structural characteristics. METHODS: A total of 23 virtual screening compounds and 16 hit derivatives were prepared. Their binding affinity and antiviral activities were evaluated using surface plasmon resonance and immunofluorescence assay, respectively. The impact of these compounds on condensate formation was verified through fluorescence recovery after photobleaching, as well as the inhibition of N condensate formation in cells. RESULTS: Structure-based virtual screening, target protein binding affinity quantification, and cell culture-based anti-SARS-CoV-2 assays enabled the identification a hit compound, D21. Subsequent structural optimization of series I and II yielded compound II8, which exhibits stronger binding affinity for the N protein and effectively inhibits the formation of N-RNA condensates, thereby demonstrating its potential to modulate LLPS, a mechanism underlying its antiviral activity. In vivo evaluation showed that II8 displays antiviral activity in a human ACE2-expressing mouse model when administered intranasally as a pre-incubated mixture with SARS-CoV-2. Due to the pharmacokinetic profile of compound II8, further structural modifications are still required. CONCLUSION: Our findings suggest that compound II8 may serve as a localized prophylactic nasal spray, providing valuable insights for further development of LLPS modulators as next-generation antiviral agents.",
+  "abstract_zh": "引言：随着严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）通过突变持续演化并对现有抗病毒药物产生耐药性，大流行后感染的持续存在仍是一个重大的全球健康问题。为应对这些挑战，开发靶向此前未探索的病毒或宿主机制的新型治疗药物至关重要。目的：SARS-CoV-2的核衣壳（N）蛋白通过其发生液-液相分离（LLPS）的能力，在病毒RNA复制和基因组包装中发挥关键作用。靶向N-RNA复合物的凝聚可能成为针对冠状病毒感染的有效治疗策略。本研究基于病毒N蛋白的结构特征，成功示例了以该蛋白为靶点的抗病毒药物发现过程。方法：共制备了23种虚拟筛选化合物和16种命中衍生物。分别使用表面等离子体共振和免疫荧光测定评估其结合亲和力和抗病毒活性。通过荧光恢复后光漂白以及细胞中N凝聚物形成的抑制，验证了这些化合物对凝聚物形成的影响。结果：基于结构的虚拟筛选、靶蛋白结合亲和力定量以及基于细胞培养的抗SARS-CoV-2测定，鉴定出命中化合物D21。随后对系列I和系列II的结构优化产生了化合物II8，该化合物对N蛋白表现出更强的结合亲和力，并有效抑制N-RNA凝聚物的形成，从而展示其调节LLPS的潜力，这是其抗病毒活性的机制基础。体内评估显示，II8在表达人ACE2的小鼠模型中，以与SARS-CoV-2预混合的混合物经鼻内给药时表现出抗病毒活性。由于化合物II8的药代动力学特征，仍需进一步的结构修饰。结论：我们的研究结果表明，化合物II8可能作为局部预防性鼻喷雾剂使用，为LLPS调节剂作为下一代抗病毒药物的进一步开发提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42966466/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42966466/",
+  "paper_page_path": "papers/pubmed/42966466/index.html"
+}

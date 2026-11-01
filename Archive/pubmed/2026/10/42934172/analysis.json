@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42934172",
+  "title": "PED in 2027: integrating experimental and predicted protein conformational ensembles at scale.",
+  "authors": "Monzon, Alexander Miguel; Ghafouri, Hamidreza; Castro, Ximena Aixa; Khezrian, Sina; Aspromonte, Maria Cristina; Singla, Kavita; Barethiya, Shrishti; Bernado, Pau; Bonomi, Massimiliano; Chen, Jianhan; Cordeiro, Tiago; Cortes, Juan; De Castro, Stefano; Emenecker, Ryan; Feig, Michael; Forman-Kay, Julie D; Head-Gordon, Teresa; Holehouse, Alex; Janson, Giacomo; Lindorff-Larsen, Kresten; Liu, Zi Hao; Longhi, Sonia; Pajkos, Matyas; Robustelli, Paul; Rodriguez, Santiago; Schnapka, Vincent; Sibille, Nathalie; Vendruscolo, Michele; Tosatto, Silvio C E",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-10-27",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍PED数据库2027版，整合实验与预测的无序蛋白构象集合，虽非直接研究PPI机制，但为IDP/IDR构象建模提供数据平台，对无序蛋白互作机制建模有基础支撑价值。",
+  "abstract": "The Protein Ensemble Database (PED; https://proteinensemble.org) is the primary deposition resource for structural ensembles of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). PED 2027 (released in September 2026) substantially expands its scope by integrating ensembles determined or refined using experimental data with clearly identified collections of computational predictions. The release introduces a multi-method collection targeting 3319 DisProt proteins and 2452 manually curated disordered regions, together with AlphaFlex ensembles for 10 022 human proteins containing IDRs. Alternative predictions for the same sequence are retained as independent records with method-specific provenance, enabling comparison across ensemble-generation approaches. A scalable deposition workflow accommodates individual experimental studies and proteome-scale collections while preserving quality control and curator oversight. The PED controlled vocabulary standardizes experimental data acquisition, computational generation, selection, and refinement. Precomputed IDPEnsembleTools and CIDER analyses provide structural and sequence-derived descriptors directly on ensemble pages. A redesigned interface and extended REST API support discovery, visualization, download and programmatic access. Interoperability with UniProt, DisProt, MobiDB, and experimental-data repositories connects ensembles with sequences, annotations, and supporting measurements. PED 2027 therefore provides an interoperable, analysis-ready platform for studying IDP/IDR conformational behaviour.",
+  "abstract_zh": "蛋白质集合数据库（Protein Ensemble Database, PED; https://proteinensemble.org）是内在无序蛋白质（intrinsically disordered proteins, IDPs）和内在无序区域（intrinsically disordered regions, IDRs）结构集合的主要存储资源。PED 2027（于2026年9月发布）通过整合利用实验数据确定或精修的集合与明确标识的计算预测集合，大幅扩展了其范围。该版本引入了一个多方法集合，针对3319个DisProt蛋白质和2452个人工审编的无序区域，以及针对10 022个含IDR的人类蛋白质的AlphaFlex集合。同一序列的替代预测作为独立记录保留，并附有方法特异性来源信息，从而支持跨集合生成方法的比较。可扩展的存储工作流程可容纳单个实验研究和蛋白质组规模的集合，同时保持质量控制和审编人员监督。PED受控词汇表标准化了实验数据采集、计算生成、选择和精修。预计算的IDPEnsembleTools和CIDER分析直接在集合页面上提供结构和序列衍生的描述符。重新设计的界面和扩展的REST API支持发现、可视化、下载和程序化访问。与UniProt、DisProt、MobiDB和实验数据存储库的互操作性将集合与序列、注释和支持性测量数据连接起来。因此，PED 2027为研究IDP/IDR构象行为提供了一个可互操作、可随时分析的平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42934172/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42934172/",
+  "paper_page_path": "papers/pubmed/42934172/index.html"
+}

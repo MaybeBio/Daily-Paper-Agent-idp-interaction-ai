@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42956877",
+  "title": "Heterogeneity-aware structure-sequence expert collaboration for RNA-binding site prediction with evidence-grounded interpretation.",
+  "authors": "Mi, Jia; Wang, Han; Li, Jing; Wan, Jing; Wang, Kunfeng",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-10-29",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "提出结构-序列专家协作框架预测RNA结合位点，显式建模RBP中IDR与结构域的异质性，属IDR参与的蛋白-核酸互作预测，方法为深度学习但非蛋白-蛋白互作，机制建模可迁移。",
+  "abstract": "RNA-binding proteins (RBPs) play central roles in post-transcriptional regulation. However, accurately predicting their RNA-binding sites remains challenging due to two issues. First, pronounced heterogeneity between structured domains and intrinsically disordered regions (IDRs) within RBP sequences makes residue-level binding site prediction difficult. Second, existing methods fail to provide candidate RNA ligands and their biological annotations for the query protein alongside predicted binding sites, leaving researchers without reference molecules for experimental follow-up. To address these two challenges, we propose a heterogeneity-aware structure-sequence expert collaboration framework with evidence-grounded interpretation for RNA-binding site prediction. Specifically, the proposed framework addresses the heterogeneity between structured domains and IDRs by training a Structural Expert and a Sequence Expert in a multi-stage manner to learn complementary structural and sequential representations for residue-level RNA-binding site prediction. In parallel, the proposed protein-RNA knowledge graph addresses the lack of biological evidence in existing methods by identifying proteins similar to the query protein and transferring their experimentally validated RNA ligands and associated biological annotations as candidate evidence for the query protein. Experiments on multiple benchmark datasets demonstrate improvements over representative baselines including MPBind, GPSite, and DeepPROBind, across several evaluation metrics. Together, the proposed framework combines heterogeneity-aware residue modeling with evidence-grounded interpretation, improving predictive performance while providing biologically supported candidate RNA ligands for downstream functional analysis and experimental validation. The source code is available at: https://github.com/MiJia-ID/KG-RNA.",
+  "abstract_zh": "RNA结合蛋白（RNA-binding proteins, RBPs）在转录后调控中发挥核心作用。然而，准确预测其RNA结合位点仍面临两个问题。第一，RBP序列中结构化结构域与内在无序区（intrinsically disordered regions, IDRs）之间存在显著异质性，使得残基级结合位点预测变得困难。第二，现有方法无法在预测结合位点的同时为查询蛋白提供候选RNA配体及其生物学注释，使研究人员缺乏用于实验后续验证的参考分子。为应对这两个挑战，我们提出了一种异质性感知的结构-序列专家协作框架，并带有基于证据的解释，用于RNA结合位点预测。具体而言，所提出的框架通过以多阶段方式训练结构专家和序列专家，学习互补的结构和序列表示以进行残基级RNA结合位点预测，从而解决结构化结构域与IDRs之间的异质性。同时，所提出的蛋白-RNA知识图谱通过识别与查询蛋白相似的蛋白，并将其经实验验证的RNA配体及相关生物学注释作为查询蛋白的候选证据进行迁移，从而解决现有方法缺乏生物学证据的问题。在多个基准数据集上的实验表明，在多项评估指标上均优于代表性基线方法，包括MPBind、GPSite和DeepPROBind。总之，所提出的框架将异质性感知的残基建模与基于证据的解释相结合，在提高预测性能的同时，为下游功能分析和实验验证提供有生物学支持的候选RNA配体。源代码可在以下网址获取：https://github.com/MiJia-ID/KG-RNA。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42956877/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42956877/",
+  "paper_page_path": "papers/pubmed/42956877/index.html"
+}

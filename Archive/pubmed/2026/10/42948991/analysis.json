@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42948991",
+  "title": "Charge density effect of micelles on liquid-liquid phase separation.",
+  "authors": "Farshad, Mohsen; Baksi, Atanu; Whitmer, Jonathan K",
+  "journal": "Soft matter",
+  "published_date": "2026-10-28",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 5,
+  "one_liner_zh": "用粗粒化MD模拟研究带电胶束-聚合物混合物的液-液相分离，揭示胶束电荷密度对凝聚的调控机制，虽非IDP体系但涉及LLPS与静电互作建模，方法可迁移。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is central to the organization of biological and synthetic soft matter systems, yet how electrostatic interactions control condensation remains incompletely understood. Using coarse-grained molecular dynamics (MD) simulations, we investigate LLPS in charged micelle-polymer mixtures, focusing on how micelle charge affects phase behavior. We adopt a mapping from zeta potential (zeta) to the reduced Yukawa charge (q*), calibrated to experiments within a model oligomer-micelle mixture patterned on peptide amphiphile assemblies in the presence of dasiglucagon (DG). After identifying q(DG)  approximately  -6e as the effective DG charge required for LLPS, systematic variation of the micellar charge reveals a finite charge window bounded by lower and upper critical charges: increasing charge initially enhances micelle-polymer attraction and densifies the liquid complex, but at high charge, growing micelle-micelle repulsion destabilizes the dense phase. The predicted window overlaps the experimentally measured zeta values, and the zeta of glucose-associated PA-PBA lies within the island-like pocket, underscoring the dual regulatory role of electrostatics.",
+  "abstract_zh": "液-液相分离（LLPS）是生物及合成软物质系统组织的核心，然而静电相互作用如何控制凝聚仍未被完全理解。利用粗粒化分子动力学（MD）模拟，我们研究了带电胶束-聚合物混合物中的LLPS，重点关注胶束电荷如何影响相行为。我们采用从ζ电位（zeta）到约化Yukawa电荷（q*）的映射，该映射基于在存在达西格鲁肽（DG）的情况下，以肽两亲物组装体为模板的模型寡聚物-胶束混合物中的实验校准。在确定q(DG) 约 -6e 为LLPS所需的有效DG电荷后，系统变化胶束电荷揭示了一个由下临界电荷和上临界电荷界定的有限电荷窗口：增加电荷最初增强胶束-聚合物吸引力并使液体复合物致密化，但在高电荷下，增长的胶束-胶束排斥力使致密相失稳。预测的窗口与实验测量的ζ值重叠，且葡萄糖相关PA-PBA的ζ位于岛状口袋内，突显了静电的双重调控作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42948991/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42948991/",
+  "paper_page_path": "papers/pubmed/42948991/index.html"
+}

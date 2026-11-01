@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Abstract only, as provided in the submission record.
+- **Assessment boundary** Evaluation is restricted to the abstract text and associated metadata. No full text, figures, tables, supplementary information, methods detail, or raw data were available.
+- **Shared manuscript claim summary** The authors report a structure-based drug discovery effort targeting the SARS-CoV-2 nucleocapsid (N) protein and its liquid-liquid phase separation (LLPS) behavior. They screened 23 virtual compounds and 16 hit derivatives, assessed binding by surface plasmon resonance and antiviral activity by immunofluorescence, and evaluated condensate modulation by fluorescence recovery after photobleaching and inhibition of N condensate formation in cells. They identify hit compound D21 and, after structural optimization of series I and II, compound II8, which shows stronger N protein binding, inhibits N-RNA condensate formation, and displays antiviral activity in a human ACE2-expressing mouse model when given intranasally as a pre-incubated mixture with SARS-CoV-2. They conclude that II8 may serve as a localized prophylactic nasal spray and provide insight for developing LLPS modulators as next-generation antivirals.
+- **Visible evidence base** Abstract-level descriptions of screening, binding, antiviral, condensate, and in vivo experiments. No numerical values, statistics, controls, compound structures, target engagement data, selectivity data, pharmacokinetic data, or mechanistic dissection are visible.
+- **Missing materials affecting confidence** Full text, figures, tables, methods, compound characterization, statistical analysis, in vivo study design details, pharmacokinetic data, selectivity counterscreens, and independent replication are all absent. Confidence in the claims is therefore low to moderate and cannot be fully assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a topical and potentially important question, namely whether the SARS-CoV-2 N protein and its LLPS behavior can be targeted for antiviral intervention. The abstract describes a coherent discovery pipeline from virtual screening through binding, cellular condensate assays, and an in vivo model. However, the supplied material is an abstract only, and it does not permit verification of the central mechanistic and efficacy claims. Several key elements, including target engagement specificity, the causal link between LLPS modulation and antiviral activity, and the in vivo study design, are not sufficiently described to establish the case. The work is interesting in principle but currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in antiviral drug discovery, coronavirology, and biomolecular condensate biology would be interested because the work proposes a small-molecule strategy against a conserved viral structural protein and links LLPS modulation to antiviral effect. Medicinal chemists and pharmacokinetics specialists would also be interested in the optimization trajectory from D21 to II8 and the reported need for further structural modification. Clinicians and public health researchers focused on prophylactic intranasal interventions may find the proposed nasal spray concept of interest if the supporting data are robust.
+- **Major strengths** The study targets a less explored viral function, the N protein and its condensation behavior, rather than the more commonly pursued protease or polymerase. It combines computational screening with biophysical binding measurements, cell-based condensate assays, antiviral assays, and an in vivo model, which is an appropriate multi-tier strategy. The authors also report a structure-activity optimization effort across two series, which is a reasonable medicinal chemistry approach. The explicit acknowledgment that further structural modification is required because of the pharmacokinetic profile is a candid statement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Mechanistic specificity
+    - **Claim pointer** Compound II8 inhibits N-RNA condensate formation and this LLPS modulation underlies its antiviral activity.
+    - **Evidence pointer** Abstract, Results; location not provided.
+    - **Concern** The abstract asserts that LLPS modulation is the mechanism underlying antiviral activity, but no direct evidence is presented to distinguish this from other possible mechanisms, such as general cytotoxicity, interference with other RNA-binding processes, or nonspecific aggregation. No target engagement or rescue experiments are described.
+    - **Why it matters** Without establishing that N protein binding and condensate inhibition are causally responsible for the antiviral effect, the central mechanistic claim of the paper is unsupported.
+    - **Resolution test** Provide target engagement data in cells, demonstrate that LLPS-defective N mutants or condensate-disrupting controls phenocopy the effect, and show that antiviral activity is lost when N binding is abrogated.
+  - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** In vivo efficacy
+    - **Claim pointer** II8 displays antiviral activity in a human ACE2-expressing mouse model when administered intranasally as a pre-incubated mixture with SARS-CoV-2.
+    - **Evidence pointer** Abstract, Results; location not provided.
+    - **Concern** The in vivo claim is based on administration of a pre-incubated mixture of compound and virus. This design does not establish prophylactic or therapeutic efficacy in a physiologically relevant exposure scenario, because the compound may act directly on the inoculum rather than within the host. No dose-response, viral load, pathology, or survival data are visible.
+    - **Why it matters** The conclusion that II8 may serve as a localized prophylactic nasal spray depends on demonstrating protection under a realistic exposure model, not merely on co-incubation with virus.
+    - **Resolution test** Provide in vivo data with compound administered before or after viral challenge, separate from the inoculum, with dose-response, viral load, and clinical or pathological endpoints.
+  - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Selectivity and safety
+    - **Claim pointer** II8 exhibits stronger binding affinity for the N protein and effectively inhibits N-RNA condensates.
+    - **Evidence pointer** Abstract, Results; location not provided.
+    - **Concern** No selectivity data are provided against host proteins, other viral proteins, or unrelated condensate-forming systems. No cytotoxicity or off-target information is visible.
+    - **Why it matters** Binding to the N protein and inhibition of condensates are only meaningful if they are selective and not accompanied by unacceptable cellular toxicity.
+    - **Resolution test** Provide selectivity counterscreens, cytotoxicity data in relevant cell types, and, if possible, assessment of effects on host condensates.
+  - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Pharmacokinetics and developability
+    - **Claim pointer** Due to the pharmacokinetic profile of compound II8, further structural modifications are still required.
+    - **Evidence pointer** Abstract, Results and Conclusion; location not provided.
+    - **Concern** The pharmacokinetic profile is mentioned but not described. No absorption, distribution, metabolism, excretion, or toxicity parameters are visible, and the magnitude of the developability problem is unclear.
+    - **Why it matters** The conclusion that II8 may serve as a nasal spray requires at least minimal pharmacokinetic and local tolerability support.
+    - **Resolution test** Provide pharmacokinetic parameters, nasal residence or local exposure data, and a clear statement of the specific limitation that necessitates further modification.
+  - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Data reporting and reproducibility
+    - **Claim pointer** A total of 23 virtual screening compounds and 16 hit derivatives were prepared and evaluated.
+    - **Evidence pointer** Abstract, Methods and Results; location not provided.
+    - **Concern** The abstract does not report numerical binding affinities, antiviral potencies, effect sizes, confidence intervals, or statistical tests. The screening and optimization process cannot be evaluated for rigor or reproducibility.
+    - **Why it matters** Without quantitative data, the strength of the structure-activity relationship and the significance of the improvement from D21 to II8 cannot be judged.
+    - **Resolution test** Report quantitative binding and antiviral data with statistics for all key compounds, including D21 and II8, and describe the screening and optimization criteria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Terminology
+    - **Affected element** Use of the term modulator
+    - **Evidence pointer** Abstract, throughout; location not provided.
+    - **Issue** The term modulator is used broadly and could imply activation as well as inhibition. The abstract describes inhibition of condensate formation.
+    - **Required correction** Define the intended direction of modulation and use inhibitor or disruptor where appropriate.
+  - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Assay description
+    - **Affected element** Fluorescence recovery after photobleaching
+    - **Evidence pointer** Abstract, Methods; location not provided.
+    - **Issue** The abstract does not state what FRAP parameters were measured or how they relate to condensate material properties.
+    - **Required correction** Specify the FRAP readouts, such as recovery half-time and mobile fraction, and how they were interpreted.
+  - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Cell model
+    - **Affected element** Inhibition of N condensate formation in cells
+    - **Evidence pointer** Abstract, Results; location not provided.
+    - **Issue** The cell type, expression system, and whether condensates were induced by viral infection or by ectopic N expression are not described.
+    - **Required correction** State the cell model and induction conditions, and clarify whether the assay reflects infected or transfected cells.
+  - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** In vivo model
+    - **Affected element** Human ACE2-expressing mouse model
+    - **Evidence pointer** Abstract, Results; location not provided.
+    - **Issue** The mouse model is not specified beyond ACE2 expression, and the route, timing, and dose of administration are not fully described.
+    - **Required correction** Provide the mouse strain or model details, dose, timing, and route, and clarify the pre-incubation procedure.
+  - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Claim scope
+    - **Affected element** Prophylactic nasal spray conclusion
+    - **Evidence pointer** Abstract, Conclusion; location not provided.
+    - **Issue** The conclusion proposes a clinical application that is not directly supported by the described experiments.
+    - **Required correction** Temper the conclusion to reflect the preclinical stage and specify what further data are needed before a nasal spray can be proposed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5.
+- **Assessment against Nature-style criteria** Originality is moderate, as targeting the N protein and its LLPS behavior is less common than targeting other SARS-CoV-2 proteins, but the abstract does not establish that this is a novel mechanism or a novel chemical series. Scientific importance is potentially high if the mechanism is validated, but the current evidence is insufficient to support the therapeutic claims. Interdisciplinary readership is plausible, spanning virology, condensate biology, and medicinal chemistry, but the abstract lacks the quantitative and mechanistic detail needed to engage a broad audience. Technical soundness cannot be fully assessed from the abstract, and the key mechanistic and in vivo claims are not adequately supported. Readability for nonspecialists is reasonable at the abstract level, but the absence of definitions for LLPS and condensate modulation may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if technical concerns are resolved, particularly the mechanistic specificity and in vivo efficacy issues.
+
+## Risk / unsupported claims
+- The claim that LLPS modulation is the mechanism underlying antiviral activity is unsupported by the supplied material.
+- The claim that II8 displays antiviral activity in vivo is weak because the pre-incubated mixture design does not establish host-level efficacy.
+- The claim that II8 may serve as a localized prophylactic nasal spray is not supported by the described evidence.
+- The claim that II8 has stronger binding affinity for the N protein is not quantifiable from the abstract.
+- The claim that II8 effectively inhibits N-RNA condensate formation is not accompanied by quantitative or statistical support in the supplied material.
+- The pharmacokinetic limitation is mentioned but not evaluable from the supplied material.

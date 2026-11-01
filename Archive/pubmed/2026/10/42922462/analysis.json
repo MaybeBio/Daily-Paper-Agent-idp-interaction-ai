@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42922462",
+  "title": "Scaffold Affinity Tunes Biomolecular Condensate Function.",
+  "authors": "Reyna, Andres; Briggs, Madyson O; Russell, Alexander F; Phan, Tien M; Wang, Ryan J; Allen, Reuben; Hinds, Thomas R; Zheng, Ning; Mittal, Jeetain; Chatterjee, Champak",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-10-25",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过SUMO-SIM系统系统改变支架蛋白结合亲和力，揭示亲和力决定生物分子凝聚体的相行为、内部动力学和生化功能，为理解凝聚体中PPI的机制建模提供了定量实验框架，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "Biomolecular condensates (BMCs) organize cellular biochemistry by concentrating selected molecules into dynamic membrane-free compartments. Yet the molecular parameters that determine not only whether condensates form, but also how they behave and what they do, remain poorly defined. Here we show that scaffold binding affinity (K (d) ) is a quantitative determinant of condensate phase behavior, internal dynamics and biochemical output. Using a modular SUMO-SIM system in which scaffold valency was held constant while binding affinity was systematically varied, we found that affinity governs the phase boundary, resistance to chemical perturbation, and molecular mobility of condensates in vitro and in human cells. In multicomponent mixtures, the highest-affinity scaffold dominated dense-phase composition and dynamics, revealing a hierarchical rule for condensate organization. Finally, affinity-dependent changes in condensate dynamics translated into tunable enzyme activity, establishing binding energetics as an engineerable parameter for programming condensate biochemistry.",
+  "abstract_zh": "生物分子凝聚体（BMCs）通过将选定分子浓缩到动态的无膜区室中来组织细胞生化过程。然而，决定凝聚体不仅是否形成，还决定其行为方式及功能的分子参数仍不明确。在此，我们展示支架结合亲和力（K (d)）是凝聚体相行为、内部动力学及生化输出的定量决定因素。利用一个模块化SUMO-SIM系统，其中支架价数保持恒定而结合亲和力被系统性地变化，我们发现亲和力在体外及人类细胞中调控凝聚体的相边界、对化学扰动的抗性以及分子流动性。在多组分混合物中，最高亲和力的支架主导致密相组成和动力学，揭示了凝聚体组织的层级规则。最后，亲和力依赖的凝聚体动力学变化转化为可调节的酶活性，确立了结合能量学作为编程凝聚体生物化学的可工程化参数。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42922462/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42922462/",
+  "paper_page_path": "papers/pubmed/42922462/index.html"
+}

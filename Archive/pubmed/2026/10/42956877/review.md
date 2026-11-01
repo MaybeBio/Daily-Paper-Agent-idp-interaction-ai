@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a framework combining a Structural Expert and a Sequence Expert, trained in a multi-stage manner, to address heterogeneity between structured domains and intrinsically disordered regions in RNA-binding protein (RBP) sequences for residue-level RNA-binding site prediction. In parallel, a protein-RNA knowledge graph is used to identify similar proteins and transfer experimentally validated RNA ligands and biological annotations as candidate evidence. The authors claim improvements over MPBind, GPSite, and DeepPROBind on multiple benchmark datasets.
+- **Visible evidence base** Abstract text only; benchmark dataset names, evaluation metrics, and quantitative results are not specified
+- **Missing materials affecting confidence** Full manuscript, method details, dataset descriptions, evaluation protocols, quantitative performance numbers, baseline configurations, and code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible two-part framework addressing a real gap in RNA-binding site prediction, namely the lack of candidate ligand evidence. The heterogeneity-aware expert design is conceptually reasonable. However, the abstract provides no quantitative results, no dataset details, and no methodological specifics, making the claimed improvements impossible to evaluate. The evidence-grounded interpretation component is novel in intent but its implementation and validation are not described.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-RNA interactions, RBP function prediction, and integrative structural-sequence modeling. Experimental biologists studying RNA-binding proteins may also find the candidate ligand output useful for designing validation experiments.
+- **Major strengths** The framework addresses a genuine limitation in existing tools by providing candidate RNA ligands and biological annotations, not just binding site predictions. The explicit treatment of heterogeneity between structured domains and IDRs is a thoughtful design choice. The multi-stage expert training approach is a reasonable strategy for learning complementary representations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Experiments on multiple benchmark datasets demonstrate improvements over representative baselines including MPBind, GPSite, and DeepPROBind, across several evaluation metrics."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that improvements are demonstrated but provides no quantitative values, no specification of which datasets were used, no list of evaluation metrics, and no statistical significance assessment. Without these details, the claim of improvement cannot be verified or compared against existing literature.
+  - **Why it matters** The central claim of the manuscript is that the proposed method outperforms existing baselines. If this claim is not supported by transparent and reproducible quantitative evidence, the scientific contribution is not established.
+  - **Resolution test** Provide a table or figure in the full manuscript with performance values for each dataset and metric, including standard deviations or confidence intervals, and describe the statistical tests used to establish significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "The proposed framework addresses the heterogeneity between structured domains and IDRs by training a Structural Expert and a Sequence Expert in a multi-stage manner to learn complementary structural and sequential representations."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how the Structural Expert obtains structural information, how the multi-stage training is implemented, how the two experts are integrated for final prediction, or how the heterogeneity is explicitly modeled beyond having two separate experts. The term "heterogeneity-aware" implies a specific mechanism, but none is described.
+  - **Why it matters** Without methodological detail, the novelty and technical soundness of the approach cannot be assessed. The reader cannot determine whether the design is genuinely heterogeneity-aware or simply a two-branch architecture.
+  - **Resolution test** In the full manuscript, provide a clear description of the architecture, the structural feature sources, the training stages, and the fusion mechanism, ideally with a diagram and formal notation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The proposed protein-RNA knowledge graph addresses the lack of biological evidence in existing methods by identifying proteins similar to the query protein and transferring their experimentally validated RNA ligands and associated biological annotations as candidate evidence."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify how protein similarity is computed, how the knowledge graph is constructed, what sources of experimentally validated RNA ligands are used, or how the transferred evidence is evaluated for accuracy or relevance. No validation of the evidence-grounded interpretation component is mentioned.
+  - **Why it matters** The second contribution of the manuscript is the evidence-grounded interpretation. If this component is not validated, its utility for experimental follow-up is unsubstantiated.
+  - **Resolution test** Provide details on knowledge graph construction, similarity metrics, data sources, and an evaluation of the quality and relevance of the transferred ligands, such as comparison with known interactions or case studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The code repository link is provided, but the abstract does not state whether the code includes all trained models, data preprocessing scripts, and evaluation pipelines.
+  - **Required correction** Specify in the manuscript the contents of the repository and any dependencies or instructions for reproducing the reported results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "expert collaboration" is used without defining what constitutes an expert or how collaboration is operationalized beyond joint prediction.
+  - **Required correction** Define the term explicitly in the introduction or methods section to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Benchmark selection
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** Only three baselines are named. The choice of baselines and the rationale for their selection are not justified.
+  - **Required correction** Justify the baseline selection in the full manuscript and consider including more recent or widely used methods for a more comprehensive comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and validation of the knowledge graph component means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** Originality is moderate, as the combination of heterogeneity-aware modeling and evidence-grounded interpretation is not common, but the individual components are not entirely new. Scientific importance is potentially high for the RBP prediction community, but the impact is not demonstrated without quantitative evidence. Interdisciplinary readership is plausible given the intersection of computational and experimental biology. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable, though the abstract uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The framework is conceptually interesting, but the abstract lacks the quantitative and methodological detail necessary to support the claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of improvements over MPBind, GPSite, and DeepPROBind is unsupported because no quantitative results are provided.
+- The claim that the framework provides "biologically supported candidate RNA ligands" is unsupported because the knowledge graph construction and validation are not described.
+- The claim that the framework is "heterogeneity-aware" is unsupported because the specific mechanism for addressing heterogeneity is not described.
+- The generalizability of the framework across diverse RBP families cannot be assessed from the abstract.
