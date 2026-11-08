@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that complex coacervates can act as "liquefiers" to reverse the solid-to-liquid transition of RNA aggregates, restoring functional liquid droplets. They claim a multiscale mechanism involving coacervate infiltration, molecular buffering, and network fluidization, governed by a design rule favoring small-molecular anions, and demonstrate functional rescue in a model of pathological ribonucleoprotein solidification.
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full text, all figures and tables, simulation parameters, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially impactful idea, namely the use of coacervates as active agents to reverse RNA aggregate solidification. However, the evidence base available for review is limited to the abstract, which precludes verification of the mechanistic claims, the design rule, and the functional rescue demonstration. The claims are ambitious and broad, but their support cannot be assessed from the supplied material. The work may be of interest to the biomolecular condensate and synthetic biology communities, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, RNA biology, and pathological aggregation, as well as those in synthetic biology and therapeutic intervention for aggregation-related diseases. The proposed framework for active compositional control of phase behavior could appeal to a broad interdisciplinary audience.
+- **Major strengths** The conceptual framing is novel and addresses a fundamental challenge in the field, namely active reversal of aberrant solidification. The proposed multiscale mechanism is logically coherent and integrates experimental and simulation approaches. The potential for functional rescue in a pathological model adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that coacervates actively remodel solid RNA-peptide aggregates into functional liquid droplets via a multiscale mechanism
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a multiscale mechanism involving infiltration, molecular buffering, and fluidization, but no experimental or simulation data are presented to support these steps. The claim of "functional rescue" is stated without quantitative or qualitative outcomes.
+  - **Why it matters** Without supporting data, the core mechanistic and functional claims cannot be evaluated. The abstract alone does not establish that the observed effects are due to the proposed mechanism rather than alternative processes.
+  - **Resolution test** Provide experimental data showing coacervate infiltration, molecular-level buffering effects, and macroscopic liquefaction, along with functional assays demonstrating rescue. Simulation results should corroborate the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of design rule
+  - **Claim pointer** The claim that coacervates formed by small-molecular anions exhibit optimal efficacy as a design rule
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The design rule is stated as a general principle, but the abstract provides no comparative data across different coacervate compositions, molecular sizes, or charge densities. The scope of the rule is unclear.
+  - **Why it matters** A design rule implies predictive power across a range of systems. Without systematic variation and controls, the rule may be overgeneralized from a limited set of conditions.
+  - **Resolution test** Present a systematic screen of coacervate compositions with varying anion size and charge, showing a clear trend in liquefaction efficacy and establishing the boundaries of the rule.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The claim that the principle functionally rescues silenced RNA within a model of pathologically solidified ribonucleoprotein assemblies
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions a "model" of pathological solidification but does not specify the model system, the nature of the silencing, or the rescue assay. The term "functionally rescue" is vague and could encompass a range of outcomes.
+  - **Why it matters** The translational implication is a key selling point. Without clarity on the model and the functional readout, the significance of the rescue claim cannot be assessed.
+  - **Resolution test** Describe the model system, the silencing mechanism, and the functional assay. Provide quantitative data showing restoration of RNA function and comparison to appropriate controls.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "liquefier" is used without definition or contextualization. It is unclear whether this is a new concept or a rephrasing of existing ideas.
+  - **Required correction** Define "liquefier" in the context of biomolecular condensates and clarify its relationship to existing concepts such as dissolution or remodeling.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "systematic experiments" and "all-atom simulations" but provides no details on system composition, timescales, or simulation methodology.
+  - **Required correction** In the full manuscript, ensure that experimental and simulation methods are described in sufficient detail to allow replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Generalization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims a "general framework" for active compositional control, but the evidence is limited to a specific system. The generality is asserted rather than demonstrated.
+  - **Required correction** Temper the claim of generality or provide evidence across multiple systems to support it.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core mechanistic, design rule, and functional rescue claims are not verifiable from the abstract alone. Full data are required.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using coacervates as active liquefiers is original and distinct from passive dissolution approaches. This is a strength.
+  - Scientific importance: The work addresses a fundamental challenge in condensate biology and has potential therapeutic implications. Importance is high if the claims hold.
+  - Interdisciplinary readership: The topic bridges biophysics, RNA biology, and synthetic biology, which could attract a broad audience. However, the abstract assumes familiarity with condensate terminology.
+  - Technical soundness: Cannot be assessed from the abstract. The integration of experiments and simulations is promising, but no data are available for evaluation.
+  - Readability for nonspecialists: The abstract is dense and uses specialized terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising and potentially impactful, but the abstract alone does not provide sufficient data to support the mechanistic, design rule, or functional claims. A full manuscript with detailed evidence would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The multiscale mechanism of coacervate infiltration, molecular buffering, and network fluidization is unsupported by data in the abstract.
+- The design rule favoring small-molecular anions is stated without comparative evidence.
+- The functional rescue of silenced RNA in a pathological model is claimed without specification of the model or the assay.
+- The "general framework" for active compositional control is asserted without evidence of generality across systems.

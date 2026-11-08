@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42975940",
+  "title": "Coacervate droplets as a liquefier for the solid-to-liquid transition of RNA aggregates.",
+  "authors": "Guo, Wei; Luo, Rong; Shen, Yi; Zeng, Xiangze; Liu, Zhou; Shum, Ho Cheung",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-11-03",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过实验与全原子模拟揭示复合凝聚层液滴将固态RNA-肽聚集体重塑为功能性液滴的多尺度机制，虽对象为RNA凝聚体而非典型IDP，但聚焦相分离/凝聚体中的互作与材料性质转变，且方法含物理模拟，对无序蛋白介导的PPI机制建模有直接启发。",
+  "abstract": "Biomolecular condensates are functionally gated by their material properties. While RNA is a primary structural scaffold, its sequence-specific interactions can aberrantly drive condensates into dysfunctional solid aggregates. Yet, actively reversing this solidification to restore function remains a fundamental challenge, impeding progress in synthetic biology and therapeutics interventions. Here, we establish that complex coacervates can be engineered as liquefiers to actively remodel solid RNA-peptide aggregates into functional liquid droplets. Integrating systematic experiments with all-atom simulations, we decode a multiscale mechanism: coacervate infiltration at the micrometer scale mediates molecular buffering at the nanometer scale, which fluidizes the crosslinked network to drive macroscopic liquefaction. This capability is governed by a design rule, where coacervates formed by small-molecular anions exhibit optimal efficacy. We deploy this principle to functionally rescue silenced RNA within a model of pathologically solidified ribonucleoprotein assemblies. Our work provides a general framework for the active, compositional control of biomolecular phase behavior, with direct implications for managing pathological aggregation and engineering functional condensates in synthetic and living systems.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）的功能受其材料性质门控。尽管RNA是主要的结构支架，但其序列特异性相互作用可异常地将凝聚体驱动为功能失调的固体聚集体。然而，主动逆转这种固化以恢复功能仍是一项根本性挑战，阻碍了合成生物学和治疗干预的进展。在此，我们确立复合凝聚层（complex coacervates）可被工程化为液化剂，以主动重塑固体RNA-肽聚集体为功能性液滴。通过将系统实验与全原子模拟（all-atom simulations）相结合，我们解码了一种多尺度机制：微米尺度的凝聚层渗透介导纳米尺度的分子缓冲，从而流化交联网络以驱动宏观液化。这一能力受设计规则支配，其中由小分子阴离子形成的凝聚层表现出最佳效能。我们应用这一原理，在病理学固化的核糖核蛋白组装模型中功能性拯救沉默的RNA。我们的工作为生物分子相行为的主动、组成性控制提供了通用框架，对管理病理性聚集及在合成和生命系统中工程化功能性凝聚体具有直接意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42975940/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42975940/",
+  "paper_page_path": "papers/pubmed/42975940/index.html"
+}

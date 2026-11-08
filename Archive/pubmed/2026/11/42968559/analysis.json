@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42968559",
+  "title": "Switchable hydrophilicity solvents and biosolvents for green microextraction in bioanalysis.",
+  "authors": "Nisyriou, Styliani; Ntorkou, Marianna; Patakidou, Christina; Zacharis, Constantinos K",
+  "journal": "Bioanalysis",
+  "published_date": "2026-11-02",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文综述生物分析中绿色微萃取的可切换亲水性溶剂与生物溶剂，不涉及无序蛋白、蛋白互作或相关机制建模，与本课题无关。",
+  "abstract": "Sample preparation is critical in bioanalysis because of complex biological matrices and low analyte concentrations. Conventional liquid-liquid and solid-phase extraction are effective but often consume substantial organic solvents and resources. Green analytical chemistry has therefore promoted miniaturized microextraction approaches that reduce solvent use and waste while maintaining analytical performance. This review critically examines bioanalytical microextraction through two intersecting solvent-design perspectives: stimulus-responsive switchability and renewable/bio-derived solvent design, focusing on switchable-hydrophilicity solvents (SHSs) and bio-derived deep eutectic solvents (DESs)/natural deep eutectic solvents (NADESs). SHSs enable reversible changes in hydrophilicity or ionic character to facilitate extraction and phase separation, whereas bio-derived DES/NADES systems provide tunable alternatives to conventional petroleum-based solvents. Their analytical performance, matrix-related challenges, reproducibility, and greenness are critically assessed. Future developments are expected to emphasize automated and miniaturized platforms, life-cycle assessment, and computationally assisted solvent design. Although molecular simulations are increasingly used to support solvent selection, predictive COSMO-RS and artificial-intelligence approaches remain emerging directions in bioanalysis.",
+  "abstract_zh": "样品制备在生物分析中至关重要，原因在于生物基质复杂且分析物浓度低。传统的液-液萃取和固相萃取虽有效，但常消耗大量有机溶剂和资源。因此，绿色分析化学推动了小型化微萃取方法的发展，这些方法在保持分析性能的同时减少了溶剂使用和废物产生。本综述通过两个交叉的溶剂设计视角批判性地审视生物分析微萃取：刺激响应可切换性和可再生/生物衍生溶剂设计，重点关注可切换亲水性溶剂（SHSs）和生物衍生低共熔溶剂（DESs）/天然低共熔溶剂（NADESs）。SHSs能够实现亲水性或离子特性的可逆变化，以促进萃取和相分离，而生物衍生DES/NADES系统则为传统石油基溶剂提供了可调谐的替代方案。其分析性能、基质相关挑战、重现性和绿色度均受到严格评估。未来发展方向预计将强调自动化和小型化平台、生命周期评估以及计算辅助溶剂设计。尽管分子模拟日益用于支持溶剂选择，但预测性COSMO-RS和人工智能方法在生物分析中仍是新兴方向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42968559/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42968559/",
+  "paper_page_path": "papers/pubmed/42968559/index.html"
+}

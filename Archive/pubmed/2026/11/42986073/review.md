@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare unbound and bound AICD, including YENPTY-motif mutant variants. They report that unbound AICD is a heterogeneous disordered ensemble with transient local structure; FE65 binding redistributes the ensemble toward interaction-compatible substates without inducing a full disorder-to-order transition; residue-resolved contact analyses identify hotspots within and adjacent to YENPTY; mutations alter compact/extended balance while preserving disorder. The proposed mechanism is ensemble reweighting via localized hotspots.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, sampling lengths, convergence metrics, or quantitative contact data are provided
+- **Missing materials affecting confidence** Full methods, force field and water model specifications, simulation length and replica/ensemble setup, convergence and equilibration criteria, mutation selection rationale, contact definition and cutoff parameters, residue-resolved contact maps, ensemble property distributions, comparison with experimental data, and any statistical uncertainty estimates
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis for AICD recognition by FE65, namely that binding proceeds through ensemble reweighting rather than induced folding. The claim is consistent with current views of intrinsically disordered protein recognition. However, the abstract alone provides no quantitative evidence, no methodological detail, and no validation against experimental data. The central mechanistic conclusion is therefore not established from the supplied material. The work may be of interest to the disordered-protein and APP-signaling communities, but the evidence base is insufficient for a definitive assessment.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their recognition mechanisms, particularly those focused on ensemble-based models of binding; investigators in the APP/ Alzheimer's disease field interested in AICD interactions with adaptor proteins such as FE65; computational biophysicists developing or applying enhanced sampling or ensemble methods for disordered systems.
+- **Major strengths** The proposed mechanism, ensemble reweighting without full disorder-to-order transition, is a current and important concept in disordered-protein biology. The focus on residue-resolved contact hotspots within and adjacent to YENPTY is a sensible approach to localize the interaction determinants. The inclusion of mutant variants to probe sequence-localized perturbations is a reasonable strategy to test the mechanism.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that FE65 binding redistributes the AICD conformational ensemble toward interaction-compatible substates and that this supports an ensemble-reweighting recognition mechanism.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative evidence is presented to support the ensemble redistribution claim. The abstract reports qualitative observations, but provides no distributions, free-energy surfaces, population shifts, or statistical comparisons between unbound and bound states. Without such data, the central mechanistic conclusion cannot be evaluated.  
+  - **Why it matters** The core claim of the paper is mechanistic. A qualitative statement that the ensemble is "redistributed" is insufficient to distinguish ensemble reweighting from other possible mechanisms, such as conformational selection or induced fit. The distinction requires quantitative population analysis.  
+  - **Resolution test** Provide population-weighted conformational properties (e.g., radius of gyration, end-to-end distance, secondary-structure propensities) for unbound and bound states, with uncertainty estimates, and demonstrate statistically significant shifts toward interaction-compatible substates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that residue-resolved contact analyses identify localized interaction hotspots within and adjacent to the YENPTY region.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No contact maps, per-residue contact probabilities, or hotspot definitions are provided. The abstract states that hotspots exist but does not specify which residues, what contact criteria were used, or how significance was determined. The claim is therefore unverifiable from the supplied material.  
+  - **Why it matters** The identification of specific hotspots is a key element of the proposed mechanism. Without residue-level data, the reader cannot assess whether the hotspots are robust, whether they are consistent with known YENPTY interactions, or whether they are an artifact of the simulation setup.  
+  - **Resolution test** Present per-residue contact probability maps for unbound and bound states, define the contact cutoff and persistence criteria, and show that the identified hotspots are statistically enriched relative to a null model.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that mutations within the YENPTY motif alter the balance between compact and extended conformations while preserving disorder.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative measures of compactness or disorder are provided. The abstract does not state which residues were mutated, what the expected effect would be, or how the mutant ensembles were compared to the wild type. The claim is therefore not assessable.  
+  - **Why it matters** The mutant analysis is presented as supporting evidence for the mechanism. Without quantitative comparison, the reader cannot determine whether the observed changes are significant, whether they are specific to the YENPTY motif, or whether they support the proposed mechanism.  
+  - **Resolution test** Provide distributions of compactness metrics (e.g., radius of gyration, contact order) for wild-type and mutant AICD, with statistical tests for differences, and show that disorder metrics (e.g., secondary-structure content, backbone order parameters) are unchanged within uncertainty.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that molecular dynamics simulations were used to compare unbound and bound AICD.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No simulation details are provided. Force field, water model, simulation length, number of replicas, temperature, salt concentration, and convergence criteria are all absent. Without these, the reliability of the simulations cannot be assessed.  
+  - **Why it matters** Disordered-protein simulations are highly sensitive to force-field choice and sampling length. The absence of these details prevents any assessment of whether the observed ensembles are converged and physically meaningful.  
+  - **Resolution test** Provide full simulation parameters in the methods, including force field and water model, simulation length per replica, number of replicas, equilibration protocol, and convergence metrics (e.g., block averaging, autocorrelation analysis).  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that the work provides a molecular framework for understanding APP intracellular-tail recognition and its regulation by sequence-localized perturbations.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No comparison with experimental data is presented. The abstract does not reference any experimental binding affinities, structural data, or mutagenesis studies that could validate the simulation results. The claim of providing a "molecular framework" is therefore unsupported.  
+  - **Why it matters** For a computational study to be impactful, it should connect to or explain experimental observations. Without such connection, the framework remains speculative and its relevance to the biological system is unclear.  
+  - **Resolution test** Compare simulation-derived contact hotspots and ensemble properties with available experimental structures, binding data, or mutagenesis results, and discuss any discrepancies.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "ensemble reweighting" is used without definition or context. Nonspecialist readers may not understand what this means mechanistically.  
+  - **Required correction** Define ensemble reweighting in the abstract, for example by stating that the population of pre-existing conformational substates changes upon binding rather than the protein folding into a new structure.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that AICD retains "transient local structure" but does not specify what type of structure or how it was identified.  
+  - **Required correction** Specify the type of transient structure (e.g., helical, turn, or contacts) and the method used to identify it (e.g., secondary-structure assignment, contact persistence).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state how many mutant variants were studied or which residues were mutated.  
+  - **Required correction** List the specific mutations and the rationale for choosing them, even briefly in the abstract.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "interaction-compatible substates" is vague and could be interpreted in multiple ways.  
+  - **Required correction** Clarify what defines an interaction-compatible substate, for example by referencing specific structural features or contact patterns that are compatible with FE65 binding.
+
+## Risk / unsupported claims
+- The claim that FE65 binding redistributes the AICD ensemble toward interaction-compatible substates is unsupported by quantitative data in the abstract.
+- The claim that residue-resolved contact analyses identify localized hotspots is unverifiable without contact maps or per-residue data.
+- The claim that mutations alter compact/extended balance while preserving disorder is unsupported without quantitative metrics.
+- The claim that the work provides a molecular framework for APP intracellular-tail recognition is unsupported without comparison to experimental data.
+- The general claim that intrinsically disordered motifs achieve specific recognition through ensemble reweighting is presented as a broader implication but is not substantiated beyond the specific system, and even for that system the evidence is not provided in the abstract.

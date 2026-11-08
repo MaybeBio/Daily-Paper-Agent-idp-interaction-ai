@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42978225",
+  "title": "Molecular Grammar of Microtubule-Wetting Condensates.",
+  "authors": "Muthachikavil, Aswin Vinod; Allolio, Christoph; Seal, Ayush; Kuhne, Thomas D",
+  "journal": "Biophysical journal",
+  "published_date": "2026-11-04",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过模拟协议预测无序蛋白序列与微管的结合模式，揭示正电荷疏水簇和交替电荷序列两类分子语法，并验证互作区域，属于IDR介导的PPI机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Microtubule-condensate interactions regulate cytoskeletal dynamics involved in cell division, vesicle transport and cellular locomotion. Due to the size of microtubules and the slow timescale of condensate structural relaxation, there has not been a systematic investigation at the molecular level as to what binding patterns (molecular grammar) enable condensate binding to microtubules. We provide a simulation protocol that is able to predict whether any given disordered protein sequence will bind to microtubules. This simulation setup is suitable for compound testing. Our pattern analysis allows us to establish two categories of strongly interacting subsequences that enable binding to microtubules: positively charged hydrophobic clusters and alternating charge sequences. Their overall optimal balance is analyzed and preferential regions of interaction on microtubules are identified and validated with known experimental results.",
+  "abstract_zh": "微管-凝聚体相互作用调控参与细胞分裂、囊泡运输和细胞运动的细胞骨架动力学。由于微管的尺寸以及凝聚体结构弛豫的缓慢时间尺度，目前尚未在分子水平上系统研究何种结合模式（分子语法）能使凝聚体与微管结合。我们提供了一种模拟方案，能够预测任何给定的无序蛋白序列是否会与微管结合。该模拟设置适用于化合物测试。我们的模式分析使我们能够建立两类强相互作用的子序列，这些子序列能够实现与微管的结合：带正电荷的疏水簇和交替电荷序列。我们分析了它们整体的最佳平衡，并识别了微管上的优先相互作用区域，且通过已知实验结果进行了验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42978225/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42978225/",
+  "paper_page_path": "papers/pubmed/42978225/index.html"
+}
