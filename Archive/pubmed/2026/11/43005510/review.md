@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, claims, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors benchmark multiple in silico pathogenicity predictors against clinically curated SYNGAP1 missense variants, identify top performers (folding stability calculations, ESM1b, AlphaMissense), optimize thresholds for improved accuracy, analyze structural patterns of pathogenic variant enrichment, explore potential effects on phase separation and phosphoregulation, and present a web server (SGM) integrating these predictions with structural visualization and AI-generated summaries.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.7), Discussion, Conclusions, Methods (Sections 5.1–5.8), Data Availability Statement
+- **Missing materials affecting confidence** Figures 1–6 and all Supporting Information (Tables S1–S12, Figures S1–S8) are referenced but not provided. Specific numerical results, statistical details, and methodological parameters are therefore not directly verifiable.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant problem: the interpretation of SYNGAP1 missense variants of uncertain significance. The authors conduct a broad benchmarking of established and emerging in silico predictors, propose gene-specific threshold optimization, and identify structural patterns in variant pathogenicity. The development of the SGM server is a practical contribution. However, the manuscript has several significant weaknesses. The benchmarking dataset is small and derived from ClinVar annotations that may themselves be biased. The threshold optimization approach risks overfitting, and the cross-validation presented is limited. The analysis of phase separation and phosphosite colocalization is correlative and lacks mechanistic validation. The claims regarding the SGM server's utility and the AI-generated summaries are not supported by user evaluation or comparison with existing resources. The manuscript would benefit from a more critical discussion of the limitations of in silico prediction and the potential for circularity in benchmarking against ClinVar data.
+- **Who would be interested in the results, and why** Clinical geneticists and molecular diagnosticians interpreting SYNGAP1 variants would find the benchmarking and threshold recommendations useful. Researchers studying SYNGAP1 structure-function relationships and the molecular basis of SYNGAP1-related disorders would be interested in the structural enrichment patterns and the phase separation hypotheses. The broader computational biology community working on variant effect prediction would be interested in the comparative benchmarking and the gene-specific calibration approach.
+- **Major strengths** 1. The manuscript addresses a clinically important and timely problem: the high rate of VUS in SYNGAP1. 2. The benchmarking includes a wide range of predictors, from traditional sequence-based to state-of-the-art deep learning methods. 3. The structural analysis of pathogenic variant enrichment provides a useful framework for interpreting predictions. 4. The SGM server is a practical resource that integrates multiple data types and provides accessible output. 5. The authors acknowledge the limitations of their approach, including the small dataset and potential for bias.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim that the benchmarking dataset is "carefully curated" and that the performance metrics accurately reflect predictor accuracy for SYNGAP1.
+  - **Evidence pointer** Section 2.1, Section 5.2
+  - **Concern** The benchmarking dataset is derived from ClinVar annotations, which are themselves based on clinical interpretation and may be subject to bias. The dataset is small (N=191 clinically labeled variants), and the authors do not provide a detailed breakdown of how variants were selected, how conflicting annotations were resolved, or whether the dataset is representative of the full spectrum of SYNGAP1 variants. The use of ClinVar as ground truth introduces potential circularity, as some predictors (e.g., AlphaMissense) may have been trained on similar data. The authors do not address this critical limitation.
+  - **Why it matters** If the ground truth is biased or unrepresentative, the benchmarking results and the optimized thresholds may not generalize to real-world clinical use. The claim of "careful curation" needs to be substantiated with a detailed description of the curation process and an analysis of potential biases.
+  - **Resolution test** Provide a detailed description of the curation process, including inclusion/exclusion criteria, how conflicting annotations were resolved, and a comparison of the dataset composition to the broader SYNGAP1 variant landscape. Discuss the potential for circularity and how it was mitigated. Ideally, validate the optimized thresholds on an independent dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim that threshold optimization "fully unlocked" AlphaMissense's capabilities, enabling it to outperform all other methods.
+  - **Evidence pointer** Section 2.2, Section 5.5
+  - **Concern** The threshold optimization procedure is described as maximizing Youden's J on the test set. This is a form of post-hoc fitting to the test data, which can lead to overfitting and inflated performance estimates. The authors report a stratified 5-fold cross-validation for AlphaMissense and CADD, but the details are limited. It is unclear whether the optimized thresholds were applied to held-out folds or whether the thresholds were re-optimized within each fold. The cross-validation results are only shown in a supplementary figure (Figure S3), which is not provided.
+  - **Why it matters** If the thresholds are overfitted to the small test set, the reported performance gains may not be reproducible in independent datasets. The claim that AlphaMissense "outperforms all other prediction methods" is only valid if the optimization procedure is robust and the cross-validation is properly conducted.
+  - **Resolution test** Provide full details of the cross-validation procedure, including whether thresholds were optimized within each training fold. Report the variance of the optimized thresholds across folds. Validate the optimized thresholds on an independent, non-ClinVar dataset. Discuss the risk of overfitting and how it was addressed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors claim that the colocalization of phosphosites and predicted phase separation-impacting variants suggests these regions "could together form phase transition prone regions" and that this provides "a plausible disease mechanism."
+  - **Evidence pointer** Section 2.6, Figure 5
+  - **Concern** The analysis showing colocalization is correlative. The authors use a chi-squared test and Spearman correlation to demonstrate a statistical association, but this does not establish a functional link. The claim that these regions are "phase transition prone" is speculative and not supported by experimental evidence. The authors do not discuss alternative explanations for the colocalization, such as sequence composition biases in disordered regions.
+  - **Why it matters** The manuscript presents this as a potential disease mechanism, which could be misleading if interpreted as having functional validation. The claim goes beyond what the computational analysis can support.
+  - **Resolution test** Soften the language to clearly indicate that this is a hypothesis-generating observation. Discuss alternative explanations. If possible, provide additional computational evidence, such as known phase-separating protein databases or sequence-based predictors of phase separation, to strengthen the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Utility
+  - **Claim pointer** The authors claim the SGM server provides "AI-generated prediction summaries" to support variant assessment.
+  - **Evidence pointer** Section 2.7, Section 5.6
+  - **Concern** The use of a large language model (gpt-oss-20b) to generate summaries is described, but there is no evaluation of the accuracy, reliability, or potential biases of these summaries. The authors do not provide examples of the summaries or compare them to expert-written interpretations. There is no discussion of the risk of the AI model generating misleading or incorrect information.
+  - **Why it matters** If the AI-generated summaries are inaccurate or misleading, they could negatively impact clinical decision-making. The authors have a responsibility to validate this feature before presenting it as a tool for variant assessment.
+  - **Resolution test** Provide examples of AI-generated summaries for known pathogenic and benign variants. Conduct a small evaluation study comparing AI summaries to expert interpretations. Discuss the limitations of the AI model and any safeguards implemented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "SRD is likely primarily caused by SynGAP missense (SGM) variants," but the Introduction notes that truncating variants also cause SYNGAP1-related disorders. The abstract's phrasing is imprecise.
+  - **Required correction** Rephrase to "SRD is caused by both truncating and missense variants, with missense variants being particularly challenging to interpret."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Section 5.2
+  - **Evidence pointer** Section 5.2
+  - **Issue** The description of the benchmark test set states that variants with conflicting annotations were categorized based on "predominant benign or pathogenic classification trend." The criteria for "predominant" are not defined.
+  - **Required correction** Provide a clear definition, e.g., "variants with more than 50% of submissions supporting one classification."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Section 5.3
+  - **Evidence pointer** Section 5.3
+  - **Issue** The methods for molecular dynamics simulations are described briefly, but the force field, water model, and simulation temperature are not specified.
+  - **Required correction** Add these details to the Methods section or refer to the prior study [46] for full details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The phi coefficient is described as a measure of association, but the range of values and interpretation are not provided.
+  - **Required correction** Add a brief explanation, e.g., "phi coefficients range from -1 to 1, with 0 indicating no association."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7
+  - **Issue** The description of the SGM server's features is dense and could be better organized with subheadings or bullet points.
+  - **Required correction** Consider restructuring the section with subheadings for "Data Table," "3D Viewer," and "AI Summaries."
+- **Technical failings that need to be addressed before the case is established** 1. The benchmarking dataset curation and potential for circularity need to be addressed (R1-M1). 2. The threshold optimization and cross-validation methodology need to be clarified and made robust (R1-M2). 3. The claims regarding phase separation and phosphosite colocalization need to be tempered or supported with additional evidence (R1-M3). 4. The AI-generated summaries need to be validated (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The work is not highly original in its methodology, as it applies existing predictors to a single gene. However, the gene-specific focus and the integration of multiple prediction types into a web server provide some novelty. **Scientific importance:** The problem of VUS interpretation in SYNGAP1 is clinically important, and the benchmarking results may be useful for diagnostic laboratories. However, the impact is limited by the small dataset and the lack of experimental validation. **Interdisciplinary readership:** The work is primarily of interest to computational biologists and clinical geneticists. It is unlikely to attract a broad interdisciplinary readership. **Technical soundness:** The technical approach is generally sound, but the concerns regarding dataset curation, overfitting, and lack of validation for the AI summaries and phase separation claims weaken the overall technical rigor. **Readability for nonspecialists:** The manuscript is written in a technical style that would be challenging for nonspecialists. The abstract and introduction are accessible, but the results and methods sections assume significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and presents a potentially useful resource. However, the major concerns regarding dataset bias, overfitting, and unvalidated claims must be addressed before the conclusions can be considered robust. The authors should provide a more detailed and critical discussion of the limitations of their approach.
+
+## Risk / unsupported claims
+- The claim that the benchmarking dataset is "carefully curated" is not substantiated with sufficient detail.
+- The claim that optimized AlphaMissense thresholds "fully unlocked" its capabilities and that it "outperforms all other prediction methods" is not robustly supported due to potential overfitting.
+- The claim that phosphosites and phase separation-impacting variants "could together form phase transition prone regions" and provide "a plausible disease mechanism" is speculative and not supported by functional evidence.
+- The claim that the SGM server provides "AI-generated prediction summaries" that are useful for variant assessment is not validated.
+- The claim that the SGM server is "optimized for laptops or desktop computers" and provides a "recommended" user experience is not supported by any user testing data.

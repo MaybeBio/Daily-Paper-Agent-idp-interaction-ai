@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43010845",
+  "title": "MobiDB in 2027: machine-actionable access to intrinsic protein disorder knowledge.",
+  "authors": "Piovesan, Damiano; Lamara, Abdeldjallil; Worth, Alison Mae; Mehdiabadi, Mahta; Begue, Sol C; Tosatto, Silvio C E",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-11-11",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍MobiDB数据库2027版，提供无序蛋白注释的机器可访问接口和标准化API，虽涉及IDP对象但无PPI机制建模或AI/物理模拟方法，属于资源工具，对课题有数据支撑价值。",
+  "abstract": "MobiDB (https://mobidb.org) integrates structural and functional annotations for intrinsically disordered proteins and regions across UniProtKB. The 2027 release strengthens semantic consistency, programmatic access, and reproducible reuse. A refined controlled vocabulary groups features in a hierarchical way and distinguishes evidence classes and types annotation sources as providers, methods, or aggregation rules. A new versioned REST API, along with a developed MCP server, enables scripts, workflows, and tool-using artificial intelligence systems to retrieve and combine evidence-bearing records through documented operations. The redesigned website applies the same vocabulary to protein entries, documentation, and cross-proteome statistics. Additional developments include standardized Nextflow production workflows, updated RING Protein Data Bank interaction processing, integration of Motif Map of the Proteome and Linear Motif mediated Protein-Protein Interaction Database annotations, and a release-aware catalogue of static datasets for large-scale analysis. Following the recent increase in reference proteomes in UniProtKB, MobiDB now provides a more representative estimate of long-disorder with a median residue coverage of 12.3% in eukaryotes, 1.9% in archaea, 1.7% in bacteria, and 3.4% in viruses; and protein prevalence of 48.7%, 11.9%, 11.2%, and 25.0%, respectively. Together, these developments make disorder knowledge easier to discover, relate to function, and reuse with explicit provenance.",
+  "abstract_zh": "MobiDB (https://mobidb.org) 整合了UniProtKB中固有无序蛋白质及区域的结构和功能注释。2027年版本增强了语义一致性、程序化访问和可重复复用性。一个精细化的受控词汇表以层级方式对特征进行分组，并将证据类别和类型区分为注释来源，如提供者、方法或聚合规则。一个新的版本化REST API，以及一个开发的MCP服务器，使脚本、工作流和使用工具的人工智能系统能够通过文档化操作检索和组合带有证据的记录。重新设计的网站将相同的词汇表应用于蛋白质条目、文档和跨蛋白质组统计。其他发展包括标准化的Nextflow生产工作流、更新的RING蛋白质数据库相互作用处理、整合蛋白质组基序图谱和线性基序介导的蛋白质-蛋白质相互作用数据库注释，以及一个发布感知的静态数据集目录，用于大规模分析。随着UniProtKB中参考蛋白质组的最新增加，MobiDB现在提供了对长无序性的更具代表性的估计，真核生物中位残基覆盖率为12.3%，古菌为1.9%，细菌为1.7%，病毒为3.4%；蛋白质流行率分别为48.7%、11.9%、11.2%和25.0%。这些发展共同使无序知识更易于发现、与功能关联，并带有明确来源地复用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43010845/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43010845/",
+  "paper_page_path": "papers/pubmed/43010845/index.html"
+}

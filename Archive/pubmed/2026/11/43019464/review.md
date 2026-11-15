@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The review article's stated scope, claims, and framing as presented in the abstract
+- **Shared manuscript claim summary** The authors argue that exascale computing enables qualitatively new multiscale molecular dynamics simulations of crowded cellular environments, and that these simulations, combined with machine learning and experimental data, are advancing understanding of macromolecular crowding and liquid-liquid phase separation, with predictive whole-cell simulations now within reach.
+- **Visible evidence base** Abstract text only; no figures, tables, references, or main text provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, reference list, methodological details, and any quantitative results or benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and ambitious scope, linking exascale computing to multiscale simulation of cellular crowding and phase separation. The topic is of high current interest, and the authors are well-positioned in the field. However, the abstract is largely programmatic and lacks specific evidence, quantitative claims, or critical evaluation of the approaches discussed. The scientific case for the central assertion, that exascale platforms are bringing predictive whole-cell simulations within reach, is not established from the supplied material. The review may be valuable as a survey, but its novelty and critical depth cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists working on molecular dynamics methodology, researchers studying macromolecular crowding and biomolecular condensates, and developers of high-performance computing and machine-learning tools for biomolecular simulation. The review would also interest experimentalists seeking an overview of simulation capabilities relevant to cellular organization.
+- **Major strengths** The abstract identifies a clear and important scientific challenge, the crowded cellular interior, and connects it to a concrete technological development, exascale computing. The scope spans multiple resolution levels, from all-atom to ultra-coarse-grained, which is appropriate for the topic. The mention of specific physical insights, such as excluded volume effects and diffusion slowdown, indicates a substantive review content.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that exascale computing offers a "qualitatively new opportunity" and that predictive whole-cell simulations are "within reach."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts qualitative advances and near-term feasibility of whole-cell simulations without presenting any quantitative benchmarks, performance data, or specific examples of simulations that were previously impossible and are now enabled by exascale platforms.
+  - **Why it matters** The central value proposition of the review depends on demonstrating that exascale computing changes what is scientifically achievable. Without concrete evidence, such as system sizes, timescales, or accuracy improvements, the claim remains rhetorical rather than substantive.
+  - **Resolution test** The full manuscript should include specific examples with numbers, such as system sizes in atoms, simulated timescales, and comparisons to pre-exascale capabilities, ideally with citations to published work.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Critical assessment
+  - **Claim pointer** The abstract surveys "recent advances" in force fields, machine-learning-assisted construction, and MD engines, implying a critical evaluation of these tools.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract lists topics but gives no indication of critical assessment, such as limitations, trade-offs, or unresolved challenges in the methods discussed. A review that merely catalogs advances without evaluating their strengths and weaknesses has limited scientific value.
+  - **Why it matters** Readers rely on reviews to navigate competing methodologies and understand which approaches are mature and which remain exploratory. The absence of critical perspective in the abstract raises concern that the full review may be descriptive rather than evaluative.
+  - **Resolution test** The full manuscript should include explicit discussion of limitations for each method class, such as accuracy of coarse-grained models, transferability of machine-learned potentials, and scaling bottlenecks of MD engines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and differentiation
+  - **Claim pointer** The abstract frames the review as addressing multiscale simulations in the exascale era, implying a distinct contribution to the existing review literature.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not articulate how this review differs from prior reviews on molecular dynamics methodology, crowding simulations, or phase separation. Without a clear statement of novel synthesis or unique perspective, the contribution may be redundant.
+  - **Why it matters** The review's scientific importance depends on offering something beyond a compilation of recent work. A clear differentiation from existing literature is necessary to justify publication.
+  - **Resolution test** The full manuscript should include an explicit statement of what is new in this review, such as a unified framework connecting exascale hardware, multiscale methods, and biological insight, or a critical comparison not previously attempted.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Scope statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lists "all-atom, coarse-grained, and ultra-coarse-grained representations" but does not define the boundaries between these levels or explain the criteria for choosing among them.
+  - **Required correction** Add a sentence in the abstract or introduction clarifying the resolution ranges and the physical questions each level addresses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Physical insights
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The physical insights listed, such as "crowding-induced slowdown of diffusion," are stated without any indication of the magnitude of effects or the systems in which they were observed.
+  - **Required correction** Include representative quantitative findings in the abstract, such as fold-changes in diffusion coefficients or timescales of condensate maturation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Integration
+  - **Affected element** Machine learning and experimental data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions integration of machine learning and experimental data but does not specify how these elements are combined with simulations, such as through active learning, data assimilation, or parameter refinement.
+  - **Required correction** Briefly describe the nature of the integration in the abstract or ensure the full manuscript provides a clear methodological framework for this integration.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence to establish that exascale computing enables qualitatively new science or that the review offers critical evaluation of the methods. The full manuscript must supply quantitative examples and critical assessment to support the central claims.
+- **Assessment against Nature-style criteria** Originality: The topic is timely, but the abstract does not demonstrate a novel synthesis or framework that distinguishes this review from existing literature. Scientific importance: The subject is important, and the potential to connect exascale computing to biological insight is significant, but the importance is asserted rather than demonstrated. Interdisciplinary readership: The abstract bridges computational science, physical chemistry, and cell biology, which could attract a broad audience, but the technical framing may limit accessibility. Technical soundness: Cannot be assessed from the abstract; no methodological details or results are provided. Readability for nonspecialists: The abstract is generally clear but uses jargon such as "ultra-coarse-grained" and "exascale" without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract indicates a potentially valuable review, but the central claims require quantitative support and critical depth that are not visible in the supplied material. A revised abstract with specific evidence and clearer differentiation, along with a full manuscript demonstrating critical assessment, would be needed to support publication.
+
+## Risk / unsupported claims
+- The claim that exascale computing offers a "qualitatively new opportunity" is unsupported by specific examples or benchmarks in the abstract.
+- The claim that predictive whole-cell simulations are "within reach" is unsupported by any timeline, feasibility analysis, or demonstration.
+- The assertion that the review "examines how multiscale molecular dynamics simulations are transforming our understanding" implies a causal impact that is not evidenced in the abstract.
+- The statement that exascale platforms "integrated with machine learning and experimental data" will bring whole-cell simulations within reach is programmatic and not substantiated with specific integration strategies or results.

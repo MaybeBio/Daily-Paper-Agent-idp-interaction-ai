@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report a comparative analysis of α-synuclein (αSyn) interaction with three mammalian VDAC isoforms, including data on VDAC2 substates and molecular dynamics simulations. They propose that αSyn recognizes the VDAC protein-lipid interface in an isoform-specific manner, representing a new step in the chain of events leading to VDAC blockage, and suggest this guides a new strategy for VDAC-targeting drug development.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, electrophysiology data, simulation parameters, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative study of αSyn interactions with VDAC isoforms, a topic relevant to mitochondrial biology and neurodegeneration. However, the supplied material is insufficient to evaluate the technical soundness of the claims. The central assertion of isoform-specific recognition at the protein-lipid interface is stated without supporting quantitative data, and the relationship between the proposed mechanism and the "new step" in VDAC blockage is not clearly defined. The abstract reads as a summary of findings, but the evidence base is not visible, preventing a rigorous assessment of the case.
+- **Who would be interested in the results, and why** Researchers in mitochondrial physiology, membrane protein biophysics, and neurodegeneration, particularly those studying α-synuclein toxicity mechanisms or VDAC as a therapeutic target. The comparative isoform approach may also interest those working on VDAC isoform functional diversity.
+- **Major strengths** The comparative design across three VDAC isoforms is a clear strength, as most studies focus on a single isoform. The inclusion of VDAC2 substates and molecular dynamics simulations suggests a multi-pronged approach that could provide mechanistic insight. The stated goal of informing drug discovery is clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that αSyn interacts with the VDAC protein-lipid interface in an isoform-specific manner, and that this represents a new step in the chain of events leading to VDAC blockage.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, conductance changes, or simulation-derived free energy profiles, to support the claim of isoform-specific interaction. The phrase "new step in the chain of events" is vague and not anchored to a specific mechanistic model or prior literature.
+  - **Why it matters** Without quantitative evidence, the central claim cannot be distinguished from a qualitative observation. The proposed "new step" requires a defined mechanistic context to be meaningful, and its absence weakens the scientific contribution.
+  - **Resolution test** Provide specific measurements (e.g., dissociation constants, blockage kinetics, or simulation-derived interaction energies) for each VDAC isoform, and explicitly state how these data define a new mechanistic step relative to known VDAC-αSyn interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract implies that molecular dynamics simulations support the experimental findings on isoform-specific recognition.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are given, including force field, system setup, simulation length, or convergence criteria. Without these, the reliability of the simulation results cannot be assessed, and the claim that simulations "complement" the experimental data is unverifiable.
+  - **Why it matters** Molecular dynamics results are only meaningful if the simulations are adequately sampled and validated. The absence of these details prevents the reader from judging whether the simulations actually support the isoform-specific interaction claim.
+  - **Resolution test** Include simulation methods and validation metrics, such as convergence of key observables and comparison with experimental data, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clarity of claims
+  - **Claim pointer** The abstract states that the findings "guide a new strategy in the search for VDAC-targeting drugs."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The link between isoform-specific αSyn recognition and drug development is asserted but not explained. It is unclear how this mechanistic insight translates into a drug discovery strategy, and whether the authors propose targeting the protein-lipid interface or the αSyn-VDAC interaction.
+  - **Why it matters** The translational claim is a key part of the abstract's significance, but without a clear rationale, it appears speculative and may overstate the immediate applicability of the findings.
+  - **Resolution test** Clarify the proposed drug strategy, including the molecular target and the expected therapeutic outcome, or temper the claim to match the evidence presented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract title and opening
+  - **Evidence pointer** Abstract text
+  - **Issue** The title "So similar, yet so different" is catchy but does not convey the scientific content. The abstract lacks a clear statement of the biological context (e.g., why VDAC-αSyn interaction matters in disease).
+  - **Required correction** Revise the title to be more informative, and add one or two sentences in the abstract to establish the physiological relevance of the VDAC-αSyn interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** VDAC2 substates
+  - **Evidence pointer** Abstract text
+  - **Issue** The mention of "VDAC2 substates" is not explained. It is unclear what these substates are, how they were identified, and why they are relevant to the isoform comparison.
+  - **Required correction** Define VDAC2 substates in the abstract or remove the reference if it is not central to the main claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Protein-lipid interface"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "protein-lipid interface" is used without specifying whether it refers to the annular lipid shell, the lipid bilayer boundary, or a specific lipid-binding site on VDAC. This ambiguity affects the precision of the claim.
+  - **Required correction** Define the term operationally, or use more specific language (e.g., "VDAC-lipid boundary" or "lipid-facing surface of VDAC").
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative experimental data and simulation details means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The comparative isoform approach is a reasonable extension of prior work, but the abstract does not clearly distinguish the findings from existing literature on VDAC-αSyn interactions. Originality is plausible but not demonstrated.  
+  - Scientific importance: The topic is relevant, but the significance is undercut by the lack of mechanistic detail and the vague translational claim. Importance is moderate based on the abstract alone.  
+  - Interdisciplinary readership: The work could appeal to biophysicists, cell biologists, and neurobiologists, but the abstract does not frame the findings in a way that would engage a broad audience.  
+  - Technical soundness: Not assessable from the abstract. The absence of methods and data is a critical limitation.  
+  - Readability for nonspecialists: The abstract is accessible in language but lacks context and clear definitions, which limits its utility for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable study, but the absence of quantitative data and methodological details prevents a supportive recommendation. The authors should provide the full manuscript for a complete assessment.
+
+## Risk / unsupported claims
+- The claim of isoform-specific αSyn recognition at the protein-lipid interface is unsupported by quantitative data in the abstract.
+- The assertion that the findings represent a "new step" in the chain of events leading to VDAC blockage is not substantiated with a mechanistic model or comparison to prior work.
+- The translational claim regarding VDAC-targeting drug strategy is speculative and not explained.
+- The relevance and nature of VDAC2 substates are not defined, making this aspect unassessable.
+- The complementarity of molecular dynamics simulations to experimental results is unverifiable without simulation details.

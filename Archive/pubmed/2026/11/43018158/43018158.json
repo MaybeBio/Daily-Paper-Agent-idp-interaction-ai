@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "pmid": "43018158",
+    "doi": "10.1021/acsami.6c18828",
+    "title": "Microfluidic Control of Biomolecular Condensate Growth Reveals Scaling Crossover and Interfacial Regulation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, formed via phase separation, play vital roles in cellular organization, yet their nucleation and growth dynamics remain poorly understood, particularly under controlled physiological conditions. Here, we employ a microfluidic platform to precisely manipulate the nucleation and growth of PGL-3 protein condensates at fluid-solid interfaces. We demonstrate that ionic strength and co-phase-separating proteins (SEPA-1) robustly tune the nucleation rate without altering the long-term growth scaling  approximately tn. Single-condensate tracking further resolves a dynamic scaling crossover from rapid isolated growth with n  approximately  1/2 to diffusion-limited collective growth with n  approximately  1/3, consistent with simulations of overlapping protein-depletion fields. Furthermore, we show that this classical scaling breaks down during viscoelastic phase separation, where elastic-dominated condensates exhibit a significantly reduced exponent. Our work establishes molecular modulation and interfacial mechanics as key regulators of condensate dynamics, revealing physical principles that govern the size and material state of biological condensates.",
+    "keywords": [
+      "biomolecular condensates",
+      "interfacial nucleation",
+      "liquid-liquid phase separation",
+      "microfluidics",
+      "scaling crossover"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lian, Xinyi",
+        "Yang, Fengchang",
+        "Guo, Yongjie",
+        "Yang, Chun",
+        "Wang, Leilei",
+        "Wang, Zheng",
+        "Zheng, Xu",
+        "Guan, Dongshi"
+      ],
+      "short_names": [
+        "Lian X",
+        "Yang F",
+        "Guo Y",
+        "Yang C",
+        "Wang L",
+        "Wang Z",
+        "Zheng X",
+        "Guan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0379-8973",
+        "ORCID: 0000-0002-2398-9283",
+        "ORCID: 0000-0002-4433-3662"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China.",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China.",
+        "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, No. 15 Datun Road, Chaoyang District, Beijing100101, China.",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "School of Basic Medical Sciences, The Second Affiliated Hospital, The MOE Organoid Resource Center, Institute of Biomedical Innovation, Jiangxi Medical College, Nanchang University, Nanchang330031, China.",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+        "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lian, Xinyi",
+        "short_name": "Lian X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+          "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fengchang",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yongjie",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+          "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chun",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, No. 15 Datun Road, Chaoyang District, Beijing100101, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Leilei",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0002-0379-8973"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheng",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, The Second Affiliated Hospital, The MOE Organoid Resource Center, Institute of Biomedical Innovation, Jiangxi Medical College, Nanchang University, Nanchang330031, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xu",
+        "short_name": "Zheng X",
+        "identifiers": [
+          "0000-0002-2398-9283"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Dongshi",
+        "short_name": "Guan D",
+        "identifiers": [
+          "0000-0002-4433-3662"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, No. 15 Beisihuan West Road, Haidian District, Beijing100190, China.",
+          "School of Engineering Science, University of Chinese Academy of Sciences, No. 19(A) Yuquan Road, Shijingshan District, Beijing100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS applied materials & interfaces"
+    ],
+    "journal_abbrev": [
+      "ACS Appl Mater Interfaces"
+    ],
+    "pub_date": "2026 Nov 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/12 11:32",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43018158"
+    ],
+    "review": [
+      "43018158"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/aamick/article-lookup/doi/10.1021/acsami.6c18828",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

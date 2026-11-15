@@ -1,0 +1,188 @@
+{
+  "identity": {
+    "pmid": "43008727",
+    "doi": "10.1016/j.cell.2026.10.036",
+    "title": "COP1 is a temperature-responsive switch in Arabidopsis."
+  },
+  "content": {
+    "abstract": "Temperature is molecular motion, but how living systems sense this is poorly understood. Many responses in plants integrate light and temperature signals, for example, via light receptors and the circadian clock. CONSTITUTIVE PHOTOMORPHOGENESIS 1 (COP1) regulates light signaling and is necessary for responding to temperature. We show that COP1 acts as a temperature-dependent switch, becoming activated by a warm temperature-induced conformational change. An intramolecular Val-Pro (VP) motif binds to the active site of COP1 at low temperatures, preventing substrate docking. At warmer temperatures, the VP motif becomes detached, enabling client proteins to bind and be degraded. This discovery explains how plants are able to obtain a precise readout of temperature within a given climate range. Altering the binding of the VP motif is sufficient to adjust the temperature range within which the plant responds. This helps us understand how plants are able to adapt to different climates.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "COP1",
+      "FRET",
+      "adaptation",
+      "climate change",
+      "intrinsically disordered regions",
+      "molecular dynamics simulations",
+      "temperature",
+      "thermomorphogenesis",
+      "thermosensor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Wei",
+        "Lamelas, Laura",
+        "Scaramozzino, Domenico",
+        "Chen, Zhuo Angel",
+        "Rappsilber, Juri",
+        "Xue, Shuqin",
+        "Jaeger, Katja E",
+        "Orellana, Laura",
+        "Sampathkumar, Arun",
+        "Wigge, Philip A"
+      ],
+      "short_names": [
+        "Zeng W",
+        "Lamelas L",
+        "Scaramozzino D",
+        "Chen ZA",
+        "Rappsilber J",
+        "Xue S",
+        "Jaeger KE",
+        "Orellana L",
+        "Sampathkumar A",
+        "Wigge PA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Leibniz Institut fur Gemuse und Zierpflanzenbau (IGZ) e.V., 14979 Grossbeeren, Germany; Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany.",
+        "Leibniz Institut fur Gemuse und Zierpflanzenbau (IGZ) e.V., 14979 Grossbeeren, Germany.",
+        "Karolinska Institutet, 17177 Stockholm, Sweden.",
+        "Technische Universitat Berlin, Chair of Bioanalytics, 10623 Berlin, Germany; Si-M/\"Der Simulierte Mensch\", a Science Framework of Technische Universitat Berlin, Berlin, Germany.",
+        "Technische Universitat Berlin, Chair of Bioanalytics, 10623 Berlin, Germany; Si-M/\"Der Simulierte Mensch\", a Science Framework of Technische Universitat Berlin, Berlin, Germany.",
+        "Leibniz Institut fur Gemuse und Zierpflanzenbau (IGZ) e.V., 14979 Grossbeeren, Germany.",
+        "Leibniz Institut fur Gemuse und Zierpflanzenbau (IGZ) e.V., 14979 Grossbeeren, Germany.",
+        "Karolinska Institutet, 17177 Stockholm, Sweden.",
+        "Max Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany.",
+        "Leibniz Institut fur Gemuse und Zierpflanzenbau (IGZ) e.V., 14979 Grossbeeren, Germany; Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany. Electronic address: wigge@igzev.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Wei",
+        "short_name": "Zeng W",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institut für Gemüse und Zierpflanzenbau (IGZ) e.V., 14979 Großbeeren, Germany; Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Lamelas, Laura",
+        "short_name": "Lamelas L",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institut für Gemüse und Zierpflanzenbau (IGZ) e.V., 14979 Großbeeren, Germany."
+        ]
+      },
+      {
+        "full_name": "Scaramozzino, Domenico",
+        "short_name": "Scaramozzino D",
+        "identifiers": [],
+        "affiliations": [
+          "Karolinska Institutet, 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhuo Angel",
+        "short_name": "Chen ZA",
+        "identifiers": [],
+        "affiliations": [
+          "Technische Universität Berlin, Chair of Bioanalytics, 10623 Berlin, Germany; Si-M/\"Der Simulierte Mensch\", a Science Framework of Technische Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Rappsilber, Juri",
+        "short_name": "Rappsilber J",
+        "identifiers": [],
+        "affiliations": [
+          "Technische Universität Berlin, Chair of Bioanalytics, 10623 Berlin, Germany; Si-M/\"Der Simulierte Mensch\", a Science Framework of Technische Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Xue, Shuqin",
+        "short_name": "Xue S",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institut für Gemüse und Zierpflanzenbau (IGZ) e.V., 14979 Großbeeren, Germany."
+        ]
+      },
+      {
+        "full_name": "Jaeger, Katja E",
+        "short_name": "Jaeger KE",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institut für Gemüse und Zierpflanzenbau (IGZ) e.V., 14979 Großbeeren, Germany."
+        ]
+      },
+      {
+        "full_name": "Orellana, Laura",
+        "short_name": "Orellana L",
+        "identifiers": [],
+        "affiliations": [
+          "Karolinska Institutet, 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sampathkumar, Arun",
+        "short_name": "Sampathkumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Wigge, Philip A",
+        "short_name": "Wigge PA",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz Institut für Gemüse und Zierpflanzenbau (IGZ) e.V., 14979 Großbeeren, Germany; Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany. Electronic address: wigge@igzev.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Nov 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/10 23:28",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43008727"
+    ],
+    "review": [
+      "43008727"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)01286-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

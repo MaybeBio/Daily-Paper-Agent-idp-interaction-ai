@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42995857",
+  "title": "So similar, yet so different: alpha-synuclein recognition of the isoform-specific VDAC protein-lipid interface.",
+  "authors": "Rostovtseva, Tatiana K; Rajendran, Megha; Rosencrans, William M; Queralt-Martin, Maria; Wolfe, Mya S; Bautista, Nina A; Beyene, Bethel G; Larimi, Motahareh G; Sodt, Alexander J; Bezrukov, Sergey M",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-11-08",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟结合电生理实验，研究无序蛋白α-突触核蛋白识别VDAC亚型蛋白-脂质界面的异构特异性互作机制，对象为IDP且涉及PPI机制，但方法以实验为主、模拟为辅，机制深度中等。",
+  "abstract": "In mammals, VDAC exists as three isoforms - VDAC1, VDAC2, and VDAC3 - each characterized by a distinct tissue-dependent distribution and physiologic role. Isoform-specific knockout studies in cells and mice demonstrate distinct physiological roles for each VDAC isoform. The isoforms share about 70% sequence homology and a conserved beta-barrel structure and, when reconstituted into planar lipid membranes, form similar highly conductive, anion-selective, voltage-gated channels. A natural question, then, is how relatively minor differences in isoform sequences lead to striking differences in their interactions with protein partners and, consequently, in their physiological functions. To address this question, we used a small, intrinsically disordered cytosolic protein alpha-synuclein (alphaSyn) as a sensitive molecular probe. A comparative study with recombinant VDACs reconstituted into planar lipid membranes shows that, depending on the isoform, the alphaSyn-induced blockage exhibits up to 100-fold differences in on-rates and equilibrium constants. The isoforms also display distinct translocation regimes for alphaSyn, as evidenced by altered dependences of the off-rates on the applied voltage. Deletion of cysteine residues has a significant effect on alphaSyn binding. Combined with corresponding data obtained for VDAC2 substates - which show an order of magnitude variation in on-rates while maintaining the conserved equilibrium constants - and the results of molecular dynamics simulations, these findings point to a previously unrecognized step in VDAC inhibition by alphaSyn: an isoform-specific alphaSyn interaction with the VDAC protein-lipid interface. This finding opens a new paradigm for understanding VDAC isoform functions and developing isoform-specific therapeutics. NEW & NOTEWORTHY: Comparative analysis of alpha-synuclein interaction with three mammalian VDAC isoforms, complemented by corresponding data for VDAC2 substates and results from molecular dynamics simulations, reveals a new step in the chain of events leading to VDAC blockage. Specifically, our findings point to the isoform-specific interaction of alphaSyn with VDAC protein-lipid interface, thereby guiding a new strategy in the search for VDAC-targeting drugs.",
+  "abstract_zh": "在哺乳动物中，VDAC以三种异构体形式存在——VDAC1、VDAC2和VDAC3——每种异构体均具有独特的组织依赖性分布和生理作用。细胞和小鼠中的异构体特异性敲除研究表明，每种VDAC异构体具有不同的生理功能。这些异构体共享约70%的序列同源性和保守的β-桶结构，并且在重构到平面脂质膜中时，形成相似的高导电性、阴离子选择性、电压门控通道。因此，一个自然的问题是，异构体序列中相对较小的差异如何导致它们与蛋白质伙伴相互作用的显著差异，进而影响其生理功能。为解决此问题，我们使用了一种小的、 intrinsically disordered 胞质蛋白α-突触核蛋白（alphaSyn）作为敏感分子探针。对重构到平面脂质膜中的重组VDAC进行的比较研究表明，根据异构体的不同，alphaSyn诱导的阻断在结合速率和平衡常数上表现出高达100倍的差异。这些异构体还表现出alphaSyn的不同转运模式，这通过解离速率对施加电压的依赖性改变得以体现。半胱氨酸残基的缺失对alphaSyn结合有显著影响。结合VDAC2亚态获得的相应数据——这些数据显示结合速率有一个数量级的变化，同时保持保守的平衡常数——以及分子动力学模拟的结果，这些发现指向了alphaSyn抑制VDAC中一个先前未被识别的步骤：alphaSyn与VDAC蛋白-脂质界面的异构体特异性相互作用。这一发现为理解VDAC异构体功能和开发异构体特异性治疗药物开辟了新范式。新意与重要性：对α-突触核蛋白与三种哺乳动物VDAC异构体相互作用的比较分析，辅以VDAC2亚态的相应数据和分子动力学模拟结果，揭示了导致VDAC阻断事件链中的一个新步骤。具体而言，我们的发现指向alphaSyn与VDAC蛋白-脂质界面的异构体特异性相互作用，从而为寻找靶向VDAC的药物提供了新策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42995857/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42995857/",
+  "paper_page_path": "papers/pubmed/42995857/index.html"
+}

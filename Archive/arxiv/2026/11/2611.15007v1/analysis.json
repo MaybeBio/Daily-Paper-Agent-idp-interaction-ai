@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2611.15007v1",
+  "title": "A unified finite-site framework for scaffold-client biocondensation",
+  "authors": "Hamza Coban; Alfredo Alexander-Katz",
+  "journal": "",
+  "published_date": "2026-11-11",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用统一有限位点热力学框架和蒙特卡洛模拟，系统建模脚手架-客户蛋白互作对凝聚体相分离热力学优势及三元相图的影响，虽非AI方法但物理模拟与互作机制建模深度契合本课题。",
+  "abstract": "Client recruitment into biomolecular condensates does not determine how stronger binding changes the bulk free-energy advantage of demixing. Here, we use a unified finite-site thermodynamic framework to examine how scaffold-client interactions affect both the response of a fixed-composition mixture and the organization of its ternary phase diagram. The thermodynamic response to increasing client affinity is determined by the difference in heterotypic bonding between the complete equilibrium phase-separated sample and the corresponding homogeneous state. A finite region of the model exhibits positive scaffold-client concentration covariance but negative heterotypic bond contrast: stronger binding reduces the demixing advantage even when both species enrich in the dense phase. This reduction also occurs with independent scaffold self-association and client-binding site pools, without direct displacement of scaffold bonds. A negative response does not by itself imply condensate shrinkage or dissolution. Across composition space, the same finite binding constraints support scaffold-rich and heterotypic coexistence regimes with distinct bond populations. For divalent clients, these regimes can occupy disconnected regions of the phase diagram and reconnect upon increasing client affinity, depending on scaffold cohesion. Critical-point continuation identifies the folds and cusp organizing these changes, while client valence restricts the parameter range over which disconnected coexistence occurs. Explicit-particle Monte Carlo simulations reproduce the qualitative reentrant response and provide finite-size evidence for disconnected coexistence. These results provide a bond-resolved characterization of fixed-parent affinity response and a complementary description of coexistence under specified association constraints.",
+  "abstract_zh": "客户招募进入生物分子凝聚体并不决定更强的结合如何改变去混合的总体自由能优势。在此，我们使用一个统一的有限位点热力学框架来研究支架-客户相互作用如何影响固定组成混合物的响应及其三元相图的组织。对客户亲和力增加的热力学响应由完全平衡相分离样品与相应均质状态之间异型键合的差异决定。模型的一个有限区域表现出正的支架-客户浓度协方差，但负的异型键对比：即使两种物种在稠密相中富集，更强的结合也会降低去混合优势。这种降低也发生在独立的支架自结合和客户结合位点库中，而无需直接置换支架键。负响应本身并不暗示凝聚体收缩或溶解。在组成空间中，相同的有限结合约束支持具有不同键群体的支架富集和异型共存区域。对于二价客户，这些区域可能占据相图中不连续的区域，并在客户亲和力增加时重新连接，具体取决于支架内聚力。临界点延拓识别了组织这些变化的折叠和尖点，而客户价态限制了不连续共存发生的参数范围。显式粒子蒙特卡洛模拟重现了定性的回滞响应，并为不连续共存提供了有限尺寸证据。这些结果提供了固定母体亲和力响应的键分辨表征，以及在特定关联约束下共存的补充描述。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2611.15007v1",
+  "source_url": "https://arxiv.org/abs/2611.15007v1",
+  "paper_page_path": "papers/arxiv/2611.15007v1/index.html"
+}

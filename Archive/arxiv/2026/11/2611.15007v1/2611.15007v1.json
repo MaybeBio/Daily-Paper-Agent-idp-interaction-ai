@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2611.15007v1",
+  "title": "A unified finite-site framework for scaffold-client biocondensation",
+  "doi": "",
+  "abstract": "Client recruitment into biomolecular condensates does not determine how stronger binding changes the bulk free-energy advantage of demixing. Here, we use a unified finite-site thermodynamic framework to examine how scaffold-client interactions affect both the response of a fixed-composition mixture and the organization of its ternary phase diagram. The thermodynamic response to increasing client affinity is determined by the difference in heterotypic bonding between the complete equilibrium phase-separated sample and the corresponding homogeneous state. A finite region of the model exhibits positive scaffold-client concentration covariance but negative heterotypic bond contrast: stronger binding reduces the demixing advantage even when both species enrich in the dense phase. This reduction also occurs with independent scaffold self-association and client-binding site pools, without direct displacement of scaffold bonds. A negative response does not by itself imply condensate shrinkage or dissolution. Across composition space, the same finite binding constraints support scaffold-rich and heterotypic coexistence regimes with distinct bond populations. For divalent clients, these regimes can occupy disconnected regions of the phase diagram and reconnect upon increasing client affinity, depending on scaffold cohesion. Critical-point continuation identifies the folds and cusp organizing these changes, while client valence restricts the parameter range over which disconnected coexistence occurs. Explicit-particle Monte Carlo simulations reproduce the qualitative reentrant response and provide finite-size evidence for disconnected coexistence. These results provide a bond-resolved characterization of fixed-parent affinity response and a complementary description of coexistence under specified association constraints.",
+  "authors": [
+    "Hamza Coban",
+    "Alfredo Alexander-Katz"
+  ],
+  "published_date": "2026-11-11T04:06:41Z",
+  "updated_date": "2026-11-11T04:06:41Z",
+  "journal": "",
+  "category": "physics.bio-ph, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2611.15007v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.15007v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2611.15007v1",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

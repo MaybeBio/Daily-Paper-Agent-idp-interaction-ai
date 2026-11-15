@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43008727",
+  "title": "COP1 is a temperature-responsive switch in Arabidopsis.",
+  "authors": "Zeng, Wei; Lamelas, Laura; Scaramozzino, Domenico; Chen, Zhuo Angel; Rappsilber, Juri; Xue, Shuqin; Jaeger, Katja E; Orellana, Laura; Sampathkumar, Arun; Wigge, Philip A",
+  "journal": "Cell",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究拟南芥COP1蛋白通过温度诱导的构象变化（VP基序与活性位点的结合/解离）调控底物蛋白互作与降解的温度开关机制，虽对象非典型IDP，但揭示了无序/柔性构象变化介导PPI的机制建模思路，对本课题有可迁移启发。",
+  "abstract": "Temperature is molecular motion, but how living systems sense this is poorly understood. Many responses in plants integrate light and temperature signals, for example, via light receptors and the circadian clock. CONSTITUTIVE PHOTOMORPHOGENESIS 1 (COP1) regulates light signaling and is necessary for responding to temperature. We show that COP1 acts as a temperature-dependent switch, becoming activated by a warm temperature-induced conformational change. An intramolecular Val-Pro (VP) motif binds to the active site of COP1 at low temperatures, preventing substrate docking. At warmer temperatures, the VP motif becomes detached, enabling client proteins to bind and be degraded. This discovery explains how plants are able to obtain a precise readout of temperature within a given climate range. Altering the binding of the VP motif is sufficient to adjust the temperature range within which the plant responds. This helps us understand how plants are able to adapt to different climates.",
+  "abstract_zh": "温度是分子运动，但生命系统如何感知温度却知之甚少。植物的许多响应整合了光和温度信号，例如通过光受体和生物钟。组成型光形态建成1（COP1）调控光信号传导，并对温度响应至关重要。我们表明，COP1作为一个温度依赖性开关，通过温暖温度诱导的构象变化而被激活。一个分子内缬氨酸-脯氨酸（VP）基序在低温下结合到COP1的活性位点，阻止底物对接。在较温暖温度下，VP基序脱离，使客户蛋白能够结合并被降解。这一发现解释了植物如何在特定气候范围内获得精确的温度读数。改变VP基序的结合足以调整植物响应的温度范围。这有助于我们理解植物如何适应不同气候。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43008727/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43008727/",
+  "paper_page_path": "papers/pubmed/43008727/index.html"
+}

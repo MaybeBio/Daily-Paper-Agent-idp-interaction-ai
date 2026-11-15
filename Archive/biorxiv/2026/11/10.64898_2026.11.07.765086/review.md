@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, supplementary data list)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors claim that salmon protamine, an arginine-rich intrinsically disordered protein, binds DNA with nucleobase specificity, preferring GC over AT overall, with a strong GC preference at the major groove and an AT preference at the minor groove. They further claim that G-tracts enhance this preference and that these biases have functional implications for transcription silencing and chromatin remodeling during spermiogenesis.
+- **Visible evidence base** All-atom molecular dynamics simulations (35-bp and 20-bp DNA), umbrella sampling free-energy calculations, and co-condensation experiments with brightfield microscopy and UV absorbance.
+- **Missing materials affecting confidence** Supplementary figures (S1-S15), Supplementary Table S1, Movie S1, and source data deposited on GitHub were not provided. Simulation input files, force field parameter details, and convergence criteria were not fully described. Experimental raw images and replicate data were not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: whether intrinsically disordered proteins such as protamine can exhibit nucleobase-specific DNA binding. The combination of all-atom MD simulations, free-energy calculations, and experimental co-condensation assays is appropriate and potentially powerful. The central claim, that protamine shows a moderate overall GC preference arising from opposing groove-specific selectivities, is plausible and mechanistically interesting. However, the evidence as presented has several gaps. The simulation analysis relies on interaction counts with a 3.5 Å cutoff, which may not robustly capture hydrogen bonding. The free-energy calculations are performed on a simplified model (single Arg side chain, 7-bp DNA) and may not reflect the multivalent binding in the full system. The experimental validation uses only four DNA sequences with limited replicates and no error analysis. The link between the observed in vitro biases and the proposed in vivo functional roles is speculative. The manuscript would benefit from clearer presentation of the simulation statistics, additional controls, and a more cautious interpretation of the biological implications.
+- **Who would be interested in the results, and why** Researchers studying protein-DNA recognition, particularly those interested in intrinsically disordered proteins and arginine-rich motifs. The work is also relevant to the chromatin field, specifically sperm chromatin packaging, histone-to-protamine transition, and the role of DNA sequence in chromatin organization. The methodological approach combining simulation and experiment may interest biophysicists and computational biologists.
+- **Major strengths** The question is well-posed and addresses a gap in the field. The use of all-atom MD simulations with multiple salt conditions and DNA lengths is thorough. The free-energy calculations provide a quantitative comparison of interaction modes. The experimental co-condensation assays directly test the simulation-derived predictions. The discussion connects the findings to existing literature on protamine-DNA interactions and chromatin biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation analysis
+  - **Claim pointer** The authors claim that Arg side chains form hydrogen bonds with nucleobases and quantify these interactions using a 3.5 Å cutoff between heavy atoms.
+  - **Evidence pointer** Methods, "MD data analysis"; Results, "Arg side chains form hydrogen bonds with multiple bases"
+  - **Concern** The definition of hydrogen bonds based solely on a 3.5 Å heavy-atom distance cutoff is insufficient. Hydrogen bonding requires proper donor-acceptor geometry, including angle criteria. The reported interaction counts and probabilities may include non-specific close contacts that are not true hydrogen bonds. This could significantly affect the reported ratios and preferences.
+  - **Why it matters** The central claim of nucleobase-specific recognition rests on the accurate identification of Arg-nucleobase hydrogen bonds. If the interaction definition is too permissive, the reported GC/AT preferences may be artifacts of the analysis method.
+  - **Resolution test** The authors should re-analyze their simulation trajectories using a geometric hydrogen bond definition (e.g., donor-acceptor distance < 3.5 Å and donor-hydrogen-acceptor angle > 120 degrees) and show that the reported preferences are robust to this change. Alternatively, they should provide a justification for why the heavy-atom distance cutoff is sufficient.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of free-energy calculations
+  - **Claim pointer** The authors claim that free-energy calculations show Arg-base interactions are much stronger than Arg-phosphate interactions, with wedge mode at -4 kcal/mol, clamp mode at -3 kcal/mol, and salt bridge at -1.3 kcal/mol.
+  - **Evidence pointer** Results, "Arg interactions with bases are much stronger than with phosphates"; Methods, "Umbrella sampling"
+  - **Concern** The free-energy calculations are performed on a highly simplified model: a single Arg side chain (capped Cα) interacting with a 7-bp DNA. This removes the context of the full protamine protein, including neighboring arginines that may cooperatively stabilize interactions. The pulling coordinate and the restraint scheme are not fully described. The convergence of the umbrella sampling simulations is not demonstrated. The reported free energies may not be transferable to the full protamine-DNA system.
+  - **Why it matters** The claim that Arg-base interactions are more important than Arg-phosphate interactions for protamine-DNA stability is a key conclusion. If the free-energy calculations are not reliable, this conclusion is not supported.
+  - **Resolution test** The authors should provide convergence checks (e.g., overlap of umbrella sampling histograms, time-dependence of PMF). They should also discuss the limitations of the model system and ideally perform free-energy calculations on a more realistic system, such as a short arginine peptide.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and statistical rigor
+  - **Claim pointer** The authors claim that co-condensation propensity increases with GC content and upon shuffling into G-tracts, based on brightfield microscopy and UV absorbance measurements.
+  - **Evidence pointer** Results, "Higher GC content and G-tracts promote protamine-DNA co-condensation"; Figure 6
+  - **Concern** The experimental section is under-described. The number of replicates for the A350 and A260 measurements is not stated. No error bars or statistical tests are shown in the described results. The brightfield images are qualitative. The threshold DNA concentrations are reported as single values without uncertainty. The difference between 40% and 40%t is described as "hard to discern" in images but is then quantified; the statistical significance of this difference is not established.
+  - **Why it matters** The experimental data are used to validate the simulation predictions. Without proper statistical treatment, the claim that the experimental results "confirm" the simulations is not justified.
+  - **Resolution test** The authors should provide the number of replicates, error bars, and appropriate statistical tests (e.g., t-test or ANOVA) for the A350, A260, and threshold concentration measurements. They should also provide representative raw images and a quantitative image analysis method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overinterpretation of biological implications
+  - **Claim pointer** The authors claim that the observed GC preference has implications for transcription silencing and chromatin remodeling, specifically linking to CpG islands, A/B compartments, and nucleosome retention.
+  - **Evidence pointer** Discussion
+  - **Concern** The leap from in vitro co-condensation experiments with short DNA fragments to the complex in vivo process of spermiogenesis is large. The discussion speculates on mechanisms without direct evidence. For example, the claim that protamine's GC preference explains its selective loading in A-compartments is based on the assumption that A-compartments are GC-rich, which is a simplification. The link to nucleosome retention is also speculative.
+  - **Why it matters** While speculation is acceptable in a discussion, the authors present these ideas as if they are direct implications of their data. This could mislead readers into thinking the biological role is established.
+  - **Resolution test** The authors should clearly distinguish between direct implications of their data and speculative hypotheses. They should temper the language in the discussion and explicitly state that the biological relevance requires further investigation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Simulation setup
+  - **Evidence pointer** Methods, "Computational: molecular dynamics simulations"
+  - **Issue** The description of the simulation setup is brief. The specific sequence of the 35-bp and 20-bp DNA molecules is not given in the main text. The number of protamine molecules and their initial placement is described, but the equilibration protocol is only briefly summarized.
+  - **Required correction** Provide the DNA sequences in the main text or refer clearly to a supplementary table. Provide more detail on the equilibration and production run parameters, including the thermostat and barostat coupling constants.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results, "Arg-base interactions exhibit moderate overall preference for GC over AT"
+  - **Issue** The description of Figure 3 is dense. The definition of "interaction probability" is not clearly stated in the figure legend or the text. The threshold for "upper outlier" is defined but the rationale is not given.
+  - **Required correction** Clearly define "interaction probability" in the text and figure legend. Justify the choice of mean + 1.5 SD as the outlier threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental details
+  - **Affected element** Co-condensation experiments
+  - **Evidence pointer** Methods, "Experimental: materials sample preparation"
+  - **Issue** The mixing procedure is described as "stirred well by pipetting," which is not quantitative. The time between mixing and measurement is not specified. The temperature of the experiments is not stated.
+  - **Required correction** Provide a more detailed description of the mixing procedure, the time course of the measurements, and the temperature at which the experiments were performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several relevant papers but does not discuss the recent literature on sequence-specific binding of other IDPs to DNA or RNA. This would help contextualize the novelty of the findings.
+  - **Required correction** Add a brief discussion of recent work on IDP-nucleic acid recognition to strengthen the context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (hydrogen bond definition), R1-M2 (free-energy calculation reliability), R1-M3 (experimental statistics).
+- **Assessment against Nature-style criteria** Originality: The question of whether IDPs can exhibit nucleobase-specific DNA binding is original and timely. The finding of opposing groove-specific preferences is novel. Scientific importance: The work has implications for understanding protamine function and chromatin biology, which is of broad interest. Interdisciplinary readership: The work bridges computational biophysics, biochemistry, and chromatin biology, which should appeal to a broad audience. Technical soundness: The technical soundness is currently not fully established due to the concerns raised about hydrogen bond definition, free-energy calculations, and experimental statistics. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the methods and results sections are dense and may be challenging for non-specialists. The figures are not available for review.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is appropriate, but the current evidence does not fully support the claims as presented. The authors need to address the technical concerns and provide a more rigorous analysis.
+
+## Risk / unsupported claims
+- The claim that Arg-base interactions are "much stronger" than Arg-phosphate interactions is not fully supported by the free-energy calculations due to the simplified model system and lack of convergence data.
+- The claim that the experimental data "confirm" the simulation predictions is not supported due to the lack of statistical analysis.
+- The claim that the GC preference has direct implications for transcription silencing and A/B compartment maintenance is speculative and not directly tested.
+- The claim that G-tracts promote protamine binding via a "monkey-bar" mechanism is an interpretation of the data and is not directly validated.
+- The generalizability of the findings from salmon protamine to other protamines or IDPs is not established.

@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors describe the 2027 release of MobiDB, a database integrating structural and functional annotations for intrinsically disordered proteins and regions across UniProtKB. The release claims improvements in semantic consistency (hierarchical controlled vocabulary, evidence classes, annotation source types), programmatic access (versioned REST API, MCP server), website redesign, standardized Nextflow workflows, updated RING processing, integration of Motif Map of the Proteome and Linear Motif mediated Protein-Protein Interaction Database annotations, release-aware static dataset catalogue, and updated disorder prevalence estimates across eukaryotes, archaea, bacteria, and viruses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, API documentation, MCP server details, vocabulary specification, workflow code, dataset catalogue contents, and the underlying data for prevalence estimates
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent set of database updates with plausible technical directions. The claims are broad and specific, but the evidence base is limited to the abstract, so most quantitative and functional claims cannot be independently verified. The prevalence estimates are concrete and testable, but their derivation and statistical robustness are not assessable from the supplied material. The overall case for the database's value is reasonable, but the strength of individual claims varies from well-articulated to unverifiable.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, structural biologists, bioinformaticians developing workflows for protein annotation, and developers of AI systems that consume biological databases. The API and MCP server claims would interest tool builders and those integrating disorder data into automated pipelines. The prevalence estimates would interest comparative genomics and evolutionary biology communities.
+- **Major strengths** The abstract clearly articulates a user-centric design philosophy, emphasizing machine-actionability and provenance. The hierarchical controlled vocabulary and evidence classification scheme address a known need for semantic consistency in biological databases. The inclusion of standardized workflows and static dataset releases supports reproducibility. The updated prevalence estimates respond to recent changes in UniProtKB reference proteomes, showing responsiveness to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims specific median residue coverage and protein prevalence values for long-disorder across eukaryotes (12.3% and 48.7%), archaea (1.9% and 11.9%), bacteria (1.7% and 11.2%), and viruses (3.4% and 25.0%).
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The prevalence estimates are presented as definitive numbers, but no methodological detail is given on how these were computed, which definition of long-disorder was used, how the reference proteome set was selected, or how missing data and annotation gaps were handled. The abstract states these follow a recent increase in UniProtKB reference proteomes, but the impact of that increase on the estimates is not explained.
+  - **Why it matters** These numbers are likely to be cited by others as reference values. Without a clear and reproducible methodology, the estimates cannot be validated or compared with previous MobiDB releases or other disorder databases. The claim of a more representative estimate depends entirely on the underlying method.
+  - **Resolution test** Provide a methods subsection detailing the disorder definition, the proteome selection criteria, the prediction or annotation pipeline, and the statistical treatment of missing values. Show a comparison with previous MobiDB estimates and, ideally, with independent datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a refined controlled vocabulary that groups features hierarchically and distinguishes evidence classes and types annotation sources as providers, methods, or aggregation rules.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The vocabulary is described as refined and hierarchical, but no details are given on its structure, the number of terms, the mapping to existing ontologies (e.g., Gene Ontology, EDAM), or how the evidence classes and source types are formally defined. The claim of semantic consistency cannot be evaluated without seeing the vocabulary itself or its documentation.
+  - **Why it matters** Semantic consistency is a core claim of the release. If the vocabulary is not formally specified or mapped to community standards, the claim of machine-actionability is weakened, and interoperability with other resources is uncertain.
+  - **Resolution test** Include a figure or table showing the vocabulary hierarchy, a definition of each evidence class and source type, and a description of how terms map to external ontologies. Provide examples of how the vocabulary is applied in API responses and website pages.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a new versioned REST API and a developed MCP server that enable scripts, workflows, and tool-using AI systems to retrieve and combine evidence-bearing records through documented operations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The API and MCP server are described as functional, but no endpoints, data formats, authentication methods, rate limits, or versioning policies are specified. The claim that AI systems can use these tools is plausible but unverifiable without documentation or examples.
+  - **Why it matters** Programmatic access is a central feature of this release. If the API is not stable, well-documented, or standards-compliant, the claim of machine-actionability fails. The MCP server is a novel addition, but its functionality and adoption are not demonstrated.
+  - **Resolution test** Provide API documentation with endpoint examples, response schemas, and versioning details. Show a minimal working example of an MCP server interaction, ideally with a query and response pair.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract claims integration of Motif Map of the Proteome and Linear Motif mediated Protein-Protein Interaction Database annotations, and updated RING Protein Data Bank interaction processing.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** These integrations are listed as developments, but no detail is given on the scope of the integration, the number of new records, the mapping method, or the quality control applied. The novelty of these integrations relative to previous MobiDB releases or other databases is not stated.
+  - **Why it matters** Integrations are only valuable if they add new, reliable data. Without specifics, the reader cannot judge whether these are substantive additions or minor updates.
+  - **Resolution test** Provide a table or figure showing the number of new records from each source, the overlap with existing MobiDB data, and a description of the integration pipeline and quality checks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase types annotation sources as providers, methods, or aggregation rules is grammatically awkward and may confuse readers.
+  - **Required correction** Rephrase to distinguishes annotation sources as providers, methods, or aggregation rules.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state how the updated prevalence estimates compare with previous MobiDB values or with other disorder databases, which would help contextualize their significance.
+  - **Required correction** Add one sentence comparing the new estimates with prior values or with independent studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term release-aware catalogue of static datasets is not defined. It is unclear what release-aware means in this context.
+  - **Required correction** Clarify whether the catalogue is versioned by MobiDB release, by underlying UniProtKB release, or both, and state the intended use case.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (prevalence estimates without methodology), R1-M2 (vocabulary without specification), R1-M3 (API and MCP server without documentation)
+- **Assessment against Nature-style criteria** Originality: the abstract describes incremental but useful updates to an established resource; the MCP server is a novel element, but its originality is not demonstrated. Scientific importance: the prevalence estimates and semantic improvements are relevant to the disorder research community, but their impact is not quantified. Interdisciplinary readership: the abstract is accessible to bioinformaticians and structural biologists, but the technical details are not sufficient for nonspecialists to assess the claims. Technical soundness: the core technical claims are plausible but unverifiable from the abstract alone. Readability for nonspecialists: the abstract is generally clear but contains some jargon and awkward phrasing.
+- **Recommendation posture** Supportive if technical concerns are resolved. The abstract describes a reasonable set of database improvements, but the key claims regarding prevalence estimates, vocabulary, and programmatic access require full documentation and evidence to be convincing.
+
+## Risk / unsupported claims
+- The specific prevalence values (12.3%, 1.9%, 1.7%, 3.4% for residue coverage; 48.7%, 11.9%, 11.2%, 25.0% for protein prevalence) are unsupported without methodology.
+- The claim of a more representative estimate of long-disorder is unsupported without comparison to previous methods or datasets.
+- The claim that the vocabulary is refined and hierarchical is unsupported without the vocabulary specification.
+- The claim that the API and MCP server enable AI systems to retrieve and combine evidence-bearing records is unsupported without documentation or examples.
+- The claim of standardized Nextflow production workflows is unsupported without code or workflow descriptions.
+- The claim of updated RING processing and integration of Motif Map of the Proteome and Linear Motif mediated Protein-Protein Interaction Database annotations is unsupported without details on scope and quality control.

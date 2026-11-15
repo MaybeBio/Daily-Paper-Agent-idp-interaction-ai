@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that FG-NUPs in live nuclear pore complexes exhibit liquid-like, nanosecond-scale segmental dynamics, that this state is stabilized by importin-beta and O-GlcNAc modification, and that a radial organization with importin-beta enriched at the periphery and FG domains in the central channel explains rim-biased transport trajectories observed by MINFLUX.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, all experimental data (fluorescence anisotropy, MINFLUX imaging, MD simulations), statistical analyses, sample sizes, controls, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding FG-NUP behavior in living cells, reconciling long-standing debates about the physical state of the permeability barrier. The combination of time-resolved fluorescence anisotropy, MD simulations, and MINFLUX imaging is ambitious and well-aligned with the question. However, the abstract alone provides insufficient detail to evaluate the robustness of the key claims, particularly the quantitative basis for the "liquid-like" designation, the mechanistic role of O-GlcNAc, and the directness of the MINFLUX evidence. The conclusions are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Cell biologists studying nuclear transport and NPC architecture; biophysicists interested in intrinsically disordered proteins and phase behavior; researchers in glycosylation biology; and those developing super-resolution imaging approaches for live-cell applications. The reconciliation of conflicting FG-NUP models would be of broad interest to the transport and membrane biology communities.
+- **Major strengths** The study addresses a long-standing and contentious question using complementary experimental and computational approaches in live cells, which is a clear advance over in vitro reconstitution systems. The proposed radial organization model is testable and connects to recent MINFLUX observations, providing a unifying framework. The focus on post-translational modification (O-GlcNAc) as a regulatory factor adds a novel dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "FG domains exhibit nanosecond-scale, liquid-like segmental motion in live cells"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that time-resolved fluorescence anisotropy reveals "liquid-like" segmental motion, but no quantitative criteria are given for how "liquid-like" is defined or distinguished from other dynamic states (e.g., gel-like, viscoelastic). The timescale (nanosecond) is mentioned, but the relationship between segmental motion and macroscopic phase state is not established.
+  - **Why it matters** The central claim of the paper hinges on the assignment of a physical state. Without clear operational criteria and appropriate controls (e.g., comparison to known solid or gel states), the conclusion that the FG network is "liquid" in live cells is not verifiable from the abstract.
+  - **Resolution test** Provide the anisotropy decay parameters, comparison to in vitro liquid and solid references, and a statistical framework showing that the live-cell data are consistent with liquid-like dynamics and inconsistent with solid-like behavior.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "importin-beta and O-linked beta-N-acetylglucosamine ... together stabilize the dynamic FG network"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that both importin-beta and O-GlcNAc "stabilize" the dynamic FG network, but the mechanism is not specified. It is unclear whether O-GlcNAc acts directly on FG-FG interactions, on importin-beta binding, or on some other property. The phrase "finely balanced FG-FG and FG-importin-beta interactions" suggests a model, but the abstract does not explain how O-GlcNAc fits into this balance.
+  - **Why it matters** The claim of a synergistic role for O-GlcNAc and importin-beta is a key novelty. Without mechanistic detail, the reader cannot assess whether the data support a direct effect or an indirect correlation.
+  - **Resolution test** Provide experimental evidence (e.g., mutagenesis of O-GlcNAc sites, enzymatic removal of O-GlcNAc, or binding assays) that directly tests the contribution of O-GlcNAc to FG network dynamics and importin-beta interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "direct MINFLUX imaging of importin-beta in mammalian cells" supports the radial organization model
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MINFLUX imaging of importin-beta supports the model, but it is not clear whether this imaging was performed on the same cells, under the same conditions, or with appropriate controls for labeling specificity and potential artifacts. The connection between importin-beta localization and FG-NUP organization is inferred, not directly demonstrated.
+  - **Why it matters** The MINFLUX data are presented as direct support for the model, but the abstract does not establish that the observed importin-beta distribution is causally linked to FG-NUP organization rather than to other factors (e.g., cargo binding, NPC geometry).
+  - **Resolution test** Provide details on labeling strategy, control experiments (e.g., importin-beta mutants or depletion), and a quantitative comparison of importin-beta distribution to the predicted FG-NUP radial profile.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "liquefy" in the title is evocative but may overstate the findings, as the abstract describes "liquid-like segmental motion" rather than a bulk phase transition in live cells.
+  - **Required correction** Consider softening the title or clarifying in the abstract that "liquid-like" refers to segmental dynamics, not a macroscopic phase change.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The radial organization model is described briefly, but the abstract does not specify how the "extended FG domains" are distinguished from other FG regions or how the model accounts for transport of different cargo sizes.
+  - **Required correction** Add a sentence in the abstract or refer to a figure that defines the radial model more precisely.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions reconciling conflicting models (references 4,5,7,9,15) but does not specify which aspects of each model are supported or refuted.
+  - **Required correction** Briefly state which prior models are reconciled and how, to help readers place the findings in context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic evidence to establish the central claims of liquid-like FG dynamics, the role of O-GlcNAc, and the directness of the MINFLUX support.
+- **Assessment against Nature-style criteria** Originality: High, as the study addresses a long-standing debate with live-cell measurements. Scientific importance: High, given the fundamental role of NPC transport. Interdisciplinary readership: Broad, spanning cell biology, biophysics, and glycosylation biology. Technical soundness: Not assessable from the abstract alone; the key claims require full methodological detail. Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "FG-NUPs," "O-GlcNAc") without full explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis and a plausible experimental approach, but the lack of methodological detail and quantitative support prevents a definitive assessment. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that FG domains are "liquid-like" in live cells is not supported by quantitative criteria in the abstract.
+- The claim that O-GlcNAc and importin-beta "together stabilize" the FG network is not mechanistically supported.
+- The claim that MINFLUX imaging "directly" supports the radial organization model is not verifiable without imaging details.
+- The reconciliation of conflicting FG-NUP models is asserted but not specified.

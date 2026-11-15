@@ -1,0 +1,183 @@
+{
+  "identity": {
+    "pmid": "42995857",
+    "doi": "10.64898/2026.10.13.758914",
+    "title": "So similar, yet so different: alpha-synuclein recognition of the isoform-specific VDAC protein-lipid interface."
+  },
+  "content": {
+    "abstract": "In mammals, VDAC exists as three isoforms - VDAC1, VDAC2, and VDAC3 - each characterized by a distinct tissue-dependent distribution and physiologic role. Isoform-specific knockout studies in cells and mice demonstrate distinct physiological roles for each VDAC isoform. The isoforms share about 70% sequence homology and a conserved beta-barrel structure and, when reconstituted into planar lipid membranes, form similar highly conductive, anion-selective, voltage-gated channels. A natural question, then, is how relatively minor differences in isoform sequences lead to striking differences in their interactions with protein partners and, consequently, in their physiological functions. To address this question, we used a small, intrinsically disordered cytosolic protein alpha-synuclein (alphaSyn) as a sensitive molecular probe. A comparative study with recombinant VDACs reconstituted into planar lipid membranes shows that, depending on the isoform, the alphaSyn-induced blockage exhibits up to 100-fold differences in on-rates and equilibrium constants. The isoforms also display distinct translocation regimes for alphaSyn, as evidenced by altered dependences of the off-rates on the applied voltage. Deletion of cysteine residues has a significant effect on alphaSyn binding. Combined with corresponding data obtained for VDAC2 substates - which show an order of magnitude variation in on-rates while maintaining the conserved equilibrium constants - and the results of molecular dynamics simulations, these findings point to a previously unrecognized step in VDAC inhibition by alphaSyn: an isoform-specific alphaSyn interaction with the VDAC protein-lipid interface. This finding opens a new paradigm for understanding VDAC isoform functions and developing isoform-specific therapeutics. NEW & NOTEWORTHY: Comparative analysis of alpha-synuclein interaction with three mammalian VDAC isoforms, complemented by corresponding data for VDAC2 substates and results from molecular dynamics simulations, reveals a new step in the chain of events leading to VDAC blockage. Specifically, our findings point to the isoform-specific interaction of alphaSyn with VDAC protein-lipid interface, thereby guiding a new strategy in the search for VDAC-targeting drugs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rostovtseva, Tatiana K",
+        "Rajendran, Megha",
+        "Rosencrans, William M",
+        "Queralt-Martin, Maria",
+        "Wolfe, Mya S",
+        "Bautista, Nina A",
+        "Beyene, Bethel G",
+        "Larimi, Motahareh G",
+        "Sodt, Alexander J",
+        "Bezrukov, Sergey M"
+      ],
+      "short_names": [
+        "Rostovtseva TK",
+        "Rajendran M",
+        "Rosencrans WM",
+        "Queralt-Martin M",
+        "Wolfe MS",
+        "Bautista NA",
+        "Beyene BG",
+        "Larimi MG",
+        "Sodt AJ",
+        "Bezrukov SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7299-7362",
+        "ORCID: 0000-0001-8078-4738",
+        "ORCID: 0000-0003-1461-8891",
+        "ORCID: 0000-0002-0644-6746",
+        "ORCID: 0000-0003-2986-8869",
+        "ORCID: 0000-0002-8209-8050"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Rostovtseva, Tatiana K",
+        "short_name": "Rostovtseva TK",
+        "identifiers": [
+          "0000-0001-7299-7362"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rajendran, Megha",
+        "short_name": "Rajendran M",
+        "identifiers": [
+          "0000-0001-8078-4738"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rosencrans, William M",
+        "short_name": "Rosencrans WM",
+        "identifiers": [
+          "0000-0003-1461-8891"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Queralt-Martín, María",
+        "short_name": "Queralt-Martín M",
+        "identifiers": [
+          "0000-0002-0644-6746"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wolfe, Mya S",
+        "short_name": "Wolfe MS",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bautista, Nina A",
+        "short_name": "Bautista NA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Beyene, Bethel G",
+        "short_name": "Beyene BG",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Larimi, Motahareh G",
+        "short_name": "Larimi MG",
+        "identifiers": [
+          "0000-0003-2986-8869"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sodt, Alexander J",
+        "short_name": "Sodt AJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bezrukov, Sergey M",
+        "short_name": "Bezrukov SM",
+        "identifiers": [
+          "0000-0002-8209-8050"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Oct 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/08 00:48",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42995857"
+    ],
+    "review": [
+      "42995857"
+    ],
+    "pmc": [
+      "13738399"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42995857/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-448",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.10.13.758914",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

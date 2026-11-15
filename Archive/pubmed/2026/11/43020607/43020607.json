@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "pmid": "43020607",
+    "doi": "10.1021/acsabm.6c01934",
+    "title": "Molecular Dynamics Insights into Biomineralization Mediated by Acidic Intrinsically Disordered Proteins: A Case Study of Molluscan Aspein from the Pearl Oyster Pinctada fucata."
+  },
+  "content": {
+    "abstract": "Biomineralization is a ubiquitous phenomenon that still fascinates the scientific community. Mineralized structures are most notably encountered in marine lifeforms, the shell or exoskeleton of which are formed by precipitating specific calcium carbonate (CaCO3) polymorphs, known as amorphous (ACC), vaterite, aragonite, and calcite. To control crystalline polymorphism in their shell layers, bivalves have evolved strategies involving ion-binding secretomes composed of shell matrix proteins (SMPs). Secreted in the prismatic layer of the pearl oyster Pinctada fucata, Aspein is an unusually acid-rich protein exclusively aspartic and famously recognized as the most acidic SMP known to date. Through in vitro crystallization experiments, Aspein was shown to select calcite over aragonite in modern seawater conditions. However, how it exerts its selectivity with respect to its structural properties remains enigmatic. By combining sequence-based predictions with all-atom molecular dynamics simulations, we unveiled that Aspein is an intrinsically disordered organic matrix protein (IDOMP) undergoing ion-specific chain collapse and phase separation. Thanks to its unique Asp density and conformational fuzziness, Aspein first sequesters Ca2+ then attracts CO32- ions before stabilizing ACC and calcite-like phases, while precluding the incorporation of Mg2+ to avoid aragonite formation. Indeed, via Asp-Ca2+ bridges, the coalescence of structure-less clusters into supersaturated protein-CaCO3 assemblies promotes calcitic ordering. Therefore, Aspein plasticity, condensation susceptibility, and aspartic density critically modulate the pathway that defines CaCO3 polymorphism by inhibiting nucleation and controlling the growth of biogenic minerals. From a broader perspective, our study underpins some of the molecular and physicochemical principles governing biomineralization processes mediated by IDOMPs, the overlooked yet prevalent role of which was mechanistically unexplored.",
+    "keywords": [
+      "Aspein",
+      "biomineralization",
+      "calcite",
+      "intrinsically disordered organic matrix protein",
+      "molecular dynamics",
+      "phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mignon, Julien",
+        "Monari, Antonio",
+        "Longhi, Sonia",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Mignon J",
+        "Monari A",
+        "Longhi S",
+        "Michaux C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1223-4501",
+        "ORCID: 0000-0001-9464-1463",
+        "ORCID: 0000-0001-8208-3310"
+      ],
+      "affiliations": [
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, rue de Bruxelles 61, Namur5000, Belgium.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257 CNRS and Aix-Marseille Universite , Marseille CEDEX 0913284, France.",
+        "ITODYS, Universite Paris Cite and CNRS, Paris75006, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257 CNRS and Aix-Marseille Universite , Marseille CEDEX 0913284, France.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, rue de Bruxelles 61, Namur5000, Belgium.",
+        "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, rue de Bruxelles 61, Namur5000, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [
+          "0000-0003-1223-4501"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, rue de Bruxelles 61, Namur5000, Belgium.",
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257 CNRS and Aix-Marseille Université , Marseille CEDEX 0913284, France."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [
+          "0000-0001-9464-1463"
+        ],
+        "affiliations": [
+          "ITODYS, Université Paris Cité and CNRS, Paris75006, France."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [],
+        "affiliations": [
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257 CNRS and Aix-Marseille Université , Marseille CEDEX 0913284, France."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [
+          "0000-0001-8208-3310"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, rue de Bruxelles 61, Namur5000, Belgium.",
+          "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, rue de Bruxelles 61, Namur5000, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS applied bio materials"
+    ],
+    "journal_abbrev": [
+      "ACS Appl Bio Mater"
+    ],
+    "pub_date": "2026 Nov 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/12 23:32",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43020607"
+    ],
+    "review": [
+      "43020607"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/aabmcb/article-lookup/doi/10.1021/acsabm.6c01934",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

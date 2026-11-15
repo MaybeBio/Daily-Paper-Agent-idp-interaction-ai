@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43018158",
+  "title": "Microfluidic Control of Biomolecular Condensate Growth Reveals Scaling Crossover and Interfacial Regulation.",
+  "authors": "Lian, Xinyi; Yang, Fengchang; Guo, Yongjie; Yang, Chun; Wang, Leilei; Wang, Zheng; Zheng, Xu; Guan, Dongshi",
+  "journal": "ACS applied materials & interfaces",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用微流控实验研究PGL-3蛋白凝聚体的成核与生长动力学，涉及相分离对象和凝聚体生长机制，但无PPI结合机制且方法为实验与模拟，缺乏AI/物理模拟建模深度，故为中档。",
+  "abstract": "Biomolecular condensates, formed via phase separation, play vital roles in cellular organization, yet their nucleation and growth dynamics remain poorly understood, particularly under controlled physiological conditions. Here, we employ a microfluidic platform to precisely manipulate the nucleation and growth of PGL-3 protein condensates at fluid-solid interfaces. We demonstrate that ionic strength and co-phase-separating proteins (SEPA-1) robustly tune the nucleation rate without altering the long-term growth scaling  approximately tn. Single-condensate tracking further resolves a dynamic scaling crossover from rapid isolated growth with n  approximately  1/2 to diffusion-limited collective growth with n  approximately  1/3, consistent with simulations of overlapping protein-depletion fields. Furthermore, we show that this classical scaling breaks down during viscoelastic phase separation, where elastic-dominated condensates exhibit a significantly reduced exponent. Our work establishes molecular modulation and interfacial mechanics as key regulators of condensate dynamics, revealing physical principles that govern the size and material state of biological condensates.",
+  "abstract_zh": "通过相分离（phase separation）形成的生物分子凝聚体在细胞组织中发挥重要作用，然而其成核与生长动力学在受控生理条件下仍知之甚少。在此，我们采用微流控平台精确操控流体-固体界面上PGL-3蛋白凝聚体的成核与生长。我们证明，离子强度和共相分离蛋白（SEPA-1）能稳健地调节成核速率，而不改变长期生长标度（约tn）。单凝聚体追踪进一步解析出动态标度交叉，从快速孤立生长（n约1/2）转变为扩散限制的集体生长（n约1/3），这与蛋白耗竭场重叠的模拟结果一致。此外，我们表明，在粘弹性相分离过程中，这种经典标度失效，其中弹性主导的凝聚体表现出显著降低的指数。我们的工作确立了分子调控和界面力学作为凝聚体动力学的关键调节因子，揭示了控制生物凝聚体大小和物质状态的物理原理。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43018158/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43018158/",
+  "paper_page_path": "papers/pubmed/43018158/index.html"
+}

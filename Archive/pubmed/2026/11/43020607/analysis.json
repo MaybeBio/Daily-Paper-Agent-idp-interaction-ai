@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43020607",
+  "title": "Molecular Dynamics Insights into Biomineralization Mediated by Acidic Intrinsically Disordered Proteins: A Case Study of Molluscan Aspein from the Pearl Oyster Pinctada fucata.",
+  "authors": "Mignon, Julien; Monari, Antonio; Longhi, Sonia; Michaux, Catherine",
+  "journal": "ACS applied bio materials",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用序列预测与全原子MD模拟揭示酸性无序蛋白Aspein通过离子特异性链塌缩和相分离介导CaCO3多态性选择，虽对象为生物矿化而非典型PPI，但聚焦IDP构象可塑性、相分离与离子/蛋白组装机制，方法为物理模拟且机制建模深度高，对本课题的IDP介导互作与凝聚体机制建模有直接启发。",
+  "abstract": "Biomineralization is a ubiquitous phenomenon that still fascinates the scientific community. Mineralized structures are most notably encountered in marine lifeforms, the shell or exoskeleton of which are formed by precipitating specific calcium carbonate (CaCO3) polymorphs, known as amorphous (ACC), vaterite, aragonite, and calcite. To control crystalline polymorphism in their shell layers, bivalves have evolved strategies involving ion-binding secretomes composed of shell matrix proteins (SMPs). Secreted in the prismatic layer of the pearl oyster Pinctada fucata, Aspein is an unusually acid-rich protein exclusively aspartic and famously recognized as the most acidic SMP known to date. Through in vitro crystallization experiments, Aspein was shown to select calcite over aragonite in modern seawater conditions. However, how it exerts its selectivity with respect to its structural properties remains enigmatic. By combining sequence-based predictions with all-atom molecular dynamics simulations, we unveiled that Aspein is an intrinsically disordered organic matrix protein (IDOMP) undergoing ion-specific chain collapse and phase separation. Thanks to its unique Asp density and conformational fuzziness, Aspein first sequesters Ca2+ then attracts CO32- ions before stabilizing ACC and calcite-like phases, while precluding the incorporation of Mg2+ to avoid aragonite formation. Indeed, via Asp-Ca2+ bridges, the coalescence of structure-less clusters into supersaturated protein-CaCO3 assemblies promotes calcitic ordering. Therefore, Aspein plasticity, condensation susceptibility, and aspartic density critically modulate the pathway that defines CaCO3 polymorphism by inhibiting nucleation and controlling the growth of biogenic minerals. From a broader perspective, our study underpins some of the molecular and physicochemical principles governing biomineralization processes mediated by IDOMPs, the overlooked yet prevalent role of which was mechanistically unexplored.",
+  "abstract_zh": "生物矿化是一种普遍现象，至今仍令科学界着迷。矿化结构在海洋生命形式中尤为常见，其壳体或外骨骼通过沉淀特定的碳酸钙（CaCO3）多晶型物形成，这些多晶型物被称为无定形（ACC）、球霰石、文石和方解石。为了控制其壳层中的晶体多态性，双壳类动物进化出了涉及由壳基质蛋白（SMPs）组成的离子结合分泌组的策略。在珍珠牡蛎 *Pinctada fucata* 的棱柱层中分泌的 Aspein 是一种异常富含酸性氨基酸的蛋白质，仅含天冬氨酸，并被誉为迄今为止已知的最酸性 SMP。通过体外结晶实验，Aspein 被证明在现代海水条件下优先选择方解石而非文石。然而，它如何通过其结构特性发挥选择性仍是一个谜。通过结合基于序列的预测与全原子分子动力学模拟，我们揭示了 Aspein 是一种 intrinsically disordered organic matrix protein (IDOMP)，经历离子特异性链塌缩和相分离。凭借其独特的天冬氨酸密度和构象模糊性，Aspein 首先螯合 Ca²⁺，然后吸引 CO₃²⁻ 离子，随后稳定 ACC 和类方解石相，同时排除 Mg²⁺ 的掺入以避免文石形成。确实，通过 Asp-Ca²⁺ 桥，无结构簇聚集成过饱和的蛋白质-CaCO₃ 组装体促进了方解石有序化。因此，Aspein 的塑性、凝聚敏感性和天冬氨酸密度关键地调节了定义 CaCO₃ 多态性的途径，通过抑制成核和控制生物矿物的生长。从更广泛的视角来看，我们的研究支撑了由 IDOMPs 介导的生物矿化过程所遵循的一些分子和物理化学原理，这些蛋白的普遍但被忽视的作用在机制上此前未被探索。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43020607/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43020607/",
+  "paper_page_path": "papers/pubmed/43020607/index.html"
+}

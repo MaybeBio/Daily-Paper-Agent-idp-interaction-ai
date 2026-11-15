@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "43015467",
+    "doi": "10.1038/s41586-026-11258-0",
+    "title": "Glycosylation and importins liquefy the FG barrier in live nuclear pores."
+  },
+  "content": {
+    "abstract": "The nuclear pore complex (NPC) regulates molecular traffic between nucleus and cytoplasm(1,2). Its permeability barrier is formed by intrinsically disordered phenylalanine-glycine-rich nucleoporins (FG-NUPs), whose physical state has long been debated(3-13). Deciphering how FG-NUPs behave inside living cells is crucial for understanding how NPCs achieve both selective and rapid transport. By combining site-specific labelling with time-resolved fluorescence anisotropy, here we show that FG domains exhibit nanosecond-scale, liquid-like segmental motion in live cells, whereas reconstituted FG condensates undergo a liquid-to-solid transition in vitro. Experiments and molecular-dynamics simulations further show that importin-beta, a principal nuclear transport receptor, and O-linked beta-N-acetylglucosamine, a key post-translational modification of FG-NUPs, together stabilize the dynamic FG network. Finely balanced FG-FG and FG-importin-beta interactions maintain FG-NUP liquidity and generate a radial organization in which importin-beta is enriched near the NPC periphery and extended FG domains remain in the central channel, forming the transport barrier. This organization explains recent MINFLUX observations(14) of rim-biased transport trajectories and is supported here by direct MINFLUX imaging of importin-beta in mammalian cells. Together, our results reconcile conflicting models of FG-NUP organization(4,5,7,9,15) and establish a framework for understanding how cellular context tunes intrinsically disordered proteins in health and disease.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Miao",
+        "Heidari, Maziar",
+        "Palacio-Rodriguez, Karen",
+        "Ruan, Hao",
+        "Mingu, Sara",
+        "Chen, Yu",
+        "Gou, Xu-Zhuo",
+        "Shen, Pingkai",
+        "Liu, Songzi",
+        "Chen, Si-Yu",
+        "Hidayat, Alam Ahmad",
+        "Bode, Mathis",
+        "Sikora, Mateusz",
+        "Tang, Ai-Hui",
+        "Hummer, Gerhard",
+        "Lemke, Edward A"
+      ],
+      "short_names": [
+        "Yu M",
+        "Heidari M",
+        "Palacio-Rodriguez K",
+        "Ruan H",
+        "Mingu S",
+        "Chen Y",
+        "Gou XZ",
+        "Shen P",
+        "Liu S",
+        "Chen SY",
+        "Hidayat AA",
+        "Bode M",
+        "Sikora M",
+        "Tang AH",
+        "Hummer G",
+        "Lemke EA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5890-9204",
+        "ORCID: 0000-0002-8081-6602",
+        "ORCID: 0000-0003-4327-8478",
+        "ORCID: 0009-0009-2292-5876",
+        "ORCID: 0000-0001-9922-9742",
+        "ORCID: 0000-0003-1691-4045",
+        "ORCID: 0000-0003-3715-6714",
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0002-0634-0503"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+        "Malopolska Centre of Biotechnology, Jagiellonian University, Krakow, Poland.",
+        "Julich Supercomputing Centre, Forschungszentrum Julich GmbH, Julich, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+        "Malopolska Centre of Biotechnology, Jagiellonian University, Krakow, Poland.",
+        "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany. gerhard.hummer@biophys.mpg.de.",
+        "Institute of Biophysics, Goethe University Frankfurt, Frankfurt, Germany. gerhard.hummer@biophys.mpg.de.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany. edlemke@uni-mainz.de.",
+        "Institute of Molecular Biology (IMB gGmbH), Mainz, Germany. edlemke@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Miao",
+        "short_name": "Yu M",
+        "identifiers": [
+          "0000-0002-5890-9204"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Heidari, Maziar",
+        "short_name": "Heidari M",
+        "identifiers": [
+          "0000-0002-8081-6602"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Palacio-Rodriguez, Karen",
+        "short_name": "Palacio-Rodriguez K",
+        "identifiers": [
+          "0000-0003-4327-8478"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruan, Hao",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Mingu, Sara",
+        "short_name": "Mingu S",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0009-0009-2292-5876"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Gou, Xu-Zhuo",
+        "short_name": "Gou XZ",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Pingkai",
+        "short_name": "Shen P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Songzi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Taikang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Si-Yu",
+        "short_name": "Chen SY",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Hidayat, Alam Ahmad",
+        "short_name": "Hidayat AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+          "Malopolska Centre of Biotechnology, Jagiellonian University, Kraków, Poland."
+        ]
+      },
+      {
+        "full_name": "Bode, Mathis",
+        "short_name": "Bode M",
+        "identifiers": [
+          "0000-0001-9922-9742"
+        ],
+        "affiliations": [
+          "Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH, Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Sikora, Mateusz",
+        "short_name": "Sikora M",
+        "identifiers": [
+          "0000-0003-1691-4045"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany.",
+          "Malopolska Centre of Biotechnology, Jagiellonian University, Kraków, Poland."
+        ]
+      },
+      {
+        "full_name": "Tang, Ai-Hui",
+        "short_name": "Tang AH",
+        "identifiers": [
+          "0000-0003-3715-6714"
+        ],
+        "affiliations": [
+          "Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt, Germany. gerhard.hummer@biophys.mpg.de.",
+          "Institute of Biophysics, Goethe University Frankfurt, Frankfurt, Germany. gerhard.hummer@biophys.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Lemke, Edward A",
+        "short_name": "Lemke EA",
+        "identifiers": [
+          "0000-0002-0634-0503"
+        ],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany. edlemke@uni-mainz.de.",
+          "Institute of Molecular Biology (IMB gGmbH), Mainz, Germany. edlemke@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 Nov 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/12 05:29",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43015467"
+    ],
+    "review": [
+      "43015467"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-026-11258-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose HV-MultiScaleGNN, a topology-driven multi-scale graph neural network framework for predicting host-virus protein-protein interactions (HV-PPIs) using only the topology of a heterogeneous interaction network. The framework evaluates three graph representation strategies (Local, Global, and integrated Local+Global) and reports discriminative, calibration, and ranking performance on large-scale datasets, with the Local view achieving the best AUROC (0.9444) and AUPRC (0.9422), the Global view achieving the lowest expected calibration error (0.0379), and the integrated view providing strong overall performance (AUROC = 0.9378, AUPRC = 0.9356). The authors also report comparative evaluation against representative graph representation learning methods, protein-protein docking for interfacial interaction identification, and GO and KEGG enrichment analyses for functional insights.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline specifications, or quantitative results beyond the metrics cited in the abstract
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, baseline method descriptions, hyperparameter settings, ablation study details, docking protocol specifications, and enrichment analysis results
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a potentially useful framework for HV-PPI prediction using network topology alone, which could address limitations of sequence- and structure-dependent methods. The multi-scale representation strategy is a reasonable contribution to the field. However, the abstract provides insufficient methodological detail to assess the novelty of the approach relative to existing graph neural network methods for link prediction, and the reported performance metrics cannot be evaluated without information on dataset composition, baseline selection, and experimental protocols. The additional analyses (docking, enrichment) are mentioned but not described in sufficient detail to assess their contribution. The work may be of interest to computational biologists and virologists, but the current evidence base is too limited to establish the case for the framework's effectiveness or novelty.
+- **Who would be interested in the results, and why** Computational biologists working on protein-protein interaction prediction, graph neural network practitioners applying deep learning to biological networks, and virologists studying host-virus interactions and seeking computational tools for identifying candidate interactions for experimental validation. The claim that the method operates without sequence or structure features could appeal to researchers working with organisms or viruses where such data are scarce.
+- **Major strengths** The abstract clearly states a well-defined problem and a specific design choice (topology-only input) that addresses a practical limitation of existing methods. The systematic comparison of three graph representation strategies is a sensible experimental design. The inclusion of calibration metrics (ECE) alongside discrimination metrics (AUROC, AUPRC) is commendable and often overlooked in similar studies. The reported performance figures are strong, assuming the evaluation is sound.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework achieves strong predictive performance (AUROC = 0.9444, AUPRC = 0.9422 for the Local view) on large-scale HV-PPIs datasets.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract reports performance metrics without any information about the datasets used, including their size, composition, source, positive-to-negative ratio, or how negative samples were generated. The choice of negative samples is known to substantially affect AUROC and AUPRC values in interaction prediction tasks. Without this information, the reported metrics cannot be interpreted or compared meaningfully with other methods.
+  - **Why it matters** If the dataset is imbalanced or the negative sampling strategy is lenient, the reported AUPRC values may be inflated. The claim of strong predictive performance is central to the paper's contribution, and it cannot be assessed from the provided material.
+  - **Resolution test** Provide dataset statistics, negative sampling strategy, and evaluation protocol in the full manuscript. The reported metrics should be reproducible from the described methodology.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The framework systematically investigates three complementary graph representation strategies for heterogeneous link prediction.
+  - **Evidence pointer** Abstract, Methods section (location not provided)
+  - **Concern** The abstract does not describe how the proposed graph attention and propagation-based aggregation differ from existing graph neural network architectures for link prediction, such as GraphSAGE, GAT, or SEAL. The terms "one-hop relation-aware graph attention" and "propagation-based neighbourhood aggregation" are generic descriptions that could apply to many existing models. Without a clear statement of architectural novelty or a comparison against strong baselines with ablations, the contribution may be incremental.
+  - **Why it matters** The field of graph representation learning for biological link prediction is crowded, and reviewers and readers need to understand what is genuinely new about this framework. If the architecture is a straightforward combination of existing components, the paper's contribution may be limited to the application domain.
+  - **Resolution test** Provide a clear description of the model architecture with explicit reference to prior work, and include ablation studies that isolate the contribution of each component. Comparative evaluation should include strong and recent baselines with statistical significance testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Comparative evaluation against representative graph representation learning methods showed competitive predictive performance.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract does not specify which baseline methods were used, how they were configured, or whether the comparison was fair in terms of hyperparameter tuning and training protocol. The term "representative" is vague and could include weak baselines that make the proposed method look better by comparison.
+  - **Why it matters** The claim of competitive performance is only meaningful if the baselines are strong and the comparison is conducted under identical conditions. Without this information, the comparative claim is unverifiable.
+  - **Resolution test** List all baseline methods with their configurations, describe the hyperparameter tuning procedure for both the proposed method and baselines, and report results across multiple random seeds with variance estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** Interfacial interactions were identified using protein-protein docking and atomistic-level understanding was explored. GO and KEGG enrichment provided additional functional insights into the selected host proteins.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract mentions docking and enrichment analyses but provides no details on which proteins were selected for these analyses, how many interactions were examined, what docking software was used, or what functional insights were actually obtained. These analyses appear to be peripheral to the main contribution but are presented without sufficient context.
+  - **Why it matters** For a broad readership, these analyses could add biological relevance to the computational framework. However, as presented, they are unverifiable and may distract from the core methodological contribution.
+  - **Resolution test** Provide a dedicated section in the full manuscript describing the selection criteria for proteins subjected to docking, the docking protocol, and the specific functional insights derived from enrichment analyses with supporting figures and tables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract uses terms such as "topology-driven," "heterogeneous link prediction," and "relation-aware graph attention" without defining them for readers who may not be graph neural network specialists. The intended audience likely includes experimental virologists, and the abstract should be accessible to them.
+  - **Required correction** Add brief parenthetical explanations for key technical terms, or rephrase to make the methodology understandable to a broader biological audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, performance metrics
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract reports AUROC and AUPRC for the Local and integrated views but does not report these metrics for the Global view, nor does it report ranking metrics despite stating that ranking metrics were evaluated.
+  - **Required correction** Report the full set of metrics for all three strategies, or state explicitly which metrics are omitted and why.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Originality
+  - **Affected element** Abstract, related work positioning
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states that "many computational approaches depend on incomplete protein sequences, structural and interaction information" but does not cite or summarize existing computational methods for HV-PPI prediction. This makes it difficult to position the proposed work relative to the state of the art.
+  - **Required correction** Add a brief summary of existing computational approaches and their limitations in the introduction of the full manuscript, and reference them in the abstract where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (dataset and evaluation protocol not described), R1-M2 (architectural novelty not established), R1-M3 (baseline comparison not verifiable)
+- **Assessment against Nature-style criteria** Originality: The abstract does not provide enough detail to establish whether the architectural components are novel or a reconfiguration of existing graph neural network methods. The application to HV-PPI prediction is relevant but not inherently novel. Scientific importance: The problem of HV-PPI prediction is important for virology and antiviral development, and a topology-only approach could be valuable for understudied virus-host systems. However, the importance of the specific contribution cannot be fully assessed without methodological details. Interdisciplinary readership: The work bridges machine learning and virology, and the abstract is partially accessible to both communities, though technical terms may hinder nonspecialist readers. Technical soundness: The evaluation strategy (multiple metrics, multiple representation strategies) is sound in principle, but the lack of dataset and baseline details prevents verification. Readability for nonspecialists: The abstract is reasonably clear in its high-level claims but uses technical jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework with strong reported metrics, but the absence of dataset descriptions, baseline specifications, and architectural details prevents verification of the central claims. A full manuscript with detailed methodology, dataset statistics, and comprehensive comparisons would be required to assess whether the case can be established.
+
+## Risk / unsupported claims
+
+- The claim of strong predictive performance (AUROC = 0.9444, AUPRC = 0.9422) is unsupported without dataset details and evaluation protocol.
+- The claim of competitive performance against representative baselines is unsupported without baseline specifications and comparison methodology.
+- The claim that the framework operates "exclusively on the topology of a heterogeneous interaction network" is stated but not verifiable from the abstract alone.
+- The docking and enrichment analyses are mentioned but their results are not reported, making any associated claims unassessable.
+- The claim that the framework "helps experimental researchers to delineate novel HV-PPIs" is a forward-looking statement without supporting evidence in the abstract.

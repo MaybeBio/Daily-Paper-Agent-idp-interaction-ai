@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose, based on sequence-based predictions and all-atom molecular dynamics simulations, that Aspein, an acidic intrinsically disordered protein from the pearl oyster Pinctada fucata, mediates calcium carbonate polymorph selection by undergoing ion-specific chain collapse and phase separation, sequestering Ca2+ and CO32- ions, stabilizing amorphous and calcite-like phases, and excluding Mg2+ to prevent aragonite formation, thereby controlling biomineralization through its aspartic acid density and conformational plasticity.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation metrics, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details, force field parameters, convergence criteria, statistical analyses, figures, tables, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and mechanistically rich hypothesis for how Aspein may control calcium carbonate polymorphism, grounded in the protein's unusual amino acid composition and predicted disorder. The proposed sequence of events, from Ca2+ sequestration to carbonate attraction and phase stabilization, is logically coherent and aligns with prior experimental observations that Aspein favors calcite. However, the evidence base visible in the abstract is entirely qualitative and simulation-derived, with no quantitative metrics, error estimates, or direct comparisons to experimental data. The central claims of ion-specific collapse, phase separation, and polymorph selection are plausible but not established from the supplied material. The work has clear potential interest for the biomineralization and intrinsically disordered protein communities, but the current abstract does not provide sufficient evidence to assess technical soundness or the robustness of the conclusions.
+- **Who would be interested in the results, and why** Researchers in biomineralization, shell formation, and biomimetic materials science would be interested because the study addresses the molecular mechanism of polymorph selection, a long-standing question in the field. The intrinsically disordered protein community would also find value, as the work extends the functional repertoire of IDPs to include ion-mediated phase separation and mineral nucleation control. Additionally, computational biophysicists studying protein-ion interactions and coarse-grained or all-atom simulations of disordered proteins may find the methodological approach relevant.
+- **Major strengths** The abstract identifies a clear and important biological question, namely how Aspein achieves calcite selectivity, and proposes a mechanistically detailed pathway that is testable. The integration of sequence-based predictions with all-atom simulations is appropriate for a disordered protein, and the emphasis on ion-specific effects and phase separation is timely and conceptually novel. The framing of Aspein as a representative of a broader class of intrinsically disordered organic matrix proteins gives the work significance beyond the specific system.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Aspein undergoes ion-specific chain collapse and phase separation, and that this behavior is responsible for sequestering Ca2+ and CO32- ions and stabilizing ACC and calcite-like phases.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative evidence for chain collapse, phase separation, or ion sequestration. No simulation observables such as radius of gyration, inter-ion distances, coordination numbers, free energy profiles, or phase separation metrics are reported. The claim that Aspein "precludes the incorporation of Mg2+" is stated without any supporting data on ion competition or binding affinities.
+  - **Why it matters** Without quantitative metrics, the reader cannot assess whether the observed behaviors are statistically significant, whether the simulations reached equilibrium, or whether the force field and sampling methodology are adequate for the system. The central mechanistic claims rest entirely on unshown simulation results.
+  - **Resolution test** Provide quantitative simulation data, including convergence checks, error bars, and comparisons of Aspein behavior in different ionic conditions, to demonstrate that chain collapse, phase separation, and ion selectivity are robust and reproducible.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Aspein stabilizes ACC and calcite-like phases while precluding aragonite formation, and that this pathway defines CaCO3 polymorphism by inhibiting nucleation and controlling growth.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that Aspein "stabilizes ACC and calcite-like phases" and "promotes calcitic ordering," but no evidence is presented that the simulations actually captured nucleation, phase transitions, or polymorph-specific ordering. The link between simulated protein-ion clusters and experimentally observed calcite selection is asserted rather than demonstrated.
+  - **Why it matters** The central biological conclusion, that Aspein controls polymorph selection, requires a direct connection between the simulated molecular events and the experimentally known outcome of calcite over aragonite. Without this connection, the mechanistic claims remain speculative.
+  - **Resolution test** Show simulation data that directly demonstrate stabilization of ACC or calcite-like ordering, such as radial distribution functions, cluster analysis, or free energy calculations, and discuss how these relate to experimental crystallization outcomes.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The authors claim to have used sequence-based predictions and all-atom molecular dynamics simulations to reach their conclusions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are given on the force field, water model, ion parameters, simulation length, temperature, pressure, salt concentration, or number of replicas. The abstract also does not specify which sequence-based prediction methods were used or how their outputs were validated.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methodological details prevents independent verification and raises concerns about whether the results are sensitive to simulation setup.
+  - **Resolution test** Include a full methods section with all simulation parameters, force field choices, and validation of prediction tools, and make trajectories or analysis scripts available where possible.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "structure-less clusters" is vague and could be misinterpreted. It is unclear whether this refers to disordered aggregates, pre-nucleation clusters, or a specific simulation observable.
+  - **Required correction** Define the term precisely or replace it with a more standard descriptor such as "amorphous aggregates" or "ion-rich clusters" with a clear operational definition.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions that Aspein was shown experimentally to select calcite over aragonite, but does not discuss how the simulation results compare to or extend prior computational or experimental studies on other acidic proteins or IDPs in biomineralization.
+  - **Required correction** Add a brief statement in the abstract or introduction that situates the findings relative to existing models of IDP-mediated mineralization, such as those proposed for other shell matrix proteins.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Generalization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final statement that the study "underpins some of the molecular and physicochemical principles governing biomineralization processes mediated by IDOMPs" is broad, given that only one protein was studied in silico.
+  - **Required correction** Soften the generalization or explicitly state that the principles are proposed based on a single case study and require further validation across multiple IDOMPs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide quantitative evidence for the central mechanistic claims, and the connection between simulation and experimental polymorph selection is not established. R1-M3, while not blocking, must be addressed to ensure reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of an acidic IDP using phase separation and ion-specific collapse to control polymorph selection is novel and extends current thinking on biomineralization. This is a strength.
+  - Scientific importance: The question of how organisms control calcium carbonate polymorphism is of broad significance in biomineralization and materials science. The potential to generalize to other IDOMPs increases importance, but this is not yet demonstrated.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and materials chemistry, and the abstract is written in a way that is accessible to nonspecialists. However, the lack of quantitative detail limits its utility for expert readers.
+  - Technical soundness: Not assessable from the abstract alone. The absence of simulation details and quantitative results prevents evaluation of the methodology and robustness of the findings.
+  - Readability for nonspecialists: The abstract is well written and conceptually clear, with a logical flow from the biological problem to the proposed mechanism. Technical terms are used appropriately, though some, such as "structure-less clusters," could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the conceptual framework is appealing, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with detailed simulation results, validation, and a clear link to experimental outcomes would be needed to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The claim that Aspein undergoes ion-specific chain collapse and phase separation is unsupported in the abstract, as no simulation observables are reported.
+- The claim that Aspein stabilizes ACC and calcite-like phases while precluding aragonite formation is unsupported, as no nucleation or polymorph-specific data are shown.
+- The claim that Aspein "precludes the incorporation of Mg2+" is unsupported, as no ion competition data are presented.
+- The generalization to broader principles governing IDOMP-mediated biomineralization is not supported by a single in silico case study.
+- The overall mechanistic pathway, from Ca2+ sequestration to calcitic ordering, is plausible but not verifiable from the supplied material.

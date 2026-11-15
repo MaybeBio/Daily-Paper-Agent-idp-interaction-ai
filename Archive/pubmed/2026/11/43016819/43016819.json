@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "pmid": "43016819",
+    "doi": "10.1007/s12551-026-01458-3",
+    "title": "Metropolis and kinetic Monte Carlo methods for studying protein interactions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions are stochastic and play a central role in determining the structural and dynamic properties of biological systems. Computational approaches that account for the probabilistic nature of these interactions are therefore essential for understanding processes ranging from molecular self-assembly to biomolecular phase separation. Among these approaches, Monte Carlo (MC) methods have become important tools for investigating protein systems across multiple spatial and temporal scales. This review examines the application of MC simulations to protein-protein interactions, with particular emphasis on Metropolis Monte Carlo (MMC) and kinetic Monte Carlo (KMC) methods as complementary approaches for investigating equilibrium properties and dynamic molecular processes. Applications ranging from receptor organization and protein aggregation to biomolecular condensation and liquid-liquid phase separation are discussed together with the evolution of coarse-grained models, from isotropic particles to anisotropic patchy particles and polymer representations that capture directional, multivalent, and sequence-dependent interactions. Finally, the integration of MC simulations with experimental techniques is reviewed through applications involving Small Angle X-ray and Neutron Scattering (SAXS/SANS), single-molecule tracking, and fluorescence-based methods, highlighting how experimentally accessible observables can be directly compared with simulation results to characterize protein interactions and estimate molecular parameters.",
+    "keywords": [
+      "KMC",
+      "MMC",
+      "Monte Carlo simulations",
+      "Protein interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Oliveira, Luciana Renata",
+        "Rodrigues, Luiz Fernando de Camargo",
+        "Itri, Rosangela"
+      ],
+      "short_names": [
+        "de Oliveira LR",
+        "Rodrigues LFC",
+        "Itri R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0546-4416",
+        "ORCID: 0000-0003-1986-4880",
+        "ORCID: 0000-0001-9311-0804"
+      ],
+      "affiliations": [
+        "Institute of Physics, University of Sao Paulo, Sao Paulo, SP 05508-090 Brazil. ROR: https://ror.org/036rp1748. GRID: grid.11899.38. ISNI: 0000 0004 1937 0722",
+        "Institute of Physics, University of Sao Paulo, Sao Paulo, SP 05508-090 Brazil. ROR: https://ror.org/036rp1748. GRID: grid.11899.38. ISNI: 0000 0004 1937 0722",
+        "Institute of Physics, University of Sao Paulo, Sao Paulo, SP 05508-090 Brazil. ROR: https://ror.org/036rp1748. GRID: grid.11899.38. ISNI: 0000 0004 1937 0722"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Oliveira, Luciana Renata",
+        "short_name": "de Oliveira LR",
+        "identifiers": [
+          "0000-0002-0546-4416"
+        ],
+        "affiliations": [
+          "Institute of Physics, University of São Paulo, São Paulo, SP 05508-090 Brazil."
+        ]
+      },
+      {
+        "full_name": "Rodrigues, Luiz Fernando de Camargo",
+        "short_name": "Rodrigues LFC",
+        "identifiers": [
+          "0000-0003-1986-4880"
+        ],
+        "affiliations": [
+          "Institute of Physics, University of São Paulo, São Paulo, SP 05508-090 Brazil."
+        ]
+      },
+      {
+        "full_name": "Itri, Rosangela",
+        "short_name": "Itri R",
+        "identifiers": [
+          "0000-0001-9311-0804"
+        ],
+        "affiliations": [
+          "Institute of Physics, University of São Paulo, São Paulo, SP 05508-090 Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reviews"
+    ],
+    "journal_abbrev": [
+      "Biophys Rev"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/12 11:32",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43016819"
+    ],
+    "review": [
+      "43016819"
+    ],
+    "pmc": [
+      "13751770"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12551-026-01458-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations based on an AlphaFold2 model of human HSulf-2 to characterize the structural and dynamic roles of its domains, intrinsically disordered regions, catalytic residues, and N-glycosylation. They report that the hydrophilic domain (HD) is the main source of conformational disorder, that the CAT-Cter assembly preserves the canonical sulfatase catalytic architecture, that the HD modestly alters average structure but destabilizes catalytic framework dynamics, that catalytic residue maturation modulates the conformational landscape without changing overall architecture, and that N-glycan chitobiose cores have limited structural effects. They propose a modular organization with implications for dual-site inhibitor design.
+- **Visible evidence base** Abstract text only; no simulation details, force field parameters, system setup, convergence criteria, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field validation, system preparation details, trajectory analyses, and any statistical or convergence assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study of HSulf-2, a protein of biomedical relevance for which experimental structures are lacking. The modular organization hypothesis is coherent and the proposed inhibitor design concept is interesting. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the conclusions, or the novelty relative to prior computational work on sulfatases. Several claims are stated with strong certainty but cannot be assessed without quantitative data and methodological detail.
+- **Who would be interested in the results, and why** Researchers in glycosaminoglycan biology, sulfatase enzymology, and cancer biology would be interested because HSulf-2 regulates heparan sulfate signaling and is a therapeutic target. Computational biophysicists studying intrinsically disordered proteins and multidomain enzymes would also find the modular dynamics analysis relevant. Drug designers targeting sulfatases or related carbohydrate-processing enzymes may value the proposed dual-site inhibitor concept.
+- **Major strengths** The study addresses a biologically important and structurally unresolved target. The use of AlphaFold2 models with explicit molecular dynamics is a reasonable approach given the absence of experimental structures. The abstract clearly distinguishes the contributions of different domains and post-translational modifications, providing a testable modular model. The proposed dual-site inhibitor strategy is a thoughtful translational implication.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations "identified several intrinsically disordered regions" and "demonstrate that the CAT-Cter assembly reproduces the canonical catalytic architecture"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation methodology is described. The abstract does not state the force field, water model, ionic conditions, temperature, pressure, simulation length, number of replicas, or equilibration protocol. Without these details, the reliability of the conformational sampling and the validity of the disorder and architecture claims cannot be evaluated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to force field choice, sampling length, and system preparation, particularly for intrinsically disordered regions and glycoproteins. If the simulations are underconverged or the force field is inappropriate for disordered proteins, the central conclusions about HD dynamics and catalytic framework stability could be artifacts.
+  - **Resolution test** Provide full simulation parameters, demonstrate convergence (e.g., block averaging, replica consistency), and show that the identified disordered regions are robust across independent simulations or force fields.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "maturation of the catalytic residue modulates the conformational landscape of HSulf-2 without altering its overall architecture" and "the conserved chitobiose cores of N-glycans exert only limited structural effects"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative outcomes for the effects of catalytic residue maturation and N-glycosylation but provides no quantitative measures, such as root-mean-square deviation, root-mean-square fluctuation, free energy differences, or contact maps. The terms "modulates" and "limited structural effects" are vague and cannot be assessed for statistical significance or biological relevance.
+  - **Why it matters** Without quantitative comparisons between simulated systems (e.g., mature versus immature catalytic residue, glycosylated versus deglycosylated), the reader cannot determine whether the observed differences are meaningful or within thermal noise. The claim of "limited" effects requires a defined threshold or comparison to a control.
+  - **Resolution test** Report quantitative metrics with error bars and statistical tests for each system comparison, and define the criteria for "limited" or "modest" effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "This work provides a structural framework for understanding HSulf specificity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not situate the findings within the existing literature on HSulf structure, dynamics, or computational studies. It is unclear whether the modular organization hypothesis or the disordered nature of the HD has been proposed or tested previously, and what specific new insight this study adds beyond the AlphaFold2 model itself.
+  - **Why it matters** For a Nature-style assessment, originality must be explicit. If prior computational or experimental studies have already suggested HD disorder or modular sulfatase architecture, the novelty claim would be weakened.
+  - **Resolution test** In the full manuscript, clearly state prior structural and computational findings on HSulf enzymes and specify the new contributions, such as quantitative dynamic comparisons or novel mechanistic insights.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "CAT-Cter assembly," "chitobiose cores," and "6-O-sulfate groups" are used without brief definition or context, which may limit accessibility for readers outside glycosaminoglycan biology.
+  - **Required correction** Add brief parenthetical definitions or a sentence of context for these terms in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final sentence on dual-site inhibitors is speculative and not directly supported by the simulation results described, as no binding or inhibitor data are presented.
+  - **Required correction** Frame the inhibitor suggestion as a hypothesis or future direction, and avoid implying it is a validated outcome of this study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any validation of the AlphaFold2 model, such as comparison to known sulfatase structures, quality scores, or experimental constraints.
+  - **Required correction** State how the model was validated and its confidence, particularly for the catalytic domain and the disordered HD.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core structural and dynamic claims cannot be evaluated without simulation methodology and quantitative evidence. The lack of model validation (R1-m3) also undermines confidence in the starting structure.
+- **Assessment against Nature-style criteria** Originality: not assessable from the abstract alone, as prior work is not cited or contrasted. Scientific importance: potentially high given the biomedical relevance of HSulf-2, but the significance of the specific findings is not yet demonstrated. Interdisciplinary readership: the topic bridges structural biology, glycosaminoglycan chemistry, and cancer biology, which is broad, but the abstract may be too specialized for a general audience. Technical soundness: not assessable due to missing methodology and quantitative results. Readability for nonspecialists: moderate, with some jargon that could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The study is potentially valuable, and the authors should be encouraged to resubmit with full methodological detail, quantitative results, and explicit novelty statements. If the full manuscript addresses the blocking concerns, the work could become supportive.
+
+## Risk / unsupported claims
+- The claim that the HD "constitutes the principal source of conformational disorder" is unsupported without quantitative disorder metrics or comparison to other regions.
+- The claim that the CAT-Cter assembly "reproduces the canonical catalytic architecture" is unsupported without structural comparison to known sulfatase structures.
+- The claim that the HD "significantly destabilizes the conformational dynamics of the catalytic framework" is unsupported without statistical measures of dynamic differences.
+- The claim that catalytic residue maturation "modulates the conformational landscape" is unsupported without free energy or ensemble comparisons.
+- The claim that N-glycans exert "limited structural effects" is unsupported without defined thresholds or quantitative comparisons.
+- The proposed dual-site inhibitor concept is speculative and not supported by any binding or inhibitor data in the abstract.

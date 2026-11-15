@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43008684",
+  "title": "A mechanistic modeling framework for the rational design of aqueous two-phase systems targeting variant-specific biomolecules.",
+  "authors": "Zhang, Yage; Siu, Ryan Ho-Ping; Liu, Sihan; Lei, Qifang; Tanner, Julian A; Binks, Bernard P; Guo, Wei; Shum, Ho Cheung",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2026-11-10",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold3与回归建模预测SARS-CoV-2刺突蛋白变体在水两相体系中的分配系数，虽涉及LLPS与蛋白互作相关性质，但对象非IDP且无PPI机制建模，方法可迁移性有限。",
+  "abstract": "HYPOTHESIS: The partitioning of biomolecules in aqueous two-phase systems (ATPS), a liquid-liquid phase separation (LLPS) process that biomimics cellular compartmentalization, is governed by quantifiable protein biophysical properties. Therefore, the partitioning behavior of uncharacterized biomolecular variants can be predicted mechanistically rather than optimized empirically. EXPERIMENTS: Using SARS-CoV-2 spike protein variants (wild type, Beta, Omicron, and the Omicron receptor-binding domain) as a model system, we combined process-intensified LLPS in an evaporating sessile droplets, tie-line-resolved phase diagram analysis, microfluidic picoliter-droplet partitioning assays, and polymer-engineered ATPS in which polyethylene glycol (PEG) was substituted with the more hydrophobic PEG-PPG-PEG triblock copolymer. AlphaFold3-based structural analysis, Kyte-Doolittle hydrophobicity and isoelectric point calculations were integrated with multivariate linear regression to link partition coefficients to protein properties. A Collander-type inter-system correlation was established to test transferability across ATPS formulations. FINDINGS: All spike protein variants preferentially partitioned into the dextran-rich phase, with enrichment amplified by longer tie-lines and further enhanced by the more hydrophobic PEG-PPG-PEG system, confirming hydrophobic interactions as the dominant partitioning mechanism. The Omicron variant consistently exhibited the weakest dextran-phase enrichment. Partition coefficients correlated strongly with hydrophobicity and isoelectric point, and obeyed a Collander-type relationship across polymer chemistries, enabling prediction of variant partitioning from a single reference measurement. Integrated upstream of an enzyme-linked oligonucleotide assay (ELONA), the optimized ATPS pre-concentration module enhanced detection sensitivity by 11.7-fold. This work establishes a generalizable, property-driven framework for the rational design of ATPS bioseparations and rapid adaptation to emerging pathogens.",
+  "abstract_zh": "假设：生物分子在水性两相系统（ATPS）中的分配，是一种模拟细胞区室化的液-液相分离（LLPS）过程，受可量化的蛋白质生物物理特性调控。因此，未表征生物分子变体的分配行为可以通过机制性预测而非经验性优化来确定。实验：以SARS-CoV-2刺突蛋白变体（野生型、Beta、Omicron及Omicron受体结合域）为模型系统，我们结合了蒸发 sessile 液滴中的过程强化LLPS、系线分辨相图分析、微流控皮升级液滴分配测定，以及聚合物工程化ATPS（其中聚乙二醇（PEG）被更疏水的PEG-PPG-PEG三嵌段共聚物替代）。基于AlphaFold3的结构分析、Kyte-Doolittle疏水性和等电点计算与多元线性回归相结合，将分配系数与蛋白质特性关联。建立了Collander型系统间相关性，以测试跨ATPS配方的可转移性。结果：所有刺突蛋白变体优先分配至富含葡聚糖的相中，富集程度随更长系线而增强，并在更疏水的PEG-PPG-PEG系统中进一步增加，确认疏水相互作用为主导分配机制。Omicron变体始终表现出最弱的葡聚糖相富集。分配系数与疏水性和等电点强相关，并遵循跨聚合物化学的Collander型关系，从而能够从单一参考测量中预测变体分配。在酶联寡核苷酸测定（ELONA）上游集成优化后的ATPS预浓缩模块，检测灵敏度提高了11.7倍。本研究建立了一个通用、特性驱动的框架，用于ATPS生物分离的合理设计及对新兴病原体的快速适应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43008684/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43008684/",
+  "paper_page_path": "papers/pubmed/43008684/index.html"
+}

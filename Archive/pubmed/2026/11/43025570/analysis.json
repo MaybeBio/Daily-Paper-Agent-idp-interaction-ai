@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43025570",
+  "title": "Predicted condensation-related signatures localize to two C-terminal regions of the prion protein across cervid PRNP variants associated with chronic wasting disease.",
+  "authors": "Dayhoff, Guy W; Dorosh, Lyudmyla; Wille, Holger; Uversky, Vladimir N; Stepanova, Maria",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-11-14",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合序列预测（FuzDrop、KaML）与原子模拟，定位鹿朊蛋白CWD相关变体在C端两区段上的凝聚相关信号差异，直接关联无序蛋白介导的相分离与互作机制建模。",
+  "abstract": "Genetic variation in cervid PRNP influences chronic wasting disease (CWD) susceptibility and progression, but it remains unclear whether disease-associated substitutions produce localized differences in sequence-derived properties relevant to prion protein (PrPC) condensation. We compared a white-tailed deer (WTD) reference sequence with 10 modeled variants on the same mature PrP scaffold (residues 24-233). For each sequence, we calculated intrinsic disorder, FuzDrop per-residue droplet-promoting propensity (pDP) and binding-mode entropy (Sbind), predicted residue-level pKa values, and a discrete-charge summary at pH 7.0. The overall profiles preserve a long N-terminal droplet-promoting region, whereas variant-associated differences are concentrated in selected intervals. In the FuzDrop outputs, residues 126-140 show allele-dependent changes in pDP near the droplet-promoting threshold, and residues 220-230 show variant-specific changes in Sbind, including lower Sbind for S225F/Y and higher Sbind for elk-like Q226E. These differences occur without large changes in overall intrinsic disorder. KaML pKa predictions identify near-neutral titratable sites that provide electrostatic context for these local predictor differences. Independent atomistic simulations of monomeric PrP further detected variant-sensitive backbone behavior and intramolecular contacts involving these intervals. Together, the analysis identifies residues 126-140 and 220-230 as computationally defined candidate intervals that overlap regions implicated independently in prion conversion or CWD fibril structure, motivating direct tests of cervid PrP condensation and maturation.",
+  "abstract_zh": "鹿科动物PRNP基因的遗传变异影响慢性消耗性疾病（CWD）的易感性和进展，但尚不清楚与疾病相关的替换是否会在序列衍生特性中产生局部差异，这些特性与朊蛋白（PrPC）凝聚相关。我们将白尾鹿（WTD）参考序列与同一成熟PrP支架（残基24-233）上的10个建模变体进行了比较。对于每个序列，我们计算了内在无序性、FuzDrop逐残基液滴促进倾向（pDP）和结合模式熵（Sbind），预测了残基水平的pKa值，并在pH 7.0下进行了离散电荷总结。整体谱图保留了一个长的N端液滴促进区域，而变体相关差异集中在选定区间。在FuzDrop输出中，残基126-140在液滴促进阈值附近显示出等位基因依赖的pDP变化，残基220-230在Sbind中显示出变体特异性变化，包括S225F/Y的较低Sbind和麋鹿样Q226E的较高Sbind。这些差异发生时不伴随整体内在无序性的大幅变化。KaML pKa预测识别出近中性可滴定位点，为这些局部预测差异提供了静电背景。单体PrP的独立原子模拟进一步检测到涉及这些区间的变体敏感骨架行为和分子内接触。综合来看，该分析将残基126-140和220-230确定为计算定义候选区间，这些区间与独立涉及朊病毒转化或CWD纤维结构的区域重叠，为直接测试鹿科PrP凝聚和成熟提供了动机。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43025570/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43025570/",
+  "paper_page_path": "papers/pubmed/43025570/index.html"
+}

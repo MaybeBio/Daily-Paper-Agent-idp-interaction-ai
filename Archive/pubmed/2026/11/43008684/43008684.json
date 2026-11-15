@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "pmid": "43008684",
+    "doi": "10.1016/j.jcis.2026.141884",
+    "title": "A mechanistic modeling framework for the rational design of aqueous two-phase systems targeting variant-specific biomolecules."
+  },
+  "content": {
+    "abstract": "HYPOTHESIS: The partitioning of biomolecules in aqueous two-phase systems (ATPS), a liquid-liquid phase separation (LLPS) process that biomimics cellular compartmentalization, is governed by quantifiable protein biophysical properties. Therefore, the partitioning behavior of uncharacterized biomolecular variants can be predicted mechanistically rather than optimized empirically. EXPERIMENTS: Using SARS-CoV-2 spike protein variants (wild type, Beta, Omicron, and the Omicron receptor-binding domain) as a model system, we combined process-intensified LLPS in an evaporating sessile droplets, tie-line-resolved phase diagram analysis, microfluidic picoliter-droplet partitioning assays, and polymer-engineered ATPS in which polyethylene glycol (PEG) was substituted with the more hydrophobic PEG-PPG-PEG triblock copolymer. AlphaFold3-based structural analysis, Kyte-Doolittle hydrophobicity and isoelectric point calculations were integrated with multivariate linear regression to link partition coefficients to protein properties. A Collander-type inter-system correlation was established to test transferability across ATPS formulations. FINDINGS: All spike protein variants preferentially partitioned into the dextran-rich phase, with enrichment amplified by longer tie-lines and further enhanced by the more hydrophobic PEG-PPG-PEG system, confirming hydrophobic interactions as the dominant partitioning mechanism. The Omicron variant consistently exhibited the weakest dextran-phase enrichment. Partition coefficients correlated strongly with hydrophobicity and isoelectric point, and obeyed a Collander-type relationship across polymer chemistries, enabling prediction of variant partitioning from a single reference measurement. Integrated upstream of an enzyme-linked oligonucleotide assay (ELONA), the optimized ATPS pre-concentration module enhanced detection sensitivity by 11.7-fold. This work establishes a generalizable, property-driven framework for the rational design of ATPS bioseparations and rapid adaptation to emerging pathogens.",
+    "keywords": [
+      "Aqueous two-phase systems",
+      "Mechanistic modeling",
+      "Predictive framework",
+      "Rational design",
+      "Viral protein partitioning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yage",
+        "Siu, Ryan Ho-Ping",
+        "Liu, Sihan",
+        "Lei, Qifang",
+        "Tanner, Julian A",
+        "Binks, Bernard P",
+        "Guo, Wei",
+        "Shum, Ho Cheung"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Siu RH",
+        "Liu S",
+        "Lei Q",
+        "Tanner JA",
+        "Binks BP",
+        "Guo W",
+        "Shum HC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, 518055 Shenzhen, Guangdong, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, SAR, China.",
+        "Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China.",
+        "South China Hospital, Shenzhen University Medical School, Shenzhen University, 518111 Shenzhen, Guangdong, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, SAR, China; Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China; Materials Innovation Institute for Life Sciences and Energy (MILES), HKU-SIRI, Shenzhen, 518000, China.",
+        "Department of Chemistry, University of Hull, Hull HU6 7RX, UK.",
+        "School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, 518055 Shenzhen, Guangdong, China; Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China. Electronic address: weiguo@szu.edu.cn.",
+        "Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China; Department of Chemistry, City University of Hong Kong, Hong Kong, SAR, China; Department of Biomedical Engineering, City University of Hong Kong, Hong Kong, SAR, China. Electronic address: ashum@hku.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yage",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, 518055 Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Siu, Ryan Ho-Ping",
+        "short_name": "Siu RH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sihan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Qifang",
+        "short_name": "Lei Q",
+        "identifiers": [],
+        "affiliations": [
+          "South China Hospital, Shenzhen University Medical School, Shenzhen University, 518111 Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tanner, Julian A",
+        "short_name": "Tanner JA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, SAR, China; Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China; Materials Innovation Institute for Life Sciences and Energy (MILES), HKU-SIRI, Shenzhen, 518000, China."
+        ]
+      },
+      {
+        "full_name": "Binks, Bernard P",
+        "short_name": "Binks BP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Hull, Hull HU6 7RX, UK."
+        ]
+      },
+      {
+        "full_name": "Guo, Wei",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, 518055 Shenzhen, Guangdong, China; Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China. Electronic address: weiguo@szu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shum, Ho Cheung",
+        "short_name": "Shum HC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, Faculty of Engineering, The University of Hong Kong, Hong Kong, SAR, China; Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong, SAR, China; Department of Chemistry, City University of Hong Kong, Hong Kong, SAR, China; Department of Biomedical Engineering, City University of Hong Kong, Hong Kong, SAR, China. Electronic address: ashum@hku.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2026 Nov 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/10 23:28",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43008684"
+    ],
+    "review": [
+      "43008684"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(26)02061-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "pmid": "43010845",
+    "doi": "10.1093/nar/gkag1204",
+    "title": "MobiDB in 2027: machine-actionable access to intrinsic protein disorder knowledge."
+  },
+  "content": {
+    "abstract": "MobiDB (https://mobidb.org) integrates structural and functional annotations for intrinsically disordered proteins and regions across UniProtKB. The 2027 release strengthens semantic consistency, programmatic access, and reproducible reuse. A refined controlled vocabulary groups features in a hierarchical way and distinguishes evidence classes and types annotation sources as providers, methods, or aggregation rules. A new versioned REST API, along with a developed MCP server, enables scripts, workflows, and tool-using artificial intelligence systems to retrieve and combine evidence-bearing records through documented operations. The redesigned website applies the same vocabulary to protein entries, documentation, and cross-proteome statistics. Additional developments include standardized Nextflow production workflows, updated RING Protein Data Bank interaction processing, integration of Motif Map of the Proteome and Linear Motif mediated Protein-Protein Interaction Database annotations, and a release-aware catalogue of static datasets for large-scale analysis. Following the recent increase in reference proteomes in UniProtKB, MobiDB now provides a more representative estimate of long-disorder with a median residue coverage of 12.3% in eukaryotes, 1.9% in archaea, 1.7% in bacteria, and 3.4% in viruses; and protein prevalence of 48.7%, 11.9%, 11.2%, and 25.0%, respectively. Together, these developments make disorder knowledge easier to discover, relate to function, and reuse with explicit provenance.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piovesan, Damiano",
+        "Lamara, Abdeldjallil",
+        "Worth, Alison Mae",
+        "Mehdiabadi, Mahta",
+        "Begue, Sol C",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Piovesan D",
+        "Lamara A",
+        "Worth AM",
+        "Mehdiabadi M",
+        "Begue SC",
+        "Tosatto SCE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8210-2390",
+        "ORCID: 0009-0001-1067-8590",
+        "ORCID: 0009-0008-8769-1129",
+        "ORCID: 0009-0007-2044-541X",
+        "ORCID: 0009-0006-8710-5201",
+        "ORCID: 0000-0003-4525-7793"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padua, Padua35121,Italy.",
+        "Department of Biomedical Sciences, University of Padua, Padua35121,Italy.",
+        "Department of Biomedical Sciences, University of Padua, Padua35121,Italy.",
+        "Department of Biomedical Sciences, University of Padua, Padua35121,Italy.",
+        "Department of Biomedical Sciences, University of Padua, Padua35121,Italy.",
+        "Department of Biomedical Sciences, University of Padua, Padua35121, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121,Italy."
+        ]
+      },
+      {
+        "full_name": "Lamara, Abdeldjallil",
+        "short_name": "Lamara A",
+        "identifiers": [
+          "0009-0001-1067-8590"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121,Italy."
+        ]
+      },
+      {
+        "full_name": "Worth, Alison Mae",
+        "short_name": "Worth AM",
+        "identifiers": [
+          "0009-0008-8769-1129"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121,Italy."
+        ]
+      },
+      {
+        "full_name": "Mehdiabadi, Mahta",
+        "short_name": "Mehdiabadi M",
+        "identifiers": [
+          "0009-0007-2044-541X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121,Italy."
+        ]
+      },
+      {
+        "full_name": "Begue, Sol C",
+        "short_name": "Begue SC",
+        "identifiers": [
+          "0009-0006-8710-5201"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121,Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Padua35121, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Nov 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/11 11:33",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43010845"
+    ],
+    "review": [
+      "43010845"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-327",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag1204",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

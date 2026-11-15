@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43016819",
+  "title": "Metropolis and kinetic Monte Carlo methods for studying protein interactions.",
+  "authors": "de Oliveira, Luciana Renata; Rodrigues, Luiz Fernando de Camargo; Itri, Rosangela",
+  "journal": "Biophysical reviews",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统评述Metropolis与动力学Monte Carlo方法在蛋白-蛋白互作模拟中的应用，覆盖相分离/凝聚体与多价序列依赖互作建模，虽为综述但方法聚焦且与无序蛋白互作机制高度相关。",
+  "abstract": "Protein-protein interactions are stochastic and play a central role in determining the structural and dynamic properties of biological systems. Computational approaches that account for the probabilistic nature of these interactions are therefore essential for understanding processes ranging from molecular self-assembly to biomolecular phase separation. Among these approaches, Monte Carlo (MC) methods have become important tools for investigating protein systems across multiple spatial and temporal scales. This review examines the application of MC simulations to protein-protein interactions, with particular emphasis on Metropolis Monte Carlo (MMC) and kinetic Monte Carlo (KMC) methods as complementary approaches for investigating equilibrium properties and dynamic molecular processes. Applications ranging from receptor organization and protein aggregation to biomolecular condensation and liquid-liquid phase separation are discussed together with the evolution of coarse-grained models, from isotropic particles to anisotropic patchy particles and polymer representations that capture directional, multivalent, and sequence-dependent interactions. Finally, the integration of MC simulations with experimental techniques is reviewed through applications involving Small Angle X-ray and Neutron Scattering (SAXS/SANS), single-molecule tracking, and fluorescence-based methods, highlighting how experimentally accessible observables can be directly compared with simulation results to characterize protein interactions and estimate molecular parameters.",
+  "abstract_zh": "蛋白质-蛋白质相互作用具有随机性，在决定生物系统的结构和动态特性方面发挥着核心作用。因此，考虑这些相互作用概率性质的计算方法对于理解从分子自组装到生物分子相分离 (phase separation) 等过程至关重要。在这些方法中，蒙特卡罗 (Monte Carlo, MC) 方法已成为跨多个空间和时间尺度研究蛋白质系统的重要工具。本综述考察了MC模拟在蛋白质-蛋白质相互作用中的应用，特别强调了Metropolis蒙特卡罗 (Metropolis Monte Carlo, MMC) 和动力学蒙特卡罗 (kinetic Monte Carlo, KMC) 方法作为研究平衡性质和动态分子过程的互补手段。讨论了从受体组织和蛋白质聚集到生物分子凝聚及液-液相分离等应用，同时探讨了粗粒化模型的演变，从各向同性粒子到各向异性斑片粒子以及捕捉方向性、多价性和序列依赖性相互作用的聚合物表示。最后，通过涉及小角X射线和中子散射 (SAXS/SANS)、单分子追踪及基于荧光方法的应用，综述了MC模拟与实验技术的整合，强调了如何将实验可观测的量与模拟结果直接比较，以表征蛋白质相互作用并估算分子参数。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43016819/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43016819/",
+  "paper_page_path": "papers/pubmed/43016819/index.html"
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report the design of synthetic coactivator-recruiting proteins guided by AlphaFold3 predictions, validated through a high-throughput mammalian cell screening platform. They identify over 300 nanomolar-affinity binders to Mediator, BRD4, NCOA, and p300, demonstrate tunable affinities via interface mutations, establish an ultrasensitive relationship between p300-binding affinity and transcriptional output with a threshold near 500 nM, show that p300 binder-based CRISPRa effectors outperform VPR across multiple loci with minimal cytotoxicity, and report functional synergy between p300 and Mediator binders.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, all experimental data, statistical analyses, construct designs, screening details, cytotoxicity measurements, and genomic locus information; without these, quantitative claims and performance comparisons cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful approach to programmable gene activation through designed coactivator binders. The conceptual framework linking binding affinity to transcriptional output is compelling and addresses a recognized gap in quantitative understanding of TAD function. However, the evidence base available for this review is limited to the abstract, which precludes verification of the central quantitative claims, the screening methodology, and the comparative performance data. The work is likely to interest the synthetic biology and gene therapy communities, but the strength of the conclusions cannot be fully assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, transcriptional engineering, and gene therapy would find these results relevant. The quantitative affinity-output relationship and the compact CRISPRa effectors have direct implications for designing tunable gene expression systems. The use of AlphaFold3-guided design for protein-protein interactions may also interest computational protein designers and structural biologists.
+- **Major strengths** The abstract describes a systematic approach that combines computational prediction with high-throughput experimental validation, yielding a large panel of binders. The demonstration of an ultrasensitive threshold relationship between affinity and transcriptional output is conceptually novel and practically useful. The reported synergy between p300 and Mediator binders suggests a mechanistic insight that could inform future design strategies. The compact effector format with minimal cytotoxicity addresses a practical limitation of existing systems.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims an ultrasensitive relationship between coactivator-binding affinity and transcriptional output with a sharp threshold at approximately 500 nM.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The quantitative threshold of 500 nM is presented as a definitive finding, but no experimental details are available to assess how this value was derived, the number of binder variants tested, the range of affinities sampled, or the statistical confidence in the fitted relationship. The claim of ultrasensitivity implies a specific Hill coefficient or similar parameter that is not reported.  
+  - **Why it matters** This threshold is a central result that underpins the design principles proposed. If the relationship is not robust across different promoters, cell types, or assay conditions, the generalizability of the framework would be limited. Without supporting data, the threshold could be an artifact of the specific assay system.  
+  - **Resolution test** Provide dose-response curves for multiple p300 binder variants with measured affinities and corresponding transcriptional outputs, including replicates and error estimates. Report the fitted parameters of the ultrasensitive model and demonstrate that the threshold is consistent across at least two independent experimental contexts.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that p300 binder-based CRISPRa effectors drove stronger activation than VPR across multiple genomic loci with minimal detectable cytotoxicity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The comparative claim against VPR, a widely used benchmark, requires detailed experimental context. The number of loci tested, the magnitude of activation differences, the statistical significance, and the cytotoxicity assay sensitivity are not described. The phrase "minimal detectable cytotoxicity" is vague and could mask meaningful differences depending on the assay used.  
+  - **Why it matters** This claim positions the designed effectors as superior to an established standard. If the comparison is limited to a small number of loci or if the cytotoxicity assay lacks sensitivity, the conclusion may not hold in broader applications. The practical utility of the system depends on this comparative performance.  
+  - **Resolution test** Provide a table listing all tested genomic loci with activation fold-changes for the designed effector and VPR, including replicate numbers and statistical tests. Describe the cytotoxicity assay, its detection limit, and the exposure conditions. Show that the designed effector achieves comparable or better activation across a diverse set of loci.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract claims identification of over 300 well folded nanomolar affinity binders to Mediator, BRD4, NCOA, and p300.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The number of binders is stated without any information on the screening platform, the criteria for "well folded," the affinity measurement method, or the distribution of affinities across targets. The claim of nanomolar affinity for all binders is broad and may mask variability.  
+  - **Why it matters** The utility of the binder panel depends on the reliability of the affinity measurements and the structural integrity of the proteins. If the screening platform has a high false-positive rate or if affinity measurements are not rigorous, the downstream conclusions about the affinity-output relationship would be compromised.  
+  - **Resolution test** Provide a detailed description of the screening platform, including controls, hit validation rates, and the biophysical method used for affinity determination. Show a distribution of affinities for each target and include representative binding curves or sensorgrams.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims that combining p300- and Mediator-specific binders further enhanced transcription, revealing functional synergy.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The synergy claim is intriguing but lacks mechanistic detail. It is unclear whether the enhanced transcription arises from cooperative recruitment, distinct rate-limiting steps, or an additive effect that is mislabeled as synergy. The abstract does not specify the magnitude of the enhancement or the conditions under which it was observed.  
+  - **Why it matters** If the synergy is real and generalizable, it would support a multi-coactivator recruitment strategy for stronger activation. If it is context-dependent or modest, the design principle would be less impactful.  
+  - **Resolution test** Provide data showing the individual and combined effects of p300 and Mediator binders across multiple promoters and cell lines. Define the synergy metric and show that the combined effect exceeds the sum of individual effects with statistical significance.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "well folded" is used without a definition, which could mean different things to different readers.  
+  - **Required correction** Define the structural criterion used, such as circular dichroism, size-exclusion chromatography, or AlphaFold3 confidence scores.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the number of genomic loci tested for the CRISPRa comparison, which is a key detail for assessing the breadth of the claim.  
+  - **Required correction** Include the number of loci and their genomic contexts in the abstract or indicate that this information is in the main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Screening platform description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The high-throughput screening platform is mentioned but not described, making it difficult to assess the generalizability of the approach.  
+  - **Required correction** Provide a brief description of the platform type, such as surface display, reporter assay, or selection-based method, in the abstract or main text.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central quantitative claims and the comparative performance data cannot be verified from the abstract alone. The screening methodology and affinity measurements must be fully described to establish the reliability of the binder panel.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach of using AlphaFold3-predicted interactions to design coactivator binders and the systematic mapping of affinity to transcriptional output appears novel. The concept of an ultrasensitive threshold is a potentially original contribution.  
+  - Scientific importance: The quantitative framework linking binding affinity to transcriptional output addresses a fundamental gap in understanding TAD function and has practical implications for gene activation. The synergy finding, if robust, adds mechanistic insight.  
+  - Interdisciplinary readership: The work bridges computational protein design, transcriptional biology, and synthetic biology, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms assume familiarity with the field.  
+  - Technical soundness: Cannot be fully assessed from the abstract. The claims of affinity ranges, threshold values, and comparative performance require detailed experimental evidence.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "ultrasensitive" and "CRISPRa" may need brief explanation for readers outside the field.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and the reported findings are promising, but the evidence base provided is insufficient to establish the case. Full methods and data are required to verify the quantitative claims and the comparative performance.
+
+## Risk / unsupported claims
+- The 500 nM threshold for transcriptional activation is unsupported without dose-response data and statistical analysis.
+- The claim of "minimal detectable cytotoxicity" is unsupported without details of the assay and its sensitivity.
+- The claim of over 300 nanomolar binders is unsupported without screening and affinity measurement details.
+- The synergy between p300 and Mediator binders is unsupported without data showing the combined effect exceeds the sum of individual effects.
+- The generalizability of the findings across cell types and genomic loci is not assessable from the abstract.

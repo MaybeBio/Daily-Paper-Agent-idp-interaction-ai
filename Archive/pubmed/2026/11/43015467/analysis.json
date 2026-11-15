@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43015467",
+  "title": "Glycosylation and importins liquefy the FG barrier in live nuclear pores.",
+  "authors": "Yu, Miao; Heidari, Maziar; Palacio-Rodriguez, Karen; Ruan, Hao; Mingu, Sara; Chen, Yu; Gou, Xu-Zhuo; Shen, Pingkai; Liu, Songzi; Chen, Si-Yu; Hidayat, Alam Ahmad; Bode, Mathis; Sikora, Mateusz; Tang, Ai-Hui; Hummer, Gerhard; Lemke, Edward A",
+  "journal": "Nature",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合活细胞时间分辨荧光各向异性与分子动力学模拟，揭示FG-NUP无序蛋白在核孔中呈液态动力学并阐明importin-beta与糖基化共同维持其液态网络及径向组织的互作机制，直接契合无序蛋白介导PPI的机制建模核心。",
+  "abstract": "The nuclear pore complex (NPC) regulates molecular traffic between nucleus and cytoplasm(1,2). Its permeability barrier is formed by intrinsically disordered phenylalanine-glycine-rich nucleoporins (FG-NUPs), whose physical state has long been debated(3-13). Deciphering how FG-NUPs behave inside living cells is crucial for understanding how NPCs achieve both selective and rapid transport. By combining site-specific labelling with time-resolved fluorescence anisotropy, here we show that FG domains exhibit nanosecond-scale, liquid-like segmental motion in live cells, whereas reconstituted FG condensates undergo a liquid-to-solid transition in vitro. Experiments and molecular-dynamics simulations further show that importin-beta, a principal nuclear transport receptor, and O-linked beta-N-acetylglucosamine, a key post-translational modification of FG-NUPs, together stabilize the dynamic FG network. Finely balanced FG-FG and FG-importin-beta interactions maintain FG-NUP liquidity and generate a radial organization in which importin-beta is enriched near the NPC periphery and extended FG domains remain in the central channel, forming the transport barrier. This organization explains recent MINFLUX observations(14) of rim-biased transport trajectories and is supported here by direct MINFLUX imaging of importin-beta in mammalian cells. Together, our results reconcile conflicting models of FG-NUP organization(4,5,7,9,15) and establish a framework for understanding how cellular context tunes intrinsically disordered proteins in health and disease.",
+  "abstract_zh": "核孔复合体（NPC）调控细胞核与细胞质之间的分子运输(1,2)。其通透性屏障由内在无序的苯丙氨酸-甘氨酸富集核孔蛋白（FG-NUPs）形成，其物理状态长期以来一直存在争议(3-13)。解析FG-NUPs在活细胞内的行为对于理解NPC如何实现选择性与快速运输至关重要。通过结合位点特异性标记与时间分辨荧光各向异性，我们在此表明，FG结构域在活细胞中表现出纳秒级、液体样的节段性运动，而重组FG凝聚体在体外经历液-固转变。实验和分子动力学模拟进一步表明，输入蛋白-β（importin-beta）——一种主要的核运输受体，以及O-连接的β-N-乙酰葡糖胺——FG-NUPs的关键翻译后修饰，共同稳定动态FG网络。精细平衡的FG-FG和FG-输入蛋白-β相互作用维持FG-NUP的流动性，并产生径向组织，其中输入蛋白-β富集于NPC外周，而延伸的FG结构域保留在中央通道，形成运输屏障。这种组织解释了近期MINFLUX观察(14)中边缘偏向的运输轨迹，并在此通过哺乳动物细胞中输入蛋白-β的直接MINFLUX成像得到支持。总之，我们的结果调和了关于FG-NUP组织的冲突模型(4,5,7,9,15)，并建立了一个框架，用于理解细胞环境如何在健康与疾病中调节内在无序蛋白。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43015467/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43015467/",
+  "paper_page_path": "papers/pubmed/43015467/index.html"
+}

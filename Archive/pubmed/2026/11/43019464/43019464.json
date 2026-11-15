@@ -1,0 +1,95 @@
+{
+  "identity": {
+    "pmid": "43019464",
+    "doi": "10.1146/annurev-physchem-090525-011006",
+    "title": "Multiscale Molecular Simulations in the Age of Exascale Computing."
+  },
+  "content": {
+    "abstract": "The interior of living cells is highly crowded with proteins, nucleic acids, and metabolites-a setting that simultaneously demands large system sizes and long simulation timescales. Exascale computing, now realized on modern supercomputers, offers a qualitatively new opportunity to address this challenge. In this review, we examine how multiscale molecular dynamics simulations-spanning all-atom, coarse-grained, and ultra-coarse-grained representations-are transforming our understanding of macromolecular crowding and liquid-liquid phase separation. We survey recent advances in force-field development, machine-learning-assisted system construction, and high-performance computing-optimized molecular dynamics engines, with particular attention to how these tools make large-scale simulations practically feasible. Key physical insights discussed include the interplay between excluded volume and nonspecific sticky interactions, crowding-induced slowdown of diffusion, metabolite-binding kinetics, and the regulatory mechanisms governing biomolecular condensate formation and maturation. We outline how exascale platforms, integrated with machine learning and experimental data, are bringing predictive whole-cell simulations within reach.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Cheng",
+        "Sugita, Yuji"
+      ],
+      "short_names": [
+        "Tan C",
+        "Sugita Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Japan; email: sugita@riken.jp.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Japan; email: sugita@riken.jp.",
+        "Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute, Wako, Japan.",
+        "Department of Physics, University of Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Cheng",
+        "short_name": "Tan C",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Japan; email: sugita@riken.jp."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Japan; email: sugita@riken.jp.",
+          "Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute, Wako, Japan.",
+          "Department of Physics, University of Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annual review of physical chemistry"
+    ],
+    "journal_abbrev": [
+      "Annu Rev Phys Chem"
+    ],
+    "pub_date": "2026 Nov 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/12 18:48",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43019464"
+    ],
+    "review": [
+      "43019464"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-090525-011006?crawler=true&mimetype=application/pdf",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

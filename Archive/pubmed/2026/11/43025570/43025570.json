@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "pmid": "43025570",
+    "doi": "10.1016/j.ijbiomac.2026.155294",
+    "title": "Predicted condensation-related signatures localize to two C-terminal regions of the prion protein across cervid PRNP variants associated with chronic wasting disease."
+  },
+  "content": {
+    "abstract": "Genetic variation in cervid PRNP influences chronic wasting disease (CWD) susceptibility and progression, but it remains unclear whether disease-associated substitutions produce localized differences in sequence-derived properties relevant to prion protein (PrPC) condensation. We compared a white-tailed deer (WTD) reference sequence with 10 modeled variants on the same mature PrP scaffold (residues 24-233). For each sequence, we calculated intrinsic disorder, FuzDrop per-residue droplet-promoting propensity (pDP) and binding-mode entropy (Sbind), predicted residue-level pKa values, and a discrete-charge summary at pH 7.0. The overall profiles preserve a long N-terminal droplet-promoting region, whereas variant-associated differences are concentrated in selected intervals. In the FuzDrop outputs, residues 126-140 show allele-dependent changes in pDP near the droplet-promoting threshold, and residues 220-230 show variant-specific changes in Sbind, including lower Sbind for S225F/Y and higher Sbind for elk-like Q226E. These differences occur without large changes in overall intrinsic disorder. KaML pKa predictions identify near-neutral titratable sites that provide electrostatic context for these local predictor differences. Independent atomistic simulations of monomeric PrP further detected variant-sensitive backbone behavior and intramolecular contacts involving these intervals. Together, the analysis identifies residues 126-140 and 220-230 as computationally defined candidate intervals that overlap regions implicated independently in prion conversion or CWD fibril structure, motivating direct tests of cervid PrP condensation and maturation.",
+    "keywords": [
+      "Cervid variants",
+      "Chronic wasting disease",
+      "Electrostatics",
+      "FuzDrop",
+      "Intrinsic disorder",
+      "Liquid-liquid phase separation",
+      "Prion protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dayhoff, Guy W",
+        "Dorosh, Lyudmyla",
+        "Wille, Holger",
+        "Uversky, Vladimir N",
+        "Stepanova, Maria"
+      ],
+      "short_names": [
+        "Dayhoff GW",
+        "Dorosh L",
+        "Wille H",
+        "Uversky VN",
+        "Stepanova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD, 21201, USA; Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, University of South Florida, Tampa, FL, 33612, USA. Electronic address: gdayhoff@rx.umaryland.edu.",
+        "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, AB, T6G 1H9, Canada.",
+        "Department of Biochemistry & Centre for Prions and Protein Folding Diseases, University of Alberta, Edmonton, AB, T6G 2M8, Canada; Neuroscience and Mental Health Institute, University of Alberta, Edmonton, AB, T6G 2E1, Canada.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, University of South Florida, Tampa, FL, 33612, USA.",
+        "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, AB, T6G 1H9, Canada. Electronic address: ms1@ualberta.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD, 21201, USA; Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, University of South Florida, Tampa, FL, 33612, USA. Electronic address: gdayhoff@rx.umaryland.edu."
+        ]
+      },
+      {
+        "full_name": "Dorosh, Lyudmyla",
+        "short_name": "Dorosh L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, AB, T6G 1H9, Canada."
+        ]
+      },
+      {
+        "full_name": "Wille, Holger",
+        "short_name": "Wille H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Centre for Prions and Protein Folding Diseases, University of Alberta, Edmonton, AB, T6G 2M8, Canada; Neuroscience and Mental Health Institute, University of Alberta, Edmonton, AB, T6G 2E1, Canada."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, University of South Florida, Tampa, FL, 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Stepanova, Maria",
+        "short_name": "Stepanova M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, AB, T6G 1H9, Canada. Electronic address: ms1@ualberta.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Nov 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/11/14 01:35",
+    "fetched_at": "2026-11-15 11:41:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "43025570"
+    ],
+    "review": [
+      "43025570"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

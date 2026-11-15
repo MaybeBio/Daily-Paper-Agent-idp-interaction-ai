@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report a microfluidic platform for controlling nucleation and growth of PGL-3 protein condensates at fluid-solid interfaces. They claim that ionic strength and SEPA-1 tune nucleation rate without affecting long-term growth scaling (approximately t^n). Single-condensate tracking reveals a scaling crossover from n approximately 1/2 to n approximately 1/3, consistent with simulations of overlapping depletion fields. They further claim that this scaling breaks down during viscoelastic phase separation, with a reduced exponent for elastic-dominated condensates. The work is framed as establishing molecular modulation and interfacial mechanics as regulators of condensate dynamics.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation details, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of microfluidics to study condensate growth dynamics, with claims of a scaling crossover and interfacial regulation. However, the evidence base is limited to the abstract alone, and several key claims cannot be evaluated without access to the underlying data and methods. The scaling analysis, the crossover mechanism, and the viscoelastic phase separation results require careful scrutiny that is not possible from the supplied material. The work may be of interest to the biophysics and soft matter communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biomolecular phase separation, biophysics of condensates, microfluidics for biological applications, and soft matter physics would be interested. The scaling crossover and interfacial effects speak to fundamental questions about condensate growth mechanisms, and the microfluidic approach offers a controlled platform that could be broadly useful.
+- **Major strengths** The use of a microfluidic platform to control nucleation and growth at interfaces is a technically appealing approach. The claim of a scaling crossover from n approximately 1/2 to n approximately 1/3, supported by simulations, is a conceptually interesting result that connects to classical growth theories. The extension to viscoelastic phase separation adds a novel dimension that could differentiate this work from prior studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ionic strength and SEPA-1 tune nucleation rate without altering long-term growth scaling approximately t^n.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that nucleation rate is tuned while growth scaling is unchanged, but no quantitative data, error bars, or statistical comparisons are provided. It is unclear how "long-term" is defined, over what time window the scaling is measured, and whether the invariance holds across the full range of conditions tested.
+  - **Why it matters** This claim is central to the argument that molecular modulation acts specifically on nucleation rather than growth. Without quantitative evidence, the claim cannot be distinguished from a null result or a weak effect.
+  - **Resolution test** Provide figures showing nucleation rate versus ionic strength and SEPA-1 concentration, with growth scaling exponents and confidence intervals for each condition. A statistical test demonstrating no significant change in exponent would be required.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim a dynamic scaling crossover from n approximately 1/2 to n approximately 1/3, consistent with simulations of overlapping protein-depletion fields.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The crossover is described as "dynamic" and attributed to overlapping depletion fields, but the abstract does not specify the physical conditions that trigger the crossover, the time or length scales involved, or how the simulation model maps to the experimental system. The consistency with simulations is asserted without detail.
+  - **Why it matters** The crossover is a key result that distinguishes this work from simpler growth models. Without a clear mechanistic explanation and quantitative comparison to simulations, the claim remains speculative.
+  - **Resolution test** Show experimental growth curves with fitted exponents before and after the crossover, and overlay simulation predictions with matching parameters. Specify the depletion field model and the criteria for identifying the crossover.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** The authors claim that classical scaling breaks down during viscoelastic phase separation, with a significantly reduced exponent for elastic-dominated condensates.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract introduces viscoelastic phase separation as a distinct regime but does not define how viscoelasticity is induced, measured, or distinguished from the earlier regimes. The "significantly reduced exponent" is not quantified, and no comparison to the classical values is given.
+  - **Why it matters** This claim extends the work beyond simple growth scaling and implies a material-state dependence. Without a clear definition of the viscoelastic regime and quantitative exponent values, the claim cannot be assessed.
+  - **Resolution test** Provide rheological or other characterization of the condensate material state, define the viscoelastic regime, and report exponent values with uncertainties for both elastic-dominated and non-elastic conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "fluid-solid interfaces" is used without clarification of whether the solid is the microfluidic channel material and whether this is distinct from bulk or droplet interfaces.
+  - **Required correction** Define the interface type explicitly in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the range of ionic strengths or SEPA-1 concentrations tested, nor the temperature or buffer conditions.
+  - **Required correction** Include key experimental parameters in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Simulation consistency
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of consistency with simulations is vague; it is unclear whether the simulations are quantitative or qualitative.
+  - **Required correction** Specify the simulation model and the metric used to establish consistency.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract alone does not provide sufficient quantitative evidence for the nucleation-growth decoupling, the scaling crossover, or the viscoelastic breakdown. All three claims require data and methods that are not visible.
+- **Assessment against Nature-style criteria** Originality: The combination of microfluidics with scaling analysis of condensate growth is potentially original, but the abstract does not clearly differentiate from prior work on condensate growth kinetics. Scientific importance: The questions addressed are relevant to condensate biology and physics, but the significance is not fully established without quantitative results. Interdisciplinary readership: The work could appeal to biophysicists, soft matter physicists, and microfluidics engineers, but the abstract is written in a specialized manner that may limit broader accessibility. Technical soundness: Cannot be assessed from the abstract; the scaling analysis and simulation comparison require scrutiny. Readability for nonspecialists: The abstract is concise but uses jargon (e.g., "scaling crossover," "depletion fields") without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the core claims are unverifiable without the full manuscript. A revised assessment would be possible with access to figures, methods, and quantitative analyses.
+
+## Risk / unsupported claims
+- The claim that ionic strength and SEPA-1 tune nucleation without altering growth scaling is unsupported without quantitative data.
+- The scaling crossover from n approximately 1/2 to n approximately 1/3 is unsupported without growth curves and simulation details.
+- The breakdown of classical scaling during viscoelastic phase separation is unsupported without a definition of the viscoelastic regime and exponent values.
+- The consistency with simulations of overlapping depletion fields is unverifiable from the abstract.
+- The framing of "interfacial regulation" as a key mechanism is not substantiated by any specific interfacial measurement.

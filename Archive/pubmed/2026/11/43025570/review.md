@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors compare a white-tailed deer (WTD) reference prion protein (PrP) sequence with 10 modeled variants on a shared mature scaffold (residues 24-233), using multiple sequence-derived predictors (intrinsic disorder, FuzDrop pDP and Sbind, residue-level pKa, discrete charge at pH 7.0). They report that variant-associated differences concentrate in residues 126-140 (pDP) and 220-230 (Sbind), without large changes in overall disorder, and that independent atomistic simulations detect variant-sensitive backbone behavior and intramolecular contacts in these intervals. They conclude that these two intervals are computationally defined candidate regions overlapping known prion conversion or CWD fibril structure sites, motivating direct experimental tests.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, simulation parameters, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions (including simulation protocols, force fields, sampling times, convergence criteria), sequence variant list and alignment details, predictor version and parameter settings, statistical treatment, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a computationally focused analysis with a plausible rationale and a clearly stated candidate-region output. The logic from sequence variation to localized predictor differences to simulation-based corroboration is coherent. However, the abstract alone does not provide sufficient detail to evaluate the robustness of the predictions, the significance of the reported differences, or the strength of the simulation evidence. The claim that these intervals are "candidate" regions is appropriately hedged, but the case for their biological relevance rests on indirect overlap with prior literature rather than direct evidence presented here. The work may be of interest to the prion and CWD communities, but the current evidence base is insufficient to establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying chronic wasting disease pathogenesis, prion protein structure-function relationships, and computational approaches to protein condensation and phase separation. The identification of specific variant-sensitive intervals could inform experimental design for mutagenesis or fibril formation studies. The methodological combination of sequence-based predictors with atomistic simulations may also interest computational biophysicists working on intrinsically disordered proteins.
+- **Major strengths** The study addresses a relevant and under-explored question, namely whether CWD-associated PRNP variants produce localized sequence-derived property changes relevant to PrP condensation. The use of multiple complementary predictors (disorder, FuzDrop, pKa, charge) is methodologically sound. The explicit focus on two narrow intervals provides a testable hypothesis. The inclusion of independent atomistic simulations as a cross-validation approach is a strength, assuming the simulations are adequately described in the full manuscript.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "residues 126-140 show allele-dependent changes in pDP near the droplet-promoting threshold, and residues 220-230 show variant-specific changes in Sbind, including lower Sbind for S225F/Y and higher Sbind for elk-like Q226E"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports allele-dependent changes in pDP and Sbind but provides no quantitative information, such as effect sizes, thresholds for significance, or comparisons to sequence variability in non-disease-associated positions. Without these details, it is impossible to assess whether the reported differences are biologically meaningful or within the noise of the predictors.
+  - **Why it matters** The central claim is that variant-associated differences are localized and specific. If the magnitude of these differences is small relative to predictor uncertainty or to variation across unrelated sequences, the conclusion would be weakened substantially.
+  - **Resolution test** Provide quantitative values for pDP and Sbind across all 11 sequences at the relevant residues, with measures of predictor uncertainty or reproducibility, and a statistical or threshold-based justification for why the observed differences are considered meaningful.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation evidence
+  - **Claim pointer** "Independent atomistic simulations of monomeric PrP further detected variant-sensitive backbone behavior and intramolecular contacts involving these intervals"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that atomistic simulations detected variant-sensitive behavior but provides no information on which variants were simulated, how many replicas or how much sampling was performed, what force field and water model were used, or how "variant-sensitive" was defined. Without these details, the simulation claim cannot be evaluated.
+  - **Why it matters** Atomistic simulations of proteins are sensitive to force field choice, sampling length, and analysis methodology. The claim of variant-sensitive behavior could arise from insufficient sampling or analysis artifacts rather than genuine sequence-dependent effects.
+  - **Resolution test** Specify the simulation protocol, including variants simulated, simulation length, number of replicas, force field, and the specific metrics used to define "variant-sensitive backbone behavior and intramolecular contacts," with convergence assessments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological relevance
+  - **Claim pointer** "these intervals overlap regions implicated independently in prion conversion or CWD fibril structure, motivating direct tests of cervid PrP condensation and maturation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims overlap with regions implicated in prion conversion or CWD fibril structure but provides no specific references or details on the nature of this overlap. The phrase "implicated independently" is vague and does not establish a mechanistic link between the predicted condensation-related signatures and known functional or structural roles.
+  - **Why it matters** The significance of the identified intervals depends on their relationship to established biology. Without specific information on which regions are overlapped and how, the claim of biological relevance remains unsupported.
+  - **Resolution test** Provide specific citations and a clear description of the overlap, including residue ranges and the nature of the prior evidence (e.g., mutagenesis data, cryo-EM fibril structures, or conversion assays).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Variant nomenclature
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "S225F/Y" and "Q226E" but does not specify the reference sequence context or whether these are the only variants with notable effects. A complete list of the 10 variants and their positions would improve clarity.
+  - **Required correction** Include a full list of the 10 modeled variants in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "condensation-related signatures"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "condensation-related signatures" is used without a precise definition. It is unclear whether this refers to predicted phase-separation propensity, aggregation propensity, or a combination of predictors.
+  - **Required correction** Define the term explicitly, either in the abstract or by referencing a methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** pH specificity
+  - **Affected element** pKa predictions and charge summary
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that pKa predictions identify "near-neutral titratable sites" and that a discrete-charge summary is provided at pH 7.0, but the relevance of pH 7.0 to CWD-relevant cellular or extracellular environments is not discussed.
+  - **Required correction** Briefly justify the choice of pH 7.0 or note whether other pH conditions were considered.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for predictor differences), R1-M2 (simulation protocol details), R1-M3 (specific overlap with prior literature)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of condensation predictors to cervid PRNP variants is a reasonable extension of existing methods, but the conceptual novelty is limited without new experimental or mechanistic insight.
+  - Scientific importance: Potentially relevant to CWD research, but the abstract does not establish that the identified intervals have functional consequences. The importance is contingent on experimental validation.
+  - Interdisciplinary readership: The work bridges computational biophysics and prion biology, which may attract readers from both fields, but the abstract is too technical for a broad audience without additional context.
+  - Technical soundness: Cannot be fully assessed from the abstract. The predictor choices are reasonable, but the lack of quantitative detail and simulation protocol information prevents evaluation of robustness.
+  - Readability for nonspecialists: The abstract is dense with specialized terminology (FuzDrop, pDP, Sbind, KaML) and assumes familiarity with prion biology and computational methods. It would benefit from clearer framing of the biological question and the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible computational workflow and a testable hypothesis, but the absence of quantitative results, simulation details, and specific biological context means the central claims cannot be evaluated. The authors should provide the full manuscript with detailed methods and results before a supportive recommendation can be considered.
+
+## Risk / unsupported claims
+- The claim that variant-associated differences are "concentrated" in residues 126-140 and 220-230 is unsupported without quantitative comparison to other regions or to predictor variability.
+- The claim that simulations "detected variant-sensitive backbone behavior" is unsupported without simulation protocol details and defined metrics.
+- The claim that the identified intervals "overlap regions implicated independently in prion conversion or CWD fibril structure" is unsupported without specific citations and residue-level details.
+- The overall conclusion that these intervals "motivat[e] direct tests" is reasonable as a hypothesis but is not a finding supported by the data presented in the abstract.

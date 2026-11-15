@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "43019464",
+  "title": "Multiscale Molecular Simulations in the Age of Exascale Computing.",
+  "authors": "Tan, Cheng; Sugita, Yuji",
+  "journal": "Annual review of physical chemistry",
+  "published_date": "2026-11-12",
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述探讨了百亿亿次计算时代下多尺度分子模拟（全原子到超粗粒化）在理解大分子拥挤和液-液相分离中的应用，涉及无序蛋白相关凝聚体机制，但缺乏具体PPI机制建模的深度。",
+  "abstract": "The interior of living cells is highly crowded with proteins, nucleic acids, and metabolites-a setting that simultaneously demands large system sizes and long simulation timescales. Exascale computing, now realized on modern supercomputers, offers a qualitatively new opportunity to address this challenge. In this review, we examine how multiscale molecular dynamics simulations-spanning all-atom, coarse-grained, and ultra-coarse-grained representations-are transforming our understanding of macromolecular crowding and liquid-liquid phase separation. We survey recent advances in force-field development, machine-learning-assisted system construction, and high-performance computing-optimized molecular dynamics engines, with particular attention to how these tools make large-scale simulations practically feasible. Key physical insights discussed include the interplay between excluded volume and nonspecific sticky interactions, crowding-induced slowdown of diffusion, metabolite-binding kinetics, and the regulatory mechanisms governing biomolecular condensate formation and maturation. We outline how exascale platforms, integrated with machine learning and experimental data, are bringing predictive whole-cell simulations within reach.",
+  "abstract_zh": "活细胞内部充满了蛋白质、核酸和代谢物，这一环境同时要求巨大的系统规模和长时间的模拟尺度。现代超级计算机上已实现的百亿亿次计算，为应对这一挑战提供了质的新机遇。在本综述中，我们探讨了多尺度分子动力学模拟——涵盖全原子、粗粒化和超粗粒化表示——如何正在转变我们对大分子拥挤和液-液相分离的理解。我们综述了力场开发、机器学习辅助系统构建以及高性能计算优化的分子动力学引擎方面的最新进展，特别关注这些工具如何使大规模模拟在实际中可行。讨论的关键物理见解包括排除体积与非特异性粘性相互作用之间的相互作用、拥挤诱导的扩散减缓、代谢物结合动力学，以及调控生物分子凝聚体形成和成熟的机制。我们概述了百亿亿次平台与机器学习和实验数据相结合，如何使预测性全细胞模拟触手可及。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43019464/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/43019464/",
+  "paper_page_path": "papers/pubmed/43019464/index.html"
+}

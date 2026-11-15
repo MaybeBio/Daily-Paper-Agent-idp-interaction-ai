@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors propose that COP1 functions as a temperature-responsive switch in Arabidopsis, where a Val-Pro (VP) intramolecular motif binds the COP1 active site at low temperatures to block substrate docking, and detaches at warmer temperatures to permit client protein binding and degradation. They further claim that altering VP motif binding adjusts the temperature response range, providing a mechanism for climate adaptation.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methods are available
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially significant mechanism for temperature sensing in plants, linking a conformational switch in COP1 to thermal responsiveness. However, the evidence base is entirely absent from the supplied material, and the claims as stated are not verifiable. The mechanistic model is plausible but requires substantial experimental support, including structural, biochemical, and in vivo validation, none of which is visible here.
+- **Who would be interested in the results, and why** Plant biologists studying light and temperature signaling, researchers in thermal sensing mechanisms across organisms, and those interested in climate adaptation in crops. The proposed switch mechanism could have broad relevance for understanding how organisms integrate environmental cues.
+- **Major strengths** The hypothesis is elegant and mechanistically specific, offering a clear molecular explanation for temperature perception. The potential to tune temperature response ranges via a single motif is a compelling and testable idea with applied implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that COP1 acts as a temperature-dependent switch via a VP motif that binds and detaches from the active site is presented as established.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental data are provided to support the conformational change, the binding and detachment of the VP motif, or the functional consequences on substrate degradation. The abstract states these as findings without showing any results.
+  - **Why it matters** The central mechanistic claim is the core of the paper. Without visible evidence, the case is not established, and the reader cannot assess the validity of the model.
+  - **Resolution test** Provide structural data (e.g., crystallography or cryo-EM) showing the VP motif interaction at different temperatures, biochemical assays demonstrating temperature-dependent binding and substrate degradation, and genetic or transgenic experiments showing that VP motif mutations alter temperature responsiveness in vivo.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The claim that altering VP motif binding is sufficient to adjust the temperature range of plant response is stated without quantitative evidence.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No data are shown to define the temperature range, the effect of mutations on that range, or the specificity of the response. The abstract does not report any measurements or statistical comparisons.
+  - **Why it matters** This claim is central to the adaptive significance and potential application of the work. Without quantitative data, the claim is unsupported.
+  - **Resolution test** Include dose-response curves of plant phenotypes or molecular markers across a temperature gradient for wild-type and VP motif mutants, with statistical analysis showing significant shifts in response thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** The abstract implies that COP1 activation leads to client protein degradation as the output of the temperature switch.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The identity of client proteins, the degradation pathway, and the downstream physiological consequences are not specified. The abstract does not clarify whether the effect is direct or indirect.
+  - **Why it matters** Understanding the full pathway is necessary to evaluate the biological relevance and to connect the molecular switch to plant temperature responses.
+  - **Resolution test** Identify and validate at least one client protein whose degradation is temperature-dependent and COP1-dependent, and show a physiological phenotype linked to that degradation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "active site" for COP1 is used without definition, and it is unclear whether this refers to a known enzymatic site or a protein interaction surface.
+  - **Required correction** Define the active site in the context of COP1 function, or use a more precise term such as "substrate binding pocket" or "interaction interface."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalization
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that this mechanism explains how plants obtain a precise temperature readout "within a given climate range," but no data are shown to support the precision or the range.
+  - **Required correction** Qualify the statement as a hypothesis or provide supporting data in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Abstract
+  - **Issue** No experimental system, plant growth conditions, or temperature protocols are described.
+  - **Required correction** Include a brief description of the experimental system and temperature treatments in the abstract or ensure they are fully detailed in the methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic and quantitative claims are unsupported by any visible evidence. R1-M3 is important but not blocking if the other concerns are resolved.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed VP motif switch is a novel mechanism for temperature sensing. Scientific importance is potentially high for plant biology and thermal sensing, but it is not yet demonstrated. Interdisciplinary readership is plausible, given the relevance to biophysics and climate adaptation, but the abstract does not make this accessible to nonspecialists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is moderate, but the abstract assumes familiarity with COP1 and plant signaling.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and worthy of consideration, but the abstract alone does not provide sufficient support. A full manuscript with rigorous experimental data would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that COP1 acts as a temperature-dependent switch via a VP motif is unsupported by any visible data.
+- The claim that VP motif binding alteration adjusts the temperature response range is unsupported.
+- The claim that this mechanism explains precise temperature readout and climate adaptation is speculative without quantitative or comparative data.
+- The identity and role of client proteins in the proposed degradation pathway are not specified and cannot be evaluated.

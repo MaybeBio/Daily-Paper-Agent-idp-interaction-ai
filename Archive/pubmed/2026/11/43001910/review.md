@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific and technical evaluation of the claims, methodology, and evidence as presented in the text; no assessment of formatting, grammar, or editorial quality
+- **Shared manuscript claim summary** The authors present FlexENN, a message-passing graph neural network with two independently trained models (FlexENN-F for folded complexes, FlexENN-I for IDP-containing complexes), which predicts binding free energies from a single resolved bound conformation using interface-restricted graphs with physicochemical, geometric, and flexibility-related node features. The models are evaluated on benchmark systems including microtubule and MAP complexes, with claims of accurate prediction and physically reasonable energetic profiles.
+- **Visible evidence base** Text descriptions of datasets (PDBbind+, DisProt), model architecture, training details, benchmark evaluations, and ablation studies; references to Figures 1, 2, 3, 4, S1–S9 and Tables 1, 2, 3 (none of which are provided in the supplied material)
+- **Missing materials affecting confidence** All figures, tables, and supplementary material; quantitative performance metrics (RMSE, Pearson r) for FlexENN models; dataset composition details; experimental methods for binding affinity measurements; code or model availability statements
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: extending structure-based binding energy prediction to IDP-containing complexes, which are poorly served by existing methods. The architectural choices are reasonable and well motivated, and the construction of a dedicated IDP-containing training dataset is a useful contribution. However, the central claims of predictive accuracy and physical plausibility cannot be evaluated from the provided text alone, as all quantitative results are contained in figures and tables that were not supplied. The comparison against baselines is described qualitatively, and the absence of error bars, statistical tests, or cross-validation details for the final models weakens the evidentiary basis. The ablation studies are described in a way that suggests all features are necessary, but the lack of quantitative detail prevents assessment of effect sizes or robustness. The manuscript is clearly written and the motivation is compelling, but the evidence as presented is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on protein-protein interactions, particularly those studying IDPs and their binding mechanisms. Researchers developing machine learning methods for binding affinity prediction would also be interested in the architectural innovations and the new IDP-containing dataset. The microtubule-MAP application is of interest to the cytoskeleton and neurobiology communities.
+- **Major strengths** The problem is well defined and important, with a clear gap in existing methods. The two-model strategy (folded vs IDP-containing) is a sensible design choice. The use of interface-restricted graphs with relative geometry is translation invariant and computationally efficient. The construction of a curated IDP-containing dataset addresses a real need in the field. The benchmark design, using experimentally measured binding affinities for MT-MAP systems, is thoughtful and biologically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that FlexENN-F and FlexENN-I demonstrate "strong predictive performance" and "accurate predictions" on benchmark systems.
+  - **Evidence pointer** Figures 3, 4; Tables 1, 2, 3 (location not provided in supplied text)
+  - **Concern** All quantitative performance metrics, including RMSE values, Pearson correlation coefficients, and comparisons against baselines, are contained in figures and tables that were not provided. Without these data, the central claim of predictive accuracy cannot be assessed. The text states that FlexENN-F predicted -10.37 kcal/mol versus -10.8 kcal/mol experimental for DCX, and FlexENN-I predicted -12.1 versus -12.3 for MAP7, but these are isolated examples without error estimates or statistical context.
+  - **Why it matters** The primary contribution of the manuscript is a predictive model. Without quantitative evidence of its accuracy, precision, and generalizability, the scientific case is not established. The reader cannot determine whether the reported performance is competitive with existing methods or whether the differences from baselines are meaningful.
+  - **Resolution test** Provide the full quantitative results, including RMSE, Pearson r, and error bars for all benchmark systems and all baseline comparisons. Include statistical tests for differences between models where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that the IDP-containing dataset was constructed by "matching experimentally characterized IDPs from DisProt with available PDB structures and experimental binding affinity measurements from PDBbind+," resulting in 1,071 complexes.
+  - **Evidence pointer** Materials and Methods, Datasets Preparation (location not provided)
+  - **Concern** The dataset construction process is described at a high level, but critical details are missing. How were IDPs identified in DisProt? What fraction of the complex was required to be disordered? How were structures with "disordered regions ranging from 5% to 80%" selected, and what was the distribution? How were binding affinities matched to specific complexes, and were any conflicts or ambiguities resolved? The text mentions that only 566 of 1,071 complexes had disorder content reported in DisProt, raising questions about the annotation of the remaining 505.
+  - **Why it matters** The quality and composition of the training dataset directly determine the validity of the trained model. If the dataset contains mislabeled or poorly characterized complexes, the model's predictions and the conclusions drawn from them are unreliable. The reproducibility of the dataset construction is also essential for others to build on this work.
+  - **Resolution test** Provide a detailed description of the dataset construction pipeline, including inclusion and exclusion criteria, annotation sources, and quality control steps. Report the distribution of disorder content and binding affinities in the final dataset. Consider making the dataset publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The authors compare FlexENN against PBRE and tree-based baselines (XGBoost, Decision Trees, Extra Trees Regressor) and claim that FlexENN outperforms them.
+  - **Evidence pointer** Results and Discussion, Predictive Performance of FlexENN; Tables 1, 2, 3 (location not provided)
+  - **Concern** The comparison against baselines is described only qualitatively. The text states that PBRE "exhibited a systematic failure" and that tree-based models "failed this criterion" of overfitting, but no quantitative comparison is provided. It is unclear whether the baselines were retrained on the same datasets, whether hyperparameters were optimized, or whether the comparison is apples-to-apples. The claim that FlexENN "outperformed all baselines" for the MT interdimer versus lateral discrimination task is not supported by numbers in the text.
+  - **Why it matters** A fair and quantitative comparison against existing methods is essential to demonstrate the advantage of the proposed approach. Without this, the reader cannot judge whether FlexENN represents a genuine improvement or merely a different architecture with similar performance.
+  - **Resolution test** Provide a table with RMSE, Pearson r, and other relevant metrics for all models on all benchmark systems, with clear descriptions of training and evaluation protocols. Include statistical significance tests where appropriate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that FlexENN-I generalizes beyond the MT system based on results on three IDP complexes (1AXC, 1JDH, 2GL7).
+  - **Evidence pointer** Results and Discussion, Predictive Performance of FlexENN; Table 3 (location not provided)
+  - **Concern** The generalization test is limited to three complexes, all of which involve either PCNA or beta-catenin as the folded partner. This is a narrow test of generalizability. The text reports that predictions fell within 0.6 kcal/mol of experimental values, but without error bars or a larger test set, this could be fortuitous. The authors do not discuss how representative these complexes are of the broader IDP-binding landscape.
+  - **Why it matters** A model that works on a handful of carefully selected test cases may not perform well on the diversity of IDP-containing complexes in real applications. The claim of generalizability requires a more extensive and diverse evaluation set.
+  - **Resolution test** Expand the evaluation to a larger and more diverse set of IDP-containing complexes. If this is not feasible, temper the generalizability claims and clearly state the limitations of the current evaluation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Materials and Methods, Datasets Preparation (location not provided)
+  - **Issue** The text states that "IDPs constitute only ~19% of the total samples" when all complexes are taken together, but the total number of complexes is not stated. The relationship between the 2,257 folded and 1,071 IDP complexes and the original 2,798 PDBbind+ complexes is unclear.
+  - **Required correction** Clarify the total number of complexes and the overlap, if any, between the folded and IDP datasets. State whether any complexes were excluded from both datasets.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Model architecture
+  - **Evidence pointer** Materials and Methods, Message Passing (location not provided)
+  - **Issue** The number of message passing layers is fixed at three with a hidden dimension of 64, but no justification or ablation is provided for these hyperparameters. The dropout rate in the prediction head is not specified.
+  - **Required correction** Provide a brief justification for the chosen hyperparameters or cite a reference for the architecture. Specify the dropout rate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Materials and Methods, Implementation Details (location not provided)
+  - **Issue** The training procedure is described in one sentence. Details such as loss function, weight initialization, learning rate scheduling, early stopping criteria, and data splitting (train/validation/test) are not provided.
+  - **Required correction** Provide a complete description of the training procedure, including all hyperparameters and data splitting strategy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Ablation studies
+  - **Evidence pointer** Results and Discussion, Ablation Studies (location not provided)
+  - **Issue** The ablation studies are described as showing that removing any single feature causes the model to fail the discrimination task. This is presented as evidence that all features are necessary, but it could also indicate that the model is overly sensitive to input perturbations, which is a sign of instability rather than robustness.
+  - **Required correction** Discuss the possibility that the model is brittle and consider whether the ablation results reflect genuine feature importance or overfitting to the training data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions (location not provided)
+  - **Issue** The conclusion states that FlexENN predicts binding energies for "tubulin subunits in a MT and MT with MAPs," which is a narrow description of the model's intended scope. The broader claim of applicability to IDP-containing complexes is not reflected in the concluding statement.
+  - **Required correction** Broaden the concluding statement to accurately reflect the model's intended scope and the claims made in the abstract.
+- **Technical failings that need to be addressed before the case is established** The absence of all quantitative results (figures and tables) is the primary technical failing. The manuscript cannot be evaluated for predictive accuracy, comparison against baselines, or statistical significance without these data. Additionally, the dataset construction process lacks sufficient detail for reproducibility, and the training procedure is underspecified.
+- **Assessment against Nature-style criteria** Originality: The work addresses a genuine gap in binding energy prediction for IDP-containing complexes, which is an original contribution. Scientific importance: The problem is important for understanding IDP-mediated interactions in cellular signaling and disease. Interdisciplinary readership: The work bridges structural biology, computational chemistry, and machine learning, with potential interest across these communities. Technical soundness: The architectural choices are reasonable, but the lack of quantitative evidence prevents assessment of whether the model performs as claimed. Readability for nonspecialists: The manuscript is clearly written and accessible, with appropriate context for the biological problem.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a sensible approach, but the central claims of predictive accuracy and superiority over baselines cannot be evaluated without the quantitative results. The authors should be invited to resubmit with the full set of figures, tables, and supplementary materials, along with additional methodological detail on dataset construction and training procedures.
+
+## Risk / unsupported claims
+- The claim that FlexENN-F and FlexENN-I demonstrate "strong predictive performance" is unsupported without quantitative metrics.
+- The claim that FlexENN "outperformed all baselines" on the MT discrimination task is unsupported without comparative data.
+- The claim that the models "reproduce physically reasonable energetic profiles" is unsupported without the actual predicted and experimental values.
+- The claim that the curated IDP dataset is a "dedicated resource" is plausible but cannot be assessed without details on dataset composition and quality.
+- The claim that the ablation studies reveal "system-dependent contributions of selected features" is unsupported without the ablation results.
+- The claim that FlexENN-I "generalizes beyond the MT system" is weakly supported by only three test complexes.
